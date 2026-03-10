@@ -71,7 +71,7 @@ cd rag-google-io_v2
 docker build -t fastapi-rag .
 ```
 
-![EC2 SSH build](9_ec2_connect_build.png)
+![EC2 SSH build](09_ec2_connect_build.png)
 
 The build process downloads and compiles all Python dependencies:
 
