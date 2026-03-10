@@ -143,11 +143,11 @@ The service `rag-task3` was created with **desired count = 1** (one running task
 
 Once deployed, ECS shows the task status as **Running** under the `rag-task3` service. Both containers — `qdrant` and `fastapi` — are reported as healthy:
 
-![ECS task running](screenshots/10_ecs_task_running.png)
+![ECS task running](10_ecs_task_running.png)
 
 The task configuration panel shows the Fargate compute details and the **public IP** assigned by the VPC:
 
-![Fargate public IP](screenshots/11_fargate_public_ip.png)
+![Fargate public IP](11_fargate_public_ip.png)
 
 The app is accessible at `http://52.90.31.249:8000`.
 
@@ -157,11 +157,11 @@ The app is accessible at `http://52.90.31.249:8000`.
 
 **Health check** — confirms the FastAPI app is running and responsive:
 
-![Health endpoint returning ok](screenshots/12_health_endpoint_ok.png)
+![Health endpoint returning ok](12_health_endpoint_ok.png)
 
 **API docs** — the full Swagger UI confirms all three retrieval endpoints (dense, sparse, hybrid) are live:
 
-![API docs live](screenshots/13_api_docs_live.png)
+![API docs live](13_api_docs_live.png)
 
 ---
 
