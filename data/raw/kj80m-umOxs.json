@@ -1,0 +1,2257 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "kj80m-umOxs",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.318
+    },
+    {
+      "text": "CAMERON BALAHAN:\nHi, I'm Cameron,",
+      "start": 6.17,
+      "duration": 1.582
+    },
+    {
+      "text": "and I'm the product lead\nfor the Go programming",
+      "start": 7.752,
+      "duration": 1.958
+    },
+    {
+      "text": "language at Google.",
+      "start": 9.71,
+      "duration": 0.902
+    },
+    {
+      "text": "MARC DOUGHERTY: And I'm Marc.",
+      "start": 10.612,
+      "duration": 1.208
+    },
+    {
+      "text": "I lead developer\nrelations for Go.",
+      "start": 11.82,
+      "duration": 1.538
+    },
+    {
+      "text": "CAMERON BALAHAN: For those of\nyou who are new to our project,",
+      "start": 13.358,
+      "duration": 2.542
+    },
+    {
+      "text": "Go is an open-source programming\nlanguage supported by Google",
+      "start": 15.9,
+      "duration": 3.32
+    },
+    {
+      "text": "that enables developers\nand software engineering",
+      "start": 19.22,
+      "duration": 2.46
+    },
+    {
+      "text": "teams to quickly build\nmore secure, reliable,",
+      "start": 21.68,
+      "duration": 3.55
+    },
+    {
+      "text": "and scalable production systems.",
+      "start": 25.23,
+      "duration": 2.33
+    },
+    {
+      "text": "Google released Go as\nan open-source project",
+      "start": 27.56,
+      "duration": 2.76
+    },
+    {
+      "text": "over 15 years ago after starting\nit two years earlier in response",
+      "start": 30.32,
+      "duration": 4.05
+    },
+    {
+      "text": "to Google's own challenges\nwith building and maintaining",
+      "start": 34.37,
+      "duration": 3.12
+    },
+    {
+      "text": "large-scale,\nmission-critical systems.",
+      "start": 37.49,
+      "duration": 2.67
+    },
+    {
+      "text": "With existing tools,\nwe had to choose",
+      "start": 40.16,
+      "duration": 2.49
+    },
+    {
+      "text": "between the productivity of\ndynamic interpreted languages",
+      "start": 42.65,
+      "duration": 3.24
+    },
+    {
+      "text": "and the production readiness\nof strongly typed, compiled",
+      "start": 45.89,
+      "duration": 3.03
+    },
+    {
+      "text": "languages.",
+      "start": 48.92,
+      "duration": 0.97
+    },
+    {
+      "text": "But we wanted both,\nso we built Go.",
+      "start": 49.89,
+      "duration": 3.2
+    },
+    {
+      "text": "Go's core premise is\nthat developer tools",
+      "start": 53.09,
+      "duration": 2.46
+    },
+    {
+      "text": "should prioritize scale from the\nstart, which means accounting",
+      "start": 55.55,
+      "duration": 3.3
+    },
+    {
+      "text": "for how modern software\nis architected,",
+      "start": 58.85,
+      "duration": 2.41
+    },
+    {
+      "text": "the environments in which\nmodern workloads run,",
+      "start": 61.26,
+      "duration": 2.73
+    },
+    {
+      "text": "and, most importantly, the\nteams that write, operate,",
+      "start": 63.99,
+      "duration": 3.56
+    },
+    {
+      "text": "and maintain it all.",
+      "start": 67.55,
+      "duration": 1.53
+    },
+    {
+      "text": "So with that in mind,\nwe framed Go around",
+      "start": 69.08,
+      "duration": 2.52
+    },
+    {
+      "text": "three principles that continue\nto guide us to this day.",
+      "start": 71.6,
+      "duration": 2.94
+    },
+    {
+      "text": "First, Go is productive.",
+      "start": 74.54,
+      "duration": 2.17
+    },
+    {
+      "text": "It's simple to learn, simple\nto maintain, readable,",
+      "start": 76.71,
+      "duration": 3.2
+    },
+    {
+      "text": "and scales well across teams,\nworkloads, and use cases.",
+      "start": 79.91,
+      "duration": 4.09
+    },
+    {
+      "text": "Second, Go is more\nthan a language.",
+      "start": 84.0,
+      "duration": 2.64
+    },
+    {
+      "text": "It's a complete\ndeveloper experience.",
+      "start": 86.64,
+      "duration": 2.22
+    },
+    {
+      "text": "From the IDE to production, we\nprovide end-to-end solutions",
+      "start": 88.86,
+      "duration": 3.71
+    },
+    {
+      "text": "with touchpoints all across the\nsoftware development lifecycle.",
+      "start": 92.57,
+      "duration": 3.52
+    },
+    {
+      "text": "And we provide all\nof it out of the box",
+      "start": 96.09,
+      "duration": 2.15
+    },
+    {
+      "text": "with sensible,\nself-tuning defaults.",
+      "start": 98.24,
+      "duration": 2.73
+    },
+    {
+      "text": "And third, Go is\nproduction ready.",
+      "start": 100.97,
+      "duration": 2.44
+    },
+    {
+      "text": "It's reliable, efficient,\nstable, and secure,",
+      "start": 103.41,
+      "duration": 3.06
+    },
+    {
+      "text": "which makes it well-suited for\neverything from simple apps",
+      "start": 106.47,
+      "duration": 2.9
+    },
+    {
+      "text": "to enterprise systems and\ncritical infrastructure.",
+      "start": 109.37,
+      "duration": 2.83
+    },
+    {
+      "text": "Over the years, Go\nhas found itself",
+      "start": 112.2,
+      "duration": 2.06
+    },
+    {
+      "text": "at the center of the modern\ncloud and, by extension,",
+      "start": 114.26,
+      "duration": 2.62
+    },
+    {
+      "text": "the modern web.",
+      "start": 116.88,
+      "duration": 1.05
+    },
+    {
+      "text": "Many of the world's\nbest-known cloud technologies",
+      "start": 117.93,
+      "duration": 2.46
+    },
+    {
+      "text": "are written in Go, including\nKubernetes, Docker, Terraform,",
+      "start": 120.39,
+      "duration": 3.36
+    },
+    {
+      "text": "and more.",
+      "start": 123.75,
+      "duration": 0.79
+    },
+    {
+      "text": "And companies large and\nsmall, from individuals",
+      "start": 124.54,
+      "duration": 2.81
+    },
+    {
+      "text": "to startups to enterprises,\nhave all embraced Go, especially",
+      "start": 127.35,
+      "duration": 3.539
+    },
+    {
+      "text": "for their cloud-based workloads.",
+      "start": 130.889,
+      "duration": 1.871
+    },
+    {
+      "text": "And that's in large\npart because Go was",
+      "start": 132.76,
+      "duration": 2.18
+    },
+    {
+      "text": "purpose built for the cloud.",
+      "start": 134.94,
+      "duration": 1.75
+    },
+    {
+      "text": "The libraries and integrations\nand architectures that Go enable",
+      "start": 136.69,
+      "duration": 3.41
+    },
+    {
+      "text": "were meant for the cloud,\nnot retrofitted for it later,",
+      "start": 140.1,
+      "duration": 3.28
+    },
+    {
+      "text": "which means you can realize\nthe cloud's benefits faster",
+      "start": 143.38,
+      "duration": 2.81
+    },
+    {
+      "text": "and easier than you\ncan in other languages.",
+      "start": 146.19,
+      "duration": 2.59
+    },
+    {
+      "text": "But you don't have to\ntake my word for it.",
+      "start": 148.78,
+      "duration": 2.16
+    },
+    {
+      "text": "Go users consistently give\nus extraordinary feedback",
+      "start": 150.94,
+      "duration": 3.14
+    },
+    {
+      "text": "and customer\nsatisfaction-- levels",
+      "start": 154.08,
+      "duration": 2.13
+    },
+    {
+      "text": "that are practically\nunheard of in the industry.",
+      "start": 156.21,
+      "duration": 2.55
+    },
+    {
+      "text": "And the usage shows it, too.",
+      "start": 158.76,
+      "duration": 1.92
+    },
+    {
+      "text": "Today, Go is more\npopular than ever,",
+      "start": 160.68,
+      "duration": 2.56
+    },
+    {
+      "text": "with millions of developers,\nand growing fast.",
+      "start": 163.24,
+      "duration": 2.99
+    },
+    {
+      "text": "In fact, according to a new\nStack survey from last year,",
+      "start": 166.23,
+      "duration": 3.55
+    },
+    {
+      "text": "Go is one of only two\nlanguages growing faster",
+      "start": 169.78,
+      "duration": 2.69
+    },
+    {
+      "text": "than the developer\npopulation itself.",
+      "start": 172.47,
+      "duration": 2.08
+    },
+    {
+      "text": "The other one's Rust, which we\nthink pairs really well with Go,",
+      "start": 174.55,
+      "duration": 3.3
+    },
+    {
+      "text": "but that's a topic\nfor another day.",
+      "start": 177.85,
+      "duration": 2.11
+    },
+    {
+      "text": "And there are signs like\nthis everywhere you look.",
+      "start": 179.96,
+      "duration": 2.26
+    },
+    {
+      "text": "Go consistently ranks among\nthe most loved technologies",
+      "start": 182.22,
+      "duration": 2.87
+    },
+    {
+      "text": "on Stack Overflow.",
+      "start": 185.09,
+      "duration": 1.42
+    },
+    {
+      "text": "And last year,\nCloudflare reported",
+      "start": 186.51,
+      "duration": 2.18
+    },
+    {
+      "text": "that Go is the number\none language powering",
+      "start": 188.69,
+      "duration": 2.1
+    },
+    {
+      "text": "API calls on the internet.",
+      "start": 190.79,
+      "duration": 1.8
+    },
+    {
+      "text": "So whether you're an individual\ndeveloper, an enterprise,",
+      "start": 192.59,
+      "duration": 3.1
+    },
+    {
+      "text": "or something in\nbetween, Go enables",
+      "start": 195.69,
+      "duration": 1.91
+    },
+    {
+      "text": "you to build and scale up\nyour projects quickly and more",
+      "start": 197.6,
+      "duration": 2.79
+    },
+    {
+      "text": "reliably.",
+      "start": 200.39,
+      "duration": 0.82
+    },
+    {
+      "text": "And you'll probably\nbe happy you did.",
+      "start": 201.21,
+      "duration": 1.95
+    },
+    {
+      "text": "Next, Marc will dig into\nall the latest in Go.",
+      "start": 203.16,
+      "duration": 3.17
+    },
+    {
+      "text": "Off to you, Marc.",
+      "start": 206.33,
+      "duration": 2.1
+    },
+    {
+      "text": "MARC DOUGHERTY: Thanks, Cameron.",
+      "start": 208.43,
+      "duration": 1.71
+    },
+    {
+      "text": "Go releases new major\nversions twice a year,",
+      "start": 210.14,
+      "duration": 2.82
+    },
+    {
+      "text": "in August and February.",
+      "start": 212.96,
+      "duration": 2.13
+    },
+    {
+      "text": "In the last year, we released\na lot of exciting new features",
+      "start": 215.09,
+      "duration": 3.0
+    },
+    {
+      "text": "in 1.23 and 1.24 to help you and\nyour team be more productive.",
+      "start": 218.09,
+      "duration": 6.21
+    },
+    {
+      "text": "In 1.23, we introduced iterators\nwith the seq and seq2 types.",
+      "start": 224.3,
+      "duration": 5.19
+    },
+    {
+      "text": "In classic Go fashion,\niterators are more than just",
+      "start": 229.49,
+      "duration": 3.51
+    },
+    {
+      "text": "a new type in the\nstandard library.",
+      "start": 233.0,
+      "duration": 2.05
+    },
+    {
+      "text": "They're an elegant\nway to simplify loops",
+      "start": 235.05,
+      "duration": 2.51
+    },
+    {
+      "text": "using the already familiar\nfor range expression",
+      "start": 237.56,
+      "duration": 3.06
+    },
+    {
+      "text": "and keeping the mechanics\nof iterating separate",
+      "start": 240.62,
+      "duration": 2.69
+    },
+    {
+      "text": "from the body of your loop.",
+      "start": 243.31,
+      "duration": 1.89
+    },
+    {
+      "text": "Before iterators, there were\na couple of different ways",
+      "start": 245.2,
+      "duration": 3.15
+    },
+    {
+      "text": "to loop over data.",
+      "start": 248.35,
+      "duration": 1.42
+    },
+    {
+      "text": "Some methods would\nreturn a slice containing",
+      "start": 249.77,
+      "duration": 2.36
+    },
+    {
+      "text": "all the results, which\ncan be inefficient",
+      "start": 252.13,
+      "duration": 2.1
+    },
+    {
+      "text": "for large collections.",
+      "start": 254.23,
+      "duration": 1.71
+    },
+    {
+      "text": "Another way was to create\nyour own iterator object,",
+      "start": 255.94,
+      "duration": 2.92
+    },
+    {
+      "text": "like this code, which uses the\nGoogle Cloud Storage library.",
+      "start": 258.86,
+      "duration": 3.33
+    },
+    {
+      "text": "Notice the complexity here.",
+      "start": 262.19,
+      "duration": 2.36
+    },
+    {
+      "text": "We have flow control and\nerror checking in our loop.",
+      "start": 264.55,
+      "duration": 3.67
+    },
+    {
+      "text": "And that error checking needs\nto be duplicated in every loop.",
+      "start": 268.22,
+      "duration": 3.74
+    },
+    {
+      "text": "With iterators, you can\nuse the familiar for range",
+      "start": 271.96,
+      "duration": 3.24
+    },
+    {
+      "text": "syntax to perform the loop.",
+      "start": 275.2,
+      "duration": 1.93
+    },
+    {
+      "text": "And the complex flow control\nis kept inside the iterator.",
+      "start": 277.13,
+      "duration": 4.22
+    },
+    {
+      "text": "This lets our loop\nbody stay focused",
+      "start": 281.35,
+      "duration": 1.71
+    },
+    {
+      "text": "on the handling of our\nfiles or our errors",
+      "start": 283.06,
+      "duration": 3.01
+    },
+    {
+      "text": "without worrying\nabout flow control.",
+      "start": 286.07,
+      "duration": 2.75
+    },
+    {
+      "text": "The standard library\nas of 1.24 includes",
+      "start": 288.82,
+      "duration": 3.69
+    },
+    {
+      "text": "a bunch of iterators\nin the strings, slices,",
+      "start": 292.51,
+      "duration": 2.71
+    },
+    {
+      "text": "and maps packages.",
+      "start": 295.22,
+      "duration": 1.43
+    },
+    {
+      "text": "Because iterators\nare just a function,",
+      "start": 296.65,
+      "duration": 2.37
+    },
+    {
+      "text": "you can define your own,\nincluding for collection types",
+      "start": 299.02,
+      "duration": 3.23
+    },
+    {
+      "text": "defined elsewhere.",
+      "start": 302.25,
+      "duration": 1.15
+    },
+    {
+      "text": "Here's the iterator I defined\nfor the Cloud Storage example.",
+      "start": 303.4,
+      "duration": 3.62
+    },
+    {
+      "text": "The declaration\nlooks a bit complex,",
+      "start": 307.02,
+      "duration": 2.5
+    },
+    {
+      "text": "but you can see our\nflow control here",
+      "start": 309.52,
+      "duration": 2.09
+    },
+    {
+      "text": "has the same effect as before.",
+      "start": 311.61,
+      "duration": 2.82
+    },
+    {
+      "text": "This iterator lets us factor\nout the flow control handling",
+      "start": 314.43,
+      "duration": 3.84
+    },
+    {
+      "text": "from our loop and make\nthem more readable.",
+      "start": 318.27,
+      "duration": 3.6
+    },
+    {
+      "text": "As new concepts like\niterators are introduced,",
+      "start": 321.87,
+      "duration": 3.27
+    },
+    {
+      "text": "Go's vertically integrated tools\nhelp keep your code base up",
+      "start": 325.14,
+      "duration": 3.81
+    },
+    {
+      "text": "to date with the latest\npatterns and idioms.",
+      "start": 328.95,
+      "duration": 2.92
+    },
+    {
+      "text": "Go's language server,\ngopls, can integrate",
+      "start": 331.87,
+      "duration": 3.32
+    },
+    {
+      "text": "with your IDE either with the\nlanguage server support found",
+      "start": 335.19,
+      "duration": 4.23
+    },
+    {
+      "text": "in most IDEs or\nthrough a plugin,",
+      "start": 339.42,
+      "duration": 2.22
+    },
+    {
+      "text": "like the VS Code Go extension.",
+      "start": 341.64,
+      "duration": 2.43
+    },
+    {
+      "text": "Gopls helps with the\nusual language server",
+      "start": 344.07,
+      "duration": 2.82
+    },
+    {
+      "text": "things, like type checking,\nfunction signatures,",
+      "start": 346.89,
+      "duration": 2.31
+    },
+    {
+      "text": "and references.",
+      "start": 349.2,
+      "duration": 1.24
+    },
+    {
+      "text": "But gopls can do so much more.",
+      "start": 350.44,
+      "duration": 2.82
+    },
+    {
+      "text": "Remember that complex\niterator definition?",
+      "start": 353.26,
+      "duration": 2.72
+    },
+    {
+      "text": "Since gopls knows about\nnew features on day one,",
+      "start": 355.98,
+      "duration": 3.3
+    },
+    {
+      "text": "it can help you avoid mistakes\nwhile you're writing them.",
+      "start": 359.28,
+      "duration": 3.92
+    },
+    {
+      "text": "Here, it's noticed\nan error where",
+      "start": 363.2,
+      "duration": 2.19
+    },
+    {
+      "text": "our iterator may call\nour yield function",
+      "start": 365.39,
+      "duration": 2.22
+    },
+    {
+      "text": "after it should have stopped.",
+      "start": 367.61,
+      "duration": 2.91
+    },
+    {
+      "text": "gopls includes a suite of\nmodernizations, common patterns",
+      "start": 370.52,
+      "duration": 5.01
+    },
+    {
+      "text": "that have since been\naddressed as language features",
+      "start": 375.53,
+      "duration": 2.64
+    },
+    {
+      "text": "or standard library additions.",
+      "start": 378.17,
+      "duration": 2.46
+    },
+    {
+      "text": "And while you could run the\nmodernizer over your whole code",
+      "start": 380.63,
+      "duration": 3.03
+    },
+    {
+      "text": "base, gopls can suggest them in\nline wherever you're editing.",
+      "start": 383.66,
+      "duration": 4.98
+    },
+    {
+      "text": "Here, we have some examples\nof older patterns on the left",
+      "start": 388.64,
+      "duration": 3.33
+    },
+    {
+      "text": "and their modernized\nreplacements on the right.",
+      "start": 391.97,
+      "duration": 2.38
+    },
+    {
+      "text": "That last modernizer showcases\na new feature of the JSON parser",
+      "start": 394.35,
+      "duration": 3.74
+    },
+    {
+      "text": "called omitzero.",
+      "start": 398.09,
+      "duration": 1.92
+    },
+    {
+      "text": "The JSON package has been\na part of Go since 1.0.",
+      "start": 400.01,
+      "duration": 3.82
+    },
+    {
+      "text": "It enables ergonomic development\nof API clients and servers",
+      "start": 403.83,
+      "duration": 3.53
+    },
+    {
+      "text": "by simplifying\nserialization of Go structs.",
+      "start": 407.36,
+      "duration": 3.72
+    },
+    {
+      "text": "The addition of\nthe omitzero option",
+      "start": 411.08,
+      "duration": 2.07
+    },
+    {
+      "text": "resolves some common errors\nand surprising behavior",
+      "start": 413.15,
+      "duration": 2.9
+    },
+    {
+      "text": "when dealing with Go's zero\nvalues, like empty structs",
+      "start": 416.05,
+      "duration": 3.39
+    },
+    {
+      "text": "and uninitialized\ntime.Time objects.",
+      "start": 419.44,
+      "duration": 3.24
+    },
+    {
+      "text": "These additions give\nyou more control",
+      "start": 422.68,
+      "duration": 2.19
+    },
+    {
+      "text": "over how your objects\nare serialized",
+      "start": 424.87,
+      "duration": 1.92
+    },
+    {
+      "text": "to JSON and avoid possible\nsources of error and confusion.",
+      "start": 426.79,
+      "duration": 4.98
+    },
+    {
+      "text": "Do you need to update\nyour Go runtime",
+      "start": 431.77,
+      "duration": 1.86
+    },
+    {
+      "text": "to take advantage\nof a new feature?",
+      "start": 433.63,
+      "duration": 2.1
+    },
+    {
+      "text": "As of 1.23, you can use go get\nto manage the Go toolchain just",
+      "start": 435.73,
+      "duration": 4.83
+    },
+    {
+      "text": "like any other dependency.",
+      "start": 440.56,
+      "duration": 1.72
+    },
+    {
+      "text": "Go will download updated\ntoolchains as needed,",
+      "start": 442.28,
+      "duration": 2.82
+    },
+    {
+      "text": "allowing your teams\nto use the latest",
+      "start": 445.1,
+      "duration": 1.7
+    },
+    {
+      "text": "features without stopping to\nupdate their toolchain manually.",
+      "start": 446.8,
+      "duration": 3.55
+    },
+    {
+      "text": "And this applies to\ndependencies, too.",
+      "start": 450.35,
+      "duration": 2.1
+    },
+    {
+      "text": "If you take a dependency\non code that requires 1.24,",
+      "start": 452.45,
+      "duration": 3.84
+    },
+    {
+      "text": "Go will update your\nmodule's go directive",
+      "start": 456.29,
+      "duration": 2.3
+    },
+    {
+      "text": "to require 1.24 and\nautomatically fetch",
+      "start": 458.59,
+      "duration": 3.27
+    },
+    {
+      "text": "the 1.24 runtime.",
+      "start": 461.86,
+      "duration": 2.13
+    },
+    {
+      "text": "The Go language and\nthe Go tools continue",
+      "start": 463.99,
+      "duration": 3.06
+    },
+    {
+      "text": "to find new ways to\nhelp you keep your code",
+      "start": 467.05,
+      "duration": 2.37
+    },
+    {
+      "text": "base readable and modern\nand allow your team",
+      "start": 469.42,
+      "duration": 2.43
+    },
+    {
+      "text": "to stay focused and productive.",
+      "start": 471.85,
+      "duration": 3.128
+    },
+    {
+      "text": "CAMERON BALAHAN:\nMarc just walked you",
+      "start": 474.978,
+      "duration": 1.542
+    },
+    {
+      "text": "through some of the new features\nthat make you more productive.",
+      "start": 476.52,
+      "duration": 2.625
+    },
+    {
+      "text": "But remember, Go is about\nproductivity and production",
+      "start": 479.145,
+      "duration": 3.045
+    },
+    {
+      "text": "readiness.",
+      "start": 482.19,
+      "duration": 0.88
+    },
+    {
+      "text": "So let's talk about the latest\nfeatures from Go 1.23 and 1.24",
+      "start": 483.07,
+      "duration": 4.22
+    },
+    {
+      "text": "that make your applications more\nrobust, more secure, and more",
+      "start": 487.29,
+      "duration": 3.75
+    },
+    {
+      "text": "performant.",
+      "start": 491.04,
+      "duration": 1.17
+    },
+    {
+      "text": "As I said earlier, Go's\nfounding principles",
+      "start": 492.21,
+      "duration": 2.88
+    },
+    {
+      "text": "center in part on\nits portability",
+      "start": 495.09,
+      "duration": 1.95
+    },
+    {
+      "text": "and a focus on the\nmodern environments",
+      "start": 497.04,
+      "duration": 2.04
+    },
+    {
+      "text": "in which modern workloads run.",
+      "start": 499.08,
+      "duration": 1.9
+    },
+    {
+      "text": "These environments\ncontinue to evolve.",
+      "start": 500.98,
+      "duration": 2.25
+    },
+    {
+      "text": "And as they do, we want to\nbe sure that Go keeps up.",
+      "start": 503.23,
+      "duration": 3.21
+    },
+    {
+      "text": "One way we've done that\nis by significantly",
+      "start": 506.44,
+      "duration": 2.03
+    },
+    {
+      "text": "improving Go support for\nWebAssembly in Go 1.24.",
+      "start": 508.47,
+      "duration": 3.54
+    },
+    {
+      "text": "WebAssembly, or Wasm, is a\nbinary instruction format",
+      "start": 512.01,
+      "duration": 3.93
+    },
+    {
+      "text": "and sandboxed\nruntime environment",
+      "start": 515.94,
+      "duration": 1.83
+    },
+    {
+      "text": "that unlocks a lot of new\ninteresting use cases,",
+      "start": 517.77,
+      "duration": 2.889
+    },
+    {
+      "text": "especially on the cloud.",
+      "start": 520.659,
+      "duration": 1.551
+    },
+    {
+      "text": "Several languages,\nincluding Go, are",
+      "start": 522.21,
+      "duration": 2.43
+    },
+    {
+      "text": "capable of compiling\nWasm modules that",
+      "start": 524.64,
+      "duration": 2.13
+    },
+    {
+      "text": "contain portable,\narchitecture-agnostic bytecode",
+      "start": 526.77,
+      "duration": 2.91
+    },
+    {
+      "text": "that runs on all Wasm hosts.",
+      "start": 529.68,
+      "duration": 2.34
+    },
+    {
+      "text": "The same Wasm host\napplication can call methods",
+      "start": 532.02,
+      "duration": 2.69
+    },
+    {
+      "text": "from multiple different\nWasm modules, which",
+      "start": 534.71,
+      "duration": 2.25
+    },
+    {
+      "text": "can be written in one\nlanguage or a mix of languages",
+      "start": 536.96,
+      "duration": 2.79
+    },
+    {
+      "text": "as appropriate.",
+      "start": 539.75,
+      "duration": 1.53
+    },
+    {
+      "text": "These Wasm modules\nare hotloadable",
+      "start": 541.28,
+      "duration": 2.22
+    },
+    {
+      "text": "and run in a memory-safe,\nsandboxed runtime",
+      "start": 543.5,
+      "duration": 2.85
+    },
+    {
+      "text": "with structured control\nflows and verification.",
+      "start": 546.35,
+      "duration": 2.71
+    },
+    {
+      "text": "Any system calls are routed\nthrough the Wasm runtime, which",
+      "start": 549.06,
+      "duration": 3.38
+    },
+    {
+      "text": "provides an extra\nlayer of security,",
+      "start": 552.44,
+      "duration": 2.02
+    },
+    {
+      "text": "something like an extremely\nlightweight container.",
+      "start": 554.46,
+      "duration": 2.87
+    },
+    {
+      "text": "And despite this\nlayer of abstraction,",
+      "start": 557.33,
+      "duration": 2.5
+    },
+    {
+      "text": "Wasm applications are\nexceptionally efficient, capable",
+      "start": 559.83,
+      "duration": 3.26
+    },
+    {
+      "text": "of achieving near-native\nperformance on their hosts.",
+      "start": 563.09,
+      "duration": 2.98
+    },
+    {
+      "text": "This makes them\nparticularly useful",
+      "start": 566.07,
+      "duration": 1.94
+    },
+    {
+      "text": "for high-performance,\nlow-latency use cases,",
+      "start": 568.01,
+      "duration": 2.55
+    },
+    {
+      "text": "like computing at the edge.",
+      "start": 570.56,
+      "duration": 1.69
+    },
+    {
+      "text": "For example, you can\nrun your Wasm code",
+      "start": 572.25,
+      "duration": 2.27
+    },
+    {
+      "text": "on Google Cloud service\nextensions, which",
+      "start": 574.52,
+      "duration": 2.22
+    },
+    {
+      "text": "provides edge computing at over\n200 edge locations across more",
+      "start": 576.74,
+      "duration": 3.81
+    },
+    {
+      "text": "than 200 countries.",
+      "start": 580.55,
+      "duration": 1.89
+    },
+    {
+      "text": "Go first introduced\nsupport for Wasm in Go 1.11",
+      "start": 582.44,
+      "duration": 2.97
+    },
+    {
+      "text": "with the JS Wasm port.",
+      "start": 585.41,
+      "duration": 1.87
+    },
+    {
+      "text": "Wasm itself was originally\ndesigned for browsers.",
+      "start": 587.28,
+      "duration": 2.84
+    },
+    {
+      "text": "And the JS Wasm port\nenabled this use case",
+      "start": 590.12,
+      "duration": 2.69
+    },
+    {
+      "text": "by allowing you to target web\npages through a JavaScript host.",
+      "start": 592.81,
+      "duration": 3.94
+    },
+    {
+      "text": "Go developers made\nsome really fun stuff",
+      "start": 596.75,
+      "duration": 2.15
+    },
+    {
+      "text": "with this capability,\nespecially games.",
+      "start": 598.9,
+      "duration": 2.44
+    },
+    {
+      "text": "There are even open-source game\nengines for Go that leverage",
+      "start": 601.34,
+      "duration": 2.93
+    },
+    {
+      "text": "the JS Wasm port.",
+      "start": 604.27,
+      "duration": 1.72
+    },
+    {
+      "text": "Go developers can use these\nprojects to easily develop",
+      "start": 605.99,
+      "duration": 3.17
+    },
+    {
+      "text": "impressive 2D games\nthat run in the browser.",
+      "start": 609.16,
+      "duration": 3.18
+    },
+    {
+      "text": "As Wasm evolved, Go did, too.",
+      "start": 612.34,
+      "duration": 2.53
+    },
+    {
+      "text": "In Go 1.21, we\nintroduced support",
+      "start": 614.87,
+      "duration": 2.39
+    },
+    {
+      "text": "for preview one of the\nWebAssembly System Interface,",
+      "start": 617.26,
+      "duration": 2.97
+    },
+    {
+      "text": "or WASI.",
+      "start": 620.23,
+      "duration": 1.06
+    },
+    {
+      "text": "WASI provides a\nPOSIX-style interface",
+      "start": 621.29,
+      "duration": 2.72
+    },
+    {
+      "text": "for interacting with\nsystem resources,",
+      "start": 624.01,
+      "duration": 2.01
+    },
+    {
+      "text": "like the file system, system\nclock, data utilities, and more.",
+      "start": 626.02,
+      "duration": 4.05
+    },
+    {
+      "text": "In this example, you can\nsee a simple \"Hello, world!\"",
+      "start": 630.07,
+      "duration": 2.94
+    },
+    {
+      "text": "program that we compile to Wasm\nvia the leading compile flags.",
+      "start": 633.01,
+      "duration": 3.79
+    },
+    {
+      "text": "We can then run\nthe program using",
+      "start": 636.8,
+      "duration": 1.82
+    },
+    {
+      "text": "one of the many free open-source\nWasm runtimes and libraries.",
+      "start": 638.62,
+      "duration": 3.79
+    },
+    {
+      "text": "In this case, we're using\nwazero, an open-source project",
+      "start": 642.41,
+      "duration": 3.5
+    },
+    {
+      "text": "implemented in Go.",
+      "start": 645.91,
+      "duration": 1.32
+    },
+    {
+      "text": "Starting in Go\n1.21, Go developers",
+      "start": 647.23,
+      "duration": 2.77
+    },
+    {
+      "text": "could build a Wasm\nmodule as an executable,",
+      "start": 650.0,
+      "duration": 2.68
+    },
+    {
+      "text": "start it in a Wasm runtime,\nand run it to completion.",
+      "start": 652.68,
+      "duration": 3.41
+    },
+    {
+      "text": "And that brings us to today.",
+      "start": 656.09,
+      "duration": 1.9
+    },
+    {
+      "text": "In Go 1.24, we expanded\nGo's Wasm capabilities",
+      "start": 657.99,
+      "duration": 3.41
+    },
+    {
+      "text": "in two big ways.",
+      "start": 661.4,
+      "duration": 1.45
+    },
+    {
+      "text": "First, Go 1.24 enables you to\nexport Go functions to the Wasm",
+      "start": 662.85,
+      "duration": 4.76
+    },
+    {
+      "text": "host with the go wasmexport\ncompiler directive.",
+      "start": 667.61,
+      "duration": 3.55
+    },
+    {
+      "text": "When we compile code like\nthis into a Wasm module,",
+      "start": 671.16,
+      "duration": 3.0
+    },
+    {
+      "text": "we can import it in a Wasm\nhost, and the Wasm host",
+      "start": 674.16,
+      "duration": 3.11
+    },
+    {
+      "text": "can directly call the\nmodule's exported functions.",
+      "start": 677.27,
+      "duration": 3.33
+    },
+    {
+      "text": "Second, Go 1.24 added support\nfor building WASI reactors.",
+      "start": 680.6,
+      "duration": 4.96
+    },
+    {
+      "text": "When you use this capability to\nbuild a Wasm module in Reactor",
+      "start": 685.56,
+      "duration": 3.47
+    },
+    {
+      "text": "Mode, the module can\nremain initialized",
+      "start": 689.03,
+      "duration": 2.4
+    },
+    {
+      "text": "even after it is\nfinished executing.",
+      "start": 691.43,
+      "duration": 2.23
+    },
+    {
+      "text": "This is really useful\nfor long-running plugins",
+      "start": 693.66,
+      "duration": 2.39
+    },
+    {
+      "text": "or extensions that you want\navailable indefinitely.",
+      "start": 696.05,
+      "duration": 3.1
+    },
+    {
+      "text": "Initialize it once,\nleave it running,",
+      "start": 699.15,
+      "duration": 2.22
+    },
+    {
+      "text": "and it can continue to\nrespond to calls, including",
+      "start": 701.37,
+      "duration": 2.63
+    },
+    {
+      "text": "by maintaining state.",
+      "start": 704.0,
+      "duration": 1.74
+    },
+    {
+      "text": "In this example, we use\nlibraries from wazero",
+      "start": 705.74,
+      "duration": 2.73
+    },
+    {
+      "text": "to create a Wasm\nhost that will call",
+      "start": 708.47,
+      "duration": 1.97
+    },
+    {
+      "text": "the add function we exported\nin the previous example.",
+      "start": 710.44,
+      "duration": 3.33
+    },
+    {
+      "text": "This time, though,\nwe'll build the Wasm",
+      "start": 713.77,
+      "duration": 2.22
+    },
+    {
+      "text": "module in reactor mode with\nthe highlighted build flag.",
+      "start": 715.99,
+      "duration": 3.16
+    },
+    {
+      "text": "Now, we can run the add\nfunction more than once",
+      "start": 719.15,
+      "duration": 2.75
+    },
+    {
+      "text": "without reinitializing it.",
+      "start": 721.9,
+      "duration": 2.19
+    },
+    {
+      "text": "Next, let's talk\nabout how Go makes",
+      "start": 724.09,
+      "duration": 2.46
+    },
+    {
+      "text": "your applications more secure.",
+      "start": 726.55,
+      "duration": 1.95
+    },
+    {
+      "text": "Go has always lead in security\nfeatures and capabilities.",
+      "start": 728.5,
+      "duration": 3.27
+    },
+    {
+      "text": "In Go 1.13, we introduced\nthe module proxy and checksum",
+      "start": 731.77,
+      "duration": 3.93
+    },
+    {
+      "text": "database, which cache and record\nhashes for all dependencies",
+      "start": 735.7,
+      "duration": 3.9
+    },
+    {
+      "text": "in the Go ecosystem, protecting\nyou against man-in-the-middle",
+      "start": 739.6,
+      "duration": 3.18
+    },
+    {
+      "text": "attacks and other tampering\nof your dependencies.",
+      "start": 742.78,
+      "duration": 2.88
+    },
+    {
+      "text": "Then, in Go 1.18, we introduced\nbuilt-in fuzz testing,",
+      "start": 745.66,
+      "duration": 4.57
+    },
+    {
+      "text": "the first major programming\nlanguage with native fuzz",
+      "start": 750.23,
+      "duration": 2.78
+    },
+    {
+      "text": "testing built into\nand integrated",
+      "start": 753.01,
+      "duration": 2.01
+    },
+    {
+      "text": "with its standard toolchain.",
+      "start": 755.02,
+      "duration": 1.89
+    },
+    {
+      "text": "You can think of fuzzing as\na form of automated testing",
+      "start": 756.91,
+      "duration": 3.18
+    },
+    {
+      "text": "that intelligently manipulates\ninputs to your program",
+      "start": 760.09,
+      "duration": 2.88
+    },
+    {
+      "text": "to flush out bugs, especially\nsecurity vulnerabilities.",
+      "start": 762.97,
+      "duration": 3.78
+    },
+    {
+      "text": "And in 2022, we introduced\nGo's end-to-end vulnerability",
+      "start": 766.75,
+      "duration": 3.77
+    },
+    {
+      "text": "management system, which\nsurfaces known vulnerabilities",
+      "start": 770.52,
+      "duration": 2.91
+    },
+    {
+      "text": "in your dependencies everywhere,\nfrom your IDE to the runtime.",
+      "start": 773.43,
+      "duration": 3.82
+    },
+    {
+      "text": "By analyzing the call\ngraph from your code",
+      "start": 777.25,
+      "duration": 2.48
+    },
+    {
+      "text": "through your dependencies, Go's\nvulnerability management tools",
+      "start": 779.73,
+      "duration": 3.18
+    },
+    {
+      "text": "are able to detect\nwhether you actually",
+      "start": 782.91,
+      "duration": 2.16
+    },
+    {
+      "text": "invoke vulnerable code,\neliminating the vast majority",
+      "start": 785.07,
+      "duration": 3.3
+    },
+    {
+      "text": "of false positives.",
+      "start": 788.37,
+      "duration": 1.77
+    },
+    {
+      "text": "Building on our security\nfocus, in Go 1.24,",
+      "start": 790.14,
+      "duration": 3.34
+    },
+    {
+      "text": "we introduced support for\npost-quantum cryptography,",
+      "start": 793.48,
+      "duration": 2.88
+    },
+    {
+      "text": "all of it implemented\ntransparently behind the scenes.",
+      "start": 796.36,
+      "duration": 3.12
+    },
+    {
+      "text": "We also improved\nsupport for FIPS-140,",
+      "start": 799.48,
+      "duration": 2.82
+    },
+    {
+      "text": "as US government\ncompliance regime",
+      "start": 802.3,
+      "duration": 2.03
+    },
+    {
+      "text": "that includes\napproved algorithms",
+      "start": 804.33,
+      "duration": 1.98
+    },
+    {
+      "text": "for cryptographic applications.",
+      "start": 806.31,
+      "duration": 2.05
+    },
+    {
+      "text": "You can enable FIPS mode without\nany changes to your code,",
+      "start": 808.36,
+      "duration": 3.42
+    },
+    {
+      "text": "either at runtime with\nthe highlighted debug flag",
+      "start": 811.78,
+      "duration": 2.73
+    },
+    {
+      "text": "or at build time with the\nhighlighted build flag.",
+      "start": 814.51,
+      "duration": 3.26
+    },
+    {
+      "text": "Finally, we've continued\nto focus on making",
+      "start": 817.77,
+      "duration": 2.94
+    },
+    {
+      "text": "Go faster and more efficient.",
+      "start": 820.71,
+      "duration": 1.9
+    },
+    {
+      "text": "One important way\nwe've done this",
+      "start": 822.61,
+      "duration": 1.49
+    },
+    {
+      "text": "is through the introduction of\na completely new implementation",
+      "start": 824.1,
+      "duration": 3.02
+    },
+    {
+      "text": "of the built-in map type based\non a new hash table design",
+      "start": 827.12,
+      "duration": 3.57
+    },
+    {
+      "text": "called Swiss Tables.",
+      "start": 830.69,
+      "duration": 1.92
+    },
+    {
+      "text": "Beginning in Go 1.24,\nmaps transparently",
+      "start": 832.61,
+      "duration": 3.24
+    },
+    {
+      "text": "use the new Swiss\nTable implementation.",
+      "start": 835.85,
+      "duration": 2.43
+    },
+    {
+      "text": "In microbenchmarks,\nmap operations",
+      "start": 838.28,
+      "duration": 2.67
+    },
+    {
+      "text": "using the new\nimplementation are up to 60%",
+      "start": 840.95,
+      "duration": 2.64
+    },
+    {
+      "text": "faster than they were in Go\n1.23, especially for large maps.",
+      "start": 843.59,
+      "duration": 4.18
+    },
+    {
+      "text": "And it's all seamlessly\nintegrated in Go's built-in map.",
+      "start": 847.77,
+      "duration": 3.45
+    },
+    {
+      "text": "No need to adjust your code.",
+      "start": 851.22,
+      "duration": 1.5
+    },
+    {
+      "text": "Just upgrade, and you're set.",
+      "start": 852.72,
+      "duration": 1.8
+    },
+    {
+      "text": "And there's more, including\nlots of new low-level tools",
+      "start": 854.52,
+      "duration": 3.32
+    },
+    {
+      "text": "across both Go 1.23 and\n1.24 for efficiency.",
+      "start": 857.84,
+      "duration": 3.97
+    },
+    {
+      "text": "For example, in Go 1.23, we\nintroduced the Unique Package,",
+      "start": 861.81,
+      "duration": 4.28
+    },
+    {
+      "text": "enabling the efficient\ndeduplication and comparison",
+      "start": 866.09,
+      "duration": 3.06
+    },
+    {
+      "text": "of values.",
+      "start": 869.15,
+      "duration": 1.26
+    },
+    {
+      "text": "In Go 1.24, we\nintroduced weak.Pointers,",
+      "start": 870.41,
+      "duration": 3.33
+    },
+    {
+      "text": "which enable you to\nsafely point to an object",
+      "start": 873.74,
+      "duration": 2.52
+    },
+    {
+      "text": "without preventing it from\nbeing garbage collected, as well",
+      "start": 876.26,
+      "duration": 3.06
+    },
+    {
+      "text": "as the AddCleanup function,\na finalization mechanism that",
+      "start": 879.32,
+      "duration": 3.63
+    },
+    {
+      "text": "is more flexible, more\nefficient, and less error prone.",
+      "start": 882.95,
+      "duration": 3.6
+    },
+    {
+      "text": "And there's more, including\nimproved memory allocation",
+      "start": 886.55,
+      "duration": 3.08
+    },
+    {
+      "text": "speeds and general speed\nimprovements throughout.",
+      "start": 889.63,
+      "duration": 2.86
+    },
+    {
+      "text": "And all of it\ncontinues our focus",
+      "start": 892.49,
+      "duration": 2.27
+    },
+    {
+      "text": "on keeping Go both productive\nand production ready.",
+      "start": 894.76,
+      "duration": 3.7
+    },
+    {
+      "text": "Next, let's turn it back\nto Marc for a quick rundown",
+      "start": 898.46,
+      "duration": 3.11
+    },
+    {
+      "text": "on the latest in Go's\nuse in generative AI.",
+      "start": 901.57,
+      "duration": 3.628
+    },
+    {
+      "text": "MARC DOUGHERTY: As\nyou've just heard,",
+      "start": 905.198,
+      "duration": 1.542
+    },
+    {
+      "text": "Go is packed with\nfeatures that make",
+      "start": 906.74,
+      "duration": 1.91
+    },
+    {
+      "text": "it a great language\nfor production systems.",
+      "start": 908.65,
+      "duration": 2.53
+    },
+    {
+      "text": "Features like efficient\nnetworking libraries",
+      "start": 911.18,
+      "duration": 2.18
+    },
+    {
+      "text": "and integrated\nstruct tags make it",
+      "start": 913.36,
+      "duration": 2.46
+    },
+    {
+      "text": "great for building\ndistributed systems.",
+      "start": 915.82,
+      "duration": 2.7
+    },
+    {
+      "text": "And that's a big part of why\nGo is so prevalent in cloud",
+      "start": 918.52,
+      "duration": 3.15
+    },
+    {
+      "text": "infrastructure and services.",
+      "start": 921.67,
+      "duration": 2.25
+    },
+    {
+      "text": "And those same\nreasons are why Go",
+      "start": 923.92,
+      "duration": 2.13
+    },
+    {
+      "text": "is a great choice for building\nAI infrastructure and services",
+      "start": 926.05,
+      "duration": 2.88
+    },
+    {
+      "text": "today.",
+      "start": 928.93,
+      "duration": 1.53
+    },
+    {
+      "text": "Popular generative AI\ntools and libraries,",
+      "start": 930.46,
+      "duration": 3.12
+    },
+    {
+      "text": "like Ollama, Local AI, LangChain\nGo, Genkit, and many others,",
+      "start": 933.58,
+      "duration": 5.28
+    },
+    {
+      "text": "are all written in Go.",
+      "start": 938.86,
+      "duration": 1.92
+    },
+    {
+      "text": "Like the major infrastructure\nprojects before them,",
+      "start": 940.78,
+      "duration": 2.77
+    },
+    {
+      "text": "these tools and libraries\nleverage Go's productivity",
+      "start": 943.55,
+      "duration": 3.1
+    },
+    {
+      "text": "and production readiness to\ncreate highly scalable and more",
+      "start": 946.65,
+      "duration": 3.9
+    },
+    {
+      "text": "reliable\nmission-critical services",
+      "start": 950.55,
+      "duration": 2.52
+    },
+    {
+      "text": "that millions of developers\nfrom various language ecosystems",
+      "start": 953.07,
+      "duration": 3.36
+    },
+    {
+      "text": "rely upon for their\nAI-powered workloads.",
+      "start": 956.43,
+      "duration": 3.81
+    },
+    {
+      "text": "In fact, cloud and AI\nsystems have more in common",
+      "start": 960.24,
+      "duration": 3.51
+    },
+    {
+      "text": "than you might think.",
+      "start": 963.75,
+      "duration": 1.33
+    },
+    {
+      "text": "Since LLMs often\nrequire dedicated,",
+      "start": 965.08,
+      "duration": 2.76
+    },
+    {
+      "text": "specialized compute\nresources, they're",
+      "start": 967.84,
+      "duration": 2.3
+    },
+    {
+      "text": "usually run as a network\nservice called through an API.",
+      "start": 970.14,
+      "duration": 3.81
+    },
+    {
+      "text": "Let's consider the\nexample of a retrieval",
+      "start": 973.95,
+      "duration": 2.34
+    },
+    {
+      "text": "augmented generation system\nas outlined in a recent post",
+      "start": 976.29,
+      "duration": 3.57
+    },
+    {
+      "text": "on the Go blog.",
+      "start": 979.86,
+      "duration": 1.5
+    },
+    {
+      "text": "Our RAG system uses\na vector database",
+      "start": 981.36,
+      "duration": 2.79
+    },
+    {
+      "text": "to store relevant documents\nto feed to our LLM",
+      "start": 984.15,
+      "duration": 2.61
+    },
+    {
+      "text": "when answering the\nuser's questions.",
+      "start": 986.76,
+      "duration": 2.31
+    },
+    {
+      "text": "Vector databases rely on a\nspecialized embedding model",
+      "start": 989.07,
+      "duration": 3.49
+    },
+    {
+      "text": "so we can efficiently query\nfor documents that are",
+      "start": 992.56,
+      "duration": 2.72
+    },
+    {
+      "text": "similar to the user's question.",
+      "start": 995.28,
+      "duration": 2.16
+    },
+    {
+      "text": "We'll look at three\ndifferent frameworks",
+      "start": 997.44,
+      "duration": 1.95
+    },
+    {
+      "text": "we can use to connect\nthese services together.",
+      "start": 999.39,
+      "duration": 2.61
+    },
+    {
+      "text": "For our first example, we'll use\nthe Gemini and Weaviate client",
+      "start": 1002.0,
+      "duration": 3.69
+    },
+    {
+      "text": "libraries directly.",
+      "start": 1005.69,
+      "duration": 1.53
+    },
+    {
+      "text": "This code comes from\nthe user query handler.",
+      "start": 1007.22,
+      "duration": 2.56
+    },
+    {
+      "text": "We're using Weaviate's GraphQL\ninterface to fetch documents.",
+      "start": 1009.78,
+      "duration": 3.45
+    },
+    {
+      "text": "And the query itself\nis a bit long,",
+      "start": 1013.23,
+      "duration": 2.04
+    },
+    {
+      "text": "so we used a helper function.",
+      "start": 1015.27,
+      "duration": 1.76
+    },
+    {
+      "text": "One downside to this\napproach is that we'd",
+      "start": 1017.03,
+      "duration": 2.7
+    },
+    {
+      "text": "have to rewrite our helper if\nwe change our vector database.",
+      "start": 1019.73,
+      "duration": 3.84
+    },
+    {
+      "text": "Here, we're using\nLangChain Go, which",
+      "start": 1023.57,
+      "duration": 2.7
+    },
+    {
+      "text": "provides interface abstractions\nfor our LLM and vector database.",
+      "start": 1026.27,
+      "duration": 4.569
+    },
+    {
+      "text": "The similarity\nsearch and generate",
+      "start": 1030.839,
+      "duration": 2.27
+    },
+    {
+      "text": "from single prompt\ncalls won't need",
+      "start": 1033.109,
+      "duration": 1.98
+    },
+    {
+      "text": "to change if we replace\nthose components.",
+      "start": 1035.089,
+      "duration": 2.851
+    },
+    {
+      "text": "Last, we'll look at\nFirebase Genkit for Go,",
+      "start": 1037.94,
+      "duration": 3.27
+    },
+    {
+      "text": "currently in beta.",
+      "start": 1041.21,
+      "duration": 1.27
+    },
+    {
+      "text": "It provides similar\nabstractions to LangChain Go.",
+      "start": 1042.48,
+      "duration": 3.41
+    },
+    {
+      "text": "Genkit includes production-grade\nfeatures like prompt management",
+      "start": 1045.89,
+      "duration": 3.54
+    },
+    {
+      "text": "and observability that may\nnot be visible in the code",
+      "start": 1049.43,
+      "duration": 3.13
+    },
+    {
+      "text": "but improve the overall\ndeveloper experience.",
+      "start": 1052.56,
+      "duration": 3.77
+    },
+    {
+      "text": "As your AI systems grow,\nGo's emphasis on simplicity",
+      "start": 1056.33,
+      "duration": 4.32
+    },
+    {
+      "text": "means your code remains\nreadable even as it",
+      "start": 1060.65,
+      "duration": 2.48
+    },
+    {
+      "text": "grows in size and complexity.",
+      "start": 1063.13,
+      "duration": 2.02
+    },
+    {
+      "text": "Go features like object\nembedding and interfaces",
+      "start": 1065.15,
+      "duration": 3.14
+    },
+    {
+      "text": "allow for seamless migrations\nas requirements and technology",
+      "start": 1068.29,
+      "duration": 3.54
+    },
+    {
+      "text": "change, and they always change.",
+      "start": 1071.83,
+      "duration": 3.06
+    },
+    {
+      "text": "Go's proven ability to\nkeep up with rapid change",
+      "start": 1074.89,
+      "duration": 3.0
+    },
+    {
+      "text": "has made it successful in some\nof the best-known components",
+      "start": 1077.89,
+      "duration": 3.0
+    },
+    {
+      "text": "of cloud Infrastructure.",
+      "start": 1080.89,
+      "duration": 1.62
+    },
+    {
+      "text": "The same features that\ndrove Go adoption in cloud",
+      "start": 1082.51,
+      "duration": 2.82
+    },
+    {
+      "text": "make it an excellent choice as\nwe build the AI infrastructure",
+      "start": 1085.33,
+      "duration": 3.6
+    },
+    {
+      "text": "of tomorrow.",
+      "start": 1088.93,
+      "duration": 1.52
+    },
+    {
+      "text": "CAMERON BALAHAN: As I hope we've\ndemonstrated in this video,",
+      "start": 1090.45,
+      "duration": 2.5
+    },
+    {
+      "text": "Go's founding principles\naround productivity, developer",
+      "start": 1092.95,
+      "duration": 2.88
+    },
+    {
+      "text": "experience, and\nproduction readiness",
+      "start": 1095.83,
+      "duration": 1.86
+    },
+    {
+      "text": "are still how we\nprioritize our work today.",
+      "start": 1097.69,
+      "duration": 3.03
+    },
+    {
+      "text": "Before we conclude, I want to\ntake a few minutes to give you",
+      "start": 1100.72,
+      "duration": 2.88
+    },
+    {
+      "text": "a peek at what's around the\ncorner in Go 1.25 and beyond.",
+      "start": 1103.6,
+      "duration": 3.99
+    },
+    {
+      "text": "First, and building on\nMarc's discussion around AI,",
+      "start": 1107.59,
+      "duration": 3.19
+    },
+    {
+      "text": "we're very excited about the\nwork we're doing around SIMD.",
+      "start": 1110.78,
+      "duration": 3.23
+    },
+    {
+      "text": "SIMD enables modern CPUs\nto perform vectorized array",
+      "start": 1114.01,
+      "duration": 3.84
+    },
+    {
+      "text": "manipulations, running certain\nkinds of loops in parallel.",
+      "start": 1117.85,
+      "duration": 3.58
+    },
+    {
+      "text": "These capabilities are essential\nfor many kinds of performance",
+      "start": 1121.43,
+      "duration": 3.45
+    },
+    {
+      "text": "optimizations, including the\nsort required for certain kinds",
+      "start": 1124.88,
+      "duration": 3.36
+    },
+    {
+      "text": "of AI infrastructure.",
+      "start": 1128.24,
+      "duration": 1.62
+    },
+    {
+      "text": "Rounding out our\nperformance work,",
+      "start": 1129.86,
+      "duration": 1.66
+    },
+    {
+      "text": "we have a lot of\nexciting opportunities",
+      "start": 1131.52,
+      "duration": 1.91
+    },
+    {
+      "text": "around multicore hardware,\nincluding garbage collector",
+      "start": 1133.43,
+      "duration": 2.85
+    },
+    {
+      "text": "and scheduler\ncapabilities that make",
+      "start": 1136.28,
+      "duration": 1.86
+    },
+    {
+      "text": "better use of nonuniform\nmemory access in modern CPU",
+      "start": 1138.14,
+      "duration": 3.51
+    },
+    {
+      "text": "architectures.",
+      "start": 1141.65,
+      "duration": 1.36
+    },
+    {
+      "text": "Switching to the\nlanguage itself,",
+      "start": 1143.01,
+      "duration": 1.92
+    },
+    {
+      "text": "we have a lot of\npolish ahead of us",
+      "start": 1144.93,
+      "duration": 1.73
+    },
+    {
+      "text": "in our continuing push to\nimprove productivity, especially",
+      "start": 1146.66,
+      "duration": 3.3
+    },
+    {
+      "text": "around flexibility in\ngeneric operations.",
+      "start": 1149.96,
+      "duration": 2.59
+    },
+    {
+      "text": "For more information\non that work,",
+      "start": 1152.55,
+      "duration": 1.92
+    },
+    {
+      "text": "check out our discussions\non the Go project on GitHub.",
+      "start": 1154.47,
+      "duration": 3.59
+    },
+    {
+      "text": "And as we do all\nthis and more, you",
+      "start": 1158.06,
+      "duration": 2.295
+    },
+    {
+      "text": "can rest assured that\nany changes we make now",
+      "start": 1160.355,
+      "duration": 2.655
+    },
+    {
+      "text": "and in the future will\ncontinue to fulfill the Go",
+      "start": 1163.01,
+      "duration": 2.55
+    },
+    {
+      "text": "promise of compatibility.",
+      "start": 1165.56,
+      "duration": 1.6
+    },
+    {
+      "text": "Go remains and will always\nremain fully backward compatible",
+      "start": 1167.16,
+      "duration": 3.8
+    },
+    {
+      "text": "to Go 1.0.",
+      "start": 1170.96,
+      "duration": 2.85
+    },
+    {
+      "text": "As we wrap up, we\nwant to take a moment",
+      "start": 1173.81,
+      "duration": 2.25
+    },
+    {
+      "text": "to thank the Go community.",
+      "start": 1176.06,
+      "duration": 1.45
+    },
+    {
+      "text": "We, the Go team, are\ncommitted to keeping",
+      "start": 1177.51,
+      "duration": 2.66
+    },
+    {
+      "text": "Go productive and production\nready well into the future.",
+      "start": 1180.17,
+      "duration": 3.49
+    },
+    {
+      "text": "But we know we aren't alone.",
+      "start": 1183.66,
+      "duration": 1.46
+    },
+    {
+      "text": "Today, our ecosystem is larger\nand more robust than ever.",
+      "start": 1185.12,
+      "duration": 3.67
+    },
+    {
+      "text": "And we continue to see a lot\nof really high-quality tools",
+      "start": 1188.79,
+      "duration": 2.9
+    },
+    {
+      "text": "and libraries emerge,\nespecially for new use",
+      "start": 1191.69,
+      "duration": 2.46
+    },
+    {
+      "text": "cases around generative AI.",
+      "start": 1194.15,
+      "duration": 1.81
+    },
+    {
+      "text": "And we see hundreds of\nthousands of gophers",
+      "start": 1195.96,
+      "duration": 2.06
+    },
+    {
+      "text": "around the world meeting up,\nattending Go conferences,",
+      "start": 1198.02,
+      "duration": 3.12
+    },
+    {
+      "text": "and collaborating online\nall because they love Go.",
+      "start": 1201.14,
+      "duration": 3.31
+    },
+    {
+      "text": "So thank you to\nthe Go community.",
+      "start": 1204.45,
+      "duration": 2.22
+    },
+    {
+      "text": "It's because of\nyour contributions",
+      "start": 1206.67,
+      "duration": 1.76
+    },
+    {
+      "text": "that Go is growing and more\nrelevant than ever before.",
+      "start": 1208.43,
+      "duration": 3.1
+    },
+    {
+      "text": "We're very proud to be a part\nof this journey with you.",
+      "start": 1211.53,
+      "duration": 3.32
+    },
+    {
+      "text": "To get started, or for more\ninformation on anything",
+      "start": 1214.85,
+      "duration": 2.58
+    },
+    {
+      "text": "we discussed in this\nvideo, be sure to check out",
+      "start": 1217.43,
+      "duration": 2.25
+    },
+    {
+      "text": "our homepage at go.dev.",
+      "start": 1219.68,
+      "duration": 1.77
+    },
+    {
+      "text": "Thank you for joining us\nthis year at Google I/O.",
+      "start": 1221.45,
+      "duration": 2.65
+    },
+    {
+      "text": "We can't wait to see what\nyou build with Go this year",
+      "start": 1224.1,
+      "duration": 2.51
+    },
+    {
+      "text": "and in the years to come.",
+      "start": 1226.61,
+      "duration": 1.29
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1227.9,
+      "duration": 3.35
+    }
+  ]
+}

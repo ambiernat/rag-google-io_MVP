@@ -128,5 +128,803 @@
     "num_documents": 20,
     "schema_version": "canonical_v1",
     "timestamp": "2026-01-22T18:03:56.377219+00:00"
+  },
+  {
+    "video_id": "HZvb2t3ZBBg",
+    "status": "ok",
+    "num_documents": 5,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.298062+00:00"
+  },
+  {
+    "video_id": "T41OD37tI54",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.317959+00:00"
+  },
+  {
+    "video_id": "07Y9CPuxgvQ",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.318896+00:00"
+  },
+  {
+    "video_id": "KXKP2tDPW4Y",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.320124+00:00"
+  },
+  {
+    "video_id": "15oPNK1W0Tw",
+    "status": "ok",
+    "num_documents": 22,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.323074+00:00"
+  },
+  {
+    "video_id": "GjvgtwSOCao",
+    "status": "ok",
+    "num_documents": 32,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.326082+00:00"
+  },
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.343662+00:00"
+  },
+  {
+    "video_id": "KbTJNK1ALYc",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.369414+00:00"
+  },
+  {
+    "video_id": "VTCIStB6y8s",
+    "status": "ok",
+    "num_documents": 26,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.395053+00:00"
+  },
+  {
+    "video_id": "w_W2brDZDko",
+    "status": "ok",
+    "num_documents": 24,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.397444+00:00"
+  },
+  {
+    "video_id": "OosLbRBM9dA",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.399055+00:00"
+  },
+  {
+    "video_id": "7Tnq4y7T4xs",
+    "status": "ok",
+    "num_documents": 6,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.400597+00:00"
+  },
+  {
+    "video_id": "flwULzNYRac",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.402989+00:00"
+  },
+  {
+    "video_id": "v-6b_wWF96U",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.406330+00:00"
+  },
+  {
+    "video_id": "gP5Y-ct6QXI",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.407331+00:00"
+  },
+  {
+    "video_id": "2IAoYnzCTvw",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.409892+00:00"
+  },
+  {
+    "video_id": "IaNpcrCSDiI",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.411526+00:00"
+  },
+  {
+    "video_id": "POUqfDBtRbg",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.412746+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.417154+00:00"
+  },
+  {
+    "video_id": "89UusPuz8q4",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.422338+00:00"
+  },
+  {
+    "video_id": "beYbnNT_02U",
+    "status": "ok",
+    "num_documents": 21,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.434361+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.445055+00:00"
+  },
+  {
+    "video_id": "o2wkYzu5u50",
+    "status": "ok",
+    "num_documents": 24,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.461419+00:00"
+  },
+  {
+    "video_id": "6IsFP3gD28E",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.473128+00:00"
+  },
+  {
+    "video_id": "mP9QESmEDls",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.474232+00:00"
+  },
+  {
+    "video_id": "ud09zuXHst4",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.477989+00:00"
+  },
+  {
+    "video_id": "R_gqv8PwM78",
+    "status": "ok",
+    "num_documents": 15,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.481559+00:00"
+  },
+  {
+    "video_id": "3zXVPU2vKXs",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.483886+00:00"
+  },
+  {
+    "video_id": "o8NiE3XMPrM",
+    "status": "ok",
+    "num_documents": 49,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.485946+00:00"
+  },
+  {
+    "video_id": "MmeJSLAnB-M",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.499276+00:00"
+  },
+  {
+    "video_id": "U8Nb68XsVY4",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.503777+00:00"
+  },
+  {
+    "video_id": "v6Rzo5khNE8",
+    "status": "ok",
+    "num_documents": 22,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.508890+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.510314+00:00"
+  },
+  {
+    "video_id": "kj80m-umOxs",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.512035+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.514235+00:00"
+  },
+  {
+    "video_id": "YCNDg9j0p5o",
+    "status": "ok",
+    "num_documents": 15,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-04T18:43:47.517599+00:00"
+  },
+  {
+    "video_id": "80qkStdDWXQ",
+    "status": "ok",
+    "num_documents": 13,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.282309+00:00"
+  },
+  {
+    "video_id": "HZvb2t3ZBBg",
+    "status": "ok",
+    "num_documents": 5,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.323181+00:00"
+  },
+  {
+    "video_id": "T41OD37tI54",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.402650+00:00"
+  },
+  {
+    "video_id": "07Y9CPuxgvQ",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.467833+00:00"
+  },
+  {
+    "video_id": "KXKP2tDPW4Y",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.512266+00:00"
+  },
+  {
+    "video_id": "xo271p-Fl_4",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.550732+00:00"
+  },
+  {
+    "video_id": "15oPNK1W0Tw",
+    "status": "ok",
+    "num_documents": 22,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.647182+00:00"
+  },
+  {
+    "video_id": "GjvgtwSOCao",
+    "status": "ok",
+    "num_documents": 32,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.687344+00:00"
+  },
+  {
+    "video_id": "gHHjDRDNUNU",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.773596+00:00"
+  },
+  {
+    "video_id": "KbTJNK1ALYc",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.814167+00:00"
+  },
+  {
+    "video_id": "fKY6qYxytLI",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.883179+00:00"
+  },
+  {
+    "video_id": "VTCIStB6y8s",
+    "status": "ok",
+    "num_documents": 26,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.928407+00:00"
+  },
+  {
+    "video_id": "w_W2brDZDko",
+    "status": "ok",
+    "num_documents": 24,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:12.988908+00:00"
+  },
+  {
+    "video_id": "21tfI9O9RrA",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.154133+00:00"
+  },
+  {
+    "video_id": "OosLbRBM9dA",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.221324+00:00"
+  },
+  {
+    "video_id": "7Tnq4y7T4xs",
+    "status": "ok",
+    "num_documents": 6,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.295432+00:00"
+  },
+  {
+    "video_id": "flwULzNYRac",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.361814+00:00"
+  },
+  {
+    "video_id": "ihR8hL_Hmec",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.522582+00:00"
+  },
+  {
+    "video_id": "rxKYK3DIzN0",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.529942+00:00"
+  },
+  {
+    "video_id": "v-6b_wWF96U",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.714885+00:00"
+  },
+  {
+    "video_id": "gP5Y-ct6QXI",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.789062+00:00"
+  },
+  {
+    "video_id": "2IAoYnzCTvw",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:13.894202+00:00"
+  },
+  {
+    "video_id": "IaNpcrCSDiI",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.023073+00:00"
+  },
+  {
+    "video_id": "POUqfDBtRbg",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.179063+00:00"
+  },
+  {
+    "video_id": "4TE-KFXvhAk",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.219358+00:00"
+  },
+  {
+    "video_id": "89UusPuz8q4",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.227030+00:00"
+  },
+  {
+    "video_id": "Wl7QvP2eDbA",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.229621+00:00"
+  },
+  {
+    "video_id": "beYbnNT_02U",
+    "status": "ok",
+    "num_documents": 21,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.236413+00:00"
+  },
+  {
+    "video_id": "Uh-7YX8tkxI",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.242249+00:00"
+  },
+  {
+    "video_id": "o2wkYzu5u50",
+    "status": "ok",
+    "num_documents": 24,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.270624+00:00"
+  },
+  {
+    "video_id": "6IsFP3gD28E",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.293061+00:00"
+  },
+  {
+    "video_id": "mP9QESmEDls",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.307998+00:00"
+  },
+  {
+    "video_id": "ud09zuXHst4",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.363544+00:00"
+  },
+  {
+    "video_id": "R_gqv8PwM78",
+    "status": "ok",
+    "num_documents": 15,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.396478+00:00"
+  },
+  {
+    "video_id": "3zXVPU2vKXs",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.427068+00:00"
+  },
+  {
+    "video_id": "o8NiE3XMPrM",
+    "status": "ok",
+    "num_documents": 49,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.532631+00:00"
+  },
+  {
+    "video_id": "MmeJSLAnB-M",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.576743+00:00"
+  },
+  {
+    "video_id": "U8Nb68XsVY4",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.614539+00:00"
+  },
+  {
+    "video_id": "v6Rzo5khNE8",
+    "status": "ok",
+    "num_documents": 22,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.666776+00:00"
+  },
+  {
+    "video_id": "eIeJmYdYMQo",
+    "status": "ok",
+    "num_documents": 19,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.752524+00:00"
+  },
+  {
+    "video_id": "kj80m-umOxs",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.806707+00:00"
+  },
+  {
+    "video_id": "o7Bv4r08FBM",
+    "status": "ok",
+    "num_documents": 20,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.869240+00:00"
+  },
+  {
+    "video_id": "YCNDg9j0p5o",
+    "status": "ok",
+    "num_documents": 15,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-05T20:33:14.970246+00:00"
+  },
+  {
+    "video_id": "XEhd9a9YhSk",
+    "status": "ok",
+    "num_documents": 17,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.174756+00:00"
+  },
+  {
+    "video_id": "ROFC-dQ421A",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.310552+00:00"
+  },
+  {
+    "video_id": "juy9nrcTBck",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.372719+00:00"
+  },
+  {
+    "video_id": "tMUxxCKXz4c",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.446205+00:00"
+  },
+  {
+    "video_id": "jrr8gRI1GaY",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.490427+00:00"
+  },
+  {
+    "video_id": "xLmJJk1gbuE",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.588339+00:00"
+  },
+  {
+    "video_id": "wz3kQQubPkc",
+    "status": "ok",
+    "num_documents": 6,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.612552+00:00"
+  },
+  {
+    "video_id": "10oHjdwUIxo",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.634337+00:00"
+  },
+  {
+    "video_id": "jnUUo7xso_0",
+    "status": "ok",
+    "num_documents": 14,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.697796+00:00"
+  },
+  {
+    "video_id": "NYtQuneZMXc",
+    "status": "ok",
+    "num_documents": 23,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.760291+00:00"
+  },
+  {
+    "video_id": "5HaXfjHtCWo",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.848594+00:00"
+  },
+  {
+    "video_id": "5MPxzw15ojE",
+    "status": "ok",
+    "num_documents": 18,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.896843+00:00"
+  },
+  {
+    "video_id": "BqQiJ5LSASI",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.932646+00:00"
+  },
+  {
+    "video_id": "MmxPBgrrn4Q",
+    "status": "ok",
+    "num_documents": 13,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.948683+00:00"
+  },
+  {
+    "video_id": "gstgT0WRoiE",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:08.965627+00:00"
+  },
+  {
+    "video_id": "6eTiMIhtnBA",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.046207+00:00"
+  },
+  {
+    "video_id": "EVcahPj2jHM",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.146029+00:00"
+  },
+  {
+    "video_id": "CjpZCWYrSxM",
+    "status": "ok",
+    "num_documents": 15,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.205235+00:00"
+  },
+  {
+    "video_id": "8rlNdKywldQ",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.269090+00:00"
+  },
+  {
+    "video_id": "x2zvki_VlRE",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.300145+00:00"
+  },
+  {
+    "video_id": "YN04nNsg_L4",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.344695+00:00"
+  },
+  {
+    "video_id": "sNwaU0w3NS8",
+    "status": "ok",
+    "num_documents": 12,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.362110+00:00"
+  },
+  {
+    "video_id": "xr_zgAv0YoI",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.556393+00:00"
+  },
+  {
+    "video_id": "YYMt7Ddzz6Y",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.689524+00:00"
+  },
+  {
+    "video_id": "gATa_9Dogz4",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.698181+00:00"
+  },
+  {
+    "video_id": "Wzpz_y_EFPs",
+    "status": "ok",
+    "num_documents": 6,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.708630+00:00"
+  },
+  {
+    "video_id": "nZhkjSFB6UA",
+    "status": "ok",
+    "num_documents": 9,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.716264+00:00"
+  },
+  {
+    "video_id": "3Wo-iucic7I",
+    "status": "ok",
+    "num_documents": 8,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.730351+00:00"
+  },
+  {
+    "video_id": "UcXWY057YuQ",
+    "status": "ok",
+    "num_documents": 11,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.771924+00:00"
+  },
+  {
+    "video_id": "BHqxD9qr6Gw",
+    "status": "ok",
+    "num_documents": 5,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.831446+00:00"
+  },
+  {
+    "video_id": "cHNy5mK0jzE",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.857397+00:00"
+  },
+  {
+    "video_id": "VJllI3jMEb4",
+    "status": "ok",
+    "num_documents": 24,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.871928+00:00"
+  },
+  {
+    "video_id": "8iIvAMZ-XYU",
+    "status": "ok",
+    "num_documents": 7,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.886087+00:00"
+  },
+  {
+    "video_id": "I2SplqZ85dk",
+    "status": "ok",
+    "num_documents": 10,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.917446+00:00"
+  },
+  {
+    "video_id": "STMN5N-bDko",
+    "status": "ok",
+    "num_documents": 25,
+    "schema_version": "canonical_v1",
+    "timestamp": "2026-03-07T17:15:09.957130+00:00"
   }
 ]

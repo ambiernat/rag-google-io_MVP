@@ -1,0 +1,79 @@
+[
+  {
+    "id": "v-6b_wWF96U__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 0.0,
+    "timestamp_end": 168.03,
+    "text": "[MUSIC PLAYING] IDA ASSAYESH: Hi, I'm\nIda, the Product Lead for the Gamer Profile on Play. HEMANT PAWAR: And I'm\nHemant Pawar, a Product Lead for Play Game Services. Play Game Services or PGS\nis a foundational piece of technology with features\ndesigned to help enhance the engagement, social\naspects, and overall success of your games across Android\nand Windows platform. In today's talk, we will\ndiscuss how Play Game Services can level up your game on Play. We will also be showcasing\ntwo exciting features, game achievements\nand gen AI avatars. You will also learn\nabout the migration path to PGS V2 and ways to\naccelerate business benefits by preparing ahead for PGS\nV1 sunset timeline of 2028. Let's get started. Over the past few years,\nPlay Game Services has grown significantly\nwith users and developers. The Gamer Profile,\nwhere PGS integration is materialized for users,\nhas more than 570 million monthly active users. Six of the top 10 games on\nAndroid are integrated with PGS. Not just top studios,\nbut indie games also drive engagement\nand monetization using one or more PGS features. Many developers\nalready use PGS today to enable gameplay\ncontinuity across devices. This is specifically\nimportant, as in today's world, users frequently switch back\nand forth from one device to another. We also know that social\nelements, such as competition and community, are key\ndrivers for gamer motivation. Developers use\nleaderboards from PGS to appeal to gamer motivation\nand drive additional user engagement. Additionally, the\nPGS Events API allows you to configure critical events\nfor your game and store gameplay data around these\nevents in Google servers for game analytics. This year, we are doubling\ndown our investment in Gamer Profile and PGS, making\nPGS an even more powerful tool for developers. PGS and the Gamer Profile\nare the means for you and your gamers to access\nall the new features on Play. PGS connects your\ngame with Play. PGS is how you\ncommunicate with Play and how we communicate with you.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 149.65,
+    "timestamp_end": 292.93,
+    "text": "PGS and the Gamer Profile\nare the means for you and your gamers to access\nall the new features on Play. PGS connects your\ngame with Play. PGS is how you\ncommunicate with Play and how we communicate with you. Ida will now talk\nabout some key features coming to the Gamer Profile. IDA ASSAYESH: Now let's chat\nabout some exciting features Play has in store that\ntake both the user and developer experience\nto the next level. The Gamer Profile delivers\na personalized connection to games, enabling\nplayers to stay engaged, customize their experience, and\nunlock a suite of features that consistently enhance gameplay. Players and developers alike\ngain significant benefits from the gamer profile\nand PGS integrations. Today, I'm excited to talk\nabout two key features and how they can enhance your\ngame's success with Play, achievements and gen AI avatars. Let's start with achievements. These are developer-provided,\ntitle-specific achievements that players can earn\nthroughout their gaming journey, such as gathering a\ncertain number of items or reaching new levels. Games that have\nincorporated achievements create a compelling\ngaming experience that motivates players\nto download the game and then continue\nto play the game. Achievements are\nalso a powerful tool for developers who want to\ngrow their games with Play. Not only are games with\nachievements oftentimes more enticing for players,\nbut these games also have increased\nvisibility across Play. Achievements are highlighted\nin the Details page of titles, allowing users to continuously\ntrack their progress. Players can also compare their\nachievements with one another through the game\nor profile, keeping competition high and\nachievements top of mind. When a game has\nachievements, it can also be featured as an\nachievement based quest. These play rewarded mechanics\ncan drive significant results, like increased downloads\nand re-engagement from existing players. In fact, these campaigns target\nboth new and existing users. For individual titles, we have\nseen quests generate upwards",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 275.33,
+    "timestamp_end": 409.44,
+    "text": "These play rewarded mechanics\ncan drive significant results, like increased downloads\nand re-engagement from existing players. In fact, these campaigns target\nboth new and existing users. For individual titles, we have\nseen quests generate upwards of 100,000 new installs\nand re-engagements. All of this is possible\nby adding achievements into your game. Now that we've established\nhow vital achievements are to your game's\nsuccess, let's explore what the best, most effective\nachievement configurations look like. Here are some actionable tips\nfor creating great achievements. And remember, when achievements\nare fun and attainable, they can drive\nengagement and encourage users to try new things, which\nis proven to increase retention. We've seen that gamers with the\nbest success do the following. Reward the gamer throughout\ntheir lifetime with the game. This can mean many different\nthings for your specific game, but typically, that looks\nmore than 20 achievements, with the ideal state\nbeing between 50 and 100. Consider having the player\nunlock their first five achievements within the\nfirst two hours of gameplay. A frequent cadence of\nunlocking achievements can keep users motivated\nthroughout the lifespan of the game. Match game completion\nwith your achievements, or ensure that users are earning\nachievements at a rate that is encouraging to them. All achievements must have an\nasset associated with them. At a minimum, you can\nprovide a single image across all achievements. However, using different\nimages for each achievement is the best way to make\nthem visually appealing and attract user attention\nacross the store. It is also important\nto have diversity in the types of achievements\nyour game offers. Consider creating achievements\naround game progression, leveling up characters or bases,\nEaster eggs, incremental events, and even rewarding\ntrying and failing. Achievements are\nearned in three states, earned, unearned,\nand in progress. Don't forget to add progression\nto your achievements.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 391.56,
+    "timestamp_end": 529.27,
+    "text": "leveling up characters or bases,\nEaster eggs, incremental events, and even rewarding\ntrying and failing. Achievements are\nearned in three states, earned, unearned,\nand in progress. Don't forget to add progression\nto your achievements. Players love to see\nhow they are tracking towards earning an achievement. It is also a great way to\nkeep momentum and gameplay up. Kingdom Rush 5 is\na great example of what high quality\nachievements look like. Different image assets,\nhidden surprises per level, players\ngetting rewarded in-game with gems when they\nearn an achievement, and game completion is when\nall achievements are earned, which is a very\nsatisfying experience. Now let's move on\nto another feature. Gen AI avatars. Gen AI avatars are a new and\nhighly anticipated feature-- so exciting that it\nrecently leaked-- that is coming soon to\nPlay and the Gamer Profile. These AI powered avatars\nrepresent a significant upgrade from the profile's\ncurrent static options. This enhancement\nis a powerful tool for building personalization and\nfostering loyalty among users, allowing them to create unique\ndigital representations which can easily be leveraged\nwithin your games. Play is dedicated to upleveling\nand enriching the overall player experience, providing more\nengaging and expressive ways for users to connect and\nshowcase their gaming worlds. Users are able to generate AI\npowered avatars that are fun, diverse, and represent\ntheir gaming selves, allowing them to put their\npersonal stamp on an avatar that is all their own. We guide users through\nthe AI generation process, featuring a number of exciting\ncharacters, backgrounds, and art styles to choose from that will\nproduce high quality results. With an avatar that\nis uniquely theirs, players are more invested\nin their gaming experience. But these avatars won't just\nlive in the Gamer Profile on Play. With an easy PGS\nintegration, developers can opt to leverage a player's\navatar within their games. This way, your\nusers can continue",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 511.91,
+    "timestamp_end": 670.08,
+    "text": "players are more invested\nin their gaming experience. But these avatars won't just\nlive in the Gamer Profile on Play. With an easy PGS\nintegration, developers can opt to leverage a player's\navatar within their games. This way, your\nusers can continue to express themselves with their\nAI avatar across all your games. Avatars are just one of many\nexciting and personalized updates to the gamer\nprofile that are to come. Stay tuned to see what PGS and\ntheir profile will unlock next. Now I'll hand it\nover to Hemant, who will also speak about how to\naccelerate value with PGS. HEMANT PAWAR: This is where\nit all comes together. PGS enables all\nof these features for you and your gamers. With achievements\nfeature, you send us achievements config via\nPlay Console and unlock trigger via API call, and you get\nenriched presence of game on Play, improved\ndiscoverability via search on Play Store. With quest feature, you send\nus achievements and campaign details, and we create\nand manage quests for you. Your users are rewarded\nwith Play Points, and you get incremental installs\nand monetization for your game. With recall feature, you\ngenerate and send us tokens, and we store these\ntokens with Play, linking your users\nto PGS accounts. This gets you\nability to recognize your users across games,\ndevices, and reinstalls. With this, you can also easily\ntake your games to Windows platform and expand on PC. As you may have noted,\nall of the exciting features we discussed\nrequire PGS integration. Great news is that\nit doesn't have to be all or nothing\nwith PGS integration. We understand that game\nneeds vary for each of you as a game developer. Hence we have built PGS\nas a modular system. Let's look at different paths\nto get value quicker from PGS. But before going deeper\ninto integration options, we want to share an important\nupdate with you about PGS. PGS currently has two SDK and\nAPI sets, PGS V1 and PGS V2. We are unifying the PGS solution\nand PGS V1 is being deprecated. We recently announced the\nsunset, but as a quick reminder,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 650.25,
+    "timestamp_end": 809.25,
+    "text": "we want to share an important\nupdate with you about PGS. PGS currently has two SDK and\nAPI sets, PGS V1 and PGS V2. We are unifying the PGS solution\nand PGS V1 is being deprecated. We recently announced the\nsunset, but as a quick reminder, let's look at the key timelines. Since March 2025, developers\ncannot publish titles with new PGS V1 integrations. If you are planning a new PGS\nintegration, you must use V2. PGS V1 APIs will be\nremoved effective May 2026 and completely shut\ndown in Q3 2028. Existing integrations will\ncontinue to work till Q3 2028, but we recommend you to\nmigrate before the end of 2025 to be ready to take advantage\nof all the new features that we talked about. For resources on\nmigration, please refer to the game dev center. We recommend integrating the\nbase SDK and achievements feature to begin with. This will unlock the benefits\nof achievements and quests for your users and you. Most developers\ntake about one week to integrate the base\nSDK and about two weeks to integrate achievements. We recognize the\nefforts involved in creating the recommended\nnumber of achievements for your game, and hence, we\nhave made it super easy for you. Now you can create\nachievements in bulk in Play Console using CSV\nfiles and import utility. Read more about the new\nfeatures at Gamedev Center and try it out for your game. You can fast follow achievements\nwith the integration of recall feature to link your\nidentity systems with PGS and support continuity\nacross devices. We estimate about one week to\nintegrate the recall feature. In about four weeks,\nyour game is already well-positioned to deliver\namazing experiences to your users. After this minimum\nsuggested integration, you can opt for\nintegrating other features, such as leaderboards and events\nbased on your game needs. Learn more about these\nfeatures at Gamedev Center. Back to you, Ida. IDA ASSAYESH: Thank\nyou for tuning in to hear the latest\nabout the Gamer Profile and Play Game Services. We're excited to\npartner with you",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "v-6b_wWF96U__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "v-6b_wWF96U",
+    "title": "Google I/O 2025 \u2013 v-6b_wWF96U",
+    "timestamp_start": 796.32,
+    "timestamp_end": 826.34,
+    "text": "Learn more about these\nfeatures at Gamedev Center. Back to you, Ida. IDA ASSAYESH: Thank\nyou for tuning in to hear the latest\nabout the Gamer Profile and Play Game Services. We're excited to\npartner with you to land these new\nexperiences for your users, and make sure to check\nout the documentation to learn more about\nmigration to PGS V2, and keep your eye out for all of\nthe new, exciting features that are coming soon in\n2025 and beyond. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

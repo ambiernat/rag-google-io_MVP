@@ -1,0 +1,3772 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "5MPxzw15ojE",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.08
+    },
+    {
+      "text": "SINEAD BOVELL: Hi, everyone.",
+      "start": 3.08,
+      "duration": 1.42
+    },
+    {
+      "text": "My name is Sinead Bovell.",
+      "start": 4.5,
+      "duration": 1.41
+    },
+    {
+      "text": "I am a futurist and\nstrategic foresight advisor,",
+      "start": 5.91,
+      "duration": 3.14
+    },
+    {
+      "text": "and I am really excited to\nintroduce somebody that would be",
+      "start": 9.05,
+      "duration": 2.91
+    },
+    {
+      "text": "considered a celebrity to me.",
+      "start": 11.96,
+      "duration": 2.29
+    },
+    {
+      "text": "So he is a titan of computing.",
+      "start": 14.25,
+      "duration": 2.7
+    },
+    {
+      "text": "He has shaped the\nvery foundations",
+      "start": 16.95,
+      "duration": 1.73
+    },
+    {
+      "text": "of modern technology.",
+      "start": 18.68,
+      "duration": 1.69
+    },
+    {
+      "text": "His work has shaped\nbillions of devices",
+      "start": 20.37,
+      "duration": 2.99
+    },
+    {
+      "text": "and transformed\nour digital world,",
+      "start": 23.36,
+      "duration": 2.11
+    },
+    {
+      "text": "and to not miss any\nof his accolades,",
+      "start": 25.47,
+      "duration": 2.3
+    },
+    {
+      "text": "at UC Berkeley, Pardee\nemeritus, and a Google",
+      "start": 27.77,
+      "duration": 4.5
+    },
+    {
+      "text": "distinguished engineer.",
+      "start": 32.27,
+      "duration": 1.87
+    },
+    {
+      "text": "He literally wrote the book\non computer architecture.",
+      "start": 34.14,
+      "duration": 3.12
+    },
+    {
+      "text": "And not just one of them,\nhe wrote seven of them.",
+      "start": 37.26,
+      "duration": 3.3
+    },
+    {
+      "text": "His unparalleled\ncontributions have earned him",
+      "start": 40.56,
+      "duration": 2.63
+    },
+    {
+      "text": "the Nobel prizes of computing\nand engineering, the Turing",
+      "start": 43.19,
+      "duration": 4.11
+    },
+    {
+      "text": "Award, and the Draper prize.",
+      "start": 47.3,
+      "duration": 2.71
+    },
+    {
+      "text": "Please join me in giving a huge\nwelcome to Dr. David Patterson.",
+      "start": 50.01,
+      "duration": 3.96
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 53.97,
+      "duration": 1.815
+    },
+    {
+      "text": "DAVID PATTERSON: All right.",
+      "start": 55.785,
+      "duration": 1.125
+    },
+    {
+      "text": "SINEAD BOVELL: Thank you.",
+      "start": 56.91,
+      "duration": 1.042
+    },
+    {
+      "text": "DAVID PATTERSON: Well,\nthanks for sticking around",
+      "start": 59.608,
+      "duration": 2.042
+    },
+    {
+      "text": "at to the end.",
+      "start": 61.65,
+      "duration": 2.34
+    },
+    {
+      "text": "I hope the best is last.",
+      "start": 63.99,
+      "duration": 1.75
+    },
+    {
+      "text": "You'll have to get your vote.",
+      "start": 65.74,
+      "duration": 1.32
+    },
+    {
+      "text": "So this was a\ncontroversial title.",
+      "start": 67.06,
+      "duration": 3.5
+    },
+    {
+      "text": "People in comms weren't thrilled\nwith the \"How to Give AI a Bad",
+      "start": 70.56,
+      "duration": 3.75
+    },
+    {
+      "text": "Carbon Footprint.\"",
+      "start": 74.31,
+      "duration": 0.88
+    },
+    {
+      "text": "But I was a Berkeley\nprofessor for four decades",
+      "start": 75.19,
+      "duration": 3.41
+    },
+    {
+      "text": "before I joined Google,\nand in that time,",
+      "start": 78.6,
+      "duration": 2.52
+    },
+    {
+      "text": "I gave a series of\nbad advice talks.",
+      "start": 81.12,
+      "duration": 2.83
+    },
+    {
+      "text": "And my friend and I\nthought to teach students",
+      "start": 83.95,
+      "duration": 2.15
+    },
+    {
+      "text": "how to give a talk, we'd tell\nthem how to give a bad talk.",
+      "start": 86.1,
+      "duration": 2.83
+    },
+    {
+      "text": "And then if you don't want to do\nthat, you do it the other way.",
+      "start": 88.93,
+      "duration": 2.79
+    },
+    {
+      "text": "So we gave a set of\ncommandments that if you follow,",
+      "start": 91.72,
+      "duration": 2.33
+    },
+    {
+      "text": "you're guaranteed\nto be a bad talk.",
+      "start": 94.05,
+      "duration": 1.66
+    },
+    {
+      "text": "And then I did one on how to\nhave a bad career and then how",
+      "start": 95.71,
+      "duration": 3.32
+    },
+    {
+      "text": "to do a bad research lab.",
+      "start": 99.03,
+      "duration": 1.57
+    },
+    {
+      "text": "And this is my fourth one\nthat we're debuting today.",
+      "start": 100.6,
+      "duration": 3.77
+    },
+    {
+      "text": "So the first part is how\nto do it badly and then,",
+      "start": 104.37,
+      "duration": 3.39
+    },
+    {
+      "text": "if you don't want to do that,\nhow to avoid doing it badly.",
+      "start": 107.76,
+      "duration": 3.22
+    },
+    {
+      "text": "And then part of\nmy textbooks that I",
+      "start": 110.98,
+      "duration": 2.21
+    },
+    {
+      "text": "wrote with John Hennessy,\nmy co-author on all those,",
+      "start": 113.19,
+      "duration": 3.27
+    },
+    {
+      "text": "that we have a fallacy section\nat the end of every chapter.",
+      "start": 116.46,
+      "duration": 4.105
+    },
+    {
+      "text": "This sounds right, but\nit doesn't quite work.",
+      "start": 120.565,
+      "duration": 1.875
+    },
+    {
+      "text": "So I'll go over some fallacies.",
+      "start": 122.44,
+      "duration": 1.68
+    },
+    {
+      "text": "And there's a lot\nof fallacies when",
+      "start": 124.12,
+      "duration": 2.06
+    },
+    {
+      "text": "we get to talking\nabout carbon footprint.",
+      "start": 126.18,
+      "duration": 2.17
+    },
+    {
+      "text": "And then Sinead and I\nwill do a little bit",
+      "start": 128.35,
+      "duration": 1.939
+    },
+    {
+      "text": "of question and answer.",
+      "start": 130.289,
+      "duration": 3.061
+    },
+    {
+      "text": "So let's do the\nhow to do it badly,",
+      "start": 133.35,
+      "duration": 3.37
+    },
+    {
+      "text": "how to give it a bad\ncarbon footprint.",
+      "start": 136.72,
+      "duration": 2.27
+    },
+    {
+      "text": "So the advice would be\npick the biggest model,",
+      "start": 138.99,
+      "duration": 3.09
+    },
+    {
+      "text": "and bigger is better.",
+      "start": 142.08,
+      "duration": 1.09
+    },
+    {
+      "text": "We know from the\nscaling laws of OpenAI",
+      "start": 143.17,
+      "duration": 2.6
+    },
+    {
+      "text": "that the bigger it is, the\nsmarter it is, so go big.",
+      "start": 145.77,
+      "duration": 3.9
+    },
+    {
+      "text": "Pick an older GPU.",
+      "start": 149.67,
+      "duration": 1.39
+    },
+    {
+      "text": "The more recent GPUs, like are\n1000 watts when they operate,",
+      "start": 151.06,
+      "duration": 4.07
+    },
+    {
+      "text": "the older ones could\nbe one third of that,",
+      "start": 155.13,
+      "duration": 2.74
+    },
+    {
+      "text": "so let's go with an older one.",
+      "start": 157.87,
+      "duration": 1.5
+    },
+    {
+      "text": "And just pick our\nlocal data center.",
+      "start": 159.37,
+      "duration": 2.32
+    },
+    {
+      "text": "We don't want to have to\nship the data all over.",
+      "start": 161.69,
+      "duration": 2.0
+    },
+    {
+      "text": "We'll just go locally.",
+      "start": 163.69,
+      "duration": 1.98
+    },
+    {
+      "text": "So let's see how that turns out.",
+      "start": 165.67,
+      "duration": 3.17
+    },
+    {
+      "text": "So to calculate the\nemissions we came up",
+      "start": 168.84,
+      "duration": 2.94
+    },
+    {
+      "text": "with a mnemonic we call\nthe four Ms of emissions.",
+      "start": 171.78,
+      "duration": 3.85
+    },
+    {
+      "text": "And each of these is a factor.",
+      "start": 175.63,
+      "duration": 1.79
+    },
+    {
+      "text": "When you multiply them together,\nyou get the emissions from AI.",
+      "start": 177.42,
+      "duration": 4.94
+    },
+    {
+      "text": "So for a model, we're going to\npick this open source model,",
+      "start": 182.36,
+      "duration": 3.59
+    },
+    {
+      "text": "the Llama model from Meta.",
+      "start": 185.95,
+      "duration": 3.61
+    },
+    {
+      "text": "It's the 405 billion\nparameter model.",
+      "start": 189.56,
+      "duration": 3.77
+    },
+    {
+      "text": "So the first thing\nwe're going to count",
+      "start": 193.33,
+      "duration": 1.89
+    },
+    {
+      "text": "is the number of operations and,\nin computer terms, the number",
+      "start": 195.22,
+      "duration": 2.79
+    },
+    {
+      "text": "of floating point operations.",
+      "start": 198.01,
+      "duration": 1.63
+    },
+    {
+      "text": "So that turns out to be\nthat number of 3.8 times 10",
+      "start": 199.64,
+      "duration": 3.17
+    },
+    {
+      "text": "to the 25th.",
+      "start": 202.81,
+      "duration": 2.544
+    },
+    {
+      "text": "10 to the 24 is a septillion.",
+      "start": 205.354,
+      "duration": 2.734
+    },
+    {
+      "text": "That might be what\nyou learned today.",
+      "start": 208.088,
+      "duration": 1.542
+    },
+    {
+      "text": "So about 40 septillion\nfloating point operations",
+      "start": 209.63,
+      "duration": 2.81
+    },
+    {
+      "text": "to train that llama model, so\nthat's the number of operations.",
+      "start": 212.44,
+      "duration": 4.24
+    },
+    {
+      "text": "Next, depending on\nthe hardware we pick,",
+      "start": 216.68,
+      "duration": 2.12
+    },
+    {
+      "text": "it'll turn those\noperations into energy.",
+      "start": 218.8,
+      "duration": 2.59
+    },
+    {
+      "text": "So the Volta, which\nwas an older GPU,",
+      "start": 221.39,
+      "duration": 3.33
+    },
+    {
+      "text": "was the first one with\nhardware to support AI hardware",
+      "start": 224.72,
+      "duration": 5.06
+    },
+    {
+      "text": "acceleration.",
+      "start": 229.78,
+      "duration": 1.2
+    },
+    {
+      "text": "So it operates at a third of--",
+      "start": 230.98,
+      "duration": 3.97
+    },
+    {
+      "text": "about 300 watts and\nabout 25 teraflops.",
+      "start": 234.95,
+      "duration": 3.8
+    },
+    {
+      "text": "So that turns out you get\nan energy for floating point",
+      "start": 238.75,
+      "duration": 2.25
+    },
+    {
+      "text": "operations out of that.",
+      "start": 241.0,
+      "duration": 1.3
+    },
+    {
+      "text": "So if you multiply\nthose two together,",
+      "start": 242.3,
+      "duration": 2.28
+    },
+    {
+      "text": "we get how much energy?",
+      "start": 244.58,
+      "duration": 1.47
+    },
+    {
+      "text": "But it has to go\nin a data center.",
+      "start": 246.05,
+      "duration": 2.31
+    },
+    {
+      "text": "So then the question is, how\nefficient is the data center?",
+      "start": 248.36,
+      "duration": 3.71
+    },
+    {
+      "text": "It turns out that\nthe industry has",
+      "start": 252.07,
+      "duration": 2.19
+    },
+    {
+      "text": "standardized on a metric\nthat's called power usage",
+      "start": 254.26,
+      "duration": 3.3
+    },
+    {
+      "text": "effectiveness.",
+      "start": 257.56,
+      "duration": 1.0
+    },
+    {
+      "text": "And you just take all the energy\ngoing into the data center,",
+      "start": 258.56,
+      "duration": 2.76
+    },
+    {
+      "text": "and you divide it by the energy\nthat the computers actually use.",
+      "start": 261.32,
+      "duration": 3.63
+    },
+    {
+      "text": "So some local data centers will\nhave a power usage effectiveness",
+      "start": 264.95,
+      "duration": 4.25
+    },
+    {
+      "text": "of 2, which means about\nonly half of the energy",
+      "start": 269.2,
+      "duration": 3.035
+    },
+    {
+      "text": "goes to equipment,\nand half of it",
+      "start": 272.235,
+      "duration": 1.375
+    },
+    {
+      "text": "goes for\npower-distributed cooling.",
+      "start": 273.61,
+      "duration": 2.072
+    },
+    {
+      "text": "So that's pretty inefficient.",
+      "start": 275.682,
+      "duration": 1.208
+    },
+    {
+      "text": "So when you multiply the\nmodel times the machine times",
+      "start": 276.89,
+      "duration": 3.35
+    },
+    {
+      "text": "what we call mechanization\nto get an M out of it,",
+      "start": 280.24,
+      "duration": 3.16
+    },
+    {
+      "text": "that's how much energy you use.",
+      "start": 283.4,
+      "duration": 2.48
+    },
+    {
+      "text": "And then I think one of the big\nsurprises when we got into this",
+      "start": 285.88,
+      "duration": 4.11
+    },
+    {
+      "text": "was how variable\nit is by geography,",
+      "start": 289.99,
+      "duration": 3.51
+    },
+    {
+      "text": "that the energy intensity or the\ncarbon intensity varies a lot.",
+      "start": 293.5,
+      "duration": 4.52
+    },
+    {
+      "text": "So to make it bad, we're\ngoing to pick West Virginia",
+      "start": 298.02,
+      "duration": 3.44
+    },
+    {
+      "text": "because there's a\nlot of coal mines",
+      "start": 301.46,
+      "duration": 1.92
+    },
+    {
+      "text": "there, so the public\npolicy is to create energy",
+      "start": 303.38,
+      "duration": 3.48
+    },
+    {
+      "text": "by burning coal.",
+      "start": 306.86,
+      "duration": 1.57
+    },
+    {
+      "text": "So if you look at the\nbottom of the slide,",
+      "start": 308.43,
+      "duration": 2.37
+    },
+    {
+      "text": "we put those four\nfactors together,",
+      "start": 310.8,
+      "duration": 2.0
+    },
+    {
+      "text": "and you end up with this\nnumber 2.4 times 10 to the 5th",
+      "start": 312.8,
+      "duration": 4.23
+    },
+    {
+      "text": "kilograms.",
+      "start": 317.03,
+      "duration": 1.23
+    },
+    {
+      "text": "In this community, the numbers\nare so big they use tons.",
+      "start": 318.26,
+      "duration": 4.54
+    },
+    {
+      "text": "That's British tons.",
+      "start": 322.8,
+      "duration": 1.35
+    },
+    {
+      "text": "That's 1000 kilograms.",
+      "start": 324.15,
+      "duration": 1.25
+    },
+    {
+      "text": "Americans call it metric tons.",
+      "start": 325.4,
+      "duration": 1.93
+    },
+    {
+      "text": "So 240,000 metric tons, that's\nthe emissions for training",
+      "start": 327.33,
+      "duration": 5.21
+    },
+    {
+      "text": "the Llama model.",
+      "start": 332.54,
+      "duration": 0.788
+    },
+    {
+      "text": "That's what we're trying to do.",
+      "start": 333.328,
+      "duration": 1.292
+    },
+    {
+      "text": "That's the bad example.",
+      "start": 334.62,
+      "duration": 2.09
+    },
+    {
+      "text": "So if we don't want it\nto be bad, what do we do?",
+      "start": 336.71,
+      "duration": 4.02
+    },
+    {
+      "text": "Well, don't do the\nones on the right.",
+      "start": 340.73,
+      "duration": 2.46
+    },
+    {
+      "text": "Do the ones on the left.",
+      "start": 343.19,
+      "duration": 1.21
+    },
+    {
+      "text": "Instead of picking\nthe biggest model,",
+      "start": 344.4,
+      "duration": 1.92
+    },
+    {
+      "text": "pick the most efficient model.",
+      "start": 346.32,
+      "duration": 1.47
+    },
+    {
+      "text": "That makes sense.",
+      "start": 347.79,
+      "duration": 1.86
+    },
+    {
+      "text": "And it turns out you don't\nwant to use an older GPU,",
+      "start": 349.65,
+      "duration": 3.18
+    },
+    {
+      "text": "even if it uses less energy\nwhile it's operating.",
+      "start": 352.83,
+      "duration": 4.6
+    },
+    {
+      "text": "You want to use the\nlatest GPU or TPU",
+      "start": 357.43,
+      "duration": 2.81
+    },
+    {
+      "text": "because it's so much faster.",
+      "start": 360.24,
+      "duration": 1.63
+    },
+    {
+      "text": "So it uses more\nenergy per second,",
+      "start": 361.87,
+      "duration": 3.06
+    },
+    {
+      "text": "but it takes fewer\nseconds to run.",
+      "start": 364.93,
+      "duration": 3.47
+    },
+    {
+      "text": "And then you have to worry\nabout the mechanization.",
+      "start": 368.4,
+      "duration": 3.242
+    },
+    {
+      "text": "How efficient is data center?",
+      "start": 371.642,
+      "duration": 1.208
+    },
+    {
+      "text": "Well, the cloud companies have\nbeen building giant data centers",
+      "start": 372.85,
+      "duration": 3.2
+    },
+    {
+      "text": "for 20 years, so they're\nreally good at making",
+      "start": 376.05,
+      "duration": 2.58
+    },
+    {
+      "text": "them very efficient.",
+      "start": 378.63,
+      "duration": 1.06
+    },
+    {
+      "text": "So we'll see what the\nnumbers turn out to be.",
+      "start": 379.69,
+      "duration": 2.85
+    },
+    {
+      "text": "And then since we're in the\ncloud, we can train it anywhere.",
+      "start": 382.54,
+      "duration": 3.87
+    },
+    {
+      "text": "Let's not train it\nin West Virginia",
+      "start": 386.41,
+      "duration": 2.25
+    },
+    {
+      "text": "that burns coal for energy.",
+      "start": 388.66,
+      "duration": 1.62
+    },
+    {
+      "text": "Let's train it someplace else\nthat's much more efficient.",
+      "start": 390.28,
+      "duration": 3.21
+    },
+    {
+      "text": "OK, so let's go to\nour four Ms again.",
+      "start": 393.49,
+      "duration": 3.02
+    },
+    {
+      "text": "Instead of the Llama model,\nwe're going to use Google's open",
+      "start": 396.51,
+      "duration": 4.56
+    },
+    {
+      "text": "source model, Gemma 3 27B.",
+      "start": 401.07,
+      "duration": 3.87
+    },
+    {
+      "text": "That's about the same\nquality as the Llama model",
+      "start": 404.94,
+      "duration": 3.36
+    },
+    {
+      "text": "that Google has done.",
+      "start": 408.3,
+      "duration": 1.33
+    },
+    {
+      "text": "How many floating\npoint operations?",
+      "start": 409.63,
+      "duration": 1.77
+    },
+    {
+      "text": "It's about two septillion\nfloating point operations.",
+      "start": 411.4,
+      "duration": 4.86
+    },
+    {
+      "text": "That's almost a factor of 20\nbetter than the lambda model.",
+      "start": 416.26,
+      "duration": 3.18
+    },
+    {
+      "text": "So we get a factor of 20 there.",
+      "start": 419.44,
+      "duration": 1.53
+    },
+    {
+      "text": "Let's go to the machine.",
+      "start": 420.97,
+      "duration": 2.01
+    },
+    {
+      "text": "Not surprisingly, I'm going\nto use the latest Google TPU.",
+      "start": 422.98,
+      "duration": 3.44
+    },
+    {
+      "text": "That's about a factor of 4\nbetter than the old NVIDIA GPU.",
+      "start": 426.42,
+      "duration": 5.31
+    },
+    {
+      "text": "And I told you when we used\nthe cloud data centers,",
+      "start": 431.73,
+      "duration": 3.22
+    },
+    {
+      "text": "the power usage\neffectiveness is really good.",
+      "start": 434.95,
+      "duration": 3.21
+    },
+    {
+      "text": "It's only about 10% tax.",
+      "start": 438.16,
+      "duration": 2.22
+    },
+    {
+      "text": "So 90% of all the energy is\ngoing through the equipment,",
+      "start": 440.38,
+      "duration": 3.45
+    },
+    {
+      "text": "and about 10% goes for power\ndistribution and cooling.",
+      "start": 443.83,
+      "duration": 4.19
+    },
+    {
+      "text": "And then finally,\nlike I said, maps,",
+      "start": 448.02,
+      "duration": 3.03
+    },
+    {
+      "text": "given we got to turn all that\nenergy into emissions, let's",
+      "start": 451.05,
+      "duration": 3.39
+    },
+    {
+      "text": "go to the place that's got the\nlowest emissions per megawatt",
+      "start": 454.44,
+      "duration": 4.25
+    },
+    {
+      "text": "hour.",
+      "start": 458.69,
+      "duration": 0.5
+    },
+    {
+      "text": "And that, if we keep it in a\nplace with hydroelectric power,",
+      "start": 459.19,
+      "duration": 4.73
+    },
+    {
+      "text": "like the Northwest, then\nwe get a much lower number.",
+      "start": 463.92,
+      "duration": 3.67
+    },
+    {
+      "text": "The last slide, it was 240,000.",
+      "start": 467.59,
+      "duration": 2.79
+    },
+    {
+      "text": "This slide is 150 tons.",
+      "start": 470.38,
+      "duration": 4.02
+    },
+    {
+      "text": "And if we go\nthrough the numbers,",
+      "start": 474.4,
+      "duration": 2.41
+    },
+    {
+      "text": "there was that factor of 20\nfor model times a factor of 4.",
+      "start": 476.81,
+      "duration": 4.08
+    },
+    {
+      "text": "That's a factor of 80.",
+      "start": 480.89,
+      "duration": 1.44
+    },
+    {
+      "text": "And then the mechanization\nis about 2, so that's 160.",
+      "start": 482.33,
+      "duration": 3.84
+    },
+    {
+      "text": "And maps is about\na factor of 10.",
+      "start": 486.17,
+      "duration": 1.68
+    },
+    {
+      "text": "That's 1,600.",
+      "start": 487.85,
+      "duration": 1.08
+    },
+    {
+      "text": "And that's very close.",
+      "start": 488.93,
+      "duration": 1.47
+    },
+    {
+      "text": "So we could make\nit bad 1,500 times,",
+      "start": 490.4,
+      "duration": 5.28
+    },
+    {
+      "text": "1,600 times worse than it\nwas than if we make it good.",
+      "start": 495.68,
+      "duration": 3.33
+    },
+    {
+      "text": "So you saw the\nwrong way to do it,",
+      "start": 499.01,
+      "duration": 3.24
+    },
+    {
+      "text": "and now you can see\nthe right way to do it.",
+      "start": 502.25,
+      "duration": 2.93
+    },
+    {
+      "text": "Now we're going to move\ninto the fallacies.",
+      "start": 505.18,
+      "duration": 5.2
+    },
+    {
+      "text": "And when I got started on\nthis a couple of years ago,",
+      "start": 510.38,
+      "duration": 3.27
+    },
+    {
+      "text": "one of the Googlers gave me a\npiece of advice going into it.",
+      "start": 513.65,
+      "duration": 3.277
+    },
+    {
+      "text": "As an engineer, you think\nkind of, everything's science.",
+      "start": 516.927,
+      "duration": 2.333
+    },
+    {
+      "text": "And she said, energy is physics,\nso that's still science.",
+      "start": 519.26,
+      "duration": 3.69
+    },
+    {
+      "text": "But emissions is accounting.",
+      "start": 522.95,
+      "duration": 2.04
+    },
+    {
+      "text": "So why is it an accounting\nrather than a science?",
+      "start": 524.99,
+      "duration": 2.79
+    },
+    {
+      "text": "Because you have this\nlong supply chain,",
+      "start": 527.78,
+      "duration": 2.09
+    },
+    {
+      "text": "and you've got to decide,\nwell, who gets credit for what?",
+      "start": 529.87,
+      "duration": 2.76
+    },
+    {
+      "text": "And who is responsible\nfor what things?",
+      "start": 532.63,
+      "duration": 1.79
+    },
+    {
+      "text": "So you have to set up\nan accounting system",
+      "start": 534.42,
+      "duration": 2.45
+    },
+    {
+      "text": "to be able to keep it fair and\nmake it work for everybody.",
+      "start": 536.87,
+      "duration": 4.23
+    },
+    {
+      "text": "So let's go over the fallacies.",
+      "start": 541.1,
+      "duration": 3.21
+    },
+    {
+      "text": "So the first one\nwas that assumption",
+      "start": 544.31,
+      "duration": 1.95
+    },
+    {
+      "text": "we made that newer hardware is\nworse than the older hardware.",
+      "start": 546.26,
+      "duration": 3.22
+    },
+    {
+      "text": "So I and four or five friends\nhere at Google just published",
+      "start": 549.48,
+      "duration": 4.94
+    },
+    {
+      "text": "kind of a breakthrough paper,\nand it's called a \"Life Cycle",
+      "start": 554.42,
+      "duration": 3.51
+    },
+    {
+      "text": "Analysis of AI Accelerators\"\nthat had never been done before.",
+      "start": 557.93,
+      "duration": 3.73
+    },
+    {
+      "text": "So life cycle analysis means you\ntake it from cradle to grave.",
+      "start": 561.66,
+      "duration": 4.11
+    },
+    {
+      "text": "So you get the materials from--",
+      "start": 565.77,
+      "duration": 3.02
+    },
+    {
+      "text": "mine the materials.",
+      "start": 568.79,
+      "duration": 1.147
+    },
+    {
+      "text": "And then you put it in\nsimulated processing.",
+      "start": 569.937,
+      "duration": 1.833
+    },
+    {
+      "text": "You get chips out of it\nand put chips on boards.",
+      "start": 571.77,
+      "duration": 2.3
+    },
+    {
+      "text": "And you stick them in racks.",
+      "start": 574.07,
+      "duration": 1.3
+    },
+    {
+      "text": "You have to transport all\nthat to a Google data center",
+      "start": 575.37,
+      "duration": 3.92
+    },
+    {
+      "text": "and install it.",
+      "start": 579.29,
+      "duration": 1.26
+    },
+    {
+      "text": "Then it has its\noperational lifetime,",
+      "start": 580.55,
+      "duration": 2.47
+    },
+    {
+      "text": "so that's the manufacturing\nand transportation costs.",
+      "start": 583.02,
+      "duration": 2.82
+    },
+    {
+      "text": "That's called embodied\ncarbon footprint.",
+      "start": 585.84,
+      "duration": 2.55
+    },
+    {
+      "text": "Then there's the operational\npiece over its lifetime, say,",
+      "start": 588.39,
+      "duration": 3.05
+    },
+    {
+      "text": "six years.",
+      "start": 591.44,
+      "duration": 0.9
+    },
+    {
+      "text": "And then at the end,\nyou have to recycle it,",
+      "start": 592.34,
+      "duration": 2.26
+    },
+    {
+      "text": "so we did the whole\ncradle-to-grave approach",
+      "start": 594.6,
+      "duration": 3.59
+    },
+    {
+      "text": "and did the cost.",
+      "start": 598.19,
+      "duration": 1.62
+    },
+    {
+      "text": "Now, we did this for five TPUs.",
+      "start": 599.81,
+      "duration": 3.13
+    },
+    {
+      "text": "So the five TPUs break into two\nsets of what Google Cloud refers",
+      "start": 602.94,
+      "duration": 5.48
+    },
+    {
+      "text": "to as the versatile TPUs.",
+      "start": 608.42,
+      "duration": 2.17
+    },
+    {
+      "text": "That's TPU v4, v5e, and 6e.",
+      "start": 610.59,
+      "duration": 3.63
+    },
+    {
+      "text": "The 6e's the one\ncalled the Trillium.",
+      "start": 614.22,
+      "duration": 1.94
+    },
+    {
+      "text": "And so you can see, the carbon\nemissions, smaller is better.",
+      "start": 616.16,
+      "duration": 5.26
+    },
+    {
+      "text": "So it's about a factor\nof 3 improvement",
+      "start": 621.42,
+      "duration": 2.36
+    },
+    {
+      "text": "between those generations,\nwhich just took two years.",
+      "start": 623.78,
+      "duration": 3.19
+    },
+    {
+      "text": "That's the overall.",
+      "start": 626.97,
+      "duration": 0.98
+    },
+    {
+      "text": "If we look at finer detail,\nthe light blue at the bottom,",
+      "start": 627.95,
+      "duration": 2.98
+    },
+    {
+      "text": "that's the embodied piece.",
+      "start": 630.93,
+      "duration": 1.23
+    },
+    {
+      "text": "And again, it's\nabout a factor of 3.",
+      "start": 632.16,
+      "duration": 2.13
+    },
+    {
+      "text": "If we look over at\nthe powerful TPUs,",
+      "start": 634.29,
+      "duration": 3.02
+    },
+    {
+      "text": "this is the ones\nthat do the training.",
+      "start": 637.31,
+      "duration": 1.69
+    },
+    {
+      "text": "This is like 4,000 chips in a\npod or 8,000 chips in a pod.",
+      "start": 639.0,
+      "duration": 3.9
+    },
+    {
+      "text": "It's about a factor\nof 1.2 or 1.3,",
+      "start": 642.9,
+      "duration": 2.85
+    },
+    {
+      "text": "both overall and then\nfor the [? embodied. ?]",
+      "start": 645.75,
+      "duration": 4.01
+    },
+    {
+      "text": "Now, I have to get into a little\nbit the accounting issues here.",
+      "start": 649.76,
+      "duration": 3.8
+    },
+    {
+      "text": "So why is that tall bar in\na dark piece and a light",
+      "start": 653.56,
+      "duration": 4.52
+    },
+    {
+      "text": "a medium blue piece there?",
+      "start": 658.08,
+      "duration": 1.69
+    },
+    {
+      "text": "Well, that's because what's\ncalled the Greenhouse Gas",
+      "start": 659.77,
+      "duration": 3.23
+    },
+    {
+      "text": "Protocol has agreed on how we\ncan count account for emissions.",
+      "start": 663.0,
+      "duration": 6.82
+    },
+    {
+      "text": "The first one at the top is\ncalled location base, that is,",
+      "start": 669.82,
+      "duration": 4.04
+    },
+    {
+      "text": "just based on what you\nget from the local utility",
+      "start": 673.86,
+      "duration": 3.46
+    },
+    {
+      "text": "how much emissions do you get.",
+      "start": 677.32,
+      "duration": 2.78
+    },
+    {
+      "text": "But we want people to buy\nclean energy in addition",
+      "start": 680.1,
+      "duration": 3.09
+    },
+    {
+      "text": "to what you get\nfrom the utility.",
+      "start": 683.19,
+      "duration": 2.14
+    },
+    {
+      "text": "And so they created\na market for that,",
+      "start": 685.33,
+      "duration": 3.09
+    },
+    {
+      "text": "so that's called market based.",
+      "start": 688.42,
+      "duration": 1.56
+    },
+    {
+      "text": "So the light blue bar\nthere is the market based,",
+      "start": 689.98,
+      "duration": 4.52
+    },
+    {
+      "text": "and the tall one is\nthe location based.",
+      "start": 694.5,
+      "duration": 2.518
+    },
+    {
+      "text": "But no matter how\nyou account for it,",
+      "start": 697.018,
+      "duration": 1.542
+    },
+    {
+      "text": "it's still this dramatic\nreduction for the versatile TPUs",
+      "start": 698.56,
+      "duration": 4.07
+    },
+    {
+      "text": "and a significant reduction\nfor the powerful TPUs.",
+      "start": 702.63,
+      "duration": 2.11
+    },
+    {
+      "text": "So the fallacy was\n[INAUDIBLE] was worse.",
+      "start": 704.74,
+      "duration": 4.71
+    },
+    {
+      "text": "That was a long explanation\nof how it's actually better.",
+      "start": 709.45,
+      "duration": 3.06
+    },
+    {
+      "text": "So that was fortunate.",
+      "start": 712.51,
+      "duration": 2.7
+    },
+    {
+      "text": "We didn't know what was\ngoing to happen if--",
+      "start": 715.21,
+      "duration": 2.39
+    },
+    {
+      "text": "it would have been sad for our\nleadership if we did the study",
+      "start": 717.6,
+      "duration": 3.75
+    },
+    {
+      "text": "and said, hey, don't\nuse the new TPUs.",
+      "start": 721.35,
+      "duration": 2.41
+    },
+    {
+      "text": "Use the old TPUs.",
+      "start": 723.76,
+      "duration": 0.785
+    },
+    {
+      "text": "But it turned out\nto be the best.",
+      "start": 724.545,
+      "duration": 1.375
+    },
+    {
+      "text": "Basically, they\nuse more emissions,",
+      "start": 725.92,
+      "duration": 1.86
+    },
+    {
+      "text": "but they're so much faster,\nThey're a better thing to use.",
+      "start": 727.78,
+      "duration": 4.64
+    },
+    {
+      "text": "This one's going to take\na little longer to do.",
+      "start": 732.42,
+      "duration": 2.59
+    },
+    {
+      "text": "You see, I've got a\nmovie set facade here,",
+      "start": 735.01,
+      "duration": 2.19
+    },
+    {
+      "text": "so that's kind of a hint of\nwhat the story is going to be.",
+      "start": 737.2,
+      "duration": 2.49
+    },
+    {
+      "text": "It looks good from\nthe front, but if you",
+      "start": 739.69,
+      "duration": 2.12
+    },
+    {
+      "text": "go in the back of\nthe movie set, you",
+      "start": 741.81,
+      "duration": 1.71
+    },
+    {
+      "text": "see it's just an\nempty space and iron.",
+      "start": 743.52,
+      "duration": 3.88
+    },
+    {
+      "text": "So I got to tell you\nan allegorical story",
+      "start": 747.4,
+      "duration": 2.78
+    },
+    {
+      "text": "to set the stage, and then I\nthink it'll be easy to relate.",
+      "start": 750.18,
+      "duration": 3.61
+    },
+    {
+      "text": "So the allegory is you and your\nfriend Max, you're best friends.",
+      "start": 753.79,
+      "duration": 4.71
+    },
+    {
+      "text": "You're single.",
+      "start": 758.5,
+      "duration": 0.84
+    },
+    {
+      "text": "You're young.",
+      "start": 759.34,
+      "duration": 0.56
+    },
+    {
+      "text": "And you hate to cook, so\nyou eat all your meals out",
+      "start": 759.9,
+      "duration": 2.91
+    },
+    {
+      "text": "at restaurants, three meals\na day, 365 days a year.",
+      "start": 762.81,
+      "duration": 3.6
+    },
+    {
+      "text": "You start getting worried about\nyour health for both of you",
+      "start": 766.41,
+      "duration": 3.41
+    },
+    {
+      "text": "but particularly\nyourself so think",
+      "start": 769.82,
+      "duration": 1.67
+    },
+    {
+      "text": "we should start eating\nmore organic food.",
+      "start": 771.49,
+      "duration": 3.04
+    },
+    {
+      "text": "Well, then you find\nout there's a society",
+      "start": 774.53,
+      "duration": 2.45
+    },
+    {
+      "text": "that's trying to promote\norganic food in restaurants.",
+      "start": 776.98,
+      "duration": 4.5
+    },
+    {
+      "text": "And so they put little\nstickers on the menu items",
+      "start": 781.48,
+      "duration": 4.08
+    },
+    {
+      "text": "that are organic.",
+      "start": 785.56,
+      "duration": 1.15
+    },
+    {
+      "text": "And when you buy organic meals,\nyou get an organic certificate.",
+      "start": 786.71,
+      "duration": 4.95
+    },
+    {
+      "text": "And the society to encourage\npeople to eat more organically",
+      "start": 791.66,
+      "duration": 5.06
+    },
+    {
+      "text": "spreads towards the\nrestaurants, and they",
+      "start": 796.72,
+      "duration": 1.71
+    },
+    {
+      "text": "run a leaderboard where the\nwinner at the end of the year",
+      "start": 798.43,
+      "duration": 3.78
+    },
+    {
+      "text": "gets prizes on that.",
+      "start": 802.21,
+      "duration": 2.17
+    },
+    {
+      "text": "So you get involved.",
+      "start": 804.38,
+      "duration": 1.38
+    },
+    {
+      "text": "Your friend Max isn't\nall that excited.",
+      "start": 805.76,
+      "duration": 1.86
+    },
+    {
+      "text": "And you get, in\na year, 365 days.",
+      "start": 807.62,
+      "duration": 2.85
+    },
+    {
+      "text": "There's about 1,100\nmeals that you'd eat.",
+      "start": 810.47,
+      "duration": 2.61
+    },
+    {
+      "text": "You get 800, and you turn it in.",
+      "start": 813.08,
+      "duration": 2.18
+    },
+    {
+      "text": "And then they announce\nthe prize, and you win.",
+      "start": 815.26,
+      "duration": 2.29
+    },
+    {
+      "text": "You get accolades.",
+      "start": 817.55,
+      "duration": 1.91
+    },
+    {
+      "text": "People like you, the\narticle, newspaper.",
+      "start": 819.46,
+      "duration": 3.06
+    },
+    {
+      "text": "You feel really good about it.",
+      "start": 822.52,
+      "duration": 1.44
+    },
+    {
+      "text": "Next year you want\nto do it again.",
+      "start": 823.96,
+      "duration": 2.47
+    },
+    {
+      "text": "So you get up to 900, and\nyou're waiting for the results.",
+      "start": 826.43,
+      "duration": 4.44
+    },
+    {
+      "text": "And at 900, you come\nin second place.",
+      "start": 830.87,
+      "duration": 2.73
+    },
+    {
+      "text": "Somebody has 1,000 meals,\neven better than you.",
+      "start": 833.6,
+      "duration": 3.72
+    },
+    {
+      "text": "But the amazing thing is the\nperson with 1,000 meals is Max.",
+      "start": 837.32,
+      "duration": 3.99
+    },
+    {
+      "text": "You've gone to meals\nwith Max all year.",
+      "start": 841.31,
+      "duration": 3.69
+    },
+    {
+      "text": "He almost never orders organic.",
+      "start": 845.0,
+      "duration": 2.28
+    },
+    {
+      "text": "So you confront him,\nwhat's going on?",
+      "start": 847.28,
+      "duration": 2.34
+    },
+    {
+      "text": "So Max says, well, I read\nthe fine print of the rules.",
+      "start": 849.62,
+      "duration": 4.35
+    },
+    {
+      "text": "And you don't have to\nturn in the receipts",
+      "start": 853.97,
+      "duration": 4.61
+    },
+    {
+      "text": "for the meals you eat.",
+      "start": 858.58,
+      "duration": 1.54
+    },
+    {
+      "text": "You just have to turn in\nreceipts that you buy somewhere.",
+      "start": 860.12,
+      "duration": 3.06
+    },
+    {
+      "text": "So I looked, and in San\nDiego, I could for--",
+      "start": 863.18,
+      "duration": 4.16
+    },
+    {
+      "text": "the cheapest places San\nDiego in April for breakfast.",
+      "start": 867.34,
+      "duration": 3.88
+    },
+    {
+      "text": "So I bought 1,000 breakfasts in\nSan Diego and then turned those",
+      "start": 871.22,
+      "duration": 5.12
+    },
+    {
+      "text": "receipts in, those organic\nreceipts, during the year.",
+      "start": 876.34,
+      "duration": 2.68
+    },
+    {
+      "text": "And that's how I won.",
+      "start": 879.02,
+      "duration": 1.58
+    },
+    {
+      "text": "Well, then you say to Max, but\nA, it's not helping your health.",
+      "start": 880.6,
+      "duration": 3.76
+    },
+    {
+      "text": "You're not eating\nanything organically.",
+      "start": 884.36,
+      "duration": 2.57
+    },
+    {
+      "text": "Also you're not encouraging\nlocal restaurants",
+      "start": 886.93,
+      "duration": 2.53
+    },
+    {
+      "text": "to offer organic food because\nyou're buying in San Diego.",
+      "start": 889.46,
+      "duration": 3.27
+    },
+    {
+      "text": "And even in San\nDiego, you're only",
+      "start": 892.73,
+      "duration": 4.95
+    },
+    {
+      "text": "buying breakfast,\nnot the other meals,",
+      "start": 897.68,
+      "duration": 1.63
+    },
+    {
+      "text": "and you're only\ndoing it in April.",
+      "start": 899.31,
+      "duration": 1.68
+    },
+    {
+      "text": "So what do you\nthink you're doing?",
+      "start": 900.99,
+      "duration": 2.07
+    },
+    {
+      "text": "Well, I'm getting all the good\npress, and I feel good about it.",
+      "start": 903.06,
+      "duration": 3.36
+    },
+    {
+      "text": "And I like eating the way I am.",
+      "start": 906.42,
+      "duration": 1.842
+    },
+    {
+      "text": "So that's the long\nallegorical story setup.",
+      "start": 908.262,
+      "duration": 3.188
+    },
+    {
+      "text": "What's the relationship here?",
+      "start": 911.45,
+      "duration": 1.87
+    },
+    {
+      "text": "So when they set up the\nGreenhouse Gas Protocol,",
+      "start": 913.32,
+      "duration": 3.33
+    },
+    {
+      "text": "this accounting\nsystem for companies",
+      "start": 916.65,
+      "duration": 2.09
+    },
+    {
+      "text": "to follow, about 20 years\nago, as you might expect,",
+      "start": 918.74,
+      "duration": 4.84
+    },
+    {
+      "text": "when people were buying\ncarbon-free energy,",
+      "start": 923.58,
+      "duration": 2.82
+    },
+    {
+      "text": "they got certificates.",
+      "start": 926.4,
+      "duration": 1.32
+    },
+    {
+      "text": "They're called energy\nattribute certificates.",
+      "start": 927.72,
+      "duration": 2.7
+    },
+    {
+      "text": "So basically, when you buy clean\nenergy, for every megawatt,",
+      "start": 930.42,
+      "duration": 3.03
+    },
+    {
+      "text": "you've got a certificate.",
+      "start": 933.45,
+      "duration": 1.52
+    },
+    {
+      "text": "But what some people started\ndoing was kind of Max.",
+      "start": 934.97,
+      "duration": 3.4
+    },
+    {
+      "text": "Well, I don't want to buy clean\nenergy from the local one.",
+      "start": 938.37,
+      "duration": 3.06
+    },
+    {
+      "text": "I'll just buy it in some\nother part of the country,",
+      "start": 941.43,
+      "duration": 3.23
+    },
+    {
+      "text": "and I'll just buy it some\nother part of the year.",
+      "start": 944.66,
+      "duration": 2.66
+    },
+    {
+      "text": "And then I'll take\ncredit for it.",
+      "start": 947.32,
+      "duration": 1.97
+    },
+    {
+      "text": "So the difference between those\nthings, when you buy an energy",
+      "start": 949.29,
+      "duration": 4.02
+    },
+    {
+      "text": "certificate along with\nthe energy, that's",
+      "start": 953.31,
+      "duration": 1.95
+    },
+    {
+      "text": "called a bundled energy\nattribute certificate.",
+      "start": 955.26,
+      "duration": 3.67
+    },
+    {
+      "text": "And when you buy it from\nanywhere in the country,",
+      "start": 958.93,
+      "duration": 3.87
+    },
+    {
+      "text": "then you get an unbundled one.",
+      "start": 962.8,
+      "duration": 1.92
+    },
+    {
+      "text": "And in fact, the rules\nare any time of the year,",
+      "start": 964.72,
+      "duration": 2.908
+    },
+    {
+      "text": "anywhere in the same continent.",
+      "start": 967.628,
+      "duration": 1.292
+    },
+    {
+      "text": "So it doesn't even have to\nbe in the United States.",
+      "start": 968.92,
+      "duration": 1.73
+    },
+    {
+      "text": "And in Europe, it can be\nany country in Europe.",
+      "start": 970.65,
+      "duration": 2.07
+    },
+    {
+      "text": "You can be in France.",
+      "start": 972.72,
+      "duration": 1.39
+    },
+    {
+      "text": "You can buy it in Poland.",
+      "start": 974.11,
+      "duration": 2.78
+    },
+    {
+      "text": "Well, like your skepticism\nabout Max benefits",
+      "start": 976.89,
+      "duration": 4.71
+    },
+    {
+      "text": "of eating organically, academics\nhave studied the benefit.",
+      "start": 981.6,
+      "duration": 3.97
+    },
+    {
+      "text": "What happens with\nthese unbundled EACs.",
+      "start": 985.57,
+      "duration": 2.16
+    },
+    {
+      "text": "And what they find\nis if companies",
+      "start": 987.73,
+      "duration": 3.62
+    },
+    {
+      "text": "buy unbundled EACs, that doesn't\nencourage the local utility",
+      "start": 991.35,
+      "duration": 6.12
+    },
+    {
+      "text": "to invest in carbon-free\nenergy because you're",
+      "start": 997.47,
+      "duration": 3.99
+    },
+    {
+      "text": "buying it someplace else.",
+      "start": 1001.46,
+      "duration": 1.39
+    },
+    {
+      "text": "And similarly, you're\nprobably buying it as cheap",
+      "start": 1002.85,
+      "duration": 2.33
+    },
+    {
+      "text": "as possible to a place\nthat already makes it,",
+      "start": 1005.18,
+      "duration": 1.98
+    },
+    {
+      "text": "so even if you're\nbuying it there,",
+      "start": 1007.16,
+      "duration": 1.917
+    },
+    {
+      "text": "it probably doesn't get\nthem to invest a lot more.",
+      "start": 1009.077,
+      "duration": 2.083
+    },
+    {
+      "text": "They've already\nmade the investment.",
+      "start": 1011.16,
+      "duration": 1.5
+    },
+    {
+      "text": "So what they find is the\nuse of the unbundled EACs",
+      "start": 1012.66,
+      "duration": 3.44
+    },
+    {
+      "text": "doesn't really help that much.",
+      "start": 1016.1,
+      "duration": 1.54
+    },
+    {
+      "text": "So there's a\nmarket-based economy,",
+      "start": 1017.64,
+      "duration": 1.85
+    },
+    {
+      "text": "and it makes people look good.",
+      "start": 1019.49,
+      "duration": 1.87
+    },
+    {
+      "text": "But it doesn't really\nhelp the bottom line.",
+      "start": 1021.36,
+      "duration": 2.57
+    },
+    {
+      "text": "So now you know what unbundled\nEACs are and bundles of EACs.",
+      "start": 1023.93,
+      "duration": 5.74
+    },
+    {
+      "text": "So how popular are they?",
+      "start": 1029.67,
+      "duration": 1.5
+    },
+    {
+      "text": "That was the next\npart of my journey.",
+      "start": 1031.17,
+      "duration": 2.28
+    },
+    {
+      "text": "And this article appeared in\n\"The Financial Times\" last year.",
+      "start": 1033.45,
+      "duration": 3.78
+    },
+    {
+      "text": "and here's the top for\nUS hyperscaler companies",
+      "start": 1037.23,
+      "duration": 4.109
+    },
+    {
+      "text": "and what fraction of the\ncarbon-free energy they bought",
+      "start": 1041.339,
+      "duration": 3.5
+    },
+    {
+      "text": "is unbundled.",
+      "start": 1044.839,
+      "duration": 1.78
+    },
+    {
+      "text": "And you can see\nAmazon's almost 60%.",
+      "start": 1046.619,
+      "duration": 3.061
+    },
+    {
+      "text": "Microsoft's more than half.",
+      "start": 1049.68,
+      "duration": 1.86
+    },
+    {
+      "text": "Facebook is very small.",
+      "start": 1051.54,
+      "duration": 1.43
+    },
+    {
+      "text": "And we're 0, which I\nwas very happy to learn.",
+      "start": 1052.97,
+      "duration": 6.33
+    },
+    {
+      "text": "There's the first column is\nthe location-based submissions.",
+      "start": 1059.3,
+      "duration": 2.59
+    },
+    {
+      "text": "That's right out of the\ntap from the utility.",
+      "start": 1061.89,
+      "duration": 2.7
+    },
+    {
+      "text": "And then if you do\nmarket-based submissions,",
+      "start": 1064.59,
+      "duration": 2.74
+    },
+    {
+      "text": "you can see, for\nMicrosoft, it looks like 0.",
+      "start": 1067.33,
+      "duration": 2.67
+    },
+    {
+      "text": "They could claim, using\nthe unbundled EACs,",
+      "start": 1070.0,
+      "duration": 3.8
+    },
+    {
+      "text": "they have zero-carbon footprint.",
+      "start": 1073.8,
+      "duration": 2.26
+    },
+    {
+      "text": "So that was what\nthe original fallacy",
+      "start": 1076.06,
+      "duration": 2.09
+    },
+    {
+      "text": "that I started this talk with,\nthat basically I read online",
+      "start": 1078.15,
+      "duration": 4.14
+    },
+    {
+      "text": "that these companies are\nmaking their operational carbon",
+      "start": 1082.29,
+      "duration": 2.7
+    },
+    {
+      "text": "footprint go to 0.",
+      "start": 1084.99,
+      "duration": 1.21
+    },
+    {
+      "text": "So it's just going to\nbe the manufacturing",
+      "start": 1086.2,
+      "duration": 2.57
+    },
+    {
+      "text": "costs is everything.",
+      "start": 1088.77,
+      "duration": 1.12
+    },
+    {
+      "text": "But no.",
+      "start": 1089.89,
+      "duration": 1.29
+    },
+    {
+      "text": "And the reason is\nthat it's not really--",
+      "start": 1091.18,
+      "duration": 3.44
+    },
+    {
+      "text": "it looks good on paper,\nbut it's not really",
+      "start": 1094.62,
+      "duration": 2.31
+    },
+    {
+      "text": "helping the environment\nall that much.",
+      "start": 1096.93,
+      "duration": 2.67
+    },
+    {
+      "text": "Now, the good news is\nsince about the time we",
+      "start": 1099.6,
+      "duration": 3.15
+    },
+    {
+      "text": "wrote this paper and\npointed this out,",
+      "start": 1102.75,
+      "duration": 2.86
+    },
+    {
+      "text": "Microsoft has since announced\nin the future they're",
+      "start": 1105.61,
+      "duration": 3.02
+    },
+    {
+      "text": "abandoning unbundled EACs.",
+      "start": 1108.63,
+      "duration": 2.32
+    },
+    {
+      "text": "So why did Google not do that?",
+      "start": 1110.95,
+      "duration": 2.07
+    },
+    {
+      "text": "Why did Google not\nbuy unbundled EACs?",
+      "start": 1113.02,
+      "duration": 3.69
+    },
+    {
+      "text": "It's because several\nyears ago they",
+      "start": 1116.71,
+      "duration": 1.76
+    },
+    {
+      "text": "realized this was not\nreally going to help,",
+      "start": 1118.47,
+      "duration": 2.89
+    },
+    {
+      "text": "and so they came up with\ntheir own accounting system.",
+      "start": 1121.36,
+      "duration": 2.75
+    },
+    {
+      "text": "And what they wanted people to\ndo, kind of like when you were",
+      "start": 1124.11,
+      "duration": 2.73
+    },
+    {
+      "text": "eating organic food, we wanted\nthat, for 24 hours a day,",
+      "start": 1126.84,
+      "duration": 4.81
+    },
+    {
+      "text": "you're using carbon-free\nenergy, 365 days a year",
+      "start": 1131.65,
+      "duration": 3.98
+    },
+    {
+      "text": "and not you buy it in San Diego.",
+      "start": 1135.63,
+      "duration": 2.392
+    },
+    {
+      "text": "You'd buy it where\nyou're using it.",
+      "start": 1138.022,
+      "duration": 1.458
+    },
+    {
+      "text": "So they call their program\n24/7 Carbon-Free Energy.",
+      "start": 1139.48,
+      "duration": 4.53
+    },
+    {
+      "text": "And 160 organizations\nhave embraced it so far.",
+      "start": 1144.01,
+      "duration": 3.6
+    },
+    {
+      "text": "There's a United Nations\nagreement around that.",
+      "start": 1147.61,
+      "duration": 3.57
+    },
+    {
+      "text": "That's my second fallacy.",
+      "start": 1151.18,
+      "duration": 2.61
+    },
+    {
+      "text": "The",
+      "start": 1153.79,
+      "duration": 0.5
+    },
+    {
+      "text": "Third one, which is easier, and\nyou hear this one every day.",
+      "start": 1154.29,
+      "duration": 3.91
+    },
+    {
+      "text": "When I was listening to\nthe radio NPR on Saturday,",
+      "start": 1158.2,
+      "duration": 2.25
+    },
+    {
+      "text": "I heard this one.",
+      "start": 1160.45,
+      "duration": 2.39
+    },
+    {
+      "text": "Data Center AI is a major\nconsumer of global electricity.",
+      "start": 1162.84,
+      "duration": 3.82
+    },
+    {
+      "text": "It's repeated so\nmuch, it must be true.",
+      "start": 1166.66,
+      "duration": 2.94
+    },
+    {
+      "text": "So my data source is the\nInternational Energy Agency,",
+      "start": 1169.6,
+      "duration": 4.53
+    },
+    {
+      "text": "IEA.",
+      "start": 1174.13,
+      "duration": 1.5
+    },
+    {
+      "text": "It's about organization\nof 60 companies that",
+      "start": 1175.63,
+      "duration": 4.55
+    },
+    {
+      "text": "have been doing this\ntogether for 50 years,",
+      "start": 1180.18,
+      "duration": 2.26
+    },
+    {
+      "text": "and they're trying to\nwean these countries off",
+      "start": 1182.44,
+      "duration": 2.55
+    },
+    {
+      "text": "of carbon-based fuels.",
+      "start": 1184.99,
+      "duration": 3.25
+    },
+    {
+      "text": "So they said in 2022\nit was about 1.2%",
+      "start": 1188.24,
+      "duration": 3.2
+    },
+    {
+      "text": "of all electricity\nwas data centers,",
+      "start": 1191.44,
+      "duration": 3.52
+    },
+    {
+      "text": "and maybe this year\nit will be 1.5%.",
+      "start": 1194.96,
+      "duration": 2.87
+    },
+    {
+      "text": "How does that compare\nto other things?",
+      "start": 1197.83,
+      "duration": 2.26
+    },
+    {
+      "text": "And in their report, it says\nthat, even if data center growth",
+      "start": 1200.09,
+      "duration": 5.78
+    },
+    {
+      "text": "is strong between\nnow and 2030, there's",
+      "start": 1205.87,
+      "duration": 2.52
+    },
+    {
+      "text": "four things that\nwill be much bigger.",
+      "start": 1208.39,
+      "duration": 1.66
+    },
+    {
+      "text": "Just continued economic\ngrowth will be much bigger.",
+      "start": 1210.05,
+      "duration": 3.09
+    },
+    {
+      "text": "Electric cars will\nbe much bigger,",
+      "start": 1213.14,
+      "duration": 2.16
+    },
+    {
+      "text": "which I guess you might\nguess, given the popularity",
+      "start": 1215.3,
+      "duration": 2.15
+    },
+    {
+      "text": "of electric cars.",
+      "start": 1217.45,
+      "duration": 1.18
+    },
+    {
+      "text": "But air conditioners\nare going to be bigger.",
+      "start": 1218.63,
+      "duration": 1.98
+    },
+    {
+      "text": "Just air conditioners\nall by themselves",
+      "start": 1220.61,
+      "duration": 2.09
+    },
+    {
+      "text": "will be a bigger use of\nelectricity than data centers.",
+      "start": 1222.7,
+      "duration": 3.94
+    },
+    {
+      "text": "And then the last category\nwas high-energy manufacturing,",
+      "start": 1226.64,
+      "duration": 3.15
+    },
+    {
+      "text": "like making aluminum or steel.",
+      "start": 1229.79,
+      "duration": 2.99
+    },
+    {
+      "text": "So that's the big picture\nglobally about data centers.",
+      "start": 1232.78,
+      "duration": 5.43
+    },
+    {
+      "text": "What about AI?",
+      "start": 1238.21,
+      "duration": 0.88
+    },
+    {
+      "text": "AI is a small piece\nof data centers.",
+      "start": 1239.09,
+      "duration": 2.73
+    },
+    {
+      "text": "So the assertion that\nAI is a huge impact",
+      "start": 1241.82,
+      "duration": 4.02
+    },
+    {
+      "text": "on global electricity\nis far from the truth.",
+      "start": 1245.84,
+      "duration": 3.51
+    },
+    {
+      "text": "But as a caveat, when we\ntalk about a global problem,",
+      "start": 1249.35,
+      "duration": 4.96
+    },
+    {
+      "text": "it's not.",
+      "start": 1254.31,
+      "duration": 0.57
+    },
+    {
+      "text": "But maybe locally, it can be.",
+      "start": 1254.88,
+      "duration": 1.53
+    },
+    {
+      "text": "If you put a lot of data\ncenters in one utility,",
+      "start": 1256.41,
+      "duration": 3.36
+    },
+    {
+      "text": "they may not have the power\nto be able to handle that,",
+      "start": 1259.77,
+      "duration": 2.25
+    },
+    {
+      "text": "and that'd be very\nstressful for a local area.",
+      "start": 1262.02,
+      "duration": 2.46
+    },
+    {
+      "text": "But as a global issue,\nit's not a big issue.",
+      "start": 1264.48,
+      "duration": 2.61
+    },
+    {
+      "text": "Now, when I think about\nair conditioners using",
+      "start": 1267.09,
+      "duration": 3.23
+    },
+    {
+      "text": "more than data centers, what are\nthe upsides of air conditioners?",
+      "start": 1270.32,
+      "duration": 4.988
+    },
+    {
+      "text": "And what are they going\nto contribute to society?",
+      "start": 1275.308,
+      "duration": 2.042
+    },
+    {
+      "text": "Well, AI can make\na contribution.",
+      "start": 1277.35,
+      "duration": 3.06
+    },
+    {
+      "text": "So my favorite one is the\nscience result from Google",
+      "start": 1280.41,
+      "duration": 3.17
+    },
+    {
+      "text": "in the last couple of\nyears, is contrails.",
+      "start": 1283.58,
+      "duration": 3.22
+    },
+    {
+      "text": "So contrails are\nthe light streams",
+      "start": 1286.8,
+      "duration": 2.96
+    },
+    {
+      "text": "in the sky that\nfollow airplanes.",
+      "start": 1289.76,
+      "duration": 2.38
+    },
+    {
+      "text": "It doesn't happen all the time.",
+      "start": 1292.14,
+      "duration": 1.8
+    },
+    {
+      "text": "It happens when airplanes\nare in human regions.",
+      "start": 1293.94,
+      "duration": 2.82
+    },
+    {
+      "text": "So aviation represents about\n2.5% of worldwide emissions,",
+      "start": 1296.76,
+      "duration": 4.11
+    },
+    {
+      "text": "according to IEA.",
+      "start": 1300.87,
+      "duration": 1.26
+    },
+    {
+      "text": "Contrails, you saw in the\npie chart, more than a third",
+      "start": 1302.13,
+      "duration": 3.92
+    },
+    {
+      "text": "of emissions is from contrails.",
+      "start": 1306.05,
+      "duration": 2.82
+    },
+    {
+      "text": "Well, if it's only occurs when\nplanes fly in certain regions,",
+      "start": 1308.87,
+      "duration": 4.24
+    },
+    {
+      "text": "well, Google can use\nAI to steer planes",
+      "start": 1313.11,
+      "duration": 3.77
+    },
+    {
+      "text": "as minimally as possible in\nboth an elevation and direction",
+      "start": 1316.88,
+      "duration": 4.74
+    },
+    {
+      "text": "to avoid the human regions,\nand they did this experiment",
+      "start": 1321.62,
+      "duration": 3.33
+    },
+    {
+      "text": "with American Airlines.",
+      "start": 1324.95,
+      "duration": 1.45
+    },
+    {
+      "text": "And they found they have to\nincrease the fuel that you",
+      "start": 1326.4,
+      "duration": 3.86
+    },
+    {
+      "text": "use a little bit, 0.3%, but\nit could save more than half",
+      "start": 1330.26,
+      "duration": 7.35
+    },
+    {
+      "text": "of the contrails.",
+      "start": 1337.61,
+      "duration": 1.27
+    },
+    {
+      "text": "So if you multiply that all out,\nif all aviation used this idea,",
+      "start": 1338.88,
+      "duration": 5.91
+    },
+    {
+      "text": "it could save 180\nmillion tons of CO2e.",
+      "start": 1344.79,
+      "duration": 4.01
+    },
+    {
+      "text": "So to put that in perspective,\nthe four hyperscalers",
+      "start": 1348.8,
+      "duration": 4.98
+    },
+    {
+      "text": "collectively using the\nconservative location-based",
+      "start": 1353.78,
+      "duration": 3.6
+    },
+    {
+      "text": "emissions was 36 million tons.",
+      "start": 1357.38,
+      "duration": 3.82
+    },
+    {
+      "text": "And if we were to guess what\nit would be in reality, giving",
+      "start": 1361.2,
+      "duration": 3.12
+    },
+    {
+      "text": "credit for carbon-free\nenergy, it's",
+      "start": 1364.32,
+      "duration": 2.34
+    },
+    {
+      "text": "probably another factor of 2.",
+      "start": 1366.66,
+      "duration": 1.3
+    },
+    {
+      "text": "So this single innovation from\nAI, if it was widely deployed,",
+      "start": 1367.96,
+      "duration": 5.04
+    },
+    {
+      "text": "would give a factor\nof 5 or 10 return",
+      "start": 1373.0,
+      "duration": 3.5
+    },
+    {
+      "text": "on the reduction of carbon\nemissions for the planet.",
+      "start": 1376.5,
+      "duration": 3.12
+    },
+    {
+      "text": "And I think with that\nis my last slide--",
+      "start": 1379.62,
+      "duration": 4.51
+    },
+    {
+      "text": "oh, no, my conclusions.",
+      "start": 1384.13,
+      "duration": 1.32
+    },
+    {
+      "text": "So what are the takeaways?",
+      "start": 1385.45,
+      "duration": 1.68
+    },
+    {
+      "text": "Hopefully optimizing\nthose four Ms of machines.",
+      "start": 1387.13,
+      "duration": 4.23
+    },
+    {
+      "text": "We already have\ndata centers that",
+      "start": 1391.36,
+      "duration": 1.4
+    },
+    {
+      "text": "are very efficient\nand mechanization.",
+      "start": 1392.76,
+      "duration": 1.71
+    },
+    {
+      "text": "Keep building better hardware.",
+      "start": 1394.47,
+      "duration": 2.02
+    },
+    {
+      "text": "People like me do that.",
+      "start": 1396.49,
+      "duration": 1.55
+    },
+    {
+      "text": "AI people building\nmore efficient models,",
+      "start": 1398.04,
+      "duration": 2.43
+    },
+    {
+      "text": "and then make sure\nwe do it in places",
+      "start": 1400.47,
+      "duration": 3.39
+    },
+    {
+      "text": "that have very clean energy.",
+      "start": 1403.86,
+      "duration": 2.28
+    },
+    {
+      "text": "Companies, beyond using clean\nenergy from the utilities,",
+      "start": 1406.14,
+      "duration": 4.092
+    },
+    {
+      "text": "should try and\nacquire clean energy",
+      "start": 1410.232,
+      "duration": 1.458
+    },
+    {
+      "text": "on the same 24\nhours a day locally,",
+      "start": 1411.69,
+      "duration": 2.73
+    },
+    {
+      "text": "like Google is advocating.",
+      "start": 1414.42,
+      "duration": 2.41
+    },
+    {
+      "text": "But the big picture, I'd\nsay from my three or four",
+      "start": 1416.83,
+      "duration": 3.26
+    },
+    {
+      "text": "years looking at this, we\nhave to get the numbers right.",
+      "start": 1420.09,
+      "duration": 3.31
+    },
+    {
+      "text": "Global climate change\nis a big problem.",
+      "start": 1423.4,
+      "duration": 1.92
+    },
+    {
+      "text": "But if we don't have\nthe numbers right,",
+      "start": 1425.32,
+      "duration": 1.17
+    },
+    {
+      "text": "we won't be working\non the right problems.",
+      "start": 1426.49,
+      "duration": 1.86
+    },
+    {
+      "text": "And so recently I wrote a\npaper about the impact of AI.",
+      "start": 1428.35,
+      "duration": 2.63
+    },
+    {
+      "text": "And I think the\nthing to keep in mind",
+      "start": 1430.98,
+      "duration": 1.68
+    },
+    {
+      "text": "is, this saying is it can be\nas big a mistake to ignore",
+      "start": 1432.66,
+      "duration": 4.56
+    },
+    {
+      "text": "the upsides of AI,\nlike the contrail work,",
+      "start": 1437.22,
+      "duration": 3.12
+    },
+    {
+      "text": "as it is to ignore\nthe downsides.",
+      "start": 1440.34,
+      "duration": 2.2
+    },
+    {
+      "text": "And with that, I think we\nwelcome Sinead back on stage.",
+      "start": 1442.54,
+      "duration": 3.33
+    },
+    {
+      "text": "And if you want to read more,\nthere's a bunch of papers.",
+      "start": 1445.87,
+      "duration": 4.32
+    },
+    {
+      "text": "OK.",
+      "start": 1450.19,
+      "duration": 0.65
+    },
+    {
+      "text": "SINEAD BOVELL: Thank you.",
+      "start": 1450.84,
+      "duration": 0.545
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1451.385,
+      "duration": 0.655
+    },
+    {
+      "text": "That was incredible.",
+      "start": 1452.04,
+      "duration": 0.94
+    },
+    {
+      "text": "That was a fascinating\npresentation.",
+      "start": 1455.91,
+      "duration": 2.02
+    },
+    {
+      "text": "And even just your slide\nabout understanding",
+      "start": 1457.93,
+      "duration": 2.84
+    },
+    {
+      "text": "claims if they're\nbundled or unbundled,",
+      "start": 1460.77,
+      "duration": 2.86
+    },
+    {
+      "text": "I think that helps\nempower all of us",
+      "start": 1463.63,
+      "duration": 1.91
+    },
+    {
+      "text": "when we see these claims to\nbe able to dig down and see",
+      "start": 1465.54,
+      "duration": 3.24
+    },
+    {
+      "text": "what is actually accurate,\nwhat's actually helpful.",
+      "start": 1468.78,
+      "duration": 2.56
+    },
+    {
+      "text": "So in your research for\nthis presentation today,",
+      "start": 1471.34,
+      "duration": 4.41
+    },
+    {
+      "text": "what excited and surprised you\nthe most about Google's work",
+      "start": 1475.75,
+      "duration": 4.51
+    },
+    {
+      "text": "in this space?",
+      "start": 1480.26,
+      "duration": 1.51
+    },
+    {
+      "text": "DAVID PATTERSON: Yeah, I\nwas thinking about this.",
+      "start": 1481.77,
+      "duration": 3.65
+    },
+    {
+      "text": "I think when I actually did the\nwork, there were two surprises.",
+      "start": 1485.42,
+      "duration": 2.68
+    },
+    {
+      "text": "The one was geography\nmatters so much",
+      "start": 1488.1,
+      "duration": 2.45
+    },
+    {
+      "text": "that it's a huge difference what\npart of the country you're in.",
+      "start": 1490.55,
+      "duration": 4.6
+    },
+    {
+      "text": "And the second one,\nwhich I was happy",
+      "start": 1495.15,
+      "duration": 3.74
+    },
+    {
+      "text": "that I chose after working at\nBerkeley to work at Google,",
+      "start": 1498.89,
+      "duration": 2.79
+    },
+    {
+      "text": "is Google has a pretty\ngood job at this.",
+      "start": 1501.68,
+      "duration": 3.36
+    },
+    {
+      "text": "They weren't using\nunbundled EACs.",
+      "start": 1505.04,
+      "duration": 1.96
+    },
+    {
+      "text": "That was great.",
+      "start": 1507.0,
+      "duration": 1.07
+    },
+    {
+      "text": "Actually their data\ncenters are very efficient.",
+      "start": 1508.07,
+      "duration": 2.23
+    },
+    {
+      "text": "I think Google is one of the\npioneers in trying to come up",
+      "start": 1510.3,
+      "duration": 3.935
+    },
+    {
+      "text": "with this metric of\npower usage effectiveness",
+      "start": 1514.235,
+      "duration": 1.875
+    },
+    {
+      "text": "and driving it down.",
+      "start": 1516.11,
+      "duration": 2.74
+    },
+    {
+      "text": "And if you look at--",
+      "start": 1518.85,
+      "duration": 1.35
+    },
+    {
+      "text": "I think they've got\nfive data centers",
+      "start": 1520.2,
+      "duration": 2.39
+    },
+    {
+      "text": "that 90% of the energy they\nuse is carbon-free energy.",
+      "start": 1522.59,
+      "duration": 2.25
+    },
+    {
+      "text": "So it was a very\npleasant surprise",
+      "start": 1524.84,
+      "duration": 2.07
+    },
+    {
+      "text": "that Google is probably a leader\nin carbon footprint and data",
+      "start": 1526.91,
+      "duration": 5.31
+    },
+    {
+      "text": "centers and AI.",
+      "start": 1532.22,
+      "duration": 0.93
+    },
+    {
+      "text": "I think it had to\ndo because maybe",
+      "start": 1533.15,
+      "duration": 1.9
+    },
+    {
+      "text": "the founders of the company\nwere more interested",
+      "start": 1535.05,
+      "duration": 2.0
+    },
+    {
+      "text": "in environmental issues.",
+      "start": 1537.05,
+      "duration": 1.45
+    },
+    {
+      "text": "But if I had found out\nthat we were the worst,",
+      "start": 1538.5,
+      "duration": 4.29
+    },
+    {
+      "text": "that would have been very--",
+      "start": 1542.79,
+      "duration": 1.37
+    },
+    {
+      "text": "I would have to\nrethink where I work.",
+      "start": 1544.16,
+      "duration": 4.5
+    },
+    {
+      "text": "SINEAD BOVELL: And\nearlier this year, there",
+      "start": 1548.66,
+      "duration": 2.04
+    },
+    {
+      "text": "was some buzz about a\ntechnological advancement",
+      "start": 1550.7,
+      "duration": 2.55
+    },
+    {
+      "text": "from a company\nnamed DeepSeek out",
+      "start": 1553.25,
+      "duration": 1.77
+    },
+    {
+      "text": "of China, that they\nhad brought an AI",
+      "start": 1555.02,
+      "duration": 3.42
+    },
+    {
+      "text": "model to the forefront\nwith low levels,",
+      "start": 1558.44,
+      "duration": 3.73
+    },
+    {
+      "text": "lower resource,\ncommoditized hardware.",
+      "start": 1562.17,
+      "duration": 2.88
+    },
+    {
+      "text": "And then we started to\nhear about Jevons paradox.",
+      "start": 1565.05,
+      "duration": 3.27
+    },
+    {
+      "text": "So the cheaper something\nbecomes, the more of it",
+      "start": 1568.32,
+      "duration": 5.09
+    },
+    {
+      "text": "we actually end up using.",
+      "start": 1573.41,
+      "duration": 2.05
+    },
+    {
+      "text": "So is Jevons paradox\nthe right framing",
+      "start": 1575.46,
+      "duration": 2.84
+    },
+    {
+      "text": "for the carbon footprint of AI?",
+      "start": 1578.3,
+      "duration": 2.32
+    },
+    {
+      "text": "Because people were\nalso throwing that in.",
+      "start": 1580.62,
+      "duration": 2.15
+    },
+    {
+      "text": "Or is it something\nelse entirely?",
+      "start": 1582.77,
+      "duration": 1.96
+    },
+    {
+      "text": "DAVID PATTERSON: Yeah, so\nalmost every time I give a talk,",
+      "start": 1584.73,
+      "duration": 3.217
+    },
+    {
+      "text": "somebody brings up\nthe Jevons paradox.",
+      "start": 1587.947,
+      "duration": 1.583
+    },
+    {
+      "text": "So Jevons paradox is\nkind of economics,",
+      "start": 1589.53,
+      "duration": 2.84
+    },
+    {
+      "text": "that if you make\nsomething cheaper, well,",
+      "start": 1592.37,
+      "duration": 2.92
+    },
+    {
+      "text": "what economists say, if\nit's an elastic product,",
+      "start": 1595.29,
+      "duration": 2.88
+    },
+    {
+      "text": "if you make it cheaper,\npeople use more of it.",
+      "start": 1598.17,
+      "duration": 2.01
+    },
+    {
+      "text": "There are some things\nthat aren't elastic,",
+      "start": 1600.18,
+      "duration": 1.89
+    },
+    {
+      "text": "like maybe food production.",
+      "start": 1602.07,
+      "duration": 1.203
+    },
+    {
+      "text": "People don't eat more\nfood if it gets cheaper.",
+      "start": 1603.273,
+      "duration": 1.917
+    },
+    {
+      "text": "But some things, if you\nmake it cheaper, get bigger.",
+      "start": 1605.19,
+      "duration": 2.167
+    },
+    {
+      "text": "But when we talk about\nreducing the carbon footprint,",
+      "start": 1607.357,
+      "duration": 2.753
+    },
+    {
+      "text": "that's not cheaper.",
+      "start": 1610.11,
+      "duration": 1.05
+    },
+    {
+      "text": "That's making it more efficient.",
+      "start": 1611.16,
+      "duration": 1.71
+    },
+    {
+      "text": "In fact, Google spends extra\nmoney to buy carbon-free energy.",
+      "start": 1612.87,
+      "duration": 5.53
+    },
+    {
+      "text": "If they would just use\nthe cheapest energy,",
+      "start": 1618.4,
+      "duration": 2.24
+    },
+    {
+      "text": "which would be dirtier--",
+      "start": 1620.64,
+      "duration": 2.12
+    },
+    {
+      "text": "so it gets brought\nup in that context,",
+      "start": 1622.76,
+      "duration": 3.97
+    },
+    {
+      "text": "but it really doesn't apply.",
+      "start": 1626.73,
+      "duration": 1.2
+    },
+    {
+      "text": "And the DeepSeek people, their\nbreakthrough was training.",
+      "start": 1627.93,
+      "duration": 3.77
+    },
+    {
+      "text": "What they claimed was a\nbreakthrough in training.",
+      "start": 1631.7,
+      "duration": 2.74
+    },
+    {
+      "text": "But when we talk about\noperational emissions,",
+      "start": 1634.44,
+      "duration": 3.5
+    },
+    {
+      "text": "generally it's\nprobably the inference",
+      "start": 1637.94,
+      "duration": 2.262
+    },
+    {
+      "text": "that's the bigger deal.",
+      "start": 1640.202,
+      "duration": 0.958
+    },
+    {
+      "text": "SINEAD BOVELL: Yeah, yeah,\nthe inference, for sure.",
+      "start": 1641.16,
+      "duration": 2.21
+    },
+    {
+      "text": "What are you doing differently\nin your personal life",
+      "start": 1643.37,
+      "duration": 3.75
+    },
+    {
+      "text": "as a result of everything\nyou've learned in your research",
+      "start": 1647.12,
+      "duration": 2.77
+    },
+    {
+      "text": "these past couple of years?",
+      "start": 1649.89,
+      "duration": 1.56
+    },
+    {
+      "text": "DAVID PATTERSON: Yeah, well,\nthere's a couple of things.",
+      "start": 1651.45,
+      "duration": 2.81
+    },
+    {
+      "text": "Google Flight, if you search\nfor a trip on Google Flight,",
+      "start": 1654.26,
+      "duration": 4.88
+    },
+    {
+      "text": "it tells you exactly\nwhat the carbon",
+      "start": 1659.14,
+      "duration": 2.12
+    },
+    {
+      "text": "emissions are of your flight\nand depending on where you sit.",
+      "start": 1661.26,
+      "duration": 3.12
+    },
+    {
+      "text": "And pre-COVID,\npeople in China would",
+      "start": 1664.38,
+      "duration": 4.17
+    },
+    {
+      "text": "ask me to come out and give\na talk and the first class",
+      "start": 1668.55,
+      "duration": 2.43
+    },
+    {
+      "text": "ticket and all that.",
+      "start": 1670.98,
+      "duration": 1.06
+    },
+    {
+      "text": "And then you go\nto Google Flight,",
+      "start": 1672.04,
+      "duration": 2.12
+    },
+    {
+      "text": "and I would use\nup as much energy",
+      "start": 1674.16,
+      "duration": 3.42
+    },
+    {
+      "text": "as the average American for one\nfirst-class ticket to Beijing.",
+      "start": 1677.58,
+      "duration": 3.97
+    },
+    {
+      "text": "And so I already probably\ndidn't want to go on a trip,",
+      "start": 1681.55,
+      "duration": 3.51
+    },
+    {
+      "text": "but now I certainly\nfly a lot less.",
+      "start": 1685.06,
+      "duration": 2.97
+    },
+    {
+      "text": "The second one was something\nwe didn't talk about.",
+      "start": 1688.03,
+      "duration": 2.57
+    },
+    {
+      "text": "If people asked when I started\ndoing these talks about the data",
+      "start": 1690.6,
+      "duration": 2.97
+    },
+    {
+      "text": "center, they said, well, what\nabout the edge and phones?",
+      "start": 1693.57,
+      "duration": 2.5
+    },
+    {
+      "text": "Well, the big\nsurprise in that one",
+      "start": 1696.07,
+      "duration": 2.24
+    },
+    {
+      "text": "was, when we talked\nit over, well,",
+      "start": 1698.31,
+      "duration": 2.68
+    },
+    {
+      "text": "the phone actually doesn't\ndraw any energy from the grid.",
+      "start": 1700.99,
+      "duration": 3.27
+    },
+    {
+      "text": "It's the chargers.",
+      "start": 1704.26,
+      "duration": 0.978
+    },
+    {
+      "text": "Well, then we looked\nat the chargers,",
+      "start": 1705.238,
+      "duration": 1.542
+    },
+    {
+      "text": "and the chargers were awful.",
+      "start": 1706.78,
+      "duration": 1.225
+    },
+    {
+      "text": "Because it's convenient\nto use wireless Chargers,",
+      "start": 1711.81,
+      "duration": 2.86
+    },
+    {
+      "text": "wireless Chargers\nare much less energy",
+      "start": 1714.67,
+      "duration": 2.16
+    },
+    {
+      "text": "efficient than wired chargers.",
+      "start": 1716.83,
+      "duration": 1.69
+    },
+    {
+      "text": "So we got rid of all of\nour wireless chargers.",
+      "start": 1718.52,
+      "duration": 2.43
+    },
+    {
+      "text": "And also there's this thing\ncalled vampire power, which",
+      "start": 1720.95,
+      "duration": 3.86
+    },
+    {
+      "text": "means, even though\nthe phone's dead,",
+      "start": 1724.81,
+      "duration": 2.17
+    },
+    {
+      "text": "you've left the charger in.",
+      "start": 1726.98,
+      "duration": 1.61
+    },
+    {
+      "text": "And it's drawing power\neven when you don't use it.",
+      "start": 1728.59,
+      "duration": 2.56
+    },
+    {
+      "text": "And so maybe on average,\npeople have three phones,",
+      "start": 1731.15,
+      "duration": 3.98
+    },
+    {
+      "text": "wireless chargers\nplugged in with no phone",
+      "start": 1735.13,
+      "duration": 1.77
+    },
+    {
+      "text": "on it using up electricity.",
+      "start": 1736.9,
+      "duration": 2.1
+    },
+    {
+      "text": "So we've become\nmore conscientious",
+      "start": 1739.0,
+      "duration": 2.22
+    },
+    {
+      "text": "about leaving things\nplugged in and trying",
+      "start": 1741.22,
+      "duration": 1.958
+    },
+    {
+      "text": "to use the most efficient ones.",
+      "start": 1743.178,
+      "duration": 1.292
+    },
+    {
+      "text": "And when we looked\nat the price, there",
+      "start": 1744.47,
+      "duration": 2.12
+    },
+    {
+      "text": "was no correlation between\nprice and energy efficiency.",
+      "start": 1746.59,
+      "duration": 3.66
+    },
+    {
+      "text": "Once again, fortunately,\nGoogle happened",
+      "start": 1750.25,
+      "duration": 1.86
+    },
+    {
+      "text": "to make the most efficient\nwireless, wired charger,",
+      "start": 1752.11,
+      "duration": 3.97
+    },
+    {
+      "text": "which was good in our results.",
+      "start": 1756.08,
+      "duration": 1.98
+    },
+    {
+      "text": "But we couldn't see\nany relationship.",
+      "start": 1758.06,
+      "duration": 2.0
+    },
+    {
+      "text": "There needs to be\na consumer report.",
+      "start": 1760.06,
+      "duration": 2.11
+    },
+    {
+      "text": "A thing that would make a\nbig difference on electricity",
+      "start": 1762.17,
+      "duration": 2.45
+    },
+    {
+      "text": "and emissions in\nthe world would be",
+      "start": 1764.62,
+      "duration": 2.13
+    },
+    {
+      "text": "people making cell phone\nchargers more efficient, which",
+      "start": 1766.75,
+      "duration": 5.1
+    },
+    {
+      "text": "is surprising.",
+      "start": 1771.85,
+      "duration": 1.605
+    },
+    {
+      "text": "It seems like we ought\nto be able to do that.",
+      "start": 1773.455,
+      "duration": 1.875
+    },
+    {
+      "text": "But there's no\nincentive to do that,",
+      "start": 1775.33,
+      "duration": 2.56
+    },
+    {
+      "text": "as far as I can tell right now.",
+      "start": 1777.89,
+      "duration": 1.38
+    },
+    {
+      "text": "SINEAD BOVELL: I feel like\nsomebody here is probably",
+      "start": 1779.27,
+      "duration": 1.43
+    },
+    {
+      "text": "capable of that as well.",
+      "start": 1780.7,
+      "duration": 1.21
+    },
+    {
+      "text": "DAVID PATTERSON: Oh yeah.",
+      "start": 1781.91,
+      "duration": 1.19
+    },
+    {
+      "text": "SINEAD BOVELL: So you're\na Turing Award winner.",
+      "start": 1783.1,
+      "duration": 2.14
+    },
+    {
+      "text": "You're an icon in the field.",
+      "start": 1785.24,
+      "duration": 2.13
+    },
+    {
+      "text": "And you've been at\nthis a long time.",
+      "start": 1787.37,
+      "duration": 1.74
+    },
+    {
+      "text": "What advice would\nyou have for some",
+      "start": 1789.11,
+      "duration": 2.03
+    },
+    {
+      "text": "of the developers in this room?",
+      "start": 1791.14,
+      "duration": 2.58
+    },
+    {
+      "text": "DAVID PATTERSON: Well,\nI have two grown sons,",
+      "start": 1793.72,
+      "duration": 3.69
+    },
+    {
+      "text": "and they make fun\nof me for saying",
+      "start": 1797.41,
+      "duration": 2.4
+    },
+    {
+      "text": "I think I give good advice.",
+      "start": 1799.81,
+      "duration": 2.1
+    },
+    {
+      "text": "But recently, usually for\nabout the last decade,",
+      "start": 1801.91,
+      "duration": 4.66
+    },
+    {
+      "text": "when I give a technical\ntalk at a university,",
+      "start": 1806.57,
+      "duration": 2.19
+    },
+    {
+      "text": "I share some advice, what\nI've learned in my life,",
+      "start": 1808.76,
+      "duration": 4.59
+    },
+    {
+      "text": "both technically and personally.",
+      "start": 1813.35,
+      "duration": 1.98
+    },
+    {
+      "text": "And so a year or so ago, I gave\na talk at USC, and they said,",
+      "start": 1815.33,
+      "duration": 3.632
+    },
+    {
+      "text": "you should write it up.",
+      "start": 1818.962,
+      "duration": 0.958
+    },
+    {
+      "text": "So I have written it down.",
+      "start": 1819.92,
+      "duration": 1.28
+    },
+    {
+      "text": "So you can find my advice.",
+      "start": 1821.2,
+      "duration": 1.87
+    },
+    {
+      "text": "The title is, if you look up,\nLife Lessons from My First Half",
+      "start": 1823.07,
+      "duration": 3.74
+    },
+    {
+      "text": "Century in My Career,\nyou can find it.",
+      "start": 1826.81,
+      "duration": 2.95
+    },
+    {
+      "text": "But I would say, talking\nabout the personal stuff,",
+      "start": 1829.76,
+      "duration": 6.34
+    },
+    {
+      "text": "the family is really important.",
+      "start": 1836.1,
+      "duration": 2.04
+    },
+    {
+      "text": "And you wouldn't want\nto sacrifice your family",
+      "start": 1838.14,
+      "duration": 4.58
+    },
+    {
+      "text": "on the altar of success.",
+      "start": 1842.72,
+      "duration": 1.093
+    },
+    {
+      "text": "When you get later in your\nlife, you want to look back,",
+      "start": 1846.461,
+      "duration": 3.499
+    },
+    {
+      "text": "you would really not want to\nsay, well, I've had success.",
+      "start": 1849.96,
+      "duration": 3.39
+    },
+    {
+      "text": "But I don't have a good\nrelationship with my family.",
+      "start": 1853.35,
+      "duration": 3.77
+    },
+    {
+      "text": "I've always made choices\nfor happiness versus wealth.",
+      "start": 1857.12,
+      "duration": 3.55
+    },
+    {
+      "text": "When I grew up in\nthis country, people",
+      "start": 1860.67,
+      "duration": 3.02
+    },
+    {
+      "text": "thought happiness was\nthe same as wealth.",
+      "start": 1863.69,
+      "duration": 3.88
+    },
+    {
+      "text": "There's a lot of unhappy\nbillionaires in this world,",
+      "start": 1867.57,
+      "duration": 3.923
+    },
+    {
+      "text": "so I always-- and I feel\npretty good about it.",
+      "start": 1871.493,
+      "duration": 1.917
+    },
+    {
+      "text": "What's wrong with making\nchoices that make you happy?",
+      "start": 1873.41,
+      "duration": 3.0
+    },
+    {
+      "text": "You can't feel bad about that.",
+      "start": 1876.41,
+      "duration": 2.4
+    },
+    {
+      "text": "Finding something\nyou love to do.",
+      "start": 1878.81,
+      "duration": 3.36
+    },
+    {
+      "text": "I did well in math\nin high school.",
+      "start": 1882.17,
+      "duration": 1.93
+    },
+    {
+      "text": "There were no computers\nin my high school.",
+      "start": 1884.1,
+      "duration": 2.54
+    },
+    {
+      "text": "No one ever whispered\ncomputers in my ear,",
+      "start": 1886.64,
+      "duration": 2.62
+    },
+    {
+      "text": "like in the graduate\nor anything like that.",
+      "start": 1889.26,
+      "duration": 2.16
+    },
+    {
+      "text": "So I took math classes\nto my junior year.",
+      "start": 1891.42,
+      "duration": 3.65
+    },
+    {
+      "text": "And then one was canceled,\nand a computer class",
+      "start": 1895.07,
+      "duration": 5.7
+    },
+    {
+      "text": "happened to fit in.",
+      "start": 1900.77,
+      "duration": 1.24
+    },
+    {
+      "text": "And when I took it, an\nintro computer class, and I",
+      "start": 1902.01,
+      "duration": 3.11
+    },
+    {
+      "text": "was hooked.",
+      "start": 1905.12,
+      "duration": 0.79
+    },
+    {
+      "text": "The ideas in your head\ncome alive in the machine,",
+      "start": 1905.91,
+      "duration": 2.31
+    },
+    {
+      "text": "that was it.",
+      "start": 1908.22,
+      "duration": 0.63
+    },
+    {
+      "text": "I had found what I wanted to do.",
+      "start": 1908.85,
+      "duration": 2.693
+    },
+    {
+      "text": "None of my relatives\nthought, wow,",
+      "start": 1911.543,
+      "duration": 1.417
+    },
+    {
+      "text": "that's a very wise\nchoice that will pay off.",
+      "start": 1912.96,
+      "duration": 2.93
+    },
+    {
+      "text": "10 years later, they thought\nit was a really good idea.",
+      "start": 1915.89,
+      "duration": 2.44
+    },
+    {
+      "text": "But yeah, so I would\nfind something you love",
+      "start": 1918.33,
+      "duration": 1.97
+    },
+    {
+      "text": "and see if you can get\npeople to pay you for it.",
+      "start": 1920.3,
+      "duration": 2.37
+    },
+    {
+      "text": "And I've got a lot\nmore things like that",
+      "start": 1922.67,
+      "duration": 2.61
+    },
+    {
+      "text": "that, if you find\nthe paper, you can",
+      "start": 1925.28,
+      "duration": 2.91
+    },
+    {
+      "text": "see all the rest of my advice.",
+      "start": 1928.19,
+      "duration": 1.84
+    },
+    {
+      "text": "SINEAD BOVELL: So\nfollow what you love.",
+      "start": 1930.03,
+      "duration": 1.91
+    },
+    {
+      "text": "Cherish, the people\nwho you love,",
+      "start": 1931.94,
+      "duration": 2.1
+    },
+    {
+      "text": "and optimize for happiness.",
+      "start": 1934.04,
+      "duration": 1.837
+    },
+    {
+      "text": "DAVID PATTERSON: Do you\nhave more questions?",
+      "start": 1935.877,
+      "duration": 1.833
+    },
+    {
+      "text": "I have a good ending one.",
+      "start": 1937.71,
+      "duration": 1.05
+    },
+    {
+      "text": "SINEAD BOVELL: Go for it.",
+      "start": 1938.76,
+      "duration": 1.042
+    },
+    {
+      "text": "DAVID PATTERSON: OK, so one\nof the other things that I",
+      "start": 1939.802,
+      "duration": 2.668
+    },
+    {
+      "text": "say in terms of career advice\nand maybe personal advice too,",
+      "start": 1942.47,
+      "duration": 4.39
+    },
+    {
+      "text": "I think if you're\nengineers, I think",
+      "start": 1946.86,
+      "duration": 1.94
+    },
+    {
+      "text": "it's helpful to be optimistic.",
+      "start": 1948.8,
+      "duration": 4.22
+    },
+    {
+      "text": "So many things can go wrong.",
+      "start": 1953.02,
+      "duration": 1.92
+    },
+    {
+      "text": "It's very easy to just give up.",
+      "start": 1954.94,
+      "duration": 1.95
+    },
+    {
+      "text": "Oh, look, here's these--",
+      "start": 1956.89,
+      "duration": 1.355
+    },
+    {
+      "text": "we'll never solve\nthese problems.",
+      "start": 1958.245,
+      "duration": 1.375
+    },
+    {
+      "text": "So I think it's better to\nerr on the side of optimism",
+      "start": 1959.62,
+      "duration": 4.58
+    },
+    {
+      "text": "because in any kind of project,\nthere's hard things to do.",
+      "start": 1964.2,
+      "duration": 4.45
+    },
+    {
+      "text": "So my story about\noptimism for my life",
+      "start": 1968.65,
+      "duration": 2.9
+    },
+    {
+      "text": "is back when I was a\nteenager, when I 16,",
+      "start": 1971.55,
+      "duration": 2.65
+    },
+    {
+      "text": "I started going out with this\ngirl, and I really liked her.",
+      "start": 1974.2,
+      "duration": 3.24
+    },
+    {
+      "text": "So I asked her to be exclusive.",
+      "start": 1977.44,
+      "duration": 2.64
+    },
+    {
+      "text": "And she said she thought\nin her head, we're only 16.",
+      "start": 1980.08,
+      "duration": 6.21
+    },
+    {
+      "text": "And she had been with\nsomebody earlier,",
+      "start": 1986.29,
+      "duration": 2.15
+    },
+    {
+      "text": "and it's too early for this.",
+      "start": 1988.44,
+      "duration": 1.3
+    },
+    {
+      "text": "So she said to me, well,\nDave, you're such a nice guy.",
+      "start": 1989.74,
+      "duration": 2.64
+    },
+    {
+      "text": "I don't know how to say no.",
+      "start": 1992.38,
+      "duration": 1.71
+    },
+    {
+      "text": "So I, as an optimist and a\nlogical person, not a no,",
+      "start": 1994.09,
+      "duration": 4.11
+    },
+    {
+      "text": "sounds like a, yes.",
+      "start": 1998.2,
+      "duration": 0.84
+    },
+    {
+      "text": "So I said great and hugged her.",
+      "start": 1999.04,
+      "duration": 1.94
+    },
+    {
+      "text": "And she thought, I'll\nlet him down later.",
+      "start": 2000.98,
+      "duration": 2.718
+    },
+    {
+      "text": "I feel sorry for the guy.",
+      "start": 2003.698,
+      "duration": 1.042
+    },
+    {
+      "text": "But we've been\nmarried for 57 years,",
+      "start": 2004.74,
+      "duration": 2.45
+    },
+    {
+      "text": "and she hasn't let me down yet.",
+      "start": 2007.19,
+      "duration": 1.88
+    },
+    {
+      "text": "SINEAD BOVELL: [LAUGHS]\nThat's a great story.",
+      "start": 2009.07,
+      "duration": 1.875
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2010.945,
+      "duration": 2.146
+    },
+    {
+      "text": "DAVID PATTERSON: And\nnow comes the-- so you",
+      "start": 2013.091,
+      "duration": 1.871
+    },
+    {
+      "text": "if you've been married\na long time, people say,",
+      "start": 2014.962,
+      "duration": 1.958
+    },
+    {
+      "text": "what's the secret to\na long relationship?",
+      "start": 2016.92,
+      "duration": 2.31
+    },
+    {
+      "text": "And I used to say,\nremember your wedding vows,",
+      "start": 2019.23,
+      "duration": 2.52
+    },
+    {
+      "text": "but nobody remembers\ntheir wedding vows.",
+      "start": 2021.75,
+      "duration": 2.31
+    },
+    {
+      "text": "So we have the nine magic\nwords for a long relationship.",
+      "start": 2024.06,
+      "duration": 3.66
+    },
+    {
+      "text": "It's only nine, and\nit's three sentences.",
+      "start": 2027.72,
+      "duration": 3.27
+    },
+    {
+      "text": "And the first words\nare \"I, you, I.\"",
+      "start": 2030.99,
+      "duration": 2.55
+    },
+    {
+      "text": "And if you say\nthese words you too",
+      "start": 2033.54,
+      "duration": 2.63
+    },
+    {
+      "text": "can have a long relationship.",
+      "start": 2036.17,
+      "duration": 1.36
+    },
+    {
+      "text": "The first sentence\nis, I was wrong.",
+      "start": 2037.53,
+      "duration": 2.99
+    },
+    {
+      "text": "Second sentence\nis, you were right.",
+      "start": 2040.52,
+      "duration": 2.37
+    },
+    {
+      "text": "The third sentence\nis, I love you.",
+      "start": 2042.89,
+      "duration": 2.31
+    },
+    {
+      "text": "OK, there's no substitutions.",
+      "start": 2045.2,
+      "duration": 1.99
+    },
+    {
+      "text": "I was wrong.",
+      "start": 2047.19,
+      "duration": 0.574
+    },
+    {
+      "text": "You were right.",
+      "start": 2047.764,
+      "duration": 0.625
+    },
+    {
+      "text": "You're a jerk.",
+      "start": 2048.389,
+      "duration": 0.691
+    },
+    {
+      "text": "Nope, you can't do that.",
+      "start": 2049.08,
+      "duration": 1.43
+    },
+    {
+      "text": "But if you say all\nnine magic words,",
+      "start": 2050.51,
+      "duration": 2.32
+    },
+    {
+      "text": "you too can have a\nlong relationship.",
+      "start": 2052.83,
+      "duration": 2.25
+    },
+    {
+      "text": "SINEAD BOVELL: [LAUGHS] I think\nthat's a great place to end.",
+      "start": 2055.08,
+      "duration": 3.02
+    },
+    {
+      "text": "Thank you.",
+      "start": 2058.1,
+      "duration": 0.97
+    },
+    {
+      "text": "Thank you.",
+      "start": 2059.07,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2059.57,
+      "duration": 3.35
+    }
+  ]
+}

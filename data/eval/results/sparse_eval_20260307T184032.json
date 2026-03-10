@@ -1,0 +1,242 @@
+[
+  {
+    "query": "differences between Gemini developer API features and other AI platforms",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "7Tnq4y7T4xs__chunk_002",
+      "v6Rzo5khNE8__chunk_019",
+      "wz3kQQubPkc__chunk_004",
+      "v6Rzo5khNE8__chunk_017",
+      "GjvgtwSOCao__chunk_021"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "how to integrate Gemini API for building AI apps with text, images, and video",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "7Tnq4y7T4xs__chunk_004",
+      "7Tnq4y7T4xs__chunk_003",
+      "mP9QESmEDls__chunk_004",
+      "xo271p-Fl_4__chunk_001",
+      "GjvgtwSOCao__chunk_007"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "what is Gemini model family and how do I use it for multi-modal data",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_000"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_000",
+      "GjvgtwSOCao__chunk_026",
+      "w_W2brDZDko__chunk_022",
+      "GjvgtwSOCao__chunk_021",
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "how do Gemini embeddings work for semantic search and ranking",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "cHNy5mK0jzE__chunk_006",
+      "gHHjDRDNUNU__chunk_001",
+      "nZhkjSFB6UA__chunk_002",
+      "nZhkjSFB6UA__chunk_003",
+      "cHNy5mK0jzE__chunk_007"
+    ],
+    "recall_at_k": 1,
+    "mrr": 0.5,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "how to run Gemini Nano on Android devices for on-device intelligence",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "IaNpcrCSDiI__chunk_021",
+      "7Tnq4y7T4xs__chunk_002",
+      "mP9QESmEDls__chunk_002",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_001"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "what are the different Gemini AI models and what are they best for",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_001"
+    ],
+    "retrieved_doc_ids": [
+      "w_W2brDZDko__chunk_001",
+      "mP9QESmEDls__chunk_002",
+      "w_W2brDZDko__chunk_000",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_003"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "how does the Gemini 2.5 series compare to older versions",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_002",
+      "o8NiE3XMPrM__chunk_012",
+      "U8Nb68XsVY4__chunk_000",
+      "o8NiE3XMPrM__chunk_040",
+      "OosLbRBM9dA__chunk_003"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "what are the best Gemini models right now for on-device tasks",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_001",
+      "7Tnq4y7T4xs__chunk_004",
+      "mP9QESmEDls__chunk_002",
+      "CjpZCWYrSxM__chunk_008",
+      "mP9QESmEDls__chunk_003"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "where can I test AI models with LMArena and see their Elo ratings",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_002"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_002",
+      "o8NiE3XMPrM__chunk_000",
+      "Uh-7YX8tkxI__chunk_002",
+      "o7Bv4r08FBM__chunk_007",
+      "o8NiE3XMPrM__chunk_008"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "how do Gemini models perform on coding and multimodal tasks",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "GjvgtwSOCao__chunk_008",
+      "7Tnq4y7T4xs__chunk_004",
+      "7Tnq4y7T4xs__chunk_005",
+      "o8NiE3XMPrM__chunk_012",
+      "4TE-KFXvhAk__chunk_001"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "what is Gemini 2.5 Pro and what can it do for app building",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "o8NiE3XMPrM__chunk_008",
+      "o8NiE3XMPrM__chunk_007",
+      "o8NiE3XMPrM__chunk_011",
+      "gHHjDRDNUNU__chunk_003",
+      "GjvgtwSOCao__chunk_000"
+    ],
+    "recall_at_k": 1,
+    "mrr": 0.25,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "where can I learn about Gemini GenMedia and robotic models",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_003"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_003",
+      "4TE-KFXvhAk__chunk_018",
+      "gHHjDRDNUNU__chunk_004",
+      "o8NiE3XMPrM__chunk_014",
+      "o8NiE3XMPrM__chunk_015"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "differences between Gemini models for robotics, chat, and audio generation tools",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_004",
+      "4TE-KFXvhAk__chunk_018",
+      "7Tnq4y7T4xs__chunk_001",
+      "gstgT0WRoiE__chunk_002",
+      "tMUxxCKXz4c__chunk_004"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  },
+  {
+    "query": "how can I generate natural-sounding speech from text with Gemini TTS",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "tMUxxCKXz4c__chunk_004",
+      "tMUxxCKXz4c__chunk_003",
+      "4TE-KFXvhAk__chunk_002",
+      "YN04nNsg_L4__chunk_009",
+      "gHHjDRDNUNU__chunk_012"
+    ],
+    "recall_at_k": 0,
+    "mrr": 0.0,
+    "precision_at_k": 0.0
+  },
+  {
+    "query": "what are the customization options for voices and emotions in Gemini TTS",
+    "relevant_doc_ids": [
+      "gHHjDRDNUNU__chunk_004"
+    ],
+    "retrieved_doc_ids": [
+      "gHHjDRDNUNU__chunk_004",
+      "4TE-KFXvhAk__chunk_002",
+      "gHHjDRDNUNU__chunk_005",
+      "4TE-KFXvhAk__chunk_003",
+      "tMUxxCKXz4c__chunk_005"
+    ],
+    "recall_at_k": 1,
+    "mrr": 1.0,
+    "precision_at_k": 0.2
+  }
+]

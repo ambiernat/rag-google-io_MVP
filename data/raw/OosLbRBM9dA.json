@@ -1,0 +1,2337 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "OosLbRBM9dA",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.856
+    },
+    {
+      "text": "SHOBANA RADHAKRISHNAN:\nHi, I'm Shobana,",
+      "start": 6.2,
+      "duration": 1.9
+    },
+    {
+      "text": "senior director of\nengineering for TV at Google.",
+      "start": 8.1,
+      "duration": 3.27
+    },
+    {
+      "text": "Today we'll dive into\nthe latest updates",
+      "start": 11.37,
+      "duration": 3.29
+    },
+    {
+      "text": "from Google TV and our\nunderlying Android TV OS",
+      "start": 14.66,
+      "duration": 4.23
+    },
+    {
+      "text": "and explore the ways you\ncan build excellent TV apps.",
+      "start": 18.89,
+      "duration": 5.16
+    },
+    {
+      "text": "Last fall, we mentioned\nthat Google TV and Android",
+      "start": 24.05,
+      "duration": 3.66
+    },
+    {
+      "text": "TV achieved over 270 million\nmonthly active devices,",
+      "start": 27.71,
+      "duration": 5.38
+    },
+    {
+      "text": "establishing one of the\nlargest smart TV OS footprints.",
+      "start": 33.09,
+      "duration": 4.7
+    },
+    {
+      "text": "We look forward to\nincreasing this momentum",
+      "start": 37.79,
+      "duration": 2.64
+    },
+    {
+      "text": "by bringing our platform\nto more form factors",
+      "start": 40.43,
+      "duration": 3.12
+    },
+    {
+      "text": "and delivering more delightful\nuser experiences this year.",
+      "start": 43.55,
+      "duration": 4.98
+    },
+    {
+      "text": "We are glad to see users\ninteract with our platform",
+      "start": 48.53,
+      "duration": 3.39
+    },
+    {
+      "text": "across a diverse range of\nentry-level to premium devices,",
+      "start": 51.92,
+      "duration": 4.95
+    },
+    {
+      "text": "from TVs, phones, and tablets to\nprojectors and, most recently,",
+      "start": 56.87,
+      "duration": 7.29
+    },
+    {
+      "text": "smart monitors.",
+      "start": 64.16,
+      "duration": 1.74
+    },
+    {
+      "text": "We're especially proud to\nsee support for Google TV",
+      "start": 65.9,
+      "duration": 4.01
+    },
+    {
+      "text": "on the awarded OMEN 32x smart\ngaming monitor and have our new",
+      "start": 69.91,
+      "duration": 5.67
+    },
+    {
+      "text": "Google TV Streamer recognized as\nthe best media streaming device",
+      "start": 75.58,
+      "duration": 4.74
+    },
+    {
+      "text": "by the \"New York\nTimes Wirecutter.\"",
+      "start": 80.32,
+      "duration": 3.18
+    },
+    {
+      "text": "Today, we are excited\nto share even more ways",
+      "start": 83.5,
+      "duration": 4.17
+    },
+    {
+      "text": "users can access effortless\nentertainment on Google",
+      "start": 87.67,
+      "duration": 3.69
+    },
+    {
+      "text": "TV this year.",
+      "start": 91.36,
+      "duration": 1.89
+    },
+    {
+      "text": "First off, we'll be\npartnering with select OEMs",
+      "start": 93.25,
+      "duration": 4.38
+    },
+    {
+      "text": "to launch affordable and\nreliable low-RAM panel",
+      "start": 97.63,
+      "duration": 4.14
+    },
+    {
+      "text": "TVs, allowing more\nbudget-conscious users",
+      "start": 101.77,
+      "duration": 3.84
+    },
+    {
+      "text": "to experience quality\nentertainment.",
+      "start": 105.61,
+      "duration": 3.03
+    },
+    {
+      "text": "We are also excited to soon\nbring Google TV to headsets,",
+      "start": 108.64,
+      "duration": 4.74
+    },
+    {
+      "text": "powered by Android XR.",
+      "start": 113.38,
+      "duration": 2.49
+    },
+    {
+      "text": "Users can see, hear,\nand explore the action",
+      "start": 115.87,
+      "duration": 4.62
+    },
+    {
+      "text": "from the best seat in the house.",
+      "start": 120.49,
+      "duration": 2.52
+    },
+    {
+      "text": "They can access their\nfavorite content",
+      "start": 123.01,
+      "duration": 2.52
+    },
+    {
+      "text": "across their subscriptions,\nsearch for content,",
+      "start": 125.53,
+      "duration": 3.449
+    },
+    {
+      "text": "and get curated recommendations.",
+      "start": 128.979,
+      "duration": 3.091
+    },
+    {
+      "text": "Our broad platform availability\nacross a variety of form factors",
+      "start": 132.07,
+      "duration": 4.95
+    },
+    {
+      "text": "directly translates to\nmore opportunities for you",
+      "start": 137.02,
+      "duration": 4.32
+    },
+    {
+      "text": "to connect with users worldwide.",
+      "start": 141.34,
+      "duration": 3.36
+    },
+    {
+      "text": "To further enrich\nthe user experience,",
+      "start": 144.7,
+      "duration": 2.59
+    },
+    {
+      "text": "we brought more apps\nto our global platform.",
+      "start": 147.29,
+      "duration": 4.04
+    },
+    {
+      "text": "Just to name a few,\nwe have launched",
+      "start": 151.33,
+      "duration": 2.64
+    },
+    {
+      "text": "HISTORY Vault in the US,\nBBC, Channel 4, ARD, TF1,",
+      "start": 153.97,
+      "duration": 6.81
+    },
+    {
+      "text": "and ITV in EMEA, as well as\nJioHotstar and Vidio in the APAC",
+      "start": 160.78,
+      "duration": 7.14
+    },
+    {
+      "text": "region.",
+      "start": 167.92,
+      "duration": 1.05
+    },
+    {
+      "text": "Now I can watch my\nfavorite Bollywood movies",
+      "start": 168.97,
+      "duration": 3.48
+    },
+    {
+      "text": "from these apps on Google TV.",
+      "start": 172.45,
+      "duration": 3.72
+    },
+    {
+      "text": "Our quality streaming\npartnerships",
+      "start": 176.17,
+      "duration": 2.49
+    },
+    {
+      "text": "also allow us to sustain\nstrong app engagement.",
+      "start": 178.66,
+      "duration": 4.34
+    },
+    {
+      "text": "In 2024, US users spent\napproximately 200 minutes",
+      "start": 183.0,
+      "duration": 5.61
+    },
+    {
+      "text": "in apps per day.",
+      "start": 188.61,
+      "duration": 2.49
+    },
+    {
+      "text": "As our platform becomes\neven more diversified",
+      "start": 191.1,
+      "duration": 2.88
+    },
+    {
+      "text": "with excellent apps, we're\nalso making improvements",
+      "start": 193.98,
+      "duration": 3.57
+    },
+    {
+      "text": "to help users find what to watch\nand offer new ways for your apps",
+      "start": 197.55,
+      "duration": 5.52
+    },
+    {
+      "text": "to reach your target users.",
+      "start": 203.07,
+      "duration": 3.3
+    },
+    {
+      "text": "Last year, we previewed\nthe Video Discovery API",
+      "start": 206.37,
+      "duration": 3.72
+    },
+    {
+      "text": "that's available for partners.",
+      "start": 210.09,
+      "duration": 3.0
+    },
+    {
+      "text": "Video discovery optimizes\nresumption, entitlements,",
+      "start": 213.09,
+      "duration": 3.93
+    },
+    {
+      "text": "and recommendations across\nall Google TV form factors",
+      "start": 217.02,
+      "duration": 4.2
+    },
+    {
+      "text": "to enhance the end\nuser experience",
+      "start": 221.22,
+      "duration": 2.58
+    },
+    {
+      "text": "and boost app engagement.",
+      "start": 223.8,
+      "duration": 2.64
+    },
+    {
+      "text": "You can now easily\ndisplay user's post video",
+      "start": 226.44,
+      "duration": 4.59
+    },
+    {
+      "text": "within the Continue Watching\nrow from the home screen.",
+      "start": 231.03,
+      "duration": 3.81
+    },
+    {
+      "text": "Resumption drives 60% of all\nuser interactions on Google TV.",
+      "start": 234.84,
+      "duration": 6.24
+    },
+    {
+      "text": "This interface allows\nusers to resume viewing",
+      "start": 241.08,
+      "duration": 3.54
+    },
+    {
+      "text": "from where they left\noff across any device",
+      "start": 244.62,
+      "duration": 3.82
+    },
+    {
+      "text": "when they are signed in\nwith their Google account.",
+      "start": 248.44,
+      "duration": 3.11
+    },
+    {
+      "text": "The Video Discovery\nAPI also streamlines",
+      "start": 251.55,
+      "duration": 3.3
+    },
+    {
+      "text": "entitlement management, which\nmatches content to eligibility.",
+      "start": 254.85,
+      "duration": 4.72
+    },
+    {
+      "text": "This eligibility might be\nfrom a subscription, purchase,",
+      "start": 259.57,
+      "duration": 4.04
+    },
+    {
+      "text": "or a free ad-supported model.",
+      "start": 263.61,
+      "duration": 2.88
+    },
+    {
+      "text": "Video discovery allows users\nto share their entitlements",
+      "start": 266.49,
+      "duration": 3.96
+    },
+    {
+      "text": "through one simple\nopt-in process.",
+      "start": 270.45,
+      "duration": 3.31
+    },
+    {
+      "text": "Users appreciate this because\nthey can enjoy personalized",
+      "start": 273.76,
+      "duration": 4.01
+    },
+    {
+      "text": "recommendations without\nneeding to manually update",
+      "start": 277.77,
+      "duration": 3.39
+    },
+    {
+      "text": "all their subscription details.",
+      "start": 281.16,
+      "duration": 2.52
+    },
+    {
+      "text": "This allows you,\nas our partners,",
+      "start": 283.68,
+      "duration": 3.07
+    },
+    {
+      "text": "to connect with users across\nmultiple discovery points",
+      "start": 286.75,
+      "duration": 3.32
+    },
+    {
+      "text": "on Google TV.",
+      "start": 290.07,
+      "duration": 2.1
+    },
+    {
+      "text": "That means more immediate access\nand increased app engagement.",
+      "start": 292.17,
+      "duration": 5.99
+    },
+    {
+      "text": "The Video Discovery API even\nhighlights personalized content",
+      "start": 298.16,
+      "duration": 4.05
+    },
+    {
+      "text": "recommendations based on content\nthat users watch inside apps.",
+      "start": 302.21,
+      "duration": 4.8
+    },
+    {
+      "text": "Partners can begin incorporating\nthe Video Discovery API",
+      "start": 307.01,
+      "duration": 3.72
+    },
+    {
+      "text": "today, starting with resumption\nand entitlement integrations.",
+      "start": 310.73,
+      "duration": 5.02
+    },
+    {
+      "text": "Check out the link for\nmore details to enroll.",
+      "start": 315.75,
+      "duration": 4.16
+    },
+    {
+      "text": "Google TV is committed\nto responsibly using AI",
+      "start": 319.91,
+      "duration": 3.48
+    },
+    {
+      "text": "to bring more helpfulness\ninto the home too.",
+      "start": 323.39,
+      "duration": 3.84
+    },
+    {
+      "text": "For instance, last fall, we\nreleased AI-generated content",
+      "start": 327.23,
+      "duration": 4.68
+    },
+    {
+      "text": "descriptions which help users\nfind their next favorite film",
+      "start": 331.91,
+      "duration": 3.54
+    },
+    {
+      "text": "or series to watch.",
+      "start": 335.45,
+      "duration": 2.7
+    },
+    {
+      "text": "Users can access bite-sized\nseason summaries,",
+      "start": 338.15,
+      "duration": 3.13
+    },
+    {
+      "text": "learn more about a movie, and\nsee feedback from other viewers.",
+      "start": 341.28,
+      "duration": 5.81
+    },
+    {
+      "text": "Google TV also offers\ncustom AI screensavers.",
+      "start": 347.09,
+      "duration": 3.94
+    },
+    {
+      "text": "So users can simply\nuse their voice",
+      "start": 351.03,
+      "duration": 2.72
+    },
+    {
+      "text": "to create stunning\nscreensavers for the largest",
+      "start": 353.75,
+      "duration": 3.15
+    },
+    {
+      "text": "screen in their home.",
+      "start": 356.9,
+      "duration": 1.92
+    },
+    {
+      "text": "Earlier this year, we announced\nthat we'll bring Gemini",
+      "start": 358.82,
+      "duration": 3.45
+    },
+    {
+      "text": "capabilities to Google TV.",
+      "start": 362.27,
+      "duration": 1.95
+    },
+    {
+      "text": "So users can speak\nmore naturally",
+      "start": 364.22,
+      "duration": 2.52
+    },
+    {
+      "text": "and conversationally to find\nwhat to watch and get answers",
+      "start": 366.74,
+      "duration": 4.89
+    },
+    {
+      "text": "to complex questions.",
+      "start": 371.63,
+      "duration": 2.34
+    },
+    {
+      "text": "Our new AI assistant\nnow understands",
+      "start": 373.97,
+      "duration": 3.15
+    },
+    {
+      "text": "users' natural,\nconversational voice searches.",
+      "start": 377.12,
+      "duration": 3.51
+    },
+    {
+      "text": "It then analyzes titles from\nyour apps and shares tailored",
+      "start": 380.63,
+      "duration": 4.89
+    },
+    {
+      "text": "recommendations, effectively\nboosting the visibility",
+      "start": 385.52,
+      "duration": 3.63
+    },
+    {
+      "text": "of your app's content.",
+      "start": 389.15,
+      "duration": 2.04
+    },
+    {
+      "text": "Let's dive deeper into\nwhat this looks like.",
+      "start": 391.19,
+      "duration": 3.93
+    },
+    {
+      "text": "For instance, I want to share\nmy interest in the classic",
+      "start": 395.12,
+      "duration": 3.69
+    },
+    {
+      "text": "\"Jurassic Park\" movies\nwith my younger kids,",
+      "start": 398.81,
+      "duration": 2.98
+    },
+    {
+      "text": "but I don't want to show\nthem something too intense.",
+      "start": 401.79,
+      "duration": 3.18
+    },
+    {
+      "text": "Now I can easily ask questions\nlike, I like Jurassic park.",
+      "start": 404.97,
+      "duration": 5.22
+    },
+    {
+      "text": "What are some movies like it\nthat I can watch with my kids?",
+      "start": 410.19,
+      "duration": 3.56
+    },
+    {
+      "text": "And voila, I get\npersonalized recommendations,",
+      "start": 413.75,
+      "duration": 4.31
+    },
+    {
+      "text": "perfect for my\nnext family night.",
+      "start": 418.06,
+      "duration": 3.36
+    },
+    {
+      "text": "Plus, users can\nnaturally ask questions",
+      "start": 421.42,
+      "duration": 3.54
+    },
+    {
+      "text": "to explore their\nlatest curiosities",
+      "start": 424.96,
+      "duration": 2.46
+    },
+    {
+      "text": "and get insightful answers\nwith supporting videos",
+      "start": 427.42,
+      "duration": 3.45
+    },
+    {
+      "text": "for deeper learning.",
+      "start": 430.87,
+      "duration": 1.86
+    },
+    {
+      "text": "They can invite the whole family\nto learn, asking questions like,",
+      "start": 432.73,
+      "duration": 4.87
+    },
+    {
+      "text": "can you explain the solar\nsystem to my first grader?",
+      "start": 437.6,
+      "duration": 3.65
+    },
+    {
+      "text": "And the AI assistant will\nprovide a personalized response",
+      "start": 441.25,
+      "duration": 4.08
+    },
+    {
+      "text": "with suitable video\nsuggestions that a first grader",
+      "start": 445.33,
+      "duration": 3.21
+    },
+    {
+      "text": "would be excited to see.",
+      "start": 448.54,
+      "duration": 2.19
+    },
+    {
+      "text": "When we demoed Google\nTV with Gemini at CES,",
+      "start": 450.73,
+      "duration": 3.97
+    },
+    {
+      "text": "we were pleased to receive the\nbest AI award from Tom's Guide.",
+      "start": 454.7,
+      "duration": 4.77
+    },
+    {
+      "text": "We are so excited to bring this\nnew, helpful, and delightful",
+      "start": 459.47,
+      "duration": 4.73
+    },
+    {
+      "text": "experience to users this fall.",
+      "start": 464.2,
+      "duration": 2.7
+    },
+    {
+      "text": "There's never been a better\ntime to be a Google TV",
+      "start": 466.9,
+      "duration": 2.94
+    },
+    {
+      "text": "partner or developer.",
+      "start": 469.84,
+      "duration": 1.78
+    },
+    {
+      "text": "I'll now hand it over to Paul\nfrom our developer relations",
+      "start": 471.62,
+      "duration": 3.68
+    },
+    {
+      "text": "team, who will share more\nabout Compose for TV,",
+      "start": 475.3,
+      "duration": 3.34
+    },
+    {
+      "text": "provide suggestions on\nimproving your apps performance,",
+      "start": 478.64,
+      "duration": 3.21
+    },
+    {
+      "text": "and explore some exciting\nfeatures from Android 16.",
+      "start": 481.85,
+      "duration": 3.57
+    },
+    {
+      "text": "Over to you, Paul.",
+      "start": 485.42,
+      "duration": 2.585
+    },
+    {
+      "text": "PAUL LAMMERTSMA:\nThanks, Shobana.",
+      "start": 488.005,
+      "duration": 1.375
+    },
+    {
+      "text": "Last year, we launched\nCompose for TV,",
+      "start": 489.38,
+      "duration": 2.25
+    },
+    {
+      "text": "which lets you build beautiful,\nadaptive UIs across Android,",
+      "start": 491.63,
+      "duration": 3.24
+    },
+    {
+      "text": "including Android TV OS.",
+      "start": 494.87,
+      "duration": 2.06
+    },
+    {
+      "text": "If your app is following best\npractices for adaptive apps,",
+      "start": 496.93,
+      "duration": 2.68
+    },
+    {
+      "text": "you've done most of the work\nalready to adapt to TVs.",
+      "start": 499.61,
+      "duration": 3.05
+    },
+    {
+      "text": "Compose is also where\nwe're continually improving",
+      "start": 502.66,
+      "duration": 2.13
+    },
+    {
+      "text": "the developer experience.",
+      "start": 504.79,
+      "duration": 1.27
+    },
+    {
+      "text": "SoundCloud built upon\nthese improvements",
+      "start": 506.06,
+      "duration": 1.67
+    },
+    {
+      "text": "to overhaul their apps\ndesign system with Compose,",
+      "start": 507.73,
+      "duration": 3.0
+    },
+    {
+      "text": "building new features and\nusing 45% less code on average.",
+      "start": 510.73,
+      "duration": 3.64
+    },
+    {
+      "text": "It took them just four\nmonths to build their TV app",
+      "start": 514.37,
+      "duration": 2.24
+    },
+    {
+      "text": "from the ground up.",
+      "start": 516.61,
+      "duration": 0.98
+    },
+    {
+      "text": "You can read more about their\nCompose journey on the Android",
+      "start": 517.59,
+      "duration": 2.5
+    },
+    {
+      "text": "developer blog.",
+      "start": 520.09,
+      "duration": 1.709
+    },
+    {
+      "text": "Compose for TV 1.0 is stable and\nexpands on the core and material",
+      "start": 521.799,
+      "duration": 3.691
+    },
+    {
+      "text": "Compose libraries.",
+      "start": 525.49,
+      "duration": 1.5
+    },
+    {
+      "text": "The March 2025\nrelease of Compose",
+      "start": 526.99,
+      "duration": 2.55
+    },
+    {
+      "text": "significantly\nimproves app startup",
+      "start": 529.54,
+      "duration": 2.16
+    },
+    {
+      "text": "in our internal benchmarking\nsample on mobile,",
+      "start": 531.7,
+      "duration": 2.47
+    },
+    {
+      "text": "with roughly a 20% improvement\ncompared with the March 2024",
+      "start": 534.17,
+      "duration": 3.79
+    },
+    {
+      "text": "release.",
+      "start": 537.96,
+      "duration": 1.05
+    },
+    {
+      "text": "We've seen jank rates on older\nPixel 3A devices reduced by up",
+      "start": 539.01,
+      "duration": 3.72
+    },
+    {
+      "text": "to 76%.",
+      "start": 542.73,
+      "duration": 2.22
+    },
+    {
+      "text": "Both of these metrics are\nalready considerably better",
+      "start": 544.95,
+      "duration": 2.73
+    },
+    {
+      "text": "than views performance.",
+      "start": 547.68,
+      "duration": 1.23
+    },
+    {
+      "text": "And on hardware-constrained\ndevices like TVs,",
+      "start": 548.91,
+      "duration": 2.47
+    },
+    {
+      "text": "those enhancements are huge.",
+      "start": 551.38,
+      "duration": 2.69
+    },
+    {
+      "text": "Our updated Jetcaster\nsample demonstrates",
+      "start": 554.07,
+      "duration": 2.16
+    },
+    {
+      "text": "how to use Compose\nacross form factors.",
+      "start": 556.23,
+      "duration": 2.38
+    },
+    {
+      "text": "It includes a dedicated module\nfor playing podcasts on TV",
+      "start": 558.61,
+      "duration": 3.17
+    },
+    {
+      "text": "by combining separate view\nmodels with shared business",
+      "start": 561.78,
+      "duration": 2.55
+    },
+    {
+      "text": "logic.",
+      "start": 564.33,
+      "duration": 0.82
+    },
+    {
+      "text": "Check out the details in the\nCompose tips for delightful UI",
+      "start": 565.15,
+      "duration": 2.81
+    },
+    {
+      "text": "video series.",
+      "start": 567.96,
+      "duration": 1.68
+    },
+    {
+      "text": "We've now also updated\nour JetStream sample",
+      "start": 569.64,
+      "duration": 2.31
+    },
+    {
+      "text": "to demonstrate how to share\nlogic within a single module.",
+      "start": 571.95,
+      "duration": 3.22
+    },
+    {
+      "text": "This approach uses\nthe most amount",
+      "start": 575.17,
+      "duration": 1.67
+    },
+    {
+      "text": "of code between form factors.",
+      "start": 576.84,
+      "duration": 1.87
+    },
+    {
+      "text": "These are two\ncomprehensive samples",
+      "start": 578.71,
+      "duration": 1.73
+    },
+    {
+      "text": "that show how to reduce code\nand maintenance by building",
+      "start": 580.44,
+      "duration": 3.0
+    },
+    {
+      "text": "adaptive apps for Android.",
+      "start": 583.44,
+      "duration": 2.07
+    },
+    {
+      "text": "We've also heard your\nfeedback about handling focus",
+      "start": 585.51,
+      "duration": 2.35
+    },
+    {
+      "text": "and are making iterative\nimprovements, including",
+      "start": 587.86,
+      "duration": 2.0
+    },
+    {
+      "text": "our newly published CodeLab.",
+      "start": 589.86,
+      "duration": 2.07
+    },
+    {
+      "text": "We've seen three\ncommon challenges",
+      "start": 591.93,
+      "duration": 1.92
+    },
+    {
+      "text": "when handling focus\nbehavior on TV--",
+      "start": 593.85,
+      "duration": 2.2
+    },
+    {
+      "text": "first, setting initial focus.",
+      "start": 596.05,
+      "duration": 2.64
+    },
+    {
+      "text": "Second, taking over control\nof unexpected focus traversal.",
+      "start": 598.69,
+      "duration": 4.23
+    },
+    {
+      "text": "And third, restoring focus.",
+      "start": 602.92,
+      "duration": 2.75
+    },
+    {
+      "text": "Let's explore setting\ninitial focus.",
+      "start": 605.67,
+      "duration": 2.22
+    },
+    {
+      "text": "In a TV UI, whenever\nopening a screen,",
+      "start": 607.89,
+      "duration": 2.77
+    },
+    {
+      "text": "the initial focus\nneeds to be set.",
+      "start": 610.66,
+      "duration": 1.86
+    },
+    {
+      "text": "Compose for TV does this\nin the majority of cases,",
+      "start": 612.52,
+      "duration": 2.43
+    },
+    {
+      "text": "but sometimes the default might\ndiffer from your preference.",
+      "start": 614.95,
+      "duration": 3.53
+    },
+    {
+      "text": "You can control that initial\nfocus in three steps.",
+      "start": 618.48,
+      "duration": 2.74
+    },
+    {
+      "text": "First, declare a\nfocus requester that's",
+      "start": 621.22,
+      "duration": 2.06
+    },
+    {
+      "text": "wrapped in a member function.",
+      "start": 623.28,
+      "duration": 1.78
+    },
+    {
+      "text": "Then apply a focus requester\nmodifier on the first card.",
+      "start": 625.06,
+      "duration": 4.55
+    },
+    {
+      "text": "And finally, call the\nrequest focus method",
+      "start": 629.61,
+      "duration": 2.37
+    },
+    {
+      "text": "in the launched effects\ncomposable function.",
+      "start": 631.98,
+      "duration": 2.14
+    },
+    {
+      "text": "This last bit ensures\nthat the focus",
+      "start": 634.12,
+      "duration": 1.85
+    },
+    {
+      "text": "is moved to the right element\nwhen the composable is",
+      "start": 635.97,
+      "duration": 2.28
+    },
+    {
+      "text": "composed for the first time.",
+      "start": 638.25,
+      "duration": 2.13
+    },
+    {
+      "text": "Now let's take a look\nat some scenarios",
+      "start": 640.38,
+      "duration": 1.95
+    },
+    {
+      "text": "where focus moves to an\nunexpected component.",
+      "start": 642.33,
+      "duration": 2.86
+    },
+    {
+      "text": "Here, we have four items\narranged in rows and columns.",
+      "start": 645.19,
+      "duration": 3.36
+    },
+    {
+      "text": "When I press the\nright D-pad button,",
+      "start": 648.55,
+      "duration": 1.92
+    },
+    {
+      "text": "the focus moves from the\nfirst item to the third item.",
+      "start": 650.47,
+      "duration": 2.79
+    },
+    {
+      "text": "That's odd.",
+      "start": 653.26,
+      "duration": 1.13
+    },
+    {
+      "text": "To understand why\nthis is happening,",
+      "start": 654.39,
+      "duration": 1.98
+    },
+    {
+      "text": "we can look at our\nlayout hierarchy.",
+      "start": 656.37,
+      "duration": 2.24
+    },
+    {
+      "text": "The four focus targets\nare at the same level,",
+      "start": 658.61,
+      "duration": 2.53
+    },
+    {
+      "text": "and ThirdCard is the\nfirst item to the right",
+      "start": 661.14,
+      "duration": 2.18
+    },
+    {
+      "text": "of FirstCard in the layout.",
+      "start": 663.32,
+      "duration": 1.83
+    },
+    {
+      "text": "That's why focus\nmoves from the first",
+      "start": 665.15,
+      "duration": 1.71
+    },
+    {
+      "text": "to the third with the\nright directional key.",
+      "start": 666.86,
+      "duration": 3.0
+    },
+    {
+      "text": "We can resolve this\nby creating a focus",
+      "start": 669.86,
+      "duration": 1.86
+    },
+    {
+      "text": "group that consists of the\nfocus targets inside the row.",
+      "start": 671.72,
+      "duration": 3.21
+    },
+    {
+      "text": "Now, since the row\nand the first card",
+      "start": 674.93,
+      "duration": 2.07
+    },
+    {
+      "text": "are the only focus\ntargets at the same level,",
+      "start": 677.0,
+      "duration": 2.367
+    },
+    {
+      "text": "pressing the right\ndirectional key no longer",
+      "start": 679.367,
+      "duration": 1.833
+    },
+    {
+      "text": "moves to the third card\nfrom within a focus group.",
+      "start": 681.2,
+      "duration": 3.652
+    },
+    {
+      "text": "We should also make sure\nthat focus is restored",
+      "start": 684.852,
+      "duration": 1.958
+    },
+    {
+      "text": "when the user returns to it.",
+      "start": 686.81,
+      "duration": 1.98
+    },
+    {
+      "text": "By using the focus\nrestore modifier,",
+      "start": 688.79,
+      "duration": 2.183
+    },
+    {
+      "text": "we can make sure\nthat the focus is",
+      "start": 690.973,
+      "duration": 1.417
+    },
+    {
+      "text": "brought to the right\nelement in the group.",
+      "start": 692.39,
+      "duration": 2.49
+    },
+    {
+      "text": "Now, these are\njust a few examples",
+      "start": 694.88,
+      "duration": 1.47
+    },
+    {
+      "text": "taken straight from our new\nfocus management CodeLab.",
+      "start": 696.35,
+      "duration": 2.44
+    },
+    {
+      "text": "Check the video description\nfor an entire guide.",
+      "start": 698.79,
+      "duration": 2.49
+    },
+    {
+      "text": "Our goal is to make\nthis even easier,",
+      "start": 701.28,
+      "duration": 1.88
+    },
+    {
+      "text": "and we'll continue to improve\nfocus behavior in Compose.",
+      "start": 703.16,
+      "duration": 2.8
+    },
+    {
+      "text": "So stay tuned to the Android\ndeveloper channel for updates",
+      "start": 705.96,
+      "duration": 2.81
+    },
+    {
+      "text": "later this year.",
+      "start": 708.77,
+      "duration": 1.71
+    },
+    {
+      "text": "Whether or not\nyou're using Compose,",
+      "start": 710.48,
+      "duration": 2.05
+    },
+    {
+      "text": "getting optimal performance\nout of your TV app",
+      "start": 712.53,
+      "duration": 2.33
+    },
+    {
+      "text": "is always important.",
+      "start": 714.86,
+      "duration": 1.59
+    },
+    {
+      "text": "This is why we've published\na comprehensive guide",
+      "start": 716.45,
+      "duration": 2.18
+    },
+    {
+      "text": "on memory optimisation,\nincluding memory",
+      "start": 718.63,
+      "duration": 2.13
+    },
+    {
+      "text": "targets for low-RAM devices.",
+      "start": 720.76,
+      "duration": 2.16
+    },
+    {
+      "text": "Combined with Android Studio's\npowerful memory profiler,",
+      "start": 722.92,
+      "duration": 2.95
+    },
+    {
+      "text": "this helps you understand when\nit exceeds those limits and why.",
+      "start": 725.87,
+      "duration": 4.37
+    },
+    {
+      "text": "In the worst case, if your app\nis using memory carelessly,",
+      "start": 730.24,
+      "duration": 3.76
+    },
+    {
+      "text": "Android TV OS may perform\ndirect memory reclaim,",
+      "start": 734.0,
+      "duration": 3.33
+    },
+    {
+      "text": "a process that might\nseverely disrupt your app.",
+      "start": 737.33,
+      "duration": 2.64
+    },
+    {
+      "text": "But more often,\nineffective use of memory",
+      "start": 739.97,
+      "duration": 2.27
+    },
+    {
+      "text": "will trigger garbage\ncollection in your own app,",
+      "start": 742.24,
+      "duration": 2.11
+    },
+    {
+      "text": "resulting in a\njarring experience.",
+      "start": 744.35,
+      "duration": 2.57
+    },
+    {
+      "text": "I've pulled up an old leanback\napp as an example of bitmap",
+      "start": 746.92,
+      "duration": 3.15
+    },
+    {
+      "text": "allocations and\nhow it makes memory",
+      "start": 750.07,
+      "duration": 2.37
+    },
+    {
+      "text": "grow bigger than necessary.",
+      "start": 752.44,
+      "duration": 1.92
+    },
+    {
+      "text": "It displays a typical\ngrid of images that are",
+      "start": 754.36,
+      "duration": 2.16
+    },
+    {
+      "text": "loaded dynamically, and oof.",
+      "start": 756.52,
+      "duration": 2.26
+    },
+    {
+      "text": "As you can see, it does\nnot have good performance.",
+      "start": 758.78,
+      "duration": 2.96
+    },
+    {
+      "text": "Let's take a peek at\nthe code that handles",
+      "start": 761.74,
+      "duration": 1.92
+    },
+    {
+      "text": "displaying the poster images.",
+      "start": 763.66,
+      "duration": 2.13
+    },
+    {
+      "text": "It has a very\nstraightforward approach",
+      "start": 765.79,
+      "duration": 1.62
+    },
+    {
+      "text": "using Glide to load\nimages into cards.",
+      "start": 767.41,
+      "duration": 3.39
+    },
+    {
+      "text": "OK, let me restart\nthe app and start",
+      "start": 770.8,
+      "duration": 2.04
+    },
+    {
+      "text": "a session of a memory profiler.",
+      "start": 772.84,
+      "duration": 1.87
+    },
+    {
+      "text": "I'm attaching it\nto the app process",
+      "start": 774.71,
+      "duration": 1.7
+    },
+    {
+      "text": "and selecting the preset to\ntrack memory allocations.",
+      "start": 776.41,
+      "duration": 3.36
+    },
+    {
+      "text": "Great, it started.",
+      "start": 779.77,
+      "duration": 1.15
+    },
+    {
+      "text": "While I scroll on\nthe screen, we can",
+      "start": 780.92,
+      "duration": 1.79
+    },
+    {
+      "text": "see how the Java memory\nin blue and the graphics",
+      "start": 782.71,
+      "duration": 2.52
+    },
+    {
+      "text": "memory in orange are\ngrowing simultaneously",
+      "start": 785.23,
+      "duration": 2.7
+    },
+    {
+      "text": "until a spike of\nmemory is reached.",
+      "start": 787.93,
+      "duration": 2.61
+    },
+    {
+      "text": "Ooh, look at those\nlittle garbage can icons.",
+      "start": 790.54,
+      "duration": 2.29
+    },
+    {
+      "text": "They indicate the many times\ngarbage collector is called.",
+      "start": 792.83,
+      "duration": 2.97
+    },
+    {
+      "text": "And every single time, it's\ncaused a little bit of jank",
+      "start": 795.8,
+      "duration": 3.08
+    },
+    {
+      "text": "in my app.",
+      "start": 798.88,
+      "duration": 1.443
+    },
+    {
+      "text": "Also, notice how there's\na spike in the memory",
+      "start": 800.323,
+      "duration": 1.917
+    },
+    {
+      "text": "graph before garbage\ncollection kicked in?",
+      "start": 802.24,
+      "duration": 2.11
+    },
+    {
+      "text": "We want to prevent as\nmany spikes as possible.",
+      "start": 804.35,
+      "duration": 2.42
+    },
+    {
+      "text": "On this low-memory device,\nit's preferential to avoid",
+      "start": 806.77,
+      "duration": 3.0
+    },
+    {
+      "text": "using two different\ntypes of memory",
+      "start": 809.77,
+      "duration": 1.56
+    },
+    {
+      "text": "for images when we could\nmostly use graphics memory.",
+      "start": 811.33,
+      "duration": 2.82
+    },
+    {
+      "text": "By loading the\nimages this way, I'm",
+      "start": 814.15,
+      "duration": 2.07
+    },
+    {
+      "text": "loading them into Java\nmemory and displaying",
+      "start": 816.22,
+      "duration": 2.19
+    },
+    {
+      "text": "them using graphics memory,\nwhich is effectively",
+      "start": 818.41,
+      "duration": 2.13
+    },
+    {
+      "text": "using twice the amount.",
+      "start": 820.54,
+      "duration": 1.89
+    },
+    {
+      "text": "All right, back to the code.",
+      "start": 822.43,
+      "duration": 1.27
+    },
+    {
+      "text": "Let's change the\nGlide configuration",
+      "start": 823.7,
+      "duration": 1.94
+    },
+    {
+      "text": "to use hardware-backed\nbitmaps so we",
+      "start": 825.64,
+      "duration": 1.98
+    },
+    {
+      "text": "can transfer the bitmap\ndirectly to the memory",
+      "start": 827.62,
+      "duration": 2.73
+    },
+    {
+      "text": "and free up our\nJava memory space.",
+      "start": 830.35,
+      "duration": 2.35
+    },
+    {
+      "text": "We'll do this by changing\nthe request options",
+      "start": 832.7,
+      "duration": 2.42
+    },
+    {
+      "text": "and setting the Downsampler\nallow hardware config to true.",
+      "start": 835.12,
+      "duration": 3.96
+    },
+    {
+      "text": "It'd be neater to define this\nin our app configuration.",
+      "start": 839.08,
+      "duration": 2.47
+    },
+    {
+      "text": "But just for\nillustration, I'm just",
+      "start": 841.55,
+      "duration": 1.458
+    },
+    {
+      "text": "going to drop this\nline right here.",
+      "start": 843.008,
+      "duration": 1.802
+    },
+    {
+      "text": "Let's run the app again and\nattach a new memory profiler",
+      "start": 844.81,
+      "duration": 3.03
+    },
+    {
+      "text": "session to it.",
+      "start": 847.84,
+      "duration": 1.8
+    },
+    {
+      "text": "Now, by doing the same type\nof scrolling as before,",
+      "start": 849.64,
+      "duration": 2.32
+    },
+    {
+      "text": "we can now observe that\nboth types of memory",
+      "start": 851.96,
+      "duration": 1.91
+    },
+    {
+      "text": "do not grow simultaneously.",
+      "start": 853.87,
+      "duration": 1.87
+    },
+    {
+      "text": "This configuration\nallows for the bitmaps",
+      "start": 855.74,
+      "duration": 1.785
+    },
+    {
+      "text": "to be released from\nJava memory as they",
+      "start": 857.525,
+      "duration": 1.625
+    },
+    {
+      "text": "are loaded into graphics.",
+      "start": 859.15,
+      "duration": 1.62
+    },
+    {
+      "text": "So in general, less\nmemory is being consumed,",
+      "start": 860.77,
+      "duration": 2.79
+    },
+    {
+      "text": "and consequently, we're\nseeing fewer spikes.",
+      "start": 863.56,
+      "duration": 3.33
+    },
+    {
+      "text": "Memory also frees up\nsooner once we stop",
+      "start": 866.89,
+      "duration": 1.71
+    },
+    {
+      "text": "scrolling compared to before.",
+      "start": 868.6,
+      "duration": 1.54
+    },
+    {
+      "text": "I've been using a low-RAM\ndevice for illustrating",
+      "start": 870.14,
+      "duration": 2.18
+    },
+    {
+      "text": "this optimization.",
+      "start": 872.32,
+      "duration": 1.12
+    },
+    {
+      "text": "And as you can see, it's\nessential to test your app",
+      "start": 873.44,
+      "duration": 2.18
+    },
+    {
+      "text": "on lower-end hardware.",
+      "start": 875.62,
+      "duration": 1.36
+    },
+    {
+      "text": "Now, we can use this as\nit is, or we can set it up",
+      "start": 876.98,
+      "duration": 2.66
+    },
+    {
+      "text": "for only low-RAM devices.",
+      "start": 879.64,
+      "duration": 1.72
+    },
+    {
+      "text": "On higher-memory\ndevices, we may consider",
+      "start": 881.36,
+      "duration": 1.79
+    },
+    {
+      "text": "allowing Glide to use its bitmap\ncache to rapidly display images",
+      "start": 883.15,
+      "duration": 3.63
+    },
+    {
+      "text": "instead of reading\nthem from disk.",
+      "start": 886.78,
+      "duration": 1.9
+    },
+    {
+      "text": "After all, unused\nmemory is wasted memory,",
+      "start": 888.68,
+      "duration": 2.76
+    },
+    {
+      "text": "and striking a good balance here\nis really the name of the game.",
+      "start": 891.44,
+      "duration": 2.93
+    },
+    {
+      "text": "I can call\nactivityManager.isLowRAMDevice",
+      "start": 894.37,
+      "duration": 2.78
+    },
+    {
+      "text": "to check if there is\nan low-RAM device.",
+      "start": 897.15,
+      "duration": 2.37
+    },
+    {
+      "text": "I need to instance of\nthe activity manager.",
+      "start": 899.52,
+      "duration": 2.34
+    },
+    {
+      "text": "And with that, I can check\nfor the low-RAM flag.",
+      "start": 901.86,
+      "duration": 3.03
+    },
+    {
+      "text": "Now let me move that\nGlide configuration",
+      "start": 904.89,
+      "duration": 2.31
+    },
+    {
+      "text": "inside the condition,\nand we're good to go.",
+      "start": 907.2,
+      "duration": 3.51
+    },
+    {
+      "text": "Using Compose in combination\nwith Coil's async image",
+      "start": 910.71,
+      "duration": 3.15
+    },
+    {
+      "text": "provides these kinds of memory\noptimizations out of the box,",
+      "start": 913.86,
+      "duration": 3.19
+    },
+    {
+      "text": "but you should still be vigilant\nabout memory consumption.",
+      "start": 917.05,
+      "duration": 2.94
+    },
+    {
+      "text": "For example, if you're\nloading bitmaps into a painter",
+      "start": 919.99,
+      "duration": 2.75
+    },
+    {
+      "text": "instead of directly\ninto a Composable,",
+      "start": 922.74,
+      "duration": 2.01
+    },
+    {
+      "text": "Coil will not be able to\ndetect how large it needs",
+      "start": 924.75,
+      "duration": 2.52
+    },
+    {
+      "text": "to be on the screen, and it\nwill always load the image",
+      "start": 927.27,
+      "duration": 2.31
+    },
+    {
+      "text": "with its original dimensions.",
+      "start": 929.58,
+      "duration": 1.98
+    },
+    {
+      "text": "You might also benefit from\ndeliberately downsampling images",
+      "start": 931.56,
+      "duration": 3.0
+    },
+    {
+      "text": "on low-RAM devices by\nspecifying a size modifier,",
+      "start": 934.56,
+      "duration": 3.13
+    },
+    {
+      "text": "like I've done here.",
+      "start": 937.69,
+      "duration": 1.94
+    },
+    {
+      "text": "This only scratches\nthe surface, so check",
+      "start": 939.63,
+      "duration": 2.25
+    },
+    {
+      "text": "the guide for more details\nabout optimizing for memory.",
+      "start": 941.88,
+      "duration": 3.31
+    },
+    {
+      "text": "The guide also covers\nrecommendations",
+      "start": 945.19,
+      "duration": 1.88
+    },
+    {
+      "text": "for reducing memory overhead\nwhen working with graphics,",
+      "start": 947.07,
+      "duration": 2.62
+    },
+    {
+      "text": "media, and bindings.",
+      "start": 949.69,
+      "duration": 1.38
+    },
+    {
+      "text": "Examples include performing\nimage composition off the device",
+      "start": 951.07,
+      "duration": 3.47
+    },
+    {
+      "text": "and allocating the\nvideo seq buffer.",
+      "start": 954.54,
+      "duration": 3.87
+    },
+    {
+      "text": "We're excited to announce the\nupcoming release of Android 16",
+      "start": 958.41,
+      "duration": 2.79
+    },
+    {
+      "text": "for TV.",
+      "start": 961.2,
+      "duration": 0.81
+    },
+    {
+      "text": "Developers can begin using\nthe latest beta today.",
+      "start": 962.01,
+      "duration": 3.09
+    },
+    {
+      "text": "Android 16 includes some great\nfeatures to help TV developers.",
+      "start": 965.1,
+      "duration": 3.1
+    },
+    {
+      "text": "First, the new media\nquality API provides",
+      "start": 968.2,
+      "duration": 2.6
+    },
+    {
+      "text": "a standardized interface\nto developers and vendors",
+      "start": 970.8,
+      "duration": 2.55
+    },
+    {
+      "text": "to manage picture profiles.",
+      "start": 973.35,
+      "duration": 2.07
+    },
+    {
+      "text": "For movies and TV series that\nare mastered with a wider",
+      "start": 975.42,
+      "duration": 2.82
+    },
+    {
+      "text": "dynamic range, developers\nmight request filmmaker mode",
+      "start": 978.24,
+      "duration": 3.36
+    },
+    {
+      "text": "to accurately display content\nas the creator intended",
+      "start": 981.6,
+      "duration": 2.64
+    },
+    {
+      "text": "for it to look.",
+      "start": 984.24,
+      "duration": 1.09
+    },
+    {
+      "text": "A cinema profile with\ngreater color accuracy",
+      "start": 985.33,
+      "duration": 2.48
+    },
+    {
+      "text": "brings out subtle\ndetails and shadows",
+      "start": 987.81,
+      "duration": 1.98
+    },
+    {
+      "text": "in favor of\nincreasing brightness.",
+      "start": 989.79,
+      "duration": 2.73
+    },
+    {
+      "text": "Conversely, live\nsporting events,",
+      "start": 992.52,
+      "duration": 1.87
+    },
+    {
+      "text": "which are often mastered\nwith a narrow dynamic range",
+      "start": 994.39,
+      "duration": 2.45
+    },
+    {
+      "text": "and watched in\ndaylight, can benefit",
+      "start": 996.84,
+      "duration": 1.98
+    },
+    {
+      "text": "from a profile that gives\npreference to brightness",
+      "start": 998.82,
+      "duration": 2.43
+    },
+    {
+      "text": "over color accuracy.",
+      "start": 1001.25,
+      "duration": 1.8
+    },
+    {
+      "text": "If you'd like to understand\nwhich profile a device running",
+      "start": 1003.05,
+      "duration": 2.55
+    },
+    {
+      "text": "Android 16 or later supports,\nquery MediaQuality manager using",
+      "start": 1005.6,
+      "duration": 3.72
+    },
+    {
+      "text": "getAvailablePictureProfiles.",
+      "start": 1009.32,
+      "duration": 1.87
+    },
+    {
+      "text": "The profile ID may match against\na known system profile, some",
+      "start": 1011.19,
+      "duration": 3.64
+    },
+    {
+      "text": "of which may differ by OEM.",
+      "start": 1014.83,
+      "duration": 1.78
+    },
+    {
+      "text": "To apply a specific profile, you\ncan query MediaQuality manager",
+      "start": 1016.61,
+      "duration": 3.56
+    },
+    {
+      "text": "by profile ID--",
+      "start": 1020.17,
+      "duration": 1.23
+    },
+    {
+      "text": "for example, for this\none for cinema profile.",
+      "start": 1021.4,
+      "duration": 3.235
+    },
+    {
+      "text": "You can then apply\nthis picture profile",
+      "start": 1024.635,
+      "duration": 1.625
+    },
+    {
+      "text": "as a parameter to mediaCodec\nby providing in a parcelable",
+      "start": 1026.26,
+      "duration": 3.21
+    },
+    {
+      "text": "into its bundle.",
+      "start": 1029.47,
+      "duration": 1.619
+    },
+    {
+      "text": "Selecting a picture\nprofile in ExoPlayer",
+      "start": 1031.089,
+      "duration": 2.311
+    },
+    {
+      "text": "will be available in a future\nrelease later this year.",
+      "start": 1033.4,
+      "duration": 3.39
+    },
+    {
+      "text": "You can find the list\nof predefined profiles",
+      "start": 1036.79,
+      "duration": 1.86
+    },
+    {
+      "text": "in the updated guide for\nadjusting display settings.",
+      "start": 1038.65,
+      "duration": 3.48
+    },
+    {
+      "text": "Note that these\npresets aren't fixed.",
+      "start": 1042.13,
+      "duration": 2.26
+    },
+    {
+      "text": "TVs come with some\npreset profiles,",
+      "start": 1044.39,
+      "duration": 2.01
+    },
+    {
+      "text": "but OEMs can include more,\nand users can update them",
+      "start": 1046.4,
+      "duration": 2.54
+    },
+    {
+      "text": "based on their preferences.",
+      "start": 1048.94,
+      "duration": 2.28
+    },
+    {
+      "text": "Another new feature\nin Android 16",
+      "start": 1051.22,
+      "duration": 1.98
+    },
+    {
+      "text": "is platform support\nfor Eclipsa audio.",
+      "start": 1053.2,
+      "duration": 2.62
+    },
+    {
+      "text": "This is a new opensource\nspatial audio codec",
+      "start": 1055.82,
+      "duration": 2.78
+    },
+    {
+      "text": "based on the immersive audio\nmodel and formats developed",
+      "start": 1058.6,
+      "duration": 2.79
+    },
+    {
+      "text": "by Google, Samsung, and\nother key contributors",
+      "start": 1061.39,
+      "duration": 2.52
+    },
+    {
+      "text": "within the Alliance\nfor Open Media.",
+      "start": 1063.91,
+      "duration": 1.84
+    },
+    {
+      "text": "It's designed to revolutionize\nimmersive audio experiences",
+      "start": 1065.75,
+      "duration": 3.11
+    },
+    {
+      "text": "across a wide range\nof applications,",
+      "start": 1068.86,
+      "duration": 2.11
+    },
+    {
+      "text": "including streaming and gaming\nin augmented or virtual reality.",
+      "start": 1070.97,
+      "duration": 4.57
+    },
+    {
+      "text": "And because the\nformat is open source,",
+      "start": 1075.54,
+      "duration": 2.02
+    },
+    {
+      "text": "anyone can use\nfreely-available audio tools",
+      "start": 1077.56,
+      "duration": 2.36
+    },
+    {
+      "text": "or leverage automated\nworkflows that use FFmpeg",
+      "start": 1079.92,
+      "duration": 2.97
+    },
+    {
+      "text": "to create Eclipsa audio files.",
+      "start": 1082.89,
+      "duration": 2.07
+    },
+    {
+      "text": "You can already begin using\nthese codecs today, even",
+      "start": 1084.96,
+      "duration": 3.15
+    },
+    {
+      "text": "on older platforms, by using\nthe built-in support in Media3",
+      "start": 1088.11,
+      "duration": 3.54
+    },
+    {
+      "text": "ExoPlayer from version 1.5.",
+      "start": 1091.65,
+      "duration": 2.11
+    },
+    {
+      "text": "By compiling the\nLib IAMF library,",
+      "start": 1093.76,
+      "duration": 2.7
+    },
+    {
+      "text": "you'll get a dedicated\naudio renderer instance.",
+      "start": 1096.46,
+      "duration": 2.99
+    },
+    {
+      "text": "For details on\nhow to compile it,",
+      "start": 1099.45,
+      "duration": 1.93
+    },
+    {
+      "text": "see the decoder extension\nguide on GitHub.",
+      "start": 1101.38,
+      "duration": 2.78
+    },
+    {
+      "text": "Android 16 for TV now\nsupports 64-bit kernels,",
+      "start": 1104.16,
+      "duration": 3.01
+    },
+    {
+      "text": "which means you can run the\nemulator natively on a 64-bit",
+      "start": 1107.17,
+      "duration": 2.99
+    },
+    {
+      "text": "host machine.",
+      "start": 1110.16,
+      "duration": 1.14
+    },
+    {
+      "text": "Although there aren't any\n64-bit Android TV devices yet,",
+      "start": 1111.3,
+      "duration": 3.28
+    },
+    {
+      "text": "it shows how we're laying\nthe engineering framework.",
+      "start": 1114.58,
+      "duration": 2.37
+    },
+    {
+      "text": "We recommend that you also\nbegin preparing your TV apps",
+      "start": 1116.95,
+      "duration": 3.2
+    },
+    {
+      "text": "for 64-bit compatibility,\njust like you have been doing",
+      "start": 1120.15,
+      "duration": 3.0
+    },
+    {
+      "text": "for other Android form factors.",
+      "start": 1123.15,
+      "duration": 1.78
+    },
+    {
+      "text": "But it's important to continue\nsupporting 32-bit platforms",
+      "start": 1124.93,
+      "duration": 2.96
+    },
+    {
+      "text": "for many years to come.",
+      "start": 1127.89,
+      "duration": 1.45
+    },
+    {
+      "text": "And remember that you\ncan use app bundles",
+      "start": 1129.34,
+      "duration": 2.06
+    },
+    {
+      "text": "to minimize your application\nsize by supporting both.",
+      "start": 1131.4,
+      "duration": 3.63
+    },
+    {
+      "text": "Finally, let's explore\nsome more areas where",
+      "start": 1135.03,
+      "duration": 2.25
+    },
+    {
+      "text": "developing for\nAndroid TV OS brings",
+      "start": 1137.28,
+      "duration": 1.86
+    },
+    {
+      "text": "consistency and delightful\nexperiences across Android.",
+      "start": 1139.14,
+      "duration": 3.45
+    },
+    {
+      "text": "Let's start by taking a closer\nlook at content discovery.",
+      "start": 1142.59,
+      "duration": 3.12
+    },
+    {
+      "text": "If you're a seasoned Android\ndeveloper for Android TV OS,",
+      "start": 1145.71,
+      "duration": 2.89
+    },
+    {
+      "text": "the Continue Watching row\nprobably sounds familiar.",
+      "start": 1148.6,
+      "duration": 2.55
+    },
+    {
+      "text": "And perhaps you\nstruggle to implement it",
+      "start": 1151.15,
+      "duration": 1.76
+    },
+    {
+      "text": "because the Watch Next\nAPI is transactional,",
+      "start": 1152.91,
+      "duration": 2.44
+    },
+    {
+      "text": "requiring persistent\nclient-side IDs.",
+      "start": 1155.35,
+      "duration": 2.87
+    },
+    {
+      "text": "You can now use the greatly\nsimplified Video Discovery",
+      "start": 1158.22,
+      "duration": 2.61
+    },
+    {
+      "text": "API, which Shobana\nshowed us earlier.",
+      "start": 1160.83,
+      "duration": 2.79
+    },
+    {
+      "text": "Since this API is powered\nby the Engage SDK,",
+      "start": 1163.62,
+      "duration": 2.74
+    },
+    {
+      "text": "it's simultaneously preparing\nyour content for more surfaces,",
+      "start": 1166.36,
+      "duration": 3.11
+    },
+    {
+      "text": "like the recommendation\nrow, and across",
+      "start": 1169.47,
+      "duration": 2.43
+    },
+    {
+      "text": "other Android-powered devices.",
+      "start": 1171.9,
+      "duration": 2.43
+    },
+    {
+      "text": "First, we'll discover if\nthis API is available,",
+      "start": 1174.33,
+      "duration": 2.64
+    },
+    {
+      "text": "depending on your\nparticipation in the program.",
+      "start": 1176.97,
+      "duration": 2.2
+    },
+    {
+      "text": "Learn more about enrolling\nat the end of the session.",
+      "start": 1179.17,
+      "duration": 2.99
+    },
+    {
+      "text": "For the code in\nthe next sections,",
+      "start": 1182.16,
+      "duration": 1.54
+    },
+    {
+      "text": "let's assume that we've checked\nit's available by calling",
+      "start": 1183.7,
+      "duration": 2.61
+    },
+    {
+      "text": "isServiceAvailable.",
+      "start": 1186.31,
+      "duration": 1.85
+    },
+    {
+      "text": "When using the\nVideo Discovery API,",
+      "start": 1188.16,
+      "duration": 2.2
+    },
+    {
+      "text": "creating content entity\ntypes is very similar.",
+      "start": 1190.36,
+      "duration": 2.63
+    },
+    {
+      "text": "And you can collect them\ninto a continuation cluster.",
+      "start": 1192.99,
+      "duration": 2.73
+    },
+    {
+      "text": "And here's the neat thing.",
+      "start": 1195.72,
+      "duration": 1.14
+    },
+    {
+      "text": "Whenever you want to update\neach entity in the cluster,",
+      "start": 1196.86,
+      "duration": 2.61
+    },
+    {
+      "text": "all you need to do is\nsubmit the entire cluster",
+      "start": 1199.47,
+      "duration": 2.24
+    },
+    {
+      "text": "with a single call to\npublish continuation cluster.",
+      "start": 1201.71,
+      "duration": 3.18
+    },
+    {
+      "text": "We've heard your feedback.",
+      "start": 1204.89,
+      "duration": 1.15
+    },
+    {
+      "text": "You don't have to provide\ninsertions, updates, or removals",
+      "start": 1206.04,
+      "duration": 2.96
+    },
+    {
+      "text": "to individual entities anymore.",
+      "start": 1209.0,
+      "duration": 2.79
+    },
+    {
+      "text": "To support device entitlements,\nas Shobana showed earlier,",
+      "start": 1211.79,
+      "duration": 2.86
+    },
+    {
+      "text": "you can associate\nmultiple account profiles",
+      "start": 1214.65,
+      "duration": 2.24
+    },
+    {
+      "text": "to enable a personalized\nContinue Watching experience.",
+      "start": 1216.89,
+      "duration": 3.25
+    },
+    {
+      "text": "You can do this by providing\na record through Set Account",
+      "start": 1220.14,
+      "duration": 2.96
+    },
+    {
+      "text": "Profile.",
+      "start": 1223.1,
+      "duration": 0.81
+    },
+    {
+      "text": "And after getting\nuser consent, your app",
+      "start": 1223.91,
+      "duration": 1.98
+    },
+    {
+      "text": "can then share the user's data\nacross all of their devices",
+      "start": 1225.89,
+      "duration": 2.7
+    },
+    {
+      "text": "by calling\nsetSyncAcrossDevices with true.",
+      "start": 1228.59,
+      "duration": 2.95
+    },
+    {
+      "text": "This is a phenomenal way to keep\nyour content recommendations",
+      "start": 1231.54,
+      "duration": 2.93
+    },
+    {
+      "text": "in sync as users\nwatch your app's",
+      "start": 1234.47,
+      "duration": 2.22
+    },
+    {
+      "text": "content on different devices.",
+      "start": 1236.69,
+      "duration": 1.9
+    },
+    {
+      "text": "Like Shobana said, this API\nis not just for TV either.",
+      "start": 1238.59,
+      "duration": 3.99
+    },
+    {
+      "text": "You can use the appropriate\nEngage SDK libraries",
+      "start": 1242.58,
+      "duration": 2.6
+    },
+    {
+      "text": "for other form factors.",
+      "start": 1245.18,
+      "duration": 2.103
+    },
+    {
+      "text": "And as a reminder, if you're not\nenrolled in the Video Discovery",
+      "start": 1247.283,
+      "duration": 2.667
+    },
+    {
+      "text": "API program and are\ninterested in joining,",
+      "start": 1249.95,
+      "duration": 2.41
+    },
+    {
+      "text": "head over to this short\nlink to fill out the form.",
+      "start": 1252.36,
+      "duration": 4.13
+    },
+    {
+      "text": "Last year, we showed a sneak\npreview of the in-app ratings",
+      "start": 1256.49,
+      "duration": 3.24
+    },
+    {
+      "text": "and reviews prompt for TV.",
+      "start": 1259.73,
+      "duration": 1.56
+    },
+    {
+      "text": "I'm happy to announce that\nthe in-app ratings and reviews",
+      "start": 1261.29,
+      "duration": 2.79
+    },
+    {
+      "text": "API is available for\nall TV developers.",
+      "start": 1264.08,
+      "duration": 3.96
+    },
+    {
+      "text": "By implementing the same Play\nCore API you know and love",
+      "start": 1268.04,
+      "duration": 2.88
+    },
+    {
+      "text": "on mobile, you can\nconvert delightful moments",
+      "start": 1270.92,
+      "duration": 2.19
+    },
+    {
+      "text": "in your TV app into a higher\napp rating on Google Play.",
+      "start": 1273.11,
+      "duration": 3.01
+    },
+    {
+      "text": "For more details,\nread the blog post",
+      "start": 1276.12,
+      "duration": 2.27
+    },
+    {
+      "text": "that's linked in the\nvideo description.",
+      "start": 1278.39,
+      "duration": 2.64
+    },
+    {
+      "text": "As you can see, these\nupdates bring consistency",
+      "start": 1281.03,
+      "duration": 2.67
+    },
+    {
+      "text": "to app development\nacross Android,",
+      "start": 1283.7,
+      "duration": 1.99
+    },
+    {
+      "text": "making it easier than ever\nfor developers like you",
+      "start": 1285.69,
+      "duration": 2.48
+    },
+    {
+      "text": "to build apps that work\nacross all form factors",
+      "start": 1288.17,
+      "duration": 2.25
+    },
+    {
+      "text": "and engage with users through\nconsistent APIs and surfaces.",
+      "start": 1290.42,
+      "duration": 3.97
+    },
+    {
+      "text": "We're excited to see the\nimmersive, engaging experiences",
+      "start": 1294.39,
+      "duration": 3.08
+    },
+    {
+      "text": "that you create.",
+      "start": 1297.47,
+      "duration": 1.08
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1298.55,
+      "duration": 3.05
+    }
+  ]
+}

@@ -1,0 +1,2137 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "T41OD37tI54",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.367
+    },
+    {
+      "text": "NEETHI THOMAS: Hi,\neveryone, I'm Neethi,",
+      "start": 6.26,
+      "duration": 1.95
+    },
+    {
+      "text": "and I'm joined by Rejane.",
+      "start": 8.21,
+      "duration": 1.89
+    },
+    {
+      "text": "We're both group\nproduct managers",
+      "start": 10.1,
+      "duration": 1.95
+    },
+    {
+      "text": "at Google Play\ndedicated to helping",
+      "start": 12.05,
+      "duration": 2.46
+    },
+    {
+      "text": "you maximize your revenue.",
+      "start": 14.51,
+      "duration": 2.31
+    },
+    {
+      "text": "Today, we're excited to walk you\nthrough a range of new features",
+      "start": 16.82,
+      "duration": 3.75
+    },
+    {
+      "text": "designed to amplify your\nimpact across critical phases",
+      "start": 20.57,
+      "duration": 3.99
+    },
+    {
+      "text": "of your app's journey.",
+      "start": 24.56,
+      "duration": 2.19
+    },
+    {
+      "text": "First, we will dive into\npowerful new monetization",
+      "start": 26.75,
+      "duration": 3.84
+    },
+    {
+      "text": "tools focused on\nboosting your bottom line",
+      "start": 30.59,
+      "duration": 2.82
+    },
+    {
+      "text": "and providing\ngreater flexibility.",
+      "start": 33.41,
+      "duration": 3.06
+    },
+    {
+      "text": "You'll learn about enhancements\nlike streamlined checkout",
+      "start": 36.47,
+      "duration": 3.06
+    },
+    {
+      "text": "experiences for one-time\nproducts and subscriptions,",
+      "start": 39.53,
+      "duration": 3.73
+    },
+    {
+      "text": "expanded control over the\nsubscription lifecycle",
+      "start": 43.26,
+      "duration": 3.32
+    },
+    {
+      "text": "to help reduce churn,\nand increased visibility",
+      "start": 46.58,
+      "duration": 3.15
+    },
+    {
+      "text": "for your subscription benefits.",
+      "start": 49.73,
+      "duration": 2.82
+    },
+    {
+      "text": "All these updates are\ndesigned to empower",
+      "start": 52.55,
+      "duration": 2.43
+    },
+    {
+      "text": "you to offer more flexible\nchoices to your users",
+      "start": 54.98,
+      "duration": 3.78
+    },
+    {
+      "text": "and to optimize your\nrevenue streams.",
+      "start": 58.76,
+      "duration": 2.78
+    },
+    {
+      "text": "Then I'll show you the\nways Google Play is",
+      "start": 61.54,
+      "duration": 3.21
+    },
+    {
+      "text": "investing in the performance and\ntrustworthiness of our platform.",
+      "start": 64.75,
+      "duration": 5.25
+    },
+    {
+      "text": "You'll learn more about\nhow we have focused",
+      "start": 70.0,
+      "duration": 2.76
+    },
+    {
+      "text": "on making payments\neasier and more secure",
+      "start": 72.76,
+      "duration": 3.6
+    },
+    {
+      "text": "for your global audience, how\nwe're optimizing the purchase",
+      "start": 76.36,
+      "duration": 4.26
+    },
+    {
+      "text": "experience through\nAI-powered payment method",
+      "start": 80.62,
+      "duration": 3.37
+    },
+    {
+      "text": "selection and optimization,\ncard abandoned",
+      "start": 83.99,
+      "duration": 3.02
+    },
+    {
+      "text": "reminders, and purchase\nflow recommendations,",
+      "start": 87.01,
+      "duration": 3.66
+    },
+    {
+      "text": "and, finally, how we're\nenhancing pricing flexibility",
+      "start": 90.67,
+      "duration": 3.72
+    },
+    {
+      "text": "and bolstering our efforts to\nmitigate fraud and abuse, all",
+      "start": 94.39,
+      "duration": 4.38
+    },
+    {
+      "text": "to build a trusted ecosystem\nfor you and your users.",
+      "start": 98.77,
+      "duration": 4.83
+    },
+    {
+      "text": "We're confident these new\nfeatures will provide you",
+      "start": 103.6,
+      "duration": 2.82
+    },
+    {
+      "text": "with immediate value\nand help you achieve",
+      "start": 106.42,
+      "duration": 2.43
+    },
+    {
+      "text": "powerful results over time.",
+      "start": 108.85,
+      "duration": 2.25
+    },
+    {
+      "text": "So let's get started.",
+      "start": 111.1,
+      "duration": 2.7
+    },
+    {
+      "text": "REJANE FRANCA: As\nGoogle Play, we're",
+      "start": 113.8,
+      "duration": 1.5
+    },
+    {
+      "text": "deeply committed to helping\nyou grow and succeed.",
+      "start": 115.3,
+      "duration": 2.86
+    },
+    {
+      "text": "We have heard directly\nfrom many of you",
+      "start": 118.16,
+      "duration": 2.3
+    },
+    {
+      "text": "that maximizing revenue and\nretaining valuable users",
+      "start": 120.46,
+      "duration": 3.09
+    },
+    {
+      "text": "are top priorities.",
+      "start": 123.55,
+      "duration": 1.59
+    },
+    {
+      "text": "To achieve this, it's\nimportant to provide",
+      "start": 125.14,
+      "duration": 2.46
+    },
+    {
+      "text": "flexibility and a seamless\nexperience to your users.",
+      "start": 127.6,
+      "duration": 3.43
+    },
+    {
+      "text": "And that's why we\nhave been hard at work",
+      "start": 131.03,
+      "duration": 2.06
+    },
+    {
+      "text": "developing a comprehensive\nsuite of new features.",
+      "start": 133.09,
+      "duration": 3.3
+    },
+    {
+      "text": "They are designed to empower\nyou in several key ways.",
+      "start": 136.39,
+      "duration": 3.16
+    },
+    {
+      "text": "First, by offering more\ndynamic and flexible ways",
+      "start": 139.55,
+      "duration": 3.14
+    },
+    {
+      "text": "to monetize through\nnew products,",
+      "start": 142.69,
+      "duration": 1.62
+    },
+    {
+      "text": "like single checkout\nfor multiple products",
+      "start": 144.31,
+      "duration": 2.22
+    },
+    {
+      "text": "for both subscriptions\nand one-time products.",
+      "start": 146.53,
+      "duration": 2.92
+    },
+    {
+      "text": "Second, by giving you greater\ncontrol over the subscription",
+      "start": 149.45,
+      "duration": 3.62
+    },
+    {
+      "text": "lifecycle with expanded\noptions for grace periods",
+      "start": 153.07,
+      "duration": 2.64
+    },
+    {
+      "text": "and account hold, tools\nto help optimize renewals",
+      "start": 155.71,
+      "duration": 3.24
+    },
+    {
+      "text": "and increase the visibility\nof your subscription benefits,",
+      "start": 158.95,
+      "duration": 3.43
+    },
+    {
+      "text": "and, finally, by providing you\nwith deeper insights and more",
+      "start": 162.38,
+      "duration": 3.53
+    },
+    {
+      "text": "efficiency through\nexpanded API access,",
+      "start": 165.91,
+      "duration": 2.65
+    },
+    {
+      "text": "redesigned Play Console\nsurfaces, precise tax management",
+      "start": 168.56,
+      "duration": 3.47
+    },
+    {
+      "text": "tools, and proactive, actionable\nrecommendations delivered",
+      "start": 172.03,
+      "duration": 3.78
+    },
+    {
+      "text": "directly to your inbox.",
+      "start": 175.81,
+      "duration": 2.64
+    },
+    {
+      "text": "So let's dive into how\nthese new features can",
+      "start": 178.45,
+      "duration": 2.58
+    },
+    {
+      "text": "empower you by offering more\ndynamic and flexible ways",
+      "start": 181.03,
+      "duration": 3.21
+    },
+    {
+      "text": "to monetize.",
+      "start": 184.24,
+      "duration": 1.24
+    },
+    {
+      "text": "We will start by looking at how\nwe're enhancing the purchase",
+      "start": 185.48,
+      "duration": 2.99
+    },
+    {
+      "text": "experience for one-time\nproducts with the introduction",
+      "start": 188.47,
+      "duration": 2.82
+    },
+    {
+      "text": "of single checkout.",
+      "start": 191.29,
+      "duration": 1.48
+    },
+    {
+      "text": "You can now bundle\nseveral one-time products",
+      "start": 192.77,
+      "duration": 2.39
+    },
+    {
+      "text": "in a seamless combined\ncheckout flow,",
+      "start": 195.16,
+      "duration": 2.26
+    },
+    {
+      "text": "helping you to create\nattractive offers and promotions",
+      "start": 197.42,
+      "duration": 2.87
+    },
+    {
+      "text": "for your users and making\nit even more convenient",
+      "start": 200.29,
+      "duration": 2.85
+    },
+    {
+      "text": "for them to complete\ntheir purchase.",
+      "start": 203.14,
+      "duration": 2.23
+    },
+    {
+      "text": "Bundling also enables you\nto offer complementary items",
+      "start": 205.37,
+      "duration": 3.23
+    },
+    {
+      "text": "or discounts on bundles\nto reward and incentivize",
+      "start": 208.6,
+      "duration": 2.88
+    },
+    {
+      "text": "your users, offering them\nmore choices than ever.",
+      "start": 211.48,
+      "duration": 3.27
+    },
+    {
+      "text": "This is a powerful way to\nincrease the overall visibility",
+      "start": 214.75,
+      "duration": 3.0
+    },
+    {
+      "text": "of your catalog and drive\nsales of individual products",
+      "start": 217.75,
+      "duration": 3.09
+    },
+    {
+      "text": "by showcasing items\nyour users may not",
+      "start": 220.84,
+      "duration": 2.4
+    },
+    {
+      "text": "have considered otherwise.",
+      "start": 223.24,
+      "duration": 2.25
+    },
+    {
+      "text": "Building on the theme\nof how providing",
+      "start": 225.49,
+      "duration": 1.86
+    },
+    {
+      "text": "more flexibility and choice, we\nhave also turned our attention",
+      "start": 227.35,
+      "duration": 3.39
+    },
+    {
+      "text": "to the world of subscriptions.",
+      "start": 230.74,
+      "duration": 1.72
+    },
+    {
+      "text": "As one of the world's largest\nsubscription platforms,",
+      "start": 232.46,
+      "duration": 2.96
+    },
+    {
+      "text": "with over a quarter of\na billion subscriptions,",
+      "start": 235.42,
+      "duration": 2.77
+    },
+    {
+      "text": "Google Play is\ncommitted to making",
+      "start": 238.19,
+      "duration": 1.55
+    },
+    {
+      "text": "the subscriptions you\noffer both easy to use",
+      "start": 239.74,
+      "duration": 2.71
+    },
+    {
+      "text": "and flexible to your user needs.",
+      "start": 242.45,
+      "duration": 2.23
+    },
+    {
+      "text": "We're excited to showcase\nsome of our new tools",
+      "start": 244.68,
+      "duration": 2.87
+    },
+    {
+      "text": "to help you accelerate\nyour monetization strategy",
+      "start": 247.55,
+      "duration": 2.91
+    },
+    {
+      "text": "and offer dynamic, flexible\noptions to your buyers.",
+      "start": 250.46,
+      "duration": 4.02
+    },
+    {
+      "text": "That's why we have extended\nmultiproduct checkout",
+      "start": 254.48,
+      "duration": 3.479
+    },
+    {
+      "text": "to subscriptions.",
+      "start": 257.959,
+      "duration": 1.511
+    },
+    {
+      "text": "Now you can unlock more pricing,\nflexibility, and user choice",
+      "start": 259.47,
+      "duration": 4.07
+    },
+    {
+      "text": "by selling subscription\nadd-ons to base subscriptions",
+      "start": 263.54,
+      "duration": 3.69
+    },
+    {
+      "text": "with an aligned\npayment schedule.",
+      "start": 267.23,
+      "duration": 2.61
+    },
+    {
+      "text": "Everything is combined\ninto one subscription",
+      "start": 269.84,
+      "duration": 2.64
+    },
+    {
+      "text": "to make it easy for\nusers to complete",
+      "start": 272.48,
+      "duration": 1.95
+    },
+    {
+      "text": "the purchase with a\nstreamlined payment process.",
+      "start": 274.43,
+      "duration": 2.97
+    },
+    {
+      "text": "For example, say you are a\ngenerative AI app offering",
+      "start": 277.4,
+      "duration": 3.93
+    },
+    {
+      "text": "a basic AI subscription,\nand now you",
+      "start": 281.33,
+      "duration": 2.52
+    },
+    {
+      "text": "see an opportunity to\nincrease your revenue",
+      "start": 283.85,
+      "duration": 2.1
+    },
+    {
+      "text": "by offering add-ons such as\nwriting or creative assist.",
+      "start": 285.95,
+      "duration": 3.87
+    },
+    {
+      "text": "During the checkout\nprocess, your customer",
+      "start": 289.82,
+      "duration": 2.46
+    },
+    {
+      "text": "can see all the individual\nitems, both the base",
+      "start": 292.28,
+      "duration": 3.06
+    },
+    {
+      "text": "subscription and any\nadd-ons displayed",
+      "start": 295.34,
+      "duration": 2.64
+    },
+    {
+      "text": "in a single cart with an\naligned payment schedule.",
+      "start": 297.98,
+      "duration": 3.67
+    },
+    {
+      "text": "You can then decide how your\nusers upgrade or downgrade",
+      "start": 301.65,
+      "duration": 3.51
+    },
+    {
+      "text": "and add or remove add-ons.",
+      "start": 305.16,
+      "duration": 2.05
+    },
+    {
+      "text": "And users can manage payments\nwith more simplicity,",
+      "start": 307.21,
+      "duration": 2.85
+    },
+    {
+      "text": "as if they had a single\nautorenewing subscription",
+      "start": 310.06,
+      "duration": 3.02
+    },
+    {
+      "text": "with aligned billing dates--",
+      "start": 313.08,
+      "duration": 1.86
+    },
+    {
+      "text": "one charge, one purchase,\nand everything stays in sync.",
+      "start": 314.94,
+      "duration": 3.9
+    },
+    {
+      "text": "So now that you\nare able to offer",
+      "start": 318.84,
+      "duration": 1.65
+    },
+    {
+      "text": "your users an easy, seamless way\nto manage their subscriptions,",
+      "start": 320.49,
+      "duration": 3.46
+    },
+    {
+      "text": "we also want to\ngive you even more",
+      "start": 323.95,
+      "duration": 1.82
+    },
+    {
+      "text": "control into how you offer\ngrace periods and account holds.",
+      "start": 325.77,
+      "duration": 3.63
+    },
+    {
+      "text": "You can now choose any\ngrace period up to 30 days",
+      "start": 329.4,
+      "duration": 3.49
+    },
+    {
+      "text": "and account hold\nperiod up to 60 days,",
+      "start": 332.89,
+      "duration": 2.73
+    },
+    {
+      "text": "with a combined duration\nbetween 30 and 60 days.",
+      "start": 335.62,
+      "duration": 3.44
+    },
+    {
+      "text": "Not only does this\ngive you more options.",
+      "start": 339.06,
+      "duration": 2.62
+    },
+    {
+      "text": "Users will then benefit from\na longer recovery period.",
+      "start": 341.68,
+      "duration": 3.36
+    },
+    {
+      "text": "And the best part--",
+      "start": 345.04,
+      "duration": 1.41
+    },
+    {
+      "text": "giving your users\nthat flexibility",
+      "start": 346.45,
+      "duration": 2.21
+    },
+    {
+      "text": "can significantly reduce\nyour overall churn.",
+      "start": 348.66,
+      "duration": 2.64
+    },
+    {
+      "text": "In an earlier experiment,\ndevelopers who adopted this",
+      "start": 351.3,
+      "duration": 3.33
+    },
+    {
+      "text": "feature saw, on average, a 10%\nreduction in involuntary churn",
+      "start": 354.63,
+      "duration": 3.93
+    },
+    {
+      "text": "for renews, with a 60-day\ndecline of recovery period.",
+      "start": 358.56,
+      "duration": 3.88
+    },
+    {
+      "text": "Speaking of renewals,\nwe understand",
+      "start": 362.44,
+      "duration": 2.118
+    },
+    {
+      "text": "that they are critical touch\npoints in the subscription",
+      "start": 364.558,
+      "duration": 2.292
+    },
+    {
+      "text": "lifecycle.",
+      "start": 366.85,
+      "duration": 1.05
+    },
+    {
+      "text": "Our data shows that\n70% of subscribers",
+      "start": 367.9,
+      "duration": 3.0
+    },
+    {
+      "text": "cancel due to a\nperceived lack of value,",
+      "start": 370.9,
+      "duration": 2.56
+    },
+    {
+      "text": "often citing costs\nor insufficient use.",
+      "start": 373.46,
+      "duration": 3.53
+    },
+    {
+      "text": "As a reminder, you can find\nthese cancellation responses",
+      "start": 376.99,
+      "duration": 3.18
+    },
+    {
+      "text": "and more insights\non Play Console",
+      "start": 380.17,
+      "duration": 1.89
+    },
+    {
+      "text": "to help you understand why\nusers might be leaving.",
+      "start": 382.06,
+      "duration": 3.18
+    },
+    {
+      "text": "We have also invested in tools\nthat give you more control",
+      "start": 385.24,
+      "duration": 2.82
+    },
+    {
+      "text": "and help you effectively\nreduce overall churn",
+      "start": 388.06,
+      "duration": 2.64
+    },
+    {
+      "text": "during these crucial periods.",
+      "start": 390.7,
+      "duration": 1.87
+    },
+    {
+      "text": "For example,\nnotifications now remind",
+      "start": 392.57,
+      "duration": 2.93
+    },
+    {
+      "text": "users of the value of\ntheir subscriptions",
+      "start": 395.5,
+      "duration": 2.25
+    },
+    {
+      "text": "at critical times during\nthe renewal period,",
+      "start": 397.75,
+      "duration": 2.5
+    },
+    {
+      "text": "like at the end\nof the intraperiod",
+      "start": 400.25,
+      "duration": 1.76
+    },
+    {
+      "text": "or during monthly\nbilling periods.",
+      "start": 402.01,
+      "duration": 2.76
+    },
+    {
+      "text": "And to make the renewal\nexperience even more seamless",
+      "start": 404.77,
+      "duration": 2.58
+    },
+    {
+      "text": "and proactively help\nprevent failed payments,",
+      "start": 407.35,
+      "duration": 2.65
+    },
+    {
+      "text": "we now notify users when\ntheir primary payment",
+      "start": 410.0,
+      "duration": 2.54
+    },
+    {
+      "text": "method is invalid and\nencourage them to update it",
+      "start": 412.54,
+      "duration": 3.15
+    },
+    {
+      "text": "before the renewal date.",
+      "start": 415.69,
+      "duration": 2.1
+    },
+    {
+      "text": "And finally, you can also\ninstantly test subscription",
+      "start": 417.79,
+      "duration": 3.36
+    },
+    {
+      "text": "renewal flows in the\nPlay Billing Lab app,",
+      "start": 421.15,
+      "duration": 2.38
+    },
+    {
+      "text": "significantly reducing the\nprevious 30-minute delay.",
+      "start": 423.53,
+      "duration": 3.5
+    },
+    {
+      "text": "These new features empower you\nto optimize your subscription",
+      "start": 427.03,
+      "duration": 3.09
+    },
+    {
+      "text": "renewal process and\nretain valuable users.",
+      "start": 430.12,
+      "duration": 3.18
+    },
+    {
+      "text": "To make sure that\nyour users understand",
+      "start": 433.3,
+      "duration": 2.16
+    },
+    {
+      "text": "and fully use all of their\nsubscription benefits,",
+      "start": 435.46,
+      "duration": 2.86
+    },
+    {
+      "text": "we're also showcasing all of\nyour subscription benefits",
+      "start": 438.32,
+      "duration": 2.84
+    },
+    {
+      "text": "in even more places.",
+      "start": 441.16,
+      "duration": 1.71
+    },
+    {
+      "text": "We have expanded visibility\nacross key touchpoints",
+      "start": 442.87,
+      "duration": 2.88
+    },
+    {
+      "text": "in the user journey, including\nwithin the subscription center",
+      "start": 445.75,
+      "duration": 3.24
+    },
+    {
+      "text": "and purchase flows,\nduring cancellation,",
+      "start": 448.99,
+      "duration": 2.82
+    },
+    {
+      "text": "in reminder emails, and other\nsurfaces across the Play Store.",
+      "start": 451.81,
+      "duration": 4.38
+    },
+    {
+      "text": "Don't miss out on the chance\nto unlock more customer",
+      "start": 456.19,
+      "duration": 2.28
+    },
+    {
+      "text": "flexibility, choice, and reduce\nchurn with these new features.",
+      "start": 458.47,
+      "duration": 3.99
+    },
+    {
+      "text": "Explore how they\ncan help you today",
+      "start": 462.46,
+      "duration": 2.07
+    },
+    {
+      "text": "by using the link on our screen.",
+      "start": 464.53,
+      "duration": 2.55
+    },
+    {
+      "text": "While providing customer\nflexibility and choice",
+      "start": 467.08,
+      "duration": 2.59
+    },
+    {
+      "text": "and minimizing churn\nare key, we also",
+      "start": 469.67,
+      "duration": 2.36
+    },
+    {
+      "text": "know that truly unlocking\ngrowth on Google Play",
+      "start": 472.03,
+      "duration": 2.07
+    },
+    {
+      "text": "requires a deep understanding\nof your business.",
+      "start": 474.1,
+      "duration": 2.62
+    },
+    {
+      "text": "To empower you with\nthis understanding,",
+      "start": 476.72,
+      "duration": 2.1
+    },
+    {
+      "text": "we've been working\non new features that",
+      "start": 478.82,
+      "duration": 1.82
+    },
+    {
+      "text": "enhance data access and give\nyou more control and greater",
+      "start": 480.64,
+      "duration": 3.43
+    },
+    {
+      "text": "efficiency, enabling you\nto make informed decisions",
+      "start": 484.07,
+      "duration": 3.06
+    },
+    {
+      "text": "and optimize your strategies\nfor maximum impact.",
+      "start": 487.13,
+      "duration": 3.09
+    },
+    {
+      "text": "To give you immediate\naccess to all the details,",
+      "start": 490.22,
+      "duration": 2.8
+    },
+    {
+      "text": "including subscription\npricing phases,",
+      "start": 493.02,
+      "duration": 2.22
+    },
+    {
+      "text": "we are expanding\naccess to Orders API.",
+      "start": 495.24,
+      "duration": 2.64
+    },
+    {
+      "text": "This allows for more\nefficient analysis,",
+      "start": 497.88,
+      "duration": 2.49
+    },
+    {
+      "text": "faster decision-making, and\nthe ability to implement more",
+      "start": 500.37,
+      "duration": 3.44
+    },
+    {
+      "text": "sophisticated strategies\nfor customer management",
+      "start": 503.81,
+      "duration": 2.52
+    },
+    {
+      "text": "and engagement--",
+      "start": 506.33,
+      "duration": 1.62
+    },
+    {
+      "text": "all the data you need\ninstantly at your fingertips.",
+      "start": 507.95,
+      "duration": 3.93
+    },
+    {
+      "text": "And to provide you with\nbetter data visibility,",
+      "start": 511.88,
+      "duration": 2.35
+    },
+    {
+      "text": "we are introducing\nbrand new services",
+      "start": 514.23,
+      "duration": 2.059
+    },
+    {
+      "text": "on Console, designed to\nhighlight all your top metrics",
+      "start": 516.289,
+      "duration": 3.421
+    },
+    {
+      "text": "and understand how your\napp is doing at a glance.",
+      "start": 519.71,
+      "duration": 2.98
+    },
+    {
+      "text": "This empowers you to quickly\nidentify trends, understand",
+      "start": 522.69,
+      "duration": 3.5
+    },
+    {
+      "text": "user behavior, and make informed\ndecisions to optimize your app's",
+      "start": 526.19,
+      "duration": 3.45
+    },
+    {
+      "text": "growth and monetization.",
+      "start": 529.64,
+      "duration": 1.92
+    },
+    {
+      "text": "The redesigned\napp dashboard also",
+      "start": 531.56,
+      "duration": 2.31
+    },
+    {
+      "text": "improves efficiency by\nputting common objectives",
+      "start": 533.87,
+      "duration": 2.43
+    },
+    {
+      "text": "front and center.",
+      "start": 536.3,
+      "duration": 1.36
+    },
+    {
+      "text": "You will see your data grouped\ninto four common tasks--",
+      "start": 537.66,
+      "duration": 3.57
+    },
+    {
+      "text": "test and release,\nmonitor and improve,",
+      "start": 541.23,
+      "duration": 2.77
+    },
+    {
+      "text": "grow users, and\nmonetize with Play.",
+      "start": 544.0,
+      "duration": 2.57
+    },
+    {
+      "text": "To empower you to dig\ndeeper into these areas,",
+      "start": 546.57,
+      "duration": 2.77
+    },
+    {
+      "text": "we're also launching\nnew overview pages",
+      "start": 549.34,
+      "duration": 1.82
+    },
+    {
+      "text": "for all of those tasks.",
+      "start": 551.16,
+      "duration": 2.04
+    },
+    {
+      "text": "These pages help you have\nmore insight into your data",
+      "start": 553.2,
+      "duration": 3.45
+    },
+    {
+      "text": "by specifically focusing\non each of the four most",
+      "start": 556.65,
+      "duration": 2.73
+    },
+    {
+      "text": "common objectives-- test and\nrelease, monitor and improve,",
+      "start": 559.38,
+      "duration": 3.72
+    },
+    {
+      "text": "growth, and monetization.",
+      "start": 563.1,
+      "duration": 1.86
+    },
+    {
+      "text": "This way, you can stay on top\nof your lifecycle of your app",
+      "start": 564.96,
+      "duration": 3.81
+    },
+    {
+      "text": "and make more informed decisions\nby seeing insights related",
+      "start": 568.77,
+      "duration": 3.45
+    },
+    {
+      "text": "to release rollout status,\napp installs, first opens,",
+      "start": 572.22,
+      "duration": 4.26
+    },
+    {
+      "text": "engagement, revenue,\nbuyer data, and more.",
+      "start": 576.48,
+      "duration": 4.11
+    },
+    {
+      "text": "And to give you more\ncontrol over your pricing,",
+      "start": 580.59,
+      "duration": 2.71
+    },
+    {
+      "text": "we're now adding more\nproduct classifications",
+      "start": 583.3,
+      "duration": 2.27
+    },
+    {
+      "text": "for even more precise and\ngranular tax configurations.",
+      "start": 585.57,
+      "duration": 3.9
+    },
+    {
+      "text": "Plus, we're simplifying and\nstreamlining our tax settings",
+      "start": 589.47,
+      "duration": 3.63
+    },
+    {
+      "text": "for better visibility, no matter\nwhere you are or what you sell.",
+      "start": 593.1,
+      "duration": 4.2
+    },
+    {
+      "text": "This helps give\nyou more efficiency",
+      "start": 597.3,
+      "duration": 2.49
+    },
+    {
+      "text": "in managing your business\nacross different regions",
+      "start": 599.79,
+      "duration": 2.32
+    },
+    {
+      "text": "and helps ensure accurate\npricing for users.",
+      "start": 602.11,
+      "duration": 3.24
+    },
+    {
+      "text": "To help you stay on top\nof all these new features",
+      "start": 605.35,
+      "duration": 2.82
+    },
+    {
+      "text": "and gain proactive insights\ninto your business performance,",
+      "start": 608.17,
+      "duration": 2.92
+    },
+    {
+      "text": "we have also integrated growth\nand technical recommendations",
+      "start": 611.09,
+      "duration": 3.44
+    },
+    {
+      "text": "directly into your\nPlay Console inbox.",
+      "start": 614.53,
+      "duration": 2.83
+    },
+    {
+      "text": "These alerts will notify\nyou of potential issues,",
+      "start": 617.36,
+      "duration": 2.78
+    },
+    {
+      "text": "like currency fluctuations\nor integration errors,",
+      "start": 620.14,
+      "duration": 3.01
+    },
+    {
+      "text": "allowing you to\ntake swift action.",
+      "start": 623.15,
+      "duration": 2.22
+    },
+    {
+      "text": "For example, if\nyou're not currently",
+      "start": 625.37,
+      "duration": 2.33
+    },
+    {
+      "text": "using server-side\npurchase acknowledgment",
+      "start": 627.7,
+      "duration": 2.28
+    },
+    {
+      "text": "and real-time developer\nnotifications,",
+      "start": 629.98,
+      "duration": 2.35
+    },
+    {
+      "text": "you could be missing\nvaluable sales",
+      "start": 632.33,
+      "duration": 1.7
+    },
+    {
+      "text": "due to network\nissues or purchases",
+      "start": 634.03,
+      "duration": 2.22
+    },
+    {
+      "text": "made outside of your app.",
+      "start": 636.25,
+      "duration": 2.07
+    },
+    {
+      "text": "You can learn how to\nmake your Play billing",
+      "start": 638.32,
+      "duration": 1.8
+    },
+    {
+      "text": "integration even more effective\nwith our Code Lab on the link",
+      "start": 640.12,
+      "duration": 3.54
+    },
+    {
+      "text": "below.",
+      "start": 643.66,
+      "duration": 0.61
+    },
+    {
+      "text": "Or you can also check\nyour Play Console inbox",
+      "start": 644.27,
+      "duration": 2.27
+    },
+    {
+      "text": "to see other recommendations,\nsuch as for price adjustments.",
+      "start": 646.54,
+      "duration": 3.72
+    },
+    {
+      "text": "These powerful\nmonetization tools",
+      "start": 650.26,
+      "duration": 1.8
+    },
+    {
+      "text": "are just the beginning\nof how Google",
+      "start": 652.06,
+      "duration": 1.62
+    },
+    {
+      "text": "Play supporting your growth.",
+      "start": 653.68,
+      "duration": 1.87
+    },
+    {
+      "text": "Explore these tools\ntoday to unlock",
+      "start": 655.55,
+      "duration": 2.0
+    },
+    {
+      "text": "your business total ROI and\nrevenue growth potential.",
+      "start": 657.55,
+      "duration": 3.42
+    },
+    {
+      "text": "Next, Neethi is\ngoing to walk you",
+      "start": 660.97,
+      "duration": 2.19
+    },
+    {
+      "text": "through all of the ways\nGoogle Play is investing",
+      "start": 663.16,
+      "duration": 2.16
+    },
+    {
+      "text": "in the performance\nof our platform",
+      "start": 665.32,
+      "duration": 1.71
+    },
+    {
+      "text": "and the ways we help you\nbuild trust with your users.",
+      "start": 667.03,
+      "duration": 4.83
+    },
+    {
+      "text": "NEETHI THOMAS: Thanks, Rejane.",
+      "start": 671.86,
+      "duration": 1.41
+    },
+    {
+      "text": "At Google Play, we're\ncommitted to helping",
+      "start": 673.27,
+      "duration": 2.46
+    },
+    {
+      "text": "you build your business\nsustainably on a platform",
+      "start": 675.73,
+      "duration": 3.06
+    },
+    {
+      "text": "you and your users trust.",
+      "start": 678.79,
+      "duration": 2.85
+    },
+    {
+      "text": "Whether it's a wide\nrange of payment options",
+      "start": 681.64,
+      "duration": 2.64
+    },
+    {
+      "text": "and local currencies,\nrecommendations tailored",
+      "start": 684.28,
+      "duration": 3.18
+    },
+    {
+      "text": "to your audience,\nor all the ways",
+      "start": 687.46,
+      "duration": 2.22
+    },
+    {
+      "text": "we protect your users\nfrom fraud and abuse,",
+      "start": 689.68,
+      "duration": 3.13
+    },
+    {
+      "text": "Play is committed\nto being a trusted",
+      "start": 692.81,
+      "duration": 2.63
+    },
+    {
+      "text": "and high-performance\necosystem that you",
+      "start": 695.44,
+      "duration": 2.46
+    },
+    {
+      "text": "can operate in with confidence.",
+      "start": 697.9,
+      "duration": 3.03
+    },
+    {
+      "text": "First, let's start with\nthe ways we're making it",
+      "start": 700.93,
+      "duration": 2.58
+    },
+    {
+      "text": "easier, more secure, and\nmore seamless for your users",
+      "start": 703.51,
+      "duration": 4.14
+    },
+    {
+      "text": "to complete payments.",
+      "start": 707.65,
+      "duration": 2.1
+    },
+    {
+      "text": "With over 2.5 billion users\nacross 190-plus markets,",
+      "start": 709.75,
+      "duration": 5.17
+    },
+    {
+      "text": "Google Play offers\nunparalleled global reach.",
+      "start": 714.92,
+      "duration": 4.73
+    },
+    {
+      "text": "We already support a wide\nrange of payment options,",
+      "start": 719.65,
+      "duration": 3.24
+    },
+    {
+      "text": "including traditional credit\ncards and over 300 local forms",
+      "start": 722.89,
+      "duration": 4.31
+    },
+    {
+      "text": "of payments in 65-plus markets.",
+      "start": 727.2,
+      "duration": 3.57
+    },
+    {
+      "text": "But as you know, the\npayment landscape",
+      "start": 730.77,
+      "duration": 2.4
+    },
+    {
+      "text": "changes rapidly,\nso we're constantly",
+      "start": 733.17,
+      "duration": 2.31
+    },
+    {
+      "text": "staying on top of global\ntrends, new forms of payment,",
+      "start": 735.48,
+      "duration": 3.54
+    },
+    {
+      "text": "and adding popular\npayment methods",
+      "start": 739.02,
+      "duration": 2.25
+    },
+    {
+      "text": "to meet evolving user needs.",
+      "start": 741.27,
+      "duration": 3.24
+    },
+    {
+      "text": "Over the last year, we've\nincreased our local payment",
+      "start": 744.51,
+      "duration": 2.79
+    },
+    {
+      "text": "method coverage in key markets,\nincluding Pix in Brazil,",
+      "start": 747.3,
+      "duration": 5.46
+    },
+    {
+      "text": "Cash App in the US,\nand BLIK in Poland.",
+      "start": 752.76,
+      "duration": 3.61
+    },
+    {
+      "text": "And this year, we've\nlaunched even more.",
+      "start": 756.37,
+      "duration": 2.93
+    },
+    {
+      "text": "We've added TROY in\nTurkey, Airtel in Kenya,",
+      "start": 759.3,
+      "duration": 4.32
+    },
+    {
+      "text": "PayPal in South Africa,\nand NAPAS in Vietnam.",
+      "start": 763.62,
+      "duration": 4.62
+    },
+    {
+      "text": "And that's not all.",
+      "start": 768.24,
+      "duration": 1.21
+    },
+    {
+      "text": "We're also expanding more ways\nusers can pay by launching QRIS",
+      "start": 769.45,
+      "duration": 4.98
+    },
+    {
+      "text": "in Indonesia, a new QR code\nstandard that enables seamless",
+      "start": 774.43,
+      "duration": 4.67
+    },
+    {
+      "text": "cashless payments.",
+      "start": 779.1,
+      "duration": 2.4
+    },
+    {
+      "text": "And coming soon, we'll be\none of the first platforms",
+      "start": 781.5,
+      "duration": 3.18
+    },
+    {
+      "text": "to offer Pix\nAutomatico in Brazil.",
+      "start": 784.68,
+      "duration": 3.1
+    },
+    {
+      "text": "We've partnered with\nthe Brazilian government",
+      "start": 787.78,
+      "duration": 2.27
+    },
+    {
+      "text": "to offer this new feature that\nenables automatic payments",
+      "start": 790.05,
+      "duration": 3.81
+    },
+    {
+      "text": "for subscriptions using Pix,\nwith broad availability coming",
+      "start": 793.86,
+      "duration": 4.53
+    },
+    {
+      "text": "later this year.",
+      "start": 798.39,
+      "duration": 2.25
+    },
+    {
+      "text": "On top of a wide range\nof payment methods,",
+      "start": 800.64,
+      "duration": 2.62
+    },
+    {
+      "text": "we also believe it's important\nto offer local currencies",
+      "start": 803.26,
+      "duration": 3.71
+    },
+    {
+      "text": "that your users are\nalready familiar with",
+      "start": 806.97,
+      "duration": 2.67
+    },
+    {
+      "text": "to make it easier for\nthem to complete purchases",
+      "start": 809.64,
+      "duration": 2.97
+    },
+    {
+      "text": "with confidence.",
+      "start": 812.61,
+      "duration": 1.86
+    },
+    {
+      "text": "That's why this year, we've\nenabled local currency support",
+      "start": 814.47,
+      "duration": 3.9
+    },
+    {
+      "text": "in Senegal, Cameroon, Cote\nd'Ivoire, and Mongolia.",
+      "start": 818.37,
+      "duration": 5.67
+    },
+    {
+      "text": "And as always, we'll handle all\nthe global currency complexities",
+      "start": 824.04,
+      "duration": 4.29
+    },
+    {
+      "text": "for you, simplifying all your\ninternational transactions",
+      "start": 828.33,
+      "duration": 3.3
+    },
+    {
+      "text": "so you can focus on\nwhat you do best--",
+      "start": 831.63,
+      "duration": 2.92
+    },
+    {
+      "text": "building amazing games and apps.",
+      "start": 834.55,
+      "duration": 3.8
+    },
+    {
+      "text": "To match changing\nregional payment norms,",
+      "start": 838.35,
+      "duration": 2.86
+    },
+    {
+      "text": "we're also expanding \"ask\nsomeone to pay\" to more regions.",
+      "start": 841.21,
+      "duration": 4.65
+    },
+    {
+      "text": "This feature enables\nusers to request purchases",
+      "start": 845.86,
+      "duration": 3.99
+    },
+    {
+      "text": "from friends and family\noutside their Google family",
+      "start": 849.85,
+      "duration": 3.9
+    },
+    {
+      "text": "group via payment links.",
+      "start": 853.75,
+      "duration": 2.52
+    },
+    {
+      "text": "It was first launched\nin India and is now",
+      "start": 856.27,
+      "duration": 2.49
+    },
+    {
+      "text": "rolling out in the US,\nJapan, Indonesia, and Mexico.",
+      "start": 858.76,
+      "duration": 5.64
+    },
+    {
+      "text": "And finally, to help more\nbuyers be purchase ready,",
+      "start": 864.4,
+      "duration": 3.28
+    },
+    {
+      "text": "we've been proactively\nencouraging people",
+      "start": 867.68,
+      "duration": 2.3
+    },
+    {
+      "text": "to set up payment methods in\nadvance, both within the Play",
+      "start": 869.98,
+      "duration": 3.42
+    },
+    {
+      "text": "Store and during\nAndroid device setup,",
+      "start": 873.4,
+      "duration": 2.71
+    },
+    {
+      "text": "and even during Google\naccount creation.",
+      "start": 876.11,
+      "duration": 3.65
+    },
+    {
+      "text": "This has boosted global\nconversion rates by up to 3%",
+      "start": 879.76,
+      "duration": 4.29
+    },
+    {
+      "text": "and added 7% more\nbuyers year-to-date,",
+      "start": 884.05,
+      "duration": 3.43
+    },
+    {
+      "text": "resulting in higher revenues\nfor your apps and games.",
+      "start": 887.48,
+      "duration": 4.49
+    },
+    {
+      "text": "The efforts over the past year\nhas resulted in a 240 million",
+      "start": 891.97,
+      "duration": 4.8
+    },
+    {
+      "text": "increase in global\nconsumer spending",
+      "start": 896.77,
+      "duration": 2.37
+    },
+    {
+      "text": "from people completing\nmore purchases",
+      "start": 899.14,
+      "duration": 2.67
+    },
+    {
+      "text": "with the more\nfrictionless experience,",
+      "start": 901.81,
+      "duration": 2.31
+    },
+    {
+      "text": "translating directly to\nhigher revenue for you",
+      "start": 904.12,
+      "duration": 3.66
+    },
+    {
+      "text": "from your apps and games.",
+      "start": 907.78,
+      "duration": 2.55
+    },
+    {
+      "text": "On top of the payment\nmethods we support",
+      "start": 910.33,
+      "duration": 2.25
+    },
+    {
+      "text": "and all the diverse range\nof options we offer,",
+      "start": 912.58,
+      "duration": 3.01
+    },
+    {
+      "text": "we also continue to invest in\npurchase optimizations that",
+      "start": 915.59,
+      "duration": 3.8
+    },
+    {
+      "text": "work quietly in the\nbackground to help you achieve",
+      "start": 919.39,
+      "duration": 2.61
+    },
+    {
+      "text": "powerful business results.",
+      "start": 922.0,
+      "duration": 2.37
+    },
+    {
+      "text": "First up, our AI models, trained\non billions of transactions,",
+      "start": 924.37,
+      "duration": 4.54
+    },
+    {
+      "text": "present the right payment\nmethod at the right time",
+      "start": 928.91,
+      "duration": 2.87
+    },
+    {
+      "text": "and optimize payment\nauthorizations.",
+      "start": 931.78,
+      "duration": 3.12
+    },
+    {
+      "text": "These optimizations help\nmaximize conversion and lifetime",
+      "start": 934.9,
+      "duration": 3.84
+    },
+    {
+      "text": "value for your users,\nand they've already",
+      "start": 938.74,
+      "duration": 2.37
+    },
+    {
+      "text": "driven incredible results.",
+      "start": 941.11,
+      "duration": 1.84
+    },
+    {
+      "text": "Over the last year, we've seen\nan increase of 200 million",
+      "start": 942.95,
+      "duration": 4.28
+    },
+    {
+      "text": "additional consumer spending.",
+      "start": 947.23,
+      "duration": 3.6
+    },
+    {
+      "text": "In addition, users can now\nmanage multiple payment backup",
+      "start": 950.83,
+      "duration": 4.05
+    },
+    {
+      "text": "methods at their\nGoogle account level",
+      "start": 954.88,
+      "duration": 2.4
+    },
+    {
+      "text": "instead of having to add one for\neach individual subscription.",
+      "start": 957.28,
+      "duration": 4.84
+    },
+    {
+      "text": "This feature simplifies\nsubscription management",
+      "start": 962.12,
+      "duration": 2.64
+    },
+    {
+      "text": "for the user and help\nyou reduce churn.",
+      "start": 964.76,
+      "duration": 3.33
+    },
+    {
+      "text": "We've started rolling\nit out in the US,",
+      "start": 968.09,
+      "duration": 2.19
+    },
+    {
+      "text": "and it has already shown\nearly results, including",
+      "start": 970.28,
+      "duration": 2.94
+    },
+    {
+      "text": "a 5% increase in\nsuccessful renewals",
+      "start": 973.22,
+      "duration": 2.7
+    },
+    {
+      "text": "in the US for eligible users.",
+      "start": 975.92,
+      "duration": 3.99
+    },
+    {
+      "text": "Beyond AI, we continuously\nsimplify the entire checkout",
+      "start": 979.91,
+      "duration": 3.51
+    },
+    {
+      "text": "experience.",
+      "start": 983.42,
+      "duration": 1.09
+    },
+    {
+      "text": "We've seen developers drive\nmore app re-engagement",
+      "start": 984.51,
+      "duration": 3.08
+    },
+    {
+      "text": "with automated cart abandoned\nreminders in the store",
+      "start": 987.59,
+      "duration": 3.06
+    },
+    {
+      "text": "for one-time purchases.",
+      "start": 990.65,
+      "duration": 1.66
+    },
+    {
+      "text": "So now we're extending\nthis to subscriptions.",
+      "start": 992.31,
+      "duration": 4.34
+    },
+    {
+      "text": "By combining features like\nthis with other optimizations,",
+      "start": 996.65,
+      "duration": 3.61
+    },
+    {
+      "text": "developers can significantly\nboost their revenue.",
+      "start": 1000.26,
+      "duration": 3.62
+    },
+    {
+      "text": "Our early results show\nthat these optimizations",
+      "start": 1003.88,
+      "duration": 2.73
+    },
+    {
+      "text": "have increased global\nconsumer spending",
+      "start": 1006.61,
+      "duration": 2.4
+    },
+    {
+      "text": "by over half a billion dollars.",
+      "start": 1009.01,
+      "duration": 3.6
+    },
+    {
+      "text": "Besides a more\nseamless checkout flow,",
+      "start": 1012.61,
+      "duration": 2.47
+    },
+    {
+      "text": "we're also investing in\nproviding better product",
+      "start": 1015.08,
+      "duration": 2.93
+    },
+    {
+      "text": "recommendations during\ncontextual moments with purchase",
+      "start": 1018.01,
+      "duration": 3.48
+    },
+    {
+      "text": "flow recommendations.",
+      "start": 1021.49,
+      "duration": 2.17
+    },
+    {
+      "text": "This feature helps\nyou guide users",
+      "start": 1023.66,
+      "duration": 2.64
+    },
+    {
+      "text": "towards other relevant purchases\nat just the right moments",
+      "start": 1026.3,
+      "duration": 3.51
+    },
+    {
+      "text": "in their journey,\nlike when they've just",
+      "start": 1029.81,
+      "duration": 1.92
+    },
+    {
+      "text": "bought something similar,\nor if they're just",
+      "start": 1031.73,
+      "duration": 1.95
+    },
+    {
+      "text": "about to abandon their cart.",
+      "start": 1033.68,
+      "duration": 2.58
+    },
+    {
+      "text": "Last year, we launched\npurchase flow recommendations",
+      "start": 1036.26,
+      "duration": 3.059
+    },
+    {
+      "text": "as an early access program\nand saw incredible results.",
+      "start": 1039.319,
+      "duration": 3.671
+    },
+    {
+      "text": "We're excited to\nannounce that we have now",
+      "start": 1042.99,
+      "duration": 2.27
+    },
+    {
+      "text": "made purchase flow\nrecommendations generally",
+      "start": 1045.26,
+      "duration": 2.76
+    },
+    {
+      "text": "available in the Console.",
+      "start": 1048.02,
+      "duration": 3.36
+    },
+    {
+      "text": "Over 400 apps have already\nset this feature up",
+      "start": 1051.38,
+      "duration": 2.7
+    },
+    {
+      "text": "and are seeing increased\nconversions and spend.",
+      "start": 1054.08,
+      "duration": 3.63
+    },
+    {
+      "text": "Setting this feature\nup is straightforward,",
+      "start": 1057.71,
+      "duration": 1.99
+    },
+    {
+      "text": "with only a few simple\nsteps in the Console",
+      "start": 1059.7,
+      "duration": 2.27
+    },
+    {
+      "text": "to select eligible SKUs.",
+      "start": 1061.97,
+      "duration": 1.96
+    },
+    {
+      "text": "So don't miss out on\nan easy opportunity",
+      "start": 1063.93,
+      "duration": 2.6
+    },
+    {
+      "text": "to boost your conversions and\nexplore this feature today.",
+      "start": 1066.53,
+      "duration": 4.17
+    },
+    {
+      "text": "To support your revenue growth\neven further, starting today,",
+      "start": 1070.7,
+      "duration": 4.18
+    },
+    {
+      "text": "we're increasing pricing\nflexibility and allowing",
+      "start": 1074.88,
+      "duration": 2.99
+    },
+    {
+      "text": "products with pricing\nup to $5,000 USD,",
+      "start": 1077.87,
+      "duration": 3.09
+    },
+    {
+      "text": "or the local equivalent.",
+      "start": 1080.96,
+      "duration": 2.95
+    },
+    {
+      "text": "This feature is\navailable upon request,",
+      "start": 1083.91,
+      "duration": 1.87
+    },
+    {
+      "text": "and you can apply using the\nlink shown on the screen.",
+      "start": 1085.78,
+      "duration": 4.37
+    },
+    {
+      "text": "Finally, as always,\nwe're continuing",
+      "start": 1090.15,
+      "duration": 2.22
+    },
+    {
+      "text": "to enhance the Play ecosystem\nwith features to help",
+      "start": 1092.37,
+      "duration": 2.76
+    },
+    {
+      "text": "mitigate fraud and abuse.",
+      "start": 1095.13,
+      "duration": 3.0
+    },
+    {
+      "text": "We've expanded pricing arbitrage\nprotection to more countries,",
+      "start": 1098.13,
+      "duration": 3.7
+    },
+    {
+      "text": "and we're automatically\ndetecting and blocking",
+      "start": 1101.83,
+      "duration": 3.17
+    },
+    {
+      "text": "abusive purchases that exploit\nregional price differences.",
+      "start": 1105.0,
+      "duration": 4.56
+    },
+    {
+      "text": "This empowers you\nto confidently offer",
+      "start": 1109.56,
+      "duration": 2.7
+    },
+    {
+      "text": "localized pricing and promotions\nwith features designed",
+      "start": 1112.26,
+      "duration": 3.12
+    },
+    {
+      "text": "to help safeguard your revenue.",
+      "start": 1115.38,
+      "duration": 3.3
+    },
+    {
+      "text": "For limited\navailability content,",
+      "start": 1118.68,
+      "duration": 2.14
+    },
+    {
+      "text": "we're providing granular\ncontrol with payment location",
+      "start": 1120.82,
+      "duration": 3.17
+    },
+    {
+      "text": "restrictions in\nthe Play Console,",
+      "start": 1123.99,
+      "duration": 2.61
+    },
+    {
+      "text": "and we've enhanced protection\nagainst free trial interpricing",
+      "start": 1126.6,
+      "duration": 4.53
+    },
+    {
+      "text": "abuse for subscriptions.",
+      "start": 1131.13,
+      "duration": 3.03
+    },
+    {
+      "text": "That's a lot of features.",
+      "start": 1134.16,
+      "duration": 3.3
+    },
+    {
+      "text": "So when it comes to optimizing\nthe entire purchase experience,",
+      "start": 1137.46,
+      "duration": 3.58
+    },
+    {
+      "text": "simplifying payments, and\nexpanding global reach,",
+      "start": 1141.04,
+      "duration": 3.39
+    },
+    {
+      "text": "we strive to be as comprehensive\nas possible to meet your needs.",
+      "start": 1144.43,
+      "duration": 4.37
+    },
+    {
+      "text": "Using any of these\nfeatures on their own",
+      "start": 1148.8,
+      "duration": 2.46
+    },
+    {
+      "text": "can help maximize your overall\nROI, but when used together,",
+      "start": 1151.26,
+      "duration": 4.78
+    },
+    {
+      "text": "they can help you achieve\nthe most powerful results.",
+      "start": 1156.04,
+      "duration": 4.58
+    },
+    {
+      "text": "Learn how developers\nlike The Hindu",
+      "start": 1160.62,
+      "duration": 2.4
+    },
+    {
+      "text": "have used our features to\nincrease their subscriber",
+      "start": 1163.02,
+      "duration": 2.85
+    },
+    {
+      "text": "base by 65%.",
+      "start": 1165.87,
+      "duration": 3.15
+    },
+    {
+      "text": "By shifting their monetization\nmodel from one-time products",
+      "start": 1169.02,
+      "duration": 3.69
+    },
+    {
+      "text": "to auto-renewing subscriptions,\noffering their active users",
+      "start": 1172.71,
+      "duration": 4.29
+    },
+    {
+      "text": "a more frictionless\npurchase experience,",
+      "start": 1177.0,
+      "duration": 2.71
+    },
+    {
+      "text": "and implementing improved\nuser authentication,",
+      "start": 1179.71,
+      "duration": 4.11
+    },
+    {
+      "text": "The Hindu has seen\na massive increase",
+      "start": 1183.82,
+      "duration": 3.05
+    },
+    {
+      "text": "in subscription\nrates and revenue.",
+      "start": 1186.87,
+      "duration": 3.12
+    },
+    {
+      "text": "Check out their success story\nusing the link on the screen.",
+      "start": 1189.99,
+      "duration": 4.89
+    },
+    {
+      "text": "REJANE FRANCA: Thanks, Neethi.",
+      "start": 1194.88,
+      "duration": 1.27
+    },
+    {
+      "text": "To fully unlock the power\nof Play Billing platform,",
+      "start": 1196.15,
+      "duration": 3.0
+    },
+    {
+      "text": "including the new tools and\nfeatures announced today,",
+      "start": 1199.15,
+      "duration": 2.91
+    },
+    {
+      "text": "we strongly recommend upgrading\nto Play Billing Library 8.0,",
+      "start": 1202.06,
+      "duration": 4.09
+    },
+    {
+      "text": "available at the end of June.",
+      "start": 1206.15,
+      "duration": 1.92
+    },
+    {
+      "text": "As a reminder, we support each\nmajor Billing Library release",
+      "start": 1208.07,
+      "duration": 3.74
+    },
+    {
+      "text": "for two years.",
+      "start": 1211.81,
+      "duration": 1.36
+    },
+    {
+      "text": "Support for version 6\nends in November 2025,",
+      "start": 1213.17,
+      "duration": 3.39
+    },
+    {
+      "text": "and upgrades are required for\npublishing new app versions.",
+      "start": 1216.56,
+      "duration": 3.09
+    },
+    {
+      "text": "Today, we have shared just a\nfew of the new powerful suite",
+      "start": 1219.65,
+      "duration": 3.71
+    },
+    {
+      "text": "of features we are\nbuilding to help you grow",
+      "start": 1223.36,
+      "duration": 1.98
+    },
+    {
+      "text": "your business on Google Play.",
+      "start": 1225.34,
+      "duration": 1.6
+    },
+    {
+      "text": "We will continue\nto partner with you",
+      "start": 1226.94,
+      "duration": 1.85
+    },
+    {
+      "text": "to learn more about your needs,\noffer flexible monetization",
+      "start": 1228.79,
+      "duration": 3.45
+    },
+    {
+      "text": "solutions for your\napps and games,",
+      "start": 1232.24,
+      "duration": 2.02
+    },
+    {
+      "text": "and support your\ngrowth along the way.",
+      "start": 1234.26,
+      "duration": 2.37
+    },
+    {
+      "text": "To learn more about\nall of these updates",
+      "start": 1236.63,
+      "duration": 2.48
+    },
+    {
+      "text": "and more, check\nout the blog post",
+      "start": 1239.11,
+      "duration": 2.19
+    },
+    {
+      "text": "and the resources linked\nin the description below.",
+      "start": 1241.3,
+      "duration": 3.03
+    },
+    {
+      "text": "Thanks for watching.",
+      "start": 1244.33,
+      "duration": 1.39
+    },
+    {
+      "text": "We can't wait to\nsee how you leverage",
+      "start": 1245.72,
+      "duration": 1.67
+    },
+    {
+      "text": "these new features to maximize\nyour ROI and unlock revenue",
+      "start": 1247.39,
+      "duration": 3.27
+    },
+    {
+      "text": "growth.",
+      "start": 1250.66,
+      "duration": 0.9
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1251.56,
+      "duration": 3.35
+    }
+  ]
+}

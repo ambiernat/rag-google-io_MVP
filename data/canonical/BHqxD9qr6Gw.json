@@ -1,0 +1,57 @@
+[
+  {
+    "id": "BHqxD9qr6Gw__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "timestamp_start": 0.0,
+    "timestamp_end": 207.45,
+    "text": "[MUSIC PLAYING] PAUL IRISH: Ever feel like your\nwebsite's dragging its feet? What if you could\npinpoint those slow bits and make things snappy? Like, really snappy? I'm Paul, a web developer. And we're going to dive into\nthe reimagined Chrome DevTools Performance panel. Before I take you\nfrom 0 to 60, here's a peek at some of\nour latest features. [MUSIC PLAYING] All right, so you're probably\nfamiliar with the Performance panel in DevTools, but\nwe've been cooking up some seriously cool stuff. Today, we'll walk through\na typical scenario. A user says the site feels slow. We'll go through how to nail\ndown the issue using the latest and greatest features. So I heard interactions on\nandroid.com can be a tad slow. First things first, let's\nsee it with our own eyes and get a feel for\nwhat's happening. OK, not too bad. The LCP looks good. Let's try a few interactions. Yeah, so each one is logged\ndown here in real time so you can hunt down\nthe slowest ones. And to be honest, it looks\npretty fast on my machine. Let's see what real users\nhave to say about this. In two clicks we can bring in\ndata from the Chrome UX report. OK, yeah. All right, a bit slower. For LCP, we break it down into\nsubparts for your local load and the 75th percentile\nfrom the field. And these are still all right,\nbut we should keep an eye on that TTFB. Our field INP-- oh, yeah. It's a bit worse. I want to investigate that. To do it right, we need to see\nhow it feels on a typical phone. Throttling is going\nto help us do that. For network, our round trip time\nfrom the field matches up with fast 4G. For CPU, we'll\ncalibrate our machine. And this is going to\nrun a mini benchmark, just to determine how much\nslowdown we should apply. OK. And yeah. Mid-tier mobile sounds great. So now getting a handle\non real-world performance is super straightforward. No more jumping between tools. It's all right here,\nmaking it way easier to understand what your users\nare actually experiencing and then replicating that. All right, let's trace.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BHqxD9qr6Gw__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "timestamp_start": 193.92,
+    "timestamp_end": 348.63,
+    "text": "is super straightforward. No more jumping between tools. It's all right here,\nmaking it way easier to understand what your users\nare actually experiencing and then replicating that. All right, let's trace. So we'll capture a reload\nwith full instrumentation and find out where\nto focus our energy. Right now it's gathering\ninstrumentation from across the browser\nand the renderer, network activity in the main thread,\nand doing some analysis. Well, OK. Up here on the left, if\nI open up the sidebar, these insights are\nupgraded versions of what you've\nseen in Lighthouse. And they help illuminate some\nof the biggest performance wins and the great jump-off\npoints for your investigation. Looks like we got some render\nblocking requests here. Yeah. Our Largest Contentful\nPaint by phase, it's mostly element render delay. That is typical when\nthe LCP is text. OK, no big deal. INP by phase-- ooh, yeah. OK, big boy. Lots of processing duration. Interesting. OK. Let's zoom back out. Yeah, we can't forget\nabout our friends-- friends-- the\nthird-party scripts. Now, sometimes they\ncan be the culprit. This view gives a quick rundown. And hovering gives you\nan idea of how it exactly matches up to the flame chart. OK, so this all might\nlook a bit busy to you. OK, don't panic. First, we got these\nthird-parties. We probably have limited\ninfluence over them, so we can just dim them. Now, there's a bunch\ngoing on, and I want to zoom and pan and explore. And if you've used\nthis before, I bet the zooming and the\nscrolling threw you. Now, you can pick your style. I prefer this guy, where\nscroll is scroll and WASD zooms and pans. All right. Yeah. So, we got these scripts here. They're dimmed, and they all\nbelong to Google Tag Manager. I don't need to see them. We can add them to\nthe Ignore list. And that way, the\nflame chart's going to collapse all those icicles. Ah, yeah. This is much calmer. Now we can focus\non our own code. In your web app, you might see\na lot of framework functions in here. And it's just going to be messy. So we've got you covered.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BHqxD9qr6Gw__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "timestamp_start": 328.35,
+    "timestamp_end": 482.27,
+    "text": "to collapse all those icicles. Ah, yeah. This is much calmer. Now we can focus\non our own code. In your web app, you might see\na lot of framework functions in here. And it's just going to be messy. So we've got you covered. Instead, what you\nprobably want to see is the names of\ncomponents, whether they're being hydrated,\nrendered, updated, all of this in the language\nof your framework. That's straightforward\nenough to enable. While performance.measure\nhas allowed you to deliberately augment the\nflame chart with your own data, now your framework can\ndo that work for you. Console.timeStamp now\noffers lower overhead, does the same thing. And check out the\nlink for details. Angular v20 has this\ncoming in dev mode, and it's coming soon to Next.js. Just ping your friendly\nneighborhood framework maintainer if you want\nthis in your stack. Getting to the bottom\nof performance issues is all about\nunderstanding the details. With improved visualizations\nand framework integration, you can quickly get\non the same page and figure out what's\nslowing things down. I feel a bit more\noriented now, and I might share this\nwith a colleague, so let's add in a\nfew annotations. This area over\nhere on the left-- well yeah, we got these\nrender-blocking requests. And you can see, well,\nwe're blocked in render. So let's just mark that down. Render blocked by network. Another thing we can see\nthis tracking.min script downloading here. And here it is evaluating. And that relationship between\nnetwork and main thread is really key. So let's make that\njust explicit. Let's zoom back out, and I\nwill scrub across the top to look at the screenshots. I can see that this video in\nthe main frame of the page, it starts loading about here. And the blue line on\nthe top matches up with the blue line\nin the flame chart. So I'm just going\nto mark about here. Video starts here-ish. All right, that INP from before,\nit still has my curiosity. Let's see. 190 milliseconds? Uh, hmm. OK, yeah. Big processing duration. Doing what? Let's try this. [POP] Oh, OK.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BHqxD9qr6Gw__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "timestamp_start": 453.423,
+    "timestamp_end": 619.97,
+    "text": "So I'm just going\nto mark about here. Video starts here-ish. All right, that INP from before,\nit still has my curiosity. Let's see. 190 milliseconds? Uh, hmm. OK, yeah. Big processing duration. Doing what? Let's try this. [POP] Oh, OK. Tracked a user event, Tag\nManager and Analytics. So these auto-annotations\nare super handy for quickly\nunderstanding what's happening in different\nparts of the trace. Well, my question is why? We can ask the AI to explain\nanything on the flame chart. What's the purpose of this work? OK. Yeah, we're tracking\nuser interaction events across web application. Google Analytics 4 and\nUniversal Analytics? Interesting. Yeah, hmm. So we've got this\nlong interaction. It takes a while to show\nthe user the visual effect of their click. Most of the time\nis in processing. And within that, we're tracking\nthe click for analytics? If you ask me, they don't\nneed to know about the click before the user does. So, how can we fix it? So these insights,\nyou can actually ask the AI for more\nspecific advice on how to tackle them\npersonalized to your trace. Yeah, suggest fixes. That's perfect. OK. This will use metadata from the\ninsight and tool used to collect additional data from the trace. All right, so the\nprocessing duration is the most significant\ncontributor. Recommend breaking up long\ntasks, perhaps using setTimeout. And this will allow the browser\nto yield to the main thread. OK, you know what? This actually gels exactly with\nwhat I was thinking would work. Well, let's try out\nthat fix right now. We'll click into the\ntrackEvent function, and we'll just add this in. And this will allow us to\nyield to the main thread. All right. OK. Let's take a look and see\nwhat kind of effect this has. Uh, what to do? All right, new trace. The INP that we just had\nwas 190 milliseconds? So, moment of truth. Oh, yeah. The new INP is 99 milliseconds. Definitely faster. And the processing\nduration is a lot quicker because we deferred\nthat non-critical work. And boom goes the dynamite. It's not just about\nfinding the problem.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BHqxD9qr6Gw__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "BHqxD9qr6Gw",
+    "title": "Google I/O 2025 \u2013 BHqxD9qr6Gw",
+    "timestamp_start": 605.18,
+    "timestamp_end": 645.76,
+    "text": "The new INP is 99 milliseconds. Definitely faster. And the processing\nduration is a lot quicker because we deferred\nthat non-critical work. And boom goes the dynamite. It's not just about\nfinding the problem. It's about fixing\nit, effectively. So, there you have it. From understanding\nreal-world data to getting actionable insights\nand verifying your improvements. It's all designed to make your\njob easier and your websites faster. I'd really love to hear what\nyou think about these features. Let me know in the comments\nor on the bug tracker. Cheers! [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

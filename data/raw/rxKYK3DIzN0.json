@@ -1,0 +1,2002 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "rxKYK3DIzN0",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.353
+    },
+    {
+      "text": "PETER FRIESE: Firebase\nis a powerful platform",
+      "start": 6.71,
+      "duration": 2.49
+    },
+    {
+      "text": "for building amazing apps.",
+      "start": 9.2,
+      "duration": 1.78
+    },
+    {
+      "text": "You've got robust databases,\nauthentication, hosting,",
+      "start": 10.98,
+      "duration": 4.11
+    },
+    {
+      "text": "and now AI\nintegration tools like",
+      "start": 15.09,
+      "duration": 3.14
+    },
+    {
+      "text": "the Firebase AI SDKs,\nGenkit, and even",
+      "start": 18.23,
+      "duration": 3.87
+    },
+    {
+      "text": "vector embeddings\nin Cloud Firestore.",
+      "start": 22.1,
+      "duration": 2.47
+    },
+    {
+      "text": "But let's be real.",
+      "start": 24.57,
+      "duration": 2.34
+    },
+    {
+      "text": "How do you use them?",
+      "start": 26.91,
+      "duration": 1.71
+    },
+    {
+      "text": "When does each make sense?",
+      "start": 28.62,
+      "duration": 2.07
+    },
+    {
+      "text": "And seriously, they\nseem so similar.",
+      "start": 30.69,
+      "duration": 3.38
+    },
+    {
+      "text": "Do you need complex\nbackend work or can",
+      "start": 34.07,
+      "duration": 3.18
+    },
+    {
+      "text": "you keep it simple on the client\nwith the tools you already love?",
+      "start": 37.25,
+      "duration": 4.5
+    },
+    {
+      "text": "How do you make sure these AI\nfeatures are robust, secure,",
+      "start": 41.75,
+      "duration": 4.33
+    },
+    {
+      "text": "and production-ready, giving\nyour users a smooth experience?",
+      "start": 46.08,
+      "duration": 4.49
+    },
+    {
+      "text": "Hey, I'm Peter.",
+      "start": 50.57,
+      "duration": 1.56
+    },
+    {
+      "text": "And today, I'm going to\ndemystify all of this,",
+      "start": 52.13,
+      "duration": 4.18
+    },
+    {
+      "text": "showing you exactly how it\nworks and when to choose",
+      "start": 56.31,
+      "duration": 4.13
+    },
+    {
+      "text": "which Firebase AI tool.",
+      "start": 60.44,
+      "duration": 3.23
+    },
+    {
+      "text": "To show you how\nthese features can",
+      "start": 63.67,
+      "duration": 1.98
+    },
+    {
+      "text": "be used in a real-world\nscenario, my team",
+      "start": 65.65,
+      "duration": 2.7
+    },
+    {
+      "text": "and I have been working\non a meal-planning app",
+      "start": 68.35,
+      "duration": 2.4
+    },
+    {
+      "text": "to collect and store\nour favorite recipes.",
+      "start": 70.75,
+      "duration": 4.14
+    },
+    {
+      "text": "Users can add their own recipes,\nbrowse them, and then get",
+      "start": 74.89,
+      "duration": 4.59
+    },
+    {
+      "text": "this beautifully\ndesigned screen that",
+      "start": 79.48,
+      "duration": 2.31
+    },
+    {
+      "text": "helps them with the cooking.",
+      "start": 81.79,
+      "duration": 2.73
+    },
+    {
+      "text": "This is great, but we\nfound that it's often",
+      "start": 84.52,
+      "duration": 3.27
+    },
+    {
+      "text": "difficult to decide\nwhat to cook.",
+      "start": 87.79,
+      "duration": 3.0
+    },
+    {
+      "text": "So we came up with\na couple of ideas",
+      "start": 90.79,
+      "duration": 2.67
+    },
+    {
+      "text": "to make it easier and\nmore fun for users",
+      "start": 93.46,
+      "duration": 3.3
+    },
+    {
+      "text": "to discover new recipes and help\nthem decide what to cook today.",
+      "start": 96.76,
+      "duration": 6.75
+    },
+    {
+      "text": "For example, a user might\nwant to surprise guests",
+      "start": 103.51,
+      "duration": 3.57
+    },
+    {
+      "text": "at a dinner party with\na meal in the style",
+      "start": 107.08,
+      "duration": 2.76
+    },
+    {
+      "text": "of a particular cuisine.",
+      "start": 109.84,
+      "duration": 3.27
+    },
+    {
+      "text": "We also wanted to\nbuild something",
+      "start": 113.11,
+      "duration": 2.16
+    },
+    {
+      "text": "that helps the user\ndecide what to cook based",
+      "start": 115.27,
+      "duration": 2.13
+    },
+    {
+      "text": "on what's in their fridge.",
+      "start": 117.4,
+      "duration": 2.37
+    },
+    {
+      "text": "Just snap a picture of\nwhat's in your fridge",
+      "start": 119.77,
+      "duration": 2.51
+    },
+    {
+      "text": "and get a suggestion\nfor a recipe.",
+      "start": 122.28,
+      "duration": 2.41
+    },
+    {
+      "text": "How amazing would that be?",
+      "start": 124.69,
+      "duration": 2.81
+    },
+    {
+      "text": "And of course, since users can\nstore their favorite recipes",
+      "start": 127.5,
+      "duration": 3.9
+    },
+    {
+      "text": "in this app, for example,\ntheir grandma's apple crumble,",
+      "start": 131.4,
+      "duration": 3.58
+    },
+    {
+      "text": "we want to ensure the app\nprovides recipe suggestions that",
+      "start": 134.98,
+      "duration": 3.65
+    },
+    {
+      "text": "consider their\npersonal collection.",
+      "start": 138.63,
+      "duration": 3.39
+    },
+    {
+      "text": "To kick things off, we started\nby prototyping a prompt",
+      "start": 142.02,
+      "duration": 3.3
+    },
+    {
+      "text": "in AI Studio.",
+      "start": 145.32,
+      "duration": 1.17
+    },
+    {
+      "text": "And honestly, the results\nwere pretty impressive.",
+      "start": 146.49,
+      "duration": 3.43
+    },
+    {
+      "text": "Check this out.",
+      "start": 149.92,
+      "duration": 1.05
+    },
+    {
+      "text": "We asked for a vegan\nTurkish recipe for fall,",
+      "start": 150.97,
+      "duration": 3.06
+    },
+    {
+      "text": "and it gave us a full ingredient\nlist and detailed steps.",
+      "start": 154.03,
+      "duration": 5.27
+    },
+    {
+      "text": "AI Studio has a\nhandy feature that",
+      "start": 159.3,
+      "duration": 2.37
+    },
+    {
+      "text": "gives you the working code in\nthe language of your choice",
+      "start": 161.67,
+      "duration": 3.57
+    },
+    {
+      "text": "for generating the\nresponse from this prompt,",
+      "start": 165.24,
+      "duration": 3.07
+    },
+    {
+      "text": "including the code to\ngenerate the recipe",
+      "start": 168.31,
+      "duration": 2.81
+    },
+    {
+      "text": "as JSON-structured output\nso that we can easily",
+      "start": 171.12,
+      "duration": 3.15
+    },
+    {
+      "text": "parse and render the\nresult into the app's UI.",
+      "start": 174.27,
+      "duration": 4.62
+    },
+    {
+      "text": "To use this code\nin our app, we need",
+      "start": 178.89,
+      "duration": 2.04
+    },
+    {
+      "text": "to make sure the app is\nconnected to Firebase",
+      "start": 180.93,
+      "duration": 2.53
+    },
+    {
+      "text": "and that it has the\nFirebase SDK installed.",
+      "start": 183.46,
+      "duration": 4.38
+    },
+    {
+      "text": "Since our meal-planning app\nuses Firebase to store recipes",
+      "start": 187.84,
+      "duration": 3.69
+    },
+    {
+      "text": "in Cloud Firestore, we've\nalready connected the app",
+      "start": 191.53,
+      "duration": 3.3
+    },
+    {
+      "text": "to a Firebase project.",
+      "start": 194.83,
+      "duration": 1.89
+    },
+    {
+      "text": "But if you'd like to learn\nhow to set up your app",
+      "start": 196.72,
+      "duration": 3.84
+    },
+    {
+      "text": "to use Firebase, including\ncreating a Firebase project",
+      "start": 200.56,
+      "duration": 3.3
+    },
+    {
+      "text": "and connecting your\napp to Firebase,",
+      "start": 203.86,
+      "duration": 2.17
+    },
+    {
+      "text": "here is a video that walks\nyou through the steps.",
+      "start": 206.03,
+      "duration": 4.28
+    },
+    {
+      "text": "And since this is an iOS\napp, adding the Firebase",
+      "start": 210.31,
+      "duration": 4.02
+    },
+    {
+      "text": "SDK to your app\nis, of course, done",
+      "start": 214.33,
+      "duration": 2.79
+    },
+    {
+      "text": "using Swift Package Manager.",
+      "start": 217.12,
+      "duration": 3.24
+    },
+    {
+      "text": "With that out of the way, we\ncan connect our UI to the code.",
+      "start": 220.36,
+      "duration": 5.94
+    },
+    {
+      "text": "Now we can run the app\nand try out a new feature.",
+      "start": 226.3,
+      "duration": 4.35
+    },
+    {
+      "text": "Let's see.",
+      "start": 230.65,
+      "duration": 0.94
+    },
+    {
+      "text": "I think I need a\ndessert for four people.",
+      "start": 231.59,
+      "duration": 4.74
+    },
+    {
+      "text": "Ah, this sounds great.",
+      "start": 236.33,
+      "duration": 3.68
+    },
+    {
+      "text": "But wait, doesn't the\nGemini API require",
+      "start": 240.01,
+      "duration": 4.17
+    },
+    {
+      "text": "us to provide a Gemini API key?",
+      "start": 244.18,
+      "duration": 2.88
+    },
+    {
+      "text": "And isn't adding that API\nkey into our app's code base",
+      "start": 247.06,
+      "duration": 4.35
+    },
+    {
+      "text": "a security risk?",
+      "start": 251.41,
+      "duration": 1.95
+    },
+    {
+      "text": "It is indeed, as anyone\ncan now download the app,",
+      "start": 253.36,
+      "duration": 4.599
+    },
+    {
+      "text": "open it in a hex editor, and\nexfiltrate your Gemini API key.",
+      "start": 257.959,
+      "duration": 5.511
+    },
+    {
+      "text": "A malicious actor can\nthen use your API key",
+      "start": 263.47,
+      "duration": 3.6
+    },
+    {
+      "text": "to make calls with it, racking\nup charges on your account.",
+      "start": 267.07,
+      "duration": 4.89
+    },
+    {
+      "text": "So you should never, ever\nput your Gemini API key",
+      "start": 271.96,
+      "duration": 5.01
+    },
+    {
+      "text": "directly into the\ncode base of any app",
+      "start": 276.97,
+      "duration": 2.94
+    },
+    {
+      "text": "that you want to make\navailable publicly.",
+      "start": 279.91,
+      "duration": 3.78
+    },
+    {
+      "text": "The best way to protect\nyour precious Gemini API",
+      "start": 283.69,
+      "duration": 3.27
+    },
+    {
+      "text": "key from being stolen\nis to never put it",
+      "start": 286.96,
+      "duration": 2.55
+    },
+    {
+      "text": "into your app in\nthe first place.",
+      "start": 289.51,
+      "duration": 2.01
+    },
+    {
+      "text": "The good news is that\nFirebase has built a solution",
+      "start": 291.52,
+      "duration": 3.33
+    },
+    {
+      "text": "to help secure your app\nfrom these malicious actors.",
+      "start": 294.85,
+      "duration": 4.17
+    },
+    {
+      "text": "When you use the Firebase AI\nSDK to access generative models",
+      "start": 299.02,
+      "duration": 3.82
+    },
+    {
+      "text": "like Gemini, you don't put\na Gemini API key directly",
+      "start": 302.84,
+      "duration": 3.69
+    },
+    {
+      "text": "in your app.",
+      "start": 306.53,
+      "duration": 0.73
+    },
+    {
+      "text": "Instead, the key\nstays on the server",
+      "start": 307.26,
+      "duration": 2.93
+    },
+    {
+      "text": "and can only be accessed\nby a legitimate request",
+      "start": 310.19,
+      "duration": 3.72
+    },
+    {
+      "text": "from your app.",
+      "start": 313.91,
+      "duration": 2.88
+    },
+    {
+      "text": "This is achieved by using\nFirebase App Check, which",
+      "start": 316.79,
+      "duration": 2.82
+    },
+    {
+      "text": "helps you to protect your\napp's backend resources",
+      "start": 319.61,
+      "duration": 2.82
+    },
+    {
+      "text": "and make sure it only\nserves requests that",
+      "start": 322.43,
+      "duration": 2.7
+    },
+    {
+      "text": "come in from your legitimate app\nrunning on untampered devices.",
+      "start": 325.13,
+      "duration": 6.42
+    },
+    {
+      "text": "Now that we've got a basic\nAI feature built in our app,",
+      "start": 331.55,
+      "duration": 3.88
+    },
+    {
+      "text": "we are ready to implement the\nnext, even cooler feature--",
+      "start": 335.43,
+      "duration": 3.89
+    },
+    {
+      "text": "suggesting a recipe based on\na photo rather than only text.",
+      "start": 339.32,
+      "duration": 5.91
+    },
+    {
+      "text": "If you're anything\nlike me, you've",
+      "start": 345.23,
+      "duration": 2.73
+    },
+    {
+      "text": "stared in your fridge totally\nstuck for dinner ideas.",
+      "start": 347.96,
+      "duration": 4.17
+    },
+    {
+      "text": "I usually fall back on\nthe same old recipes.",
+      "start": 352.13,
+      "duration": 4.5
+    },
+    {
+      "text": "But imagine if your\napp could actually",
+      "start": 356.63,
+      "duration": 3.06
+    },
+    {
+      "text": "suggest something\nnew and exciting",
+      "start": 359.69,
+      "duration": 2.51
+    },
+    {
+      "text": "based on what's\nalready in your fridge.",
+      "start": 362.2,
+      "duration": 3.78
+    },
+    {
+      "text": "Users could simply\nsnap a photo, and we",
+      "start": 365.98,
+      "duration": 2.88
+    },
+    {
+      "text": "can combine that\nsnapshot with a text",
+      "start": 368.86,
+      "duration": 2.25
+    },
+    {
+      "text": "prompt describing their desired\ndish, sending it to the AI.",
+      "start": 371.11,
+      "duration": 5.1
+    },
+    {
+      "text": "This combination of\nvisual data and text",
+      "start": 376.21,
+      "duration": 3.48
+    },
+    {
+      "text": "is called multimodal input.",
+      "start": 379.69,
+      "duration": 4.05
+    },
+    {
+      "text": "In this code\nsnippet, you can see",
+      "start": 383.74,
+      "duration": 2.31
+    },
+    {
+      "text": "that parsing the user's\nphoto to the model",
+      "start": 386.05,
+      "duration": 2.16
+    },
+    {
+      "text": "requires just a small\nchange to our code.",
+      "start": 388.21,
+      "duration": 3.07
+    },
+    {
+      "text": "We add the photo as an\nadditional parameter",
+      "start": 391.28,
+      "duration": 2.75
+    },
+    {
+      "text": "to the generateContent method.",
+      "start": 394.03,
+      "duration": 2.41
+    },
+    {
+      "text": "And that's it.",
+      "start": 396.44,
+      "duration": 2.06
+    },
+    {
+      "text": "Great.",
+      "start": 398.5,
+      "duration": 0.82
+    },
+    {
+      "text": "Let's give this a try.",
+      "start": 399.32,
+      "duration": 1.85
+    },
+    {
+      "text": "OK, so let me take a picture\nand see what it comes up with.",
+      "start": 401.17,
+      "duration": 5.92
+    },
+    {
+      "text": "So I'm taking a picture of\nthis plate of fruit here.",
+      "start": 407.09,
+      "duration": 3.59
+    },
+    {
+      "text": "And yeah, this sounds delicious.",
+      "start": 410.68,
+      "duration": 6.33
+    },
+    {
+      "text": "But to be honest,\nI am struggling",
+      "start": 417.01,
+      "duration": 3.3
+    },
+    {
+      "text": "to picture what this dish\nactually should look like.",
+      "start": 420.31,
+      "duration": 3.46
+    },
+    {
+      "text": "Wouldn't it be\namazing if we could",
+      "start": 423.77,
+      "duration": 1.83
+    },
+    {
+      "text": "ask the model to generate an\nimage of the finished recipe?",
+      "start": 425.6,
+      "duration": 4.41
+    },
+    {
+      "text": "Using the Firebase AI\nSDK, I can make a call",
+      "start": 430.01,
+      "duration": 3.18
+    },
+    {
+      "text": "to imagine our image\ngeneration model",
+      "start": 433.19,
+      "duration": 2.92
+    },
+    {
+      "text": "and prompt it to generate\nan inspirational picture",
+      "start": 436.11,
+      "duration": 3.41
+    },
+    {
+      "text": "of the dish based on\nthe text of the recipe.",
+      "start": 439.52,
+      "duration": 4.14
+    },
+    {
+      "text": "Let's give this a try.",
+      "start": 443.66,
+      "duration": 2.94
+    },
+    {
+      "text": "And this is a lot more\ninspiring than just looking",
+      "start": 446.6,
+      "duration": 4.56
+    },
+    {
+      "text": "at the text of the recipe.",
+      "start": 451.16,
+      "duration": 2.91
+    },
+    {
+      "text": "It's true.",
+      "start": 454.07,
+      "duration": 1.23
+    },
+    {
+      "text": "A picture is worth\na thousand words.",
+      "start": 455.3,
+      "duration": 3.75
+    },
+    {
+      "text": "So we've added a couple of\nreally cool features to our app",
+      "start": 459.05,
+      "duration": 3.81
+    },
+    {
+      "text": "with just a few lines of code.",
+      "start": 462.86,
+      "duration": 1.84
+    },
+    {
+      "text": "And we were able\nto do all of this",
+      "start": 464.7,
+      "duration": 2.33
+    },
+    {
+      "text": "on the client using the\ntools and programming",
+      "start": 467.03,
+      "duration": 3.0
+    },
+    {
+      "text": "language we know and love.",
+      "start": 470.03,
+      "duration": 2.97
+    },
+    {
+      "text": "However, you might have\nnoticed that all of the recipes",
+      "start": 473.0,
+      "duration": 3.9
+    },
+    {
+      "text": "that Gemini\nsuggested for us were",
+      "start": 476.9,
+      "duration": 2.01
+    },
+    {
+      "text": "based on its foundational\ntraining data.",
+      "start": 478.91,
+      "duration": 2.75
+    },
+    {
+      "text": "And while I appreciate\nthat Gemini can surprise me",
+      "start": 481.66,
+      "duration": 3.24
+    },
+    {
+      "text": "with a wide variety\nof recipes, our users",
+      "start": 484.9,
+      "duration": 3.3
+    },
+    {
+      "text": "might actually\nprefer custom recipes",
+      "start": 488.2,
+      "duration": 2.43
+    },
+    {
+      "text": "that are based on the\ncollection of personal recipes",
+      "start": 490.63,
+      "duration": 2.7
+    },
+    {
+      "text": "they've stored in the app.",
+      "start": 493.33,
+      "duration": 2.31
+    },
+    {
+      "text": "For example, our users\nmight have a collection",
+      "start": 495.64,
+      "duration": 3.15
+    },
+    {
+      "text": "of recipes that have been\npassed down several generations",
+      "start": 498.79,
+      "duration": 3.63
+    },
+    {
+      "text": "in the family.",
+      "start": 502.42,
+      "duration": 1.65
+    },
+    {
+      "text": "Or in a future\nversion of the app,",
+      "start": 504.07,
+      "duration": 2.74
+    },
+    {
+      "text": "we may decide to offer recipes\ncreated by famous chefs",
+      "start": 506.81,
+      "duration": 4.1
+    },
+    {
+      "text": "as an in-app purchase.",
+      "start": 510.91,
+      "duration": 2.67
+    },
+    {
+      "text": "How can you implement this?",
+      "start": 513.58,
+      "duration": 1.959
+    },
+    {
+      "text": "Well, first, the\nuser takes a photo.",
+      "start": 515.539,
+      "duration": 4.161
+    },
+    {
+      "text": "Our app then uploads\nthat photo to Gemini",
+      "start": 519.7,
+      "duration": 3.42
+    },
+    {
+      "text": "and prompts it to\ndetect the ingredients.",
+      "start": 523.12,
+      "duration": 3.27
+    },
+    {
+      "text": "We should probably make sure\nto get this list of ingredients",
+      "start": 526.39,
+      "duration": 3.27
+    },
+    {
+      "text": "as structured output to\nmake it easier to work with.",
+      "start": 529.66,
+      "duration": 3.99
+    },
+    {
+      "text": "Then we'll take this\nlist of ingredients",
+      "start": 533.65,
+      "duration": 2.76
+    },
+    {
+      "text": "and retrieve all of the\nuser's personal recipes",
+      "start": 536.41,
+      "duration": 2.97
+    },
+    {
+      "text": "that can be prepared\nusing those ingredients.",
+      "start": 539.38,
+      "duration": 2.85
+    },
+    {
+      "text": "And finally, we will\nprompt the model",
+      "start": 542.23,
+      "duration": 2.63
+    },
+    {
+      "text": "to generate a new dish that\nis inspired by these existing",
+      "start": 544.86,
+      "duration": 3.81
+    },
+    {
+      "text": "recipes.",
+      "start": 548.67,
+      "duration": 1.59
+    },
+    {
+      "text": "As you can see, we need quite\na few model capabilities",
+      "start": 550.26,
+      "duration": 4.26
+    },
+    {
+      "text": "to implement these features--",
+      "start": 554.52,
+      "duration": 1.92
+    },
+    {
+      "text": "multimodal input to\nunderstand what's",
+      "start": 556.44,
+      "duration": 2.1
+    },
+    {
+      "text": "in the photo of the\nuser's fridge, retrieval",
+      "start": 558.54,
+      "duration": 3.06
+    },
+    {
+      "text": "augmented generation to\nfetch matching recipes",
+      "start": 561.6,
+      "duration": 2.43
+    },
+    {
+      "text": "from the database,\nmultimodal output",
+      "start": 564.03,
+      "duration": 2.49
+    },
+    {
+      "text": "to generate a new recipe with\ncorresponding image of the dish,",
+      "start": 566.52,
+      "duration": 4.8
+    },
+    {
+      "text": "tool used to call an API to\norder any missing ingredients.",
+      "start": 571.32,
+      "duration": 5.07
+    },
+    {
+      "text": "Let's think about the\nimplementation of this feature.",
+      "start": 576.39,
+      "duration": 2.74
+    },
+    {
+      "text": "Sure, we could run\nthe entire process,",
+      "start": 579.13,
+      "duration": 3.29
+    },
+    {
+      "text": "detecting ingredients,\nretrieving recipes, generating",
+      "start": 582.42,
+      "duration": 3.87
+    },
+    {
+      "text": "a new recipe, and even ordering\nany missing ingredients directly",
+      "start": 586.29,
+      "duration": 4.65
+    },
+    {
+      "text": "in the app using\nthese client SDKs.",
+      "start": 590.94,
+      "duration": 3.19
+    },
+    {
+      "text": "But let's be honest.",
+      "start": 594.13,
+      "duration": 1.38
+    },
+    {
+      "text": "In this scenario, this might\nnot be the ideal solution,",
+      "start": 595.51,
+      "duration": 3.53
+    },
+    {
+      "text": "as you'd have to coordinate\ndifferent services",
+      "start": 599.04,
+      "duration": 2.49
+    },
+    {
+      "text": "and transfer potentially a\nlot of data back and forth",
+      "start": 601.53,
+      "duration": 3.38
+    },
+    {
+      "text": "between your client\napp and those services.",
+      "start": 604.91,
+      "duration": 3.3
+    },
+    {
+      "text": "By moving this complex\nflow to the backend,",
+      "start": 608.21,
+      "duration": 2.44
+    },
+    {
+      "text": "we drastically reduce the amount\nof data being transferred.",
+      "start": 610.65,
+      "duration": 3.74
+    },
+    {
+      "text": "This translates to faster\nresponse times, a better user",
+      "start": 614.39,
+      "duration": 3.99
+    },
+    {
+      "text": "experience, and less strain\non the user's device,",
+      "start": 618.38,
+      "duration": 3.79
+    },
+    {
+      "text": "especially on spotty networks.",
+      "start": 622.17,
+      "duration": 3.41
+    },
+    {
+      "text": "And this is where\nGenkit comes in.",
+      "start": 625.58,
+      "duration": 2.32
+    },
+    {
+      "text": "Genkit is Google's open-source\nAI integration framework.",
+      "start": 627.9,
+      "duration": 4.41
+    },
+    {
+      "text": "It allows you to implement\nAI flows using TypeScript.",
+      "start": 632.31,
+      "duration": 3.12
+    },
+    {
+      "text": "And we've just announced\nsupport for Go and Python.",
+      "start": 635.43,
+      "duration": 4.64
+    },
+    {
+      "text": "Genkit flows are like\nregular functions,",
+      "start": 640.07,
+      "duration": 2.5
+    },
+    {
+      "text": "which means you can do\nanything that you would also",
+      "start": 642.57,
+      "duration": 2.72
+    },
+    {
+      "text": "be able to do in\nany other function,",
+      "start": 645.29,
+      "duration": 2.29
+    },
+    {
+      "text": "like calling other APIs,\nretrieving data from a database,",
+      "start": 647.58,
+      "duration": 4.47
+    },
+    {
+      "text": "performing\ncomputations, et cetera.",
+      "start": 652.05,
+      "duration": 2.69
+    },
+    {
+      "text": "But the cool thing is that\nGenkit flows are observable.",
+      "start": 654.74,
+      "duration": 3.25
+    },
+    {
+      "text": "And that means you can monitor\nthem using the AI Monitoring",
+      "start": 657.99,
+      "duration": 3.42
+    },
+    {
+      "text": "dashboard in the\nFirebase console",
+      "start": 661.41,
+      "duration": 2.04
+    },
+    {
+      "text": "or any other tool that supports\nOpenTelemetry, such as Google",
+      "start": 663.45,
+      "duration": 3.72
+    },
+    {
+      "text": "Cloud's Observability Suite.",
+      "start": 667.17,
+      "duration": 3.45
+    },
+    {
+      "text": "Genkit also provides\neasy-to-use abstractions",
+      "start": 670.62,
+      "duration": 2.67
+    },
+    {
+      "text": "for working with models\nand vector stores.",
+      "start": 673.29,
+      "duration": 3.0
+    },
+    {
+      "text": "And this enables\nus to tap into any",
+      "start": 676.29,
+      "duration": 2.04
+    },
+    {
+      "text": "of the recipes our users have\nstored in their app's database",
+      "start": 678.33,
+      "duration": 3.82
+    },
+    {
+      "text": "and use them to generate new\nrecipes based on the ingredients",
+      "start": 682.15,
+      "duration": 3.68
+    },
+    {
+      "text": "the user has on hand.",
+      "start": 685.83,
+      "duration": 2.94
+    },
+    {
+      "text": "Another really cool\nfeature of Genkit",
+      "start": 688.77,
+      "duration": 1.89
+    },
+    {
+      "text": "is its unified model interface.",
+      "start": 690.66,
+      "duration": 2.38
+    },
+    {
+      "text": "This allows you to\nuse different models",
+      "start": 693.04,
+      "duration": 2.87
+    },
+    {
+      "text": "by just providing the\nname of the model you",
+      "start": 695.91,
+      "duration": 2.1
+    },
+    {
+      "text": "want to use instead.",
+      "start": 698.01,
+      "duration": 2.13
+    },
+    {
+      "text": "This makes it super\neasy to experiment",
+      "start": 700.14,
+      "duration": 2.43
+    },
+    {
+      "text": "with different models.",
+      "start": 702.57,
+      "duration": 2.76
+    },
+    {
+      "text": "Let's take a look at how\nyou would implement the meal",
+      "start": 705.33,
+      "duration": 2.37
+    },
+    {
+      "text": "planning use case with Genkit.",
+      "start": 707.7,
+      "duration": 3.18
+    },
+    {
+      "text": "First, we create a Genkit flow.",
+      "start": 710.88,
+      "duration": 3.78
+    },
+    {
+      "text": "Then we pass the user's\ninput to the model,",
+      "start": 714.66,
+      "duration": 3.73
+    },
+    {
+      "text": "prompting it to detect\nwhich ingredients",
+      "start": 718.39,
+      "duration": 2.57
+    },
+    {
+      "text": "can be seen in the picture.",
+      "start": 720.96,
+      "duration": 2.27
+    },
+    {
+      "text": "By providing an\noutput schema, we",
+      "start": 723.23,
+      "duration": 2.94
+    },
+    {
+      "text": "can tell Genkit to\nwork with the model",
+      "start": 726.17,
+      "duration": 2.07
+    },
+    {
+      "text": "to return structured output,\nwhich will make it easier for us",
+      "start": 728.24,
+      "duration": 3.69
+    },
+    {
+      "text": "to further process the result.",
+      "start": 731.93,
+      "duration": 2.94
+    },
+    {
+      "text": "Now that we have the\nlist of ingredients,",
+      "start": 734.87,
+      "duration": 2.59
+    },
+    {
+      "text": "we need to find\nmatching recipes that",
+      "start": 737.46,
+      "duration": 2.12
+    },
+    {
+      "text": "also fit the user's needs,\nthings dietary restrictions",
+      "start": 739.58,
+      "duration": 4.14
+    },
+    {
+      "text": "and preferred cuisines.",
+      "start": 743.72,
+      "duration": 2.4
+    },
+    {
+      "text": "That's no easy task when dealing\nwith complex search queries.",
+      "start": 746.12,
+      "duration": 5.1
+    },
+    {
+      "text": "Retrieving relevant\ndata from a database",
+      "start": 751.22,
+      "duration": 2.94
+    },
+    {
+      "text": "based on free-form inputs,\nsuch as natural language",
+      "start": 754.16,
+      "duration": 3.57
+    },
+    {
+      "text": "or a list of ingredients,\nis a common challenge",
+      "start": 757.73,
+      "duration": 2.67
+    },
+    {
+      "text": "in AI applications.",
+      "start": 760.4,
+      "duration": 2.79
+    },
+    {
+      "text": "That's where Genkit's retriever\nabstractions comes in.",
+      "start": 763.19,
+      "duration": 3.24
+    },
+    {
+      "text": "It streamlines this\ncomplex process,",
+      "start": 766.43,
+      "duration": 2.32
+    },
+    {
+      "text": "making it surprisingly\nefficient.",
+      "start": 768.75,
+      "duration": 3.44
+    },
+    {
+      "text": "You can think of the retriever\nas your intelligent search",
+      "start": 772.19,
+      "duration": 3.33
+    },
+    {
+      "text": "assistant.",
+      "start": 775.52,
+      "duration": 0.82
+    },
+    {
+      "text": "It takes the user's\nrequest, translates it",
+      "start": 776.34,
+      "duration": 2.48
+    },
+    {
+      "text": "into a vector\nembedding, and then",
+      "start": 778.82,
+      "duration": 2.16
+    },
+    {
+      "text": "uses nearest-neighbor search to\nquickly locate the best matching",
+      "start": 780.98,
+      "duration": 3.86
+    },
+    {
+      "text": "recipes in your database.",
+      "start": 784.84,
+      "duration": 3.36
+    },
+    {
+      "text": "Vector embeddings\nare essentially",
+      "start": 788.2,
+      "duration": 2.46
+    },
+    {
+      "text": "a way to turn text into\na series of numbers",
+      "start": 790.66,
+      "duration": 3.42
+    },
+    {
+      "text": "that a computer can understand.",
+      "start": 794.08,
+      "duration": 2.49
+    },
+    {
+      "text": "Here is the number\nrepresentation for apples.",
+      "start": 796.57,
+      "duration": 4.17
+    },
+    {
+      "text": "And here is the number\nrepresentation for oranges.",
+      "start": 800.74,
+      "duration": 4.92
+    },
+    {
+      "text": "Since these are vectors, we\ncan use mathematical functions",
+      "start": 805.66,
+      "duration": 3.42
+    },
+    {
+      "text": "like cosine to measure\nhow similar they are.",
+      "start": 809.08,
+      "duration": 3.82
+    },
+    {
+      "text": "This allows our\nsystem to understand",
+      "start": 812.9,
+      "duration": 2.21
+    },
+    {
+      "text": "that apples and oranges are\nboth fruits, even though they",
+      "start": 815.11,
+      "duration": 5.34
+    },
+    {
+      "text": "are different.",
+      "start": 820.45,
+      "duration": 1.44
+    },
+    {
+      "text": "So it turns out you can\ncompare apples and oranges.",
+      "start": 821.89,
+      "duration": 5.52
+    },
+    {
+      "text": "Our recipes are stored\nin Cloud Firestore, which",
+      "start": 827.41,
+      "duration": 3.09
+    },
+    {
+      "text": "supports vector embeddings.",
+      "start": 830.5,
+      "duration": 1.84
+    },
+    {
+      "text": "So when the user\nstores a new recipe,",
+      "start": 832.34,
+      "duration": 2.91
+    },
+    {
+      "text": "we also calculate vector\nembeddings for its ingredients",
+      "start": 835.25,
+      "duration": 3.68
+    },
+    {
+      "text": "and store them alongside it.",
+      "start": 838.93,
+      "duration": 3.29
+    },
+    {
+      "text": "Genkit's Firestore\nretriever can then",
+      "start": 842.22,
+      "duration": 2.64
+    },
+    {
+      "text": "use those embeddings to quickly\nfind the recipes that best match",
+      "start": 844.86,
+      "duration": 3.84
+    },
+    {
+      "text": "a user's ingredients, like those\ndetected in their fridge photo.",
+      "start": 848.7,
+      "duration": 4.29
+    },
+    {
+      "text": "The result is a number\nof Firestore documents",
+      "start": 852.99,
+      "duration": 3.6
+    },
+    {
+      "text": "that contain the best\nmatching recipes.",
+      "start": 856.59,
+      "duration": 3.75
+    },
+    {
+      "text": "Using these recipes,\nwe prompt the model",
+      "start": 860.34,
+      "duration": 2.7
+    },
+    {
+      "text": "to generate a brand-new\nrecipe for the specified",
+      "start": 863.04,
+      "duration": 3.48
+    },
+    {
+      "text": "number of people,\ntaking inspiration",
+      "start": 866.52,
+      "duration": 2.49
+    },
+    {
+      "text": "from the recipes\nfound in the database.",
+      "start": 869.01,
+      "duration": 3.51
+    },
+    {
+      "text": "This flow does a lot with\na few lines of code thanks",
+      "start": 872.52,
+      "duration": 4.38
+    },
+    {
+      "text": "to Genkit's powerful\nAI abstractions.",
+      "start": 876.9,
+      "duration": 3.42
+    },
+    {
+      "text": "Now, you might be wondering\nhow we can include this Genkit",
+      "start": 880.32,
+      "duration": 3.69
+    },
+    {
+      "text": "flow in our mobile application.",
+      "start": 884.01,
+      "duration": 1.96
+    },
+    {
+      "text": "After all, our client\napp is written in Swift,",
+      "start": 885.97,
+      "duration": 3.62
+    },
+    {
+      "text": "and the Genkit flow is\nwritten in TypeScript.",
+      "start": 889.59,
+      "duration": 3.48
+    },
+    {
+      "text": "To bring those two\nworlds together,",
+      "start": 893.07,
+      "duration": 2.29
+    },
+    {
+      "text": "we will first expose\nthe Genkit flow",
+      "start": 895.36,
+      "duration": 2.27
+    },
+    {
+      "text": "as a callable cloud function.",
+      "start": 897.63,
+      "duration": 3.75
+    },
+    {
+      "text": "This will allow us to deploy it\nto Cloud Functions for Firebase",
+      "start": 901.38,
+      "duration": 3.37
+    },
+    {
+      "text": "or Cloud Run.",
+      "start": 904.75,
+      "duration": 2.04
+    },
+    {
+      "text": "We can then use the Firebase\nclient SDK to call this endpoint",
+      "start": 906.79,
+      "duration": 3.33
+    },
+    {
+      "text": "from our Swift app.",
+      "start": 910.12,
+      "duration": 1.71
+    },
+    {
+      "text": "So we've implemented two\nexciting new features",
+      "start": 911.83,
+      "duration": 3.51
+    },
+    {
+      "text": "for our app, and we are ready\nto ship them to production.",
+      "start": 915.34,
+      "duration": 3.4
+    },
+    {
+      "text": "But before we can\ndo that, we need",
+      "start": 918.74,
+      "duration": 2.09
+    },
+    {
+      "text": "to make sure that our app is\nsafe from unauthorized access.",
+      "start": 920.83,
+      "duration": 4.35
+    },
+    {
+      "text": "App Check is Firebase's\nsolution for keeping your app's",
+      "start": 925.18,
+      "duration": 3.96
+    },
+    {
+      "text": "backend resources safe.",
+      "start": 929.14,
+      "duration": 1.81
+    },
+    {
+      "text": "This works both for\nFirebase resources",
+      "start": 930.95,
+      "duration": 2.72
+    },
+    {
+      "text": "as well as your\nown custom backend.",
+      "start": 933.67,
+      "duration": 3.66
+    },
+    {
+      "text": "We can use App Check to\nprotect the backend services",
+      "start": 937.33,
+      "duration": 3.0
+    },
+    {
+      "text": "our app uses.",
+      "start": 940.33,
+      "duration": 1.89
+    },
+    {
+      "text": "First, we need to\nregister our app with App",
+      "start": 942.22,
+      "duration": 3.33
+    },
+    {
+      "text": "Check in the Firebase console.",
+      "start": 945.55,
+      "duration": 2.4
+    },
+    {
+      "text": "Next, we will add the App Check\nlibrary to our client app.",
+      "start": 947.95,
+      "duration": 4.68
+    },
+    {
+      "text": "Then we configure the App\nCheck provider we want to use.",
+      "start": 952.63,
+      "duration": 4.65
+    },
+    {
+      "text": "This needs to happen before you\ninitialize the Firebase SDK.",
+      "start": 957.28,
+      "duration": 4.85
+    },
+    {
+      "text": "Once you start out\nrolling the app,",
+      "start": 962.13,
+      "duration": 2.38
+    },
+    {
+      "text": "you will see your app's\nrequests showing up in the App",
+      "start": 964.51,
+      "duration": 3.17
+    },
+    {
+      "text": "Check section of the\nFirebase console.",
+      "start": 967.68,
+      "duration": 3.66
+    },
+    {
+      "text": "You can now enforce\nApp Check for your app.",
+      "start": 971.34,
+      "duration": 2.32
+    },
+    {
+      "text": "And as soon as you do that,\nonly legitimate requests",
+      "start": 973.66,
+      "duration": 3.02
+    },
+    {
+      "text": "from your app will be permitted,\nand all other requests",
+      "start": 976.68,
+      "duration": 3.48
+    },
+    {
+      "text": "will be blocked.",
+      "start": 980.16,
+      "duration": 2.49
+    },
+    {
+      "text": "Now that we implemented\nthese AI features in our app,",
+      "start": 982.65,
+      "duration": 3.04
+    },
+    {
+      "text": "we want to see how\nthey are performing",
+      "start": 985.69,
+      "duration": 2.48
+    },
+    {
+      "text": "both in test and production.",
+      "start": 988.17,
+      "duration": 2.67
+    },
+    {
+      "text": "To enable telemetry for your\nGenkit flows and other actions,",
+      "start": 990.84,
+      "duration": 4.39
+    },
+    {
+      "text": "add the following lines to\nyour source, and then redeploy.",
+      "start": 995.23,
+      "duration": 4.07
+    },
+    {
+      "text": "The next time you call\nyour deployed Genkit flows,",
+      "start": 999.3,
+      "duration": 3.28
+    },
+    {
+      "text": "telemetry data\nwill be collected.",
+      "start": 1002.58,
+      "duration": 2.18
+    },
+    {
+      "text": "To see a high-level\noverview of the Genkit flows",
+      "start": 1004.76,
+      "duration": 2.7
+    },
+    {
+      "text": "deployed in your\nFirebase project,",
+      "start": 1007.46,
+      "duration": 1.78
+    },
+    {
+      "text": "visit the Firebase console.",
+      "start": 1009.24,
+      "duration": 1.77
+    },
+    {
+      "text": "At the top, you will see the\nvitals of your Genkit flows,",
+      "start": 1011.01,
+      "duration": 3.45
+    },
+    {
+      "text": "such as the number of\nrequests, the success",
+      "start": 1014.46,
+      "duration": 2.6
+    },
+    {
+      "text": "rate, and the latency.",
+      "start": 1017.06,
+      "duration": 2.13
+    },
+    {
+      "text": "At the bottom of\nthe screen, you can",
+      "start": 1019.19,
+      "duration": 2.07
+    },
+    {
+      "text": "see a list of all the deployed\nGenkit flows of your project.",
+      "start": 1021.26,
+      "duration": 3.23
+    },
+    {
+      "text": "You can drill into\nindividual flows",
+      "start": 1024.49,
+      "duration": 2.31
+    },
+    {
+      "text": "to see more details, most\nimportantly, how many tokens",
+      "start": 1026.8,
+      "duration": 3.779
+    },
+    {
+      "text": "or images they\nconsumed or produced.",
+      "start": 1030.579,
+      "duration": 3.691
+    },
+    {
+      "text": "But there is more.",
+      "start": 1034.27,
+      "duration": 2.29
+    },
+    {
+      "text": "You can see the input\nand output parameters.",
+      "start": 1036.56,
+      "duration": 3.269
+    },
+    {
+      "text": "And when you click\non an invocation,",
+      "start": 1039.829,
+      "duration": 2.701
+    },
+    {
+      "text": "you can see the entire\ntrace of your flow.",
+      "start": 1042.53,
+      "duration": 3.319
+    },
+    {
+      "text": "With the trace\ninspector, you can",
+      "start": 1045.849,
+      "duration": 1.74
+    },
+    {
+      "text": "examine every step of the\nflow invocation in detail.",
+      "start": 1047.589,
+      "duration": 3.341
+    },
+    {
+      "text": "It reveals the input\nand output of each step",
+      "start": 1050.93,
+      "duration": 2.78
+    },
+    {
+      "text": "along with any\nassociated attributes.",
+      "start": 1053.71,
+      "duration": 2.86
+    },
+    {
+      "text": "This allows for a granular\nunderstanding of the flow's",
+      "start": 1056.57,
+      "duration": 3.23
+    },
+    {
+      "text": "execution process.",
+      "start": 1059.8,
+      "duration": 1.6
+    },
+    {
+      "text": "This is a really valuable\ntool to help you gain insight",
+      "start": 1061.4,
+      "duration": 3.14
+    },
+    {
+      "text": "into the performance of your\nAI features and production.",
+      "start": 1064.54,
+      "duration": 2.95
+    },
+    {
+      "text": "And it's a great help when\noptimizing or debugging",
+      "start": 1067.49,
+      "duration": 2.87
+    },
+    {
+      "text": "your Genkit flows.",
+      "start": 1070.36,
+      "duration": 2.58
+    },
+    {
+      "text": "You can also inspect any\ninvocations that fail,",
+      "start": 1072.94,
+      "duration": 2.7
+    },
+    {
+      "text": "like this one.",
+      "start": 1075.64,
+      "duration": 1.21
+    },
+    {
+      "text": "This is a great help\nfor understanding",
+      "start": 1076.85,
+      "duration": 1.73
+    },
+    {
+      "text": "why some of your invocations\nmight have failed.",
+      "start": 1078.58,
+      "duration": 2.97
+    },
+    {
+      "text": "All of this is possible\nbecause Genkit flows",
+      "start": 1081.55,
+      "duration": 3.11
+    },
+    {
+      "text": "and all of their underlying\nactions are observable.",
+      "start": 1084.66,
+      "duration": 3.87
+    },
+    {
+      "text": "You don't have to add any\nadditional instrumentation.",
+      "start": 1088.53,
+      "duration": 3.67
+    },
+    {
+      "text": "It's all built in.",
+      "start": 1092.2,
+      "duration": 2.57
+    },
+    {
+      "text": "And there you have it.",
+      "start": 1094.77,
+      "duration": 1.27
+    },
+    {
+      "text": "We've implemented a bunch\nof exciting new features",
+      "start": 1096.04,
+      "duration": 2.66
+    },
+    {
+      "text": "for our app, making\nuse of the AI services",
+      "start": 1098.7,
+      "duration": 3.03
+    },
+    {
+      "text": "available from Firebase.",
+      "start": 1101.73,
+      "duration": 2.16
+    },
+    {
+      "text": "We use the Firebase AI SDK to\ncall Gemini to generate recipes",
+      "start": 1103.89,
+      "duration": 4.53
+    },
+    {
+      "text": "based on the user's input.",
+      "start": 1108.42,
+      "duration": 2.01
+    },
+    {
+      "text": "We used both text input\nand multimodal input,",
+      "start": 1110.43,
+      "duration": 3.4
+    },
+    {
+      "text": "allowing our users to\ngenerate recipes based",
+      "start": 1113.83,
+      "duration": 2.54
+    },
+    {
+      "text": "on what's in their fridge.",
+      "start": 1116.37,
+      "duration": 2.07
+    },
+    {
+      "text": "We then used multimodal\noutput to generate recipes,",
+      "start": 1118.44,
+      "duration": 3.94
+    },
+    {
+      "text": "including inspirational\nimages showing",
+      "start": 1122.38,
+      "duration": 2.96
+    },
+    {
+      "text": "what the meal should look like.",
+      "start": 1125.34,
+      "duration": 2.08
+    },
+    {
+      "text": "We were able to implement all of\nthis in our client application",
+      "start": 1127.42,
+      "duration": 3.75
+    },
+    {
+      "text": "using the same\ntools and languages",
+      "start": 1131.17,
+      "duration": 2.27
+    },
+    {
+      "text": "that we're used to\nas mobile developers.",
+      "start": 1133.44,
+      "duration": 2.97
+    },
+    {
+      "text": "We then switched it\nup a gear and used",
+      "start": 1136.41,
+      "duration": 3.06
+    },
+    {
+      "text": "Genkit to implement\na feature that",
+      "start": 1139.47,
+      "duration": 1.86
+    },
+    {
+      "text": "grounds the model in the user's\ndata, which allows the app",
+      "start": 1141.33,
+      "duration": 3.13
+    },
+    {
+      "text": "to provide results\nthat are based",
+      "start": 1144.46,
+      "duration": 1.92
+    },
+    {
+      "text": "on the user's personal recipes.",
+      "start": 1146.38,
+      "duration": 3.33
+    },
+    {
+      "text": "And finally, we made our\napplication ready for production",
+      "start": 1149.71,
+      "duration": 4.23
+    },
+    {
+      "text": "and looked at how Firebase's\nAI monitoring features can",
+      "start": 1153.94,
+      "duration": 3.24
+    },
+    {
+      "text": "help us operate the AI features\nof our app with confidence.",
+      "start": 1157.18,
+      "duration": 5.07
+    },
+    {
+      "text": "So now you might be wondering\nwhen you should use the Firebase",
+      "start": 1162.25,
+      "duration": 4.47
+    },
+    {
+      "text": "AI SDKs versus Genkit.",
+      "start": 1166.72,
+      "duration": 3.39
+    },
+    {
+      "text": "The answer is, it\ndepends on your use case.",
+      "start": 1170.11,
+      "duration": 3.55
+    },
+    {
+      "text": "If you're implementing\nfeatures that",
+      "start": 1173.66,
+      "duration": 1.79
+    },
+    {
+      "text": "don't require you to tap\ninto a large data set or data",
+      "start": 1175.45,
+      "duration": 3.45
+    },
+    {
+      "text": "of any other backend\nservices, the Firebase AI SDKs",
+      "start": 1178.9,
+      "duration": 3.66
+    },
+    {
+      "text": "are a great way to add powerful\nAI features to your app.",
+      "start": 1182.56,
+      "duration": 4.15
+    },
+    {
+      "text": "As you saw, it's\neasy to get started,",
+      "start": 1186.71,
+      "duration": 2.75
+    },
+    {
+      "text": "and you have access to a wide\nspectrum of generative AI",
+      "start": 1189.46,
+      "duration": 4.05
+    },
+    {
+      "text": "features.",
+      "start": 1193.51,
+      "duration": 1.38
+    },
+    {
+      "text": "On the other hand, if\nyour use case requires",
+      "start": 1194.89,
+      "duration": 3.21
+    },
+    {
+      "text": "you to tap into\na large data set,",
+      "start": 1198.1,
+      "duration": 1.74
+    },
+    {
+      "text": "for example, a product\ndatabase, or if you",
+      "start": 1199.84,
+      "duration": 3.08
+    },
+    {
+      "text": "need to connect your model\nto other backend services,",
+      "start": 1202.92,
+      "duration": 3.28
+    },
+    {
+      "text": "Genkit is the best choice.",
+      "start": 1206.2,
+      "duration": 2.75
+    },
+    {
+      "text": "It allows you to\nimplement AI flows that",
+      "start": 1208.95,
+      "duration": 2.34
+    },
+    {
+      "text": "integrate all those\nvarious services",
+      "start": 1211.29,
+      "duration": 2.67
+    },
+    {
+      "text": "and make them accessible to your\nclient application via callable",
+      "start": 1213.96,
+      "duration": 4.05
+    },
+    {
+      "text": "API endpoints.",
+      "start": 1218.01,
+      "duration": 2.67
+    },
+    {
+      "text": "Genkit is also the\ngo-to way if you'd",
+      "start": 1220.68,
+      "duration": 3.33
+    },
+    {
+      "text": "like to integrate non-Google\nmodels, like those",
+      "start": 1224.01,
+      "duration": 2.64
+    },
+    {
+      "text": "from Anthropic or OpenAI.",
+      "start": 1226.65,
+      "duration": 3.57
+    },
+    {
+      "text": "Finally, keep in mind that this\nisn't an either/or decision.",
+      "start": 1230.22,
+      "duration": 5.2
+    },
+    {
+      "text": "As you saw in our\nexample, you can",
+      "start": 1235.42,
+      "duration": 2.21
+    },
+    {
+      "text": "have the best of both worlds\nby using the Firebase AI SDKs",
+      "start": 1237.63,
+      "duration": 3.72
+    },
+    {
+      "text": "and Genkit in the same app.",
+      "start": 1241.35,
+      "duration": 2.61
+    },
+    {
+      "text": "Pick the best tool for the job.",
+      "start": 1243.96,
+      "duration": 2.76
+    },
+    {
+      "text": "Thanks for watching, and I\nwill see you in the next one.",
+      "start": 1246.72,
+      "duration": 4.53
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1251.25,
+      "duration": 3.65
+    }
+  ]
+}

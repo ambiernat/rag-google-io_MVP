@@ -1,0 +1,1812 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "tMUxxCKXz4c",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi everyone, my name is Kang and I'm a",
+      "start": 6.64,
+      "duration": 4.4
+    },
+    {
+      "text": "product manager at Google Cloud working",
+      "start": 9.2,
+      "duration": 4.8
+    },
+    {
+      "text": "on zerative media. In this video, I",
+      "start": 11.04,
+      "duration": 4.4
+    },
+    {
+      "text": "would like to give you an introductions",
+      "start": 14.0,
+      "duration": 3.84
+    },
+    {
+      "text": "about generative media which are the AI",
+      "start": 15.44,
+      "duration": 4.08
+    },
+    {
+      "text": "models that allows you to generate",
+      "start": 17.84,
+      "duration": 5.08
+    },
+    {
+      "text": "images, videos and audios from a text",
+      "start": 19.52,
+      "duration": 6.4
+    },
+    {
+      "text": "prompt. In Google Cloud, we offer four",
+      "start": 22.92,
+      "duration": 5.679
+    },
+    {
+      "text": "gen media models. Imagine for image",
+      "start": 25.92,
+      "duration": 6.159
+    },
+    {
+      "text": "generations, VO for video generations,",
+      "start": 28.599,
+      "duration": 6.441
+    },
+    {
+      "text": "chirp for speech generations, and LIA",
+      "start": 32.079,
+      "duration": 4.121
+    },
+    {
+      "text": "for music",
+      "start": 35.04,
+      "duration": 3.76
+    },
+    {
+      "text": "generations. For each model, I'll go",
+      "start": 36.2,
+      "duration": 4.519
+    },
+    {
+      "text": "through the popular use cases that many",
+      "start": 38.8,
+      "duration": 4.88
+    },
+    {
+      "text": "developers are leveraging them for. Then",
+      "start": 40.719,
+      "duration": 5.201
+    },
+    {
+      "text": "I'll talk about the technical details on",
+      "start": 43.68,
+      "duration": 4.6
+    },
+    {
+      "text": "how you can get started with using this",
+      "start": 45.92,
+      "duration": 5.52
+    },
+    {
+      "text": "model. Now, let's dive into it. We'll",
+      "start": 48.28,
+      "duration": 5.24
+    },
+    {
+      "text": "start with imagen.",
+      "start": 51.44,
+      "duration": 3.84
+    },
+    {
+      "text": "The most basic use case that you can use",
+      "start": 53.52,
+      "duration": 4.24
+    },
+    {
+      "text": "imagen for is to generate highquality",
+      "start": 55.28,
+      "duration": 4.959
+    },
+    {
+      "text": "images from a text prompt. It can",
+      "start": 57.76,
+      "duration": 5.2
+    },
+    {
+      "text": "generate many different kinds of images",
+      "start": 60.239,
+      "duration": 5.2
+    },
+    {
+      "text": "like photorealistic images which would",
+      "start": 62.96,
+      "duration": 4.479
+    },
+    {
+      "text": "be very difficult and costly to capture",
+      "start": 65.439,
+      "duration": 4.521
+    },
+    {
+      "text": "in real life such as this drawn",
+      "start": 67.439,
+      "duration": 5.801
+    },
+    {
+      "text": "photo or this photo of a",
+      "start": 69.96,
+      "duration": 7.04
+    },
+    {
+      "text": "hummingbird. Imagine can also do macro",
+      "start": 73.24,
+      "duration": 6.36
+    },
+    {
+      "text": "photography and creating very realistic",
+      "start": 77.0,
+      "duration": 6.56
+    },
+    {
+      "text": "and artistic lighting condition.",
+      "start": 79.6,
+      "duration": 5.92
+    },
+    {
+      "text": "Imagine can also generate science",
+      "start": 83.56,
+      "duration": 4.52
+    },
+    {
+      "text": "fiction images or images of different",
+      "start": 85.52,
+      "duration": 4.88
+    },
+    {
+      "text": "art",
+      "start": 88.08,
+      "duration": 2.32
+    },
+    {
+      "text": "styles. Beyond generating images from",
+      "start": 92.119,
+      "duration": 4.761
+    },
+    {
+      "text": "text prompts, imagine can do image",
+      "start": 94.56,
+      "duration": 4.96
+    },
+    {
+      "text": "editing as well. It can remove objects",
+      "start": 96.88,
+      "duration": 5.8
+    },
+    {
+      "text": "from the image so that it can turn this",
+      "start": 99.52,
+      "duration": 9.239
+    },
+    {
+      "text": "photo into a beautiful photo of the you.",
+      "start": 102.68,
+      "duration": 6.079
+    },
+    {
+      "text": "It can remove reflections on windows as",
+      "start": 109.759,
+      "duration": 6.0
+    },
+    {
+      "text": "well to make a picture perfect",
+      "start": 111.759,
+      "duration": 4.0
+    },
+    {
+      "text": "photo. Besides object removal, imagine",
+      "start": 116.439,
+      "duration": 5.801
+    },
+    {
+      "text": "can also insert objects into images or",
+      "start": 119.52,
+      "duration": 4.919
+    },
+    {
+      "text": "extend an image and fill in the missing",
+      "start": 122.24,
+      "duration": 4.64
+    },
+    {
+      "text": "areas. These features can be used to",
+      "start": 124.439,
+      "duration": 5.201
+    },
+    {
+      "text": "correct photos taken at a bad angle, for",
+      "start": 126.88,
+      "duration": 5.2
+    },
+    {
+      "text": "example. Imagine can even completely",
+      "start": 129.64,
+      "duration": 4.52
+    },
+    {
+      "text": "replace the background of the photo,",
+      "start": 132.08,
+      "duration": 5.2
+    },
+    {
+      "text": "making them more interesting.",
+      "start": 134.16,
+      "duration": 5.28
+    },
+    {
+      "text": "It also can stylize your image into many",
+      "start": 137.28,
+      "duration": 4.319
+    },
+    {
+      "text": "different art styles including oil",
+      "start": 139.44,
+      "duration": 5.159
+    },
+    {
+      "text": "painting, 3D art, and many",
+      "start": 141.599,
+      "duration": 5.201
+    },
+    {
+      "text": "more. The background replacement",
+      "start": 144.599,
+      "duration": 4.28
+    },
+    {
+      "text": "features is actually quite useful in",
+      "start": 146.8,
+      "duration": 4.079
+    },
+    {
+      "text": "e-commerce as well because it can",
+      "start": 148.879,
+      "duration": 3.521
+    },
+    {
+      "text": "generate different backgrounds for your",
+      "start": 150.879,
+      "duration": 2.761
+    },
+    {
+      "text": "product",
+      "start": 152.4,
+      "duration": 3.68
+    },
+    {
+      "text": "image. It works for a wide range of",
+      "start": 153.64,
+      "duration": 4.599
+    },
+    {
+      "text": "products from small items like this",
+      "start": 156.08,
+      "duration": 6.96
+    },
+    {
+      "text": "perfume bottle to big items like",
+      "start": 158.239,
+      "duration": 4.801
+    },
+    {
+      "text": "appliance or furniture.",
+      "start": 163.4,
+      "duration": 4.119
+    },
+    {
+      "text": "So that was a highlight of features that",
+      "start": 170.56,
+      "duration": 4.64
+    },
+    {
+      "text": "imagine offers. Now let me show you how",
+      "start": 172.4,
+      "duration": 6.0
+    },
+    {
+      "text": "to use imagen in code. Imagine has a",
+      "start": 175.2,
+      "duration": 5.44
+    },
+    {
+      "text": "restful API which is available through",
+      "start": 178.4,
+      "duration": 5.36
+    },
+    {
+      "text": "Google cloud. You can call the rest API",
+      "start": 180.64,
+      "duration": 5.76
+    },
+    {
+      "text": "directly from your applications or you",
+      "start": 183.76,
+      "duration": 6.199
+    },
+    {
+      "text": "can use one of our gener SDK to make it",
+      "start": 186.4,
+      "duration": 6.479
+    },
+    {
+      "text": "easier. Next let me show you how to use",
+      "start": 189.959,
+      "duration": 5.56
+    },
+    {
+      "text": "imagen with the Python SDK.",
+      "start": 192.879,
+      "duration": 4.241
+    },
+    {
+      "text": "You start with installing the Google",
+      "start": 195.519,
+      "duration": 4.121
+    },
+    {
+      "text": "gener SDK using",
+      "start": 197.12,
+      "duration": 4.88
+    },
+    {
+      "text": "pip. Then you'll need to authenticate",
+      "start": 199.64,
+      "duration": 4.76
+    },
+    {
+      "text": "your environment. If you are using",
+      "start": 202.0,
+      "duration": 4.72
+    },
+    {
+      "text": "Google Collab, you can use it off module",
+      "start": 204.4,
+      "duration": 3.88
+    },
+    {
+      "text": "to do it",
+      "start": 206.72,
+      "duration": 4.079
+    },
+    {
+      "text": "quickly. If you're using a local Python",
+      "start": 208.28,
+      "duration": 4.959
+    },
+    {
+      "text": "environment, you can use a good Zcloud",
+      "start": 210.799,
+      "duration": 5.52
+    },
+    {
+      "text": "CLI. Run this command and authenticate",
+      "start": 213.239,
+      "duration": 5.28
+    },
+    {
+      "text": "with your user",
+      "start": 216.319,
+      "duration": 4.48
+    },
+    {
+      "text": "credential. Then you need to create a",
+      "start": 218.519,
+      "duration": 5.241
+    },
+    {
+      "text": "Zenai client.",
+      "start": 220.799,
+      "duration": 5.121
+    },
+    {
+      "text": "Next, you define the text prompt that",
+      "start": 223.76,
+      "duration": 5.64
+    },
+    {
+      "text": "you want to use. Then choose an imagen",
+      "start": 225.92,
+      "duration": 6.679
+    },
+    {
+      "text": "model. Here we choose imagen 3 generate",
+      "start": 229.4,
+      "duration": 5.72
+    },
+    {
+      "text": "002 which is the latest and highest",
+      "start": 232.599,
+      "duration": 6.401
+    },
+    {
+      "text": "quality imagine model as of May",
+      "start": 235.12,
+      "duration": 7.199
+    },
+    {
+      "text": "2025 and just call generate images. Wait",
+      "start": 239.0,
+      "duration": 5.28
+    },
+    {
+      "text": "a few seconds for it to",
+      "start": 242.319,
+      "duration": 4.321
+    },
+    {
+      "text": "generate and then save the generated",
+      "start": 244.28,
+      "duration": 4.159
+    },
+    {
+      "text": "image in a",
+      "start": 246.64,
+      "duration": 5.28
+    },
+    {
+      "text": "file. Very easy, isn't it? There are",
+      "start": 248.439,
+      "duration": 5.401
+    },
+    {
+      "text": "several parameters that you can use to",
+      "start": 251.92,
+      "duration": 4.439
+    },
+    {
+      "text": "customize our image generation",
+      "start": 253.84,
+      "duration": 5.359
+    },
+    {
+      "text": "request. For example, you can choose how",
+      "start": 256.359,
+      "duration": 4.761
+    },
+    {
+      "text": "many images you want to generate in a",
+      "start": 259.199,
+      "duration": 4.72
+    },
+    {
+      "text": "single request. You can choose any value",
+      "start": 261.12,
+      "duration": 5.359
+    },
+    {
+      "text": "between one and four. And if you choose",
+      "start": 263.919,
+      "duration": 4.56
+    },
+    {
+      "text": "to generate more than one image, you",
+      "start": 266.479,
+      "duration": 4.0
+    },
+    {
+      "text": "will get multiple variations and pick",
+      "start": 268.479,
+      "duration": 5.081
+    },
+    {
+      "text": "the one that you like the most to",
+      "start": 270.479,
+      "duration": 5.841
+    },
+    {
+      "text": "use. You can choose the aspect ratio for",
+      "start": 273.56,
+      "duration": 5.639
+    },
+    {
+      "text": "the generated images as well.",
+      "start": 276.32,
+      "duration": 5.2
+    },
+    {
+      "text": "So that was image generations. Now let's",
+      "start": 279.199,
+      "duration": 3.961
+    },
+    {
+      "text": "talk about image",
+      "start": 281.52,
+      "duration": 4.52
+    },
+    {
+      "text": "editing. To edit an image like this with",
+      "start": 283.16,
+      "duration": 5.479
+    },
+    {
+      "text": "imagen basically you need to define a",
+      "start": 286.04,
+      "duration": 5.56
+    },
+    {
+      "text": "mask which tells which part of the image",
+      "start": 288.639,
+      "duration": 4.681
+    },
+    {
+      "text": "that you wanted to",
+      "start": 291.6,
+      "duration": 4.24
+    },
+    {
+      "text": "edit. If you want to remove the objects",
+      "start": 293.32,
+      "duration": 5.2
+    },
+    {
+      "text": "from the image then the mask is all you",
+      "start": 295.84,
+      "duration": 5.6
+    },
+    {
+      "text": "need. But if you want to insert objects",
+      "start": 298.52,
+      "duration": 5.239
+    },
+    {
+      "text": "into the image, then you'll need a",
+      "start": 301.44,
+      "duration": 4.759
+    },
+    {
+      "text": "prompt to specify what to",
+      "start": 303.759,
+      "duration": 5.121
+    },
+    {
+      "text": "insert. The Python code to do image",
+      "start": 306.199,
+      "duration": 4.921
+    },
+    {
+      "text": "editing with IMAGEN is very similar to",
+      "start": 308.88,
+      "duration": 4.08
+    },
+    {
+      "text": "the image generations codes that you saw",
+      "start": 311.12,
+      "duration": 4.12
+    },
+    {
+      "text": "earlier with a few",
+      "start": 312.96,
+      "duration": 5.36
+    },
+    {
+      "text": "changes. First, you need to import a few",
+      "start": 315.24,
+      "duration": 5.92
+    },
+    {
+      "text": "more types from the Genai",
+      "start": 318.32,
+      "duration": 6.12
+    },
+    {
+      "text": "SDK. Then you define the original",
+      "start": 321.16,
+      "duration": 7.0
+    },
+    {
+      "text": "image and the mask image.",
+      "start": 324.44,
+      "duration": 6.4
+    },
+    {
+      "text": "Then you call the edit image",
+      "start": 328.16,
+      "duration": 5.2
+    },
+    {
+      "text": "functions. You specify the editing mode",
+      "start": 330.84,
+      "duration": 5.24
+    },
+    {
+      "text": "to use here. For object removal, you",
+      "start": 333.36,
+      "duration": 5.24
+    },
+    {
+      "text": "don't need to write a",
+      "start": 336.08,
+      "duration": 5.36
+    },
+    {
+      "text": "prompt. But to insert an object, you",
+      "start": 338.6,
+      "duration": 4.76
+    },
+    {
+      "text": "need to specify what you want to insert",
+      "start": 341.44,
+      "duration": 3.88
+    },
+    {
+      "text": "in the",
+      "start": 343.36,
+      "duration": 5.04
+    },
+    {
+      "text": "prompt. And finally, you save the output",
+      "start": 345.32,
+      "duration": 5.24
+    },
+    {
+      "text": "image to a file just like what you did",
+      "start": 348.4,
+      "duration": 3.96
+    },
+    {
+      "text": "earlier with image",
+      "start": 350.56,
+      "duration": 5.12
+    },
+    {
+      "text": "generations. Very easy, isn't it? Please",
+      "start": 352.36,
+      "duration": 5.0
+    },
+    {
+      "text": "also check out the Imagen Collab",
+      "start": 355.68,
+      "duration": 3.92
+    },
+    {
+      "text": "notebooks in the video description for",
+      "start": 357.36,
+      "duration": 4.48
+    },
+    {
+      "text": "more examples of how you can use Imagen",
+      "start": 359.6,
+      "duration": 4.28
+    },
+    {
+      "text": "to generate and edit",
+      "start": 361.84,
+      "duration": 4.88
+    },
+    {
+      "text": "images. Now let's move over to VO, our",
+      "start": 363.88,
+      "duration": 3.77
+    },
+    {
+      "text": "video generation",
+      "start": 366.72,
+      "duration": 4.1
+    },
+    {
+      "text": "[Music]",
+      "start": 367.65,
+      "duration": 3.17
+    },
+    {
+      "text": "model. V2 creates highquality videos",
+      "start": 370.919,
+      "duration": 5.4
+    },
+    {
+      "text": "covering a wide range of topics and",
+      "start": 374.4,
+      "duration": 4.48
+    },
+    {
+      "text": "styles. In fact, when we compared to",
+      "start": 376.319,
+      "duration": 4.88
+    },
+    {
+      "text": "other video generations models, people",
+      "start": 378.88,
+      "duration": 4.96
+    },
+    {
+      "text": "consistently rated V2 as producing",
+      "start": 381.199,
+      "duration": 6.081
+    },
+    {
+      "text": "better results. VO's most basic features",
+      "start": 383.84,
+      "duration": 5.52
+    },
+    {
+      "text": "is to allow you to generate videos from",
+      "start": 387.28,
+      "duration": 6.0
+    },
+    {
+      "text": "text prompts. As in May 2025, you can",
+      "start": 389.36,
+      "duration": 6.52
+    },
+    {
+      "text": "generate videos of up to 8",
+      "start": 393.28,
+      "duration": 4.84
+    },
+    {
+      "text": "seconds. Just like",
+      "start": 395.88,
+      "duration": 4.92
+    },
+    {
+      "text": "imaginate many different kinds of videos",
+      "start": 398.12,
+      "duration": 5.32
+    },
+    {
+      "text": "from photorealistic, science fictions,",
+      "start": 400.8,
+      "duration": 5.519
+    },
+    {
+      "text": "animations, and many more.",
+      "start": 403.44,
+      "duration": 4.479
+    },
+    {
+      "text": "You can have more control over the",
+      "start": 406.319,
+      "duration": 3.6
+    },
+    {
+      "text": "output video by using an image as the",
+      "start": 407.919,
+      "duration": 4.161
+    },
+    {
+      "text": "initial frame and writing a prompt to",
+      "start": 409.919,
+      "duration": 3.72
+    },
+    {
+      "text": "turn it into a",
+      "start": 412.08,
+      "duration": 4.88
+    },
+    {
+      "text": "video because an image is faster than",
+      "start": 413.639,
+      "duration": 5.96
+    },
+    {
+      "text": "zing a video. This approach allows you",
+      "start": 416.96,
+      "duration": 4.72
+    },
+    {
+      "text": "to quickly iterate to get the visual",
+      "start": 419.599,
+      "duration": 5.561
+    },
+    {
+      "text": "that you want before turning them into a",
+      "start": 421.68,
+      "duration": 6.0
+    },
+    {
+      "text": "video. You can also specify different",
+      "start": 425.16,
+      "duration": 4.92
+    },
+    {
+      "text": "camera movements such as panning left",
+      "start": 427.68,
+      "duration": 4.88
+    },
+    {
+      "text": "and right or pushing in to have more",
+      "start": 430.08,
+      "duration": 4.44
+    },
+    {
+      "text": "control over the output",
+      "start": 432.56,
+      "duration": 4.4
+    },
+    {
+      "text": "video. One interesting use case of",
+      "start": 434.52,
+      "duration": 5.56
+    },
+    {
+      "text": "imagetovideo capability is to turn a",
+      "start": 436.96,
+      "duration": 5.56
+    },
+    {
+      "text": "static banner ad like this popcorn",
+      "start": 440.08,
+      "duration": 5.6
+    },
+    {
+      "text": "ad into an engaging short video ad like",
+      "start": 442.52,
+      "duration": 5.399
+    },
+    {
+      "text": "this",
+      "start": 445.68,
+      "duration": 2.239
+    },
+    {
+      "text": "one. V API is also available through the",
+      "start": 452.759,
+      "duration": 6.121
+    },
+    {
+      "text": "Googlei SDK and let me show you how to",
+      "start": 456.24,
+      "duration": 5.28
+    },
+    {
+      "text": "use it in Python.",
+      "start": 458.88,
+      "duration": 4.08
+    },
+    {
+      "text": "You start with installing the same",
+      "start": 461.52,
+      "duration": 3.399
+    },
+    {
+      "text": "Google geniip pit",
+      "start": 462.96,
+      "duration": 4.88
+    },
+    {
+      "text": "package. Then import the geni module and",
+      "start": 464.919,
+      "duration": 5.161
+    },
+    {
+      "text": "initialize a client object just like",
+      "start": 467.84,
+      "duration": 4.799
+    },
+    {
+      "text": "what you did with imagen earlier. Next,",
+      "start": 470.08,
+      "duration": 5.2
+    },
+    {
+      "text": "we'll use a model called v2.0 generate",
+      "start": 472.639,
+      "duration": 6.56
+    },
+    {
+      "text": "001 for text to video generations.",
+      "start": 475.28,
+      "duration": 5.68
+    },
+    {
+      "text": "Similar to text to image generations",
+      "start": 479.199,
+      "duration": 4.601
+    },
+    {
+      "text": "with I imagine we define the",
+      "start": 480.96,
+      "duration": 5.239
+    },
+    {
+      "text": "prompt the aspects",
+      "start": 483.8,
+      "duration": 4.92
+    },
+    {
+      "text": "ratio the number of variations we want",
+      "start": 486.199,
+      "duration": 3.28
+    },
+    {
+      "text": "to",
+      "start": 488.72,
+      "duration": 4.36
+    },
+    {
+      "text": "create and the length of each",
+      "start": 489.479,
+      "duration": 6.201
+    },
+    {
+      "text": "video. After calling the generate video",
+      "start": 493.08,
+      "duration": 4.839
+    },
+    {
+      "text": "functions you will get back a long",
+      "start": 495.68,
+      "duration": 4.32
+    },
+    {
+      "text": "running operations which you will need",
+      "start": 497.919,
+      "duration": 5.041
+    },
+    {
+      "text": "to pull it periodically and wait until",
+      "start": 500.0,
+      "duration": 4.639
+    },
+    {
+      "text": "the video generations operations has",
+      "start": 502.96,
+      "duration": 5.04
+    },
+    {
+      "text": "completed to download the video.",
+      "start": 504.639,
+      "duration": 5.441
+    },
+    {
+      "text": "It will take about 20 seconds to",
+      "start": 508.0,
+      "duration": 4.36
+    },
+    {
+      "text": "generate a 8-second",
+      "start": 510.08,
+      "duration": 5.12
+    },
+    {
+      "text": "video. Once it has completed, you can",
+      "start": 512.36,
+      "duration": 5.119
+    },
+    {
+      "text": "save the generated",
+      "start": 515.2,
+      "duration": 5.12
+    },
+    {
+      "text": "video. If you want to specify an image",
+      "start": 517.479,
+      "duration": 5.161
+    },
+    {
+      "text": "as the initial frame for the generated",
+      "start": 520.32,
+      "duration": 5.16
+    },
+    {
+      "text": "video, you can do it by defining the",
+      "start": 522.64,
+      "duration": 5.6
+    },
+    {
+      "text": "image and then pass it to the generate",
+      "start": 525.48,
+      "duration": 5.56
+    },
+    {
+      "text": "video function. The other parameters",
+      "start": 528.24,
+      "duration": 4.8
+    },
+    {
+      "text": "stay the same.",
+      "start": 531.04,
+      "duration": 4.479
+    },
+    {
+      "text": "Okay, so that's all you need to generate",
+      "start": 533.04,
+      "duration": 4.64
+    },
+    {
+      "text": "videos with VO using the Google Genai",
+      "start": 535.519,
+      "duration": 3.32
+    },
+    {
+      "text": "Python",
+      "start": 537.68,
+      "duration": 4.4
+    },
+    {
+      "text": "SDK. Next, let's talk about CHF, our",
+      "start": 538.839,
+      "duration": 4.731
+    },
+    {
+      "text": "latest speech generations",
+      "start": 542.08,
+      "duration": 4.669
+    },
+    {
+      "text": "[Music]",
+      "start": 543.57,
+      "duration": 3.179
+    },
+    {
+      "text": "model. Text to speech technology has",
+      "start": 547.64,
+      "duration": 4.6
+    },
+    {
+      "text": "been there for many years, but our",
+      "start": 550.16,
+      "duration": 4.16
+    },
+    {
+      "text": "latest text to speech model really",
+      "start": 552.24,
+      "duration": 4.4
+    },
+    {
+      "text": "improve in how natural it sounds and the",
+      "start": 554.32,
+      "duration": 4.639
+    },
+    {
+      "text": "level of control you have to infuse",
+      "start": 556.64,
+      "duration": 5.6
+    },
+    {
+      "text": "emotions into the AI generated speech.",
+      "start": 558.959,
+      "duration": 5.121
+    },
+    {
+      "text": "So, why don't we just let Chirp",
+      "start": 562.24,
+      "duration": 4.8
+    },
+    {
+      "text": "introduce itself and tell us what it can",
+      "start": 564.08,
+      "duration": 6.72
+    },
+    {
+      "text": "do? Hey there, I'm Chirp 3. Well, one",
+      "start": 567.04,
+      "duration": 6.16
+    },
+    {
+      "text": "version of me anyway. And I'm Chirp 3,",
+      "start": 570.8,
+      "duration": 5.28
+    },
+    {
+      "text": "too, just with a different voice. We're",
+      "start": 573.2,
+      "duration": 4.4
+    },
+    {
+      "text": "here to tell you about how incredibly",
+      "start": 576.08,
+      "duration": 4.0
+    },
+    {
+      "text": "natural sounding we are. Yeah, we're not",
+      "start": 577.6,
+      "duration": 4.48
+    },
+    {
+      "text": "those robotic voices you're used to. We",
+      "start": 580.08,
+      "duration": 3.6
+    },
+    {
+      "text": "can actually, you know, talk like real",
+      "start": 582.08,
+      "duration": 4.24
+    },
+    {
+      "text": "people with pauses and uh even the",
+      "start": 583.68,
+      "duration": 5.12
+    },
+    {
+      "text": "occasional um It's true. We've been",
+      "start": 586.32,
+      "duration": 5.0
+    },
+    {
+      "text": "designed to really capture the flow of",
+      "start": 588.8,
+      "duration": 5.0
+    },
+    {
+      "text": "conversation. We can handle complex",
+      "start": 591.32,
+      "duration": 5.4
+    },
+    {
+      "text": "sentences, different tones, and get",
+      "start": 593.8,
+      "duration": 6.2
+    },
+    {
+      "text": "this, we support 30 different languages.",
+      "start": 596.72,
+      "duration": 5.84
+    },
+    {
+      "text": "30. It's kind of crazy. We're talking",
+      "start": 600.0,
+      "duration": 4.88
+    },
+    {
+      "text": "English with different accents. German,",
+      "start": 602.56,
+      "duration": 5.2
+    },
+    {
+      "text": "Indonesian, Spanish, Chinese, the list",
+      "start": 604.88,
+      "duration": 5.84
+    },
+    {
+      "text": "goes on. Imagine reaching a global",
+      "start": 607.76,
+      "duration": 5.44
+    },
+    {
+      "text": "audience, all with incredibly natural",
+      "start": 610.72,
+      "duration": 4.88
+    },
+    {
+      "text": "sounding speech in their native tongue.",
+      "start": 613.2,
+      "duration": 4.92
+    },
+    {
+      "text": "We even support different accents within",
+      "start": 615.6,
+      "duration": 4.96
+    },
+    {
+      "text": "languages like speaking English with an",
+      "start": 618.12,
+      "duration": 4.36
+    },
+    {
+      "text": "Indian accent. So whether you need a",
+      "start": 620.56,
+      "duration": 4.32
+    },
+    {
+      "text": "voice for customer service, e-learning,",
+      "start": 622.48,
+      "duration": 6.16
+    },
+    {
+      "text": "or well, just about anything, Chirp 3",
+      "start": 624.88,
+      "duration": 6.0
+    },
+    {
+      "text": "has you covered. We're versatile,",
+      "start": 628.64,
+      "duration": 4.319
+    },
+    {
+      "text": "natural, and ready for anything. Give us",
+      "start": 630.88,
+      "duration": 3.76
+    },
+    {
+      "text": "a try. We think you'll be amazed at how",
+      "start": 632.959,
+      "duration": 3.681
+    },
+    {
+      "text": "human we can sound without actually",
+      "start": 634.64,
+      "duration": 4.0
+    },
+    {
+      "text": "being human, of course. Yep. We're",
+      "start": 636.64,
+      "duration": 4.96
+    },
+    {
+      "text": "pretty good. Thanks for listening.",
+      "start": 638.64,
+      "duration": 5.12
+    },
+    {
+      "text": "What do you think? I think Ch 3 sounds",
+      "start": 641.6,
+      "duration": 3.679
+    },
+    {
+      "text": "really natural.",
+      "start": 643.76,
+      "duration": 4.0
+    },
+    {
+      "text": "Next, let me show you the code to Z",
+      "start": 645.279,
+      "duration": 4.361
+    },
+    {
+      "text": "speech from",
+      "start": 647.76,
+      "duration": 5.04
+    },
+    {
+      "text": "text. In order to use chirp in Python,",
+      "start": 649.64,
+      "duration": 4.92
+    },
+    {
+      "text": "you need to install the Google cloud",
+      "start": 652.8,
+      "duration": 5.08
+    },
+    {
+      "text": "texttospech SDK using",
+      "start": 654.56,
+      "duration": 7.08
+    },
+    {
+      "text": "pip. Then you import the text to speech",
+      "start": 657.88,
+      "duration": 8.16
+    },
+    {
+      "text": "module and create a texttospech",
+      "start": 661.64,
+      "duration": 7.08
+    },
+    {
+      "text": "client. Now let's move on to configuring",
+      "start": 666.04,
+      "duration": 5.56
+    },
+    {
+      "text": "the speech generation task. You start",
+      "start": 668.72,
+      "duration": 4.64
+    },
+    {
+      "text": "with selecting the voice you want to",
+      "start": 671.6,
+      "duration": 3.919
+    },
+    {
+      "text": "use.",
+      "start": 673.36,
+      "duration": 5.2
+    },
+    {
+      "text": "and the config of the output audio such",
+      "start": 675.519,
+      "duration": 6.281
+    },
+    {
+      "text": "as which audio encoding you want to",
+      "start": 678.56,
+      "duration": 6.32
+    },
+    {
+      "text": "use. Then specify the script that you",
+      "start": 681.8,
+      "duration": 5.039
+    },
+    {
+      "text": "want chirp to read",
+      "start": 684.88,
+      "duration": 5.28
+    },
+    {
+      "text": "out. Finally, call synthesize speech",
+      "start": 686.839,
+      "duration": 6.881
+    },
+    {
+      "text": "functions to start the model",
+      "start": 690.16,
+      "duration": 6.48
+    },
+    {
+      "text": "inference. And once it has completed,",
+      "start": 693.72,
+      "duration": 6.76
+    },
+    {
+      "text": "you can save the model output as a file.",
+      "start": 696.64,
+      "duration": 5.759
+    },
+    {
+      "text": "That was all you need to generate",
+      "start": 700.48,
+      "duration": 4.76
+    },
+    {
+      "text": "natural voice using chop",
+      "start": 702.399,
+      "duration": 6.161
+    },
+    {
+      "text": "tree. Lastly, let's talk about LIA, our",
+      "start": 705.24,
+      "duration": 5.0
+    },
+    {
+      "text": "latest model for music",
+      "start": 708.56,
+      "duration": 4.519
+    },
+    {
+      "text": "[Music]",
+      "start": 710.24,
+      "duration": 5.92
+    },
+    {
+      "text": "generations. The main thing LIA does is",
+      "start": 713.079,
+      "duration": 6.041
+    },
+    {
+      "text": "to create instrumental music based on a",
+      "start": 716.16,
+      "duration": 4.359
+    },
+    {
+      "text": "single text",
+      "start": 719.12,
+      "duration": 3.6
+    },
+    {
+      "text": "description. You give it a prompt",
+      "start": 720.519,
+      "duration": 4.44
+    },
+    {
+      "text": "describing the mood, gen, and",
+      "start": 722.72,
+      "duration": 4.48
+    },
+    {
+      "text": "instruments that you want, and Lydia",
+      "start": 724.959,
+      "duration": 5.041
+    },
+    {
+      "text": "will generate the music. We're not doing",
+      "start": 727.2,
+      "duration": 5.879
+    },
+    {
+      "text": "vocals yet and focusing on instrumental",
+      "start": 730.0,
+      "duration": 5.76
+    },
+    {
+      "text": "tracks. Think of this as describing the",
+      "start": 733.079,
+      "duration": 4.681
+    },
+    {
+      "text": "kind of music you need and Lydia will",
+      "start": 735.76,
+      "duration": 3.24
+    },
+    {
+      "text": "generate it for",
+      "start": 737.76,
+      "duration": 3.84
+    },
+    {
+      "text": "you. Before we get into how people are",
+      "start": 739.0,
+      "duration": 5.72
+    },
+    {
+      "text": "using Lydia, I want to play a few quick",
+      "start": 741.6,
+      "duration": 7.23
+    },
+    {
+      "text": "examples of music that it has created.",
+      "start": 744.72,
+      "duration": 12.459
+    },
+    {
+      "text": "[Music]",
+      "start": 748.83,
+      "duration": 8.349
+    },
+    {
+      "text": "[Applause]",
+      "start": 761.87,
+      "duration": 2.59
+    },
+    {
+      "text": "[Music]",
+      "start": 763.68,
+      "duration": 2.78
+    },
+    {
+      "text": "[Applause]",
+      "start": 764.46,
+      "duration": 9.059
+    },
+    {
+      "text": "[Music]",
+      "start": 766.46,
+      "duration": 9.46
+    },
+    {
+      "text": "As you can tell, the range of styles is",
+      "start": 773.519,
+      "duration": 3.841
+    },
+    {
+      "text": "pretty broad, even within the",
+      "start": 775.92,
+      "duration": 3.84
+    },
+    {
+      "text": "instrumental space. These are just",
+      "start": 777.36,
+      "duration": 5.039
+    },
+    {
+      "text": "examples dated from text prompts and not",
+      "start": 779.76,
+      "duration": 5.079
+    },
+    {
+      "text": "from pre-recorded music at",
+      "start": 782.399,
+      "duration": 5.041
+    },
+    {
+      "text": "all. You can use LIA for many different",
+      "start": 784.839,
+      "duration": 5.721
+    },
+    {
+      "text": "use cases. For example, a game developer",
+      "start": 787.44,
+      "duration": 4.8
+    },
+    {
+      "text": "may need to create unique background",
+      "start": 790.56,
+      "duration": 4.64
+    },
+    {
+      "text": "music for different levels. They can use",
+      "start": 792.24,
+      "duration": 4.88
+    },
+    {
+      "text": "LRA to quickly generate tracks that",
+      "start": 795.2,
+      "duration": 3.759
+    },
+    {
+      "text": "perfectly match the mood and setting of",
+      "start": 797.12,
+      "duration": 4.24
+    },
+    {
+      "text": "each level, saving them time and money",
+      "start": 798.959,
+      "duration": 4.44
+    },
+    {
+      "text": "on custom",
+      "start": 801.36,
+      "duration": 4.64
+    },
+    {
+      "text": "compositions. Podcasters could use LRA",
+      "start": 803.399,
+      "duration": 4.68
+    },
+    {
+      "text": "to create intro and outro music or even",
+      "start": 806.0,
+      "duration": 4.399
+    },
+    {
+      "text": "background music for specific segments.",
+      "start": 808.079,
+      "duration": 4.481
+    },
+    {
+      "text": "They could easily generate royaltyfree",
+      "start": 810.399,
+      "duration": 4.481
+    },
+    {
+      "text": "music following the podcast theme and",
+      "start": 812.56,
+      "duration": 4.399
+    },
+    {
+      "text": "tone.",
+      "start": 814.88,
+      "duration": 4.72
+    },
+    {
+      "text": "Meditation apps could use LIA to create",
+      "start": 816.959,
+      "duration": 4.801
+    },
+    {
+      "text": "personalized music experience for each",
+      "start": 819.6,
+      "duration": 4.96
+    },
+    {
+      "text": "of their users. They can customize the",
+      "start": 821.76,
+      "duration": 5.72
+    },
+    {
+      "text": "prompts to evoke specific emotions or",
+      "start": 824.56,
+      "duration": 5.839
+    },
+    {
+      "text": "memories. Okay, so far I've shown you",
+      "start": 827.48,
+      "duration": 4.799
+    },
+    {
+      "text": "how to use each Z media model",
+      "start": 830.399,
+      "duration": 4.321
+    },
+    {
+      "text": "individually, but actually you can do",
+      "start": 832.279,
+      "duration": 3.841
+    },
+    {
+      "text": "more than",
+      "start": 834.72,
+      "duration": 4.239
+    },
+    {
+      "text": "that. I'll show you a workflow to",
+      "start": 836.12,
+      "duration": 5.32
+    },
+    {
+      "text": "combine all four models together to",
+      "start": 838.959,
+      "duration": 4.56
+    },
+    {
+      "text": "create longer videos for many different",
+      "start": 841.44,
+      "duration": 4.68
+    },
+    {
+      "text": "use cases. video ads, visual",
+      "start": 843.519,
+      "duration": 5.641
+    },
+    {
+      "text": "storytelling, short movies, you name",
+      "start": 846.12,
+      "duration": 5.719
+    },
+    {
+      "text": "it. The typical workflow would start",
+      "start": 849.16,
+      "duration": 5.359
+    },
+    {
+      "text": "with writing a storyboard for your e",
+      "start": 851.839,
+      "duration": 5.44
+    },
+    {
+      "text": "video. You can use Gemini to have you",
+      "start": 854.519,
+      "duration": 4.76
+    },
+    {
+      "text": "brainstorming or writing the whole",
+      "start": 857.279,
+      "duration": 4.441
+    },
+    {
+      "text": "storyboard based on your",
+      "start": 859.279,
+      "duration": 5.12
+    },
+    {
+      "text": "idea. Here's my storyboard for a short",
+      "start": 861.72,
+      "duration": 5.799
+    },
+    {
+      "text": "ad video for an imaginary coffee brand",
+      "start": 864.399,
+      "duration": 7.601
+    },
+    {
+      "text": "which consists of six different scenes.",
+      "start": 867.519,
+      "duration": 7.201
+    },
+    {
+      "text": "Then you can use imagine to generate the",
+      "start": 872.0,
+      "duration": 4.199
+    },
+    {
+      "text": "first frame for each",
+      "start": 874.72,
+      "duration": 4.64
+    },
+    {
+      "text": "scene. You can iterate on it until you",
+      "start": 876.199,
+      "duration": 5.361
+    },
+    {
+      "text": "get the visual that you",
+      "start": 879.36,
+      "duration": 5.68
+    },
+    {
+      "text": "like. After that, you use the VO image",
+      "start": 881.56,
+      "duration": 6.2
+    },
+    {
+      "text": "to video feature to generate a short",
+      "start": 885.04,
+      "duration": 4.44
+    },
+    {
+      "text": "clip for each",
+      "start": 887.76,
+      "duration": 5.04
+    },
+    {
+      "text": "scene. Then you use Chirp and Lia to add",
+      "start": 889.48,
+      "duration": 6.919
+    },
+    {
+      "text": "music and narrations to the video.",
+      "start": 892.8,
+      "duration": 5.44
+    },
+    {
+      "text": "Now, let's take a look at the premium",
+      "start": 896.399,
+      "duration": 4.161
+    },
+    {
+      "text": "coffee video ad that I created using",
+      "start": 898.24,
+      "duration": 5.36
+    },
+    {
+      "text": "this workflow. Premium coffee selects",
+      "start": 900.56,
+      "duration": 7.48
+    },
+    {
+      "text": "only the top 1% of fair trade Arabica",
+      "start": 903.6,
+      "duration": 9.16
+    },
+    {
+      "text": "beans. Slow roasted, perfectly",
+      "start": 908.04,
+      "duration": 7.919
+    },
+    {
+      "text": "brewed, releasing notes of chocolate and",
+      "start": 912.76,
+      "duration": 6.519
+    },
+    {
+      "text": "spice. Premium coffee. The taste of true",
+      "start": 915.959,
+      "duration": 5.24
+    },
+    {
+      "text": "distinction.",
+      "start": 919.279,
+      "duration": 4.321
+    },
+    {
+      "text": "I hope that you like the video. To",
+      "start": 921.199,
+      "duration": 4.401
+    },
+    {
+      "text": "recap, we talk about four generative",
+      "start": 923.6,
+      "duration": 3.4
+    },
+    {
+      "text": "media models",
+      "start": 925.6,
+      "duration": 4.76
+    },
+    {
+      "text": "today. Imagin for generating",
+      "start": 927.0,
+      "duration": 7.12
+    },
+    {
+      "text": "images, VO for generating",
+      "start": 930.36,
+      "duration": 8.599
+    },
+    {
+      "text": "videos, chirp for zing speech, and Lydia",
+      "start": 934.12,
+      "duration": 6.159
+    },
+    {
+      "text": "for zering",
+      "start": 938.959,
+      "duration": 3.761
+    },
+    {
+      "text": "music. You can find the collab notebook",
+      "start": 940.279,
+      "duration": 5.0
+    },
+    {
+      "text": "showing how to use the models in the",
+      "start": 942.72,
+      "duration": 4.96
+    },
+    {
+      "text": "video descriptions. Please check it out,",
+      "start": 945.279,
+      "duration": 4.0
+    },
+    {
+      "text": "and I'm looking forward to seeing what",
+      "start": 947.68,
+      "duration": 4.24
+    },
+    {
+      "text": "you will create using these models.",
+      "start": 949.279,
+      "duration": 6.12
+    },
+    {
+      "text": "Thank you for watching.",
+      "start": 951.92,
+      "duration": 3.479
+    },
+    {
+      "text": "[Applause]",
+      "start": 957.01,
+      "duration": 3.21
+    }
+  ]
+}

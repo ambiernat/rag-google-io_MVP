@@ -1,0 +1,2227 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "07Y9CPuxgvQ",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.367
+    },
+    {
+      "text": "MEGHAN MEHTA: Hi, I'm\nMeghan, a developer relations",
+      "start": 6.26,
+      "duration": 2.25
+    },
+    {
+      "text": "engineer on the Android team.",
+      "start": 8.51,
+      "duration": 1.57
+    },
+    {
+      "text": "I'm joined by Halil, a software\nengineer on the Compose team,",
+      "start": 10.08,
+      "duration": 2.91
+    },
+    {
+      "text": "and I'm also joined by\nBubba, a Goldendoodle.",
+      "start": 12.99,
+      "duration": 3.859
+    },
+    {
+      "text": "[BALL SQUEAKS]",
+      "start": 16.849,
+      "duration": 1.411
+    },
+    {
+      "text": "Today, we're going to talk about\nhow you can use Compose Text",
+      "start": 18.26,
+      "duration": 2.88
+    },
+    {
+      "text": "APIs to create functional,\nexceptional, and delightful user",
+      "start": 21.14,
+      "duration": 3.48
+    },
+    {
+      "text": "input experiences.",
+      "start": 24.62,
+      "duration": 1.92
+    },
+    {
+      "text": "We'll be using a pet social\nmedia app to showcase these APIs",
+      "start": 26.54,
+      "duration": 3.88
+    },
+    {
+      "text": "and to give Bubba a place\nfor his barks to be heard.",
+      "start": 30.42,
+      "duration": 3.0
+    },
+    {
+      "text": "We'll be starting with an app\nthat looks great but isn't",
+      "start": 33.42,
+      "duration": 2.48
+    },
+    {
+      "text": "properly using the robust\nCompose Text APIs to make",
+      "start": 35.9,
+      "duration": 2.82
+    },
+    {
+      "text": "it feel as great as it looks.",
+      "start": 38.72,
+      "duration": 2.22
+    },
+    {
+      "text": "Before we get to the\napp, I want to introduce",
+      "start": 40.94,
+      "duration": 2.79
+    },
+    {
+      "text": "the new state-based TextField.",
+      "start": 43.73,
+      "duration": 1.93
+    },
+    {
+      "text": "This is our new best\npractice for TextField usage,",
+      "start": 45.66,
+      "duration": 3.21
+    },
+    {
+      "text": "and you'll see it used in so\nmany ways throughout this talk.",
+      "start": 48.87,
+      "duration": 3.8
+    },
+    {
+      "text": "Here are some of the features\nof the new TextFields.",
+      "start": 52.67,
+      "duration": 3.36
+    },
+    {
+      "text": "We've switched to a different\nstate hoisting paradigm.",
+      "start": 56.03,
+      "duration": 2.94
+    },
+    {
+      "text": "By replacing value\nand callback hoisting,",
+      "start": 58.97,
+      "duration": 2.57
+    },
+    {
+      "text": "the TextField state provides\na more complete and reliable",
+      "start": 61.54,
+      "duration": 2.72
+    },
+    {
+      "text": "approach to managing\nthe state of a TextField",
+      "start": 64.26,
+      "duration": 3.21
+    },
+    {
+      "text": "We've replaced the\non-value change callback",
+      "start": 67.47,
+      "duration": 2.58
+    },
+    {
+      "text": "with the new InputTransformation\nmechanism for handling",
+      "start": 70.05,
+      "duration": 3.6
+    },
+    {
+      "text": "input modifications.",
+      "start": 73.65,
+      "duration": 2.4
+    },
+    {
+      "text": "We've updated the\nVisualTransformation",
+      "start": 76.05,
+      "duration": 2.28
+    },
+    {
+      "text": "to OutputTransformation for\nmanaging how text is presented.",
+      "start": 78.33,
+      "duration": 4.56
+    },
+    {
+      "text": "And we've tidied up single\nand multiline configuration",
+      "start": 82.89,
+      "duration": 3.3
+    },
+    {
+      "text": "parameters.",
+      "start": 86.19,
+      "duration": 1.14
+    },
+    {
+      "text": "OK, back to the dogs.",
+      "start": 87.33,
+      "duration": 2.01
+    },
+    {
+      "text": "We'll start with the\nregistration screen.",
+      "start": 89.34,
+      "duration": 2.7
+    },
+    {
+      "text": "Right now, the\nregistration screen",
+      "start": 92.04,
+      "duration": 1.98
+    },
+    {
+      "text": "takes in a username\nand a password.",
+      "start": 94.02,
+      "duration": 2.94
+    },
+    {
+      "text": "It works and allows\na pup to register,",
+      "start": 96.96,
+      "duration": 2.32
+    },
+    {
+      "text": "but everyone around him\ncan see his password",
+      "start": 99.28,
+      "duration": 2.12
+    },
+    {
+      "text": "when he's typing it in.",
+      "start": 101.4,
+      "duration": 1.21
+    },
+    {
+      "text": "And after registering, he may\nbe thinking about squirrels",
+      "start": 102.61,
+      "duration": 2.93
+    },
+    {
+      "text": "and forget about the\ncredentials he just chose.",
+      "start": 105.54,
+      "duration": 2.73
+    },
+    {
+      "text": "In this section, we'll\nupdate the password field",
+      "start": 108.27,
+      "duration": 2.64
+    },
+    {
+      "text": "to hide text as our puppy is\ntyping it in for security, add",
+      "start": 110.91,
+      "duration": 3.96
+    },
+    {
+      "text": "a password requirement\nfor extra security,",
+      "start": 114.87,
+      "duration": 2.56
+    },
+    {
+      "text": "and we'll save our pup's\nsuper secure credentials",
+      "start": 117.43,
+      "duration": 2.69
+    },
+    {
+      "text": "to their password manager.",
+      "start": 120.12,
+      "duration": 2.22
+    },
+    {
+      "text": "Here's our username\nfield that utilizes",
+      "start": 122.34,
+      "duration": 2.04
+    },
+    {
+      "text": "the new state-based TextField.",
+      "start": 124.38,
+      "duration": 2.11
+    },
+    {
+      "text": "We can see the standard\nstate defined in line,",
+      "start": 126.49,
+      "duration": 2.97
+    },
+    {
+      "text": "the line limit to a single\nline, and the placeholder text",
+      "start": 129.46,
+      "duration": 3.32
+    },
+    {
+      "text": "of \"Username.\"",
+      "start": 132.78,
+      "duration": 1.59
+    },
+    {
+      "text": "For the password field,\nwe'll be using the brand",
+      "start": 134.37,
+      "duration": 2.61
+    },
+    {
+      "text": "new SecureTextField.",
+      "start": 136.98,
+      "duration": 1.98
+    },
+    {
+      "text": "Key features are\nhiding password text",
+      "start": 138.96,
+      "duration": 2.1
+    },
+    {
+      "text": "by default and disabling\ncut and copy actions.",
+      "start": 141.06,
+      "duration": 3.81
+    },
+    {
+      "text": "The implementation is similar\nto that of the TextField.",
+      "start": 144.87,
+      "duration": 3.21
+    },
+    {
+      "text": "We'll set the state.",
+      "start": 148.08,
+      "duration": 1.32
+    },
+    {
+      "text": "In this case, you can see it's\nbeen hoisted and then passed in,",
+      "start": 149.4,
+      "duration": 3.72
+    },
+    {
+      "text": "and the placeholder\nwill be set as password.",
+      "start": 153.12,
+      "duration": 2.94
+    },
+    {
+      "text": "Unlike in TextField, we don't\nhave to specify the line limit.",
+      "start": 156.06,
+      "duration": 3.34
+    },
+    {
+      "text": "SecureTextFields are\nalways single line.",
+      "start": 159.4,
+      "duration": 3.14
+    },
+    {
+      "text": "Just by switching\nto SecureTextField,",
+      "start": 162.54,
+      "duration": 2.14
+    },
+    {
+      "text": "we gave our puppies a\nsafer user experience.",
+      "start": 164.68,
+      "duration": 3.65
+    },
+    {
+      "text": "Another important\nsafety aspect is",
+      "start": 168.33,
+      "duration": 2.07
+    },
+    {
+      "text": "to add password requirements\nto make sure our pup chooses",
+      "start": 170.4,
+      "duration": 2.61
+    },
+    {
+      "text": "a secure password.",
+      "start": 173.01,
+      "duration": 1.71
+    },
+    {
+      "text": "We'll disable the Sign Up\nbutton unless the password input",
+      "start": 174.72,
+      "duration": 3.0
+    },
+    {
+      "text": "is at least eight characters.",
+      "start": 177.72,
+      "duration": 2.97
+    },
+    {
+      "text": "We'll use our hoisted state to\nenable the Sign Up button based",
+      "start": 180.69,
+      "duration": 3.24
+    },
+    {
+      "text": "on the password length.",
+      "start": 183.93,
+      "duration": 1.8
+    },
+    {
+      "text": "It works, and the\nbutton is only enabled",
+      "start": 185.73,
+      "duration": 2.19
+    },
+    {
+      "text": "when the requirement is met.",
+      "start": 187.92,
+      "duration": 1.57
+    },
+    {
+      "text": "However, the puppy doesn't\nknow what the requirements",
+      "start": 189.49,
+      "duration": 2.72
+    },
+    {
+      "text": "are and may be confused.",
+      "start": 192.21,
+      "duration": 2.61
+    },
+    {
+      "text": "We can add two things to\nmake the requirements clearer",
+      "start": 194.82,
+      "duration": 2.67
+    },
+    {
+      "text": "to the pup.",
+      "start": 197.49,
+      "duration": 1.53
+    },
+    {
+      "text": "The supportingText\nparameter allows",
+      "start": 199.02,
+      "duration": 2.07
+    },
+    {
+      "text": "us to add text defining\nwhat the requirement is.",
+      "start": 201.09,
+      "duration": 3.18
+    },
+    {
+      "text": "And the isError parameter\nwill put the TextField",
+      "start": 204.27,
+      "duration": 2.76
+    },
+    {
+      "text": "in an error state when\nthe length of the password",
+      "start": 207.03,
+      "duration": 2.13
+    },
+    {
+      "text": "is between one and\nseven characters.",
+      "start": 209.16,
+      "duration": 2.49
+    },
+    {
+      "text": "This allows us to enforce\nour password requirements",
+      "start": 211.65,
+      "duration": 2.25
+    },
+    {
+      "text": "while also communicating\nthem clearly to our puppies.",
+      "start": 213.9,
+      "duration": 3.84
+    },
+    {
+      "text": "Let's add code to\nsave their credentials",
+      "start": 217.74,
+      "duration": 2.11
+    },
+    {
+      "text": "so they don't forget their\nnew super secure password.",
+      "start": 219.85,
+      "duration": 3.38
+    },
+    {
+      "text": "We'll be saving credentials\nusing the new Compose Autofill",
+      "start": 223.23,
+      "duration": 3.24
+    },
+    {
+      "text": "APIs.",
+      "start": 226.47,
+      "duration": 1.32
+    },
+    {
+      "text": "While testing this\nfeature, you'll",
+      "start": 227.79,
+      "duration": 1.68
+    },
+    {
+      "text": "need to opt in to Autofill\nand enable a password",
+      "start": 229.47,
+      "duration": 2.49
+    },
+    {
+      "text": "manager in the Settings\napp of your device.",
+      "start": 231.96,
+      "duration": 3.39
+    },
+    {
+      "text": "In order to make your\nTextField Autofill enabled,",
+      "start": 235.35,
+      "duration": 3.04
+    },
+    {
+      "text": "add a semantics modifier to\nyour TextField's modifier.",
+      "start": 238.39,
+      "duration": 2.93
+    },
+    {
+      "text": "And inside, add a\ncontentType parameter.",
+      "start": 241.32,
+      "duration": 3.54
+    },
+    {
+      "text": "ContentType is the way that we\nspecify to the system what kind",
+      "start": 244.86,
+      "duration": 3.03
+    },
+    {
+      "text": "of content to save or fill.",
+      "start": 247.89,
+      "duration": 2.34
+    },
+    {
+      "text": "There are many\nAutofill ContentTypes",
+      "start": 250.23,
+      "duration": 1.98
+    },
+    {
+      "text": "for many different use cases.",
+      "start": 252.21,
+      "duration": 2.1
+    },
+    {
+      "text": "For example, if you were\nusing a PhoneNumber TextField,",
+      "start": 254.31,
+      "duration": 3.279
+    },
+    {
+      "text": "the PhoneNumber ContentType\nwould be useful to add",
+      "start": 257.589,
+      "duration": 2.18
+    },
+    {
+      "text": "and would indicate to the system\nthat you want to fill a phone",
+      "start": 259.769,
+      "duration": 2.821
+    },
+    {
+      "text": "number if there is one saved.",
+      "start": 262.59,
+      "duration": 2.58
+    },
+    {
+      "text": "For the registration\npage, we'll be",
+      "start": 265.17,
+      "duration": 1.83
+    },
+    {
+      "text": "using NewUsername and\nNewPassword, which allows a pup",
+      "start": 267.0,
+      "duration": 3.78
+    },
+    {
+      "text": "to save their\nusername and password",
+      "start": 270.78,
+      "duration": 1.68
+    },
+    {
+      "text": "credentials to their password\nmanager when they register.",
+      "start": 272.46,
+      "duration": 3.9
+    },
+    {
+      "text": "We will set the ContentType\nof the username TextField",
+      "start": 276.36,
+      "duration": 2.64
+    },
+    {
+      "text": "to be NewUsername and then\nset the SecureTextField's type",
+      "start": 279.0,
+      "duration": 4.17
+    },
+    {
+      "text": "to NewPassword.",
+      "start": 283.17,
+      "duration": 1.92
+    },
+    {
+      "text": "We have the information, but\nneed to commit the information",
+      "start": 285.09,
+      "duration": 2.79
+    },
+    {
+      "text": "to the password manager.",
+      "start": 287.88,
+      "duration": 1.66
+    },
+    {
+      "text": "To do this, add a value\nto hold a reference",
+      "start": 289.54,
+      "duration": 2.66
+    },
+    {
+      "text": "to an Autofill manager.",
+      "start": 292.2,
+      "duration": 2.01
+    },
+    {
+      "text": "Then we can call\nautofillManager.commit",
+      "start": 294.21,
+      "duration": 2.82
+    },
+    {
+      "text": "when the button is clicked.",
+      "start": 297.03,
+      "duration": 2.53
+    },
+    {
+      "text": "When you press Sign Up,\nyou'll see a bottom sheet",
+      "start": 299.56,
+      "duration": 2.458
+    },
+    {
+      "text": "with a prompt to save\ncredentials to the password",
+      "start": 302.018,
+      "duration": 2.042
+    },
+    {
+      "text": "manager.",
+      "start": 304.06,
+      "duration": 1.86
+    },
+    {
+      "text": "Now that our pup has\nregistered for an account,",
+      "start": 305.92,
+      "duration": 2.44
+    },
+    {
+      "text": "let's use it to log in.",
+      "start": 308.36,
+      "duration": 3.05
+    },
+    {
+      "text": "Currently, this\nscreen has TextFields",
+      "start": 311.41,
+      "duration": 2.22
+    },
+    {
+      "text": "for the doggy to input\ntheir username and password.",
+      "start": 313.63,
+      "duration": 2.94
+    },
+    {
+      "text": "The problem is, our puppy\ndid chase a squirrel right",
+      "start": 316.57,
+      "duration": 2.712
+    },
+    {
+      "text": "after going through registration\nand doesn't remember",
+      "start": 319.282,
+      "duration": 2.208
+    },
+    {
+      "text": "his credentials at all.",
+      "start": 321.49,
+      "duration": 1.458
+    },
+    {
+      "text": "And while he appreciates\nthe password field",
+      "start": 322.948,
+      "duration": 1.792
+    },
+    {
+      "text": "being more secure,\nhe wants to be",
+      "start": 324.74,
+      "duration": 1.76
+    },
+    {
+      "text": "able to toggle the\npassword's visibility.",
+      "start": 326.5,
+      "duration": 3.09
+    },
+    {
+      "text": "In this section, we will\nupdate the functionality",
+      "start": 329.59,
+      "duration": 2.64
+    },
+    {
+      "text": "by filling in the pup's\ncredentials for them,",
+      "start": 332.23,
+      "duration": 2.5
+    },
+    {
+      "text": "and we'll update the button in\nthe password TextField to toggle",
+      "start": 334.73,
+      "duration": 3.17
+    },
+    {
+      "text": "the password visibility.",
+      "start": 337.9,
+      "duration": 2.34
+    },
+    {
+      "text": "Let's take these TextFields\nin the login screen",
+      "start": 340.24,
+      "duration": 2.43
+    },
+    {
+      "text": "and make them autofill enabled.",
+      "start": 342.67,
+      "duration": 2.64
+    },
+    {
+      "text": "This time, we will use\nusername and password",
+      "start": 345.31,
+      "duration": 2.52
+    },
+    {
+      "text": "for the ContentTypes Using these\nContentTypes tells the system",
+      "start": 347.83,
+      "duration": 3.78
+    },
+    {
+      "text": "to see if there are any\nusername-password combos",
+      "start": 351.61,
+      "duration": 2.46
+    },
+    {
+      "text": "in the password manager\nthat can be filled.",
+      "start": 354.07,
+      "duration": 2.97
+    },
+    {
+      "text": "When the username\nfield is clicked into,",
+      "start": 357.04,
+      "duration": 2.248
+    },
+    {
+      "text": "the system will suggest\nrelevant credentials that",
+      "start": 359.288,
+      "duration": 2.042
+    },
+    {
+      "text": "are saved by the\npassword manager",
+      "start": 361.33,
+      "duration": 1.8
+    },
+    {
+      "text": "and give the user an\noption to autofill them.",
+      "start": 363.13,
+      "duration": 3.69
+    },
+    {
+      "text": "Our doggy also wants to\ntoggle the visibility",
+      "start": 366.82,
+      "duration": 2.43
+    },
+    {
+      "text": "of their autofilled password.",
+      "start": 369.25,
+      "duration": 1.54
+    },
+    {
+      "text": "Let's add that in.",
+      "start": 370.79,
+      "duration": 2.03
+    },
+    {
+      "text": "We'll update the\nfunctionality of the icon",
+      "start": 372.82,
+      "duration": 2.58
+    },
+    {
+      "text": "in the trailing section\nof the password text field",
+      "start": 375.4,
+      "duration": 2.37
+    },
+    {
+      "text": "to not only change\nicon while clicked,",
+      "start": 377.77,
+      "duration": 2.05
+    },
+    {
+      "text": "but also toggle the\npassword's visibility.",
+      "start": 379.82,
+      "duration": 2.96
+    },
+    {
+      "text": "To do this, we'll use\ntextObfuscationMode.",
+      "start": 382.78,
+      "duration": 3.4
+    },
+    {
+      "text": "textObfuscationMode\nis a new feature",
+      "start": 386.18,
+      "duration": 2.3
+    },
+    {
+      "text": "which allows you to define\nthe visibility of the text",
+      "start": 388.48,
+      "duration": 2.64
+    },
+    {
+      "text": "in a SecureTextField.",
+      "start": 391.12,
+      "duration": 1.77
+    },
+    {
+      "text": "There are three options--",
+      "start": 392.89,
+      "duration": 2.07
+    },
+    {
+      "text": "Visible, which shows\nanything typed;",
+      "start": 394.96,
+      "duration": 2.67
+    },
+    {
+      "text": "Hidden, which hides\nall character input;",
+      "start": 397.63,
+      "duration": 2.52
+    },
+    {
+      "text": "and RevealLastTyped\nwhich is a new API that",
+      "start": 400.15,
+      "duration": 3.03
+    },
+    {
+      "text": "shows the last character\ntyped for a set amount of time",
+      "start": 403.18,
+      "duration": 2.49
+    },
+    {
+      "text": "before hiding it.",
+      "start": 405.67,
+      "duration": 1.29
+    },
+    {
+      "text": "Our code has a variable called\npasswordVisible that is updated",
+      "start": 406.96,
+      "duration": 3.39
+    },
+    {
+      "text": "when the icon is clicked.",
+      "start": 410.35,
+      "duration": 1.95
+    },
+    {
+      "text": "If passwordVisible is true, we\nwill set textObfuscationMode",
+      "start": 412.3,
+      "duration": 3.51
+    },
+    {
+      "text": "to Visible, and if not, we'll\nset it as RevealLastTyped.",
+      "start": 415.81,
+      "duration": 4.26
+    },
+    {
+      "text": "Voila!",
+      "start": 420.07,
+      "duration": 0.87
+    },
+    {
+      "text": "We can now toggle our\npassword's visibility.",
+      "start": 420.94,
+      "duration": 3.57
+    },
+    {
+      "text": "After logging in, we will want\nto add an extra protection",
+      "start": 424.51,
+      "duration": 2.85
+    },
+    {
+      "text": "to make sure no one\nsteals our darling doggo's",
+      "start": 427.36,
+      "duration": 2.19
+    },
+    {
+      "text": "personal information.",
+      "start": 429.55,
+      "duration": 1.63
+    },
+    {
+      "text": "I'll pass it off\nto Halil to explain",
+      "start": 431.18,
+      "duration": 1.88
+    },
+    {
+      "text": "two-factor authentication.",
+      "start": 433.06,
+      "duration": 1.506
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 434.566,
+      "duration": 1.211
+    },
+    {
+      "text": "HALIL OZERCAN: Thank you, Megan.",
+      "start": 435.777,
+      "duration": 1.333
+    },
+    {
+      "text": "Let's talk about how we can make\nthis two-factor authentication",
+      "start": 437.11,
+      "duration": 2.82
+    },
+    {
+      "text": "experience both\nexceptional and delightful.",
+      "start": 439.93,
+      "duration": 2.38
+    },
+    {
+      "text": "First, we want to have a more\ncustomized look and feel.",
+      "start": 442.31,
+      "duration": 2.67
+    },
+    {
+      "text": "Just a regular TextField\nis kind of boring.",
+      "start": 444.98,
+      "duration": 2.28
+    },
+    {
+      "text": "And second, we want\nto use Autofill system",
+      "start": 447.26,
+      "duration": 2.21
+    },
+    {
+      "text": "to quickly fill this field\nfrom the received message.",
+      "start": 449.47,
+      "duration": 2.53
+    },
+    {
+      "text": "We start with our\nfirst goal, the design.",
+      "start": 452.0,
+      "duration": 3.17
+    },
+    {
+      "text": "Right now, our app shows\na regular TextField",
+      "start": 455.17,
+      "duration": 2.55
+    },
+    {
+      "text": "like on the left.",
+      "start": 457.72,
+      "duration": 1.06
+    },
+    {
+      "text": "Instead, we would like\nthis bespoke look and feel",
+      "start": 458.78,
+      "duration": 2.42
+    },
+    {
+      "text": "on the right, a field\nthat is specifically",
+      "start": 461.2,
+      "duration": 2.22
+    },
+    {
+      "text": "designed to accept an OTP code.",
+      "start": 463.42,
+      "duration": 2.31
+    },
+    {
+      "text": "So how do we do it?",
+      "start": 465.73,
+      "duration": 1.95
+    },
+    {
+      "text": "Intuitively, we\nmay think that we",
+      "start": 467.68,
+      "duration": 1.92
+    },
+    {
+      "text": "can achieve this look with\nsix separate TextFields placed",
+      "start": 469.6,
+      "duration": 2.88
+    },
+    {
+      "text": "in a row.",
+      "start": 472.48,
+      "duration": 0.79
+    },
+    {
+      "text": "But then we will need to\nguarantee that each TextField",
+      "start": 473.27,
+      "duration": 2.79
+    },
+    {
+      "text": "only accepts a single digit.",
+      "start": 476.06,
+      "duration": 1.87
+    },
+    {
+      "text": "Also, after a digit\nis typed, the focus",
+      "start": 477.93,
+      "duration": 2.45
+    },
+    {
+      "text": "should switch to the\nnext field and also",
+      "start": 480.38,
+      "duration": 1.86
+    },
+    {
+      "text": "back to the previous\nfield when erased.",
+      "start": 482.24,
+      "duration": 1.86
+    },
+    {
+      "text": "And eventually, when\nSubmit is clicked,",
+      "start": 484.1,
+      "duration": 2.26
+    },
+    {
+      "text": "we will have to concatenate the\ncontents of all six TextField",
+      "start": 486.36,
+      "duration": 2.99
+    },
+    {
+      "text": "states to have\nthe full OTP code.",
+      "start": 489.35,
+      "duration": 2.49
+    },
+    {
+      "text": "This is already so much work,\nand there is more to address.",
+      "start": 491.84,
+      "duration": 3.36
+    },
+    {
+      "text": "But there's a way we can\nkeep using a single TextField",
+      "start": 495.2,
+      "duration": 3.12
+    },
+    {
+      "text": "and achieve the desired design.",
+      "start": 498.32,
+      "duration": 1.78
+    },
+    {
+      "text": "Here, we have the current code\nwith this TextField setup.",
+      "start": 500.1,
+      "duration": 3.03
+    },
+    {
+      "text": "It limits the length\nto six characters,",
+      "start": 503.13,
+      "duration": 1.86
+    },
+    {
+      "text": "configures the keyboard\nto show numbers,",
+      "start": 504.99,
+      "duration": 1.89
+    },
+    {
+      "text": "and also disables\nmultiline entries.",
+      "start": 506.88,
+      "duration": 2.25
+    },
+    {
+      "text": "So it is set up\ncorrectly and works fine.",
+      "start": 509.13,
+      "duration": 3.0
+    },
+    {
+      "text": "It just lacks that custom\nlook that can make it special.",
+      "start": 512.13,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's start with simply\nswitching our TextField",
+      "start": 515.13,
+      "duration": 2.39
+    },
+    {
+      "text": "to BasicTextField.",
+      "start": 517.52,
+      "duration": 1.775
+    },
+    {
+      "text": "BasicTextField is the\nunderlying composable",
+      "start": 519.295,
+      "duration": 2.065
+    },
+    {
+      "text": "from foundation module that\nall TextFields depend on.",
+      "start": 521.36,
+      "duration": 2.679
+    },
+    {
+      "text": "It can be used to build\nmore stylistic TextFields",
+      "start": 524.039,
+      "duration": 2.391
+    },
+    {
+      "text": "appropriate for\nany design system.",
+      "start": 526.43,
+      "duration": 2.37
+    },
+    {
+      "text": "After switching to\nthe basic TextField,",
+      "start": 528.8,
+      "duration": 2.2
+    },
+    {
+      "text": "our OTP field looks like this\nbecause BasicTextField does not",
+      "start": 531.0,
+      "duration": 3.86
+    },
+    {
+      "text": "offer any styling or\ndecorations whatsoever.",
+      "start": 534.86,
+      "duration": 2.95
+    },
+    {
+      "text": "But this is OK because we want\nan entirely different layout",
+      "start": 537.81,
+      "duration": 3.5
+    },
+    {
+      "text": "anyway.",
+      "start": 541.31,
+      "duration": 0.82
+    },
+    {
+      "text": "The difference we\njust saw mainly",
+      "start": 542.13,
+      "duration": 1.7
+    },
+    {
+      "text": "comes from how material text\nfield uses the decorator",
+      "start": 543.83,
+      "duration": 2.64
+    },
+    {
+      "text": "parameter of BasicTextField.",
+      "start": 546.47,
+      "duration": 2.13
+    },
+    {
+      "text": "Material TextFields use it to\nadd labels, icons, paddings,",
+      "start": 548.6,
+      "duration": 4.3
+    },
+    {
+      "text": "background color, and any\nother visual decoration",
+      "start": 552.9,
+      "duration": 2.27
+    },
+    {
+      "text": "around innerTextField.",
+      "start": 555.17,
+      "duration": 1.33
+    },
+    {
+      "text": "Here, the red-bordered regions\nshow where innerTextField",
+      "start": 556.5,
+      "duration": 2.81
+    },
+    {
+      "text": "is exactly located.",
+      "start": 559.31,
+      "duration": 1.45
+    },
+    {
+      "text": "The rest is the decorator.",
+      "start": 560.76,
+      "duration": 2.04
+    },
+    {
+      "text": "We are also going to use\nthe decorator parameter",
+      "start": 562.8,
+      "duration": 2.42
+    },
+    {
+      "text": "to implement our unique design.",
+      "start": 565.22,
+      "duration": 1.98
+    },
+    {
+      "text": "However, we will skip calling\nthis innerTextField parameter",
+      "start": 567.2,
+      "duration": 3.21
+    },
+    {
+      "text": "since we want to\nreplace the inner text",
+      "start": 570.41,
+      "duration": 1.77
+    },
+    {
+      "text": "rendering with six-digit boxes.",
+      "start": 572.18,
+      "duration": 2.35
+    },
+    {
+      "text": "But be careful--\nthis may not always",
+      "start": 574.53,
+      "duration": 2.48
+    },
+    {
+      "text": "be the best option for you.",
+      "start": 577.01,
+      "duration": 1.45
+    },
+    {
+      "text": "InnerTextField is responsible\nfor a lot of things,",
+      "start": 578.46,
+      "duration": 2.78
+    },
+    {
+      "text": "like rendering the text\nitself, enabling gestures",
+      "start": 581.24,
+      "duration": 2.94
+    },
+    {
+      "text": "like tap or long click, showing\nselection, and cursor handles.",
+      "start": 584.18,
+      "duration": 3.58
+    },
+    {
+      "text": "Luckily, we don't need most\nof those for our OTP field.",
+      "start": 587.76,
+      "duration": 3.33
+    },
+    {
+      "text": "Maybe, except for showing the\ntext toolbar, to paste text",
+      "start": 591.09,
+      "duration": 3.23
+    },
+    {
+      "text": "from the clipboard.",
+      "start": 594.32,
+      "duration": 1.26
+    },
+    {
+      "text": "Here, we recommend letting the\nkeyboard handle this problem.",
+      "start": 595.58,
+      "duration": 3.25
+    },
+    {
+      "text": "You can see here\nthat Gboard suggests",
+      "start": 598.83,
+      "duration": 1.88
+    },
+    {
+      "text": "pasting the copied text.",
+      "start": 600.71,
+      "duration": 1.48
+    },
+    {
+      "text": "Users can paste\nthrough the keyboard",
+      "start": 602.19,
+      "duration": 1.73
+    },
+    {
+      "text": "without needing the toolbar.",
+      "start": 603.92,
+      "duration": 1.57
+    },
+    {
+      "text": "Or, shortly, we will\ntalk about Autofill,",
+      "start": 605.49,
+      "duration": 2.49
+    },
+    {
+      "text": "which makes even copy-pasting\nlook like so much work.",
+      "start": 607.98,
+      "duration": 2.85
+    },
+    {
+      "text": "Let's continue from\nwhere we left off.",
+      "start": 610.83,
+      "duration": 2.13
+    },
+    {
+      "text": "We are skipping innerTextField\nand writing our own decoration",
+      "start": 612.96,
+      "duration": 3.53
+    },
+    {
+      "text": "with a unique layout.",
+      "start": 616.49,
+      "duration": 1.38
+    },
+    {
+      "text": "We know that we\nare going to have",
+      "start": 617.87,
+      "duration": 1.68
+    },
+    {
+      "text": "a row of six-digit composables\nas decoration for our TextField.",
+      "start": 619.55,
+      "duration": 3.51
+    },
+    {
+      "text": "Here is the reference\nimplementation",
+      "start": 623.06,
+      "duration": 1.65
+    },
+    {
+      "text": "for the digit composable.",
+      "start": 624.71,
+      "duration": 1.41
+    },
+    {
+      "text": "There is nothing much\ninteresting about it.",
+      "start": 626.12,
+      "duration": 2.11
+    },
+    {
+      "text": "It just shows the number\nin a nice-looking box.",
+      "start": 628.23,
+      "duration": 2.82
+    },
+    {
+      "text": "Each digit composable\nis going to get",
+      "start": 631.05,
+      "duration": 2.09
+    },
+    {
+      "text": "its corresponding character\nfrom the TextField state",
+      "start": 633.14,
+      "duration": 2.55
+    },
+    {
+      "text": "according to its index.",
+      "start": 635.69,
+      "duration": 1.86
+    },
+    {
+      "text": "For missing characters, we\njust pass an empty space",
+      "start": 637.55,
+      "duration": 3.15
+    },
+    {
+      "text": "to the digit composable.",
+      "start": 640.7,
+      "duration": 1.5
+    },
+    {
+      "text": "Well, that's just really it.",
+      "start": 642.2,
+      "duration": 1.84
+    },
+    {
+      "text": "No need to manage\nmultiple TextFields.",
+      "start": 644.04,
+      "duration": 1.98
+    },
+    {
+      "text": "A single basic text field\nwith a custom decorator",
+      "start": 646.02,
+      "duration": 2.48
+    },
+    {
+      "text": "achieves our design goals.",
+      "start": 648.5,
+      "duration": 1.65
+    },
+    {
+      "text": "BasicTextField still has\nits core functionality.",
+      "start": 650.15,
+      "duration": 2.92
+    },
+    {
+      "text": "We only replace the part that\nshows the TextField's text",
+      "start": 653.07,
+      "duration": 2.84
+    },
+    {
+      "text": "content with our own layout.",
+      "start": 655.91,
+      "duration": 2.13
+    },
+    {
+      "text": "We have completed\nour unique layout.",
+      "start": 658.04,
+      "duration": 2.35
+    },
+    {
+      "text": "Now, let's add a way\nto automatically fill",
+      "start": 660.39,
+      "duration": 2.81
+    },
+    {
+      "text": "in the two-factor code.",
+      "start": 663.2,
+      "duration": 1.18
+    },
+    {
+      "text": "We can do this through\nAutofill integration.",
+      "start": 664.38,
+      "duration": 2.99
+    },
+    {
+      "text": "In the login\nscreen, Autofill was",
+      "start": 667.37,
+      "duration": 2.01
+    },
+    {
+      "text": "used to fill the information\nthat the user had already saved",
+      "start": 669.38,
+      "duration": 2.73
+    },
+    {
+      "text": "into their password manager.",
+      "start": 672.11,
+      "duration": 1.66
+    },
+    {
+      "text": "For two-factor\nauthentication, we",
+      "start": 673.77,
+      "duration": 1.91
+    },
+    {
+      "text": "can use Autofill to fill the\nOTP code from a text message.",
+      "start": 675.68,
+      "duration": 3.63
+    },
+    {
+      "text": "Not surprisingly,\nwe are again going",
+      "start": 679.31,
+      "duration": 2.13
+    },
+    {
+      "text": "to use the semantics modifier\nand ContentType parameter.",
+      "start": 681.44,
+      "duration": 3.04
+    },
+    {
+      "text": "This time, the ContentType\nneeds to be SMS OTP code.",
+      "start": 684.48,
+      "duration": 3.59
+    },
+    {
+      "text": "The OTP code message arrives\nafter the user successfully",
+      "start": 688.07,
+      "duration": 3.45
+    },
+    {
+      "text": "logs in.",
+      "start": 691.52,
+      "duration": 0.73
+    },
+    {
+      "text": "The system asks whether we want\nto use the Autofill service.",
+      "start": 692.25,
+      "duration": 3.29
+    },
+    {
+      "text": "After we say yes, the code\nis entered automatically",
+      "start": 695.54,
+      "duration": 2.7
+    },
+    {
+      "text": "from the new message.",
+      "start": 698.24,
+      "duration": 1.29
+    },
+    {
+      "text": "And that's it.",
+      "start": 699.53,
+      "duration": 1.42
+    },
+    {
+      "text": "We completed the\nplanned improvements",
+      "start": 700.95,
+      "duration": 1.61
+    },
+    {
+      "text": "for our two-factor\nauthentication screen.",
+      "start": 702.56,
+      "duration": 2.32
+    },
+    {
+      "text": "Now that the pup can get into\nthe app, let's talk about one",
+      "start": 704.88,
+      "duration": 3.02
+    },
+    {
+      "text": "of the most important parts\nof a social media app, chat.",
+      "start": 707.9,
+      "duration": 3.15
+    },
+    {
+      "text": "Currently, on this screen, our\npup can text with his pack,",
+      "start": 711.05,
+      "duration": 3.31
+    },
+    {
+      "text": "but sometimes woofs\nand barks are not",
+      "start": 714.36,
+      "duration": 2.76
+    },
+    {
+      "text": "enough to express\nhis many emotions,",
+      "start": 717.12,
+      "duration": 2.05
+    },
+    {
+      "text": "so we will give him a way\nto use GIFs or stickers",
+      "start": 719.17,
+      "duration": 2.51
+    },
+    {
+      "text": "to be more expressive.",
+      "start": 721.68,
+      "duration": 1.65
+    },
+    {
+      "text": "But he is also an Android\nwizard with a foldable.",
+      "start": 723.33,
+      "duration": 3.07
+    },
+    {
+      "text": "He likes to\nmultitask, so he wants",
+      "start": 726.4,
+      "duration": 1.97
+    },
+    {
+      "text": "to share his favorite\nphotos via drag and drop.",
+      "start": 728.37,
+      "duration": 3.15
+    },
+    {
+      "text": "We asked our pup what ways he\nlikes to send his adorable GIFs.",
+      "start": 731.52,
+      "duration": 3.52
+    },
+    {
+      "text": "He says that he usually\nuses GIFs from the keyboard,",
+      "start": 735.04,
+      "duration": 3.11
+    },
+    {
+      "text": "or sometimes he copies\nand pastes cute images",
+      "start": 738.15,
+      "duration": 3.12
+    },
+    {
+      "text": "from his favorite website.",
+      "start": 741.27,
+      "duration": 2.28
+    },
+    {
+      "text": "And of course, the one he\nlikes the most, drag and drop",
+      "start": 743.55,
+      "duration": 2.97
+    },
+    {
+      "text": "from other apps with his paws.",
+      "start": 746.52,
+      "duration": 2.1
+    },
+    {
+      "text": "Unfortunately,\nTextField composables",
+      "start": 748.62,
+      "duration": 2.22
+    },
+    {
+      "text": "are not implicitly\nconfigured to handle",
+      "start": 750.84,
+      "duration": 1.89
+    },
+    {
+      "text": "this type of content coming\nfrom any of these sources.",
+      "start": 752.73,
+      "duration": 2.92
+    },
+    {
+      "text": "This is because TextField\nis just a text component.",
+      "start": 755.65,
+      "duration": 3.15
+    },
+    {
+      "text": "Receiving rich content\nrequires extra logic and care.",
+      "start": 758.8,
+      "duration": 3.59
+    },
+    {
+      "text": "Therefore, we introduced\nthe contentReceiver modifier",
+      "start": 762.39,
+      "duration": 2.7
+    },
+    {
+      "text": "to unify all these different\nmethods into a single API",
+      "start": 765.09,
+      "duration": 2.85
+    },
+    {
+      "text": "so that you can do less but\ngain more on user experience.",
+      "start": 767.94,
+      "duration": 3.34
+    },
+    {
+      "text": "This API is currently\nmarked as experimental,",
+      "start": 771.28,
+      "duration": 2.64
+    },
+    {
+      "text": "so it is subject to possible\nAPI changes in the future,",
+      "start": 773.92,
+      "duration": 3.0
+    },
+    {
+      "text": "but its implementation is\nconsidered stable and ready",
+      "start": 776.92,
+      "duration": 2.72
+    },
+    {
+      "text": "for use.",
+      "start": 779.64,
+      "duration": 1.29
+    },
+    {
+      "text": "You can start by simply\nadding contentReceiver",
+      "start": 780.93,
+      "duration": 2.58
+    },
+    {
+      "text": "to your modifier chain.",
+      "start": 783.51,
+      "duration": 1.56
+    },
+    {
+      "text": "Having this modifier is\nenough to let the keyboard",
+      "start": 785.07,
+      "duration": 2.52
+    },
+    {
+      "text": "know that this TextField\nnow supports GIFs, stickers,",
+      "start": 787.59,
+      "duration": 2.98
+    },
+    {
+      "text": "and any other rich content,\nbut we have more to do.",
+      "start": 790.57,
+      "duration": 3.5
+    },
+    {
+      "text": "The contentReceiver\nmodifier takes",
+      "start": 794.07,
+      "duration": 1.92
+    },
+    {
+      "text": "a lambda that receives a\ntransferableContent object.",
+      "start": 795.99,
+      "duration": 2.97
+    },
+    {
+      "text": "TransferableContent is mainly\na wrapper around clip data",
+      "start": 798.96,
+      "duration": 3.0
+    },
+    {
+      "text": "and clip description APIs.",
+      "start": 801.96,
+      "duration": 2.07
+    },
+    {
+      "text": "You can learn more about how\nto handle this type of data",
+      "start": 804.03,
+      "duration": 2.76
+    },
+    {
+      "text": "in the linked documentation.",
+      "start": 806.79,
+      "duration": 2.25
+    },
+    {
+      "text": "We will process this\ntransferableContent",
+      "start": 809.04,
+      "duration": 2.13
+    },
+    {
+      "text": "in our ViewModel.",
+      "start": 811.17,
+      "duration": 2.04
+    },
+    {
+      "text": "Here inside our ViewModel,\nwe keep track of two states.",
+      "start": 813.21,
+      "duration": 3.28
+    },
+    {
+      "text": "One is a regular TextField\nstate for our message field.",
+      "start": 816.49,
+      "duration": 2.73
+    },
+    {
+      "text": "The other one is\na list of images",
+      "start": 819.22,
+      "duration": 1.52
+    },
+    {
+      "text": "to be sent with\nthe next message.",
+      "start": 820.74,
+      "duration": 1.95
+    },
+    {
+      "text": "Then, inside our\nhandleContent function,",
+      "start": 822.69,
+      "duration": 2.68
+    },
+    {
+      "text": "we iterate the received items\ninside transferableContent",
+      "start": 825.37,
+      "duration": 2.81
+    },
+    {
+      "text": "and extract URI addresses using\nthe provided Consume function.",
+      "start": 828.18,
+      "duration": 4.8
+    },
+    {
+      "text": "We are going to assume each\nURI points to an image file.",
+      "start": 832.98,
+      "duration": 3.72
+    },
+    {
+      "text": "We update our selected images\nlist with these new URIs.",
+      "start": 836.7,
+      "duration": 3.55
+    },
+    {
+      "text": "These files may require\nfurther analysis",
+      "start": 840.25,
+      "duration": 2.6
+    },
+    {
+      "text": "to check whether the actual\ncontent, image content.",
+      "start": 842.85,
+      "duration": 2.74
+    },
+    {
+      "text": "We leave this out as\na further exercise.",
+      "start": 845.59,
+      "duration": 2.78
+    },
+    {
+      "text": "There we have it.",
+      "start": 848.37,
+      "duration": 1.24
+    },
+    {
+      "text": "Our pup can use\nhis favorite GIFs",
+      "start": 849.61,
+      "duration": 1.82
+    },
+    {
+      "text": "to tell others what\na good boy he is.",
+      "start": 851.43,
+      "duration": 1.84
+    },
+    {
+      "text": "But contentReceiver has one\nmore trick up its sleeve.",
+      "start": 853.27,
+      "duration": 3.62
+    },
+    {
+      "text": "And you can tell that there\nmight be more to this modifier",
+      "start": 856.89,
+      "duration": 3.06
+    },
+    {
+      "text": "by realizing that\ncontentReceiver is not",
+      "start": 859.95,
+      "duration": 2.37
+    },
+    {
+      "text": "tied to TextField at all.",
+      "start": 862.32,
+      "duration": 1.48
+    },
+    {
+      "text": "It is just a modifier.",
+      "start": 863.8,
+      "duration": 1.53
+    },
+    {
+      "text": "We can apply it anywhere.",
+      "start": 865.33,
+      "duration": 1.59
+    },
+    {
+      "text": "We can put it on a parent\ncomposable of our TextField,",
+      "start": 866.92,
+      "duration": 2.66
+    },
+    {
+      "text": "and it would still work.",
+      "start": 869.58,
+      "duration": 1.57
+    },
+    {
+      "text": "This is because TextField looks\nfor this modifier on its parent",
+      "start": 871.15,
+      "duration": 3.44
+    },
+    {
+      "text": "chain, not just in\nits own modifier.",
+      "start": 874.59,
+      "duration": 2.31
+    },
+    {
+      "text": "But then what would\nbe the use of placing",
+      "start": 876.9,
+      "duration": 2.67
+    },
+    {
+      "text": "this modifier anywhere\nelse than our TextField?",
+      "start": 879.57,
+      "duration": 2.59
+    },
+    {
+      "text": "The answer is drag and drop.",
+      "start": 882.16,
+      "duration": 2.07
+    },
+    {
+      "text": "The composable that has\ncontentReceiver attached to it",
+      "start": 884.23,
+      "duration": 3.5
+    },
+    {
+      "text": "becomes the actual drop zone.",
+      "start": 887.73,
+      "duration": 2.01
+    },
+    {
+      "text": "When we drag and apply\nthe modifier on TextField,",
+      "start": 889.74,
+      "duration": 2.81
+    },
+    {
+      "text": "this would be the\nonly place where",
+      "start": 892.55,
+      "duration": 1.64
+    },
+    {
+      "text": "we can drop the dragging items.",
+      "start": 894.19,
+      "duration": 2.4
+    },
+    {
+      "text": "However, when contentReceiver\nis applied on the entire screen,",
+      "start": 896.59,
+      "duration": 3.76
+    },
+    {
+      "text": "everywhere becomes a drop zone,\nmakes it easier to target.",
+      "start": 900.35,
+      "duration": 3.62
+    },
+    {
+      "text": "How about that?",
+      "start": 903.97,
+      "duration": 1.3
+    },
+    {
+      "text": "We add the drag and\ndrop integration",
+      "start": 905.27,
+      "duration": 1.73
+    },
+    {
+      "text": "without doing\nanything additional.",
+      "start": 907.0,
+      "duration": 1.99
+    },
+    {
+      "text": "We only move the contentReceiver\nmodifier to the screen level.",
+      "start": 908.99,
+      "duration": 3.39
+    },
+    {
+      "text": "And with that, our chat\nexperience is perfect.",
+      "start": 912.38,
+      "duration": 3.48
+    },
+    {
+      "text": "Also, I hear that Meghan\nis working on something",
+      "start": 915.86,
+      "duration": 2.51
+    },
+    {
+      "text": "special for our pup.",
+      "start": 918.37,
+      "duration": 1.42
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 919.79,
+      "duration": 1.7
+    },
+    {
+      "text": "MEGHAN MEHTA: Thank you, Halil.",
+      "start": 921.49,
+      "duration": 1.5
+    },
+    {
+      "text": "This social media app\nalso provides the option",
+      "start": 922.99,
+      "duration": 2.73
+    },
+    {
+      "text": "to buy a customized collar\nfor our fluffy bestie.",
+      "start": 925.72,
+      "duration": 2.67
+    },
+    {
+      "text": "However, the text sizing looks\noff on the front of the collar,",
+      "start": 928.39,
+      "duration": 2.91
+    },
+    {
+      "text": "and the phone number\ndoes not format properly.",
+      "start": 931.3,
+      "duration": 2.79
+    },
+    {
+      "text": "In this section, we\nwill size the name",
+      "start": 934.09,
+      "duration": 2.34
+    },
+    {
+      "text": "on the collar based\non length and format",
+      "start": 936.43,
+      "duration": 2.7
+    },
+    {
+      "text": "the phone number in\nthe American format.",
+      "start": 939.13,
+      "duration": 2.43
+    },
+    {
+      "text": "To fix the name sizing issue,\nwe can use the AutoSize API,",
+      "start": 941.56,
+      "duration": 3.76
+    },
+    {
+      "text": "which allows the text to take up\nas much space as possible given",
+      "start": 945.32,
+      "duration": 3.02
+    },
+    {
+      "text": "the parent size constraints.",
+      "start": 948.34,
+      "duration": 1.74
+    },
+    {
+      "text": "To the composable that\ndisplays the text,",
+      "start": 950.08,
+      "duration": 2.26
+    },
+    {
+      "text": "we will add the autoSize\nparameter and set it",
+      "start": 952.34,
+      "duration": 2.39
+    },
+    {
+      "text": "to TextAutoSize.StepBased().",
+      "start": 954.73,
+      "duration": 3.12
+    },
+    {
+      "text": "This allows us to\ntake up as much space",
+      "start": 957.85,
+      "duration": 2.01
+    },
+    {
+      "text": "as makes sense, based on\nhow much text there is",
+      "start": 959.86,
+      "duration": 2.16
+    },
+    {
+      "text": "and how much space there is.",
+      "start": 962.02,
+      "duration": 1.71
+    },
+    {
+      "text": "The best part is that it\njust works out of the box.",
+      "start": 963.73,
+      "duration": 3.45
+    },
+    {
+      "text": "The next most important\npart of a caller",
+      "start": 967.18,
+      "duration": 2.04
+    },
+    {
+      "text": "is to have a phone\nnumber, in case",
+      "start": 969.22,
+      "duration": 1.66
+    },
+    {
+      "text": "our fluffy friend goes missing.",
+      "start": 970.88,
+      "duration": 2.03
+    },
+    {
+      "text": "Currently, the number\nisn't formatted at all",
+      "start": 972.91,
+      "duration": 2.19
+    },
+    {
+      "text": "and just looks like\na jumble of digits.",
+      "start": 975.1,
+      "duration": 2.25
+    },
+    {
+      "text": "We can use TextField's new\ninput and output transformations",
+      "start": 977.35,
+      "duration": 3.33
+    },
+    {
+      "text": "to properly format this number.",
+      "start": 980.68,
+      "duration": 2.37
+    },
+    {
+      "text": "In this example, we will\nbe formatting this number",
+      "start": 983.05,
+      "duration": 2.7
+    },
+    {
+      "text": "like an American phone number.",
+      "start": 985.75,
+      "duration": 2.235
+    },
+    {
+      "text": "We want to add the parentheses\nand the dash through formatting",
+      "start": 987.985,
+      "duration": 2.955
+    },
+    {
+      "text": "and not have our\npuppy type them in.",
+      "start": 990.94,
+      "duration": 2.61
+    },
+    {
+      "text": "Here's the flow of how input and\noutput transformations happen.",
+      "start": 993.55,
+      "duration": 3.96
+    },
+    {
+      "text": "Currently, we're\nreceiving input.",
+      "start": 997.51,
+      "duration": 2.41
+    },
+    {
+      "text": "Input can come from\nmultiple places, including",
+      "start": 999.92,
+      "duration": 2.54
+    },
+    {
+      "text": "but not limited to keyboard,\npaste, and selection.",
+      "start": 1002.46,
+      "duration": 3.39
+    },
+    {
+      "text": "Here are some examples of\ninputs that may come in.",
+      "start": 1005.85,
+      "duration": 3.39
+    },
+    {
+      "text": "The input will go through\nan inputTransformation,",
+      "start": 1009.24,
+      "duration": 2.56
+    },
+    {
+      "text": "which you can think of\nas a filter function.",
+      "start": 1011.8,
+      "duration": 2.75
+    },
+    {
+      "text": "In our case, we want\nto limit the length",
+      "start": 1014.55,
+      "duration": 2.04
+    },
+    {
+      "text": "to 10 characters, which is how\nlong an American number is,",
+      "start": 1016.59,
+      "duration": 3.34
+    },
+    {
+      "text": "and we only want\ndigits to be passed in.",
+      "start": 1019.93,
+      "duration": 2.67
+    },
+    {
+      "text": "Let's start by limiting\nthe length of what",
+      "start": 1022.6,
+      "duration": 1.88
+    },
+    {
+      "text": "can be input to 10 characters.",
+      "start": 1024.48,
+      "duration": 2.04
+    },
+    {
+      "text": "Then we can chain\nInputTransformations",
+      "start": 1026.52,
+      "duration": 2.309
+    },
+    {
+      "text": "and add a restriction for\nthe input to only be digits.",
+      "start": 1028.829,
+      "duration": 3.631
+    },
+    {
+      "text": "Now the text is\nlimited to 10 digits,",
+      "start": 1032.46,
+      "duration": 2.02
+    },
+    {
+      "text": "and the text with the\nInputTransformation",
+      "start": 1034.48,
+      "duration": 2.0
+    },
+    {
+      "text": "is saved in the TextField state.",
+      "start": 1036.48,
+      "duration": 2.129
+    },
+    {
+      "text": "The number still\nneeds to be formatted,",
+      "start": 1038.609,
+      "duration": 1.931
+    },
+    {
+      "text": "so we'll add an\nOutputTransformation.",
+      "start": 1040.54,
+      "duration": 2.18
+    },
+    {
+      "text": "In order to format an American\nphone number properly,",
+      "start": 1042.72,
+      "duration": 3.01
+    },
+    {
+      "text": "the opening parentheses\nis at index 0,",
+      "start": 1045.73,
+      "duration": 2.94
+    },
+    {
+      "text": "the closing parentheses\nis at index 4,",
+      "start": 1048.67,
+      "duration": 2.63
+    },
+    {
+      "text": "and the dash is at index 8.",
+      "start": 1051.3,
+      "duration": 3.03
+    },
+    {
+      "text": "For this\nOutputTransformation, we",
+      "start": 1054.33,
+      "duration": 1.77
+    },
+    {
+      "text": "will be using a\nTextFieldBuffer, which",
+      "start": 1056.1,
+      "duration": 1.86
+    },
+    {
+      "text": "is similar to a StringBuilder.",
+      "start": 1057.96,
+      "duration": 1.75
+    },
+    {
+      "text": "This will allow\nyou to change text",
+      "start": 1059.71,
+      "duration": 1.82
+    },
+    {
+      "text": "through methods like Insert,\nReplace, Delete, and Append.",
+      "start": 1061.53,
+      "duration": 3.75
+    },
+    {
+      "text": "We'll call transformOutput()\non a TextFieldBuffer and apply",
+      "start": 1065.28,
+      "duration": 3.49
+    },
+    {
+      "text": "the formatting rules we defined\nfor American phone numbers.",
+      "start": 1068.77,
+      "duration": 3.72
+    },
+    {
+      "text": "We can add that\noutputTransformation",
+      "start": 1072.49,
+      "duration": 1.98
+    },
+    {
+      "text": "to the TextField's\nOutputTransformation parameter.",
+      "start": 1074.47,
+      "duration": 3.51
+    },
+    {
+      "text": "Now the text is outputting a\nproperly formatted phone number.",
+      "start": 1077.98,
+      "duration": 3.93
+    },
+    {
+      "text": "Here's a close up of\nour full transformation,",
+      "start": 1081.91,
+      "duration": 2.29
+    },
+    {
+      "text": "including both input and\noutput transformations.",
+      "start": 1084.2,
+      "duration": 2.84
+    },
+    {
+      "text": "And here it is in action\non the caller screen.",
+      "start": 1087.04,
+      "duration": 3.0
+    },
+    {
+      "text": "We can see that it's also\ntaking advantage of AutoSize.",
+      "start": 1090.04,
+      "duration": 3.51
+    },
+    {
+      "text": "This color looks paw-some.",
+      "start": 1093.55,
+      "duration": 2.835
+    },
+    {
+      "text": "In this talk we covered\nAPIs like Autofill,",
+      "start": 1096.385,
+      "duration": 2.845
+    },
+    {
+      "text": "state-based TextField,\nAutoSize, and contentReceiver",
+      "start": 1099.23,
+      "duration": 3.08
+    },
+    {
+      "text": "that can make your app more\nfunctional, exceptional,",
+      "start": 1102.31,
+      "duration": 2.62
+    },
+    {
+      "text": "and delightful.",
+      "start": 1104.93,
+      "duration": 1.072
+    },
+    {
+      "text": "We hope that you've\nlearned something new",
+      "start": 1106.002,
+      "duration": 1.708
+    },
+    {
+      "text": "and had some fun along the way.",
+      "start": 1107.71,
+      "duration": 1.96
+    },
+    {
+      "text": "Thank you so much\nfor joining us.",
+      "start": 1109.67,
+      "duration": 2.43
+    },
+    {
+      "text": "I'm Meghan, and I\nwas joined by Halil.",
+      "start": 1112.1,
+      "duration": 2.46
+    },
+    {
+      "text": "Happy coding.",
+      "start": 1114.56,
+      "duration": 1.67
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1116.23,
+      "duration": 3.35
+    }
+  ]
+}

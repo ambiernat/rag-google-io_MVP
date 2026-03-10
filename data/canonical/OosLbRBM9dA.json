@@ -1,0 +1,134 @@
+[
+  {
+    "id": "OosLbRBM9dA__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 0.0,
+    "timestamp_end": 178.66,
+    "text": "[MUSIC PLAYING] SHOBANA RADHAKRISHNAN:\nHi, I'm Shobana, senior director of\nengineering for TV at Google. Today we'll dive into\nthe latest updates from Google TV and our\nunderlying Android TV OS and explore the ways you\ncan build excellent TV apps. Last fall, we mentioned\nthat Google TV and Android TV achieved over 270 million\nmonthly active devices, establishing one of the\nlargest smart TV OS footprints. We look forward to\nincreasing this momentum by bringing our platform\nto more form factors and delivering more delightful\nuser experiences this year. We are glad to see users\ninteract with our platform across a diverse range of\nentry-level to premium devices, from TVs, phones, and tablets to\nprojectors and, most recently, smart monitors. We're especially proud to\nsee support for Google TV on the awarded OMEN 32x smart\ngaming monitor and have our new Google TV Streamer recognized as\nthe best media streaming device by the \"New York\nTimes Wirecutter.\" Today, we are excited\nto share even more ways users can access effortless\nentertainment on Google TV this year. First off, we'll be\npartnering with select OEMs to launch affordable and\nreliable low-RAM panel TVs, allowing more\nbudget-conscious users to experience quality\nentertainment. We are also excited to soon\nbring Google TV to headsets, powered by Android XR. Users can see, hear,\nand explore the action from the best seat in the house. They can access their\nfavorite content across their subscriptions,\nsearch for content, and get curated recommendations. Our broad platform availability\nacross a variety of form factors directly translates to\nmore opportunities for you to connect with users worldwide. To further enrich\nthe user experience, we brought more apps\nto our global platform. Just to name a few,\nwe have launched HISTORY Vault in the US,\nBBC, Channel 4, ARD, TF1, and ITV in EMEA, as well as\nJioHotstar and Vidio in the APAC region. Now I can watch my\nfavorite Bollywood movies from these apps on Google TV. Our quality streaming\npartnerships",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 153.97,
+    "timestamp_end": 323.39000000000004,
+    "text": "HISTORY Vault in the US,\nBBC, Channel 4, ARD, TF1, and ITV in EMEA, as well as\nJioHotstar and Vidio in the APAC region. Now I can watch my\nfavorite Bollywood movies from these apps on Google TV. Our quality streaming\npartnerships also allow us to sustain\nstrong app engagement. In 2024, US users spent\napproximately 200 minutes in apps per day. As our platform becomes\neven more diversified with excellent apps, we're\nalso making improvements to help users find what to watch\nand offer new ways for your apps to reach your target users. Last year, we previewed\nthe Video Discovery API that's available for partners. Video discovery optimizes\nresumption, entitlements, and recommendations across\nall Google TV form factors to enhance the end\nuser experience and boost app engagement. You can now easily\ndisplay user's post video within the Continue Watching\nrow from the home screen. Resumption drives 60% of all\nuser interactions on Google TV. This interface allows\nusers to resume viewing from where they left\noff across any device when they are signed in\nwith their Google account. The Video Discovery\nAPI also streamlines entitlement management, which\nmatches content to eligibility. This eligibility might be\nfrom a subscription, purchase, or a free ad-supported model. Video discovery allows users\nto share their entitlements through one simple\nopt-in process. Users appreciate this because\nthey can enjoy personalized recommendations without\nneeding to manually update all their subscription details. This allows you,\nas our partners, to connect with users across\nmultiple discovery points on Google TV. That means more immediate access\nand increased app engagement. The Video Discovery API even\nhighlights personalized content recommendations based on content\nthat users watch inside apps. Partners can begin incorporating\nthe Video Discovery API today, starting with resumption\nand entitlement integrations. Check out the link for\nmore details to enroll. Google TV is committed\nto responsibly using AI",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 307.01,
+    "timestamp_end": 464.20000000000005,
+    "text": "Partners can begin incorporating\nthe Video Discovery API today, starting with resumption\nand entitlement integrations. Check out the link for\nmore details to enroll. Google TV is committed\nto responsibly using AI to bring more helpfulness\ninto the home too. For instance, last fall, we\nreleased AI-generated content descriptions which help users\nfind their next favorite film or series to watch. Users can access bite-sized\nseason summaries, learn more about a movie, and\nsee feedback from other viewers. Google TV also offers\ncustom AI screensavers. So users can simply\nuse their voice to create stunning\nscreensavers for the largest screen in their home. Earlier this year, we announced\nthat we'll bring Gemini capabilities to Google TV. So users can speak\nmore naturally and conversationally to find\nwhat to watch and get answers to complex questions. Our new AI assistant\nnow understands users' natural,\nconversational voice searches. It then analyzes titles from\nyour apps and shares tailored recommendations, effectively\nboosting the visibility of your app's content. Let's dive deeper into\nwhat this looks like. For instance, I want to share\nmy interest in the classic \"Jurassic Park\" movies\nwith my younger kids, but I don't want to show\nthem something too intense. Now I can easily ask questions\nlike, I like Jurassic park. What are some movies like it\nthat I can watch with my kids? And voila, I get\npersonalized recommendations, perfect for my\nnext family night. Plus, users can\nnaturally ask questions to explore their\nlatest curiosities and get insightful answers\nwith supporting videos for deeper learning. They can invite the whole family\nto learn, asking questions like, can you explain the solar\nsystem to my first grader? And the AI assistant will\nprovide a personalized response with suitable video\nsuggestions that a first grader would be excited to see. When we demoed Google\nTV with Gemini at CES, we were pleased to receive the\nbest AI award from Tom's Guide. We are so excited to bring this\nnew, helpful, and delightful",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 445.33,
+    "timestamp_end": 571.9499999999999,
+    "text": "with suitable video\nsuggestions that a first grader would be excited to see. When we demoed Google\nTV with Gemini at CES, we were pleased to receive the\nbest AI award from Tom's Guide. We are so excited to bring this\nnew, helpful, and delightful experience to users this fall. There's never been a better\ntime to be a Google TV partner or developer. I'll now hand it over to Paul\nfrom our developer relations team, who will share more\nabout Compose for TV, provide suggestions on\nimproving your apps performance, and explore some exciting\nfeatures from Android 16. Over to you, Paul. PAUL LAMMERTSMA:\nThanks, Shobana. Last year, we launched\nCompose for TV, which lets you build beautiful,\nadaptive UIs across Android, including Android TV OS. If your app is following best\npractices for adaptive apps, you've done most of the work\nalready to adapt to TVs. Compose is also where\nwe're continually improving the developer experience. SoundCloud built upon\nthese improvements to overhaul their apps\ndesign system with Compose, building new features and\nusing 45% less code on average. It took them just four\nmonths to build their TV app from the ground up. You can read more about their\nCompose journey on the Android developer blog. Compose for TV 1.0 is stable and\nexpands on the core and material Compose libraries. The March 2025\nrelease of Compose significantly\nimproves app startup in our internal benchmarking\nsample on mobile, with roughly a 20% improvement\ncompared with the March 2024 release. We've seen jank rates on older\nPixel 3A devices reduced by up to 76%. Both of these metrics are\nalready considerably better than views performance. And on hardware-constrained\ndevices like TVs, those enhancements are huge. Our updated Jetcaster\nsample demonstrates how to use Compose\nacross form factors. It includes a dedicated module\nfor playing podcasts on TV by combining separate view\nmodels with shared business logic. Check out the details in the\nCompose tips for delightful UI video series. We've now also updated\nour JetStream sample",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 558.61,
+    "timestamp_end": 674.9300000000001,
+    "text": "It includes a dedicated module\nfor playing podcasts on TV by combining separate view\nmodels with shared business logic. Check out the details in the\nCompose tips for delightful UI video series. We've now also updated\nour JetStream sample to demonstrate how to share\nlogic within a single module. This approach uses\nthe most amount of code between form factors. These are two\ncomprehensive samples that show how to reduce code\nand maintenance by building adaptive apps for Android. We've also heard your\nfeedback about handling focus and are making iterative\nimprovements, including our newly published CodeLab. We've seen three\ncommon challenges when handling focus\nbehavior on TV-- first, setting initial focus. Second, taking over control\nof unexpected focus traversal. And third, restoring focus. Let's explore setting\ninitial focus. In a TV UI, whenever\nopening a screen, the initial focus\nneeds to be set. Compose for TV does this\nin the majority of cases, but sometimes the default might\ndiffer from your preference. You can control that initial\nfocus in three steps. First, declare a\nfocus requester that's wrapped in a member function. Then apply a focus requester\nmodifier on the first card. And finally, call the\nrequest focus method in the launched effects\ncomposable function. This last bit ensures\nthat the focus is moved to the right element\nwhen the composable is composed for the first time. Now let's take a look\nat some scenarios where focus moves to an\nunexpected component. Here, we have four items\narranged in rows and columns. When I press the\nright D-pad button, the focus moves from the\nfirst item to the third item. That's odd. To understand why\nthis is happening, we can look at our\nlayout hierarchy. The four focus targets\nare at the same level, and ThirdCard is the\nfirst item to the right of FirstCard in the layout. That's why focus\nmoves from the first to the third with the\nright directional key. We can resolve this\nby creating a focus group that consists of the\nfocus targets inside the row.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 663.32,
+    "timestamp_end": 776.4100000000001,
+    "text": "of FirstCard in the layout. That's why focus\nmoves from the first to the third with the\nright directional key. We can resolve this\nby creating a focus group that consists of the\nfocus targets inside the row. Now, since the row\nand the first card are the only focus\ntargets at the same level, pressing the right\ndirectional key no longer moves to the third card\nfrom within a focus group. We should also make sure\nthat focus is restored when the user returns to it. By using the focus\nrestore modifier, we can make sure\nthat the focus is brought to the right\nelement in the group. Now, these are\njust a few examples taken straight from our new\nfocus management CodeLab. Check the video description\nfor an entire guide. Our goal is to make\nthis even easier, and we'll continue to improve\nfocus behavior in Compose. So stay tuned to the Android\ndeveloper channel for updates later this year. Whether or not\nyou're using Compose, getting optimal performance\nout of your TV app is always important. This is why we've published\na comprehensive guide on memory optimisation,\nincluding memory targets for low-RAM devices. Combined with Android Studio's\npowerful memory profiler, this helps you understand when\nit exceeds those limits and why. In the worst case, if your app\nis using memory carelessly, Android TV OS may perform\ndirect memory reclaim, a process that might\nseverely disrupt your app. But more often,\nineffective use of memory will trigger garbage\ncollection in your own app, resulting in a\njarring experience. I've pulled up an old leanback\napp as an example of bitmap allocations and\nhow it makes memory grow bigger than necessary. It displays a typical\ngrid of images that are loaded dynamically, and oof. As you can see, it does\nnot have good performance. Let's take a peek at\nthe code that handles displaying the poster images. It has a very\nstraightforward approach using Glide to load\nimages into cards. OK, let me restart\nthe app and start a session of a memory profiler. I'm attaching it\nto the app process",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 763.66,
+    "timestamp_end": 873.44,
+    "text": "displaying the poster images. It has a very\nstraightforward approach using Glide to load\nimages into cards. OK, let me restart\nthe app and start a session of a memory profiler. I'm attaching it\nto the app process and selecting the preset to\ntrack memory allocations. Great, it started. While I scroll on\nthe screen, we can see how the Java memory\nin blue and the graphics memory in orange are\ngrowing simultaneously until a spike of\nmemory is reached. Ooh, look at those\nlittle garbage can icons. They indicate the many times\ngarbage collector is called. And every single time, it's\ncaused a little bit of jank in my app. Also, notice how there's\na spike in the memory graph before garbage\ncollection kicked in? We want to prevent as\nmany spikes as possible. On this low-memory device,\nit's preferential to avoid using two different\ntypes of memory for images when we could\nmostly use graphics memory. By loading the\nimages this way, I'm loading them into Java\nmemory and displaying them using graphics memory,\nwhich is effectively using twice the amount. All right, back to the code. Let's change the\nGlide configuration to use hardware-backed\nbitmaps so we can transfer the bitmap\ndirectly to the memory and free up our\nJava memory space. We'll do this by changing\nthe request options and setting the Downsampler\nallow hardware config to true. It'd be neater to define this\nin our app configuration. But just for\nillustration, I'm just going to drop this\nline right here. Let's run the app again and\nattach a new memory profiler session to it. Now, by doing the same type\nof scrolling as before, we can now observe that\nboth types of memory do not grow simultaneously. This configuration\nallows for the bitmaps to be released from\nJava memory as they are loaded into graphics. So in general, less\nmemory is being consumed, and consequently, we're\nseeing fewer spikes. Memory also frees up\nsooner once we stop scrolling compared to before. I've been using a low-RAM\ndevice for illustrating this optimization.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 860.77,
+    "timestamp_end": 975.4200000000001,
+    "text": "So in general, less\nmemory is being consumed, and consequently, we're\nseeing fewer spikes. Memory also frees up\nsooner once we stop scrolling compared to before. I've been using a low-RAM\ndevice for illustrating this optimization. And as you can see, it's\nessential to test your app on lower-end hardware. Now, we can use this as\nit is, or we can set it up for only low-RAM devices. On higher-memory\ndevices, we may consider allowing Glide to use its bitmap\ncache to rapidly display images instead of reading\nthem from disk. After all, unused\nmemory is wasted memory, and striking a good balance here\nis really the name of the game. I can call\nactivityManager.isLowRAMDevice to check if there is\nan low-RAM device. I need to instance of\nthe activity manager. And with that, I can check\nfor the low-RAM flag. Now let me move that\nGlide configuration inside the condition,\nand we're good to go. Using Compose in combination\nwith Coil's async image provides these kinds of memory\noptimizations out of the box, but you should still be vigilant\nabout memory consumption. For example, if you're\nloading bitmaps into a painter instead of directly\ninto a Composable, Coil will not be able to\ndetect how large it needs to be on the screen, and it\nwill always load the image with its original dimensions. You might also benefit from\ndeliberately downsampling images on low-RAM devices by\nspecifying a size modifier, like I've done here. This only scratches\nthe surface, so check the guide for more details\nabout optimizing for memory. The guide also covers\nrecommendations for reducing memory overhead\nwhen working with graphics, media, and bindings. Examples include performing\nimage composition off the device and allocating the\nvideo seq buffer. We're excited to announce the\nupcoming release of Android 16 for TV. Developers can begin using\nthe latest beta today. Android 16 includes some great\nfeatures to help TV developers. First, the new media\nquality API provides a standardized interface\nto developers and vendors to manage picture profiles.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 962.01,
+    "timestamp_end": 1077.56,
+    "text": "Developers can begin using\nthe latest beta today. Android 16 includes some great\nfeatures to help TV developers. First, the new media\nquality API provides a standardized interface\nto developers and vendors to manage picture profiles. For movies and TV series that\nare mastered with a wider dynamic range, developers\nmight request filmmaker mode to accurately display content\nas the creator intended for it to look. A cinema profile with\ngreater color accuracy brings out subtle\ndetails and shadows in favor of\nincreasing brightness. Conversely, live\nsporting events, which are often mastered\nwith a narrow dynamic range and watched in\ndaylight, can benefit from a profile that gives\npreference to brightness over color accuracy. If you'd like to understand\nwhich profile a device running Android 16 or later supports,\nquery MediaQuality manager using getAvailablePictureProfiles. The profile ID may match against\na known system profile, some of which may differ by OEM. To apply a specific profile, you\ncan query MediaQuality manager by profile ID-- for example, for this\none for cinema profile. You can then apply\nthis picture profile as a parameter to mediaCodec\nby providing in a parcelable into its bundle. Selecting a picture\nprofile in ExoPlayer will be available in a future\nrelease later this year. You can find the list\nof predefined profiles in the updated guide for\nadjusting display settings. Note that these\npresets aren't fixed. TVs come with some\npreset profiles, but OEMs can include more,\nand users can update them based on their preferences. Another new feature\nin Android 16 is platform support\nfor Eclipsa audio. This is a new opensource\nspatial audio codec based on the immersive audio\nmodel and formats developed by Google, Samsung, and\nother key contributors within the Alliance\nfor Open Media. It's designed to revolutionize\nimmersive audio experiences across a wide range\nof applications, including streaming and gaming\nin augmented or virtual reality. And because the\nformat is open source,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 1063.91,
+    "timestamp_end": 1179.17,
+    "text": "within the Alliance\nfor Open Media. It's designed to revolutionize\nimmersive audio experiences across a wide range\nof applications, including streaming and gaming\nin augmented or virtual reality. And because the\nformat is open source, anyone can use\nfreely-available audio tools or leverage automated\nworkflows that use FFmpeg to create Eclipsa audio files. You can already begin using\nthese codecs today, even on older platforms, by using\nthe built-in support in Media3 ExoPlayer from version 1.5. By compiling the\nLib IAMF library, you'll get a dedicated\naudio renderer instance. For details on\nhow to compile it, see the decoder extension\nguide on GitHub. Android 16 for TV now\nsupports 64-bit kernels, which means you can run the\nemulator natively on a 64-bit host machine. Although there aren't any\n64-bit Android TV devices yet, it shows how we're laying\nthe engineering framework. We recommend that you also\nbegin preparing your TV apps for 64-bit compatibility,\njust like you have been doing for other Android form factors. But it's important to continue\nsupporting 32-bit platforms for many years to come. And remember that you\ncan use app bundles to minimize your application\nsize by supporting both. Finally, let's explore\nsome more areas where developing for\nAndroid TV OS brings consistency and delightful\nexperiences across Android. Let's start by taking a closer\nlook at content discovery. If you're a seasoned Android\ndeveloper for Android TV OS, the Continue Watching row\nprobably sounds familiar. And perhaps you\nstruggle to implement it because the Watch Next\nAPI is transactional, requiring persistent\nclient-side IDs. You can now use the greatly\nsimplified Video Discovery API, which Shobana\nshowed us earlier. Since this API is powered\nby the Engage SDK, it's simultaneously preparing\nyour content for more surfaces, like the recommendation\nrow, and across other Android-powered devices. First, we'll discover if\nthis API is available, depending on your\nparticipation in the program.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_010",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 1166.36,
+    "timestamp_end": 1281.0300000000002,
+    "text": "it's simultaneously preparing\nyour content for more surfaces, like the recommendation\nrow, and across other Android-powered devices. First, we'll discover if\nthis API is available, depending on your\nparticipation in the program. Learn more about enrolling\nat the end of the session. For the code in\nthe next sections, let's assume that we've checked\nit's available by calling isServiceAvailable. When using the\nVideo Discovery API, creating content entity\ntypes is very similar. And you can collect them\ninto a continuation cluster. And here's the neat thing. Whenever you want to update\neach entity in the cluster, all you need to do is\nsubmit the entire cluster with a single call to\npublish continuation cluster. We've heard your feedback. You don't have to provide\ninsertions, updates, or removals to individual entities anymore. To support device entitlements,\nas Shobana showed earlier, you can associate\nmultiple account profiles to enable a personalized\nContinue Watching experience. You can do this by providing\na record through Set Account Profile. And after getting\nuser consent, your app can then share the user's data\nacross all of their devices by calling\nsetSyncAcrossDevices with true. This is a phenomenal way to keep\nyour content recommendations in sync as users\nwatch your app's content on different devices. Like Shobana said, this API\nis not just for TV either. You can use the appropriate\nEngage SDK libraries for other form factors. And as a reminder, if you're not\nenrolled in the Video Discovery API program and are\ninterested in joining, head over to this short\nlink to fill out the form. Last year, we showed a sneak\npreview of the in-app ratings and reviews prompt for TV. I'm happy to announce that\nthe in-app ratings and reviews API is available for\nall TV developers. By implementing the same Play\nCore API you know and love on mobile, you can\nconvert delightful moments in your TV app into a higher\napp rating on Google Play. For more details,\nread the blog post that's linked in the\nvideo description.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "OosLbRBM9dA__chunk_011",
+    "schema_version": "canonical_v1",
+    "video_id": "OosLbRBM9dA",
+    "title": "Google I/O 2025 \u2013 OosLbRBM9dA",
+    "timestamp_start": 1268.04,
+    "timestamp_end": 1301.6,
+    "text": "By implementing the same Play\nCore API you know and love on mobile, you can\nconvert delightful moments in your TV app into a higher\napp rating on Google Play. For more details,\nread the blog post that's linked in the\nvideo description. As you can see, these\nupdates bring consistency to app development\nacross Android, making it easier than ever\nfor developers like you to build apps that work\nacross all form factors and engage with users through\nconsistent APIs and surfaces. We're excited to see the\nimmersive, engaging experiences that you create. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

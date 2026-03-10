@@ -1,0 +1,1452 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "8iIvAMZ-XYU",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.43
+    },
+    {
+      "text": "SEBASTIAN BENZ: It feels\nlike Chrome extensions",
+      "start": 5.922,
+      "duration": 1.958
+    },
+    {
+      "text": "have been around forever,\nand for good reasons.",
+      "start": 7.88,
+      "duration": 2.47
+    },
+    {
+      "text": "They are a great way to\ncustomize the browser",
+      "start": 10.35,
+      "duration": 2.54
+    },
+    {
+      "text": "to your needs.",
+      "start": 12.89,
+      "duration": 1.41
+    },
+    {
+      "text": "Over the past years, we saw a\nmassive increase in interest",
+      "start": 14.3,
+      "duration": 3.33
+    },
+    {
+      "text": "in Chrome extensions.",
+      "start": 17.63,
+      "duration": 1.5
+    },
+    {
+      "text": "And the reason for\nthis has been AI.",
+      "start": 19.13,
+      "duration": 2.79
+    },
+    {
+      "text": "In fact, the number of\nextensions related to AI",
+      "start": 21.92,
+      "duration": 3.48
+    },
+    {
+      "text": "doubled in the past two years.",
+      "start": 25.4,
+      "duration": 2.58
+    },
+    {
+      "text": "10% of all extensions installed\nfrom the Chrome Web Store",
+      "start": 27.98,
+      "duration": 3.87
+    },
+    {
+      "text": "use AI.",
+      "start": 31.85,
+      "duration": 1.47
+    },
+    {
+      "text": "But I think we are still at\nthe beginning of this trend.",
+      "start": 33.32,
+      "duration": 3.18
+    },
+    {
+      "text": "And I think this\nis for two reasons.",
+      "start": 36.5,
+      "duration": 2.25
+    },
+    {
+      "text": "The first reason is\nmodels gets better",
+      "start": 38.75,
+      "duration": 2.73
+    },
+    {
+      "text": "in advanced tasks such\nas complex reasoning",
+      "start": 41.48,
+      "duration": 2.52
+    },
+    {
+      "text": "or understanding images,\naudio, and video.",
+      "start": 44.0,
+      "duration": 3.48
+    },
+    {
+      "text": "And the second reason is\nChrome's new built-in AI APIs,",
+      "start": 47.48,
+      "duration": 4.66
+    },
+    {
+      "text": "which allow you to use\nGemini Nano on the client.",
+      "start": 52.14,
+      "duration": 3.92
+    },
+    {
+      "text": "All this, taken together,\nmakes it a super exciting time",
+      "start": 56.06,
+      "duration": 3.39
+    },
+    {
+      "text": "for Chrome extension\ndevelopers, as Gemini",
+      "start": 59.45,
+      "duration": 2.28
+    },
+    {
+      "text": "on device and in the cloud\nunlocks completely new ways",
+      "start": 61.73,
+      "duration": 4.11
+    },
+    {
+      "text": "to customize and optimize the\nbrowsing experiences for users.",
+      "start": 65.84,
+      "duration": 4.68
+    },
+    {
+      "text": "My name is Sebastian Benz.",
+      "start": 70.52,
+      "duration": 1.42
+    },
+    {
+      "text": "I work in the Chrome\nextensions developer relations",
+      "start": 71.94,
+      "duration": 2.45
+    },
+    {
+      "text": "team at Google.",
+      "start": 74.39,
+      "duration": 1.06
+    },
+    {
+      "text": "Over the past year,\nI've been looking",
+      "start": 75.45,
+      "duration": 2.18
+    },
+    {
+      "text": "into what you can do with\nAI in Chrome extensions.",
+      "start": 77.63,
+      "duration": 3.25
+    },
+    {
+      "text": "And today, I want to\nshow you what's possible",
+      "start": 80.88,
+      "duration": 2.69
+    },
+    {
+      "text": "if you combine these two.",
+      "start": 83.57,
+      "duration": 2.13
+    },
+    {
+      "text": "But before we dive\ninto AI, let's talk",
+      "start": 85.7,
+      "duration": 2.49
+    },
+    {
+      "text": "about how extensions can help\nyou customize the browser",
+      "start": 88.19,
+      "duration": 3.18
+    },
+    {
+      "text": "and build a better\nweb experience.",
+      "start": 91.37,
+      "duration": 3.33
+    },
+    {
+      "text": "What I love about\nChrome extensions",
+      "start": 94.7,
+      "duration": 1.8
+    },
+    {
+      "text": "is that they are so easy to\nimplement and distribute.",
+      "start": 96.5,
+      "duration": 3.1
+    },
+    {
+      "text": "All you need to know is\nHTML, JavaScript, and CSS.",
+      "start": 99.6,
+      "duration": 4.84
+    },
+    {
+      "text": "If you're a web\ndeveloper, you're probably",
+      "start": 104.44,
+      "duration": 1.75
+    },
+    {
+      "text": "already an expert in this.",
+      "start": 106.19,
+      "duration": 1.57
+    },
+    {
+      "text": "In the best case, you can\nbuild and ship an extension",
+      "start": 107.76,
+      "duration": 3.17
+    },
+    {
+      "text": "without even requiring a server.",
+      "start": 110.93,
+      "duration": 2.85
+    },
+    {
+      "text": "This can make\nextensions super simple",
+      "start": 113.78,
+      "duration": 2.04
+    },
+    {
+      "text": "to implement and maintain.",
+      "start": 115.82,
+      "duration": 1.83
+    },
+    {
+      "text": "You can build them for\nyourself or for everyone",
+      "start": 117.65,
+      "duration": 3.16
+    },
+    {
+      "text": "by distributing them using\nthe Chrome Web Store.",
+      "start": 120.81,
+      "duration": 3.36
+    },
+    {
+      "text": "Speaking of not requiring\na server, this Google I/O,",
+      "start": 124.17,
+      "duration": 3.55
+    },
+    {
+      "text": "we announced the launch of\nChrome's built-in Gemini Nano",
+      "start": 127.72,
+      "duration": 3.08
+    },
+    {
+      "text": "APIs.",
+      "start": 130.8,
+      "duration": 1.32
+    },
+    {
+      "text": "These APIs cover use\ncases from prompting,",
+      "start": 132.12,
+      "duration": 3.15
+    },
+    {
+      "text": "writing to translating.",
+      "start": 135.27,
+      "duration": 2.61
+    },
+    {
+      "text": "This means you can now use AI\nin your extension on the client",
+      "start": 137.88,
+      "duration": 4.27
+    },
+    {
+      "text": "without requiring an additional\nserver or using a cloud service.",
+      "start": 142.15,
+      "duration": 4.31
+    },
+    {
+      "text": "And by the way, the\nbuilt-in prompt API",
+      "start": 146.46,
+      "duration": 2.34
+    },
+    {
+      "text": "will initially\nlaunch exclusively",
+      "start": 148.8,
+      "duration": 2.01
+    },
+    {
+      "text": "for Chrome extensions.",
+      "start": 150.81,
+      "duration": 1.74
+    },
+    {
+      "text": "Check out Tom's talk about\nChrome's new built-in AI APIs",
+      "start": 152.55,
+      "duration": 3.42
+    },
+    {
+      "text": "to learn more.",
+      "start": 155.97,
+      "duration": 1.06
+    },
+    {
+      "text": "You can find the link\nin the description.",
+      "start": 157.03,
+      "duration": 3.41
+    },
+    {
+      "text": "Let's take a look at how you\ncan use these APIs in a Chrome",
+      "start": 160.44,
+      "duration": 2.97
+    },
+    {
+      "text": "extension.",
+      "start": 163.41,
+      "duration": 1.05
+    },
+    {
+      "text": "My first sample extension\nis called Calendar Mate.",
+      "start": 164.46,
+      "duration": 3.21
+    },
+    {
+      "text": "It's a simple\nextension that makes",
+      "start": 167.67,
+      "duration": 2.1
+    },
+    {
+      "text": "it very easy to create calendar\nevents from text on a website.",
+      "start": 169.77,
+      "duration": 4.11
+    },
+    {
+      "text": "I want to go to the Google\nI/O connect event in Berlin,",
+      "start": 173.88,
+      "duration": 3.49
+    },
+    {
+      "text": "and I would like to add\nthe event to my calendar.",
+      "start": 177.37,
+      "duration": 3.1
+    },
+    {
+      "text": "I select the corresponding\ntext on the Google I/O website,",
+      "start": 180.47,
+      "duration": 3.46
+    },
+    {
+      "text": "right click, and select\nCreate Calendar Event.",
+      "start": 183.93,
+      "duration": 4.31
+    },
+    {
+      "text": "The extension extracts\nall relevant event data",
+      "start": 188.24,
+      "duration": 2.88
+    },
+    {
+      "text": "from the text and prefills\na Google Calendar event.",
+      "start": 191.12,
+      "duration": 4.68
+    },
+    {
+      "text": "Let's take a closer\nlook at how this works.",
+      "start": 195.8,
+      "duration": 2.38
+    },
+    {
+      "text": "In my extension\nservice worker, which",
+      "start": 198.18,
+      "duration": 2.09
+    },
+    {
+      "text": "you can think of as a\ncentral event handler,",
+      "start": 200.27,
+      "duration": 2.74
+    },
+    {
+      "text": "I register a new\ncontext menu entry",
+      "start": 203.01,
+      "duration": 2.21
+    },
+    {
+      "text": "called CreateCalendarEvent.",
+      "start": 205.22,
+      "duration": 2.37
+    },
+    {
+      "text": "What's nice is you can\nregister context menu actions",
+      "start": 207.59,
+      "duration": 3.21
+    },
+    {
+      "text": "for specific content types\nsuch as images or text,",
+      "start": 210.8,
+      "duration": 4.45
+    },
+    {
+      "text": "which is perfect\nfor our use case,",
+      "start": 215.25,
+      "duration": 2.36
+    },
+    {
+      "text": "because I can make sure that\nthe context menu entry will only",
+      "start": 217.61,
+      "duration": 3.81
+    },
+    {
+      "text": "be shown when the\nuser selects text.",
+      "start": 221.42,
+      "duration": 3.06
+    },
+    {
+      "text": "I can then register a callback\nfor when my extension gets",
+      "start": 224.48,
+      "duration": 2.97
+    },
+    {
+      "text": "invoked by the user.",
+      "start": 227.45,
+      "duration": 1.77
+    },
+    {
+      "text": "Then I can directly access\nthe selected text in the event",
+      "start": 229.22,
+      "duration": 3.81
+    },
+    {
+      "text": "handler and pass it to\nthe built-in prompt API",
+      "start": 233.03,
+      "duration": 3.39
+    },
+    {
+      "text": "to extract the event data.",
+      "start": 236.42,
+      "duration": 2.4
+    },
+    {
+      "text": "I'm setting\ntemperature and top K",
+      "start": 238.82,
+      "duration": 2.23
+    },
+    {
+      "text": "to 1 to have more predictable\nresults, because I really",
+      "start": 241.05,
+      "duration": 4.05
+    },
+    {
+      "text": "don't want the model\nto be creative here.",
+      "start": 245.1,
+      "duration": 2.55
+    },
+    {
+      "text": "Currently, the API doesn't\nalways return correct JSON,",
+      "start": 247.65,
+      "duration": 3.61
+    },
+    {
+      "text": "so I have to make a\nfew fixes afterwards.",
+      "start": 251.26,
+      "duration": 2.13
+    },
+    {
+      "text": "But we are working on\nmaking this better.",
+      "start": 253.39,
+      "duration": 2.689
+    },
+    {
+      "text": "And the final step is\nto add all event details",
+      "start": 256.079,
+      "duration": 3.061
+    },
+    {
+      "text": "as parameters to the Google\nCalendar event creation page",
+      "start": 259.14,
+      "duration": 3.93
+    },
+    {
+      "text": "URL, which we then\nopen in a new tab.",
+      "start": 263.07,
+      "duration": 4.2
+    },
+    {
+      "text": "And that's all there is to\nthe Calendar Mate extension.",
+      "start": 267.27,
+      "duration": 3.58
+    },
+    {
+      "text": "Phew!",
+      "start": 270.85,
+      "duration": 0.5
+    },
+    {
+      "text": "This was maybe a\nbit of a deep dive,",
+      "start": 271.35,
+      "duration": 1.93
+    },
+    {
+      "text": "but I thought it's good to see\nhow an extension is actually",
+      "start": 273.28,
+      "duration": 2.75
+    },
+    {
+      "text": "implemented.",
+      "start": 276.03,
+      "duration": 1.05
+    },
+    {
+      "text": "I really like this\nextension for three reasons.",
+      "start": 277.08,
+      "duration": 3.09
+    },
+    {
+      "text": "The first one is I'm a big fan\nof integrating AI in a way that",
+      "start": 280.17,
+      "duration": 5.01
+    },
+    {
+      "text": "is use-case driven.",
+      "start": 285.18,
+      "duration": 1.36
+    },
+    {
+      "text": "By use-case driven, I\nmean that as a user,",
+      "start": 286.54,
+      "duration": 2.73
+    },
+    {
+      "text": "I do not have to directly\ninteract with the language model",
+      "start": 289.27,
+      "duration": 2.93
+    },
+    {
+      "text": "by, for example,\nwriting my own prompts,",
+      "start": 292.2,
+      "duration": 2.08
+    },
+    {
+      "text": "but it can still use AI to\nsolve a specific use case.",
+      "start": 294.28,
+      "duration": 4.6
+    },
+    {
+      "text": "The second reason is this is\na really great example for how",
+      "start": 298.88,
+      "duration": 3.99
+    },
+    {
+      "text": "you can use a browser extension\nto integrate an existing",
+      "start": 302.87,
+      "duration": 4.2
+    },
+    {
+      "text": "product, in this\ncase a calendar,",
+      "start": 307.07,
+      "duration": 2.04
+    },
+    {
+      "text": "more tightly into the browser\nto provide an even better",
+      "start": 309.11,
+      "duration": 3.27
+    },
+    {
+      "text": "experience to your users.",
+      "start": 312.38,
+      "duration": 2.25
+    },
+    {
+      "text": "The third reason is I've\nbeen able to implement this",
+      "start": 314.63,
+      "duration": 3.12
+    },
+    {
+      "text": "in a way that avoids\nsending user data",
+      "start": 317.75,
+      "duration": 2.55
+    },
+    {
+      "text": "to a server for processing.",
+      "start": 320.3,
+      "duration": 2.55
+    },
+    {
+      "text": "Calendar events might\ninclude personal data.",
+      "start": 322.85,
+      "duration": 3.34
+    },
+    {
+      "text": "And Chrome's built-in\nAPIs process the data",
+      "start": 326.19,
+      "duration": 3.05
+    },
+    {
+      "text": "locally on the client.",
+      "start": 329.24,
+      "duration": 1.59
+    },
+    {
+      "text": "Only the event\nspecific information",
+      "start": 330.83,
+      "duration": 2.07
+    },
+    {
+      "text": "gets sent to the user's\npreferred calendar.",
+      "start": 332.9,
+      "duration": 3.51
+    },
+    {
+      "text": "This is particularly important\nfor extensions, because they",
+      "start": 336.41,
+      "duration": 3.33
+    },
+    {
+      "text": "have potentially access to\nmany privacy sensitive APIs,",
+      "start": 339.74,
+      "duration": 4.42
+    },
+    {
+      "text": "such as the browser\nhistory, bookmarks, or tabs.",
+      "start": 344.16,
+      "duration": 4.76
+    },
+    {
+      "text": "Calendar Mate is an example for\nthe prompt API for extensions.",
+      "start": 348.92,
+      "duration": 4.12
+    },
+    {
+      "text": "The API is going to be\nshipping in Chrome version 138,",
+      "start": 353.04,
+      "duration": 4.26
+    },
+    {
+      "text": "but I highly recommend\nyou to check out",
+      "start": 357.3,
+      "duration": 1.93
+    },
+    {
+      "text": "the other task-based AI APIs\nwe've just launched as well.",
+      "start": 359.23,
+      "duration": 3.96
+    },
+    {
+      "text": "But Chrome's built-in AI\nAPIs will get even better.",
+      "start": 363.19,
+      "duration": 3.84
+    },
+    {
+      "text": "We just announced that\nGemini Nano will also",
+      "start": 367.03,
+      "duration": 2.58
+    },
+    {
+      "text": "understand audio\nand images, and you",
+      "start": 369.61,
+      "duration": 2.52
+    },
+    {
+      "text": "can experiment\nwith these features",
+      "start": 372.13,
+      "duration": 1.53
+    },
+    {
+      "text": "right now by enabling\na flag in Chrome.",
+      "start": 373.66,
+      "duration": 3.09
+    },
+    {
+      "text": "Check out the link in the\ndescription for more details.",
+      "start": 376.75,
+      "duration": 3.39
+    },
+    {
+      "text": "Here's our next example.",
+      "start": 380.14,
+      "duration": 1.3
+    },
+    {
+      "text": "Audio Scribe.",
+      "start": 381.44,
+      "duration": 1.22
+    },
+    {
+      "text": "The idea for this\nextension comes",
+      "start": 382.66,
+      "duration": 1.86
+    },
+    {
+      "text": "from my colleague Francois.",
+      "start": 384.52,
+      "duration": 1.62
+    },
+    {
+      "text": "Do the problem when\nyou're in a meeting",
+      "start": 386.14,
+      "duration": 2.04
+    },
+    {
+      "text": "and you receive a voice message\nin one of your chat apps",
+      "start": 388.18,
+      "duration": 3.15
+    },
+    {
+      "text": "and you don't know if\nit's important or not,",
+      "start": 391.33,
+      "duration": 1.835
+    },
+    {
+      "text": "because you can\nlisten and listen",
+      "start": 393.165,
+      "duration": 1.375
+    },
+    {
+      "text": "to it during your meeting?",
+      "start": 394.54,
+      "duration": 1.95
+    },
+    {
+      "text": "Audio Scribe to the rescue.",
+      "start": 396.49,
+      "duration": 1.69
+    },
+    {
+      "text": "When I click the extension icon,\nit will open the side panel.",
+      "start": 398.18,
+      "duration": 4.52
+    },
+    {
+      "text": "And inside the side panel,\nit will show a transcription",
+      "start": 402.7,
+      "duration": 3.18
+    },
+    {
+      "text": "of all the voice\nmessages that are",
+      "start": 405.88,
+      "duration": 1.74
+    },
+    {
+      "text": "received in the current chat.",
+      "start": 407.62,
+      "duration": 2.82
+    },
+    {
+      "text": "Audio describe makes\nuse of two key features",
+      "start": 410.44,
+      "duration": 2.76
+    },
+    {
+      "text": "available to Chrome\nextensions, the side panel",
+      "start": 413.2,
+      "duration": 2.46
+    },
+    {
+      "text": "API and content scripts.",
+      "start": 415.66,
+      "duration": 2.69
+    },
+    {
+      "text": "The extension side\npanel API is a great way",
+      "start": 418.35,
+      "duration": 2.55
+    },
+    {
+      "text": "to show extension-specific\ncontent beside the main web",
+      "start": 420.9,
+      "duration": 3.54
+    },
+    {
+      "text": "content.",
+      "start": 424.44,
+      "duration": 1.05
+    },
+    {
+      "text": "In this case, we are showing\nthe transcribed audio messages.",
+      "start": 425.49,
+      "duration": 3.58
+    },
+    {
+      "text": "However, in order\nto show these, we",
+      "start": 429.07,
+      "duration": 2.63
+    },
+    {
+      "text": "need to be able to detect audio\nmessages in the current page.",
+      "start": 431.7,
+      "duration": 3.935
+    },
+    {
+      "text": "and this is what\ncontent scripts are for.",
+      "start": 435.635,
+      "duration": 2.305
+    },
+    {
+      "text": "Content scripts allow you\nto inject JavaScript or CSS",
+      "start": 437.94,
+      "duration": 3.87
+    },
+    {
+      "text": "into web pages.",
+      "start": 441.81,
+      "duration": 1.5
+    },
+    {
+      "text": "These are extremely\npowerful, as they",
+      "start": 443.31,
+      "duration": 2.64
+    },
+    {
+      "text": "allow you to extract\ncontent from a web page",
+      "start": 445.95,
+      "duration": 2.59
+    },
+    {
+      "text": "or even change\ncontent on a page.",
+      "start": 448.54,
+      "duration": 2.99
+    },
+    {
+      "text": "Here we are using\ncontent scripts",
+      "start": 451.53,
+      "duration": 1.41
+    },
+    {
+      "text": "to identify audio elements\nand to pass their audio source",
+      "start": 452.94,
+      "duration": 3.45
+    },
+    {
+      "text": "to the prompt API\nfor transcription.",
+      "start": 456.39,
+      "duration": 3.48
+    },
+    {
+      "text": "Taking a step back, with the\nprevious calendar example,",
+      "start": 459.87,
+      "duration": 3.52
+    },
+    {
+      "text": "we've seen that extensions\ncan be a great way",
+      "start": 463.39,
+      "duration": 2.24
+    },
+    {
+      "text": "to more tightly\nintegrate an existing",
+      "start": 465.63,
+      "duration": 2.52
+    },
+    {
+      "text": "product into the browser.",
+      "start": 468.15,
+      "duration": 1.57
+    },
+    {
+      "text": "With Audio Scribe, we\nare doing something else.",
+      "start": 469.72,
+      "duration": 2.94
+    },
+    {
+      "text": "Here, we use an extension to\nimprove an already existing",
+      "start": 472.66,
+      "duration": 3.53
+    },
+    {
+      "text": "product, in this case web based\nchat apps, with our built in AI.",
+      "start": 476.19,
+      "duration": 5.24
+    },
+    {
+      "text": "Audio Scribe uses the audio\nunderstanding capabilities",
+      "start": 481.43,
+      "duration": 3.24
+    },
+    {
+      "text": "of Gemini Nano.",
+      "start": 484.67,
+      "duration": 1.18
+    },
+    {
+      "text": "Let's take a look at what's\npossible with the new image",
+      "start": 485.85,
+      "duration": 3.29
+    },
+    {
+      "text": "understanding capabilities next.",
+      "start": 489.14,
+      "duration": 2.49
+    },
+    {
+      "text": "Here's our example, Alt Texter.",
+      "start": 491.63,
+      "duration": 3.0
+    },
+    {
+      "text": "One thing that I consider really\nimportant when posting images",
+      "start": 494.63,
+      "duration": 3.03
+    },
+    {
+      "text": "on social media is\nto provide Alt text",
+      "start": 497.66,
+      "duration": 2.52
+    },
+    {
+      "text": "to help visually impaired users.",
+      "start": 500.18,
+      "duration": 1.96
+    },
+    {
+      "text": "The Alt Texter extension\nhelps with this",
+      "start": 502.14,
+      "duration": 2.54
+    },
+    {
+      "text": "by proposing Alt\ntext for images.",
+      "start": 504.68,
+      "duration": 2.82
+    },
+    {
+      "text": "You can use it by right\nclicking any image on a web page",
+      "start": 507.5,
+      "duration": 3.18
+    },
+    {
+      "text": "and selecting generate Alt Text.",
+      "start": 510.68,
+      "duration": 2.85
+    },
+    {
+      "text": "It will open a popup proposing\na textual description",
+      "start": 513.53,
+      "duration": 2.879
+    },
+    {
+      "text": "of the image.",
+      "start": 516.409,
+      "duration": 1.111
+    },
+    {
+      "text": "Of course, a language model is\nnot perfect for writing Alt text",
+      "start": 517.52,
+      "duration": 3.6
+    },
+    {
+      "text": "because it might not be\naware of relevant context",
+      "start": 521.12,
+      "duration": 2.53
+    },
+    {
+      "text": "but still, it can be a\ngreat way to get started.",
+      "start": 523.65,
+      "duration": 3.62
+    },
+    {
+      "text": "It works very similar to a\nfirst demo Calendar Mate.",
+      "start": 527.27,
+      "duration": 2.92
+    },
+    {
+      "text": "This time, I'm registering a\ncontent menu action for images,",
+      "start": 530.19,
+      "duration": 3.81
+    },
+    {
+      "text": "though.",
+      "start": 534.0,
+      "duration": 0.59
+    },
+    {
+      "text": "I decided to display the\ngenerated Alt text in a popup",
+      "start": 534.59,
+      "duration": 3.86
+    },
+    {
+      "text": "to give users the opportunity\nto manually edit the Alt",
+      "start": 538.45,
+      "duration": 3.06
+    },
+    {
+      "text": "text if they don't like it.",
+      "start": 541.51,
+      "duration": 2.28
+    },
+    {
+      "text": "I've also integrated the option\nto translate the generated Alt",
+      "start": 543.79,
+      "duration": 3.57
+    },
+    {
+      "text": "text using the new\ntranslation API, which",
+      "start": 547.36,
+      "duration": 3.06
+    },
+    {
+      "text": "is another new\nbuilt-in API in Chrome.",
+      "start": 550.42,
+      "duration": 2.7
+    },
+    {
+      "text": "Again, a super simple\nsample, but what I really",
+      "start": 553.12,
+      "duration": 3.48
+    },
+    {
+      "text": "like about the Audio Scribe\nand Alt Texter examples",
+      "start": 556.6,
+      "duration": 2.85
+    },
+    {
+      "text": "is that they both\ndemonstrate how",
+      "start": 559.45,
+      "duration": 3.03
+    },
+    {
+      "text": "you can use the new\nmultimodal Gemini Nano",
+      "start": 562.48,
+      "duration": 2.37
+    },
+    {
+      "text": "APIs to make the web\nmore accessible to users.",
+      "start": 564.85,
+      "duration": 3.94
+    },
+    {
+      "text": "Talking about making\nthe web more accessible,",
+      "start": 568.79,
+      "duration": 2.58
+    },
+    {
+      "text": "this brings me to\nmy final example.",
+      "start": 571.37,
+      "duration": 2.28
+    },
+    {
+      "text": "So far, all the examples\nhave been really simple.",
+      "start": 573.65,
+      "duration": 3.18
+    },
+    {
+      "text": "My goal for this was\nto give you an idea",
+      "start": 576.83,
+      "duration": 2.21
+    },
+    {
+      "text": "of what's possible in\nextensions and how to use",
+      "start": 579.04,
+      "duration": 3.03
+    },
+    {
+      "text": "AI and extensions together.",
+      "start": 582.07,
+      "duration": 3.24
+    },
+    {
+      "text": "Now let's take a look at\na more complex extension.",
+      "start": 585.31,
+      "duration": 2.77
+    },
+    {
+      "text": "You might have already heard\nabout this one, Project Mariner.",
+      "start": 588.08,
+      "duration": 4.19
+    },
+    {
+      "text": "The Google DeepMind\nand labs teams",
+      "start": 592.27,
+      "duration": 2.49
+    },
+    {
+      "text": "introduced Project Mariner\nat the end of last year.",
+      "start": 594.76,
+      "duration": 3.68
+    },
+    {
+      "text": "It is a research prototype\nthat takes action",
+      "start": 598.44,
+      "duration": 3.21
+    },
+    {
+      "text": "on your behalf in your browser.",
+      "start": 601.65,
+      "duration": 3.06
+    },
+    {
+      "text": "The first version they\nlaunched was implemented",
+      "start": 604.71,
+      "duration": 2.82
+    },
+    {
+      "text": "as a Chrome extension.",
+      "start": 607.53,
+      "duration": 1.77
+    },
+    {
+      "text": "Let's give it a try.",
+      "start": 609.3,
+      "duration": 1.83
+    },
+    {
+      "text": "I'm asking the agent to help me\nimprove our Chrome extensions",
+      "start": 611.13,
+      "duration": 3.78
+    },
+    {
+      "text": "documentation by adding\nmore code samples.",
+      "start": 614.91,
+      "duration": 3.42
+    },
+    {
+      "text": "Go to the Chrome extensions\nreference documentation",
+      "start": 618.33,
+      "duration": 3.15
+    },
+    {
+      "text": "and create a list of all\nChrome extension APIs",
+      "start": 621.48,
+      "duration": 3.45
+    },
+    {
+      "text": "that don't have a code example.",
+      "start": 624.93,
+      "duration": 3.51
+    },
+    {
+      "text": "Watch how the agent will\ncome up with a plan on how",
+      "start": 628.44,
+      "duration": 3.03
+    },
+    {
+      "text": "to approach this problem.",
+      "start": 631.47,
+      "duration": 2.34
+    },
+    {
+      "text": "It uses Google Search to find\nthe Chrome extensions reference",
+      "start": 633.81,
+      "duration": 3.36
+    },
+    {
+      "text": "documentation.",
+      "start": 637.17,
+      "duration": 1.15
+    },
+    {
+      "text": "It will pick the most\nfitting search result",
+      "start": 638.32,
+      "duration": 2.84
+    },
+    {
+      "text": "and start looking\nfor our API docs.",
+      "start": 641.16,
+      "duration": 3.06
+    },
+    {
+      "text": "It will go through all the\nAPIs listed in the sidebar",
+      "start": 644.22,
+      "duration": 3.7
+    },
+    {
+      "text": "and open the respective\ndocumentation page.",
+      "start": 647.92,
+      "duration": 3.53
+    },
+    {
+      "text": "On an API page, it will do a\nvisual search for code snippets",
+      "start": 651.45,
+      "duration": 4.62
+    },
+    {
+      "text": "and collect all pages that\ndon't have a code sample.",
+      "start": 656.07,
+      "duration": 3.97
+    },
+    {
+      "text": "Awesome, isn't it?",
+      "start": 660.04,
+      "duration": 1.09
+    },
+    {
+      "text": "But how does this work.",
+      "start": 661.13,
+      "duration": 2.48
+    },
+    {
+      "text": "First of all,\nProject Mariner also",
+      "start": 663.61,
+      "duration": 2.88
+    },
+    {
+      "text": "uses the extension\nside panel API",
+      "start": 666.49,
+      "duration": 2.19
+    },
+    {
+      "text": "to display what the\nagent is currently doing.",
+      "start": 668.68,
+      "duration": 3.81
+    },
+    {
+      "text": "When performing\na task, the agent",
+      "start": 672.49,
+      "duration": 2.31
+    },
+    {
+      "text": "needs to know which actions\nit can perform on a website.",
+      "start": 674.8,
+      "duration": 4.23
+    },
+    {
+      "text": "The agent takes a\nscreenshot of the page",
+      "start": 679.03,
+      "duration": 2.58
+    },
+    {
+      "text": "and uses the DOM to identify\nthe position of possible actions",
+      "start": 681.61,
+      "duration": 5.07
+    },
+    {
+      "text": "on the current page.",
+      "start": 686.68,
+      "duration": 1.98
+    },
+    {
+      "text": "For example, clicking the\nlink to the Alarms API page",
+      "start": 688.66,
+      "duration": 3.51
+    },
+    {
+      "text": "would be such a possible action.",
+      "start": 692.17,
+      "duration": 2.88
+    },
+    {
+      "text": "The screenshot with\nthe annotated actions",
+      "start": 695.05,
+      "duration": 2.31
+    },
+    {
+      "text": "is then sent to a\nserver that uses Gemini",
+      "start": 697.36,
+      "duration": 3.0
+    },
+    {
+      "text": "to decide what the\nnext step should",
+      "start": 700.36,
+      "duration": 2.13
+    },
+    {
+      "text": "be to fulfill the user's task.",
+      "start": 702.49,
+      "duration": 2.49
+    },
+    {
+      "text": "Gemini will decide\non an action to take.",
+      "start": 704.98,
+      "duration": 2.8
+    },
+    {
+      "text": "For example, click\na button and explain",
+      "start": 707.78,
+      "duration": 2.36
+    },
+    {
+      "text": "why it thinks that this\nis the next best step.",
+      "start": 710.14,
+      "duration": 3.96
+    },
+    {
+      "text": "The server then\nsends the next action",
+      "start": 714.1,
+      "duration": 2.73
+    },
+    {
+      "text": "to perform, together\nwith the explanation",
+      "start": 716.83,
+      "duration": 2.75
+    },
+    {
+      "text": "why back to the\nChrome extensions.",
+      "start": 719.58,
+      "duration": 3.57
+    },
+    {
+      "text": "The Chrome extension then\nperforms the action on the page,",
+      "start": 723.15,
+      "duration": 2.98
+    },
+    {
+      "text": "observes the new state, and\nsends us back to the server",
+      "start": 726.13,
+      "duration": 3.17
+    },
+    {
+      "text": "to ask what it should do next.",
+      "start": 729.3,
+      "duration": 2.52
+    },
+    {
+      "text": "And this goes on until\nthe task is completed.",
+      "start": 731.82,
+      "duration": 3.48
+    },
+    {
+      "text": "One interesting question\nfrom an extension developer",
+      "start": 735.3,
+      "duration": 3.15
+    },
+    {
+      "text": "point of view is, how does the\nagent interact with web pages?",
+      "start": 738.45,
+      "duration": 4.29
+    },
+    {
+      "text": "For example, how does it\ntake screenshots of the page,",
+      "start": 742.74,
+      "duration": 3.28
+    },
+    {
+      "text": "analyze the DOM,\nand perform actions",
+      "start": 746.02,
+      "duration": 2.45
+    },
+    {
+      "text": "on a page, such as clicking an\nelement or filling out a form?",
+      "start": 748.47,
+      "duration": 4.32
+    },
+    {
+      "text": "In particular, the latter\ncan be quite challenging.",
+      "start": 752.79,
+      "duration": 3.107
+    },
+    {
+      "text": "The good thing is there's\nalready a tool available",
+      "start": 755.897,
+      "duration": 2.083
+    },
+    {
+      "text": "that can do all these\nthings, Puppeteer.",
+      "start": 757.98,
+      "duration": 2.79
+    },
+    {
+      "text": "Puppeteer provides\na high-level API",
+      "start": 760.77,
+      "duration": 2.46
+    },
+    {
+      "text": "to control Chrome via the\nChrome DevTools protocol.",
+      "start": 763.23,
+      "duration": 3.57
+    },
+    {
+      "text": "And you can use Puppeteer\nfrom Chrome extension.",
+      "start": 766.8,
+      "duration": 3.1
+    },
+    {
+      "text": "This is a very powerful way\nto implement a browser agent,",
+      "start": 769.9,
+      "duration": 3.96
+    },
+    {
+      "text": "as it allows you to interact\nwith a web page in the same way",
+      "start": 773.86,
+      "duration": 3.46
+    },
+    {
+      "text": "a user can.",
+      "start": 777.32,
+      "duration": 1.68
+    },
+    {
+      "text": "This has been a very\nsimplified overview",
+      "start": 779.0,
+      "duration": 2.7
+    },
+    {
+      "text": "on how Project\nMariner works, but I",
+      "start": 781.7,
+      "duration": 1.92
+    },
+    {
+      "text": "think it's a fantastic\ndemonstration for what's",
+      "start": 783.62,
+      "duration": 2.64
+    },
+    {
+      "text": "possible with Chrome extensions.",
+      "start": 786.26,
+      "duration": 1.99
+    },
+    {
+      "text": "Using Project\nMariner feels for me",
+      "start": 788.25,
+      "duration": 2.21
+    },
+    {
+      "text": "like getting a glimpse\ninto the future.",
+      "start": 790.46,
+      "duration": 2.17
+    },
+    {
+      "text": "And this has been possible by\ncombining powerful extension",
+      "start": 792.63,
+      "duration": 3.23
+    },
+    {
+      "text": "APIs and the latest\nGemini models.",
+      "start": 795.86,
+      "duration": 2.91
+    },
+    {
+      "text": "I'm personally really excited\nto see where this will lead to.",
+      "start": 798.77,
+      "duration": 4.65
+    },
+    {
+      "text": "The best thing about all the\nthings I've talked about today",
+      "start": 803.42,
+      "duration": 2.49
+    },
+    {
+      "text": "is all these APIs are\navailable to you as developers.",
+      "start": 805.91,
+      "duration": 4.38
+    },
+    {
+      "text": "Check out our\nextension documentation",
+      "start": 810.29,
+      "duration": 2.07
+    },
+    {
+      "text": "and our latest Gemini APIs.",
+      "start": 812.36,
+      "duration": 1.99
+    },
+    {
+      "text": "If you have questions\naround extensions,",
+      "start": 814.35,
+      "duration": 2.07
+    },
+    {
+      "text": "join our extensions\ndeveloper mailing list.",
+      "start": 816.42,
+      "duration": 2.4
+    },
+    {
+      "text": "All the samples\nmentioned in this video",
+      "start": 818.82,
+      "duration": 1.91
+    },
+    {
+      "text": "are linked the\ndescription below.",
+      "start": 820.73,
+      "duration": 1.99
+    },
+    {
+      "text": "Thanks for watching,\nand happy coding!",
+      "start": 822.72,
+      "duration": 1.79
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 824.51,
+      "duration": 3.35
+    }
+  ]
+}

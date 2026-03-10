@@ -1,0 +1,2957 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "8rlNdKywldQ",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi, my name is Taran and I'm a product",
+      "start": 6.319,
+      "duration": 6.161
+    },
+    {
+      "text": "manager at Google Cloud. Today we are",
+      "start": 9.28,
+      "duration": 5.76
+    },
+    {
+      "text": "going to share how to build AI agents",
+      "start": 12.48,
+      "duration": 3.96
+    },
+    {
+      "text": "with Google",
+      "start": 15.04,
+      "duration": 4.48
+    },
+    {
+      "text": "Cloud. We'll first talk about what are",
+      "start": 16.44,
+      "duration": 6.999
+    },
+    {
+      "text": "AI agents, then how to run AI agents on",
+      "start": 19.52,
+      "duration": 6.88
+    },
+    {
+      "text": "Google Cloud Run, and finally how to run",
+      "start": 23.439,
+      "duration": 8.12
+    },
+    {
+      "text": "AI agents on Vert.x AI. Let's get",
+      "start": 26.4,
+      "duration": 8.64
+    },
+    {
+      "text": "started. AI agents are a new type of",
+      "start": 31.559,
+      "duration": 6.441
+    },
+    {
+      "text": "application architectures. They rely on",
+      "start": 35.04,
+      "duration": 6.48
+    },
+    {
+      "text": "a language model to reason. They have",
+      "start": 38.0,
+      "duration": 6.559
+    },
+    {
+      "text": "short and long-term memory and are",
+      "start": 41.52,
+      "duration": 5.48
+    },
+    {
+      "text": "connected to sources of",
+      "start": 44.559,
+      "duration": 5.761
+    },
+    {
+      "text": "context. They plan and execute complex",
+      "start": 47.0,
+      "duration": 6.12
+    },
+    {
+      "text": "tasks by orchestrating multiple smaller",
+      "start": 50.32,
+      "duration": 7.2
+    },
+    {
+      "text": "tasks or even other agents. Their user",
+      "start": 53.12,
+      "duration": 6.959
+    },
+    {
+      "text": "experience can vary. They can be",
+      "start": 57.52,
+      "duration": 5.24
+    },
+    {
+      "text": "synchronous via chat or run",
+      "start": 60.079,
+      "duration": 5.201
+    },
+    {
+      "text": "asynchronously. For example, when doing",
+      "start": 62.76,
+      "duration": 5.52
+    },
+    {
+      "text": "research or doing code",
+      "start": 65.28,
+      "duration": 5.68
+    },
+    {
+      "text": "reviews, they need to collaborate with",
+      "start": 68.28,
+      "duration": 5.519
+    },
+    {
+      "text": "the user asking for more guidance,",
+      "start": 70.96,
+      "duration": 4.76
+    },
+    {
+      "text": "confirmation, and",
+      "start": 73.799,
+      "duration": 5.0
+    },
+    {
+      "text": "decisions. That enables user moderation",
+      "start": 75.72,
+      "duration": 6.039
+    },
+    {
+      "text": "and control. Something we call human in",
+      "start": 78.799,
+      "duration": 5.041
+    },
+    {
+      "text": "the loop.",
+      "start": 81.759,
+      "duration": 5.081
+    },
+    {
+      "text": "task can be performed using",
+      "start": 83.84,
+      "duration": 6.52
+    },
+    {
+      "text": "tools. Let's talk a bit more about those",
+      "start": 86.84,
+      "duration": 7.239
+    },
+    {
+      "text": "tools. First, there are the basic tools.",
+      "start": 90.36,
+      "duration": 6.52
+    },
+    {
+      "text": "Large language models are not good at",
+      "start": 94.079,
+      "duration": 6.441
+    },
+    {
+      "text": "math or basic time or unit",
+      "start": 96.88,
+      "duration": 6.96
+    },
+    {
+      "text": "conversions. Then, data access. The",
+      "start": 100.52,
+      "duration": 5.32
+    },
+    {
+      "text": "agent can retrieve context before",
+      "start": 103.84,
+      "duration": 4.88
+    },
+    {
+      "text": "calling the LLM or even query a database",
+      "start": 105.84,
+      "duration": 5.76
+    },
+    {
+      "text": "for specific details, for example, a",
+      "start": 108.72,
+      "duration": 5.88
+    },
+    {
+      "text": "product catalog.",
+      "start": 111.6,
+      "duration": 6.4
+    },
+    {
+      "text": "APIs. The agent can read from APIs,",
+      "start": 114.6,
+      "duration": 6.92
+    },
+    {
+      "text": "either first party or third party APIs.",
+      "start": 118.0,
+      "duration": 6.28
+    },
+    {
+      "text": "It can potentially even have right",
+      "start": 121.52,
+      "duration": 5.56
+    },
+    {
+      "text": "access with human",
+      "start": 124.28,
+      "duration": 6.599
+    },
+    {
+      "text": "supervision. Image generation. The agent",
+      "start": 127.08,
+      "duration": 6.92
+    },
+    {
+      "text": "can call another image generation API or",
+      "start": 130.879,
+      "duration": 6.201
+    },
+    {
+      "text": "generate visualizations from generated",
+      "start": 134.0,
+      "duration": 5.68
+    },
+    {
+      "text": "data. Browser.",
+      "start": 137.08,
+      "duration": 5.159
+    },
+    {
+      "text": "The agent can be given control of a web",
+      "start": 139.68,
+      "duration": 5.44
+    },
+    {
+      "text": "browser and browse websites using a real",
+      "start": 142.239,
+      "duration": 6.161
+    },
+    {
+      "text": "chromiumbased web browser. This is often",
+      "start": 145.12,
+      "duration": 5.04
+    },
+    {
+      "text": "done with multiple back and forth",
+      "start": 148.4,
+      "duration": 4.199
+    },
+    {
+      "text": "between the LLM and the browser",
+      "start": 150.16,
+      "duration": 5.76
+    },
+    {
+      "text": "service. Code execution. Code is",
+      "start": 152.599,
+      "duration": 6.121
+    },
+    {
+      "text": "generated by the LM and the agent",
+      "start": 155.92,
+      "duration": 5.599
+    },
+    {
+      "text": "executes it in a sandboxed secured",
+      "start": 158.72,
+      "duration": 5.799
+    },
+    {
+      "text": "environment.",
+      "start": 161.519,
+      "duration": 3.0
+    },
+    {
+      "text": "So in term of architecture at a high",
+      "start": 165.12,
+      "duration": 5.92
+    },
+    {
+      "text": "level a user will interact with the",
+      "start": 167.92,
+      "duration": 6.399
+    },
+    {
+      "text": "agent via multiple requests responses.",
+      "start": 171.04,
+      "duration": 6.44
+    },
+    {
+      "text": "These responses are often",
+      "start": 174.319,
+      "duration": 6.801
+    },
+    {
+      "text": "streamed. The agent is composed of the",
+      "start": 177.48,
+      "duration": 6.679
+    },
+    {
+      "text": "serving and orchestration component.",
+      "start": 181.12,
+      "duration": 6.0
+    },
+    {
+      "text": "This component we leverage of course a",
+      "start": 184.159,
+      "duration": 4.601
+    },
+    {
+      "text": "model to",
+      "start": 187.12,
+      "duration": 5.759
+    },
+    {
+      "text": "reason memory and access to data as well",
+      "start": 188.76,
+      "duration": 7.32
+    },
+    {
+      "text": "as tools.",
+      "start": 192.879,
+      "duration": 3.201
+    },
+    {
+      "text": "So a runtime for AI agent needs to scale",
+      "start": 196.44,
+      "duration": 8.6
+    },
+    {
+      "text": "to handle many concurrent users using",
+      "start": 202.4,
+      "duration": 3.559
+    },
+    {
+      "text": "the",
+      "start": 205.04,
+      "duration": 3.559
+    },
+    {
+      "text": "agent. Of course be cost",
+      "start": 205.959,
+      "duration": 5.56
+    },
+    {
+      "text": "effective. Have good latency performance",
+      "start": 208.599,
+      "duration": 4.64
+    },
+    {
+      "text": "and higher",
+      "start": 211.519,
+      "duration": 4.08
+    },
+    {
+      "text": "reliability. Have a great developer",
+      "start": 213.239,
+      "duration": 4.801
+    },
+    {
+      "text": "experience for agent",
+      "start": 215.599,
+      "duration": 5.2
+    },
+    {
+      "text": "developers. Integrate with LLM and",
+      "start": 218.04,
+      "duration": 5.24
+    },
+    {
+      "text": "tools.",
+      "start": 220.799,
+      "duration": 5.041
+    },
+    {
+      "text": "be flexible of running the developer's",
+      "start": 223.28,
+      "duration": 5.56
+    },
+    {
+      "text": "favorite language in AI agent",
+      "start": 225.84,
+      "duration": 6.72
+    },
+    {
+      "text": "framework and have streaming built in so",
+      "start": 228.84,
+      "duration": 6.44
+    },
+    {
+      "text": "that responses can be streamed as fast",
+      "start": 232.56,
+      "duration": 6.12
+    },
+    {
+      "text": "as possible to the end",
+      "start": 235.28,
+      "duration": 7.36
+    },
+    {
+      "text": "user. Cloud run is a perfect runtime to",
+      "start": 238.68,
+      "duration": 6.839
+    },
+    {
+      "text": "host your AI agent on top of Google's",
+      "start": 242.64,
+      "duration": 5.44
+    },
+    {
+      "text": "scalable infrastructure.",
+      "start": 245.519,
+      "duration": 5.841
+    },
+    {
+      "text": "It scales via automatic ondemand and",
+      "start": 248.08,
+      "duration": 5.159
+    },
+    {
+      "text": "rapid scaling of",
+      "start": 251.36,
+      "duration": 4.96
+    },
+    {
+      "text": "instances. It is cost effective via a",
+      "start": 253.239,
+      "duration": 6.52
+    },
+    {
+      "text": "pay-per use pricing model. Notably, it",
+      "start": 256.32,
+      "duration": 6.24
+    },
+    {
+      "text": "doesn't have any flat fee and doesn't",
+      "start": 259.759,
+      "duration": 5.401
+    },
+    {
+      "text": "require pre-provisioning",
+      "start": 262.56,
+      "duration": 5.919
+    },
+    {
+      "text": "capacity. It is fully managed. It has",
+      "start": 265.16,
+      "duration": 5.88
+    },
+    {
+      "text": "built-in zonal redundancy and is",
+      "start": 268.479,
+      "duration": 5.361
+    },
+    {
+      "text": "enterprise ready in terms of security,",
+      "start": 271.04,
+      "duration": 6.56
+    },
+    {
+      "text": "networking, and compliance.",
+      "start": 273.84,
+      "duration": 6.88
+    },
+    {
+      "text": "Developers love Cloud Run. It has top",
+      "start": 277.6,
+      "duration": 6.4
+    },
+    {
+      "text": "satisfaction and usability scores. Agent",
+      "start": 280.72,
+      "duration": 8.28
+    },
+    {
+      "text": "developers go from source to URL in one",
+      "start": 284.0,
+      "duration": 7.68
+    },
+    {
+      "text": "command. Cloud Run services have",
+      "start": 289.0,
+      "duration": 5.479
+    },
+    {
+      "text": "built-in credentials enabling you to",
+      "start": 291.68,
+      "duration": 6.72
+    },
+    {
+      "text": "call the Gemini API securely without any",
+      "start": 294.479,
+      "duration": 6.561
+    },
+    {
+      "text": "API key.",
+      "start": 298.4,
+      "duration": 6.16
+    },
+    {
+      "text": "You can run any AI agent frameworks in",
+      "start": 301.04,
+      "duration": 6.68
+    },
+    {
+      "text": "any language, Python,",
+      "start": 304.56,
+      "duration": 5.84
+    },
+    {
+      "text": "JavaScript and Cloudron supports out",
+      "start": 307.72,
+      "duration": 7.319
+    },
+    {
+      "text": "ofthe-box HTTPS endpoint with streaming",
+      "start": 310.4,
+      "duration": 8.32
+    },
+    {
+      "text": "be HTTP chunk transfer encoding, HTTP2",
+      "start": 315.039,
+      "duration": 6.921
+    },
+    {
+      "text": "or websockets.",
+      "start": 318.72,
+      "duration": 3.24
+    },
+    {
+      "text": "So let's look at how to implement the",
+      "start": 322.36,
+      "duration": 6.279
+    },
+    {
+      "text": "previously described architecture on top",
+      "start": 326.0,
+      "duration": 5.44
+    },
+    {
+      "text": "of cloudr run. A cloudr run service",
+      "start": 328.639,
+      "duration": 5.761
+    },
+    {
+      "text": "takes care of serving and orchestration.",
+      "start": 331.44,
+      "duration": 5.599
+    },
+    {
+      "text": "It runs an AI agent framework like",
+      "start": 334.4,
+      "duration": 5.799
+    },
+    {
+      "text": "langraph or agent development",
+      "start": 337.039,
+      "duration": 7.121
+    },
+    {
+      "text": "kit. It can call the Gemini API or",
+      "start": 340.199,
+      "duration": 6.44
+    },
+    {
+      "text": "models served via the Vert.Ex AI",
+      "start": 344.16,
+      "duration": 5.36
+    },
+    {
+      "text": "endpoint or even your own fine-tuned",
+      "start": 346.639,
+      "duration": 6.84
+    },
+    {
+      "text": "model running on cloud run with",
+      "start": 349.52,
+      "duration": 8.76
+    },
+    {
+      "text": "GPUs for memory fire store is a great",
+      "start": 353.479,
+      "duration": 8.361
+    },
+    {
+      "text": "nosql database and memory store can also",
+      "start": 358.28,
+      "duration": 4.8
+    },
+    {
+      "text": "be",
+      "start": 361.84,
+      "duration": 4.4
+    },
+    {
+      "text": "used retrieval augmented generation can",
+      "start": 363.08,
+      "duration": 6.52
+    },
+    {
+      "text": "be achieved using cloud SQL or DB for",
+      "start": 366.24,
+      "duration": 6.6
+    },
+    {
+      "text": "posgress SQL with the PG vector",
+      "start": 369.6,
+      "duration": 6.56
+    },
+    {
+      "text": "plugins and finally tools",
+      "start": 372.84,
+      "duration": 7.72
+    },
+    {
+      "text": "can be hosted themselves on Cloud Run or",
+      "start": 376.16,
+      "duration": 7.0
+    },
+    {
+      "text": "be calls to existing",
+      "start": 380.56,
+      "duration": 6.16
+    },
+    {
+      "text": "APIs. And now let's hear how to build an",
+      "start": 383.16,
+      "duration": 5.879
+    },
+    {
+      "text": "AI",
+      "start": 386.72,
+      "duration": 2.319
+    },
+    {
+      "text": "agent. Hi, my name is Vita and I'm an",
+      "start": 389.4,
+      "duration": 6.04
+    },
+    {
+      "text": "engineer in the Cloud Run team. I'd like",
+      "start": 393.199,
+      "duration": 4.161
+    },
+    {
+      "text": "to show you a concrete example of",
+      "start": 395.44,
+      "duration": 4.479
+    },
+    {
+      "text": "building an agent on Cloud Run. Cloud",
+      "start": 397.36,
+      "duration": 5.36
+    },
+    {
+      "text": "Run supports any agent framework, but I",
+      "start": 399.919,
+      "duration": 5.521
+    },
+    {
+      "text": "used Langra. Let's quickly dive into a",
+      "start": 402.72,
+      "duration": 5.199
+    },
+    {
+      "text": "few concepts before I show you the app.",
+      "start": 405.44,
+      "duration": 4.72
+    },
+    {
+      "text": "Let's start with LLMs. You give them an",
+      "start": 407.919,
+      "duration": 4.481
+    },
+    {
+      "text": "input, maybe a question, a prompt to",
+      "start": 410.16,
+      "duration": 4.159
+    },
+    {
+      "text": "write something, and they generate a",
+      "start": 412.4,
+      "duration": 3.799
+    },
+    {
+      "text": "relevant output. They are fantastic",
+      "start": 414.319,
+      "duration": 5.121
+    },
+    {
+      "text": "tools. But as powerful as they are, LMS",
+      "start": 416.199,
+      "duration": 5.4
+    },
+    {
+      "text": "used in isolation have some key",
+      "start": 419.44,
+      "duration": 4.0
+    },
+    {
+      "text": "limitations. For example, their",
+      "start": 421.599,
+      "duration": 3.44
+    },
+    {
+      "text": "knowledge is frozen at the time they",
+      "start": 423.44,
+      "duration": 3.44
+    },
+    {
+      "text": "were trained, and they cannot directly",
+      "start": 425.039,
+      "duration": 4.321
+    },
+    {
+      "text": "interact with the outside world. So to",
+      "start": 426.88,
+      "duration": 4.64
+    },
+    {
+      "text": "overcome these limits, the most common",
+      "start": 429.36,
+      "duration": 4.399
+    },
+    {
+      "text": "approach is to augment the LLM by",
+      "start": 431.52,
+      "duration": 4.56
+    },
+    {
+      "text": "combining it with other pieces of data",
+      "start": 433.759,
+      "duration": 5.041
+    },
+    {
+      "text": "and computation. This pattern is called",
+      "start": 436.08,
+      "duration": 4.959
+    },
+    {
+      "text": "a chain. Think of it like a fixed",
+      "start": 438.8,
+      "duration": 4.959
+    },
+    {
+      "text": "workflow. As a developer, you explicitly",
+      "start": 441.039,
+      "duration": 5.201
+    },
+    {
+      "text": "define a sequence of steps. A classic",
+      "start": 443.759,
+      "duration": 4.88
+    },
+    {
+      "text": "example of this is retrieval augmented",
+      "start": 446.24,
+      "duration": 4.84
+    },
+    {
+      "text": "generation or",
+      "start": 448.639,
+      "duration": 5.28
+    },
+    {
+      "text": "rag. The big advantage here is",
+      "start": 451.08,
+      "duration": 5.72
+    },
+    {
+      "text": "reliability. The steps are predetermined",
+      "start": 453.919,
+      "duration": 5.201
+    },
+    {
+      "text": "so you know exactly what will happen.",
+      "start": 456.8,
+      "duration": 5.44
+    },
+    {
+      "text": "The downside, it's inflexible. The chain",
+      "start": 459.12,
+      "duration": 7.24
+    },
+    {
+      "text": "follows a predefined path and can adapt",
+      "start": 462.24,
+      "duration": 6.799
+    },
+    {
+      "text": "dynamically. Now, a key development that",
+      "start": 466.36,
+      "duration": 5.239
+    },
+    {
+      "text": "enables a more dynamic approach is tool",
+      "start": 469.039,
+      "duration": 5.121
+    },
+    {
+      "text": "calling. You can give an LLM access to",
+      "start": 471.599,
+      "duration": 5.121
+    },
+    {
+      "text": "external tools. When the LLM thinks it",
+      "start": 474.16,
+      "duration": 4.319
+    },
+    {
+      "text": "needs one of these tools to answer a",
+      "start": 476.72,
+      "duration": 3.759
+    },
+    {
+      "text": "request, it doesn't run the tool itself,",
+      "start": 478.479,
+      "duration": 4.0
+    },
+    {
+      "text": "but it generates a structured output",
+      "start": 480.479,
+      "duration": 3.681
+    },
+    {
+      "text": "saying which tool it wants to use and",
+      "start": 482.479,
+      "duration": 4.4
+    },
+    {
+      "text": "what information to pass to it. This",
+      "start": 484.16,
+      "duration": 4.96
+    },
+    {
+      "text": "tool calling capability leads to this",
+      "start": 486.879,
+      "duration": 5.44
+    },
+    {
+      "text": "second main paradigm, the agent. Instead",
+      "start": 489.12,
+      "duration": 6.24
+    },
+    {
+      "text": "of a fixed chain here, we put the LLM in",
+      "start": 492.319,
+      "duration": 5.761
+    },
+    {
+      "text": "the driver's seat, running it in a loop.",
+      "start": 495.36,
+      "duration": 5.76
+    },
+    {
+      "text": "The LLM gets a task, calls a tool, feeds",
+      "start": 498.08,
+      "duration": 5.04
+    },
+    {
+      "text": "the result back to the LM, and lets it",
+      "start": 501.12,
+      "duration": 4.4
+    },
+    {
+      "text": "decide the next step. It continues this",
+      "start": 503.12,
+      "duration": 4.32
+    },
+    {
+      "text": "loop until it determines the task is",
+      "start": 505.52,
+      "duration": 4.44
+    },
+    {
+      "text": "complete. The big advantage here is",
+      "start": 507.44,
+      "duration": 4.88
+    },
+    {
+      "text": "flexibility. The agent is not locked",
+      "start": 509.96,
+      "duration": 5.16
+    },
+    {
+      "text": "into a predefined sequence. However,",
+      "start": 512.32,
+      "duration": 5.0
+    },
+    {
+      "text": "this flexibility often leads to lower",
+      "start": 515.12,
+      "duration": 5.359
+    },
+    {
+      "text": "reliability. These basic agent where the",
+      "start": 517.32,
+      "duration": 5.159
+    },
+    {
+      "text": "LLM is making all the decisions in a",
+      "start": 520.479,
+      "duration": 4.48
+    },
+    {
+      "text": "loop can often go off track. And here's",
+      "start": 522.479,
+      "duration": 4.641
+    },
+    {
+      "text": "why. Maybe the instructions given to the",
+      "start": 524.959,
+      "duration": 4.241
+    },
+    {
+      "text": "LLM were ambiguous. Maybe the tools",
+      "start": 527.12,
+      "duration": 4.48
+    },
+    {
+      "text": "available weren't quite right or their",
+      "start": 529.2,
+      "duration": 4.8
+    },
+    {
+      "text": "descriptions were misleading. Perhaps",
+      "start": 531.6,
+      "duration": 4.4
+    },
+    {
+      "text": "the LLM failed to reason correctly about",
+      "start": 534.0,
+      "duration": 3.92
+    },
+    {
+      "text": "the steps needed and tries to rely on",
+      "start": 536.0,
+      "duration": 3.68
+    },
+    {
+      "text": "its internal knowledge instead of using",
+      "start": 537.92,
+      "duration": 5.359
+    },
+    {
+      "text": "a tool. So while powerful, this simple",
+      "start": 539.68,
+      "duration": 5.56
+    },
+    {
+      "text": "looping approach can be unreliable in",
+      "start": 543.279,
+      "duration": 4.481
+    },
+    {
+      "text": "practice. So this brings us to the core",
+      "start": 545.24,
+      "duration": 5.56
+    },
+    {
+      "text": "challenge. On one hand, we have change",
+      "start": 547.76,
+      "duration": 5.68
+    },
+    {
+      "text": "reliable, predictable but rigid and on",
+      "start": 550.8,
+      "duration": 5.2
+    },
+    {
+      "text": "the other hand we have these agents",
+      "start": 553.44,
+      "duration": 6.079
+    },
+    {
+      "text": "flexible and dynamic but unreliable. So",
+      "start": 556.0,
+      "duration": 6.08
+    },
+    {
+      "text": "the question is can we have both? Can we",
+      "start": 559.519,
+      "duration": 4.161
+    },
+    {
+      "text": "build systems that have the reliability",
+      "start": 562.08,
+      "duration": 3.759
+    },
+    {
+      "text": "of structured workflows and also the",
+      "start": 563.68,
+      "duration": 4.8
+    },
+    {
+      "text": "flexibility of agents? One way to",
+      "start": 565.839,
+      "duration": 4.721
+    },
+    {
+      "text": "achieve this is to model your control",
+      "start": 568.48,
+      "duration": 4.64
+    },
+    {
+      "text": "flow with a graph like a state machine.",
+      "start": 570.56,
+      "duration": 4.64
+    },
+    {
+      "text": "In this graph, you have nodes",
+      "start": 573.12,
+      "duration": 4.32
+    },
+    {
+      "text": "representing specific decision points.",
+      "start": 575.2,
+      "duration": 4.56
+    },
+    {
+      "text": "Some might execute code, some might call",
+      "start": 577.44,
+      "duration": 5.2
+    },
+    {
+      "text": "an LLM, some might call a tool, and then",
+      "start": 579.76,
+      "duration": 4.72
+    },
+    {
+      "text": "you have edges that define how you",
+      "start": 582.64,
+      "duration": 3.36
+    },
+    {
+      "text": "transition between these nodes",
+      "start": 584.48,
+      "duration": 3.359
+    },
+    {
+      "text": "representing the logic and flow of the",
+      "start": 586.0,
+      "duration": 3.92
+    },
+    {
+      "text": "application. So this is the approach",
+      "start": 587.839,
+      "duration": 4.56
+    },
+    {
+      "text": "that langraph uses. Lang graph is a",
+      "start": 589.92,
+      "duration": 4.4
+    },
+    {
+      "text": "framework designed specifically to build",
+      "start": 592.399,
+      "duration": 4.281
+    },
+    {
+      "text": "these kinds of graph-based AI",
+      "start": 594.32,
+      "duration": 5.44
+    },
+    {
+      "text": "applications. This core ID is to let you",
+      "start": 596.68,
+      "duration": 4.92
+    },
+    {
+      "text": "explicitly define parts of the control",
+      "start": 599.76,
+      "duration": 3.6
+    },
+    {
+      "text": "flow using code giving you the",
+      "start": 601.6,
+      "duration": 4.32
+    },
+    {
+      "text": "reliability of chains when you need it",
+      "start": 603.36,
+      "duration": 4.56
+    },
+    {
+      "text": "while also giving you the flexibility of",
+      "start": 605.92,
+      "duration": 4.72
+    },
+    {
+      "text": "agents where that's needed. Now let's",
+      "start": 607.92,
+      "duration": 4.72
+    },
+    {
+      "text": "take a look at my demo to see an example",
+      "start": 610.64,
+      "duration": 5.56
+    },
+    {
+      "text": "of that in practice.",
+      "start": 612.64,
+      "duration": 3.56
+    },
+    {
+      "text": "This is my pretend online store from the",
+      "start": 616.24,
+      "duration": 5.08
+    },
+    {
+      "text": "future and I am acting as a support",
+      "start": 618.88,
+      "duration": 5.92
+    },
+    {
+      "text": "agent. Here is a list of my open cases.",
+      "start": 621.32,
+      "duration": 5.88
+    },
+    {
+      "text": "To resolve them, I can access a",
+      "start": 624.8,
+      "duration": 4.2
+    },
+    {
+      "text": "repository of standard operating",
+      "start": 627.2,
+      "duration": 4.48
+    },
+    {
+      "text": "procedures. For example, this is the one",
+      "start": 629.0,
+      "duration": 6.8
+    },
+    {
+      "text": "that tells me how to investigate failed",
+      "start": 631.68,
+      "duration": 6.48
+    },
+    {
+      "text": "payments. I also have access to the",
+      "start": 635.8,
+      "duration": 6.0
+    },
+    {
+      "text": "backend systems. So, here's orders,",
+      "start": 638.16,
+      "duration": 7.04
+    },
+    {
+      "text": "customers, payments, shipments, and",
+      "start": 641.8,
+      "duration": 5.36
+    },
+    {
+      "text": "finally,",
+      "start": 645.2,
+      "duration": 4.639
+    },
+    {
+      "text": "invoices. Let's go ahead and resolve one",
+      "start": 647.16,
+      "duration": 6.239
+    },
+    {
+      "text": "of the support cases. This one looks",
+      "start": 649.839,
+      "duration": 5.921
+    },
+    {
+      "text": "interesting. This customer really needs",
+      "start": 653.399,
+      "duration": 4.921
+    },
+    {
+      "text": "their Echo Weave device, but is having",
+      "start": 655.76,
+      "duration": 5.68
+    },
+    {
+      "text": "payment issues. I've built three AI",
+      "start": 658.32,
+      "duration": 4.959
+    },
+    {
+      "text": "agents that help me do my work more",
+      "start": 661.44,
+      "duration": 4.0
+    },
+    {
+      "text": "efficiently, so I can focus on providing",
+      "start": 663.279,
+      "duration": 4.321
+    },
+    {
+      "text": "the best support for my customers.",
+      "start": 665.44,
+      "duration": 4.32
+    },
+    {
+      "text": "First, my case context agent will help",
+      "start": 667.6,
+      "duration": 4.08
+    },
+    {
+      "text": "me find all the resources that are",
+      "start": 669.76,
+      "duration": 3.56
+    },
+    {
+      "text": "related to the",
+      "start": 671.68,
+      "duration": 5.52
+    },
+    {
+      "text": "case. Gemini use uses tools to get all",
+      "start": 673.32,
+      "duration": 5.88
+    },
+    {
+      "text": "the relevant information and it will",
+      "start": 677.2,
+      "duration": 3.84
+    },
+    {
+      "text": "link them to the case. That's great",
+      "start": 679.2,
+      "duration": 4.16
+    },
+    {
+      "text": "because that's very uh repetitive work",
+      "start": 681.04,
+      "duration": 6.16
+    },
+    {
+      "text": "to do manually. So, it linked an order",
+      "start": 683.36,
+      "duration": 7.28
+    },
+    {
+      "text": "for those two echoe devices. There is a",
+      "start": 687.2,
+      "duration": 5.52
+    },
+    {
+      "text": "payment which failed because of a",
+      "start": 690.64,
+      "duration": 5.12
+    },
+    {
+      "text": "gateway timeout and the standard",
+      "start": 692.72,
+      "duration": 4.72
+    },
+    {
+      "text": "operating procedure that's related to",
+      "start": 695.76,
+      "duration": 3.48
+    },
+    {
+      "text": "this",
+      "start": 697.44,
+      "duration": 4.48
+    },
+    {
+      "text": "case. Working through that manual is a",
+      "start": 699.24,
+      "duration": 4.839
+    },
+    {
+      "text": "lot of work. Let's see if my other agent",
+      "start": 701.92,
+      "duration": 4.88
+    },
+    {
+      "text": "can help me with",
+      "start": 704.079,
+      "duration": 2.721
+    },
+    {
+      "text": "that. The SOP agent will read the",
+      "start": 708.76,
+      "duration": 6.28
+    },
+    {
+      "text": "manual, make a plan for resolving it,",
+      "start": 711.839,
+      "duration": 5.921
+    },
+    {
+      "text": "and execute the plan.",
+      "start": 715.04,
+      "duration": 4.88
+    },
+    {
+      "text": "It looks like the payment was successful",
+      "start": 717.76,
+      "duration": 4.639
+    },
+    {
+      "text": "after a",
+      "start": 719.92,
+      "duration": 2.479
+    },
+    {
+      "text": "retry. To close this case, let's send a",
+      "start": 722.44,
+      "duration": 5.839
+    },
+    {
+      "text": "reply to the customer using my third",
+      "start": 725.279,
+      "duration": 5.36
+    },
+    {
+      "text": "agent. This agent uses all the",
+      "start": 728.279,
+      "duration": 3.721
+    },
+    {
+      "text": "information in the case to send a",
+      "start": 730.639,
+      "duration": 3.44
+    },
+    {
+      "text": "personalized message to my customer and",
+      "start": 732.0,
+      "duration": 4.079
+    },
+    {
+      "text": "saves it as a draft for me to add it",
+      "start": 734.079,
+      "duration": 4.641
+    },
+    {
+      "text": "before I send",
+      "start": 736.079,
+      "duration": 2.641
+    },
+    {
+      "text": "it. There it is. And the message looks",
+      "start": 739.399,
+      "duration": 5.401
+    },
+    {
+      "text": "good to me. Let's reply and close the",
+      "start": 742.16,
+      "duration": 5.64
+    },
+    {
+      "text": "case.",
+      "start": 744.8,
+      "duration": 3.0
+    },
+    {
+      "text": "Now that you've seen the demo, let's",
+      "start": 749.12,
+      "duration": 2.959
+    },
+    {
+      "text": "take a look at the application",
+      "start": 750.88,
+      "duration": 4.24
+    },
+    {
+      "text": "architecture of my app. I used Langraph",
+      "start": 752.079,
+      "duration": 4.2
+    },
+    {
+      "text": "to build my",
+      "start": 755.12,
+      "duration": 4.159
+    },
+    {
+      "text": "agents and fast API as the web framework",
+      "start": 756.279,
+      "duration": 4.321
+    },
+    {
+      "text": "to build my web",
+      "start": 759.279,
+      "duration": 3.841
+    },
+    {
+      "text": "application. And look, I'm more of a Go",
+      "start": 760.6,
+      "duration": 4.84
+    },
+    {
+      "text": "developer myself, but Python is clearly",
+      "start": 763.12,
+      "duration": 5.279
+    },
+    {
+      "text": "my destiny. Finally, I packaged my web",
+      "start": 765.44,
+      "duration": 4.72
+    },
+    {
+      "text": "app into a container image using a",
+      "start": 768.399,
+      "duration": 3.921
+    },
+    {
+      "text": "Docker file. And now that I have a",
+      "start": 770.16,
+      "duration": 3.919
+    },
+    {
+      "text": "container image, I can deploy it to",
+      "start": 772.32,
+      "duration": 4.92
+    },
+    {
+      "text": "Cloud Run and get an HTTPS endpoint",
+      "start": 774.079,
+      "duration": 5.921
+    },
+    {
+      "text": "back. Now I want to show you how I",
+      "start": 777.24,
+      "duration": 5.279
+    },
+    {
+      "text": "deploy a change to my",
+      "start": 780.0,
+      "duration": 7.12
+    },
+    {
+      "text": "app. So this is my local editor on my",
+      "start": 782.519,
+      "duration": 7.241
+    },
+    {
+      "text": "local machine. And I'm going to add some",
+      "start": 787.12,
+      "duration": 4.24
+    },
+    {
+      "text": "text to the homepage and then deploy it",
+      "start": 789.76,
+      "duration": 3.8
+    },
+    {
+      "text": "so you can see the",
+      "start": 791.36,
+      "duration": 5.84
+    },
+    {
+      "text": "change. I'll add a paragraph. Hello",
+      "start": 793.56,
+      "duration": 6.279
+    },
+    {
+      "text": "Google IO.",
+      "start": 797.2,
+      "duration": 5.36
+    },
+    {
+      "text": "I'll save that file and I go to terminal",
+      "start": 799.839,
+      "duration": 5.401
+    },
+    {
+      "text": "and do g-cloud run",
+      "start": 802.56,
+      "duration": 5.279
+    },
+    {
+      "text": "deploy and I will confirm that that this",
+      "start": 805.24,
+      "duration": 4.52
+    },
+    {
+      "text": "is the directory I want to deploy and",
+      "start": 807.839,
+      "duration": 4.721
+    },
+    {
+      "text": "that's the service",
+      "start": 809.76,
+      "duration": 2.8
+    },
+    {
+      "text": "name and then I will start building and",
+      "start": 813.399,
+      "duration": 5.961
+    },
+    {
+      "text": "deploying. So while that's running I'll",
+      "start": 816.839,
+      "duration": 5.0
+    },
+    {
+      "text": "take you through a short tour of the web",
+      "start": 819.36,
+      "duration": 5.479
+    },
+    {
+      "text": "console.",
+      "start": 821.839,
+      "duration": 3.0
+    },
+    {
+      "text": "So this is my service in cloud run and I",
+      "start": 824.88,
+      "duration": 3.92
+    },
+    {
+      "text": "you can see that I have access to all",
+      "start": 827.44,
+      "duration": 3.12
+    },
+    {
+      "text": "the metrics like the request count",
+      "start": 828.8,
+      "duration": 4.24
+    },
+    {
+      "text": "request latencies the contain number of",
+      "start": 830.56,
+      "duration": 5.2
+    },
+    {
+      "text": "container instances that I'm running uh",
+      "start": 833.04,
+      "duration": 5.479
+    },
+    {
+      "text": "how much CPU they're using memory",
+      "start": 835.76,
+      "duration": 5.439
+    },
+    {
+      "text": "utilization and also the startup time of",
+      "start": 838.519,
+      "duration": 5.081
+    },
+    {
+      "text": "my",
+      "start": 841.199,
+      "duration": 2.401
+    },
+    {
+      "text": "containers. Now let's check back and see",
+      "start": 843.959,
+      "duration": 5.281
+    },
+    {
+      "text": "if that deploy has",
+      "start": 846.24,
+      "duration": 6.279
+    },
+    {
+      "text": "completed. Looks like it's almost",
+      "start": 849.24,
+      "duration": 5.64
+    },
+    {
+      "text": "done. So, it's creating a revision of",
+      "start": 852.519,
+      "duration": 4.401
+    },
+    {
+      "text": "routing",
+      "start": 854.88,
+      "duration": 4.399
+    },
+    {
+      "text": "traffic. And when that's done, I can",
+      "start": 856.92,
+      "duration": 3.84
+    },
+    {
+      "text": "click on the",
+      "start": 859.279,
+      "duration": 5.8
+    },
+    {
+      "text": "link. And you can see hello Google",
+      "start": 860.76,
+      "duration": 7.24
+    },
+    {
+      "text": "IO. Let's break down that G-Cloud run",
+      "start": 865.079,
+      "duration": 5.401
+    },
+    {
+      "text": "deploy command. First, it uploads the",
+      "start": 868.0,
+      "duration": 5.68
+    },
+    {
+      "text": "sources to a GCS bucket. It kicks off a",
+      "start": 870.48,
+      "duration": 5.68
+    },
+    {
+      "text": "build in cloud build. And if you don't",
+      "start": 873.68,
+      "duration": 4.88
+    },
+    {
+      "text": "have a Docker file, then build packs is",
+      "start": 876.16,
+      "duration": 4.239
+    },
+    {
+      "text": "used to turn your source code into a",
+      "start": 878.56,
+      "duration": 4.56
+    },
+    {
+      "text": "container image for you. BuildPax is the",
+      "start": 880.399,
+      "duration": 4.88
+    },
+    {
+      "text": "open- source version of the technology",
+      "start": 883.12,
+      "duration": 4.76
+    },
+    {
+      "text": "that powered App Engine since",
+      "start": 885.279,
+      "duration": 5.12
+    },
+    {
+      "text": "2008. Note that you don't have to run",
+      "start": 887.88,
+      "duration": 4.68
+    },
+    {
+      "text": "these commands. This is done for you by",
+      "start": 890.399,
+      "duration": 5.201
+    },
+    {
+      "text": "the G-Cloud run deploy command. Now,",
+      "start": 892.56,
+      "duration": 5.279
+    },
+    {
+      "text": "once the container image is built, it is",
+      "start": 895.6,
+      "duration": 4.239
+    },
+    {
+      "text": "pushed to artifact registry. That's",
+      "start": 897.839,
+      "duration": 4.721
+    },
+    {
+      "text": "Google's container registry service.",
+      "start": 899.839,
+      "duration": 4.961
+    },
+    {
+      "text": "Then, Cloud Run creates a new revision",
+      "start": 902.56,
+      "duration": 5.44
+    },
+    {
+      "text": "importing the full image. And finally,",
+      "start": 904.8,
+      "duration": 5.2
+    },
+    {
+      "text": "100% of traffic is automatically",
+      "start": 908.0,
+      "duration": 3.72
+    },
+    {
+      "text": "migrated to the new",
+      "start": 910.0,
+      "duration": 4.399
+    },
+    {
+      "text": "revision. Cloud Run is designed to make",
+      "start": 911.72,
+      "duration": 4.52
+    },
+    {
+      "text": "developers more productive, and that's",
+      "start": 914.399,
+      "duration": 3.401
+    },
+    {
+      "text": "why it's great for running",
+      "start": 916.24,
+      "duration": 4.08
+    },
+    {
+      "text": "agents. Now, let's look at another way",
+      "start": 917.8,
+      "duration": 4.599
+    },
+    {
+      "text": "to build agents on Google Cloud with",
+      "start": 920.32,
+      "duration": 3.879
+    },
+    {
+      "text": "Vert.ex",
+      "start": 922.399,
+      "duration": 4.641
+    },
+    {
+      "text": "AI. Thank you, Vita, for walking through",
+      "start": 924.199,
+      "duration": 6.2
+    },
+    {
+      "text": "how to build AI agents with CloudRunner.",
+      "start": 927.04,
+      "duration": 5.28
+    },
+    {
+      "text": "And now, let's discuss the different",
+      "start": 930.399,
+      "duration": 4.481
+    },
+    {
+      "text": "capabilities in Vert.x AI to help us",
+      "start": 932.32,
+      "duration": 4.44
+    },
+    {
+      "text": "build these sophisticated",
+      "start": 934.88,
+      "duration": 4.959
+    },
+    {
+      "text": "agents. Google Cloud's Vert.Ex AI is a",
+      "start": 936.76,
+      "duration": 5.319
+    },
+    {
+      "text": "comprehensive platform which supports",
+      "start": 939.839,
+      "duration": 5.281
+    },
+    {
+      "text": "the full agent life cycle. And today",
+      "start": 942.079,
+      "duration": 5.0
+    },
+    {
+      "text": "we'll cover an overview of the entire",
+      "start": 945.12,
+      "duration": 5.279
+    },
+    {
+      "text": "workflow starting from models and tools",
+      "start": 947.079,
+      "duration": 6.12
+    },
+    {
+      "text": "in using Vert.x AI's agent builder to",
+      "start": 950.399,
+      "duration": 6.161
+    },
+    {
+      "text": "discover, build, and deploy agents and",
+      "start": 953.199,
+      "duration": 5.921
+    },
+    {
+      "text": "using the A2A protocol to extend the",
+      "start": 956.56,
+      "duration": 5.279
+    },
+    {
+      "text": "agents and make them interoperable.",
+      "start": 959.12,
+      "duration": 5.639
+    },
+    {
+      "text": "Let's break down each of these",
+      "start": 961.839,
+      "duration": 5.44
+    },
+    {
+      "text": "components. At the foundational level,",
+      "start": 964.759,
+      "duration": 5.08
+    },
+    {
+      "text": "agents need two things, intelligence and",
+      "start": 967.279,
+      "duration": 5.12
+    },
+    {
+      "text": "tool access. And for intelligence,",
+      "start": 969.839,
+      "duration": 4.8
+    },
+    {
+      "text": "Vert.x AI provides access to Google's",
+      "start": 972.399,
+      "duration": 5.521
+    },
+    {
+      "text": "cuttingedge Gemini models natively. It",
+      "start": 974.639,
+      "duration": 5.2
+    },
+    {
+      "text": "also provides access to hundreds of",
+      "start": 977.92,
+      "duration": 4.159
+    },
+    {
+      "text": "other open-source models via Model",
+      "start": 979.839,
+      "duration": 4.8
+    },
+    {
+      "text": "Garden and the flexibility to bring your",
+      "start": 982.079,
+      "duration": 5.12
+    },
+    {
+      "text": "own, ensuring you have the best model",
+      "start": 984.639,
+      "duration": 5.601
+    },
+    {
+      "text": "for your agent. And agents are only",
+      "start": 987.199,
+      "duration": 4.721
+    },
+    {
+      "text": "useful if they can interact with the",
+      "start": 990.24,
+      "duration": 5.12
+    },
+    {
+      "text": "external world. Vert.x AI enables this",
+      "start": 991.92,
+      "duration": 6.24
+    },
+    {
+      "text": "through native Google Cloud integration,",
+      "start": 995.36,
+      "duration": 5.44
+    },
+    {
+      "text": "allowing agents to securely ground",
+      "start": 998.16,
+      "duration": 4.88
+    },
+    {
+      "text": "responses and connect to various",
+      "start": 1000.8,
+      "duration": 5.08
+    },
+    {
+      "text": "enterprise data sources and",
+      "start": 1003.04,
+      "duration": 5.599
+    },
+    {
+      "text": "tools. Agents can leverage pre-built",
+      "start": 1005.88,
+      "duration": 5.24
+    },
+    {
+      "text": "connectors, call custom APIs managed via",
+      "start": 1008.639,
+      "duration": 5.44
+    },
+    {
+      "text": "Apoge, or even trigger complex workflows",
+      "start": 1011.12,
+      "duration": 5.68
+    },
+    {
+      "text": "in application integration.",
+      "start": 1014.079,
+      "duration": 4.801
+    },
+    {
+      "text": "Now with this foundation, let's talk",
+      "start": 1016.8,
+      "duration": 4.08
+    },
+    {
+      "text": "about the central component which is a",
+      "start": 1018.88,
+      "duration": 4.879
+    },
+    {
+      "text": "Vert.xai agent builder. It contains",
+      "start": 1020.88,
+      "duration": 5.6
+    },
+    {
+      "text": "three main capabilities. The agent",
+      "start": 1023.759,
+      "duration": 5.68
+    },
+    {
+      "text": "development kit to build agents, agent",
+      "start": 1026.48,
+      "duration": 6.079
+    },
+    {
+      "text": "engine to deploy them, and the agent",
+      "start": 1029.439,
+      "duration": 6.921
+    },
+    {
+      "text": "garden to discover and use other",
+      "start": 1032.559,
+      "duration": 6.4
+    },
+    {
+      "text": "agents. Now, at the core of agent",
+      "start": 1036.36,
+      "duration": 5.0
+    },
+    {
+      "text": "building is the ADK or the agent",
+      "start": 1038.959,
+      "duration": 5.12
+    },
+    {
+      "text": "development kit. It's Google's",
+      "start": 1041.36,
+      "duration": 5.36
+    },
+    {
+      "text": "open-source agent framework to build",
+      "start": 1044.079,
+      "duration": 5.001
+    },
+    {
+      "text": "sophisticated and reliable",
+      "start": 1046.72,
+      "duration": 5.04
+    },
+    {
+      "text": "agents. Now, it is drawn from internal",
+      "start": 1049.08,
+      "duration": 4.839
+    },
+    {
+      "text": "Google's experience of building agents",
+      "start": 1051.76,
+      "duration": 4.4
+    },
+    {
+      "text": "and is designed to provide a smooth",
+      "start": 1053.919,
+      "duration": 4.961
+    },
+    {
+      "text": "developer experience by making agent",
+      "start": 1056.16,
+      "duration": 4.879
+    },
+    {
+      "text": "development feel more like traditional",
+      "start": 1058.88,
+      "duration": 4.799
+    },
+    {
+      "text": "software development.",
+      "start": 1061.039,
+      "duration": 5.841
+    },
+    {
+      "text": "And a few key capabilities of ADK are",
+      "start": 1063.679,
+      "duration": 5.36
+    },
+    {
+      "text": "we'll start with the built-in developer",
+      "start": 1066.88,
+      "duration": 5.6
+    },
+    {
+      "text": "UI, a local web interface that spins up",
+      "start": 1069.039,
+      "duration": 6.241
+    },
+    {
+      "text": "instantly when you run your agent. Let's",
+      "start": 1072.48,
+      "duration": 4.48
+    },
+    {
+      "text": "see this with an example of a customer",
+      "start": 1075.28,
+      "duration": 4.32
+    },
+    {
+      "text": "service agent. And here I have my simple",
+      "start": 1076.96,
+      "duration": 5.12
+    },
+    {
+      "text": "home and garden agent, which can help",
+      "start": 1079.6,
+      "duration": 4.16
+    },
+    {
+      "text": "customers with product selection,",
+      "start": 1082.08,
+      "duration": 4.719
+    },
+    {
+      "text": "managing orders, or can even use video",
+      "start": 1083.76,
+      "duration": 4.88
+    },
+    {
+      "text": "to help identify different kinds of",
+      "start": 1086.799,
+      "duration": 3.76
+    },
+    {
+      "text": "plants.",
+      "start": 1088.64,
+      "duration": 4.56
+    },
+    {
+      "text": "Running the ADK run cla command directly",
+      "start": 1090.559,
+      "duration": 5.641
+    },
+    {
+      "text": "starts the agent in your",
+      "start": 1093.2,
+      "duration": 6.56
+    },
+    {
+      "text": "terminal or even better running via ADK",
+      "start": 1096.2,
+      "duration": 6.479
+    },
+    {
+      "text": "web opens up a new built-in",
+      "start": 1099.76,
+      "duration": 6.24
+    },
+    {
+      "text": "UI. Let's go ahead and enter a prompt.",
+      "start": 1102.679,
+      "duration": 5.401
+    },
+    {
+      "text": "Hey, can you help me with some indoor",
+      "start": 1106.0,
+      "duration": 4.6
+    },
+    {
+      "text": "plan recommendations for",
+      "start": 1108.08,
+      "duration": 4.88
+    },
+    {
+      "text": "winter? And we'll see the agent",
+      "start": 1110.6,
+      "duration": 4.92
+    },
+    {
+      "text": "attempting to call the relevant tool to",
+      "start": 1112.96,
+      "duration": 4.719
+    },
+    {
+      "text": "fetch the information.",
+      "start": 1115.52,
+      "duration": 4.72
+    },
+    {
+      "text": "This not only speeds up our iteration",
+      "start": 1117.679,
+      "duration": 5.041
+    },
+    {
+      "text": "and we can directly chat with our agent",
+      "start": 1120.24,
+      "duration": 5.12
+    },
+    {
+      "text": "but also helps us inspect the reasoning",
+      "start": 1122.72,
+      "duration": 5.92
+    },
+    {
+      "text": "steps, see which tools the agent uses",
+      "start": 1125.36,
+      "duration": 6.16
+    },
+    {
+      "text": "and debug issues visually without",
+      "start": 1128.64,
+      "duration": 5.52
+    },
+    {
+      "text": "writing any complex tests or any UI",
+      "start": 1131.52,
+      "duration": 4.8
+    },
+    {
+      "text": "code.",
+      "start": 1134.16,
+      "duration": 4.399
+    },
+    {
+      "text": "Now moving beyond just the text",
+      "start": 1136.32,
+      "duration": 4.68
+    },
+    {
+      "text": "interaction, ADK is built for richer",
+      "start": 1138.559,
+      "duration": 5.12
+    },
+    {
+      "text": "interactions like it natively handles",
+      "start": 1141.0,
+      "duration": 6.28
+    },
+    {
+      "text": "audio and video streaming with minimal",
+      "start": 1143.679,
+      "duration": 7.481
+    },
+    {
+      "text": "to no code changes if you're using ADK",
+      "start": 1147.28,
+      "duration": 7.04
+    },
+    {
+      "text": "web. This allows us to build agents that",
+      "start": 1151.16,
+      "duration": 6.519
+    },
+    {
+      "text": "can see, hear, and respond in real time",
+      "start": 1154.32,
+      "duration": 5.08
+    },
+    {
+      "text": "directly within the",
+      "start": 1157.679,
+      "duration": 3.521
+    },
+    {
+      "text": "framework. With all of these",
+      "start": 1159.4,
+      "duration": 4.279
+    },
+    {
+      "text": "capabilities, while ADK is powerful on",
+      "start": 1161.2,
+      "duration": 5.479
+    },
+    {
+      "text": "its own, it is designed for an open",
+      "start": 1163.679,
+      "duration": 5.841
+    },
+    {
+      "text": "ecosystem, meaning it's model agnostic,",
+      "start": 1166.679,
+      "duration": 4.721
+    },
+    {
+      "text": "deployment agnostic, and",
+      "start": 1169.52,
+      "duration": 4.159
+    },
+    {
+      "text": "interoperable. You can bring in Gemini",
+      "start": 1171.4,
+      "duration": 4.68
+    },
+    {
+      "text": "models, open- source models, or even",
+      "start": 1173.679,
+      "duration": 5.481
+    },
+    {
+      "text": "custom models from model garden or light",
+      "start": 1176.08,
+      "duration": 5.839
+    },
+    {
+      "text": "LLM. ADK is also crucially deployment",
+      "start": 1179.16,
+      "duration": 4.92
+    },
+    {
+      "text": "agnostic, meaning you can package the",
+      "start": 1181.919,
+      "duration": 5.721
+    },
+    {
+      "text": "ADK agents into containers and run them",
+      "start": 1184.08,
+      "duration": 6.64
+    },
+    {
+      "text": "anywhere. Be it Vert.xi XI agent engine,",
+      "start": 1187.64,
+      "duration": 6.039
+    },
+    {
+      "text": "Google Cloud Run, GKE or even any other",
+      "start": 1190.72,
+      "duration": 4.839
+    },
+    {
+      "text": "clouds or",
+      "start": 1193.679,
+      "duration": 5.041
+    },
+    {
+      "text": "onromises. But most importantly, ADK",
+      "start": 1195.559,
+      "duration": 5.201
+    },
+    {
+      "text": "supports interoperability and",
+      "start": 1198.72,
+      "duration": 4.48
+    },
+    {
+      "text": "extensibility through support for both",
+      "start": 1200.76,
+      "duration": 5.32
+    },
+    {
+      "text": "model context protocol and the agentto",
+      "start": 1203.2,
+      "duration": 3.96
+    },
+    {
+      "text": "agent",
+      "start": 1206.08,
+      "duration": 4.0
+    },
+    {
+      "text": "protocol. You can integrate any MCP tool",
+      "start": 1207.16,
+      "duration": 5.72
+    },
+    {
+      "text": "to your agents built with ADK. You can",
+      "start": 1210.08,
+      "duration": 5.52
+    },
+    {
+      "text": "also extend your agent to talk to other",
+      "start": 1212.88,
+      "duration": 5.36
+    },
+    {
+      "text": "agents which are A2A compatible which",
+      "start": 1215.6,
+      "duration": 4.76
+    },
+    {
+      "text": "we'll briefly discuss in a few",
+      "start": 1218.24,
+      "duration": 4.64
+    },
+    {
+      "text": "minutes. Agent development kit also",
+      "start": 1220.36,
+      "duration": 4.439
+    },
+    {
+      "text": "provides other capabilities like LLM",
+      "start": 1222.88,
+      "duration": 4.64
+    },
+    {
+      "text": "based agents, built-in agent evaluation",
+      "start": 1224.799,
+      "duration": 4.721
+    },
+    {
+      "text": "or generating tools from an open API",
+      "start": 1227.52,
+      "duration": 3.56
+    },
+    {
+      "text": "spec and many",
+      "start": 1229.52,
+      "duration": 4.48
+    },
+    {
+      "text": "more. You can get started with ADK today",
+      "start": 1231.08,
+      "duration": 6.599
+    },
+    {
+      "text": "by grabbing the Google ADK package.",
+      "start": 1234.0,
+      "duration": 6.919
+    },
+    {
+      "text": "Check out the links to learn",
+      "start": 1237.679,
+      "duration": 6.321
+    },
+    {
+      "text": "more. Now, once we've built this agent,",
+      "start": 1240.919,
+      "duration": 5.321
+    },
+    {
+      "text": "they need a reliable home or a place to",
+      "start": 1244.0,
+      "duration": 4.72
+    },
+    {
+      "text": "deploy. And that's where the Vert.x AI's",
+      "start": 1246.24,
+      "duration": 5.84
+    },
+    {
+      "text": "agent engine offers a serverless runtime",
+      "start": 1248.72,
+      "duration": 6.319
+    },
+    {
+      "text": "optimized for agents.",
+      "start": 1252.08,
+      "duration": 5.52
+    },
+    {
+      "text": "You can deploy a containerized agent",
+      "start": 1255.039,
+      "duration": 5.12
+    },
+    {
+      "text": "built using ADK or any other framework",
+      "start": 1257.6,
+      "duration": 4.559
+    },
+    {
+      "text": "and agent engine will handle the",
+      "start": 1260.159,
+      "duration": 4.64
+    },
+    {
+      "text": "underlying infrastructure like scaling,",
+      "start": 1262.159,
+      "duration": 4.801
+    },
+    {
+      "text": "security configurations and integration",
+      "start": 1264.799,
+      "duration": 3.561
+    },
+    {
+      "text": "with cloud",
+      "start": 1266.96,
+      "duration": 3.92
+    },
+    {
+      "text": "monitoring. It's built with enterprise",
+      "start": 1268.36,
+      "duration": 5.16
+    },
+    {
+      "text": "needs in mind offering robust security",
+      "start": 1270.88,
+      "duration": 5.52
+    },
+    {
+      "text": "like VPCSA compliance, cloud trace",
+      "start": 1273.52,
+      "duration": 5.12
+    },
+    {
+      "text": "integration, and even integration with",
+      "start": 1276.4,
+      "duration": 5.759
+    },
+    {
+      "text": "Vert.ex AI's evaluation service, which",
+      "start": 1278.64,
+      "duration": 5.84
+    },
+    {
+      "text": "is a way to quality check your agents",
+      "start": 1282.159,
+      "duration": 4.76
+    },
+    {
+      "text": "before and after",
+      "start": 1284.48,
+      "duration": 5.199
+    },
+    {
+      "text": "deployment. Now, with just a few lines",
+      "start": 1286.919,
+      "duration": 5.24
+    },
+    {
+      "text": "of code, we can now deploy the customer",
+      "start": 1289.679,
+      "duration": 4.081
+    },
+    {
+      "text": "service agent that we just built with",
+      "start": 1292.159,
+      "duration": 5.201
+    },
+    {
+      "text": "ADK into agent engine. And that's it.",
+      "start": 1293.76,
+      "duration": 6.0
+    },
+    {
+      "text": "Our agent is now running remotely and is",
+      "start": 1297.36,
+      "duration": 4.08
+    },
+    {
+      "text": "ready to be integrated into other",
+      "start": 1299.76,
+      "duration": 4.48
+    },
+    {
+      "text": "applications.",
+      "start": 1301.44,
+      "duration": 5.44
+    },
+    {
+      "text": "Agent Engine effectively isolates agents",
+      "start": 1304.24,
+      "duration": 4.799
+    },
+    {
+      "text": "execution logic from the underlying",
+      "start": 1306.88,
+      "duration": 5.679
+    },
+    {
+      "text": "infrastructure concerns. And to help you",
+      "start": 1309.039,
+      "duration": 5.76
+    },
+    {
+      "text": "get started quickly and avoid building",
+      "start": 1312.559,
+      "duration": 5.521
+    },
+    {
+      "text": "these agents from scratch, Vert.xai's",
+      "start": 1314.799,
+      "duration": 6.401
+    },
+    {
+      "text": "agent garden provides pre-built agent",
+      "start": 1318.08,
+      "duration": 6.719
+    },
+    {
+      "text": "samples and modular tool components. In",
+      "start": 1321.2,
+      "duration": 5.28
+    },
+    {
+      "text": "the Vert.xai ICS AI agent garden, you",
+      "start": 1324.799,
+      "duration": 4.24
+    },
+    {
+      "text": "will find complete source code examples",
+      "start": 1326.48,
+      "duration": 4.8
+    },
+    {
+      "text": "for common agent archetypes like data",
+      "start": 1329.039,
+      "duration": 4.961
+    },
+    {
+      "text": "science agent, retail agent, or even the",
+      "start": 1331.28,
+      "duration": 5.16
+    },
+    {
+      "text": "customer service agent that we just",
+      "start": 1334.0,
+      "duration": 5.44
+    },
+    {
+      "text": "built. Or you can also grab reusable",
+      "start": 1336.44,
+      "duration": 6.04
+    },
+    {
+      "text": "code snippets and implementations for",
+      "start": 1339.44,
+      "duration": 5.52
+    },
+    {
+      "text": "specific functionalities such as",
+      "start": 1342.48,
+      "duration": 5.12
+    },
+    {
+      "text": "connectors for particular databases,",
+      "start": 1344.96,
+      "duration": 5.199
+    },
+    {
+      "text": "secure wrappers for external APIs, or",
+      "start": 1347.6,
+      "duration": 4.52
+    },
+    {
+      "text": "optimized rack",
+      "start": 1350.159,
+      "duration": 4.721
+    },
+    {
+      "text": "components. Using agent garden, you can",
+      "start": 1352.12,
+      "duration": 4.679
+    },
+    {
+      "text": "find reference implementation, reduce",
+      "start": 1354.88,
+      "duration": 4.24
+    },
+    {
+      "text": "your boilerplate code, and integrate",
+      "start": 1356.799,
+      "duration": 6.12
+    },
+    {
+      "text": "tested components directly into your",
+      "start": 1359.12,
+      "duration": 6.96
+    },
+    {
+      "text": "agent. Now, as we make huge investments",
+      "start": 1362.919,
+      "duration": 5.721
+    },
+    {
+      "text": "in developing these valuable specialized",
+      "start": 1366.08,
+      "duration": 4.24
+    },
+    {
+      "text": "agents with multiple tools and",
+      "start": 1368.64,
+      "duration": 4.399
+    },
+    {
+      "text": "connectors, it's crucial to prevent them",
+      "start": 1370.32,
+      "duration": 4.68
+    },
+    {
+      "text": "from becoming isolated",
+      "start": 1373.039,
+      "duration": 4.481
+    },
+    {
+      "text": "silos. True power lies in enabling them",
+      "start": 1375.0,
+      "duration": 4.6
+    },
+    {
+      "text": "to collaborate and share their unique",
+      "start": 1377.52,
+      "duration": 4.639
+    },
+    {
+      "text": "capabilities. Think of stacking Legos",
+      "start": 1379.6,
+      "duration": 5.6
+    },
+    {
+      "text": "over one another. And to facilitate this",
+      "start": 1382.159,
+      "duration": 4.121
+    },
+    {
+      "text": "vital",
+      "start": 1385.2,
+      "duration": 3.44
+    },
+    {
+      "text": "interoperability across your own agents,",
+      "start": 1386.28,
+      "duration": 4.6
+    },
+    {
+      "text": "across various platform, or even across",
+      "start": 1388.64,
+      "duration": 4.88
+    },
+    {
+      "text": "different companies, Google alongside",
+      "start": 1390.88,
+      "duration": 5.919
+    },
+    {
+      "text": "over 50 other industry partners recently",
+      "start": 1393.52,
+      "duration": 5.76
+    },
+    {
+      "text": "launched the agentto agent or A2A",
+      "start": 1396.799,
+      "duration": 4.081
+    },
+    {
+      "text": "protocol.",
+      "start": 1399.28,
+      "duration": 3.92
+    },
+    {
+      "text": "A2A is an open standard designed to",
+      "start": 1400.88,
+      "duration": 5.52
+    },
+    {
+      "text": "allow agents, regardless of how or where",
+      "start": 1403.2,
+      "duration": 5.8
+    },
+    {
+      "text": "they were built, to securely",
+      "start": 1406.4,
+      "duration": 5.44
+    },
+    {
+      "text": "communicate, exchange information, and",
+      "start": 1409.0,
+      "duration": 5.84
+    },
+    {
+      "text": "coordinate actions across longunning",
+      "start": 1411.84,
+      "duration": 6.0
+    },
+    {
+      "text": "tasks. It is built on familiar protocols",
+      "start": 1414.84,
+      "duration": 6.52
+    },
+    {
+      "text": "like HTTP and JSON RPC and facilitates",
+      "start": 1417.84,
+      "duration": 6.079
+    },
+    {
+      "text": "interactions between a client agent",
+      "start": 1421.36,
+      "duration": 5.6
+    },
+    {
+      "text": "initiating a request and a remote server",
+      "start": 1423.919,
+      "duration": 5.521
+    },
+    {
+      "text": "agent fulfilling it.",
+      "start": 1426.96,
+      "duration": 4.8
+    },
+    {
+      "text": "Now let's say you have an AI agent for",
+      "start": 1429.44,
+      "duration": 4.88
+    },
+    {
+      "text": "financial trading which has a strategy",
+      "start": 1431.76,
+      "duration": 4.96
+    },
+    {
+      "text": "agent to identify trading opportunities",
+      "start": 1434.32,
+      "duration": 5.08
+    },
+    {
+      "text": "and a risk agent to do compliance",
+      "start": 1436.72,
+      "duration": 4.72
+    },
+    {
+      "text": "assessment. A single agent in this",
+      "start": 1439.4,
+      "duration": 3.96
+    },
+    {
+      "text": "scenario would be too complex and create",
+      "start": 1441.44,
+      "duration": 5.119
+    },
+    {
+      "text": "a tangle of connections. But with A2A,",
+      "start": 1443.36,
+      "duration": 5.48
+    },
+    {
+      "text": "these agents can now collaborate",
+      "start": 1446.559,
+      "duration": 5.201
+    },
+    {
+      "text": "effectively. The strategy agent can now",
+      "start": 1448.84,
+      "duration": 5.16
+    },
+    {
+      "text": "discover the risk agents capabilities",
+      "start": 1451.76,
+      "duration": 5.6
+    },
+    {
+      "text": "via an agent card. It can then initiate",
+      "start": 1454.0,
+      "duration": 6.44
+    },
+    {
+      "text": "a task sending the trade query as a",
+      "start": 1457.36,
+      "duration": 6.4
+    },
+    {
+      "text": "message. 8 to8 defines how these agents",
+      "start": 1460.44,
+      "duration": 5.88
+    },
+    {
+      "text": "can securely exchange information and",
+      "start": 1463.76,
+      "duration": 5.36
+    },
+    {
+      "text": "coordinate actions even for complex",
+      "start": 1466.32,
+      "duration": 4.12
+    },
+    {
+      "text": "longunning",
+      "start": 1469.12,
+      "duration": 4.0
+    },
+    {
+      "text": "tasks and the risk agent can now provide",
+      "start": 1470.44,
+      "duration": 5.08
+    },
+    {
+      "text": "the status updates on its assessment",
+      "start": 1473.12,
+      "duration": 5.559
+    },
+    {
+      "text": "using either streaming or push",
+      "start": 1475.52,
+      "duration": 5.519
+    },
+    {
+      "text": "notifications. 82A protocol also",
+      "start": 1478.679,
+      "duration": 4.041
+    },
+    {
+      "text": "supports interaction via various",
+      "start": 1481.039,
+      "duration": 4.321
+    },
+    {
+      "text": "modalities such as text, data or files",
+      "start": 1482.72,
+      "duration": 4.559
+    },
+    {
+      "text": "and is designed with enterprisegrade",
+      "start": 1485.36,
+      "duration": 4.439
+    },
+    {
+      "text": "security enabling reliable",
+      "start": 1487.279,
+      "duration": 5.041
+    },
+    {
+      "text": "coordination. The goal is simple. It's",
+      "start": 1489.799,
+      "duration": 4.921
+    },
+    {
+      "text": "universal interoperability.",
+      "start": 1492.32,
+      "duration": 4.16
+    },
+    {
+      "text": "Away enables you to build powerful",
+      "start": 1494.72,
+      "duration": 3.76
+    },
+    {
+      "text": "solutions by composing diverse",
+      "start": 1496.48,
+      "duration": 4.24
+    },
+    {
+      "text": "specialized agents breaking down the",
+      "start": 1498.48,
+      "duration": 5.96
+    },
+    {
+      "text": "technical barriers and ADK natively",
+      "start": 1500.72,
+      "duration": 6.48
+    },
+    {
+      "text": "supports ensuring agents built with it",
+      "start": 1504.44,
+      "duration": 5.08
+    },
+    {
+      "text": "are ready for this interconnected multi-",
+      "start": 1507.2,
+      "duration": 5.44
+    },
+    {
+      "text": "aent future and here's the link to the",
+      "start": 1509.52,
+      "duration": 6.399
+    },
+    {
+      "text": "808 docs for more",
+      "start": 1512.64,
+      "duration": 3.279
+    },
+    {
+      "text": "information to do a quick recap. AI",
+      "start": 1516.44,
+      "duration": 5.88
+    },
+    {
+      "text": "provides a cohesive platform to build",
+      "start": 1520.0,
+      "duration": 4.88
+    },
+    {
+      "text": "agents. It starts with the flexibility",
+      "start": 1522.32,
+      "duration": 4.959
+    },
+    {
+      "text": "of models and secure access to",
+      "start": 1524.88,
+      "duration": 5.2
+    },
+    {
+      "text": "enterprise tools. We can then use the",
+      "start": 1527.279,
+      "duration": 5.081
+    },
+    {
+      "text": "Vert.xi's agent builder to build",
+      "start": 1530.08,
+      "duration": 4.88
+    },
+    {
+      "text": "sophisticated testable agents using the",
+      "start": 1532.36,
+      "duration": 5.96
+    },
+    {
+      "text": "open-source agent development kit.",
+      "start": 1534.96,
+      "duration": 6.0
+    },
+    {
+      "text": "Deploy and manage these agents reliably",
+      "start": 1538.32,
+      "duration": 5.839
+    },
+    {
+      "text": "via the serverless agent engine and",
+      "start": 1540.96,
+      "duration": 5.199
+    },
+    {
+      "text": "accelerate discoverability and",
+      "start": 1544.159,
+      "duration": 4.041
+    },
+    {
+      "text": "development using agent",
+      "start": 1546.159,
+      "duration": 5.681
+    },
+    {
+      "text": "garden and critically enable powerful",
+      "start": 1548.2,
+      "duration": 5.88
+    },
+    {
+      "text": "interoperable multi- aent solutions",
+      "start": 1551.84,
+      "duration": 4.959
+    },
+    {
+      "text": "through the A2A protocol.",
+      "start": 1554.08,
+      "duration": 4.64
+    },
+    {
+      "text": "It is this combination of comprehensive",
+      "start": 1556.799,
+      "duration": 4.48
+    },
+    {
+      "text": "tooling, flexibility, and a clear vision",
+      "start": 1558.72,
+      "duration": 5.6
+    },
+    {
+      "text": "for interoperability that allows you to",
+      "start": 1561.279,
+      "duration": 5.52
+    },
+    {
+      "text": "build, deploy, and manage truly",
+      "start": 1564.32,
+      "duration": 5.8
+    },
+    {
+      "text": "impactful AI agents more effectively on",
+      "start": 1566.799,
+      "duration": 7.561
+    },
+    {
+      "text": "Vert.exai. Thank you.",
+      "start": 1570.12,
+      "duration": 4.24
+    },
+    {
+      "text": "[Applause]",
+      "start": 1575.92,
+      "duration": 3.189
+    }
+  ]
+}

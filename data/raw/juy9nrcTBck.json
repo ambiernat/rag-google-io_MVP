@@ -1,0 +1,1827 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "juy9nrcTBck",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.29
+    },
+    {
+      "text": "YUFENG GUO: How can we balance\nwriting flexible, readable code",
+      "start": 6.11,
+      "duration": 3.42
+    },
+    {
+      "text": "with the optimization needs\nof modern-day accelerators?",
+      "start": 9.53,
+      "duration": 3.48
+    },
+    {
+      "text": "Find out in this talk about\nthe JAX Python library.",
+      "start": 13.01,
+      "duration": 5.58
+    },
+    {
+      "text": "ROBERT DYRO: Hi.",
+      "start": 18.59,
+      "duration": 0.88
+    },
+    {
+      "text": "I'm Robert, a software\nengineer at Google.",
+      "start": 19.47,
+      "duration": 2.105
+    },
+    {
+      "text": "YUFENG GUO: And I'm Yufeng, a\ndeveloper advocate at Google.",
+      "start": 21.575,
+      "duration": 3.475
+    },
+    {
+      "text": "ROBERT DYRO: Today we\nwant to talk about JAX,",
+      "start": 25.05,
+      "duration": 1.98
+    },
+    {
+      "text": "a flexible and fast\nopensource numerical computing",
+      "start": 27.03,
+      "duration": 2.93
+    },
+    {
+      "text": "library from Google DeepMind\nthat allows you to iterate on",
+      "start": 29.96,
+      "duration": 2.88
+    },
+    {
+      "text": "your research ideas\nquickly while still",
+      "start": 32.84,
+      "duration": 2.16
+    },
+    {
+      "text": "executing very fast\non accelerators.",
+      "start": 35.0,
+      "duration": 2.015
+    },
+    {
+      "text": "YUFENG GUO: We'll\nstart by giving",
+      "start": 37.015,
+      "duration": 1.375
+    },
+    {
+      "text": "a brief introduction to JAX\nand some of its core features",
+      "start": 38.39,
+      "duration": 3.39
+    },
+    {
+      "text": "and functionality that\nwill get you started",
+      "start": 41.78,
+      "duration": 2.07
+    },
+    {
+      "text": "and productive and then dive\ninto more details around how",
+      "start": 43.85,
+      "duration": 4.38
+    },
+    {
+      "text": "to scale your code to large data\nsets and more compute resources.",
+      "start": 48.23,
+      "duration": 4.32
+    },
+    {
+      "text": "Out of the box, JAX offers\na familiar NumPy-like API,",
+      "start": 52.55,
+      "duration": 4.39
+    },
+    {
+      "text": "good for scientific computing\nand machine learning.",
+      "start": 56.94,
+      "duration": 2.97
+    },
+    {
+      "text": "Here, we have an example\nwith two functions.",
+      "start": 59.91,
+      "duration": 2.98
+    },
+    {
+      "text": "The predict function\nis representative",
+      "start": 62.89,
+      "duration": 2.03
+    },
+    {
+      "text": "of what you might see in\na multilayer perceptron",
+      "start": 64.92,
+      "duration": 2.52
+    },
+    {
+      "text": "model, sometimes\nabbreviated as MLP,",
+      "start": 67.44,
+      "duration": 3.03
+    },
+    {
+      "text": "doing dot products of\nthe weight matrices",
+      "start": 70.47,
+      "duration": 2.19
+    },
+    {
+      "text": "and adding biases before putting\nit through a tanh activation",
+      "start": 72.66,
+      "duration": 4.02
+    },
+    {
+      "text": "function.",
+      "start": 76.68,
+      "duration": 0.88
+    },
+    {
+      "text": "The loss function\ncompares the output values",
+      "start": 77.56,
+      "duration": 2.81
+    },
+    {
+      "text": "from the predict function\nwith the target output values.",
+      "start": 80.37,
+      "duration": 3.55
+    },
+    {
+      "text": "In this case, we're\ncomputing the sum",
+      "start": 83.92,
+      "duration": 2.12
+    },
+    {
+      "text": "of the squared differences\nbetween predicted and target",
+      "start": 86.04,
+      "duration": 3.36
+    },
+    {
+      "text": "values.",
+      "start": 89.4,
+      "duration": 0.91
+    },
+    {
+      "text": "We could additionally\ndivide by batch size",
+      "start": 90.31,
+      "duration": 2.39
+    },
+    {
+      "text": "if we wanted to compute\nmean squared error.",
+      "start": 92.7,
+      "duration": 3.12
+    },
+    {
+      "text": "These two functions\ncombine to give us",
+      "start": 95.82,
+      "duration": 2.28
+    },
+    {
+      "text": "a nice collection of operations\nto work with, and demonstrate",
+      "start": 98.1,
+      "duration": 3.33
+    },
+    {
+      "text": "some of the core\ncapabilities of JAX.",
+      "start": 101.43,
+      "duration": 2.47
+    },
+    {
+      "text": "Originally written in NumPy,\nwe gain a speed-up simply",
+      "start": 103.9,
+      "duration": 3.95
+    },
+    {
+      "text": "by changing our import to use\nJAX NumPy instead of NumPy",
+      "start": 107.85,
+      "duration": 4.44
+    },
+    {
+      "text": "alone.",
+      "start": 112.29,
+      "duration": 1.63
+    },
+    {
+      "text": "ROBERT DYRO: But\nwait, there's more.",
+      "start": 113.92,
+      "duration": 1.5
+    },
+    {
+      "text": "JAX has several additional\nuseful features and functions",
+      "start": 115.42,
+      "duration": 3.11
+    },
+    {
+      "text": "that we'll talk about next.",
+      "start": 118.53,
+      "duration": 2.04
+    },
+    {
+      "text": "These are presented in the form\nof function transformations.",
+      "start": 120.57,
+      "duration": 2.92
+    },
+    {
+      "text": "Let's explore this\nexample further.",
+      "start": 123.49,
+      "duration": 2.512
+    },
+    {
+      "text": "YUFENG GUO: The first function\ntransformation we'll look at",
+      "start": 126.002,
+      "duration": 2.458
+    },
+    {
+      "text": "is the grad transformation.",
+      "start": 128.46,
+      "duration": 2.44
+    },
+    {
+      "text": "It takes any function as\ninput and transforms it",
+      "start": 130.9,
+      "duration": 3.47
+    },
+    {
+      "text": "into one that computes the\ngradients of your function.",
+      "start": 134.37,
+      "duration": 3.7
+    },
+    {
+      "text": "It does this using\nautomatic differentiation,",
+      "start": 138.07,
+      "duration": 2.88
+    },
+    {
+      "text": "sometimes called\nautodiff, a crucial tool",
+      "start": 140.95,
+      "duration": 2.96
+    },
+    {
+      "text": "for machine learning\nand optimization tasks.",
+      "start": 143.91,
+      "duration": 3.9
+    },
+    {
+      "text": "JAX makes it easy to\ntransform any function",
+      "start": 147.81,
+      "duration": 3.03
+    },
+    {
+      "text": "into its gradient function.",
+      "start": 150.84,
+      "duration": 1.54
+    },
+    {
+      "text": "Simply wrap the\nfunction in grad,",
+      "start": 152.38,
+      "duration": 2.25
+    },
+    {
+      "text": "and right away, you'll\nhave a new function",
+      "start": 154.63,
+      "duration": 2.15
+    },
+    {
+      "text": "for computing the gradient.",
+      "start": 156.78,
+      "duration": 2.7
+    },
+    {
+      "text": "In our example, we've wrapped\nthe loss function with grad.",
+      "start": 159.48,
+      "duration": 3.16
+    },
+    {
+      "text": "And so this will\nenable us to compute",
+      "start": 162.64,
+      "duration": 2.06
+    },
+    {
+      "text": "the gradients of our\nloss function, which",
+      "start": 164.7,
+      "duration": 2.76
+    },
+    {
+      "text": "is the key to figuring\nout how to adjust",
+      "start": 167.46,
+      "duration": 2.13
+    },
+    {
+      "text": "the weights of our model in such\na manner as to lower the error.",
+      "start": 169.59,
+      "duration": 5.16
+    },
+    {
+      "text": "Another function transform that\ntakes care of a common task",
+      "start": 174.75,
+      "duration": 3.93
+    },
+    {
+      "text": "is vmap.",
+      "start": 178.68,
+      "duration": 1.33
+    },
+    {
+      "text": "vmap makes it easy to\nturn a function that",
+      "start": 180.01,
+      "duration": 2.12
+    },
+    {
+      "text": "was written for one element\ninto a function that",
+      "start": 182.13,
+      "duration": 3.03
+    },
+    {
+      "text": "works for many elements,\nsometimes called",
+      "start": 185.16,
+      "duration": 2.43
+    },
+    {
+      "text": "vectorization or batching.",
+      "start": 187.59,
+      "duration": 2.52
+    },
+    {
+      "text": "vmap does this without\nusing a for loop,",
+      "start": 190.11,
+      "duration": 2.77
+    },
+    {
+      "text": "but instead transforms\nthe array and matrix",
+      "start": 192.88,
+      "duration": 2.69
+    },
+    {
+      "text": "dimensions of each\ncalculation to account",
+      "start": 195.57,
+      "duration": 3.3
+    },
+    {
+      "text": "for the batched inputs.",
+      "start": 198.87,
+      "duration": 1.9
+    },
+    {
+      "text": "Now, you could\nwrite that yourself,",
+      "start": 200.77,
+      "duration": 2.55
+    },
+    {
+      "text": "or you can wrap it in vmap\nand move on with your life.",
+      "start": 203.32,
+      "duration": 4.44
+    },
+    {
+      "text": "In our example, we've\nvectorized the function",
+      "start": 207.76,
+      "duration": 2.78
+    },
+    {
+      "text": "that computes the gradients of\nour loss function using vmap,",
+      "start": 210.54,
+      "duration": 4.0
+    },
+    {
+      "text": "allowing it to compute the\ngradients of multiple batches",
+      "start": 214.54,
+      "duration": 3.35
+    },
+    {
+      "text": "all at once.",
+      "start": 217.89,
+      "duration": 0.875
+    },
+    {
+      "text": "ROBERT DYRO: And\nI should mention",
+      "start": 218.765,
+      "duration": 1.375
+    },
+    {
+      "text": "that this works for\nany function, not just",
+      "start": 220.14,
+      "duration": 2.07
+    },
+    {
+      "text": "NumPy functions.",
+      "start": 222.21,
+      "duration": 2.22
+    },
+    {
+      "text": "YUFENG GUO: We said JAX\nmakes your code run fast.",
+      "start": 224.43,
+      "duration": 3.96
+    },
+    {
+      "text": "How does it do this?",
+      "start": 228.39,
+      "duration": 1.21
+    },
+    {
+      "text": "Well, JAX can perform\nJust-In-Time compilation,",
+      "start": 229.6,
+      "duration": 4.06
+    },
+    {
+      "text": "or JIT, to create optimized\ncode that can run super fast.",
+      "start": 233.66,
+      "duration": 5.48
+    },
+    {
+      "text": "Compilation offers a\nhost of advantages.",
+      "start": 239.14,
+      "duration": 3.1
+    },
+    {
+      "text": "It cuts down on latency and\nlets you utilize your hardware",
+      "start": 242.24,
+      "duration": 3.41
+    },
+    {
+      "text": "more efficiently automatically.",
+      "start": 245.65,
+      "duration": 1.99
+    },
+    {
+      "text": "Compilation eliminates\nunused outputs",
+      "start": 247.64,
+      "duration": 2.39
+    },
+    {
+      "text": "and unnecessary\nrecomputations, so you",
+      "start": 250.03,
+      "duration": 2.7
+    },
+    {
+      "text": "don't have to worry about\nmanually rewriting your code.",
+      "start": 252.73,
+      "duration": 2.92
+    },
+    {
+      "text": "It can combine or\nfuse operations.",
+      "start": 255.65,
+      "duration": 3.39
+    },
+    {
+      "text": "And it manages\ntheir organization,",
+      "start": 259.04,
+      "duration": 1.979
+    },
+    {
+      "text": "maximizing hardware\nutilization, ultimately leading",
+      "start": 261.019,
+      "duration": 3.561
+    },
+    {
+      "text": "to faster function execution.",
+      "start": 264.58,
+      "duration": 2.01
+    },
+    {
+      "text": "Finally, you can compile the\nautomatic differentiation",
+      "start": 266.59,
+      "duration": 3.57
+    },
+    {
+      "text": "operations too and get an\noptimized backwards pass.",
+      "start": 270.16,
+      "duration": 3.637
+    },
+    {
+      "text": "ROBERT DYRO: That's a\nnice list of features.",
+      "start": 273.797,
+      "duration": 1.833
+    },
+    {
+      "text": "But how do we actually use JIT?",
+      "start": 275.63,
+      "duration": 1.88
+    },
+    {
+      "text": "YUFENG GUO: Well,\nif you're starting",
+      "start": 277.51,
+      "duration": 1.5
+    },
+    {
+      "text": "to catch on to\nthe pattern, we're",
+      "start": 279.01,
+      "duration": 1.62
+    },
+    {
+      "text": "going to recap what we've\ndone so far with JIT.",
+      "start": 280.63,
+      "duration": 3.16
+    },
+    {
+      "text": "So it will be the JIT of the\nvmap of the grad of the loss.",
+      "start": 283.79,
+      "duration": 6.14
+    },
+    {
+      "text": "JIT also has a bonus feature--",
+      "start": 289.93,
+      "duration": 2.81
+    },
+    {
+      "text": "parallelization.",
+      "start": 292.74,
+      "duration": 1.75
+    },
+    {
+      "text": "It supports both automatic\nand manual splitting",
+      "start": 294.49,
+      "duration": 2.78
+    },
+    {
+      "text": "of computation across\nmany devices and hosts,",
+      "start": 297.27,
+      "duration": 3.31
+    },
+    {
+      "text": "letting you scale horizontally\nby parallelizing your workloads.",
+      "start": 300.58,
+      "duration": 4.4
+    },
+    {
+      "text": "In this fully automatic\nmode, all you need to do",
+      "start": 304.98,
+      "duration": 2.82
+    },
+    {
+      "text": "is specify how to\nsplit the input",
+      "start": 307.8,
+      "duration": 2.34
+    },
+    {
+      "text": "and the output of your data.",
+      "start": 310.14,
+      "duration": 1.96
+    },
+    {
+      "text": "Now, the topic of\nparallelization is quite large,",
+      "start": 312.1,
+      "duration": 2.72
+    },
+    {
+      "text": "and there are many ways to\nsplit up your workloads.",
+      "start": 314.82,
+      "duration": 3.01
+    },
+    {
+      "text": "JAX provides a unified approach\nto parallelization through JIT,",
+      "start": 317.83,
+      "duration": 4.61
+    },
+    {
+      "text": "but also provides\nyou additional tools",
+      "start": 322.44,
+      "duration": 2.64
+    },
+    {
+      "text": "if you want partial or\nfully-manual control.",
+      "start": 325.08,
+      "duration": 3.85
+    },
+    {
+      "text": "You get to specify how you'd\nlike to parallelize and scale",
+      "start": 328.93,
+      "duration": 3.26
+    },
+    {
+      "text": "your data and your model.",
+      "start": 332.19,
+      "duration": 2.04
+    },
+    {
+      "text": "Let's explore all of that next.",
+      "start": 334.23,
+      "duration": 3.832
+    },
+    {
+      "text": "ROBERT DYRO: Well, the\ntopic of optimal scaling",
+      "start": 338.062,
+      "duration": 1.958
+    },
+    {
+      "text": "is a complex one.",
+      "start": 340.02,
+      "duration": 1.09
+    },
+    {
+      "text": "JAX makes scaling as easy as\npossible with a unified API.",
+      "start": 341.11,
+      "duration": 4.55
+    },
+    {
+      "text": "Let's talk more about how\nparallelization works in JAX.",
+      "start": 345.66,
+      "duration": 3.15
+    },
+    {
+      "text": "I should mention that the\napproach is the same no matter",
+      "start": 348.81,
+      "duration": 2.772
+    },
+    {
+      "text": "what kind of hardware\nyou're running on--",
+      "start": 351.582,
+      "duration": 1.708
+    },
+    {
+      "text": "CPU, GPU, or TPU--",
+      "start": 353.29,
+      "duration": 1.89
+    },
+    {
+      "text": "or what scale-- single\ndevice, single host,",
+      "start": 355.18,
+      "duration": 2.92
+    },
+    {
+      "text": "or thousands of chips.",
+      "start": 358.1,
+      "duration": 1.61
+    },
+    {
+      "text": "It's all the same\ntransform, JAX JIT.",
+      "start": 359.71,
+      "duration": 2.657
+    },
+    {
+      "text": "Write your code with a\nglobal view of the program,",
+      "start": 362.367,
+      "duration": 2.083
+    },
+    {
+      "text": "and the shapes stay\nthe same, no matter",
+      "start": 364.45,
+      "duration": 2.25
+    },
+    {
+      "text": "whether you're on a single\ndevice or on end devices.",
+      "start": 366.7,
+      "duration": 3.51
+    },
+    {
+      "text": "JAX figures out how\nto split things up,",
+      "start": 370.21,
+      "duration": 2.14
+    },
+    {
+      "text": "but you program by computing\non the full-sized array shapes.",
+      "start": 372.35,
+      "duration": 3.18
+    },
+    {
+      "text": "The API is portable and works\non any backend, old and new,",
+      "start": 375.53,
+      "duration": 4.07
+    },
+    {
+      "text": "thanks to the\nworld-class compiler",
+      "start": 379.6,
+      "duration": 1.56
+    },
+    {
+      "text": "XLA from the OpenXLA project\nat Google, which stands",
+      "start": 381.16,
+      "duration": 3.93
+    },
+    {
+      "text": "for Accelerated Linear Algebra.",
+      "start": 385.09,
+      "duration": 2.28
+    },
+    {
+      "text": "XLA is a big part of how JAX\nachieves such incredible compute",
+      "start": 387.37,
+      "duration": 3.24
+    },
+    {
+      "text": "performance on TPUs and GPUs.",
+      "start": 390.61,
+      "duration": 3.09
+    },
+    {
+      "text": "We're big fans.",
+      "start": 393.7,
+      "duration": 1.98
+    },
+    {
+      "text": "Importantly, the\nAPI is scalable,",
+      "start": 395.68,
+      "duration": 2.44
+    },
+    {
+      "text": "going from one device\nto 10 or even to 10,000.",
+      "start": 398.12,
+      "duration": 3.71
+    },
+    {
+      "text": "All it takes is using JIT.",
+      "start": 401.83,
+      "duration": 2.772
+    },
+    {
+      "text": "In the case of a\nneural network, we",
+      "start": 404.602,
+      "duration": 1.458
+    },
+    {
+      "text": "can write a splitting\nspecification for parameters",
+      "start": 406.06,
+      "duration": 2.71
+    },
+    {
+      "text": "and let JIT handle\nparallelizing computation.",
+      "start": 408.77,
+      "duration": 2.67
+    },
+    {
+      "text": "It's a single abstraction\nfor data parallelism,",
+      "start": 411.44,
+      "duration": 2.5
+    },
+    {
+      "text": "tensor parallelism, and\npipeline parallelism.",
+      "start": 413.94,
+      "duration": 2.1
+    },
+    {
+      "text": "In this diagram,\nwe see an example",
+      "start": 416.04,
+      "duration": 1.61
+    },
+    {
+      "text": "of how both operations\nand parameters can",
+      "start": 417.65,
+      "duration": 1.92
+    },
+    {
+      "text": "be spread across two chips.",
+      "start": 419.57,
+      "duration": 1.74
+    },
+    {
+      "text": "We don't need to manually handle\nspecifying the data splitting",
+      "start": 421.31,
+      "duration": 2.79
+    },
+    {
+      "text": "or parallelization of\nintermediate computations,",
+      "start": 424.1,
+      "duration": 3.04
+    },
+    {
+      "text": "as the compiler already\nknows what to do.",
+      "start": 427.14,
+      "duration": 3.17
+    },
+    {
+      "text": "YUFENG GUO: So how do\nyou get started with JAX?",
+      "start": 430.31,
+      "duration": 3.0
+    },
+    {
+      "text": "If you're excited to try out\nJAX and check out the ecosystem,",
+      "start": 433.31,
+      "duration": 3.82
+    },
+    {
+      "text": "head over to jax.dev\nto get started.",
+      "start": 437.13,
+      "duration": 4.16
+    },
+    {
+      "text": "There are a number of great\nuser guides and tutorials",
+      "start": 441.29,
+      "duration": 3.43
+    },
+    {
+      "text": "as well as advanced guides for\nspecific, established, and new",
+      "start": 444.72,
+      "duration": 3.77
+    },
+    {
+      "text": "computational techniques\nwith JAX implementations,",
+      "start": 448.49,
+      "duration": 2.86
+    },
+    {
+      "text": "as well as things to watch out\nfor to help you on your journey.",
+      "start": 451.35,
+      "duration": 4.033
+    },
+    {
+      "text": "Something we haven't\nmentioned yet",
+      "start": 455.383,
+      "duration": 1.417
+    },
+    {
+      "text": "is that JAX is actually just the\nlean core of a whole ecosystem",
+      "start": 456.8,
+      "duration": 5.25
+    },
+    {
+      "text": "of libraries.",
+      "start": 462.05,
+      "duration": 0.91
+    },
+    {
+      "text": "There are many\nlibraries which have",
+      "start": 462.96,
+      "duration": 1.82
+    },
+    {
+      "text": "built additional\nfunctionality on top of JAX",
+      "start": 464.78,
+      "duration": 2.85
+    },
+    {
+      "text": "so you don't have to implement\nevery feature yourself.",
+      "start": 467.63,
+      "duration": 3.98
+    },
+    {
+      "text": "As the frontier of\nresearch evolves,",
+      "start": 471.61,
+      "duration": 2.38
+    },
+    {
+      "text": "this ecosystem of tools and\nlibraries will evolve with it.",
+      "start": 473.99,
+      "duration": 3.86
+    },
+    {
+      "text": "This allows the\ncore library of JAX",
+      "start": 477.85,
+      "duration": 1.98
+    },
+    {
+      "text": "to stay compact and\nwell tested and enable",
+      "start": 479.83,
+      "duration": 3.06
+    },
+    {
+      "text": "the ecosystem of libraries\nto more rapidly experiment,",
+      "start": 482.89,
+      "duration": 3.25
+    },
+    {
+      "text": "evolve, and adjust\nbased on new research",
+      "start": 486.14,
+      "duration": 2.63
+    },
+    {
+      "text": "and the needs of the community.",
+      "start": 488.77,
+      "duration": 1.84
+    },
+    {
+      "text": "Most of these libraries\nfocus on specific tasks",
+      "start": 490.61,
+      "duration": 3.05
+    },
+    {
+      "text": "and can be used in\nconcert with one another.",
+      "start": 493.66,
+      "duration": 2.55
+    },
+    {
+      "text": "For example, NNX is a neural\nnetwork library written in JAX,",
+      "start": 496.21,
+      "duration": 4.69
+    },
+    {
+      "text": "and Optax is an optimizer\nlibrary that works with it.",
+      "start": 500.9,
+      "duration": 4.08
+    },
+    {
+      "text": "Grain can be used to\nload your data in,",
+      "start": 504.98,
+      "duration": 2.13
+    },
+    {
+      "text": "and Orbax can be used to manage\nyour machine-learning-model",
+      "start": 507.11,
+      "duration": 3.51
+    },
+    {
+      "text": "checkpoints.",
+      "start": 510.62,
+      "duration": 1.325
+    },
+    {
+      "text": "ROBERT DYRO: There are many\ntools in the ecosystem,",
+      "start": 511.945,
+      "duration": 2.125
+    },
+    {
+      "text": "with some recommendations\nfeatured at jax.dev,",
+      "start": 514.07,
+      "duration": 2.7
+    },
+    {
+      "text": "but also discoverable through\ncommunity lists of awesome JAX",
+      "start": 516.77,
+      "duration": 3.05
+    },
+    {
+      "text": "projects.",
+      "start": 519.82,
+      "duration": 1.484
+    },
+    {
+      "text": "YUFENG GUO: So far in, this\nfirst half of the talk,",
+      "start": 521.304,
+      "duration": 2.125
+    },
+    {
+      "text": "we've introduced some\nJAX basics and talked",
+      "start": 523.429,
+      "duration": 2.131
+    },
+    {
+      "text": "about how you might get\nstarted from the NumPy API",
+      "start": 525.56,
+      "duration": 3.06
+    },
+    {
+      "text": "to its modern\nscientific computing",
+      "start": 528.62,
+      "duration": 1.86
+    },
+    {
+      "text": "features of automatic\ndifferentiation, batching,",
+      "start": 530.48,
+      "duration": 2.92
+    },
+    {
+      "text": "and compilation, JAX offers\na robust set of tools",
+      "start": 533.4,
+      "duration": 3.62
+    },
+    {
+      "text": "to easily write\nhighly performant code",
+      "start": 537.02,
+      "duration": 2.31
+    },
+    {
+      "text": "that can run on any hardware.",
+      "start": 539.33,
+      "duration": 2.23
+    },
+    {
+      "text": "We really want to\nemphasize this portability.",
+      "start": 541.56,
+      "duration": 2.57
+    },
+    {
+      "text": "With support for both older and\nfuture hardware, the scalable,",
+      "start": 544.13,
+      "duration": 4.77
+    },
+    {
+      "text": "unified parallel API makes JAX\nfundamentally compatible with",
+      "start": 548.9,
+      "duration": 4.56
+    },
+    {
+      "text": "parallel computing, using the\nsame abstractions for one chip",
+      "start": 553.46,
+      "duration": 3.63
+    },
+    {
+      "text": "as 10,000 chips.",
+      "start": 557.09,
+      "duration": 2.67
+    },
+    {
+      "text": "In recent years, JAX\nhas really found itself",
+      "start": 559.76,
+      "duration": 2.73
+    },
+    {
+      "text": "at the forefront of research\nand scientific computing.",
+      "start": 562.49,
+      "duration": 3.37
+    },
+    {
+      "text": "With its stable core library\nand composable function",
+      "start": 565.86,
+      "duration": 3.23
+    },
+    {
+      "text": "transformations, it has\nserved as a foundation",
+      "start": 569.09,
+      "duration": 3.21
+    },
+    {
+      "text": "for an ever-evolving\necosystem of libraries",
+      "start": 572.3,
+      "duration": 2.61
+    },
+    {
+      "text": "built on top of JAX.",
+      "start": 574.91,
+      "duration": 2.61
+    },
+    {
+      "text": "But, Robert, what if\nyou're somebody who",
+      "start": 577.52,
+      "duration": 2.46
+    },
+    {
+      "text": "needs even more performance\nand customization?",
+      "start": 579.98,
+      "duration": 4.52
+    },
+    {
+      "text": "ROBERT DYRO: Well, JAX\nstill has you covered.",
+      "start": 584.5,
+      "duration": 2.76
+    },
+    {
+      "text": "In the second part\nof the talk, we'll",
+      "start": 587.26,
+      "duration": 1.95
+    },
+    {
+      "text": "explore some of JAX's\nadditional features",
+      "start": 589.21,
+      "duration": 2.05
+    },
+    {
+      "text": "giving you various\nlevels of manual control.",
+      "start": 591.26,
+      "duration": 2.63
+    },
+    {
+      "text": "JAX has really great out\nof the box performance,",
+      "start": 593.89,
+      "duration": 2.71
+    },
+    {
+      "text": "but if you want, you\ncan have full control.",
+      "start": 596.6,
+      "duration": 2.72
+    },
+    {
+      "text": "This means custom\ncontrol going all the way",
+      "start": 599.32,
+      "duration": 2.19
+    },
+    {
+      "text": "from high-level abstractions\ndown to assembly-level machine",
+      "start": 601.51,
+      "duration": 2.91
+    },
+    {
+      "text": "code.",
+      "start": 604.42,
+      "duration": 1.38
+    },
+    {
+      "text": "Of course, there are\ntrade-offs in flexibility",
+      "start": 605.8,
+      "duration": 2.25
+    },
+    {
+      "text": "as you move along this curve.",
+      "start": 608.05,
+      "duration": 1.6
+    },
+    {
+      "text": "But these customizations\nare really",
+      "start": 609.65,
+      "duration": 1.82
+    },
+    {
+      "text": "what allows for high-performance\ncompute in all cases,",
+      "start": 611.47,
+      "duration": 3.04
+    },
+    {
+      "text": "especially for novel\ncomputing applications.",
+      "start": 614.51,
+      "duration": 3.71
+    },
+    {
+      "text": "Let's talk about a subset\nof these features, shard_map",
+      "start": 618.22,
+      "duration": 2.79
+    },
+    {
+      "text": "and the Pallas kernel language.",
+      "start": 621.01,
+      "duration": 1.95
+    },
+    {
+      "text": "They sit at two different\nlevels of abstraction,",
+      "start": 622.96,
+      "duration": 2.62
+    },
+    {
+      "text": "letting you customize\nhigh-performance accelerated",
+      "start": 625.58,
+      "duration": 2.18
+    },
+    {
+      "text": "numerical computing.",
+      "start": 627.76,
+      "duration": 2.55
+    },
+    {
+      "text": "Earlier, we focused on a\nglobal view of your program.",
+      "start": 630.31,
+      "duration": 2.57
+    },
+    {
+      "text": "shard_map gives you\na per device view.",
+      "start": 632.88,
+      "duration": 2.74
+    },
+    {
+      "text": "You can start\nthinking about what",
+      "start": 635.62,
+      "duration": 1.38
+    },
+    {
+      "text": "is happening on each device\nand control communication",
+      "start": 637.0,
+      "duration": 2.89
+    },
+    {
+      "text": "across the devices explicitly.",
+      "start": 639.89,
+      "duration": 2.49
+    },
+    {
+      "text": "The example code shown here\nexecutes a collective matrix",
+      "start": 642.38,
+      "duration": 2.77
+    },
+    {
+      "text": "multiply, first computing\nand then communicating",
+      "start": 645.15,
+      "duration": 2.75
+    },
+    {
+      "text": "the result across the chips.",
+      "start": 647.9,
+      "duration": 2.278
+    },
+    {
+      "text": "This is what tensor\nparallelism in a linear layer",
+      "start": 650.178,
+      "duration": 2.042
+    },
+    {
+      "text": "of a transformer\nmight look like.",
+      "start": 652.22,
+      "duration": 2.19
+    },
+    {
+      "text": "This case is quite common.",
+      "start": 654.41,
+      "duration": 1.39
+    },
+    {
+      "text": "It lets you train a large\nmodel by distributing it up",
+      "start": 655.8,
+      "duration": 2.36
+    },
+    {
+      "text": "across chips but also\nsplits up computation work",
+      "start": 658.16,
+      "duration": 3.57
+    },
+    {
+      "text": "for faster execution.",
+      "start": 661.73,
+      "duration": 2.58
+    },
+    {
+      "text": "You don't have to use\nshard_map to do this.",
+      "start": 664.31,
+      "duration": 1.99
+    },
+    {
+      "text": "The JIT compiler can\nspecify this computation",
+      "start": 666.3,
+      "duration": 2.09
+    },
+    {
+      "text": "and communication for you.",
+      "start": 668.39,
+      "duration": 1.48
+    },
+    {
+      "text": "But with shard_map,\nyou can control exactly",
+      "start": 669.87,
+      "duration": 2.57
+    },
+    {
+      "text": "which of the various\npossible parallel strategies",
+      "start": 672.44,
+      "duration": 2.13
+    },
+    {
+      "text": "your computation uses.",
+      "start": 674.57,
+      "duration": 3.03
+    },
+    {
+      "text": "shard_map gives you a\nlot of manual control.",
+      "start": 677.6,
+      "duration": 2.41
+    },
+    {
+      "text": "But in the spirit of\nJAX, it still supports",
+      "start": 680.01,
+      "duration": 2.42
+    },
+    {
+      "text": "composable function\ntransformations,",
+      "start": 682.43,
+      "duration": 1.68
+    },
+    {
+      "text": "like autodifferentiation.",
+      "start": 684.11,
+      "duration": 2.82
+    },
+    {
+      "text": "Typically, we only use\nshard_map for parts",
+      "start": 686.93,
+      "duration": 2.25
+    },
+    {
+      "text": "of a program that need to\nbe carefully controlled.",
+      "start": 689.18,
+      "duration": 2.65
+    },
+    {
+      "text": "But if you prefer, you could\nput all your computations",
+      "start": 691.83,
+      "duration": 3.05
+    },
+    {
+      "text": "inside a single shard_map and\nuse the explicit collectives,",
+      "start": 694.88,
+      "duration": 3.47
+    },
+    {
+      "text": "exposing jax.lax for\nall communication.",
+      "start": 698.35,
+      "duration": 3.95
+    },
+    {
+      "text": "jax.lax contains a lot\nof lower-level primitives",
+      "start": 702.3,
+      "duration": 2.67
+    },
+    {
+      "text": "for operations not\nexpressed in NumPy.",
+      "start": 704.97,
+      "duration": 3.12
+    },
+    {
+      "text": "No one really knows what\nthe L in lax stands for,",
+      "start": 708.09,
+      "duration": 2.8
+    },
+    {
+      "text": "but it might be for low level.",
+      "start": 710.89,
+      "duration": 3.05
+    },
+    {
+      "text": "shard_map allows you\nto write low-level code",
+      "start": 713.94,
+      "duration": 2.01
+    },
+    {
+      "text": "to implement some very\ninteresting specialty features.",
+      "start": 715.95,
+      "duration": 3.21
+    },
+    {
+      "text": "Some example applications\ninclude parallelized mixture",
+      "start": 719.16,
+      "duration": 2.64
+    },
+    {
+      "text": "of expert layers,\ncompute communication",
+      "start": 721.8,
+      "duration": 2.28
+    },
+    {
+      "text": "overlap matrix multiplies\nwritten directly in JAX,",
+      "start": 724.08,
+      "duration": 3.24
+    },
+    {
+      "text": "and using JAX for efficient\ncommunication in custom",
+      "start": 727.32,
+      "duration": 3.18
+    },
+    {
+      "text": "distributed scientific\ncomputations.",
+      "start": 730.5,
+      "duration": 2.85
+    },
+    {
+      "text": "YUFENG GUO: So what if someone\nwants to go even lower?",
+      "start": 733.35,
+      "duration": 3.43
+    },
+    {
+      "text": "Can we go lower level?",
+      "start": 736.78,
+      "duration": 1.5
+    },
+    {
+      "text": "Is such a thing even possible?",
+      "start": 738.28,
+      "duration": 2.13
+    },
+    {
+      "text": "ROBERT DYRO: Yes,\nwe can go lower.",
+      "start": 740.41,
+      "duration": 2.3
+    },
+    {
+      "text": "The next step are\nkernel languages,",
+      "start": 742.71,
+      "duration": 2.02
+    },
+    {
+      "text": "which give you quite a\nlow-level control over hardware.",
+      "start": 744.73,
+      "duration": 3.44
+    },
+    {
+      "text": "They are operating close\nto the hardware level",
+      "start": 748.17,
+      "duration": 1.95
+    },
+    {
+      "text": "but are still programmed\nthrough Python.",
+      "start": 750.12,
+      "duration": 2.28
+    },
+    {
+      "text": "It's low-level control with\nfast development iteration,",
+      "start": 752.4,
+      "duration": 3.79
+    },
+    {
+      "text": "great for AI and\ncomputational research.",
+      "start": 756.19,
+      "duration": 3.07
+    },
+    {
+      "text": "Let's get a better\nidea of how they work.",
+      "start": 759.26,
+      "duration": 2.97
+    },
+    {
+      "text": "Kernel languages offer direct,\nlow-level computation and memory",
+      "start": 762.23,
+      "duration": 3.18
+    },
+    {
+      "text": "control.",
+      "start": 765.41,
+      "duration": 1.08
+    },
+    {
+      "text": "A popular kernel\nlanguage is Triton,",
+      "start": 766.49,
+      "duration": 2.23
+    },
+    {
+      "text": "and JAX fully supports it\nthrough the jax-triton package.",
+      "start": 768.72,
+      "duration": 3.8
+    },
+    {
+      "text": "Google DeepMind has also created\na kernel language of its own",
+      "start": 772.52,
+      "duration": 3.06
+    },
+    {
+      "text": "for high-performance\ncomputational research called",
+      "start": 775.58,
+      "duration": 2.28
+    },
+    {
+      "text": "Pallas, which targets\nboth GPUs and TPUs.",
+      "start": 777.86,
+      "duration": 4.53
+    },
+    {
+      "text": "It has a common core with some\nspecialized backend features",
+      "start": 782.39,
+      "duration": 3.21
+    },
+    {
+      "text": "for each hardware backend.",
+      "start": 785.6,
+      "duration": 2.22
+    },
+    {
+      "text": "The idea behind\nPallas is to provide",
+      "start": 787.82,
+      "duration": 2.07
+    },
+    {
+      "text": "both the common\nlow-level control",
+      "start": 789.89,
+      "duration": 2.19
+    },
+    {
+      "text": "that kernel languages offer\nbut also add manual control",
+      "start": 792.08,
+      "duration": 3.51
+    },
+    {
+      "text": "over the memory pipeline.",
+      "start": 795.59,
+      "duration": 2.19
+    },
+    {
+      "text": "This allows you to achieve fully\nstate of the art performance",
+      "start": 797.78,
+      "duration": 2.55
+    },
+    {
+      "text": "without writing\nmachine code directly.",
+      "start": 800.33,
+      "duration": 3.18
+    },
+    {
+      "text": "The distinguishing\nfeature of Pallas",
+      "start": 803.51,
+      "duration": 1.53
+    },
+    {
+      "text": "is the explicit memory\npipeline control.",
+      "start": 805.04,
+      "duration": 2.2
+    },
+    {
+      "text": "You specify in what\norder the hardware",
+      "start": 807.24,
+      "duration": 1.85
+    },
+    {
+      "text": "should load data into memory--",
+      "start": 809.09,
+      "duration": 1.54
+    },
+    {
+      "text": "so the block spec\nabstraction-- to fully utilize",
+      "start": 810.63,
+      "duration": 2.93
+    },
+    {
+      "text": "memory bandwidth and not\nwaste compute cycles.",
+      "start": 813.56,
+      "duration": 2.95
+    },
+    {
+      "text": "By allowing the user to\ndefine this explicitly",
+      "start": 816.51,
+      "duration": 2.58
+    },
+    {
+      "text": "rather than letting the\ncompiler take its best guess,",
+      "start": 819.09,
+      "duration": 2.74
+    },
+    {
+      "text": "a lot of performance\ncan be gained,",
+      "start": 821.83,
+      "duration": 1.77
+    },
+    {
+      "text": "especially on newer hardware.",
+      "start": 823.6,
+      "duration": 2.255
+    },
+    {
+      "text": "YUFENG GUO: I\ndon't know, Robert.",
+      "start": 825.855,
+      "duration": 1.375
+    },
+    {
+      "text": "Low-level optimizations\nare often quite",
+      "start": 827.23,
+      "duration": 2.69
+    },
+    {
+      "text": "challenging to write.",
+      "start": 829.92,
+      "duration": 2.038
+    },
+    {
+      "text": "ROBERT DYRO: While it may\nseem difficult to write",
+      "start": 831.958,
+      "duration": 2.042
+    },
+    {
+      "text": "low-level code, Pallas syntax is\nactually quite similar to NumPy,",
+      "start": 834.0,
+      "duration": 3.52
+    },
+    {
+      "text": "although only a subset of\noperations is supported.",
+      "start": 837.52,
+      "duration": 3.26
+    },
+    {
+      "text": "Like JAX, Pallas is also traced,\nso metaprogramming's fully",
+      "start": 840.78,
+      "duration": 3.51
+    },
+    {
+      "text": "supported.",
+      "start": 844.29,
+      "duration": 0.99
+    },
+    {
+      "text": "It can do operation\nfusion, batching, but not",
+      "start": 845.28,
+      "duration": 2.82
+    },
+    {
+      "text": "automatic differentiation.",
+      "start": 848.1,
+      "duration": 1.6
+    },
+    {
+      "text": "For that, you have to provide\nexplicit differentiation rules",
+      "start": 849.7,
+      "duration": 2.99
+    },
+    {
+      "text": "to JAX.",
+      "start": 852.69,
+      "duration": 1.32
+    },
+    {
+      "text": "The idea is to give you as\nmuch control as possible",
+      "start": 854.01,
+      "duration": 2.64
+    },
+    {
+      "text": "with minimal boilerplate\nand overhead.",
+      "start": 856.65,
+      "duration": 2.85
+    },
+    {
+      "text": "We want the code to be\nquick to write and run fast.",
+      "start": 859.5,
+      "duration": 4.057
+    },
+    {
+      "text": "Let's take a brief look at\nwhat calling your Pallas code",
+      "start": 863.557,
+      "duration": 2.333
+    },
+    {
+      "text": "might look like.",
+      "start": 865.89,
+      "duration": 1.11
+    },
+    {
+      "text": "In general, we want to\nrun your Pallas kernel",
+      "start": 867.0,
+      "duration": 2.22
+    },
+    {
+      "text": "code on small slices of data\nfrom your accelerator's memory.",
+      "start": 869.22,
+      "duration": 4.09
+    },
+    {
+      "text": "The JAX code shown below\nis creating a kernel call",
+      "start": 873.31,
+      "duration": 2.61
+    },
+    {
+      "text": "by combining the kernel function\nand the manual data pipeline.",
+      "start": 875.92,
+      "duration": 3.96
+    },
+    {
+      "text": "Being explicit\nabout the pipeline",
+      "start": 879.88,
+      "duration": 1.65
+    },
+    {
+      "text": "lets the hardware run\nas fast as possible.",
+      "start": 881.53,
+      "duration": 2.35
+    },
+    {
+      "text": "Pallas targets GPUs and TPUs\nthrough its own compiler called",
+      "start": 883.88,
+      "duration": 3.23
+    },
+    {
+      "text": "mosaic.",
+      "start": 887.11,
+      "duration": 0.82
+    },
+    {
+      "text": "Mosaic can compile your\nPallas program to GPU or TPU.",
+      "start": 887.93,
+      "duration": 3.92
+    },
+    {
+      "text": "Alternatively, you can\nuse jax-triton to compile",
+      "start": 891.85,
+      "duration": 2.61
+    },
+    {
+      "text": "your palace kernel\nthrough Triton too.",
+      "start": 894.46,
+      "duration": 2.4
+    },
+    {
+      "text": "YUFENG GUO: OK, Robert,\nPallas definitely",
+      "start": 896.86,
+      "duration": 1.86
+    },
+    {
+      "text": "seems a very impressive\npiece of technology.",
+      "start": 898.72,
+      "duration": 2.89
+    },
+    {
+      "text": "But in practice,\nwhat is Pallas for?",
+      "start": 901.61,
+      "duration": 3.21
+    },
+    {
+      "text": "Can you share some\nexamples of what",
+      "start": 904.82,
+      "duration": 1.97
+    },
+    {
+      "text": "people are doing with Pallas?",
+      "start": 906.79,
+      "duration": 1.81
+    },
+    {
+      "text": "ROBERT DYRO: That's\na good point.",
+      "start": 908.6,
+      "duration": 1.43
+    },
+    {
+      "text": "You might still be a bit\nskeptical about the purpose",
+      "start": 910.03,
+      "duration": 2.167
+    },
+    {
+      "text": "of custom kernels.",
+      "start": 912.197,
+      "duration": 1.253
+    },
+    {
+      "text": "Well, here are some examples\nof opensource Pallas kernels",
+      "start": 913.45,
+      "duration": 3.36
+    },
+    {
+      "text": "that exist today.",
+      "start": 916.81,
+      "duration": 1.422
+    },
+    {
+      "text": "These are important\nbuilding blocks",
+      "start": 918.232,
+      "duration": 1.458
+    },
+    {
+      "text": "of some of the state\nof the art models.",
+      "start": 919.69,
+      "duration": 3.39
+    },
+    {
+      "text": "Rewriting these\noperations in Pallas,",
+      "start": 923.08,
+      "duration": 1.9
+    },
+    {
+      "text": "you can customize the\ncomputation to your exact setup",
+      "start": 924.98,
+      "duration": 2.91
+    },
+    {
+      "text": "or quickly develop\nbuilding-block operations",
+      "start": 927.89,
+      "duration": 2.33
+    },
+    {
+      "text": "that don't have an efficient\nimplementation today.",
+      "start": 930.22,
+      "duration": 2.46
+    },
+    {
+      "text": "And when you do,\nconsider open sourcing it",
+      "start": 932.68,
+      "duration": 2.57
+    },
+    {
+      "text": "so that others can\nbenefit from your work.",
+      "start": 935.25,
+      "duration": 3.265
+    },
+    {
+      "text": "We've given you a\nlittle view into some",
+      "start": 938.515,
+      "duration": 1.625
+    },
+    {
+      "text": "of the more advanced\nfeatures of JAX,",
+      "start": 940.14,
+      "duration": 1.9
+    },
+    {
+      "text": "and showing you how extensible\nit is and the Escape hatches",
+      "start": 942.04,
+      "duration": 3.32
+    },
+    {
+      "text": "that JAX provides at every\nlevel of abstraction,",
+      "start": 945.36,
+      "duration": 2.38
+    },
+    {
+      "text": "with several levels\nof manual control,",
+      "start": 947.74,
+      "duration": 2.04
+    },
+    {
+      "text": "from explicit parallelism\nhints with JIT",
+      "start": 949.78,
+      "duration": 2.03
+    },
+    {
+      "text": "to shard_map and even kernel\nlanguages like Pallas giving you",
+      "start": 951.81,
+      "duration": 4.2
+    },
+    {
+      "text": "control of the memory pipeline\nfrom other accelerator chips--",
+      "start": 956.01,
+      "duration": 4.02
+    },
+    {
+      "text": "truly a superpower.",
+      "start": 960.03,
+      "duration": 2.46
+    },
+    {
+      "text": "YUFENG GUO: So give JAX a try,\nand let us know what you think.",
+      "start": 962.49,
+      "duration": 2.68
+    },
+    {
+      "text": "Visit jax.dev to get\nall the latest info.",
+      "start": 965.17,
+      "duration": 2.72
+    },
+    {
+      "text": "And if you have\nmore questions, feel",
+      "start": 967.89,
+      "duration": 1.89
+    },
+    {
+      "text": "free to open a\ndiscussion on GitHub.",
+      "start": 969.78,
+      "duration": 2.637
+    },
+    {
+      "text": "ROBERT DYRO: That's all for now.",
+      "start": 972.417,
+      "duration": 1.333
+    },
+    {
+      "text": "Thanks so much for\nwatching, and we",
+      "start": 973.75,
+      "duration": 1.46
+    },
+    {
+      "text": "hope you enjoy the\nrest of Google I/O.",
+      "start": 975.21,
+      "duration": 1.583
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 976.793,
+      "duration": 3.087
+    }
+  ]
+}

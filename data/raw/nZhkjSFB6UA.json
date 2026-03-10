@@ -1,0 +1,1852 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "nZhkjSFB6UA",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.283
+    },
+    {
+      "text": "TYLER CROWE: Hi,\nall, I'm Tyler Crowe,",
+      "start": 5.63,
+      "duration": 2.26
+    },
+    {
+      "text": "a senior product manager at\nFirebase and Google Cloud.",
+      "start": 7.89,
+      "duration": 3.59
+    },
+    {
+      "text": "MICHAEL BLEIGH: And I'm\nMichael Bleigh, an engineering",
+      "start": 11.48,
+      "duration": 2.25
+    },
+    {
+      "text": "lead on the Firebase team.",
+      "start": 13.73,
+      "duration": 2.399
+    },
+    {
+      "text": "TYLER CROWE: Today, we'll\nwalk through a movie review",
+      "start": 16.129,
+      "duration": 2.581
+    },
+    {
+      "text": "app that was built on\nFirebase Data Connect.",
+      "start": 18.71,
+      "duration": 2.59
+    },
+    {
+      "text": "Then we'll add an agent live.",
+      "start": 21.3,
+      "duration": 2.33
+    },
+    {
+      "text": "So about a month\nago, Michael and I",
+      "start": 23.63,
+      "duration": 2.28
+    },
+    {
+      "text": "were thinking about what we\nwould make for our I/O demo.",
+      "start": 25.91,
+      "duration": 3.55
+    },
+    {
+      "text": "We came up with the idea\nfor a movie review app",
+      "start": 29.46,
+      "duration": 3.049
+    },
+    {
+      "text": "and decided to go to Gemini\nto help us get started.",
+      "start": 32.509,
+      "duration": 3.781
+    },
+    {
+      "text": "MICHAEL BLEIGH: Thanks, Tyler.",
+      "start": 36.29,
+      "duration": 1.56
+    },
+    {
+      "text": "Data Connect\nintegrates with Gemini",
+      "start": 37.85,
+      "duration": 2.31
+    },
+    {
+      "text": "to help you go from idea\nto full app data model",
+      "start": 40.16,
+      "duration": 3.54
+    },
+    {
+      "text": "with just a prompt.",
+      "start": 43.7,
+      "duration": 1.95
+    },
+    {
+      "text": "So that's where I started\nin just a few seconds,",
+      "start": 45.65,
+      "duration": 4.51
+    },
+    {
+      "text": "I have a great start for our\napp with tables already defined.",
+      "start": 50.16,
+      "duration": 4.37
+    },
+    {
+      "text": "If I want to make changes, I can\nask Gemini to do the updates.",
+      "start": 54.53,
+      "duration": 3.89
+    },
+    {
+      "text": "Once I'm ready, I\ncan click Deploy,",
+      "start": 61.19,
+      "duration": 2.61
+    },
+    {
+      "text": "and Firebase will provision\na Cloud SQL Postgres database",
+      "start": 63.8,
+      "duration": 3.63
+    },
+    {
+      "text": "and populate it with\nthe schema for my app.",
+      "start": 67.43,
+      "duration": 3.69
+    },
+    {
+      "text": "But let's jump forward\nin time a little bit",
+      "start": 71.12,
+      "duration": 2.49
+    },
+    {
+      "text": "and take a quick tour of the\napp that we've been developing.",
+      "start": 73.61,
+      "duration": 4.41
+    },
+    {
+      "text": "The Home page shows new\nreleases, top-rated movies,",
+      "start": 78.02,
+      "duration": 4.06
+    },
+    {
+      "text": "and a selection\nof recent reviews.",
+      "start": 82.08,
+      "duration": 2.45
+    },
+    {
+      "text": "Each movie shows\nits average rating.",
+      "start": 84.53,
+      "duration": 3.36
+    },
+    {
+      "text": "I can also browse the\nselection of movies",
+      "start": 87.89,
+      "duration": 2.25
+    },
+    {
+      "text": "with a rich filter\ninterface, allowing",
+      "start": 90.14,
+      "duration": 2.58
+    },
+    {
+      "text": "me to select the rating,\ngenres, and release years",
+      "start": 92.72,
+      "duration": 3.42
+    },
+    {
+      "text": "I'm interested in as the\ndata is quickly filtered",
+      "start": 96.14,
+      "duration": 3.03
+    },
+    {
+      "text": "to reflect my selections.",
+      "start": 99.17,
+      "duration": 3.09
+    },
+    {
+      "text": "If I visit a movie's detail\npage, I can see the cast",
+      "start": 102.26,
+      "duration": 3.78
+    },
+    {
+      "text": "and reviews, I can also log\nmy own watch of the movie.",
+      "start": 106.04,
+      "duration": 4.56
+    },
+    {
+      "text": "Let's say I watched this\nmovie last night at home",
+      "start": 110.6,
+      "duration": 3.18
+    },
+    {
+      "text": "and give it a quick review.",
+      "start": 113.78,
+      "duration": 3.48
+    },
+    {
+      "text": "My review will show up\non the movie's page,",
+      "start": 117.26,
+      "duration": 2.85
+    },
+    {
+      "text": "as well as in my\npersonal Watch History.",
+      "start": 120.11,
+      "duration": 3.36
+    },
+    {
+      "text": "Finally, I can\nsearch for movies.",
+      "start": 123.47,
+      "duration": 3.57
+    },
+    {
+      "text": "Our app search is powered by\nData Connect's integration",
+      "start": 127.04,
+      "duration": 3.39
+    },
+    {
+      "text": "with Vertex AI Text embeddings.",
+      "start": 130.43,
+      "duration": 3.0
+    },
+    {
+      "text": "When I search, it will find\nsemantically relevant movies,",
+      "start": 133.43,
+      "duration": 3.94
+    },
+    {
+      "text": "not just close text matches.",
+      "start": 137.37,
+      "duration": 3.44
+    },
+    {
+      "text": "Here, for instance, when I\nsearch for \"mythical creatures,\"",
+      "start": 140.81,
+      "duration": 3.73
+    },
+    {
+      "text": "the top results are all\nhighly relevant for my search,",
+      "start": 144.54,
+      "duration": 3.18
+    },
+    {
+      "text": "even though none of them have\nmythical creatures in the title.",
+      "start": 147.72,
+      "duration": 4.37
+    },
+    {
+      "text": "As you can see, my app is off to\na great start with many features",
+      "start": 152.09,
+      "duration": 3.9
+    },
+    {
+      "text": "already implemented.",
+      "start": 155.99,
+      "duration": 1.56
+    },
+    {
+      "text": "Let's learn a little bit more\nabout how Data Connect is",
+      "start": 157.55,
+      "duration": 3.03
+    },
+    {
+      "text": "powering our app.",
+      "start": 160.58,
+      "duration": 1.74
+    },
+    {
+      "text": "Back to you, Tyler.",
+      "start": 162.32,
+      "duration": 1.27
+    },
+    {
+      "text": "[CLICKING]",
+      "start": 163.59,
+      "duration": 1.16
+    },
+    {
+      "text": "TYLER CROWE: So now\nthat we've seen the app,",
+      "start": 164.75,
+      "duration": 1.93
+    },
+    {
+      "text": "let's see where it\ngets its data from.",
+      "start": 166.68,
+      "duration": 3.08
+    },
+    {
+      "text": "Firebase Data Connect\nbrings the ease of use",
+      "start": 169.76,
+      "duration": 2.73
+    },
+    {
+      "text": "and rapid development\nof web and mobile apps",
+      "start": 172.49,
+      "duration": 2.52
+    },
+    {
+      "text": "from Firebase, matched\nwith a relational database",
+      "start": 175.01,
+      "duration": 3.09
+    },
+    {
+      "text": "offering with schema\nand powerful querying.",
+      "start": 178.1,
+      "duration": 3.69
+    },
+    {
+      "text": "I'm happy to share that\nData Connect is now",
+      "start": 181.79,
+      "duration": 2.52
+    },
+    {
+      "text": "generally available.",
+      "start": 184.31,
+      "duration": 1.89
+    },
+    {
+      "text": "We've added new features like\nGemini AI assistance, where",
+      "start": 186.2,
+      "duration": 3.42
+    },
+    {
+      "text": "you can tell Gemini\nyour app idea",
+      "start": 189.62,
+      "duration": 1.98
+    },
+    {
+      "text": "and it will generate\nyour schema, queries,",
+      "start": 191.6,
+      "duration": 2.52
+    },
+    {
+      "text": "and mutations needed\nto build your app.",
+      "start": 194.12,
+      "duration": 2.68
+    },
+    {
+      "text": "We've expanded the query\ncapabilities of the service,",
+      "start": 196.8,
+      "duration": 2.6
+    },
+    {
+      "text": "as well as support for popular\nframeworks React and Angular.",
+      "start": 199.4,
+      "duration": 4.8
+    },
+    {
+      "text": "So what does Data\nConnect do for you",
+      "start": 204.2,
+      "duration": 2.1
+    },
+    {
+      "text": "when you want to\nbuild your next app?",
+      "start": 206.3,
+      "duration": 3.18
+    },
+    {
+      "text": "We built Data Connect\non a single principle.",
+      "start": 209.48,
+      "duration": 3.18
+    },
+    {
+      "text": "You write the query,\nwe do the rest.",
+      "start": 212.66,
+      "duration": 3.18
+    },
+    {
+      "text": "When you craft a\nquery on your schema,",
+      "start": 215.84,
+      "duration": 2.47
+    },
+    {
+      "text": "you get a secure\nAPI endpoint that",
+      "start": 218.31,
+      "duration": 2.75
+    },
+    {
+      "text": "has built-in authentication\nand authorization policy.",
+      "start": 221.06,
+      "duration": 4.09
+    },
+    {
+      "text": "We generate typesafe SDKs for\nAndroid, iOS, Flutter, and web,",
+      "start": 225.15,
+      "duration": 5.79
+    },
+    {
+      "text": "and in addition, we'll\ngenerate a tool definition",
+      "start": 230.94,
+      "duration": 3.29
+    },
+    {
+      "text": "for function calling of\nthat query from Agents.",
+      "start": 234.23,
+      "duration": 4.65
+    },
+    {
+      "text": "We start with our schema\nand define our query.",
+      "start": 238.88,
+      "duration": 4.2
+    },
+    {
+      "text": "In our query, you\ncan see that we",
+      "start": 243.08,
+      "duration": 1.47
+    },
+    {
+      "text": "have security built in\nwith the auth directive,",
+      "start": 244.55,
+      "duration": 3.55
+    },
+    {
+      "text": "and are pulling movies\nwithin a certain date range.",
+      "start": 248.1,
+      "duration": 3.8
+    },
+    {
+      "text": "Data Connect will take\nthe schema and query",
+      "start": 251.9,
+      "duration": 2.34
+    },
+    {
+      "text": "and generate SQL to maintain\nyour schema inside your Cloud",
+      "start": 254.24,
+      "duration": 3.45
+    },
+    {
+      "text": "SQL instance.",
+      "start": 257.69,
+      "duration": 1.47
+    },
+    {
+      "text": "We define a secure API\nendpoint that can be called,",
+      "start": 259.16,
+      "duration": 3.07
+    },
+    {
+      "text": "and we define\ntypesafe SDKs that can",
+      "start": 262.23,
+      "duration": 2.45
+    },
+    {
+      "text": "be called with a single\nline from your client.",
+      "start": 264.68,
+      "duration": 3.84
+    },
+    {
+      "text": "Data Connect accelerates\nyour app development",
+      "start": 268.52,
+      "duration": 2.52
+    },
+    {
+      "text": "by abstracting the\ninfrastructure away that you",
+      "start": 271.04,
+      "duration": 2.76
+    },
+    {
+      "text": "need to manage to run your app.",
+      "start": 273.8,
+      "duration": 2.49
+    },
+    {
+      "text": "It connects Cloud\nSQL to your app,",
+      "start": 276.29,
+      "duration": 3.04
+    },
+    {
+      "text": "and so you simply need to\ndefine the queries and mutations",
+      "start": 279.33,
+      "duration": 3.02
+    },
+    {
+      "text": "from your app with the\nintegrated authentication",
+      "start": 282.35,
+      "duration": 2.67
+    },
+    {
+      "text": "and authorization policies.",
+      "start": 285.02,
+      "duration": 1.95
+    },
+    {
+      "text": "Data Connect translates\nthe GraphQL into SQL",
+      "start": 286.97,
+      "duration": 3.63
+    },
+    {
+      "text": "to read and write data to\nthat Cloud SQL instance.",
+      "start": 290.6,
+      "duration": 3.56
+    },
+    {
+      "text": "Data Connect even handles\nembedding generation",
+      "start": 294.16,
+      "duration": 2.9
+    },
+    {
+      "text": "from Vertex AI to enable\nsemantic search in your apps.",
+      "start": 297.06,
+      "duration": 4.59
+    },
+    {
+      "text": "That was the search that looked\nthrough the movie catalog",
+      "start": 301.65,
+      "duration": 2.67
+    },
+    {
+      "text": "in the demo, based on the\nmeaning of the search,",
+      "start": 304.32,
+      "duration": 2.62
+    },
+    {
+      "text": "instead of the\nexact search word.",
+      "start": 306.94,
+      "duration": 2.6
+    },
+    {
+      "text": "So how does semantic\nsearch work?",
+      "start": 309.54,
+      "duration": 3.27
+    },
+    {
+      "text": "A vector embedding represents\nthe meaning of an object",
+      "start": 312.81,
+      "duration": 3.93
+    },
+    {
+      "text": "as the AI understands it in\na multi-dimensional space.",
+      "start": 316.74,
+      "duration": 3.91
+    },
+    {
+      "text": "So let's break down\nwhat that means.",
+      "start": 320.65,
+      "duration": 2.04
+    },
+    {
+      "text": "In my example here, I have\na two-dimensional space",
+      "start": 322.69,
+      "duration": 2.96
+    },
+    {
+      "text": "that already has some embeddings\ngenerated for two places.",
+      "start": 325.65,
+      "duration": 3.7
+    },
+    {
+      "text": "One is a mountain, and\nthe other is a beach.",
+      "start": 329.35,
+      "duration": 3.2
+    },
+    {
+      "text": "If I search for snow\nactivities, the embedding",
+      "start": 332.55,
+      "duration": 2.82
+    },
+    {
+      "text": "will fall closer\nto the mountain,",
+      "start": 335.37,
+      "duration": 1.81
+    },
+    {
+      "text": "so the search will return the\ndata in my database associated",
+      "start": 337.18,
+      "duration": 3.02
+    },
+    {
+      "text": "with the mountain.",
+      "start": 340.2,
+      "duration": 1.77
+    },
+    {
+      "text": "If I search for\nsurfing, the AI knows",
+      "start": 341.97,
+      "duration": 2.7
+    },
+    {
+      "text": "that surfing is\nrelated to the beach,",
+      "start": 344.67,
+      "duration": 1.99
+    },
+    {
+      "text": "so it will return the data\nassociated with the beach",
+      "start": 346.66,
+      "duration": 2.52
+    },
+    {
+      "text": "embedding from my database.",
+      "start": 349.18,
+      "duration": 2.35
+    },
+    {
+      "text": "Data Connect makes\nit really easy",
+      "start": 351.53,
+      "duration": 2.07
+    },
+    {
+      "text": "to create these vector\nembeddings with Vertex AI",
+      "start": 353.6,
+      "duration": 2.31
+    },
+    {
+      "text": "and store them in Cloud SQL.",
+      "start": 355.91,
+      "duration": 2.01
+    },
+    {
+      "text": "With a single line\nin a mutation,",
+      "start": 357.92,
+      "duration": 2.53
+    },
+    {
+      "text": "Data Connect will generate\nthe vector embedding",
+      "start": 360.45,
+      "duration": 2.18
+    },
+    {
+      "text": "and write the data\ninto Data Connect.",
+      "start": 362.63,
+      "duration": 3.09
+    },
+    {
+      "text": "You write the mutation, and\nData Connect handles the rest.",
+      "start": 365.72,
+      "duration": 3.84
+    },
+    {
+      "text": "The same goes for semantic\nsearch with vector embeddings.",
+      "start": 369.56,
+      "duration": 4.0
+    },
+    {
+      "text": "When the user enters\na search term,",
+      "start": 373.56,
+      "duration": 2.16
+    },
+    {
+      "text": "Data Connect will generate\nan embedding from Vertex AI",
+      "start": 375.72,
+      "duration": 3.53
+    },
+    {
+      "text": "and then execute a\nsimilarity search for related",
+      "start": 379.25,
+      "duration": 2.88
+    },
+    {
+      "text": "data within Cloud SQL.",
+      "start": 382.13,
+      "duration": 2.34
+    },
+    {
+      "text": "Same as before, you\nwrite the query,",
+      "start": 384.47,
+      "duration": 2.37
+    },
+    {
+      "text": "and Data Connect does the rest.",
+      "start": 386.84,
+      "duration": 1.96
+    },
+    {
+      "text": "[CLICKING]",
+      "start": 388.8,
+      "duration": 0.86
+    },
+    {
+      "text": "Now that we've learned\nabout the technology that",
+      "start": 389.66,
+      "duration": 2.4
+    },
+    {
+      "text": "enabled us to\nbuild the app, I'll",
+      "start": 392.06,
+      "duration": 1.83
+    },
+    {
+      "text": "hand it off to Michael\nto dive into the code.",
+      "start": 393.89,
+      "duration": 3.63
+    },
+    {
+      "text": "MICHAEL BLEIGH: Thanks, Tyler.",
+      "start": 397.52,
+      "duration": 1.71
+    },
+    {
+      "text": "Data Connect starts\nwith a schema.",
+      "start": 399.23,
+      "duration": 2.65
+    },
+    {
+      "text": "Here, you can see my schema with\nall the types for our movie app.",
+      "start": 401.88,
+      "duration": 4.7
+    },
+    {
+      "text": "As I update the schema\nor add new fields,",
+      "start": 406.58,
+      "duration": 3.16
+    },
+    {
+      "text": "they'll be automatically\nmigrated in my local emulator",
+      "start": 409.74,
+      "duration": 2.81
+    },
+    {
+      "text": "environment and can be\ndeployed to production",
+      "start": 412.55,
+      "duration": 2.64
+    },
+    {
+      "text": "using the Firebase CLI.",
+      "start": 415.19,
+      "duration": 2.85
+    },
+    {
+      "text": "Once I have my\nschema, Data Connect",
+      "start": 418.04,
+      "duration": 2.61
+    },
+    {
+      "text": "automatically generates a rich\nGraphQL querying API for my app.",
+      "start": 420.65,
+      "duration": 5.04
+    },
+    {
+      "text": "Switching over to my queries,\nI start by defining fragments.",
+      "start": 425.69,
+      "duration": 5.13
+    },
+    {
+      "text": "Fragments let me\nfetch the same data",
+      "start": 430.82,
+      "duration": 2.34
+    },
+    {
+      "text": "in multiple places\nin my queries,",
+      "start": 433.16,
+      "duration": 2.05
+    },
+    {
+      "text": "such as the basic movie\nreview information, including",
+      "start": 435.21,
+      "duration": 2.72
+    },
+    {
+      "text": "average review rating,\nor the user information",
+      "start": 437.93,
+      "duration": 2.85
+    },
+    {
+      "text": "for a particular review.",
+      "start": 440.78,
+      "duration": 2.49
+    },
+    {
+      "text": "With Data Connect, I can\nconstruct efficient queries",
+      "start": 443.27,
+      "duration": 3.12
+    },
+    {
+      "text": "that fetch all the data I\nneed in a single request.",
+      "start": 446.39,
+      "duration": 4.32
+    },
+    {
+      "text": "Even though our app's\nHome page contains",
+      "start": 450.71,
+      "duration": 2.46
+    },
+    {
+      "text": "multiple distinct sections,\nand each section contains",
+      "start": 453.17,
+      "duration": 3.63
+    },
+    {
+      "text": "nested relational\ninformation, I can",
+      "start": 456.8,
+      "duration": 2.52
+    },
+    {
+      "text": "retrieve all of that data\nusing a single Home page query.",
+      "start": 459.32,
+      "duration": 4.83
+    },
+    {
+      "text": "I add a field for new\nreleases, for top-rated movies,",
+      "start": 464.15,
+      "duration": 4.08
+    },
+    {
+      "text": "and for recent reviews.",
+      "start": 468.23,
+      "duration": 2.04
+    },
+    {
+      "text": "I add the fragments to\nget the data my UI needs,",
+      "start": 470.27,
+      "duration": 2.88
+    },
+    {
+      "text": "and I'm ready to go.",
+      "start": 473.15,
+      "duration": 1.98
+    },
+    {
+      "text": "But what about\nsomething more complex",
+      "start": 475.13,
+      "duration": 2.13
+    },
+    {
+      "text": "like aggregations or\nthe semantic search",
+      "start": 477.26,
+      "duration": 2.64
+    },
+    {
+      "text": "we demoed earlier?",
+      "start": 479.9,
+      "duration": 2.25
+    },
+    {
+      "text": "Data Connect has a built-in\nintegration with Vertex AI",
+      "start": 482.15,
+      "duration": 3.06
+    },
+    {
+      "text": "to enable text\nembedding directly",
+      "start": 485.21,
+      "duration": 1.86
+    },
+    {
+      "text": "from our GraphQL interface.",
+      "start": 487.07,
+      "duration": 2.01
+    },
+    {
+      "text": "For our movie search,\nwe compare an embedding",
+      "start": 489.08,
+      "duration": 2.64
+    },
+    {
+      "text": "of the user's query against the\nalready generated embeddings",
+      "start": 491.72,
+      "duration": 3.36
+    },
+    {
+      "text": "of the movie titles and\ndescriptions in our database.",
+      "start": 495.08,
+      "duration": 3.15
+    },
+    {
+      "text": "To pull in review statistics for\nour movies, I used a view type.",
+      "start": 498.23,
+      "duration": 5.23
+    },
+    {
+      "text": "This special type allows me\nto write arbitrary SQL SELECT",
+      "start": 503.46,
+      "duration": 3.65
+    },
+    {
+      "text": "statements and bind\nthem to GraphQL data.",
+      "start": 507.11,
+      "duration": 3.96
+    },
+    {
+      "text": "View types can be integrated\ninto your data model",
+      "start": 511.07,
+      "duration": 2.55
+    },
+    {
+      "text": "relationally so that\nwhen I query a movie,",
+      "start": 513.62,
+      "duration": 2.65
+    },
+    {
+      "text": "I can also pull its average\nreview rating, for instance.",
+      "start": 516.27,
+      "duration": 4.22
+    },
+    {
+      "text": "When you're ready to test\nout any of your queries,",
+      "start": 520.49,
+      "duration": 2.65
+    },
+    {
+      "text": "you can do it\nright from your IDE",
+      "start": 523.14,
+      "duration": 1.98
+    },
+    {
+      "text": "using the built-in query runner\nthat's part of the Data Connect",
+      "start": 525.12,
+      "duration": 3.21
+    },
+    {
+      "text": "VSCode extension.",
+      "start": 528.33,
+      "duration": 2.4
+    },
+    {
+      "text": "If you want a little help\nwriting your queries,",
+      "start": 530.73,
+      "duration": 2.38
+    },
+    {
+      "text": "you can even describe your\nquery in natural language",
+      "start": 533.11,
+      "duration": 2.84
+    },
+    {
+      "text": "and Gemini will help you write\nit using the current schema",
+      "start": 535.95,
+      "duration": 3.27
+    },
+    {
+      "text": "for your specific application.",
+      "start": 539.22,
+      "duration": 3.75
+    },
+    {
+      "text": "Now that we've\nbuilt our query, how",
+      "start": 542.97,
+      "duration": 2.19
+    },
+    {
+      "text": "do we integrate it\ninto the application?",
+      "start": 545.16,
+      "duration": 2.76
+    },
+    {
+      "text": "Let's take a look at the\nBrowse Movie page, which",
+      "start": 547.92,
+      "duration": 3.06
+    },
+    {
+      "text": "has rich interactivity\nas the user filters",
+      "start": 550.98,
+      "duration": 2.67
+    },
+    {
+      "text": "to find the movie they want.",
+      "start": 553.65,
+      "duration": 3.03
+    },
+    {
+      "text": "Data Connect brings the\nend-to-end development",
+      "start": 556.68,
+      "duration": 2.82
+    },
+    {
+      "text": "experience together by\ngenerating a strongly-typed SDK,",
+      "start": 559.5,
+      "duration": 3.78
+    },
+    {
+      "text": "based on your queries, that can\nbe used directly in your app.",
+      "start": 563.28,
+      "duration": 4.74
+    },
+    {
+      "text": "Using our new React\nbindings, all I need to do",
+      "start": 568.02,
+      "duration": 3.27
+    },
+    {
+      "text": "is prepare the variables I want\nto pass from the user interface",
+      "start": 571.29,
+      "duration": 3.45
+    },
+    {
+      "text": "and pass them to the React hook\nthat was automatically generated",
+      "start": 574.74,
+      "duration": 3.45
+    },
+    {
+      "text": "the moment I saved my query.",
+      "start": 578.19,
+      "duration": 2.37
+    },
+    {
+      "text": "As the variables\nchange from user input,",
+      "start": 580.56,
+      "duration": 2.68
+    },
+    {
+      "text": "the query is\nautomatically re-executed",
+      "start": 583.24,
+      "duration": 2.27
+    },
+    {
+      "text": "and the data is updated.",
+      "start": 585.51,
+      "duration": 3.24
+    },
+    {
+      "text": "I'm pretty happy with\nthe basics of our app,",
+      "start": 588.75,
+      "duration": 3.28
+    },
+    {
+      "text": "but there's a new feature\nwe've been working on",
+      "start": 592.03,
+      "duration": 2.51
+    },
+    {
+      "text": "that I'm even more excited\nabout, a movie recommendations",
+      "start": 594.54,
+      "duration": 3.69
+    },
+    {
+      "text": "agent that will pick the perfect\npersonalized movie for my users",
+      "start": 598.23,
+      "duration": 3.96
+    },
+    {
+      "text": "to watch.",
+      "start": 602.19,
+      "duration": 1.35
+    },
+    {
+      "text": "To create this agent, we'll\ncombine Data Connect's querying",
+      "start": 603.54,
+      "duration": 3.51
+    },
+    {
+      "text": "power with Gemini's intelligence\nusing the Genkit framework.",
+      "start": 607.05,
+      "duration": 4.15
+    },
+    {
+      "text": "Tyler, can you talk\na little about how",
+      "start": 611.2,
+      "duration": 2.48
+    },
+    {
+      "text": "the agent is going to work?",
+      "start": 613.68,
+      "duration": 1.69
+    },
+    {
+      "text": "[CLICKING]",
+      "start": 615.37,
+      "duration": 1.37
+    },
+    {
+      "text": "TYLER CROWE: Thanks, Michael.",
+      "start": 616.74,
+      "duration": 1.36
+    },
+    {
+      "text": "We've seen how easy it is to\nbuild the backbone of an app",
+      "start": 618.1,
+      "duration": 3.32
+    },
+    {
+      "text": "with Data Connect.",
+      "start": 621.42,
+      "duration": 1.42
+    },
+    {
+      "text": "Let's take this\nto the next level",
+      "start": 622.84,
+      "duration": 2.03
+    },
+    {
+      "text": "and create an agent that\ncan use tools to access data",
+      "start": 624.87,
+      "duration": 3.33
+    },
+    {
+      "text": "within our database.",
+      "start": 628.2,
+      "duration": 1.74
+    },
+    {
+      "text": "The first concept\nwe should cover,",
+      "start": 629.94,
+      "duration": 1.92
+    },
+    {
+      "text": "is Retrieval-Augmented\nGeneration, otherwise known",
+      "start": 631.86,
+      "duration": 2.76
+    },
+    {
+      "text": "as RAG.",
+      "start": 634.62,
+      "duration": 1.11
+    },
+    {
+      "text": "In a normal conversation,\na user will prompt an AI,",
+      "start": 635.73,
+      "duration": 3.52
+    },
+    {
+      "text": "which will give it an output.",
+      "start": 639.25,
+      "duration": 2.09
+    },
+    {
+      "text": "But if you want the AI to\ngive a relevant result based",
+      "start": 641.34,
+      "duration": 3.33
+    },
+    {
+      "text": "on data in your\ndatabase, you can",
+      "start": 644.67,
+      "duration": 1.65
+    },
+    {
+      "text": "use RAG to execute\na semantic search",
+      "start": 646.32,
+      "duration": 2.7
+    },
+    {
+      "text": "and pass the context to the AI.",
+      "start": 649.02,
+      "duration": 2.8
+    },
+    {
+      "text": "The AI response will now\ncontain the relevant data",
+      "start": 651.82,
+      "duration": 3.68
+    },
+    {
+      "text": "from your database.",
+      "start": 655.5,
+      "duration": 2.58
+    },
+    {
+      "text": "Let's add some more\ncomplexity to this.",
+      "start": 658.08,
+      "duration": 2.5
+    },
+    {
+      "text": "You've created an agent that can\nanswer many types of questions.",
+      "start": 660.58,
+      "duration": 4.2
+    },
+    {
+      "text": "In order to answer\nthese questions,",
+      "start": 664.78,
+      "duration": 2.07
+    },
+    {
+      "text": "it will use a spec\nfrom Data Connect",
+      "start": 666.85,
+      "duration": 2.48
+    },
+    {
+      "text": "that will tell it about the\navailable tools, queries.",
+      "start": 669.33,
+      "duration": 2.89
+    },
+    {
+      "text": "And mutations, it has to\nanswer the user's questions.",
+      "start": 672.22,
+      "duration": 3.99
+    },
+    {
+      "text": "It will choose the tool,\npass the right information",
+      "start": 676.21,
+      "duration": 3.23
+    },
+    {
+      "text": "from the prompt, and then return\nan output based on the data",
+      "start": 679.44,
+      "duration": 3.75
+    },
+    {
+      "text": "it pulled from the right tool.",
+      "start": 683.19,
+      "duration": 2.55
+    },
+    {
+      "text": "So we want to build an\nagent that can recommend",
+      "start": 685.74,
+      "duration": 3.12
+    },
+    {
+      "text": "the perfect movie to watch.",
+      "start": 688.86,
+      "duration": 1.87
+    },
+    {
+      "text": "In order to do that, we'll\ncreate multiple tools",
+      "start": 690.73,
+      "duration": 2.99
+    },
+    {
+      "text": "that the agent has\nat its disposal",
+      "start": 693.72,
+      "duration": 2.46
+    },
+    {
+      "text": "a way to search movies,\nfilter movies, search reviews,",
+      "start": 696.18,
+      "duration": 4.27
+    },
+    {
+      "text": "clarify a customer's question,\nand finally, recommend movies.",
+      "start": 700.45,
+      "duration": 5.06
+    },
+    {
+      "text": "The agent may make multiple\ncalls to different tools",
+      "start": 705.51,
+      "duration": 3.66
+    },
+    {
+      "text": "to get the right information to\nanswer the question of the user.",
+      "start": 709.17,
+      "duration": 3.76
+    },
+    {
+      "text": "And of course, we don't\nwant to recommend a movie",
+      "start": 712.93,
+      "duration": 2.93
+    },
+    {
+      "text": "that the user has\nalready watched,",
+      "start": 715.86,
+      "duration": 1.93
+    },
+    {
+      "text": "so we'll RAG in the user's\npast watch history and reviews.",
+      "start": 717.79,
+      "duration": 4.76
+    },
+    {
+      "text": "The general flow\ngoes as follows.",
+      "start": 722.55,
+      "duration": 2.91
+    },
+    {
+      "text": "The user enters a\nprompt to the agent,",
+      "start": 725.46,
+      "duration": 2.41
+    },
+    {
+      "text": "and the past reviews and watch\nhistory are provided as context",
+      "start": 727.87,
+      "duration": 4.22
+    },
+    {
+      "text": "to the agent.",
+      "start": 732.09,
+      "duration": 1.23
+    },
+    {
+      "text": "The agent then chooses\nwhich tools to call",
+      "start": 733.32,
+      "duration": 3.21
+    },
+    {
+      "text": "and pulls data to try to answer\nthe question from the user.",
+      "start": 736.53,
+      "duration": 3.96
+    },
+    {
+      "text": "The user can then request\nnew recommendations",
+      "start": 740.49,
+      "duration": 2.88
+    },
+    {
+      "text": "or clarify their request.",
+      "start": 743.37,
+      "duration": 2.38
+    },
+    {
+      "text": "The agent then goes back\nwith the new information",
+      "start": 745.75,
+      "duration": 3.5
+    },
+    {
+      "text": "and gathers additional data\nusing the tools it thinks",
+      "start": 749.25,
+      "duration": 3.24
+    },
+    {
+      "text": "are best to answer its question.",
+      "start": 752.49,
+      "duration": 2.61
+    },
+    {
+      "text": "When successful,\nthe user will accept",
+      "start": 755.1,
+      "duration": 2.46
+    },
+    {
+      "text": "the agent's recommendation.",
+      "start": 757.56,
+      "duration": 1.89
+    },
+    {
+      "text": "Michael, do you think we can\nadd this to our movie app?",
+      "start": 759.45,
+      "duration": 2.963
+    },
+    {
+      "text": "MICHAEL BLEIGH:\nYes we can, Tyler.",
+      "start": 762.413,
+      "duration": 1.417
+    },
+    {
+      "text": "Let's dive in.",
+      "start": 763.83,
+      "duration": 2.22
+    },
+    {
+      "text": "To set the scene,\nlet's take a quick look",
+      "start": 766.05,
+      "duration": 2.52
+    },
+    {
+      "text": "at the prompt that\nwill drive our agent.",
+      "start": 768.57,
+      "duration": 2.58
+    },
+    {
+      "text": "It has detailed guidance\nto help the model use",
+      "start": 771.15,
+      "duration": 2.94
+    },
+    {
+      "text": "and find information to\nrecommend the perfect movie.",
+      "start": 774.09,
+      "duration": 3.93
+    },
+    {
+      "text": "It also has access\nto a few tools",
+      "start": 778.02,
+      "duration": 2.37
+    },
+    {
+      "text": "already, ask question\nand recommend movies.",
+      "start": 780.39,
+      "duration": 4.23
+    },
+    {
+      "text": "Tools allow an LLM to request\nadditional information,",
+      "start": 784.62,
+      "duration": 3.49
+    },
+    {
+      "text": "either from the user or from\ndata made available to it.",
+      "start": 788.11,
+      "duration": 3.78
+    },
+    {
+      "text": "It's what makes\nan agent an agent.",
+      "start": 791.89,
+      "duration": 3.56
+    },
+    {
+      "text": "You can see at the\ntop, that there's",
+      "start": 795.45,
+      "duration": 1.98
+    },
+    {
+      "text": "a TODO, indicating that\nwe need to add tools",
+      "start": 797.43,
+      "duration": 2.76
+    },
+    {
+      "text": "that can talk to the database.",
+      "start": 800.19,
+      "duration": 1.87
+    },
+    {
+      "text": "Let's do that now.",
+      "start": 802.06,
+      "duration": 2.63
+    },
+    {
+      "text": "One of the central\nconcepts of Data Connect,",
+      "start": 804.69,
+      "duration": 2.52
+    },
+    {
+      "text": "is what we call a connector.",
+      "start": 807.21,
+      "duration": 2.28
+    },
+    {
+      "text": "You can think of a connector\nas being a dedicated",
+      "start": 809.49,
+      "duration": 3.06
+    },
+    {
+      "text": "API for your application that's\nbuilt for a specific purpose.",
+      "start": 812.55,
+      "duration": 4.77
+    },
+    {
+      "text": "Earlier, we were editing\nqueries in the connector that",
+      "start": 817.32,
+      "duration": 2.58
+    },
+    {
+      "text": "was built for our web\napp, but for our agent,",
+      "start": 819.9,
+      "duration": 2.59
+    },
+    {
+      "text": "we're going to create\na second connector.",
+      "start": 822.49,
+      "duration": 3.17
+    },
+    {
+      "text": "I've already created a\ntools connector directory",
+      "start": 825.66,
+      "duration": 3.27
+    },
+    {
+      "text": "and added some queries\nto it for my agent.",
+      "start": 828.93,
+      "duration": 2.71
+    },
+    {
+      "text": "Search movies to do\na semantic search,",
+      "start": 831.64,
+      "duration": 3.41
+    },
+    {
+      "text": "filter movies to find\nmovies by filtering based",
+      "start": 835.05,
+      "duration": 3.09
+    },
+    {
+      "text": "on various criteria,\nand search reviews",
+      "start": 838.14,
+      "duration": 3.0
+    },
+    {
+      "text": "to search through user reviews.",
+      "start": 841.14,
+      "duration": 2.94
+    },
+    {
+      "text": "Data Connect supports generating\nSDKs for JavaScript, Swift,",
+      "start": 844.08,
+      "duration": 4.09
+    },
+    {
+      "text": "Kotlin, and Dart, but it also\nhas one more feature, generating",
+      "start": 848.17,
+      "duration": 4.1
+    },
+    {
+      "text": "tool definitions for LLMs.",
+      "start": 852.27,
+      "duration": 2.82
+    },
+    {
+      "text": "In my connector.YAML, I'll\nadd an LLM tools entry",
+      "start": 855.09,
+      "duration": 3.63
+    },
+    {
+      "text": "and pick an output file.",
+      "start": 858.72,
+      "duration": 2.37
+    },
+    {
+      "text": "As soon as I Save, the\nconnector automatically",
+      "start": 861.09,
+      "duration": 2.52
+    },
+    {
+      "text": "generates the definitions file.",
+      "start": 863.61,
+      "duration": 3.06
+    },
+    {
+      "text": "Looking at the\ngenerated tools JSON,",
+      "start": 866.67,
+      "duration": 2.92
+    },
+    {
+      "text": "you can see that it provides\ninformation about my Data",
+      "start": 869.59,
+      "duration": 3.02
+    },
+    {
+      "text": "Connect service, as well\nas JSON schema definitions",
+      "start": 872.61,
+      "duration": 3.36
+    },
+    {
+      "text": "and descriptions for each of\nthe queries that I defined.",
+      "start": 875.97,
+      "duration": 4.17
+    },
+    {
+      "text": "This provides a great basis\nfor working with any LLM's API,",
+      "start": 880.14,
+      "duration": 4.48
+    },
+    {
+      "text": "but we've made it even\neasier for Genkit users.",
+      "start": 884.62,
+      "duration": 3.74
+    },
+    {
+      "text": "Genkit is an\nopen-source SDK to build",
+      "start": 888.36,
+      "duration": 2.67
+    },
+    {
+      "text": "JNI features server side in\nJavaScript, Go and Python.",
+      "start": 891.03,
+      "duration": 4.29
+    },
+    {
+      "text": "Here, I'm integrating\nit into my Next.js app",
+      "start": 895.32,
+      "duration": 2.82
+    },
+    {
+      "text": "and initializing it to\nuse the Gemini 2.0 Flash",
+      "start": 898.14,
+      "duration": 2.88
+    },
+    {
+      "text": "model by default,",
+      "start": 901.02,
+      "duration": 1.77
+    },
+    {
+      "text": "Genkit is extensible\nthrough plugins,",
+      "start": 902.79,
+      "duration": 2.5
+    },
+    {
+      "text": "and the Firebase\nplugin includes a way",
+      "start": 905.29,
+      "duration": 2.18
+    },
+    {
+      "text": "to add Data Connect\ntools directly",
+      "start": 907.47,
+      "duration": 1.89
+    },
+    {
+      "text": "from the generated JSON file.",
+      "start": 909.36,
+      "duration": 2.91
+    },
+    {
+      "text": "I just need to add the\npath to my generated file",
+      "start": 912.27,
+      "duration": 2.88
+    },
+    {
+      "text": "and pass a reference\nto my Firebase App",
+      "start": 915.15,
+      "duration": 2.13
+    },
+    {
+      "text": "to configure the connection.",
+      "start": 917.28,
+      "duration": 3.15
+    },
+    {
+      "text": "Once I've done that, I can\nswitch over to the Genkit dev",
+      "start": 920.43,
+      "duration": 3.66
+    },
+    {
+      "text": "UI that lets me test\nand play with everything",
+      "start": 924.09,
+      "duration": 2.97
+    },
+    {
+      "text": "plugged into my app.",
+      "start": 927.06,
+      "duration": 2.37
+    },
+    {
+      "text": "I see new tools are\navailable, db/SearchMovies,",
+      "start": 929.43,
+      "duration": 4.36
+    },
+    {
+      "text": "db/FilterMovies, and\ndb/SearchReviews.",
+      "start": 933.79,
+      "duration": 3.9
+    },
+    {
+      "text": "I can test these out and see\nthat it is returning data",
+      "start": 937.69,
+      "duration": 3.23
+    },
+    {
+      "text": "from my application.",
+      "start": 940.92,
+      "duration": 2.04
+    },
+    {
+      "text": "And now that these tools\nare available to Genkit,",
+      "start": 942.96,
+      "duration": 2.58
+    },
+    {
+      "text": "I can add them to my prompt\nand complete that TODO.",
+      "start": 945.54,
+      "duration": 4.8
+    },
+    {
+      "text": "So now my agent\ncan intelligently",
+      "start": 950.34,
+      "duration": 2.7
+    },
+    {
+      "text": "reason about when it\nmight need to search",
+      "start": 953.04,
+      "duration": 2.01
+    },
+    {
+      "text": "movies and reviews to find\na great movie to recommend.",
+      "start": 955.05,
+      "duration": 4.62
+    },
+    {
+      "text": "Let's take this new\nagent for a spin.",
+      "start": 959.67,
+      "duration": 2.58
+    },
+    {
+      "text": "When I visit the Next\nWatch feature of the app,",
+      "start": 962.25,
+      "duration": 3.34
+    },
+    {
+      "text": "I can see my Recent\nWatch History",
+      "start": 965.59,
+      "duration": 2.57
+    },
+    {
+      "text": "with an open spot for what\nthe agent will recommend.",
+      "start": 968.16,
+      "duration": 3.27
+    },
+    {
+      "text": "I can pick from a few\npreselected prompts,",
+      "start": 971.43,
+      "duration": 2.73
+    },
+    {
+      "text": "or I can ask it for something\nI'm in the mood for.",
+      "start": 974.16,
+      "duration": 2.94
+    },
+    {
+      "text": "In this case, I'm going\nto prompt for something",
+      "start": 977.1,
+      "duration": 3.24
+    },
+    {
+      "text": "I can watch with my daughter.",
+      "start": 980.34,
+      "duration": 2.58
+    },
+    {
+      "text": "Based on this prompt, the agent\nwill review my Watch History,",
+      "start": 982.92,
+      "duration": 3.13
+    },
+    {
+      "text": "including any\nreviews I've written,",
+      "start": 986.05,
+      "duration": 1.58
+    },
+    {
+      "text": "to better understand\nwhat to recommend.",
+      "start": 987.63,
+      "duration": 2.79
+    },
+    {
+      "text": "It can either go straight\nto recommendations,",
+      "start": 990.42,
+      "duration": 2.19
+    },
+    {
+      "text": "or as we're seeing in this\ncase, ask a clarifying question.",
+      "start": 992.61,
+      "duration": 5.01
+    },
+    {
+      "text": "Here, it's asked me what\ngenre I want to watch?",
+      "start": 997.62,
+      "duration": 3.01
+    },
+    {
+      "text": "I'll say animation.",
+      "start": 1000.63,
+      "duration": 2.36
+    },
+    {
+      "text": "A few seconds\nlater, the agent has",
+      "start": 1002.99,
+      "duration": 1.98
+    },
+    {
+      "text": "made a recommendation of\nthree potential movies,",
+      "start": 1004.97,
+      "duration": 2.86
+    },
+    {
+      "text": "and honestly, these all\nlook interesting to me.",
+      "start": 1007.83,
+      "duration": 2.93
+    },
+    {
+      "text": "But my daughter has been really\ninterested in magic lately,",
+      "start": 1010.76,
+      "duration": 3.22
+    },
+    {
+      "text": "so I'm going to refine\nthe recommendations",
+      "start": 1013.98,
+      "duration": 1.88
+    },
+    {
+      "text": "by saying that she's\ninto magic and witches.",
+      "start": 1015.86,
+      "duration": 4.44
+    },
+    {
+      "text": "The new set of\nrecommendations includes",
+      "start": 1020.3,
+      "duration": 2.13
+    },
+    {
+      "text": "movies that incorporate all of\nthe information already provided",
+      "start": 1022.43,
+      "duration": 3.22
+    },
+    {
+      "text": "but refines it further\nbased on the new request.",
+      "start": 1025.65,
+      "duration": 2.99
+    },
+    {
+      "text": "With that, I can pick\nthe perfect movie",
+      "start": 1028.64,
+      "duration": 3.09
+    },
+    {
+      "text": "to watch tonight\nwith my daughter.",
+      "start": 1031.73,
+      "duration": 2.609
+    },
+    {
+      "text": "Data Connect speeds\nup the process",
+      "start": 1034.339,
+      "duration": 1.98
+    },
+    {
+      "text": "of building both applications\nand agents by automatically",
+      "start": 1036.319,
+      "duration": 3.721
+    },
+    {
+      "text": "generating the API\nendpoints, SDKs, and tool",
+      "start": 1040.04,
+      "duration": 4.26
+    },
+    {
+      "text": "definitions for my application.",
+      "start": 1044.3,
+      "duration": 3.059
+    },
+    {
+      "text": "Tyler, can you give us a recap\nof what we've done so far?",
+      "start": 1047.359,
+      "duration": 3.521
+    },
+    {
+      "text": "[CLICKING]",
+      "start": 1050.88,
+      "duration": 1.308
+    },
+    {
+      "text": "TYLER CROWE: Happy to, Michael.",
+      "start": 1052.188,
+      "duration": 1.292
+    },
+    {
+      "text": "We started off by building a\nconnector on Data Connect that",
+      "start": 1053.48,
+      "duration": 3.75
+    },
+    {
+      "text": "enables the web app to execute\nqueries and mutations that",
+      "start": 1057.23,
+      "duration": 3.39
+    },
+    {
+      "text": "read and write to Cloud SQL\nand execute semantic search",
+      "start": 1060.62,
+      "duration": 3.3
+    },
+    {
+      "text": "with vector embeddings.",
+      "start": 1063.92,
+      "duration": 1.98
+    },
+    {
+      "text": "We just created a new\nconnector that contains tools",
+      "start": 1065.9,
+      "duration": 3.6
+    },
+    {
+      "text": "that our agent on Genkit can\ncall to power our movie agent",
+      "start": 1069.5,
+      "duration": 3.78
+    },
+    {
+      "text": "experience.",
+      "start": 1073.28,
+      "duration": 1.89
+    },
+    {
+      "text": "We encourage you to\ntry this out yourself.",
+      "start": 1075.17,
+      "duration": 2.44
+    },
+    {
+      "text": "You can clone the agent and\nmovie app at the GitHub repo",
+      "start": 1077.61,
+      "duration": 3.38
+    },
+    {
+      "text": "with the QR code,\nand if you want",
+      "start": 1080.99,
+      "duration": 2.61
+    },
+    {
+      "text": "to just start with the\napp and semantic search,",
+      "start": 1083.6,
+      "duration": 2.62
+    },
+    {
+      "text": "you can follow the step-by-step\ninstructions with our Codelab.",
+      "start": 1086.22,
+      "duration": 3.53
+    },
+    {
+      "text": "Thank you and happy hacking.",
+      "start": 1089.75,
+      "duration": 1.65
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1091.4,
+      "duration": 3.05
+    }
+  ]
+}

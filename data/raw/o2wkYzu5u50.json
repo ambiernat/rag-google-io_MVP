@@ -1,0 +1,4797 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "o2wkYzu5u50",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.304
+    },
+    {
+      "text": "PAUL KINLAN: Oh,\nisn't it a great time",
+      "start": 6.136,
+      "duration": 1.594
+    },
+    {
+      "text": "to be a web developer, eh?",
+      "start": 7.73,
+      "duration": 2.1
+    },
+    {
+      "text": "How many times does\nHTML in the key?",
+      "start": 9.83,
+      "duration": 2.05
+    },
+    {
+      "text": "Oh, it's brilliant,\nI was amazed.",
+      "start": 11.88,
+      "duration": 1.47
+    },
+    {
+      "text": "Anyway, I'm Paul Kinlan.",
+      "start": 13.35,
+      "duration": 1.41
+    },
+    {
+      "text": "I lead the Developer\nRelations team in Chrome.",
+      "start": 14.76,
+      "duration": 3.29
+    },
+    {
+      "text": "But before we dive in, I've got\na little demo to show you today.",
+      "start": 18.05,
+      "duration": 4.448
+    },
+    {
+      "text": "It's not the best looking demo.",
+      "start": 22.498,
+      "duration": 1.292
+    },
+    {
+      "text": "It was made by\nme, but I think it",
+      "start": 23.79,
+      "duration": 1.375
+    },
+    {
+      "text": "tries to demonstrate\neverything that we're",
+      "start": 25.165,
+      "duration": 1.873
+    },
+    {
+      "text": "working on inside\nChrome, at least, anyway.",
+      "start": 27.038,
+      "duration": 1.792
+    },
+    {
+      "text": "So I'm learning Welsh.",
+      "start": 28.83,
+      "duration": 2.04
+    },
+    {
+      "text": "I live in North Wales.",
+      "start": 30.87,
+      "duration": 1.05
+    },
+    {
+      "text": "My daughter speaks Welsh in\nschool, Japanese at home.",
+      "start": 31.92,
+      "duration": 3.23
+    },
+    {
+      "text": "Learning languages is\nunbelievably hard for me.",
+      "start": 35.15,
+      "duration": 2.61
+    },
+    {
+      "text": "And I have a Welsh\nteacher, and the way",
+      "start": 37.76,
+      "duration": 2.22
+    },
+    {
+      "text": "that she teaches me is she gives\nme images and then she asks me,",
+      "start": 39.98,
+      "duration": 3.43
+    },
+    {
+      "text": "what is in the image\nin Welsh, basically.",
+      "start": 43.41,
+      "duration": 2.4
+    },
+    {
+      "text": "And I have to describe it.",
+      "start": 45.81,
+      "duration": 1.28
+    },
+    {
+      "text": "As a learning method, it\nworks surprisingly well.",
+      "start": 47.09,
+      "duration": 2.252
+    },
+    {
+      "text": "So I built a tool to help me.",
+      "start": 49.342,
+      "duration": 1.208
+    },
+    {
+      "text": "Can we just switch\nover to the demo?",
+      "start": 50.55,
+      "duration": 1.94
+    },
+    {
+      "text": "So this is the demo that I\nbuilt. Not a vibe code in sight.",
+      "start": 52.49,
+      "duration": 4.57
+    },
+    {
+      "text": "It was all handcrafted\nby me, as you can tell.",
+      "start": 57.06,
+      "duration": 3.39
+    },
+    {
+      "text": "So this is the new\nselect element.",
+      "start": 60.45,
+      "duration": 1.92
+    },
+    {
+      "text": "We can style\neverything inside this.",
+      "start": 62.37,
+      "duration": 1.53
+    },
+    {
+      "text": "I think it's pretty neat.",
+      "start": 63.9,
+      "duration": 1.29
+    },
+    {
+      "text": "We have this proficiency\nmode where you can select",
+      "start": 65.19,
+      "duration": 2.42
+    },
+    {
+      "text": "the level, a language level.",
+      "start": 67.61,
+      "duration": 1.6
+    },
+    {
+      "text": "It's got Brit mode because Brits\nare really good at learning",
+      "start": 69.21,
+      "duration": 2.57
+    },
+    {
+      "text": "languages, right?",
+      "start": 71.78,
+      "duration": 2.1
+    },
+    {
+      "text": "We have capture.",
+      "start": 73.88,
+      "duration": 1.565
+    },
+    {
+      "text": "So what I'm going to do is\nI'm going to capture an image.",
+      "start": 75.445,
+      "duration": 2.375
+    },
+    {
+      "text": "And what we're\ngoing to do is we're",
+      "start": 77.82,
+      "duration": 1.458
+    },
+    {
+      "text": "going to send it off on device\nto our multimodal model,",
+      "start": 79.278,
+      "duration": 3.062
+    },
+    {
+      "text": "prompt model, and\nit's going to generate",
+      "start": 82.34,
+      "duration": 1.74
+    },
+    {
+      "text": "a whole list of questions\nfor us to practice on.",
+      "start": 84.08,
+      "duration": 2.38
+    },
+    {
+      "text": "So here we go.",
+      "start": 86.46,
+      "duration": 1.79
+    },
+    {
+      "text": "There we go.",
+      "start": 88.25,
+      "duration": 0.76
+    },
+    {
+      "text": "It's a nice photo, I think.",
+      "start": 89.01,
+      "duration": 2.19
+    },
+    {
+      "text": "So in the background, it's going\nthrough the multimodal model.",
+      "start": 91.2,
+      "duration": 3.3
+    },
+    {
+      "text": "We have this little hover\nthing here so it's already",
+      "start": 94.5,
+      "duration": 2.57
+    },
+    {
+      "text": "got the description.",
+      "start": 97.07,
+      "duration": 1.09
+    },
+    {
+      "text": "No JavaScript in sight.",
+      "start": 98.16,
+      "duration": 1.5
+    },
+    {
+      "text": "It's just a bit of HTML, popover\nand the interest invoker.",
+      "start": 99.66,
+      "duration": 3.42
+    },
+    {
+      "text": "Here we go.",
+      "start": 103.08,
+      "duration": 0.6
+    },
+    {
+      "text": "We have the questions.",
+      "start": 103.68,
+      "duration": 1.92
+    },
+    {
+      "text": "And I can delete some of these\nusing view transitions to get",
+      "start": 105.6,
+      "duration": 3.26
+    },
+    {
+      "text": "rid of elements from the Dom.",
+      "start": 108.86,
+      "duration": 1.21
+    },
+    {
+      "text": "We've never been able\nto animate them before--",
+      "start": 110.07,
+      "duration": 1.917
+    },
+    {
+      "text": "unbelievably brilliant.",
+      "start": 111.987,
+      "duration": 1.233
+    },
+    {
+      "text": "And then if we press Play,\nI've sent every single question",
+      "start": 113.22,
+      "duration": 3.2
+    },
+    {
+      "text": "through our new\ntranslation API that's",
+      "start": 116.42,
+      "duration": 2.16
+    },
+    {
+      "text": "on device, no data leaving.",
+      "start": 118.58,
+      "duration": 2.11
+    },
+    {
+      "text": "And this generated\nthe list of questions",
+      "start": 120.69,
+      "duration": 1.73
+    },
+    {
+      "text": "which are now in\nour carousel that we",
+      "start": 122.42,
+      "duration": 2.28
+    },
+    {
+      "text": "showed a little bit earlier.",
+      "start": 124.7,
+      "duration": 2.07
+    },
+    {
+      "text": "And then I think this is\nwhat color is my shirt?",
+      "start": 126.77,
+      "duration": 3.04
+    },
+    {
+      "text": "Green.",
+      "start": 129.81,
+      "duration": 2.75
+    },
+    {
+      "text": "Here we go.",
+      "start": 132.56,
+      "duration": 0.61
+    },
+    {
+      "text": "It's gone off and checked.",
+      "start": 133.17,
+      "duration": 1.17
+    },
+    {
+      "text": "It says, I got it wrong because\nI didn't answer in French.",
+      "start": 134.34,
+      "duration": 2.808
+    },
+    {
+      "text": "But this is the power of\nwhat we've got right now",
+      "start": 137.148,
+      "duration": 2.042
+    },
+    {
+      "text": "is that with just a\nsmall bit of JavaScript",
+      "start": 139.19,
+      "duration": 1.8
+    },
+    {
+      "text": "and everything in\nHTML and CSS, we can",
+      "start": 140.99,
+      "duration": 2.31
+    },
+    {
+      "text": "build beautiful applications.",
+      "start": 143.3,
+      "duration": 1.817
+    },
+    {
+      "text": "Well, we can build better\nones than that look like this.",
+      "start": 145.117,
+      "duration": 2.333
+    },
+    {
+      "text": "Can we just switch\nback now, please,",
+      "start": 147.45,
+      "duration": 3.53
+    },
+    {
+      "text": "to the main presentation?",
+      "start": 150.98,
+      "duration": 3.21
+    },
+    {
+      "text": "Cool.",
+      "start": 154.19,
+      "duration": 1.03
+    },
+    {
+      "text": "So what I'm going\nto talk about today",
+      "start": 155.22,
+      "duration": 3.83
+    },
+    {
+      "text": "is how we're, hopefully, making\nthe ecosystem more powerful,",
+      "start": 159.05,
+      "duration": 2.95
+    },
+    {
+      "text": "more capable and easier to use.",
+      "start": 162.0,
+      "duration": 1.293
+    },
+    {
+      "text": "And you'll be able\nto build applications",
+      "start": 163.293,
+      "duration": 1.667
+    },
+    {
+      "text": "that look and feel way better\nthan the one I just built now.",
+      "start": 164.96,
+      "duration": 2.76
+    },
+    {
+      "text": "But you'll be able to do it\njust with a small piece of HTML,",
+      "start": 167.72,
+      "duration": 2.5
+    },
+    {
+      "text": "JavaScript, and CSS.",
+      "start": 170.22,
+      "duration": 1.92
+    },
+    {
+      "text": "So I live with the web.",
+      "start": 172.14,
+      "duration": 1.26
+    },
+    {
+      "text": "I grew up around it.",
+      "start": 173.4,
+      "duration": 0.87
+    },
+    {
+      "text": "This is me in 1998 when monitors\nwere tiny but unbelievably",
+      "start": 174.27,
+      "duration": 4.84
+    },
+    {
+      "text": "heavy.",
+      "start": 179.11,
+      "duration": 0.64
+    },
+    {
+      "text": "And this is, literally, the\nbest photo that we've got.",
+      "start": 179.75,
+      "duration": 2.25
+    },
+    {
+      "text": "It's incredibly grainy.",
+      "start": 182.0,
+      "duration": 1.56
+    },
+    {
+      "text": "But I had hair.",
+      "start": 183.56,
+      "duration": 1.32
+    },
+    {
+      "text": "I can't believe it.",
+      "start": 184.88,
+      "duration": 0.87
+    },
+    {
+      "text": "It was incredible.",
+      "start": 185.75,
+      "duration": 0.75
+    },
+    {
+      "text": "My mom loves it still.",
+      "start": 186.5,
+      "duration": 0.96
+    },
+    {
+      "text": "Anyway, I've been\nhere long enough,",
+      "start": 187.46,
+      "duration": 1.935
+    },
+    {
+      "text": "and working in the\nweb for long enough,",
+      "start": 189.395,
+      "duration": 1.625
+    },
+    {
+      "text": "to see huge amount of\ndifferent transitions.",
+      "start": 191.02,
+      "duration": 2.23
+    },
+    {
+      "text": "The dial up to broadband\ntransition, desktop to mobile.",
+      "start": 193.25,
+      "duration": 4.25
+    },
+    {
+      "text": "Maybe there's an\nAI-enhanced transition",
+      "start": 197.5,
+      "duration": 2.85
+    },
+    {
+      "text": "that's happening right now.",
+      "start": 200.35,
+      "duration": 1.27
+    },
+    {
+      "text": "But fundamentally,\nthe web has just",
+      "start": 201.62,
+      "duration": 1.64
+    },
+    {
+      "text": "changed so much in\nthe last 30 years,",
+      "start": 203.26,
+      "duration": 2.11
+    },
+    {
+      "text": "and it's not slowing down.",
+      "start": 205.37,
+      "duration": 1.23
+    },
+    {
+      "text": "In fact, the web is accelerating\nin capability, in performance",
+      "start": 206.6,
+      "duration": 3.99
+    },
+    {
+      "text": "and, I think, also,\nin opportunity.",
+      "start": 210.59,
+      "duration": 1.59
+    },
+    {
+      "text": "And it's at the center of every\nmajor technological shift.",
+      "start": 212.18,
+      "duration": 2.91
+    },
+    {
+      "text": "The browser is now\nan operating system.",
+      "start": 215.09,
+      "duration": 2.61
+    },
+    {
+      "text": "It works for\neveryone, everywhere,",
+      "start": 217.7,
+      "duration": 1.77
+    },
+    {
+      "text": "across mobile, desktop,\ntablet, on your server,",
+      "start": 219.47,
+      "duration": 4.04
+    },
+    {
+      "text": "even in your car.",
+      "start": 223.51,
+      "duration": 1.42
+    },
+    {
+      "text": "It's amazing.",
+      "start": 224.93,
+      "duration": 0.862
+    },
+    {
+      "text": "But before we dive in, I just\nwant to acknowledge something",
+      "start": 225.792,
+      "duration": 2.458
+    },
+    {
+      "text": "about this presentation today.",
+      "start": 228.25,
+      "duration": 1.48
+    },
+    {
+      "text": "Chrome has changed so\nmuch in the last year",
+      "start": 229.73,
+      "duration": 2.48
+    },
+    {
+      "text": "with hundreds of new\nfeatures just chipped,",
+      "start": 232.21,
+      "duration": 2.66
+    },
+    {
+      "text": "amazing capabilities,\nCSS, JavaScript, and HTML.",
+      "start": 234.87,
+      "duration": 2.91
+    },
+    {
+      "text": "We've only got about\n30 minutes, so I'm not",
+      "start": 237.78,
+      "duration": 1.94
+    },
+    {
+      "text": "going to be able\nto cover everything",
+      "start": 239.72,
+      "duration": 1.05
+    },
+    {
+      "text": "that we're going\nto-- well, everything",
+      "start": 240.77,
+      "duration": 0.96
+    },
+    {
+      "text": "that's coming through Chrome.",
+      "start": 241.73,
+      "duration": 1.267
+    },
+    {
+      "text": "I've just got a\ncouple of major themes",
+      "start": 242.997,
+      "duration": 1.583
+    },
+    {
+      "text": "that I want to try\nand talk about today.",
+      "start": 244.58,
+      "duration": 1.96
+    },
+    {
+      "text": "But there is a\nmajor tension that I",
+      "start": 246.54,
+      "duration": 2.21
+    },
+    {
+      "text": "do want to talk about first.",
+      "start": 248.75,
+      "duration": 1.823
+    },
+    {
+      "text": "The web means so much to\nme because it just gives us",
+      "start": 250.573,
+      "duration": 2.167
+    },
+    {
+      "text": "the ability to do what\nno other platform can do.",
+      "start": 252.74,
+      "duration": 2.92
+    },
+    {
+      "text": "You can just write once\nand reach everyone.",
+      "start": 255.66,
+      "duration": 2.618
+    },
+    {
+      "text": "And the web's\nsuperpower is that it's",
+      "start": 258.278,
+      "duration": 1.542
+    },
+    {
+      "text": "a medium that is accessible\nto all in any browser",
+      "start": 259.82,
+      "duration": 3.33
+    },
+    {
+      "text": "just by clicking on the link.",
+      "start": 263.15,
+      "duration": 1.27
+    },
+    {
+      "text": "And I think that's an\nincredibly powerful.",
+      "start": 264.42,
+      "duration": 1.89
+    },
+    {
+      "text": "And, yes, in Chrome\nwe build features",
+      "start": 266.31,
+      "duration": 2.39
+    },
+    {
+      "text": "to demonstrate the\nfuture of the web",
+      "start": 268.7,
+      "duration": 2.19
+    },
+    {
+      "text": "that we think is\nneeded on the platform.",
+      "start": 270.89,
+      "duration": 2.71
+    },
+    {
+      "text": "But no matter what\nthat Chrome does,",
+      "start": 273.6,
+      "duration": 2.33
+    },
+    {
+      "text": "the web only advances when\nall browsers advance together.",
+      "start": 275.93,
+      "duration": 3.55
+    },
+    {
+      "text": "And also, at the same time, the\ncommon perception of the web",
+      "start": 279.48,
+      "duration": 2.63
+    },
+    {
+      "text": "is, it can't do this\nand it can't do that.",
+      "start": 282.11,
+      "duration": 2.08
+    },
+    {
+      "text": "It's just this pervasive\nstory everywhere.",
+      "start": 284.19,
+      "duration": 2.22
+    },
+    {
+      "text": "But the web is more capable,\nand it is more versatile",
+      "start": 286.41,
+      "duration": 3.38
+    },
+    {
+      "text": "than we give it credit for.",
+      "start": 289.79,
+      "duration": 1.347
+    },
+    {
+      "text": "And the question is like, what\nis causing that perception gap?",
+      "start": 291.137,
+      "duration": 2.583
+    },
+    {
+      "text": "And I think it's two things.",
+      "start": 293.72,
+      "duration": 1.167
+    },
+    {
+      "text": "It's clarity and compatibility.",
+      "start": 294.887,
+      "duration": 2.038
+    },
+    {
+      "text": "There are two big major\nareas where developers just",
+      "start": 296.925,
+      "duration": 2.125
+    },
+    {
+      "text": "don't have enough confidence.",
+      "start": 299.05,
+      "duration": 1.36
+    },
+    {
+      "text": "And it comes from\na lot of issues.",
+      "start": 300.41,
+      "duration": 3.27
+    },
+    {
+      "text": "But browsers have either\nprioritized different web",
+      "start": 303.68,
+      "duration": 2.78
+    },
+    {
+      "text": "standards.",
+      "start": 306.46,
+      "duration": 0.7
+    },
+    {
+      "text": "We all implement\ndifferent things,",
+      "start": 307.16,
+      "duration": 1.58
+    },
+    {
+      "text": "and sometimes we implement\nthem differently, as well.",
+      "start": 308.74,
+      "duration": 2.422
+    },
+    {
+      "text": "And this makes it very\ndifficult for developers",
+      "start": 311.162,
+      "duration": 1.958
+    },
+    {
+      "text": "to understand what features\nwork well across all browsers.",
+      "start": 313.12,
+      "duration": 3.422
+    },
+    {
+      "text": "And so we are working\nwith other browsers",
+      "start": 316.542,
+      "duration": 1.708
+    },
+    {
+      "text": "to address this in two ways.",
+      "start": 318.25,
+      "duration": 1.6
+    },
+    {
+      "text": "The first you might know, is\ncalled the Interop Project.",
+      "start": 319.85,
+      "duration": 3.15
+    },
+    {
+      "text": "And the Interop addresses\ncompatibility issues",
+      "start": 323.0,
+      "duration": 2.15
+    },
+    {
+      "text": "by bringing browser\nvendors together",
+      "start": 325.15,
+      "duration": 1.83
+    },
+    {
+      "text": "to identify focus areas\nthat you, the developers,",
+      "start": 326.98,
+      "duration": 3.42
+    },
+    {
+      "text": "have said are important\nfor you to fix.",
+      "start": 330.4,
+      "duration": 2.37
+    },
+    {
+      "text": "In 2025, we hope things\nlike anchor positioning,",
+      "start": 332.77,
+      "duration": 2.74
+    },
+    {
+      "text": "view transitions,\nthe navigation API,",
+      "start": 335.51,
+      "duration": 1.97
+    },
+    {
+      "text": "we hope that these\nare all addressed",
+      "start": 337.48,
+      "duration": 1.5
+    },
+    {
+      "text": "so that they're available across\nthe entirety of the platform.",
+      "start": 338.98,
+      "duration": 2.83
+    },
+    {
+      "text": "And the second is\nthe Baseline project,",
+      "start": 341.81,
+      "duration": 1.625
+    },
+    {
+      "text": "which you heard a little\nbit more about today.",
+      "start": 343.435,
+      "duration": 1.917
+    },
+    {
+      "text": "Now, the goal of\nBaseline is it gives you",
+      "start": 345.352,
+      "duration": 1.758
+    },
+    {
+      "text": "clarity on what feature\nareas, things like CSS grid,",
+      "start": 347.11,
+      "duration": 3.6
+    },
+    {
+      "text": "are supported\nacross all browsers,",
+      "start": 350.71,
+      "duration": 2.42
+    },
+    {
+      "text": "and it breaks it down\nby feature availability",
+      "start": 353.13,
+      "duration": 2.15
+    },
+    {
+      "text": "into three different\ncategories--",
+      "start": 355.28,
+      "duration": 1.53
+    },
+    {
+      "text": "limited availability, newly\navailable, and widely available.",
+      "start": 356.81,
+      "duration": 3.64
+    },
+    {
+      "text": "So limited availability is\nwhen the feature is only",
+      "start": 360.45,
+      "duration": 2.33
+    },
+    {
+      "text": "in one or two\nbrowsers, and it's only",
+      "start": 362.78,
+      "duration": 2.46
+    },
+    {
+      "text": "really usable with polyfills\nor other different mitigations.",
+      "start": 365.24,
+      "duration": 4.21
+    },
+    {
+      "text": "You're very unlikely to use\nit for a production site,",
+      "start": 369.45,
+      "duration": 3.27
+    },
+    {
+      "text": "but they're interesting\nAPIs at that time.",
+      "start": 372.72,
+      "duration": 2.37
+    },
+    {
+      "text": "But when a feature\nbecomes interoperable,",
+      "start": 375.09,
+      "duration": 2.042
+    },
+    {
+      "text": "it's the moment\nwhen it's available",
+      "start": 377.132,
+      "duration": 1.458
+    },
+    {
+      "text": "across all major\nbrowser engines,",
+      "start": 378.59,
+      "duration": 2.08
+    },
+    {
+      "text": "we consider it newly available.",
+      "start": 380.67,
+      "duration": 1.64
+    },
+    {
+      "text": "Now, it still might\nnot be ready for you",
+      "start": 382.31,
+      "duration": 2.01
+    },
+    {
+      "text": "to use in your production sites\nbased on your browser support,",
+      "start": 384.32,
+      "duration": 3.76
+    },
+    {
+      "text": "but it's at least something\nthat you can start to plan for.",
+      "start": 388.08,
+      "duration": 3.21
+    },
+    {
+      "text": "And then the third\nstage, after 30 months,",
+      "start": 391.29,
+      "duration": 2.25
+    },
+    {
+      "text": "we consider it widely available.",
+      "start": 393.54,
+      "duration": 1.68
+    },
+    {
+      "text": "And this is the point when we\nthink developers can confidently",
+      "start": 395.22,
+      "duration": 2.96
+    },
+    {
+      "text": "use the feature on the platform.",
+      "start": 398.18,
+      "duration": 3.39
+    },
+    {
+      "text": "Now, I'm incredibly\nexcited by Baseline.",
+      "start": 401.57,
+      "duration": 2.58
+    },
+    {
+      "text": "For the first time that\nwe can see as the web,",
+      "start": 404.15,
+      "duration": 2.59
+    },
+    {
+      "text": "as experienced by the\npeople that use it,",
+      "start": 406.74,
+      "duration": 2.07
+    },
+    {
+      "text": "is improving faster\nthan ever before.",
+      "start": 408.81,
+      "duration": 2.78
+    },
+    {
+      "text": "Since 2020, the web has expanded\nwith 196 different features that",
+      "start": 411.59,
+      "duration": 4.25
+    },
+    {
+      "text": "have become widely available.",
+      "start": 415.84,
+      "duration": 2.06
+    },
+    {
+      "text": "I mean, I actually tell a lie.",
+      "start": 417.9,
+      "duration": 1.25
+    },
+    {
+      "text": "I checked last night\nand it's 197 features.",
+      "start": 419.15,
+      "duration": 3.355
+    },
+    {
+      "text": "They wouldn't let me\nupdate the slides.",
+      "start": 422.505,
+      "duration": 1.625
+    },
+    {
+      "text": "The slides had to be locked.",
+      "start": 424.13,
+      "duration": 1.2
+    },
+    {
+      "text": "But it's features like\nstreams, broadcast channels",
+      "start": 425.33,
+      "duration": 2.76
+    },
+    {
+      "text": "that isn't where\npseudo selectors,",
+      "start": 428.09,
+      "duration": 1.49
+    },
+    {
+      "text": "and the dialogue element.",
+      "start": 429.58,
+      "duration": 1.252
+    },
+    {
+      "text": "These are all things that\nare available for you",
+      "start": 430.832,
+      "duration": 1.958
+    },
+    {
+      "text": "to use in your experiences.",
+      "start": 432.79,
+      "duration": 2.05
+    },
+    {
+      "text": "And we expect at least 150 more\nfeatures to become available",
+      "start": 434.84,
+      "duration": 3.47
+    },
+    {
+      "text": "over the next 30 months,\nthings like popover, :has(),",
+      "start": 438.31,
+      "duration": 2.64
+    },
+    {
+      "text": "container queries,\nHTTP/3, new set methods.",
+      "start": 440.95,
+      "duration": 3.85
+    },
+    {
+      "text": "They're all becoming widely\navailable in the coming months,",
+      "start": 444.8,
+      "duration": 2.52
+    },
+    {
+      "text": "and I just don't think we've\nseen the level of progress",
+      "start": 447.32,
+      "duration": 2.292
+    },
+    {
+      "text": "for such a long time.",
+      "start": 449.612,
+      "duration": 0.888
+    },
+    {
+      "text": "And I think it's amazing\nto see all the progress",
+      "start": 450.5,
+      "duration": 2.0
+    },
+    {
+      "text": "that all the browser vendors\nhave achieved with this project.",
+      "start": 452.5,
+      "duration": 2.79
+    },
+    {
+      "text": "And we're also making it\neasier for you, as developers,",
+      "start": 455.29,
+      "duration": 3.053
+    },
+    {
+      "text": "to keep up with the\nlatest improvements.",
+      "start": 458.343,
+      "duration": 1.667
+    },
+    {
+      "text": "The web platform\ndashboard at webstatus.dev",
+      "start": 460.01,
+      "duration": 2.48
+    },
+    {
+      "text": "tells you exactly what features\nare Baseline, newly available,",
+      "start": 462.49,
+      "duration": 3.46
+    },
+    {
+      "text": "and widely available.",
+      "start": 465.95,
+      "duration": 1.11
+    },
+    {
+      "text": "And the feature dashboard\nfocuses on feature area",
+      "start": 467.06,
+      "duration": 4.985
+    },
+    {
+      "text": "so that you don't\nhave to look up",
+      "start": 472.045,
+      "duration": 1.375
+    },
+    {
+      "text": "individual statuses\nof each feature.",
+      "start": 473.42,
+      "duration": 3.72
+    },
+    {
+      "text": "And the great thing\nis, the data that",
+      "start": 477.14,
+      "duration": 1.86
+    },
+    {
+      "text": "drives Baseline is the data\nthat drives the web platform",
+      "start": 479.0,
+      "duration": 2.94
+    },
+    {
+      "text": "dashboard.",
+      "start": 481.94,
+      "duration": 0.73
+    },
+    {
+      "text": "And this data is also available\nfor you, as developers,",
+      "start": 482.67,
+      "duration": 3.26
+    },
+    {
+      "text": "to include in your tooling.",
+      "start": 485.93,
+      "duration": 1.54
+    },
+    {
+      "text": "Now, you might have already seen\nthe data being used on web.dev,",
+      "start": 487.47,
+      "duration": 3.02
+    },
+    {
+      "text": "and MDN.",
+      "start": 490.49,
+      "duration": 1.09
+    },
+    {
+      "text": "MDN integrated\nBaseline support across",
+      "start": 491.58,
+      "duration": 1.85
+    },
+    {
+      "text": "over 70% of all their pages.",
+      "start": 493.43,
+      "duration": 2.128
+    },
+    {
+      "text": "But there's lots of other\nways that Baseline data",
+      "start": 495.558,
+      "duration": 2.042
+    },
+    {
+      "text": "can help you as a developer.",
+      "start": 497.6,
+      "duration": 1.57
+    },
+    {
+      "text": "So RUMvision, they wanted\nto help their customers",
+      "start": 499.17,
+      "duration": 2.3
+    },
+    {
+      "text": "figure out which Baseline\nfeatures were available",
+      "start": 501.47,
+      "duration": 2.7
+    },
+    {
+      "text": "and supported by\ntheir customers users,",
+      "start": 504.17,
+      "duration": 2.8
+    },
+    {
+      "text": "and they combined their Baseline\ndata with their real user",
+      "start": 506.97,
+      "duration": 3.14
+    },
+    {
+      "text": "monitoring data, and discovered\nthat their customers were",
+      "start": 510.11,
+      "duration": 2.549
+    },
+    {
+      "text": "serving polyfills for about\n97% of their customers",
+      "start": 512.659,
+      "duration": 2.52
+    },
+    {
+      "text": "when they didn't need to.",
+      "start": 515.179,
+      "duration": 1.831
+    },
+    {
+      "text": "And by looking at your\nsite's actual usage data,",
+      "start": 517.01,
+      "duration": 2.5
+    },
+    {
+      "text": "you can then target a\nspecific baseline year",
+      "start": 519.51,
+      "duration": 2.899
+    },
+    {
+      "text": "and make more informed\ndecisions about which features",
+      "start": 522.409,
+      "duration": 2.731
+    },
+    {
+      "text": "that you can use in production.",
+      "start": 525.14,
+      "duration": 4.73
+    },
+    {
+      "text": "But to put the Baseline\ntarget into practice,",
+      "start": 529.87,
+      "duration": 2.2
+    },
+    {
+      "text": "you can configure your linter,\nas we saw in the keynote.",
+      "start": 532.07,
+      "duration": 2.43
+    },
+    {
+      "text": "And it enables you to\nwarn your developers",
+      "start": 534.5,
+      "duration": 2.21
+    },
+    {
+      "text": "and yourself when your features\nyou're using in your code",
+      "start": 536.71,
+      "duration": 3.85
+    },
+    {
+      "text": "go beyond your Baseline target.",
+      "start": 540.56,
+      "duration": 1.71
+    },
+    {
+      "text": "And so if you use ESLint,\nthere are two plugins",
+      "start": 542.27,
+      "duration": 2.36
+    },
+    {
+      "text": "that support Baseline.",
+      "start": 544.63,
+      "duration": 1.3
+    },
+    {
+      "text": "First up is the\nCSS lint by ESLint",
+      "start": 545.93,
+      "duration": 3.95
+    },
+    {
+      "text": "with the Baseline rule\nconfigured by default.",
+      "start": 549.88,
+      "duration": 2.62
+    },
+    {
+      "text": "And the second is the community\nplugin HTML ESLint that has also",
+      "start": 552.5,
+      "duration": 3.8
+    },
+    {
+      "text": "added its own Baseline\nsupport by default.",
+      "start": 556.3,
+      "duration": 2.11
+    },
+    {
+      "text": "And if you use\nStylelint, there's",
+      "start": 558.41,
+      "duration": 2.27
+    },
+    {
+      "text": "an officially supported\nBaseline plugin for you, too.",
+      "start": 560.68,
+      "duration": 4.02
+    },
+    {
+      "text": "Now, obviously, we spend\nso much time in our ideas,",
+      "start": 564.7,
+      "duration": 3.07
+    },
+    {
+      "text": "and what we really want to\nknow when we're coding is",
+      "start": 567.77,
+      "duration": 2.24
+    },
+    {
+      "text": "is this feature\nsomething I can use?",
+      "start": 570.01,
+      "duration": 1.96
+    },
+    {
+      "text": "Is it ready or not?",
+      "start": 571.97,
+      "duration": 1.28
+    },
+    {
+      "text": "Well, wouldn't it be great\nif the Baseline information",
+      "start": 573.25,
+      "duration": 2.25
+    },
+    {
+      "text": "that you need was easy to\naccess, easy to understand,",
+      "start": 575.5,
+      "duration": 2.98
+    },
+    {
+      "text": "and right in your environment?",
+      "start": 578.48,
+      "duration": 1.47
+    },
+    {
+      "text": "Well, now you can.",
+      "start": 579.95,
+      "duration": 1.56
+    },
+    {
+      "text": "So Baseline is now available\nin Visual Studio code,",
+      "start": 581.51,
+      "duration": 2.72
+    },
+    {
+      "text": "and soon, in all downstream\nvisual VS Code-based IDEs,",
+      "start": 584.23,
+      "duration": 4.07
+    },
+    {
+      "text": "including Firebase Studio.",
+      "start": 588.3,
+      "duration": 1.753
+    },
+    {
+      "text": "And as we heard\nbefore, we've also",
+      "start": 590.053,
+      "duration": 1.417
+    },
+    {
+      "text": "partnered with\nJetBrains, who will",
+      "start": 591.47,
+      "duration": 1.5
+    },
+    {
+      "text": "be adding Baseline support into\ntheir WebStorm IDE in the coming",
+      "start": 592.97,
+      "duration": 3.63
+    },
+    {
+      "text": "months.",
+      "start": 596.6,
+      "duration": 2.01
+    },
+    {
+      "text": "Now, whenever you\nhover over a feature,",
+      "start": 598.61,
+      "duration": 2.177
+    },
+    {
+      "text": "you'll be able to tell if\nthe feature you're using",
+      "start": 600.787,
+      "duration": 2.083
+    },
+    {
+      "text": "is Baseline newly\navailable, or widely",
+      "start": 602.87,
+      "duration": 1.89
+    },
+    {
+      "text": "available all in your\nIDE, right, as your code.",
+      "start": 604.76,
+      "duration": 2.92
+    },
+    {
+      "text": "I just think this is amazing.",
+      "start": 607.68,
+      "duration": 1.38
+    },
+    {
+      "text": "It's so productive.",
+      "start": 609.06,
+      "duration": 1.47
+    },
+    {
+      "text": "Now, we are really excited about\nall the different tools that",
+      "start": 610.53,
+      "duration": 2.87
+    },
+    {
+      "text": "are adopting Baseline\nand Baseline data",
+      "start": 613.4,
+      "duration": 1.89
+    },
+    {
+      "text": "and integrating it in,\nbecause the more tools",
+      "start": 615.29,
+      "duration": 2.19
+    },
+    {
+      "text": "that we have that deliver\nthese Baseline integrations,",
+      "start": 617.48,
+      "duration": 2.8
+    },
+    {
+      "text": "the easier it will be\nfor you as developers",
+      "start": 620.28,
+      "duration": 2.15
+    },
+    {
+      "text": "to build for the best of\nthe web and have confidence",
+      "start": 622.43,
+      "duration": 2.7
+    },
+    {
+      "text": "to ship high-quality sites\nthat use the latest features.",
+      "start": 625.13,
+      "duration": 3.3
+    },
+    {
+      "text": "We're obviously going to\ncontinue investing in Baseline",
+      "start": 628.43,
+      "duration": 2.37
+    },
+    {
+      "text": "so that you can use\nthose technologies",
+      "start": 630.8,
+      "duration": 1.71
+    },
+    {
+      "text": "without compromising stability\nor cross-browser platform",
+      "start": 632.51,
+      "duration": 4.62
+    },
+    {
+      "text": "compatibility.",
+      "start": 637.13,
+      "duration": 1.21
+    },
+    {
+      "text": "And Rachel is going to talk\nabout this a lot more a little",
+      "start": 638.34,
+      "duration": 2.45
+    },
+    {
+      "text": "bit later in our talk with\nwhat's new in the web.",
+      "start": 640.79,
+      "duration": 2.042
+    },
+    {
+      "text": "Now, we've covered a lot\nof features that have",
+      "start": 642.832,
+      "duration": 1.998
+    },
+    {
+      "text": "come available to all browsers.",
+      "start": 644.83,
+      "duration": 1.41
+    },
+    {
+      "text": "I want to spend a lot more\ntime now talking about some",
+      "start": 646.24,
+      "duration": 2.25
+    },
+    {
+      "text": "of the exciting things in Chrome\nthat we are delivering first.",
+      "start": 648.49,
+      "duration": 3.54
+    },
+    {
+      "text": "So first up, obviously, is AI\nand what it means for the web,",
+      "start": 652.03,
+      "duration": 3.6
+    },
+    {
+      "text": "and how the web excels, I\nthink, at delivering AI features",
+      "start": 655.63,
+      "duration": 2.94
+    },
+    {
+      "text": "and products.",
+      "start": 658.57,
+      "duration": 1.0
+    },
+    {
+      "text": "Now, I think that the\nweb is a great platform",
+      "start": 659.57,
+      "duration": 2.21
+    },
+    {
+      "text": "to deliver AI-enhanced\nexperiences because millions",
+      "start": 661.78,
+      "duration": 2.94
+    },
+    {
+      "text": "of users can instantly\naccess them with just",
+      "start": 664.72,
+      "duration": 1.89
+    },
+    {
+      "text": "a simple click of the link.",
+      "start": 666.61,
+      "duration": 1.24
+    },
+    {
+      "text": "You can use massive\nCloud models,",
+      "start": 667.85,
+      "duration": 1.46
+    },
+    {
+      "text": "like Gemini 2.5 Pro that\nhave advanced capabilities",
+      "start": 669.31,
+      "duration": 2.91
+    },
+    {
+      "text": "like writing code, or you can\ntake advantage of client-side AI",
+      "start": 672.22,
+      "duration": 6.0
+    },
+    {
+      "text": "with models directly\ninside the browser.",
+      "start": 678.22,
+      "duration": 3.16
+    },
+    {
+      "text": "So client-side AI models, I\nthink they're really exciting.",
+      "start": 681.38,
+      "duration": 3.06
+    },
+    {
+      "text": "They've got benefits like\nzero network latency.",
+      "start": 684.44,
+      "duration": 2.49
+    },
+    {
+      "text": "They're cost effective.",
+      "start": 686.93,
+      "duration": 1.32
+    },
+    {
+      "text": "They can have enhanced privacy.",
+      "start": 688.25,
+      "duration": 2.25
+    },
+    {
+      "text": "And they even work when\nthe user is offline.",
+      "start": 690.5,
+      "duration": 3.09
+    },
+    {
+      "text": "And when adapted\nto specific tasks,",
+      "start": 693.59,
+      "duration": 2.28
+    },
+    {
+      "text": "these models can also match\nthe performance and quality",
+      "start": 695.87,
+      "duration": 3.53
+    },
+    {
+      "text": "of server side models, but\nwithout the cost overhead",
+      "start": 699.4,
+      "duration": 2.64
+    },
+    {
+      "text": "of running on the Cloud.",
+      "start": 702.04,
+      "duration": 2.12
+    },
+    {
+      "text": "So if you're\ncomfortable managing",
+      "start": 704.16,
+      "duration": 1.95
+    },
+    {
+      "text": "your own models and\nyour own distribution,",
+      "start": 706.11,
+      "duration": 2.35
+    },
+    {
+      "text": "obviously, you can use\ntools like MediaPipe",
+      "start": 708.46,
+      "duration": 2.03
+    },
+    {
+      "text": "and transformer.js because\nthey use some of Chrome's",
+      "start": 710.49,
+      "duration": 3.69
+    },
+    {
+      "text": "new core platform primitives.",
+      "start": 714.18,
+      "duration": 3.48
+    },
+    {
+      "text": "Technologies like\nWebAssembly and WebGPU,",
+      "start": 717.66,
+      "duration": 2.26
+    },
+    {
+      "text": "they give these libraries\ndirect access to the hardware,",
+      "start": 719.92,
+      "duration": 2.75
+    },
+    {
+      "text": "like the GPU and maybe\nnew things in the future,",
+      "start": 722.67,
+      "duration": 2.61
+    },
+    {
+      "text": "as well, directly on\nthe user's device,",
+      "start": 725.28,
+      "duration": 2.11
+    },
+    {
+      "text": "allowing them to run the\nmodels in the browser",
+      "start": 727.39,
+      "duration": 2.69
+    },
+    {
+      "text": "as fast as possible.",
+      "start": 730.08,
+      "duration": 1.69
+    },
+    {
+      "text": "They let you analyze things like\ntext, images, video, and audio",
+      "start": 731.77,
+      "duration": 3.71
+    },
+    {
+      "text": "all in real-time.",
+      "start": 735.48,
+      "duration": 1.39
+    },
+    {
+      "text": "And they do things like text\nsentiment analysis, image",
+      "start": 736.87,
+      "duration": 2.48
+    },
+    {
+      "text": "classification, tracking\nobjects inside videos,",
+      "start": 739.35,
+      "duration": 2.74
+    },
+    {
+      "text": "transforming text into\naudio, and even doing",
+      "start": 742.09,
+      "duration": 2.33
+    },
+    {
+      "text": "things like image-to-image\ntransformations--",
+      "start": 744.42,
+      "duration": 2.28
+    },
+    {
+      "text": "again, all directly\ninside the browser.",
+      "start": 746.7,
+      "duration": 2.77
+    },
+    {
+      "text": "Now, over the last\ncouple of years,",
+      "start": 749.47,
+      "duration": 2.43
+    },
+    {
+      "text": "we've asked you\nwhat tools and what",
+      "start": 751.9,
+      "duration": 1.94
+    },
+    {
+      "text": "features that you really need\nto get the most out of AI",
+      "start": 753.84,
+      "duration": 2.7
+    },
+    {
+      "text": "in the browser.",
+      "start": 756.54,
+      "duration": 1.15
+    },
+    {
+      "text": "We listened, and we've\nbuilt a number of APIs",
+      "start": 757.69,
+      "duration": 3.26
+    },
+    {
+      "text": "for some of the most common\nuse cases into the browser.",
+      "start": 760.95,
+      "duration": 3.35
+    },
+    {
+      "text": "Now, these built-in\nAI APIs, they're",
+      "start": 764.3,
+      "duration": 3.71
+    },
+    {
+      "text": "designed to address two\ndifferent challenges.",
+      "start": 768.01,
+      "duration": 2.47
+    },
+    {
+      "text": "First, you shouldn't have\nto spend time reasoning",
+      "start": 770.48,
+      "duration": 2.72
+    },
+    {
+      "text": "about what is the best model\nto use for common tasks.",
+      "start": 773.2,
+      "duration": 2.74
+    },
+    {
+      "text": "You should just\nbe able to use it.",
+      "start": 775.94,
+      "duration": 1.65
+    },
+    {
+      "text": "And Chrome's built-in AI\nuses highly efficient models",
+      "start": 777.59,
+      "duration": 3.59
+    },
+    {
+      "text": "that should just work without\nany extra effort from your side.",
+      "start": 781.18,
+      "duration": 5.25
+    },
+    {
+      "text": "And the second is\nthat your users",
+      "start": 786.43,
+      "duration": 1.89
+    },
+    {
+      "text": "shouldn't be bogged down\nby the sheer size of some",
+      "start": 788.32,
+      "duration": 2.49
+    },
+    {
+      "text": "of these models.",
+      "start": 790.81,
+      "duration": 1.12
+    },
+    {
+      "text": "Now, one model can take\na long time to download.",
+      "start": 791.93,
+      "duration": 3.057
+    },
+    {
+      "text": "And if the user has to download\nit for every single site",
+      "start": 794.987,
+      "duration": 2.333
+    },
+    {
+      "text": "that they visit, they take\nup a lot of storage space",
+      "start": 797.32,
+      "duration": 2.34
+    },
+    {
+      "text": "and a huge amount of bandwidth.",
+      "start": 799.66,
+      "duration": 1.57
+    },
+    {
+      "text": "Built-in AI models are\nmanaged by the browser,",
+      "start": 801.23,
+      "duration": 3.17
+    },
+    {
+      "text": "and are available to all sites.",
+      "start": 804.4,
+      "duration": 2.25
+    },
+    {
+      "text": "So that means that once a\nmodel has been downloaded once",
+      "start": 806.65,
+      "duration": 3.36
+    },
+    {
+      "text": "by one model, it's\navailable to all sites",
+      "start": 810.01,
+      "duration": 2.85
+    },
+    {
+      "text": "using the built-in AI APIs.",
+      "start": 812.86,
+      "duration": 2.86
+    },
+    {
+      "text": "Now, I love these APIs.",
+      "start": 815.72,
+      "duration": 2.01
+    },
+    {
+      "text": "You saw some of them in the\ndemo a little bit earlier.",
+      "start": 817.73,
+      "duration": 3.03
+    },
+    {
+      "text": "But I want to show\nyou some of the APIs",
+      "start": 820.76,
+      "duration": 1.827
+    },
+    {
+      "text": "that we're shipping really soon.",
+      "start": 822.587,
+      "duration": 1.333
+    },
+    {
+      "text": "So the first one is\nthe Summarization API.",
+      "start": 823.92,
+      "duration": 2.67
+    },
+    {
+      "text": "It's available in\nChrome 138, which",
+      "start": 826.59,
+      "duration": 1.91
+    },
+    {
+      "text": "I think is Canary, as of today.",
+      "start": 828.5,
+      "duration": 1.78
+    },
+    {
+      "text": "And it enables you to\ncompile long articles,",
+      "start": 830.28,
+      "duration": 2.91
+    },
+    {
+      "text": "complex documents, or\neven chat conversations",
+      "start": 833.19,
+      "duration": 2.96
+    },
+    {
+      "text": "into concise summaries.",
+      "start": 836.15,
+      "duration": 2.05
+    },
+    {
+      "text": "The API can generate\ndifferent types of summaries",
+      "start": 838.2,
+      "duration": 2.75
+    },
+    {
+      "text": "in various types of lengths,\nin different types of formats,",
+      "start": 840.95,
+      "duration": 2.62
+    },
+    {
+      "text": "like from short paragraphs to\nbullet points in plain text",
+      "start": 843.57,
+      "duration": 3.92
+    },
+    {
+      "text": "and markdown, as well.",
+      "start": 847.49,
+      "duration": 1.21
+    },
+    {
+      "text": "And it just helps users get a\nquick overview of long text.",
+      "start": 848.7,
+      "duration": 4.64
+    },
+    {
+      "text": "The Language Detector\nand Translator API",
+      "start": 853.34,
+      "duration": 2.01
+    },
+    {
+      "text": "is also available in Chrome 138,\nlet you detect an unknown source",
+      "start": 855.35,
+      "duration": 3.9
+    },
+    {
+      "text": "language, and then\ntranslate that text",
+      "start": 859.25,
+      "duration": 2.01
+    },
+    {
+      "text": "into over 39 different\nlanguages on the fly",
+      "start": 861.26,
+      "duration": 3.16
+    },
+    {
+      "text": "so that you can build\nfeatures that adapt",
+      "start": 864.42,
+      "duration": 2.15
+    },
+    {
+      "text": "to the user's first language.",
+      "start": 866.57,
+      "duration": 2.29
+    },
+    {
+      "text": "Now, you also might\nneed an API that's",
+      "start": 868.86,
+      "duration": 2.51
+    },
+    {
+      "text": "a little bit more\nbroad, one that can",
+      "start": 871.37,
+      "duration": 2.13
+    },
+    {
+      "text": "address a wide range of needs.",
+      "start": 873.5,
+      "duration": 1.78
+    },
+    {
+      "text": "So at last year's I/O we\nannounced the Prompt API.",
+      "start": 875.28,
+      "duration": 3.86
+    },
+    {
+      "text": "And after all the feedback\nthat we've received,",
+      "start": 879.14,
+      "duration": 2.1
+    },
+    {
+      "text": "it's now available\nin Chrome extensions.",
+      "start": 881.24,
+      "duration": 2.55
+    },
+    {
+      "text": "This API lets you send natural\nlanguage requests to Gemini",
+      "start": 883.79,
+      "duration": 3.53
+    },
+    {
+      "text": "directly inside the browser.",
+      "start": 887.32,
+      "duration": 3.36
+    },
+    {
+      "text": "So, for example, you\ncan create an extension",
+      "start": 890.68,
+      "duration": 2.7
+    },
+    {
+      "text": "to generate instant calendar\nevents that extract key details,",
+      "start": 893.38,
+      "duration": 4.02
+    },
+    {
+      "text": "like the time and\ndate from websites.",
+      "start": 897.4,
+      "duration": 2.26
+    },
+    {
+      "text": "Or you can extract contact\ninformation from a website",
+      "start": 899.66,
+      "duration": 3.47
+    },
+    {
+      "text": "so you can then subsequently,\nmore easily contact a business.",
+      "start": 903.13,
+      "duration": 4.89
+    },
+    {
+      "text": "Now, developers are already\nusing this technology",
+      "start": 908.02,
+      "duration": 2.64
+    },
+    {
+      "text": "to build impactful Chrome\nextensions to help their users,",
+      "start": 910.66,
+      "duration": 2.65
+    },
+    {
+      "text": "and I think this is actually\na pretty cool example.",
+      "start": 913.31,
+      "duration": 2.13
+    },
+    {
+      "text": "So many businesses still\nrely on printed documents",
+      "start": 915.44,
+      "duration": 2.33
+    },
+    {
+      "text": "for day-to-day operations, and\ndigging through physical docs",
+      "start": 917.77,
+      "duration": 2.967
+    },
+    {
+      "text": "to find what you're looking for.",
+      "start": 920.737,
+      "duration": 1.333
+    },
+    {
+      "text": "It's slow manual work.",
+      "start": 922.07,
+      "duration": 1.71
+    },
+    {
+      "text": "And so our friends\nat Adobe recently",
+      "start": 923.78,
+      "duration": 1.58
+    },
+    {
+      "text": "experimented with using\nthe new prompt API",
+      "start": 925.36,
+      "duration": 2.4
+    },
+    {
+      "text": "and some multimodal support\nin their Acrobat extension,",
+      "start": 927.76,
+      "duration": 4.56
+    },
+    {
+      "text": "and they can use it to apply\nit to analyze a historic stock",
+      "start": 932.32,
+      "duration": 3.57
+    },
+    {
+      "text": "certificate with faded and\ndifficult to read text.",
+      "start": 935.89,
+      "duration": 3.92
+    },
+    {
+      "text": "Now, their users can now\ngenerate text summaries",
+      "start": 939.81,
+      "duration": 3.24
+    },
+    {
+      "text": "from scanned visuals in Adobe,\nall directly within Chrome.",
+      "start": 943.05,
+      "duration": 2.83
+    },
+    {
+      "text": "And in this case,\na user can then",
+      "start": 945.88,
+      "duration": 1.4
+    },
+    {
+      "text": "chat directly with the\nAcrobat AI Assistant",
+      "start": 947.28,
+      "duration": 3.33
+    },
+    {
+      "text": "to surface, organize,\nand validate key facts.",
+      "start": 950.61,
+      "duration": 2.77
+    },
+    {
+      "text": "It reduces just a huge\namount of manual work,",
+      "start": 953.38,
+      "duration": 2.45
+    },
+    {
+      "text": "and enables faster,\nmore accurate",
+      "start": 955.83,
+      "duration": 1.83
+    },
+    {
+      "text": "capture of critical\ninformation from even",
+      "start": 957.66,
+      "duration": 2.04
+    },
+    {
+      "text": "sparse or degraded documents.",
+      "start": 959.7,
+      "duration": 3.66
+    },
+    {
+      "text": "So the idea of being able\nto analyze and understand",
+      "start": 963.36,
+      "duration": 2.43
+    },
+    {
+      "text": "any type of information inside\nthe browser, not just text,",
+      "start": 965.79,
+      "duration": 2.92
+    },
+    {
+      "text": "I think, is a critical\npiece of functionality.",
+      "start": 968.71,
+      "duration": 2.4
+    },
+    {
+      "text": "So we're adding image and\naudio input to the prompt API,",
+      "start": 971.11,
+      "duration": 3.33
+    },
+    {
+      "text": "making it multimodal\nfor the first time.",
+      "start": 974.44,
+      "duration": 2.25
+    },
+    {
+      "text": "So you'll be able to describe\nthe contents of images",
+      "start": 976.69,
+      "duration": 3.2
+    },
+    {
+      "text": "and produce\nsummaries and extract",
+      "start": 979.89,
+      "duration": 1.71
+    },
+    {
+      "text": "information, structured\ndata from text,",
+      "start": 981.6,
+      "duration": 2.83
+    },
+    {
+      "text": "images, and audio now.",
+      "start": 984.43,
+      "duration": 2.0
+    },
+    {
+      "text": "So whether it's\ntranscribing text",
+      "start": 986.43,
+      "duration": 1.583
+    },
+    {
+      "text": "from an audio file\nin the browser,",
+      "start": 988.013,
+      "duration": 1.417
+    },
+    {
+      "text": "or extracting handwriting\nfrom an image,",
+      "start": 989.43,
+      "duration": 2.14
+    },
+    {
+      "text": "you'll be able to build\nvery advanced applications",
+      "start": 991.57,
+      "duration": 2.36
+    },
+    {
+      "text": "and run them all\nlocally on device.",
+      "start": 993.93,
+      "duration": 2.6
+    },
+    {
+      "text": "Now, the way that you use this\nAPI is actually pretty simple.",
+      "start": 996.53,
+      "duration": 2.97
+    },
+    {
+      "text": "It's exactly the same way that\nyou would use the prompt API.",
+      "start": 999.5,
+      "duration": 2.55
+    },
+    {
+      "text": "You create a session by\ncalling create and add",
+      "start": 1002.05,
+      "duration": 2.78
+    },
+    {
+      "text": "the new expected inputs option,\nand then you call prompt.",
+      "start": 1004.83,
+      "duration": 4.26
+    },
+    {
+      "text": "But then when you\ncall prompt, you",
+      "start": 1009.09,
+      "duration": 1.77
+    },
+    {
+      "text": "can include image elements,\nblobs, image bitmaps,",
+      "start": 1010.86,
+      "duration": 3.34
+    },
+    {
+      "text": "video frames, and\neven Canvas objects.",
+      "start": 1014.2,
+      "duration": 2.52
+    },
+    {
+      "text": "And then you just call prompt,\nand you'll get the response.",
+      "start": 1016.72,
+      "duration": 3.33
+    },
+    {
+      "text": "Now, I believe that the Prompt\nAPI with multimodal input",
+      "start": 1020.05,
+      "duration": 3.828
+    },
+    {
+      "text": "will open up a brand new\nworld of experimentation",
+      "start": 1023.878,
+      "duration": 2.042
+    },
+    {
+      "text": "inside the browser.",
+      "start": 1025.92,
+      "duration": 1.09
+    },
+    {
+      "text": "But we still hear that you\nwant very targeted use cases.",
+      "start": 1027.01,
+      "duration": 3.48
+    },
+    {
+      "text": "And so I want to show\nyou two more APIs that",
+      "start": 1030.49,
+      "duration": 2.54
+    },
+    {
+      "text": "are going to help with composing\nand writing inside the browser.",
+      "start": 1033.03,
+      "duration": 3.76
+    },
+    {
+      "text": "So the first up is\nthe Proofreader API.",
+      "start": 1036.79,
+      "duration": 2.579
+    },
+    {
+      "text": "It's being developed to help\nyou compose better prose,",
+      "start": 1039.369,
+      "duration": 3.081
+    },
+    {
+      "text": "compose better-- it rhymes--",
+      "start": 1042.45,
+      "duration": 1.45
+    },
+    {
+      "text": "oh, my God-- anyway, so while\nusing a web application.",
+      "start": 1043.9,
+      "duration": 2.85
+    },
+    {
+      "text": "So this API can label\nerrors in inputted text,",
+      "start": 1046.75,
+      "duration": 3.42
+    },
+    {
+      "text": "explain it to the\nuser, and then offer",
+      "start": 1050.17,
+      "duration": 1.94
+    },
+    {
+      "text": "corrections, as well-- again,\nall inside the browser.",
+      "start": 1052.11,
+      "duration": 3.38
+    },
+    {
+      "text": "But what if you need a little\nbit more inspiration when,",
+      "start": 1055.49,
+      "duration": 2.38
+    },
+    {
+      "text": "say, crafting your\nnext Blue Sky post?",
+      "start": 1057.87,
+      "duration": 1.74
+    },
+    {
+      "text": "Well, the Writer API can\nhelp you generate content",
+      "start": 1059.61,
+      "duration": 2.6
+    },
+    {
+      "text": "that matches the topic and the\ncontext of a specific task,",
+      "start": 1062.21,
+      "duration": 3.61
+    },
+    {
+      "text": "such as maybe saying how\nawesome this talk is--",
+      "start": 1065.82,
+      "duration": 2.25
+    },
+    {
+      "text": "maybe, I don't know.",
+      "start": 1068.07,
+      "duration": 1.14
+    },
+    {
+      "text": "Anyway, you can also use the\nRewriter API to then adjust",
+      "start": 1069.21,
+      "duration": 3.14
+    },
+    {
+      "text": "the copy to adjust the tone\nand length of the content,",
+      "start": 1072.35,
+      "duration": 3.34
+    },
+    {
+      "text": "all to-- you can make it\na little bit more formal",
+      "start": 1075.69,
+      "duration": 2.39
+    },
+    {
+      "text": "as an example.",
+      "start": 1078.08,
+      "duration": 1.0
+    },
+    {
+      "text": "Both of these APIs are now\navailable as origin trials.",
+      "start": 1079.08,
+      "duration": 3.81
+    },
+    {
+      "text": "And if you want to sign\nup, all of these APIs",
+      "start": 1082.89,
+      "duration": 1.97
+    },
+    {
+      "text": "that we described today are\navailable in Chrome Canary,",
+      "start": 1084.86,
+      "duration": 2.71
+    },
+    {
+      "text": "and we'd love you\nto test them out.",
+      "start": 1087.57,
+      "duration": 1.53
+    },
+    {
+      "text": "And if you want to\ntry them out, you",
+      "start": 1089.1,
+      "duration": 1.5
+    },
+    {
+      "text": "can go to this\nURL on the screen.",
+      "start": 1090.6,
+      "duration": 2.84
+    },
+    {
+      "text": "So there are going to be\ntimes when Client-side AI just",
+      "start": 1093.44,
+      "duration": 4.14
+    },
+    {
+      "text": "doesn't work for you.",
+      "start": 1097.58,
+      "duration": 1.09
+    },
+    {
+      "text": "Not all devices can\nrun models locally",
+      "start": 1098.67,
+      "duration": 2.12
+    },
+    {
+      "text": "because they're not\npowerful enough,",
+      "start": 1100.79,
+      "duration": 1.503
+    },
+    {
+      "text": "or they don't have\nenough storage.",
+      "start": 1102.293,
+      "duration": 1.417
+    },
+    {
+      "text": "Or even in a lot of\ncases, the browser",
+      "start": 1103.71,
+      "duration": 1.91
+    },
+    {
+      "text": "just doesn't support the\nAPIs that we're working on.",
+      "start": 1105.62,
+      "duration": 2.98
+    },
+    {
+      "text": "So we need this hybrid approach\nof preparing Web AI and Cloud",
+      "start": 1108.6,
+      "duration": 4.02
+    },
+    {
+      "text": "together that allow the same\nmodel to run on device and on--",
+      "start": 1112.62,
+      "duration": 3.61
+    },
+    {
+      "text": "and when capable, will fall\nback to the-- when not capable,",
+      "start": 1116.23,
+      "duration": 3.63
+    },
+    {
+      "text": "will fall back to the\nCloud AI, whilst also--",
+      "start": 1119.86,
+      "duration": 2.99
+    },
+    {
+      "text": "while ensuring a very\nconsistent and the same response",
+      "start": 1122.85,
+      "duration": 3.0
+    },
+    {
+      "text": "from both sides.",
+      "start": 1125.85,
+      "duration": 1.09
+    },
+    {
+      "text": "So our colleagues\nat Firebase have",
+      "start": 1126.94,
+      "duration": 1.67
+    },
+    {
+      "text": "built the hybrid\nSDK as an extension",
+      "start": 1128.61,
+      "duration": 1.71
+    },
+    {
+      "text": "to the Firebase Web SDK.",
+      "start": 1130.32,
+      "duration": 1.6
+    },
+    {
+      "text": "And it can detect if\na user's device is",
+      "start": 1131.92,
+      "duration": 1.73
+    },
+    {
+      "text": "capable of running\nthe model, and then",
+      "start": 1133.65,
+      "duration": 2.01
+    },
+    {
+      "text": "make a decision on\nthe fly to say, well,",
+      "start": 1135.66,
+      "duration": 1.72
+    },
+    {
+      "text": "I can use the client-side\nmodel, or Gemini on the server.",
+      "start": 1137.38,
+      "duration": 3.6
+    },
+    {
+      "text": "And it's all via one\nsingle implementation.",
+      "start": 1140.98,
+      "duration": 2.272
+    },
+    {
+      "text": "I think that's actually a very\npowerful and progressive way",
+      "start": 1143.252,
+      "duration": 2.458
+    },
+    {
+      "text": "of actually building\napplications today.",
+      "start": 1145.71,
+      "duration": 1.75
+    },
+    {
+      "text": "So this hybrid API-- this\nhybrid SDK is currently",
+      "start": 1147.46,
+      "duration": 3.77
+    },
+    {
+      "text": "available as a special preview,\ndeveloper preview for you",
+      "start": 1151.23,
+      "duration": 3.09
+    },
+    {
+      "text": "to be able to test.",
+      "start": 1154.32,
+      "duration": 1.03
+    },
+    {
+      "text": "It's not ready for\nproduction yet,",
+      "start": 1155.35,
+      "duration": 2.1
+    },
+    {
+      "text": "which we hope will be\ncoming later in the year.",
+      "start": 1157.45,
+      "duration": 2.04
+    },
+    {
+      "text": "So just, obviously,\ncheck out the link.",
+      "start": 1159.49,
+      "duration": 1.8
+    },
+    {
+      "text": "You'll get information\nabout the developer preview",
+      "start": 1161.29,
+      "duration": 2.083
+    },
+    {
+      "text": "when it will be available\nas the final version.",
+      "start": 1163.373,
+      "duration": 2.527
+    },
+    {
+      "text": "Now, while it's great to\nsee AI capabilities come",
+      "start": 1165.9,
+      "duration": 3.12
+    },
+    {
+      "text": "into the platform,\nwe, as a team,",
+      "start": 1169.02,
+      "duration": 1.807
+    },
+    {
+      "text": "we're on the Developer\nRelations team,",
+      "start": 1170.827,
+      "duration": 1.583
+    },
+    {
+      "text": "we thrive when we help you\ndeliver high-quality sites that",
+      "start": 1172.41,
+      "duration": 4.07
+    },
+    {
+      "text": "are fast, accessible, and you\ncan do it quickly and easily.",
+      "start": 1176.48,
+      "duration": 4.11
+    },
+    {
+      "text": "And we think Chrome DevTools\nis the premier tool for you",
+      "start": 1180.59,
+      "duration": 3.0
+    },
+    {
+      "text": "to be able to just do that.",
+      "start": 1183.59,
+      "duration": 1.42
+    },
+    {
+      "text": "So Chrome DevTools has\nbeen pioneering features",
+      "start": 1185.01,
+      "duration": 4.07
+    },
+    {
+      "text": "for web development\nfrom the beginning,",
+      "start": 1189.08,
+      "duration": 1.63
+    },
+    {
+      "text": "from debugging layouts to\nin-depth performance analysis.",
+      "start": 1190.71,
+      "duration": 3.81
+    },
+    {
+      "text": "So last year, we introduced\nGemini in DevTools",
+      "start": 1194.52,
+      "duration": 3.56
+    },
+    {
+      "text": "with Console Insights\nand AI assistance.",
+      "start": 1198.08,
+      "duration": 2.71
+    },
+    {
+      "text": "And we've seen developers\nuse this like crazy.",
+      "start": 1200.79,
+      "duration": 2.48
+    },
+    {
+      "text": "The ability to interact directly\nwith Gemini in DevTools,",
+      "start": 1203.27,
+      "duration": 3.4
+    },
+    {
+      "text": "it's just been a game\nchanger for many developers.",
+      "start": 1206.67,
+      "duration": 2.48
+    },
+    {
+      "text": "But I want to show you also\nwhat we've been working on",
+      "start": 1209.15,
+      "duration": 2.46
+    },
+    {
+      "text": "over the last year and\nhow DevTools has evolved",
+      "start": 1211.61,
+      "duration": 2.07
+    },
+    {
+      "text": "with powerful new features that\nstreamline your development",
+      "start": 1213.68,
+      "duration": 2.94
+    },
+    {
+      "text": "journey.",
+      "start": 1216.62,
+      "duration": 0.79
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 1217.41,
+      "duration": 1.494
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1218.904,
+      "duration": 2.49
+    },
+    {
+      "text": "- Go.",
+      "start": 1278.166,
+      "duration": 0.954
+    },
+    {
+      "text": "Go.",
+      "start": 1294.61,
+      "duration": 0.5
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 1336.942,
+      "duration": 1.058
+    },
+    {
+      "text": "PAUL KINLAN: Brilliant.",
+      "start": 1338.0,
+      "duration": 1.38
+    },
+    {
+      "text": "Well, I am-- oh.",
+      "start": 1339.38,
+      "duration": 1.905
+    },
+    {
+      "text": "Brilliant.",
+      "start": 1341.285,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1341.785,
+      "duration": 0.955
+    },
+    {
+      "text": "I use these features every day.",
+      "start": 1342.74,
+      "duration": 1.45
+    },
+    {
+      "text": "I just love the progress\nthat we've seen in DevTools.",
+      "start": 1344.19,
+      "duration": 2.25
+    },
+    {
+      "text": "I just want to spend\na couple more moments",
+      "start": 1346.44,
+      "duration": 1.44
+    },
+    {
+      "text": "just actually diving\nin a little bit",
+      "start": 1347.88,
+      "duration": 1.5
+    },
+    {
+      "text": "deeper into some of\nthe AI assistance",
+      "start": 1349.38,
+      "duration": 1.8
+    },
+    {
+      "text": "work and all the features that\nwe've landed inside DevTools.",
+      "start": 1351.18,
+      "duration": 4.81
+    },
+    {
+      "text": "So we're going to cover some\nCSS issues, network issues,",
+      "start": 1355.99,
+      "duration": 2.82
+    },
+    {
+      "text": "and advice on your\nsite's performance.",
+      "start": 1358.81,
+      "duration": 1.725
+    },
+    {
+      "text": "I think the fact that we've\ngot AI in the browser helping",
+      "start": 1360.535,
+      "duration": 2.375
+    },
+    {
+      "text": "in these areas, it's going to\nbe a game changer for everyone.",
+      "start": 1362.91,
+      "duration": 3.735
+    },
+    {
+      "text": "So if you're having trouble\nwith a specific element style,",
+      "start": 1366.645,
+      "duration": 3.765
+    },
+    {
+      "text": "AI assistance for\nstyling now supports",
+      "start": 1370.41,
+      "duration": 2.13
+    },
+    {
+      "text": "complete end-to-end\ndebugging of styling issues.",
+      "start": 1372.54,
+      "duration": 2.29
+    },
+    {
+      "text": "So you can select the\nDom element, or Dom node,",
+      "start": 1374.83,
+      "duration": 2.3
+    },
+    {
+      "text": "and then start just a\nfree-flowing conversation",
+      "start": 1377.13,
+      "duration": 2.13
+    },
+    {
+      "text": "with Gemini about the element.",
+      "start": 1379.26,
+      "duration": 1.54
+    },
+    {
+      "text": "And so if you get stuck, Gemini\nwill also give you prefilled",
+      "start": 1380.8,
+      "duration": 3.17
+    },
+    {
+      "text": "prompts to suggest what\nareas that you can look at.",
+      "start": 1383.97,
+      "duration": 2.95
+    },
+    {
+      "text": "And once you've\nidentified the problem,",
+      "start": 1386.92,
+      "duration": 1.77
+    },
+    {
+      "text": "you can then prompt\nGemini to fix it, and then",
+      "start": 1388.69,
+      "duration": 2.04
+    },
+    {
+      "text": "even apply the fix directly\nback into the source",
+      "start": 1390.73,
+      "duration": 2.0
+    },
+    {
+      "text": "code, all within DevTools,\nwithout ever leaving Chrome.",
+      "start": 1392.73,
+      "duration": 4.08
+    },
+    {
+      "text": "The network panel has also\nseen a new Gemini integration,",
+      "start": 1396.81,
+      "duration": 3.57
+    },
+    {
+      "text": "as well.",
+      "start": 1400.38,
+      "duration": 0.93
+    },
+    {
+      "text": "You can ask questions like, why\nis this network request taking",
+      "start": 1401.31,
+      "duration": 2.67
+    },
+    {
+      "text": "so long?",
+      "start": 1403.98,
+      "duration": 0.67
+    },
+    {
+      "text": "You can ask it to explain\nabout security headers,",
+      "start": 1404.65,
+      "duration": 2.41
+    },
+    {
+      "text": "or why even web\nrequests are failing.",
+      "start": 1407.06,
+      "duration": 1.767
+    },
+    {
+      "text": "And I use this quite frequently.",
+      "start": 1408.827,
+      "duration": 1.333
+    },
+    {
+      "text": "It's just such a good feature\nfor debugging CDN issues,",
+      "start": 1410.16,
+      "duration": 2.66
+    },
+    {
+      "text": "and things like cause\nissues, as well.",
+      "start": 1412.82,
+      "duration": 3.72
+    },
+    {
+      "text": "And the same applies for\nthe Performance panel.",
+      "start": 1416.54,
+      "duration": 1.96
+    },
+    {
+      "text": "So you can talk to Gemini about\ncommon performance issues,",
+      "start": 1418.5,
+      "duration": 2.97
+    },
+    {
+      "text": "and it will investigate\nwhich particular",
+      "start": 1421.47,
+      "duration": 2.75
+    },
+    {
+      "text": "slow-running functions, or\nwhat particular slow-running",
+      "start": 1424.22,
+      "duration": 2.7
+    },
+    {
+      "text": "functions are doing.",
+      "start": 1426.92,
+      "duration": 0.97
+    },
+    {
+      "text": "And then it will also give\nyou actionable insights",
+      "start": 1427.89,
+      "duration": 2.66
+    },
+    {
+      "text": "about how to fix those issues\ndirectly inside DevTools, again.",
+      "start": 1430.55,
+      "duration": 4.89
+    },
+    {
+      "text": "And in addition to\nthe AI enhancements,",
+      "start": 1435.44,
+      "duration": 2.35
+    },
+    {
+      "text": "we've also reimagined\nthe Performance panel",
+      "start": 1437.79,
+      "duration": 2.06
+    },
+    {
+      "text": "to help you identify and\nfix performance issues",
+      "start": 1439.85,
+      "duration": 2.67
+    },
+    {
+      "text": "and just keep your web\napplications running",
+      "start": 1442.52,
+      "duration": 1.95
+    },
+    {
+      "text": "fast and smooth.",
+      "start": 1444.47,
+      "duration": 1.3
+    },
+    {
+      "text": "So now, all of your Core\nWeb Vitals information",
+      "start": 1445.77,
+      "duration": 2.84
+    },
+    {
+      "text": "are in one place, and it now\npulls in real Chrome user",
+      "start": 1448.61,
+      "duration": 3.12
+    },
+    {
+      "text": "experience data next to\nyour local experience",
+      "start": 1451.73,
+      "duration": 3.66
+    },
+    {
+      "text": "so that you can\nensure you're actually",
+      "start": 1455.39,
+      "duration": 1.68
+    },
+    {
+      "text": "fixing the problems as\nexperienced by your users,",
+      "start": 1457.07,
+      "duration": 3.16
+    },
+    {
+      "text": "with no recording necessary.",
+      "start": 1460.23,
+      "duration": 2.16
+    },
+    {
+      "text": "And you'll also get advice\non what environment settings",
+      "start": 1462.39,
+      "duration": 2.89
+    },
+    {
+      "text": "to use so that you can match\nthe majority of your users.",
+      "start": 1465.28,
+      "duration": 3.61
+    },
+    {
+      "text": "And once you've identified the\nissue, if you really need to,",
+      "start": 1468.89,
+      "duration": 2.81
+    },
+    {
+      "text": "then you can go and record\na full trace and deep dive",
+      "start": 1471.7,
+      "duration": 4.05
+    },
+    {
+      "text": "in to the issues.",
+      "start": 1475.75,
+      "duration": 2.1
+    },
+    {
+      "text": "Now, the Insights tab\nin the Performance panel",
+      "start": 1477.85,
+      "duration": 2.85
+    },
+    {
+      "text": "is now powered by\nLighthouse, giving you",
+      "start": 1480.7,
+      "duration": 2.58
+    },
+    {
+      "text": "guided, actionable insights\nabout performance issues",
+      "start": 1483.28,
+      "duration": 2.91
+    },
+    {
+      "text": "that are slowing down your site.",
+      "start": 1486.19,
+      "duration": 1.84
+    },
+    {
+      "text": "Here, you'll find LCP\ninsights for page load issues,",
+      "start": 1488.03,
+      "duration": 2.85
+    },
+    {
+      "text": "INP insights for\nresponsiveness, and CLS insights",
+      "start": 1490.88,
+      "duration": 3.41
+    },
+    {
+      "text": "for layout stability issues.",
+      "start": 1494.29,
+      "duration": 1.92
+    },
+    {
+      "text": "And if you want to zero in on\nspecific third party scripts,",
+      "start": 1496.21,
+      "duration": 4.24
+    },
+    {
+      "text": "or concentrate only on the\ncontributions of slowness",
+      "start": 1500.45,
+      "duration": 3.02
+    },
+    {
+      "text": "from your own APIs, or\nyour CDN, the Summary tab",
+      "start": 1503.47,
+      "duration": 3.18
+    },
+    {
+      "text": "will now give you a breakdown\nof first and third parties",
+      "start": 1506.65,
+      "duration": 3.6
+    },
+    {
+      "text": "that DevTools is able\nto find on the page.",
+      "start": 1510.25,
+      "duration": 3.51
+    },
+    {
+      "text": "So for a long time now, DevTools\nhas been giving you the power",
+      "start": 1513.76,
+      "duration": 2.61
+    },
+    {
+      "text": "to quickly and easily\nunderstand and improve",
+      "start": 1516.37,
+      "duration": 2.37
+    },
+    {
+      "text": "the performance of your site.",
+      "start": 1518.74,
+      "duration": 1.51
+    },
+    {
+      "text": "But what about the\nweb as a whole?",
+      "start": 1520.25,
+      "duration": 1.73
+    },
+    {
+      "text": "What if everything about\nthe web was faster?",
+      "start": 1521.98,
+      "duration": 2.27
+    },
+    {
+      "text": "When the web is fast,\nmore people use it.",
+      "start": 1524.25,
+      "duration": 2.34
+    },
+    {
+      "text": "So I just want to show you\nsome of how Chrome is pushing",
+      "start": 1526.59,
+      "duration": 2.42
+    },
+    {
+      "text": "web performance forwards.",
+      "start": 1529.01,
+      "duration": 2.11
+    },
+    {
+      "text": "So we introduced the concept\nof Core Web Vitals in 2020,",
+      "start": 1531.12,
+      "duration": 3.21
+    },
+    {
+      "text": "and it was our effort\nto measure and optimize",
+      "start": 1534.33,
+      "duration": 2.27
+    },
+    {
+      "text": "what we thought were the\nessential aspects of a good web",
+      "start": 1536.6,
+      "duration": 3.09
+    },
+    {
+      "text": "page experience through\nthree key metrics.",
+      "start": 1539.69,
+      "duration": 2.92
+    },
+    {
+      "text": "And in 2024, people saved about\n30,000 years of time surfing",
+      "start": 1542.61,
+      "duration": 4.64
+    },
+    {
+      "text": "the web simply because it got\nfaster in the core metrics that",
+      "start": 1547.25,
+      "duration": 3.81
+    },
+    {
+      "text": "Core Web Vitals tracks.",
+      "start": 1551.06,
+      "duration": 1.48
+    },
+    {
+      "text": "I think that's\nincredible, right?",
+      "start": 1552.54,
+      "duration": 1.56
+    },
+    {
+      "text": "What's more, the number\nof sites that had good LCP",
+      "start": 1554.1,
+      "duration": 3.02
+    },
+    {
+      "text": "has increased by almost 8%,\nand the sites with good INP",
+      "start": 1557.12,
+      "duration": 4.05
+    },
+    {
+      "text": "has increased by over 12%\nin the last year alone.",
+      "start": 1561.17,
+      "duration": 4.44
+    },
+    {
+      "text": "I think, yeah, these\nare fantastic results,",
+      "start": 1565.61,
+      "duration": 2.17
+    },
+    {
+      "text": "and we're excited that\ntwo Core Web Vitals, which",
+      "start": 1567.78,
+      "duration": 3.35
+    },
+    {
+      "text": "are Largest Contentful Paint\nand Interaction to Next Paint,",
+      "start": 1571.13,
+      "duration": 2.59
+    },
+    {
+      "text": "will soon be coming\nto other browsers",
+      "start": 1573.72,
+      "duration": 1.7
+    },
+    {
+      "text": "as part of the\nInterop 2025 Project",
+      "start": 1575.42,
+      "duration": 2.46
+    },
+    {
+      "text": "that we mentioned earlier.",
+      "start": 1577.88,
+      "duration": 2.13
+    },
+    {
+      "text": "Well done, Barry.",
+      "start": 1580.01,
+      "duration": 1.468
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1581.478,
+      "duration": 1.689
+    },
+    {
+      "text": "That means you'll soon\nbe able to understand",
+      "start": 1583.167,
+      "duration": 1.833
+    },
+    {
+      "text": "how your users'\nexperience your site,",
+      "start": 1585.0,
+      "duration": 2.41
+    },
+    {
+      "text": "no matter what browser\nthat you're using.",
+      "start": 1587.41,
+      "duration": 2.097
+    },
+    {
+      "text": "So I just want to spend a\ncouple of minutes just looking",
+      "start": 1589.507,
+      "duration": 2.333
+    },
+    {
+      "text": "under the hood of\nCore Web Vitals",
+      "start": 1591.84,
+      "duration": 1.74
+    },
+    {
+      "text": "and explore some of the\nnew metrics and APIs",
+      "start": 1593.58,
+      "duration": 2.49
+    },
+    {
+      "text": "that we've worked on.",
+      "start": 1596.07,
+      "duration": 1.83
+    },
+    {
+      "text": "LCP subparts breaks\ndown the LCP time",
+      "start": 1597.9,
+      "duration": 3.3
+    },
+    {
+      "text": "into four distinct phases\nto help you understand where",
+      "start": 1601.2,
+      "duration": 3.69
+    },
+    {
+      "text": "the bottlenecks are, and\nthey provide crucial insight",
+      "start": 1604.89,
+      "duration": 3.42
+    },
+    {
+      "text": "into LCP image loading\nand help you easily",
+      "start": 1608.31,
+      "duration": 2.91
+    },
+    {
+      "text": "identify where to prioritize\nimproving your site.",
+      "start": 1611.22,
+      "duration": 4.74
+    },
+    {
+      "text": "As well as showing\nlocal LCP subparts,",
+      "start": 1615.96,
+      "duration": 3.1
+    },
+    {
+      "text": "DevTools now also\nshows field data",
+      "start": 1619.06,
+      "duration": 2.33
+    },
+    {
+      "text": "from the Chrome user\nexperience report",
+      "start": 1621.39,
+      "duration": 1.89
+    },
+    {
+      "text": "directly in the same report.",
+      "start": 1623.28,
+      "duration": 1.96
+    },
+    {
+      "text": "And it's also not just us, we're\nseeing more performance tools",
+      "start": 1625.24,
+      "duration": 2.87
+    },
+    {
+      "text": "and room providers exposing\nthis very useful information.",
+      "start": 1628.11,
+      "duration": 4.38
+    },
+    {
+      "text": "Now, we introduced the\nSpeculation Rules API",
+      "start": 1632.49,
+      "duration": 2.91
+    },
+    {
+      "text": "at last year's I/O as a way of\nletting you programmatically",
+      "start": 1635.4,
+      "duration": 3.09
+    },
+    {
+      "text": "tell Chrome which pages\nto prefetch and prerender",
+      "start": 1638.49,
+      "duration": 3.35
+    },
+    {
+      "text": "in advance of a user\nnavigating to them.",
+      "start": 1641.84,
+      "duration": 2.05
+    },
+    {
+      "text": "So the ability to go from fast\nloading to instant loading,",
+      "start": 1643.89,
+      "duration": 3.09
+    },
+    {
+      "text": "it can just make a\nmassive difference",
+      "start": 1646.98,
+      "duration": 1.7
+    },
+    {
+      "text": "in how users\nexperience your site.",
+      "start": 1648.68,
+      "duration": 2.59
+    },
+    {
+      "text": "And this API has been a\nresounding success, with over 8%",
+      "start": 1651.27,
+      "duration": 2.66
+    },
+    {
+      "text": "of page loads now benefiting\nfrom Speculation Rules.",
+      "start": 1653.93,
+      "duration": 3.37
+    },
+    {
+      "text": "And Cloudflare is an internet\nsecurity and performance",
+      "start": 1657.3,
+      "duration": 2.51
+    },
+    {
+      "text": "provider serving\nover 20% of the web.",
+      "start": 1659.81,
+      "duration": 2.53
+    },
+    {
+      "text": "And last year, Cloudflare\nlaunched Speed Brain,",
+      "start": 1662.34,
+      "duration": 2.46
+    },
+    {
+      "text": "which is a product which uses\nspeculative loading by default",
+      "start": 1664.8,
+      "duration": 3.5
+    },
+    {
+      "text": "to improve the performance\nof sites on Cloudflare.",
+      "start": 1668.3,
+      "duration": 3.37
+    },
+    {
+      "text": "And their testing showed\na 45% improvement in LCP",
+      "start": 1671.67,
+      "duration": 2.9
+    },
+    {
+      "text": "for successfully prefetch\nsites, as compared",
+      "start": 1674.57,
+      "duration": 3.36
+    },
+    {
+      "text": "to non-prefetched sites.",
+      "start": 1677.93,
+      "duration": 2.94
+    },
+    {
+      "text": "And on the INP front,\nthe scheduler.yield API",
+      "start": 1680.87,
+      "duration": 3.42
+    },
+    {
+      "text": "helps you improve INP by\npausing execution of long tasks,",
+      "start": 1684.29,
+      "duration": 4.51
+    },
+    {
+      "text": "allowing the browser to\nattend to other pending tasks,",
+      "start": 1688.8,
+      "duration": 3.44
+    },
+    {
+      "text": "and then resume\nthe original task.",
+      "start": 1692.24,
+      "duration": 1.75
+    },
+    {
+      "text": "If you ever did Visual Basic,\nit's like do events, at least",
+      "start": 1693.99,
+      "duration": 3.65
+    },
+    {
+      "text": "from when I started programming.",
+      "start": 1697.64,
+      "duration": 1.44
+    },
+    {
+      "text": "And we're seeing that over\n6% of website page loads",
+      "start": 1699.08,
+      "duration": 2.36
+    },
+    {
+      "text": "now are already using this API.",
+      "start": 1701.44,
+      "duration": 2.34
+    },
+    {
+      "text": "LoAF, which I think\nshould be called LoAF,",
+      "start": 1703.78,
+      "duration": 2.38
+    },
+    {
+      "text": "but that's an argument\nI lost ages ago,",
+      "start": 1706.16,
+      "duration": 1.95
+    },
+    {
+      "text": "brings a Long Animation\nFrames API to everyone.",
+      "start": 1708.11,
+      "duration": 4.68
+    },
+    {
+      "text": "Now, a Long Animation Frame is\nwhen a rendered update takes",
+      "start": 1712.79,
+      "duration": 3.08
+    },
+    {
+      "text": "longer than 50 milliseconds.",
+      "start": 1715.87,
+      "duration": 1.57
+    },
+    {
+      "text": "It's the same threshold\nas the Long Tasks API.",
+      "start": 1717.44,
+      "duration": 2.64
+    },
+    {
+      "text": "But the key advantage of\nlooking at this compared",
+      "start": 1720.08,
+      "duration": 2.06
+    },
+    {
+      "text": "to individual tasks is that a\nLong Animation Frame can just",
+      "start": 1722.14,
+      "duration": 3.27
+    },
+    {
+      "text": "be the result of\na number of tasks,",
+      "start": 1725.41,
+      "duration": 2.68
+    },
+    {
+      "text": "but it's a point of\nvisual jank on the page.",
+      "start": 1728.09,
+      "duration": 2.49
+    },
+    {
+      "text": "Additionally, the LoAF API gives\ndetailed script information,",
+      "start": 1730.58,
+      "duration": 4.08
+    },
+    {
+      "text": "helping you identify the areas\non your site that impact UX,",
+      "start": 1734.66,
+      "duration": 4.16
+    },
+    {
+      "text": "and also, INP.",
+      "start": 1738.82,
+      "duration": 1.71
+    },
+    {
+      "text": "And we're excited to see\nthat only 10% of websites",
+      "start": 1740.53,
+      "duration": 2.94
+    },
+    {
+      "text": "are using the LoAF API.",
+      "start": 1743.47,
+      "duration": 2.16
+    },
+    {
+      "text": "And last but not\nleast, I think it's",
+      "start": 1745.63,
+      "duration": 1.5
+    },
+    {
+      "text": "one of the most important\nand most impactful",
+      "start": 1747.13,
+      "duration": 2.58
+    },
+    {
+      "text": "new features that\nhas come to Chrome.",
+      "start": 1749.71,
+      "duration": 2.19
+    },
+    {
+      "text": "Compression Dictionary Transport\nis now available in Chrome.",
+      "start": 1751.9,
+      "duration": 2.86
+    },
+    {
+      "text": "And this new standard enables\nyou to differentially serve",
+      "start": 1754.76,
+      "duration": 2.85
+    },
+    {
+      "text": "static assets so\nthat you only send",
+      "start": 1757.61,
+      "duration": 2.37
+    },
+    {
+      "text": "what has changed in an\nupdated version of the file.",
+      "start": 1759.98,
+      "duration": 3.16
+    },
+    {
+      "text": "So by reusing the\npreviously downloaded file",
+      "start": 1763.14,
+      "duration": 2.42
+    },
+    {
+      "text": "as a dictionary for compression\nalgorithms, things like Brotli,",
+      "start": 1765.56,
+      "duration": 2.77
+    },
+    {
+      "text": "you can massively reduce the\namount of data transferred,",
+      "start": 1768.33,
+      "duration": 2.48
+    },
+    {
+      "text": "and speed up page loads.",
+      "start": 1770.81,
+      "duration": 1.277
+    },
+    {
+      "text": "So for example, if you've\ngot a compressed version",
+      "start": 1772.087,
+      "duration": 2.083
+    },
+    {
+      "text": "of your library 1.8.3, and\nthen you're using version 1.8.2",
+      "start": 1774.17,
+      "duration": 5.64
+    },
+    {
+      "text": "as your dictionary, the\noutput could just be a couple",
+      "start": 1779.81,
+      "duration": 2.58
+    },
+    {
+      "text": "of kilobytes, potentially, a\ncompression ratio up to 98%.",
+      "start": 1782.39,
+      "duration": 4.45
+    },
+    {
+      "text": "And so Google searches use\nCompression Dictionary Transport",
+      "start": 1786.84,
+      "duration": 3.92
+    },
+    {
+      "text": "to reduce the size of\nits HTML payload by 23%,",
+      "start": 1790.76,
+      "duration": 3.42
+    },
+    {
+      "text": "as compared to the standard\nBrotli implementation.",
+      "start": 1794.18,
+      "duration": 4.11
+    },
+    {
+      "text": "It also saw an LCP\nimprovement by over 2%--",
+      "start": 1798.29,
+      "duration": 3.27
+    },
+    {
+      "text": "or almost 2%, sorry, and up to\n9% in high latency networks.",
+      "start": 1801.56,
+      "duration": 4.71
+    },
+    {
+      "text": "These are huge gains for an\nalready hyper optimized site.",
+      "start": 1806.27,
+      "duration": 4.44
+    },
+    {
+      "text": "Less optimized sites might\nsee even more benefit",
+      "start": 1810.71,
+      "duration": 2.31
+    },
+    {
+      "text": "from adopting this technology.",
+      "start": 1813.02,
+      "duration": 2.81
+    },
+    {
+      "text": "So being able to understand\nyour page's responsiveness",
+      "start": 1815.83,
+      "duration": 2.79
+    },
+    {
+      "text": "and improve loading,\nI think this is great.",
+      "start": 1818.62,
+      "duration": 2.15
+    },
+    {
+      "text": "Because when I think\nabout web performance",
+      "start": 1820.77,
+      "duration": 1.75
+    },
+    {
+      "text": "and I think about making it\neasier for people to access",
+      "start": 1822.52,
+      "duration": 4.08
+    },
+    {
+      "text": "experiences on a website.",
+      "start": 1826.6,
+      "duration": 1.96
+    },
+    {
+      "text": "Obviously, the\nquicker, the better.",
+      "start": 1828.56,
+      "duration": 1.5
+    },
+    {
+      "text": "But what about when a\nuser is on the site?",
+      "start": 1830.06,
+      "duration": 2.293
+    },
+    {
+      "text": "So for the past\nthree years, we've",
+      "start": 1832.353,
+      "duration": 1.417
+    },
+    {
+      "text": "seen an amazing explosion\nin the expressiveness",
+      "start": 1833.77,
+      "duration": 2.67
+    },
+    {
+      "text": "of UI capabilities on the web.",
+      "start": 1836.44,
+      "duration": 2.29
+    },
+    {
+      "text": "And these UI features enable you\nto build beautiful, responsive,",
+      "start": 1838.73,
+      "duration": 4.04
+    },
+    {
+      "text": "and performant websites\nfaster and more",
+      "start": 1842.77,
+      "duration": 2.28
+    },
+    {
+      "text": "efficiently than ever before.",
+      "start": 1845.05,
+      "duration": 1.6
+    },
+    {
+      "text": "Take view transitions,\nfor an example.",
+      "start": 1846.65,
+      "duration": 1.893
+    },
+    {
+      "text": "I think it's just been amazing\nto see the progress in just",
+      "start": 1848.543,
+      "duration": 2.417
+    },
+    {
+      "text": "a few years.",
+      "start": 1850.96,
+      "duration": 0.97
+    },
+    {
+      "text": "We started with the same\ndocument view transitions,",
+      "start": 1851.93,
+      "duration": 2.588
+    },
+    {
+      "text": "and then a little\nover a year ago, we",
+      "start": 1854.518,
+      "duration": 1.542
+    },
+    {
+      "text": "enabled view transitions between\npage navigations, as well.",
+      "start": 1856.06,
+      "duration": 3.88
+    },
+    {
+      "text": "And just recently, as\nwe saw in the keynote,",
+      "start": 1859.94,
+      "duration": 2.01
+    },
+    {
+      "text": "google.com added\nview transitions",
+      "start": 1861.95,
+      "duration": 2.51
+    },
+    {
+      "text": "to power the UI for things\nlike AI mode in search.",
+      "start": 1864.46,
+      "duration": 3.673
+    },
+    {
+      "text": "It just makes such\nan amazing difference",
+      "start": 1868.133,
+      "duration": 1.667
+    },
+    {
+      "text": "to the experience of the web.",
+      "start": 1869.8,
+      "duration": 2.01
+    },
+    {
+      "text": "And a number of frameworks are\nalso adopting view transitions",
+      "start": 1871.81,
+      "duration": 3.19
+    },
+    {
+      "text": "and making it easier for you\nto use this API right out",
+      "start": 1875.0,
+      "duration": 2.91
+    },
+    {
+      "text": "of the box and express custom\ntransitions between your UI",
+      "start": 1877.91,
+      "duration": 4.11
+    },
+    {
+      "text": "states and pages.",
+      "start": 1882.02,
+      "duration": 1.75
+    },
+    {
+      "text": "It just makes navigating\nthe web feel more seamless,",
+      "start": 1883.77,
+      "duration": 3.06
+    },
+    {
+      "text": "just as it should be.",
+      "start": 1886.83,
+      "duration": 1.2
+    },
+    {
+      "text": "And I think it's\njust amazing to see.",
+      "start": 1888.03,
+      "duration": 1.78
+    },
+    {
+      "text": "And we've seen many\nimprovements, such as,",
+      "start": 1889.81,
+      "duration": 1.75
+    },
+    {
+      "text": "make your life as a\ndeveloper easier--",
+      "start": 1891.56,
+      "duration": 2.29
+    },
+    {
+      "text": "Cascade layers, CSS, Nest,\nenlightened dark mode,",
+      "start": 1893.85,
+      "duration": 2.61
+    },
+    {
+      "text": "scroll-driven animations.",
+      "start": 1896.46,
+      "duration": 1.38
+    },
+    {
+      "text": "They're all making building UI\nsignificantly easier, and also,",
+      "start": 1897.84,
+      "duration": 5.27
+    },
+    {
+      "text": "more attractive.",
+      "start": 1903.11,
+      "duration": 1.89
+    },
+    {
+      "text": "But today, I do want to talk\nabout some new UI primitives",
+      "start": 1905.0,
+      "duration": 3.15
+    },
+    {
+      "text": "that I think--",
+      "start": 1908.15,
+      "duration": 1.77
+    },
+    {
+      "text": "that's going to make it possible\nto deliver drastically better",
+      "start": 1909.92,
+      "duration": 3.09
+    },
+    {
+      "text": "experiences for your users.",
+      "start": 1913.01,
+      "duration": 1.81
+    },
+    {
+      "text": "These new UI primitives\nwill make it easier",
+      "start": 1914.82,
+      "duration": 2.66
+    },
+    {
+      "text": "to build common UI components,\nthings like carousels",
+      "start": 1917.48,
+      "duration": 3.45
+    },
+    {
+      "text": "and tooltips, and\ndropdowns, the core",
+      "start": 1920.93,
+      "duration": 2.67
+    },
+    {
+      "text": "features of almost any\nsingle site on the web.",
+      "start": 1923.6,
+      "duration": 3.37
+    },
+    {
+      "text": "They'll enable you to get rid\nof third party dependencies,",
+      "start": 1926.97,
+      "duration": 3.42
+    },
+    {
+      "text": "eliminate kilobytes\nof JavaScript",
+      "start": 1930.39,
+      "duration": 1.96
+    },
+    {
+      "text": "and, hopefully, improve\nrendering performance,",
+      "start": 1932.35,
+      "duration": 1.98
+    },
+    {
+      "text": "as well, as we move work\noff the main thread.",
+      "start": 1934.33,
+      "duration": 3.54
+    },
+    {
+      "text": "Now, carousels are\nubiquitous on the web.",
+      "start": 1937.87,
+      "duration": 2.68
+    },
+    {
+      "text": "They get used millions\nof times a day.",
+      "start": 1940.55,
+      "duration": 2.19
+    },
+    {
+      "text": "So what happens if we worked out\nthe fundamental primitives that",
+      "start": 1942.74,
+      "duration": 3.32
+    },
+    {
+      "text": "enable carousels and\njust built them into CSS,",
+      "start": 1946.06,
+      "duration": 2.61
+    },
+    {
+      "text": "and enable you to ship these\nexperiences with just CSS?",
+      "start": 1948.67,
+      "duration": 3.52
+    },
+    {
+      "text": "Well, the good thing is that\nthe core functionality, features",
+      "start": 1952.19,
+      "duration": 4.01
+    },
+    {
+      "text": "like scroll snap, they're\nalready on the platform.",
+      "start": 1956.2,
+      "duration": 2.505
+    },
+    {
+      "text": "So all we really have to do is\nsprinkle in some new primitives,",
+      "start": 1958.705,
+      "duration": 2.625
+    },
+    {
+      "text": "like scroll button\nand scroll marker,",
+      "start": 1961.33,
+      "duration": 2.65
+    },
+    {
+      "text": "and now, you have a carousel.",
+      "start": 1963.98,
+      "duration": 1.92
+    },
+    {
+      "text": "It really can be that simple.",
+      "start": 1965.9,
+      "duration": 2.75
+    },
+    {
+      "text": "We think they're\ngoing to also enable",
+      "start": 1968.65,
+      "duration": 1.89
+    },
+    {
+      "text": "different types of\nexperiences-- tabs, and cards,",
+      "start": 1970.54,
+      "duration": 3.48
+    },
+    {
+      "text": "and different types\nof UI, all again,",
+      "start": 1974.02,
+      "duration": 2.52
+    },
+    {
+      "text": "with the same small bit of CSS.",
+      "start": 1976.54,
+      "duration": 3.24
+    },
+    {
+      "text": "For example, you could\nbuild video sliders",
+      "start": 1979.78,
+      "duration": 2.28
+    },
+    {
+      "text": "with cool parallax effects.",
+      "start": 1982.06,
+      "duration": 1.84
+    },
+    {
+      "text": "You can build\nhorizontal app switches",
+      "start": 1983.9,
+      "duration": 1.97
+    },
+    {
+      "text": "similar to what you would\nfind on iOS and Android",
+      "start": 1985.87,
+      "duration": 2.46
+    },
+    {
+      "text": "when a user switches\nbetween apps.",
+      "start": 1988.33,
+      "duration": 2.14
+    },
+    {
+      "text": "Or you could even\ndo something fun,",
+      "start": 1990.47,
+      "duration": 2.91
+    },
+    {
+      "text": "like a vertical scroll\nwheel of choices.",
+      "start": 1993.38,
+      "duration": 2.56
+    },
+    {
+      "text": "We're only just\nscratching the surface",
+      "start": 1995.94,
+      "duration": 1.85
+    },
+    {
+      "text": "of what's possible with just\nthese simple additions to CSS.",
+      "start": 1997.79,
+      "duration": 3.4
+    },
+    {
+      "text": "And I think they open up a\nhuge amount of possibilities,",
+      "start": 2001.19,
+      "duration": 2.34
+    },
+    {
+      "text": "and I'm really excited\nto see the progress.",
+      "start": 2003.53,
+      "duration": 2.25
+    },
+    {
+      "text": "Obviously, another\ncommon use case",
+      "start": 2005.78,
+      "duration": 1.49
+    },
+    {
+      "text": "is one you saw a little\nbit earlier in the demo",
+      "start": 2007.27,
+      "duration": 1.958
+    },
+    {
+      "text": "is select boxes.",
+      "start": 2009.228,
+      "duration": 0.992
+    },
+    {
+      "text": "Now, I remember using\nselect boxes in ie4.",
+      "start": 2010.22,
+      "duration": 2.96
+    },
+    {
+      "text": "You could set a breakpoint in\nVisual Studio-- not VS Code,",
+      "start": 2013.18,
+      "duration": 3.39
+    },
+    {
+      "text": "in Visual Studio\ninto the JavaScript",
+      "start": 2016.57,
+      "duration": 2.4
+    },
+    {
+      "text": "and breakpoint on your code.",
+      "start": 2018.97,
+      "duration": 1.54
+    },
+    {
+      "text": "And if you scrolled, the scroll\nbar would just stay stuck.",
+      "start": 2020.51,
+      "duration": 3.09
+    },
+    {
+      "text": "You couldn't do anything.",
+      "start": 2023.6,
+      "duration": 1.05
+    },
+    {
+      "text": "And that's because they\nwere system level widgets.",
+      "start": 2024.65,
+      "duration": 2.46
+    },
+    {
+      "text": "And for nearly 25\nyears, we've seen",
+      "start": 2027.11,
+      "duration": 2.39
+    },
+    {
+      "text": "next to no progress in this\ncore platform primitive.",
+      "start": 2029.5,
+      "duration": 4.63
+    },
+    {
+      "text": "So developers have\ngotten around this",
+      "start": 2034.13,
+      "duration": 2.06
+    },
+    {
+      "text": "by re-implementing it in\nJavaScript, naturally.",
+      "start": 2036.19,
+      "duration": 2.8
+    },
+    {
+      "text": "And so we know that you\nwant the ability to style",
+      "start": 2038.99,
+      "duration": 2.51
+    },
+    {
+      "text": "select boxes and bring them\ninto your branding of your site.",
+      "start": 2041.5,
+      "duration": 3.01
+    },
+    {
+      "text": "And you've told us that you\nwant to include HTML directly",
+      "start": 2044.51,
+      "duration": 2.42
+    },
+    {
+      "text": "in the options and provide\nfunctionality that we've just",
+      "start": 2046.93,
+      "duration": 2.58
+    },
+    {
+      "text": "not had on the platform before.",
+      "start": 2049.51,
+      "duration": 1.87
+    },
+    {
+      "text": "Well, stylable select is an\naccessible, standardized, and",
+      "start": 2051.38,
+      "duration": 3.68
+    },
+    {
+      "text": "CSS stylable select element.",
+      "start": 2055.06,
+      "duration": 2.139
+    },
+    {
+      "text": "It just gives you that ability.",
+      "start": 2057.199,
+      "duration": 1.491
+    },
+    {
+      "text": "By using appearance-based\nselect as the new CSS property,",
+      "start": 2058.69,
+      "duration": 3.82
+    },
+    {
+      "text": "it puts the select element into\na new configurable stylable",
+      "start": 2062.51,
+      "duration": 3.379
+    },
+    {
+      "text": "state, and every part\nof that base select",
+      "start": 2065.889,
+      "duration": 2.58
+    },
+    {
+      "text": "can now be swapped out and\npersonalized, and even animated.",
+      "start": 2068.469,
+      "duration": 3.641
+    },
+    {
+      "text": "And Yoon is going to talk a\nlot more about this tomorrow.",
+      "start": 2072.11,
+      "duration": 2.629
+    },
+    {
+      "text": "So the select element can also\ninclude rich HTML content.",
+      "start": 2074.739,
+      "duration": 3.73
+    },
+    {
+      "text": "So, for example, in the\ncountry dropdown menu,",
+      "start": 2078.469,
+      "duration": 2.161
+    },
+    {
+      "text": "you can include a flag\nnext to your country.",
+      "start": 2080.63,
+      "duration": 1.98
+    },
+    {
+      "text": "Or when you're browsing\nthrough a list of people,",
+      "start": 2082.61,
+      "duration": 2.089
+    },
+    {
+      "text": "you can now include an\navatar next to their name.",
+      "start": 2084.699,
+      "duration": 3.281
+    },
+    {
+      "text": "So with all of these\nfeatures that I've",
+      "start": 2087.98,
+      "duration": 2.239
+    },
+    {
+      "text": "launched in the past year and\nthe new ones on the horizon,",
+      "start": 2090.219,
+      "duration": 2.531
+    },
+    {
+      "text": "I really do feel like the web is\ngetting way more tactile and way",
+      "start": 2092.75,
+      "duration": 3.5
+    },
+    {
+      "text": "more expressive.",
+      "start": 2096.25,
+      "duration": 1.3
+    },
+    {
+      "text": "And Temu, which is an\ne-commerce company,",
+      "start": 2097.55,
+      "duration": 1.917
+    },
+    {
+      "text": "has been setting the\nbar when it comes",
+      "start": 2099.467,
+      "duration": 1.583
+    },
+    {
+      "text": "to applying these new primitives\nto their full potential,",
+      "start": 2101.05,
+      "duration": 3.64
+    },
+    {
+      "text": "and they've seen some\nreally strong gains.",
+      "start": 2104.69,
+      "duration": 2.03
+    },
+    {
+      "text": "After launching their\nintegration with the multi-page",
+      "start": 2106.72,
+      "duration": 4.26
+    },
+    {
+      "text": "application View\nTransitions API--",
+      "start": 2110.98,
+      "duration": 1.99
+    },
+    {
+      "text": "it's a bit of a mouthful to say\nall that-- they saw user session",
+      "start": 2112.97,
+      "duration": 2.72
+    },
+    {
+      "text": "duration increased by\n10%, and user page views",
+      "start": 2115.69,
+      "duration": 3.48
+    },
+    {
+      "text": "increased by 15%.",
+      "start": 2119.17,
+      "duration": 1.87
+    },
+    {
+      "text": "And they've also been internally\ntesting a slew of new APIs,",
+      "start": 2121.04,
+      "duration": 3.18
+    },
+    {
+      "text": "including carousels, popover,\nanchor positioning, and also,",
+      "start": 2124.22,
+      "duration": 3.77
+    },
+    {
+      "text": "custom select.",
+      "start": 2127.99,
+      "duration": 1.06
+    },
+    {
+      "text": "And they've observed\nimproved page performance,",
+      "start": 2129.05,
+      "duration": 2.51
+    },
+    {
+      "text": "and a reduction to about\n10% to 15% on CPU load.",
+      "start": 2131.56,
+      "duration": 4.23
+    },
+    {
+      "text": "I just think these new\nUI features are awesome,",
+      "start": 2135.79,
+      "duration": 2.47
+    },
+    {
+      "text": "and the web is actually becoming\nmore stylish and responsive",
+      "start": 2138.26,
+      "duration": 2.96
+    },
+    {
+      "text": "every single day.",
+      "start": 2141.22,
+      "duration": 1.32
+    },
+    {
+      "text": "But there are still massive\nuser experience issues",
+      "start": 2142.54,
+      "duration": 2.52
+    },
+    {
+      "text": "when it comes to common tasks.",
+      "start": 2145.06,
+      "duration": 1.78
+    },
+    {
+      "text": "We know that filling\nout forms and keeping",
+      "start": 2146.84,
+      "duration": 2.27
+    },
+    {
+      "text": "track of your password are two\nmajor frustrations for anyone",
+      "start": 2149.11,
+      "duration": 3.36
+    },
+    {
+      "text": "who uses the web.",
+      "start": 2152.47,
+      "duration": 1.18
+    },
+    {
+      "text": "So we've made some\nsteps to streamline",
+      "start": 2153.65,
+      "duration": 1.7
+    },
+    {
+      "text": "these complex interactions\nfor your users.",
+      "start": 2155.35,
+      "duration": 3.22
+    },
+    {
+      "text": "Autofill is one of the first\nones, is built into Chrome.",
+      "start": 2158.57,
+      "duration": 3.66
+    },
+    {
+      "text": "And it allows the browser\nto automatically fill",
+      "start": 2162.23,
+      "duration": 2.06
+    },
+    {
+      "text": "in the website's form\nfields with the person saved",
+      "start": 2164.29,
+      "duration": 2.96
+    },
+    {
+      "text": "information from\nacross all the devices.",
+      "start": 2167.25,
+      "duration": 2.53
+    },
+    {
+      "text": "You can now measure the\nimpact of browser autofill",
+      "start": 2169.78,
+      "duration": 2.84
+    },
+    {
+      "text": "on your forms, and get insights\ninto how users interact",
+      "start": 2172.62,
+      "duration": 3.66
+    },
+    {
+      "text": "with your forms, and so you can\nmake better forms from that.",
+      "start": 2176.28,
+      "duration": 3.1
+    },
+    {
+      "text": "It gives you the data that\nyou need to make improvements.",
+      "start": 2179.38,
+      "duration": 3.06
+    },
+    {
+      "text": "And we've also had\nsome fantastic results",
+      "start": 2182.44,
+      "duration": 1.94
+    },
+    {
+      "text": "from partners implementing\nAutofill on their sites.",
+      "start": 2184.38,
+      "duration": 3.57
+    },
+    {
+      "text": "Our friends at Shopify know that\nwhen customers are ready to buy,",
+      "start": 2187.95,
+      "duration": 3.28
+    },
+    {
+      "text": "even the slightest delay, or\nextra steps can stop a sale.",
+      "start": 2191.23,
+      "duration": 3.51
+    },
+    {
+      "text": "And after implementing\nAutofill across their platform,",
+      "start": 2194.74,
+      "duration": 2.79
+    },
+    {
+      "text": "Shopify found that guest\ncheckouts using Autofill",
+      "start": 2197.53,
+      "duration": 2.81
+    },
+    {
+      "text": "had a 40% higher checkout\ncompletion rate than guest",
+      "start": 2200.34,
+      "duration": 3.24
+    },
+    {
+      "text": "checkouts without Autofill.",
+      "start": 2203.58,
+      "duration": 2.08
+    },
+    {
+      "text": "So I think Autofill wasn't\njust good for their customer",
+      "start": 2205.66,
+      "duration": 2.6
+    },
+    {
+      "text": "experience, it was great\nfor their business, too.",
+      "start": 2208.26,
+      "duration": 3.6
+    },
+    {
+      "text": "And after forms, passwords\nare the next big area",
+      "start": 2211.86,
+      "duration": 3.03
+    },
+    {
+      "text": "that we've worked to improve.",
+      "start": 2214.89,
+      "duration": 1.45
+    },
+    {
+      "text": "We're already seeing\na shift from a world--",
+      "start": 2216.34,
+      "duration": 2.09
+    },
+    {
+      "text": "or to a world without passwords,\nand I think that's for the best",
+      "start": 2218.43,
+      "duration": 4.24
+    },
+    {
+      "text": "because passwords come with\ninnate risks and challenges",
+      "start": 2222.67,
+      "duration": 3.39
+    },
+    {
+      "text": "from people using weak\npasswords, reuse passwords,",
+      "start": 2226.06,
+      "duration": 3.01
+    },
+    {
+      "text": "or even just they're\nsusceptible to phishing attacks.",
+      "start": 2229.07,
+      "duration": 3.75
+    },
+    {
+      "text": "But passwords are so\nubiquitous that a transition",
+      "start": 2232.82,
+      "duration": 3.17
+    },
+    {
+      "text": "to a passwordless\necosystem across the web,",
+      "start": 2235.99,
+      "duration": 3.01
+    },
+    {
+      "text": "it's just not going\nto happen overnight.",
+      "start": 2239.0,
+      "duration": 1.98
+    },
+    {
+      "text": "So in the short term, we've\nimproved the Google Password",
+      "start": 2240.98,
+      "duration": 2.51
+    },
+    {
+      "text": "Manager to help users manage\ntheir password more easily.",
+      "start": 2243.49,
+      "duration": 2.552
+    },
+    {
+      "text": "So I just want to give\nyou a little sneak",
+      "start": 2246.042,
+      "duration": 1.708
+    },
+    {
+      "text": "peek at the automated\npassword change feature",
+      "start": 2247.75,
+      "duration": 3.31
+    },
+    {
+      "text": "now that's in Chrome, which\nautomatically changes passwords",
+      "start": 2251.06,
+      "duration": 3.2
+    },
+    {
+      "text": "that are stored in\nGoogle Password Manager.",
+      "start": 2254.26,
+      "duration": 2.61
+    },
+    {
+      "text": "So when Chrome detects that a\npassword has been compromised,",
+      "start": 2256.87,
+      "duration": 3.01
+    },
+    {
+      "text": "a user will get a\nsuggestion to change it.",
+      "start": 2259.88,
+      "duration": 2.1
+    },
+    {
+      "text": "And then, with\npermission, Chrome",
+      "start": 2261.98,
+      "duration": 1.7
+    },
+    {
+      "text": "will automatically\nupdate the password",
+      "start": 2263.68,
+      "duration": 2.19
+    },
+    {
+      "text": "on the site behind the scenes.",
+      "start": 2265.87,
+      "duration": 2.44
+    },
+    {
+      "text": "So we're going to start with\na subset of websites in 2025,",
+      "start": 2268.31,
+      "duration": 3.39
+    },
+    {
+      "text": "and we'll expand this to\nmore websites in the future.",
+      "start": 2271.7,
+      "duration": 2.79
+    },
+    {
+      "text": "But there are just a few\nsmall amount of changes",
+      "start": 2274.49,
+      "duration": 2.0
+    },
+    {
+      "text": "that you can make that help\nmake this automated password",
+      "start": 2276.49,
+      "duration": 2.76
+    },
+    {
+      "text": "change work more\nreliably, and you'll just",
+      "start": 2279.25,
+      "duration": 2.13
+    },
+    {
+      "text": "be able to get\nadopted straight away.",
+      "start": 2281.38,
+      "duration": 2.24
+    },
+    {
+      "text": "And also, they'll benefit\nevery single password manager.",
+      "start": 2283.62,
+      "duration": 3.6
+    },
+    {
+      "text": "This is, obviously, again,\nwhere Autofill comes in.",
+      "start": 2287.22,
+      "duration": 2.32
+    },
+    {
+      "text": "So by using autocomplete\ncurrent password,",
+      "start": 2289.54,
+      "duration": 2.24
+    },
+    {
+      "text": "it's been around for years, you\ncan help the Password Manager",
+      "start": 2291.78,
+      "duration": 2.82
+    },
+    {
+      "text": "identify the right field to\nuse with the saved password.",
+      "start": 2294.6,
+      "duration": 4.12
+    },
+    {
+      "text": "And when you use\nautocomplete new password",
+      "start": 2298.72,
+      "duration": 3.11
+    },
+    {
+      "text": "for the new password\nfield, you can",
+      "start": 2301.83,
+      "duration": 2.34
+    },
+    {
+      "text": "find-- you can help the\nPassword Manager to suggest",
+      "start": 2304.17,
+      "duration": 2.7
+    },
+    {
+      "text": "strong passwords to\nreplace the old one.",
+      "start": 2306.87,
+      "duration": 2.17
+    },
+    {
+      "text": "Now, like I said,\nthese annotations,",
+      "start": 2309.04,
+      "duration": 2.52
+    },
+    {
+      "text": "they're just a web standard,\nbut they are an effective way",
+      "start": 2311.56,
+      "duration": 2.505
+    },
+    {
+      "text": "to optimize your\nwebsite to work better",
+      "start": 2314.065,
+      "duration": 1.625
+    },
+    {
+      "text": "with any password manager,\nincluding the automated change.",
+      "start": 2315.69,
+      "duration": 3.48
+    },
+    {
+      "text": "This works on sign\nin pages, sign up",
+      "start": 2319.17,
+      "duration": 2.46
+    },
+    {
+      "text": "pages, any browser that\nsupports, well, any browser",
+      "start": 2321.63,
+      "duration": 2.513
+    },
+    {
+      "text": "and any browser with\na password manager,",
+      "start": 2324.143,
+      "duration": 1.667
+    },
+    {
+      "text": "not just Google Password\nManager inside Chrome.",
+      "start": 2325.81,
+      "duration": 2.96
+    },
+    {
+      "text": "But the final part of this\ntransition from passwords",
+      "start": 2328.77,
+      "duration": 2.7
+    },
+    {
+      "text": "to a passwordless ecosystem, it\nrequires fundamentally different",
+      "start": 2331.47,
+      "duration": 3.69
+    },
+    {
+      "text": "technologies.",
+      "start": 2335.16,
+      "duration": 1.0
+    },
+    {
+      "text": "And passkeys and FedCM are\ntwo of the technologies",
+      "start": 2336.16,
+      "duration": 3.14
+    },
+    {
+      "text": "at the center of this area.",
+      "start": 2339.3,
+      "duration": 2.32
+    },
+    {
+      "text": "We only got time to be able\nto talk about passkeys today.",
+      "start": 2341.62,
+      "duration": 3.055
+    },
+    {
+      "text": "But over the years,\nwe've made a number",
+      "start": 2344.675,
+      "duration": 1.625
+    },
+    {
+      "text": "of improvements to\npasskeys and how passkeys",
+      "start": 2346.3,
+      "duration": 2.1
+    },
+    {
+      "text": "works inside the browser.",
+      "start": 2348.4,
+      "duration": 1.45
+    },
+    {
+      "text": "So passkeys on Google\nPassword Manager",
+      "start": 2349.85,
+      "duration": 2.03
+    },
+    {
+      "text": "are now synchronized and\nsaved across all platforms,",
+      "start": 2351.88,
+      "duration": 3.22
+    },
+    {
+      "text": "including Windows, Mac, Linux,\nChrome OS, iOS, and Android.",
+      "start": 2355.1,
+      "duration": 4.53
+    },
+    {
+      "text": "And websites can\nnow automatically",
+      "start": 2359.63,
+      "duration": 1.88
+    },
+    {
+      "text": "request your Password Manager to\ncreate a passkey on your behalf,",
+      "start": 2361.51,
+      "duration": 5.08
+    },
+    {
+      "text": "as long as you already\nhave a password saved.",
+      "start": 2366.59,
+      "duration": 2.72
+    },
+    {
+      "text": "And we're introducing a new API,\nwhich will also let your users--",
+      "start": 2369.31,
+      "duration": 3.81
+    },
+    {
+      "text": "will also let you ask the user--",
+      "start": 2373.12,
+      "duration": 2.7
+    },
+    {
+      "text": "ask the user's Password\nManager to create this passkey",
+      "start": 2375.82,
+      "duration": 3.06
+    },
+    {
+      "text": "automatically.",
+      "start": 2378.88,
+      "duration": 0.752
+    },
+    {
+      "text": "And this will work as\nlong as the passkey",
+      "start": 2379.632,
+      "duration": 1.708
+    },
+    {
+      "text": "is saved to your site, and was\nalso recently used to sign in.",
+      "start": 2381.34,
+      "duration": 3.37
+    },
+    {
+      "text": "And then we'll notify\nthe user when the passkey",
+      "start": 2384.71,
+      "duration": 2.12
+    },
+    {
+      "text": "has been created successfully.",
+      "start": 2386.83,
+      "duration": 1.938
+    },
+    {
+      "text": "Now, we would\nrecommend that you call",
+      "start": 2388.768,
+      "duration": 1.542
+    },
+    {
+      "text": "this API immediately\nafter a successful sign",
+      "start": 2390.31,
+      "duration": 3.0
+    },
+    {
+      "text": "in with a password.",
+      "start": 2393.31,
+      "duration": 1.99
+    },
+    {
+      "text": "And it's available in Chrome 136\nacross all desktop platforms,",
+      "start": 2395.3,
+      "duration": 3.65
+    },
+    {
+      "text": "and will be coming\nto Android soon.",
+      "start": 2398.95,
+      "duration": 3.53
+    },
+    {
+      "text": "And when the user\nsigns back in, you",
+      "start": 2402.48,
+      "duration": 2.475
+    },
+    {
+      "text": "can just trigger the autofill\ndrop down to automatically,",
+      "start": 2404.955,
+      "duration": 3.135
+    },
+    {
+      "text": "for any credentials that\nare available on the device,",
+      "start": 2408.09,
+      "duration": 2.98
+    },
+    {
+      "text": "including passkeys.",
+      "start": 2411.07,
+      "duration": 1.405
+    },
+    {
+      "text": "And to make this\nwork, again, you",
+      "start": 2412.475,
+      "duration": 1.375
+    },
+    {
+      "text": "just use the correct autofill\nvalues for passwords,",
+      "start": 2413.85,
+      "duration": 3.57
+    },
+    {
+      "text": "and also include the\npasskeys autofill attribute.",
+      "start": 2417.42,
+      "duration": 3.43
+    },
+    {
+      "text": "And then simply set the\nauto focus attribute",
+      "start": 2420.85,
+      "duration": 2.09
+    },
+    {
+      "text": "on the input field, and then\nChrome will just do the rest.",
+      "start": 2422.94,
+      "duration": 3.28
+    },
+    {
+      "text": "So these are just a few of the\nuser experience improvements",
+      "start": 2426.22,
+      "duration": 2.87
+    },
+    {
+      "text": "that we've made to the core of\nthe platform over the last year",
+      "start": 2429.09,
+      "duration": 3.06
+    },
+    {
+      "text": "to make the web more consistent\nand more seamless to use.",
+      "start": 2432.15,
+      "duration": 2.815
+    },
+    {
+      "text": "And there's a lot\nmore that's happening",
+      "start": 2434.965,
+      "duration": 1.625
+    },
+    {
+      "text": "that we couldn't get into\ntoday, whether that's",
+      "start": 2436.59,
+      "duration": 1.958
+    },
+    {
+      "text": "improvements to Identity\nFederation with FedCM,",
+      "start": 2438.548,
+      "duration": 2.132
+    },
+    {
+      "text": "the digital credentials API,\nand even things like device",
+      "start": 2440.68,
+      "duration": 3.11
+    },
+    {
+      "text": "bound cookies.",
+      "start": 2443.79,
+      "duration": 1.15
+    },
+    {
+      "text": "So by making the web easier\nand also more secure,",
+      "start": 2444.94,
+      "duration": 2.85
+    },
+    {
+      "text": "we believe that people will\nsign in more, sign up more,",
+      "start": 2447.79,
+      "duration": 2.88
+    },
+    {
+      "text": "transact more, and just\nsimply enjoy using the web.",
+      "start": 2450.67,
+      "duration": 3.74
+    },
+    {
+      "text": "So how's everyone feeling\nabout the future of the web?",
+      "start": 2454.41,
+      "duration": 2.32
+    },
+    {
+      "text": "Are you excited?",
+      "start": 2456.73,
+      "duration": 0.97
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2457.7,
+      "duration": 0.5
+    },
+    {
+      "text": "Brilliant.",
+      "start": 2458.2,
+      "duration": 0.881
+    },
+    {
+      "text": "I'm actually very\nhappy you did that.",
+      "start": 2462.31,
+      "duration": 1.57
+    },
+    {
+      "text": "I'd be mortified, otherwise.",
+      "start": 2463.88,
+      "duration": 1.59
+    },
+    {
+      "text": "So I'm super happy and\nexcited about this continued",
+      "start": 2465.47,
+      "duration": 3.53
+    },
+    {
+      "text": "push of the web.",
+      "start": 2469.0,
+      "duration": 0.913
+    },
+    {
+      "text": "We're going to make it easier\nto build for, whether that's",
+      "start": 2469.913,
+      "duration": 2.417
+    },
+    {
+      "text": "through a more predictable web\nwith Baseline, better DevTools,",
+      "start": 2472.33,
+      "duration": 4.6
+    },
+    {
+      "text": "combined with our work\nto make the web faster",
+      "start": 2476.93,
+      "duration": 2.42
+    },
+    {
+      "text": "and more interactive\nwith our UI improvements.",
+      "start": 2479.35,
+      "duration": 2.447
+    },
+    {
+      "text": "And obviously, there's a\npersonal highlight for me",
+      "start": 2481.797,
+      "duration": 2.083
+    },
+    {
+      "text": "about bringing more\nAI to people just",
+      "start": 2483.88,
+      "duration": 2.52
+    },
+    {
+      "text": "by being able to click\non a link and they'll",
+      "start": 2486.4,
+      "duration": 2.64
+    },
+    {
+      "text": "be able to access\nit straight away.",
+      "start": 2489.04,
+      "duration": 1.81
+    },
+    {
+      "text": "So thank you very much\nfor joining us today.",
+      "start": 2490.85,
+      "duration": 2.31
+    },
+    {
+      "text": "Be sure to follow\nus on social media.",
+      "start": 2493.16,
+      "duration": 1.83
+    },
+    {
+      "text": "Visit us on developer.chrome.com\nand web.dev,",
+      "start": 2494.99,
+      "duration": 2.67
+    },
+    {
+      "text": "and you'll be able to\ndeeper dive into everything",
+      "start": 2497.66,
+      "duration": 2.21
+    },
+    {
+      "text": "that we've talked about today.",
+      "start": 2499.87,
+      "duration": 1.53
+    },
+    {
+      "text": "So from everyone here\nat Chrome, thank you,",
+      "start": 2501.4,
+      "duration": 2.35
+    },
+    {
+      "text": "and have a wonderful\nrest of your day.",
+      "start": 2503.75,
+      "duration": 1.68
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2505.43,
+      "duration": 0.5
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2505.93,
+      "duration": 3.35
+    }
+  ]
+}

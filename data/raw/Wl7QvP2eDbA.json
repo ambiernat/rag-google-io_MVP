@@ -1,0 +1,1242 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "Wl7QvP2eDbA",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 1.96
+    },
+    {
+      "text": "DALE HAWKINS: Hello, everyone.",
+      "start": 5.95,
+      "duration": 1.25
+    },
+    {
+      "text": "I'm Dale, a Developer\nRelations Engineer",
+      "start": 7.2,
+      "duration": 2.39
+    },
+    {
+      "text": "on Google Maps Platform.",
+      "start": 9.59,
+      "duration": 1.72
+    },
+    {
+      "text": "Last year at I/O, we launched 3D\nmaps in the Maps JavaScript API,",
+      "start": 11.31,
+      "duration": 5.069
+    },
+    {
+      "text": "marking the first time we\ncombined Google's high fidelity,",
+      "start": 16.379,
+      "duration": 3.111
+    },
+    {
+      "text": "photorealistic 3D maps with\nour rendering technology.",
+      "start": 19.49,
+      "duration": 3.91
+    },
+    {
+      "text": "We've been amazed\nwith what you've made.",
+      "start": 23.4,
+      "duration": 2.31
+    },
+    {
+      "text": "Today, we're excited to share\nwith you a significant leap",
+      "start": 25.71,
+      "duration": 3.47
+    },
+    {
+      "text": "forward for mobile mapping.",
+      "start": 29.18,
+      "duration": 1.99
+    },
+    {
+      "text": "For the first time ever, we are\nmaking Google's photorealistic",
+      "start": 31.17,
+      "duration": 3.62
+    },
+    {
+      "text": "3D maps available to you,\nour Android developers,",
+      "start": 34.79,
+      "duration": 3.6
+    },
+    {
+      "text": "with Google Maps Platform.",
+      "start": 38.39,
+      "duration": 2.13
+    },
+    {
+      "text": "This immersive visual\nexperience lets",
+      "start": 40.52,
+      "duration": 2.61
+    },
+    {
+      "text": "users engage with the world\nin a completely new way.",
+      "start": 43.13,
+      "duration": 3.43
+    },
+    {
+      "text": "They can explore everything\nfrom soaring city skylines",
+      "start": 46.56,
+      "duration": 3.17
+    },
+    {
+      "text": "to breathtaking\ncanyons, and even",
+      "start": 49.73,
+      "duration": 2.1
+    },
+    {
+      "text": "discover hidden gems\nand new neighborhoods,",
+      "start": 51.83,
+      "duration": 2.59
+    },
+    {
+      "text": "all in stunning detail\nwith incredible realism.",
+      "start": 54.42,
+      "duration": 3.33
+    },
+    {
+      "text": "So are you ready to add another\ndimension to your mobile mapping",
+      "start": 57.75,
+      "duration": 4.13
+    },
+    {
+      "text": "apps?",
+      "start": 61.88,
+      "duration": 0.7
+    },
+    {
+      "text": "Let's dive in and\nsee how it works.",
+      "start": 62.58,
+      "duration": 2.659
+    },
+    {
+      "text": "This overview video is\ngeared towards developers",
+      "start": 65.239,
+      "duration": 3.361
+    },
+    {
+      "text": "who already have some experience\nwith Android development.",
+      "start": 68.6,
+      "duration": 3.34
+    },
+    {
+      "text": "If you're a brand new to Android\ndevelopment, don't worry.",
+      "start": 71.94,
+      "duration": 3.24
+    },
+    {
+      "text": "We've included links in the\ndescription of this video",
+      "start": 75.18,
+      "duration": 2.66
+    },
+    {
+      "text": "to resources that will\nhelp you get up to speed.",
+      "start": 77.84,
+      "duration": 3.12
+    },
+    {
+      "text": "As with our other Google\nMaps Platform offerings,",
+      "start": 80.96,
+      "duration": 2.77
+    },
+    {
+      "text": "you will need a Google Maps\nAPI key with the maps 3D SDK",
+      "start": 83.73,
+      "duration": 4.43
+    },
+    {
+      "text": "for Android API enabled.",
+      "start": 88.16,
+      "duration": 2.2
+    },
+    {
+      "text": "Please refer to the\nlinked documentation",
+      "start": 90.36,
+      "duration": 2.36
+    },
+    {
+      "text": "for detailed instructions\non how to obtain an API key",
+      "start": 92.72,
+      "duration": 3.54
+    },
+    {
+      "text": "and ensure the correct\nAPIs are enabled.",
+      "start": 96.26,
+      "duration": 2.83
+    },
+    {
+      "text": "Be sure to complete this step\nprior to exploring the samples",
+      "start": 99.09,
+      "duration": 3.05
+    },
+    {
+      "text": "and building your own\n3D maps experiences.",
+      "start": 102.14,
+      "duration": 3.6
+    },
+    {
+      "text": "The main component in the maps\n3D SDK is the map 3D view.",
+      "start": 105.74,
+      "duration": 4.45
+    },
+    {
+      "text": "If you are already familiar with\nthe map view in the Google Maps",
+      "start": 110.19,
+      "duration": 3.38
+    },
+    {
+      "text": "Android SDK, you'll find the map\n3D view conceptually similar.",
+      "start": 113.57,
+      "duration": 4.84
+    },
+    {
+      "text": "It serves as the primary Android\nview that will host and render",
+      "start": 118.41,
+      "duration": 3.71
+    },
+    {
+      "text": "the 3D map within your\napplication's layout.",
+      "start": 122.12,
+      "duration": 2.68
+    },
+    {
+      "text": "If you haven't used map\nview before, don't worry.",
+      "start": 124.8,
+      "duration": 3.45
+    },
+    {
+      "text": "We'll explain the\nessential aspects as we go.",
+      "start": 128.25,
+      "duration": 3.56
+    },
+    {
+      "text": "To add a 3D map to your app,\nyou'll integrate the maps 3D",
+      "start": 131.81,
+      "duration": 3.27
+    },
+    {
+      "text": "view into your layout XML file.",
+      "start": 135.08,
+      "duration": 2.08
+    },
+    {
+      "text": "Here's an example.",
+      "start": 137.16,
+      "duration": 2.15
+    },
+    {
+      "text": "As you can see in\nthis XML sample,",
+      "start": 139.31,
+      "duration": 2.41
+    },
+    {
+      "text": "the map 3D view has several\ncustom attributes prefixed with",
+      "start": 141.72,
+      "duration": 3.26
+    },
+    {
+      "text": "the map 3D namespace.",
+      "start": 144.98,
+      "duration": 1.78
+    },
+    {
+      "text": "Let's start with\nthe mode attribute.",
+      "start": 146.76,
+      "duration": 2.19
+    },
+    {
+      "text": "This attribute allows you\nto configure how the base",
+      "start": 148.95,
+      "duration": 2.57
+    },
+    {
+      "text": "layer will be rendered.",
+      "start": 151.52,
+      "duration": 1.71
+    },
+    {
+      "text": "You can choose either hybrid,\nwhich displays 3D imagery with",
+      "start": 153.23,
+      "duration": 3.84
+    },
+    {
+      "text": "base map, roads, labels,\nand points of interest,",
+      "start": 157.07,
+      "duration": 3.04
+    },
+    {
+      "text": "or satellite, which displays\nonly the 3D imagery.",
+      "start": 160.11,
+      "duration": 4.34
+    },
+    {
+      "text": "You can also change the\nmap mode programmatically",
+      "start": 164.45,
+      "duration": 2.73
+    },
+    {
+      "text": "after the view has been created,\nusing the set map mode function.",
+      "start": 167.18,
+      "duration": 4.29
+    },
+    {
+      "text": "The next set of map 3D\nattributes control the initial",
+      "start": 171.47,
+      "duration": 2.97
+    },
+    {
+      "text": "camera location and orientation\nand set any camera restrictions.",
+      "start": 174.44,
+      "duration": 4.66
+    },
+    {
+      "text": "We will dive into the\ndetails of the camera model",
+      "start": 179.1,
+      "duration": 2.81
+    },
+    {
+      "text": "and camera restrictions\nin just a moment.",
+      "start": 181.91,
+      "duration": 2.46
+    },
+    {
+      "text": "Once you have added the map 3D\nview to your layout XML file,",
+      "start": 184.37,
+      "duration": 3.76
+    },
+    {
+      "text": "you can embed it within your\napplication's user interface",
+      "start": 188.13,
+      "duration": 2.99
+    },
+    {
+      "text": "using a standard Android layout.",
+      "start": 191.12,
+      "duration": 2.19
+    },
+    {
+      "text": "For instance, you can place\nthe map 3D view within a linear",
+      "start": 193.31,
+      "duration": 4.08
+    },
+    {
+      "text": "layout, a frame layout, or any\nother layout container that",
+      "start": 197.39,
+      "duration": 3.27
+    },
+    {
+      "text": "suits your app's design.",
+      "start": 200.66,
+      "duration": 1.56
+    },
+    {
+      "text": "To bring the map 3D view\nto life in your activity,",
+      "start": 202.22,
+      "duration": 3.19
+    },
+    {
+      "text": "you'll need to inflate your\nlayout and get a reference",
+      "start": 205.41,
+      "duration": 2.72
+    },
+    {
+      "text": "to the map 3D view in your code.",
+      "start": 208.13,
+      "duration": 2.34
+    },
+    {
+      "text": "Here is a minimal example\nof the main activity",
+      "start": 210.47,
+      "duration": 2.67
+    },
+    {
+      "text": "that demonstrates this.",
+      "start": 213.14,
+      "duration": 2.04
+    },
+    {
+      "text": "First, we'll inflate our view\nusing the set content view",
+      "start": 215.18,
+      "duration": 3.33
+    },
+    {
+      "text": "method.",
+      "start": 218.51,
+      "duration": 0.87
+    },
+    {
+      "text": "Then we'll retrieve our map 3D\nview object using the identifier",
+      "start": 219.38,
+      "duration": 4.14
+    },
+    {
+      "text": "we assigned it in the XML file.",
+      "start": 223.52,
+      "duration": 2.28
+    },
+    {
+      "text": "Next, we'll create or restore\nthe state of the underlying map",
+      "start": 225.8,
+      "duration": 3.78
+    },
+    {
+      "text": "view controller.",
+      "start": 229.58,
+      "duration": 1.12
+    },
+    {
+      "text": "And finally, we'll\nregister the activity",
+      "start": 230.7,
+      "duration": 2.57
+    },
+    {
+      "text": "as a listener for\nwhen the map is ready.",
+      "start": 233.27,
+      "duration": 3.18
+    },
+    {
+      "text": "The on map 3D view ready method\nof the on map 3D view ready",
+      "start": 236.45,
+      "duration": 5.13
+    },
+    {
+      "text": "callback interface will be\ncalled once the map 3D view has",
+      "start": 241.58,
+      "duration": 3.9
+    },
+    {
+      "text": "been successfully initiated,\nand the Google Map 3D object is",
+      "start": 245.48,
+      "duration": 3.69
+    },
+    {
+      "text": "ready for you to use.",
+      "start": 249.17,
+      "duration": 2.34
+    },
+    {
+      "text": "This object provides the means\nto control and manipulate the 3D",
+      "start": 251.51,
+      "duration": 3.96
+    },
+    {
+      "text": "map, including\nsetting the camera,",
+      "start": 255.47,
+      "duration": 3.07
+    },
+    {
+      "text": "adding markers and\nmodels, and much more.",
+      "start": 258.54,
+      "duration": 2.669
+    },
+    {
+      "text": "And that's the fundamental\nprocess of embedding a 3D Google",
+      "start": 261.209,
+      "duration": 3.291
+    },
+    {
+      "text": "Map into your Android\napplication using the map 3D",
+      "start": 264.5,
+      "duration": 3.03
+    },
+    {
+      "text": "view.",
+      "start": 267.53,
+      "duration": 1.5
+    },
+    {
+      "text": "Your users can now experience\nthe world in stunning 3D within",
+      "start": 269.03,
+      "duration": 3.42
+    },
+    {
+      "text": "your app, and they're able to\nengage with the 3D map through",
+      "start": 272.45,
+      "duration": 3.36
+    },
+    {
+      "text": "the built in intuitive\ngestures for panning, tilting,",
+      "start": 275.81,
+      "duration": 3.73
+    },
+    {
+      "text": "and zooming in and out.",
+      "start": 279.54,
+      "duration": 2.27
+    },
+    {
+      "text": "I do want to acknowledge that\nwhile the SDK's map 3D view is",
+      "start": 281.81,
+      "duration": 4.32
+    },
+    {
+      "text": "a view component, it is\ncompatible with Jetpack Compose.",
+      "start": 286.13,
+      "duration": 3.31
+    },
+    {
+      "text": "In fact, these 3D maps Android\ndemos and the sample app were",
+      "start": 289.44,
+      "duration": 4.73
+    },
+    {
+      "text": "all built using Compose.",
+      "start": 294.17,
+      "duration": 1.78
+    },
+    {
+      "text": "Take a look at the source\nfor practical strategies",
+      "start": 295.95,
+      "duration": 2.6
+    },
+    {
+      "text": "for integrating map 3D view\ninto Compose based UIs.",
+      "start": 298.55,
+      "duration": 4.59
+    },
+    {
+      "text": "This means you can effectively\nuse the 3D maps capabilities",
+      "start": 303.14,
+      "duration": 3.96
+    },
+    {
+      "text": "within your Compose\napplications.",
+      "start": 307.1,
+      "duration": 3.24
+    },
+    {
+      "text": "As we move into the\nrealm of 3D mapping,",
+      "start": 310.34,
+      "duration": 2.65
+    },
+    {
+      "text": "it shouldn't come as a surprise\nthat we'll need to add a third",
+      "start": 312.99,
+      "duration": 2.87
+    },
+    {
+      "text": "dimension to the traditional\nlatitude and longitude",
+      "start": 315.86,
+      "duration": 2.85
+    },
+    {
+      "text": "coordinate class.",
+      "start": 318.71,
+      "duration": 1.32
+    },
+    {
+      "text": "This is where the lat long\naltitude class comes into play.",
+      "start": 320.03,
+      "duration": 4.44
+    },
+    {
+      "text": "Let's see how you can\ninstantiate a Lat long altitude",
+      "start": 324.47,
+      "duration": 2.7
+    },
+    {
+      "text": "class in Kotlin.",
+      "start": 327.17,
+      "duration": 3.03
+    },
+    {
+      "text": "This class represents\na location by combining",
+      "start": 330.2,
+      "duration": 2.61
+    },
+    {
+      "text": "the latitude and longitude\ncoordinates with an altitude.",
+      "start": 332.81,
+      "duration": 4.02
+    },
+    {
+      "text": "Note that we\nspecifically use altitude",
+      "start": 336.83,
+      "duration": 2.31
+    },
+    {
+      "text": "because these lat long\naltitude instances are not",
+      "start": 339.14,
+      "duration": 3.57
+    },
+    {
+      "text": "bound to the Earth's surface.",
+      "start": 342.71,
+      "duration": 1.8
+    },
+    {
+      "text": "This flexibility is essential\nfor positioning markers",
+      "start": 344.51,
+      "duration": 3.45
+    },
+    {
+      "text": "and models and defining the\ncamera's location in 3D space.",
+      "start": 347.96,
+      "duration": 4.59
+    },
+    {
+      "text": "Now that we can\nspecify locations",
+      "start": 352.55,
+      "duration": 2.04
+    },
+    {
+      "text": "in three dimensions, let's use\nthat to build our camera model.",
+      "start": 354.59,
+      "duration": 3.94
+    },
+    {
+      "text": "We'll start by\nsupplying a center.",
+      "start": 358.53,
+      "duration": 2.13
+    },
+    {
+      "text": "This tells our camera\nwhere to focus.",
+      "start": 360.66,
+      "duration": 2.64
+    },
+    {
+      "text": "Additionally, we'll\nneed to specify how",
+      "start": 363.3,
+      "duration": 2.99
+    },
+    {
+      "text": "the point is to be observed.",
+      "start": 366.29,
+      "duration": 2.16
+    },
+    {
+      "text": "The heading indicates the\ndirection the camera will point",
+      "start": 368.45,
+      "duration": 2.88
+    },
+    {
+      "text": "measured in degrees, clockwise\nfrom North, with North",
+      "start": 371.33,
+      "duration": 4.02
+    },
+    {
+      "text": "corresponding to 0 degrees,\nEast to 90 degrees,",
+      "start": 375.35,
+      "duration": 3.57
+    },
+    {
+      "text": "South to 180 degrees,\nand West to 270 degrees.",
+      "start": 378.92,
+      "duration": 4.95
+    },
+    {
+      "text": "The tilt specifies the angle\nof the camera with respect",
+      "start": 383.87,
+      "duration": 3.48
+    },
+    {
+      "text": "to the vertical axis in degrees.",
+      "start": 387.35,
+      "duration": 2.29
+    },
+    {
+      "text": "A tilt of 0 degrees means the\ncamera is pointing straight",
+      "start": 389.64,
+      "duration": 3.38
+    },
+    {
+      "text": "down towards the Earth,\nwhile a tilt of 90 degrees",
+      "start": 393.02,
+      "duration": 3.21
+    },
+    {
+      "text": "means the camera is\npointing horizontally",
+      "start": 396.23,
+      "duration": 2.4
+    },
+    {
+      "text": "in the direction\nspecified by the heading.",
+      "start": 398.63,
+      "duration": 3.15
+    },
+    {
+      "text": "The range defines the distance\nin meters between the camera's",
+      "start": 401.78,
+      "duration": 3.6
+    },
+    {
+      "text": "position and the center point.",
+      "start": 405.38,
+      "duration": 2.55
+    },
+    {
+      "text": "The range can vary from\nup to 360 million meters,",
+      "start": 407.93,
+      "duration": 4.8
+    },
+    {
+      "text": "allowing from views from\nvery close up to all the way",
+      "start": 412.73,
+      "duration": 3.77
+    },
+    {
+      "text": "to a truly global perspective.",
+      "start": 416.5,
+      "duration": 3.51
+    },
+    {
+      "text": "The roll allows you to\nset the angle with respect",
+      "start": 420.01,
+      "duration": 2.61
+    },
+    {
+      "text": "to the horizon.",
+      "start": 422.62,
+      "duration": 1.23
+    },
+    {
+      "text": "This parameter can be used to\ncreate effects like banking",
+      "start": 423.85,
+      "duration": 3.84
+    },
+    {
+      "text": "during a flight simulator\nor even a full barrel roll.",
+      "start": 427.69,
+      "duration": 4.65
+    },
+    {
+      "text": "With our camera in hand, we\ncan call this set camera method",
+      "start": 432.34,
+      "duration": 3.48
+    },
+    {
+      "text": "on the Google Map 3D instance\nto reposition the camera,",
+      "start": 435.82,
+      "duration": 4.17
+    },
+    {
+      "text": "you can use camera restrictions\nto set boundaries on how",
+      "start": 439.99,
+      "duration": 2.94
+    },
+    {
+      "text": "the user can\nmanipulate the camera,",
+      "start": 442.93,
+      "duration": 1.9
+    },
+    {
+      "text": "preventing them from wandering\noff into irrelevant parts",
+      "start": 444.83,
+      "duration": 3.02
+    },
+    {
+      "text": "of the globe.",
+      "start": 447.85,
+      "duration": 1.71
+    },
+    {
+      "text": "You can also apply the minimum\nand maximum for the heading,",
+      "start": 449.56,
+      "duration": 3.24
+    },
+    {
+      "text": "tilt, and range.",
+      "start": 452.8,
+      "duration": 2.64
+    },
+    {
+      "text": "You can also define a boundary\nfor the range of the latitude",
+      "start": 455.44,
+      "duration": 2.88
+    },
+    {
+      "text": "and longitude.",
+      "start": 458.32,
+      "duration": 1.8
+    },
+    {
+      "text": "The map's 3D SDK includes two\nbuilt in camera animations,",
+      "start": 460.12,
+      "duration": 3.93
+    },
+    {
+      "text": "fly to and fly around.",
+      "start": 464.05,
+      "duration": 2.97
+    },
+    {
+      "text": "The fly to method\nsmoothly moves the camera",
+      "start": 467.02,
+      "duration": 3.0
+    },
+    {
+      "text": "from its current position\nto a specified destination",
+      "start": 470.02,
+      "duration": 3.45
+    },
+    {
+      "text": "over a given duration.",
+      "start": 473.47,
+      "duration": 1.87
+    },
+    {
+      "text": "It is analogous to the animate\ncamera call in the 2D Maps SDK.",
+      "start": 475.34,
+      "duration": 5.51
+    },
+    {
+      "text": "The fly around animation\ncauses the camera",
+      "start": 480.85,
+      "duration": 2.61
+    },
+    {
+      "text": "to orbit the\nspecified center point",
+      "start": 483.46,
+      "duration": 2.01
+    },
+    {
+      "text": "at the given tilt and range.",
+      "start": 485.47,
+      "duration": 1.96
+    },
+    {
+      "text": "You must also specify\nthe number of rotations",
+      "start": 487.43,
+      "duration": 2.6
+    },
+    {
+      "text": "the camera should make, and the\ntotal duration the animation",
+      "start": 490.03,
+      "duration": 3.78
+    },
+    {
+      "text": "should take.",
+      "start": 493.81,
+      "duration": 2.16
+    },
+    {
+      "text": "You can stop any\nin-progress animation",
+      "start": 495.97,
+      "duration": 2.4
+    },
+    {
+      "text": "by calling stop\ncamera animation.",
+      "start": 498.37,
+      "duration": 3.72
+    },
+    {
+      "text": "Markers are essential for\nhighlighting locations",
+      "start": 502.09,
+      "duration": 2.34
+    },
+    {
+      "text": "of interest on your 3D map.",
+      "start": 504.43,
+      "duration": 1.78
+    },
+    {
+      "text": "To add a marker, you'll use the\nmarker options class to define",
+      "start": 506.21,
+      "duration": 3.95
+    },
+    {
+      "text": "its properties and then call the\nadd marker method on your Google",
+      "start": 510.16,
+      "duration": 4.05
+    },
+    {
+      "text": "Maps 3D instance.",
+      "start": 514.21,
+      "duration": 2.099
+    },
+    {
+      "text": "Additionally, markers need to\nspecify their altitude mode.",
+      "start": 516.309,
+      "duration": 3.73
+    },
+    {
+      "text": "This tells the engine how to\ninterpret the altitude parameter",
+      "start": 520.039,
+      "duration": 3.38
+    },
+    {
+      "text": "of the marker's position.",
+      "start": 523.419,
+      "duration": 1.771
+    },
+    {
+      "text": "This includes the\nfollowing options.",
+      "start": 525.19,
+      "duration": 2.35
+    },
+    {
+      "text": "Absolute.",
+      "start": 527.54,
+      "duration": 1.34
+    },
+    {
+      "text": "The altitude is used as the\nmarker's absolute position",
+      "start": 528.88,
+      "duration": 3.3
+    },
+    {
+      "text": "in meters above sea level.",
+      "start": 532.18,
+      "duration": 1.81
+    },
+    {
+      "text": "Clamp to ground.",
+      "start": 533.99,
+      "duration": 1.64
+    },
+    {
+      "text": "The altitude is\nignored and the marker",
+      "start": 535.63,
+      "duration": 2.04
+    },
+    {
+      "text": "is placed at the\nelevation of the ground",
+      "start": 537.67,
+      "duration": 2.34
+    },
+    {
+      "text": "at the given location.",
+      "start": 540.01,
+      "duration": 1.89
+    },
+    {
+      "text": "Relative to ground.",
+      "start": 541.9,
+      "duration": 1.27
+    },
+    {
+      "text": "The altitude is the number\nof meters between the marker",
+      "start": 543.17,
+      "duration": 3.53
+    },
+    {
+      "text": "and the ground.",
+      "start": 546.7,
+      "duration": 1.47
+    },
+    {
+      "text": "And relative to mesh.",
+      "start": 548.17,
+      "duration": 1.72
+    },
+    {
+      "text": "This mode positions the marker\nrelative to the height of the 3D",
+      "start": 549.89,
+      "duration": 3.53
+    },
+    {
+      "text": "mesh at its coordinates.",
+      "start": 553.42,
+      "duration": 1.93
+    },
+    {
+      "text": "This is particularly relevant\nwhen your 3D scene contains",
+      "start": 555.35,
+      "duration": 3.53
+    },
+    {
+      "text": "detailed models like buildings,\nand you want to place a marker",
+      "start": 558.88,
+      "duration": 3.51
+    },
+    {
+      "text": "at a specific height\nrelative to those structures.",
+      "start": 562.39,
+      "duration": 3.96
+    },
+    {
+      "text": "For example, this screen shows\na marker at 1 meter relative",
+      "start": 566.35,
+      "duration": 4.59
+    },
+    {
+      "text": "to the 3D mesh.",
+      "start": 570.94,
+      "duration": 2.85
+    },
+    {
+      "text": "When adding a\nmarker, each marker",
+      "start": 573.79,
+      "duration": 2.31
+    },
+    {
+      "text": "is associated with a unique ID.",
+      "start": 576.1,
+      "duration": 2.76
+    },
+    {
+      "text": "You have the flexibility to\neither explicitly specify",
+      "start": 578.86,
+      "duration": 3.18
+    },
+    {
+      "text": "an ID when creating your\nmarker options object,",
+      "start": 582.04,
+      "duration": 3.49
+    },
+    {
+      "text": "or if you don't\nprovide one, the SDK",
+      "start": 585.53,
+      "duration": 2.9
+    },
+    {
+      "text": "will automatically\nassign a unique ID.",
+      "start": 588.43,
+      "duration": 3.33
+    },
+    {
+      "text": "The ID is important if you need\nto manipulate a specific marker",
+      "start": 591.76,
+      "duration": 3.57
+    },
+    {
+      "text": "after it has been\nadded to the map.",
+      "start": 595.33,
+      "duration": 2.43
+    },
+    {
+      "text": "To do this, you can call\nthe add marker method again",
+      "start": 597.76,
+      "duration": 3.96
+    },
+    {
+      "text": "with a new marker options with\nthe same ID as an existing",
+      "start": 601.72,
+      "duration": 3.84
+    },
+    {
+      "text": "marker.",
+      "start": 605.56,
+      "duration": 1.41
+    },
+    {
+      "text": "Instead of creating\na new marker,",
+      "start": 606.97,
+      "duration": 1.66
+    },
+    {
+      "text": "the SDK will update\nthe properties",
+      "start": 608.63,
+      "duration": 2.45
+    },
+    {
+      "text": "of the existing marker\nwith the values provided",
+      "start": 611.08,
+      "duration": 2.82
+    },
+    {
+      "text": "in the new marker options.",
+      "start": 613.9,
+      "duration": 2.7
+    },
+    {
+      "text": "Additionally, the marker\nobject returned by the call",
+      "start": 616.6,
+      "duration": 3.12
+    },
+    {
+      "text": "add marker is the only way to\nremove the marker from the map.",
+      "start": 619.72,
+      "duration": 3.9
+    },
+    {
+      "text": "Take a look at the sample\ncode for a detailed example.",
+      "start": 623.62,
+      "duration": 4.74
+    },
+    {
+      "text": "Beyond markers, 3D maps allows\nyou to enrich your 3D scenes",
+      "start": 628.36,
+      "duration": 3.72
+    },
+    {
+      "text": "by adding full 3D models.",
+      "start": 632.08,
+      "duration": 2.64
+    },
+    {
+      "text": "Unlike markers, which are\ntypically 2D icons anchored",
+      "start": 634.72,
+      "duration": 3.27
+    },
+    {
+      "text": "to a specific point, models are\nfull three dimensional objects",
+      "start": 637.99,
+      "duration": 4.5
+    },
+    {
+      "text": "that can represent a wide\nvariety of real world",
+      "start": 642.49,
+      "duration": 3.09
+    },
+    {
+      "text": "or fictional entities.",
+      "start": 645.58,
+      "duration": 2.79
+    },
+    {
+      "text": "You can add a 3D model to the\nmap using the model options",
+      "start": 648.37,
+      "duration": 3.39
+    },
+    {
+      "text": "class and the add model method.",
+      "start": 651.76,
+      "duration": 2.61
+    },
+    {
+      "text": "In addition to the\nposition, you will",
+      "start": 654.37,
+      "duration": 2.01
+    },
+    {
+      "text": "have to specify the orientation\nand the scale of the model.",
+      "start": 656.38,
+      "duration": 5.07
+    },
+    {
+      "text": "The same ID rules apply for\nmanipulating and removing models",
+      "start": 661.45,
+      "duration": 3.36
+    },
+    {
+      "text": "from the map.",
+      "start": 664.81,
+      "duration": 2.37
+    },
+    {
+      "text": "The Maps 3D SDK also provides\nmethods for drawing vector",
+      "start": 667.18,
+      "duration": 3.93
+    },
+    {
+      "text": "graphics on your 3D maps\nusing polygons and polylines.",
+      "start": 671.11,
+      "duration": 5.52
+    },
+    {
+      "text": "These elements can be invaluable\nfor highlighting specific areas,",
+      "start": 676.63,
+      "duration": 3.79
+    },
+    {
+      "text": "defining routes, or\nconveying spatial information",
+      "start": 680.42,
+      "duration": 2.48
+    },
+    {
+      "text": "to your users.",
+      "start": 682.9,
+      "duration": 1.74
+    },
+    {
+      "text": "Polygons are closed,\nfilled shapes",
+      "start": 684.64,
+      "duration": 2.46
+    },
+    {
+      "text": "with the ability to add one or\nmore holes inside the polygon.",
+      "start": 687.1,
+      "duration": 4.05
+    },
+    {
+      "text": "Polylines are not closed\nand do not support holes.",
+      "start": 691.15,
+      "duration": 3.81
+    },
+    {
+      "text": "In this session, we've taken a\ndeep dive into the new Google",
+      "start": 694.96,
+      "duration": 3.54
+    },
+    {
+      "text": "Maps 3D SDK for Android, showing\nyou how to bring a whole new",
+      "start": 698.5,
+      "duration": 4.08
+    },
+    {
+      "text": "dimension to your\nMaps applications.",
+      "start": 702.58,
+      "duration": 2.14
+    },
+    {
+      "text": "We've covered the\nfundamental building blocks,",
+      "start": 704.72,
+      "duration": 2.04
+    },
+    {
+      "text": "including the map 3D view,\nthe lat long altitude class,",
+      "start": 706.76,
+      "duration": 3.93
+    },
+    {
+      "text": "and the camera class.",
+      "start": 710.69,
+      "duration": 1.44
+    },
+    {
+      "text": "You've seen how to\nposition the camera",
+      "start": 712.13,
+      "duration": 2.03
+    },
+    {
+      "text": "and to limit the camera to views\nrelevant to your application.",
+      "start": 714.16,
+      "duration": 4.2
+    },
+    {
+      "text": "And lastly, we've seen how to\nadd markers, models, and vector",
+      "start": 718.36,
+      "duration": 4.14
+    },
+    {
+      "text": "graphics to our maps.",
+      "start": 722.5,
+      "duration": 2.37
+    },
+    {
+      "text": "The Google Maps 3D SDK is now\navailable in experimental,",
+      "start": 724.87,
+      "duration": 3.75
+    },
+    {
+      "text": "and we are incredibly excited to\nsee the innovative and immersive",
+      "start": 728.62,
+      "duration": 3.63
+    },
+    {
+      "text": "experiences you will create.",
+      "start": 732.25,
+      "duration": 1.98
+    },
+    {
+      "text": "We encourage you to dive\ninto the documentation,",
+      "start": 734.23,
+      "duration": 2.83
+    },
+    {
+      "text": "explore the sample code,\nand start building the next",
+      "start": 737.06,
+      "duration": 2.78
+    },
+    {
+      "text": "generation of location\naware 3D apps today.",
+      "start": 739.84,
+      "duration": 3.67
+    },
+    {
+      "text": "We can't wait to see\nwhat you'll build.",
+      "start": 743.51,
+      "duration": 2.51
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 746.02,
+      "duration": 2.75
+    }
+  ]
+}

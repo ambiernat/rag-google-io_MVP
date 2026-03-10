@@ -1,0 +1,1467 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "flwULzNYRac",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.928
+    },
+    {
+      "text": "JAMES WILLIAMS: Hi, my\nname is James Williams.",
+      "start": 6.35,
+      "duration": 2.29
+    },
+    {
+      "text": "I'm a developer relations\nengineer for Dart and Flutter.",
+      "start": 8.64,
+      "duration": 3.42
+    },
+    {
+      "text": "A common question I\nhear from developers",
+      "start": 12.06,
+      "duration": 2.18
+    },
+    {
+      "text": "is if choosing\nFlutter means they",
+      "start": 14.24,
+      "duration": 1.86
+    },
+    {
+      "text": "will have to start\ncompletely from scratch.",
+      "start": 16.1,
+      "duration": 2.32
+    },
+    {
+      "text": "I'm happy to tell you\nthat's not the case.",
+      "start": 18.42,
+      "duration": 2.4
+    },
+    {
+      "text": "Your Flutter apps\ncan make the most",
+      "start": 20.82,
+      "duration": 1.79
+    },
+    {
+      "text": "of the intersection between\nbespoke Flutter features,",
+      "start": 22.61,
+      "duration": 3.4
+    },
+    {
+      "text": "native platform\nAPIs, and UI, all",
+      "start": 26.01,
+      "duration": 3.53
+    },
+    {
+      "text": "from the comfy confines\nof your Dart codebase.",
+      "start": 29.54,
+      "duration": 2.95
+    },
+    {
+      "text": "Let's talk a little bit about\nhow the architecture of Flutter",
+      "start": 32.49,
+      "duration": 3.26
+    },
+    {
+      "text": "makes this possible.",
+      "start": 35.75,
+      "duration": 1.65
+    },
+    {
+      "text": "As you may already\nknow, Flutter is",
+      "start": 37.4,
+      "duration": 2.31
+    },
+    {
+      "text": "Google's cross-platform\napplication framework",
+      "start": 39.71,
+      "duration": 2.64
+    },
+    {
+      "text": "that allows you to create\napplications targeting",
+      "start": 42.35,
+      "duration": 2.37
+    },
+    {
+      "text": "a number of platforms from the\nweb, to mobile, to desktop.",
+      "start": 44.72,
+      "duration": 4.41
+    },
+    {
+      "text": "Flutter is organized\nas a layered system",
+      "start": 49.13,
+      "duration": 2.74
+    },
+    {
+      "text": "with the component layers\nbuilding on the ones below them.",
+      "start": 51.87,
+      "duration": 3.12
+    },
+    {
+      "text": "We playfully call this diagram\nthe Flutter architecture layer",
+      "start": 54.99,
+      "duration": 3.5
+    },
+    {
+      "text": "cake.",
+      "start": 58.49,
+      "duration": 0.7
+    },
+    {
+      "text": "In brief, the framework\nlayer provides high level,",
+      "start": 59.19,
+      "duration": 3.79
+    },
+    {
+      "text": "reusable APIs in Dart for\nthings like common widgets,",
+      "start": 62.98,
+      "duration": 3.45
+    },
+    {
+      "text": "gestures, accessibility,\nand text input.",
+      "start": 66.43,
+      "duration": 2.99
+    },
+    {
+      "text": "The engine, implemented in C\nand C++, is more low level.",
+      "start": 69.42,
+      "duration": 4.57
+    },
+    {
+      "text": "It works with them\nbetter, and is responsible",
+      "start": 73.99,
+      "duration": 2.21
+    },
+    {
+      "text": "for, amongst other\nthings, some messaging",
+      "start": 76.2,
+      "duration": 2.64
+    },
+    {
+      "text": "between the native\nplatform and Flutter.",
+      "start": 78.84,
+      "duration": 3.27
+    },
+    {
+      "text": "Closest to the host\nplatform, the embedder",
+      "start": 82.11,
+      "duration": 2.85
+    },
+    {
+      "text": "is the entry point from the\nhost system to a Flutter app.",
+      "start": 84.96,
+      "duration": 4.08
+    },
+    {
+      "text": "This is the one layer\nout of the three",
+      "start": 89.04,
+      "duration": 1.95
+    },
+    {
+      "text": "whose implementation is\nunique to the host platform,",
+      "start": 90.99,
+      "duration": 3.07
+    },
+    {
+      "text": "and will be written in the\nlanguages that make the most",
+      "start": 94.06,
+      "duration": 2.66
+    },
+    {
+      "text": "sense for that platform.",
+      "start": 96.72,
+      "duration": 1.21
+    },
+    {
+      "text": "The code implementing the\nframework and engine layers",
+      "start": 97.93,
+      "duration": 2.45
+    },
+    {
+      "text": "is shared between all\nFlutter implementations.",
+      "start": 100.38,
+      "duration": 3.99
+    },
+    {
+      "text": "The work we'll be doing\ntoday touches all three,",
+      "start": 104.37,
+      "duration": 4.2
+    },
+    {
+      "text": "so let's begin with\nnative interop--",
+      "start": 108.57,
+      "duration": 2.71
+    },
+    {
+      "text": "Dart code that will interface\nwith native libraries",
+      "start": 111.28,
+      "duration": 2.57
+    },
+    {
+      "text": "from our Flutter layer cake.",
+      "start": 113.85,
+      "duration": 1.81
+    },
+    {
+      "text": "This work is mostly\nin the engine layer.",
+      "start": 115.66,
+      "duration": 2.61
+    },
+    {
+      "text": "This is a useful\ntool in your toolbox,",
+      "start": 118.27,
+      "duration": 2.7
+    },
+    {
+      "text": "but not one that you'll\nlikely be using often.",
+      "start": 120.97,
+      "duration": 3.3
+    },
+    {
+      "text": "To add access to native\nplatform features or libraries,",
+      "start": 124.27,
+      "duration": 3.34
+    },
+    {
+      "text": "we have a couple of\ndifferent options--",
+      "start": 127.61,
+      "duration": 2.119
+    },
+    {
+      "text": "method channels, and our\nplatform specific code",
+      "start": 129.729,
+      "duration": 3.301
+    },
+    {
+      "text": "generation options JNI gen and\nFFI gen. Let's talk about them",
+      "start": 133.03,
+      "duration": 5.88
+    },
+    {
+      "text": "briefly.",
+      "start": 138.91,
+      "duration": 1.2
+    },
+    {
+      "text": "Method channels,\nsometimes described",
+      "start": 140.11,
+      "duration": 2.28
+    },
+    {
+      "text": "as platform channels\nin our documentation,",
+      "start": 142.39,
+      "duration": 2.32
+    },
+    {
+      "text": "work by creating a named\npassageway from your Dart code",
+      "start": 144.71,
+      "duration": 3.47
+    },
+    {
+      "text": "to call platform code.",
+      "start": 148.18,
+      "duration": 2.79
+    },
+    {
+      "text": "What actually\nhappens is you set up",
+      "start": 150.97,
+      "duration": 1.92
+    },
+    {
+      "text": "a listener on the native side\nthat monitors for a named method",
+      "start": 152.89,
+      "duration": 3.9
+    },
+    {
+      "text": "call, executes code, and\nthen passes back a result.",
+      "start": 156.79,
+      "duration": 4.5
+    },
+    {
+      "text": "This can sometimes be\nunwieldy for a couple reasons.",
+      "start": 161.29,
+      "duration": 3.63
+    },
+    {
+      "text": "Firstly, it's your\nresponsibility",
+      "start": 164.92,
+      "duration": 1.8
+    },
+    {
+      "text": "to make sure the message\nis type safe and properly",
+      "start": 166.72,
+      "duration": 2.88
+    },
+    {
+      "text": "conforms to what your\nDart code expects.",
+      "start": 169.6,
+      "duration": 2.89
+    },
+    {
+      "text": "Second, it may\nbecome overwhelming",
+      "start": 172.49,
+      "duration": 2.75
+    },
+    {
+      "text": "for complex objects,\nor if you're",
+      "start": 175.24,
+      "duration": 1.86
+    },
+    {
+      "text": "deploying to platforms with\n[? disparate ?] implementations",
+      "start": 177.1,
+      "duration": 2.73
+    },
+    {
+      "text": "of the same feature.",
+      "start": 179.83,
+      "duration": 1.15
+    },
+    {
+      "text": "Third, because you're making\nmethod calls in two places,",
+      "start": 180.98,
+      "duration": 3.9
+    },
+    {
+      "text": "you'll have more maintenance\nwork when APIs change.",
+      "start": 184.88,
+      "duration": 3.36
+    },
+    {
+      "text": "The Pigeon package\nis our solution",
+      "start": 188.24,
+      "duration": 1.97
+    },
+    {
+      "text": "to reduce the overhead of\nmanaging that platform channel",
+      "start": 190.21,
+      "duration": 3.27
+    },
+    {
+      "text": "code.",
+      "start": 193.48,
+      "duration": 0.81
+    },
+    {
+      "text": "It also provides some\ncross-platform code generation",
+      "start": 194.29,
+      "duration": 3.12
+    },
+    {
+      "text": "capabilities to make\nplatform channels easier.",
+      "start": 197.41,
+      "duration": 4.2
+    },
+    {
+      "text": "The technique for native\ninterop that we'll",
+      "start": 201.61,
+      "duration": 2.16
+    },
+    {
+      "text": "be focusing on instead for\nthis first section of the talk",
+      "start": 203.77,
+      "duration": 3.93
+    },
+    {
+      "text": "is JNI gen.",
+      "start": 207.7,
+      "duration": 1.56
+    },
+    {
+      "text": "JNI gen generates code for use\nwith the Java native interface,",
+      "start": 209.26,
+      "duration": 4.6
+    },
+    {
+      "text": "a specification provided by\nthe Java programming language.",
+      "start": 213.86,
+      "duration": 3.24
+    },
+    {
+      "text": "JNI allows Dart to directly call\nand execute code through Dart",
+      "start": 217.1,
+      "duration": 4.55
+    },
+    {
+      "text": "in native C and C++ bindings.",
+      "start": 221.65,
+      "duration": 5.16
+    },
+    {
+      "text": "This method of code\ngeneration is not",
+      "start": 226.81,
+      "duration": 2.25
+    },
+    {
+      "text": "limited to Java and Kotlin.",
+      "start": 229.06,
+      "duration": 2.07
+    },
+    {
+      "text": "FFI gen, foreign\nfunction interface,",
+      "start": 231.13,
+      "duration": 2.94
+    },
+    {
+      "text": "exists for use on iOS\nand other platforms.",
+      "start": 234.07,
+      "duration": 3.78
+    },
+    {
+      "text": "Some configuration details may\ndiffer, but most of the concepts",
+      "start": 237.85,
+      "duration": 3.75
+    },
+    {
+      "text": "carry over.",
+      "start": 241.6,
+      "duration": 0.75
+    },
+    {
+      "text": "In fact, JNI gen uses\nFFI gen under the covers",
+      "start": 242.35,
+      "duration": 5.02
+    },
+    {
+      "text": "to generate C bindings\nto call Java code.",
+      "start": 247.37,
+      "duration": 3.93
+    },
+    {
+      "text": "So let's look at a\ndiscrete example.",
+      "start": 251.3,
+      "duration": 3.39
+    },
+    {
+      "text": "Health Connect by Android is a\nlibrary and app allowing a user",
+      "start": 254.69,
+      "duration": 3.87
+    },
+    {
+      "text": "to track their health\ninformation and vitals,",
+      "start": 258.56,
+      "duration": 2.67
+    },
+    {
+      "text": "controlling which applications\nhave access to them.",
+      "start": 261.23,
+      "duration": 4.26
+    },
+    {
+      "text": "Like many people,\nI recently became",
+      "start": 265.49,
+      "duration": 2.64
+    },
+    {
+      "text": "more concerned about\nmy health and wanted",
+      "start": 268.13,
+      "duration": 2.07
+    },
+    {
+      "text": "to take steps to better track it\nto assist my health care team.",
+      "start": 270.2,
+      "duration": 4.2
+    },
+    {
+      "text": "With this small\ntracking app, I can",
+      "start": 274.4,
+      "duration": 1.8
+    },
+    {
+      "text": "log blood pressure for\na given date and time,",
+      "start": 276.2,
+      "duration": 2.38
+    },
+    {
+      "text": "allowing medical\ncare professionals",
+      "start": 278.58,
+      "duration": 1.61
+    },
+    {
+      "text": "to interpret the\nhistorical data,",
+      "start": 280.19,
+      "duration": 2.14
+    },
+    {
+      "text": "giving my doctor a more\ncomplete picture of what's",
+      "start": 282.33,
+      "duration": 2.54
+    },
+    {
+      "text": "happening the 363 days of the\nyear when I'm not in his office.",
+      "start": 284.87,
+      "duration": 5.55
+    },
+    {
+      "text": "Health Connect, however, doesn't\npublish a native Dart library,",
+      "start": 290.42,
+      "duration": 4.33
+    },
+    {
+      "text": "so we will be using JNI gen to\ngenerate our Dart binding code.",
+      "start": 294.75,
+      "duration": 4.2
+    },
+    {
+      "text": "Let's talk about what we\nneed to do to get started.",
+      "start": 298.95,
+      "duration": 3.3
+    },
+    {
+      "text": "First, we need to add JNI and\nJNI gen packages to our project",
+      "start": 302.25,
+      "duration": 4.89
+    },
+    {
+      "text": "and run their setup tasks.",
+      "start": 307.14,
+      "duration": 1.87
+    },
+    {
+      "text": "Those tasks will\nretrieve native libraries",
+      "start": 309.01,
+      "duration": 2.3
+    },
+    {
+      "text": "to run Java code and the\nJNI gen app summarizer that",
+      "start": 311.31,
+      "duration": 3.93
+    },
+    {
+      "text": "helps translate Java code into\na syntax tree that can then",
+      "start": 315.24,
+      "duration": 4.23
+    },
+    {
+      "text": "be converted into Dart.",
+      "start": 319.47,
+      "duration": 3.18
+    },
+    {
+      "text": "The full feature set of a\nJNIgen.yaml file is beyond",
+      "start": 322.65,
+      "duration": 4.41
+    },
+    {
+      "text": "the scope of our exercise\ntoday, but at minimum,",
+      "start": 327.06,
+      "duration": 2.65
+    },
+    {
+      "text": "it needs to answer\nthree questions--",
+      "start": 329.71,
+      "duration": 2.99
+    },
+    {
+      "text": "what classes should\nhave generated bindings?",
+      "start": 332.7,
+      "duration": 3.36
+    },
+    {
+      "text": "Where is the source or compiled\ncode for those classes located?",
+      "start": 336.06,
+      "duration": 3.28
+    },
+    {
+      "text": "Where do we want to store the\ngenerated binding classes?",
+      "start": 339.34,
+      "duration": 3.3
+    },
+    {
+      "text": "Here is our full\nJNIgen.yaml file.",
+      "start": 342.64,
+      "duration": 3.27
+    },
+    {
+      "text": "Let's break it up\npiece by piece.",
+      "start": 345.91,
+      "duration": 3.05
+    },
+    {
+      "text": "Starting with our\nfirst question,",
+      "start": 348.96,
+      "duration": 2.17
+    },
+    {
+      "text": "the classes directive\naccepts a list",
+      "start": 351.13,
+      "duration": 2.45
+    },
+    {
+      "text": "of qualified class paths for the\nclasses we would like to use.",
+      "start": 353.58,
+      "duration": 4.07
+    },
+    {
+      "text": "Onto the second question of\nwhere the source is stored,",
+      "start": 357.65,
+      "duration": 4.66
+    },
+    {
+      "text": "we have a couple of options.",
+      "start": 362.31,
+      "duration": 1.54
+    },
+    {
+      "text": "JNI gen has support\nfor libraries",
+      "start": 363.85,
+      "duration": 2.4
+    },
+    {
+      "text": "distributed on Maven Central\nor Google's Maven repositories.",
+      "start": 366.25,
+      "duration": 5.64
+    },
+    {
+      "text": "Similar to Dart's pub.dev,\nMaven repositories",
+      "start": 371.89,
+      "duration": 3.96
+    },
+    {
+      "text": "store built artifacts, both\nsource and compiled code,",
+      "start": 375.85,
+      "duration": 3.69
+    },
+    {
+      "text": "for the build system\nused by Android.",
+      "start": 379.54,
+      "duration": 3.54
+    },
+    {
+      "text": "Paths listed under\nMaven_downloads",
+      "start": 383.08,
+      "duration": 3.27
+    },
+    {
+      "text": "will be downloaded from\neither of these locations.",
+      "start": 386.35,
+      "duration": 3.75
+    },
+    {
+      "text": "Alternatively, JNI gen\ncan retrieve dependencies",
+      "start": 390.1,
+      "duration": 3.66
+    },
+    {
+      "text": "from your Android build files.",
+      "start": 393.76,
+      "duration": 2.28
+    },
+    {
+      "text": "The output directive\ntells JNI gen where",
+      "start": 396.04,
+      "duration": 2.91
+    },
+    {
+      "text": "to store the generated classes.",
+      "start": 398.95,
+      "duration": 1.78
+    },
+    {
+      "text": "In this case, it will be in a\ndirectory named health_connect,",
+      "start": 400.73,
+      "duration": 3.68
+    },
+    {
+      "text": "with inner classes and packages\nmatching the specified classes.",
+      "start": 404.41,
+      "duration": 4.92
+    },
+    {
+      "text": "After sorting our\nJNIgen.yaml file,",
+      "start": 409.33,
+      "duration": 2.92
+    },
+    {
+      "text": "we can finally generate the Dart\nbindings with this line of code.",
+      "start": 412.25,
+      "duration": 5.54
+    },
+    {
+      "text": "Here's a recap of the full flow\nof commands we have to enter.",
+      "start": 417.79,
+      "duration": 5.16
+    },
+    {
+      "text": "So we're done, right?",
+      "start": 422.95,
+      "duration": 2.29
+    },
+    {
+      "text": "Not quite.",
+      "start": 425.24,
+      "duration": 1.33
+    },
+    {
+      "text": "The code generated by JNI gen is\nDart, but it's unlike most Dart",
+      "start": 426.57,
+      "duration": 4.61
+    },
+    {
+      "text": "you've ever seen.",
+      "start": 431.18,
+      "duration": 1.77
+    },
+    {
+      "text": "Here's a quick preview of it.",
+      "start": 432.95,
+      "duration": 2.31
+    },
+    {
+      "text": "Part of that discrepancy\nis from the fact",
+      "start": 435.26,
+      "duration": 2.28
+    },
+    {
+      "text": "that JNI uses its\nnative interface",
+      "start": 437.54,
+      "duration": 2.91
+    },
+    {
+      "text": "to locate a pointer to the\nJava environment in memory,",
+      "start": 440.45,
+      "duration": 3.46
+    },
+    {
+      "text": "and executes code\nusing that pointer.",
+      "start": 443.91,
+      "duration": 2.34
+    },
+    {
+      "text": "This is what's happening\nbehind the scenes",
+      "start": 446.25,
+      "duration": 2.12
+    },
+    {
+      "text": "when you execute\nJNI or FFI gen code.",
+      "start": 448.37,
+      "duration": 4.35
+    },
+    {
+      "text": "This diagram looks more\nimposing than it is in practice",
+      "start": 452.72,
+      "duration": 3.49
+    },
+    {
+      "text": "because you'll generally be\nworking with regular Dart",
+      "start": 456.21,
+      "duration": 3.35
+    },
+    {
+      "text": "or first level bindings.",
+      "start": 459.56,
+      "duration": 1.93
+    },
+    {
+      "text": "The other factor is that\nin that generation process,",
+      "start": 461.49,
+      "duration": 3.33
+    },
+    {
+      "text": "it tries to account for\nfeatures from Java that",
+      "start": 464.82,
+      "duration": 2.6
+    },
+    {
+      "text": "don't exist in Dart.",
+      "start": 467.42,
+      "duration": 2.01
+    },
+    {
+      "text": "Java and Kotlin allow\nmethod overloading.",
+      "start": 469.43,
+      "duration": 2.98
+    },
+    {
+      "text": "That's to say, a given class\ncan have multiple methods",
+      "start": 472.41,
+      "duration": 2.78
+    },
+    {
+      "text": "with the same identifier\nas long as the parameters",
+      "start": 475.19,
+      "duration": 2.55
+    },
+    {
+      "text": "list is different, either\nin type or in number.",
+      "start": 477.74,
+      "duration": 4.47
+    },
+    {
+      "text": "Dart doesn't support this.",
+      "start": 482.21,
+      "duration": 1.72
+    },
+    {
+      "text": "To compensate, JNI gen\nuses a numbered suffix",
+      "start": 483.93,
+      "duration": 3.89
+    },
+    {
+      "text": "to support methods\nwith the same name.",
+      "start": 487.82,
+      "duration": 2.59
+    },
+    {
+      "text": "Health permission has\noverloaded get read permission,",
+      "start": 490.41,
+      "duration": 3.15
+    },
+    {
+      "text": "so the second iteration is\nsuffixed with dollar sign 1.",
+      "start": 493.56,
+      "duration": 4.07
+    },
+    {
+      "text": "Generic information is\nalso enforced a little bit",
+      "start": 497.63,
+      "duration": 3.33
+    },
+    {
+      "text": "differently.",
+      "start": 500.96,
+      "duration": 0.64
+    },
+    {
+      "text": "It will sometimes require\nan extra explicit parameter",
+      "start": 501.6,
+      "duration": 2.75
+    },
+    {
+      "text": "with the object type.",
+      "start": 504.35,
+      "duration": 1.71
+    },
+    {
+      "text": "In general, for every\nJava or Kotlin class,",
+      "start": 506.06,
+      "duration": 2.71
+    },
+    {
+      "text": "several JNI gen classes will be\ngenerated-- a class containing",
+      "start": 508.77,
+      "duration": 4.37
+    },
+    {
+      "text": "the main logic, a\nclass containing",
+      "start": 513.14,
+      "duration": 2.58
+    },
+    {
+      "text": "the containerized\ntype information,",
+      "start": 515.72,
+      "duration": 2.319
+    },
+    {
+      "text": "a class allowing\nfor a nullable type,",
+      "start": 518.039,
+      "duration": 3.451
+    },
+    {
+      "text": "and the above for\nany inner classes.",
+      "start": 521.49,
+      "duration": 3.05
+    },
+    {
+      "text": "For example, these are generated\nfrom health permission.",
+      "start": 524.54,
+      "duration": 4.71
+    },
+    {
+      "text": "Let's look at an\nexample using JNI code.",
+      "start": 529.25,
+      "duration": 4.29
+    },
+    {
+      "text": "In this code to insert\na blood pressure record,",
+      "start": 533.54,
+      "duration": 2.65
+    },
+    {
+      "text": "it's mostly imperceptible\nfrom Dart code.",
+      "start": 536.19,
+      "duration": 2.73
+    },
+    {
+      "text": "In fact, only BP\nrecord and get zone",
+      "start": 538.92,
+      "duration": 2.93
+    },
+    {
+      "text": "offset originated as Dart code.",
+      "start": 541.85,
+      "duration": 3.54
+    },
+    {
+      "text": "We have two small\nJNI gen artifacts,",
+      "start": 545.39,
+      "duration": 3.22
+    },
+    {
+      "text": "the metadata.manualEntry\nfunction call,",
+      "start": 548.61,
+      "duration": 4.0
+    },
+    {
+      "text": "which has dollar\nsign 2 suffix on it,",
+      "start": 552.61,
+      "duration": 3.06
+    },
+    {
+      "text": "and the conversion of a\nlist into a typed JList.",
+      "start": 555.67,
+      "duration": 5.81
+    },
+    {
+      "text": "We can freely mix\ntypes from Dart and JNI",
+      "start": 561.48,
+      "duration": 2.82
+    },
+    {
+      "text": "gen. How connects records needs\ntimezone offsets to be properly",
+      "start": 564.3,
+      "duration": 4.38
+    },
+    {
+      "text": "stored.",
+      "start": 568.68,
+      "duration": 0.7
+    },
+    {
+      "text": "So in the get zone\noffset function,",
+      "start": 569.38,
+      "duration": 2.45
+    },
+    {
+      "text": "it takes a current\nDart date time,",
+      "start": 571.83,
+      "duration": 2.5
+    },
+    {
+      "text": "retrieves the time\nzone offset, and uses",
+      "start": 574.33,
+      "duration": 2.45
+    },
+    {
+      "text": "that to create a Java\nzone offset object.",
+      "start": 576.78,
+      "duration": 3.22
+    },
+    {
+      "text": "We can also add\nextension methods",
+      "start": 580.0,
+      "duration": 2.06
+    },
+    {
+      "text": "to Dart that make\nuse of Java objects.",
+      "start": 582.06,
+      "duration": 3.07
+    },
+    {
+      "text": "In this code to\nretrieve records,",
+      "start": 585.13,
+      "duration": 1.92
+    },
+    {
+      "text": "we have some minor JNI\ngen artifacts, as well.",
+      "start": 587.05,
+      "duration": 3.2
+    },
+    {
+      "text": "Beyond the cast to a collection\nthat we've seen before,",
+      "start": 590.25,
+      "duration": 3.31
+    },
+    {
+      "text": "there's some lookup\nfor type information.",
+      "start": 593.56,
+      "duration": 1.89
+    },
+    {
+      "text": "This is the original tutorial\ncode that I converted from.",
+      "start": 595.45,
+      "duration": 3.42
+    },
+    {
+      "text": "The verbosity in the Dart\nversion comes from the fact",
+      "start": 598.87,
+      "duration": 2.69
+    },
+    {
+      "text": "that JNI gen doesn't\ntranslate default parameter",
+      "start": 601.56,
+      "duration": 3.33
+    },
+    {
+      "text": "information at this time.",
+      "start": 604.89,
+      "duration": 1.51
+    },
+    {
+      "text": "And here is the\napp running again.",
+      "start": 606.4,
+      "duration": 2.51
+    },
+    {
+      "text": "With JNI gen, you can stay in\nthe flow state writing Dart code",
+      "start": 622.66,
+      "duration": 4.68
+    },
+    {
+      "text": "without the need to constantly\nflip back and forth.",
+      "start": 627.34,
+      "duration": 3.66
+    },
+    {
+      "text": "In JNI gen, you\naren't limited by what",
+      "start": 631.0,
+      "duration": 2.7
+    },
+    {
+      "text": "has already been provided by\nthe Dart or Flutter teams.",
+      "start": 633.7,
+      "duration": 3.07
+    },
+    {
+      "text": "You can use native\nAPIs on day one.",
+      "start": 636.77,
+      "duration": 3.06
+    },
+    {
+      "text": "You can easily translate\nsnippets from native code",
+      "start": 639.83,
+      "duration": 2.99
+    },
+    {
+      "text": "samples into Dart.",
+      "start": 642.82,
+      "duration": 1.42
+    },
+    {
+      "text": "Though I use an Android\nAPI in my example,",
+      "start": 644.24,
+      "duration": 3.51
+    },
+    {
+      "text": "these same capabilities\nare possible on iOS,",
+      "start": 647.75,
+      "duration": 2.9
+    },
+    {
+      "text": "as well, through\nFFI gen. I hope you",
+      "start": 650.65,
+      "duration": 3.24
+    },
+    {
+      "text": "consider JNI gen as a\nvaluable part of your toolbox.",
+      "start": 653.89,
+      "duration": 3.49
+    },
+    {
+      "text": "Returning back to our\narchitecture diagram,",
+      "start": 657.38,
+      "duration": 2.37
+    },
+    {
+      "text": "the next area we'll talk\nabout, platform views,",
+      "start": 659.75,
+      "duration": 2.9
+    },
+    {
+      "text": "uses code in the framework\nand embedder layers.",
+      "start": 662.65,
+      "duration": 3.49
+    },
+    {
+      "text": "Platform views give us a\nmeans to embed a component",
+      "start": 666.14,
+      "duration": 2.85
+    },
+    {
+      "text": "from iOS or Android when\nthere isn't a Flutter version.",
+      "start": 668.99,
+      "duration": 4.02
+    },
+    {
+      "text": "Perhaps the view or\nwidget is totally new,",
+      "start": 673.01,
+      "duration": 2.74
+    },
+    {
+      "text": "or something you've already\ndeveloped in native code",
+      "start": 675.75,
+      "duration": 2.54
+    },
+    {
+      "text": "and aren't ready to migrate.",
+      "start": 678.29,
+      "duration": 1.78
+    },
+    {
+      "text": "In either case, you can\nleverage native views",
+      "start": 680.07,
+      "duration": 3.23
+    },
+    {
+      "text": "to speed up your\nadoption of Flutter,",
+      "start": 683.3,
+      "duration": 2.23
+    },
+    {
+      "text": "so let's work through\nan example in practice.",
+      "start": 685.53,
+      "duration": 4.07
+    },
+    {
+      "text": "Keeping with the health theme, I\nwhipped up this Swift component",
+      "start": 689.6,
+      "duration": 3.39
+    },
+    {
+      "text": "to track some activity metrics.",
+      "start": 692.99,
+      "duration": 2.08
+    },
+    {
+      "text": "So how do I get\nfrom this to this?",
+      "start": 695.07,
+      "duration": 4.28
+    },
+    {
+      "text": "To use a native view, I have\nto do a little bit of setup",
+      "start": 699.35,
+      "duration": 3.22
+    },
+    {
+      "text": "both in Flutter\nand in native code.",
+      "start": 702.57,
+      "duration": 2.58
+    },
+    {
+      "text": "You can include a component\ndirectly in your app,",
+      "start": 705.15,
+      "duration": 2.97
+    },
+    {
+      "text": "but it's best to\npackage it as a plugin.",
+      "start": 708.12,
+      "duration": 2.63
+    },
+    {
+      "text": "Using a plugin will\npromote, reuse and hide",
+      "start": 710.75,
+      "duration": 2.97
+    },
+    {
+      "text": "implementation details\nfrom end user developers.",
+      "start": 713.72,
+      "duration": 3.69
+    },
+    {
+      "text": "The first thing Flutter\nneeds is a wrapper component",
+      "start": 717.41,
+      "duration": 3.45
+    },
+    {
+      "text": "that it can use to\ncall the native view.",
+      "start": 720.86,
+      "duration": 3.3
+    },
+    {
+      "text": "This will be a widget that's\ncalled directly in your app.",
+      "start": 724.16,
+      "duration": 3.86
+    },
+    {
+      "text": "One key difference with this\ncode and run-of-the-mill Flutter",
+      "start": 728.02,
+      "duration": 3.14
+    },
+    {
+      "text": "code is a call to UIkit view.",
+      "start": 731.16,
+      "duration": 2.77
+    },
+    {
+      "text": "UIkit view encapsulates\nan iOS component",
+      "start": 733.93,
+      "duration": 3.72
+    },
+    {
+      "text": "given a developer defined string\nfor the view type and creation",
+      "start": 737.65,
+      "duration": 4.25
+    },
+    {
+      "text": "parameters.",
+      "start": 741.9,
+      "duration": 1.53
+    },
+    {
+      "text": "The view type is a name\nthe platform code will",
+      "start": 743.43,
+      "duration": 2.49
+    },
+    {
+      "text": "use to map this request to\nthe native implementation",
+      "start": 745.92,
+      "duration": 4.06
+    },
+    {
+      "text": "so it can be anything you\nwant it to be as long as it's",
+      "start": 749.98,
+      "duration": 3.08
+    },
+    {
+      "text": "unique to the native components\nin this app or in this plugin.",
+      "start": 753.06,
+      "duration": 4.77
+    },
+    {
+      "text": "The embedder layer\nis where we need",
+      "start": 757.83,
+      "duration": 2.07
+    },
+    {
+      "text": "to make the connections between\nFlutter and the host system.",
+      "start": 759.9,
+      "duration": 3.16
+    },
+    {
+      "text": "As a result, our work\nwill be in native code.",
+      "start": 763.06,
+      "duration": 3.44
+    },
+    {
+      "text": "The Flutter embedder\nneeds some helpers",
+      "start": 766.5,
+      "duration": 2.34
+    },
+    {
+      "text": "to understand which\nnative view to create",
+      "start": 768.84,
+      "duration": 2.79
+    },
+    {
+      "text": "per the request from UIkit view.",
+      "start": 771.63,
+      "duration": 1.84
+    },
+    {
+      "text": "Here's the widget in question\nrunning in a Swift playground.",
+      "start": 773.47,
+      "duration": 3.72
+    },
+    {
+      "text": "For each native component\nwe want to implement,",
+      "start": 777.19,
+      "duration": 3.54
+    },
+    {
+      "text": "we need some\nadditional classes--",
+      "start": 780.73,
+      "duration": 1.8
+    },
+    {
+      "text": "a factory that will take the\nparameters dispatch from UIkit",
+      "start": 782.53,
+      "duration": 2.96
+    },
+    {
+      "text": "view to create the component,\nand for every native view,",
+      "start": 785.49,
+      "duration": 3.73
+    },
+    {
+      "text": "we need a class wrapping the\nactual implementation decorated",
+      "start": 789.22,
+      "duration": 3.56
+    },
+    {
+      "text": "with a Flutter\nplatform view interface",
+      "start": 792.78,
+      "duration": 2.16
+    },
+    {
+      "text": "so that it can be embedded.",
+      "start": 794.94,
+      "duration": 1.42
+    },
+    {
+      "text": "Lastly, we need to register the\nview factory with the plugin.",
+      "start": 796.36,
+      "duration": 4.58
+    },
+    {
+      "text": "Again, the ID is the view type\nthat we selected previously.",
+      "start": 800.94,
+      "duration": 3.4
+    },
+    {
+      "text": "And since we're using a\nplugin for implementation,",
+      "start": 804.34,
+      "duration": 2.97
+    },
+    {
+      "text": "we need to include that in\nour pubspec.yaml in our app.",
+      "start": 807.31,
+      "duration": 4.47
+    },
+    {
+      "text": "So the fact that it\ncame from SwiftUI",
+      "start": 811.78,
+      "duration": 2.24
+    },
+    {
+      "text": "isn't immediately apparent,\nas it's called the same way",
+      "start": 814.02,
+      "duration": 3.36
+    },
+    {
+      "text": "as any other Flutter widget.",
+      "start": 817.38,
+      "duration": 1.39
+    },
+    {
+      "text": "And here's how all of\nthat works together.",
+      "start": 818.77,
+      "duration": 2.46
+    },
+    {
+      "text": "Let's talk a little bit\nabout the performance",
+      "start": 821.23,
+      "duration": 2.06
+    },
+    {
+      "text": "of platform views.",
+      "start": 823.29,
+      "duration": 1.3
+    },
+    {
+      "text": "Using platform views will\nresult in a performance cost,",
+      "start": 824.59,
+      "duration": 3.15
+    },
+    {
+      "text": "so it should be used\nthoughtfully and sparingly.",
+      "start": 827.74,
+      "duration": 4.49
+    },
+    {
+      "text": "Let's talk a little\nbit about why.",
+      "start": 832.23,
+      "duration": 2.67
+    },
+    {
+      "text": "So typically, the\nUI for a Flutter app",
+      "start": 834.9,
+      "duration": 2.73
+    },
+    {
+      "text": "uses a dedicated thread\nfor its drawing calls.",
+      "start": 837.63,
+      "duration": 2.68
+    },
+    {
+      "text": "When you use a platform view, it\nengages the main platform thread",
+      "start": 840.31,
+      "duration": 3.68
+    },
+    {
+      "text": "for drawing, so that can\nimpede other essential tasks",
+      "start": 843.99,
+      "duration": 4.23
+    },
+    {
+      "text": "like OS or plugin messages.",
+      "start": 848.22,
+      "duration": 2.68
+    },
+    {
+      "text": "But don't let this deter you\nfrom using a platform view",
+      "start": 850.9,
+      "duration": 2.79
+    },
+    {
+      "text": "if you need to use one.",
+      "start": 853.69,
+      "duration": 1.33
+    },
+    {
+      "text": "Simply exercise care.",
+      "start": 855.02,
+      "duration": 1.79
+    },
+    {
+      "text": "In our short time\ntogether, you've",
+      "start": 856.81,
+      "duration": 2.28
+    },
+    {
+      "text": "learned that Flutter can\nbe both cross-platform,",
+      "start": 859.09,
+      "duration": 2.79
+    },
+    {
+      "text": "and at the same time\ngive you specificity",
+      "start": 861.88,
+      "duration": 2.16
+    },
+    {
+      "text": "and access to target platform\nfeatures, UIs, and APIs.",
+      "start": 864.04,
+      "duration": 5.01
+    },
+    {
+      "text": "We've outlined the various ways\nto interact with native code.",
+      "start": 869.05,
+      "duration": 3.94
+    },
+    {
+      "text": "We've walked through\nin detail how",
+      "start": 872.99,
+      "duration": 2.0
+    },
+    {
+      "text": "you can generate Dart bindings\nfor a native library with JNI",
+      "start": 874.99,
+      "duration": 3.36
+    },
+    {
+      "text": "gen. And lastly, how to\nintegrate a native platform",
+      "start": 878.35,
+      "duration": 3.9
+    },
+    {
+      "text": "view into a Flutter app\nalongside Flutter components.",
+      "start": 882.25,
+      "duration": 4.26
+    },
+    {
+      "text": "You won't need to interact\nwith these capabilities",
+      "start": 886.51,
+      "duration": 2.7
+    },
+    {
+      "text": "to get the large part of your\nwork done from day to day,",
+      "start": 889.21,
+      "duration": 3.6
+    },
+    {
+      "text": "but they're there waiting\nfor you when you need them.",
+      "start": 892.81,
+      "duration": 3.932
+    },
+    {
+      "text": "Thank you for watching.",
+      "start": 896.742,
+      "duration": 0.958
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 897.7,
+      "duration": 3.05
+    }
+  ]
+}

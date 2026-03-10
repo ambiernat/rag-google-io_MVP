@@ -1,0 +1,2617 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "MmxPBgrrn4Q",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.381
+    },
+    {
+      "text": "YUFENG GUO: The General\nPurpose Transformer, or GPT,",
+      "start": 6.29,
+      "duration": 3.87
+    },
+    {
+      "text": "has really transformed\nthe AI landscape",
+      "start": 10.16,
+      "duration": 3.96
+    },
+    {
+      "text": "over the last few years.",
+      "start": 14.12,
+      "duration": 2.009
+    },
+    {
+      "text": "In this workshop, we'll\nlearn about its origins",
+      "start": 16.129,
+      "duration": 2.251
+    },
+    {
+      "text": "and internal structure, and\nwe'll build one from scratch.",
+      "start": 18.38,
+      "duration": 4.5
+    },
+    {
+      "text": "Hi, my name is Yufeng, and I'm\na developer advocate at Google.",
+      "start": 22.88,
+      "duration": 4.23
+    },
+    {
+      "text": "Today, we'll check\nout the process",
+      "start": 27.11,
+      "duration": 1.5
+    },
+    {
+      "text": "of building a transformer\non JAX using the Flax NNX",
+      "start": 28.61,
+      "duration": 3.66
+    },
+    {
+      "text": "library to build the model\narchitecture, Optax for loss",
+      "start": 32.27,
+      "duration": 3.48
+    },
+    {
+      "text": "function and optimizer\ncreation, and train",
+      "start": 35.75,
+      "duration": 3.12
+    },
+    {
+      "text": "on accelerated hardware with\nthe help of Orbax and XLA.",
+      "start": 38.87,
+      "duration": 4.92
+    },
+    {
+      "text": "You'll get a taste of what\ndevelopment on JAX looks like,",
+      "start": 43.79,
+      "duration": 2.86
+    },
+    {
+      "text": "and be prepared to\ntake your next step",
+      "start": 46.65,
+      "duration": 2.33
+    },
+    {
+      "text": "into the world of building\nand training AI models.",
+      "start": 48.98,
+      "duration": 4.14
+    },
+    {
+      "text": "Now, before we\ndive into the code,",
+      "start": 53.12,
+      "duration": 2.5
+    },
+    {
+      "text": "I want to set the\nstage a little bit",
+      "start": 55.62,
+      "duration": 1.97
+    },
+    {
+      "text": "and give some background\non transformers.",
+      "start": 57.59,
+      "duration": 3.3
+    },
+    {
+      "text": "If you're already\nfamiliar with this",
+      "start": 60.89,
+      "duration": 1.74
+    },
+    {
+      "text": "and you want to skip\nahead to the coding,",
+      "start": 62.63,
+      "duration": 2.32
+    },
+    {
+      "text": "please, by all means, feel free.",
+      "start": 64.95,
+      "duration": 1.92
+    },
+    {
+      "text": "I certainly won't be offended.",
+      "start": 66.87,
+      "duration": 2.27
+    },
+    {
+      "text": "When transformers and large\nlanguage models were first",
+      "start": 69.14,
+      "duration": 2.79
+    },
+    {
+      "text": "coming onto the scene,\nthey were made specifically",
+      "start": 71.93,
+      "duration": 3.63
+    },
+    {
+      "text": "for processing text.",
+      "start": 75.56,
+      "duration": 1.87
+    },
+    {
+      "text": "Nowadays, many large\nlanguage models",
+      "start": 77.43,
+      "duration": 2.84
+    },
+    {
+      "text": "are what we call\nmulti-modal, meaning",
+      "start": 80.27,
+      "duration": 2.79
+    },
+    {
+      "text": "they can work with other modes\nof communication, including",
+      "start": 83.06,
+      "duration": 3.42
+    },
+    {
+      "text": "pictures, video, and audio.",
+      "start": 86.48,
+      "duration": 3.06
+    },
+    {
+      "text": "But how does a computer really\nknow what any words mean?",
+      "start": 89.54,
+      "duration": 4.63
+    },
+    {
+      "text": "It all comes down\nto embeddings, a way",
+      "start": 94.17,
+      "duration": 3.47
+    },
+    {
+      "text": "to turn human-understandable\nconcepts into numbers",
+      "start": 97.64,
+      "duration": 3.81
+    },
+    {
+      "text": "that the computer can\nprocess and interpret.",
+      "start": 101.45,
+      "duration": 4.05
+    },
+    {
+      "text": "Initially, the entire\nvocabulary that a language model",
+      "start": 105.5,
+      "duration": 3.63
+    },
+    {
+      "text": "is expected to see is placed\nsort of in random positions",
+      "start": 109.13,
+      "duration": 4.5
+    },
+    {
+      "text": "throughout what we might\nconsider a higher dimensional",
+      "start": 113.63,
+      "duration": 3.06
+    },
+    {
+      "text": "space.",
+      "start": 116.69,
+      "duration": 0.61
+    },
+    {
+      "text": "This is called the\nembedding space.",
+      "start": 117.3,
+      "duration": 2.37
+    },
+    {
+      "text": "Now, how many dimensions\nare we talking about?",
+      "start": 119.67,
+      "duration": 2.67
+    },
+    {
+      "text": "It might be hundreds or even\nthousands of dimensions.",
+      "start": 122.34,
+      "duration": 4.4
+    },
+    {
+      "text": "This allows the\nembedding to capture",
+      "start": 126.74,
+      "duration": 2.67
+    },
+    {
+      "text": "a lot of understanding and\nnuance about each and every term",
+      "start": 129.41,
+      "duration": 4.65
+    },
+    {
+      "text": "in its vocabulary.",
+      "start": 134.06,
+      "duration": 2.55
+    },
+    {
+      "text": "Then through the\ntraining process,",
+      "start": 136.61,
+      "duration": 2.52
+    },
+    {
+      "text": "involving looking at all of the\ntext in its training data set,",
+      "start": 139.13,
+      "duration": 3.79
+    },
+    {
+      "text": "these text embeddings\nare updated to reflect",
+      "start": 142.92,
+      "duration": 3.47
+    },
+    {
+      "text": "the meaning of the words\nand their relationships",
+      "start": 146.39,
+      "duration": 3.3
+    },
+    {
+      "text": "to one another.",
+      "start": 149.69,
+      "duration": 1.44
+    },
+    {
+      "text": "For instance, the\nword jump might",
+      "start": 151.13,
+      "duration": 2.79
+    },
+    {
+      "text": "be close to other physical\nactivities and exercises,",
+      "start": 153.92,
+      "duration": 3.58
+    },
+    {
+      "text": "and it might also, perhaps\nalong a different dimension,",
+      "start": 157.5,
+      "duration": 3.63
+    },
+    {
+      "text": "be close to terms about car\nrepair and jumping a car.",
+      "start": 161.13,
+      "duration": 5.13
+    },
+    {
+      "text": "The key takeaway here is that\nwhen machine learning models",
+      "start": 166.26,
+      "duration": 3.2
+    },
+    {
+      "text": "handle text these\ndays, they're typically",
+      "start": 169.46,
+      "duration": 2.76
+    },
+    {
+      "text": "looking at it through the\nlens of an embedding space",
+      "start": 172.22,
+      "duration": 3.64
+    },
+    {
+      "text": "rather than simply\nthe characters",
+      "start": 175.86,
+      "duration": 2.69
+    },
+    {
+      "text": "of a word that you and I see.",
+      "start": 178.55,
+      "duration": 2.9
+    },
+    {
+      "text": "If you want to learn\nmore about embeddings,",
+      "start": 181.45,
+      "duration": 2.26
+    },
+    {
+      "text": "there are some great\ndetailed explanations",
+      "start": 183.71,
+      "duration": 2.9
+    },
+    {
+      "text": "at the Machine Learning Crash\nCourse at developers.google.com.",
+      "start": 186.61,
+      "duration": 5.1
+    },
+    {
+      "text": "And if you want to access some\nexisting embeddings that already",
+      "start": 191.71,
+      "duration": 3.45
+    },
+    {
+      "text": "have a large vocabulary trained\nand ready for you to use,",
+      "start": 195.16,
+      "duration": 3.88
+    },
+    {
+      "text": "you can use text embeddings\nfrom Google Cloud.",
+      "start": 199.04,
+      "duration": 2.4
+    },
+    {
+      "text": "It even has multilingual\nembedding models.",
+      "start": 201.44,
+      "duration": 3.47
+    },
+    {
+      "text": "Now let's turn our attention\nto the real reason you're here,",
+      "start": 204.91,
+      "duration": 3.51
+    },
+    {
+      "text": "transformers.",
+      "start": 208.42,
+      "duration": 1.65
+    },
+    {
+      "text": "Depending on who you ask, it\nall started back in 2017 with",
+      "start": 210.07,
+      "duration": 4.11
+    },
+    {
+      "text": "the research paper famously\ntitled \"Attention is All You",
+      "start": 214.18,
+      "duration": 3.96
+    },
+    {
+      "text": "Need,\" from Google Brain.",
+      "start": 218.14,
+      "duration": 2.14
+    },
+    {
+      "text": "The concepts presented\nin this paper lie",
+      "start": 220.28,
+      "duration": 2.81
+    },
+    {
+      "text": "at the very heart of large\nlanguage models today,",
+      "start": 223.09,
+      "duration": 3.13
+    },
+    {
+      "text": "and it led to further\nresearch of variations",
+      "start": 226.22,
+      "duration": 3.14
+    },
+    {
+      "text": "on the original\nideas, many of which",
+      "start": 229.36,
+      "duration": 2.19
+    },
+    {
+      "text": "are still being developed\nand explored to this day.",
+      "start": 231.55,
+      "duration": 4.62
+    },
+    {
+      "text": "You can read the\npaper if you'd like.",
+      "start": 236.17,
+      "duration": 1.6
+    },
+    {
+      "text": "It's quite well-written.",
+      "start": 237.77,
+      "duration": 1.85
+    },
+    {
+      "text": "In this video, we'll\ngo over some highlights",
+      "start": 239.62,
+      "duration": 2.1
+    },
+    {
+      "text": "so we can better understand\nwhat we'll be doing in the code.",
+      "start": 241.72,
+      "duration": 4.2
+    },
+    {
+      "text": "The transformer architecture\nfocuses on a novel operation",
+      "start": 245.92,
+      "duration": 3.6
+    },
+    {
+      "text": "called attention, hence\nthe title of the paper,",
+      "start": 249.52,
+      "duration": 3.67
+    },
+    {
+      "text": "coupling it with a number\nof other operations",
+      "start": 253.19,
+      "duration": 2.66
+    },
+    {
+      "text": "that were commonplace among\nmachine learning models",
+      "start": 255.85,
+      "duration": 3.239
+    },
+    {
+      "text": "at the time.",
+      "start": 259.089,
+      "duration": 0.99
+    },
+    {
+      "text": "Let's dig into this further.",
+      "start": 260.079,
+      "duration": 3.001
+    },
+    {
+      "text": "The task that the\nresearchers were",
+      "start": 263.08,
+      "duration": 1.86
+    },
+    {
+      "text": "able to figure\nout with attention",
+      "start": 264.94,
+      "duration": 1.92
+    },
+    {
+      "text": "was a way to numerically\ncalculate and describe",
+      "start": 266.86,
+      "duration": 3.54
+    },
+    {
+      "text": "the relationship between\nwords in the context",
+      "start": 270.4,
+      "duration": 3.39
+    },
+    {
+      "text": "that they were being used.",
+      "start": 273.79,
+      "duration": 1.84
+    },
+    {
+      "text": "Moreover, it allowed\nthe words themselves",
+      "start": 275.63,
+      "duration": 2.96
+    },
+    {
+      "text": "to be that guide as\nto the relationships",
+      "start": 278.59,
+      "duration": 3.45
+    },
+    {
+      "text": "amongst each other.",
+      "start": 282.04,
+      "duration": 1.68
+    },
+    {
+      "text": "The inputs to attention\nwere three vectors",
+      "start": 283.72,
+      "duration": 2.79
+    },
+    {
+      "text": "called query, key, and\nvalue, typically referred",
+      "start": 286.51,
+      "duration": 4.32
+    },
+    {
+      "text": "to as Q, K and V.",
+      "start": 290.83,
+      "duration": 2.702
+    },
+    {
+      "text": "You can think of the query\nvector as describing,",
+      "start": 293.532,
+      "duration": 3.388
+    },
+    {
+      "text": "for each word in a sentence\nor phrase, what other words it",
+      "start": 296.92,
+      "duration": 4.71
+    },
+    {
+      "text": "cares about.",
+      "start": 301.63,
+      "duration": 1.06
+    },
+    {
+      "text": "What is it looking for?",
+      "start": 302.69,
+      "duration": 2.15
+    },
+    {
+      "text": "The key vector is\na way to represent",
+      "start": 304.84,
+      "duration": 3.21
+    },
+    {
+      "text": "what a word wants to present\nabout itself in response",
+      "start": 308.05,
+      "duration": 4.23
+    },
+    {
+      "text": "to those other queries.",
+      "start": 312.28,
+      "duration": 2.31
+    },
+    {
+      "text": "And the value vector encodes\nwhat it kind of offers",
+      "start": 314.59,
+      "duration": 4.02
+    },
+    {
+      "text": "in the event of a good match.",
+      "start": 318.61,
+      "duration": 3.27
+    },
+    {
+      "text": "Another way to\ndescribe it is perhaps",
+      "start": 321.88,
+      "duration": 2.7
+    },
+    {
+      "text": "with a handshake, along\nwith a gift exchange.",
+      "start": 324.58,
+      "duration": 4.0
+    },
+    {
+      "text": "The query is someone\nreaching out their hand,",
+      "start": 328.58,
+      "duration": 3.35
+    },
+    {
+      "text": "and the key is the other\nhand coming out to meet it.",
+      "start": 331.93,
+      "duration": 4.15
+    },
+    {
+      "text": "And if they\nsuccessfully match up,",
+      "start": 336.08,
+      "duration": 2.4
+    },
+    {
+      "text": "then the value is what\nis then handed over",
+      "start": 338.48,
+      "duration": 2.97
+    },
+    {
+      "text": "if a handshake is established.",
+      "start": 341.45,
+      "duration": 3.223
+    },
+    {
+      "text": "There are a couple\nof other things",
+      "start": 344.673,
+      "duration": 1.417
+    },
+    {
+      "text": "we see here in the\nattention formula",
+      "start": 346.09,
+      "duration": 2.02
+    },
+    {
+      "text": "aside from Q, K, and V. First,\nthere is the softmax function.",
+      "start": 348.11,
+      "duration": 5.72
+    },
+    {
+      "text": "What is softmax?",
+      "start": 353.83,
+      "duration": 1.81
+    },
+    {
+      "text": "Softmax normalizes the\nvalues coming out of Q.K,",
+      "start": 355.64,
+      "duration": 4.98
+    },
+    {
+      "text": "ensuring that they all\nsum to 1, and shows us",
+      "start": 360.62,
+      "duration": 3.77
+    },
+    {
+      "text": "which values are the highest.",
+      "start": 364.39,
+      "duration": 2.47
+    },
+    {
+      "text": "So if one value is minorly\nlarger than the others,",
+      "start": 366.86,
+      "duration": 5.01
+    },
+    {
+      "text": "it might end up\nwith a value of 0.8,",
+      "start": 371.87,
+      "duration": 2.22
+    },
+    {
+      "text": "while the rest sum up to 0.2.",
+      "start": 374.09,
+      "duration": 2.52
+    },
+    {
+      "text": "So it all comes together as 1.",
+      "start": 376.61,
+      "duration": 2.3
+    },
+    {
+      "text": "If the two biggest values\nare both about the same,",
+      "start": 378.91,
+      "duration": 3.39
+    },
+    {
+      "text": "it's like a tie for first,\nthey might each have, say,",
+      "start": 382.3,
+      "duration": 3.61
+    },
+    {
+      "text": "a value of 0.4, while the rest\nof the values sum up to 0.2.",
+      "start": 385.91,
+      "duration": 5.57
+    },
+    {
+      "text": "Second, we see\nthat Q.K is divided",
+      "start": 391.48,
+      "duration": 2.97
+    },
+    {
+      "text": "by the square root\nof D. D here refers",
+      "start": 394.45,
+      "duration": 4.44
+    },
+    {
+      "text": "to the embedding dimension\nused in our text embedding.",
+      "start": 398.89,
+      "duration": 3.88
+    },
+    {
+      "text": "So if we had an embedding\ndimension of, say, 64,",
+      "start": 402.77,
+      "duration": 3.81
+    },
+    {
+      "text": "we'll divide the entire\ndot product by 8.",
+      "start": 406.58,
+      "duration": 3.27
+    },
+    {
+      "text": "Why are we doing this?",
+      "start": 409.85,
+      "duration": 1.82
+    },
+    {
+      "text": "The reason is to scale\ndown the value that",
+      "start": 411.67,
+      "duration": 3.33
+    },
+    {
+      "text": "gets passed into softmax.",
+      "start": 415.0,
+      "duration": 2.73
+    },
+    {
+      "text": "Even though softmax is going to\nnormalize our values regardless,",
+      "start": 417.73,
+      "duration": 4.25
+    },
+    {
+      "text": "the way that it\ncomputes this means",
+      "start": 421.98,
+      "duration": 2.46
+    },
+    {
+      "text": "that the higher the absolute\nvalue of all the terms are,",
+      "start": 424.44,
+      "duration": 4.51
+    },
+    {
+      "text": "the more those resulting\ndecimals get pulled to extremes.",
+      "start": 428.95,
+      "duration": 5.28
+    },
+    {
+      "text": "So instead of having values\nthat are small and have",
+      "start": 434.23,
+      "duration": 3.8
+    },
+    {
+      "text": "kind of small differences, it\nmight select the largest one,",
+      "start": 438.03,
+      "duration": 3.34
+    },
+    {
+      "text": "even if it's only\nlarger by a little bit,",
+      "start": 441.37,
+      "duration": 3.05
+    },
+    {
+      "text": "and just make it way bigger.",
+      "start": 444.42,
+      "duration": 2.41
+    },
+    {
+      "text": "In other words, it makes the\ndistribution sharper or peakier.",
+      "start": 446.83,
+      "duration": 6.56
+    },
+    {
+      "text": "All of this comes\ntogether to make",
+      "start": 453.39,
+      "duration": 2.01
+    },
+    {
+      "text": "what is called scaled\ndot-product attention.",
+      "start": 455.4,
+      "duration": 4.62
+    },
+    {
+      "text": "The bottom diagram uses\nthis and scales it up.",
+      "start": 460.02,
+      "duration": 3.9
+    },
+    {
+      "text": "So when we talk about\nmulti-headed attention,",
+      "start": 463.92,
+      "duration": 3.55
+    },
+    {
+      "text": "it's referring to multiple\nparallel implementations",
+      "start": 467.47,
+      "duration": 3.47
+    },
+    {
+      "text": "of attention, all happening\nindependently from one another.",
+      "start": 470.94,
+      "duration": 5.4
+    },
+    {
+      "text": "This allows the model to\nattend to different aspects",
+      "start": 476.34,
+      "duration": 3.78
+    },
+    {
+      "text": "of the relationships\nin the data.",
+      "start": 480.12,
+      "duration": 3.12
+    },
+    {
+      "text": "There's clearly a lot\nhappening here in this diagram,",
+      "start": 483.24,
+      "duration": 2.71
+    },
+    {
+      "text": "and I cannot hope to explain\nit all in this video alone.",
+      "start": 485.95,
+      "duration": 3.24
+    },
+    {
+      "text": "Otherwise, we'll never\nget to the workshop part.",
+      "start": 489.19,
+      "duration": 3.47
+    },
+    {
+      "text": "A couple of particularly\ngood resources",
+      "start": 492.66,
+      "duration": 2.22
+    },
+    {
+      "text": "are out there, which discuss\nthe transformer in great detail.",
+      "start": 494.88,
+      "duration": 4.71
+    },
+    {
+      "text": "One is called \"The\nIllustrated Transformer,\"",
+      "start": 499.59,
+      "duration": 3.25
+    },
+    {
+      "text": "which goes through each\noperation in the transformer",
+      "start": 502.84,
+      "duration": 3.2
+    },
+    {
+      "text": "with fantastic\nanimated graphics.",
+      "start": 506.04,
+      "duration": 3.28
+    },
+    {
+      "text": "Once you've gone through\nthat and finished this video,",
+      "start": 509.32,
+      "duration": 3.27
+    },
+    {
+      "text": "you'll be really well set up\nto understand chapter four",
+      "start": 512.59,
+      "duration": 3.77
+    },
+    {
+      "text": "of the free book titled,\n\"How to Scale Your Model,\"",
+      "start": 516.36,
+      "duration": 2.819
+    },
+    {
+      "text": "from DeepMind.",
+      "start": 519.179,
+      "duration": 1.321
+    },
+    {
+      "text": "That chapter is titled \"All\nthe Transformer Math You Need",
+      "start": 520.5,
+      "duration": 4.02
+    },
+    {
+      "text": "To Know,\" and will help you\nbetter understand how all this",
+      "start": 524.52,
+      "duration": 3.18
+    },
+    {
+      "text": "code, numbers, and data work\ntogether with the incredible",
+      "start": 527.7,
+      "duration": 3.9
+    },
+    {
+      "text": "infrastructure used\nto train these models.",
+      "start": 531.6,
+      "duration": 2.97
+    },
+    {
+      "text": "We'll definitely be sure to put\nthese links in the resources",
+      "start": 534.57,
+      "duration": 3.48
+    },
+    {
+      "text": "below.",
+      "start": 538.05,
+      "duration": 1.44
+    },
+    {
+      "text": "But wait, there is more.",
+      "start": 539.49,
+      "duration": 2.32
+    },
+    {
+      "text": "The whole transformer\nmodel, well, that's a lot",
+      "start": 541.81,
+      "duration": 3.56
+    },
+    {
+      "text": "more than just attention alone.",
+      "start": 545.37,
+      "duration": 2.4
+    },
+    {
+      "text": "For modern large\nlanguage models,",
+      "start": 547.77,
+      "duration": 2.59
+    },
+    {
+      "text": "we'll mostly focus solely on\nthe right half of this diagram",
+      "start": 550.36,
+      "duration": 3.5
+    },
+    {
+      "text": "and use it as a guide\nas we build our model.",
+      "start": 553.86,
+      "duration": 3.46
+    },
+    {
+      "text": "And so we'll come back to this\ndiagram throughout this video",
+      "start": 557.32,
+      "duration": 2.66
+    },
+    {
+      "text": "to reference what pieces\nwe need to implement next.",
+      "start": 559.98,
+      "duration": 4.47
+    },
+    {
+      "text": "Each of these lines shows\nhow data is flowing.",
+      "start": 564.45,
+      "duration": 3.73
+    },
+    {
+      "text": "You'll notice that some\nof the arrows branch off",
+      "start": 568.18,
+      "duration": 2.93
+    },
+    {
+      "text": "and bypass certain blocks.",
+      "start": 571.11,
+      "duration": 2.46
+    },
+    {
+      "text": "This allows data\nfrom prior to a block",
+      "start": 573.57,
+      "duration": 2.76
+    },
+    {
+      "text": "to be combined with\ndata after it's",
+      "start": 576.33,
+      "duration": 2.76
+    },
+    {
+      "text": "been transformed in some way.",
+      "start": 579.09,
+      "duration": 2.16
+    },
+    {
+      "text": "These so-called skip connections\nhelp the model stay on track",
+      "start": 581.25,
+      "duration": 5.28
+    },
+    {
+      "text": "as it trains, and is\nespecially important",
+      "start": 586.53,
+      "duration": 2.85
+    },
+    {
+      "text": "in the early stages\nof the training",
+      "start": 589.38,
+      "duration": 1.92
+    },
+    {
+      "text": "process for these large models.",
+      "start": 591.3,
+      "duration": 3.72
+    },
+    {
+      "text": "You'll also notice that\nthe far right side says Nx.",
+      "start": 595.02,
+      "duration": 4.72
+    },
+    {
+      "text": "This is referring to the gray\nblock being repeated n times.",
+      "start": 599.74,
+      "duration": 4.55
+    },
+    {
+      "text": "And when you zoom\nout to this level,",
+      "start": 604.29,
+      "duration": 1.84
+    },
+    {
+      "text": "the transformer model is\nactually quite repetitive.",
+      "start": 606.13,
+      "duration": 3.18
+    },
+    {
+      "text": "So if you were to draw\nout all those repeated",
+      "start": 609.31,
+      "duration": 2.54
+    },
+    {
+      "text": "blocks in the middle n times,\nthey'd make up most of the model",
+      "start": 611.85,
+      "duration": 4.11
+    },
+    {
+      "text": "with just a little bit at\nthe start and a little bit",
+      "start": 615.96,
+      "duration": 3.03
+    },
+    {
+      "text": "at the end that is different.",
+      "start": 618.99,
+      "duration": 3.43
+    },
+    {
+      "text": "So that's all we'll say\nfor now about theory.",
+      "start": 622.42,
+      "duration": 2.55
+    },
+    {
+      "text": "Let's get working\non the actual code.",
+      "start": 624.97,
+      "duration": 1.855
+    },
+    {
+      "text": "There's a link in\nthe description",
+      "start": 626.825,
+      "duration": 1.375
+    },
+    {
+      "text": "below to the notebook\nthat I'll be working from.",
+      "start": 628.2,
+      "duration": 2.23
+    },
+    {
+      "text": "So if you want to go ahead and\nfollow along, click on that link",
+      "start": 630.43,
+      "duration": 3.83
+    },
+    {
+      "text": "and open it up.",
+      "start": 634.26,
+      "duration": 1.71
+    },
+    {
+      "text": "The notebook can be run\nin Kaggle or in Colab.",
+      "start": 635.97,
+      "duration": 3.31
+    },
+    {
+      "text": "The only difference will be in\nwhat accelerators you can use",
+      "start": 639.28,
+      "duration": 3.29
+    },
+    {
+      "text": "and how the data set\nwill be downloaded.",
+      "start": 642.57,
+      "duration": 2.32
+    },
+    {
+      "text": "Otherwise, it will be identical.",
+      "start": 644.89,
+      "duration": 1.95
+    },
+    {
+      "text": "So choose whichever\nplatform you prefer.",
+      "start": 646.84,
+      "duration": 2.81
+    },
+    {
+      "text": "Once you open up the\nnotebook, click Copy and Edit",
+      "start": 649.65,
+      "duration": 2.88
+    },
+    {
+      "text": "so you can have your own\ncopy to follow along,",
+      "start": 652.53,
+      "duration": 2.49
+    },
+    {
+      "text": "if you want to run the\ncells, make some tweaks,",
+      "start": 655.02,
+      "duration": 2.34
+    },
+    {
+      "text": "try things out for yourself.",
+      "start": 657.36,
+      "duration": 1.57
+    },
+    {
+      "text": "The first few cells focus on\nsetup, import, and data loading,",
+      "start": 658.93,
+      "duration": 4.29
+    },
+    {
+      "text": "so go ahead and run those\nto get things started.",
+      "start": 663.22,
+      "duration": 3.23
+    },
+    {
+      "text": "I want to note that in\nKaggle, the data sets",
+      "start": 666.45,
+      "duration": 2.34
+    },
+    {
+      "text": "associated with the notebook are\nbeing loaded in the background",
+      "start": 668.79,
+      "duration": 3.03
+    },
+    {
+      "text": "while the notebook\nis starting up.",
+      "start": 671.82,
+      "duration": 1.84
+    },
+    {
+      "text": "So you might need\nto pause this video",
+      "start": 673.66,
+      "duration": 2.81
+    },
+    {
+      "text": "to let that finish, as\ndownloading the data set,",
+      "start": 676.47,
+      "duration": 3.39
+    },
+    {
+      "text": "called OpenWebText here,\nwill take some time, as it's",
+      "start": 679.86,
+      "duration": 3.24
+    },
+    {
+      "text": "over 16 gigabytes and contains\nnearly 70 million text files.",
+      "start": 683.1,
+      "duration": 5.61
+    },
+    {
+      "text": "OpenWebText is a data set that\naims to replicate the data set",
+      "start": 688.71,
+      "duration": 4.5
+    },
+    {
+      "text": "that was used to train GPT-2.",
+      "start": 693.21,
+      "duration": 4.03
+    },
+    {
+      "text": "The original data\nset was not released,",
+      "start": 697.24,
+      "duration": 2.43
+    },
+    {
+      "text": "so OpenWebText is the best\napproximation that we have.",
+      "start": 699.67,
+      "duration": 4.58
+    },
+    {
+      "text": "On the Colab side\nof things, you'll",
+      "start": 704.25,
+      "duration": 1.89
+    },
+    {
+      "text": "need to do a bit\nmore manual work",
+      "start": 706.14,
+      "duration": 1.74
+    },
+    {
+      "text": "to get this data set situated.",
+      "start": 707.88,
+      "duration": 2.55
+    },
+    {
+      "text": "Scroll down to the section\ntitled Prepare Data,",
+      "start": 710.43,
+      "duration": 3.61
+    },
+    {
+      "text": "so you can see how\nthe notebook is",
+      "start": 714.04,
+      "duration": 1.58
+    },
+    {
+      "text": "being loaded from Google Drive.",
+      "start": 715.62,
+      "duration": 2.69
+    },
+    {
+      "text": "My recommendation is to\ndownload the OpenWebText",
+      "start": 718.31,
+      "duration": 3.87
+    },
+    {
+      "text": "zip file from the website\nwhere it's hosted.",
+      "start": 722.18,
+      "duration": 2.68
+    },
+    {
+      "text": "That's 12 gigabytes.",
+      "start": 724.86,
+      "duration": 1.56
+    },
+    {
+      "text": "And then you can unzip it\ninto its 18-gigabyte form.",
+      "start": 726.42,
+      "duration": 4.2
+    },
+    {
+      "text": "So that's-- add them\ntogether, carry the 1--",
+      "start": 730.62,
+      "duration": 3.5
+    },
+    {
+      "text": "at least 30 gigabytes\ntotal of empty space",
+      "start": 734.12,
+      "duration": 3.15
+    },
+    {
+      "text": "that you'll need\non your local disk.",
+      "start": 737.27,
+      "duration": 3.39
+    },
+    {
+      "text": "Then you can upload the two\nfiles, train.bin and val.bin,",
+      "start": 740.66,
+      "duration": 4.26
+    },
+    {
+      "text": "up to Google Drive, where\nColab can then read it.",
+      "start": 744.92,
+      "duration": 4.22
+    },
+    {
+      "text": "This way, you won't need to\ndownload it every single time",
+      "start": 749.14,
+      "duration": 3.07
+    },
+    {
+      "text": "you run the notebook.",
+      "start": 752.21,
+      "duration": 2.85
+    },
+    {
+      "text": "The notebook defaults\nto reading from",
+      "start": 755.06,
+      "duration": 2.07
+    },
+    {
+      "text": "the LLM-pre-training/OpenWebText\ndirectory,",
+      "start": 757.13,
+      "duration": 4.93
+    },
+    {
+      "text": "but you're welcome to change\nthat to point to wherever you",
+      "start": 762.06,
+      "duration": 2.9
+    },
+    {
+      "text": "end up saving those files.",
+      "start": 764.96,
+      "duration": 2.67
+    },
+    {
+      "text": "One final setup\nstep that we'll do",
+      "start": 767.63,
+      "duration": 2.1
+    },
+    {
+      "text": "so that we can more easily\nmonitor our training run",
+      "start": 769.73,
+      "duration": 3.16
+    },
+    {
+      "text": "is connect the notebook\nwith Weights & Biases.",
+      "start": 772.89,
+      "duration": 3.15
+    },
+    {
+      "text": "Go ahead and create\na free account there,",
+      "start": 776.04,
+      "duration": 2.0
+    },
+    {
+      "text": "and retrieve your API key,\nwhich you can do directly",
+      "start": 778.04,
+      "duration": 3.57
+    },
+    {
+      "text": "at wandb.ai/authorize.",
+      "start": 781.61,
+      "duration": 3.88
+    },
+    {
+      "text": "Add that key to the Secrets\nsection of your notebook.",
+      "start": 785.49,
+      "duration": 4.04
+    },
+    {
+      "text": "Now, you are ready\nto train our model.",
+      "start": 789.53,
+      "duration": 4.51
+    },
+    {
+      "text": "Back to JAX.",
+      "start": 794.04,
+      "duration": 1.52
+    },
+    {
+      "text": "When we run jax.devices,\nwe can see what devices",
+      "start": 795.56,
+      "duration": 4.44
+    },
+    {
+      "text": "JAX can see, in particular, when\nit comes to what accelerators",
+      "start": 800.0,
+      "duration": 4.2
+    },
+    {
+      "text": "are available.",
+      "start": 804.2,
+      "duration": 1.35
+    },
+    {
+      "text": "Now, if you're on Kaggle,\nyou'll have eight TPU v3 chips,",
+      "start": 805.55,
+      "duration": 5.41
+    },
+    {
+      "text": "while on Colab, you'll\nhave eight TPU v2 chips.",
+      "start": 810.96,
+      "duration": 5.24
+    },
+    {
+      "text": "Next, we're going to set\nup the device mesh, which",
+      "start": 816.2,
+      "duration": 3.54
+    },
+    {
+      "text": "will allow us to distribute\nour data set and our model",
+      "start": 819.74,
+      "duration": 3.6
+    },
+    {
+      "text": "across these devices that\nwe have available to us.",
+      "start": 823.34,
+      "duration": 3.76
+    },
+    {
+      "text": "In this case, we'll\nsplit up our data",
+      "start": 827.1,
+      "duration": 2.72
+    },
+    {
+      "text": "eight ways across\neight chips, keeping",
+      "start": 829.82,
+      "duration": 3.21
+    },
+    {
+      "text": "a full copy of the model\non every single chip.",
+      "start": 833.03,
+      "duration": 3.31
+    },
+    {
+      "text": "This is sometimes referred\nto as data parallelism,",
+      "start": 836.34,
+      "duration": 3.66
+    },
+    {
+      "text": "since the data is being\nsplit up and processed",
+      "start": 840.0,
+      "duration": 2.87
+    },
+    {
+      "text": "in parallel while the model\nremains whole and undivided.",
+      "start": 842.87,
+      "duration": 4.62
+    },
+    {
+      "text": "There are other\nways to split up,",
+      "start": 847.49,
+      "duration": 1.77
+    },
+    {
+      "text": "or shard, our data and model.",
+      "start": 849.26,
+      "duration": 2.79
+    },
+    {
+      "text": "For example, you\nmight split the data",
+      "start": 852.05,
+      "duration": 2.22
+    },
+    {
+      "text": "up four ways instead\nof eight, and then",
+      "start": 854.27,
+      "duration": 3.03
+    },
+    {
+      "text": "split the model in half\nso that each copy is",
+      "start": 857.3,
+      "duration": 3.81
+    },
+    {
+      "text": "distributed across two chips.",
+      "start": 861.11,
+      "duration": 2.62
+    },
+    {
+      "text": "Think of it as a 4\nby 2 grid, or mesh,",
+      "start": 863.73,
+      "duration": 3.89
+    },
+    {
+      "text": "that contains four\npairs of model halves,",
+      "start": 867.62,
+      "duration": 4.8
+    },
+    {
+      "text": "and then two copies of each\nbatch of data split four ways.",
+      "start": 872.42,
+      "duration": 7.02
+    },
+    {
+      "text": "Since we're aiming to\nsimulate the results of GPT-2,",
+      "start": 879.44,
+      "duration": 3.97
+    },
+    {
+      "text": "our code uses the embeddings\nreleased with the GPT-2 model.",
+      "start": 883.41,
+      "duration": 4.38
+    },
+    {
+      "text": "We'll retrieve them using\nthe tiktoken library.",
+      "start": 887.79,
+      "duration": 2.785
+    },
+    {
+      "text": "The next cell sets\nus up with a number",
+      "start": 893.18,
+      "duration": 2.22
+    },
+    {
+      "text": "of hyperparameters, which\ndefine how our training",
+      "start": 895.4,
+      "duration": 2.55
+    },
+    {
+      "text": "run will be set up.",
+      "start": 897.95,
+      "duration": 1.48
+    },
+    {
+      "text": "These numbers are focused around\nhow best to utilize the hardware",
+      "start": 899.43,
+      "duration": 3.53
+    },
+    {
+      "text": "that we're training on.",
+      "start": 902.96,
+      "duration": 1.71
+    },
+    {
+      "text": "We'll be using the GPT-2\nbranch of the code,",
+      "start": 904.67,
+      "duration": 3.22
+    },
+    {
+      "text": "with a batch size of 24\non Colab and 72 on Kaggle.",
+      "start": 907.89,
+      "duration": 4.5
+    },
+    {
+      "text": "This illustrates the difference,\nin part, between TPU v2 and v3.",
+      "start": 912.39,
+      "duration": 5.52
+    },
+    {
+      "text": "We can achieve a\nbatch size that's",
+      "start": 917.91,
+      "duration": 1.94
+    },
+    {
+      "text": "three times larger with TPU v3.",
+      "start": 919.85,
+      "duration": 3.93
+    },
+    {
+      "text": "Now let's check out the model\nstructure of the transformer.",
+      "start": 923.78,
+      "duration": 4.32
+    },
+    {
+      "text": "We'll see how to use the\nNNX library, which stands",
+      "start": 928.1,
+      "duration": 3.36
+    },
+    {
+      "text": "for Neural Networks for JAX.",
+      "start": 931.46,
+      "duration": 3.21
+    },
+    {
+      "text": "And let's start from the top\nlevel, model construction",
+      "start": 934.67,
+      "duration": 3.06
+    },
+    {
+      "text": "function, the class called\nGPT-2, and then dive",
+      "start": 937.73,
+      "duration": 3.93
+    },
+    {
+      "text": "into various function\nimplementations from there.",
+      "start": 941.66,
+      "duration": 2.98
+    },
+    {
+      "text": "So go ahead and scroll down to\nthe bottom of that big cell that",
+      "start": 944.64,
+      "duration": 3.53
+    },
+    {
+      "text": "defines our model architecture.",
+      "start": 948.17,
+      "duration": 2.91
+    },
+    {
+      "text": "This class is how\nwe bring together",
+      "start": 951.08,
+      "duration": 2.46
+    },
+    {
+      "text": "all the pieces of our model\ndefinition at the end,",
+      "start": 953.54,
+      "duration": 2.68
+    },
+    {
+      "text": "and shows us the highest\nlevel abstractions",
+      "start": 956.22,
+      "duration": 2.48
+    },
+    {
+      "text": "of our architecture.",
+      "start": 958.7,
+      "duration": 1.83
+    },
+    {
+      "text": "At this view, we really\njust have the layers",
+      "start": 960.53,
+      "duration": 3.57
+    },
+    {
+      "text": "that are surrounding the\ntransformer blocks, specifically",
+      "start": 964.1,
+      "duration": 3.93
+    },
+    {
+      "text": "the layers that come at\nthe beginning and the end,",
+      "start": 968.03,
+      "duration": 2.34
+    },
+    {
+      "text": "as everything else\nis being taken",
+      "start": 970.37,
+      "duration": 1.77
+    },
+    {
+      "text": "care of inside the\ntransformer block.",
+      "start": 972.14,
+      "duration": 3.69
+    },
+    {
+      "text": "At the top of the model\nis the embedding_layer,",
+      "start": 975.83,
+      "duration": 2.68
+    },
+    {
+      "text": "which we'll define\nin detail above,",
+      "start": 978.51,
+      "duration": 2.57
+    },
+    {
+      "text": "followed by a dropout\nlayer going straight",
+      "start": 981.08,
+      "duration": 2.55
+    },
+    {
+      "text": "into those transformer blocks.",
+      "start": 983.63,
+      "duration": 2.16
+    },
+    {
+      "text": "The number of blocks we have is\nactually configurable from those",
+      "start": 985.79,
+      "duration": 3.15
+    },
+    {
+      "text": "hyperparameters at the\ntop of the notebook.",
+      "start": 988.94,
+      "duration": 2.43
+    },
+    {
+      "text": "So this easily allows\nus to scale the model",
+      "start": 991.37,
+      "duration": 3.18
+    },
+    {
+      "text": "up and down in size based on\nhow big our infrastructure is",
+      "start": 994.55,
+      "duration": 3.69
+    },
+    {
+      "text": "and how big we want\nthe model to be.",
+      "start": 998.24,
+      "duration": 2.26
+    },
+    {
+      "text": "For example, the\nGPT medium model",
+      "start": 1000.5,
+      "duration": 3.11
+    },
+    {
+      "text": "has twice as many transformer\nblocks as this one,",
+      "start": 1003.61,
+      "duration": 2.83
+    },
+    {
+      "text": "going from 12 to 24.",
+      "start": 1006.44,
+      "duration": 3.41
+    },
+    {
+      "text": "On the other end\nof the transformer",
+      "start": 1009.85,
+      "duration": 1.5
+    },
+    {
+      "text": "blocks is a layer norm, which\nhelps normalize the output",
+      "start": 1011.35,
+      "duration": 3.6
+    },
+    {
+      "text": "weights, followed by\na final linear layer",
+      "start": 1014.95,
+      "duration": 2.75
+    },
+    {
+      "text": "before the output of the model.",
+      "start": 1017.7,
+      "duration": 2.31
+    },
+    {
+      "text": "Scrolling up to the next\nclass, what do we have here",
+      "start": 1020.01,
+      "duration": 3.03
+    },
+    {
+      "text": "is the\nTokenAndPositionEmbedding class.",
+      "start": 1023.04,
+      "duration": 3.43
+    },
+    {
+      "text": "This one is fairly\nshort, and all",
+      "start": 1026.47,
+      "duration": 2.54
+    },
+    {
+      "text": "it really does is put\ntogether the embeddings",
+      "start": 1029.01,
+      "duration": 2.13
+    },
+    {
+      "text": "of the text, along with\nthe position of the words.",
+      "start": 1031.14,
+      "duration": 4.59
+    },
+    {
+      "text": "As we briefly touched on in the\nfirst section of this video,",
+      "start": 1035.73,
+      "duration": 3.52
+    },
+    {
+      "text": "part of what makes\nattention special",
+      "start": 1039.25,
+      "duration": 2.3
+    },
+    {
+      "text": "is that it not only\nunderstands what words",
+      "start": 1041.55,
+      "duration": 2.61
+    },
+    {
+      "text": "mean, but also where words are.",
+      "start": 1044.16,
+      "duration": 3.88
+    },
+    {
+      "text": "Notice that each\nof these classes",
+      "start": 1048.04,
+      "duration": 1.94
+    },
+    {
+      "text": "inherits from the nnx.Module,\nand has an init method",
+      "start": 1049.98,
+      "duration": 4.17
+    },
+    {
+      "text": "and a call method.",
+      "start": 1054.15,
+      "duration": 1.78
+    },
+    {
+      "text": "The call method is where\nwe really wire together",
+      "start": 1055.93,
+      "duration": 3.17
+    },
+    {
+      "text": "those class attributes that are\ndefined in the init function.",
+      "start": 1059.1,
+      "duration": 4.83
+    },
+    {
+      "text": "So in this call function, we\nset up the position data, which",
+      "start": 1063.93,
+      "duration": 3.33
+    },
+    {
+      "text": "is really, literally, a\nlist of increasing numbers,",
+      "start": 1067.26,
+      "duration": 3.45
+    },
+    {
+      "text": "like 0, 1, 2, 3, and pass them\ninto the position embedding",
+      "start": 1070.71,
+      "duration": 5.22
+    },
+    {
+      "text": "that we set up in\nthe initialization,",
+      "start": 1075.93,
+      "duration": 2.58
+    },
+    {
+      "text": "and then we pass the input text\nthrough the token embedding",
+      "start": 1078.51,
+      "duration": 3.42
+    },
+    {
+      "text": "that we created during\nthe init, and then",
+      "start": 1081.93,
+      "duration": 2.43
+    },
+    {
+      "text": "we just literally just\nadd them together.",
+      "start": 1084.36,
+      "duration": 3.09
+    },
+    {
+      "text": "The next class we see\nas we scroll on up",
+      "start": 1087.45,
+      "duration": 2.52
+    },
+    {
+      "text": "is our transformer block.",
+      "start": 1089.97,
+      "duration": 2.41
+    },
+    {
+      "text": "This block contains the\ndetails of everything",
+      "start": 1092.38,
+      "duration": 2.69
+    },
+    {
+      "text": "in the gray box from\npart one of the video,",
+      "start": 1095.07,
+      "duration": 2.56
+    },
+    {
+      "text": "with multi-headed\nattention at its core,",
+      "start": 1097.63,
+      "duration": 2.58
+    },
+    {
+      "text": "wrapped in a couple of layered\nnorms and linear layers.",
+      "start": 1100.21,
+      "duration": 4.91
+    },
+    {
+      "text": "Similar to the token and\nposition embedding class,",
+      "start": 1105.12,
+      "duration": 3.04
+    },
+    {
+      "text": "here there's an initialization\nand a call method.",
+      "start": 1108.16,
+      "duration": 4.13
+    },
+    {
+      "text": "The init method lists out the\nvarious layers we'll be using,",
+      "start": 1112.29,
+      "duration": 3.49
+    },
+    {
+      "text": "but the call method is\nwhere attention is really",
+      "start": 1115.78,
+      "duration": 2.99
+    },
+    {
+      "text": "put together.",
+      "start": 1118.77,
+      "duration": 1.65
+    },
+    {
+      "text": "We see that first it creates\na multi-headed attention",
+      "start": 1120.42,
+      "duration": 3.42
+    },
+    {
+      "text": "block, passing in the first\nlayer norm as part of the input.",
+      "start": 1123.84,
+      "duration": 5.25
+    },
+    {
+      "text": "Then it adds a dropout, but\nalso adds in the original inputs",
+      "start": 1129.09,
+      "duration": 5.31
+    },
+    {
+      "text": "here, whose values have\nnot been then passed",
+      "start": 1134.4,
+      "duration": 2.79
+    },
+    {
+      "text": "through attention at all.",
+      "start": 1137.19,
+      "duration": 1.59
+    },
+    {
+      "text": "This is how those\nskip connections",
+      "start": 1138.78,
+      "duration": 2.61
+    },
+    {
+      "text": "we talked about are\ncreated in code.",
+      "start": 1141.39,
+      "duration": 3.99
+    },
+    {
+      "text": "Then we have the\nsecond layer norm,",
+      "start": 1145.38,
+      "duration": 2.61
+    },
+    {
+      "text": "followed by the first linear\nlayer with a GELU activation",
+      "start": 1147.99,
+      "duration": 5.76
+    },
+    {
+      "text": "function, which matches what is\ndefined in the \"Attention is All",
+      "start": 1153.75,
+      "duration": 4.14
+    },
+    {
+      "text": "You Need\" paper.",
+      "start": 1157.89,
+      "duration": 2.01
+    },
+    {
+      "text": "Then we got another linear\nlayer, followed by dropout.",
+      "start": 1159.9,
+      "duration": 4.5
+    },
+    {
+      "text": "When we return, we also throw\nin one final additional skip",
+      "start": 1164.4,
+      "duration": 4.68
+    },
+    {
+      "text": "connection that's coming\nfrom the middle of the block.",
+      "start": 1169.08,
+      "duration": 2.8
+    },
+    {
+      "text": "That's that second skip\nconnection from our diagram.",
+      "start": 1171.88,
+      "duration": 3.95
+    },
+    {
+      "text": "And that's the model\narchitecture in a nutshell.",
+      "start": 1175.83,
+      "duration": 2.35
+    },
+    {
+      "text": "I know that this is just\na ton of information,",
+      "start": 1178.18,
+      "duration": 3.93
+    },
+    {
+      "text": "and we don't have time to\ngo into every single piece",
+      "start": 1182.11,
+      "duration": 4.04
+    },
+    {
+      "text": "in detail, but the\nresources linked",
+      "start": 1186.15,
+      "duration": 2.31
+    },
+    {
+      "text": "in the description below about\nhow the transformer comes",
+      "start": 1188.46,
+      "duration": 3.45
+    },
+    {
+      "text": "together are truly\nvery helpful in getting",
+      "start": 1191.91,
+      "duration": 3.03
+    },
+    {
+      "text": "that deep understanding of\nhow it all fits together.",
+      "start": 1194.94,
+      "duration": 3.77
+    },
+    {
+      "text": "So if you have some time\nto just sit down and work",
+      "start": 1198.71,
+      "duration": 2.9
+    },
+    {
+      "text": "through it slowly, you'll be\nable to write transformers",
+      "start": 1201.61,
+      "duration": 3.75
+    },
+    {
+      "text": "in your sleep.",
+      "start": 1205.36,
+      "duration": 1.5
+    },
+    {
+      "text": "Once we have the model\narchitecture defined,",
+      "start": 1206.86,
+      "duration": 2.95
+    },
+    {
+      "text": "we still need to set\nup our training loop.",
+      "start": 1209.81,
+      "duration": 2.48
+    },
+    {
+      "text": "This involves defining\na loss function",
+      "start": 1212.29,
+      "duration": 2.13
+    },
+    {
+      "text": "and choosing some optimizers\nthat will operate on our model",
+      "start": 1214.42,
+      "duration": 3.03
+    },
+    {
+      "text": "as it iterates\nover the data set.",
+      "start": 1217.45,
+      "duration": 3.03
+    },
+    {
+      "text": "Our loss function computes\nsoftmax cross-entropy loss,",
+      "start": 1220.48,
+      "duration": 4.26
+    },
+    {
+      "text": "and returns both the\nloss and the logits.",
+      "start": 1224.74,
+      "duration": 3.51
+    },
+    {
+      "text": "We also define a single\ntraining step here,",
+      "start": 1228.25,
+      "duration": 3.43
+    },
+    {
+      "text": "which computes the gradient of\nthe loss using a helper function",
+      "start": 1231.68,
+      "duration": 3.02
+    },
+    {
+      "text": "in NNX called value_and_grad.",
+      "start": 1234.7,
+      "duration": 3.63
+    },
+    {
+      "text": "Unsurprisingly, it returns both\nthe value of the loss function,",
+      "start": 1238.33,
+      "duration": 4.56
+    },
+    {
+      "text": "as well as its gradient.",
+      "start": 1242.89,
+      "duration": 1.77
+    },
+    {
+      "text": "We then update the metrics\nthat we're tracking,",
+      "start": 1244.66,
+      "duration": 2.65
+    },
+    {
+      "text": "and finally we'll\nuse the optimizer",
+      "start": 1247.31,
+      "duration": 2.06
+    },
+    {
+      "text": "to update the\nweights of our model",
+      "start": 1249.37,
+      "duration": 2.04
+    },
+    {
+      "text": "based on those\ncomputed gradients.",
+      "start": 1251.41,
+      "duration": 3.66
+    },
+    {
+      "text": "Now we are ready\nto train the model.",
+      "start": 1255.07,
+      "duration": 2.61
+    },
+    {
+      "text": "We set up our\nspecific optimizer,",
+      "start": 1257.68,
+      "duration": 2.16
+    },
+    {
+      "text": "in this case, the adamw\noptimizer from the optax",
+      "start": 1259.84,
+      "duration": 2.81
+    },
+    {
+      "text": "library, largely\nbecause that's what",
+      "start": 1262.65,
+      "duration": 2.58
+    },
+    {
+      "text": "was used in the original paper.",
+      "start": 1265.23,
+      "duration": 2.88
+    },
+    {
+      "text": "We'll go ahead and start our\ntokenizer, set up our metrics,",
+      "start": 1268.11,
+      "duration": 3.24
+    },
+    {
+      "text": "and create our\ntraining loop, which",
+      "start": 1271.35,
+      "duration": 2.25
+    },
+    {
+      "text": "centers around calling that\ntrain step function that we just",
+      "start": 1273.6,
+      "duration": 3.39
+    },
+    {
+      "text": "wrote.",
+      "start": 1276.99,
+      "duration": 1.98
+    },
+    {
+      "text": "Then every 200 steps, we\nevaluate the performance",
+      "start": 1278.97,
+      "duration": 4.32
+    },
+    {
+      "text": "of the model so far by\ncomputing the loss function",
+      "start": 1283.29,
+      "duration": 3.9
+    },
+    {
+      "text": "against the validation data set.",
+      "start": 1287.19,
+      "duration": 4.15
+    },
+    {
+      "text": "So if you haven't already, go\nahead and run that training",
+      "start": 1291.34,
+      "duration": 2.6
+    },
+    {
+      "text": "loop to get things started.",
+      "start": 1293.94,
+      "duration": 1.62
+    },
+    {
+      "text": "Next, I'll talk a little\nbit about accelerators",
+      "start": 1295.56,
+      "duration": 2.91
+    },
+    {
+      "text": "and some considerations\naround them",
+      "start": 1298.47,
+      "duration": 2.25
+    },
+    {
+      "text": "while the training\nis getting underway.",
+      "start": 1300.72,
+      "duration": 2.61
+    },
+    {
+      "text": "Let's talk a bit about\nyour infrastructure options",
+      "start": 1303.33,
+      "duration": 2.82
+    },
+    {
+      "text": "when it comes to\ntraining with JAX.",
+      "start": 1306.15,
+      "duration": 2.32
+    },
+    {
+      "text": "CPU, GPU, TPU, it all works.",
+      "start": 1308.47,
+      "duration": 4.64
+    },
+    {
+      "text": "In a Kaggle notebook, you\ncan have eight TPU v3 chips",
+      "start": 1313.11,
+      "duration": 4.28
+    },
+    {
+      "text": "to use for free for up\nto nine hours at a time.",
+      "start": 1317.39,
+      "duration": 4.56
+    },
+    {
+      "text": "This is quite a lot\nof compute and will",
+      "start": 1321.95,
+      "duration": 2.58
+    },
+    {
+      "text": "allow us to train our GPT-2\nmodel in seven hours or so.",
+      "start": 1324.53,
+      "duration": 5.76
+    },
+    {
+      "text": "Colab gives you up to eight\nTPU v2 chips for free,",
+      "start": 1330.29,
+      "duration": 5.34
+    },
+    {
+      "text": "with the ability to get more\nrecent TPUs and GPUs with a Pro",
+      "start": 1335.63,
+      "duration": 3.66
+    },
+    {
+      "text": "subscription.",
+      "start": 1339.29,
+      "duration": 1.5
+    },
+    {
+      "text": "The v2 chips aren't as large\nor powerful as the v3 chips,",
+      "start": 1340.79,
+      "duration": 4.06
+    },
+    {
+      "text": "and as a result,\nthe amount of data",
+      "start": 1344.85,
+      "duration": 1.76
+    },
+    {
+      "text": "we pass in per batch\nof training is smaller.",
+      "start": 1346.61,
+      "duration": 4.86
+    },
+    {
+      "text": "Now, if you need\neven more scale,",
+      "start": 1351.47,
+      "duration": 2.47
+    },
+    {
+      "text": "GCP allows you to pay for\nquite a lot more resources,",
+      "start": 1353.94,
+      "duration": 3.48
+    },
+    {
+      "text": "allowing you to train\nvery large models.",
+      "start": 1357.42,
+      "duration": 3.35
+    },
+    {
+      "text": "On the GPU side\nof things, Kaggle",
+      "start": 1360.77,
+      "duration": 2.25
+    },
+    {
+      "text": "offers both a P100 and two T4\nchips, while Colab gives you",
+      "start": 1363.02,
+      "duration": 5.22
+    },
+    {
+      "text": "an NVIDIA T4 GPU for free.",
+      "start": 1368.24,
+      "duration": 2.32
+    },
+    {
+      "text": "And the Pro\nsubscription, of course,",
+      "start": 1370.56,
+      "duration": 1.92
+    },
+    {
+      "text": "grants access to much\nmore, like the A100.",
+      "start": 1372.48,
+      "duration": 3.95
+    },
+    {
+      "text": "GCP has an even wider selection\nof GPU resources to choose from,",
+      "start": 1376.43,
+      "duration": 4.0
+    },
+    {
+      "text": "so you can customize to\nyour heart's content.",
+      "start": 1380.43,
+      "duration": 3.41
+    },
+    {
+      "text": "Just make sure you\ndo turn them off when",
+      "start": 1383.84,
+      "duration": 2.1
+    },
+    {
+      "text": "you're finished using them.",
+      "start": 1385.94,
+      "duration": 2.28
+    },
+    {
+      "text": "Modern day data processing\nand model training needs",
+      "start": 1388.22,
+      "duration": 3.09
+    },
+    {
+      "text": "require distributed\nparallel processing",
+      "start": 1391.31,
+      "duration": 3.15
+    },
+    {
+      "text": "to be efficient and effective.",
+      "start": 1394.46,
+      "duration": 2.5
+    },
+    {
+      "text": "JAX is built for\nscaling up in this way,",
+      "start": 1396.96,
+      "duration": 3.06
+    },
+    {
+      "text": "and it's easy to set\nup our model and data",
+      "start": 1400.02,
+      "duration": 2.51
+    },
+    {
+      "text": "to operate across multiple chips\nthrough JAX's sharding rules.",
+      "start": 1402.53,
+      "duration": 5.25
+    },
+    {
+      "text": "JAX knows about our\nmultiple chips or devices,",
+      "start": 1407.78,
+      "duration": 3.64
+    },
+    {
+      "text": "and we can create that mesh\nof these devices, which",
+      "start": 1411.42,
+      "duration": 3.38
+    },
+    {
+      "text": "define our parallel\nstrategies in code.",
+      "start": 1414.8,
+      "duration": 3.78
+    },
+    {
+      "text": "And when we create\nour model layers,",
+      "start": 1418.58,
+      "duration": 1.96
+    },
+    {
+      "text": "we can specify how\neach set of parameters",
+      "start": 1420.54,
+      "duration": 3.29
+    },
+    {
+      "text": "should be distributed\nacross this mesh.",
+      "start": 1423.83,
+      "duration": 4.53
+    },
+    {
+      "text": "Let's check in on our\ntraining progress.",
+      "start": 1428.36,
+      "duration": 2.43
+    },
+    {
+      "text": "Hey, it's looking good.",
+      "start": 1430.79,
+      "duration": 1.51
+    },
+    {
+      "text": "We see that the TPUs are\nbeing utilized quite fully.",
+      "start": 1432.3,
+      "duration": 3.15
+    },
+    {
+      "text": "The training and validation\nloss are coming down steadily",
+      "start": 1435.45,
+      "duration": 3.95
+    },
+    {
+      "text": "and things are generally\nmoving along nicely.",
+      "start": 1439.4,
+      "duration": 3.1
+    },
+    {
+      "text": "We'll check back in in a while.",
+      "start": 1442.5,
+      "duration": 2.78
+    },
+    {
+      "text": "In our Colab, we can see the\noutputs being printed, showing",
+      "start": 1445.28,
+      "duration": 3.24
+    },
+    {
+      "text": "that we're getting through\n200 training steps every 40",
+      "start": 1448.52,
+      "duration": 3.315
+    },
+    {
+      "text": "seconds or so.",
+      "start": 1451.835,
+      "duration": 2.235
+    },
+    {
+      "text": "Since we're doing\n50,000 training steps,",
+      "start": 1454.07,
+      "duration": 3.1
+    },
+    {
+      "text": "we can expect this\ntraining run to take--",
+      "start": 1457.17,
+      "duration": 3.0
+    },
+    {
+      "text": "let's see, 50,000 steps divided\nby the 200 steps per print",
+      "start": 1460.17,
+      "duration": 4.1
+    },
+    {
+      "text": "statement multiplied by\nthe 40 seconds times--",
+      "start": 1464.27,
+      "duration": 4.08
+    },
+    {
+      "text": "divided by 60 seconds.",
+      "start": 1468.35,
+      "duration": 2.35
+    },
+    {
+      "text": "Carry the 1.",
+      "start": 1470.7,
+      "duration": 0.96
+    },
+    {
+      "text": "Cancel the 0.",
+      "start": 1471.66,
+      "duration": 1.08
+    },
+    {
+      "text": "It's about 166 minutes, or\na little under three hours.",
+      "start": 1472.74,
+      "duration": 4.77
+    },
+    {
+      "text": "It's not bad for\nsome free compute.",
+      "start": 1477.51,
+      "duration": 3.65
+    },
+    {
+      "text": "On Kaggle, since it's using a\nthree times larger batch size,",
+      "start": 1481.16,
+      "duration": 5.05
+    },
+    {
+      "text": "it'll take a little bit longer,\nbut it is a larger trip,",
+      "start": 1486.21,
+      "duration": 2.85
+    },
+    {
+      "text": "so it won't be\nthree times as long.",
+      "start": 1489.06,
+      "duration": 2.24
+    },
+    {
+      "text": "I've seen this take just\nunder six hours or seven hours",
+      "start": 1491.3,
+      "duration": 3.63
+    },
+    {
+      "text": "to finish.",
+      "start": 1494.93,
+      "duration": 1.56
+    },
+    {
+      "text": "Once training finishes, we'll be\nable to plot the loss on Colab",
+      "start": 1496.49,
+      "duration": 3.84
+    },
+    {
+      "text": "directly, though\nyou'll likely already",
+      "start": 1500.33,
+      "duration": 2.34
+    },
+    {
+      "text": "be watching his progress on\nyour Weights & Biases dashboard.",
+      "start": 1502.67,
+      "duration": 5.13
+    },
+    {
+      "text": "The final parts of\nthe notebook focus",
+      "start": 1507.8,
+      "duration": 1.92
+    },
+    {
+      "text": "around the topic of\nmodel saving and loading,",
+      "start": 1509.72,
+      "duration": 3.13
+    },
+    {
+      "text": "so that once you've\ntrained your model,",
+      "start": 1512.85,
+      "duration": 1.8
+    },
+    {
+      "text": "you can reuse it\nagain and again,",
+      "start": 1514.65,
+      "duration": 2.09
+    },
+    {
+      "text": "and fine-tune it with additional\ndata if you wanted to.",
+      "start": 1516.74,
+      "duration": 3.15
+    },
+    {
+      "text": "Let's take a look\nat that code now.",
+      "start": 1519.89,
+      "duration": 2.64
+    },
+    {
+      "text": "Orbax is a library made\nfor saving and loading",
+      "start": 1522.53,
+      "duration": 3.75
+    },
+    {
+      "text": "JAX model checkpoints.",
+      "start": 1526.28,
+      "duration": 1.96
+    },
+    {
+      "text": "This code does\nsome initial checks",
+      "start": 1528.24,
+      "duration": 1.97
+    },
+    {
+      "text": "to ensure that the\nrelevant file paths exist,",
+      "start": 1530.21,
+      "duration": 2.86
+    },
+    {
+      "text": "and then it creates a check\npointer, grabs the model state,",
+      "start": 1533.07,
+      "duration": 4.8
+    },
+    {
+      "text": "and then calls checkpointer.save\nwith the desired",
+      "start": 1537.87,
+      "duration": 4.28
+    },
+    {
+      "text": "path and that train state.",
+      "start": 1542.15,
+      "duration": 3.39
+    },
+    {
+      "text": "That's all there is\nto saving your model.",
+      "start": 1545.54,
+      "duration": 3.66
+    },
+    {
+      "text": "Restoring a model is similar.",
+      "start": 1549.2,
+      "duration": 2.41
+    },
+    {
+      "text": "If you don't have your previous\nmodel checkpoint handy,",
+      "start": 1551.61,
+      "duration": 3.09
+    },
+    {
+      "text": "you can use one we've stored in\nKaggle for this very purpose.",
+      "start": 1554.7,
+      "duration": 4.81
+    },
+    {
+      "text": "This time, once we create\nour checkpointer object,",
+      "start": 1559.51,
+      "duration": 2.74
+    },
+    {
+      "text": "we'll call\ncheckpointer.restore, passing",
+      "start": 1562.25,
+      "duration": 3.77
+    },
+    {
+      "text": "in the checkpoint\npath and the model",
+      "start": 1566.02,
+      "duration": 2.49
+    },
+    {
+      "text": "state of an untrained model.",
+      "start": 1568.51,
+      "duration": 2.97
+    },
+    {
+      "text": "The purpose of this is to encode\nthe model architecture first,",
+      "start": 1571.48,
+      "duration": 4.15
+    },
+    {
+      "text": "and we do this by calling\nour create_model function.",
+      "start": 1575.63,
+      "duration": 3.92
+    },
+    {
+      "text": "Then we can put\nthe restored state",
+      "start": 1579.55,
+      "duration": 2.88
+    },
+    {
+      "text": "into the model by\ncalling nnx.update,",
+      "start": 1582.43,
+      "duration": 4.99
+    },
+    {
+      "text": "thus updating the\nmodel with the state.",
+      "start": 1587.42,
+      "duration": 4.82
+    },
+    {
+      "text": "So it's been a few hours, and\nthe model has finished training.",
+      "start": 1592.24,
+      "duration": 5.23
+    },
+    {
+      "text": "We can see that on both the\nColab and on Weights & Biases--",
+      "start": 1597.47,
+      "duration": 4.61
+    },
+    {
+      "text": "some of our results.",
+      "start": 1602.08,
+      "duration": 1.48
+    },
+    {
+      "text": "The training and\nvalidation scores",
+      "start": 1603.56,
+      "duration": 2.36
+    },
+    {
+      "text": "are there, as well as\nsome sample outputs.",
+      "start": 1605.92,
+      "duration": 3.13
+    },
+    {
+      "text": "You can also see that we've used\nour TPU resources quite fully.",
+      "start": 1609.05,
+      "duration": 4.79
+    },
+    {
+      "text": "Pretty good for running a\nmodel directly in Colab.",
+      "start": 1613.84,
+      "duration": 4.86
+    },
+    {
+      "text": "I've also tried training\nthis model on GCP with eight",
+      "start": 1618.7,
+      "duration": 4.41
+    },
+    {
+      "text": "TPU v6's, also called Trillium.",
+      "start": 1623.11,
+      "duration": 4.69
+    },
+    {
+      "text": "I was able to complete that\ntraining run in just 75 minutes.",
+      "start": 1627.8,
+      "duration": 6.02
+    },
+    {
+      "text": "To do this, I bumped up\nthat batch size to 144",
+      "start": 1633.82,
+      "duration": 4.51
+    },
+    {
+      "text": "so that I was able to\nget good TPU utilization.",
+      "start": 1638.33,
+      "duration": 4.23
+    },
+    {
+      "text": "Now, that's some\nfast model training.",
+      "start": 1642.56,
+      "duration": 4.1
+    },
+    {
+      "text": "Wow, that was\nquite a long video.",
+      "start": 1646.66,
+      "duration": 2.89
+    },
+    {
+      "text": "Thank you so much for making\nit all the way to the end.",
+      "start": 1649.55,
+      "duration": 3.05
+    },
+    {
+      "text": "Hopefully, you got\nyour model training,",
+      "start": 1652.6,
+      "duration": 1.74
+    },
+    {
+      "text": "even if it's not quite finished\nyet, since that might still",
+      "start": 1654.34,
+      "duration": 2.61
+    },
+    {
+      "text": "take a few hours.",
+      "start": 1656.95,
+      "duration": 1.06
+    },
+    {
+      "text": "So that's bye for now from me.",
+      "start": 1658.01,
+      "duration": 1.89
+    },
+    {
+      "text": "Enjoy the rest of\nGoogle I/O, and I'll",
+      "start": 1659.9,
+      "duration": 2.537
+    },
+    {
+      "text": "catch you in the next one.",
+      "start": 1662.437,
+      "duration": 1.083
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1663.52,
+      "duration": 3.35
+    }
+  ]
+}

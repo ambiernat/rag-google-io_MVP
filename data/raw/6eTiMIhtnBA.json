@@ -1,0 +1,2702 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "6eTiMIhtnBA",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hello, welcome to this session about",
+      "start": 6.919,
+      "duration": 4.64
+    },
+    {
+      "text": "Gemini Cloud",
+      "start": 9.519,
+      "duration": 5.12
+    },
+    {
+      "text": "Assist. My name is Leanit. I'm a",
+      "start": 11.559,
+      "duration": 5.441
+    },
+    {
+      "text": "developer relations engineer at Google",
+      "start": 14.639,
+      "duration": 5.601
+    },
+    {
+      "text": "Cloud. Today I'm going to review the new",
+      "start": 17.0,
+      "duration": 6.359
+    },
+    {
+      "text": "capabilities of Gemini Cloud Assist that",
+      "start": 20.24,
+      "duration": 6.4
+    },
+    {
+      "text": "were announced during Cloud Next. Let me",
+      "start": 23.359,
+      "duration": 5.521
+    },
+    {
+      "text": "start with a short overview of what is",
+      "start": 26.64,
+      "duration": 4.879
+    },
+    {
+      "text": "new and then move to realtime",
+      "start": 28.88,
+      "duration": 5.6
+    },
+    {
+      "text": "demonstration of the new products. Some",
+      "start": 31.519,
+      "duration": 5.601
+    },
+    {
+      "text": "of the products that you will see are in",
+      "start": 34.48,
+      "duration": 5.44
+    },
+    {
+      "text": "preview but available to all Google",
+      "start": 37.12,
+      "duration": 3.8
+    },
+    {
+      "text": "Cloud",
+      "start": 39.92,
+      "duration": 4.72
+    },
+    {
+      "text": "users. I encourage you to try them in",
+      "start": 40.92,
+      "duration": 5.28
+    },
+    {
+      "text": "your respective",
+      "start": 44.64,
+      "duration": 3.919
+    },
+    {
+      "text": "environments. Google Cloud manages",
+      "start": 46.2,
+      "duration": 5.72
+    },
+    {
+      "text": "resources and projects. Any resource",
+      "start": 48.559,
+      "duration": 6.401
+    },
+    {
+      "text": "that you create like a virtual machine",
+      "start": 51.92,
+      "duration": 7.0
+    },
+    {
+      "text": "or a service account belongs to a single",
+      "start": 54.96,
+      "duration": 6.48
+    },
+    {
+      "text": "project. This traditional resource",
+      "start": 58.92,
+      "duration": 5.48
+    },
+    {
+      "text": "centric approach introduces a large",
+      "start": 61.44,
+      "duration": 5.039
+    },
+    {
+      "text": "amount of complexity to application",
+      "start": 64.4,
+      "duration": 5.28
+    },
+    {
+      "text": "design, deployment and management. It is",
+      "start": 66.479,
+      "duration": 6.161
+    },
+    {
+      "text": "especially hard when applications cross",
+      "start": 69.68,
+      "duration": 5.36
+    },
+    {
+      "text": "project boundaries.",
+      "start": 72.64,
+      "duration": 4.64
+    },
+    {
+      "text": "This forces application and platform",
+      "start": 75.04,
+      "duration": 4.719
+    },
+    {
+      "text": "developers to translate application",
+      "start": 77.28,
+      "duration": 6.36
+    },
+    {
+      "text": "design into low-level infrastructure",
+      "start": 79.759,
+      "duration": 7.281
+    },
+    {
+      "text": "architectures. Operators are faced with",
+      "start": 83.64,
+      "duration": 6.2
+    },
+    {
+      "text": "additional challenges when they need to",
+      "start": 87.04,
+      "duration": 5.6
+    },
+    {
+      "text": "troubleshoot application functions going",
+      "start": 89.84,
+      "duration": 4.76
+    },
+    {
+      "text": "through the maze of cloud",
+      "start": 92.64,
+      "duration": 4.0
+    },
+    {
+      "text": "infrastructures in search for the",
+      "start": 94.6,
+      "duration": 5.08
+    },
+    {
+      "text": "application's footprint. Other tasks",
+      "start": 96.64,
+      "duration": 6.439
+    },
+    {
+      "text": "such as capacity planning or cost",
+      "start": 99.68,
+      "duration": 6.0
+    },
+    {
+      "text": "optimization also require continuous",
+      "start": 103.079,
+      "duration": 5.0
+    },
+    {
+      "text": "translation between application business",
+      "start": 105.68,
+      "duration": 6.079
+    },
+    {
+      "text": "model and cloud resources. Recognizing",
+      "start": 108.079,
+      "duration": 5.68
+    },
+    {
+      "text": "these challenges, Google has been",
+      "start": 111.759,
+      "duration": 4.801
+    },
+    {
+      "text": "placing AI at the center of your Google",
+      "start": 113.759,
+      "duration": 4.121
+    },
+    {
+      "text": "Cloud",
+      "start": 116.56,
+      "duration": 4.32
+    },
+    {
+      "text": "experience. By today, you have been",
+      "start": 117.88,
+      "duration": 5.879
+    },
+    {
+      "text": "seeing Gemini across multiple areas of",
+      "start": 120.88,
+      "duration": 4.96
+    },
+    {
+      "text": "Google Cloud. To improve application",
+      "start": 123.759,
+      "duration": 5.041
+    },
+    {
+      "text": "management and operations, Google Cloud",
+      "start": 125.84,
+      "duration": 5.199
+    },
+    {
+      "text": "leverages Gemini's state-of-the-art",
+      "start": 128.8,
+      "duration": 4.72
+    },
+    {
+      "text": "models to help you perform application",
+      "start": 131.039,
+      "duration": 3.721
+    },
+    {
+      "text": "life cycle",
+      "start": 133.52,
+      "duration": 4.24
+    },
+    {
+      "text": "tasks. This assistance is focused on",
+      "start": 134.76,
+      "duration": 4.0
+    },
+    {
+      "text": "three",
+      "start": 137.76,
+      "duration": 3.96
+    },
+    {
+      "text": "areas. Design",
+      "start": 138.76,
+      "duration": 7.119
+    },
+    {
+      "text": "operations and optimization of your",
+      "start": 141.72,
+      "duration": 6.92
+    },
+    {
+      "text": "applications. I'll demonstrate how",
+      "start": 145.879,
+      "duration": 4.921
+    },
+    {
+      "text": "Gemini helps to manage applications",
+      "start": 148.64,
+      "duration": 6.8
+    },
+    {
+      "text": "related tasks in the demo. Let's zoom in",
+      "start": 150.8,
+      "duration": 6.799
+    },
+    {
+      "text": "into these three areas of the",
+      "start": 155.44,
+      "duration": 4.48
+    },
+    {
+      "text": "application life cycle. When doing",
+      "start": 157.599,
+      "duration": 5.481
+    },
+    {
+      "text": "design, we need to answer many",
+      "start": 159.92,
+      "duration": 5.599
+    },
+    {
+      "text": "questions. What is the right services",
+      "start": 163.08,
+      "duration": 4.159
+    },
+    {
+      "text": "required to run the",
+      "start": 165.519,
+      "duration": 4.08
+    },
+    {
+      "text": "application? How should the services",
+      "start": 167.239,
+      "duration": 4.441
+    },
+    {
+      "text": "interact between themselves to follow",
+      "start": 169.599,
+      "duration": 4.481
+    },
+    {
+      "text": "the recommended architectural patterns",
+      "start": 171.68,
+      "duration": 5.24
+    },
+    {
+      "text": "to do it in a secure way? Moving to",
+      "start": 174.08,
+      "duration": 5.68
+    },
+    {
+      "text": "operations, one of the critical tasks is",
+      "start": 176.92,
+      "duration": 5.0
+    },
+    {
+      "text": "to find the quickest way to mitigate the",
+      "start": 179.76,
+      "duration": 5.52
+    },
+    {
+      "text": "failure. answer questions like is it a",
+      "start": 181.92,
+      "duration": 5.599
+    },
+    {
+      "text": "problem in my application or is it an",
+      "start": 185.28,
+      "duration": 6.0
+    },
+    {
+      "text": "infrastructure problem and similarly",
+      "start": 187.519,
+      "duration": 6.161
+    },
+    {
+      "text": "when the application is operational",
+      "start": 191.28,
+      "duration": 4.56
+    },
+    {
+      "text": "reduce the ways to optimize capacity",
+      "start": 193.68,
+      "duration": 3.919
+    },
+    {
+      "text": "management or track and reduce",
+      "start": 195.84,
+      "duration": 5.36
+    },
+    {
+      "text": "operational costs in each area. Gemini",
+      "start": 197.599,
+      "duration": 6.321
+    },
+    {
+      "text": "Cloud Assist provides you with tools and",
+      "start": 201.2,
+      "duration": 5.84
+    },
+    {
+      "text": "best practices to complete your tasks.",
+      "start": 203.92,
+      "duration": 5.44
+    },
+    {
+      "text": "Gemini Cloud Assist helps to utilize",
+      "start": 207.04,
+      "duration": 4.44
+    },
+    {
+      "text": "best practices when designing your",
+      "start": 209.36,
+      "duration": 4.0
+    },
+    {
+      "text": "application, providing you with",
+      "start": 211.48,
+      "duration": 4.08
+    },
+    {
+      "text": "Terraform scripts for deploying your",
+      "start": 213.36,
+      "duration": 5.04
+    },
+    {
+      "text": "application and identifying a specific",
+      "start": 215.56,
+      "duration": 5.16
+    },
+    {
+      "text": "component that experience a problem.",
+      "start": 218.4,
+      "duration": 4.479
+    },
+    {
+      "text": "Using Gemini Cloud Assist, you can see",
+      "start": 220.72,
+      "duration": 4.56
+    },
+    {
+      "text": "the usage of your resources and control",
+      "start": 222.879,
+      "duration": 5.121
+    },
+    {
+      "text": "operational costs in an application",
+      "start": 225.28,
+      "duration": 6.08
+    },
+    {
+      "text": "centric view. This is the vision of",
+      "start": 228.0,
+      "duration": 6.159
+    },
+    {
+      "text": "AIdriven application management. How",
+      "start": 231.36,
+      "duration": 4.799
+    },
+    {
+      "text": "does Gemini cloud assist address all",
+      "start": 234.159,
+      "duration": 5.041
+    },
+    {
+      "text": "these questions? The cloud assist stack",
+      "start": 236.159,
+      "duration": 6.08
+    },
+    {
+      "text": "look like this. At the base level, it",
+      "start": 239.2,
+      "duration": 5.239
+    },
+    {
+      "text": "has a collection of information",
+      "start": 242.239,
+      "duration": 5.601
+    },
+    {
+      "text": "providers. They are integrations or what",
+      "start": 244.439,
+      "duration": 6.601
+    },
+    {
+      "text": "we call agents that use Google services",
+      "start": 247.84,
+      "duration": 5.72
+    },
+    {
+      "text": "such as resource manager, asset",
+      "start": 251.04,
+      "duration": 5.52
+    },
+    {
+      "text": "inventory, and cloud monitoring to",
+      "start": 253.56,
+      "duration": 5.0
+    },
+    {
+      "text": "retrieve information about your",
+      "start": 256.56,
+      "duration": 4.799
+    },
+    {
+      "text": "application and its infrastructure. The",
+      "start": 258.56,
+      "duration": 6.079
+    },
+    {
+      "text": "next level is an application hub, a",
+      "start": 261.359,
+      "duration": 5.521
+    },
+    {
+      "text": "platform for managing workloads and",
+      "start": 264.639,
+      "duration": 4.84
+    },
+    {
+      "text": "resources in an application ccentric",
+      "start": 266.88,
+      "duration": 5.68
+    },
+    {
+      "text": "way. We will see some functions of the",
+      "start": 269.479,
+      "duration": 6.041
+    },
+    {
+      "text": "application hub in the demo. On top of",
+      "start": 272.56,
+      "duration": 6.56
+    },
+    {
+      "text": "app, there are new products including",
+      "start": 275.52,
+      "duration": 6.8
+    },
+    {
+      "text": "cloud hub, investigations, application",
+      "start": 279.12,
+      "duration": 6.16
+    },
+    {
+      "text": "design center and other that support",
+      "start": 282.32,
+      "duration": 5.92
+    },
+    {
+      "text": "users operations in application match.",
+      "start": 285.28,
+      "duration": 5.68
+    },
+    {
+      "text": "They help to design, operate, and",
+      "start": 288.24,
+      "duration": 5.04
+    },
+    {
+      "text": "optimize workloads, resources, and",
+      "start": 290.96,
+      "duration": 4.799
+    },
+    {
+      "text": "assets of your application. With the",
+      "start": 293.28,
+      "duration": 4.52
+    },
+    {
+      "text": "help of Gemini AI",
+      "start": 295.759,
+      "duration": 4.401
+    },
+    {
+      "text": "models, developers and platform",
+      "start": 297.8,
+      "duration": 4.92
+    },
+    {
+      "text": "engineers no longer need to search for",
+      "start": 300.16,
+      "duration": 4.88
+    },
+    {
+      "text": "resources that are relevant to their",
+      "start": 302.72,
+      "duration": 4.88
+    },
+    {
+      "text": "applications across projects and cloud",
+      "start": 305.04,
+      "duration": 3.719
+    },
+    {
+      "text": "console",
+      "start": 307.6,
+      "duration": 4.72
+    },
+    {
+      "text": "views. Using these products, they access",
+      "start": 308.759,
+      "duration": 5.641
+    },
+    {
+      "text": "and operate application data and",
+      "start": 312.32,
+      "duration": 5.12
+    },
+    {
+      "text": "resources directly. Now, Gemini Cloud",
+      "start": 314.4,
+      "duration": 5.799
+    },
+    {
+      "text": "Assist has a holistic view based on",
+      "start": 317.44,
+      "duration": 4.96
+    },
+    {
+      "text": "authoritative product knowledge,",
+      "start": 320.199,
+      "duration": 4.681
+    },
+    {
+      "text": "contextbased resource inspections, and",
+      "start": 322.4,
+      "duration": 5.12
+    },
+    {
+      "text": "upto-date information retrieval on one",
+      "start": 324.88,
+      "duration": 5.68
+    },
+    {
+      "text": "side and user input using natural",
+      "start": 327.52,
+      "duration": 5.6
+    },
+    {
+      "text": "language prompts and interactive UI",
+      "start": 330.56,
+      "duration": 4.96
+    },
+    {
+      "text": "widgets from different devices on",
+      "start": 333.12,
+      "duration": 5.6
+    },
+    {
+      "text": "another. After this introduction, let's",
+      "start": 335.52,
+      "duration": 5.679
+    },
+    {
+      "text": "see how this new Gemini Cloud Assist",
+      "start": 338.72,
+      "duration": 6.16
+    },
+    {
+      "text": "products work in practice.",
+      "start": 341.199,
+      "duration": 6.801
+    },
+    {
+      "text": "I'd like to begin the demo with uh the",
+      "start": 344.88,
+      "duration": 7.24
+    },
+    {
+      "text": "new version of the Gemini Cloud Assist",
+      "start": 348.0,
+      "duration": 6.88
+    },
+    {
+      "text": "chat. The new version of the chat is",
+      "start": 352.12,
+      "duration": 5.96
+    },
+    {
+      "text": "currently in preview. Uh let me open it",
+      "start": 354.88,
+      "duration": 8.039
+    },
+    {
+      "text": "in the full page to see responses",
+      "start": 358.08,
+      "duration": 7.679
+    },
+    {
+      "text": "better. Like in the previous version,",
+      "start": 362.919,
+      "duration": 6.441
+    },
+    {
+      "text": "chat helps you perform operations on",
+      "start": 365.759,
+      "duration": 5.841
+    },
+    {
+      "text": "Google Cloud.",
+      "start": 369.36,
+      "duration": 6.64
+    },
+    {
+      "text": "Let me show you an example. I want uh to",
+      "start": 371.6,
+      "duration": 7.599
+    },
+    {
+      "text": "get assistance with creating a new",
+      "start": 376.0,
+      "duration": 6.039
+    },
+    {
+      "text": "instance of the MySQL",
+      "start": 379.199,
+      "duration": 5.921
+    },
+    {
+      "text": "database and chat provides me with a",
+      "start": 382.039,
+      "duration": 7.16
+    },
+    {
+      "text": "G-Cloud command that does exactly what I",
+      "start": 385.12,
+      "duration": 9.84
+    },
+    {
+      "text": "asked it to do. The new version uh",
+      "start": 389.199,
+      "duration": 9.961
+    },
+    {
+      "text": "supports now Terraform. So I can make",
+      "start": 394.96,
+      "duration": 7.6
+    },
+    {
+      "text": "use of the cont context awareness and",
+      "start": 399.16,
+      "duration": 5.759
+    },
+    {
+      "text": "ask for the terraform script that",
+      "start": 402.56,
+      "duration": 6.0
+    },
+    {
+      "text": "performs the operation that I asked for",
+      "start": 404.919,
+      "duration": 8.12
+    },
+    {
+      "text": "in the previous prompt. And here I get",
+      "start": 408.56,
+      "duration": 7.56
+    },
+    {
+      "text": "uh the valid Terraform",
+      "start": 413.039,
+      "duration": 7.921
+    },
+    {
+      "text": "resource defining this uh new instance",
+      "start": 416.12,
+      "duration": 8.919
+    },
+    {
+      "text": "of the cloud SQL.",
+      "start": 420.96,
+      "duration": 8.32
+    },
+    {
+      "text": "uh and you can see the additional",
+      "start": 425.039,
+      "duration": 4.241
+    },
+    {
+      "text": "explanations. Chat is especially helpful",
+      "start": 430.599,
+      "duration": 5.481
+    },
+    {
+      "text": "when you try to perform some operations",
+      "start": 433.599,
+      "duration": 4.961
+    },
+    {
+      "text": "that require extensive",
+      "start": 436.08,
+      "duration": 4.8
+    },
+    {
+      "text": "uh searching documentation. One good",
+      "start": 438.56,
+      "duration": 8.0
+    },
+    {
+      "text": "example of this is uh a search for IM ro",
+      "start": 440.88,
+      "duration": 8.319
+    },
+    {
+      "text": "that helps you or allows you to perform",
+      "start": 446.56,
+      "duration": 6.479
+    },
+    {
+      "text": "a certain operation. Here I asked for IM",
+      "start": 449.199,
+      "duration": 6.56
+    },
+    {
+      "text": "role required to be able to view and",
+      "start": 453.039,
+      "duration": 6.0
+    },
+    {
+      "text": "download objects from cloud storage. I",
+      "start": 455.759,
+      "duration": 5.681
+    },
+    {
+      "text": "received the name of the role. It is",
+      "start": 459.039,
+      "duration": 4.88
+    },
+    {
+      "text": "storage object viewer and the G-Cloud",
+      "start": 461.44,
+      "duration": 6.56
+    },
+    {
+      "text": "command that performs this",
+      "start": 463.919,
+      "duration": 4.081
+    },
+    {
+      "text": "operation. New version of the chat",
+      "start": 468.84,
+      "duration": 4.639
+    },
+    {
+      "text": "understands",
+      "start": 471.96,
+      "duration": 5.16
+    },
+    {
+      "text": "the context of the currently selected",
+      "start": 473.479,
+      "duration": 7.241
+    },
+    {
+      "text": "project. So I can inquire about",
+      "start": 477.12,
+      "duration": 7.68
+    },
+    {
+      "text": "resources in my project. For example, I",
+      "start": 480.72,
+      "duration": 7.759
+    },
+    {
+      "text": "asked right now uh about total number of",
+      "start": 484.8,
+      "duration": 6.28
+    },
+    {
+      "text": "virtual machines I have in my",
+      "start": 488.479,
+      "duration": 6.321
+    },
+    {
+      "text": "project. Uh in the response you can see",
+      "start": 491.08,
+      "duration": 8.92
+    },
+    {
+      "text": "uh a widget uh in with a link to asset",
+      "start": 494.8,
+      "duration": 7.04
+    },
+    {
+      "text": "inventory.",
+      "start": 500.0,
+      "duration": 4.759
+    },
+    {
+      "text": "If I uh",
+      "start": 501.84,
+      "duration": 6.919
+    },
+    {
+      "text": "switch to the asset inventory using this",
+      "start": 504.759,
+      "duration": 8.681
+    },
+    {
+      "text": "link, I will get uh uh the context from",
+      "start": 508.759,
+      "duration": 7.96
+    },
+    {
+      "text": "the chat SQL query that returns the",
+      "start": 513.44,
+      "duration": 5.36
+    },
+    {
+      "text": "total number of machines that I can",
+      "start": 516.719,
+      "duration": 5.361
+    },
+    {
+      "text": "execute or modify",
+      "start": 518.8,
+      "duration": 7.76
+    },
+    {
+      "text": "uh to get other results. However, if you",
+      "start": 522.08,
+      "duration": 7.92
+    },
+    {
+      "text": "don't like to deal with SQL, you can do",
+      "start": 526.56,
+      "duration": 5.76
+    },
+    {
+      "text": "the same from the chat. Here is a",
+      "start": 530.0,
+      "duration": 4.24
+    },
+    {
+      "text": "slightly modified version of the",
+      "start": 532.32,
+      "duration": 5.44
+    },
+    {
+      "text": "previous prompt asking for the virtual",
+      "start": 534.24,
+      "duration": 7.12
+    },
+    {
+      "text": "machines that were provisioned in US",
+      "start": 537.76,
+      "duration": 4.759
+    },
+    {
+      "text": "central",
+      "start": 541.36,
+      "duration": 4.96
+    },
+    {
+      "text": "region. Uh you can see there are nine",
+      "start": 542.519,
+      "duration": 6.681
+    },
+    {
+      "text": "out of 11 machines, virtual machines",
+      "start": 546.32,
+      "duration": 6.32
+    },
+    {
+      "text": "that were provisioned in the US central",
+      "start": 549.2,
+      "duration": 5.16
+    },
+    {
+      "text": "region.",
+      "start": 552.64,
+      "duration": 5.36
+    },
+    {
+      "text": "However, all these operations as you can",
+      "start": 554.36,
+      "duration": 6.159
+    },
+    {
+      "text": "see they are",
+      "start": 558.0,
+      "duration": 5.04
+    },
+    {
+      "text": "resourceoriented. What about application",
+      "start": 560.519,
+      "duration": 4.241
+    },
+    {
+      "text": "centric",
+      "start": 563.04,
+      "duration": 5.28
+    },
+    {
+      "text": "approach? When we work with application,",
+      "start": 564.76,
+      "duration": 6.519
+    },
+    {
+      "text": "we usually begin with creating a design",
+      "start": 568.32,
+      "duration": 4.12
+    },
+    {
+      "text": "of our",
+      "start": 571.279,
+      "duration": 4.401
+    },
+    {
+      "text": "application. Let's prompt a chat for",
+      "start": 572.44,
+      "duration": 7.24
+    },
+    {
+      "text": "help to design a three tier web",
+      "start": 575.68,
+      "duration": 7.0
+    },
+    {
+      "text": "application.",
+      "start": 579.68,
+      "duration": 3.0
+    },
+    {
+      "text": "The response includes overall",
+      "start": 582.72,
+      "duration": 5.239
+    },
+    {
+      "text": "description of the",
+      "start": 585.399,
+      "duration": 6.88
+    },
+    {
+      "text": "design and short design",
+      "start": 587.959,
+      "duration": 6.88
+    },
+    {
+      "text": "diagram. Let me",
+      "start": 592.279,
+      "duration": 7.401
+    },
+    {
+      "text": "open the design in the preview",
+      "start": 594.839,
+      "duration": 4.841
+    },
+    {
+      "text": "window. The response of the chat was",
+      "start": 599.8,
+      "duration": 5.4
+    },
+    {
+      "text": "just another type of the widget as you",
+      "start": 602.88,
+      "duration": 7.92
+    },
+    {
+      "text": "can see. And then it opens a preview.",
+      "start": 605.2,
+      "duration": 8.24
+    },
+    {
+      "text": "Uh we can see that uh the suggested",
+      "start": 610.8,
+      "duration": 5.84
+    },
+    {
+      "text": "design follows best uh practices uh",
+      "start": 613.44,
+      "duration": 5.839
+    },
+    {
+      "text": "recommended for the applications",
+      "start": 616.64,
+      "duration": 5.199
+    },
+    {
+      "text": "deployed to cloud run whereas the front-",
+      "start": 619.279,
+      "duration": 7.041
+    },
+    {
+      "text": "end service uh is placed behind the",
+      "start": 621.839,
+      "duration": 7.44
+    },
+    {
+      "text": "Google uh global load balancer for",
+      "start": 626.32,
+      "duration": 7.6
+    },
+    {
+      "text": "protection and uh support for uh scaling",
+      "start": 629.279,
+      "duration": 8.481
+    },
+    {
+      "text": "and other operations. and uh it uses",
+      "start": 633.92,
+      "duration": 6.76
+    },
+    {
+      "text": "secret manager to maintain secrets such",
+      "start": 637.76,
+      "duration": 7.079
+    },
+    {
+      "text": "as password for the my uh SQL",
+      "start": 640.68,
+      "duration": 10.68
+    },
+    {
+      "text": "database. Now uh you can't uh you can uh",
+      "start": 644.839,
+      "duration": 9.24
+    },
+    {
+      "text": "do almost nothing with the current",
+      "start": 651.36,
+      "duration": 5.44
+    },
+    {
+      "text": "format. You can briefly review the",
+      "start": 654.079,
+      "duration": 5.481
+    },
+    {
+      "text": "configuration properties of each of the",
+      "start": 656.8,
+      "duration": 6.64
+    },
+    {
+      "text": "component but you have uh ability to",
+      "start": 659.56,
+      "duration": 6.32
+    },
+    {
+      "text": "open this design in application design",
+      "start": 663.44,
+      "duration": 5.2
+    },
+    {
+      "text": "center. As I previously mentioned,",
+      "start": 665.88,
+      "duration": 5.079
+    },
+    {
+      "text": "application design center is one of the",
+      "start": 668.64,
+      "duration": 6.56
+    },
+    {
+      "text": "new products uh allowing you to operate",
+      "start": 670.959,
+      "duration": 8.56
+    },
+    {
+      "text": "in uh application centric approach.",
+      "start": 675.2,
+      "duration": 8.72
+    },
+    {
+      "text": "uh in opposite to the uh uh resource",
+      "start": 679.519,
+      "duration": 6.88
+    },
+    {
+      "text": "ccentric approach which which works on",
+      "start": 683.92,
+      "duration": 7.44
+    },
+    {
+      "text": "the project level. This uh application",
+      "start": 686.399,
+      "duration": 8.161
+    },
+    {
+      "text": "design center requires uh to maintain",
+      "start": 691.36,
+      "duration": 7.2
+    },
+    {
+      "text": "application at the folder level. So we",
+      "start": 694.56,
+      "duration": 6.56
+    },
+    {
+      "text": "have opened application design center in",
+      "start": 698.56,
+      "duration": 6.399
+    },
+    {
+      "text": "the precreated uh application folder and",
+      "start": 701.12,
+      "duration": 6.959
+    },
+    {
+      "text": "here we have a prompt to continue",
+      "start": 704.959,
+      "duration": 6.201
+    },
+    {
+      "text": "uh with the design created in Gemini",
+      "start": 708.079,
+      "duration": 7.801
+    },
+    {
+      "text": "chat. So the first step is to create",
+      "start": 711.16,
+      "duration": 10.0
+    },
+    {
+      "text": "uh a template. Let's write uh",
+      "start": 715.88,
+      "duration": 9.72
+    },
+    {
+      "text": "demo template one. Let's create a new",
+      "start": 721.16,
+      "duration": 9.0
+    },
+    {
+      "text": "template. Uh a template is a way for you",
+      "start": 725.6,
+      "duration": 9.28
+    },
+    {
+      "text": "to manage your designs and uh you can",
+      "start": 730.16,
+      "duration": 7.44
+    },
+    {
+      "text": "share the templates with your designs",
+      "start": 734.88,
+      "duration": 5.8
+    },
+    {
+      "text": "with other team members across your",
+      "start": 737.6,
+      "duration": 5.919
+    },
+    {
+      "text": "organization. Here uh at the template",
+      "start": 740.68,
+      "duration": 6.2
+    },
+    {
+      "text": "level you can see all components and you",
+      "start": 743.519,
+      "duration": 7.281
+    },
+    {
+      "text": "can access component configurations.",
+      "start": 746.88,
+      "duration": 7.12
+    },
+    {
+      "text": "For example, you can define uh",
+      "start": 750.8,
+      "duration": 5.88
+    },
+    {
+      "text": "additional containers for your cloud run",
+      "start": 754.0,
+      "duration": 6.48
+    },
+    {
+      "text": "service or you can use uh different",
+      "start": 756.68,
+      "duration": 9.04
+    },
+    {
+      "text": "components available to uh enrich you or",
+      "start": 760.48,
+      "duration": 8.88
+    },
+    {
+      "text": "modify the suggested design. Now this",
+      "start": 765.72,
+      "duration": 5.679
+    },
+    {
+      "text": "design is",
+      "start": 769.36,
+      "duration": 5.76
+    },
+    {
+      "text": "uh uh follows all best practices.",
+      "start": 771.399,
+      "duration": 6.68
+    },
+    {
+      "text": "However, for this demo, I would like to",
+      "start": 775.12,
+      "duration": 5.519
+    },
+    {
+      "text": "use some simplified version of the",
+      "start": 778.079,
+      "duration": 5.041
+    },
+    {
+      "text": "design. So, uh Google provides a couple",
+      "start": 780.639,
+      "duration": 4.481
+    },
+    {
+      "text": "of templates for you to try out",
+      "start": 783.12,
+      "duration": 3.959
+    },
+    {
+      "text": "application design",
+      "start": 785.12,
+      "duration": 6.399
+    },
+    {
+      "text": "center. I will use one of",
+      "start": 787.079,
+      "duration": 4.44
+    },
+    {
+      "text": "them. Uh let's copy and create another",
+      "start": 792.04,
+      "duration": 5.599
+    },
+    {
+      "text": "template. Three",
+      "start": 796.0,
+      "duration": 4.44
+    },
+    {
+      "text": "tier demo",
+      "start": 797.639,
+      "duration": 7.32
+    },
+    {
+      "text": "app. I'm uh skipping many metadata",
+      "start": 800.44,
+      "duration": 6.399
+    },
+    {
+      "text": "fields uh",
+      "start": 804.959,
+      "duration": 5.241
+    },
+    {
+      "text": "available. So for example",
+      "start": 806.839,
+      "duration": 5.841
+    },
+    {
+      "text": "uh you",
+      "start": 810.2,
+      "duration": 7.639
+    },
+    {
+      "text": "can define additional information here",
+      "start": 812.68,
+      "duration": 7.76
+    },
+    {
+      "text": "uh like service",
+      "start": 817.839,
+      "duration": 5.881
+    },
+    {
+      "text": "name three",
+      "start": 820.44,
+      "duration": 6.079
+    },
+    {
+      "text": "tier up",
+      "start": 823.72,
+      "duration": 5.799
+    },
+    {
+      "text": "front. However all of this is not",
+      "start": 826.519,
+      "duration": 7.401
+    },
+    {
+      "text": "required. This is already uh a version",
+      "start": 829.519,
+      "duration": 7.68
+    },
+    {
+      "text": "of the template that you can use. And in",
+      "start": 833.92,
+      "duration": 6.32
+    },
+    {
+      "text": "order to deploy it, we uh need to",
+      "start": 837.199,
+      "duration": 5.76
+    },
+    {
+      "text": "configure an application. Application is",
+      "start": 840.24,
+      "duration": 5.959
+    },
+    {
+      "text": "uh an element that actually allows to be",
+      "start": 842.959,
+      "duration": 6.961
+    },
+    {
+      "text": "deployed. So",
+      "start": 846.199,
+      "duration": 7.0
+    },
+    {
+      "text": "uh again we need to create the",
+      "start": 849.92,
+      "duration": 6.0
+    },
+    {
+      "text": "application. I'm skipping all the",
+      "start": 853.199,
+      "duration": 4.32
+    },
+    {
+      "text": "metadata.",
+      "start": 855.92,
+      "duration": 4.479
+    },
+    {
+      "text": "uh in the configuration I have to point",
+      "start": 857.519,
+      "duration": 5.361
+    },
+    {
+      "text": "where the application will be deployed",
+      "start": 860.399,
+      "duration": 4.481
+    },
+    {
+      "text": "including the project which will host",
+      "start": 862.88,
+      "duration": 4.84
+    },
+    {
+      "text": "resources for this application, the",
+      "start": 864.88,
+      "duration": 6.399
+    },
+    {
+      "text": "location and uh additional attributes",
+      "start": 867.72,
+      "duration": 7.4
+    },
+    {
+      "text": "such as environment and uh criticality",
+      "start": 871.279,
+      "duration": 7.601
+    },
+    {
+      "text": "of the application or list of the owners",
+      "start": 875.12,
+      "duration": 7.279
+    },
+    {
+      "text": "of the application I will skip for the",
+      "start": 878.88,
+      "duration": 6.16
+    },
+    {
+      "text": "matter of this demo. And here we have",
+      "start": 882.399,
+      "duration": 4.56
+    },
+    {
+      "text": "the application",
+      "start": 885.04,
+      "duration": 5.64
+    },
+    {
+      "text": "uh uh it can be deployed once all",
+      "start": 886.959,
+      "duration": 8.361
+    },
+    {
+      "text": "uh components uh are initialized",
+      "start": 890.68,
+      "duration": 7.68
+    },
+    {
+      "text": "properly. So let me",
+      "start": 895.32,
+      "duration": 6.48
+    },
+    {
+      "text": "quickly initialize all",
+      "start": 898.36,
+      "duration": 8.36
+    },
+    {
+      "text": "elements. So we will enable",
+      "start": 901.8,
+      "duration": 4.92
+    },
+    {
+      "text": "uh pardon",
+      "start": 910.519,
+      "duration": 8.201
+    },
+    {
+      "text": "enable the deploy button. So once uh all",
+      "start": 913.079,
+      "duration": 9.161
+    },
+    {
+      "text": "these fields are",
+      "start": 918.72,
+      "duration": 3.52
+    },
+    {
+      "text": "initialized we",
+      "start": 923.48,
+      "duration": 6.84
+    },
+    {
+      "text": "have enabled the deploy button. Now uh",
+      "start": 926.68,
+      "duration": 7.0
+    },
+    {
+      "text": "it will take some time to provision uh a",
+      "start": 930.32,
+      "duration": 8.079
+    },
+    {
+      "text": "new cloud SQL database. So for this",
+      "start": 933.68,
+      "duration": 8.08
+    },
+    {
+      "text": "particular uh demo I have already",
+      "start": 938.399,
+      "duration": 5.321
+    },
+    {
+      "text": "created an",
+      "start": 941.76,
+      "duration": 4.8
+    },
+    {
+      "text": "application. You can see it here. It is",
+      "start": 943.72,
+      "duration": 6.6
+    },
+    {
+      "text": "already deployed. And uh speaking about",
+      "start": 946.56,
+      "duration": 7.839
+    },
+    {
+      "text": "application uh centric uh approach, you",
+      "start": 950.32,
+      "duration": 7.6
+    },
+    {
+      "text": "can see all uh components of your",
+      "start": 954.399,
+      "duration": 7.161
+    },
+    {
+      "text": "application in the",
+      "start": 957.92,
+      "duration": 9.24
+    },
+    {
+      "text": "uh application hub. Application hub uh",
+      "start": 961.56,
+      "duration": 12.36
+    },
+    {
+      "text": "was introduced in uh last year but uh in",
+      "start": 967.16,
+      "duration": 8.479
+    },
+    {
+      "text": "this year",
+      "start": 973.92,
+      "duration": 5.839
+    },
+    {
+      "text": "uh multiple additional features and new",
+      "start": 975.639,
+      "duration": 7.801
+    },
+    {
+      "text": "products have been integrated with it.",
+      "start": 979.759,
+      "duration": 6.561
+    },
+    {
+      "text": "So in the application hub you can see",
+      "start": 983.44,
+      "duration": 4.759
+    },
+    {
+      "text": "the components",
+      "start": 986.32,
+      "duration": 5.12
+    },
+    {
+      "text": "uh that we created for our application.",
+      "start": 988.199,
+      "duration": 5.401
+    },
+    {
+      "text": "You can click on each of these component",
+      "start": 991.44,
+      "duration": 5.68
+    },
+    {
+      "text": "to see metadata and other information",
+      "start": 993.6,
+      "duration": 7.28
+    },
+    {
+      "text": "related to the component and you can uh",
+      "start": 997.12,
+      "duration": 7.76
+    },
+    {
+      "text": "see the infrastructure resource",
+      "start": 1000.88,
+      "duration": 6.879
+    },
+    {
+      "text": "uh referenced uh or linked by this",
+      "start": 1004.88,
+      "duration": 5.519
+    },
+    {
+      "text": "component. Let me open",
+      "start": 1007.759,
+      "duration": 5.801
+    },
+    {
+      "text": "uh a resource for the front end",
+      "start": 1010.399,
+      "duration": 6.8
+    },
+    {
+      "text": "service. It is uh basically uh a",
+      "start": 1013.56,
+      "duration": 6.12
+    },
+    {
+      "text": "standard cloud run service. uh you can",
+      "start": 1017.199,
+      "duration": 4.64
+    },
+    {
+      "text": "see it was provisioned in the project",
+      "start": 1019.68,
+      "duration": 4.92
+    },
+    {
+      "text": "that uh I have uh",
+      "start": 1021.839,
+      "duration": 7.041
+    },
+    {
+      "text": "selected and uh this is uh basically a",
+      "start": 1024.6,
+      "duration": 6.319
+    },
+    {
+      "text": "simple to-do",
+      "start": 1028.88,
+      "duration": 7.199
+    },
+    {
+      "text": "application. Uh I will uh do a couple of",
+      "start": 1030.919,
+      "duration": 7.721
+    },
+    {
+      "text": "uh operations uh on the application. So",
+      "start": 1036.079,
+      "duration": 7.281
+    },
+    {
+      "text": "we will have uh some uh logs and metrics",
+      "start": 1038.64,
+      "duration": 8.6
+    },
+    {
+      "text": "uh to review later.",
+      "start": 1043.36,
+      "duration": 3.88
+    },
+    {
+      "text": "Okay, let me return back to",
+      "start": 1048.84,
+      "duration": 7.12
+    },
+    {
+      "text": "the application design uh",
+      "start": 1052.36,
+      "duration": 8.52
+    },
+    {
+      "text": "center. So, uh the application uh hub we",
+      "start": 1055.96,
+      "duration": 7.48
+    },
+    {
+      "text": "completed right now",
+      "start": 1060.88,
+      "duration": 6.08
+    },
+    {
+      "text": "uh the design part we uh created",
+      "start": 1063.44,
+      "duration": 5.96
+    },
+    {
+      "text": "components connected them",
+      "start": 1066.96,
+      "duration": 5.68
+    },
+    {
+      "text": "together. Uh application design center",
+      "start": 1069.4,
+      "duration": 5.6
+    },
+    {
+      "text": "also generates a",
+      "start": 1072.64,
+      "duration": 6.6
+    },
+    {
+      "text": "terraform script that provisions uh this",
+      "start": 1075.0,
+      "duration": 8.72
+    },
+    {
+      "text": "design supporting infrastructure code",
+      "start": 1079.24,
+      "duration": 7.72
+    },
+    {
+      "text": "uh pattern and you can maintain this",
+      "start": 1083.72,
+      "duration": 7.48
+    },
+    {
+      "text": "infra uh uh terraform files in your",
+      "start": 1086.96,
+      "duration": 9.36
+    },
+    {
+      "text": "source uh repository. Now the next step",
+      "start": 1091.2,
+      "duration": 10.0
+    },
+    {
+      "text": "is uh monitoring and uh",
+      "start": 1096.32,
+      "duration": 9.44
+    },
+    {
+      "text": "uh the application right. So again uh",
+      "start": 1101.2,
+      "duration": 6.96
+    },
+    {
+      "text": "you can monitor your application from",
+      "start": 1105.76,
+      "duration": 8.4
+    },
+    {
+      "text": "the application uh hub. We have uh a",
+      "start": 1108.16,
+      "duration": 8.32
+    },
+    {
+      "text": "link here to the application",
+      "start": 1114.16,
+      "duration": 5.04
+    },
+    {
+      "text": "observability.",
+      "start": 1116.48,
+      "duration": 5.52
+    },
+    {
+      "text": "Application observability provides like",
+      "start": 1119.2,
+      "duration": 6.88
+    },
+    {
+      "text": "uh previously we saw the application",
+      "start": 1122.0,
+      "duration": 6.72
+    },
+    {
+      "text": "centric view. Again you're tracking",
+      "start": 1126.08,
+      "duration": 5.479
+    },
+    {
+      "text": "components. You're tracking",
+      "start": 1128.72,
+      "duration": 6.24
+    },
+    {
+      "text": "uh golden signals for this components.",
+      "start": 1131.559,
+      "duration": 7.721
+    },
+    {
+      "text": "Uh you can see it as a list or you can",
+      "start": 1134.96,
+      "duration": 9.44
+    },
+    {
+      "text": "switch to a dashboard to see uh the",
+      "start": 1139.28,
+      "duration": 7.48
+    },
+    {
+      "text": "signals as",
+      "start": 1144.4,
+      "duration": 4.88
+    },
+    {
+      "text": "charts. Right.",
+      "start": 1146.76,
+      "duration": 8.44
+    },
+    {
+      "text": "Now uh you can uh track it as an at",
+      "start": 1149.28,
+      "duration": 8.8
+    },
+    {
+      "text": "application level or you can open a",
+      "start": 1155.2,
+      "duration": 5.32
+    },
+    {
+      "text": "specific",
+      "start": 1158.08,
+      "duration": 5.28
+    },
+    {
+      "text": "component. Tracking a specific component",
+      "start": 1160.52,
+      "duration": 5.2
+    },
+    {
+      "text": "shows basically the same",
+      "start": 1163.36,
+      "duration": 6.0
+    },
+    {
+      "text": "uh signals but on the level of the",
+      "start": 1165.72,
+      "duration": 6.12
+    },
+    {
+      "text": "single",
+      "start": 1169.36,
+      "duration": 2.48
+    },
+    {
+      "text": "component. Another way to approach it is",
+      "start": 1172.2,
+      "duration": 8.12
+    },
+    {
+      "text": "uh to use health and troubleshooting in",
+      "start": 1177.039,
+      "duration": 7.52
+    },
+    {
+      "text": "the cloud hub. It is another new product",
+      "start": 1180.32,
+      "duration": 6.479
+    },
+    {
+      "text": "that was added as part of the",
+      "start": 1184.559,
+      "duration": 4.521
+    },
+    {
+      "text": "application centric",
+      "start": 1186.799,
+      "duration": 7.12
+    },
+    {
+      "text": "approach. It allows you to uh review and",
+      "start": 1189.08,
+      "duration": 6.92
+    },
+    {
+      "text": "uh",
+      "start": 1193.919,
+      "duration": 5.521
+    },
+    {
+      "text": "uh track uh various incidents and",
+      "start": 1196.0,
+      "duration": 8.12
+    },
+    {
+      "text": "investigations that might happen.",
+      "start": 1199.44,
+      "duration": 4.68
+    },
+    {
+      "text": "Uh it should",
+      "start": 1205.76,
+      "duration": 3.52
+    },
+    {
+      "text": "work on the same uh context as the",
+      "start": 1209.72,
+      "duration": 5.64
+    },
+    {
+      "text": "application. Wait a",
+      "start": 1215.559,
+      "duration": 3.561
+    },
+    {
+      "text": "moment. Okay.",
+      "start": 1225.64,
+      "duration": 4.0
+    },
+    {
+      "text": "Okay. So, let me reopen it",
+      "start": 1240.52,
+      "duration": 4.6
+    },
+    {
+      "text": "again. The problem was in the wrong",
+      "start": 1247.64,
+      "duration": 6.76
+    },
+    {
+      "text": "application being selected in the",
+      "start": 1251.159,
+      "duration": 6.921
+    },
+    {
+      "text": "filter. So you can see it is tracking uh",
+      "start": 1254.4,
+      "duration": 5.96
+    },
+    {
+      "text": "what is happening in each of the",
+      "start": 1258.08,
+      "duration": 4.56
+    },
+    {
+      "text": "applications. Uh you have the same",
+      "start": 1260.36,
+      "duration": 6.0
+    },
+    {
+      "text": "access to the dashboard and other",
+      "start": 1262.64,
+      "duration": 7.12
+    },
+    {
+      "text": "components and uh if any incidents are",
+      "start": 1266.36,
+      "duration": 7.72
+    },
+    {
+      "text": "reported you have a quick access on the",
+      "start": 1269.76,
+      "duration": 9.24
+    },
+    {
+      "text": "application level via the cloud hub. Now",
+      "start": 1274.08,
+      "duration": 7.88
+    },
+    {
+      "text": "uh this",
+      "start": 1279.0,
+      "duration": 5.72
+    },
+    {
+      "text": "new products",
+      "start": 1281.96,
+      "duration": 7.24
+    },
+    {
+      "text": "uh mean that uh don't mean sorry uh",
+      "start": 1284.72,
+      "duration": 8.0
+    },
+    {
+      "text": "don't mean that uh you don't have any",
+      "start": 1289.2,
+      "duration": 7.56
+    },
+    {
+      "text": "other way to work with",
+      "start": 1292.72,
+      "duration": 7.76
+    },
+    {
+      "text": "uh your application resources. You still",
+      "start": 1296.76,
+      "duration": 5.76
+    },
+    {
+      "text": "can use",
+      "start": 1300.48,
+      "duration": 5.84
+    },
+    {
+      "text": "uh Gemini chat for example uh to track",
+      "start": 1302.52,
+      "duration": 6.92
+    },
+    {
+      "text": "your applications",
+      "start": 1306.32,
+      "duration": 6.16
+    },
+    {
+      "text": "uh the same way as it is aware about",
+      "start": 1309.44,
+      "duration": 5.32
+    },
+    {
+      "text": "resources at the project",
+      "start": 1312.48,
+      "duration": 6.88
+    },
+    {
+      "text": "level. It is uh it has access and can",
+      "start": 1314.76,
+      "duration": 7.159
+    },
+    {
+      "text": "help you with discovering application",
+      "start": 1319.36,
+      "duration": 6.6
+    },
+    {
+      "text": "related uh content and uh",
+      "start": 1321.919,
+      "duration": 8.521
+    },
+    {
+      "text": "resources. Same way",
+      "start": 1325.96,
+      "duration": 4.48
+    },
+    {
+      "text": "uh when you work with",
+      "start": 1330.88,
+      "duration": 6.6
+    },
+    {
+      "text": "uh other",
+      "start": 1334.84,
+      "duration": 7.0
+    },
+    {
+      "text": "uh existing tools for",
+      "start": 1337.48,
+      "duration": 4.36
+    },
+    {
+      "text": "example log",
+      "start": 1342.12,
+      "duration": 6.52
+    },
+    {
+      "text": "explorer you have now additional support",
+      "start": 1344.84,
+      "duration": 6.76
+    },
+    {
+      "text": "for the application centric view. All",
+      "start": 1348.64,
+      "duration": 5.399
+    },
+    {
+      "text": "you have to do is",
+      "start": 1351.6,
+      "duration": 4.28
+    },
+    {
+      "text": "just",
+      "start": 1354.039,
+      "duration": 5.161
+    },
+    {
+      "text": "select the",
+      "start": 1355.88,
+      "duration": 3.32
+    },
+    {
+      "text": "application. In our case, it is to-do",
+      "start": 1360.84,
+      "duration": 6.079
+    },
+    {
+      "text": "application and you",
+      "start": 1363.799,
+      "duration": 6.401
+    },
+    {
+      "text": "get all logs related to this",
+      "start": 1366.919,
+      "duration": 6.521
+    },
+    {
+      "text": "application. If you want to further uh",
+      "start": 1370.2,
+      "duration": 6.839
+    },
+    {
+      "text": "filter this to the level of the specific",
+      "start": 1373.44,
+      "duration": 6.32
+    },
+    {
+      "text": "workload, you can.",
+      "start": 1377.039,
+      "duration": 6.401
+    },
+    {
+      "text": "Now you can see all application specific",
+      "start": 1379.76,
+      "duration": 8.32
+    },
+    {
+      "text": "uh logs produced by a specific",
+      "start": 1383.44,
+      "duration": 6.44
+    },
+    {
+      "text": "uh",
+      "start": 1388.08,
+      "duration": 5.12
+    },
+    {
+      "text": "component and each of this log you have",
+      "start": 1389.88,
+      "duration": 6.159
+    },
+    {
+      "text": "the same functionality you had",
+      "start": 1393.2,
+      "duration": 6.479
+    },
+    {
+      "text": "before. Uh you can get assistance from",
+      "start": 1396.039,
+      "duration": 6.76
+    },
+    {
+      "text": "Gemini chat to explain this log entry.",
+      "start": 1399.679,
+      "duration": 6.88
+    },
+    {
+      "text": "Uh if you enabled uh investigations, you",
+      "start": 1402.799,
+      "duration": 8.88
+    },
+    {
+      "text": "will get a a a button that allows you to",
+      "start": 1406.559,
+      "duration": 8.561
+    },
+    {
+      "text": "initiate investigation based on specific",
+      "start": 1411.679,
+      "duration": 6.841
+    },
+    {
+      "text": "log entry.",
+      "start": 1415.12,
+      "duration": 3.4
+    },
+    {
+      "text": "Same way you can use Geminina",
+      "start": 1420.24,
+      "duration": 7.48
+    },
+    {
+      "text": "chart to search",
+      "start": 1424.039,
+      "duration": 7.081
+    },
+    {
+      "text": "for different",
+      "start": 1427.72,
+      "duration": 7.36
+    },
+    {
+      "text": "uh resources related to the",
+      "start": 1431.12,
+      "duration": 8.6
+    },
+    {
+      "text": "performance of your components.",
+      "start": 1435.08,
+      "duration": 4.64
+    },
+    {
+      "text": "So for example, I asked to provide me",
+      "start": 1440.32,
+      "duration": 9.28
+    },
+    {
+      "text": "the top 95 percentile for the",
+      "start": 1444.72,
+      "duration": 7.52
+    },
+    {
+      "text": "uh my application front end service in",
+      "start": 1449.6,
+      "duration": 7.959
+    },
+    {
+      "text": "cloud run. I've got a widget and I can",
+      "start": 1452.24,
+      "duration": 9.919
+    },
+    {
+      "text": "open the relevant page in the console",
+      "start": 1457.559,
+      "duration": 8.24
+    },
+    {
+      "text": "from chat that's showing me this",
+      "start": 1462.159,
+      "duration": 7.041
+    },
+    {
+      "text": "widget. Oh, let's see.",
+      "start": 1465.799,
+      "duration": 5.041
+    },
+    {
+      "text": "an",
+      "start": 1469.2,
+      "duration": 4.64
+    },
+    {
+      "text": "alternative",
+      "start": 1470.84,
+      "duration": 3.0
+    },
+    {
+      "text": "uh more representative data. Let's see",
+      "start": 1475.48,
+      "duration": 7.0
+    },
+    {
+      "text": "the requests per second in the last",
+      "start": 1479.4,
+      "duration": 6.279
+    },
+    {
+      "text": "time. So this was our experiments to run",
+      "start": 1482.48,
+      "duration": 6.799
+    },
+    {
+      "text": "the application before that",
+      "start": 1485.679,
+      "duration": 6.961
+    },
+    {
+      "text": "uh that we did a few moments ago.",
+      "start": 1489.279,
+      "duration": 6.0
+    },
+    {
+      "text": "Geminina chat provides you many other",
+      "start": 1492.64,
+      "duration": 6.08
+    },
+    {
+      "text": "capabilities even if you are not using",
+      "start": 1495.279,
+      "duration": 6.801
+    },
+    {
+      "text": "application centric",
+      "start": 1498.72,
+      "duration": 3.36
+    },
+    {
+      "text": "approach. So uh for",
+      "start": 1503.96,
+      "duration": 4.28
+    },
+    {
+      "text": "example, Gemini chat provides you",
+      "start": 1508.84,
+      "duration": 6.24
+    },
+    {
+      "text": "insights about your",
+      "start": 1512.6,
+      "duration": 6.04
+    },
+    {
+      "text": "resources that you can use uh for fuse",
+      "start": 1515.08,
+      "duration": 5.92
+    },
+    {
+      "text": "the optimize",
+      "start": 1518.64,
+      "duration": 9.919
+    },
+    {
+      "text": "them or uh for followup uh capacity",
+      "start": 1521.0,
+      "duration": 7.559
+    },
+    {
+      "text": "planning in databases.",
+      "start": 1530.2,
+      "duration": 6.92
+    },
+    {
+      "text": "There is uh query",
+      "start": 1533.6,
+      "duration": 3.52
+    },
+    {
+      "text": "insights that help you to analyze your",
+      "start": 1539.48,
+      "duration": 5.319
+    },
+    {
+      "text": "database",
+      "start": 1542.24,
+      "duration": 2.559
+    },
+    {
+      "text": "performance and uh propose improvements",
+      "start": 1548.36,
+      "duration": 6.4
+    },
+    {
+      "text": "over your",
+      "start": 1552.48,
+      "duration": 5.28
+    },
+    {
+      "text": "queries and then other information.",
+      "start": 1554.76,
+      "duration": 5.72
+    },
+    {
+      "text": "Right now it is simple demo application.",
+      "start": 1557.76,
+      "duration": 7.2
+    },
+    {
+      "text": "As you see there is no many things that",
+      "start": 1560.48,
+      "duration": 7.28
+    },
+    {
+      "text": "can be",
+      "start": 1564.96,
+      "duration": 2.8
+    },
+    {
+      "text": "improved. Another source of",
+      "start": 1570.52,
+      "duration": 6.92
+    },
+    {
+      "text": "optimization is",
+      "start": 1573.96,
+      "duration": 3.48
+    },
+    {
+      "text": "uh called",
+      "start": 1578.919,
+      "duration": 3.401
+    },
+    {
+      "text": "recommendations. Let's click on all",
+      "start": 1582.6,
+      "duration": 4.679
+    },
+    {
+      "text": "recommendations to see what we have",
+      "start": 1584.799,
+      "duration": 5.12
+    },
+    {
+      "text": "right now.",
+      "start": 1587.279,
+      "duration": 5.241
+    },
+    {
+      "text": "So we have security",
+      "start": 1589.919,
+      "duration": 4.841
+    },
+    {
+      "text": "recommendations most of",
+      "start": 1592.52,
+      "duration": 5.8
+    },
+    {
+      "text": "them on the",
+      "start": 1594.76,
+      "duration": 3.56
+    },
+    {
+      "text": "database. Clicking on any one of them",
+      "start": 1600.2,
+      "duration": 4.959
+    },
+    {
+      "text": "you",
+      "start": 1603.52,
+      "duration": 5.2
+    },
+    {
+      "text": "get more details and potential",
+      "start": 1605.159,
+      "duration": 7.281
+    },
+    {
+      "text": "instruction too",
+      "start": 1608.72,
+      "duration": 3.72
+    },
+    {
+      "text": "uh how to handle the recommendation. No,",
+      "start": 1613.679,
+      "duration": 5.521
+    },
+    {
+      "text": "you can just dismiss it if you think it",
+      "start": 1616.159,
+      "duration": 7.361
+    },
+    {
+      "text": "is not uh relevant or important for your",
+      "start": 1619.2,
+      "duration": 7.32
+    },
+    {
+      "text": "work.",
+      "start": 1623.52,
+      "duration": 3.0
+    },
+    {
+      "text": "The last area that I want to stop uh and",
+      "start": 1627.039,
+      "duration": 7.52
+    },
+    {
+      "text": "show you in this demo is",
+      "start": 1630.24,
+      "duration": 4.319
+    },
+    {
+      "text": "uh introduction uh integration excuse me",
+      "start": 1634.679,
+      "duration": 7.401
+    },
+    {
+      "text": "integration of Gemini cloud assist into",
+      "start": 1639.2,
+      "duration": 5.04
+    },
+    {
+      "text": "the",
+      "start": 1642.08,
+      "duration": 2.16
+    },
+    {
+      "text": "billink. So uh when you open the billing",
+      "start": 1647.32,
+      "duration": 6.08
+    },
+    {
+      "text": "you will",
+      "start": 1651.6,
+      "duration": 4.4
+    },
+    {
+      "text": "see insights",
+      "start": 1653.4,
+      "duration": 5.68
+    },
+    {
+      "text": "uh that Gemini cloud assist builds for",
+      "start": 1656.0,
+      "duration": 7.96
+    },
+    {
+      "text": "you based on your usage.",
+      "start": 1659.08,
+      "duration": 4.88
+    },
+    {
+      "text": "Another uh improvement is that the usage",
+      "start": 1667.279,
+      "duration": 6.76
+    },
+    {
+      "text": "now is",
+      "start": 1672.08,
+      "duration": 5.28
+    },
+    {
+      "text": "available on the granularity of the",
+      "start": 1674.039,
+      "duration": 7.401
+    },
+    {
+      "text": "single day compared to the previous case",
+      "start": 1677.36,
+      "duration": 6.12
+    },
+    {
+      "text": "when you had to",
+      "start": 1681.44,
+      "duration": 8.479
+    },
+    {
+      "text": "work and analyze on the manly bas basis.",
+      "start": 1683.48,
+      "duration": 8.679
+    },
+    {
+      "text": "So you can see the summary provided you",
+      "start": 1689.919,
+      "duration": 5.36
+    },
+    {
+      "text": "by Gemini cloud",
+      "start": 1692.159,
+      "duration": 3.12
+    },
+    {
+      "text": "assist. You can use interactive",
+      "start": 1702.2,
+      "duration": 4.8
+    },
+    {
+      "text": "uh",
+      "start": 1705.36,
+      "duration": 6.559
+    },
+    {
+      "text": "widget to ask Gemini cloud assist to",
+      "start": 1707.0,
+      "duration": 8.52
+    },
+    {
+      "text": "help you with additional information.",
+      "start": 1711.919,
+      "duration": 6.161
+    },
+    {
+      "text": "As you could see, you can use Gemini",
+      "start": 1715.52,
+      "duration": 4.96
+    },
+    {
+      "text": "Cloud Assist and new application centric",
+      "start": 1718.08,
+      "duration": 4.8
+    },
+    {
+      "text": "products to accelerate application life",
+      "start": 1720.48,
+      "duration": 5.64
+    },
+    {
+      "text": "cycle management for your cloud",
+      "start": 1722.88,
+      "duration": 5.919
+    },
+    {
+      "text": "applications. You can get assistance via",
+      "start": 1726.12,
+      "duration": 4.679
+    },
+    {
+      "text": "multiple channels starting with a",
+      "start": 1728.799,
+      "duration": 4.88
+    },
+    {
+      "text": "familiar chat interface and ending with",
+      "start": 1730.799,
+      "duration": 5.441
+    },
+    {
+      "text": "specialized widgets.",
+      "start": 1733.679,
+      "duration": 4.72
+    },
+    {
+      "text": "In this short presentation, I wasn't",
+      "start": 1736.24,
+      "duration": 4.0
+    },
+    {
+      "text": "able to demonstrate to you all",
+      "start": 1738.399,
+      "duration": 4.4
+    },
+    {
+      "text": "capabilities of the new products,",
+      "start": 1740.24,
+      "duration": 4.08
+    },
+    {
+      "text": "including cost optimization",
+      "start": 1742.799,
+      "duration": 4.041
+    },
+    {
+      "text": "recommendations that require more mature",
+      "start": 1744.32,
+      "duration": 6.599
+    },
+    {
+      "text": "environments or troubleshooting",
+      "start": 1746.84,
+      "duration": 6.12
+    },
+    {
+      "text": "investigations. You can find this",
+      "start": 1750.919,
+      "duration": 5.161
+    },
+    {
+      "text": "information in other IO talks and in",
+      "start": 1752.96,
+      "duration": 5.52
+    },
+    {
+      "text": "materials of the recently ended cloud",
+      "start": 1756.08,
+      "duration": 5.68
+    },
+    {
+      "text": "next event. I appreciate you joining me",
+      "start": 1758.48,
+      "duration": 5.36
+    },
+    {
+      "text": "for this exploration of the new Gemini",
+      "start": 1761.76,
+      "duration": 5.32
+    },
+    {
+      "text": "Cloud Assist tools over the past 20",
+      "start": 1763.84,
+      "duration": 5.76
+    },
+    {
+      "text": "minutes. We've seen some powerful",
+      "start": 1767.08,
+      "duration": 5.24
+    },
+    {
+      "text": "capabilities today and the best way to",
+      "start": 1769.6,
+      "duration": 4.88
+    },
+    {
+      "text": "understand their impact is to try them",
+      "start": 1772.32,
+      "duration": 5.68
+    },
+    {
+      "text": "yourself. Mhm. I encourage each of you",
+      "start": 1774.48,
+      "duration": 5.439
+    },
+    {
+      "text": "to experiment with these features in",
+      "start": 1778.0,
+      "duration": 3.159
+    },
+    {
+      "text": "your respective",
+      "start": 1779.919,
+      "duration": 3.521
+    },
+    {
+      "text": "environments. Thank you again for your",
+      "start": 1781.159,
+      "duration": 5.281
+    },
+    {
+      "text": "engagement.",
+      "start": 1783.44,
+      "duration": 3.0
+    },
+    {
+      "text": "[Applause]",
+      "start": 1788.3,
+      "duration": 3.19
+    }
+  ]
+}

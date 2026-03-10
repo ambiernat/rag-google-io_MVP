@@ -1,0 +1,2422 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "cHNy5mK0jzE",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hello and welcome. We're excited for you",
+      "start": 6.319,
+      "duration": 5.28
+    },
+    {
+      "text": "to join us today. I'm going to show",
+      "start": 8.639,
+      "duration": 5.601
+    },
+    {
+      "text": "something really exciting. How you can",
+      "start": 11.599,
+      "duration": 5.841
+    },
+    {
+      "text": "use generative AI to extract more value",
+      "start": 14.24,
+      "duration": 6.08
+    },
+    {
+      "text": "from your data with BigQuery. I'm Jeff",
+      "start": 17.44,
+      "duration": 5.52
+    },
+    {
+      "text": "Nelson, a developer relations engineer",
+      "start": 20.32,
+      "duration": 4.959
+    },
+    {
+      "text": "at Google Cloud.",
+      "start": 22.96,
+      "duration": 5.04
+    },
+    {
+      "text": "If you aren't already familiar, BigQuery",
+      "start": 25.279,
+      "duration": 5.121
+    },
+    {
+      "text": "is our data analytics platform. And",
+      "start": 28.0,
+      "duration": 4.8
+    },
+    {
+      "text": "what's cool is that it's integrated with",
+      "start": 30.4,
+      "duration": 4.96
+    },
+    {
+      "text": "other Google Cloud services like our",
+      "start": 32.8,
+      "duration": 5.64
+    },
+    {
+      "text": "unified AI development platform, Vert.Ex",
+      "start": 35.36,
+      "duration": 6.24
+    },
+    {
+      "text": "AI. This allows you to access powerful",
+      "start": 38.44,
+      "duration": 6.119
+    },
+    {
+      "text": "foundation models like the Gemini family",
+      "start": 41.6,
+      "duration": 5.6
+    },
+    {
+      "text": "right from your BigQuery environment.",
+      "start": 44.559,
+      "duration": 4.961
+    },
+    {
+      "text": "And the best part for a lot of folks is",
+      "start": 47.2,
+      "duration": 4.56
+    },
+    {
+      "text": "you can do all of this using familiar",
+      "start": 49.52,
+      "duration": 6.32
+    },
+    {
+      "text": "SQL syntax. So imagine you have",
+      "start": 51.76,
+      "duration": 6.479
+    },
+    {
+      "text": "structured bigquery tables or even",
+      "start": 55.84,
+      "duration": 5.44
+    },
+    {
+      "text": "unstructured multimodal data like PDFs,",
+      "start": 58.239,
+      "duration": 5.761
+    },
+    {
+      "text": "images, audio and video. You can feed",
+      "start": 61.28,
+      "duration": 6.0
+    },
+    {
+      "text": "that data along with a prompt and the",
+      "start": 64.0,
+      "duration": 5.52
+    },
+    {
+      "text": "Gemini model returns a response to",
+      "start": 67.28,
+      "duration": 3.839
+    },
+    {
+      "text": "BigQuery.",
+      "start": 69.52,
+      "duration": 4.24
+    },
+    {
+      "text": "To access these models in BigQuery, you",
+      "start": 71.119,
+      "duration": 6.0
+    },
+    {
+      "text": "can call an ML or AI function and supply",
+      "start": 73.76,
+      "duration": 6.56
+    },
+    {
+      "text": "it with a few input arguments, namely",
+      "start": 77.119,
+      "duration": 6.961
+    },
+    {
+      "text": "the model, a prompt, and some data.",
+      "start": 80.32,
+      "duration": 6.56
+    },
+    {
+      "text": "Gemini models take the prompt and data",
+      "start": 84.08,
+      "duration": 5.84
+    },
+    {
+      "text": "and generate a response for each row,",
+      "start": 86.88,
+      "duration": 5.279
+    },
+    {
+      "text": "returning the results to BigQuery in a",
+      "start": 89.92,
+      "duration": 5.839
+    },
+    {
+      "text": "structured and easy to consume format.",
+      "start": 92.159,
+      "duration": 5.361
+    },
+    {
+      "text": "You can then use these responses",
+      "start": 95.759,
+      "duration": 4.481
+    },
+    {
+      "text": "alongside your existing BigQuery tables",
+      "start": 97.52,
+      "duration": 5.08
+    },
+    {
+      "text": "or for ad hoc",
+      "start": 100.24,
+      "duration": 5.04
+    },
+    {
+      "text": "analysis. The examples I just mentioned",
+      "start": 102.6,
+      "duration": 6.199
+    },
+    {
+      "text": "used Gemini models, but we also provide",
+      "start": 105.28,
+      "duration": 6.72
+    },
+    {
+      "text": "model choice. So in addition to Gemini",
+      "start": 108.799,
+      "duration": 5.441
+    },
+    {
+      "text": "and Google embedding models, you can",
+      "start": 112.0,
+      "duration": 5.04
+    },
+    {
+      "text": "also call partner models like Claude,",
+      "start": 114.24,
+      "duration": 6.08
+    },
+    {
+      "text": "Llama, and Mistro models as a service.",
+      "start": 117.04,
+      "duration": 6.399
+    },
+    {
+      "text": "And lastly, you can access open models",
+      "start": 120.32,
+      "duration": 5.96
+    },
+    {
+      "text": "hosted on Vert.exai. X AI endpoints from",
+      "start": 123.439,
+      "duration": 5.201
+    },
+    {
+      "text": "BigQuery. These might include ones you",
+      "start": 126.28,
+      "duration": 4.84
+    },
+    {
+      "text": "pull from hugging face or even fine-tune",
+      "start": 128.64,
+      "duration": 4.76
+    },
+    {
+      "text": "models specific to your",
+      "start": 131.12,
+      "duration": 5.44
+    },
+    {
+      "text": "business. We're also very excited to",
+      "start": 133.4,
+      "duration": 6.08
+    },
+    {
+      "text": "announce structured data output in",
+      "start": 136.56,
+      "duration": 5.679
+    },
+    {
+      "text": "BigQuery. In many scenarios, you'd want",
+      "start": 139.48,
+      "duration": 5.96
+    },
+    {
+      "text": "to return specific fields and data types",
+      "start": 142.239,
+      "duration": 5.521
+    },
+    {
+      "text": "back from your large language model so",
+      "start": 145.44,
+      "duration": 5.04
+    },
+    {
+      "text": "it matches a certain schema.",
+      "start": 147.76,
+      "duration": 5.44
+    },
+    {
+      "text": "You can now define the output schema in",
+      "start": 150.48,
+      "duration": 5.72
+    },
+    {
+      "text": "the query and return the columns you ask",
+      "start": 153.2,
+      "duration": 6.56
+    },
+    {
+      "text": "for. BigQuery also works with multimodal",
+      "start": 156.2,
+      "duration": 5.96
+    },
+    {
+      "text": "data. So in addition to your structured",
+      "start": 159.76,
+      "duration": 4.72
+    },
+    {
+      "text": "fields in your tables, you can even",
+      "start": 162.16,
+      "duration": 4.799
+    },
+    {
+      "text": "reference unstructured data living in",
+      "start": 164.48,
+      "duration": 5.2
+    },
+    {
+      "text": "Google Cloud Storage like images, audio,",
+      "start": 166.959,
+      "duration": 5.36
+    },
+    {
+      "text": "documents, and more. And you can mix",
+      "start": 169.68,
+      "duration": 4.72
+    },
+    {
+      "text": "that structured and unstructured data",
+      "start": 172.319,
+      "duration": 5.801
+    },
+    {
+      "text": "together in a single inference query.",
+      "start": 174.4,
+      "duration": 6.64
+    },
+    {
+      "text": "Lastly, you have the flexibility to",
+      "start": 178.12,
+      "duration": 6.28
+    },
+    {
+      "text": "apply generative AI to all rows within a",
+      "start": 181.04,
+      "duration": 6.0
+    },
+    {
+      "text": "table, or you can choose to only run",
+      "start": 184.4,
+      "duration": 4.839
+    },
+    {
+      "text": "inference on a small subset of",
+      "start": 187.04,
+      "duration": 4.559
+    },
+    {
+      "text": "records. Now that we've covered some of",
+      "start": 189.239,
+      "duration": 5.64
+    },
+    {
+      "text": "the key BigQuery generative AI features,",
+      "start": 191.599,
+      "duration": 6.161
+    },
+    {
+      "text": "let's move to today's demo scenario to",
+      "start": 194.879,
+      "duration": 5.0
+    },
+    {
+      "text": "see everything in",
+      "start": 197.76,
+      "duration": 4.399
+    },
+    {
+      "text": "action. Imagine that you work for a",
+      "start": 199.879,
+      "duration": 4.841
+    },
+    {
+      "text": "retailer called Symbol Pets. Your",
+      "start": 202.159,
+      "duration": 4.881
+    },
+    {
+      "text": "company sells pet related products like",
+      "start": 204.72,
+      "duration": 5.84
+    },
+    {
+      "text": "dog toys or bird seed or cat food, but",
+      "start": 207.04,
+      "duration": 6.24
+    },
+    {
+      "text": "your website lacks valuable metadata",
+      "start": 210.56,
+      "duration": 5.599
+    },
+    {
+      "text": "like basic product information or search",
+      "start": 213.28,
+      "duration": 5.28
+    },
+    {
+      "text": "keywords which makes it hard for your",
+      "start": 216.159,
+      "duration": 5.601
+    },
+    {
+      "text": "customers to search and navigate and you",
+      "start": 218.56,
+      "duration": 5.679
+    },
+    {
+      "text": "have some unstructured data like product",
+      "start": 221.76,
+      "duration": 5.36
+    },
+    {
+      "text": "images or customer reviews but you're",
+      "start": 224.239,
+      "duration": 6.161
+    },
+    {
+      "text": "unsure how to extract value from them.",
+      "start": 227.12,
+      "duration": 5.52
+    },
+    {
+      "text": "Let's see how we can use BigQuery and",
+      "start": 230.4,
+      "duration": 4.88
+    },
+    {
+      "text": "Gemini models to populate the rest of",
+      "start": 232.64,
+      "duration": 3.48
+    },
+    {
+      "text": "our",
+      "start": 235.28,
+      "duration": 3.679
+    },
+    {
+      "text": "website. In this demo, we'll generate",
+      "start": 236.12,
+      "duration": 3.759
+    },
+    {
+      "text": "product",
+      "start": 238.959,
+      "duration": 3.441
+    },
+    {
+      "text": "metadata, frequently asked questions",
+      "start": 239.879,
+      "duration": 3.841
+    },
+    {
+      "text": "from product",
+      "start": 242.4,
+      "duration": 4.32
+    },
+    {
+      "text": "manuals, brand descriptions from images",
+      "start": 243.72,
+      "duration": 6.439
+    },
+    {
+      "text": "and text, and lastly, we'll show some",
+      "start": 246.72,
+      "duration": 6.439
+    },
+    {
+      "text": "new search techniques to enhance the",
+      "start": 250.159,
+      "duration": 5.44
+    },
+    {
+      "text": "website. All right, so let's orient",
+      "start": 253.159,
+      "duration": 5.121
+    },
+    {
+      "text": "ourselves and begin in the Google Cloud",
+      "start": 255.599,
+      "duration": 6.521
+    },
+    {
+      "text": "Console. And next I'll move over to",
+      "start": 258.28,
+      "duration": 7.16
+    },
+    {
+      "text": "BigQuery. In the BigQuery Explorer pane,",
+      "start": 262.12,
+      "duration": 6.359
+    },
+    {
+      "text": "I have a data set called symbol pets and",
+      "start": 265.44,
+      "duration": 5.12
+    },
+    {
+      "text": "it contains a number of tables related",
+      "start": 268.479,
+      "duration": 4.881
+    },
+    {
+      "text": "to my business. Tables like customers,",
+      "start": 270.56,
+      "duration": 6.4
+    },
+    {
+      "text": "employees, orders, products, and more. I",
+      "start": 273.36,
+      "duration": 5.52
+    },
+    {
+      "text": "can check out one of these tables, the",
+      "start": 276.96,
+      "duration": 4.48
+    },
+    {
+      "text": "products table for example, and see",
+      "start": 278.88,
+      "duration": 5.0
+    },
+    {
+      "text": "fields like product name, brand,",
+      "start": 281.44,
+      "duration": 5.199
+    },
+    {
+      "text": "description. But I notice that we don't",
+      "start": 283.88,
+      "duration": 4.599
+    },
+    {
+      "text": "have a subcategory.",
+      "start": 286.639,
+      "duration": 3.84
+    },
+    {
+      "text": "We don't know what animal type the",
+      "start": 288.479,
+      "duration": 3.841
+    },
+    {
+      "text": "product is for and we don't have any",
+      "start": 290.479,
+      "duration": 4.241
+    },
+    {
+      "text": "search keywords. So, it's hard for",
+      "start": 292.32,
+      "duration": 3.84
+    },
+    {
+      "text": "people to find these products from",
+      "start": 294.72,
+      "duration": 4.64
+    },
+    {
+      "text": "search engines. Let's work on populating",
+      "start": 296.16,
+      "duration": 6.479
+    },
+    {
+      "text": "this data. Now, I begin by creating",
+      "start": 299.36,
+      "duration": 5.36
+    },
+    {
+      "text": "something called an object table.",
+      "start": 302.639,
+      "duration": 4.641
+    },
+    {
+      "text": "Actually, I'll create a few of them. And",
+      "start": 304.72,
+      "duration": 4.88
+    },
+    {
+      "text": "an object table is simply a way for",
+      "start": 307.28,
+      "duration": 5.359
+    },
+    {
+      "text": "BigQuery to access unstructured data in",
+      "start": 309.6,
+      "duration": 6.96
+    },
+    {
+      "text": "cloud storage. So I passed the URI which",
+      "start": 312.639,
+      "duration": 6.481
+    },
+    {
+      "text": "is a path to where the objects reside in",
+      "start": 316.56,
+      "duration": 3.479
+    },
+    {
+      "text": "cloud",
+      "start": 319.12,
+      "duration": 3.76
+    },
+    {
+      "text": "storage and this location contains our",
+      "start": 320.039,
+      "duration": 5.641
+    },
+    {
+      "text": "product image catalog. I could head over",
+      "start": 322.88,
+      "duration": 4.879
+    },
+    {
+      "text": "to this bucket and we could check those",
+      "start": 325.68,
+      "duration": 3.079
+    },
+    {
+      "text": "images",
+      "start": 327.759,
+      "duration": 4.241
+    },
+    {
+      "text": "out. For example, I can click on one of",
+      "start": 328.759,
+      "duration": 6.521
+    },
+    {
+      "text": "these images and here I see what looks",
+      "start": 332.0,
+      "duration": 5.6
+    },
+    {
+      "text": "to be an aquarium.",
+      "start": 335.28,
+      "duration": 5.359
+    },
+    {
+      "text": "So again, this is a bucket full of my",
+      "start": 337.6,
+      "duration": 5.76
+    },
+    {
+      "text": "product images and these object tables",
+      "start": 340.639,
+      "duration": 6.241
+    },
+    {
+      "text": "provide a SQL interface to those images",
+      "start": 343.36,
+      "duration": 6.64
+    },
+    {
+      "text": "in cloud storage. We're not moving data",
+      "start": 346.88,
+      "duration": 4.72
+    },
+    {
+      "text": "out of cloud storage. We're just",
+      "start": 350.0,
+      "duration": 4.72
+    },
+    {
+      "text": "referencing it. I also have a separate",
+      "start": 351.6,
+      "duration": 5.439
+    },
+    {
+      "text": "object table, one for product manuals,",
+      "start": 354.72,
+      "duration": 4.36
+    },
+    {
+      "text": "and we'll check that one out in a",
+      "start": 357.039,
+      "duration": 4.961
+    },
+    {
+      "text": "minute. Now, when I query an object",
+      "start": 359.08,
+      "duration": 5.88
+    },
+    {
+      "text": "table, I return back some information.",
+      "start": 362.0,
+      "duration": 6.16
+    },
+    {
+      "text": "We see fields like the URI that they're",
+      "start": 364.96,
+      "duration": 6.079
+    },
+    {
+      "text": "images some object metadata and",
+      "start": 368.16,
+      "duration": 5.599
+    },
+    {
+      "text": "importantly this ref column which",
+      "start": 371.039,
+      "duration": 5.201
+    },
+    {
+      "text": "includes elements like a URI an",
+      "start": 373.759,
+      "duration": 5.841
+    },
+    {
+      "text": "authorizer and some details. This ref",
+      "start": 376.24,
+      "duration": 6.239
+    },
+    {
+      "text": "column is known as an object ref and",
+      "start": 379.6,
+      "duration": 5.56
+    },
+    {
+      "text": "it's automatically added to new object",
+      "start": 382.479,
+      "duration": 5.681
+    },
+    {
+      "text": "tables. The ref column can also reside",
+      "start": 385.16,
+      "duration": 6.039
+    },
+    {
+      "text": "in standard BigQuery tables. An object",
+      "start": 388.16,
+      "duration": 5.599
+    },
+    {
+      "text": "ref is a new data type that forms the",
+      "start": 391.199,
+      "duration": 4.641
+    },
+    {
+      "text": "foundation for how we access",
+      "start": 393.759,
+      "duration": 5.841
+    },
+    {
+      "text": "unstructured objects for AI purposes. So",
+      "start": 395.84,
+      "duration": 5.88
+    },
+    {
+      "text": "keep it in mind as we move",
+      "start": 399.6,
+      "duration": 5.36
+    },
+    {
+      "text": "on. I also create a pointer to the",
+      "start": 401.72,
+      "duration": 5.199
+    },
+    {
+      "text": "Gemini 2.0",
+      "start": 404.96,
+      "duration": 4.64
+    },
+    {
+      "text": "flash. And this endpoint is hosted in",
+      "start": 406.919,
+      "duration": 5.641
+    },
+    {
+      "text": "Vertex AI. So we're not creating a new",
+      "start": 409.6,
+      "duration": 5.2
+    },
+    {
+      "text": "model. We're not copying a model. We're",
+      "start": 412.56,
+      "duration": 4.96
+    },
+    {
+      "text": "simply pointing to an existing model so",
+      "start": 414.8,
+      "duration": 6.0
+    },
+    {
+      "text": "we can access it from BigQuery.",
+      "start": 417.52,
+      "duration": 5.519
+    },
+    {
+      "text": "Next, I'll begin to query my",
+      "start": 420.8,
+      "duration": 4.839
+    },
+    {
+      "text": "unstructured data with a pretty simple",
+      "start": 423.039,
+      "duration": 6.081
+    },
+    {
+      "text": "example. The AI.generate table function",
+      "start": 425.639,
+      "duration": 6.521
+    },
+    {
+      "text": "takes a few inputs. The Gemini model we",
+      "start": 429.12,
+      "duration": 5.68
+    },
+    {
+      "text": "just defined, the object table which",
+      "start": 432.16,
+      "duration": 5.2
+    },
+    {
+      "text": "points to our product images, and a",
+      "start": 434.8,
+      "duration": 5.119
+    },
+    {
+      "text": "prompt asking to describe each product",
+      "start": 437.36,
+      "duration": 5.92
+    },
+    {
+      "text": "image in a single sentence. I also",
+      "start": 439.919,
+      "duration": 5.361
+    },
+    {
+      "text": "specify the a number of optional",
+      "start": 443.28,
+      "duration": 4.16
+    },
+    {
+      "text": "arguments like temperature and max",
+      "start": 445.28,
+      "duration": 4.8
+    },
+    {
+      "text": "output tokens. You might be familiar",
+      "start": 447.44,
+      "duration": 4.64
+    },
+    {
+      "text": "with some of these ladder arguments if",
+      "start": 450.08,
+      "duration": 4.72
+    },
+    {
+      "text": "you've used large language models, but",
+      "start": 452.08,
+      "duration": 5.2
+    },
+    {
+      "text": "rest assured that these are optional and",
+      "start": 454.8,
+      "duration": 5.64
+    },
+    {
+      "text": "BigQuery has default values for each",
+      "start": 457.28,
+      "duration": 7.199
+    },
+    {
+      "text": "one. And there we have it. Single",
+      "start": 460.44,
+      "duration": 6.44
+    },
+    {
+      "text": "sentence descriptions for each of our",
+      "start": 464.479,
+      "duration": 3.801
+    },
+    {
+      "text": "product",
+      "start": 466.88,
+      "duration": 4.319
+    },
+    {
+      "text": "images. For example, the first record",
+      "start": 468.28,
+      "duration": 5.72
+    },
+    {
+      "text": "describes a glass aquarium on a dark",
+      "start": 471.199,
+      "duration": 5.761
+    },
+    {
+      "text": "brown wooden base. And we can confirm",
+      "start": 474.0,
+      "duration": 5.759
+    },
+    {
+      "text": "the output is accurate over in Google",
+      "start": 476.96,
+      "duration": 5.919
+    },
+    {
+      "text": "Cloud Storage by checking out the image.",
+      "start": 479.759,
+      "duration": 6.84
+    },
+    {
+      "text": "We'll take a look. And that looks pretty",
+      "start": 482.879,
+      "duration": 7.281
+    },
+    {
+      "text": "accurate. So this is great. AI generate",
+      "start": 486.599,
+      "duration": 6.28
+    },
+    {
+      "text": "table will help us generate text based",
+      "start": 490.16,
+      "duration": 5.56
+    },
+    {
+      "text": "on our structured or unstructured",
+      "start": 492.879,
+      "duration": 5.521
+    },
+    {
+      "text": "inputs. Moving to an example that's a",
+      "start": 495.72,
+      "duration": 5.24
+    },
+    {
+      "text": "little bit more complex. For each image,",
+      "start": 498.4,
+      "duration": 5.12
+    },
+    {
+      "text": "I could also generate the animal type,",
+      "start": 500.96,
+      "duration": 5.679
+    },
+    {
+      "text": "like is it for a dog or a cat, a list of",
+      "start": 503.52,
+      "duration": 5.76
+    },
+    {
+      "text": "five likely search keywords, and a",
+      "start": 506.639,
+      "duration": 3.881
+    },
+    {
+      "text": "product",
+      "start": 509.28,
+      "duration": 3.759
+    },
+    {
+      "text": "subcategory. I can also define the",
+      "start": 510.52,
+      "duration": 5.48
+    },
+    {
+      "text": "structure of my outputs. I'll ask for",
+      "start": 513.039,
+      "duration": 5.8
+    },
+    {
+      "text": "three fields and define their data",
+      "start": 516.0,
+      "duration": 5.839
+    },
+    {
+      "text": "types. This is great because it helps",
+      "start": 518.839,
+      "duration": 5.12
+    },
+    {
+      "text": "eliminate the uncertainty of model",
+      "start": 521.839,
+      "duration": 5.12
+    },
+    {
+      "text": "responses and ensures that I return data",
+      "start": 523.959,
+      "duration": 5.241
+    },
+    {
+      "text": "that fits my table.",
+      "start": 526.959,
+      "duration": 5.201
+    },
+    {
+      "text": "I'll run this query and the response",
+      "start": 529.2,
+      "duration": 5.6
+    },
+    {
+      "text": "will help us populate the products table",
+      "start": 532.16,
+      "duration": 4.44
+    },
+    {
+      "text": "and our downstream",
+      "start": 534.8,
+      "duration": 5.039
+    },
+    {
+      "text": "website. As we saw before, these values",
+      "start": 536.6,
+      "duration": 5.96
+    },
+    {
+      "text": "were blank for fields like animal type",
+      "start": 539.839,
+      "duration": 3.801
+    },
+    {
+      "text": "or",
+      "start": 542.56,
+      "duration": 3.2
+    },
+    {
+      "text": "subcategory. Taking the aquarium",
+      "start": 543.64,
+      "duration": 4.68
+    },
+    {
+      "text": "example, we can see the assigned animal",
+      "start": 545.76,
+      "duration": 5.519
+    },
+    {
+      "text": "type is a fish, a list of five logical",
+      "start": 548.32,
+      "duration": 6.32
+    },
+    {
+      "text": "search keywords, and a subcategory as",
+      "start": 551.279,
+      "duration": 4.881
+    },
+    {
+      "text": "aquariums.",
+      "start": 554.64,
+      "duration": 3.759
+    },
+    {
+      "text": "Now, it would take countless hours to",
+      "start": 556.16,
+      "duration": 4.32
+    },
+    {
+      "text": "pour through hundreds or thousands of",
+      "start": 558.399,
+      "duration": 4.801
+    },
+    {
+      "text": "images and generate all of this by hand.",
+      "start": 560.48,
+      "duration": 5.6
+    },
+    {
+      "text": "So, we're saving a lot of time here by",
+      "start": 563.2,
+      "duration": 6.319
+    },
+    {
+      "text": "using the Gemini models. And of course,",
+      "start": 566.08,
+      "duration": 5.68
+    },
+    {
+      "text": "we can then update our products table",
+      "start": 569.519,
+      "duration": 4.121
+    },
+    {
+      "text": "with this",
+      "start": 571.76,
+      "duration": 4.96
+    },
+    {
+      "text": "info. We can also start to seed",
+      "start": 573.64,
+      "duration": 5.0
+    },
+    {
+      "text": "frequently asked questions on our",
+      "start": 576.72,
+      "duration": 5.04
+    },
+    {
+      "text": "website given unstructured assets, maybe",
+      "start": 578.64,
+      "duration": 6.0
+    },
+    {
+      "text": "using product manuals. A few minutes",
+      "start": 581.76,
+      "duration": 5.68
+    },
+    {
+      "text": "ago, we created an object table over a",
+      "start": 584.64,
+      "duration": 5.36
+    },
+    {
+      "text": "bucket containing product manuals. So,",
+      "start": 587.44,
+      "duration": 5.519
+    },
+    {
+      "text": "let's take a quick look at one of them.",
+      "start": 590.0,
+      "duration": 5.279
+    },
+    {
+      "text": "Here we see a product manual for an",
+      "start": 592.959,
+      "duration": 4.88
+    },
+    {
+      "text": "automatic pet feeder. It contains a",
+      "start": 595.279,
+      "duration": 4.401
+    },
+    {
+      "text": "bunch of information on how to use it",
+      "start": 597.839,
+      "duration": 3.081
+    },
+    {
+      "text": "and other",
+      "start": 599.68,
+      "duration": 3.599
+    },
+    {
+      "text": "technicalities. So, let's ask the Gemini",
+      "start": 600.92,
+      "duration": 4.84
+    },
+    {
+      "text": "model for three common question and",
+      "start": 603.279,
+      "duration": 4.721
+    },
+    {
+      "text": "answers that customers might have about",
+      "start": 605.76,
+      "duration": 3.92
+    },
+    {
+      "text": "the product.",
+      "start": 608.0,
+      "duration": 5.44
+    },
+    {
+      "text": "We'll run the query and the results are",
+      "start": 609.68,
+      "duration": 5.68
+    },
+    {
+      "text": "question answer pairs that are derived",
+      "start": 613.44,
+      "duration": 5.04
+    },
+    {
+      "text": "from the manual. This was done over just",
+      "start": 615.36,
+      "duration": 5.52
+    },
+    {
+      "text": "one manual for this demo, but the",
+      "start": 618.48,
+      "duration": 5.12
+    },
+    {
+      "text": "process is exactly the same if you have",
+      "start": 620.88,
+      "duration": 6.28
+    },
+    {
+      "text": "thousands of PDFs and will scale as",
+      "start": 623.6,
+      "duration": 6.0
+    },
+    {
+      "text": "expected. This is the type of info we",
+      "start": 627.16,
+      "duration": 4.44
+    },
+    {
+      "text": "can use to populate our website where",
+      "start": 629.6,
+      "duration": 5.28
+    },
+    {
+      "text": "there might otherwise be blank space.",
+      "start": 631.6,
+      "duration": 5.76
+    },
+    {
+      "text": "And this example is taken straight from",
+      "start": 634.88,
+      "duration": 4.959
+    },
+    {
+      "text": "a product manual, but we could also",
+      "start": 637.36,
+      "duration": 5.44
+    },
+    {
+      "text": "incorporate textual customer reviews or",
+      "start": 639.839,
+      "duration": 5.521
+    },
+    {
+      "text": "other modalities in the same query to",
+      "start": 642.8,
+      "duration": 4.84
+    },
+    {
+      "text": "further enhance the",
+      "start": 645.36,
+      "duration": 5.28
+    },
+    {
+      "text": "output. So far, we've mostly taken our",
+      "start": 647.64,
+      "duration": 5.04
+    },
+    {
+      "text": "unstructured references from object",
+      "start": 650.64,
+      "duration": 4.8
+    },
+    {
+      "text": "tables. But we can also generate these",
+      "start": 652.68,
+      "duration": 6.12
+    },
+    {
+      "text": "reference columns called object refs on",
+      "start": 655.44,
+      "duration": 6.0
+    },
+    {
+      "text": "standard BigQuery tables.",
+      "start": 658.8,
+      "duration": 5.2
+    },
+    {
+      "text": "In this example, I'll generate an object",
+      "start": 661.44,
+      "duration": 6.32
+    },
+    {
+      "text": "ref column on my products table. Adding",
+      "start": 664.0,
+      "duration": 6.48
+    },
+    {
+      "text": "object ref columns on standard BigQuery",
+      "start": 667.76,
+      "duration": 4.88
+    },
+    {
+      "text": "tables allows us to run multimodal",
+      "start": 670.48,
+      "duration": 6.16
+    },
+    {
+      "text": "analysis over any table. Here I passed",
+      "start": 672.64,
+      "duration": 7.36
+    },
+    {
+      "text": "the URI field alongside a connection",
+      "start": 676.64,
+      "duration": 6.48
+    },
+    {
+      "text": "through a make ref function and then",
+      "start": 680.0,
+      "duration": 5.6
+    },
+    {
+      "text": "pass that through the fetch metadata",
+      "start": 683.12,
+      "duration": 4.56
+    },
+    {
+      "text": "function to get some Google Cloud",
+      "start": 685.6,
+      "duration": 2.919
+    },
+    {
+      "text": "Storage",
+      "start": 687.68,
+      "duration": 3.76
+    },
+    {
+      "text": "metadata. And then I call this new",
+      "start": 688.519,
+      "duration": 6.081
+    },
+    {
+      "text": "column image ref because it points to my",
+      "start": 691.44,
+      "duration": 6.399
+    },
+    {
+      "text": "images. The result is my products table",
+      "start": 694.6,
+      "duration": 6.16
+    },
+    {
+      "text": "with an object ref column called image",
+      "start": 697.839,
+      "duration": 5.841
+    },
+    {
+      "text": "ref. From here I can do some really",
+      "start": 700.76,
+      "duration": 6.12
+    },
+    {
+      "text": "unique things. For example, imagine that",
+      "start": 703.68,
+      "duration": 5.68
+    },
+    {
+      "text": "we want each brand to have a short",
+      "start": 706.88,
+      "duration": 5.76
+    },
+    {
+      "text": "statement on the symbol pets website.",
+      "start": 709.36,
+      "duration": 6.32
+    },
+    {
+      "text": "This query passes all of the images and",
+      "start": 712.64,
+      "duration": 5.84
+    },
+    {
+      "text": "all of the text descriptions from my new",
+      "start": 715.68,
+      "duration": 6.719
+    },
+    {
+      "text": "multimodal table into the Gemini model.",
+      "start": 718.48,
+      "duration": 6.32
+    },
+    {
+      "text": "The model then returns a succinct",
+      "start": 722.399,
+      "duration": 6.481
+    },
+    {
+      "text": "description for each brand. For example,",
+      "start": 724.8,
+      "duration": 6.8
+    },
+    {
+      "text": "you can see that the Aqua Clear brand",
+      "start": 728.88,
+      "duration": 4.72
+    },
+    {
+      "text": "has a description that was generated",
+      "start": 731.6,
+      "duration": 5.84
+    },
+    {
+      "text": "from an array of 33 images and 33",
+      "start": 733.6,
+      "duration": 5.76
+    },
+    {
+      "text": "product descriptions.",
+      "start": 737.44,
+      "duration": 4.079
+    },
+    {
+      "text": "We could scale this out to thousands of",
+      "start": 739.36,
+      "duration": 6.479
+    },
+    {
+      "text": "imi images and text in a single call.",
+      "start": 741.519,
+      "duration": 6.88
+    },
+    {
+      "text": "Another interesting application is using",
+      "start": 745.839,
+      "duration": 5.921
+    },
+    {
+      "text": "AI operations to filter tables. Here's",
+      "start": 748.399,
+      "duration": 6.24
+    },
+    {
+      "text": "an example. I know my dog enjoys a",
+      "start": 751.76,
+      "duration": 5.28
+    },
+    {
+      "text": "certain brand of treats. I know it's",
+      "start": 754.639,
+      "duration": 5.081
+    },
+    {
+      "text": "highly rated and it costs less than",
+      "start": 757.04,
+      "duration": 5.68
+    },
+    {
+      "text": "$10. I can filter the table using",
+      "start": 759.72,
+      "duration": 5.88
+    },
+    {
+      "text": "standard wear clauses, but we still end",
+      "start": 762.72,
+      "duration": 5.359
+    },
+    {
+      "text": "up with 20 results.",
+      "start": 765.6,
+      "duration": 6.56
+    },
+    {
+      "text": "So I can add an AI.generate bool scalar",
+      "start": 768.079,
+      "duration": 7.601
+    },
+    {
+      "text": "function filter as well so that only",
+      "start": 772.16,
+      "duration": 6.2
+    },
+    {
+      "text": "rows where the conditions are true are",
+      "start": 775.68,
+      "duration": 5.36
+    },
+    {
+      "text": "returned. In this case, I know that my",
+      "start": 778.36,
+      "duration": 5.64
+    },
+    {
+      "text": "dog's treats come in a blue bag. So I'm",
+      "start": 781.04,
+      "duration": 6.32
+    },
+    {
+      "text": "going to prompt for the image has a blue",
+      "start": 784.0,
+      "duration": 7.12
+    },
+    {
+      "text": "bag of food. I'll run the query and the",
+      "start": 787.36,
+      "duration": 7.2
+    },
+    {
+      "text": "results come back. Instead of 20 items,",
+      "start": 791.12,
+      "duration": 5.839
+    },
+    {
+      "text": "now I'm down to one.",
+      "start": 794.56,
+      "duration": 4.399
+    },
+    {
+      "text": "This method of searching using",
+      "start": 796.959,
+      "duration": 4.641
+    },
+    {
+      "text": "traditional wear clauses combined with",
+      "start": 798.959,
+      "duration": 5.801
+    },
+    {
+      "text": "AI powered row operations is super",
+      "start": 801.6,
+      "duration": 5.84
+    },
+    {
+      "text": "powerful because sometimes default",
+      "start": 804.76,
+      "duration": 4.92
+    },
+    {
+      "text": "e-commerce filters just don't meet all",
+      "start": 807.44,
+      "duration": 4.959
+    },
+    {
+      "text": "of the customer",
+      "start": 809.68,
+      "duration": 2.719
+    },
+    {
+      "text": "needs. And we're not just limited to",
+      "start": 814.839,
+      "duration": 4.841
+    },
+    {
+      "text": "using the Gemini family of models within",
+      "start": 817.2,
+      "duration": 6.16
+    },
+    {
+      "text": "BigQuery. In this example, I'll create a",
+      "start": 819.68,
+      "duration": 7.839
+    },
+    {
+      "text": "pointer to a Quen QWQ 32 billion",
+      "start": 823.36,
+      "duration": 7.479
+    },
+    {
+      "text": "parameter model hosted on a Vertex AI",
+      "start": 827.519,
+      "duration": 5.521
+    },
+    {
+      "text": "endpoint. I'm going to kick off this",
+      "start": 830.839,
+      "duration": 4.721
+    },
+    {
+      "text": "query and we'll return to it in just a",
+      "start": 833.04,
+      "duration": 5.44
+    },
+    {
+      "text": "second. I'll head over to Vert.ex AI in",
+      "start": 835.56,
+      "duration": 5.959
+    },
+    {
+      "text": "the console. And within Vertex AI, we're",
+      "start": 838.48,
+      "duration": 5.76
+    },
+    {
+      "text": "able to choose from hundreds of popular",
+      "start": 841.519,
+      "duration": 6.481
+    },
+    {
+      "text": "open models, including over a 100,000 we",
+      "start": 844.24,
+      "duration": 5.399
+    },
+    {
+      "text": "can deploy straight from",
+      "start": 848.0,
+      "duration": 4.959
+    },
+    {
+      "text": "HuggingFace. In fact, I chose this Quen",
+      "start": 849.639,
+      "duration": 7.281
+    },
+    {
+      "text": "32B model because it was trending on",
+      "start": 852.959,
+      "duration": 6.0
+    },
+    {
+      "text": "HuggingFace. You can see I've already",
+      "start": 856.92,
+      "duration": 5.32
+    },
+    {
+      "text": "deployed the Quen 32B model in Vert.Ex",
+      "start": 858.959,
+      "duration": 5.761
+    },
+    {
+      "text": "AI and it's running on an endpoint on a",
+      "start": 862.24,
+      "duration": 4.24
+    },
+    {
+      "text": "GPU.",
+      "start": 864.72,
+      "duration": 4.64
+    },
+    {
+      "text": "This query extracts two to three key",
+      "start": 866.48,
+      "duration": 5.28
+    },
+    {
+      "text": "product themes across thousands of",
+      "start": 869.36,
+      "duration": 5.2
+    },
+    {
+      "text": "customer reviews. And this time I'm",
+      "start": 871.76,
+      "duration": 5.079
+    },
+    {
+      "text": "using the Quen model, not a Gemini",
+      "start": 874.56,
+      "duration": 5.0
+    },
+    {
+      "text": "model. And we can take a look at the",
+      "start": 876.839,
+      "duration": 5.0
+    },
+    {
+      "text": "results. So for any one of these",
+      "start": 879.56,
+      "duration": 4.92
+    },
+    {
+      "text": "products, we see some of our key themes",
+      "start": 881.839,
+      "duration": 4.68
+    },
+    {
+      "text": "that our C customers",
+      "start": 884.48,
+      "duration": 4.799
+    },
+    {
+      "text": "emphasized. This is a nice summary so a",
+      "start": 886.519,
+      "duration": 5.32
+    },
+    {
+      "text": "new user can get a sense of products",
+      "start": 889.279,
+      "duration": 4.081
+    },
+    {
+      "text": "without needing to read through",
+      "start": 891.839,
+      "duration": 4.081
+    },
+    {
+      "text": "thousands of reviews. And this works not",
+      "start": 893.36,
+      "duration": 4.719
+    },
+    {
+      "text": "only for open models but also for",
+      "start": 895.92,
+      "duration": 4.159
+    },
+    {
+      "text": "fine-tuned models that might be better",
+      "start": 898.079,
+      "duration": 4.041
+    },
+    {
+      "text": "for your business use",
+      "start": 900.079,
+      "duration": 5.161
+    },
+    {
+      "text": "case. Now I also want to talk about",
+      "start": 902.12,
+      "duration": 6.12
+    },
+    {
+      "text": "search. The BigQuery search function",
+      "start": 905.24,
+      "duration": 5.64
+    },
+    {
+      "text": "lets you find unique data elements that",
+      "start": 908.24,
+      "duration": 4.64
+    },
+    {
+      "text": "are buried in structured and",
+      "start": 910.88,
+      "duration": 3.399
+    },
+    {
+      "text": "semistructured",
+      "start": 912.88,
+      "duration": 4.24
+    },
+    {
+      "text": "data. If I want to search for something",
+      "start": 914.279,
+      "duration": 5.56
+    },
+    {
+      "text": "like a dog toy, I could use the BigQuery",
+      "start": 917.12,
+      "duration": 4.719
+    },
+    {
+      "text": "search function to look for the keyword",
+      "start": 919.839,
+      "duration": 4.641
+    },
+    {
+      "text": "in the description field. And when I do",
+      "start": 921.839,
+      "duration": 6.0
+    },
+    {
+      "text": "that, I return seven results. This is",
+      "start": 924.48,
+      "duration": 5.2
+    },
+    {
+      "text": "because the description field contains",
+      "start": 927.839,
+      "duration": 6.401
+    },
+    {
+      "text": "the words dog and toy seven times. But",
+      "start": 929.68,
+      "duration": 7.92
+    },
+    {
+      "text": "if I change my query to puppy toy, I",
+      "start": 934.24,
+      "duration": 6.08
+    },
+    {
+      "text": "don't return any results because no",
+      "start": 937.6,
+      "duration": 4.799
+    },
+    {
+      "text": "description field contains the string",
+      "start": 940.32,
+      "duration": 5.519
+    },
+    {
+      "text": "puppy and toy. This is a problem with",
+      "start": 942.399,
+      "duration": 6.321
+    },
+    {
+      "text": "keyword search. We only return results",
+      "start": 945.839,
+      "duration": 5.761
+    },
+    {
+      "text": "based on exact keywords. And that's",
+      "start": 948.72,
+      "duration": 4.84
+    },
+    {
+      "text": "where we can look toward semantic",
+      "start": 951.6,
+      "duration": 4.88
+    },
+    {
+      "text": "search. Semantic search uses vector",
+      "start": 953.56,
+      "duration": 5.68
+    },
+    {
+      "text": "embeddings to search rather than",
+      "start": 956.48,
+      "duration": 5.44
+    },
+    {
+      "text": "keywords. And these embeddings capture",
+      "start": 959.24,
+      "duration": 5.159
+    },
+    {
+      "text": "the meaning and the intent behind the",
+      "start": 961.92,
+      "duration": 5.24
+    },
+    {
+      "text": "query instead of just literal",
+      "start": 964.399,
+      "duration": 5.521
+    },
+    {
+      "text": "keywords. So I'll create a new big query",
+      "start": 967.16,
+      "duration": 5.32
+    },
+    {
+      "text": "model which again just points to a text",
+      "start": 969.92,
+      "duration": 5.919
+    },
+    {
+      "text": "embedding model hosted in Vert.Ex AI.",
+      "start": 972.48,
+      "duration": 5.359
+    },
+    {
+      "text": "And I'll show you what an embedding",
+      "start": 975.839,
+      "duration": 5.761
+    },
+    {
+      "text": "looks like. An embedding for puppy toy",
+      "start": 977.839,
+      "duration": 6.0
+    },
+    {
+      "text": "turns out to be an array of numbers that",
+      "start": 981.6,
+      "duration": 5.28
+    },
+    {
+      "text": "doesn't really mean much to humans, but",
+      "start": 983.839,
+      "duration": 5.961
+    },
+    {
+      "text": "actually captures a ton of semantic",
+      "start": 986.88,
+      "duration": 5.36
+    },
+    {
+      "text": "information. We'll use this to search",
+      "start": 989.8,
+      "duration": 3.68
+    },
+    {
+      "text": "instead of",
+      "start": 992.24,
+      "duration": 3.68
+    },
+    {
+      "text": "keywords. These embeddings allow us to",
+      "start": 993.48,
+      "duration": 5.359
+    },
+    {
+      "text": "run a vector search. And",
+      "start": 995.92,
+      "duration": 5.4
+    },
+    {
+      "text": "specifically, I have this embedding",
+      "start": 998.839,
+      "duration": 5.0
+    },
+    {
+      "text": "subquery that gives me the same value",
+      "start": 1001.32,
+      "duration": 5.319
+    },
+    {
+      "text": "that we just looked at. But now I'm",
+      "start": 1003.839,
+      "duration": 4.92
+    },
+    {
+      "text": "passing it through the vector search",
+      "start": 1006.639,
+      "duration": 5.12
+    },
+    {
+      "text": "function against the products table to",
+      "start": 1008.759,
+      "duration": 5.64
+    },
+    {
+      "text": "which I've added an embedding column.",
+      "start": 1011.759,
+      "duration": 5.361
+    },
+    {
+      "text": "And I specify to return only the top",
+      "start": 1014.399,
+      "duration": 3.721
+    },
+    {
+      "text": "three",
+      "start": 1017.12,
+      "duration": 4.0
+    },
+    {
+      "text": "results. So when I run the vector",
+      "start": 1018.12,
+      "duration": 5.32
+    },
+    {
+      "text": "search, I actually get results. Now,",
+      "start": 1021.12,
+      "duration": 4.4
+    },
+    {
+      "text": "although no description has the word",
+      "start": 1023.44,
+      "duration": 4.96
+    },
+    {
+      "text": "puppy in it, our vector embeddings infer",
+      "start": 1025.52,
+      "duration": 5.679
+    },
+    {
+      "text": "the intent behind my query and return",
+      "start": 1028.4,
+      "duration": 5.439
+    },
+    {
+      "text": "appropriate products, the results are",
+      "start": 1031.199,
+      "duration": 4.64
+    },
+    {
+      "text": "ordered by distance, calculated from",
+      "start": 1033.839,
+      "duration": 4.24
+    },
+    {
+      "text": "vector embeddings, and a higher score is",
+      "start": 1035.839,
+      "duration": 5.281
+    },
+    {
+      "text": "a better result. I see some toys that a",
+      "start": 1038.079,
+      "duration": 5.521
+    },
+    {
+      "text": "puppy would love, and these are all",
+      "start": 1041.12,
+      "duration": 4.88
+    },
+    {
+      "text": "items that didn't show up earlier with",
+      "start": 1043.6,
+      "duration": 5.6
+    },
+    {
+      "text": "the standard search function. So, our",
+      "start": 1046.0,
+      "duration": 5.36
+    },
+    {
+      "text": "search results are improving and this",
+      "start": 1049.2,
+      "duration": 5.08
+    },
+    {
+      "text": "might be something to implement on our",
+      "start": 1051.36,
+      "duration": 6.28
+    },
+    {
+      "text": "site. Now, I'd like to check the product",
+      "start": 1054.28,
+      "duration": 7.0
+    },
+    {
+      "text": "images for my results because simply",
+      "start": 1057.64,
+      "duration": 6.24
+    },
+    {
+      "text": "reading the descriptions isn't great for",
+      "start": 1061.28,
+      "duration": 5.759
+    },
+    {
+      "text": "visualizing. So, I'll copy this query",
+      "start": 1063.88,
+      "duration": 6.08
+    },
+    {
+      "text": "and move over to a BigQuery Collab",
+      "start": 1067.039,
+      "duration": 4.961
+    },
+    {
+      "text": "notebook where you'll see there's",
+      "start": 1069.96,
+      "duration": 5.0
+    },
+    {
+      "text": "already a little bit of Python set up. I",
+      "start": 1072.0,
+      "duration": 4.96
+    },
+    {
+      "text": "just wrote a simple function to render",
+      "start": 1074.96,
+      "duration": 4.28
+    },
+    {
+      "text": "the images returned from a vector",
+      "start": 1076.96,
+      "duration": 5.92
+    },
+    {
+      "text": "search. So I can paste my query into a",
+      "start": 1079.24,
+      "duration": 6.92
+    },
+    {
+      "text": "cell within this notebook and specify to",
+      "start": 1082.88,
+      "duration": 5.919
+    },
+    {
+      "text": "return the result as a data frame called",
+      "start": 1086.16,
+      "duration": 6.879
+    },
+    {
+      "text": "text results. When I print text results,",
+      "start": 1088.799,
+      "duration": 6.801
+    },
+    {
+      "text": "I get the same information back as what",
+      "start": 1093.039,
+      "duration": 6.161
+    },
+    {
+      "text": "we previously saw in the SQL editor. But",
+      "start": 1095.6,
+      "duration": 6.64
+    },
+    {
+      "text": "I can also pass this new data frame into",
+      "start": 1099.2,
+      "duration": 5.92
+    },
+    {
+      "text": "my display product images function and",
+      "start": 1102.24,
+      "duration": 5.6
+    },
+    {
+      "text": "check out the results. This is pretty",
+      "start": 1105.12,
+      "duration": 5.28
+    },
+    {
+      "text": "awesome because I can now use Python and",
+      "start": 1107.84,
+      "duration": 5.92
+    },
+    {
+      "text": "SQL together to visualize my search",
+      "start": 1110.4,
+      "duration": 5.639
+    },
+    {
+      "text": "right within",
+      "start": 1113.76,
+      "duration": 5.919
+    },
+    {
+      "text": "BigQuery. Now this previous example",
+      "start": 1116.039,
+      "duration": 6.921
+    },
+    {
+      "text": "compared embeddings from text to text,",
+      "start": 1119.679,
+      "duration": 6.481
+    },
+    {
+      "text": "but we can also make this multimodal.",
+      "start": 1122.96,
+      "duration": 5.2
+    },
+    {
+      "text": "I'll define another remote model in",
+      "start": 1126.16,
+      "duration": 4.32
+    },
+    {
+      "text": "BigQuery that references the multimodal",
+      "start": 1128.16,
+      "duration": 3.879
+    },
+    {
+      "text": "embedding model",
+      "start": 1130.48,
+      "duration": 4.24
+    },
+    {
+      "text": "endpoint and almost identical to the",
+      "start": 1132.039,
+      "duration": 5.241
+    },
+    {
+      "text": "last query. I'll turn my search query",
+      "start": 1134.72,
+      "duration": 5.16
+    },
+    {
+      "text": "into a multimodal embedding as a",
+      "start": 1137.28,
+      "duration": 5.04
+    },
+    {
+      "text": "subquery, but then I'll pass it through",
+      "start": 1139.88,
+      "duration": 4.919
+    },
+    {
+      "text": "the vector search function to my table",
+      "start": 1142.32,
+      "duration": 6.16
+    },
+    {
+      "text": "with images and embeddings. So now I'm",
+      "start": 1144.799,
+      "duration": 6.561
+    },
+    {
+      "text": "searching text to image and I'll display",
+      "start": 1148.48,
+      "duration": 6.559
+    },
+    {
+      "text": "the top results for fish tank. So, I'll",
+      "start": 1151.36,
+      "duration": 5.679
+    },
+    {
+      "text": "search for the top three results and we",
+      "start": 1155.039,
+      "duration": 4.161
+    },
+    {
+      "text": "can check them out. And when we check",
+      "start": 1157.039,
+      "duration": 4.321
+    },
+    {
+      "text": "out the results, we are able to",
+      "start": 1159.2,
+      "duration": 5.12
+    },
+    {
+      "text": "visualize them. One really neat",
+      "start": 1161.36,
+      "duration": 5.199
+    },
+    {
+      "text": "application here is that I don't need to",
+      "start": 1164.32,
+      "duration": 4.96
+    },
+    {
+      "text": "input the string fish tank necessarily.",
+      "start": 1166.559,
+      "duration": 4.961
+    },
+    {
+      "text": "I could instead replace it with an image",
+      "start": 1169.28,
+      "duration": 5.32
+    },
+    {
+      "text": "or audio or a video and still return",
+      "start": 1171.52,
+      "duration": 6.24
+    },
+    {
+      "text": "results. This enables multimodal search",
+      "start": 1174.6,
+      "duration": 6.52
+    },
+    {
+      "text": "like image to text or video to image and",
+      "start": 1177.76,
+      "duration": 6.56
+    },
+    {
+      "text": "all other combinations. and it opens up",
+      "start": 1181.12,
+      "duration": 5.439
+    },
+    {
+      "text": "a whole new world of possibilities for",
+      "start": 1184.32,
+      "duration": 4.04
+    },
+    {
+      "text": "users to search our",
+      "start": 1186.559,
+      "duration": 4.961
+    },
+    {
+      "text": "site. With that, we'll end the demo and",
+      "start": 1188.36,
+      "duration": 6.36
+    },
+    {
+      "text": "move back over to the",
+      "start": 1191.52,
+      "duration": 3.2
+    },
+    {
+      "text": "slides. I'd just like to recap what we",
+      "start": 1194.76,
+      "duration": 4.6
+    },
+    {
+      "text": "did and provide you with some resources",
+      "start": 1197.52,
+      "duration": 5.039
+    },
+    {
+      "text": "to try yourself. We used a number of",
+      "start": 1199.36,
+      "duration": 5.679
+    },
+    {
+      "text": "different unstructured data sources like",
+      "start": 1202.559,
+      "duration": 6.48
+    },
+    {
+      "text": "images, PDFs, and text customer reviews.",
+      "start": 1205.039,
+      "duration": 6.481
+    },
+    {
+      "text": "And we generated valuable data that",
+      "start": 1209.039,
+      "duration": 4.601
+    },
+    {
+      "text": "helps our business and",
+      "start": 1211.52,
+      "duration": 4.48
+    },
+    {
+      "text": "discoverability, namely additional",
+      "start": 1213.64,
+      "duration": 5.0
+    },
+    {
+      "text": "product information from images. We",
+      "start": 1216.0,
+      "duration": 5.0
+    },
+    {
+      "text": "seated some basic frequently asked",
+      "start": 1218.64,
+      "duration": 4.48
+    },
+    {
+      "text": "questions. We generated brand",
+      "start": 1221.0,
+      "duration": 5.08
+    },
+    {
+      "text": "descriptions from images and text. And",
+      "start": 1223.12,
+      "duration": 5.52
+    },
+    {
+      "text": "lastly, we looked at alternative ways to",
+      "start": 1226.08,
+      "duration": 5.92
+    },
+    {
+      "text": "search using embeddings. We did all of",
+      "start": 1228.64,
+      "duration": 5.919
+    },
+    {
+      "text": "this in BigQuery and with the help of",
+      "start": 1232.0,
+      "duration": 4.919
+    },
+    {
+      "text": "Gemini and open",
+      "start": 1234.559,
+      "duration": 5.041
+    },
+    {
+      "text": "models. While we displayed a number of",
+      "start": 1236.919,
+      "duration": 5.24
+    },
+    {
+      "text": "generative AI capabilities today, there",
+      "start": 1239.6,
+      "duration": 5.52
+    },
+    {
+      "text": "are plenty more, and I'd encourage you",
+      "start": 1242.159,
+      "duration": 5.441
+    },
+    {
+      "text": "to think about what you might apply to",
+      "start": 1245.12,
+      "duration": 4.799
+    },
+    {
+      "text": "your data. Here you'll find some",
+      "start": 1247.6,
+      "duration": 5.28
+    },
+    {
+      "text": "information to get started. First, some",
+      "start": 1249.919,
+      "duration": 5.76
+    },
+    {
+      "text": "documentation and examples about using",
+      "start": 1252.88,
+      "duration": 5.44
+    },
+    {
+      "text": "new BigQuery generative AI functions",
+      "start": 1255.679,
+      "duration": 6.081
+    },
+    {
+      "text": "over your data. Next, additional",
+      "start": 1258.32,
+      "duration": 5.76
+    },
+    {
+      "text": "information about deploying and using",
+      "start": 1261.76,
+      "duration": 5.76
+    },
+    {
+      "text": "open models with BigQuery. And last, how",
+      "start": 1264.08,
+      "duration": 5.76
+    },
+    {
+      "text": "to get started with object ref to",
+      "start": 1267.52,
+      "duration": 5.039
+    },
+    {
+      "text": "analyze structured and unstructured data",
+      "start": 1269.84,
+      "duration": 5.8
+    },
+    {
+      "text": "together in the same tables. And",
+      "start": 1272.559,
+      "duration": 5.841
+    },
+    {
+      "text": "finally, on behalf of myself and",
+      "start": 1275.64,
+      "duration": 5.399
+    },
+    {
+      "text": "everyone on the Big Query and Vertex AI",
+      "start": 1278.4,
+      "duration": 5.04
+    },
+    {
+      "text": "teams who made all of this incredible",
+      "start": 1281.039,
+      "duration": 4.801
+    },
+    {
+      "text": "functionality possible, we'd like to",
+      "start": 1283.44,
+      "duration": 5.84
+    },
+    {
+      "text": "extend a big thank you for your time. I",
+      "start": 1285.84,
+      "duration": 5.92
+    },
+    {
+      "text": "hope you're as excited as we are about",
+      "start": 1289.28,
+      "duration": 4.8
+    },
+    {
+      "text": "getting hands-on and using generative",
+      "start": 1291.76,
+      "duration": 5.52
+    },
+    {
+      "text": "models for your own use cases. We look",
+      "start": 1294.08,
+      "duration": 5.44
+    },
+    {
+      "text": "forward to hearing from you about the",
+      "start": 1297.28,
+      "duration": 4.639
+    },
+    {
+      "text": "problems you solve with these features",
+      "start": 1299.52,
+      "duration": 5.039
+    },
+    {
+      "text": "and what you build with them. Enjoy the",
+      "start": 1301.919,
+      "duration": 5.041
+    },
+    {
+      "text": "rest of your time at Google IO and thank",
+      "start": 1304.559,
+      "duration": 6.281
+    },
+    {
+      "text": "you for joining us.",
+      "start": 1306.96,
+      "duration": 3.88
+    },
+    {
+      "text": "[Music]",
+      "start": 1314.81,
+      "duration": 3.17
+    }
+  ]
+}

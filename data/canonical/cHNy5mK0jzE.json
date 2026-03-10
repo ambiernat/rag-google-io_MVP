@@ -1,0 +1,112 @@
+[
+  {
+    "id": "cHNy5mK0jzE__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 6.319,
+    "timestamp_end": 162.16,
+    "text": "Hello and welcome. We're excited for you to join us today. I'm going to show something really exciting. How you can use generative AI to extract more value from your data with BigQuery. I'm Jeff Nelson, a developer relations engineer at Google Cloud. If you aren't already familiar, BigQuery is our data analytics platform. And what's cool is that it's integrated with other Google Cloud services like our unified AI development platform, Vert.Ex AI. This allows you to access powerful foundation models like the Gemini family right from your BigQuery environment. And the best part for a lot of folks is you can do all of this using familiar SQL syntax. So imagine you have structured bigquery tables or even unstructured multimodal data like PDFs, images, audio and video. You can feed that data along with a prompt and the Gemini model returns a response to BigQuery. To access these models in BigQuery, you can call an ML or AI function and supply it with a few input arguments, namely the model, a prompt, and some data. Gemini models take the prompt and data and generate a response for each row, returning the results to BigQuery in a structured and easy to consume format. You can then use these responses alongside your existing BigQuery tables or for ad hoc analysis. The examples I just mentioned used Gemini models, but we also provide model choice. So in addition to Gemini and Google embedding models, you can also call partner models like Claude, Llama, and Mistro models as a service. And lastly, you can access open models hosted on Vert.exai. X AI endpoints from BigQuery. These might include ones you pull from hugging face or even fine-tune models specific to your business. We're also very excited to announce structured data output in BigQuery. In many scenarios, you'd want to return specific fields and data types back from your large language model so it matches a certain schema. You can now define the output schema in the query and return the columns you ask for. BigQuery also works with multimodal",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 142.239,
+    "timestamp_end": 294.71999999999997,
+    "text": "to return specific fields and data types back from your large language model so it matches a certain schema. You can now define the output schema in the query and return the columns you ask for. BigQuery also works with multimodal data. So in addition to your structured fields in your tables, you can even reference unstructured data living in Google Cloud Storage like images, audio, documents, and more. And you can mix that structured and unstructured data together in a single inference query. Lastly, you have the flexibility to apply generative AI to all rows within a table, or you can choose to only run inference on a small subset of records. Now that we've covered some of the key BigQuery generative AI features, let's move to today's demo scenario to see everything in action. Imagine that you work for a retailer called Symbol Pets. Your company sells pet related products like dog toys or bird seed or cat food, but your website lacks valuable metadata like basic product information or search keywords which makes it hard for your customers to search and navigate and you have some unstructured data like product images or customer reviews but you're unsure how to extract value from them. Let's see how we can use BigQuery and Gemini models to populate the rest of our website. In this demo, we'll generate product metadata, frequently asked questions from product manuals, brand descriptions from images and text, and lastly, we'll show some new search techniques to enhance the website. All right, so let's orient ourselves and begin in the Google Cloud Console. And next I'll move over to BigQuery. In the BigQuery Explorer pane, I have a data set called symbol pets and it contains a number of tables related to my business. Tables like customers, employees, orders, products, and more. I can check out one of these tables, the products table for example, and see fields like product name, brand, description. But I notice that we don't have a subcategory. We don't know what animal type the product is for and we don't have any",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 276.96,
+    "timestamp_end": 432.16,
+    "text": "can check out one of these tables, the products table for example, and see fields like product name, brand, description. But I notice that we don't have a subcategory. We don't know what animal type the product is for and we don't have any search keywords. So, it's hard for people to find these products from search engines. Let's work on populating this data. Now, I begin by creating something called an object table. Actually, I'll create a few of them. And an object table is simply a way for BigQuery to access unstructured data in cloud storage. So I passed the URI which is a path to where the objects reside in cloud storage and this location contains our product image catalog. I could head over to this bucket and we could check those images out. For example, I can click on one of these images and here I see what looks to be an aquarium. So again, this is a bucket full of my product images and these object tables provide a SQL interface to those images in cloud storage. We're not moving data out of cloud storage. We're just referencing it. I also have a separate object table, one for product manuals, and we'll check that one out in a minute. Now, when I query an object table, I return back some information. We see fields like the URI that they're images some object metadata and importantly this ref column which includes elements like a URI an authorizer and some details. This ref column is known as an object ref and it's automatically added to new object tables. The ref column can also reside in standard BigQuery tables. An object ref is a new data type that forms the foundation for how we access unstructured objects for AI purposes. So keep it in mind as we move on. I also create a pointer to the Gemini 2.0 flash. And this endpoint is hosted in Vertex AI. So we're not creating a new model. We're not copying a model. We're simply pointing to an existing model so we can access it from BigQuery. Next, I'll begin to query my unstructured data with a pretty simple example. The AI.generate table function",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 412.56,
+    "timestamp_end": 569.519,
+    "text": "model. We're not copying a model. We're simply pointing to an existing model so we can access it from BigQuery. Next, I'll begin to query my unstructured data with a pretty simple example. The AI.generate table function takes a few inputs. The Gemini model we just defined, the object table which points to our product images, and a prompt asking to describe each product image in a single sentence. I also specify the a number of optional arguments like temperature and max output tokens. You might be familiar with some of these ladder arguments if you've used large language models, but rest assured that these are optional and BigQuery has default values for each one. And there we have it. Single sentence descriptions for each of our product images. For example, the first record describes a glass aquarium on a dark brown wooden base. And we can confirm the output is accurate over in Google Cloud Storage by checking out the image. We'll take a look. And that looks pretty accurate. So this is great. AI generate table will help us generate text based on our structured or unstructured inputs. Moving to an example that's a little bit more complex. For each image, I could also generate the animal type, like is it for a dog or a cat, a list of five likely search keywords, and a product subcategory. I can also define the structure of my outputs. I'll ask for three fields and define their data types. This is great because it helps eliminate the uncertainty of model responses and ensures that I return data that fits my table. I'll run this query and the response will help us populate the products table and our downstream website. As we saw before, these values were blank for fields like animal type or subcategory. Taking the aquarium example, we can see the assigned animal type is a fish, a list of five logical search keywords, and a subcategory as aquariums. Now, it would take countless hours to pour through hundreds or thousands of images and generate all of this by hand. So, we're saving a lot of time here by",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 548.32,
+    "timestamp_end": 703.6800000000001,
+    "text": "type is a fish, a list of five logical search keywords, and a subcategory as aquariums. Now, it would take countless hours to pour through hundreds or thousands of images and generate all of this by hand. So, we're saving a lot of time here by using the Gemini models. And of course, we can then update our products table with this info. We can also start to seed frequently asked questions on our website given unstructured assets, maybe using product manuals. A few minutes ago, we created an object table over a bucket containing product manuals. So, let's take a quick look at one of them. Here we see a product manual for an automatic pet feeder. It contains a bunch of information on how to use it and other technicalities. So, let's ask the Gemini model for three common question and answers that customers might have about the product. We'll run the query and the results are question answer pairs that are derived from the manual. This was done over just one manual for this demo, but the process is exactly the same if you have thousands of PDFs and will scale as expected. This is the type of info we can use to populate our website where there might otherwise be blank space. And this example is taken straight from a product manual, but we could also incorporate textual customer reviews or other modalities in the same query to further enhance the output. So far, we've mostly taken our unstructured references from object tables. But we can also generate these reference columns called object refs on standard BigQuery tables. In this example, I'll generate an object ref column on my products table. Adding object ref columns on standard BigQuery tables allows us to run multimodal analysis over any table. Here I passed the URI field alongside a connection through a make ref function and then pass that through the fetch metadata function to get some Google Cloud Storage metadata. And then I call this new column image ref because it points to my images. The result is my products table with an object ref column called image",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 683.12,
+    "timestamp_end": 852.959,
+    "text": "pass that through the fetch metadata function to get some Google Cloud Storage metadata. And then I call this new column image ref because it points to my images. The result is my products table with an object ref column called image ref. From here I can do some really unique things. For example, imagine that we want each brand to have a short statement on the symbol pets website. This query passes all of the images and all of the text descriptions from my new multimodal table into the Gemini model. The model then returns a succinct description for each brand. For example, you can see that the Aqua Clear brand has a description that was generated from an array of 33 images and 33 product descriptions. We could scale this out to thousands of imi images and text in a single call. Another interesting application is using AI operations to filter tables. Here's an example. I know my dog enjoys a certain brand of treats. I know it's highly rated and it costs less than $10. I can filter the table using standard wear clauses, but we still end up with 20 results. So I can add an AI.generate bool scalar function filter as well so that only rows where the conditions are true are returned. In this case, I know that my dog's treats come in a blue bag. So I'm going to prompt for the image has a blue bag of food. I'll run the query and the results come back. Instead of 20 items, now I'm down to one. This method of searching using traditional wear clauses combined with AI powered row operations is super powerful because sometimes default e-commerce filters just don't meet all of the customer needs. And we're not just limited to using the Gemini family of models within BigQuery. In this example, I'll create a pointer to a Quen QWQ 32 billion parameter model hosted on a Vertex AI endpoint. I'm going to kick off this query and we'll return to it in just a second. I'll head over to Vert.ex AI in the console. And within Vertex AI, we're able to choose from hundreds of popular open models, including over a 100,000 we can deploy straight from",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 833.04,
+    "timestamp_end": 986.88,
+    "text": "query and we'll return to it in just a second. I'll head over to Vert.ex AI in the console. And within Vertex AI, we're able to choose from hundreds of popular open models, including over a 100,000 we can deploy straight from HuggingFace. In fact, I chose this Quen 32B model because it was trending on HuggingFace. You can see I've already deployed the Quen 32B model in Vert.Ex AI and it's running on an endpoint on a GPU. This query extracts two to three key product themes across thousands of customer reviews. And this time I'm using the Quen model, not a Gemini model. And we can take a look at the results. So for any one of these products, we see some of our key themes that our C customers emphasized. This is a nice summary so a new user can get a sense of products without needing to read through thousands of reviews. And this works not only for open models but also for fine-tuned models that might be better for your business use case. Now I also want to talk about search. The BigQuery search function lets you find unique data elements that are buried in structured and semistructured data. If I want to search for something like a dog toy, I could use the BigQuery search function to look for the keyword in the description field. And when I do that, I return seven results. This is because the description field contains the words dog and toy seven times. But if I change my query to puppy toy, I don't return any results because no description field contains the string puppy and toy. This is a problem with keyword search. We only return results based on exact keywords. And that's where we can look toward semantic search. Semantic search uses vector embeddings to search rather than keywords. And these embeddings capture the meaning and the intent behind the query instead of just literal keywords. So I'll create a new big query model which again just points to a text embedding model hosted in Vert.Ex AI. And I'll show you what an embedding looks like. An embedding for puppy toy turns out to be an array of numbers that",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 967.16,
+    "timestamp_end": 1122.96,
+    "text": "keywords. So I'll create a new big query model which again just points to a text embedding model hosted in Vert.Ex AI. And I'll show you what an embedding looks like. An embedding for puppy toy turns out to be an array of numbers that doesn't really mean much to humans, but actually captures a ton of semantic information. We'll use this to search instead of keywords. These embeddings allow us to run a vector search. And specifically, I have this embedding subquery that gives me the same value that we just looked at. But now I'm passing it through the vector search function against the products table to which I've added an embedding column. And I specify to return only the top three results. So when I run the vector search, I actually get results. Now, although no description has the word puppy in it, our vector embeddings infer the intent behind my query and return appropriate products, the results are ordered by distance, calculated from vector embeddings, and a higher score is a better result. I see some toys that a puppy would love, and these are all items that didn't show up earlier with the standard search function. So, our search results are improving and this might be something to implement on our site. Now, I'd like to check the product images for my results because simply reading the descriptions isn't great for visualizing. So, I'll copy this query and move over to a BigQuery Collab notebook where you'll see there's already a little bit of Python set up. I just wrote a simple function to render the images returned from a vector search. So I can paste my query into a cell within this notebook and specify to return the result as a data frame called text results. When I print text results, I get the same information back as what we previously saw in the SQL editor. But I can also pass this new data frame into my display product images function and check out the results. This is pretty awesome because I can now use Python and SQL together to visualize my search right within BigQuery. Now this previous example",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 1099.2,
+    "timestamp_end": 1252.8799999999999,
+    "text": "I can also pass this new data frame into my display product images function and check out the results. This is pretty awesome because I can now use Python and SQL together to visualize my search right within BigQuery. Now this previous example compared embeddings from text to text, but we can also make this multimodal. I'll define another remote model in BigQuery that references the multimodal embedding model endpoint and almost identical to the last query. I'll turn my search query into a multimodal embedding as a subquery, but then I'll pass it through the vector search function to my table with images and embeddings. So now I'm searching text to image and I'll display the top results for fish tank. So, I'll search for the top three results and we can check them out. And when we check out the results, we are able to visualize them. One really neat application here is that I don't need to input the string fish tank necessarily. I could instead replace it with an image or audio or a video and still return results. This enables multimodal search like image to text or video to image and all other combinations. and it opens up a whole new world of possibilities for users to search our site. With that, we'll end the demo and move back over to the slides. I'd just like to recap what we did and provide you with some resources to try yourself. We used a number of different unstructured data sources like images, PDFs, and text customer reviews. And we generated valuable data that helps our business and discoverability, namely additional product information from images. We seated some basic frequently asked questions. We generated brand descriptions from images and text. And lastly, we looked at alternative ways to search using embeddings. We did all of this in BigQuery and with the help of Gemini and open models. While we displayed a number of generative AI capabilities today, there are plenty more, and I'd encourage you to think about what you might apply to your data. Here you'll find some",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "cHNy5mK0jzE__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "cHNy5mK0jzE",
+    "title": "Google I/O 2025 \u2013 cHNy5mK0jzE",
+    "timestamp_start": 1234.559,
+    "timestamp_end": 1317.98,
+    "text": "Gemini and open models. While we displayed a number of generative AI capabilities today, there are plenty more, and I'd encourage you to think about what you might apply to your data. Here you'll find some information to get started. First, some documentation and examples about using new BigQuery generative AI functions over your data. Next, additional information about deploying and using open models with BigQuery. And last, how to get started with object ref to analyze structured and unstructured data together in the same tables. And finally, on behalf of myself and everyone on the Big Query and Vertex AI teams who made all of this incredible functionality possible, we'd like to extend a big thank you for your time. I hope you're as excited as we are about getting hands-on and using generative models for your own use cases. We look forward to hearing from you about the problems you solve with these features and what you build with them. Enjoy the rest of your time at Google IO and thank you for joining us. [Music]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

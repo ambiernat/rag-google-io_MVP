@@ -1,0 +1,1532 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "2IAoYnzCTvw",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.402
+    },
+    {
+      "text": "CODY SMITH: Hi, I'm Cody, a\nproduct manager on Android.",
+      "start": 6.32,
+      "duration": 2.98
+    },
+    {
+      "text": "JOYCE TOH: And I'm Joyce,\na developer relations",
+      "start": 9.3,
+      "duration": 1.97
+    },
+    {
+      "text": "engineer on Chrome OS.",
+      "start": 11.27,
+      "duration": 1.72
+    },
+    {
+      "text": "Android is a powerful\nand highly capable",
+      "start": 12.99,
+      "duration": 2.45
+    },
+    {
+      "text": "platform for developers to\nbuild and deliver great app",
+      "start": 15.44,
+      "duration": 2.76
+    },
+    {
+      "text": "experiences for their users.",
+      "start": 18.2,
+      "duration": 1.78
+    },
+    {
+      "text": "Native Android apps offer\nperformance optimizations,",
+      "start": 19.98,
+      "duration": 3.15
+    },
+    {
+      "text": "device hardware access to things\nlike the camera and sensors,",
+      "start": 23.13,
+      "duration": 3.42
+    },
+    {
+      "text": "and offline functionality,\nwhich are all",
+      "start": 26.55,
+      "duration": 2.09
+    },
+    {
+      "text": "important for creating\nfeature-rich experiences.",
+      "start": 28.64,
+      "duration": 2.92
+    },
+    {
+      "text": "But Android apps can also\nfurther extend their capability",
+      "start": 31.56,
+      "duration": 2.9
+    },
+    {
+      "text": "by integrating web content\nand functionalities into it.",
+      "start": 34.46,
+      "duration": 3.28
+    },
+    {
+      "text": "So whether you'd like to\nleverage your existing web app",
+      "start": 37.74,
+      "duration": 2.87
+    },
+    {
+      "text": "investments and bring it\nto the Android platform",
+      "start": 40.61,
+      "duration": 2.59
+    },
+    {
+      "text": "or have an existing\nAndroid app and would",
+      "start": 43.2,
+      "duration": 2.09
+    },
+    {
+      "text": "like to take\nadvantage of the power",
+      "start": 45.29,
+      "duration": 1.56
+    },
+    {
+      "text": "and flexibility of the web, you\ncan consider the different web",
+      "start": 46.85,
+      "duration": 3.21
+    },
+    {
+      "text": "on Android APIs and\ntechnologies available today.",
+      "start": 50.06,
+      "duration": 3.04
+    },
+    {
+      "text": "In fact, over 3\nmillion Android apps",
+      "start": 53.1,
+      "duration": 2.03
+    },
+    {
+      "text": "are already using\nembedded web today.",
+      "start": 55.13,
+      "duration": 1.99
+    },
+    {
+      "text": "When and how you deploy embedded\nweb depends on your use case",
+      "start": 57.12,
+      "duration": 3.39
+    },
+    {
+      "text": "and needs.",
+      "start": 60.51,
+      "duration": 0.85
+    },
+    {
+      "text": "So let's dive further into\neach of these technologies",
+      "start": 61.36,
+      "duration": 2.51
+    },
+    {
+      "text": "to learn more.",
+      "start": 63.87,
+      "duration": 1.47
+    },
+    {
+      "text": "The two main embedded web\ntechnologies we will cover today",
+      "start": 65.34,
+      "duration": 3.09
+    },
+    {
+      "text": "are WebView and Custom tabs.",
+      "start": 68.43,
+      "duration": 2.23
+    },
+    {
+      "text": "WebView is an Android\nsystem component",
+      "start": 70.66,
+      "duration": 2.18
+    },
+    {
+      "text": "that allows web pages to be\ndisplayed within an activity",
+      "start": 72.84,
+      "duration": 3.03
+    },
+    {
+      "text": "layout.",
+      "start": 75.87,
+      "duration": 0.87
+    },
+    {
+      "text": "It can be customized\nand controlled",
+      "start": 76.74,
+      "duration": 1.86
+    },
+    {
+      "text": "to integrate and interact\nseamlessly with your native app,",
+      "start": 78.6,
+      "duration": 3.01
+    },
+    {
+      "text": "but in its simplest form, it's\na view that displays web pages.",
+      "start": 81.61,
+      "duration": 3.57
+    },
+    {
+      "text": "Custom tab is a feature\nof Android browsers",
+      "start": 85.18,
+      "duration": 2.57
+    },
+    {
+      "text": "that allows a customized browser\nexperience within an app.",
+      "start": 87.75,
+      "duration": 3.67
+    },
+    {
+      "text": "It's powered by a user's\npreferred browser,",
+      "start": 91.42,
+      "duration": 2.31
+    },
+    {
+      "text": "but also allows some\ndeveloper customization",
+      "start": 93.73,
+      "duration": 2.27
+    },
+    {
+      "text": "to the user experience.",
+      "start": 96.0,
+      "duration": 1.69
+    },
+    {
+      "text": "The first use case\nwe will cover is",
+      "start": 97.69,
+      "duration": 1.85
+    },
+    {
+      "text": "when you are looking to add\nweb content to your main app",
+      "start": 99.54,
+      "duration": 2.46
+    },
+    {
+      "text": "experience, where you own\nor control the content.",
+      "start": 102.0,
+      "duration": 3.07
+    },
+    {
+      "text": "And this use case, we recommend\nusing Android WebView.",
+      "start": 105.07,
+      "duration": 4.16
+    },
+    {
+      "text": "CODY SMITH: Built on the\nopen source Chromium Engine,",
+      "start": 109.23,
+      "duration": 2.23
+    },
+    {
+      "text": "Android WebView is the\nmost common Android",
+      "start": 111.46,
+      "duration": 1.97
+    },
+    {
+      "text": "API for embedded web.",
+      "start": 113.43,
+      "duration": 1.54
+    },
+    {
+      "text": "WebView is a view to\ndisplay web content.",
+      "start": 114.97,
+      "duration": 2.64
+    },
+    {
+      "text": "It does not include features\nof a traditional web browser,",
+      "start": 117.61,
+      "duration": 2.59
+    },
+    {
+      "text": "such as navigation\ncontrols or an address bar.",
+      "start": 120.2,
+      "duration": 2.64
+    },
+    {
+      "text": "This is so you can build in\nline with the rest of your app",
+      "start": 122.84,
+      "duration": 2.99
+    },
+    {
+      "text": "for a seamless user experience.",
+      "start": 125.83,
+      "duration": 1.96
+    },
+    {
+      "text": "Given the high flexibility\nand customization of WebView,",
+      "start": 127.79,
+      "duration": 2.698
+    },
+    {
+      "text": "it works really well as a main\nsupporting element to your app",
+      "start": 130.488,
+      "duration": 2.542
+    },
+    {
+      "text": "experience, as users\ntypically won't even",
+      "start": 133.03,
+      "duration": 1.708
+    },
+    {
+      "text": "know it's web powered content.",
+      "start": 134.738,
+      "duration": 2.102
+    },
+    {
+      "text": "Some of the most common ways\nyou can customize WebView",
+      "start": 136.84,
+      "duration": 3.06
+    },
+    {
+      "text": "are being able to resize the web\nelement based on your use case",
+      "start": 139.9,
+      "duration": 3.67
+    },
+    {
+      "text": "and need, handle events which\nimpact content rendering,",
+      "start": 143.57,
+      "duration": 3.03
+    },
+    {
+      "text": "such as form submissions,\nor using JavaScript",
+      "start": 146.6,
+      "duration": 2.63
+    },
+    {
+      "text": "to interact with and respond\nto the rest of your app code.",
+      "start": 149.23,
+      "duration": 2.97
+    },
+    {
+      "text": "With the advantages and\nflexibility of WebView,",
+      "start": 152.2,
+      "duration": 2.11
+    },
+    {
+      "text": "here are use cases where WebView\nwill typically be a good option.",
+      "start": 154.31,
+      "duration": 3.29
+    },
+    {
+      "text": "As shown on our initial slides\nwith Gmail, HTML text editing.",
+      "start": 157.6,
+      "duration": 4.72
+    },
+    {
+      "text": "Because you may already have an\nexisting investment with a web",
+      "start": 162.32,
+      "duration": 2.87
+    },
+    {
+      "text": "service where you\nleverage text editing,",
+      "start": 165.19,
+      "duration": 2.08
+    },
+    {
+      "text": "it can make sense to leverage\nthe capabilities of an HTML text",
+      "start": 167.27,
+      "duration": 3.14
+    },
+    {
+      "text": "editor within your\napp as well, so you",
+      "start": 170.41,
+      "duration": 2.19
+    },
+    {
+      "text": "can have a single source\nyou edit and deploy",
+      "start": 172.6,
+      "duration": 2.16
+    },
+    {
+      "text": "across your app and web.",
+      "start": 174.76,
+      "duration": 1.69
+    },
+    {
+      "text": "Second, HTML-based web pages\nsuch as articles, lists,",
+      "start": 176.45,
+      "duration": 4.82
+    },
+    {
+      "text": "web games, or other pages.",
+      "start": 181.27,
+      "duration": 1.7
+    },
+    {
+      "text": "Similar to the first,\nthere are many times",
+      "start": 182.97,
+      "duration": 2.34
+    },
+    {
+      "text": "when you as an app\ndeveloper already",
+      "start": 185.31,
+      "duration": 1.5
+    },
+    {
+      "text": "have an existing web page you\nwant to seamlessly integrate",
+      "start": 186.81,
+      "duration": 3.24
+    },
+    {
+      "text": "into your app experience without\ntaking the user to a browser.",
+      "start": 190.05,
+      "duration": 3.04
+    },
+    {
+      "text": "This is another good time\nto consider using WebView.",
+      "start": 193.09,
+      "duration": 2.7
+    },
+    {
+      "text": "Note, Android does have powerful\ntools to build and recreate",
+      "start": 195.79,
+      "duration": 3.29
+    },
+    {
+      "text": "this content as well with\ntextview and other views.",
+      "start": 199.08,
+      "duration": 2.65
+    },
+    {
+      "text": "The times to consider\nWebView are typically",
+      "start": 201.73,
+      "duration": 2.3
+    },
+    {
+      "text": "best when the content is\nsubject to a high frequency",
+      "start": 204.03,
+      "duration": 3.21
+    },
+    {
+      "text": "of iteration.",
+      "start": 207.24,
+      "duration": 1.59
+    },
+    {
+      "text": "Think about what King does with\ntheir popular \"Candy Crush Saga\"",
+      "start": 208.83,
+      "duration": 2.67
+    },
+    {
+      "text": "game.",
+      "start": 211.5,
+      "duration": 0.64
+    },
+    {
+      "text": "WebView allows them\nto iterate and launch",
+      "start": 212.14,
+      "duration": 2.12
+    },
+    {
+      "text": "in-app campaigns\nwhere they can iterate",
+      "start": 214.26,
+      "duration": 1.89
+    },
+    {
+      "text": "and cycle through while keeping\nthe core game experience",
+      "start": 216.15,
+      "duration": 2.97
+    },
+    {
+      "text": "and release cycle the same.",
+      "start": 219.12,
+      "duration": 2.25
+    },
+    {
+      "text": "A news article is\nanother good example.",
+      "start": 221.37,
+      "duration": 2.5
+    },
+    {
+      "text": "News articles can be updated\nand modified in real time",
+      "start": 223.87,
+      "duration": 2.87
+    },
+    {
+      "text": "as news continues to\ncome in, and oftentimes",
+      "start": 226.74,
+      "duration": 2.19
+    },
+    {
+      "text": "are powered by a website.",
+      "start": 228.93,
+      "duration": 1.48
+    },
+    {
+      "text": "Because you own or have\na high degree of trust",
+      "start": 230.41,
+      "duration": 2.54
+    },
+    {
+      "text": "with this content, you\ncan be confident what",
+      "start": 232.95,
+      "duration": 2.34
+    },
+    {
+      "text": "is being surfaced\nwith a web source will",
+      "start": 235.29,
+      "duration": 2.22
+    },
+    {
+      "text": "be accurate and safe.",
+      "start": 237.51,
+      "duration": 1.71
+    },
+    {
+      "text": "Another common use case\nto consider using WebView",
+      "start": 239.22,
+      "duration": 2.42
+    },
+    {
+      "text": "is to display third-party\ncontent like ads.",
+      "start": 241.64,
+      "duration": 2.76
+    },
+    {
+      "text": "Ads are a powerful tool to\ntailor your user experience",
+      "start": 244.4,
+      "duration": 3.18
+    },
+    {
+      "text": "and generate revenue\nwhen well done.",
+      "start": 247.58,
+      "duration": 2.23
+    },
+    {
+      "text": "WebView enables you\nto power these ad",
+      "start": 249.81,
+      "duration": 1.79
+    },
+    {
+      "text": "experiences from existing\nSDKs or other sources tailored",
+      "start": 251.6,
+      "duration": 3.33
+    },
+    {
+      "text": "to your app users for a\nseamless, integrated app",
+      "start": 254.93,
+      "duration": 2.279
+    },
+    {
+      "text": "experience.",
+      "start": 257.209,
+      "duration": 1.031
+    },
+    {
+      "text": "Before we move on, we\nwant to be sure to share",
+      "start": 258.24,
+      "duration": 2.39
+    },
+    {
+      "text": "with you what's new and coming\nsoon to Android WebView.",
+      "start": 260.63,
+      "duration": 2.38
+    },
+    {
+      "text": "First up, WebView now integrates\nwith family link content",
+      "start": 263.01,
+      "duration": 3.14
+    },
+    {
+      "text": "controls.",
+      "start": 266.15,
+      "duration": 1.05
+    },
+    {
+      "text": "Next, we've also\nadded support so you",
+      "start": 267.2,
+      "duration": 2.367
+    },
+    {
+      "text": "can integrate with\nvarious payment providers",
+      "start": 269.567,
+      "duration": 1.833
+    },
+    {
+      "text": "like Google Pay or others to\npass their payment experiences.",
+      "start": 271.4,
+      "duration": 3.66
+    },
+    {
+      "text": "And WebView now also supports\npasskeys as an authentication",
+      "start": 275.06,
+      "duration": 3.33
+    },
+    {
+      "text": "method.",
+      "start": 278.39,
+      "duration": 0.99
+    },
+    {
+      "text": "Additionally,\nrolling out now, we",
+      "start": 279.38,
+      "duration": 1.92
+    },
+    {
+      "text": "have some significant\ninvestments",
+      "start": 281.3,
+      "duration": 1.45
+    },
+    {
+      "text": "we've made to improve\nstartup load and rendering",
+      "start": 282.75,
+      "duration": 2.0
+    },
+    {
+      "text": "times in WebView for\ngreater performance.",
+      "start": 284.75,
+      "duration": 2.65
+    },
+    {
+      "text": "This is an area we are\ncontinuing to invest in",
+      "start": 287.4,
+      "duration": 2.06
+    },
+    {
+      "text": "and are excited for additional\nimprovements to come.",
+      "start": 289.46,
+      "duration": 2.17
+    },
+    {
+      "text": "In summary, think\nWebView when you",
+      "start": 291.63,
+      "duration": 2.27
+    },
+    {
+      "text": "are looking to embed web\ncontent as a part of your main",
+      "start": 293.9,
+      "duration": 2.55
+    },
+    {
+      "text": "or supporting app experience\nfor the benefits of flexibility",
+      "start": 296.45,
+      "duration": 3.22
+    },
+    {
+      "text": "and customization.",
+      "start": 299.67,
+      "duration": 1.647
+    },
+    {
+      "text": "JOYCE TOH: Now, let's\nlook at the second use",
+      "start": 301.317,
+      "duration": 1.833
+    },
+    {
+      "text": "case for using embedded\nweb within your app.",
+      "start": 303.15,
+      "duration": 2.56
+    },
+    {
+      "text": "In-app browsing is\nbest for when you",
+      "start": 305.71,
+      "duration": 1.79
+    },
+    {
+      "text": "are looking for a more full and\ntraditional browsing experience",
+      "start": 307.5,
+      "duration": 2.8
+    },
+    {
+      "text": "but still want it done within\nthe context of your app.",
+      "start": 310.3,
+      "duration": 2.52
+    },
+    {
+      "text": "While WebView can also\nbe used in this scenario,",
+      "start": 312.82,
+      "duration": 2.58
+    },
+    {
+      "text": "it is typically for very\nadvanced custom browsing",
+      "start": 315.4,
+      "duration": 2.18
+    },
+    {
+      "text": "experiences, where you have\na high level of investment",
+      "start": 317.58,
+      "duration": 2.85
+    },
+    {
+      "text": "to build and maintain\nthe experience.",
+      "start": 320.43,
+      "duration": 2.29
+    },
+    {
+      "text": "Instead, we recommend Custom\ntabs as the primary method",
+      "start": 322.72,
+      "duration": 3.08
+    },
+    {
+      "text": "to implement an in-app\nbrowsing experience.",
+      "start": 325.8,
+      "duration": 2.65
+    },
+    {
+      "text": "With Custom tabs,\nyour app directly",
+      "start": 328.45,
+      "duration": 2.03
+    },
+    {
+      "text": "launches a customizable browser\nexperience and loads web content",
+      "start": 330.48,
+      "duration": 3.63
+    },
+    {
+      "text": "in it.",
+      "start": 334.11,
+      "duration": 0.79
+    },
+    {
+      "text": "Users remain in\nyour app while they",
+      "start": 334.9,
+      "duration": 1.85
+    },
+    {
+      "text": "browse so they can stay engaged\nand return easily to the app.",
+      "start": 336.75,
+      "duration": 3.75
+    },
+    {
+      "text": "Here, you can see an\nexample of a Custom tab",
+      "start": 340.5,
+      "duration": 2.67
+    },
+    {
+      "text": "and its basic default anatomy.",
+      "start": 343.17,
+      "duration": 2.02
+    },
+    {
+      "text": "You'll notice that the web\npage is open full screen,",
+      "start": 345.19,
+      "duration": 2.6
+    },
+    {
+      "text": "with a browser address\nbar at the top.",
+      "start": 347.79,
+      "duration": 2.2
+    },
+    {
+      "text": "Let's Zoom in on it.",
+      "start": 349.99,
+      "duration": 1.85
+    },
+    {
+      "text": "The address bar displays the\nURL of the current web page,",
+      "start": 351.84,
+      "duration": 3.333
+    },
+    {
+      "text": "letting the user know what\nwebsite they're currently",
+      "start": 355.173,
+      "duration": 2.167
+    },
+    {
+      "text": "looking at.",
+      "start": 357.34,
+      "duration": 0.88
+    },
+    {
+      "text": "This also indicates to\nthe user that they're",
+      "start": 358.22,
+      "duration": 2.27
+    },
+    {
+      "text": "viewing this content from\nthe Custom tabs browser.",
+      "start": 360.49,
+      "duration": 2.83
+    },
+    {
+      "text": "There's also a\nClose button, which",
+      "start": 363.32,
+      "duration": 1.94
+    },
+    {
+      "text": "lets the user easily\nclose the Custom tab",
+      "start": 365.26,
+      "duration": 2.22
+    },
+    {
+      "text": "and return to the app.",
+      "start": 367.48,
+      "duration": 1.57
+    },
+    {
+      "text": "A Share button, as well\nas an additional menu,",
+      "start": 369.05,
+      "duration": 2.57
+    },
+    {
+      "text": "gives the user access to\nother browser actions.",
+      "start": 371.62,
+      "duration": 2.98
+    },
+    {
+      "text": "Remember, Custom tabs are\na feature of and by default",
+      "start": 374.6,
+      "duration": 3.65
+    },
+    {
+      "text": "powered by a user's\npreferred Android browser.",
+      "start": 378.25,
+      "duration": 3.07
+    },
+    {
+      "text": "Therefore, it also has access\nto any API or feature offered",
+      "start": 381.32,
+      "duration": 3.68
+    },
+    {
+      "text": "by the browser.",
+      "start": 385.0,
+      "duration": 1.09
+    },
+    {
+      "text": "There's no additional\nmaintenance overhead",
+      "start": 386.09,
+      "duration": 1.97
+    },
+    {
+      "text": "for things like managing\npermissions, storing cookies,",
+      "start": 388.06,
+      "duration": 2.98
+    },
+    {
+      "text": "and saving passwords because\nit automatically shares state",
+      "start": 391.04,
+      "duration": 2.9
+    },
+    {
+      "text": "with the browser.",
+      "start": 393.94,
+      "duration": 1.26
+    },
+    {
+      "text": "With Custom tabs, you're getting\nall of these powerful browser",
+      "start": 395.2,
+      "duration": 2.97
+    },
+    {
+      "text": "features out of the box.",
+      "start": 398.17,
+      "duration": 1.96
+    },
+    {
+      "text": "On the other hand, this\nmeans capabilities may vary",
+      "start": 400.13,
+      "duration": 2.84
+    },
+    {
+      "text": "and customizations will differ.",
+      "start": 402.97,
+      "duration": 2.17
+    },
+    {
+      "text": "Though most browsers\nhave some level",
+      "start": 405.14,
+      "duration": 1.79
+    },
+    {
+      "text": "of support for Custom tabs,\nit's important to verify",
+      "start": 406.93,
+      "duration": 3.12
+    },
+    {
+      "text": "the availability of\nfeatures and ensure",
+      "start": 410.05,
+      "duration": 2.04
+    },
+    {
+      "text": "compatibility of your\nimplementation across browsers.",
+      "start": 412.09,
+      "duration": 3.67
+    },
+    {
+      "text": "Here's how you would check\nif the user's default",
+      "start": 415.76,
+      "duration": 2.43
+    },
+    {
+      "text": "browser supports Custom tabs,\nwith the get package name helper",
+      "start": 418.19,
+      "duration": 3.87
+    },
+    {
+      "text": "method.",
+      "start": 422.06,
+      "duration": 0.81
+    },
+    {
+      "text": "If no package is\nreturned, this means",
+      "start": 422.87,
+      "duration": 2.28
+    },
+    {
+      "text": "that Custom tabs\nare not supported",
+      "start": 425.15,
+      "duration": 1.74
+    },
+    {
+      "text": "by the default browser.",
+      "start": 426.89,
+      "duration": 1.74
+    },
+    {
+      "text": "In this scenario,\nyou can continue",
+      "start": 428.63,
+      "duration": 1.89
+    },
+    {
+      "text": "to check if other browsers on\nthe device support custom tabs",
+      "start": 430.52,
+      "duration": 3.21
+    },
+    {
+      "text": "or fall back to a standard\naction view intent",
+      "start": 433.73,
+      "duration": 2.49
+    },
+    {
+      "text": "to launch the URL in\nany available browser.",
+      "start": 436.22,
+      "duration": 3.12
+    },
+    {
+      "text": "In general, Custom tabs\nare good as a powerful,",
+      "start": 439.34,
+      "duration": 2.88
+    },
+    {
+      "text": "out-of-the-box\nbrowsing experience.",
+      "start": 442.22,
+      "duration": 1.96
+    },
+    {
+      "text": "They allow you as\nan app developer",
+      "start": 444.18,
+      "duration": 2.0
+    },
+    {
+      "text": "to develop your\nprimary app experience",
+      "start": 446.18,
+      "duration": 2.41
+    },
+    {
+      "text": "and also benefit from the\ncapabilities of full browsers",
+      "start": 448.59,
+      "duration": 3.2
+    },
+    {
+      "text": "while keeping users\nwithin your app context.",
+      "start": 451.79,
+      "duration": 2.83
+    },
+    {
+      "text": "It is a simple and easy\nway to provide your users",
+      "start": 454.62,
+      "duration": 3.14
+    },
+    {
+      "text": "a seamless transition to and\nfrom an embedded web browsing",
+      "start": 457.76,
+      "duration": 3.51
+    },
+    {
+      "text": "experience.",
+      "start": 461.27,
+      "duration": 1.03
+    },
+    {
+      "text": "Thanks to the shared state.",
+      "start": 462.3,
+      "duration": 1.62
+    },
+    {
+      "text": "There's also reduced\nfriction for users",
+      "start": 463.92,
+      "duration": 2.18
+    },
+    {
+      "text": "if they've already signed\ninto and granted permissions",
+      "start": 466.1,
+      "duration": 2.76
+    },
+    {
+      "text": "to the site before.",
+      "start": 468.86,
+      "duration": 1.5
+    },
+    {
+      "text": "More importantly, the\nuser's credentials",
+      "start": 470.36,
+      "duration": 2.16
+    },
+    {
+      "text": "are protected and stay isolated\nto any third-party sites.",
+      "start": 472.52,
+      "duration": 3.94
+    },
+    {
+      "text": "Keeping in mind the strengths\nand limitations of Custom tabs,",
+      "start": 476.46,
+      "duration": 3.34
+    },
+    {
+      "text": "let's take a look\nat some examples.",
+      "start": 479.8,
+      "duration": 2.54
+    },
+    {
+      "text": "In this example, you\ncan see that clicking",
+      "start": 482.34,
+      "duration": 1.98
+    },
+    {
+      "text": "on a link in a YouTube\nvideo description",
+      "start": 484.32,
+      "duration": 2.34
+    },
+    {
+      "text": "opens up a Custom tab\ndisplaying the website.",
+      "start": 486.66,
+      "duration": 2.92
+    },
+    {
+      "text": "In this use case, the link\nis not controlled by YouTube,",
+      "start": 489.58,
+      "duration": 2.88
+    },
+    {
+      "text": "because the video uploader\nmanages the links that they'd",
+      "start": 492.46,
+      "duration": 2.48
+    },
+    {
+      "text": "like to show in the\ndescription of their video,",
+      "start": 494.94,
+      "duration": 2.41
+    },
+    {
+      "text": "and the link goes to third-party\ncontent not owned by YouTube.",
+      "start": 497.35,
+      "duration": 3.87
+    },
+    {
+      "text": "By using a Custom tab to\nopen these description links,",
+      "start": 501.22,
+      "duration": 3.15
+    },
+    {
+      "text": "the YouTube app doesn't have\nto worry about the best way",
+      "start": 504.37,
+      "duration": 2.69
+    },
+    {
+      "text": "to integrate it into\nits existing native app",
+      "start": 507.06,
+      "duration": 2.38
+    },
+    {
+      "text": "UI and experience.",
+      "start": 509.44,
+      "duration": 1.62
+    },
+    {
+      "text": "Instead, it can hand it off to\nthe device's default browser",
+      "start": 511.06,
+      "duration": 3.32
+    },
+    {
+      "text": "to provide the\nbrowsing experience.",
+      "start": 514.38,
+      "duration": 2.049
+    },
+    {
+      "text": "At the same time, the user\nstays within the YouTube app",
+      "start": 516.429,
+      "duration": 2.721
+    },
+    {
+      "text": "and can easily\nexit the Custom tab",
+      "start": 519.15,
+      "duration": 2.04
+    },
+    {
+      "text": "once they've completed\ntheir browsing journey.",
+      "start": 521.19,
+      "duration": 2.41
+    },
+    {
+      "text": "They are then returned back to\nthe YouTube app and the video",
+      "start": 523.6,
+      "duration": 2.51
+    },
+    {
+      "text": "they were on.",
+      "start": 526.11,
+      "duration": 1.5
+    },
+    {
+      "text": "Next we have the Reddit app.",
+      "start": 527.61,
+      "duration": 2.14
+    },
+    {
+      "text": "When a user taps\non an in-app ad,",
+      "start": 529.75,
+      "duration": 2.4
+    },
+    {
+      "text": "instead of taking the user\nout of the Reddit app context",
+      "start": 532.15,
+      "duration": 2.54
+    },
+    {
+      "text": "and redirecting them\nto an outside browser,",
+      "start": 534.69,
+      "duration": 2.24
+    },
+    {
+      "text": "the ad link is launched\nin a custom tab.",
+      "start": 536.93,
+      "duration": 2.6
+    },
+    {
+      "text": "Custom tabs allow\na light touch way",
+      "start": 539.53,
+      "duration": 2.31
+    },
+    {
+      "text": "to embed this content\ninto their app",
+      "start": 541.84,
+      "duration": 2.08
+    },
+    {
+      "text": "while continuing to keep\nthe user in their app.",
+      "start": 543.92,
+      "duration": 2.9
+    },
+    {
+      "text": "To get started with using a\nCustom tab to open a link,",
+      "start": 546.82,
+      "duration": 3.28
+    },
+    {
+      "text": "you'll need to first install and\nadd the AndroidX browser library",
+      "start": 550.1,
+      "duration": 3.8
+    },
+    {
+      "text": "to your project.",
+      "start": 553.9,
+      "duration": 1.21
+    },
+    {
+      "text": "Then create a Custom tabs intent\nand use it to launch the URL.",
+      "start": 555.11,
+      "duration": 4.56
+    },
+    {
+      "text": "But there's a lot more can do\nin terms of UI customization.",
+      "start": 559.67,
+      "duration": 3.45
+    },
+    {
+      "text": "These include setting\nthe browser bar color",
+      "start": 563.12,
+      "duration": 2.51
+    },
+    {
+      "text": "to match your branding,\nadding a custom close icon,",
+      "start": 565.63,
+      "duration": 3.54
+    },
+    {
+      "text": "and displaying the document\ntitle with the URL.",
+      "start": 569.17,
+      "duration": 2.97
+    },
+    {
+      "text": "You can also configure the\nentrance and exit animations",
+      "start": 572.14,
+      "duration": 3.33
+    },
+    {
+      "text": "for when the user transitions\nto and from the web browsing",
+      "start": 575.47,
+      "duration": 2.88
+    },
+    {
+      "text": "experience.",
+      "start": 578.35,
+      "duration": 0.88
+    },
+    {
+      "text": "Here, you can see the Custom tab\nslides in from the right when",
+      "start": 579.23,
+      "duration": 3.05
+    },
+    {
+      "text": "it's launched.",
+      "start": 582.28,
+      "duration": 1.36
+    },
+    {
+      "text": "Then upon exit, it slides\nback out to the right.",
+      "start": 583.64,
+      "duration": 3.08
+    },
+    {
+      "text": "While there will be\nsignals to the user",
+      "start": 586.72,
+      "duration": 2.04
+    },
+    {
+      "text": "that they're in a web\nbrowsing experience,",
+      "start": 588.76,
+      "duration": 2.05
+    },
+    {
+      "text": "these customizations allow\nyou to adapt the appearance",
+      "start": 590.81,
+      "duration": 2.66
+    },
+    {
+      "text": "and behavior so it\nstill matches and feels",
+      "start": 593.47,
+      "duration": 2.22
+    },
+    {
+      "text": "like a part of your\nmain app experience.",
+      "start": 595.69,
+      "duration": 2.38
+    },
+    {
+      "text": "Starting in Chrome 107, you can\nalso specify a launch height",
+      "start": 598.07,
+      "duration": 3.96
+    },
+    {
+      "text": "so the Custom tab doesn't\nlaunch as a full window",
+      "start": 602.03,
+      "duration": 2.61
+    },
+    {
+      "text": "and instead as a partial\nCustom tab, which",
+      "start": 604.64,
+      "duration": 2.51
+    },
+    {
+      "text": "behaves as a bottom sheet\nthat the user can also drag up",
+      "start": 607.15,
+      "duration": 2.85
+    },
+    {
+      "text": "to expand to full screen.",
+      "start": 610.0,
+      "duration": 2.1
+    },
+    {
+      "text": "As with all Custom tab features,\nsupport for these customizations",
+      "start": 612.1,
+      "duration": 3.42
+    },
+    {
+      "text": "may vary across browsers.",
+      "start": 615.52,
+      "duration": 1.45
+    },
+    {
+      "text": "So always verify\navailability of features",
+      "start": 616.97,
+      "duration": 2.63
+    },
+    {
+      "text": "and ensure compatibility\nof your implementation",
+      "start": 619.6,
+      "duration": 2.73
+    },
+    {
+      "text": "against browsers and\nbrowser versions.",
+      "start": 622.33,
+      "duration": 2.35
+    },
+    {
+      "text": "Now, let's build on what we've\nlearned about Custom tabs",
+      "start": 624.68,
+      "duration": 2.78
+    },
+    {
+      "text": "and take a look at a\nrelated technology.",
+      "start": 627.46,
+      "duration": 2.58
+    },
+    {
+      "text": "Trusted web activities,\nor TWAs for short,",
+      "start": 630.04,
+      "duration": 3.46
+    },
+    {
+      "text": "are a subclass of the\nAndroid activity class.",
+      "start": 633.5,
+      "duration": 2.85
+    },
+    {
+      "text": "It also allows an Android\napp to open web content",
+      "start": 636.35,
+      "duration": 2.96
+    },
+    {
+      "text": "and uses a protocol\nbased on Custom tabs.",
+      "start": 639.31,
+      "duration": 2.86
+    },
+    {
+      "text": "Therefore, web content\nrendered in a TWA",
+      "start": 642.17,
+      "duration": 2.9
+    },
+    {
+      "text": "is similarly rendered\nby the user's browser.",
+      "start": 645.07,
+      "duration": 2.62
+    },
+    {
+      "text": "So it also supports the same\nbrowser features and APIs.",
+      "start": 647.69,
+      "duration": 3.89
+    },
+    {
+      "text": "With Custom tabs, we saw that\nthere is some minimal Browser",
+      "start": 651.58,
+      "duration": 2.98
+    },
+    {
+      "text": "UI shown in the address bar,\nlike the URL and Close button.",
+      "start": 654.56,
+      "duration": 3.75
+    },
+    {
+      "text": "TWAs, however, do not\nhave the address bar,",
+      "start": 658.31,
+      "duration": 3.06
+    },
+    {
+      "text": "and the Web Content\nis shown full screen.",
+      "start": 661.37,
+      "duration": 3.0
+    },
+    {
+      "text": "This capability of TWAs\nis enabled by the fact",
+      "start": 664.37,
+      "duration": 3.12
+    },
+    {
+      "text": "that content in a TWA\nis considered trusted.",
+      "start": 667.49,
+      "duration": 3.36
+    },
+    {
+      "text": "The Android app and\nwebsite are expected",
+      "start": 670.85,
+      "duration": 2.22
+    },
+    {
+      "text": "to be owned by the\nsame developer.",
+      "start": 673.07,
+      "duration": 2.31
+    },
+    {
+      "text": "Hence, the browser\naddress bar can",
+      "start": 675.38,
+      "duration": 1.71
+    },
+    {
+      "text": "be removed, as there is no\nneed to indicate to the user",
+      "start": 677.09,
+      "duration": 2.52
+    },
+    {
+      "text": "that they're consuming\nthird-party web content.",
+      "start": 679.61,
+      "duration": 2.15
+    },
+    {
+      "text": "CODY SMITH: To close out, let's\ngive a quick summary of what",
+      "start": 683.95,
+      "duration": 2.5
+    },
+    {
+      "text": "we've covered.",
+      "start": 686.45,
+      "duration": 1.05
+    },
+    {
+      "text": "Here's a quick run through of\nthe features and advantages",
+      "start": 687.5,
+      "duration": 2.46
+    },
+    {
+      "text": "supported by WebView\nand Custom tabs.",
+      "start": 689.96,
+      "duration": 2.195
+    },
+    {
+      "text": "So you'll be able to make\nan informed decision when",
+      "start": 692.155,
+      "duration": 2.125
+    },
+    {
+      "text": "choosing which to use.",
+      "start": 694.28,
+      "duration": 1.83
+    },
+    {
+      "text": "If embedding web content that is\nyour own, whether it's primary",
+      "start": 696.11,
+      "duration": 2.88
+    },
+    {
+      "text": "or supporting\ncontent, WebView is",
+      "start": 698.99,
+      "duration": 1.71
+    },
+    {
+      "text": "great for more advanced control\nof the UI and more seamless",
+      "start": 700.7,
+      "duration": 2.58
+    },
+    {
+      "text": "integration with your\nnative app code and UX.",
+      "start": 703.28,
+      "duration": 2.95
+    },
+    {
+      "text": "You can leverage JavaScript to\ninteract with your app code.",
+      "start": 706.23,
+      "duration": 3.06
+    },
+    {
+      "text": "Its flexibility and\nadvanced controls",
+      "start": 709.29,
+      "duration": 1.67
+    },
+    {
+      "text": "allow you to implement\nbetter customization to mix",
+      "start": 710.96,
+      "duration": 2.93
+    },
+    {
+      "text": "and match and coordinate the web\nand Native Android components",
+      "start": 713.89,
+      "duration": 2.88
+    },
+    {
+      "text": "of your app into a tightly\nintegrated experience",
+      "start": 716.77,
+      "duration": 2.46
+    },
+    {
+      "text": "for your user.",
+      "start": 719.23,
+      "duration": 1.62
+    },
+    {
+      "text": "Custom tabs have the full power\nof the user's default browser",
+      "start": 720.85,
+      "duration": 2.97
+    },
+    {
+      "text": "behind it.",
+      "start": 723.82,
+      "duration": 0.85
+    },
+    {
+      "text": "So it can provide a great\nin-app browsing experience",
+      "start": 724.67,
+      "duration": 2.66
+    },
+    {
+      "text": "with some minimal Browser UI\nwhile preserving user privacy",
+      "start": 727.33,
+      "duration": 3.15
+    },
+    {
+      "text": "and reducing user friction.",
+      "start": 730.48,
+      "duration": 1.57
+    },
+    {
+      "text": "Thanks to shared state of things\nlike permissions and cookies,",
+      "start": 732.05,
+      "duration": 2.64
+    },
+    {
+      "text": "which stay isolated\nfrom the Android client.",
+      "start": 734.69,
+      "duration": 2.907
+    },
+    {
+      "text": "JOYCE TOH: Lastly,\ncheck out the links",
+      "start": 737.597,
+      "duration": 1.583
+    },
+    {
+      "text": "below to get the technical\ndocumentation for everything",
+      "start": 739.18,
+      "duration": 2.61
+    },
+    {
+      "text": "we covered.",
+      "start": 741.79,
+      "duration": 0.88
+    },
+    {
+      "text": "Developer.android.com\nis your go to resource",
+      "start": 742.67,
+      "duration": 2.9
+    },
+    {
+      "text": "for all things\nAndroid development,",
+      "start": 745.57,
+      "duration": 1.99
+    },
+    {
+      "text": "including embedded\nweb on Android.",
+      "start": 747.56,
+      "duration": 2.31
+    },
+    {
+      "text": "Thank you for joining us to\nlearn about best practices",
+      "start": 749.87,
+      "duration": 2.69
+    },
+    {
+      "text": "for using embedded web\nin your Android apps.",
+      "start": 752.56,
+      "duration": 2.23
+    },
+    {
+      "text": "We can't wait to\nsee how you take",
+      "start": 754.79,
+      "duration": 1.55
+    },
+    {
+      "text": "advantage of these technologies\nto build powerful and capable",
+      "start": 756.34,
+      "duration": 3.09
+    },
+    {
+      "text": "applications for your users.",
+      "start": 759.43,
+      "duration": 1.29
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 760.72,
+      "duration": 3.35
+    }
+  ]
+}

@@ -1,0 +1,5072 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "IaNpcrCSDiI",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.227
+    },
+    {
+      "text": "JOLANDA VERHOEF: Hi, everyone.",
+      "start": 5.27,
+      "duration": 1.25
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 6.52,
+      "duration": 1.168
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 7.688,
+      "duration": 3.416
+    },
+    {
+      "text": "Welcome.",
+      "start": 12.08,
+      "duration": 1.39
+    },
+    {
+      "text": "Thanks for joining us today.",
+      "start": 13.47,
+      "duration": 1.95
+    },
+    {
+      "text": "My name is Jolanda.",
+      "start": 15.42,
+      "duration": 1.19
+    },
+    {
+      "text": "And I'll be joined later\nby John and Jingyu.",
+      "start": 16.61,
+      "duration": 3.51
+    },
+    {
+      "text": "And together, we'll share\nwhat is new and upcoming",
+      "start": 20.12,
+      "duration": 2.91
+    },
+    {
+      "text": "in Android development.",
+      "start": 23.03,
+      "duration": 2.04
+    },
+    {
+      "text": "I'll start with a\nbit of a deep dive",
+      "start": 25.07,
+      "duration": 2.37
+    },
+    {
+      "text": "into what we're\ndoing to make you,",
+      "start": 27.44,
+      "duration": 1.66
+    },
+    {
+      "text": "as developers, more productive.",
+      "start": 29.1,
+      "duration": 2.27
+    },
+    {
+      "text": "And then John and Jingyu\nwill cover the wide variety",
+      "start": 31.37,
+      "duration": 3.51
+    },
+    {
+      "text": "of changes and\nimprovements that we're",
+      "start": 34.88,
+      "duration": 2.7
+    },
+    {
+      "text": "making to help you build\nexcellent apps across devices.",
+      "start": 37.58,
+      "duration": 4.98
+    },
+    {
+      "text": "And because I get\nto start, of course,",
+      "start": 42.56,
+      "duration": 3.73
+    },
+    {
+      "text": "I'm going to start with my\nall-time favorite topic, Jetpack",
+      "start": 46.29,
+      "duration": 4.19
+    },
+    {
+      "text": "Compose.",
+      "start": 50.48,
+      "duration": 0.94
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 51.42,
+      "duration": 3.206
+    },
+    {
+      "text": "Now, I was actually\npreparing this talk,",
+      "start": 56.0,
+      "duration": 2.4
+    },
+    {
+      "text": "and I was looking\nfor some inspiration.",
+      "start": 58.4,
+      "duration": 2.24
+    },
+    {
+      "text": "And so I watched the 2019\ntalk, the What's New in Android",
+      "start": 60.64,
+      "duration": 3.64
+    },
+    {
+      "text": "talk back then.",
+      "start": 64.28,
+      "duration": 1.15
+    },
+    {
+      "text": "And it made me realize that\nwe've come such a long way.",
+      "start": 65.43,
+      "duration": 2.99
+    },
+    {
+      "text": "Back then, we introduced\nCompose as this new UI toolkit",
+      "start": 68.42,
+      "duration": 4.08
+    },
+    {
+      "text": "for all of you to try out.",
+      "start": 72.5,
+      "duration": 1.66
+    },
+    {
+      "text": "And now Compose is our\nrecommended toolkit",
+      "start": 74.16,
+      "duration": 2.87
+    },
+    {
+      "text": "for building UI on Android.",
+      "start": 77.03,
+      "duration": 3.66
+    },
+    {
+      "text": "And year over year, we\nsee the adoption grow.",
+      "start": 80.69,
+      "duration": 3.07
+    },
+    {
+      "text": "We are now at 60% of the top\n1,000 apps using it and loving",
+      "start": 83.76,
+      "duration": 5.18
+    },
+    {
+      "text": "it in production.",
+      "start": 88.94,
+      "duration": 2.1
+    },
+    {
+      "text": "And Compose gives us the\nfeatures, the performance,",
+      "start": 91.04,
+      "duration": 3.82
+    },
+    {
+      "text": "the stability, and\nthe libraries that you",
+      "start": 94.86,
+      "duration": 2.69
+    },
+    {
+      "text": "need to help build you\nbeautiful adaptive apps,",
+      "start": 97.55,
+      "duration": 4.21
+    },
+    {
+      "text": "and also to build those\napps faster so that you",
+      "start": 101.76,
+      "duration": 3.23
+    },
+    {
+      "text": "can be focusing on those things\nthat truly matter to your users.",
+      "start": 104.99,
+      "duration": 5.82
+    },
+    {
+      "text": "With the stable\nrelease of Compose,",
+      "start": 110.81,
+      "duration": 1.9
+    },
+    {
+      "text": "we've added lots of\nnew functionalities,",
+      "start": 112.71,
+      "duration": 2.25
+    },
+    {
+      "text": "with more to come in\nthe alphas as well.",
+      "start": 114.96,
+      "duration": 3.05
+    },
+    {
+      "text": "And today, I want to highlight\na few important ones for you.",
+      "start": 118.01,
+      "duration": 4.46
+    },
+    {
+      "text": "So let's start with autofill.",
+      "start": 122.47,
+      "duration": 2.26
+    },
+    {
+      "text": "Autofill allows users of your\napp to automatically fill out",
+      "start": 124.73,
+      "duration": 3.92
+    },
+    {
+      "text": "form fields with\npersonal information",
+      "start": 128.65,
+      "duration": 2.88
+    },
+    {
+      "text": "that they filled out\nsome time before.",
+      "start": 131.53,
+      "duration": 2.67
+    },
+    {
+      "text": "And you've been asking for\nautofill support in Compose",
+      "start": 134.2,
+      "duration": 2.85
+    },
+    {
+      "text": "for quite some time now.",
+      "start": 137.05,
+      "duration": 1.71
+    },
+    {
+      "text": "And we've actually been working\non it for quite some time",
+      "start": 138.76,
+      "duration": 2.85
+    },
+    {
+      "text": "now, to be honest.",
+      "start": 141.61,
+      "duration": 1.56
+    },
+    {
+      "text": "But it was quite\na difficult thing",
+      "start": 143.17,
+      "duration": 2.25
+    },
+    {
+      "text": "to implement because\nwe needed to do",
+      "start": 145.42,
+      "duration": 1.74
+    },
+    {
+      "text": "quite a big rewrite of our\ninternal semantic system.",
+      "start": 147.16,
+      "duration": 4.08
+    },
+    {
+      "text": "We continued.",
+      "start": 151.24,
+      "duration": 1.0
+    },
+    {
+      "text": "We did that rewrite.",
+      "start": 152.24,
+      "duration": 1.23
+    },
+    {
+      "text": "It's done.",
+      "start": 153.47,
+      "duration": 0.72
+    },
+    {
+      "text": "And so the basic\nautofill APIs are",
+      "start": 154.19,
+      "duration": 2.21
+    },
+    {
+      "text": "available for you\nto use in the latest",
+      "start": 156.4,
+      "duration": 1.95
+    },
+    {
+      "text": "stable version of Compose.",
+      "start": 158.35,
+      "duration": 2.04
+    },
+    {
+      "text": "So let's take a look, right?",
+      "start": 160.39,
+      "duration": 2.56
+    },
+    {
+      "text": "Here, you see a\ntypical login screen",
+      "start": 162.95,
+      "duration": 2.27
+    },
+    {
+      "text": "with two text fields,\nusername and password.",
+      "start": 165.22,
+      "duration": 3.22
+    },
+    {
+      "text": "And those two text\nfields both play a role",
+      "start": 168.44,
+      "duration": 2.42
+    },
+    {
+      "text": "in authentication,\nwhich we somehow have",
+      "start": 170.86,
+      "duration": 2.01
+    },
+    {
+      "text": "to convey to the autofill APIs.",
+      "start": 172.87,
+      "duration": 2.5
+    },
+    {
+      "text": "So how would we implement that?",
+      "start": 175.37,
+      "duration": 2.3
+    },
+    {
+      "text": "First, we get a\nsemantics modifier.",
+      "start": 177.67,
+      "duration": 2.92
+    },
+    {
+      "text": "You've been using this probably\nin some other cases in your app",
+      "start": 180.59,
+      "duration": 2.66
+    },
+    {
+      "text": "as well.",
+      "start": 183.25,
+      "duration": 0.88
+    },
+    {
+      "text": "And inside, we have a\nnew ContentType property.",
+      "start": 184.13,
+      "duration": 3.66
+    },
+    {
+      "text": "When you set that\nContentType property,",
+      "start": 187.79,
+      "duration": 1.95
+    },
+    {
+      "text": "you can give it the role\nof the authentication",
+      "start": 189.74,
+      "duration": 2.6
+    },
+    {
+      "text": "that that text field has.",
+      "start": 192.34,
+      "duration": 1.51
+    },
+    {
+      "text": "So in this case, I'm\nsetting the first one",
+      "start": 193.85,
+      "duration": 2.36
+    },
+    {
+      "text": "to the type Username and then\nthe second one to type Password.",
+      "start": 196.21,
+      "duration": 4.63
+    },
+    {
+      "text": "And that's all we need\nto make autofill work.",
+      "start": 200.84,
+      "duration": 3.5
+    },
+    {
+      "text": "Now, if you use the\nalpha version of Compose,",
+      "start": 204.34,
+      "duration": 2.55
+    },
+    {
+      "text": "this is actually even\neasier because we've",
+      "start": 206.89,
+      "duration": 1.83
+    },
+    {
+      "text": "added a new modifier,\nContentType,",
+      "start": 208.72,
+      "duration": 2.38
+    },
+    {
+      "text": "which lets you just set this\ndirectly with one line of code.",
+      "start": 211.1,
+      "duration": 5.54
+    },
+    {
+      "text": "Next up is autosizing text, or\nmaking your text automatically",
+      "start": 216.64,
+      "duration": 3.99
+    },
+    {
+      "text": "adapt to the size\nof its container.",
+      "start": 220.63,
+      "duration": 2.4
+    },
+    {
+      "text": "This is as easy as adding\nthis new AutoSize parameter",
+      "start": 223.03,
+      "duration": 3.48
+    },
+    {
+      "text": "to your text composable.",
+      "start": 226.51,
+      "duration": 1.98
+    },
+    {
+      "text": "And you can even configure it\nwith minimum and maximum font",
+      "start": 228.49,
+      "duration": 2.91
+    },
+    {
+      "text": "sizes or with the\ngranularity of each step.",
+      "start": 231.4,
+      "duration": 4.65
+    },
+    {
+      "text": "Another modifier we've\nadded is animate bounds,",
+      "start": 236.05,
+      "duration": 3.0
+    },
+    {
+      "text": "which lets you\nautomatically animate",
+      "start": 239.05,
+      "duration": 2.81
+    },
+    {
+      "text": "the position and the size of\na composable in its container.",
+      "start": 241.86,
+      "duration": 4.56
+    },
+    {
+      "text": "This is similar to animated\ncontent size, which",
+      "start": 246.42,
+      "duration": 2.55
+    },
+    {
+      "text": "you might already be using.",
+      "start": 248.97,
+      "duration": 1.48
+    },
+    {
+      "text": "But this one does both\nthe size and the position",
+      "start": 250.45,
+      "duration": 2.69
+    },
+    {
+      "text": "at the same time, given that\nyou're in a lookahead scope.",
+      "start": 253.14,
+      "duration": 4.47
+    },
+    {
+      "text": "Then another new modifier, this\ntime to do visibility tracking.",
+      "start": 257.61,
+      "duration": 4.87
+    },
+    {
+      "text": "In the latest stable\nversion of Compose,",
+      "start": 262.48,
+      "duration": 2.04
+    },
+    {
+      "text": "we added onLayoutRectChanged.",
+      "start": 264.52,
+      "duration": 3.02
+    },
+    {
+      "text": "This is a low-level\nAPI that you can",
+      "start": 267.54,
+      "duration": 2.1
+    },
+    {
+      "text": "use to track a composable's\nposition within either",
+      "start": 269.64,
+      "duration": 3.93
+    },
+    {
+      "text": "its roots, the\nwindow, or the screen.",
+      "start": 273.57,
+      "duration": 2.67
+    },
+    {
+      "text": "And it unlocks various\nuse cases, mostly related",
+      "start": 276.24,
+      "duration": 4.05
+    },
+    {
+      "text": "to visibility tracking\nor position tracking.",
+      "start": 280.29,
+      "duration": 2.62
+    },
+    {
+      "text": "Now, it's similar to\nonGloballyPositioned,",
+      "start": 282.91,
+      "duration": 2.97
+    },
+    {
+      "text": "which you might already be\nusing to track the location.",
+      "start": 285.88,
+      "duration": 2.91
+    },
+    {
+      "text": "But this one is more\nperformance out of the box.",
+      "start": 288.79,
+      "duration": 2.72
+    },
+    {
+      "text": "And it allows you to add\nthrottle or debouncing, which",
+      "start": 291.51,
+      "duration": 4.41
+    },
+    {
+      "text": "makes it OK to use for\nuse cases like tracking",
+      "start": 295.92,
+      "duration": 3.24
+    },
+    {
+      "text": "the location of an item while\nyou're scrolling a lazy list.",
+      "start": 299.16,
+      "duration": 4.38
+    },
+    {
+      "text": "And in the alpha\nversions of Compose,",
+      "start": 303.54,
+      "duration": 2.2
+    },
+    {
+      "text": "we've added some\nhigher-level APIs",
+      "start": 305.74,
+      "duration": 1.88
+    },
+    {
+      "text": "on top of this low-level\nAPI, which are very, very",
+      "start": 307.62,
+      "duration": 3.75
+    },
+    {
+      "text": "specific for various use cases.",
+      "start": 311.37,
+      "duration": 3.06
+    },
+    {
+      "text": "So first of all, we added\nonVisibilityChanged,",
+      "start": 314.43,
+      "duration": 3.01
+    },
+    {
+      "text": "which gives you a callback any\ntime the visibility of that",
+      "start": 317.44,
+      "duration": 3.2
+    },
+    {
+      "text": "composable changes, so it\nenters or it exits the viewport.",
+      "start": 320.64,
+      "duration": 3.91
+    },
+    {
+      "text": "This is great for use cases like\nautomatically playing or pausing",
+      "start": 324.55,
+      "duration": 4.07
+    },
+    {
+      "text": "a video when it comes into view.",
+      "start": 328.62,
+      "duration": 1.99
+    },
+    {
+      "text": "And we're actually\nusing it in Androidify.",
+      "start": 330.61,
+      "duration": 3.65
+    },
+    {
+      "text": "We've also added\nonFirstVisible, which",
+      "start": 334.26,
+      "duration": 2.61
+    },
+    {
+      "text": "is great for use cases\nlike impression tracking",
+      "start": 336.87,
+      "duration": 2.61
+    },
+    {
+      "text": "because it gives a callback\nany time a composable has",
+      "start": 339.48,
+      "duration": 2.91
+    },
+    {
+      "text": "been in view for a\ncertain amount of time.",
+      "start": 342.39,
+      "duration": 3.0
+    },
+    {
+      "text": "So you can already start using\nthis stable onLayoutRectChanged",
+      "start": 345.39,
+      "duration": 4.74
+    },
+    {
+      "text": "modifier in your stable\nversion of Compose.",
+      "start": 350.13,
+      "duration": 3.22
+    },
+    {
+      "text": "And then you can use\nthese higher-level APIs",
+      "start": 353.35,
+      "duration": 2.56
+    },
+    {
+      "text": "when you use the alpha version.",
+      "start": 355.91,
+      "duration": 3.24
+    },
+    {
+      "text": "You can learn more\nabout these APIs",
+      "start": 359.15,
+      "duration": 2.01
+    },
+    {
+      "text": "and many more in\nthe two brand-new",
+      "start": 361.16,
+      "duration": 1.95
+    },
+    {
+      "text": "technical talks that we're\nreleasing as part of this year's",
+      "start": 363.11,
+      "duration": 2.58
+    },
+    {
+      "text": "I/O for best practices\nin text input",
+      "start": 365.69,
+      "duration": 2.73
+    },
+    {
+      "text": "and best practices\nin accessibility.",
+      "start": 368.42,
+      "duration": 4.29
+    },
+    {
+      "text": "But we haven't\nbeen focusing only",
+      "start": 372.71,
+      "duration": 2.07
+    },
+    {
+      "text": "on adding new\nfeatures to Compose.",
+      "start": 374.78,
+      "duration": 1.9
+    },
+    {
+      "text": "And new features also shouldn't\nbe the only reason why you're",
+      "start": 376.68,
+      "duration": 3.74
+    },
+    {
+      "text": "upgrading your Compose version.",
+      "start": 380.42,
+      "duration": 2.16
+    },
+    {
+      "text": "Another consideration\nis performance.",
+      "start": 382.58,
+      "duration": 3.0
+    },
+    {
+      "text": "When you run your app on\nolder versions of Compose,",
+      "start": 385.58,
+      "duration": 4.11
+    },
+    {
+      "text": "you might sometimes\nsee some jank.",
+      "start": 389.69,
+      "duration": 2.483
+    },
+    {
+      "text": "This is what some of\nyou have mentioned.",
+      "start": 392.173,
+      "duration": 1.667
+    },
+    {
+      "text": "When you run older\nversions, and you run them",
+      "start": 393.84,
+      "duration": 2.12
+    },
+    {
+      "text": "on lower-end devices,\nthere might be some jank.",
+      "start": 395.96,
+      "duration": 3.19
+    },
+    {
+      "text": "In this case, we're using an\ninternal benchmark project.",
+      "start": 399.15,
+      "duration": 3.75
+    },
+    {
+      "text": "And in that internal\nbenchmark project,",
+      "start": 402.9,
+      "duration": 2.31
+    },
+    {
+      "text": "we've just built an app.",
+      "start": 405.21,
+      "duration": 1.19
+    },
+    {
+      "text": "And we're running it with\nversions of Compose from 2023.",
+      "start": 406.4,
+      "duration": 4.38
+    },
+    {
+      "text": "We're running it on\na Pixel 3A device.",
+      "start": 410.78,
+      "duration": 2.19
+    },
+    {
+      "text": "And we're seeing jank\nrates of about 2%.",
+      "start": 412.97,
+      "duration": 3.24
+    },
+    {
+      "text": "Now, what we did is we kept the\nsource code exactly the same,",
+      "start": 416.21,
+      "duration": 4.03
+    },
+    {
+      "text": "but we updated the\nversion of Compose.",
+      "start": 420.24,
+      "duration": 2.51
+    },
+    {
+      "text": "And so what we see is that\nwith later versions of Compose,",
+      "start": 422.75,
+      "duration": 3.13
+    },
+    {
+      "text": "this jank rate already\ndrops to about 1%.",
+      "start": 425.88,
+      "duration": 3.77
+    },
+    {
+      "text": "Then, if we update the\nCompose version to March 2025,",
+      "start": 429.65,
+      "duration": 4.24
+    },
+    {
+      "text": "this drops to less\nthan half a percent.",
+      "start": 433.89,
+      "duration": 2.49
+    },
+    {
+      "text": "And with the latest\nstable version of Compose,",
+      "start": 436.38,
+      "duration": 2.94
+    },
+    {
+      "text": "we hardly have any jank left.",
+      "start": 439.32,
+      "duration": 2.58
+    },
+    {
+      "text": "We're at less than 0.1%.",
+      "start": 441.9,
+      "duration": 1.23
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 443.13,
+      "duration": 3.282
+    },
+    {
+      "text": "Now, this is just\none example benchmark",
+      "start": 449.9,
+      "duration": 1.98
+    },
+    {
+      "text": "that demonstrates all the work\nthat our engineers have been",
+      "start": 451.88,
+      "duration": 2.46
+    },
+    {
+      "text": "doing in the past years to\nmake the performance of Compose",
+      "start": 454.34,
+      "duration": 2.91
+    },
+    {
+      "text": "better.",
+      "start": 457.25,
+      "duration": 0.91
+    },
+    {
+      "text": "But our engineers are\nconstantly finding and applying",
+      "start": 458.16,
+      "duration": 3.17
+    },
+    {
+      "text": "other optimizations as well.",
+      "start": 461.33,
+      "duration": 2.19
+    },
+    {
+      "text": "For example, we're introducing\npausable composition,",
+      "start": 463.52,
+      "duration": 3.01
+    },
+    {
+      "text": "which splits the composition\nover several frames.",
+      "start": 466.53,
+      "duration": 3.24
+    },
+    {
+      "text": "We are offloading some of the\nharder work of the main thread,",
+      "start": 469.77,
+      "duration": 3.5
+    },
+    {
+      "text": "starting with text measurements.",
+      "start": 473.27,
+      "duration": 1.83
+    },
+    {
+      "text": "And we're allowing you to\ncustomize the prefetching",
+      "start": 475.1,
+      "duration": 3.8
+    },
+    {
+      "text": "of items in a lazy list.",
+      "start": 478.9,
+      "duration": 3.48
+    },
+    {
+      "text": "So between these new features\nthat I just mentioned",
+      "start": 482.38,
+      "duration": 2.85
+    },
+    {
+      "text": "and the performance\nupdates, now really",
+      "start": 485.23,
+      "duration": 2.49
+    },
+    {
+      "text": "is a time for you to prioritize\nupgrading your Compose version",
+      "start": 487.72,
+      "duration": 3.63
+    },
+    {
+      "text": "and get access to all\nof these added benefits.",
+      "start": 491.35,
+      "duration": 2.443
+    },
+    {
+      "text": "Now, remember that I said that\n60% of the top 1,000 apps are",
+      "start": 496.45,
+      "duration": 4.05
+    },
+    {
+      "text": "using Compose.",
+      "start": 500.5,
+      "duration": 1.8
+    },
+    {
+      "text": "Several of those are\nactually Google apps.",
+      "start": 502.3,
+      "duration": 2.89
+    },
+    {
+      "text": "Google Photos, Maps,\nand Drive, and more,",
+      "start": 505.19,
+      "duration": 3.44
+    },
+    {
+      "text": "have been using Compose\nin production for years.",
+      "start": 508.63,
+      "duration": 3.51
+    },
+    {
+      "text": "And recently, we've been\nworking with these app teams",
+      "start": 512.14,
+      "duration": 2.64
+    },
+    {
+      "text": "to improve the stability\nof our Compose releases",
+      "start": 514.78,
+      "duration": 3.36
+    },
+    {
+      "text": "by catching bugs at an earlier\nstage because some of you",
+      "start": 518.14,
+      "duration": 4.769
+    },
+    {
+      "text": "have mentioned that upgrading\nCompose versions can sometimes",
+      "start": 522.909,
+      "duration": 2.911
+    },
+    {
+      "text": "be difficult. So let me\nshow you a little bit more",
+      "start": 525.82,
+      "duration": 3.42
+    },
+    {
+      "text": "about how we did this.",
+      "start": 529.24,
+      "duration": 2.55
+    },
+    {
+      "text": "What you're used to is that\nwhenever we have a Compose",
+      "start": 531.79,
+      "duration": 2.46
+    },
+    {
+      "text": "change, we merge this into\nthe Compose main branch,",
+      "start": 534.25,
+      "duration": 2.92
+    },
+    {
+      "text": "and then it goes through\nthis alpha, beta, RC,",
+      "start": 537.17,
+      "duration": 2.63
+    },
+    {
+      "text": "and stable release cycle.",
+      "start": 539.8,
+      "duration": 2.1
+    },
+    {
+      "text": "But for Compose--\nfor Google apps,",
+      "start": 541.9,
+      "duration": 2.26
+    },
+    {
+      "text": "this actually works a\nlittle bit differently",
+      "start": 544.16,
+      "duration": 2.16
+    },
+    {
+      "text": "because all of the\nGoogle apps share",
+      "start": 546.32,
+      "duration": 2.06
+    },
+    {
+      "text": "a single version of\nCompose among them.",
+      "start": 548.38,
+      "duration": 3.18
+    },
+    {
+      "text": "And we used to update that\nversion about once a month.",
+      "start": 551.56,
+      "duration": 4.45
+    },
+    {
+      "text": "But recently, we've\nbeen working to update",
+      "start": 556.01,
+      "duration": 2.78
+    },
+    {
+      "text": "that about once every day.",
+      "start": 558.79,
+      "duration": 2.7
+    },
+    {
+      "text": "So any change in Compose that\nmakes it into the main branch",
+      "start": 561.49,
+      "duration": 3.75
+    },
+    {
+      "text": "actually makes it to all of\nthese Google apps within days",
+      "start": 565.24,
+      "duration": 3.79
+    },
+    {
+      "text": "and can make it to millions\nof users within a week.",
+      "start": 569.03,
+      "duration": 4.07
+    },
+    {
+      "text": "Now, that also means\nthat for new features,",
+      "start": 573.1,
+      "duration": 2.5
+    },
+    {
+      "text": "we are adding feature\nflags to make sure",
+      "start": 575.6,
+      "duration": 2.48
+    },
+    {
+      "text": "that we allow for early testing\nby these Google apps or by you",
+      "start": 578.08,
+      "duration": 3.81
+    },
+    {
+      "text": "in alpha versions of Compose.",
+      "start": 581.89,
+      "duration": 2.02
+    },
+    {
+      "text": "And you can test them.",
+      "start": 583.91,
+      "duration": 1.47
+    },
+    {
+      "text": "And you can let us know if there\nare any performance regressions",
+      "start": 585.38,
+      "duration": 2.69
+    },
+    {
+      "text": "or bugs with the implementation.",
+      "start": 588.07,
+      "duration": 2.08
+    },
+    {
+      "text": "And so we have this quick\niteration of testing out",
+      "start": 590.15,
+      "duration": 3.23
+    },
+    {
+      "text": "new functionality.",
+      "start": 593.38,
+      "duration": 2.4
+    },
+    {
+      "text": "And at some point, whenever\nthe changes make it",
+      "start": 595.78,
+      "duration": 3.24
+    },
+    {
+      "text": "into a beta or a stable\nversion of Compose,",
+      "start": 599.02,
+      "duration": 2.86
+    },
+    {
+      "text": "they've often been running in\nproduction in these Google Apps",
+      "start": 601.88,
+      "duration": 3.47
+    },
+    {
+      "text": "with millions of users\nfor weeks, if not months.",
+      "start": 605.35,
+      "duration": 4.05
+    },
+    {
+      "text": "That should give you\na lot more certainty",
+      "start": 609.4,
+      "duration": 3.06
+    },
+    {
+      "text": "in upgrading to the latest\nCompose stable version whenever",
+      "start": 612.46,
+      "duration": 3.03
+    },
+    {
+      "text": "it comes out.",
+      "start": 615.49,
+      "duration": 3.09
+    },
+    {
+      "text": "Now, another stability\nimprovement that we did",
+      "start": 618.58,
+      "duration": 2.37
+    },
+    {
+      "text": "is that we did a big sweep of\nall of our experimental APIs.",
+      "start": 620.95,
+      "duration": 4.15
+    },
+    {
+      "text": "You shared with us\nthat having too many",
+      "start": 625.1,
+      "duration": 2.03
+    },
+    {
+      "text": "of these experimental\nAPIs can sometimes",
+      "start": 627.13,
+      "duration": 2.79
+    },
+    {
+      "text": "make the API surface feel\na little bit less stable.",
+      "start": 629.92,
+      "duration": 3.84
+    },
+    {
+      "text": "So we went through them.",
+      "start": 633.76,
+      "duration": 1.39
+    },
+    {
+      "text": "And for many of the\nAPIs, we cleaned them up",
+      "start": 635.15,
+      "duration": 3.62
+    },
+    {
+      "text": "and made sure that we\ncould stabilize them.",
+      "start": 638.77,
+      "duration": 2.46
+    },
+    {
+      "text": "But some of them were actually\nexperimental for several years",
+      "start": 641.23,
+      "duration": 3.21
+    },
+    {
+      "text": "now because we eventually wanted\nto get around to fixing them.",
+      "start": 644.44,
+      "duration": 3.67
+    },
+    {
+      "text": "But they're either good\nenough as they are,",
+      "start": 648.11,
+      "duration": 2.93
+    },
+    {
+      "text": "and we stabilize them now,\nor we deprecated them,",
+      "start": 651.04,
+      "duration": 2.93
+    },
+    {
+      "text": "and we will remove them for now.",
+      "start": 653.97,
+      "duration": 1.87
+    },
+    {
+      "text": "So with that, we reduced\n32% of the experimental APIs",
+      "start": 655.84,
+      "duration": 4.94
+    },
+    {
+      "text": "over the course\nof just one year.",
+      "start": 660.78,
+      "duration": 2.25
+    },
+    {
+      "text": "And looking at some of the\nbiggest contributors, Foundation",
+      "start": 663.03,
+      "duration": 3.0
+    },
+    {
+      "text": "and Compose UI, that number\neven increases to 66%.",
+      "start": 666.03,
+      "duration": 5.04
+    },
+    {
+      "text": "So this should\ngive you much more",
+      "start": 671.07,
+      "duration": 2.4
+    },
+    {
+      "text": "security in using stable APIs\nwhen you're using Compose.",
+      "start": 673.47,
+      "duration": 4.24
+    },
+    {
+      "text": "And also, we plan to remove\neven more of those in the future",
+      "start": 677.71,
+      "duration": 3.56
+    },
+    {
+      "text": "as well.",
+      "start": 681.27,
+      "duration": 2.46
+    },
+    {
+      "text": "Now, so far, I've\nbeen talking about--",
+      "start": 683.73,
+      "duration": 2.805
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 686.535,
+      "duration": 1.455
+    },
+    {
+      "text": "Thank you.",
+      "start": 687.99,
+      "duration": 0.97
+    },
+    {
+      "text": "Now, so far, I've been\nmentioning Compose.",
+      "start": 692.81,
+      "duration": 1.75
+    },
+    {
+      "text": "And I've been talking about\nall the core modules--",
+      "start": 694.56,
+      "duration": 2.4
+    },
+    {
+      "text": "Foundation, Runtime,\nUI, et cetera.",
+      "start": 696.96,
+      "duration": 2.46
+    },
+    {
+      "text": "But actually, we are working\non a wider suite of libraries.",
+      "start": 699.42,
+      "duration": 4.68
+    },
+    {
+      "text": "Compose is part of the\nset of Jetpack libraries.",
+      "start": 704.1,
+      "duration": 3.07
+    },
+    {
+      "text": "And we've been working on\nadding Compose supports on more",
+      "start": 707.17,
+      "duration": 3.2
+    },
+    {
+      "text": "of these libraries as well.",
+      "start": 710.37,
+      "duration": 1.567
+    },
+    {
+      "text": "You've heard a little bit about\nthis in the Developer Keynote.",
+      "start": 711.937,
+      "duration": 2.583
+    },
+    {
+      "text": "But I wanted to expand a\nlittle bit more in this talk.",
+      "start": 714.52,
+      "duration": 3.38
+    },
+    {
+      "text": "So first of all, any\napp has navigation.",
+      "start": 717.9,
+      "duration": 3.16
+    },
+    {
+      "text": "And we've heard that\nthe Jetpack navigation",
+      "start": 721.06,
+      "duration": 2.33
+    },
+    {
+      "text": "solution can sometimes be\nchallenging in a Compose world.",
+      "start": 723.39,
+      "duration": 4.06
+    },
+    {
+      "text": "Especially when you're\ndealing with the backstack",
+      "start": 727.45,
+      "duration": 3.14
+    },
+    {
+      "text": "or with hoisting\nstate, it doesn't seem",
+      "start": 730.59,
+      "duration": 2.55
+    },
+    {
+      "text": "to quite fit that use case.",
+      "start": 733.14,
+      "duration": 2.92
+    },
+    {
+      "text": "And so we sat down, and we\nre-envisioned what we think",
+      "start": 736.06,
+      "duration": 3.26
+    },
+    {
+      "text": "Compose should look like--",
+      "start": 739.32,
+      "duration": 1.6
+    },
+    {
+      "text": "what we think navigation should\nlook like in a Compose world.",
+      "start": 740.92,
+      "duration": 4.1
+    },
+    {
+      "text": "And thus, we're introducing\nNavigation 3, a first alpha",
+      "start": 745.02,
+      "duration": 4.35
+    },
+    {
+      "text": "of a new artifact that\nmakes it much easier to work",
+      "start": 749.37,
+      "duration": 4.02
+    },
+    {
+      "text": "with navigation in a Compose\napp because this is built",
+      "start": 753.39,
+      "duration": 3.18
+    },
+    {
+      "text": "with Compose and using Compose.",
+      "start": 756.57,
+      "duration": 2.62
+    },
+    {
+      "text": "And so let me show you\nwhat that library offers.",
+      "start": 759.19,
+      "duration": 5.15
+    },
+    {
+      "text": "The library makes it\neasy to do transitions",
+      "start": 764.34,
+      "duration": 2.66
+    },
+    {
+      "text": "between different\ndestinations using animations,",
+      "start": 767.0,
+      "duration": 3.45
+    },
+    {
+      "text": "to implement predictive back,\nor to create shared element",
+      "start": 770.45,
+      "duration": 3.48
+    },
+    {
+      "text": "transitions.",
+      "start": 773.93,
+      "duration": 2.53
+    },
+    {
+      "text": "It has a flexible, layered\narchitecture that works--",
+      "start": 776.46,
+      "duration": 3.75
+    },
+    {
+      "text": "that is adaptive out\nof the box and works",
+      "start": 780.21,
+      "duration": 1.76
+    },
+    {
+      "text": "across form factors,\nincluding XR.",
+      "start": 781.97,
+      "duration": 2.88
+    },
+    {
+      "text": "And it even has a material\ndesign integration.",
+      "start": 784.85,
+      "duration": 3.36
+    },
+    {
+      "text": "But most importantly, it\nis fully customizable.",
+      "start": 788.21,
+      "duration": 4.47
+    },
+    {
+      "text": "So if you need more\ncontrol, we give you",
+      "start": 792.68,
+      "duration": 3.09
+    },
+    {
+      "text": "all the control you need.",
+      "start": 795.77,
+      "duration": 1.51
+    },
+    {
+      "text": "You can, if you want to,\ncontrol the full backstack",
+      "start": 797.28,
+      "duration": 3.29
+    },
+    {
+      "text": "and implement navigation\nexactly the way",
+      "start": 800.57,
+      "duration": 2.79
+    },
+    {
+      "text": "that it is needed for your app.",
+      "start": 803.36,
+      "duration": 1.97
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 808.05,
+      "duration": 3.402
+    },
+    {
+      "text": "Now, this library is\ncurrently in alpha.",
+      "start": 813.41,
+      "duration": 2.23
+    },
+    {
+      "text": "So we're still working on it.",
+      "start": 815.64,
+      "duration": 2.423
+    },
+    {
+      "text": "But we really want to make sure\nthat this is the best navigation",
+      "start": 818.063,
+      "duration": 2.667
+    },
+    {
+      "text": "library we could be building.",
+      "start": 820.73,
+      "duration": 1.6
+    },
+    {
+      "text": "So please go and check it out.",
+      "start": 822.33,
+      "duration": 2.01
+    },
+    {
+      "text": "There's full\ndocumentation available.",
+      "start": 824.34,
+      "duration": 1.85
+    },
+    {
+      "text": "And we would really like\nto hear from you if this",
+      "start": 826.19,
+      "duration": 2.25
+    },
+    {
+      "text": "works for your use cases.",
+      "start": 828.44,
+      "duration": 3.36
+    },
+    {
+      "text": "Then, another thing we heard\nfrom you loud and clear",
+      "start": 831.8,
+      "duration": 3.1
+    },
+    {
+      "text": "is that you want Compose\nsupport for camera and media",
+      "start": 834.9,
+      "duration": 2.48
+    },
+    {
+      "text": "experiences.",
+      "start": 837.38,
+      "duration": 1.06
+    },
+    {
+      "text": "And so we've been working\non adding this support.",
+      "start": 838.44,
+      "duration": 3.62
+    },
+    {
+      "text": "We have Media3 and CameraX\nas our recommended solutions",
+      "start": 842.06,
+      "duration": 3.84
+    },
+    {
+      "text": "for these experiences\nin your Android apps.",
+      "start": 845.9,
+      "duration": 2.85
+    },
+    {
+      "text": "And here as well,\nwe re-envisioned",
+      "start": 848.75,
+      "duration": 3.03
+    },
+    {
+      "text": "what this should look\nlike in a Compose world.",
+      "start": 851.78,
+      "duration": 2.23
+    },
+    {
+      "text": "So we didn't just wrap\nPreview View or Player View",
+      "start": 854.01,
+      "duration": 2.81
+    },
+    {
+      "text": "and call it a day.",
+      "start": 856.82,
+      "duration": 1.15
+    },
+    {
+      "text": "We're actually building building\nblocks from the ground up",
+      "start": 857.97,
+      "duration": 3.17
+    },
+    {
+      "text": "and making sure that you can\nbuild whatever your app needs,",
+      "start": 861.14,
+      "duration": 3.45
+    },
+    {
+      "text": "as much or as little.",
+      "start": 864.59,
+      "duration": 2.37
+    },
+    {
+      "text": "That, unfortunately, does mean\nthat it will take a little bit",
+      "start": 866.96,
+      "duration": 3.0
+    },
+    {
+      "text": "longer to get to full parity\nwith Player View and Preview",
+      "start": 869.96,
+      "duration": 3.03
+    },
+    {
+      "text": "View.",
+      "start": 872.99,
+      "duration": 0.79
+    },
+    {
+      "text": "But it also means that you have\nfull control over your camera",
+      "start": 873.78,
+      "duration": 4.34
+    },
+    {
+      "text": "or media experience.",
+      "start": 878.12,
+      "duration": 2.28
+    },
+    {
+      "text": "So let me demonstrate\nwhat we mean with that",
+      "start": 880.4,
+      "duration": 2.37
+    },
+    {
+      "text": "for the Media3 artifacts.",
+      "start": 882.77,
+      "duration": 2.63
+    },
+    {
+      "text": "Here, you see Androidify.",
+      "start": 885.4,
+      "duration": 1.71
+    },
+    {
+      "text": "And Androidify has this\nuse case where we wanted",
+      "start": 887.11,
+      "duration": 3.15
+    },
+    {
+      "text": "to show a tutorial video.",
+      "start": 890.26,
+      "duration": 1.95
+    },
+    {
+      "text": "It's quite a trivial video.",
+      "start": 892.21,
+      "duration": 2.35
+    },
+    {
+      "text": "We know the URL.",
+      "start": 894.56,
+      "duration": 1.83
+    },
+    {
+      "text": "We know the aspect ratio.",
+      "start": 896.39,
+      "duration": 1.535
+    },
+    {
+      "text": "The only thing we want\nto do is automatically",
+      "start": 897.925,
+      "duration": 1.875
+    },
+    {
+      "text": "play it and then show a\nPlay/Pause button on top of it",
+      "start": 899.8,
+      "duration": 3.66
+    },
+    {
+      "text": "so this video can be paused\nfor accessibility purposes.",
+      "start": 903.46,
+      "duration": 4.08
+    },
+    {
+      "text": "Let's implement it.",
+      "start": 907.54,
+      "duration": 2.4
+    },
+    {
+      "text": "We start with a VideoPlayer\ncomposable in our sample app.",
+      "start": 909.94,
+      "duration": 3.67
+    },
+    {
+      "text": "And what you see is\nthat we're passing",
+      "start": 913.61,
+      "duration": 2.03
+    },
+    {
+      "text": "in a Player instance, which is\ncoming from a Media3 library.",
+      "start": 915.64,
+      "duration": 4.68
+    },
+    {
+      "text": "Then what we do is we\nsimply forward this Player",
+      "start": 920.32,
+      "duration": 3.3
+    },
+    {
+      "text": "instance to the\nPlayerSurface composable",
+      "start": 923.62,
+      "duration": 2.85
+    },
+    {
+      "text": "as part of the new artifact.",
+      "start": 926.47,
+      "duration": 2.11
+    },
+    {
+      "text": "And that Surface\ncomposable actually",
+      "start": 928.58,
+      "duration": 2.12
+    },
+    {
+      "text": "takes care of the rendering.",
+      "start": 930.7,
+      "duration": 2.02
+    },
+    {
+      "text": "Nothing we have to do.",
+      "start": 932.72,
+      "duration": 2.03
+    },
+    {
+      "text": "Then, to add a\nPlay/Pause button,",
+      "start": 934.75,
+      "duration": 2.56
+    },
+    {
+      "text": "instead of calling the\nlibrary directly and letting",
+      "start": 937.31,
+      "duration": 2.78
+    },
+    {
+      "text": "it render it for us, we\nactually implement our own.",
+      "start": 940.09,
+      "duration": 3.27
+    },
+    {
+      "text": "And we pass the Player into it.",
+      "start": 943.36,
+      "duration": 3.09
+    },
+    {
+      "text": "So how does my Play/Pause\nbutton look like?",
+      "start": 946.45,
+      "duration": 3.13
+    },
+    {
+      "text": "Well, what do we do with\nthe Player instance?",
+      "start": 949.58,
+      "duration": 2.04
+    },
+    {
+      "text": "We create a\nPlayPauseButtonState.",
+      "start": 951.62,
+      "duration": 3.0
+    },
+    {
+      "text": "This is part of the artifact.",
+      "start": 954.62,
+      "duration": 1.65
+    },
+    {
+      "text": "And it allows us to\ninteract with the Player.",
+      "start": 956.27,
+      "duration": 3.15
+    },
+    {
+      "text": "And it allows us to show\ndata from the Player.",
+      "start": 959.42,
+      "duration": 3.59
+    },
+    {
+      "text": "So we control the UI.",
+      "start": 963.01,
+      "duration": 2.61
+    },
+    {
+      "text": "But the artifact controls\nall the pesky logic",
+      "start": 965.62,
+      "duration": 3.21
+    },
+    {
+      "text": "of whether we should be showing\na Play or a Pause button",
+      "start": 968.83,
+      "duration": 3.22
+    },
+    {
+      "text": "and what to do when we click it.",
+      "start": 972.05,
+      "duration": 3.2
+    },
+    {
+      "text": "And with that, it works.",
+      "start": 975.25,
+      "duration": 2.82
+    },
+    {
+      "text": "That's all.",
+      "start": 978.07,
+      "duration": 1.18
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 979.25,
+      "duration": 3.269
+    },
+    {
+      "text": "And with that, you saw\nhow Compose makes it easy",
+      "start": 986.26,
+      "duration": 2.94
+    },
+    {
+      "text": "and how it has all the features,\nperformance, stability,",
+      "start": 989.2,
+      "duration": 3.31
+    },
+    {
+      "text": "and libraries for\nyou to build apps.",
+      "start": 992.51,
+      "duration": 2.78
+    },
+    {
+      "text": "But UI is not all there is.",
+      "start": 995.29,
+      "duration": 2.05
+    },
+    {
+      "text": "So let's move on to\nthe business layer.",
+      "start": 997.34,
+      "duration": 3.32
+    },
+    {
+      "text": "Kotlin Multiplatform\nallows you to--",
+      "start": 1000.66,
+      "duration": 2.05
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 1002.71,
+      "duration": 3.374
+    },
+    {
+      "text": "--allows you to share business\nlogic across platforms.",
+      "start": 1007.53,
+      "duration": 3.37
+    },
+    {
+      "text": "As you can tell, it is\na very popular library.",
+      "start": 1010.9,
+      "duration": 3.18
+    },
+    {
+      "text": "And of course, we see this\nin the community as well.",
+      "start": 1014.08,
+      "duration": 3.12
+    },
+    {
+      "text": "Only last year, there\nwere 900 new KMP libraries",
+      "start": 1017.2,
+      "duration": 3.77
+    },
+    {
+      "text": "being published.",
+      "start": 1020.97,
+      "duration": 1.62
+    },
+    {
+      "text": "And within Google,\nwe also support KMP.",
+      "start": 1022.59,
+      "duration": 3.84
+    },
+    {
+      "text": "And we make sure that where\nit's possible and necessary,",
+      "start": 1026.43,
+      "duration": 3.78
+    },
+    {
+      "text": "and where it's logical to share\nbusiness logic in our Jetpack",
+      "start": 1030.21,
+      "duration": 3.3
+    },
+    {
+      "text": "suite of libraries,\nwe add KMP support.",
+      "start": 1033.51,
+      "duration": 3.37
+    },
+    {
+      "text": "So last year, we\nalready stood here,",
+      "start": 1036.88,
+      "duration": 2.33
+    },
+    {
+      "text": "and we discussed Room,\nDataStore, and Collections.",
+      "start": 1039.21,
+      "duration": 2.859
+    },
+    {
+      "text": "This year, we're adding Saved\nState, View Model, Lifecycle,",
+      "start": 1042.069,
+      "duration": 3.381
+    },
+    {
+      "text": "and Paging to that\nlist of stable support.",
+      "start": 1045.45,
+      "duration": 4.29
+    },
+    {
+      "text": "Now, what do I mean when\nI say stable support?",
+      "start": 1049.74,
+      "duration": 3.31
+    },
+    {
+      "text": "Because KMP is vast.",
+      "start": 1053.05,
+      "duration": 2.51
+    },
+    {
+      "text": "There are so many platforms that\nour code could be running on.",
+      "start": 1055.56,
+      "duration": 4.24
+    },
+    {
+      "text": "And so, within the Jetpack\nlibrary suites, what we've done",
+      "start": 1059.8,
+      "duration": 3.1
+    },
+    {
+      "text": "is we've divided this into\nthree different categories",
+      "start": 1062.9,
+      "duration": 3.36
+    },
+    {
+      "text": "or tiers of platforms, where\neach tier has different kind",
+      "start": 1066.26,
+      "duration": 4.35
+    },
+    {
+      "text": "of commitments from our side.",
+      "start": 1070.61,
+      "duration": 2.16
+    },
+    {
+      "text": "So in this case, tier\n1 not only has Android,",
+      "start": 1072.77,
+      "duration": 3.28
+    },
+    {
+      "text": "but we've added iOS\nand JVM to this list.",
+      "start": 1076.05,
+      "duration": 3.6
+    },
+    {
+      "text": "With those three, you\ncan build a mobile app",
+      "start": 1079.65,
+      "duration": 3.74
+    },
+    {
+      "text": "that shares business logic\nacross Android and iOS",
+      "start": 1083.39,
+      "duration": 3.66
+    },
+    {
+      "text": "and across a Kotlin backend.",
+      "start": 1087.05,
+      "duration": 3.06
+    },
+    {
+      "text": "It has the full\nsupport that you're",
+      "start": 1090.11,
+      "duration": 1.56
+    },
+    {
+      "text": "used to for Jetpack libraries\nfor Android, now also",
+      "start": 1091.67,
+      "duration": 2.64
+    },
+    {
+      "text": "available for these\nother platforms.",
+      "start": 1094.31,
+      "duration": 2.02
+    },
+    {
+      "text": "And then tier 2 and tier 3 have\nvarying lower levels of support.",
+      "start": 1096.33,
+      "duration": 6.35
+    },
+    {
+      "text": "So let's say that you have\nan Android or an iOS app,",
+      "start": 1102.68,
+      "duration": 3.07
+    },
+    {
+      "text": "and you want to start\nsharing your business logic.",
+      "start": 1105.75,
+      "duration": 2.16
+    },
+    {
+      "text": "Where are you going to start?",
+      "start": 1107.91,
+      "duration": 2.15
+    },
+    {
+      "text": "My two colleagues,\nBen and Dustin,",
+      "start": 1110.06,
+      "duration": 2.08
+    },
+    {
+      "text": "have also created\na technical talk",
+      "start": 1112.14,
+      "duration": 2.0
+    },
+    {
+      "text": "that you can watch that helps\nguide you through this process.",
+      "start": 1114.14,
+      "duration": 3.48
+    },
+    {
+      "text": "We also published\ntwo new code labs",
+      "start": 1117.62,
+      "duration": 2.31
+    },
+    {
+      "text": "that guide you through\nthe process step by step.",
+      "start": 1119.93,
+      "duration": 2.62
+    },
+    {
+      "text": "And within Android Studio, we've\nadded a new KMP Module template.",
+      "start": 1122.55,
+      "duration": 4.2
+    },
+    {
+      "text": "So given that you have\nan Android app already",
+      "start": 1126.75,
+      "duration": 2.42
+    },
+    {
+      "text": "in Android Studio,\nyou can get started",
+      "start": 1129.17,
+      "duration": 2.19
+    },
+    {
+      "text": "through this module\ntemplate as well.",
+      "start": 1131.36,
+      "duration": 3.69
+    },
+    {
+      "text": "Now, I'm talking about\ndeveloper productivity.",
+      "start": 1135.05,
+      "duration": 2.83
+    },
+    {
+      "text": "I discussed Kotlin\nMultiplatform.",
+      "start": 1137.88,
+      "duration": 2.01
+    },
+    {
+      "text": "I discussed Compose.",
+      "start": 1139.89,
+      "duration": 1.14
+    },
+    {
+      "text": "Of course, I have to talk\nabout Gemini in Android Studio.",
+      "start": 1141.03,
+      "duration": 2.78
+    },
+    {
+      "text": "And in the Developer\nKeynote, you already",
+      "start": 1143.81,
+      "duration": 2.197
+    },
+    {
+      "text": "heard about Journeys and\nabout the Version Update Agent",
+      "start": 1146.007,
+      "duration": 2.903
+    },
+    {
+      "text": "with some great demos.",
+      "start": 1148.91,
+      "duration": 1.48
+    },
+    {
+      "text": "And instead of me going\ninto more detail here,",
+      "start": 1150.39,
+      "duration": 2.7
+    },
+    {
+      "text": "I would like to\ninvite you to watch",
+      "start": 1153.09,
+      "duration": 2.09
+    },
+    {
+      "text": "the What's New in Tools talk.",
+      "start": 1155.18,
+      "duration": 3.93
+    },
+    {
+      "text": "With that, we've seen how\nKotlin Multiplatform, Compose,",
+      "start": 1159.11,
+      "duration": 4.17
+    },
+    {
+      "text": "and Gemini in Android Studio\nhelp you be more productive.",
+      "start": 1163.28,
+      "duration": 3.55
+    },
+    {
+      "text": "So we can move on\nto excellent apps",
+      "start": 1166.83,
+      "duration": 3.08
+    },
+    {
+      "text": "because your users want\nto see excellent apps that",
+      "start": 1169.91,
+      "duration": 3.15
+    },
+    {
+      "text": "are safe and performant, that\nwork across devices, that",
+      "start": 1173.06,
+      "duration": 4.11
+    },
+    {
+      "text": "are delightful, and that\ngive you helpful experiences",
+      "start": 1177.17,
+      "duration": 3.41
+    },
+    {
+      "text": "through UI.",
+      "start": 1180.58,
+      "duration": 1.8
+    },
+    {
+      "text": "But before we handle all of\nthese five different topics",
+      "start": 1182.38,
+      "duration": 3.21
+    },
+    {
+      "text": "separately, I want to give\nyou an update about Android 16",
+      "start": 1185.59,
+      "duration": 4.69
+    },
+    {
+      "text": "because Android 16 is the\ncornerstone of all of these five",
+      "start": 1190.28,
+      "duration": 4.46
+    },
+    {
+      "text": "pillars.",
+      "start": 1194.74,
+      "duration": 0.85
+    },
+    {
+      "text": "It creates beautiful\nexperiences.",
+      "start": 1195.59,
+      "duration": 2.85
+    },
+    {
+      "text": "But it also makes\nyou do some changes",
+      "start": 1198.44,
+      "duration": 2.63
+    },
+    {
+      "text": "to your code, which I know\ncan be difficult to handle.",
+      "start": 1201.07,
+      "duration": 3.78
+    },
+    {
+      "text": "So we've actually changed the\nrelease cycle of Android 16.",
+      "start": 1204.85,
+      "duration": 3.94
+    },
+    {
+      "text": "Last year, we were\nhere talking to you",
+      "start": 1208.79,
+      "duration": 2.06
+    },
+    {
+      "text": "about a beta version\nof Android 15.",
+      "start": 1210.85,
+      "duration": 2.68
+    },
+    {
+      "text": "Now we're here talking to\nyou about the actual release",
+      "start": 1213.53,
+      "duration": 2.63
+    },
+    {
+      "text": "of Android 16, coming very soon.",
+      "start": 1216.16,
+      "duration": 2.5
+    },
+    {
+      "text": "So any changes that\nwe're discussing today",
+      "start": 1218.66,
+      "duration": 2.27
+    },
+    {
+      "text": "are going to be very relevant\nvery soon for all of you.",
+      "start": 1220.93,
+      "duration": 3.9
+    },
+    {
+      "text": "Also, at the end of the\nyear, also a new change,",
+      "start": 1224.83,
+      "duration": 2.92
+    },
+    {
+      "text": "we're adding another\nminor SDK release.",
+      "start": 1227.75,
+      "duration": 2.43
+    },
+    {
+      "text": "This one does not have any\nbreaking behavior changes, only",
+      "start": 1230.18,
+      "duration": 3.02
+    },
+    {
+      "text": "new APIs that you can opt\ninto if you want and can help",
+      "start": 1233.2,
+      "duration": 4.89
+    },
+    {
+      "text": "you build these excellent apps.",
+      "start": 1238.09,
+      "duration": 2.97
+    },
+    {
+      "text": "Now, throughout the\nrest of this talk,",
+      "start": 1241.06,
+      "duration": 1.75
+    },
+    {
+      "text": "whenever we're discussing\nany Android 16 changes,",
+      "start": 1242.81,
+      "duration": 2.78
+    },
+    {
+      "text": "to make it easier for\nyou to follow along,",
+      "start": 1245.59,
+      "duration": 2.26
+    },
+    {
+      "text": "we've added this\ntraffic light system.",
+      "start": 1247.85,
+      "duration": 2.66
+    },
+    {
+      "text": "So whenever we're talking\nabout an awesome new feature",
+      "start": 1250.51,
+      "duration": 2.85
+    },
+    {
+      "text": "or a new API, we will add this\ngreen light that gives you",
+      "start": 1253.36,
+      "duration": 3.54
+    },
+    {
+      "text": "an indication that\nyou're allowed to update,",
+      "start": 1256.9,
+      "duration": 2.83
+    },
+    {
+      "text": "but we're not forcing\nyou to do anything.",
+      "start": 1259.73,
+      "duration": 2.63
+    },
+    {
+      "text": "Then orange means\na required change",
+      "start": 1262.36,
+      "duration": 3.46
+    },
+    {
+      "text": "but only when you update\nyour target SDK version.",
+      "start": 1265.82,
+      "duration": 3.36
+    },
+    {
+      "text": "So you are in charge\non timing on this one.",
+      "start": 1269.18,
+      "duration": 3.56
+    },
+    {
+      "text": "And finally, Android 16\nrequired changes, the red ones,",
+      "start": 1272.74,
+      "duration": 4.83
+    },
+    {
+      "text": "are those that will be effective\nregardless of your target SDK",
+      "start": 1277.57,
+      "duration": 4.05
+    },
+    {
+      "text": "version.",
+      "start": 1281.62,
+      "duration": 0.73
+    },
+    {
+      "text": "So when you see this\nred symbol, you probably",
+      "start": 1282.35,
+      "duration": 2.6
+    },
+    {
+      "text": "want to look out and\nstart testing your app.",
+      "start": 1284.95,
+      "duration": 3.03
+    },
+    {
+      "text": "And with that, I would\nlike to hand it off to John",
+      "start": 1287.98,
+      "duration": 2.43
+    },
+    {
+      "text": "to start talking about\nhow to build safe apps.",
+      "start": 1290.41,
+      "duration": 2.95
+    },
+    {
+      "text": "Thank you.",
+      "start": 1293.36,
+      "duration": 0.9
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1294.26,
+      "duration": 3.381
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1299.573,
+      "duration": 3.377
+    },
+    {
+      "text": "JOHN ZOELLER: I don't\nknow why I did that.",
+      "start": 1302.95,
+      "duration": 1.75
+    },
+    {
+      "text": "I've never boxed\na day in my life.",
+      "start": 1304.7,
+      "duration": 1.57
+    },
+    {
+      "text": "Hi, everybody.",
+      "start": 1306.27,
+      "duration": 0.91
+    },
+    {
+      "text": "I'm John Zoeller.",
+      "start": 1307.18,
+      "duration": 0.99
+    },
+    {
+      "text": "I work on Wear OS\nand Android Identity.",
+      "start": 1308.17,
+      "duration": 3.0
+    },
+    {
+      "text": "And I'm here to talk to\nyou about excellent apps.",
+      "start": 1311.17,
+      "duration": 2.22
+    },
+    {
+      "text": "So let's go ahead\nand start with safe.",
+      "start": 1313.39,
+      "duration": 2.64
+    },
+    {
+      "text": "And the first topic\nis authentication.",
+      "start": 1316.03,
+      "duration": 2.88
+    },
+    {
+      "text": "Now, Credential Manager\nis the key topic here.",
+      "start": 1318.91,
+      "duration": 3.15
+    },
+    {
+      "text": "This is our unified auth API.",
+      "start": 1322.06,
+      "duration": 2.13
+    },
+    {
+      "text": "It is a simple and secure\nsolution for users.",
+      "start": 1324.19,
+      "duration": 3.06
+    },
+    {
+      "text": "And it is interoperable\nacross the universe.",
+      "start": 1327.25,
+      "duration": 3.12
+    },
+    {
+      "text": "It supports credentials,\nSign In with Google",
+      "start": 1330.37,
+      "duration": 2.54
+    },
+    {
+      "text": "across all form factors,\npasswords, also across all form",
+      "start": 1332.91,
+      "duration": 3.51
+    },
+    {
+      "text": "factors, and then passkeys with\nphones, tablets, wear, and XR.",
+      "start": 1336.42,
+      "duration": 4.51
+    },
+    {
+      "text": "But this is table stakes, right?",
+      "start": 1340.93,
+      "duration": 1.52
+    },
+    {
+      "text": "You already know all this.",
+      "start": 1342.45,
+      "duration": 1.17
+    },
+    {
+      "text": "And this is What's\nNew in Android.",
+      "start": 1343.62,
+      "duration": 1.75
+    },
+    {
+      "text": "So we've got some new stuff\nfor Credential Manager.",
+      "start": 1345.37,
+      "duration": 2.25
+    },
+    {
+      "text": "First is digital\ncredentials verification,",
+      "start": 1347.62,
+      "duration": 3.92
+    },
+    {
+      "text": "or-- yeah, digital\ncredentials verification.",
+      "start": 1351.54,
+      "duration": 2.02
+    },
+    {
+      "text": "This allows you to verify\nIDs for age content",
+      "start": 1353.56,
+      "duration": 3.5
+    },
+    {
+      "text": "checks, academic degrees,\nall kinds of stuff like that.",
+      "start": 1357.06,
+      "duration": 3.37
+    },
+    {
+      "text": "And the best part\nis it's built right",
+      "start": 1360.43,
+      "duration": 2.15
+    },
+    {
+      "text": "into the GetCredential flow.",
+      "start": 1362.58,
+      "duration": 1.255
+    },
+    {
+      "text": "So you're already used\nto that kind of logic.",
+      "start": 1363.835,
+      "duration": 1.875
+    },
+    {
+      "text": "All you have to do\nis furnish that API",
+      "start": 1365.71,
+      "duration": 2.18
+    },
+    {
+      "text": "call with a\nDigitalCredentials object.",
+      "start": 1367.89,
+      "duration": 3.28
+    },
+    {
+      "text": "And it takes care\nof the rest for you.",
+      "start": 1371.17,
+      "duration": 1.83
+    },
+    {
+      "text": "Next up, we've got the\nRestore Credentials API.",
+      "start": 1373.0,
+      "duration": 3.03
+    },
+    {
+      "text": "Now, when a user\ngets a new device,",
+      "start": 1376.03,
+      "duration": 2.76
+    },
+    {
+      "text": "it can get a little bit\nfrustrating to reauthenticate",
+      "start": 1378.79,
+      "duration": 3.26
+    },
+    {
+      "text": "into all of those apps, right?",
+      "start": 1382.05,
+      "duration": 1.337
+    },
+    {
+      "text": "They have to remember\ntheir passwords.",
+      "start": 1383.387,
+      "duration": 1.583
+    },
+    {
+      "text": "They're like, what\ndid I sign in with?",
+      "start": 1384.97,
+      "duration": 1.5
+    },
+    {
+      "text": "So we've got Restore\nCredentials for you.",
+      "start": 1386.47,
+      "duration": 1.77
+    },
+    {
+      "text": "Now, this is great\nbecause it allows",
+      "start": 1388.24,
+      "duration": 1.61
+    },
+    {
+      "text": "users to auto-authenticate\ninto their app",
+      "start": 1389.85,
+      "duration": 3.63
+    },
+    {
+      "text": "on orientation, when\nthey set up a new device.",
+      "start": 1393.48,
+      "duration": 3.64
+    },
+    {
+      "text": "So this is a great option for\nusers, really helps engagement.",
+      "start": 1397.12,
+      "duration": 3.95
+    },
+    {
+      "text": "And it's the same\nstory as before.",
+      "start": 1401.07,
+      "duration": 1.443
+    },
+    {
+      "text": "It's just the\nGetCredentials call.",
+      "start": 1402.513,
+      "duration": 1.417
+    },
+    {
+      "text": "You set it up with a\nRestoreCredentials option.",
+      "start": 1403.93,
+      "duration": 3.35
+    },
+    {
+      "text": "And that's that.",
+      "start": 1407.28,
+      "duration": 2.08
+    },
+    {
+      "text": "Check out these resources.",
+      "start": 1409.36,
+      "duration": 1.38
+    },
+    {
+      "text": "You can learn more about\nboth of those topics.",
+      "start": 1410.74,
+      "duration": 3.44
+    },
+    {
+      "text": "All right, Privacy Sandbox.",
+      "start": 1414.18,
+      "duration": 2.07
+    },
+    {
+      "text": "Now, we know you love 3P code.",
+      "start": 1416.25,
+      "duration": 3.33
+    },
+    {
+      "text": "It's great.",
+      "start": 1419.58,
+      "duration": 0.54
+    },
+    {
+      "text": "You don't have to own it.",
+      "start": 1420.12,
+      "duration": 1.08
+    },
+    {
+      "text": "You don't have to maintain it.",
+      "start": 1421.2,
+      "duration": 1.17
+    },
+    {
+      "text": "It's nice and simple.",
+      "start": 1422.37,
+      "duration": 0.875
+    },
+    {
+      "text": "But you also don't\nlove it, right?",
+      "start": 1423.245,
+      "duration": 2.545
+    },
+    {
+      "text": "Because you got to maintain\nsomeone else's privacy contract",
+      "start": 1425.79,
+      "duration": 3.5
+    },
+    {
+      "text": "or worry about someone\nelse's privacy contract.",
+      "start": 1429.29,
+      "duration": 1.99
+    },
+    {
+      "text": "So what are you going to do?",
+      "start": 1431.28,
+      "duration": 0.69
+    },
+    {
+      "text": "How are you going\nto handle this?",
+      "start": 1431.97,
+      "duration": 0.84
+    },
+    {
+      "text": "Well, you're going to do the\nsame thing my little brother did",
+      "start": 1432.81,
+      "duration": 2.75
+    },
+    {
+      "text": "when he hid all of my toys for\nme when I was six years old.",
+      "start": 1435.56,
+      "duration": 2.658
+    },
+    {
+      "text": "You're going to bury\nit in a sandbox, baby,",
+      "start": 1438.218,
+      "duration": 1.792
+    },
+    {
+      "text": "a Privacy Sandbox, all right?",
+      "start": 1440.01,
+      "duration": 2.27
+    },
+    {
+      "text": "Privacy Sandbox allows you to\nisolate 3P code in a dedicated,",
+      "start": 1442.28,
+      "duration": 6.31
+    },
+    {
+      "text": "isolated runtime\nenvironment, all right?",
+      "start": 1448.59,
+      "duration": 3.6
+    },
+    {
+      "text": "You can isolate any code,\nin fact, not just 3P code.",
+      "start": 1452.19,
+      "duration": 3.75
+    },
+    {
+      "text": "So this can be sensitive\nlogic, gaming subsystems, ads,",
+      "start": 1455.94,
+      "duration": 3.68
+    },
+    {
+      "text": "anything of that nature.",
+      "start": 1459.62,
+      "duration": 1.57
+    },
+    {
+      "text": "Just make sure you\nunderstand that data",
+      "start": 1461.19,
+      "duration": 3.53
+    },
+    {
+      "text": "sharing between the runtime\nand your app is not implicit.",
+      "start": 1464.72,
+      "duration": 4.45
+    },
+    {
+      "text": "You have to handle\nit explicitly.",
+      "start": 1469.17,
+      "duration": 1.92
+    },
+    {
+      "text": "So as long as you handle that,\nyou're going to be all right.",
+      "start": 1471.09,
+      "duration": 2.75
+    },
+    {
+      "text": "The new news for\nPrivacy Sandbox is",
+      "start": 1473.84,
+      "duration": 1.95
+    },
+    {
+      "text": "we've got an all-new\nlearning pathway.",
+      "start": 1475.79,
+      "duration": 1.72
+    },
+    {
+      "text": "So if you're out here trying\nto learn, Should I use it?",
+      "start": 1477.51,
+      "duration": 2.292
+    },
+    {
+      "text": "How am I going to use it? this\nis your go-to resource here.",
+      "start": 1479.802,
+      "duration": 3.138
+    },
+    {
+      "text": "Take a look.",
+      "start": 1482.94,
+      "duration": 0.653
+    },
+    {
+      "text": "Even if you're familiar\nwith it, hopefully you",
+      "start": 1483.593,
+      "duration": 1.917
+    },
+    {
+      "text": "learned a thing or two.",
+      "start": 1485.51,
+      "duration": 2.34
+    },
+    {
+      "text": "All right, privacy and security.",
+      "start": 1487.85,
+      "duration": 1.48
+    },
+    {
+      "text": "Now, your users\nexpect that you're not",
+      "start": 1489.33,
+      "duration": 2.93
+    },
+    {
+      "text": "going to make any\ncompromises to their security",
+      "start": 1492.26,
+      "duration": 3.21
+    },
+    {
+      "text": "or to their privacy.",
+      "start": 1495.47,
+      "duration": 1.36
+    },
+    {
+      "text": "So we've got some new\nfeatures here to help.",
+      "start": 1496.83,
+      "duration": 2.01
+    },
+    {
+      "text": "We've got a lot of new features\nin privacy and security.",
+      "start": 1498.84,
+      "duration": 2.64
+    },
+    {
+      "text": "I picked my favorite two.",
+      "start": 1501.48,
+      "duration": 1.32
+    },
+    {
+      "text": "But wow, there are a ton.",
+      "start": 1502.8,
+      "duration": 1.17
+    },
+    {
+      "text": "So first up, Android\nAdvanced Protection mode.",
+      "start": 1503.97,
+      "duration": 3.42
+    },
+    {
+      "text": "Now, this is a suite\nof security features",
+      "start": 1507.39,
+      "duration": 3.44
+    },
+    {
+      "text": "that users can toggle\non in their device.",
+      "start": 1510.83,
+      "duration": 3.64
+    },
+    {
+      "text": "I'm not going to list them all.",
+      "start": 1514.47,
+      "duration": 1.62
+    },
+    {
+      "text": "But your app might be affected,\ndepending on what kind of app",
+      "start": 1516.09,
+      "duration": 3.08
+    },
+    {
+      "text": "you have.",
+      "start": 1519.17,
+      "duration": 0.88
+    },
+    {
+      "text": "So take a look into this.",
+      "start": 1520.05,
+      "duration": 1.77
+    },
+    {
+      "text": "And if you're\naffected, you will need",
+      "start": 1521.82,
+      "duration": 2.27
+    },
+    {
+      "text": "to integrate UX with those\nfeatures to account for that.",
+      "start": 1524.09,
+      "duration": 5.94
+    },
+    {
+      "text": "It's really simple.",
+      "start": 1530.03,
+      "duration": 1.158
+    },
+    {
+      "text": "The code looks like this.",
+      "start": 1531.188,
+      "duration": 1.042
+    },
+    {
+      "text": "You just opt into the\npermissions check.",
+      "start": 1532.23,
+      "duration": 1.667
+    },
+    {
+      "text": "The API is dead simple.",
+      "start": 1533.897,
+      "duration": 1.123
+    },
+    {
+      "text": "It's just two callbacks\nand a Boolean.",
+      "start": 1535.02,
+      "duration": 1.83
+    },
+    {
+      "text": "So have a look at the\ndocumentation for this",
+      "start": 1536.85,
+      "duration": 2.09
+    },
+    {
+      "text": "and give it a shot.",
+      "start": 1538.94,
+      "duration": 1.39
+    },
+    {
+      "text": "Next up is theft protection\nwith Identity Check.",
+      "start": 1540.33,
+      "duration": 3.36
+    },
+    {
+      "text": "Now, this is for apps that\nhave sensitive user actions.",
+      "start": 1543.69,
+      "duration": 4.32
+    },
+    {
+      "text": "Think like a banking\napp, where you",
+      "start": 1548.01,
+      "duration": 1.82
+    },
+    {
+      "text": "need to check the amount\nof money in your account.",
+      "start": 1549.83,
+      "duration": 2.52
+    },
+    {
+      "text": "This-- I see people\nexcited about this already.",
+      "start": 1552.35,
+      "duration": 3.28
+    },
+    {
+      "text": "This is great because if you're\nin an untrusted location,",
+      "start": 1555.63,
+      "duration": 4.34
+    },
+    {
+      "text": "Identity Check is\ngoing to enforce",
+      "start": 1559.97,
+      "duration": 1.95
+    },
+    {
+      "text": "an extra layer of\nbiometric security",
+      "start": 1561.92,
+      "duration": 3.18
+    },
+    {
+      "text": "so that you have to\nput in your fingerprint",
+      "start": 1565.1,
+      "duration": 2.02
+    },
+    {
+      "text": "if you're in a location\nwhere your device is not",
+      "start": 1567.12,
+      "duration": 2.45
+    },
+    {
+      "text": "familiar with.",
+      "start": 1569.57,
+      "duration": 1.03
+    },
+    {
+      "text": "So it adds a lot of security.",
+      "start": 1570.6,
+      "duration": 1.65
+    },
+    {
+      "text": "And once again, the\ncode is really nice.",
+      "start": 1572.25,
+      "duration": 2.04
+    },
+    {
+      "text": "You just check to see if\nIdentity Mode is active,",
+      "start": 1574.29,
+      "duration": 2.19
+    },
+    {
+      "text": "Identity Check is active.",
+      "start": 1576.48,
+      "duration": 1.65
+    },
+    {
+      "text": "And if you do, you add the\nextra biometric prompt API,",
+      "start": 1578.13,
+      "duration": 3.2
+    },
+    {
+      "text": "like you're probably used to.",
+      "start": 1581.33,
+      "duration": 2.01
+    },
+    {
+      "text": "Oh, wow, this is a huge water.",
+      "start": 1583.34,
+      "duration": 2.13
+    },
+    {
+      "text": "The resources for\nthat are right there.",
+      "start": 1585.47,
+      "duration": 4.68
+    },
+    {
+      "text": "Next up, Health Connect.",
+      "start": 1590.15,
+      "duration": 1.0
+    },
+    {
+      "text": "All right, everybody.",
+      "start": 1591.15,
+      "duration": 0.875
+    },
+    {
+      "text": "Sit up straight.",
+      "start": 1592.025,
+      "duration": 0.705
+    },
+    {
+      "text": "Take a deep breath.",
+      "start": 1592.73,
+      "duration": 1.44
+    },
+    {
+      "text": "Be mindful.",
+      "start": 1594.17,
+      "duration": 0.647
+    },
+    {
+      "text": "I'm going to take a drink\nof water because, you know,",
+      "start": 1594.817,
+      "duration": 2.208
+    },
+    {
+      "text": "to health--",
+      "start": 1597.025,
+      "duration": 2.325
+    },
+    {
+      "text": "if I can get this thing undone.",
+      "start": 1599.35,
+      "duration": 1.75
+    },
+    {
+      "text": "There we go.",
+      "start": 1601.1,
+      "duration": 0.775
+    },
+    {
+      "text": "Cheers.",
+      "start": 1605.8,
+      "duration": 0.6
+    },
+    {
+      "text": "All right.",
+      "start": 1606.4,
+      "duration": 1.02
+    },
+    {
+      "text": "So Health Connect\nis great because it",
+      "start": 1607.42,
+      "duration": 1.74
+    },
+    {
+      "text": "allows you to share users'\nhealth data between apps.",
+      "start": 1609.16,
+      "duration": 4.21
+    },
+    {
+      "text": "You're able to find\ninsights about things",
+      "start": 1613.37,
+      "duration": 1.82
+    },
+    {
+      "text": "like sleep, movement patterns,\nall kinds of different health",
+      "start": 1615.19,
+      "duration": 3.09
+    },
+    {
+      "text": "data.",
+      "start": 1618.28,
+      "duration": 0.76
+    },
+    {
+      "text": "And it is growing rapidly.",
+      "start": 1619.04,
+      "duration": 2.01
+    },
+    {
+      "text": "We've got 50% active user growth\nover just the last six months.",
+      "start": 1621.05,
+      "duration": 4.83
+    },
+    {
+      "text": "It's incredible to\nsee it grow so much.",
+      "start": 1625.88,
+      "duration": 2.45
+    },
+    {
+      "text": "Adoption is flourishing.",
+      "start": 1628.33,
+      "duration": 1.48
+    },
+    {
+      "text": "We've got new apps.",
+      "start": 1629.81,
+      "duration": 0.81
+    },
+    {
+      "text": "We've got Flow.",
+      "start": 1630.62,
+      "duration": 0.78
+    },
+    {
+      "text": "We've got Runna.",
+      "start": 1631.4,
+      "duration": 1.16
+    },
+    {
+      "text": "We're even picking\nup Garmin next month.",
+      "start": 1632.56,
+      "duration": 1.96
+    },
+    {
+      "text": "So this is an exciting\ntime for Health Connect.",
+      "start": 1634.52,
+      "duration": 2.6
+    },
+    {
+      "text": "And we want to help you\nconnect to this growth.",
+      "start": 1637.12,
+      "duration": 2.67
+    },
+    {
+      "text": "Da-da, tss!",
+      "start": 1639.79,
+      "duration": 1.24
+    },
+    {
+      "text": "No?",
+      "start": 1641.03,
+      "duration": 0.5
+    },
+    {
+      "text": "OK.",
+      "start": 1641.53,
+      "duration": 0.31
+    },
+    {
+      "text": "That one fell flat.",
+      "start": 1641.84,
+      "duration": 0.792
+    },
+    {
+      "text": "That's OK.",
+      "start": 1642.632,
+      "duration": 0.708
+    },
+    {
+      "text": "All right.",
+      "start": 1643.34,
+      "duration": 1.58
+    },
+    {
+      "text": "First up, first new thing\nfor Health Connect--",
+      "start": 1644.92,
+      "duration": 2.22
+    },
+    {
+      "text": "medical records APIs.",
+      "start": 1647.14,
+      "duration": 1.353
+    },
+    {
+      "text": "We've got a couple\nnew ones there.",
+      "start": 1648.493,
+      "duration": 1.417
+    },
+    {
+      "text": "Now, this helps you\nconsolidate health data.",
+      "start": 1649.91,
+      "duration": 2.79
+    },
+    {
+      "text": "You can read and write things\nlike allergies, immunizations,",
+      "start": 1652.7,
+      "duration": 4.29
+    },
+    {
+      "text": "and other kinds of health data\nto enable richer experiences.",
+      "start": 1656.99,
+      "duration": 3.84
+    },
+    {
+      "text": "This helps make your\nhealth apps more informed",
+      "start": 1660.83,
+      "duration": 2.18
+    },
+    {
+      "text": "and provides users with vital\neveryday medical context.",
+      "start": 1663.01,
+      "duration": 4.3
+    },
+    {
+      "text": "It's nice to see there are\na couple different APIs",
+      "start": 1667.31,
+      "duration": 3.35
+    },
+    {
+      "text": "in this suite here.",
+      "start": 1670.66,
+      "duration": 1.0
+    },
+    {
+      "text": "But I'm going to direct you\ntowards the MedicalDataSource",
+      "start": 1671.66,
+      "duration": 3.41
+    },
+    {
+      "text": "API.",
+      "start": 1675.07,
+      "duration": 0.73
+    },
+    {
+      "text": "Now, I moonlight\nas an MD, actually.",
+      "start": 1675.8,
+      "duration": 2.58
+    },
+    {
+      "text": "I've been doing brain\nsurgery on the side.",
+      "start": 1678.38,
+      "duration": 2.97
+    },
+    {
+      "text": "It's pretty easy.",
+      "start": 1681.35,
+      "duration": 0.96
+    },
+    {
+      "text": "And if I add my brain surgery\nclinic to this MedicalDataSource",
+      "start": 1682.31,
+      "duration": 4.46
+    },
+    {
+      "text": "object, I can use it within\nmy app for all kinds of logic.",
+      "start": 1686.77,
+      "duration": 3.28
+    },
+    {
+      "text": "You should give it a try, too.",
+      "start": 1690.05,
+      "duration": 1.59
+    },
+    {
+      "text": "You can provide your users\nall kinds of new data.",
+      "start": 1691.64,
+      "duration": 2.63
+    },
+    {
+      "text": "We're adding two new\ndata types as well.",
+      "start": 1694.27,
+      "duration": 2.8
+    },
+    {
+      "text": "First, we've got\nbackground reads.",
+      "start": 1697.07,
+      "duration": 1.71
+    },
+    {
+      "text": "This helps you provide timely\ninsights to your users.",
+      "start": 1698.78,
+      "duration": 2.94
+    },
+    {
+      "text": "And second, we've\ngot history reads.",
+      "start": 1701.72,
+      "duration": 2.01
+    },
+    {
+      "text": "This allows you to help\nyour users spot trends",
+      "start": 1703.73,
+      "duration": 2.21
+    },
+    {
+      "text": "over time, which, if you've used\nhealth apps, is really helpful.",
+      "start": 1705.94,
+      "duration": 5.18
+    },
+    {
+      "text": "The code for both of\nthese is very similar.",
+      "start": 1711.12,
+      "duration": 2.92
+    },
+    {
+      "text": "You just need to check the\navailability and the permission",
+      "start": 1714.04,
+      "duration": 2.66
+    },
+    {
+      "text": "of either read type and\nthen, for background reads,",
+      "start": 1716.7,
+      "duration": 4.03
+    },
+    {
+      "text": "schedule a periodic\nwork builder.",
+      "start": 1720.73,
+      "duration": 1.94
+    },
+    {
+      "text": "And for history reads, just\nmake sure you set a data origin.",
+      "start": 1722.67,
+      "duration": 3.67
+    },
+    {
+      "text": "And we'll take care\nof the rest for you.",
+      "start": 1726.34,
+      "duration": 1.677
+    },
+    {
+      "text": "So here are the resources\nfor both of those.",
+      "start": 1728.017,
+      "duration": 1.833
+    },
+    {
+      "text": "Take a look.",
+      "start": 1729.85,
+      "duration": 1.73
+    },
+    {
+      "text": "Next up, performant.",
+      "start": 1731.58,
+      "duration": 1.57
+    },
+    {
+      "text": "All right.",
+      "start": 1733.15,
+      "duration": 0.54
+    },
+    {
+      "text": "Before I start\nperformant, I got to say,",
+      "start": 1733.69,
+      "duration": 1.667
+    },
+    {
+      "text": "if your app is as\nperformant as this AC,",
+      "start": 1735.357,
+      "duration": 3.303
+    },
+    {
+      "text": "you can just take a nap.",
+      "start": 1738.66,
+      "duration": 1.99
+    },
+    {
+      "text": "You won.",
+      "start": 1740.65,
+      "duration": 0.89
+    },
+    {
+      "text": "All right.",
+      "start": 1741.54,
+      "duration": 1.08
+    },
+    {
+      "text": "Let's get started on performant.",
+      "start": 1742.62,
+      "duration": 1.66
+    },
+    {
+      "text": "So runtime performance-- this\nis critical for a nice app.",
+      "start": 1744.28,
+      "duration": 3.02
+    },
+    {
+      "text": "I think all of\nyou know, when you",
+      "start": 1747.3,
+      "duration": 1.59
+    },
+    {
+      "text": "have great runtime performance,\nit helps your Play Store rating.",
+      "start": 1748.89,
+      "duration": 4.23
+    },
+    {
+      "text": "You can earn really\ngood Play Store ratings",
+      "start": 1753.12,
+      "duration": 1.95
+    },
+    {
+      "text": "if your app is nice and\nsmooth and performant.",
+      "start": 1755.07,
+      "duration": 2.14
+    },
+    {
+      "text": "So the first feature\nfor this is R8.",
+      "start": 1757.21,
+      "duration": 2.28
+    },
+    {
+      "text": "Now, this already exists.",
+      "start": 1759.49,
+      "duration": 1.29
+    },
+    {
+      "text": "We're just encouraging you to\ngo ahead and add it to your app.",
+      "start": 1760.78,
+      "duration": 3.65
+    },
+    {
+      "text": "You add minifyEnabled to\nyour Android manifest file.",
+      "start": 1764.43,
+      "duration": 3.01
+    },
+    {
+      "text": "It's really simple.",
+      "start": 1767.44,
+      "duration": 1.02
+    },
+    {
+      "text": "That's all you have to do.",
+      "start": 1768.46,
+      "duration": 1.083
+    },
+    {
+      "text": "And you get this huge suite\nof benefits to reduce ANRs.",
+      "start": 1769.543,
+      "duration": 2.747
+    },
+    {
+      "text": "You get improved startup\nand runtime performance.",
+      "start": 1772.29,
+      "duration": 2.11
+    },
+    {
+      "text": "So R8 is great.",
+      "start": 1774.4,
+      "duration": 1.095
+    },
+    {
+      "text": "We've got a whole new\nset of guidance for it.",
+      "start": 1775.495,
+      "duration": 1.875
+    },
+    {
+      "text": "Go ahead and take\na look at that.",
+      "start": 1777.37,
+      "duration": 1.58
+    },
+    {
+      "text": "Next up is the UiAutomator API.",
+      "start": 1778.95,
+      "duration": 2.41
+    },
+    {
+      "text": "This one is pretty\nself-explanatory.",
+      "start": 1781.36,
+      "duration": 2.25
+    },
+    {
+      "text": "It automates UI.",
+      "start": 1783.61,
+      "duration": 1.35
+    },
+    {
+      "text": "So if you're writing\nbenchmark tests for your UI,",
+      "start": 1784.96,
+      "duration": 2.43
+    },
+    {
+      "text": "this helps you do it.",
+      "start": 1787.39,
+      "duration": 1.29
+    },
+    {
+      "text": "You can automate\nand manipulate UI.",
+      "start": 1788.68,
+      "duration": 1.8
+    },
+    {
+      "text": "Once again, I've got\nmy brain surgery clinic",
+      "start": 1790.48,
+      "duration": 2.33
+    },
+    {
+      "text": "I'm testing out there.",
+      "start": 1792.81,
+      "duration": 0.97
+    },
+    {
+      "text": "So it's going well.",
+      "start": 1793.78,
+      "duration": 1.85
+    },
+    {
+      "text": "All right.",
+      "start": 1795.63,
+      "duration": 0.608
+    },
+    {
+      "text": "If you're going to have\ngood runtime performance,",
+      "start": 1796.238,
+      "duration": 2.042
+    },
+    {
+      "text": "you got to have good\nbattery performance.",
+      "start": 1798.28,
+      "duration": 1.8
+    },
+    {
+      "text": "Users love good\nbattery performance.",
+      "start": 1800.08,
+      "duration": 1.77
+    },
+    {
+      "text": "So we've got some\nnew features here.",
+      "start": 1801.85,
+      "duration": 1.5
+    },
+    {
+      "text": "The first one, we've got a new\ncore Android Vitals metric.",
+      "start": 1803.35,
+      "duration": 4.38
+    },
+    {
+      "text": "This is Excessive Wake Locks.",
+      "start": 1807.73,
+      "duration": 1.77
+    },
+    {
+      "text": "Now, this is a battery\ndrain proxy metric.",
+      "start": 1809.5,
+      "duration": 3.582
+    },
+    {
+      "text": "And the deal here is that\nwake locks are really",
+      "start": 1813.082,
+      "duration": 1.958
+    },
+    {
+      "text": "heavily impacted by\njob execution duration.",
+      "start": 1815.04,
+      "duration": 3.76
+    },
+    {
+      "text": "So we've made some\noptimizations here.",
+      "start": 1818.8,
+      "duration": 2.18
+    },
+    {
+      "text": "And we've got some\nnew quota enforcement.",
+      "start": 1820.98,
+      "duration": 2.05
+    },
+    {
+      "text": "So this applies to jobs in\nthe Active Standby bucket,",
+      "start": 1823.03,
+      "duration": 3.17
+    },
+    {
+      "text": "jobs running concurrently\nwith a foreground service,",
+      "start": 1826.2,
+      "duration": 3.5
+    },
+    {
+      "text": "and jobs started from\nthe app visible state.",
+      "start": 1829.7,
+      "duration": 3.01
+    },
+    {
+      "text": "So take a look at your app.",
+      "start": 1832.71,
+      "duration": 1.55
+    },
+    {
+      "text": "Account for that if necessary.",
+      "start": 1834.26,
+      "duration": 1.33
+    },
+    {
+      "text": "We've got some resources\nfor you as well.",
+      "start": 1835.59,
+      "duration": 2.3
+    },
+    {
+      "text": "And the other thing for\nbattery, setExpedited.",
+      "start": 1837.89,
+      "duration": 2.17
+    },
+    {
+      "text": "We are migrating off\nsetImportantWhileForeground",
+      "start": 1840.06,
+      "duration": 3.32
+    },
+    {
+      "text": "and on to setExpedited.",
+      "start": 1843.38,
+      "duration": 1.57
+    },
+    {
+      "text": "So if you're using\nthat call for SDK 36,",
+      "start": 1844.95,
+      "duration": 2.27
+    },
+    {
+      "text": "you need to go ahead\nand make that migration.",
+      "start": 1847.22,
+      "duration": 2.8
+    },
+    {
+      "text": "And those are the\nresources for that.",
+      "start": 1850.02,
+      "duration": 1.98
+    },
+    {
+      "text": "All right, switching over to\nadaptive-- or across devices,",
+      "start": 1852.0,
+      "duration": 3.08
+    },
+    {
+      "text": "that is.",
+      "start": 1855.08,
+      "duration": 0.72
+    },
+    {
+      "text": "But the topic is adaptive.",
+      "start": 1855.8,
+      "duration": 1.358
+    },
+    {
+      "text": "So we learned a little\nbit more about this today.",
+      "start": 1857.158,
+      "duration": 2.042
+    },
+    {
+      "text": "But here's the section here.",
+      "start": 1859.2,
+      "duration": 1.44
+    },
+    {
+      "text": "It's important to be\nadaptive, you know?",
+      "start": 1860.64,
+      "duration": 2.283
+    },
+    {
+      "text": "Or else you might walk into\nyour first day of kindergarten",
+      "start": 1862.923,
+      "duration": 2.417
+    },
+    {
+      "text": "and tell little Steven\nRigden that he's coloring",
+      "start": 1865.34,
+      "duration": 2.28
+    },
+    {
+      "text": "corn teal instead of yellow.",
+      "start": 1867.62,
+      "duration": 1.99
+    },
+    {
+      "text": "And then you get\npunched in the face.",
+      "start": 1869.61,
+      "duration": 1.55
+    },
+    {
+      "text": "And you should have\nbeen more adaptive.",
+      "start": 1871.16,
+      "duration": 2.98
+    },
+    {
+      "text": "The consequences won't be\nthat severe for you, I hope.",
+      "start": 1874.14,
+      "duration": 2.76
+    },
+    {
+      "text": "But the point still applies.",
+      "start": 1876.9,
+      "duration": 1.85
+    },
+    {
+      "text": "So we're talking\nabout large screens",
+      "start": 1878.75,
+      "duration": 1.5
+    },
+    {
+      "text": "here, focusing on SDK 36,\nof course, with devices",
+      "start": 1880.25,
+      "duration": 3.57
+    },
+    {
+      "text": "larger than 600 DP.",
+      "start": 1883.82,
+      "duration": 2.37
+    },
+    {
+      "text": "And for these devices,\ncertain manifest tags",
+      "start": 1886.19,
+      "duration": 1.98
+    },
+    {
+      "text": "are going to be ignored.",
+      "start": 1888.17,
+      "duration": 1.0
+    },
+    {
+      "text": "So we're talking about\nscreen orientation,",
+      "start": 1889.17,
+      "duration": 1.86
+    },
+    {
+      "text": "resizable activities,\nand aspect ratios.",
+      "start": 1891.03,
+      "duration": 3.3
+    },
+    {
+      "text": "Now, for those, you\ngot to throw out",
+      "start": 1894.33,
+      "duration": 2.0
+    },
+    {
+      "text": "all these assumptions\nabout how they're",
+      "start": 1896.33,
+      "duration": 2.31
+    },
+    {
+      "text": "going to act with\nactivity recreation.",
+      "start": 1898.64,
+      "duration": 2.612
+    },
+    {
+      "text": "You're going to have to go\nahead and handle that explicitly",
+      "start": 1901.252,
+      "duration": 2.458
+    },
+    {
+      "text": "from now on.",
+      "start": 1903.71,
+      "duration": 1.09
+    },
+    {
+      "text": "So if you don't, you could\nrun into some consequences.",
+      "start": 1904.8,
+      "duration": 2.55
+    },
+    {
+      "text": "You'll have null\nstates in activities.",
+      "start": 1907.35,
+      "duration": 1.68
+    },
+    {
+      "text": "This could cause a crash.",
+      "start": 1909.03,
+      "duration": 1.17
+    },
+    {
+      "text": "You'll have UI spacing logic--",
+      "start": 1910.2,
+      "duration": 1.55
+    },
+    {
+      "text": "could also cause a crash--",
+      "start": 1911.75,
+      "duration": 1.44
+    },
+    {
+      "text": "or just sad-looking UI, which\ncould cause an emotional crash,",
+      "start": 1913.19,
+      "duration": 4.89
+    },
+    {
+      "text": "or something.",
+      "start": 1918.08,
+      "duration": 1.6
+    },
+    {
+      "text": "Not quite a crash,\nbut you get it.",
+      "start": 1919.68,
+      "duration": 1.94
+    },
+    {
+      "text": "We realize this is\nan important change.",
+      "start": 1921.62,
+      "duration": 1.72
+    },
+    {
+      "text": "It's far reaching.",
+      "start": 1923.34,
+      "duration": 0.75
+    },
+    {
+      "text": "So we've got some limitations\nhere to prevent it",
+      "start": 1924.09,
+      "duration": 2.608
+    },
+    {
+      "text": "from hitting everybody at once.",
+      "start": 1926.698,
+      "duration": 1.292
+    },
+    {
+      "text": "First of all, it's only SDK 36.",
+      "start": 1927.99,
+      "duration": 2.55
+    },
+    {
+      "text": "Second of all, it's no games.",
+      "start": 1930.54,
+      "duration": 2.36
+    },
+    {
+      "text": "Third, only big screens,\nwe've mentioned, 600 DP.",
+      "start": 1932.9,
+      "duration": 3.09
+    },
+    {
+      "text": "Fourth, users can\nhave the option",
+      "start": 1935.99,
+      "duration": 2.16
+    },
+    {
+      "text": "to opt out of this change.",
+      "start": 1938.15,
+      "duration": 1.57
+    },
+    {
+      "text": "And fifth, you can have the\noption to opt out as well,",
+      "start": 1939.72,
+      "duration": 2.78
+    },
+    {
+      "text": "temporarily.",
+      "start": 1942.5,
+      "duration": 1.09
+    },
+    {
+      "text": "Eventually, we are going to\nenforce this a little bit more,",
+      "start": 1943.59,
+      "duration": 3.21
+    },
+    {
+      "text": "but for now.",
+      "start": 1946.8,
+      "duration": 1.82
+    },
+    {
+      "text": "Speaking of that,\nreorienting and resizing,",
+      "start": 1948.62,
+      "duration": 2.542
+    },
+    {
+      "text": "these are already\ncurrent concepts.",
+      "start": 1951.162,
+      "duration": 1.458
+    },
+    {
+      "text": "So no matter what your\nAndroid version is,",
+      "start": 1952.62,
+      "duration": 1.85
+    },
+    {
+      "text": "you should take\na look into this.",
+      "start": 1954.47,
+      "duration": 1.42
+    },
+    {
+      "text": "It's going to help you\nprepare for the future.",
+      "start": 1955.89,
+      "duration": 1.71
+    },
+    {
+      "text": "And it's going to\nhelp you gear up",
+      "start": 1957.6,
+      "duration": 1.417
+    },
+    {
+      "text": "to support 500\nmillion new devices.",
+      "start": 1959.017,
+      "duration": 2.093
+    },
+    {
+      "text": "When you are able to\nsupport cars and XR,",
+      "start": 1961.11,
+      "duration": 2.22
+    },
+    {
+      "text": "it's a whole new set of\ndevices for the future.",
+      "start": 1963.33,
+      "duration": 2.22
+    },
+    {
+      "text": "So if you want to\nlearn more about this,",
+      "start": 1965.55,
+      "duration": 1.89
+    },
+    {
+      "text": "you could jump into a wormhole\nand do the whole time paradox",
+      "start": 1967.44,
+      "duration": 3.37
+    },
+    {
+      "text": "thing.",
+      "start": 1970.81,
+      "duration": 0.5
+    },
+    {
+      "text": "Or you could just attend\ntomorrow's Adaptive Android",
+      "start": 1971.31,
+      "duration": 2.63
+    },
+    {
+      "text": "talk with Alex and Emily.",
+      "start": 1973.94,
+      "duration": 2.37
+    },
+    {
+      "text": "All right.",
+      "start": 1976.31,
+      "duration": 0.7
+    },
+    {
+      "text": "Wear OS, going from the\nbiggest devices to the small,",
+      "start": 1977.01,
+      "duration": 2.72
+    },
+    {
+      "text": "the cute little,\nboop, boop, boop!",
+      "start": 1979.73,
+      "duration": 2.44
+    },
+    {
+      "text": "Oh, I love Wear OS.",
+      "start": 1982.17,
+      "duration": 1.11
+    },
+    {
+      "text": "OK.",
+      "start": 1983.28,
+      "duration": 1.1
+    },
+    {
+      "text": "First feature for Wear\nOS, Watch Face Push.",
+      "start": 1984.38,
+      "duration": 2.92
+    },
+    {
+      "text": "Now, this allows you to\ncreate your own Watch Face",
+      "start": 1987.3,
+      "duration": 3.02
+    },
+    {
+      "text": "mobile marketplace apps.",
+      "start": 1990.32,
+      "duration": 2.4
+    },
+    {
+      "text": "Instead of having to upload\nyour entire Watch Face lineup",
+      "start": 1992.72,
+      "duration": 3.42
+    },
+    {
+      "text": "one by one to Play, you\nget to use Cloud Storage.",
+      "start": 1996.14,
+      "duration": 2.47
+    },
+    {
+      "text": "You can take things straight\nfrom the Cloud to your watch.",
+      "start": 1998.61,
+      "duration": 2.94
+    },
+    {
+      "text": "It's really\nconvenient for users.",
+      "start": 2001.55,
+      "duration": 1.38
+    },
+    {
+      "text": "It's a nice, easy API.",
+      "start": 2002.93,
+      "duration": 1.77
+    },
+    {
+      "text": "Go ahead and take a look.",
+      "start": 2004.7,
+      "duration": 1.22
+    },
+    {
+      "text": "We're also updating health\npermissions granularity.",
+      "start": 2005.92,
+      "duration": 2.88
+    },
+    {
+      "text": "We're making them more\ngranular for users",
+      "start": 2008.8,
+      "duration": 2.21
+    },
+    {
+      "text": "to give them more control\nover their health data.",
+      "start": 2011.01,
+      "duration": 2.2
+    },
+    {
+      "text": "We are deprecating\nthose two permissions",
+      "start": 2013.21,
+      "duration": 2.39
+    },
+    {
+      "text": "and replacing them\nwith the five-- four",
+      "start": 2015.6,
+      "duration": 3.18
+    },
+    {
+      "text": "permissions on your\nright, which I'm not",
+      "start": 2018.78,
+      "duration": 1.975
+    },
+    {
+      "text": "going to read all of those.",
+      "start": 2020.755,
+      "duration": 1.125
+    },
+    {
+      "text": "But the most exciting update\nfor Wear OS is the Wear OS 6",
+      "start": 2021.88,
+      "duration": 4.37
+    },
+    {
+      "text": "Developer Preview.",
+      "start": 2026.25,
+      "duration": 1.06
+    },
+    {
+      "text": "This is available in\nAndroid Studio right now.",
+      "start": 2027.31,
+      "duration": 3.33
+    },
+    {
+      "text": "I'm clapping even\nthough you're not.",
+      "start": 2030.64,
+      "duration": 1.5
+    },
+    {
+      "text": "I think this is pretty cool.",
+      "start": 2032.14,
+      "duration": 1.167
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2033.307,
+      "duration": 2.063
+    },
+    {
+      "text": "This allows you to leverage\nMaterial3 Expressive.",
+      "start": 2035.37,
+      "duration": 2.89
+    },
+    {
+      "text": "It's optimized for Wear.",
+      "start": 2038.26,
+      "duration": 1.17
+    },
+    {
+      "text": "It's got a whole set of\nfeatures just for Wear.",
+      "start": 2039.43,
+      "duration": 2.112
+    },
+    {
+      "text": "If you want to\nlearn more about it,",
+      "start": 2041.542,
+      "duration": 1.458
+    },
+    {
+      "text": "you can take a look\nat the Wear resources",
+      "start": 2043.0,
+      "duration": 2.12
+    },
+    {
+      "text": "and have a look\nat each of those.",
+      "start": 2045.12,
+      "duration": 2.38
+    },
+    {
+      "text": "I'm going to bring up Jingyu\nfor the next part of the show.",
+      "start": 2047.5,
+      "duration": 2.76
+    },
+    {
+      "text": "And for now, go ahead and take\na look at Material3 Expressive.",
+      "start": 2050.26,
+      "duration": 2.835
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2053.095,
+      "duration": 3.291
+    },
+    {
+      "text": "WOMAN: Create a playlist\nfor a 10-minute mile run.",
+      "start": 2069.652,
+      "duration": 2.083
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2083.487,
+      "duration": 3.493
+    },
+    {
+      "text": "JINGYU SHI: It's awesome\nto see this new design",
+      "start": 2088.5,
+      "duration": 2.55
+    },
+    {
+      "text": "system coming to Android 16,\nWear OS 6, and Google Maps.",
+      "start": 2091.05,
+      "duration": 4.66
+    },
+    {
+      "text": "But what does this\nreally mean for your app?",
+      "start": 2095.71,
+      "duration": 2.4
+    },
+    {
+      "text": "How can you create these\nvisually stunning and more",
+      "start": 2098.11,
+      "duration": 3.65
+    },
+    {
+      "text": "usable UIs to showcase the\nunique value of your product?",
+      "start": 2101.76,
+      "duration": 4.27
+    },
+    {
+      "text": "So let's take a look.",
+      "start": 2106.03,
+      "duration": 2.42
+    },
+    {
+      "text": "Material3 Expressive brings\n15 new-and-improved components",
+      "start": 2108.45,
+      "duration": 5.49
+    },
+    {
+      "text": "and major style updates\nwith unexpected shapes,",
+      "start": 2113.94,
+      "duration": 4.42
+    },
+    {
+      "text": "eye-catching colors, flexible\ntypography, and a new motion",
+      "start": 2118.36,
+      "duration": 4.57
+    },
+    {
+      "text": "physics.",
+      "start": 2122.93,
+      "duration": 1.56
+    },
+    {
+      "text": "To be clear, this is\nnot a new version.",
+      "start": 2124.49,
+      "duration": 2.95
+    },
+    {
+      "text": "It's an expansion pack.",
+      "start": 2127.44,
+      "duration": 1.52
+    },
+    {
+      "text": "And it's fully compatible\nwith the existing M3 features.",
+      "start": 2128.96,
+      "duration": 4.44
+    },
+    {
+      "text": "And you can start building today\nwith our latest alpha libraries.",
+      "start": 2133.4,
+      "duration": 4.44
+    },
+    {
+      "text": "And watch this\ntalk to learn more.",
+      "start": 2137.84,
+      "duration": 3.45
+    },
+    {
+      "text": "M3 Expressive paves the way\nfor a delightful experience.",
+      "start": 2141.29,
+      "duration": 4.96
+    },
+    {
+      "text": "And our next stop in\nbuilding that excellent app",
+      "start": 2146.25,
+      "duration": 3.32
+    },
+    {
+      "text": "is with system UI,\nstarting with live updates.",
+      "start": 2149.57,
+      "duration": 4.96
+    },
+    {
+      "text": "It is a new\nnotification-based paradigm",
+      "start": 2154.53,
+      "duration": 3.11
+    },
+    {
+      "text": "that helps our users\nstay focused on critical,",
+      "start": 2157.64,
+      "duration": 3.64
+    },
+    {
+      "text": "time-sensitive, ongoing tasks.",
+      "start": 2161.28,
+      "duration": 2.7
+    },
+    {
+      "text": "For those of you who built\nongoing notifications",
+      "start": 2163.98,
+      "duration": 2.9
+    },
+    {
+      "text": "with foreground\nservices in the past,",
+      "start": 2166.88,
+      "duration": 2.23
+    },
+    {
+      "text": "this is a major upgrade\nto notifications.",
+      "start": 2169.11,
+      "duration": 4.04
+    },
+    {
+      "text": "Whether your user is waiting\nfor a taxi or food delivery",
+      "start": 2173.15,
+      "duration": 5.56
+    },
+    {
+      "text": "or using Maps for\nnavigation, they now",
+      "start": 2178.71,
+      "duration": 3.35
+    },
+    {
+      "text": "have this real-time\nview with live updates,",
+      "start": 2182.06,
+      "duration": 3.51
+    },
+    {
+      "text": "as you just saw it in action\nin Waymo, Uber Eats, and Google",
+      "start": 2185.57,
+      "duration": 3.6
+    },
+    {
+      "text": "Maps.",
+      "start": 2189.17,
+      "duration": 0.96
+    },
+    {
+      "text": "As part of this update, we're\nreleasing a new notification",
+      "start": 2190.13,
+      "duration": 3.42
+    },
+    {
+      "text": "template called Progress Style.",
+      "start": 2193.55,
+      "duration": 2.11
+    },
+    {
+      "text": "It is a highly customizable\nnotification template",
+      "start": 2195.66,
+      "duration": 3.62
+    },
+    {
+      "text": "with rich visualization to\nshow you milestones and stages",
+      "start": 2199.28,
+      "duration": 3.51
+    },
+    {
+      "text": "of this ongoing task.",
+      "start": 2202.79,
+      "duration": 1.69
+    },
+    {
+      "text": "Live updates are rolling\nout to Android devices",
+      "start": 2204.48,
+      "duration": 3.08
+    },
+    {
+      "text": "later this year with\nour device manufacturer",
+      "start": 2207.56,
+      "duration": 2.97
+    },
+    {
+      "text": "partners like Pixel.",
+      "start": 2210.53,
+      "duration": 1.57
+    },
+    {
+      "text": "Samsung's Now Bar, OnePlus\nLive Alerts, Vivo, and Xiaomi",
+      "start": 2212.1,
+      "duration": 4.58
+    },
+    {
+      "text": "are also integrating it\nwith their custom system UI.",
+      "start": 2216.68,
+      "duration": 3.46
+    },
+    {
+      "text": "This means we're providing\nyou with a consistent API",
+      "start": 2220.14,
+      "duration": 3.26
+    },
+    {
+      "text": "with the maximum reach.",
+      "start": 2223.4,
+      "duration": 2.25
+    },
+    {
+      "text": "And to find out about the\ncriteria and best practices",
+      "start": 2225.65,
+      "duration": 4.26
+    },
+    {
+      "text": "for building notification live\nupdates, check out this talk.",
+      "start": 2229.91,
+      "duration": 4.62
+    },
+    {
+      "text": "Next, let's talk about widget.",
+      "start": 2234.53,
+      "duration": 1.96
+    },
+    {
+      "text": "It's one of my\nfavorite UI elements.",
+      "start": 2236.49,
+      "duration": 2.67
+    },
+    {
+      "text": "And I know I'm not the only one,\nbecause we're bringing it back",
+      "start": 2239.16,
+      "duration": 4.27
+    },
+    {
+      "text": "to the lock screen.",
+      "start": 2243.43,
+      "duration": 1.57
+    },
+    {
+      "text": "Hub Mode is already\non Pixel Tablet",
+      "start": 2245.0,
+      "duration": 2.45
+    },
+    {
+      "text": "and soon coming to\nmobile phones as well.",
+      "start": 2247.45,
+      "duration": 2.82
+    },
+    {
+      "text": "Alongside Hub Mode, we're also\nboosting widget discoverability",
+      "start": 2250.27,
+      "duration": 4.68
+    },
+    {
+      "text": "on Google Play by recommending\nthe highest-quality widget",
+      "start": 2254.95,
+      "duration": 5.89
+    },
+    {
+      "text": "and adding a new filter\nfor that easy search.",
+      "start": 2260.84,
+      "duration": 3.33
+    },
+    {
+      "text": "To find out about the\nquality of widgets,",
+      "start": 2264.17,
+      "duration": 2.94
+    },
+    {
+      "text": "check out this documentation.",
+      "start": 2267.11,
+      "duration": 3.59
+    },
+    {
+      "text": "To help you-- we continue\nto help you build widgets",
+      "start": 2270.7,
+      "duration": 4.92
+    },
+    {
+      "text": "easier with Jetpack Glance.",
+      "start": 2275.62,
+      "duration": 2.32
+    },
+    {
+      "text": "Glance 1.2 is now\navailable in alpha,",
+      "start": 2277.94,
+      "duration": 3.54
+    },
+    {
+      "text": "providing you with better\npreview of your content.",
+      "start": 2281.48,
+      "duration": 3.3
+    },
+    {
+      "text": "And the new canonical layouts\nare available in Figma.",
+      "start": 2284.78,
+      "duration": 4.61
+    },
+    {
+      "text": "We heard your\nfeedback that you want",
+      "start": 2289.39,
+      "duration": 2.19
+    },
+    {
+      "text": "to measure the impact of your\nwidget to understand your users.",
+      "start": 2291.58,
+      "duration": 3.4
+    },
+    {
+      "text": "So we're introducing\nthe new Widgets Metrics",
+      "start": 2294.98,
+      "duration": 3.05
+    },
+    {
+      "text": "API, available this\nyear, so you can",
+      "start": 2298.03,
+      "duration": 2.58
+    },
+    {
+      "text": "get insights of your widgets'\nimpressions and interactions.",
+      "start": 2300.61,
+      "duration": 4.38
+    },
+    {
+      "text": "So all these efforts, we\nwant to increase your ROI",
+      "start": 2304.99,
+      "duration": 3.63
+    },
+    {
+      "text": "for widget development.",
+      "start": 2308.62,
+      "duration": 1.87
+    },
+    {
+      "text": "As our partner\nSoundCloud has shared,",
+      "start": 2310.49,
+      "duration": 2.58
+    },
+    {
+      "text": "they were able to\nimplement widgets",
+      "start": 2313.07,
+      "duration": 2.06
+    },
+    {
+      "text": "within just two weeks\nusing Jetpack Lens",
+      "start": 2315.13,
+      "duration": 2.85
+    },
+    {
+      "text": "and found that their users\nwere interacting with it",
+      "start": 2317.98,
+      "duration": 3.03
+    },
+    {
+      "text": "multiple times a day on\naverage to get right back",
+      "start": 2321.01,
+      "duration": 3.24
+    },
+    {
+      "text": "within their application.",
+      "start": 2324.25,
+      "duration": 2.04
+    },
+    {
+      "text": "Now that we've\ncovered the screens",
+      "start": 2326.29,
+      "duration": 2.19
+    },
+    {
+      "text": "outside of your app's\nUI, let's switch back to",
+      "start": 2328.48,
+      "duration": 2.82
+    },
+    {
+      "text": "within your application.",
+      "start": 2331.3,
+      "duration": 2.05
+    },
+    {
+      "text": "There are two behavior changes\nthat might impact your app,",
+      "start": 2333.35,
+      "duration": 3.53
+    },
+    {
+      "text": "edge to edge and\npredictive back.",
+      "start": 2336.88,
+      "duration": 2.62
+    },
+    {
+      "text": "First, edge to edge.",
+      "start": 2339.5,
+      "duration": 1.5
+    },
+    {
+      "text": "Starting Android 16, there will\nno longer be an opt out option.",
+      "start": 2341.0,
+      "duration": 4.2
+    },
+    {
+      "text": "So when you are updating\nyour target SDK version,",
+      "start": 2345.2,
+      "duration": 3.36
+    },
+    {
+      "text": "make sure your app content is\nnot obscured by the system bars.",
+      "start": 2348.56,
+      "duration": 4.46
+    },
+    {
+      "text": "To help you handle window\ninsets appropriately,",
+      "start": 2353.02,
+      "duration": 2.68
+    },
+    {
+      "text": "check out this documentation.",
+      "start": 2355.7,
+      "duration": 2.69
+    },
+    {
+      "text": "We already mentioned\nthat predictive back",
+      "start": 2358.39,
+      "duration": 2.12
+    },
+    {
+      "text": "is being integrated into Compose\nAdaptive and Navigation 3.",
+      "start": 2360.51,
+      "duration": 4.39
+    },
+    {
+      "text": "This is the final\nupdate in Android 16.",
+      "start": 2364.9,
+      "duration": 2.97
+    },
+    {
+      "text": "Predictive back is enabled\nby default for back",
+      "start": 2367.87,
+      "duration": 3.08
+    },
+    {
+      "text": "to home, cross-apps,\nand cross-activity.",
+      "start": 2370.95,
+      "duration": 3.09
+    },
+    {
+      "text": "And our animations are available\nfor three-button navigation",
+      "start": 2374.04,
+      "duration": 4.35
+    },
+    {
+      "text": "as well.",
+      "start": 2378.39,
+      "duration": 1.74
+    },
+    {
+      "text": "If you are currently\nintercepting the back event,",
+      "start": 2380.13,
+      "duration": 2.83
+    },
+    {
+      "text": "make sure you're\nupdating your app,",
+      "start": 2382.96,
+      "duration": 1.94
+    },
+    {
+      "text": "and migrate to our supported\nback navigation APIs.",
+      "start": 2384.9,
+      "duration": 3.88
+    },
+    {
+      "text": "Otherwise, no action is\nneeded from your app.",
+      "start": 2388.78,
+      "duration": 3.24
+    },
+    {
+      "text": "And for those of you who are\ncurrently not able to migrate,",
+      "start": 2392.02,
+      "duration": 3.54
+    },
+    {
+      "text": "a temporary opt-out\nflag is provided.",
+      "start": 2395.56,
+      "duration": 3.95
+    },
+    {
+      "text": "You've already heard that\nCompose support for CameraX",
+      "start": 2399.51,
+      "duration": 3.66
+    },
+    {
+      "text": "and Media3, but we're\nadding a lot more features",
+      "start": 2403.17,
+      "duration": 3.39
+    },
+    {
+      "text": "to help you build this rich\nand engaging media experience.",
+      "start": 2406.56,
+      "duration": 4.27
+    },
+    {
+      "text": "So let's take a look.",
+      "start": 2410.83,
+      "duration": 2.81
+    },
+    {
+      "text": "We offer building effects\nin CameraX and Media3,",
+      "start": 2413.64,
+      "duration": 4.3
+    },
+    {
+      "text": "which are designed to\nwork seamlessly together,",
+      "start": 2417.94,
+      "duration": 3.02
+    },
+    {
+      "text": "with the effect frameworks\nshared across these libraries.",
+      "start": 2420.96,
+      "duration": 3.82
+    },
+    {
+      "text": "You can define an\neffect like grayscale",
+      "start": 2424.78,
+      "duration": 2.69
+    },
+    {
+      "text": "once and use both in CameraX\nduring capture and Media3",
+      "start": 2427.47,
+      "duration": 4.92
+    },
+    {
+      "text": "when editing.",
+      "start": 2432.39,
+      "duration": 1.86
+    },
+    {
+      "text": "In Android 15, we introduced\nthe Auto Exposure mode,",
+      "start": 2434.25,
+      "duration": 3.73
+    },
+    {
+      "text": "which leverages the\ndevice's camera sensor",
+      "start": 2437.98,
+      "duration": 2.91
+    },
+    {
+      "text": "and ISP to brighten\nup the preview stream.",
+      "start": 2440.89,
+      "duration": 3.21
+    },
+    {
+      "text": "But what about the device that\ndon't have the Auto Exposure",
+      "start": 2444.1,
+      "duration": 3.32
+    },
+    {
+      "text": "mode?",
+      "start": 2447.42,
+      "duration": 0.7
+    },
+    {
+      "text": "So this year, we introduced the\nGoogle Low Light Boost library",
+      "start": 2448.12,
+      "duration": 4.64
+    },
+    {
+      "text": "that leverages the computational\nphotography techniques",
+      "start": 2452.76,
+      "duration": 3.33
+    },
+    {
+      "text": "and machine learning\nto dynamically adjust",
+      "start": 2456.09,
+      "duration": 3.15
+    },
+    {
+      "text": "the brightness of the\ncamera screen in real time.",
+      "start": 2459.24,
+      "duration": 3.9
+    },
+    {
+      "text": "This extends the\nfeature to more devices,",
+      "start": 2463.14,
+      "duration": 2.85
+    },
+    {
+      "text": "from Pixel 6 to 9 series, as\nwell as the Samsung Galaxy S23",
+      "start": 2465.99,
+      "duration": 5.31
+    },
+    {
+      "text": "Ultra to S25 Ultra series.",
+      "start": 2471.3,
+      "duration": 3.99
+    },
+    {
+      "text": "If your app offers a fast-paced\nswipeable video feed,",
+      "start": 2475.29,
+      "duration": 3.72
+    },
+    {
+      "text": "that's updated for you.",
+      "start": 2479.01,
+      "duration": 1.75
+    },
+    {
+      "text": "We launched the Preload\nManager API in Jetpack Media3.",
+      "start": 2480.76,
+      "duration": 3.95
+    },
+    {
+      "text": "It allows you to preload\nmultiple media sources",
+      "start": 2484.71,
+      "duration": 5.07
+    },
+    {
+      "text": "and is designed to\noptimize short-form video",
+      "start": 2489.78,
+      "duration": 3.03
+    },
+    {
+      "text": "playback with ExoPlayer.",
+      "start": 2492.81,
+      "duration": 2.35
+    },
+    {
+      "text": "Especially when implemented\nwith scrolling lists of videos,",
+      "start": 2495.16,
+      "duration": 4.08
+    },
+    {
+      "text": "you will get faster app startup,\nas well as more smooth user",
+      "start": 2499.24,
+      "duration": 5.12
+    },
+    {
+      "text": "experience.",
+      "start": 2504.36,
+      "duration": 1.3
+    },
+    {
+      "text": "Use the default Preload Manager\nto get that out-of-the-box",
+      "start": 2505.66,
+      "duration": 3.62
+    },
+    {
+      "text": "implementation.",
+      "start": 2509.28,
+      "duration": 1.24
+    },
+    {
+      "text": "Or if you want to customize how\nmuch ExoPlayer tries to preload,",
+      "start": 2510.52,
+      "duration": 5.04
+    },
+    {
+      "text": "then use the\nTargetPreloadStatusControl.",
+      "start": 2515.56,
+      "duration": 5.81
+    },
+    {
+      "text": "Next, an audio update.",
+      "start": 2521.37,
+      "duration": 2.32
+    },
+    {
+      "text": "If you want to preserve battery\nand provide a better performance",
+      "start": 2523.69,
+      "duration": 4.79
+    },
+    {
+      "text": "for your users during long audio\nplayback with the screen off,",
+      "start": 2528.48,
+      "duration": 4.12
+    },
+    {
+      "text": "Android 16 introduces the\nNative PCM Audio Offload feature",
+      "start": 2532.6,
+      "duration": 4.81
+    },
+    {
+      "text": "to the Android NDK.",
+      "start": 2537.41,
+      "duration": 1.84
+    },
+    {
+      "text": "At its core, it lets\nthe Android system",
+      "start": 2539.25,
+      "duration": 2.45
+    },
+    {
+      "text": "to offload the primary\naudio processing",
+      "start": 2541.7,
+      "duration": 2.34
+    },
+    {
+      "text": "to a dedicated hardware like\nDSP rather than the CPU.",
+      "start": 2544.04,
+      "duration": 4.56
+    },
+    {
+      "text": "To enable it, first,\ncheck that the device",
+      "start": 2548.6,
+      "duration": 3.3
+    },
+    {
+      "text": "supports offloading the audio\nfile's properties and format.",
+      "start": 2551.9,
+      "duration": 3.49
+    },
+    {
+      "text": "Then simply enable it by\nsetting the performance mode.",
+      "start": 2555.39,
+      "duration": 4.43
+    },
+    {
+      "text": "Besides these\nfeatures we're adding",
+      "start": 2559.82,
+      "duration": 2.13
+    },
+    {
+      "text": "and Jetpack libraries\nimprovements,",
+      "start": 2561.95,
+      "duration": 2.74
+    },
+    {
+      "text": "we're also adding a\nseries of new features",
+      "start": 2564.69,
+      "duration": 2.6
+    },
+    {
+      "text": "for the professional creators\nout there in Android 16.",
+      "start": 2567.29,
+      "duration": 3.91
+    },
+    {
+      "text": "And to check out these features,\nto learn more about them,",
+      "start": 2571.2,
+      "duration": 3.57
+    },
+    {
+      "text": "make sure to visit\nour documentation.",
+      "start": 2574.77,
+      "duration": 2.39
+    },
+    {
+      "text": "And watch this talk\nfor recommendations",
+      "start": 2577.16,
+      "duration": 2.31
+    },
+    {
+      "text": "on CameraX and Media3.",
+      "start": 2579.47,
+      "duration": 3.33
+    },
+    {
+      "text": "Now that we've covered building\nan intuitive and delightful",
+      "start": 2582.8,
+      "duration": 4.35
+    },
+    {
+      "text": "experience, what about\ncreating that wow moment,",
+      "start": 2587.15,
+      "duration": 4.03
+    },
+    {
+      "text": "which is unique and\nhelpful to your users?",
+      "start": 2591.18,
+      "duration": 3.21
+    },
+    {
+      "text": "The path forward,\nas I believe, is",
+      "start": 2594.39,
+      "duration": 2.75
+    },
+    {
+      "text": "through this intelligent\nexperience, powered by AI.",
+      "start": 2597.14,
+      "duration": 4.98
+    },
+    {
+      "text": "If you're like me, you\ncan feel the future",
+      "start": 2602.12,
+      "duration": 2.64
+    },
+    {
+      "text": "of truly intelligent,\npersonalized,",
+      "start": 2604.76,
+      "duration": 3.01
+    },
+    {
+      "text": "and agentic experiences\ngetting closer than ever.",
+      "start": 2607.77,
+      "duration": 3.48
+    },
+    {
+      "text": "In Android, we've been focused\non using this technology",
+      "start": 2611.25,
+      "duration": 3.41
+    },
+    {
+      "text": "to solve real problems.",
+      "start": 2614.66,
+      "duration": 1.87
+    },
+    {
+      "text": "During the keynote,\nyou already heard",
+      "start": 2616.53,
+      "duration": 2.15
+    },
+    {
+      "text": "that we're expanding Gemini, our\npowerful and helpful assistant,",
+      "start": 2618.68,
+      "duration": 4.3
+    },
+    {
+      "text": "across devices.",
+      "start": 2622.98,
+      "duration": 1.2
+    },
+    {
+      "text": "So instead, I'll\nfocus on how you",
+      "start": 2624.18,
+      "duration": 2.48
+    },
+    {
+      "text": "can build this intelligent\nexperience in your app.",
+      "start": 2626.66,
+      "duration": 4.23
+    },
+    {
+      "text": "For years, backend servers have\nbeen doing the heavy lifting",
+      "start": 2630.89,
+      "duration": 3.63
+    },
+    {
+      "text": "for AI features.",
+      "start": 2634.52,
+      "duration": 2.11
+    },
+    {
+      "text": "But now Android is\nbringing AI directly",
+      "start": 2636.63,
+      "duration": 2.93
+    },
+    {
+      "text": "into the hand of your users with\non-device Gemini Nano model,",
+      "start": 2639.56,
+      "duration": 4.66
+    },
+    {
+      "text": "as well as APIs to allow\nyou to access our bigger",
+      "start": 2644.22,
+      "duration": 3.26
+    },
+    {
+      "text": "models on the Cloud.",
+      "start": 2647.48,
+      "duration": 1.63
+    },
+    {
+      "text": "And like this, you no longer\nneed to rely on backend server",
+      "start": 2649.11,
+      "duration": 3.53
+    },
+    {
+      "text": "to build that\nincredible AI feature.",
+      "start": 2652.64,
+      "duration": 3.38
+    },
+    {
+      "text": "Our unique strength lies\nin pushing the boundaries",
+      "start": 2656.02,
+      "duration": 2.94
+    },
+    {
+      "text": "of what's possible on device.",
+      "start": 2658.96,
+      "duration": 2.05
+    },
+    {
+      "text": "Introducing GenAI API, which\nuses Gemini Nano under the hood.",
+      "start": 2661.01,
+      "duration": 5.58
+    },
+    {
+      "text": "It's straightforward\nto implement",
+      "start": 2666.59,
+      "duration": 1.82
+    },
+    {
+      "text": "with a few lines of code.",
+      "start": 2668.41,
+      "duration": 1.63
+    },
+    {
+      "text": "After defining the\nAI task, you want",
+      "start": 2670.04,
+      "duration": 2.81
+    },
+    {
+      "text": "to set the options to get\nthe model's input and output",
+      "start": 2672.85,
+      "duration": 3.18
+    },
+    {
+      "text": "processing.",
+      "start": 2676.03,
+      "duration": 1.03
+    },
+    {
+      "text": "Make sure that the\ndevice have the model",
+      "start": 2677.06,
+      "duration": 2.45
+    },
+    {
+      "text": "and features available.",
+      "start": 2679.51,
+      "duration": 1.48
+    },
+    {
+      "text": "Then simply run inference.",
+      "start": 2680.99,
+      "duration": 2.16
+    },
+    {
+      "text": "Currently, GenAI API lets you\nbuild for four common text",
+      "start": 2683.15,
+      "duration": 4.34
+    },
+    {
+      "text": "and image tasks.",
+      "start": 2687.49,
+      "duration": 1.72
+    },
+    {
+      "text": "And we're actively expanding\non this, with more features",
+      "start": 2689.21,
+      "duration": 3.05
+    },
+    {
+      "text": "to come later this year.",
+      "start": 2692.26,
+      "duration": 2.52
+    },
+    {
+      "text": "In Androidify, you saw our\nlarger and more capable",
+      "start": 2694.78,
+      "duration": 4.02
+    },
+    {
+      "text": "models in action, like Imagine.",
+      "start": 2698.8,
+      "duration": 2.13
+    },
+    {
+      "text": "Through this SDK, you get\ndirect-to-cloud AI capabilities",
+      "start": 2700.93,
+      "duration": 5.04
+    },
+    {
+      "text": "in your app.",
+      "start": 2705.97,
+      "duration": 0.87
+    },
+    {
+      "text": "And we're integrating quickly.",
+      "start": 2706.84,
+      "duration": 1.9
+    },
+    {
+      "text": "Make sure that you get\naccess to our latest models",
+      "start": 2708.74,
+      "duration": 3.32
+    },
+    {
+      "text": "and new features.",
+      "start": 2712.06,
+      "duration": 1.62
+    },
+    {
+      "text": "One such example that\nI'm eager to highlight",
+      "start": 2713.68,
+      "duration": 3.36
+    },
+    {
+      "text": "is the Gemini Live API.",
+      "start": 2717.04,
+      "duration": 2.35
+    },
+    {
+      "text": "It is your key to have\nthat real-time interactive",
+      "start": 2719.39,
+      "duration": 3.65
+    },
+    {
+      "text": "experience.",
+      "start": 2723.04,
+      "duration": 1.06
+    },
+    {
+      "text": "We're talking bidirectional\naudio streaming",
+      "start": 2724.1,
+      "duration": 3.2
+    },
+    {
+      "text": "that fully leverages the\nmulti-modality of Gemini.",
+      "start": 2727.3,
+      "duration": 4.12
+    },
+    {
+      "text": "And of course, this is directly\navailable in your app code",
+      "start": 2731.42,
+      "duration": 4.22
+    },
+    {
+      "text": "by using Firebase.",
+      "start": 2735.64,
+      "duration": 1.48
+    },
+    {
+      "text": "First, create an\ninstance of LiveModel.",
+      "start": 2737.12,
+      "duration": 3.03
+    },
+    {
+      "text": "Then start a\nconnection with Gemini",
+      "start": 2740.15,
+      "duration": 2.12
+    },
+    {
+      "text": "by calling the\nstartAudioConversation method.",
+      "start": 2742.27,
+      "duration": 3.66
+    },
+    {
+      "text": "And it's not just\nAndroid devices.",
+      "start": 2745.93,
+      "duration": 3.07
+    },
+    {
+      "text": "If you're looking to build\nsmart home experiences,",
+      "start": 2749.0,
+      "duration": 2.73
+    },
+    {
+      "text": "we've got you covered,\nbecause later this year,",
+      "start": 2751.73,
+      "duration": 2.55
+    },
+    {
+      "text": "we're bringing the powerful\nGemini capabilities",
+      "start": 2754.28,
+      "duration": 2.36
+    },
+    {
+      "text": "into the Home APIs, allowing\nyour users to create automations",
+      "start": 2756.64,
+      "duration": 4.83
+    },
+    {
+      "text": "easily and have that smart\ncamera experience using",
+      "start": 2761.47,
+      "duration": 4.26
+    },
+    {
+      "text": "natural language.",
+      "start": 2765.73,
+      "duration": 1.21
+    },
+    {
+      "text": "Home API is cross-platform.",
+      "start": 2766.94,
+      "duration": 2.21
+    },
+    {
+      "text": "And it gives you access\nto 750 million devices.",
+      "start": 2769.15,
+      "duration": 4.91
+    },
+    {
+      "text": "To find the right Gemini\nsolution for your app,",
+      "start": 2774.06,
+      "duration": 3.01
+    },
+    {
+      "text": "watch this talk.",
+      "start": 2777.07,
+      "duration": 1.38
+    },
+    {
+      "text": "Explore our documentation\nfor the latest model",
+      "start": 2778.45,
+      "duration": 3.08
+    },
+    {
+      "text": "updates and APIs.",
+      "start": 2781.53,
+      "duration": 1.99
+    },
+    {
+      "text": "And use our GitHub sample\ncatalog to get started quickly.",
+      "start": 2783.52,
+      "duration": 5.45
+    },
+    {
+      "text": "We covered a lot today, from\nthe incredible potential",
+      "start": 2788.97,
+      "duration": 5.31
+    },
+    {
+      "text": "of Gemini in your apps, the\nupdates and features in Android",
+      "start": 2794.28,
+      "duration": 4.11
+    },
+    {
+      "text": "16, to the continuous\nevolution in Jetpack libraries.",
+      "start": 2798.39,
+      "duration": 4.57
+    },
+    {
+      "text": "It is our commitment to help you\nbuild that excellent app, which",
+      "start": 2802.96,
+      "duration": 4.55
+    },
+    {
+      "text": "is safe, performant,\nintelligent, and absolutely",
+      "start": 2807.51,
+      "duration": 3.75
+    },
+    {
+      "text": "delightful across devices.",
+      "start": 2811.26,
+      "duration": 2.82
+    },
+    {
+      "text": "And with that, that's a wrap\non What's New in Android.",
+      "start": 2814.08,
+      "duration": 3.73
+    },
+    {
+      "text": "Thank you all.",
+      "start": 2817.81,
+      "duration": 0.86
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2818.67,
+      "duration": 0.9
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2819.57,
+      "duration": 3.35
+    }
+  ]
+}

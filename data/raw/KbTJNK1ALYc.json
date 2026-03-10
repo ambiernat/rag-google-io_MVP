@@ -1,0 +1,1997 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "KbTJNK1ALYc",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.832
+    },
+    {
+      "text": "PATRICK FUENTES:\nHi, I'm Patrick.",
+      "start": 6.14,
+      "duration": 2.46
+    },
+    {
+      "text": "DERECK BRIDIE: And I'm Dereck.",
+      "start": 8.6,
+      "duration": 1.857
+    },
+    {
+      "text": "PATRICK FUENTES: And together,\nwe're here to talk to you about",
+      "start": 10.457,
+      "duration": 2.583
+    },
+    {
+      "text": "ways you can take your 2D\nAndroid apps to the next level",
+      "start": 13.04,
+      "duration": 3.57
+    },
+    {
+      "text": "in XR with 3D content.",
+      "start": 16.61,
+      "duration": 3.6
+    },
+    {
+      "text": "For those of you who\naren't already familiar,",
+      "start": 20.21,
+      "duration": 2.35
+    },
+    {
+      "text": "Android XR is the newest\nplatform in the Android family.",
+      "start": 22.56,
+      "duration": 3.57
+    },
+    {
+      "text": "It's built for extended\nreality devices",
+      "start": 26.13,
+      "duration": 2.75
+    },
+    {
+      "text": "like headsets and glasses.",
+      "start": 28.88,
+      "duration": 3.419
+    },
+    {
+      "text": "The first Android XR\ndevice will be a headset,",
+      "start": 32.299,
+      "duration": 3.001
+    },
+    {
+      "text": "Project Moohan from Samsung.",
+      "start": 35.3,
+      "duration": 2.79
+    },
+    {
+      "text": "Starting from its launch\nlater this year, the ecosystem",
+      "start": 38.09,
+      "duration": 3.3
+    },
+    {
+      "text": "will expand further across\nheadsets and glasses.",
+      "start": 41.39,
+      "duration": 3.42
+    },
+    {
+      "text": "In today's session, we'll cover\nsome of the 3D capabilities",
+      "start": 44.81,
+      "duration": 3.15
+    },
+    {
+      "text": "introduced in the developer\npreview of the Jetpack XR SDK,",
+      "start": 47.96,
+      "duration": 4.15
+    },
+    {
+      "text": "and some practical ways you can\nuse them to make the content",
+      "start": 52.11,
+      "duration": 3.29
+    },
+    {
+      "text": "in your app really\nstand out on XR devices.",
+      "start": 55.4,
+      "duration": 3.39
+    },
+    {
+      "text": "To do this, we'll use a 2D\napp for learning about animals",
+      "start": 58.79,
+      "duration": 3.45
+    },
+    {
+      "text": "as an example.",
+      "start": 62.24,
+      "duration": 0.93
+    },
+    {
+      "text": "Throughout this talk, we'll\nadd 3D capabilities to the app",
+      "start": 63.17,
+      "duration": 3.23
+    },
+    {
+      "text": "to help that tiger and the\nother animals come to life.",
+      "start": 66.4,
+      "duration": 3.55
+    },
+    {
+      "text": "This will take advantage of the\nXR environment and create a more",
+      "start": 69.95,
+      "duration": 3.56
+    },
+    {
+      "text": "immersive, engaging user\nexperience than what's possible",
+      "start": 73.51,
+      "duration": 2.91
+    },
+    {
+      "text": "in 2D.",
+      "start": 76.42,
+      "duration": 1.26
+    },
+    {
+      "text": "We've made the new\nAndroid XR emulator",
+      "start": 77.68,
+      "duration": 2.28
+    },
+    {
+      "text": "available as a part of\nthe developer preview,",
+      "start": 79.96,
+      "duration": 2.02
+    },
+    {
+      "text": "so you can try out the features\nwe'll cover today for yourself.",
+      "start": 81.98,
+      "duration": 3.03
+    },
+    {
+      "text": "One of the great things\nabout Android XR,",
+      "start": 85.01,
+      "duration": 2.36
+    },
+    {
+      "text": "is that it works hard to support\napps with little or no changes.",
+      "start": 87.37,
+      "duration": 5.31
+    },
+    {
+      "text": "By default, apps that\ndon't make changes for XR,",
+      "start": 92.68,
+      "duration": 3.18
+    },
+    {
+      "text": "will run in a mode\ncalled Home Space.",
+      "start": 95.86,
+      "duration": 4.02
+    },
+    {
+      "text": "Home Space is the\nfirst thing users",
+      "start": 99.88,
+      "duration": 2.31
+    },
+    {
+      "text": "see when they put on a headset.",
+      "start": 102.19,
+      "duration": 1.96
+    },
+    {
+      "text": "It's kind of like\nfreeform desktop",
+      "start": 104.15,
+      "duration": 2.78
+    },
+    {
+      "text": "Windows for your Android app\nbut on a seemingly infinite",
+      "start": 106.93,
+      "duration": 3.3
+    },
+    {
+      "text": "virtual display.",
+      "start": 110.23,
+      "duration": 2.7
+    },
+    {
+      "text": "Android apps without\nXR affordances,",
+      "start": 112.93,
+      "duration": 2.37
+    },
+    {
+      "text": "open in a single\npanel in Home Space.",
+      "start": 115.3,
+      "duration": 3.69
+    },
+    {
+      "text": "One of the major\nbenefits of Home Space,",
+      "start": 118.99,
+      "duration": 2.59
+    },
+    {
+      "text": "is that it enables side-by-side\nmultitasking with other apps.",
+      "start": 121.58,
+      "duration": 5.28
+    },
+    {
+      "text": "Home Space is great, but it's\njust a 2D surface for your app",
+      "start": 126.86,
+      "duration": 3.96
+    },
+    {
+      "text": "inside a 3D space.",
+      "start": 130.82,
+      "duration": 1.84
+    },
+    {
+      "text": "To access the full\ncapabilities of the 3D space,",
+      "start": 132.66,
+      "duration": 3.33
+    },
+    {
+      "text": "you need to access a different\nmode called Full Space.",
+      "start": 135.99,
+      "duration": 4.13
+    },
+    {
+      "text": "Full Space is the setting\nwhere your app has full access",
+      "start": 140.12,
+      "duration": 3.36
+    },
+    {
+      "text": "to the immersive\ncapabilities of Android XR,",
+      "start": 143.48,
+      "duration": 2.68
+    },
+    {
+      "text": "including 3D content.",
+      "start": 146.16,
+      "duration": 2.57
+    },
+    {
+      "text": "When an app enters Full\nSpace, other apps are hidden",
+      "start": 148.73,
+      "duration": 3.72
+    },
+    {
+      "text": "and the app comes into focus,\ntaking up the full view",
+      "start": 152.45,
+      "duration": 3.36
+    },
+    {
+      "text": "around you.",
+      "start": 155.81,
+      "duration": 2.4
+    },
+    {
+      "text": "To help your app transition\nbetween Home Space and Full",
+      "start": 158.21,
+      "duration": 2.97
+    },
+    {
+      "text": "Space, we provide\nAPIs that can switch",
+      "start": 161.18,
+      "duration": 3.09
+    },
+    {
+      "text": "back and forth at runtime.",
+      "start": 164.27,
+      "duration": 3.09
+    },
+    {
+      "text": "To learn more,\ncheck out our guide",
+      "start": 167.36,
+      "duration": 2.19
+    },
+    {
+      "text": "on transitioning from\nHome Space to Full",
+      "start": 169.55,
+      "duration": 1.98
+    },
+    {
+      "text": "Space on\ndeveloper.android.com, or see",
+      "start": 171.53,
+      "duration": 3.6
+    },
+    {
+      "text": "how this is implemented in the\nHello, Android XR sample app.",
+      "start": 175.13,
+      "duration": 3.93
+    },
+    {
+      "text": "So now that both Home\nSpace and Full Space,",
+      "start": 179.06,
+      "duration": 3.23
+    },
+    {
+      "text": "it might be tempting\nto only support",
+      "start": 182.29,
+      "duration": 2.39
+    },
+    {
+      "text": "Full Space for the most\nimmersive experience",
+      "start": 184.68,
+      "duration": 2.13
+    },
+    {
+      "text": "your app can provide\nin Android XR,",
+      "start": 186.81,
+      "duration": 2.64
+    },
+    {
+      "text": "but it's important\nto give your users",
+      "start": 189.45,
+      "duration": 2.43
+    },
+    {
+      "text": "the best possible experience\nfor your app in both modes.",
+      "start": 191.88,
+      "duration": 4.11
+    },
+    {
+      "text": "This is because your\nusers will often",
+      "start": 195.99,
+      "duration": 2.4
+    },
+    {
+      "text": "want to multitask\nwhile using your app,",
+      "start": 198.39,
+      "duration": 2.02
+    },
+    {
+      "text": "and they'll need your app to\nrun in Home Space to do that.",
+      "start": 200.41,
+      "duration": 3.68
+    },
+    {
+      "text": "Optimizing for Home\nSpace is largely the same",
+      "start": 204.09,
+      "duration": 2.55
+    },
+    {
+      "text": "as preparing your\napp for tablets",
+      "start": 206.64,
+      "duration": 1.89
+    },
+    {
+      "text": "and other large-screen devices.",
+      "start": 208.53,
+      "duration": 2.25
+    },
+    {
+      "text": "We have another talk\non this at Google I/O,",
+      "start": 210.78,
+      "duration": 2.43
+    },
+    {
+      "text": "so please check out\nAdaptive Android development",
+      "start": 213.21,
+      "duration": 3.18
+    },
+    {
+      "text": "makes your app shine\nacross devices.",
+      "start": 216.39,
+      "duration": 3.03
+    },
+    {
+      "text": "Once your app is\nin Full Space mode,",
+      "start": 219.42,
+      "duration": 2.05
+    },
+    {
+      "text": "you can start using the\nSceneCore APIs in the Jetpack XR",
+      "start": 221.47,
+      "duration": 4.01
+    },
+    {
+      "text": "SDK to take advantage of the\nspatial capabilities of Android",
+      "start": 225.48,
+      "duration": 3.87
+    },
+    {
+      "text": "XR.",
+      "start": 229.35,
+      "duration": 1.32
+    },
+    {
+      "text": "This includes the ability\nto create the right setting",
+      "start": 230.67,
+      "duration": 3.06
+    },
+    {
+      "text": "for the user, whether\nthat's keeping",
+      "start": 233.73,
+      "duration": 1.62
+    },
+    {
+      "text": "users grounded in the real\nworld with passthrough,",
+      "start": 235.35,
+      "duration": 2.85
+    },
+    {
+      "text": "or a virtual environment.",
+      "start": 238.2,
+      "duration": 2.05
+    },
+    {
+      "text": "Maybe your app wants\nto transport users",
+      "start": 240.25,
+      "duration": 2.23
+    },
+    {
+      "text": "to a landscape far in\nthe past or future,",
+      "start": 242.48,
+      "duration": 3.06
+    },
+    {
+      "text": "or maybe you want to provide\na calming environment",
+      "start": 245.54,
+      "duration": 2.64
+    },
+    {
+      "text": "where your users can focus\non your app's content.",
+      "start": 248.18,
+      "duration": 3.18
+    },
+    {
+      "text": "Virtual environments can\ntake your users there.",
+      "start": 251.36,
+      "duration": 4.08
+    },
+    {
+      "text": "In our example app for\nlearning about animals,",
+      "start": 255.44,
+      "duration": 2.68
+    },
+    {
+      "text": "we think it'd be\ncool to transport",
+      "start": 258.12,
+      "duration": 1.55
+    },
+    {
+      "text": "our users to a peaceful\nwilderness environment that",
+      "start": 259.67,
+      "duration": 2.85
+    },
+    {
+      "text": "matches our theme.",
+      "start": 262.52,
+      "duration": 2.31
+    },
+    {
+      "text": "To do that, we need to\nunderstand some core concepts,",
+      "start": 264.83,
+      "duration": 4.14
+    },
+    {
+      "text": "Skybox and Geometry.",
+      "start": 268.97,
+      "duration": 3.0
+    },
+    {
+      "text": "You can think of a Skybox\nas a distant image,",
+      "start": 271.97,
+      "duration": 2.92
+    },
+    {
+      "text": "like a photosphere that\nsurrounds your users.",
+      "start": 274.89,
+      "duration": 2.9
+    },
+    {
+      "text": "This creates the illusion\nof a distant background",
+      "start": 277.79,
+      "duration": 3.01
+    },
+    {
+      "text": "such as the sky,\nmountains, or a cityscape.",
+      "start": 280.8,
+      "duration": 4.43
+    },
+    {
+      "text": "Your Skybox can contain\nimage-based lighting information",
+      "start": 285.23,
+      "duration": 4.05
+    },
+    {
+      "text": "to determine the way Android\nXR should light the 3D content",
+      "start": 289.28,
+      "duration": 3.78
+    },
+    {
+      "text": "around your user.",
+      "start": 293.06,
+      "duration": 2.46
+    },
+    {
+      "text": "Geometry, on the other\nhand, adds shape and depth",
+      "start": 295.52,
+      "duration": 3.3
+    },
+    {
+      "text": "to your user's environment,\ncreating real parallax effects",
+      "start": 298.82,
+      "duration": 3.28
+    },
+    {
+      "text": "for a more realistic\nsense of immersion.",
+      "start": 302.1,
+      "duration": 3.96
+    },
+    {
+      "text": "Geometry is typically\nused to show",
+      "start": 306.06,
+      "duration": 1.98
+    },
+    {
+      "text": "the ground the user is standing\non and objects near the user.",
+      "start": 308.04,
+      "duration": 3.85
+    },
+    {
+      "text": "Once you're familiar\nwith the concepts,",
+      "start": 311.89,
+      "duration": 1.77
+    },
+    {
+      "text": "you'll need the right\nfiles for your environment,",
+      "start": 313.66,
+      "duration": 2.25
+    },
+    {
+      "text": "and you'll need to ensure\nthat they're optimized",
+      "start": 315.91,
+      "duration": 2.54
+    },
+    {
+      "text": "to be used on Android XR.",
+      "start": 318.45,
+      "duration": 1.9
+    },
+    {
+      "text": "You can learn more\nabout environment assets",
+      "start": 320.35,
+      "duration": 1.94
+    },
+    {
+      "text": "and how to optimize them\nin our documentation",
+      "start": 322.29,
+      "duration": 2.64
+    },
+    {
+      "text": "on the link on the screen.",
+      "start": 324.93,
+      "duration": 1.71
+    },
+    {
+      "text": "Once you have the right files,\nyou can load them in your app",
+      "start": 326.64,
+      "duration": 3.03
+    },
+    {
+      "text": "and use them to set the\nspatial environment.",
+      "start": 329.67,
+      "duration": 3.99
+    },
+    {
+      "text": "Once that's done, our\nusers are immersed",
+      "start": 333.66,
+      "duration": 2.73
+    },
+    {
+      "text": "in our peaceful\nwilderness environment.",
+      "start": 336.39,
+      "duration": 3.93
+    },
+    {
+      "text": "If you want to return the user\nto the real world around them,",
+      "start": 340.32,
+      "duration": 2.86
+    },
+    {
+      "text": "you can do so by setting the\nPassthrough Opacity Preference.",
+      "start": 343.18,
+      "duration": 4.19
+    },
+    {
+      "text": "Setting the environment\naround the user is great,",
+      "start": 347.37,
+      "duration": 2.11
+    },
+    {
+      "text": "but let's look at some other\nways to immerse your users.",
+      "start": 349.48,
+      "duration": 4.52
+    },
+    {
+      "text": "Video can be an effective way\nto engage users in your app",
+      "start": 354.0,
+      "duration": 2.79
+    },
+    {
+      "text": "on other form factors,\nand Android XR",
+      "start": 356.79,
+      "duration": 3.03
+    },
+    {
+      "text": "introduces new ways to\ntake your video experience",
+      "start": 359.82,
+      "duration": 2.57
+    },
+    {
+      "text": "to the next level.",
+      "start": 362.39,
+      "duration": 2.49
+    },
+    {
+      "text": "You can wrap video around\nthe front of your user with",
+      "start": 364.88,
+      "duration": 3.03
+    },
+    {
+      "text": "a 180-degree video, or\ncompletely surround your user",
+      "start": 367.91,
+      "duration": 4.02
+    },
+    {
+      "text": "in a sphere with a\n360-degree video.",
+      "start": 371.93,
+      "duration": 3.12
+    },
+    {
+      "text": "Whether your video is on\na sphere, a flat surface,",
+      "start": 375.05,
+      "duration": 3.0
+    },
+    {
+      "text": "or something in between you\ncan introduce real depth",
+      "start": 378.05,
+      "duration": 3.12
+    },
+    {
+      "text": "to your video by using\nstereoscopic content.",
+      "start": 381.17,
+      "duration": 3.42
+    },
+    {
+      "text": "Stereoscopic content provides\na 3D effect by showing slightly",
+      "start": 384.59,
+      "duration": 4.5
+    },
+    {
+      "text": "different images to each eye.",
+      "start": 389.09,
+      "duration": 1.83
+    },
+    {
+      "text": "In each eye's image, the closer\nan object is to the viewer,",
+      "start": 390.92,
+      "duration": 4.06
+    },
+    {
+      "text": "the more it's offset, mimicking\nnatural depth perception.",
+      "start": 394.98,
+      "duration": 3.98
+    },
+    {
+      "text": "The two images are normally\nstored in the same frame,",
+      "start": 398.96,
+      "duration": 3.28
+    },
+    {
+      "text": "either above and below each\nother, or side by side,",
+      "start": 402.24,
+      "duration": 3.595
+    },
+    {
+      "text": "like you can see here.",
+      "start": 405.835,
+      "duration": 2.785
+    },
+    {
+      "text": "Both approaches\nare often referred",
+      "start": 408.62,
+      "duration": 1.98
+    },
+    {
+      "text": "to as side-by-side\nformatted video,",
+      "start": 410.6,
+      "duration": 2.23
+    },
+    {
+      "text": "but we're also including support\nfor the HEVC video format,",
+      "start": 412.83,
+      "duration": 3.86
+    },
+    {
+      "text": "as well.",
+      "start": 416.69,
+      "duration": 1.2
+    },
+    {
+      "text": "Beyond delighting your\nusers, immersive video",
+      "start": 417.89,
+      "duration": 2.68
+    },
+    {
+      "text": "can serve practical purposes,\nlike giving your users",
+      "start": 420.57,
+      "duration": 3.51
+    },
+    {
+      "text": "a tour of a new physical\nspace in a way that's",
+      "start": 424.08,
+      "duration": 2.61
+    },
+    {
+      "text": "intuitive to navigate\nby looking around.",
+      "start": 426.69,
+      "duration": 2.82
+    },
+    {
+      "text": "All of this from the safety\nand comfort of their own home.",
+      "start": 429.51,
+      "duration": 3.99
+    },
+    {
+      "text": "The APIs that allow you to\ncreate objects in 3D space,",
+      "start": 433.5,
+      "duration": 3.15
+    },
+    {
+      "text": "are provided by the\nSceneCore library,",
+      "start": 436.65,
+      "duration": 2.74
+    },
+    {
+      "text": "and every element you create is\ncalled an Entity in SceneCore.",
+      "start": 439.39,
+      "duration": 5.48
+    },
+    {
+      "text": "The Entity we're\ninterested in for showing",
+      "start": 444.87,
+      "duration": 2.52
+    },
+    {
+      "text": "the user's immersive video,\nis called SurfaceEntity.",
+      "start": 447.39,
+      "duration": 3.16
+    },
+    {
+      "text": "As its name suggests,\nit creates a surface",
+      "start": 450.55,
+      "duration": 3.17
+    },
+    {
+      "text": "that we can render video to.",
+      "start": 453.72,
+      "duration": 1.6
+    },
+    {
+      "text": "While it's tempting to\nhave a stereoscopic video",
+      "start": 455.32,
+      "duration": 2.78
+    },
+    {
+      "text": "of a tiger leaping\ntowards our users,",
+      "start": 458.1,
+      "duration": 2.29
+    },
+    {
+      "text": "let's look at how we can use\nthis SurfaceEntity to wrap a 360",
+      "start": 460.39,
+      "duration": 3.2
+    },
+    {
+      "text": "video of a relaxing nature\npreserve around our users",
+      "start": 463.59,
+      "duration": 3.09
+    },
+    {
+      "text": "instead.",
+      "start": 466.68,
+      "duration": 0.69
+    },
+    {
+      "text": "To work with entities, and a\nlot of the other capabilities",
+      "start": 467.37,
+      "duration": 3.18
+    },
+    {
+      "text": "of SceneCore, we'll use\nthe XR session class.",
+      "start": 470.55,
+      "duration": 3.1
+    },
+    {
+      "text": "The session is the\nprimary interface",
+      "start": 473.65,
+      "duration": 2.24
+    },
+    {
+      "text": "for apps to access\nSceneCore functionality,",
+      "start": 475.89,
+      "duration": 2.2
+    },
+    {
+      "text": "so you'll be seeing a\nlot more of it today.",
+      "start": 478.09,
+      "duration": 2.19
+    },
+    {
+      "text": "To create the\nSurfaceEntity, we'll",
+      "start": 480.28,
+      "duration": 2.34
+    },
+    {
+      "text": "need to pass our instance of the\nsession into the factory method,",
+      "start": 482.62,
+      "duration": 3.34
+    },
+    {
+      "text": "and we'll specify the\nformat of the video,",
+      "start": 485.96,
+      "duration": 2.25
+    },
+    {
+      "text": "as well as the\nshape of the Canvas.",
+      "start": 488.21,
+      "duration": 2.27
+    },
+    {
+      "text": "We specify mono because this\nvideo is monoscopic, meaning it",
+      "start": 490.48,
+      "duration": 4.59
+    },
+    {
+      "text": "presents the same video to both\neyes, lacking depth information.",
+      "start": 495.07,
+      "duration": 3.9
+    },
+    {
+      "text": "We also specify that we'll\nneed a sphere for our Canvas,",
+      "start": 498.97,
+      "duration": 3.88
+    },
+    {
+      "text": "since it's a 360-degree video.",
+      "start": 502.85,
+      "duration": 3.92
+    },
+    {
+      "text": "We're also passing a\nhead pose into the method",
+      "start": 506.77,
+      "duration": 3.18
+    },
+    {
+      "text": "to position the sphere correctly\nwhere the user is looking,",
+      "start": 509.95,
+      "duration": 3.339
+    },
+    {
+      "text": "and Dereck will share a bit\nmore about that in a moment.",
+      "start": 513.289,
+      "duration": 3.861
+    },
+    {
+      "text": "After the SurfaceEntity\nis created,",
+      "start": 517.15,
+      "duration": 2.2
+    },
+    {
+      "text": "we can use familiar Media3\nAPIs, like, ExoPlayer",
+      "start": 519.35,
+      "duration": 3.68
+    },
+    {
+      "text": "to play the media by\nsetting the SurfaceEntity",
+      "start": 523.03,
+      "duration": 2.94
+    },
+    {
+      "text": "as the surface for your player.",
+      "start": 525.97,
+      "duration": 2.34
+    },
+    {
+      "text": "Once the video is\nplaying, our users",
+      "start": 528.31,
+      "duration": 2.19
+    },
+    {
+      "text": "can look around as the video\nwraps around them, regardless of",
+      "start": 530.5,
+      "duration": 3.6
+    },
+    {
+      "text": "whether they're immersed\nin a virtual environment",
+      "start": 534.1,
+      "duration": 2.28
+    },
+    {
+      "text": "or their real world surroundings\nwith passthrough enabled.",
+      "start": 536.38,
+      "duration": 3.53
+    },
+    {
+      "text": "Pretty cool, right.",
+      "start": 539.91,
+      "duration": 2.863
+    },
+    {
+      "text": "DERECK BRIDIE: Dereck here,\nwith some fundamental concepts",
+      "start": 542.773,
+      "duration": 2.417
+    },
+    {
+      "text": "for working in 3D space.",
+      "start": 545.19,
+      "duration": 2.19
+    },
+    {
+      "text": "When you build for Android\nXR, you're quite literally",
+      "start": 547.38,
+      "duration": 2.61
+    },
+    {
+      "text": "adding a whole new\ndimension to your app,",
+      "start": 549.99,
+      "duration": 2.2
+    },
+    {
+      "text": "so I wanted to make sure\nthat you have the tools you",
+      "start": 552.19,
+      "duration": 2.27
+    },
+    {
+      "text": "need to build with confidence.",
+      "start": 554.46,
+      "duration": 2.34
+    },
+    {
+      "text": "Earlier, we passed a head\npose to the SurfaceEntity",
+      "start": 556.8,
+      "duration": 2.85
+    },
+    {
+      "text": "when we created it.",
+      "start": 559.65,
+      "duration": 1.23
+    },
+    {
+      "text": "Poses are used to position\nentities in 3D space.",
+      "start": 560.88,
+      "duration": 4.32
+    },
+    {
+      "text": "A pose represents the position\nand orientation of an entity",
+      "start": 565.2,
+      "duration": 3.33
+    },
+    {
+      "text": "in 3D space, and it contains\ntwo pieces of information,",
+      "start": 568.53,
+      "duration": 4.65
+    },
+    {
+      "text": "a translation and a rotation.",
+      "start": 573.18,
+      "duration": 3.48
+    },
+    {
+      "text": "To break this down, the\ntranslation part is a 3D vector",
+      "start": 576.66,
+      "duration": 3.45
+    },
+    {
+      "text": "that allows us to specify\nhow far in the x, y,",
+      "start": 580.11,
+      "duration": 3.43
+    },
+    {
+      "text": "and z dimensions we should\nmove the entity to get it",
+      "start": 583.54,
+      "duration": 2.96
+    },
+    {
+      "text": "in the right position.",
+      "start": 586.5,
+      "duration": 2.13
+    },
+    {
+      "text": "When we have the entity move\nto the right point in space,",
+      "start": 588.63,
+      "duration": 2.68
+    },
+    {
+      "text": "we use a quaternion\nto specify how",
+      "start": 591.31,
+      "duration": 2.45
+    },
+    {
+      "text": "it should be rotating\nsuch that it's",
+      "start": 593.76,
+      "duration": 1.68
+    },
+    {
+      "text": "facing the correct direction.",
+      "start": 595.44,
+      "duration": 2.7
+    },
+    {
+      "text": "You can copy a\nrotation from one post",
+      "start": 598.14,
+      "duration": 1.86
+    },
+    {
+      "text": "to another to have\nobjects face the same way.",
+      "start": 600.0,
+      "duration": 4.06
+    },
+    {
+      "text": "In situations where you want\nto apply a unique rotation",
+      "start": 604.06,
+      "duration": 2.37
+    },
+    {
+      "text": "to an entity, you probably\nwant to create the quaternion",
+      "start": 606.43,
+      "duration": 2.85
+    },
+    {
+      "text": "from the Euler angle values,\nbecause those are a lot easier",
+      "start": 609.28,
+      "duration": 3.0
+    },
+    {
+      "text": "to reason about.",
+      "start": 612.28,
+      "duration": 2.1
+    },
+    {
+      "text": "Euler angles\ndescribe the rotation",
+      "start": 614.38,
+      "duration": 1.62
+    },
+    {
+      "text": "of an object along the three\naxes colored red, green,",
+      "start": 616.0,
+      "duration": 3.85
+    },
+    {
+      "text": "and blue in this example.",
+      "start": 619.85,
+      "duration": 2.42
+    },
+    {
+      "text": "Then we can create a\nquaternion to use it in a pose,",
+      "start": 622.27,
+      "duration": 3.51
+    },
+    {
+      "text": "using FromEulerAngles.",
+      "start": 625.78,
+      "duration": 2.73
+    },
+    {
+      "text": "Another important concept is\nparent-child relationships.",
+      "start": 628.51,
+      "duration": 3.37
+    },
+    {
+      "text": "Just like in 2D layouts where\nitems can have children that are",
+      "start": 631.88,
+      "duration": 3.29
+    },
+    {
+      "text": "positioned relative to\ntheir parents in a ViewTree,",
+      "start": 635.17,
+      "duration": 2.28
+    },
+    {
+      "text": "entities can have\nchildren in a 3D scene.",
+      "start": 637.45,
+      "duration": 3.66
+    },
+    {
+      "text": "The position and rotation\nwe just talked about",
+      "start": 641.11,
+      "duration": 2.16
+    },
+    {
+      "text": "are always relative to\nthe parents of the entity.",
+      "start": 643.27,
+      "duration": 3.6
+    },
+    {
+      "text": "Entities can also have\ncomponents attached to them.",
+      "start": 646.87,
+      "duration": 2.71
+    },
+    {
+      "text": "Components are used to\nadd behaviors to entities.",
+      "start": 649.58,
+      "duration": 3.35
+    },
+    {
+      "text": "MovableComponent adds\nsimple controls that",
+      "start": 652.93,
+      "duration": 2.58
+    },
+    {
+      "text": "allow users to move the entity.",
+      "start": 655.51,
+      "duration": 2.37
+    },
+    {
+      "text": "ResizableComponent\nadds grabbable corners",
+      "start": 657.88,
+      "duration": 2.66
+    },
+    {
+      "text": "that allow users to\nresize the entity.",
+      "start": 660.54,
+      "duration": 3.09
+    },
+    {
+      "text": "There's also\nInteractableComponent,",
+      "start": 663.63,
+      "duration": 2.05
+    },
+    {
+      "text": "which lets you capture raw input\nevents performed on the entity.",
+      "start": 665.68,
+      "duration": 4.22
+    },
+    {
+      "text": "In this example, we use\nan InteractableComponent",
+      "start": 669.9,
+      "duration": 3.18
+    },
+    {
+      "text": "and capture the ACTION_DOWN\nevent to make a tiger roar.",
+      "start": 673.08,
+      "duration": 4.11
+    },
+    {
+      "text": "Wait, to make a tiger roar?",
+      "start": 677.19,
+      "duration": 1.99
+    },
+    {
+      "text": "It's time to talk about showing\nyour users one of the most",
+      "start": 679.18,
+      "duration": 2.96
+    },
+    {
+      "text": "engaging capabilities\navailable in Android XR,",
+      "start": 682.14,
+      "duration": 2.95
+    },
+    {
+      "text": "displaying 3D objects.",
+      "start": 685.09,
+      "duration": 2.63
+    },
+    {
+      "text": "In our example app, we\nwant to show the user",
+      "start": 687.72,
+      "duration": 2.28
+    },
+    {
+      "text": "a closeup look at a tiger.",
+      "start": 690.0,
+      "duration": 1.92
+    },
+    {
+      "text": "Let's take a look at how\nwe can make that happen.",
+      "start": 691.92,
+      "duration": 3.57
+    },
+    {
+      "text": "Before we get started, we'll\nneed an asset for the 3D model.",
+      "start": 695.49,
+      "duration": 3.99
+    },
+    {
+      "text": "For Android XR, we'll\nwant to use a glTF file.",
+      "start": 699.48,
+      "duration": 4.53
+    },
+    {
+      "text": "glTF support many of the\nfeatures that you would expect",
+      "start": 704.01,
+      "duration": 2.7
+    },
+    {
+      "text": "to see from a modern\n3D-file format,",
+      "start": 706.71,
+      "duration": 2.41
+    },
+    {
+      "text": "including physically-based\nrendering materials that can",
+      "start": 709.12,
+      "duration": 2.72
+    },
+    {
+      "text": "make your models look real\nand add animations to bring",
+      "start": 711.84,
+      "duration": 3.24
+    },
+    {
+      "text": "your models to life.",
+      "start": 715.08,
+      "duration": 1.53
+    },
+    {
+      "text": "The simplest way to show\na glTF to your users,",
+      "start": 716.61,
+      "duration": 2.52
+    },
+    {
+      "text": "is by using our intent-based\n3D model viewer, sceneviewerxr.",
+      "start": 719.13,
+      "duration": 5.5
+    },
+    {
+      "text": "This launches the system viewer\nand our app steps back to let",
+      "start": 724.63,
+      "duration": 3.33
+    },
+    {
+      "text": "the 3D model take center stage.",
+      "start": 727.96,
+      "duration": 2.37
+    },
+    {
+      "text": "When you want the user to see\nthe 3D model at the same time",
+      "start": 730.33,
+      "duration": 2.85
+    },
+    {
+      "text": "of the rest of your app's UI,\nyou can load a glTF resource",
+      "start": 733.18,
+      "duration": 3.78
+    },
+    {
+      "text": "directly in your app.",
+      "start": 736.96,
+      "duration": 1.95
+    },
+    {
+      "text": "This gives you more control over\nthings like position of the 3D",
+      "start": 738.91,
+      "duration": 2.79
+    },
+    {
+      "text": "model, the relative size,\nor fine-grained animations.",
+      "start": 741.7,
+      "duration": 4.74
+    },
+    {
+      "text": "To load a 3D model\nin our app, first,",
+      "start": 746.44,
+      "duration": 2.25
+    },
+    {
+      "text": "we'll create the\nmodel from the glTF.",
+      "start": 748.69,
+      "duration": 2.49
+    },
+    {
+      "text": "We'll use a GLB file, which\nis the binary transmission",
+      "start": 751.18,
+      "duration": 3.18
+    },
+    {
+      "text": "format for glTFs.",
+      "start": 754.36,
+      "duration": 1.77
+    },
+    {
+      "text": "It's optimized for smaller file\nsizes and quicker loading times.",
+      "start": 756.13,
+      "duration": 4.53
+    },
+    {
+      "text": "Once we have the\nmodel loaded, we'll",
+      "start": 760.66,
+      "duration": 1.83
+    },
+    {
+      "text": "use that model to\ncreate an entity,",
+      "start": 762.49,
+      "duration": 1.75
+    },
+    {
+      "text": "and it will be\ndisplayed to our users",
+      "start": 764.24,
+      "duration": 1.58
+    },
+    {
+      "text": "and lit by their environment.",
+      "start": 765.82,
+      "duration": 2.16
+    },
+    {
+      "text": "We can position this\nentity with a pose",
+      "start": 767.98,
+      "duration": 1.95
+    },
+    {
+      "text": "and by setting its parent the\nsame way we discussed before.",
+      "start": 769.93,
+      "duration": 4.68
+    },
+    {
+      "text": "It looks a little\nstatic right now.",
+      "start": 774.61,
+      "duration": 1.93
+    },
+    {
+      "text": "Let's bring it to life.",
+      "start": 776.54,
+      "duration": 2.24
+    },
+    {
+      "text": "When the model is being\ndisplayed to our users,",
+      "start": 778.78,
+      "duration": 2.13
+    },
+    {
+      "text": "we can play one\nof the animations",
+      "start": 780.91,
+      "duration": 1.49
+    },
+    {
+      "text": "contained in the model\nby specifying its name",
+      "start": 782.4,
+      "duration": 2.64
+    },
+    {
+      "text": "and whether we'd like the\nanimation to loop or not.",
+      "start": 785.04,
+      "duration": 3.762
+    },
+    {
+      "text": "Right now, some of you may\nbe wondering, where should I",
+      "start": 788.802,
+      "duration": 3.318
+    },
+    {
+      "text": "get glTFs to use in my app?",
+      "start": 792.12,
+      "duration": 2.16
+    },
+    {
+      "text": "There are a variety of tools\navailable to create and animate",
+      "start": 794.28,
+      "duration": 3.12
+    },
+    {
+      "text": "glTFs.",
+      "start": 797.4,
+      "duration": 0.84
+    },
+    {
+      "text": "My personal favorite\nbeing Blender.",
+      "start": 798.24,
+      "duration": 2.91
+    },
+    {
+      "text": "Our tiger animation\nwas pretty fun,",
+      "start": 801.15,
+      "duration": 1.75
+    },
+    {
+      "text": "but there's a lot more can do\nwith 3D objects in your app.",
+      "start": 802.9,
+      "duration": 3.17
+    },
+    {
+      "text": "Maybe your users want to see\nwhat a sofa your company offers",
+      "start": 806.07,
+      "duration": 3.24
+    },
+    {
+      "text": "would look like in\ntheir living room?",
+      "start": 809.31,
+      "duration": 2.19
+    },
+    {
+      "text": "Or maybe you'd like to transport\nyour users to Paris to see",
+      "start": 811.5,
+      "duration": 3.06
+    },
+    {
+      "text": "the Eiffel Tower up close?",
+      "start": 814.56,
+      "duration": 2.1
+    },
+    {
+      "text": "To learn more, check out our\ndocumentation on adding 3D",
+      "start": 816.66,
+      "duration": 3.03
+    },
+    {
+      "text": "models to your app.",
+      "start": 819.69,
+      "duration": 1.38
+    },
+    {
+      "text": "If you're familiar with\nARCore mobile devices,",
+      "start": 821.07,
+      "duration": 2.528
+    },
+    {
+      "text": "you'll be happy to know that\nwe're bringing familiar concepts",
+      "start": 823.598,
+      "duration": 2.542
+    },
+    {
+      "text": "to Android XR, as well.",
+      "start": 826.14,
+      "duration": 2.01
+    },
+    {
+      "text": "ARCore for Jetpack\nXR, helps your app",
+      "start": 828.15,
+      "duration": 2.31
+    },
+    {
+      "text": "understand the real world\naround the user, making use",
+      "start": 830.46,
+      "duration": 2.73
+    },
+    {
+      "text": "of perception capabilities.",
+      "start": 833.19,
+      "duration": 1.995
+    },
+    {
+      "text": "One of my favorite\nfeatures from that library",
+      "start": 835.185,
+      "duration": 1.875
+    },
+    {
+      "text": "is persistent anchors.",
+      "start": 837.06,
+      "duration": 2.16
+    },
+    {
+      "text": "To break that down, anchors\nensure that objects appear",
+      "start": 839.22,
+      "duration": 2.89
+    },
+    {
+      "text": "to stay at the same position\nand orientation in space,",
+      "start": 842.11,
+      "duration": 3.16
+    },
+    {
+      "text": "helping you maintain the\nillusion of virtual objects",
+      "start": 845.27,
+      "duration": 2.54
+    },
+    {
+      "text": "placed in the real world.",
+      "start": 847.81,
+      "duration": 2.43
+    },
+    {
+      "text": "Persistent anchors\nis a feature that",
+      "start": 850.24,
+      "duration": 1.77
+    },
+    {
+      "text": "remembers the\nlocation of a given",
+      "start": 852.01,
+      "duration": 1.5
+    },
+    {
+      "text": "anchor in persistent storage.",
+      "start": 853.51,
+      "duration": 2.79
+    },
+    {
+      "text": "To show you how\nthis works, we'll",
+      "start": 856.3,
+      "duration": 1.59
+    },
+    {
+      "text": "add one more feature\nin our example app",
+      "start": 857.89,
+      "duration": 2.01
+    },
+    {
+      "text": "to allow users to\nhang up portraits",
+      "start": 859.9,
+      "duration": 1.86
+    },
+    {
+      "text": "of their favorite animals in XR.",
+      "start": 861.76,
+      "duration": 3.9
+    },
+    {
+      "text": "First, we create an anchor.",
+      "start": 865.66,
+      "duration": 2.26
+    },
+    {
+      "text": "In this case, we use the\npose that our paintingEntity",
+      "start": 867.92,
+      "duration": 3.11
+    },
+    {
+      "text": "is currently at.",
+      "start": 871.03,
+      "duration": 2.58
+    },
+    {
+      "text": "Then we persist the anchor.",
+      "start": 873.61,
+      "duration": 2.22
+    },
+    {
+      "text": "This saves the pose\nin local storage",
+      "start": 875.83,
+      "duration": 1.83
+    },
+    {
+      "text": "and gives you a\nunique identifier",
+      "start": 877.66,
+      "duration": 1.47
+    },
+    {
+      "text": "that can be used to retrieve\nthat same location later.",
+      "start": 879.13,
+      "duration": 3.72
+    },
+    {
+      "text": "Use that identifier to\nload an anchor, like so.",
+      "start": 882.85,
+      "duration": 4.35
+    },
+    {
+      "text": "The anchor has a pose\nlocated at the same space",
+      "start": 887.2,
+      "duration": 2.46
+    },
+    {
+      "text": "in the physical world that it\nwas at when it was persisted.",
+      "start": 889.66,
+      "duration": 4.5
+    },
+    {
+      "text": "Android XR doesn't\njust give us new ways",
+      "start": 894.16,
+      "duration": 2.61
+    },
+    {
+      "text": "to show our users things.",
+      "start": 896.77,
+      "duration": 1.71
+    },
+    {
+      "text": "ARCore for Jetpack XR\nintroduces capabilities",
+      "start": 898.48,
+      "duration": 3.1
+    },
+    {
+      "text": "that unlock new ways for your\nusers to interact with your app,",
+      "start": 901.58,
+      "duration": 3.64
+    },
+    {
+      "text": "letting you use the\nuser's hands to create",
+      "start": 905.22,
+      "duration": 2.09
+    },
+    {
+      "text": "delightful experiences.",
+      "start": 907.31,
+      "duration": 2.52
+    },
+    {
+      "text": "The primary mode of\ninteraction on Android XR",
+      "start": 909.83,
+      "duration": 2.1
+    },
+    {
+      "text": "is with your hands.",
+      "start": 911.93,
+      "duration": 1.41
+    },
+    {
+      "text": "To obtain detailed hand\ntracking and pose information,",
+      "start": 913.34,
+      "duration": 3.01
+    },
+    {
+      "text": "you'll need to ask for the\nuser's permission first,",
+      "start": 916.35,
+      "duration": 2.21
+    },
+    {
+      "text": "using the standard\nAndroid permissions model.",
+      "start": 918.56,
+      "duration": 4.17
+    },
+    {
+      "text": "Hands are represented by a\ncollection of 26 joint poses.",
+      "start": 922.73,
+      "duration": 3.6
+    },
+    {
+      "text": "You can use these poses to\ncreate a variety of interactions",
+      "start": 926.33,
+      "duration": 3.09
+    },
+    {
+      "text": "using hands.",
+      "start": 929.42,
+      "duration": 1.68
+    },
+    {
+      "text": "In this example, we\ncalculate whether or not",
+      "start": 931.1,
+      "duration": 2.37
+    },
+    {
+      "text": "the index finger is outstretched\nby checking whether the index",
+      "start": 933.47,
+      "duration": 3.21
+    },
+    {
+      "text": "proximal is pointing in the\nsame direction as the index tip.",
+      "start": 936.68,
+      "duration": 3.9
+    },
+    {
+      "text": "We can combine\nthese calculations",
+      "start": 940.58,
+      "duration": 1.62
+    },
+    {
+      "text": "to detect a stop gesture.",
+      "start": 942.2,
+      "duration": 1.92
+    },
+    {
+      "text": "In this gesture, it's\nimportant that all the fingers",
+      "start": 944.12,
+      "duration": 2.46
+    },
+    {
+      "text": "are outstretched.",
+      "start": 946.58,
+      "duration": 2.61
+    },
+    {
+      "text": "In our example app, we use this\nto freeze the tiger's animation",
+      "start": 949.19,
+      "duration": 3.33
+    },
+    {
+      "text": "in its tracks.",
+      "start": 952.52,
+      "duration": 1.59
+    },
+    {
+      "text": "We're actively adding\nnew AR features",
+      "start": 954.11,
+      "duration": 2.16
+    },
+    {
+      "text": "and fixing bugs with\nthe XR emulator,",
+      "start": 956.27,
+      "duration": 2.26
+    },
+    {
+      "text": "so be sure to check\nout the release",
+      "start": 958.53,
+      "duration": 1.6
+    },
+    {
+      "text": "notes to see the latest progress\nand file bugs or feature",
+      "start": 960.13,
+      "duration": 3.3
+    },
+    {
+      "text": "requests in the issue tracker.",
+      "start": 963.43,
+      "duration": 2.152
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 965.582,
+      "duration": 1.018
+    },
+    {
+      "text": "PATRICK FUENTES: We just walked\nyou through some of the most",
+      "start": 966.6,
+      "duration": 2.5
+    },
+    {
+      "text": "powerful 3D capabilities\never available on Android,",
+      "start": 969.1,
+      "duration": 3.37
+    },
+    {
+      "text": "with real examples.",
+      "start": 972.47,
+      "duration": 1.73
+    },
+    {
+      "text": "This only scratches the\nsurface of everything",
+      "start": 974.2,
+      "duration": 2.79
+    },
+    {
+      "text": "that's happening right\nnow for Android XR.",
+      "start": 976.99,
+      "duration": 2.97
+    },
+    {
+      "text": "We've already added support for\nthe new KHR Animation Pointer",
+      "start": 979.96,
+      "duration": 3.87
+    },
+    {
+      "text": "specification, and we're in\nthe process of adding support",
+      "start": 983.83,
+      "duration": 3.51
+    },
+    {
+      "text": "for the upcoming\nKHR Interactivity",
+      "start": 987.34,
+      "duration": 2.25
+    },
+    {
+      "text": "specification as its emerging.",
+      "start": 989.59,
+      "duration": 2.28
+    },
+    {
+      "text": "Open standards, like the glTF\nspecification and its extensions",
+      "start": 991.87,
+      "duration": 4.2
+    },
+    {
+      "text": "are always evolving,\nso we recommend",
+      "start": 996.07,
+      "duration": 2.64
+    },
+    {
+      "text": "following the Khronos\nGroup for the latest",
+      "start": 998.71,
+      "duration": 2.07
+    },
+    {
+      "text": "information on standards.",
+      "start": 1000.78,
+      "duration": 1.54
+    },
+    {
+      "text": "Watch for more announcements\nregarding support on Android XR,",
+      "start": 1002.32,
+      "duration": 4.13
+    },
+    {
+      "text": "and look out for which\ndigital content creation",
+      "start": 1006.45,
+      "duration": 2.64
+    },
+    {
+      "text": "tools are the first to\nimplement specific extensions.",
+      "start": 1009.09,
+      "duration": 3.3
+    },
+    {
+      "text": "For apps built with Unity,\nwe've introduced the Android XR",
+      "start": 1012.39,
+      "duration": 3.99
+    },
+    {
+      "text": "SDK for Unity.",
+      "start": 1016.38,
+      "duration": 2.07
+    },
+    {
+      "text": "This SDK builds on Unity's\nlong-standing support",
+      "start": 1018.45,
+      "duration": 3.4
+    },
+    {
+      "text": "for XR development tools like Ar\nFoundation, OpenXR, and the XR",
+      "start": 1021.85,
+      "duration": 5.759
+    },
+    {
+      "text": "Interaction Toolkit, bringing\nthem together with the platform",
+      "start": 1027.609,
+      "duration": 3.361
+    },
+    {
+      "text": "specific features\ntailored for Android XR.",
+      "start": 1030.97,
+      "duration": 3.66
+    },
+    {
+      "text": "With each release,\nUnity continues",
+      "start": 1034.63,
+      "duration": 2.82
+    },
+    {
+      "text": "to expand what's\npossible on Android XR,",
+      "start": 1037.45,
+      "duration": 2.56
+    },
+    {
+      "text": "adding new capabilities,\nimproving performance,",
+      "start": 1040.01,
+      "duration": 3.089
+    },
+    {
+      "text": "and enhancing stability\nacross the stack.",
+      "start": 1043.099,
+      "duration": 2.931
+    },
+    {
+      "text": "Developers can take advantage\nof features like URP Application",
+      "start": 1046.03,
+      "duration": 4.54
+    },
+    {
+      "text": "Spacewarp, and\neye-gazed foveated",
+      "start": 1050.57,
+      "duration": 2.48
+    },
+    {
+      "text": "rendering to deliver\nhigh-quality visuals with better",
+      "start": 1053.05,
+      "duration": 3.21
+    },
+    {
+      "text": "performance.",
+      "start": 1056.26,
+      "duration": 1.06
+    },
+    {
+      "text": "Plus XR templates and\na dedicated Android XR",
+      "start": 1057.32,
+      "duration": 3.71
+    },
+    {
+      "text": "build target to\nget started faster.",
+      "start": 1061.03,
+      "duration": 3.03
+    },
+    {
+      "text": "Check out the Android XR\nblog post to learn more.",
+      "start": 1064.06,
+      "duration": 3.78
+    },
+    {
+      "text": "To help you get started,\nwe're continuously",
+      "start": 1067.84,
+      "duration": 2.46
+    },
+    {
+      "text": "updating our\ndocumentation, sample code,",
+      "start": 1070.3,
+      "duration": 2.86
+    },
+    {
+      "text": "and the APIs themselves,\nas well as our tools.",
+      "start": 1073.16,
+      "duration": 2.97
+    },
+    {
+      "text": "We've added new 3D capabilities\nto our Hello Android XR sample",
+      "start": 1076.13,
+      "duration": 4.36
+    },
+    {
+      "text": "app, and we've just recently\nadded XR differentiated features",
+      "start": 1080.49,
+      "duration": 4.29
+    },
+    {
+      "text": "to the JetStream\nsample app, as well.",
+      "start": 1084.78,
+      "duration": 2.52
+    },
+    {
+      "text": "We've also published\na two-part Codelab",
+      "start": 1087.3,
+      "duration": 2.58
+    },
+    {
+      "text": "to help you get started\ndeveloping for Android XR.",
+      "start": 1089.88,
+      "duration": 3.33
+    },
+    {
+      "text": "And last but not least,\nwhenever possible,",
+      "start": 1093.21,
+      "duration": 3.04
+    },
+    {
+      "text": "we recommend that\nyou position your UI",
+      "start": 1096.25,
+      "duration": 2.12
+    },
+    {
+      "text": "and create panels in Android XR\nby using Jetpack Compose for XR.",
+      "start": 1098.37,
+      "duration": 5.34
+    },
+    {
+      "text": "Be sure to check out\nour other session,",
+      "start": 1103.71,
+      "duration": 2.23
+    },
+    {
+      "text": "The future is Now with\nCompose and AI on Android XR",
+      "start": 1105.94,
+      "duration": 3.8
+    },
+    {
+      "text": "to learn more.",
+      "start": 1109.74,
+      "duration": 2.49
+    },
+    {
+      "text": "This is all a part of\nour developer preview,",
+      "start": 1112.23,
+      "duration": 2.23
+    },
+    {
+      "text": "and we genuinely want to hear\nfrom you about what you love,",
+      "start": 1114.46,
+      "duration": 3.42
+    },
+    {
+      "text": "what you wish was\nbetter, and what else we",
+      "start": 1117.88,
+      "duration": 2.72
+    },
+    {
+      "text": "should provide to\nhelp you create",
+      "start": 1120.6,
+      "duration": 1.59
+    },
+    {
+      "text": "immersive, engaging\nexperiences for your users.",
+      "start": 1122.19,
+      "duration": 4.29
+    },
+    {
+      "text": "Keep the links to the\nissue tracker components",
+      "start": 1126.48,
+      "duration": 2.34
+    },
+    {
+      "text": "handy and get started today.",
+      "start": 1128.82,
+      "duration": 2.7
+    },
+    {
+      "text": "The developer community is\none of my favorite things",
+      "start": 1131.52,
+      "duration": 2.76
+    },
+    {
+      "text": "about Android.",
+      "start": 1134.28,
+      "duration": 0.97
+    },
+    {
+      "text": "Dereck and I can't wait to\nsee what you build in XR.",
+      "start": 1135.25,
+      "duration": 2.75
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1138.0,
+      "duration": 3.05
+    }
+  ]
+}

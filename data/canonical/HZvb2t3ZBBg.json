@@ -1,0 +1,57 @@
+[
+  {
+    "id": "HZvb2t3ZBBg__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "timestamp_start": 0.0,
+    "timestamp_end": 137.77,
+    "text": "[MUSIC PLAYING] TAYLOR LEHMAN:\nWelcome to I/O 2025. I'm Taylor, a product\nlead for Google Home. And I'm absolutely thrilled to\nbe back at I/O with all of you. Last year at I/O, we\nannounced the Home APIs, enabling developers to\nbuild apps and experiences for the home. The Device and\nStructure APIs enable developers to control\nand manage devices connected to Google Home. And there are now over\n750 million devices accessible via the Home APIs. The Commissioning\nAPI makes it easier for users to set up and share\ndevices with other apps using Google's Matter infrastructure. The automations API\ngives developers access to Google's\nintelligent automation engine. And the Home APIs were\ndesigned from the ground up to be cross-platform,\nsupporting both Android and iOS. Today, we'll look at what\ndevelopers have already built on the Home APIs\nand talk about what you can expect in the year ahead. And it shouldn't be\nany surprise at all that Gemini plays a big\nrole in what comes next. Last year, we began the\njourney of integrating Gemini with Google Home. We've created new Google\nHome app features, such as enabling users to search\ntheir video history and see event descriptions or one of\nmy favorites, \"help me create\" that lets you make intelligent\nautomations using natural language. We've also enabled users\nto control their smart home devices using natural language\ndirectly in the Gemini app. And later this year, we're\nbringing these same features to the Home APIs, so you can\noffer the power of Gemini in your app as well. But before we dive deeper into\nhow Gemini is revolutionizing the home, I want\nto take a moment to celebrate the amazing\nexperiences our partners have already built. Last\nyear at I/O, we highlighted how ADT, LG,\nEve, and others were already using the Home APIs in\ntheir own experiences. The first of these apps are\nalready live in the Play Store. You can check them out today. Since then, even more\npartners are actively developing innovative\nexperiences powered by the Home APIs.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "HZvb2t3ZBBg__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "timestamp_start": 122.38,
+    "timestamp_end": 244.85999999999999,
+    "text": "using the Home APIs in\ntheir own experiences. The first of these apps are\nalready live in the Play Store. You can check them out today. Since then, even more\npartners are actively developing innovative\nexperiences powered by the Home APIs. Let's take a look at a\nfew of those together. The Cync app uses\nthe Home APIs to make sure your pet remains\ncomfortable, even if you are at work for the day. With access to Google's\ndevices and intelligence, Cync can make sure the\nlighting and temperature are just right from the time\nyou leave until when you return at the end of your day. The new iRobot app,\npowered by the Home APIs, combines iRobot's\nMatter-enabled vacuum with Google's intelligence to\nsolve a problem we all hate, having to clean up the\nplace we call home. With the Home APIs,\nthe iRobot vacuum will automatically\nstart its cleaning cycle as you leave for work. And thanks to a\nseamless integration with your smart\nhome's away signals, that's one less\nthing to think about. Motorola is exploring how\nthe Moto Tag could instantly trigger a custom\nsmart home routine, like turning off\nthe coffee machine, adjusting the thermostat, or\nstarting your favorite playlist. The access to a wide\nrange of devices and Google's automation\ninfrastructure provided by the Home APIs makes\nthese experiences possible. And Tuya Smart is\nmaking the smart home more seamless than ever. Because the apps\nuse the Home APIs, Matter devices set up\nin the Tuya Smart app will automatically be available\nin the Google Home app. And all the lights the user\nhas connected to Google Home can be controlled in\nthe Tuya Smart app without setting them\nup a second time. Because of Tuya\nSmart's innovation, their users can spend less\ntime managing their smart home and more time enjoying it. These are just a few of\nthe examples of what's possible with the Home APIs. You can look for these apps and\nothers coming to the Play Store and App Store in\nthe coming months. Now, let's shift our attention\nto the main topic for today,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "HZvb2t3ZBBg__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "timestamp_start": 229.67,
+    "timestamp_end": 356.25,
+    "text": "These are just a few of\nthe examples of what's possible with the Home APIs. You can look for these apps and\nothers coming to the Play Store and App Store in\nthe coming months. Now, let's shift our attention\nto the main topic for today, bringing Gemini-powered\nfeatures to the Home APIs. There are three things I\nwant to talk about today. First, we're bringing cameras to\nthe Home APIs powered by Gemini. Second, we are introducing\nnew Gemini-powered features to make automations\neasier and more natural. And third, I'll share how your\ndevices get the power of Gemini when you integrate\nwith Google Home. With the Home APIs,\nour goal is to enable all developers to build\ninnovative experiences for the home. And as you've seen from the\nexamples I shared earlier, developers are already\ndoing incredible things. Now, with Gemini\nand the Home APIs, we're taking the next step,\nbringing the best of Google's AI directly to you. We're moving beyond\nsimple device control to create an effortless\nsmart home that truly understands, adapts, and\nresponds to your users' needs. The next era of the smart\nhome powered by Gemini isn't just about\nconnected devices. It's about creating\neffortless experiences. Google Home users love\nto use their Nest cameras to receive intelligent\nnotifications, view events from their\ncamera's history, and use two-way talk to greet\npeople at the front door. Last fall, we added new\nGemini-powered camera features into public preview in\nthe Google Home app, allowing users to\nask questions like, did the kids leave their\nbikes in the driveway? And see a list of\nrelevant clips. And developers understand\nhow important cameras are to the home. You've made that loud and clear\nin all of our conversations. So that's why I'm so\nexcited to announce that we're bringing all of\nthe Nest camera experiences to the Home APIs. This includes all the\nstandard camera features you'd expect, livestream,\nhistory, two-way talk, camera settings, and of course, all of\nthe Gemini-powered intelligence features that users love.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "HZvb2t3ZBBg__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "timestamp_start": 342.12,
+    "timestamp_end": 467.61,
+    "text": "to the Home APIs. This includes all the\nstandard camera features you'd expect, livestream,\nhistory, two-way talk, camera settings, and of course, all of\nthe Gemini-powered intelligence features that users love. With intelligent\nnotifications, your users can receive notifications\nfrom your app when a familiar\nface has been seen or a package has been delivered. And with Gemini-powered event\ndescriptions and camera history search, your users can\nuse natural language to search their video\nhistory directly in your app. One of the themes I've heard\nfrom talking to developers is that their users\nlove the value they get from intelligent\nautomations, but they don't know\nwhere to get started. We want to help you\nsolve this problem with the new\nGemini-powered features we're bringing to\nthe automations API. With suggested\nautomations, Gemini looks at the devices\nin a user's home and suggests automations\nthat may be useful for them. \"Help me create\" makes building\nan automation as easy as using everyday language to tell\nGemini what you want to do. And we're also\nadding new starters based on date and weather,\nso your automations can better respond to\nthe complexities of life. These features mean\nless development time for you and more intelligent,\npersonalized experiences for your users. In addition to building\nGemini-powered experiences in your own app, when you\nintegrate with Google Home, your devices can take part\nin Gemini-powered experiences across all of Google's surfaces. For example, Google Home\ncan connect with Gemini so your users can\ncontrol and ask about devices directly\nfrom their Gemini app using natural language. And we've previewed\nGemini on home devices like smart speakers, smart\ndisplays, and Google TV. With Gemini capabilities, users\nget more natural and helpful voice experiences with\nbetter understanding that lets users easily\nexplore any topic, control smart home devices,\nand even create automations just using their voice. We're also testing\na home status widget with a select group of users.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "HZvb2t3ZBBg__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "HZvb2t3ZBBg",
+    "title": "Google I/O 2025 \u2013 HZvb2t3ZBBg",
+    "timestamp_start": 452.48,
+    "timestamp_end": 532.29,
+    "text": "voice experiences with\nbetter understanding that lets users easily\nexplore any topic, control smart home devices,\nand even create automations just using their voice. We're also testing\na home status widget with a select group of users. It's powered by Gemini\nNano on Pixel devices and gives users a\npersonalized, real time summary of their smart home based on\ntheir usage and preferences right on their home screen. This means instant access to\nthe most important information about your smart devices\nwithout even opening an app. Starting later this year, we'll\nopen the Gemini-powered Home APIs to a small group\nof early access partners to begin testing. The best way to get ready\nfor a Gemini-powered future is to start building\nyour Home APIs app today. To help inspire your\ncreativity, we're launching a series of\nthemed developer challenges, giving you a chance\nto show off demos of what you've built\nwith the Home APIs and win some fantastic prizes. Get all the details by signing\nup for our smart home developer newsletter at the\nlink on your screens. And be among the first to access\nthe new home API capabilities and receive updates about our\nupcoming developer challenges. The Home APIs are your gateway\nto an incredible future. Dive in today, start\nbuilding, and get ready to reimagine the home. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

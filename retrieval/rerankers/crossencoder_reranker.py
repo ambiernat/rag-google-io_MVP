@@ -83,6 +83,8 @@ def extract_text(doc: Dict) -> str:
 
 # Add at the top-level, outside main():
 
+_model_cache = {}
+
 def crossencoder_rerank(
     query: str,
     documents: list,
@@ -91,14 +93,15 @@ def crossencoder_rerank(
     device: str = "cpu",
     batch_size: int = 16,
 ) -> list:
-    """
-    Simple interface for HPO / programmatic reranking.
-    Does not handle canonical rehydration or file I/O.
-    """
     if not documents:
         return []
 
-    model = CrossEncoder(model_name, device=device)
+    # Load model once and cache
+    if model_name not in _model_cache:
+        print(f"[INFO] Loading CrossEncoder: {model_name}") 
+        _model_cache[model_name] = CrossEncoder(model_name, device=device)
+    model = _model_cache[model_name]
+
     texts = [doc.get("text", str(doc)) for doc in documents]
     pairs = [[query, t] for t in texts]
     scores = model.predict(pairs, batch_size=batch_size)

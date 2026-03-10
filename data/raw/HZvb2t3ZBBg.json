@@ -1,0 +1,977 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "HZvb2t3ZBBg",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.472
+    },
+    {
+      "text": "TAYLOR LEHMAN:\nWelcome to I/O 2025.",
+      "start": 5.96,
+      "duration": 3.48
+    },
+    {
+      "text": "I'm Taylor, a product\nlead for Google Home.",
+      "start": 9.44,
+      "duration": 2.98
+    },
+    {
+      "text": "And I'm absolutely thrilled to\nbe back at I/O with all of you.",
+      "start": 12.42,
+      "duration": 4.64
+    },
+    {
+      "text": "Last year at I/O, we\nannounced the Home APIs,",
+      "start": 17.06,
+      "duration": 3.51
+    },
+    {
+      "text": "enabling developers to\nbuild apps and experiences",
+      "start": 20.57,
+      "duration": 3.09
+    },
+    {
+      "text": "for the home.",
+      "start": 23.66,
+      "duration": 1.5
+    },
+    {
+      "text": "The Device and\nStructure APIs enable",
+      "start": 25.16,
+      "duration": 2.28
+    },
+    {
+      "text": "developers to control\nand manage devices",
+      "start": 27.44,
+      "duration": 2.52
+    },
+    {
+      "text": "connected to Google Home.",
+      "start": 29.96,
+      "duration": 1.45
+    },
+    {
+      "text": "And there are now over\n750 million devices",
+      "start": 31.41,
+      "duration": 3.29
+    },
+    {
+      "text": "accessible via the Home APIs.",
+      "start": 34.7,
+      "duration": 2.88
+    },
+    {
+      "text": "The Commissioning\nAPI makes it easier",
+      "start": 37.58,
+      "duration": 2.22
+    },
+    {
+      "text": "for users to set up and share\ndevices with other apps using",
+      "start": 39.8,
+      "duration": 3.45
+    },
+    {
+      "text": "Google's Matter infrastructure.",
+      "start": 43.25,
+      "duration": 2.28
+    },
+    {
+      "text": "The automations API\ngives developers",
+      "start": 45.53,
+      "duration": 2.52
+    },
+    {
+      "text": "access to Google's\nintelligent automation engine.",
+      "start": 48.05,
+      "duration": 2.82
+    },
+    {
+      "text": "And the Home APIs were\ndesigned from the ground up",
+      "start": 50.87,
+      "duration": 3.18
+    },
+    {
+      "text": "to be cross-platform,\nsupporting both Android and iOS.",
+      "start": 54.05,
+      "duration": 4.44
+    },
+    {
+      "text": "Today, we'll look at what\ndevelopers have already",
+      "start": 58.49,
+      "duration": 2.86
+    },
+    {
+      "text": "built on the Home APIs\nand talk about what you",
+      "start": 61.35,
+      "duration": 2.34
+    },
+    {
+      "text": "can expect in the year ahead.",
+      "start": 63.69,
+      "duration": 1.84
+    },
+    {
+      "text": "And it shouldn't be\nany surprise at all",
+      "start": 65.53,
+      "duration": 2.24
+    },
+    {
+      "text": "that Gemini plays a big\nrole in what comes next.",
+      "start": 67.77,
+      "duration": 3.87
+    },
+    {
+      "text": "Last year, we began the\njourney of integrating",
+      "start": 71.64,
+      "duration": 2.97
+    },
+    {
+      "text": "Gemini with Google Home.",
+      "start": 74.61,
+      "duration": 1.78
+    },
+    {
+      "text": "We've created new Google\nHome app features,",
+      "start": 76.39,
+      "duration": 2.25
+    },
+    {
+      "text": "such as enabling users to search\ntheir video history and see",
+      "start": 78.64,
+      "duration": 2.87
+    },
+    {
+      "text": "event descriptions or one of\nmy favorites, \"help me create\"",
+      "start": 81.51,
+      "duration": 4.48
+    },
+    {
+      "text": "that lets you make intelligent\nautomations using natural",
+      "start": 85.99,
+      "duration": 2.69
+    },
+    {
+      "text": "language.",
+      "start": 88.68,
+      "duration": 1.23
+    },
+    {
+      "text": "We've also enabled users\nto control their smart home",
+      "start": 89.91,
+      "duration": 2.37
+    },
+    {
+      "text": "devices using natural language\ndirectly in the Gemini app.",
+      "start": 92.28,
+      "duration": 4.71
+    },
+    {
+      "text": "And later this year, we're\nbringing these same features",
+      "start": 96.99,
+      "duration": 2.88
+    },
+    {
+      "text": "to the Home APIs, so you can\noffer the power of Gemini",
+      "start": 99.87,
+      "duration": 3.3
+    },
+    {
+      "text": "in your app as well.",
+      "start": 103.17,
+      "duration": 2.49
+    },
+    {
+      "text": "But before we dive deeper into\nhow Gemini is revolutionizing",
+      "start": 105.66,
+      "duration": 3.27
+    },
+    {
+      "text": "the home, I want\nto take a moment",
+      "start": 108.93,
+      "duration": 1.8
+    },
+    {
+      "text": "to celebrate the amazing\nexperiences our partners have",
+      "start": 110.73,
+      "duration": 3.87
+    },
+    {
+      "text": "already built. Last\nyear at I/O, we",
+      "start": 114.6,
+      "duration": 3.39
+    },
+    {
+      "text": "highlighted how ADT, LG,\nEve, and others were already",
+      "start": 117.99,
+      "duration": 4.39
+    },
+    {
+      "text": "using the Home APIs in\ntheir own experiences.",
+      "start": 122.38,
+      "duration": 2.56
+    },
+    {
+      "text": "The first of these apps are\nalready live in the Play Store.",
+      "start": 124.94,
+      "duration": 3.5
+    },
+    {
+      "text": "You can check them out today.",
+      "start": 128.44,
+      "duration": 2.49
+    },
+    {
+      "text": "Since then, even more\npartners are actively",
+      "start": 130.93,
+      "duration": 2.55
+    },
+    {
+      "text": "developing innovative\nexperiences",
+      "start": 133.48,
+      "duration": 1.95
+    },
+    {
+      "text": "powered by the Home APIs.",
+      "start": 135.43,
+      "duration": 2.34
+    },
+    {
+      "text": "Let's take a look at a\nfew of those together.",
+      "start": 137.77,
+      "duration": 2.85
+    },
+    {
+      "text": "The Cync app uses\nthe Home APIs to make",
+      "start": 140.62,
+      "duration": 3.33
+    },
+    {
+      "text": "sure your pet remains\ncomfortable, even",
+      "start": 143.95,
+      "duration": 2.07
+    },
+    {
+      "text": "if you are at work for the day.",
+      "start": 146.02,
+      "duration": 1.98
+    },
+    {
+      "text": "With access to Google's\ndevices and intelligence,",
+      "start": 148.0,
+      "duration": 2.59
+    },
+    {
+      "text": "Cync can make sure the\nlighting and temperature are",
+      "start": 150.59,
+      "duration": 2.93
+    },
+    {
+      "text": "just right from the time\nyou leave until when you",
+      "start": 153.52,
+      "duration": 2.91
+    },
+    {
+      "text": "return at the end of your day.",
+      "start": 156.43,
+      "duration": 3.18
+    },
+    {
+      "text": "The new iRobot app,\npowered by the Home APIs,",
+      "start": 159.61,
+      "duration": 3.34
+    },
+    {
+      "text": "combines iRobot's\nMatter-enabled vacuum",
+      "start": 162.95,
+      "duration": 2.3
+    },
+    {
+      "text": "with Google's intelligence to\nsolve a problem we all hate,",
+      "start": 165.25,
+      "duration": 3.48
+    },
+    {
+      "text": "having to clean up the\nplace we call home.",
+      "start": 168.73,
+      "duration": 2.46
+    },
+    {
+      "text": "With the Home APIs,\nthe iRobot vacuum",
+      "start": 171.19,
+      "duration": 2.55
+    },
+    {
+      "text": "will automatically\nstart its cleaning cycle",
+      "start": 173.74,
+      "duration": 1.89
+    },
+    {
+      "text": "as you leave for work.",
+      "start": 175.63,
+      "duration": 1.27
+    },
+    {
+      "text": "And thanks to a\nseamless integration",
+      "start": 176.9,
+      "duration": 2.06
+    },
+    {
+      "text": "with your smart\nhome's away signals,",
+      "start": 178.96,
+      "duration": 1.69
+    },
+    {
+      "text": "that's one less\nthing to think about.",
+      "start": 180.65,
+      "duration": 2.91
+    },
+    {
+      "text": "Motorola is exploring how\nthe Moto Tag could instantly",
+      "start": 183.56,
+      "duration": 3.09
+    },
+    {
+      "text": "trigger a custom\nsmart home routine,",
+      "start": 186.65,
+      "duration": 1.96
+    },
+    {
+      "text": "like turning off\nthe coffee machine,",
+      "start": 188.61,
+      "duration": 2.25
+    },
+    {
+      "text": "adjusting the thermostat, or\nstarting your favorite playlist.",
+      "start": 190.86,
+      "duration": 3.51
+    },
+    {
+      "text": "The access to a wide\nrange of devices",
+      "start": 194.37,
+      "duration": 2.27
+    },
+    {
+      "text": "and Google's automation\ninfrastructure provided",
+      "start": 196.64,
+      "duration": 2.19
+    },
+    {
+      "text": "by the Home APIs makes\nthese experiences possible.",
+      "start": 198.83,
+      "duration": 4.05
+    },
+    {
+      "text": "And Tuya Smart is\nmaking the smart home",
+      "start": 202.88,
+      "duration": 2.43
+    },
+    {
+      "text": "more seamless than ever.",
+      "start": 205.31,
+      "duration": 1.96
+    },
+    {
+      "text": "Because the apps\nuse the Home APIs,",
+      "start": 207.27,
+      "duration": 2.28
+    },
+    {
+      "text": "Matter devices set up\nin the Tuya Smart app",
+      "start": 209.55,
+      "duration": 2.21
+    },
+    {
+      "text": "will automatically be available\nin the Google Home app.",
+      "start": 211.76,
+      "duration": 2.65
+    },
+    {
+      "text": "And all the lights the user\nhas connected to Google Home",
+      "start": 214.41,
+      "duration": 2.84
+    },
+    {
+      "text": "can be controlled in\nthe Tuya Smart app",
+      "start": 217.25,
+      "duration": 1.83
+    },
+    {
+      "text": "without setting them\nup a second time.",
+      "start": 219.08,
+      "duration": 3.12
+    },
+    {
+      "text": "Because of Tuya\nSmart's innovation,",
+      "start": 222.2,
+      "duration": 1.84
+    },
+    {
+      "text": "their users can spend less\ntime managing their smart home",
+      "start": 224.04,
+      "duration": 2.78
+    },
+    {
+      "text": "and more time enjoying it.",
+      "start": 226.82,
+      "duration": 2.85
+    },
+    {
+      "text": "These are just a few of\nthe examples of what's",
+      "start": 229.67,
+      "duration": 2.52
+    },
+    {
+      "text": "possible with the Home APIs.",
+      "start": 232.19,
+      "duration": 2.31
+    },
+    {
+      "text": "You can look for these apps and\nothers coming to the Play Store",
+      "start": 234.5,
+      "duration": 4.05
+    },
+    {
+      "text": "and App Store in\nthe coming months.",
+      "start": 238.55,
+      "duration": 2.92
+    },
+    {
+      "text": "Now, let's shift our attention\nto the main topic for today,",
+      "start": 241.47,
+      "duration": 3.39
+    },
+    {
+      "text": "bringing Gemini-powered\nfeatures to the Home APIs.",
+      "start": 244.86,
+      "duration": 3.66
+    },
+    {
+      "text": "There are three things I\nwant to talk about today.",
+      "start": 248.52,
+      "duration": 3.12
+    },
+    {
+      "text": "First, we're bringing cameras to\nthe Home APIs powered by Gemini.",
+      "start": 251.64,
+      "duration": 4.41
+    },
+    {
+      "text": "Second, we are introducing\nnew Gemini-powered features",
+      "start": 256.05,
+      "duration": 3.51
+    },
+    {
+      "text": "to make automations\neasier and more natural.",
+      "start": 259.56,
+      "duration": 3.01
+    },
+    {
+      "text": "And third, I'll share how your\ndevices get the power of Gemini",
+      "start": 262.57,
+      "duration": 3.77
+    },
+    {
+      "text": "when you integrate\nwith Google Home.",
+      "start": 266.34,
+      "duration": 1.83
+    },
+    {
+      "text": "With the Home APIs,\nour goal is to enable",
+      "start": 268.17,
+      "duration": 2.82
+    },
+    {
+      "text": "all developers to build\ninnovative experiences",
+      "start": 270.99,
+      "duration": 2.67
+    },
+    {
+      "text": "for the home.",
+      "start": 273.66,
+      "duration": 1.0
+    },
+    {
+      "text": "And as you've seen from the\nexamples I shared earlier,",
+      "start": 274.66,
+      "duration": 2.55
+    },
+    {
+      "text": "developers are already\ndoing incredible things.",
+      "start": 277.21,
+      "duration": 3.15
+    },
+    {
+      "text": "Now, with Gemini\nand the Home APIs,",
+      "start": 280.36,
+      "duration": 2.97
+    },
+    {
+      "text": "we're taking the next step,\nbringing the best of Google's AI",
+      "start": 283.33,
+      "duration": 3.2
+    },
+    {
+      "text": "directly to you.",
+      "start": 286.53,
+      "duration": 1.74
+    },
+    {
+      "text": "We're moving beyond\nsimple device control",
+      "start": 288.27,
+      "duration": 2.22
+    },
+    {
+      "text": "to create an effortless\nsmart home that",
+      "start": 290.49,
+      "duration": 2.07
+    },
+    {
+      "text": "truly understands, adapts, and\nresponds to your users' needs.",
+      "start": 292.56,
+      "duration": 5.35
+    },
+    {
+      "text": "The next era of the smart\nhome powered by Gemini",
+      "start": 297.91,
+      "duration": 2.96
+    },
+    {
+      "text": "isn't just about\nconnected devices.",
+      "start": 300.87,
+      "duration": 2.29
+    },
+    {
+      "text": "It's about creating\neffortless experiences.",
+      "start": 303.16,
+      "duration": 3.08
+    },
+    {
+      "text": "Google Home users love\nto use their Nest cameras",
+      "start": 306.24,
+      "duration": 3.18
+    },
+    {
+      "text": "to receive intelligent\nnotifications,",
+      "start": 309.42,
+      "duration": 2.29
+    },
+    {
+      "text": "view events from their\ncamera's history,",
+      "start": 311.71,
+      "duration": 1.8
+    },
+    {
+      "text": "and use two-way talk to greet\npeople at the front door.",
+      "start": 313.51,
+      "duration": 3.98
+    },
+    {
+      "text": "Last fall, we added new\nGemini-powered camera features",
+      "start": 317.49,
+      "duration": 3.15
+    },
+    {
+      "text": "into public preview in\nthe Google Home app,",
+      "start": 320.64,
+      "duration": 2.23
+    },
+    {
+      "text": "allowing users to\nask questions like,",
+      "start": 322.87,
+      "duration": 2.21
+    },
+    {
+      "text": "did the kids leave their\nbikes in the driveway?",
+      "start": 325.08,
+      "duration": 2.01
+    },
+    {
+      "text": "And see a list of\nrelevant clips.",
+      "start": 327.09,
+      "duration": 2.85
+    },
+    {
+      "text": "And developers understand\nhow important cameras",
+      "start": 329.94,
+      "duration": 2.49
+    },
+    {
+      "text": "are to the home.",
+      "start": 332.43,
+      "duration": 1.12
+    },
+    {
+      "text": "You've made that loud and clear\nin all of our conversations.",
+      "start": 333.55,
+      "duration": 3.59
+    },
+    {
+      "text": "So that's why I'm so\nexcited to announce",
+      "start": 337.14,
+      "duration": 2.43
+    },
+    {
+      "text": "that we're bringing all of\nthe Nest camera experiences",
+      "start": 339.57,
+      "duration": 2.55
+    },
+    {
+      "text": "to the Home APIs.",
+      "start": 342.12,
+      "duration": 1.74
+    },
+    {
+      "text": "This includes all the\nstandard camera features",
+      "start": 343.86,
+      "duration": 2.25
+    },
+    {
+      "text": "you'd expect, livestream,\nhistory, two-way talk, camera",
+      "start": 346.11,
+      "duration": 4.65
+    },
+    {
+      "text": "settings, and of course, all of\nthe Gemini-powered intelligence",
+      "start": 350.76,
+      "duration": 3.21
+    },
+    {
+      "text": "features that users love.",
+      "start": 353.97,
+      "duration": 2.28
+    },
+    {
+      "text": "With intelligent\nnotifications, your users",
+      "start": 356.25,
+      "duration": 2.82
+    },
+    {
+      "text": "can receive notifications\nfrom your app",
+      "start": 359.07,
+      "duration": 2.0
+    },
+    {
+      "text": "when a familiar\nface has been seen",
+      "start": 361.07,
+      "duration": 1.83
+    },
+    {
+      "text": "or a package has been delivered.",
+      "start": 362.9,
+      "duration": 2.31
+    },
+    {
+      "text": "And with Gemini-powered event\ndescriptions and camera history",
+      "start": 365.21,
+      "duration": 2.82
+    },
+    {
+      "text": "search, your users can\nuse natural language",
+      "start": 368.03,
+      "duration": 2.73
+    },
+    {
+      "text": "to search their video\nhistory directly in your app.",
+      "start": 370.76,
+      "duration": 3.72
+    },
+    {
+      "text": "One of the themes I've heard\nfrom talking to developers",
+      "start": 374.48,
+      "duration": 3.21
+    },
+    {
+      "text": "is that their users\nlove the value they",
+      "start": 377.69,
+      "duration": 1.74
+    },
+    {
+      "text": "get from intelligent\nautomations,",
+      "start": 379.43,
+      "duration": 1.6
+    },
+    {
+      "text": "but they don't know\nwhere to get started.",
+      "start": 381.03,
+      "duration": 2.54
+    },
+    {
+      "text": "We want to help you\nsolve this problem",
+      "start": 383.57,
+      "duration": 2.04
+    },
+    {
+      "text": "with the new\nGemini-powered features",
+      "start": 385.61,
+      "duration": 1.8
+    },
+    {
+      "text": "we're bringing to\nthe automations API.",
+      "start": 387.41,
+      "duration": 2.94
+    },
+    {
+      "text": "With suggested\nautomations, Gemini",
+      "start": 390.35,
+      "duration": 2.52
+    },
+    {
+      "text": "looks at the devices\nin a user's home",
+      "start": 392.87,
+      "duration": 1.86
+    },
+    {
+      "text": "and suggests automations\nthat may be useful for them.",
+      "start": 394.73,
+      "duration": 3.18
+    },
+    {
+      "text": "\"Help me create\" makes building\nan automation as easy as using",
+      "start": 397.91,
+      "duration": 4.17
+    },
+    {
+      "text": "everyday language to tell\nGemini what you want to do.",
+      "start": 402.08,
+      "duration": 3.37
+    },
+    {
+      "text": "And we're also\nadding new starters",
+      "start": 405.45,
+      "duration": 1.91
+    },
+    {
+      "text": "based on date and weather,\nso your automations",
+      "start": 407.36,
+      "duration": 3.03
+    },
+    {
+      "text": "can better respond to\nthe complexities of life.",
+      "start": 410.39,
+      "duration": 3.45
+    },
+    {
+      "text": "These features mean\nless development time",
+      "start": 413.84,
+      "duration": 2.1
+    },
+    {
+      "text": "for you and more intelligent,\npersonalized experiences",
+      "start": 415.94,
+      "duration": 3.69
+    },
+    {
+      "text": "for your users.",
+      "start": 419.63,
+      "duration": 2.25
+    },
+    {
+      "text": "In addition to building\nGemini-powered experiences",
+      "start": 421.88,
+      "duration": 2.34
+    },
+    {
+      "text": "in your own app, when you\nintegrate with Google Home,",
+      "start": 424.22,
+      "duration": 3.13
+    },
+    {
+      "text": "your devices can take part\nin Gemini-powered experiences",
+      "start": 427.35,
+      "duration": 3.08
+    },
+    {
+      "text": "across all of Google's surfaces.",
+      "start": 430.43,
+      "duration": 2.52
+    },
+    {
+      "text": "For example, Google Home\ncan connect with Gemini",
+      "start": 432.95,
+      "duration": 2.64
+    },
+    {
+      "text": "so your users can\ncontrol and ask",
+      "start": 435.59,
+      "duration": 1.95
+    },
+    {
+      "text": "about devices directly\nfrom their Gemini",
+      "start": 437.54,
+      "duration": 2.16
+    },
+    {
+      "text": "app using natural language.",
+      "start": 439.7,
+      "duration": 2.85
+    },
+    {
+      "text": "And we've previewed\nGemini on home devices",
+      "start": 442.55,
+      "duration": 2.22
+    },
+    {
+      "text": "like smart speakers, smart\ndisplays, and Google TV.",
+      "start": 444.77,
+      "duration": 4.35
+    },
+    {
+      "text": "With Gemini capabilities, users\nget more natural and helpful",
+      "start": 449.12,
+      "duration": 3.36
+    },
+    {
+      "text": "voice experiences with\nbetter understanding",
+      "start": 452.48,
+      "duration": 2.71
+    },
+    {
+      "text": "that lets users easily\nexplore any topic,",
+      "start": 455.19,
+      "duration": 2.67
+    },
+    {
+      "text": "control smart home devices,\nand even create automations",
+      "start": 457.86,
+      "duration": 3.32
+    },
+    {
+      "text": "just using their voice.",
+      "start": 461.18,
+      "duration": 2.64
+    },
+    {
+      "text": "We're also testing\na home status widget",
+      "start": 463.82,
+      "duration": 2.1
+    },
+    {
+      "text": "with a select group of users.",
+      "start": 465.92,
+      "duration": 1.69
+    },
+    {
+      "text": "It's powered by Gemini\nNano on Pixel devices",
+      "start": 467.61,
+      "duration": 2.57
+    },
+    {
+      "text": "and gives users a\npersonalized, real time summary",
+      "start": 470.18,
+      "duration": 2.7
+    },
+    {
+      "text": "of their smart home based on\ntheir usage and preferences",
+      "start": 472.88,
+      "duration": 3.36
+    },
+    {
+      "text": "right on their home screen.",
+      "start": 476.24,
+      "duration": 1.39
+    },
+    {
+      "text": "This means instant access to\nthe most important information",
+      "start": 477.63,
+      "duration": 3.22
+    },
+    {
+      "text": "about your smart devices\nwithout even opening an app.",
+      "start": 480.85,
+      "duration": 3.51
+    },
+    {
+      "text": "Starting later this year, we'll\nopen the Gemini-powered Home",
+      "start": 484.36,
+      "duration": 3.15
+    },
+    {
+      "text": "APIs to a small group\nof early access partners",
+      "start": 487.51,
+      "duration": 2.79
+    },
+    {
+      "text": "to begin testing.",
+      "start": 490.3,
+      "duration": 1.45
+    },
+    {
+      "text": "The best way to get ready\nfor a Gemini-powered future",
+      "start": 491.75,
+      "duration": 3.05
+    },
+    {
+      "text": "is to start building\nyour Home APIs app today.",
+      "start": 494.8,
+      "duration": 3.54
+    },
+    {
+      "text": "To help inspire your\ncreativity, we're",
+      "start": 498.34,
+      "duration": 2.22
+    },
+    {
+      "text": "launching a series of\nthemed developer challenges,",
+      "start": 500.56,
+      "duration": 2.208
+    },
+    {
+      "text": "giving you a chance\nto show off demos",
+      "start": 502.768,
+      "duration": 1.542
+    },
+    {
+      "text": "of what you've built\nwith the Home APIs",
+      "start": 504.31,
+      "duration": 1.625
+    },
+    {
+      "text": "and win some fantastic prizes.",
+      "start": 505.935,
+      "duration": 2.155
+    },
+    {
+      "text": "Get all the details by signing\nup for our smart home developer",
+      "start": 508.09,
+      "duration": 3.24
+    },
+    {
+      "text": "newsletter at the\nlink on your screens.",
+      "start": 511.33,
+      "duration": 1.719
+    },
+    {
+      "text": "And be among the first to access\nthe new home API capabilities",
+      "start": 513.049,
+      "duration": 3.411
+    },
+    {
+      "text": "and receive updates about our\nupcoming developer challenges.",
+      "start": 516.46,
+      "duration": 3.67
+    },
+    {
+      "text": "The Home APIs are your gateway\nto an incredible future.",
+      "start": 520.13,
+      "duration": 3.9
+    },
+    {
+      "text": "Dive in today, start\nbuilding, and get",
+      "start": 524.03,
+      "duration": 2.87
+    },
+    {
+      "text": "ready to reimagine the home.",
+      "start": 526.9,
+      "duration": 2.34
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 529.24,
+      "duration": 3.05
+    }
+  ]
+}

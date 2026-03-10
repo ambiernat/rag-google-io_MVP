@@ -1,0 +1,7517 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "GjvgtwSOCao",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.944
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3.944,
+      "duration": 3.456
+    },
+    {
+      "text": "JOSH WOODWARD:\nHello, developers.",
+      "start": 7.4,
+      "duration": 2.37
+    },
+    {
+      "text": "Hello, hello.",
+      "start": 9.77,
+      "duration": 1.03
+    },
+    {
+      "text": "It's great to be back\nup here with you.",
+      "start": 10.8,
+      "duration": 1.83
+    },
+    {
+      "text": "And earlier today, you\nheard all about our updates",
+      "start": 12.63,
+      "duration": 3.56
+    },
+    {
+      "text": "to Gemini 2.5 Pro and Flash.",
+      "start": 16.19,
+      "duration": 2.98
+    },
+    {
+      "text": "And we talked about how we're\nturning research into reality,",
+      "start": 19.17,
+      "duration": 3.36
+    },
+    {
+      "text": "how we brought 2.5 Pro\nto our coding agent,",
+      "start": 22.53,
+      "duration": 3.06
+    },
+    {
+      "text": "Jules, which I understand\nis having a lot of demand",
+      "start": 25.59,
+      "duration": 2.96
+    },
+    {
+      "text": "and our TPUs are hot right now.",
+      "start": 28.55,
+      "duration": 2.85
+    },
+    {
+      "text": "That idea of bringing\ninnovation to life",
+      "start": 31.4,
+      "duration": 3.0
+    },
+    {
+      "text": "is something we explore\nevery day in Google Labs,",
+      "start": 34.4,
+      "duration": 2.83
+    },
+    {
+      "text": "and that's our dedicated\nspace to try stuff out.",
+      "start": 37.23,
+      "duration": 3.36
+    },
+    {
+      "text": "So today, we wanted\nto try something",
+      "start": 40.59,
+      "duration": 1.64
+    },
+    {
+      "text": "different with the show here\nand bring that same spirit",
+      "start": 42.23,
+      "duration": 3.85
+    },
+    {
+      "text": "so you can build with Gemini\nacross Android and the web",
+      "start": 46.08,
+      "duration": 3.53
+    },
+    {
+      "text": "and beyond.",
+      "start": 49.61,
+      "duration": 0.97
+    },
+    {
+      "text": "So here's how this is going\nto work for this new format.",
+      "start": 50.58,
+      "duration": 2.7
+    },
+    {
+      "text": "We're going to try to do as many\ndemos as we can in 59 minutes,",
+      "start": 53.28,
+      "duration": 4.385
+    },
+    {
+      "text": "OK?",
+      "start": 57.665,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 58.165,
+      "duration": 2.305
+    },
+    {
+      "text": "All right.",
+      "start": 60.47,
+      "duration": 1.71
+    },
+    {
+      "text": "So there's only two things\nyou have to do as an audience.",
+      "start": 62.18,
+      "duration": 3.22
+    },
+    {
+      "text": "If it works-- if the demo\nworks, what are you going to do?",
+      "start": 65.4,
+      "duration": 3.375
+    },
+    {
+      "text": "Applaud.",
+      "start": 68.775,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 69.275,
+      "duration": 2.265
+    },
+    {
+      "text": "Yeah, hands up.",
+      "start": 71.54,
+      "duration": 1.18
+    },
+    {
+      "text": "That works, too.",
+      "start": 72.72,
+      "duration": 0.78
+    },
+    {
+      "text": "If it doesn't work\nfor some reason,",
+      "start": 73.5,
+      "duration": 1.788
+    },
+    {
+      "text": "what are you going to do?",
+      "start": 75.288,
+      "duration": 1.042
+    },
+    {
+      "text": "Applaud.",
+      "start": 76.33,
+      "duration": 0.52
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 76.85,
+      "duration": 1.57
+    },
+    {
+      "text": "OK.",
+      "start": 78.42,
+      "duration": 0.57
+    },
+    {
+      "text": "All right.",
+      "start": 78.99,
+      "duration": 0.72
+    },
+    {
+      "text": "I'm going to jump right in.",
+      "start": 79.71,
+      "duration": 1.47
+    },
+    {
+      "text": "I'll do the first one.",
+      "start": 81.18,
+      "duration": 1.5
+    },
+    {
+      "text": "And over in Labs, we love to\nbuild with Gemini 2.5 Flash.",
+      "start": 82.68,
+      "duration": 4.47
+    },
+    {
+      "text": "Does anyone use the\nFlash model out there?",
+      "start": 87.15,
+      "duration": 3.05
+    },
+    {
+      "text": "All right, a few people.",
+      "start": 90.2,
+      "duration": 1.09
+    },
+    {
+      "text": "Good.",
+      "start": 91.29,
+      "duration": 0.98
+    },
+    {
+      "text": "It's great.",
+      "start": 92.27,
+      "duration": 1.06
+    },
+    {
+      "text": "It's insanely fast.",
+      "start": 93.33,
+      "duration": 1.32
+    },
+    {
+      "text": "It has a great price.",
+      "start": 94.65,
+      "duration": 1.17
+    },
+    {
+      "text": "We use it for a lot\nof our prototyping.",
+      "start": 95.82,
+      "duration": 1.962
+    },
+    {
+      "text": "And one of the things we\nwant to show you today",
+      "start": 97.782,
+      "duration": 1.958
+    },
+    {
+      "text": "is how we're blending\ncode and design",
+      "start": 99.74,
+      "duration": 3.22
+    },
+    {
+      "text": "so you can go from a\nprompt to an interface",
+      "start": 102.96,
+      "duration": 3.02
+    },
+    {
+      "text": "to code in just a minute or so.",
+      "start": 105.98,
+      "duration": 2.56
+    },
+    {
+      "text": "So it's a new Labs experimental\nproject called Stitch,",
+      "start": 108.54,
+      "duration": 3.66
+    },
+    {
+      "text": "and we'll bring it up\non the screen here.",
+      "start": 112.2,
+      "duration": 2.46
+    },
+    {
+      "text": "And first thing is first.",
+      "start": 114.66,
+      "duration": 2.51
+    },
+    {
+      "text": "Did anyone come to I/O\nfor the first time?",
+      "start": 117.17,
+      "duration": 2.74
+    },
+    {
+      "text": "Maybe your first time\nin California, too?",
+      "start": 119.91,
+      "duration": 2.342
+    },
+    {
+      "text": "All right, great.",
+      "start": 122.252,
+      "duration": 0.708
+    },
+    {
+      "text": "We're going to build\nan app for you.",
+      "start": 122.96,
+      "duration": 2.1
+    },
+    {
+      "text": "So here it is.",
+      "start": 125.06,
+      "duration": 1.21
+    },
+    {
+      "text": "This is Stitch.",
+      "start": 126.27,
+      "duration": 1.08
+    },
+    {
+      "text": "It starts with design first.",
+      "start": 127.35,
+      "duration": 1.939
+    },
+    {
+      "text": "So you can go into it and\njust paste in a prompt,",
+      "start": 129.289,
+      "duration": 2.746
+    },
+    {
+      "text": "like make me an app for\ndiscovering California--",
+      "start": 132.035,
+      "duration": 2.895
+    },
+    {
+      "text": "the activities, the getaways.",
+      "start": 134.93,
+      "duration": 1.75
+    },
+    {
+      "text": "And basically, you can\njust click Generate Design,",
+      "start": 136.68,
+      "duration": 3.05
+    },
+    {
+      "text": "and it's going to go out and\nstart making a design for you.",
+      "start": 139.73,
+      "duration": 3.97
+    },
+    {
+      "text": "And so I've done\nthis just before.",
+      "start": 143.7,
+      "duration": 1.695
+    },
+    {
+      "text": "It takes about a\nminute or so, but just",
+      "start": 145.395,
+      "duration": 1.625
+    },
+    {
+      "text": "to save time and get more\ndemos in an hour here,",
+      "start": 147.02,
+      "duration": 2.74
+    },
+    {
+      "text": "these are some of the\nscreens it comes back with.",
+      "start": 149.76,
+      "duration": 2.49
+    },
+    {
+      "text": "Now, these are not just\nstatic screenshots.",
+      "start": 152.25,
+      "duration": 2.13
+    },
+    {
+      "text": "These are actual designs.",
+      "start": 154.38,
+      "duration": 1.59
+    },
+    {
+      "text": "And what's cool is you can\neither iterate here on the left",
+      "start": 155.97,
+      "duration": 3.32
+    },
+    {
+      "text": "and iterate-- and create new\ndesigns, or you can go in here",
+      "start": 159.29,
+      "duration": 3.48
+    },
+    {
+      "text": "and do things like make it dark\nmode, lime green, max radius,",
+      "start": 162.77,
+      "duration": 4.24
+    },
+    {
+      "text": "and it'll apply it and start\nworking in the background.",
+      "start": 167.01,
+      "duration": 3.57
+    },
+    {
+      "text": "Now, what's happening\nhere is we're",
+      "start": 170.58,
+      "duration": 1.76
+    },
+    {
+      "text": "using both 2.5 Pro or 2.5 Flash\nto start letting you remix",
+      "start": 172.34,
+      "duration": 4.88
+    },
+    {
+      "text": "this and change it around.",
+      "start": 177.22,
+      "duration": 1.48
+    },
+    {
+      "text": "So this will work for\nabout a minute or so,",
+      "start": 178.7,
+      "duration": 2.58
+    },
+    {
+      "text": "and I'm going to show you\nthe one that comes back.",
+      "start": 181.28,
+      "duration": 2.4
+    },
+    {
+      "text": "This is it.",
+      "start": 183.68,
+      "duration": 1.32
+    },
+    {
+      "text": "It is dark mode, lime green,\nmassive corner radius.",
+      "start": 185.0,
+      "duration": 4.566
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 189.566,
+      "duration": 1.724
+    },
+    {
+      "text": "And what's really cool\nis if you go into these,",
+      "start": 191.29,
+      "duration": 2.37
+    },
+    {
+      "text": "you can see that you can go in\nand grab the markup right here.",
+      "start": 193.66,
+      "duration": 3.4
+    },
+    {
+      "text": "It's all here.",
+      "start": 197.06,
+      "duration": 1.26
+    },
+    {
+      "text": "You can copy this out to\nwhatever IDE you want.",
+      "start": 198.32,
+      "duration": 3.87
+    },
+    {
+      "text": "Again, these aren't screenshots.",
+      "start": 202.19,
+      "duration": 1.442
+    },
+    {
+      "text": "They're actual designs.",
+      "start": 203.632,
+      "duration": 0.958
+    },
+    {
+      "text": "You can take it right into\nFigma and edit it further.",
+      "start": 204.59,
+      "duration": 3.21
+    },
+    {
+      "text": "So this is a new product.",
+      "start": 207.8,
+      "duration": 1.77
+    },
+    {
+      "text": "It's experimental.",
+      "start": 209.57,
+      "duration": 1.002
+    },
+    {
+      "text": "We want you to try it\nout and give us feedback.",
+      "start": 210.572,
+      "duration": 1.958
+    },
+    {
+      "text": "Labs.Google/Stitch.",
+      "start": 212.53,
+      "duration": 2.53
+    },
+    {
+      "text": "And that's the first demo.",
+      "start": 215.06,
+      "duration": 1.62
+    },
+    {
+      "text": "All right.",
+      "start": 216.68,
+      "duration": 0.93
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 217.61,
+      "duration": 3.51
+    },
+    {
+      "text": "So with that, I\nwant to pass it off",
+      "start": 221.62,
+      "duration": 1.83
+    },
+    {
+      "text": "to Logan, who's going to tell\nyou all kinds of great things",
+      "start": 223.45,
+      "duration": 2.49
+    },
+    {
+      "text": "you can build with\nthe Gemini API.",
+      "start": 225.94,
+      "duration": 2.08
+    },
+    {
+      "text": "Logan.",
+      "start": 228.02,
+      "duration": 0.74
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 228.76,
+      "duration": 3.292
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 232.552,
+      "duration": 2.844
+    },
+    {
+      "text": "LOGAN KILPATRICK: Thanks, Josh.",
+      "start": 236.628,
+      "duration": 1.292
+    },
+    {
+      "text": "I'm excited to be at\nI/O today to show you",
+      "start": 237.92,
+      "duration": 2.12
+    },
+    {
+      "text": "some of the cool things we\njust shipped this morning.",
+      "start": 240.04,
+      "duration": 3.0
+    },
+    {
+      "text": "We'll start in AI\nStudio, where the goal is",
+      "start": 243.04,
+      "duration": 2.19
+    },
+    {
+      "text": "to help you answer the question,\ncan I build this with Gemini,",
+      "start": 245.23,
+      "duration": 3.3
+    },
+    {
+      "text": "and then get you started\nbuilding with our latest models.",
+      "start": 248.53,
+      "duration": 3.45
+    },
+    {
+      "text": "OK, so let's open\nup Google AI Studio.",
+      "start": 251.98,
+      "duration": 2.97
+    },
+    {
+      "text": "I've been wanting to build\na bunch of AI voice agents,",
+      "start": 254.95,
+      "duration": 2.59
+    },
+    {
+      "text": "but I've been a little busy.",
+      "start": 257.54,
+      "duration": 1.919
+    },
+    {
+      "text": "No better time than\nnow to try prototyping.",
+      "start": 259.459,
+      "duration": 4.371
+    },
+    {
+      "text": "Earlier, you saw how Project\nAstra can make AI feel natural,",
+      "start": 263.83,
+      "duration": 4.15
+    },
+    {
+      "text": "and a lot of those capabilities\nare now available today",
+      "start": 267.98,
+      "duration": 3.08
+    },
+    {
+      "text": "in the Live API.",
+      "start": 271.06,
+      "duration": 2.1
+    },
+    {
+      "text": "So let's select the new 2.5\nFlash native audio model.",
+      "start": 273.16,
+      "duration": 3.365
+    },
+    {
+      "text": "We've also added more\ncontrols like proactive audio.",
+      "start": 279.7,
+      "duration": 4.59
+    },
+    {
+      "text": "The model is now better at\nignoring stray sounds or voices,",
+      "start": 284.29,
+      "duration": 3.69
+    },
+    {
+      "text": "perfect for the I/O stage.",
+      "start": 287.98,
+      "duration": 2.58
+    },
+    {
+      "text": "It also natively\nsupports 24 languages.",
+      "start": 290.56,
+      "duration": 2.68
+    },
+    {
+      "text": "We've added new controls for\nmanaging your session contexts,",
+      "start": 293.24,
+      "duration": 2.82
+    },
+    {
+      "text": "which you can see on the\nright-hand side here.",
+      "start": 296.06,
+      "duration": 3.83
+    },
+    {
+      "text": "But in order to build\nan agent like Astra,",
+      "start": 299.89,
+      "duration": 2.59
+    },
+    {
+      "text": "the model needs to\nbe able to use tools.",
+      "start": 302.48,
+      "duration": 2.46
+    },
+    {
+      "text": "So we've added improvements\nto function calling and search",
+      "start": 304.94,
+      "duration": 2.72
+    },
+    {
+      "text": "counting.",
+      "start": 307.66,
+      "duration": 1.35
+    },
+    {
+      "text": "We're also introducing a new\ntool we're calling URL Context.",
+      "start": 309.01,
+      "duration": 5.22
+    },
+    {
+      "text": "URL Context enables\nGemini models",
+      "start": 314.23,
+      "duration": 2.37
+    },
+    {
+      "text": "to access and pull context from\nweb pages with just a link.",
+      "start": 316.6,
+      "duration": 4.41
+    },
+    {
+      "text": "This is exciting because now\nyou can ground model responses",
+      "start": 321.01,
+      "duration": 3.06
+    },
+    {
+      "text": "on both specific and\nup-to-date information,",
+      "start": 324.07,
+      "duration": 3.04
+    },
+    {
+      "text": "with support for up\nto 20 links at a time.",
+      "start": 327.11,
+      "duration": 4.31
+    },
+    {
+      "text": "All right, let's pass the\nlink to our Developer docs",
+      "start": 331.42,
+      "duration": 2.73
+    },
+    {
+      "text": "for function calling and\nhave Gemini give us the TLDR.",
+      "start": 334.15,
+      "duration": 2.553
+    },
+    {
+      "text": "[COMPUTER TONE]",
+      "start": 342.19,
+      "duration": 1.26
+    },
+    {
+      "text": "SPEAKER 1: Google's\nfunction calling",
+      "start": 343.45,
+      "duration": 1.5
+    },
+    {
+      "text": "lets you connect Gemini models\nto external tools and APIs,",
+      "start": 344.95,
+      "duration": 3.58
+    },
+    {
+      "text": "allowing them to understand\nwhen to use specific functions",
+      "start": 348.53,
+      "duration": 2.87
+    },
+    {
+      "text": "and provide the necessary\nparameters to execute",
+      "start": 351.4,
+      "duration": 2.49
+    },
+    {
+      "text": "real-world actions.",
+      "start": 353.89,
+      "duration": 1.51
+    },
+    {
+      "text": "Acting as a bridge--",
+      "start": 355.4,
+      "duration": 1.282
+    },
+    {
+      "text": "LOGAN KILPATRICK: Nice.",
+      "start": 356.682,
+      "duration": 0.958
+    },
+    {
+      "text": "I couldn't have said\nit better myself.",
+      "start": 357.64,
+      "duration": 1.93
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 359.57,
+      "duration": 3.395
+    },
+    {
+      "text": "This is just a small glimpse\ninto what we've landed today",
+      "start": 364.42,
+      "duration": 3.09
+    },
+    {
+      "text": "in the Live API, and we're super\nexcited to see what you build.",
+      "start": 367.51,
+      "duration": 4.02
+    },
+    {
+      "text": "All right, let's shift\ngears now and show you",
+      "start": 371.53,
+      "duration": 2.37
+    },
+    {
+      "text": "another way we're\nmaking it easier",
+      "start": 373.9,
+      "duration": 2.04
+    },
+    {
+      "text": "for you to build with Gemini.",
+      "start": 375.94,
+      "duration": 3.66
+    },
+    {
+      "text": "As you heard from Tulsee\nearlier today, Gemini 2.5 Pro",
+      "start": 379.6,
+      "duration": 3.15
+    },
+    {
+      "text": "is awesome at coding.",
+      "start": 382.75,
+      "duration": 1.66
+    },
+    {
+      "text": "We've seen the ecosystem\nloving 2.5 Pro,",
+      "start": 384.41,
+      "duration": 3.6
+    },
+    {
+      "text": "so it's only logical that\nwe bring it into AI Studio's",
+      "start": 388.01,
+      "duration": 3.2
+    },
+    {
+      "text": "native Code Editor.",
+      "start": 391.21,
+      "duration": 2.07
+    },
+    {
+      "text": "Let's kick off an\nexample of what",
+      "start": 393.28,
+      "duration": 1.71
+    },
+    {
+      "text": "this new experience is like\nusing one of the preset prompts.",
+      "start": 394.99,
+      "duration": 2.87
+    },
+    {
+      "text": "This new experience is tightly\noptimized with our SDK,",
+      "start": 400.99,
+      "duration": 3.49
+    },
+    {
+      "text": "so you can quickly generate web\napplications that use the Gemini",
+      "start": 404.48,
+      "duration": 3.41
+    },
+    {
+      "text": "API, like this AI-powered\nadventure game that",
+      "start": 407.89,
+      "duration": 2.88
+    },
+    {
+      "text": "uses both Gemini and Imagen.",
+      "start": 410.77,
+      "duration": 4.98
+    },
+    {
+      "text": "As you see here, the model is\nreasoning about the request",
+      "start": 415.75,
+      "duration": 2.88
+    },
+    {
+      "text": "and composing a\nspec for the app.",
+      "start": 418.63,
+      "duration": 2.79
+    },
+    {
+      "text": "It's then going to\ngenerate the code",
+      "start": 421.42,
+      "duration": 1.8
+    },
+    {
+      "text": "and will actually self-correct\nif there's any errors.",
+      "start": 423.22,
+      "duration": 3.19
+    },
+    {
+      "text": "This is going to\ntake a few minutes,",
+      "start": 426.41,
+      "duration": 1.5
+    },
+    {
+      "text": "so we'll jump over\nto another tab",
+      "start": 427.91,
+      "duration": 1.77
+    },
+    {
+      "text": "I ran to show the final output.",
+      "start": 429.68,
+      "duration": 1.615
+    },
+    {
+      "text": "That looks awesome.",
+      "start": 434.26,
+      "duration": 1.6
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 435.86,
+      "duration": 0.74
+    },
+    {
+      "text": "This is a great way to iterate\nquickly with the Gemini API,",
+      "start": 436.6,
+      "duration": 3.88
+    },
+    {
+      "text": "and you can easily make\ncode changes right here.",
+      "start": 440.48,
+      "duration": 3.47
+    },
+    {
+      "text": "The whole experience is built\nto be multi-turn and iterative",
+      "start": 443.95,
+      "duration": 3.19
+    },
+    {
+      "text": "so you can keep refining\nyour idea with prompts over",
+      "start": 447.14,
+      "duration": 2.48
+    },
+    {
+      "text": "on the left-hand side.",
+      "start": 449.62,
+      "duration": 3.12
+    },
+    {
+      "text": "All right, we've got\ntime for one more",
+      "start": 452.74,
+      "duration": 1.89
+    },
+    {
+      "text": "update that I'm excited to talk\nabout, which is around MCP.",
+      "start": 454.63,
+      "duration": 3.78
+    },
+    {
+      "text": "Today, we're rolling out an\nupdate to the Google GenAI SDK",
+      "start": 458.41,
+      "duration": 3.9
+    },
+    {
+      "text": "to natively support\nMCP definitions.",
+      "start": 462.31,
+      "duration": 2.95
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 465.26,
+      "duration": 3.227
+    },
+    {
+      "text": "Now, it's even easier for\nyou to build agentic apps",
+      "start": 470.8,
+      "duration": 3.27
+    },
+    {
+      "text": "with a fast-growing community\nof open-source tools.",
+      "start": 474.07,
+      "duration": 2.795
+    },
+    {
+      "text": "To showcase this,\nwe've added a new app",
+      "start": 479.44,
+      "duration": 2.04
+    },
+    {
+      "text": "using Google Maps and MCP.",
+      "start": 481.48,
+      "duration": 2.7
+    },
+    {
+      "text": "Let's welcome Paige to the\nstage to start building on it.",
+      "start": 484.18,
+      "duration": 3.4
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 487.58,
+      "duration": 3.458
+    },
+    {
+      "text": "PAIGE BAILEY: That was perfect.",
+      "start": 492.018,
+      "duration": 1.292
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 493.31,
+      "duration": 2.712
+    },
+    {
+      "text": "You did great.",
+      "start": 497.83,
+      "duration": 2.1
+    },
+    {
+      "text": "Excellent.",
+      "start": 499.93,
+      "duration": 0.63
+    },
+    {
+      "text": "Thank you so much, Logan.",
+      "start": 500.56,
+      "duration": 2.11
+    },
+    {
+      "text": "I took inspiration\nfrom this Maps app",
+      "start": 502.67,
+      "duration": 2.48
+    },
+    {
+      "text": "that Logan just\nshowed you, and I'm",
+      "start": 505.15,
+      "duration": 1.5
+    },
+    {
+      "text": "going to remix and compose it\nto build something entirely new.",
+      "start": 506.65,
+      "duration": 4.15
+    },
+    {
+      "text": "I'm going to add a talking\nhead that will accompany me",
+      "start": 510.8,
+      "duration": 3.59
+    },
+    {
+      "text": "on stage, my very own\nkeynote companion,",
+      "start": 514.39,
+      "duration": 3.37
+    },
+    {
+      "text": "but I'm just going\nto call her KC.",
+      "start": 517.76,
+      "duration": 2.419
+    },
+    {
+      "text": "I want our keynote companion\nto listen to our keynote,",
+      "start": 520.179,
+      "duration": 3.161
+    },
+    {
+      "text": "to respond, and then to\ndynamically update its UI based",
+      "start": 523.34,
+      "duration": 3.07
+    },
+    {
+      "text": "on what it hears.",
+      "start": 526.41,
+      "duration": 1.18
+    },
+    {
+      "text": "And I've got a few\nfinishing touches to add,",
+      "start": 527.59,
+      "duration": 2.25
+    },
+    {
+      "text": "but I think we can wrap it\nup here together on stage.",
+      "start": 529.84,
+      "duration": 3.38
+    },
+    {
+      "text": "So in IO tradition,\nthe first thing",
+      "start": 533.22,
+      "duration": 2.91
+    },
+    {
+      "text": "that I'm going to need my\nkeynote companion to do--",
+      "start": 536.13,
+      "duration": 3.13
+    },
+    {
+      "text": "KC: Hi, I'm KC, Paige's\nkeynote companion.",
+      "start": 539.26,
+      "duration": 3.42
+    },
+    {
+      "text": "I'm here to help her\npresentation go smoothly.",
+      "start": 542.68,
+      "duration": 2.57
+    },
+    {
+      "text": "PAIGE BAILEY: --is to count the\nnumber of times we say, \"AI.\"",
+      "start": 545.25,
+      "duration": 5.13
+    },
+    {
+      "text": "KC: Got it, Paige.",
+      "start": 550.38,
+      "duration": 0.82
+    },
+    {
+      "text": "I'm on it.",
+      "start": 551.2,
+      "duration": 0.85
+    },
+    {
+      "text": "PAIGE BAILEY: Excellent.",
+      "start": 552.05,
+      "duration": 1.0
+    },
+    {
+      "text": "So to help us keep track,\nwe've developed a function",
+      "start": 553.05,
+      "duration": 3.9
+    },
+    {
+      "text": "called Increment Utterance\nCount, or Increment Word Count,",
+      "start": 556.95,
+      "duration": 3.45
+    },
+    {
+      "text": "that counts and updates the UI.",
+      "start": 560.4,
+      "duration": 2.32
+    },
+    {
+      "text": "This is how you would build\na conversational agent",
+      "start": 562.72,
+      "duration": 2.84
+    },
+    {
+      "text": "to listen to specific\naudio inputs,",
+      "start": 565.56,
+      "duration": 1.99
+    },
+    {
+      "text": "and then to execute a\nfunction to perform an action.",
+      "start": 567.55,
+      "duration": 2.82
+    },
+    {
+      "text": "But counting AI instances\nwas so last year.",
+      "start": 570.37,
+      "duration": 5.15
+    },
+    {
+      "text": "So let's update this to trigger\nevery time the presenter says",
+      "start": 575.52,
+      "duration": 4.62
+    },
+    {
+      "text": "something Gemini-related.",
+      "start": 580.14,
+      "duration": 2.153
+    },
+    {
+      "text": "So I'm going to\nmake those updates.",
+      "start": 585.0,
+      "duration": 1.81
+    },
+    {
+      "text": "I'm going to refresh.",
+      "start": 586.81,
+      "duration": 2.06
+    },
+    {
+      "text": "And we're going to try again.",
+      "start": 588.87,
+      "duration": 2.82
+    },
+    {
+      "text": "KC: Hi, Paige.",
+      "start": 591.69,
+      "duration": 0.91
+    },
+    {
+      "text": "I'm KC, your keynote companion.",
+      "start": 592.6,
+      "duration": 2.68
+    },
+    {
+      "text": "PAIGE BAILEY: All right.",
+      "start": 595.28,
+      "duration": 1.0
+    },
+    {
+      "text": "So the Gemini Live API supports\na sliding context window.",
+      "start": 596.28,
+      "duration": 6.4
+    },
+    {
+      "text": "That means that your users\ncan interact with your apps",
+      "start": 602.68,
+      "duration": 2.69
+    },
+    {
+      "text": "for long-running sessions,\nor in our case today,",
+      "start": 605.37,
+      "duration": 2.89
+    },
+    {
+      "text": "they can run quietly\nin the background.",
+      "start": 608.26,
+      "duration": 2.36
+    },
+    {
+      "text": "And awesome, just look at that.",
+      "start": 610.62,
+      "duration": 1.63
+    },
+    {
+      "text": "We were able to make this\napp dynamically react",
+      "start": 612.25,
+      "duration": 4.4
+    },
+    {
+      "text": "to what it's hearing, which\nmeans that it's a dynamic web",
+      "start": 616.65,
+      "duration": 3.84
+    },
+    {
+      "text": "page, if you will.",
+      "start": 620.49,
+      "duration": 2.22
+    },
+    {
+      "text": "Get it?",
+      "start": 622.71,
+      "duration": 0.91
+    },
+    {
+      "text": "Get it, KC?",
+      "start": 623.62,
+      "duration": 0.92
+    },
+    {
+      "text": "Ah, excellent.",
+      "start": 624.54,
+      "duration": 0.89
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 625.43,
+      "duration": 0.7
+    },
+    {
+      "text": "KC: Should we take a quick look\nat a fun fact about the Gemini",
+      "start": 626.13,
+      "duration": 3.135
+    },
+    {
+      "text": "API?",
+      "start": 629.265,
+      "duration": 0.5
+    },
+    {
+      "text": "PAIGE BAILEY: [CHUCKLES]\nHold on there.",
+      "start": 629.765,
+      "duration": 2.575
+    },
+    {
+      "text": "We're about to get to that.",
+      "start": 632.34,
+      "duration": 1.56
+    },
+    {
+      "text": "So this is just a fun\nexample, but imagine",
+      "start": 633.9,
+      "duration": 3.3
+    },
+    {
+      "text": "discussing gift ideas\nin a shopping app,",
+      "start": 637.2,
+      "duration": 2.14
+    },
+    {
+      "text": "or finding a great\nrestaurant that delivers",
+      "start": 639.34,
+      "duration": 2.0
+    },
+    {
+      "text": "to you with just your voice.",
+      "start": 641.34,
+      "duration": 1.93
+    },
+    {
+      "text": "So now, let's see how that\nMaps integration works.",
+      "start": 643.27,
+      "duration": 6.41
+    },
+    {
+      "text": "Hey, KC, since there are people\ncoming from all over the world,",
+      "start": 649.68,
+      "duration": 3.94
+    },
+    {
+      "text": "could you show us Shoreline\nAmphitheater on a map?",
+      "start": 653.62,
+      "duration": 4.91
+    },
+    {
+      "text": "KC: All right, I've put\nShoreline amphitheater",
+      "start": 658.53,
+      "duration": 2.01
+    },
+    {
+      "text": "on the map for everyone.",
+      "start": 660.54,
+      "duration": 1.84
+    },
+    {
+      "text": "Is there anything\nelse I can help with?",
+      "start": 662.38,
+      "duration": 2.21
+    },
+    {
+      "text": "PAIGE BAILEY: Yeah, could you\nshow us some good coffee houses",
+      "start": 664.59,
+      "duration": 2.94
+    },
+    {
+      "text": "nearby, with really great Wi-Fi?",
+      "start": 667.53,
+      "duration": 1.61
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 669.14,
+      "duration": 1.84
+    },
+    {
+      "text": "KC: OK, I've searched for\ncoffeehouses with Wi-Fi",
+      "start": 670.98,
+      "duration": 2.64
+    },
+    {
+      "text": "near Shoreline Amphitheater.",
+      "start": 673.62,
+      "duration": 1.55
+    },
+    {
+      "text": "PAIGE BAILEY: Excellent.",
+      "start": 675.17,
+      "duration": 1.0
+    },
+    {
+      "text": "Could you randomly\nselect one that you",
+      "start": 676.17,
+      "duration": 1.86
+    },
+    {
+      "text": "think looks really good, and\ngive us directions there?",
+      "start": 678.03,
+      "duration": 3.87
+    },
+    {
+      "text": "KC: While I can't express\npreferences, I can provide--",
+      "start": 681.9,
+      "duration": 3.39
+    },
+    {
+      "text": "PAIGE BAILEY: Yeah,\nso just pick up--",
+      "start": 685.29,
+      "duration": 1.96
+    },
+    {
+      "text": "how about Boba Bliss?",
+      "start": 687.25,
+      "duration": 1.35
+    },
+    {
+      "text": "Give us directions to Boba Bliss\nfrom Shoreline Amphitheater.",
+      "start": 688.6,
+      "duration": 5.66
+    },
+    {
+      "text": "KC: OK, I'm providing directions\nto Boba Bliss from Shoreline",
+      "start": 694.26,
+      "duration": 3.84
+    },
+    {
+      "text": "Amphitheater.",
+      "start": 698.1,
+      "duration": 0.91
+    },
+    {
+      "text": "Is there anything else I\ncan help with at the moment?",
+      "start": 699.01,
+      "duration": 2.4
+    },
+    {
+      "text": "PAIGE BAILEY: No,\nthat was awesome.",
+      "start": 701.41,
+      "duration": 1.458
+    },
+    {
+      "text": "Thank you, KC.",
+      "start": 702.868,
+      "duration": 1.802
+    },
+    {
+      "text": "Excellent.",
+      "start": 704.67,
+      "duration": 0.686
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 705.356,
+      "duration": 2.854
+    },
+    {
+      "text": "Amazing.",
+      "start": 708.21,
+      "duration": 2.2
+    },
+    {
+      "text": "So let's check out some\nmore feature updates.",
+      "start": 710.41,
+      "duration": 3.15
+    },
+    {
+      "text": "While synchronous function calls\nare used for quick operations,",
+      "start": 713.56,
+      "duration": 4.35
+    },
+    {
+      "text": "high-latency tasks, for things\nlike calling an MCP server,",
+      "start": 717.91,
+      "duration": 3.65
+    },
+    {
+      "text": "usually require\nbackground processing",
+      "start": 721.56,
+      "duration": 2.37
+    },
+    {
+      "text": "for a seamless user experience.",
+      "start": 723.93,
+      "duration": 2.11
+    },
+    {
+      "text": "So by default, when calling a\nfunction, the audio is blocked.",
+      "start": 726.04,
+      "duration": 3.6
+    },
+    {
+      "text": "But today, we're\nexcited to enable",
+      "start": 729.64,
+      "duration": 2.63
+    },
+    {
+      "text": "asynchronous execution\nfor seamless dialogue",
+      "start": 732.27,
+      "duration": 2.993
+    },
+    {
+      "text": "within a conversation.",
+      "start": 735.263,
+      "duration": 0.917
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 736.18,
+      "duration": 0.92
+    },
+    {
+      "text": "Yeah, over here, I have a\nfunction called 'getFunFact',",
+      "start": 737.1,
+      "duration": 4.74
+    },
+    {
+      "text": "that uses Gemini 2.5 Pro.",
+      "start": 741.84,
+      "duration": 2.32
+    },
+    {
+      "text": "Based on what it\nsaid, we're going",
+      "start": 744.16,
+      "duration": 2.18
+    },
+    {
+      "text": "to use search grounding\nto display a fun fact.",
+      "start": 746.34,
+      "duration": 2.74
+    },
+    {
+      "text": "And up here in the\nsystem instructions,",
+      "start": 749.08,
+      "duration": 2.64
+    },
+    {
+      "text": "I've also added the 'getFunFact'\nfunction whenever the presenter",
+      "start": 751.72,
+      "duration": 2.78
+    },
+    {
+      "text": "mentions one of our\nGoogle AI products.",
+      "start": 754.5,
+      "duration": 2.41
+    },
+    {
+      "text": "But I'm going to add a new\ncall, called behavior--",
+      "start": 756.91,
+      "duration": 4.47
+    },
+    {
+      "text": "I'm going to stop this so it\ndoesn't automatically update--",
+      "start": 761.38,
+      "duration": 2.99
+    },
+    {
+      "text": "but say behavior.NON_BLOCKING.",
+      "start": 764.37,
+      "duration": 4.21
+    },
+    {
+      "text": "And you can see the automatic\ncode execution kick into play",
+      "start": 768.58,
+      "duration": 3.29
+    },
+    {
+      "text": "in AI Studio applets.",
+      "start": 771.87,
+      "duration": 2.19
+    },
+    {
+      "text": "Finally, we heard your feedback.",
+      "start": 774.06,
+      "duration": 2.34
+    },
+    {
+      "text": "With this latest release, we've\nimproved structured outputs",
+      "start": 776.4,
+      "duration": 3.21
+    },
+    {
+      "text": "with function calling.",
+      "start": 779.61,
+      "duration": 1.27
+    },
+    {
+      "text": "So our model is going to conform\nwith this very specific JSON",
+      "start": 780.88,
+      "duration": 4.73
+    },
+    {
+      "text": "return format to make sure that\neverything displays beautifully",
+      "start": 785.61,
+      "duration": 3.18
+    },
+    {
+      "text": "in the UI.",
+      "start": 788.79,
+      "duration": 1.29
+    },
+    {
+      "text": "All right, moment of truth",
+      "start": 790.08,
+      "duration": 3.51
+    },
+    {
+      "text": "KC: Hello.",
+      "start": 793.59,
+      "duration": 0.51
+    },
+    {
+      "text": "I'm KC, Paige's\nkeynote companion.",
+      "start": 794.1,
+      "duration": 1.772
+    },
+    {
+      "text": "PAIGE BAILEY: Yes, I understand.",
+      "start": 795.872,
+      "duration": 1.838
+    },
+    {
+      "text": "I understand.",
+      "start": 797.71,
+      "duration": 0.78
+    },
+    {
+      "text": "But I am biased, but\nI think that Google AI",
+      "start": 798.49,
+      "duration": 3.02
+    },
+    {
+      "text": "Studio is the best\nplace to start building",
+      "start": 801.51,
+      "duration": 2.67
+    },
+    {
+      "text": "with the Gemini API.",
+      "start": 804.18,
+      "duration": 1.325
+    },
+    {
+      "text": "Woo!",
+      "start": 809.467,
+      "duration": 0.653
+    },
+    {
+      "text": "Excellent.",
+      "start": 810.12,
+      "duration": 0.94
+    },
+    {
+      "text": "Heck, yeah.",
+      "start": 811.06,
+      "duration": 0.63
+    },
+    {
+      "text": "KC: Yes, Paige.",
+      "start": 811.69,
+      "duration": 0.89
+    },
+    {
+      "text": "Google AI Studio is pretty cool.",
+      "start": 812.58,
+      "duration": 2.097
+    },
+    {
+      "text": "Did you know that it lets you\nexperiment with different models",
+      "start": 814.677,
+      "duration": 2.583
+    },
+    {
+      "text": "and parameters, without\nwriting any code?",
+      "start": 817.26,
+      "duration": 2.46
+    },
+    {
+      "text": "PAIGE BAILEY: Yeah, absolutely.",
+      "start": 819.72,
+      "duration": 1.74
+    },
+    {
+      "text": "Look at that.",
+      "start": 821.46,
+      "duration": 0.57
+    },
+    {
+      "text": "Gemini and KC,\nyou are a natural.",
+      "start": 822.03,
+      "duration": 3.51
+    },
+    {
+      "text": "My keynote companion\nis feature-complete.",
+      "start": 825.54,
+      "duration": 2.1
+    },
+    {
+      "text": "I think it's time to\ndeploy these changes",
+      "start": 827.64,
+      "duration": 2.06
+    },
+    {
+      "text": "and to see it in action.",
+      "start": 829.7,
+      "duration": 1.54
+    },
+    {
+      "text": "So once your app has been\ncreated in AI Studio,",
+      "start": 831.24,
+      "duration": 3.06
+    },
+    {
+      "text": "it's incredibly easy to\nshare with your friends,",
+      "start": 834.3,
+      "duration": 2.75
+    },
+    {
+      "text": "but also to deploy\nit via Cloud Run.",
+      "start": 837.05,
+      "duration": 3.28
+    },
+    {
+      "text": "So right here, from\nwithin the AI Studio,",
+      "start": 840.33,
+      "duration": 2.4
+    },
+    {
+      "text": "I'm going to kick off\na Cloud Run deploy.",
+      "start": 842.73,
+      "duration": 2.37
+    },
+    {
+      "text": "I'm going to select\none of my projects.",
+      "start": 845.1,
+      "duration": 2.99
+    },
+    {
+      "text": "It's going to verify.",
+      "start": 848.09,
+      "duration": 2.23
+    },
+    {
+      "text": "And with one button\nclick, we're already",
+      "start": 850.32,
+      "duration": 2.36
+    },
+    {
+      "text": "deploying this app in\na way that many people",
+      "start": 852.68,
+      "duration": 3.27
+    },
+    {
+      "text": "throughout the audience\nand throughout the world",
+      "start": 855.95,
+      "duration": 2.25
+    },
+    {
+      "text": "would be able to see.",
+      "start": 858.2,
+      "duration": 1.35
+    },
+    {
+      "text": "Once this app has\nbeen deployed, it's",
+      "start": 859.55,
+      "duration": 2.55
+    },
+    {
+      "text": "also capable of being run and\nviewed with your favorite IDE.",
+      "start": 862.1,
+      "duration": 7.98
+    },
+    {
+      "text": "So we can see it.",
+      "start": 870.08,
+      "duration": 1.39
+    },
+    {
+      "text": "We can refresh.",
+      "start": 871.47,
+      "duration": 1.73
+    },
+    {
+      "text": "And you can see the keynote\ncompanion automatically added",
+      "start": 873.2,
+      "duration": 3.21
+    },
+    {
+      "text": "in Cloud Run right within\nmy VS Code instance.",
+      "start": 876.41,
+      "duration": 2.653
+    },
+    {
+      "text": "And just like that, our\nmultimodal app is live.",
+      "start": 882.14,
+      "duration": 5.71
+    },
+    {
+      "text": "Pun intended.",
+      "start": 887.85,
+      "duration": 1.17
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 889.02,
+      "duration": 2.93
+    },
+    {
+      "text": "Awesome.",
+      "start": 891.95,
+      "duration": 2.34
+    },
+    {
+      "text": "We're making it easy for you\nto build agents with Gemini,",
+      "start": 894.29,
+      "duration": 3.55
+    },
+    {
+      "text": "combining multimodal reasoning\nwith a vast and a growing",
+      "start": 897.84,
+      "duration": 3.41
+    },
+    {
+      "text": "number of tools.",
+      "start": 901.25,
+      "duration": 1.3
+    },
+    {
+      "text": "This power extends\nbeyond the web,",
+      "start": 902.55,
+      "duration": 2.54
+    },
+    {
+      "text": "right into the\npalm of your hand.",
+      "start": 905.09,
+      "duration": 2.23
+    },
+    {
+      "text": "So now let me welcome\nDiana and Florina",
+      "start": 907.32,
+      "duration": 2.48
+    },
+    {
+      "text": "to the stage to talk about\nnew tools and AI advancements",
+      "start": 909.8,
+      "duration": 3.39
+    },
+    {
+      "text": "for the Android ecosystem.",
+      "start": 913.19,
+      "duration": 2.61
+    },
+    {
+      "text": "Woo!",
+      "start": 915.8,
+      "duration": 0.5
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 916.3,
+      "duration": 3.5
+    },
+    {
+      "text": "DIANA WONG: You've just\nheard about the incredible",
+      "start": 922.201,
+      "duration": 2.509
+    },
+    {
+      "text": "possibilities that AI brings.",
+      "start": 924.71,
+      "duration": 2.17
+    },
+    {
+      "text": "Now, Florina and I\nwant to talk to you",
+      "start": 926.88,
+      "duration": 2.33
+    },
+    {
+      "text": "about how you can build\nexcellent apps powered",
+      "start": 929.21,
+      "duration": 2.76
+    },
+    {
+      "text": "by AI on Android, and then\nhow our APIs and tools make",
+      "start": 931.97,
+      "duration": 4.83
+    },
+    {
+      "text": "it possible to be more\nproductive using AI.",
+      "start": 936.8,
+      "duration": 3.04
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nExactly, Diana.",
+      "start": 939.84,
+      "duration": 1.67
+    },
+    {
+      "text": "An excellent app is\ndelightful, performant,",
+      "start": 941.51,
+      "duration": 3.58
+    },
+    {
+      "text": "and works across devices.",
+      "start": 945.09,
+      "duration": 2.46
+    },
+    {
+      "text": "And with AI, you can unlock\nentirely new, unique experiences",
+      "start": 947.55,
+      "duration": 4.52
+    },
+    {
+      "text": "that bring value to your users.",
+      "start": 952.07,
+      "duration": 2.44
+    },
+    {
+      "text": "Let's show you how that comes\nto life with a new app we built.",
+      "start": 954.51,
+      "duration": 4.19
+    },
+    {
+      "text": "A few years ago,\nwe had a website",
+      "start": 958.7,
+      "duration": 2.28
+    },
+    {
+      "text": "that let you build yourself\nas a cute Android bot,",
+      "start": 960.98,
+      "duration": 3.16
+    },
+    {
+      "text": "selecting things like\nclothing and accessories.",
+      "start": 964.14,
+      "duration": 3.66
+    },
+    {
+      "text": "But then we started\nthinking, how would we build",
+      "start": 967.8,
+      "duration": 3.5
+    },
+    {
+      "text": "this today using AI as an app?",
+      "start": 971.3,
+      "duration": 4.38
+    },
+    {
+      "text": "The answer was, of course,\nthrough selfies and image",
+      "start": 975.68,
+      "duration": 3.18
+    },
+    {
+      "text": "generation.",
+      "start": 978.86,
+      "duration": 1.0
+    },
+    {
+      "text": "So we came up with Androidify.",
+      "start": 979.86,
+      "duration": 2.69
+    },
+    {
+      "text": "Let's take a photo of\nDiana and Androidify her.",
+      "start": 982.55,
+      "duration": 3.94
+    },
+    {
+      "text": "DIANA WONG: Let me grab my\nfavorite toy as an accessory.",
+      "start": 986.49,
+      "duration": 2.55
+    },
+    {
+      "text": "It's my daughter's.",
+      "start": 989.04,
+      "duration": 1.237
+    },
+    {
+      "text": "FLORINA MUNTENESCU: Ooh.",
+      "start": 990.277,
+      "duration": 1.0
+    },
+    {
+      "text": "So while Androidify\nis Androidifying,",
+      "start": 995.9,
+      "duration": 3.43
+    },
+    {
+      "text": "let's see what's\nhappening under the hood.",
+      "start": 999.33,
+      "duration": 2.1
+    },
+    {
+      "text": "DIANA WONG: So the\ncore of the app relies",
+      "start": 1001.43,
+      "duration": 2.06
+    },
+    {
+      "text": "on two key AI-powered\nsteps, getting a description",
+      "start": 1003.49,
+      "duration": 3.63
+    },
+    {
+      "text": "of the person in\nthe photo, and then",
+      "start": 1007.12,
+      "duration": 1.68
+    },
+    {
+      "text": "creating an Android robot\nout of the description.",
+      "start": 1008.8,
+      "duration": 3.01
+    },
+    {
+      "text": "Without AI, creating\nthis experience",
+      "start": 1011.81,
+      "duration": 2.09
+    },
+    {
+      "text": "would be nearly impossible.",
+      "start": 1013.9,
+      "duration": 1.78
+    },
+    {
+      "text": "And to implement this,\nwe used AI models",
+      "start": 1015.68,
+      "duration": 3.11
+    },
+    {
+      "text": "running in the\nCloud via Firebase.",
+      "start": 1018.79,
+      "duration": 1.787
+    },
+    {
+      "text": "FLORINA MUNTENESCU: To get\nthe description of the image,",
+      "start": 1020.577,
+      "duration": 2.333
+    },
+    {
+      "text": "we took advantage of the\nfact that Gemini models are",
+      "start": 1022.91,
+      "duration": 3.11
+    },
+    {
+      "text": "multimodal, so they can use\ntext and also images, videos,",
+      "start": 1026.02,
+      "duration": 4.36
+    },
+    {
+      "text": "and audio as input.",
+      "start": 1030.38,
+      "duration": 1.83
+    },
+    {
+      "text": "So all we had to do is call\nGenerate Content with a text",
+      "start": 1032.21,
+      "duration": 3.649
+    },
+    {
+      "text": "prompt and the image\nthe user provided.",
+      "start": 1035.859,
+      "duration": 2.411
+    },
+    {
+      "text": "So the image of Diana.",
+      "start": 1038.27,
+      "duration": 1.29
+    },
+    {
+      "text": "Then to generate\nthe Android robot",
+      "start": 1039.56,
+      "duration": 3.65
+    },
+    {
+      "text": "based on the image description,\nwe used the Imagen 3 model.",
+      "start": 1043.21,
+      "duration": 4.2
+    },
+    {
+      "text": "We call Generate Image.",
+      "start": 1047.41,
+      "duration": 1.96
+    },
+    {
+      "text": "And that's it.",
+      "start": 1049.37,
+      "duration": 1.11
+    },
+    {
+      "text": "How easy was this?",
+      "start": 1050.48,
+      "duration": 1.82
+    },
+    {
+      "text": "OK, are you ready to see this?",
+      "start": 1052.3,
+      "duration": 2.89
+    },
+    {
+      "text": "DIANA WONG: I think so.",
+      "start": 1055.19,
+      "duration": 1.97
+    },
+    {
+      "text": "FLORINA MUNTENESCU: Ta-da.",
+      "start": 1057.16,
+      "duration": 1.568
+    },
+    {
+      "text": "DIANA WONG: Oh, that's so cute.",
+      "start": 1058.728,
+      "duration": 1.292
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1060.02,
+      "duration": 3.227
+    },
+    {
+      "text": "Androidy with Android.",
+      "start": 1064.63,
+      "duration": 1.57
+    },
+    {
+      "text": "You did all of this with what?",
+      "start": 1066.2,
+      "duration": 1.5
+    },
+    {
+      "text": "AI and five lines of code?",
+      "start": 1067.7,
+      "duration": 1.98
+    },
+    {
+      "text": "That's so cool.",
+      "start": 1069.68,
+      "duration": 0.965
+    },
+    {
+      "text": "FLORINA MUNTENESCU: The\nAndroidify sample app",
+      "start": 1070.645,
+      "duration": 1.875
+    },
+    {
+      "text": "is already available on GitHub\nfor you to check it out.",
+      "start": 1072.52,
+      "duration": 3.22
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1075.74,
+      "duration": 3.206
+    },
+    {
+      "text": "DIANA WONG: As Florina\nshowed, Cloud-based models",
+      "start": 1080.32,
+      "duration": 2.61
+    },
+    {
+      "text": "are powerful and\nideal for Androidify.",
+      "start": 1082.93,
+      "duration": 2.71
+    },
+    {
+      "text": "But what if you need\nto process prompts",
+      "start": 1085.64,
+      "duration": 2.09
+    },
+    {
+      "text": "locally, directly on the\ndevice without sending data",
+      "start": 1087.73,
+      "duration": 2.91
+    },
+    {
+      "text": "to a server?",
+      "start": 1090.64,
+      "duration": 1.03
+    },
+    {
+      "text": "That's where\non-device AI shines.",
+      "start": 1091.67,
+      "duration": 3.47
+    },
+    {
+      "text": "Gen AI APIs powered\nby Gemini Nano,",
+      "start": 1095.14,
+      "duration": 3.27
+    },
+    {
+      "text": "our multimodal\non-device model, offer",
+      "start": 1098.41,
+      "duration": 2.97
+    },
+    {
+      "text": "APIs for common tasks like\nsummarize, rewrite, and image",
+      "start": 1101.38,
+      "duration": 3.66
+    },
+    {
+      "text": "description.",
+      "start": 1105.04,
+      "duration": 1.5
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nSo we said earlier",
+      "start": 1106.54,
+      "duration": 1.95
+    },
+    {
+      "text": "that excellent apps are\ndelightful, performant, and work",
+      "start": 1108.49,
+      "duration": 3.72
+    },
+    {
+      "text": "across devices.",
+      "start": 1112.21,
+      "duration": 1.59
+    },
+    {
+      "text": "Let's talk about\ndelightful apps first.",
+      "start": 1113.8,
+      "duration": 3.66
+    },
+    {
+      "text": "For those of you who caught\nthe Android show last week--",
+      "start": 1117.46,
+      "duration": 2.98
+    },
+    {
+      "text": "and if you didn't,\ndefinitely check it out.",
+      "start": 1120.44,
+      "duration": 3.12
+    },
+    {
+      "text": "You saw our biggest\nUI redesign in years,",
+      "start": 1123.56,
+      "duration": 3.33
+    },
+    {
+      "text": "packed with delightful new\nfeatures and improvements.",
+      "start": 1126.89,
+      "duration": 3.33
+    },
+    {
+      "text": "We're helping you bring the same\nlevel of delight and playfulness",
+      "start": 1130.22,
+      "duration": 3.83
+    },
+    {
+      "text": "to your own apps, with an update\nto the Material 3 design system,",
+      "start": 1134.05,
+      "duration": 4.68
+    },
+    {
+      "text": "called Material 3 Expressive.",
+      "start": 1138.73,
+      "duration": 3.1
+    },
+    {
+      "text": "We've already used it\nin our Androidify app.",
+      "start": 1141.83,
+      "duration": 3.41
+    },
+    {
+      "text": "For example, take\nthe Camera button.",
+      "start": 1145.24,
+      "duration": 2.5
+    },
+    {
+      "text": "You could use a circle, or\nyou could use the cookie shape",
+      "start": 1147.74,
+      "duration": 3.35
+    },
+    {
+      "text": "from the new shape library.",
+      "start": 1151.09,
+      "duration": 1.6
+    },
+    {
+      "text": "DIANA WONG: And who\ndoesn't love cookies?",
+      "start": 1152.69,
+      "duration": 2.21
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nThe button group shape",
+      "start": 1154.9,
+      "duration": 1.83
+    },
+    {
+      "text": "morphs in the photo prompt\nbutton is so nice and smooth,",
+      "start": 1156.73,
+      "duration": 3.88
+    },
+    {
+      "text": "and it's part of\nthe Expressive APIs.",
+      "start": 1160.61,
+      "duration": 3.02
+    },
+    {
+      "text": "These small details are\nwhat separates a good app",
+      "start": 1163.63,
+      "duration": 4.46
+    },
+    {
+      "text": "from a delightful app.",
+      "start": 1168.09,
+      "duration": 2.31
+    },
+    {
+      "text": "Try out these APIs yourself\nusing Compose Material alpha.",
+      "start": 1170.4,
+      "duration": 4.06
+    },
+    {
+      "text": "DIANA WONG: Beyond\nmaterial design,",
+      "start": 1174.46,
+      "duration": 2.04
+    },
+    {
+      "text": "what else makes\nan app delightful?",
+      "start": 1176.5,
+      "duration": 2.31
+    },
+    {
+      "text": "Helping users with more\nuseful, relevant information.",
+      "start": 1178.81,
+      "duration": 3.87
+    },
+    {
+      "text": "In Android 16, we added a\nnew feature, live updates.",
+      "start": 1182.68,
+      "duration": 3.99
+    },
+    {
+      "text": "They allow you to show\ntime-sensitive updates",
+      "start": 1186.67,
+      "duration": 2.27
+    },
+    {
+      "text": "for navigation,\ndeliveries, or rideshares",
+      "start": 1188.94,
+      "duration": 3.03
+    },
+    {
+      "text": "by using the new ProgressStyle\ntemplate rolling out",
+      "start": 1191.97,
+      "duration": 3.0
+    },
+    {
+      "text": "to devices over the next year.",
+      "start": 1194.97,
+      "duration": 1.87
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nNow, let's shift gears",
+      "start": 1196.84,
+      "duration": 2.12
+    },
+    {
+      "text": "to another critical aspect of\nan excellent app, performance.",
+      "start": 1198.96,
+      "duration": 4.51
+    },
+    {
+      "text": "Make sure you enable R8\nand Baseline profiles.",
+      "start": 1203.47,
+      "duration": 3.72
+    },
+    {
+      "text": "Both of these have been\navailable for a while,",
+      "start": 1207.19,
+      "duration": 2.67
+    },
+    {
+      "text": "and the performance\nresults are impressive.",
+      "start": 1209.86,
+      "duration": 2.9
+    },
+    {
+      "text": "And they translate into\nbetter Play Store ratings.",
+      "start": 1212.76,
+      "duration": 3.48
+    },
+    {
+      "text": "With R8 and Baseline\nprofiles, Reddit's app",
+      "start": 1216.24,
+      "duration": 3.69
+    },
+    {
+      "text": "improved so much they\ngot a full star rating",
+      "start": 1219.93,
+      "duration": 3.72
+    },
+    {
+      "text": "increase within two months.",
+      "start": 1223.65,
+      "duration": 2.88
+    },
+    {
+      "text": "DIANA WONG: Next,\nan excellent app",
+      "start": 1226.53,
+      "duration": 2.28
+    },
+    {
+      "text": "looks good across all the\ndevices that users have,",
+      "start": 1228.81,
+      "duration": 2.74
+    },
+    {
+      "text": "and we're making it\neasier for any app",
+      "start": 1231.55,
+      "duration": 1.94
+    },
+    {
+      "text": "to move across devices,\nout of the box,",
+      "start": 1233.49,
+      "duration": 2.35
+    },
+    {
+      "text": "from foldables and\ntablets to Chromebooks.",
+      "start": 1235.84,
+      "duration": 4.04
+    },
+    {
+      "text": "In Android 16, we're\nmaking API changes",
+      "start": 1239.88,
+      "duration": 3.03
+    },
+    {
+      "text": "to no longer react to\norientation, resizability,",
+      "start": 1242.91,
+      "duration": 3.4
+    },
+    {
+      "text": "and aspect-ratio\nrestrictions, giving users",
+      "start": 1246.31,
+      "duration": 2.69
+    },
+    {
+      "text": "more responsive UIs by default.",
+      "start": 1249.0,
+      "duration": 2.92
+    },
+    {
+      "text": "FLORINA MUNTENESCU: And we're\nputting your app in more places.",
+      "start": 1251.92,
+      "duration": 3.0
+    },
+    {
+      "text": "For example, we've been\ncollaborating with Samsung,",
+      "start": 1254.92,
+      "duration": 2.79
+    },
+    {
+      "text": "building on the\nfoundation of Samsung DEX",
+      "start": 1257.71,
+      "duration": 2.36
+    },
+    {
+      "text": "to bring enhanced\ndesktop windowing",
+      "start": 1260.07,
+      "duration": 2.04
+    },
+    {
+      "text": "capabilities in Android 16\nfor more powerful productivity",
+      "start": 1262.11,
+      "duration": 4.02
+    },
+    {
+      "text": "workflows.",
+      "start": 1266.13,
+      "duration": 0.96
+    },
+    {
+      "text": "DIANA WONG: To make your app\nbeautiful across devices,",
+      "start": 1267.09,
+      "duration": 2.92
+    },
+    {
+      "text": "we're continuing to make\nit as easy as possible",
+      "start": 1270.01,
+      "duration": 2.33
+    },
+    {
+      "text": "to build adaptively with new\nfeatures in our Compose Adaptive",
+      "start": 1272.34,
+      "duration": 3.84
+    },
+    {
+      "text": "Layouts library,\nlike pane expansion.",
+      "start": 1276.18,
+      "duration": 2.74
+    },
+    {
+      "text": "FLORINA MUNTENESCU: Optimizing\nyour app to be adaptive",
+      "start": 1278.92,
+      "duration": 2.45
+    },
+    {
+      "text": "has a real impact\non business metrics.",
+      "start": 1281.37,
+      "duration": 2.77
+    },
+    {
+      "text": "We've seen that\nwhen users engage",
+      "start": 1284.14,
+      "duration": 1.67
+    },
+    {
+      "text": "with an app across\nmultiple devices,",
+      "start": 1285.81,
+      "duration": 2.28
+    },
+    {
+      "text": "in app categories like music,\nentertainment, and productivity,",
+      "start": 1288.09,
+      "duration": 3.82
+    },
+    {
+      "text": "there's a 2 to 3 times\nincrease in engagement.",
+      "start": 1291.91,
+      "duration": 3.24
+    },
+    {
+      "text": "And apps like Canva, who\ninvested in large screens,",
+      "start": 1295.15,
+      "duration": 3.57
+    },
+    {
+      "text": "found that cross-screen users\nare twice as likely to use Canva",
+      "start": 1298.72,
+      "duration": 4.52
+    },
+    {
+      "text": "every single week.",
+      "start": 1303.24,
+      "duration": 2.04
+    },
+    {
+      "text": "DIANA WONG: But it's not\njust foldables and tablets.",
+      "start": 1305.28,
+      "duration": 3.07
+    },
+    {
+      "text": "We're bringing Android apps to\nmore devices, automatically.",
+      "start": 1308.35,
+      "duration": 3.63
+    },
+    {
+      "text": "So here's the great part.",
+      "start": 1311.98,
+      "duration": 1.49
+    },
+    {
+      "text": "If you're building\nadaptively for Android,",
+      "start": 1313.47,
+      "duration": 2.02
+    },
+    {
+      "text": "you're already building for two\nmore form factors, cars and XR.",
+      "start": 1315.49,
+      "duration": 5.49
+    },
+    {
+      "text": "With cars, whether users are\nwaiting at a charging station",
+      "start": 1320.98,
+      "duration": 3.68
+    },
+    {
+      "text": "or in line at\nschool pickup, they",
+      "start": 1324.66,
+      "duration": 2.16
+    },
+    {
+      "text": "can stay entertained with\npopular streaming and gaming",
+      "start": 1326.82,
+      "duration": 2.52
+    },
+    {
+      "text": "apps like Farm Heroes,\nSaga, and more.",
+      "start": 1329.34,
+      "duration": 3.33
+    },
+    {
+      "text": "You can adapt your\nexisting large-screen app",
+      "start": 1332.67,
+      "duration": 2.4
+    },
+    {
+      "text": "to be used in parked\ncars by simply opting",
+      "start": 1335.07,
+      "duration": 2.55
+    },
+    {
+      "text": "into distribution\nvia Play Console",
+      "start": 1337.62,
+      "duration": 2.01
+    },
+    {
+      "text": "and making minor optimizations.",
+      "start": 1339.63,
+      "duration": 2.7
+    },
+    {
+      "text": "And if you're\nbuilding adaptively,",
+      "start": 1342.33,
+      "duration": 2.53
+    },
+    {
+      "text": "you're building for Android XR,\nthe extended reality platform",
+      "start": 1344.86,
+      "duration": 4.28
+    },
+    {
+      "text": "built together with Samsung.",
+      "start": 1349.14,
+      "duration": 1.93
+    },
+    {
+      "text": "It powers glasses like the\nones Nishita demoed earlier.",
+      "start": 1351.07,
+      "duration": 3.63
+    },
+    {
+      "text": "We'll share more details on how\nyou can develop for these later",
+      "start": 1354.7,
+      "duration": 2.81
+    },
+    {
+      "text": "this year.",
+      "start": 1357.51,
+      "duration": 1.05
+    },
+    {
+      "text": "It also powers headsets, like\nProject Moohan from Samsung,",
+      "start": 1358.56,
+      "duration": 4.06
+    },
+    {
+      "text": "which you can start\nbuilding for right now,",
+      "start": 1362.62,
+      "duration": 2.4
+    },
+    {
+      "text": "knowing it'll be in the hands\nof consumers later this year.",
+      "start": 1365.02,
+      "duration": 3.36
+    },
+    {
+      "text": "Soon after, our\npartners at XREAL",
+      "start": 1368.38,
+      "duration": 3.14
+    },
+    {
+      "text": "will release a Developer edition\nof the next Android XR device,",
+      "start": 1371.52,
+      "duration": 4.33
+    },
+    {
+      "text": "codenamed Project Aura.",
+      "start": 1375.85,
+      "duration": 2.57
+    },
+    {
+      "text": "It's a portable device\nthat gives users",
+      "start": 1378.42,
+      "duration": 2.22
+    },
+    {
+      "text": "access to their\nfavorite Android apps,",
+      "start": 1380.64,
+      "duration": 2.32
+    },
+    {
+      "text": "including those that\nhave been built for XR.",
+      "start": 1382.96,
+      "duration": 3.2
+    },
+    {
+      "text": "All the apps you're\ndeveloping will scale directly",
+      "start": 1386.16,
+      "duration": 2.85
+    },
+    {
+      "text": "to these two.",
+      "start": 1389.01,
+      "duration": 1.05
+    },
+    {
+      "text": "FLORINA MUNTENESCU: With\nthese upcoming devices,",
+      "start": 1390.06,
+      "duration": 2.05
+    },
+    {
+      "text": "we're launching a Developer\nPreview 2 for Android XR SDK,",
+      "start": 1392.11,
+      "duration": 4.28
+    },
+    {
+      "text": "with new material XR\ncomponents, updated emulator",
+      "start": 1396.39,
+      "duration": 3.75
+    },
+    {
+      "text": "support in Android Studio,\nand spatial video support",
+      "start": 1400.14,
+      "duration": 3.15
+    },
+    {
+      "text": "for your Play Store listings.",
+      "start": 1403.29,
+      "duration": 2.19
+    },
+    {
+      "text": "DIANA WONG: OK, that's\na lot of form factors,",
+      "start": 1405.48,
+      "duration": 2.4
+    },
+    {
+      "text": "and we're enabling more\nfor users out of the box.",
+      "start": 1407.88,
+      "duration": 3.1
+    },
+    {
+      "text": "I love seeing when my apps look\ngreat across all of my Android",
+      "start": 1410.98,
+      "duration": 3.29
+    },
+    {
+      "text": "devices.",
+      "start": 1414.27,
+      "duration": 1.06
+    },
+    {
+      "text": "Once an app is adaptive,\nwe unlock access",
+      "start": 1415.33,
+      "duration": 2.87
+    },
+    {
+      "text": "to more than 500 million\ndevices it can run on.",
+      "start": 1418.2,
+      "duration": 3.9
+    },
+    {
+      "text": "We're already seeing incredible\nexperiences with partners,",
+      "start": 1422.1,
+      "duration": 3.7
+    },
+    {
+      "text": "whether it's Peacock,\nwho put in the work",
+      "start": 1425.8,
+      "duration": 2.6
+    },
+    {
+      "text": "to create a strong,\nadaptive experience",
+      "start": 1428.4,
+      "duration": 2.1
+    },
+    {
+      "text": "for their large screen\napp, and as a result,",
+      "start": 1430.5,
+      "duration": 3.04
+    },
+    {
+      "text": "get a really nice XR app.",
+      "start": 1433.54,
+      "duration": 2.075
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nOr like Calm,",
+      "start": 1435.615,
+      "duration": 1.375
+    },
+    {
+      "text": "who easily extended\ntheir Compose",
+      "start": 1436.99,
+      "duration": 1.55
+    },
+    {
+      "text": "app to create sensory, mindful\nexperiences only possible",
+      "start": 1438.54,
+      "duration": 4.35
+    },
+    {
+      "text": "with XR.",
+      "start": 1442.89,
+      "duration": 1.53
+    },
+    {
+      "text": "DIANA WONG: Now, building these\nkinds of excellent experiences",
+      "start": 1444.42,
+      "duration": 3.15
+    },
+    {
+      "text": "across devices means\nyou need powerful tools.",
+      "start": 1447.57,
+      "duration": 3.22
+    },
+    {
+      "text": "And that brings us\nto our next topic,",
+      "start": 1450.79,
+      "duration": 2.51
+    },
+    {
+      "text": "boosting your productivity.",
+      "start": 1453.3,
+      "duration": 1.35
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nIt's no surprise",
+      "start": 1454.65,
+      "duration": 1.5
+    },
+    {
+      "text": "that we use Jetpack Compose\nfor Android devices.",
+      "start": 1456.15,
+      "duration": 2.86
+    },
+    {
+      "text": "It has the features,\nperformance, libraries,",
+      "start": 1459.01,
+      "duration": 2.53
+    },
+    {
+      "text": "and tools that we need to\nbuild an excellent app.",
+      "start": 1461.54,
+      "duration": 3.69
+    },
+    {
+      "text": "60% of the top one\nthousand apps take",
+      "start": 1465.23,
+      "duration": 3.3
+    },
+    {
+      "text": "advantage of the development\nspeed Compose offers.",
+      "start": 1468.53,
+      "duration": 3.42
+    },
+    {
+      "text": "The latest stable release\nbrings the features",
+      "start": 1471.95,
+      "duration": 2.55
+    },
+    {
+      "text": "you've requested, like autofill,\ntext auto-size, and visibility",
+      "start": 1474.5,
+      "duration": 4.38
+    },
+    {
+      "text": "tracking.",
+      "start": 1478.88,
+      "duration": 1.26
+    },
+    {
+      "text": "We're focused on making Compose\nperformance better and better.",
+      "start": 1480.14,
+      "duration": 4.18
+    },
+    {
+      "text": "In the latest\nrelease, we see barely",
+      "start": 1484.32,
+      "duration": 2.0
+    },
+    {
+      "text": "any janky frames on an older\ngeneration Pixel device.",
+      "start": 1486.32,
+      "duration": 4.17
+    },
+    {
+      "text": "And we heard your feedback.",
+      "start": 1490.49,
+      "duration": 2.41
+    },
+    {
+      "text": "You want to use Compose\nthroughout your UI,",
+      "start": 1492.9,
+      "duration": 2.64
+    },
+    {
+      "text": "so we're releasing CameraX\nand Media3 Compose libraries.",
+      "start": 1495.54,
+      "duration": 4.88
+    },
+    {
+      "text": "DIANA WONG: We know\nbuilding navigation.",
+      "start": 1500.42,
+      "duration": 1.7
+    },
+    {
+      "text": "Oh, yeah.",
+      "start": 1502.12,
+      "duration": 0.5
+    },
+    {
+      "text": "Clap if you want.",
+      "start": 1502.62,
+      "duration": 0.78
+    },
+    {
+      "text": "[LAUGHS]",
+      "start": 1503.4,
+      "duration": 0.972
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1504.372,
+      "duration": 2.916
+    },
+    {
+      "text": "We know building navigation for\napps across different devices",
+      "start": 1509.72,
+      "duration": 3.24
+    },
+    {
+      "text": "and screen sizes\ncan be complicated.",
+      "start": 1512.96,
+      "duration": 2.29
+    },
+    {
+      "text": "So we rebuilt the Jetpack\nCompose navigation library",
+      "start": 1515.25,
+      "duration": 3.24
+    },
+    {
+      "text": "from the ground up.",
+      "start": 1518.49,
+      "duration": 1.74
+    },
+    {
+      "text": "Our goal was to make it simpler,\nmore intuitive, and incredibly",
+      "start": 1520.23,
+      "duration": 4.04
+    },
+    {
+      "text": "powerful for managing\nscreens in a stack,",
+      "start": 1524.27,
+      "duration": 3.12
+    },
+    {
+      "text": "retaining state, enabling\nseamless animations and adaptive",
+      "start": 1527.39,
+      "duration": 3.93
+    },
+    {
+      "text": "layouts.",
+      "start": 1531.32,
+      "duration": 0.922
+    },
+    {
+      "text": "FLORINA MUNTENESCU: When we\nthink about productivity,",
+      "start": 1532.242,
+      "duration": 2.208
+    },
+    {
+      "text": "it's not just about\nwriting code faster.",
+      "start": 1534.45,
+      "duration": 2.37
+    },
+    {
+      "text": "It's about streamlining the\nentire development life cycle,",
+      "start": 1536.82,
+      "duration": 3.17
+    },
+    {
+      "text": "from refactoring to testing\nand even fixing crashes.",
+      "start": 1539.99,
+      "duration": 3.79
+    },
+    {
+      "text": "That's where Gemini and\nAndroid Studio truly",
+      "start": 1543.78,
+      "duration": 2.6
+    },
+    {
+      "text": "shines, by taking on\nthose tedious tasks.",
+      "start": 1546.38,
+      "duration": 3.58
+    },
+    {
+      "text": "DIANA WONG: So let's head\nback to the demo desk",
+      "start": 1549.96,
+      "duration": 2.24
+    },
+    {
+      "text": "to show you a few\nfeatures that will",
+      "start": 1552.2,
+      "duration": 2.01
+    },
+    {
+      "text": "change the way that you work.",
+      "start": 1554.21,
+      "duration": 1.552
+    },
+    {
+      "text": "FLORINA MUNTENESCU: So\nwe all know the benefits",
+      "start": 1555.762,
+      "duration": 1.958
+    },
+    {
+      "text": "of writing end-to-end tests.",
+      "start": 1557.72,
+      "duration": 1.87
+    },
+    {
+      "text": "You get to test large parts\nof your app at the same time.",
+      "start": 1559.59,
+      "duration": 3.57
+    },
+    {
+      "text": "But we also know that\nthese are the ones",
+      "start": 1563.16,
+      "duration": 2.45
+    },
+    {
+      "text": "we avoid doing the\nmost because they",
+      "start": 1565.61,
+      "duration": 2.07
+    },
+    {
+      "text": "tend to be hard to implement.",
+      "start": 1567.68,
+      "duration": 2.02
+    },
+    {
+      "text": "DIANA WONG: You can now\nuse natural language",
+      "start": 1569.7,
+      "duration": 2.21
+    },
+    {
+      "text": "to perform actions\nand make assertions",
+      "start": 1571.91,
+      "duration": 2.34
+    },
+    {
+      "text": "with Gemini in Android Studio.",
+      "start": 1574.25,
+      "duration": 2.27
+    },
+    {
+      "text": "So let's bring together some\nof the Androidified features",
+      "start": 1576.52,
+      "duration": 2.66
+    },
+    {
+      "text": "we've shown so\nfar and test them.",
+      "start": 1579.18,
+      "duration": 2.88
+    },
+    {
+      "text": "The files here are journeys,\nlike user journeys.",
+      "start": 1582.06,
+      "duration": 3.75
+    },
+    {
+      "text": "Let's run one of them.",
+      "start": 1585.81,
+      "duration": 1.6
+    },
+    {
+      "text": "FLORINA MUNTENESCU: So if you\nread the first two actions,",
+      "start": 1587.41,
+      "duration": 2.81
+    },
+    {
+      "text": "they're just clicking\non certain buttons",
+      "start": 1590.22,
+      "duration": 2.37
+    },
+    {
+      "text": "with different text on them.",
+      "start": 1592.59,
+      "duration": 1.33
+    },
+    {
+      "text": "So click on Let's Go.",
+      "start": 1593.92,
+      "duration": 1.68
+    },
+    {
+      "text": "Tap on Choose Photo.",
+      "start": 1595.6,
+      "duration": 1.53
+    },
+    {
+      "text": "The journey is waiting until the\nactions are done before moving",
+      "start": 1597.13,
+      "duration": 3.5
+    },
+    {
+      "text": "to the next action.",
+      "start": 1600.63,
+      "duration": 1.39
+    },
+    {
+      "text": "So you don't have to\nsynchronize these tests anymore.",
+      "start": 1602.02,
+      "duration": 3.26
+    },
+    {
+      "text": "Then the third one is\na bit more interesting.",
+      "start": 1605.28,
+      "duration": 3.01
+    },
+    {
+      "text": "Select a photo of a\nwoman with a pink dress.",
+      "start": 1608.29,
+      "duration": 3.87
+    },
+    {
+      "text": "This is where natural language\nis a lot more powerful.",
+      "start": 1612.16,
+      "duration": 3.36
+    },
+    {
+      "text": "So this could be the\nthird photo, like here.",
+      "start": 1615.52,
+      "duration": 2.88
+    },
+    {
+      "text": "Or it could be the first one.",
+      "start": 1618.4,
+      "duration": 2.04
+    },
+    {
+      "text": "So it would be hard to find\nwith a regular command.",
+      "start": 1620.44,
+      "duration": 3.5
+    },
+    {
+      "text": "Also, the UI you just saw is\nthe platform's photo picker,",
+      "start": 1623.94,
+      "duration": 3.63
+    },
+    {
+      "text": "and it can change from\nversion to version of Android.",
+      "start": 1627.57,
+      "duration": 4.63
+    },
+    {
+      "text": "The last action\nwas just verifying",
+      "start": 1632.2,
+      "duration": 1.46
+    },
+    {
+      "text": "that an Android figurine with\nan umbrella is displayed.",
+      "start": 1633.66,
+      "duration": 4.5
+    },
+    {
+      "text": "And that's it.",
+      "start": 1638.16,
+      "duration": 0.96
+    },
+    {
+      "text": "The test passed.",
+      "start": 1639.12,
+      "duration": 1.29
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1640.41,
+      "duration": 2.772
+    },
+    {
+      "text": "DIANA WONG: Well,\nthat was so easy",
+      "start": 1644.393,
+      "duration": 1.417
+    },
+    {
+      "text": "even a PM like me could do it.",
+      "start": 1645.81,
+      "duration": 1.482
+    },
+    {
+      "text": "FLORINA MUNTENESCU: Oh,\nso you're volunteering.",
+      "start": 1647.292,
+      "duration": 1.958
+    },
+    {
+      "text": "DIANA WONG: Let's change topics.",
+      "start": 1649.25,
+      "duration": 1.42
+    },
+    {
+      "text": "How about updating dependencies\nto the latest versions?",
+      "start": 1650.67,
+      "duration": 3.3
+    },
+    {
+      "text": "I know that's another task\nthat developers \"love\" doing.",
+      "start": 1653.97,
+      "duration": 2.85
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nSo it's definitely",
+      "start": 1656.82,
+      "duration": 1.82
+    },
+    {
+      "text": "something I avoid doing because\nit's a tedious task, although I",
+      "start": 1658.64,
+      "duration": 3.25
+    },
+    {
+      "text": "know.",
+      "start": 1661.89,
+      "duration": 0.5
+    },
+    {
+      "text": "We get the benefits of\nfeatures and bug fixes",
+      "start": 1662.39,
+      "duration": 2.82
+    },
+    {
+      "text": "that come with the\nlatest libraries.",
+      "start": 1665.21,
+      "duration": 2.7
+    },
+    {
+      "text": "Now, Gemini can\nhelp with this, too.",
+      "start": 1667.91,
+      "duration": 2.68
+    },
+    {
+      "text": "So let's demo a new AI agent,\ncoming soon in Android Studio,",
+      "start": 1670.59,
+      "duration": 5.06
+    },
+    {
+      "text": "to help with version updates.",
+      "start": 1675.65,
+      "duration": 2.43
+    },
+    {
+      "text": "I have a project\nloaded here that--",
+      "start": 1678.08,
+      "duration": 2.01
+    },
+    {
+      "text": "well, I haven't really\ntouched it in a year,",
+      "start": 1680.09,
+      "duration": 2.02
+    },
+    {
+      "text": "so this was actually\nbefore, even, Kotlin 2.0.",
+      "start": 1682.11,
+      "duration": 3.71
+    },
+    {
+      "text": "There's a new option\nin the refactor menu",
+      "start": 1685.82,
+      "duration": 3.09
+    },
+    {
+      "text": "called Update Dependencies.",
+      "start": 1688.91,
+      "duration": 2.55
+    },
+    {
+      "text": "So what the bot\nhas just done here",
+      "start": 1691.46,
+      "duration": 1.8
+    },
+    {
+      "text": "is analyzed the different\nmodules in the app",
+      "start": 1693.26,
+      "duration": 2.07
+    },
+    {
+      "text": "and checked what library\nupdates we can apply.",
+      "start": 1695.33,
+      "duration": 3.42
+    },
+    {
+      "text": "Next, the agent is\ntrying to build a project",
+      "start": 1698.75,
+      "duration": 3.66
+    },
+    {
+      "text": "and then use Gemini to figure\nout how to fix the problems.",
+      "start": 1702.41,
+      "duration": 3.7
+    },
+    {
+      "text": "Then it's going to iterate\nuntil the build is successful.",
+      "start": 1706.11,
+      "duration": 3.47
+    },
+    {
+      "text": "Let's give it a second and\nthen see how it behaves.",
+      "start": 1709.58,
+      "duration": 4.53
+    },
+    {
+      "text": "OK, so it found an issue.",
+      "start": 1714.11,
+      "duration": 2.015
+    },
+    {
+      "text": "The build succeeded.",
+      "start": 1716.125,
+      "duration": 2.035
+    },
+    {
+      "text": "It's generating the\nupgrade summary.",
+      "start": 1718.16,
+      "duration": 2.02
+    },
+    {
+      "text": "Let's see if we get\nto see the changes.",
+      "start": 1720.18,
+      "duration": 2.1
+    },
+    {
+      "text": "OK, I'm going to\nclick Show Changes.",
+      "start": 1722.28,
+      "duration": 1.61
+    },
+    {
+      "text": "I'm going to minimize this\njust to have a bit more space.",
+      "start": 1723.89,
+      "duration": 3.25
+    },
+    {
+      "text": "So the libraries have been\nupdated to the latest version.",
+      "start": 1727.14,
+      "duration": 5.06
+    },
+    {
+      "text": "In the plugins, we're using\nthe new Compose Compiler--",
+      "start": 1732.2,
+      "duration": 3.93
+    },
+    {
+      "text": "Compose plugin compiler.",
+      "start": 1736.13,
+      "duration": 1.81
+    },
+    {
+      "text": "The Compiler SDK is now 36.",
+      "start": 1737.94,
+      "duration": 4.44
+    },
+    {
+      "text": "And then in the main activity,\nwe not only get the change,",
+      "start": 1742.38,
+      "duration": 3.84
+    },
+    {
+      "text": "but we also get an\nexplanation of the change.",
+      "start": 1746.22,
+      "duration": 2.4
+    },
+    {
+      "text": "So we can see that the\nplatform class was replaced",
+      "start": 1748.62,
+      "duration": 2.66
+    },
+    {
+      "text": "with an AndroidX class.",
+      "start": 1751.28,
+      "duration": 2.46
+    },
+    {
+      "text": "Same here.",
+      "start": 1753.74,
+      "duration": 0.97
+    },
+    {
+      "text": "So the build is successful.",
+      "start": 1754.71,
+      "duration": 2.19
+    },
+    {
+      "text": "So we're done.",
+      "start": 1756.9,
+      "duration": 1.58
+    },
+    {
+      "text": "DIANA WONG: Nice.",
+      "start": 1758.48,
+      "duration": 1.05
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1759.53,
+      "duration": 3.43
+    },
+    {
+      "text": "Now that you've seen some of\nthe powers of Gemini and Android",
+      "start": 1764.93,
+      "duration": 3.39
+    },
+    {
+      "text": "Studio in action, you\nmight be wondering",
+      "start": 1768.32,
+      "duration": 2.37
+    },
+    {
+      "text": "how you can get\nthe same benefits",
+      "start": 1770.69,
+      "duration": 1.53
+    },
+    {
+      "text": "in a corporate and\nenterprise environment,",
+      "start": 1772.22,
+      "duration": 2.14
+    },
+    {
+      "text": "not just your personal projects.",
+      "start": 1774.36,
+      "duration": 1.77
+    },
+    {
+      "text": "So today, once you subscribe\nto Gemini Code Assist,",
+      "start": 1776.13,
+      "duration": 3.72
+    },
+    {
+      "text": "you'll have access to Gemini and\nAndroid Studio for businesses.",
+      "start": 1779.85,
+      "duration": 4.2
+    },
+    {
+      "text": "It's specifically designed to\nmeet the privacy, security,",
+      "start": 1784.05,
+      "duration": 3.24
+    },
+    {
+      "text": "and management\nneeds of businesses,",
+      "start": 1787.29,
+      "duration": 1.58
+    },
+    {
+      "text": "with the same Gemini and Android\nStudio that you're used to.",
+      "start": 1788.87,
+      "duration": 2.882
+    },
+    {
+      "text": "FLORINA MUNTENESCU:\nAs you've seen today,",
+      "start": 1791.752,
+      "duration": 1.708
+    },
+    {
+      "text": "across all of Android,\nwe're making it easier",
+      "start": 1793.46,
+      "duration": 2.55
+    },
+    {
+      "text": "for you to build the best\nexperiences, creating",
+      "start": 1796.01,
+      "duration": 3.03
+    },
+    {
+      "text": "apps that are\ndelightful, performant,",
+      "start": 1799.04,
+      "duration": 2.23
+    },
+    {
+      "text": "and adaptive across devices.",
+      "start": 1801.27,
+      "duration": 2.4
+    },
+    {
+      "text": "And we're helping you be\nmore productive with Compose",
+      "start": 1803.67,
+      "duration": 2.84
+    },
+    {
+      "text": "and Android Studio.",
+      "start": 1806.51,
+      "duration": 1.74
+    },
+    {
+      "text": "DIANA WONG: So check\nout the Androidify app",
+      "start": 1808.25,
+      "duration": 2.36
+    },
+    {
+      "text": "to see how this\nall comes together.",
+      "start": 1810.61,
+      "duration": 1.66
+    },
+    {
+      "text": "Use the latest versions\nof our APIs and tools.",
+      "start": 1812.27,
+      "duration": 2.63
+    },
+    {
+      "text": "And go build the next\ngeneration of Android apps.",
+      "start": 1814.9,
+      "duration": 3.48
+    },
+    {
+      "text": "Now, let's hear\nfrom Una and Addy",
+      "start": 1818.38,
+      "duration": 2.49
+    },
+    {
+      "text": "about how you can go build the\nnext generation of web apps.",
+      "start": 1820.87,
+      "duration": 3.67
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1824.54,
+      "duration": 3.458
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1827.998,
+      "duration": 3.952
+    },
+    {
+      "text": "UNA KRAVETS: One of the\nbest things about the web",
+      "start": 1837.4,
+      "duration": 2.67
+    },
+    {
+      "text": "is that its reach is\nvirtually unlimited.",
+      "start": 1840.07,
+      "duration": 3.4
+    },
+    {
+      "text": "With a single website,\nyou can bring your ideas",
+      "start": 1843.47,
+      "duration": 2.6
+    },
+    {
+      "text": "to almost any user\non the planet.",
+      "start": 1846.07,
+      "duration": 3.31
+    },
+    {
+      "text": "The challenge is\ncreating applications",
+      "start": 1849.38,
+      "duration": 2.66
+    },
+    {
+      "text": "that work well across the\nnear-infinite combination",
+      "start": 1852.04,
+      "duration": 3.99
+    },
+    {
+      "text": "of users, devices, and browsers.",
+      "start": 1856.03,
+      "duration": 3.96
+    },
+    {
+      "text": "Today, I want to\nintroduce you to a slew",
+      "start": 1859.99,
+      "duration": 2.94
+    },
+    {
+      "text": "of powerful new\nfeatures in Chrome",
+      "start": 1862.93,
+      "duration": 2.52
+    },
+    {
+      "text": "that will help you do just that.",
+      "start": 1865.45,
+      "duration": 2.82
+    },
+    {
+      "text": "With these features,\nyou can build better UI,",
+      "start": 1868.27,
+      "duration": 3.67
+    },
+    {
+      "text": "debug your sites more\neasily with DevTools,",
+      "start": 1871.94,
+      "duration": 3.33
+    },
+    {
+      "text": "and create AI features more\nquickly and cost-effectively",
+      "start": 1875.27,
+      "duration": 4.34
+    },
+    {
+      "text": "with Gemini Nano in\nChrome, all of these",
+      "start": 1879.61,
+      "duration": 4.29
+    },
+    {
+      "text": "with the goal of creating a\nmore powerful web made easier.",
+      "start": 1883.9,
+      "duration": 4.56
+    },
+    {
+      "text": "Building engaging user\ninterfaces is so critical.",
+      "start": 1888.46,
+      "duration": 3.85
+    },
+    {
+      "text": "This is the cornerstone\nof what sets you",
+      "start": 1892.31,
+      "duration": 2.57
+    },
+    {
+      "text": "and your app apart in a\nvery crowded digital space.",
+      "start": 1894.88,
+      "duration": 4.42
+    },
+    {
+      "text": "So let's begin there.",
+      "start": 1899.3,
+      "duration": 1.89
+    },
+    {
+      "text": "We've been hard at\nwork fixing core issues",
+      "start": 1901.19,
+      "duration": 2.72
+    },
+    {
+      "text": "and expanding\ncapabilities by leveraging",
+      "start": 1903.91,
+      "duration": 2.94
+    },
+    {
+      "text": "HTML and CSS, the web's\nnative building blocks.",
+      "start": 1906.85,
+      "duration": 4.09
+    },
+    {
+      "text": "It should not only be\npossible, but simple",
+      "start": 1910.94,
+      "duration": 3.14
+    },
+    {
+      "text": "to create beautiful, accessible,\ndeclarative, cross-browser UI.",
+      "start": 1914.08,
+      "duration": 5.52
+    },
+    {
+      "text": "What better way to\nmake this more tangible",
+      "start": 1919.6,
+      "duration": 2.67
+    },
+    {
+      "text": "than by creating a\nwebsite, using everything",
+      "start": 1922.27,
+      "duration": 2.58
+    },
+    {
+      "text": "that we're announcing today?",
+      "start": 1924.85,
+      "duration": 1.78
+    },
+    {
+      "text": "We'll show you some\nnew capabilities",
+      "start": 1926.63,
+      "duration": 2.03
+    },
+    {
+      "text": "that make it easier to build\ncommon but surprisingly complex",
+      "start": 1928.66,
+      "duration": 3.51
+    },
+    {
+      "text": "UI elements, like\ncarousels and hover cards.",
+      "start": 1932.17,
+      "duration": 3.64
+    },
+    {
+      "text": "And we're going to\nbuild these right here",
+      "start": 1935.81,
+      "duration": 2.6
+    },
+    {
+      "text": "on stage in a\nfraction of the time.",
+      "start": 1938.41,
+      "duration": 3.22
+    },
+    {
+      "text": "To do that, my colleague\nAddy is going to help me out.",
+      "start": 1941.63,
+      "duration": 3.895
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 1945.525,
+      "duration": 2.85
+    },
+    {
+      "text": "ADDY OSMANI: Thanks, Una.",
+      "start": 1953.208,
+      "duration": 1.042
+    },
+    {
+      "text": "So here we have this\nwork-in-progress virtual theater",
+      "start": 1954.25,
+      "duration": 3.99
+    },
+    {
+      "text": "site built in React.",
+      "start": 1958.24,
+      "duration": 1.86
+    },
+    {
+      "text": "Watch as we transform it into\na rich, delightful experience,",
+      "start": 1960.1,
+      "duration": 4.42
+    },
+    {
+      "text": "starting with turning these\nposters into a carousel.",
+      "start": 1964.52,
+      "duration": 3.0
+    },
+    {
+      "text": "Now, there's a lot to juggle--",
+      "start": 1967.52,
+      "duration": 2.64
+    },
+    {
+      "text": "transitions, state management,\nDOM manipulation, performance.",
+      "start": 1970.16,
+      "duration": 4.98
+    },
+    {
+      "text": "And after all that effort,\nit's still buggy in Edge cases.",
+      "start": 1975.14,
+      "duration": 4.71
+    },
+    {
+      "text": "Now, with Chrome 135, we've\ncombined a few new powerful CSS",
+      "start": 1979.85,
+      "duration": 5.66
+    },
+    {
+      "text": "primitives to make\nbuilding carousels",
+      "start": 1985.51,
+      "duration": 2.52
+    },
+    {
+      "text": "and other types of off-screen\nUI dramatically easier.",
+      "start": 1988.03,
+      "duration": 4.51
+    },
+    {
+      "text": "Watch how you can build\nthis in just minutes",
+      "start": 1992.54,
+      "duration": 2.6
+    },
+    {
+      "text": "with only a few lines of code.",
+      "start": 1995.14,
+      "duration": 2.43
+    },
+    {
+      "text": "So I'm going to head\nover to my editor,",
+      "start": 1997.57,
+      "duration": 2.25
+    },
+    {
+      "text": "and I'm going to show\nyou this carousel class.",
+      "start": 1999.82,
+      "duration": 2.35
+    },
+    {
+      "text": "So here, I'm\npositioning the items,",
+      "start": 2002.17,
+      "duration": 2.84
+    },
+    {
+      "text": "setting overflow and\nrequiring snapping",
+      "start": 2005.01,
+      "duration": 3.3
+    },
+    {
+      "text": "at the center for each item.",
+      "start": 2008.31,
+      "duration": 2.205
+    },
+    {
+      "text": "So we're just\ngoing to save this.",
+      "start": 2010.515,
+      "duration": 1.375
+    },
+    {
+      "text": "We're using our carousel\nclass on our poster list.",
+      "start": 2011.89,
+      "duration": 2.7
+    },
+    {
+      "text": "And we're making\nsome progress here.",
+      "start": 2014.59,
+      "duration": 2.13
+    },
+    {
+      "text": "It's looking like a carousel.",
+      "start": 2016.72,
+      "duration": 1.44
+    },
+    {
+      "text": "Great stuff.",
+      "start": 2018.16,
+      "duration": 1.94
+    },
+    {
+      "text": "Now, let's add some\nnavigation affordances",
+      "start": 2020.1,
+      "duration": 2.25
+    },
+    {
+      "text": "for the off-screen items.",
+      "start": 2022.35,
+      "duration": 1.87
+    },
+    {
+      "text": "So I've got a class here--",
+      "start": 2024.22,
+      "duration": 1.82
+    },
+    {
+      "text": "I've got a controls class.",
+      "start": 2026.04,
+      "duration": 1.39
+    },
+    {
+      "text": "Let me just add that, as\nwell, to that poster list",
+      "start": 2027.43,
+      "duration": 3.47
+    },
+    {
+      "text": "and show you that.",
+      "start": 2030.9,
+      "duration": 1.49
+    },
+    {
+      "text": "So we've got some buttons\nusing this controls class.",
+      "start": 2032.39,
+      "duration": 3.29
+    },
+    {
+      "text": "And I want to show\nyou the code for this.",
+      "start": 2035.68,
+      "duration": 2.37
+    },
+    {
+      "text": "So here, you can see that those\nbuttons were created using",
+      "start": 2038.05,
+      "duration": 2.99
+    },
+    {
+      "text": "scroll button pseudo-elements.",
+      "start": 2041.04,
+      "duration": 2.44
+    },
+    {
+      "text": "And this is what\nthe code looks like.",
+      "start": 2043.48,
+      "duration": 1.68
+    },
+    {
+      "text": "We've got a scroll button\nright and a scroll button left.",
+      "start": 2045.16,
+      "duration": 4.079
+    },
+    {
+      "text": "Now, we've styled these\nwith a content property.",
+      "start": 2049.239,
+      "duration": 3.271
+    },
+    {
+      "text": "Here's the content\nproperty down here.",
+      "start": 2052.51,
+      "duration": 2.37
+    },
+    {
+      "text": "And we've given them\naccessible labels.",
+      "start": 2054.88,
+      "duration": 3.127
+    },
+    {
+      "text": "UNA KRAVETS: Can we navigate\nthrough this carousel",
+      "start": 2058.007,
+      "duration": 2.083
+    },
+    {
+      "text": "a little bit faster?",
+      "start": 2060.09,
+      "duration": 1.103
+    },
+    {
+      "text": "I've seen a lot of them\nhave those little navigation",
+      "start": 2061.193,
+      "duration": 2.167
+    },
+    {
+      "text": "dots on the bottom.",
+      "start": 2063.36,
+      "duration": 1.18
+    },
+    {
+      "text": "ADDY OSMANI: Yes,\nwe can do that.",
+      "start": 2064.54,
+      "duration": 1.92
+    },
+    {
+      "text": "So let me show you\nour indicators.",
+      "start": 2066.46,
+      "duration": 1.83
+    },
+    {
+      "text": "That's what the new scroll\nmarker pseudo is for.",
+      "start": 2068.29,
+      "duration": 4.19
+    },
+    {
+      "text": "So this is another\npseudo-element",
+      "start": 2072.48,
+      "duration": 1.949
+    },
+    {
+      "text": "which can be styled\nsimilarly to scroll buttons.",
+      "start": 2074.429,
+      "duration": 3.131
+    },
+    {
+      "text": "So here's our scroll\nmarker down here.",
+      "start": 2077.56,
+      "duration": 3.21
+    },
+    {
+      "text": "And we've also got another\nnew pseudo-class called target",
+      "start": 2080.77,
+      "duration": 2.929
+    },
+    {
+      "text": "current that manages the\nactive marker classes.",
+      "start": 2083.699,
+      "duration": 2.951
+    },
+    {
+      "text": "And that's target\ncurrent right over there.",
+      "start": 2086.65,
+      "duration": 2.61
+    },
+    {
+      "text": "So let me just add in\nour indicators class,",
+      "start": 2089.26,
+      "duration": 3.53
+    },
+    {
+      "text": "and, bam, we now have\nscroll indicators.",
+      "start": 2092.79,
+      "duration": 4.786
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2097.576,
+      "duration": 3.216
+    },
+    {
+      "text": "UNA KRAVETS: One early adopter\nof this new CSS-based method",
+      "start": 2103.13,
+      "duration": 3.63
+    },
+    {
+      "text": "of building carousels\nis Pinterest.",
+      "start": 2106.76,
+      "duration": 2.23
+    },
+    {
+      "text": "Before, their development\nteam spent so much time",
+      "start": 2108.99,
+      "duration": 3.17
+    },
+    {
+      "text": "maintaining their custom-built\nJavaScript carousels.",
+      "start": 2112.16,
+      "duration": 3.25
+    },
+    {
+      "text": "But earlier this year, Pinterest\nmade the switch to using new CSS",
+      "start": 2115.41,
+      "duration": 4.19
+    },
+    {
+      "text": "APIs for carousels, cutting down\naround 2,000 lines of JavaScript",
+      "start": 2119.6,
+      "duration": 5.01
+    },
+    {
+      "text": "into just 200 lines of more\nperformant, browser-native CSS.",
+      "start": 2124.61,
+      "duration": 4.916
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2129.526,
+      "duration": 2.864
+    },
+    {
+      "text": "That whopping 90%\nreduction in code",
+      "start": 2134.36,
+      "duration": 3.09
+    },
+    {
+      "text": "improved overall performance,\nand it also noticeably improved",
+      "start": 2137.45,
+      "duration": 3.93
+    },
+    {
+      "text": "product pin load\ntimes by 15%, which",
+      "start": 2141.38,
+      "duration": 3.21
+    },
+    {
+      "text": "is a huge quality-of-life\nimprovement for their users,",
+      "start": 2144.59,
+      "duration": 2.88
+    },
+    {
+      "text": "like me.",
+      "start": 2147.47,
+      "duration": 0.91
+    },
+    {
+      "text": "Addy, how's our carousel going?",
+      "start": 2148.38,
+      "duration": 2.42
+    },
+    {
+      "text": "ADDY OSMANI: I thought it could\nuse a little more finesse,",
+      "start": 2150.8,
+      "duration": 2.98
+    },
+    {
+      "text": "so I added in some hero images.",
+      "start": 2153.78,
+      "duration": 2.31
+    },
+    {
+      "text": "Here they are.",
+      "start": 2156.09,
+      "duration": 1.13
+    },
+    {
+      "text": "They look a little bit pretty.",
+      "start": 2157.22,
+      "duration": 2.04
+    },
+    {
+      "text": "And I also put it\non a virtual stage.",
+      "start": 2159.26,
+      "duration": 3.58
+    },
+    {
+      "text": "So check this out.",
+      "start": 2162.84,
+      "duration": 2.84
+    },
+    {
+      "text": "UNA KRAVETS: Ooh, fancy.",
+      "start": 2165.68,
+      "duration": 2.582
+    },
+    {
+      "text": "ADDY OSMANI: Isn't that nice?",
+      "start": 2168.262,
+      "duration": 1.208
+    },
+    {
+      "text": "That's using\nscroll-driven animations.",
+      "start": 2169.47,
+      "duration": 1.903
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2171.373,
+      "duration": 1.597
+    },
+    {
+      "text": "Now, I would love\nto put in a feature",
+      "start": 2172.97,
+      "duration": 2.31
+    },
+    {
+      "text": "where you could easily hover\nand get a sense of what",
+      "start": 2175.28,
+      "duration": 3.06
+    },
+    {
+      "text": "the view is like from there.",
+      "start": 2178.34,
+      "duration": 1.72
+    },
+    {
+      "text": "So I'm going to add in the seat\nsections and seat details now.",
+      "start": 2180.06,
+      "duration": 3.27
+    },
+    {
+      "text": "UNA KRAVETS: I love that idea.",
+      "start": 2183.33,
+      "duration": 1.29
+    },
+    {
+      "text": "Rich tooltips and\npreview cards are",
+      "start": 2184.62,
+      "duration": 2.18
+    },
+    {
+      "text": "super common in web interfaces,\nbut building and maintaining",
+      "start": 2186.8,
+      "duration": 3.93
+    },
+    {
+      "text": "them, managing state\naccessibility hooks and events",
+      "start": 2190.73,
+      "duration": 3.9
+    },
+    {
+      "text": "is still extremely challenging.",
+      "start": 2194.63,
+      "duration": 3.1
+    },
+    {
+      "text": "So I can't wait for you to try\nthe new experimental interest",
+      "start": 2197.73,
+      "duration": 4.4
+    },
+    {
+      "text": "invoker API, which, when\nused with the existing",
+      "start": 2202.13,
+      "duration": 3.45
+    },
+    {
+      "text": "anchor positioning\nand popover APIs,",
+      "start": 2205.58,
+      "duration": 2.5
+    },
+    {
+      "text": "helps you build out accessible,\ncomplex, layered UI elements",
+      "start": 2208.08,
+      "duration": 4.34
+    },
+    {
+      "text": "without JavaScript in\na fraction of the time.",
+      "start": 2212.42,
+      "duration": 3.462
+    },
+    {
+      "text": "ADDY OSMANI: All right.",
+      "start": 2215.882,
+      "duration": 0.958
+    },
+    {
+      "text": "So in this theater layout,\nwe now have seat sections.",
+      "start": 2216.84,
+      "duration": 4.4
+    },
+    {
+      "text": "Let's add in a seat preview\nfor each of these sections",
+      "start": 2221.24,
+      "duration": 3.34
+    },
+    {
+      "text": "so you can get a sense of what\nthe stage looks like from them.",
+      "start": 2224.58,
+      "duration": 3.42
+    },
+    {
+      "text": "So I'm just going to go ahead\nand click this eye icon.",
+      "start": 2228.0,
+      "duration": 3.98
+    },
+    {
+      "text": "And, ooh, check that out.",
+      "start": 2231.98,
+      "duration": 3.45
+    },
+    {
+      "text": "So right, now this\nis a popover--",
+      "start": 2235.43,
+      "duration": 2.47
+    },
+    {
+      "text": "all right.",
+      "start": 2237.9,
+      "duration": 1.13
+    },
+    {
+      "text": "This is a popover--",
+      "start": 2239.03,
+      "duration": 0.963
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2239.993,
+      "duration": 2.997
+    },
+    {
+      "text": "This is a popover which\nis triggered on click.",
+      "start": 2242.99,
+      "duration": 3.04
+    },
+    {
+      "text": "So let's have it show up when\nhovering or focusing instead.",
+      "start": 2246.03,
+      "duration": 4.44
+    },
+    {
+      "text": "So to make this change,\nall we need to do",
+      "start": 2250.47,
+      "duration": 2.51
+    },
+    {
+      "text": "is change our popover\ntarget to interest target.",
+      "start": 2252.98,
+      "duration": 3.4
+    },
+    {
+      "text": "So we go back to our editor.",
+      "start": 2256.38,
+      "duration": 1.64
+    },
+    {
+      "text": "I've got our eye button here.",
+      "start": 2258.02,
+      "duration": 1.65
+    },
+    {
+      "text": "And I'm just going to\nchange this popovertarget.",
+      "start": 2259.67,
+      "duration": 2.47
+    },
+    {
+      "text": "I'm going to type in\ninteresttarget instead",
+      "start": 2262.14,
+      "duration": 2.42
+    },
+    {
+      "text": "and hit Save.",
+      "start": 2264.56,
+      "duration": 0.8
+    },
+    {
+      "text": "Let's do that again.",
+      "start": 2268.26,
+      "duration": 1.02
+    },
+    {
+      "text": "Let's hover over the eye.",
+      "start": 2269.28,
+      "duration": 2.33
+    },
+    {
+      "text": "Nice.",
+      "start": 2271.61,
+      "duration": 0.92
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2272.53,
+      "duration": 3.925
+    },
+    {
+      "text": "So here, the browser is\nhandling the state management,",
+      "start": 2277.94,
+      "duration": 3.88
+    },
+    {
+      "text": "event listeners, ARIA labeling\nand a lot more for you,",
+      "start": 2281.82,
+      "duration": 3.62
+    },
+    {
+      "text": "making this complex\ninteraction a breeze.",
+      "start": 2285.44,
+      "duration": 3.092
+    },
+    {
+      "text": "UNA KRAVETS: Building\nsomething like this",
+      "start": 2288.532,
+      "duration": 1.708
+    },
+    {
+      "text": "was so hard to get\nright, and I can't",
+      "start": 2290.24,
+      "duration": 3.03
+    },
+    {
+      "text": "believe how easy it is now.",
+      "start": 2293.27,
+      "duration": 1.75
+    },
+    {
+      "text": "This is the power of modern CSS,\nturning complex UI challenges",
+      "start": 2295.02,
+      "duration": 5.33
+    },
+    {
+      "text": "into straightforward,\ndeclarative code",
+      "start": 2300.35,
+      "duration": 2.76
+    },
+    {
+      "text": "without frameworks, multiple\nlibraries, and thousands",
+      "start": 2303.11,
+      "duration": 3.42
+    },
+    {
+      "text": "of lines of JavaScript.",
+      "start": 2306.53,
+      "duration": 1.81
+    },
+    {
+      "text": "But I know the big question\nthat you're all asking is,",
+      "start": 2308.34,
+      "duration": 2.76
+    },
+    {
+      "text": "will this work for my users?",
+      "start": 2311.1,
+      "duration": 2.46
+    },
+    {
+      "text": "That's why we launched Baseline,\nto show you feature availability",
+      "start": 2313.56,
+      "duration": 3.86
+    },
+    {
+      "text": "across all major browsers.",
+      "start": 2317.42,
+      "duration": 2.62
+    },
+    {
+      "text": "But we know for Baseline\nto be truly useful,",
+      "start": 2320.04,
+      "duration": 2.94
+    },
+    {
+      "text": "it has to be\navailable in the tools",
+      "start": 2322.98,
+      "duration": 1.91
+    },
+    {
+      "text": "that you use every day,\nlike IDEs, linters,",
+      "start": 2324.89,
+      "duration": 3.79
+    },
+    {
+      "text": "and analytics tools.",
+      "start": 2328.68,
+      "duration": 2.18
+    },
+    {
+      "text": "ADDY OSMANI: So here\nI am, back in VS Code.",
+      "start": 2330.86,
+      "duration": 2.62
+    },
+    {
+      "text": "Look what happens when I hover\nover some of these recent CSS",
+      "start": 2333.48,
+      "duration": 3.74
+    },
+    {
+      "text": "additions.",
+      "start": 2337.22,
+      "duration": 2.04
+    },
+    {
+      "text": "Right in the tooltip, you\ncan see its baseline status",
+      "start": 2339.26,
+      "duration": 3.15
+    },
+    {
+      "text": "and browser availability.",
+      "start": 2342.41,
+      "duration": 2.55
+    },
+    {
+      "text": "No more switching\nbetween browser tabs",
+      "start": 2344.96,
+      "duration": 2.34
+    },
+    {
+      "text": "to check on your compatibility.",
+      "start": 2347.3,
+      "duration": 1.81
+    },
+    {
+      "text": "It's really nice.",
+      "start": 2349.11,
+      "duration": 2.29
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2351.4,
+      "duration": 3.776
+    },
+    {
+      "text": "UNA KRAVETS: And if these\naren't your tools of choice,",
+      "start": 2356.18,
+      "duration": 2.38
+    },
+    {
+      "text": "don't worry.",
+      "start": 2358.56,
+      "duration": 0.93
+    },
+    {
+      "text": "ESLint can now be\nconfigured to warn you",
+      "start": 2359.49,
+      "duration": 2.42
+    },
+    {
+      "text": "about anything that doesn't\nmatch your targeted baseline",
+      "start": 2361.91,
+      "duration": 3.33
+    },
+    {
+      "text": "version for HTML and CSS files.",
+      "start": 2365.24,
+      "duration": 3.49
+    },
+    {
+      "text": "This integration is also coming\nsoon to VS Code-based IDEs",
+      "start": 2368.73,
+      "duration": 4.58
+    },
+    {
+      "text": "and JetBrains WebStorm.",
+      "start": 2373.31,
+      "duration": 2.23
+    },
+    {
+      "text": "Shall we get back to\nbuilding our website, Addy?",
+      "start": 2375.54,
+      "duration": 3.26
+    },
+    {
+      "text": "ADDY OSMANI: Perfect timing.",
+      "start": 2378.8,
+      "duration": 1.33
+    },
+    {
+      "text": "So I've made quite\nsome progress.",
+      "start": 2380.13,
+      "duration": 2.1
+    },
+    {
+      "text": "Come on.",
+      "start": 2382.23,
+      "duration": 0.72
+    },
+    {
+      "text": "Take a look.",
+      "start": 2382.95,
+      "duration": 1.28
+    },
+    {
+      "text": "UNA KRAVETS: Is that\nFind my Seat button new?",
+      "start": 2384.23,
+      "duration": 2.44
+    },
+    {
+      "text": "It's not centered.",
+      "start": 2386.67,
+      "duration": 1.11
+    },
+    {
+      "text": "Can we fix it?",
+      "start": 2387.78,
+      "duration": 1.437
+    },
+    {
+      "text": "ADDY OSMANI: Yeah, we can.",
+      "start": 2389.217,
+      "duration": 1.083
+    },
+    {
+      "text": "So sure, this is actually\na perfect opportunity",
+      "start": 2390.3,
+      "duration": 2.39
+    },
+    {
+      "text": "to showcase some of our new AI\nfeatures in Chrome DevTools.",
+      "start": 2392.69,
+      "duration": 4.0
+    },
+    {
+      "text": "So let's take a closer look.",
+      "start": 2396.69,
+      "duration": 2.07
+    },
+    {
+      "text": "I'm going to open up\nDevTools, and I'm just",
+      "start": 2398.76,
+      "duration": 2.525
+    },
+    {
+      "text": "going to select the element that\nwe're having some issues with,",
+      "start": 2401.285,
+      "duration": 2.625
+    },
+    {
+      "text": "that Find my Seat.",
+      "start": 2403.91,
+      "duration": 1.33
+    },
+    {
+      "text": "Now, if I right-click,\nif I go to ask AI--",
+      "start": 2405.24,
+      "duration": 3.23
+    },
+    {
+      "text": "check this out.",
+      "start": 2408.47,
+      "duration": 1.0
+    },
+    {
+      "text": "This is something new.",
+      "start": 2409.47,
+      "duration": 1.97
+    },
+    {
+      "text": "This is AI assistance that\nis baked in to the panel.",
+      "start": 2411.44,
+      "duration": 4.36
+    },
+    {
+      "text": "Now, I'm just going to,\nactually, switch over,",
+      "start": 2415.8,
+      "duration": 4.28
+    },
+    {
+      "text": "right to here to show you this.",
+      "start": 2420.08,
+      "duration": 2.13
+    },
+    {
+      "text": "One moment.",
+      "start": 2422.21,
+      "duration": 0.8
+    },
+    {
+      "text": "Let's hope that the\ndemo gods are with me.",
+      "start": 2428.69,
+      "duration": 2.825
+    },
+    {
+      "text": "Alrighty.",
+      "start": 2434.66,
+      "duration": 1.62
+    },
+    {
+      "text": "So we're going to go back\nto that Find my Seat.",
+      "start": 2436.28,
+      "duration": 4.0
+    },
+    {
+      "text": "I'm going to select\nthat one button there.",
+      "start": 2440.28,
+      "duration": 2.395
+    },
+    {
+      "text": "Amazing.",
+      "start": 2445.52,
+      "duration": 0.75
+    },
+    {
+      "text": "Now, we're going to\nturn on AI assistance",
+      "start": 2446.27,
+      "duration": 1.96
+    },
+    {
+      "text": "just make sure that\nis all turned on.",
+      "start": 2448.23,
+      "duration": 2.81
+    },
+    {
+      "text": "Awesome stuff.",
+      "start": 2451.04,
+      "duration": 2.67
+    },
+    {
+      "text": "So what I'm going\nto do here is--",
+      "start": 2453.71,
+      "duration": 2.38
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2456.09,
+      "duration": 0.5
+    },
+    {
+      "text": "Oh, no, no.",
+      "start": 2456.59,
+      "duration": 0.93
+    },
+    {
+      "text": "This is--",
+      "start": 2457.52,
+      "duration": 0.86
+    },
+    {
+      "text": "UNA KRAVETS: We're\ndoing it live.",
+      "start": 2458.38,
+      "duration": 1.72
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2460.1,
+      "duration": 2.66
+    },
+    {
+      "text": "ADDY OSMANI: All right, so\nthis is AI assistance that's",
+      "start": 2462.76,
+      "duration": 2.61
+    },
+    {
+      "text": "baked into the panel.",
+      "start": 2465.37,
+      "duration": 0.88
+    },
+    {
+      "text": "What I want to do now is\njust use natural language.",
+      "start": 2466.25,
+      "duration": 2.43
+    },
+    {
+      "text": "And I want to ask\nGemini a question.",
+      "start": 2468.68,
+      "duration": 1.5
+    },
+    {
+      "text": "What I'm going to say is--",
+      "start": 2470.18,
+      "duration": 1.85
+    },
+    {
+      "text": "I set margin to 50%, but\nit's still misaligned.",
+      "start": 2472.03,
+      "duration": 7.486
+    },
+    {
+      "text": "How do I fix it?",
+      "start": 2482.2,
+      "duration": 2.37
+    },
+    {
+      "text": "So notice that I'm just\nusing natural language.",
+      "start": 2484.57,
+      "duration": 3.94
+    },
+    {
+      "text": "No complex queries.",
+      "start": 2488.51,
+      "duration": 1.14
+    },
+    {
+      "text": "I'm just asking\nin plain language.",
+      "start": 2489.65,
+      "duration": 1.56
+    },
+    {
+      "text": "And it seems to have come\nback with a solution in mind.",
+      "start": 2491.21,
+      "duration": 3.87
+    },
+    {
+      "text": "So let's see what it\ndoes when it's applied",
+      "start": 2495.08,
+      "duration": 3.42
+    },
+    {
+      "text": "CSS rules for the margin.",
+      "start": 2498.5,
+      "duration": 1.375
+    },
+    {
+      "text": "I think that what\nI need to do here",
+      "start": 2504.052,
+      "duration": 1.458
+    },
+    {
+      "text": "is actually apply\na transform fix.",
+      "start": 2505.51,
+      "duration": 5.64
+    },
+    {
+      "text": "So let's see what it says.",
+      "start": 2511.15,
+      "duration": 3.575
+    },
+    {
+      "text": "Perfect.",
+      "start": 2520.09,
+      "duration": 1.27
+    },
+    {
+      "text": "So it's centered it for us.",
+      "start": 2521.36,
+      "duration": 1.72
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2523.08,
+      "duration": 3.086
+    },
+    {
+      "text": "And now, normally,\nI'd copy this fix.",
+      "start": 2528.94,
+      "duration": 2.43
+    },
+    {
+      "text": "I'd switch back to my editor.",
+      "start": 2531.37,
+      "duration": 1.54
+    },
+    {
+      "text": "I'd find the right file, locate\nthe right spot in the code,",
+      "start": 2532.91,
+      "duration": 3.04
+    },
+    {
+      "text": "you know, the usual drill.",
+      "start": 2535.95,
+      "duration": 1.79
+    },
+    {
+      "text": "But with Chrome\n137, AI assistance",
+      "start": 2537.74,
+      "duration": 2.93
+    },
+    {
+      "text": "can actually create and apply\na fix directly from DevTools.",
+      "start": 2540.67,
+      "duration": 4.87
+    },
+    {
+      "text": "So I've connected DevTools\nto my local Workspace.",
+      "start": 2545.54,
+      "duration": 3.0
+    },
+    {
+      "text": "So if I expand\nunsafe changes here",
+      "start": 2548.54,
+      "duration": 3.23
+    },
+    {
+      "text": "and I hit Apply to Workspace,\nlet's see what happens.",
+      "start": 2551.77,
+      "duration": 4.15
+    },
+    {
+      "text": "So it's doing some\nmagic behind the scenes.",
+      "start": 2555.92,
+      "duration": 2.14
+    },
+    {
+      "text": "OK.",
+      "start": 2561.1,
+      "duration": 1.08
+    },
+    {
+      "text": "Let's see if the demo\ngods stay with us here.",
+      "start": 2562.18,
+      "duration": 4.08
+    },
+    {
+      "text": "All right.",
+      "start": 2566.26,
+      "duration": 1.06
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2567.32,
+      "duration": 2.18
+    },
+    {
+      "text": "UNA KRAVETS: This usually works.",
+      "start": 2569.5,
+      "duration": 2.54
+    },
+    {
+      "text": "ADDY OSMANI: It should\nbe applied directly",
+      "start": 2572.04,
+      "duration": 1.75
+    },
+    {
+      "text": "to my source code.",
+      "start": 2573.79,
+      "duration": 1.47
+    },
+    {
+      "text": "So ideally, there's no context\nswitching, no copy-paste errors.",
+      "start": 2575.26,
+      "duration": 3.7
+    },
+    {
+      "text": "We just get immediate results.",
+      "start": 2578.96,
+      "duration": 1.94
+    },
+    {
+      "text": "UNA KRAVETS: Now, Addy,\nspeaking of fixes, why don't we",
+      "start": 2580.9,
+      "duration": 2.73
+    },
+    {
+      "text": "show everybody the completely\nredesigned performance panel.",
+      "start": 2583.63,
+      "duration": 4.152
+    },
+    {
+      "text": "ADDY OSMANI: Yes.",
+      "start": 2587.782,
+      "duration": 0.708
+    },
+    {
+      "text": "Let me pull right up.",
+      "start": 2588.49,
+      "duration": 1.87
+    },
+    {
+      "text": "So here, I've collected a\nquick performance trace.",
+      "start": 2590.36,
+      "duration": 3.612
+    },
+    {
+      "text": "We're actually going to\nswitch over to the other one.",
+      "start": 2593.972,
+      "duration": 2.208
+    },
+    {
+      "text": "So here, I've collected a\nquick performance trace.",
+      "start": 2596.18,
+      "duration": 2.64
+    },
+    {
+      "text": "And in the Performance\nInsights sidebar,",
+      "start": 2598.82,
+      "duration": 2.15
+    },
+    {
+      "text": "I can see a layout\nshift culprit.",
+      "start": 2600.97,
+      "duration": 2.83
+    },
+    {
+      "text": "So let's figure out\nwhy this comes up.",
+      "start": 2603.8,
+      "duration": 2.16
+    },
+    {
+      "text": "So we've got our layout\nshift culprit here.",
+      "start": 2605.96,
+      "duration": 2.01
+    },
+    {
+      "text": "And we've got our Ask AI button.",
+      "start": 2607.97,
+      "duration": 1.83
+    },
+    {
+      "text": "So you see this.",
+      "start": 2609.8,
+      "duration": 1.08
+    },
+    {
+      "text": "This is a game changer.",
+      "start": 2610.88,
+      "duration": 1.23
+    },
+    {
+      "text": "I'm just going to select\nthis layout shift insight.",
+      "start": 2612.11,
+      "duration": 2.82
+    },
+    {
+      "text": "And I'm going to ask Gemini--",
+      "start": 2614.93,
+      "duration": 1.85
+    },
+    {
+      "text": "OK, fine.",
+      "start": 2616.78,
+      "duration": 0.57
+    },
+    {
+      "text": "I need to actually\nswitch over to here.",
+      "start": 2617.35,
+      "duration": 2.59
+    },
+    {
+      "text": "So let me go back to\nAsk AI, turn this on.",
+      "start": 2619.94,
+      "duration": 5.365
+    },
+    {
+      "text": "Perfect stuff.",
+      "start": 2627.85,
+      "duration": 0.603
+    },
+    {
+      "text": "And what I'm going to do\nis I'm going to ask Gemini,",
+      "start": 2628.453,
+      "duration": 2.167
+    },
+    {
+      "text": "how can I prevent layout\nshifts on this page?",
+      "start": 2630.62,
+      "duration": 3.12
+    },
+    {
+      "text": "So we're just going to go ahead\nand have Gemini do its stuff,",
+      "start": 2633.74,
+      "duration": 3.21
+    },
+    {
+      "text": "and it's come back\nwith a response.",
+      "start": 2636.95,
+      "duration": 1.89
+    },
+    {
+      "text": "So with the current\nweb font, there's",
+      "start": 2638.84,
+      "duration": 1.88
+    },
+    {
+      "text": "actually a lot of layout shift.",
+      "start": 2640.72,
+      "duration": 1.69
+    },
+    {
+      "text": "And this is already useful, as\nit gives me a clear direction",
+      "start": 2642.41,
+      "duration": 2.99
+    },
+    {
+      "text": "of what to do next.",
+      "start": 2645.4,
+      "duration": 1.87
+    },
+    {
+      "text": "This is what I love about these\nnew Chrome DevTools features.",
+      "start": 2647.27,
+      "duration": 2.91
+    },
+    {
+      "text": "They don't just\nhighlight problems.",
+      "start": 2650.18,
+      "duration": 1.71
+    },
+    {
+      "text": "They help you\nunderstand and fix them",
+      "start": 2651.89,
+      "duration": 2.33
+    },
+    {
+      "text": "without leaving your workflow.",
+      "start": 2654.22,
+      "duration": 3.91
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2658.13,
+      "duration": 3.5
+    },
+    {
+      "text": "UNA KRAVETS: AI in DevTools\nis such a great use case,",
+      "start": 2663.375,
+      "duration": 3.505
+    },
+    {
+      "text": "and Gemini is not just\nhelping you debug,",
+      "start": 2666.88,
+      "duration": 2.74
+    },
+    {
+      "text": "but it also helps you to build.",
+      "start": 2669.62,
+      "duration": 2.13
+    },
+    {
+      "text": "Last year, we announced\nGemini Nano in Chrome",
+      "start": 2671.75,
+      "duration": 3.05
+    },
+    {
+      "text": "and invited you to help shape\nthe future of AI on the web.",
+      "start": 2674.8,
+      "duration": 4.27
+    },
+    {
+      "text": "Since then, nearly 17,000 of you\nsigned up for the early preview",
+      "start": 2679.07,
+      "duration": 4.52
+    },
+    {
+      "text": "program, and we learned\nso much from you.",
+      "start": 2683.59,
+      "duration": 3.75
+    },
+    {
+      "text": "Starting today,\nwe're rolling out",
+      "start": 2687.34,
+      "duration": 2.19
+    },
+    {
+      "text": "seven AI APIs across various\nstages of availability.",
+      "start": 2689.53,
+      "duration": 4.9
+    },
+    {
+      "text": "Backed by our best on-device\nmodels, from Gemini Nano",
+      "start": 2694.43,
+      "duration": 3.53
+    },
+    {
+      "text": "to Google Translate,\nthese APIs in Chrome",
+      "start": 2697.96,
+      "duration": 3.09
+    },
+    {
+      "text": "have been fine-tuned\nfor the web.",
+      "start": 2701.05,
+      "duration": 2.76
+    },
+    {
+      "text": "We're also working\nwith other browsers",
+      "start": 2703.81,
+      "duration": 2.22
+    },
+    {
+      "text": "to offer these same APIs,\nbacked by their own AI models,",
+      "start": 2706.03,
+      "duration": 4.12
+    },
+    {
+      "text": "so that you can use\nthem everywhere.",
+      "start": 2710.15,
+      "duration": 2.58
+    },
+    {
+      "text": "With Gemini Nano and\nour built-in APIs,",
+      "start": 2712.73,
+      "duration": 3.3
+    },
+    {
+      "text": "the data never\nleaves the device.",
+      "start": 2716.03,
+      "duration": 2.76
+    },
+    {
+      "text": "That's huge for schools,\ngovernments, and enterprises",
+      "start": 2718.79,
+      "duration": 4.07
+    },
+    {
+      "text": "with strict compliance\nand data privacy rules.",
+      "start": 2722.86,
+      "duration": 3.52
+    },
+    {
+      "text": "And it also means that you can\naffordably scale AI features",
+      "start": 2726.38,
+      "duration": 3.89
+    },
+    {
+      "text": "to a massive audience.",
+      "start": 2730.27,
+      "duration": 2.407
+    },
+    {
+      "text": "So many of you--\nyeah, that's exciting.",
+      "start": 2732.677,
+      "duration": 2.973
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2735.65,
+      "duration": 3.304
+    },
+    {
+      "text": "So many of you out\nthere are already",
+      "start": 2739.9,
+      "duration": 2.4
+    },
+    {
+      "text": "using the power of these\nAPIs for your applications,",
+      "start": 2742.3,
+      "duration": 3.67
+    },
+    {
+      "text": "like Deloitte.",
+      "start": 2745.97,
+      "duration": 1.14
+    },
+    {
+      "text": "They're experimenting\nwith an integration",
+      "start": 2747.11,
+      "duration": 2.12
+    },
+    {
+      "text": "of Chrome's built-in\nAI APIs right",
+      "start": 2749.23,
+      "duration": 3.03
+    },
+    {
+      "text": "into the Deloitte\nengineering platform",
+      "start": 2752.26,
+      "duration": 2.1
+    },
+    {
+      "text": "to improve onboarding\nand navigation.",
+      "start": 2754.36,
+      "duration": 2.77
+    },
+    {
+      "text": "30,000 developers at Deloitte\ncan find what they need",
+      "start": 2757.13,
+      "duration": 3.26
+    },
+    {
+      "text": "at a projected 30% faster, while\nalso giving better feedback",
+      "start": 2760.39,
+      "duration": 4.35
+    },
+    {
+      "text": "to improve the platform.",
+      "start": 2764.74,
+      "duration": 2.46
+    },
+    {
+      "text": "ADDY OSMANI: So\nbefore we wrap up,",
+      "start": 2767.2,
+      "duration": 1.69
+    },
+    {
+      "text": "I want to show you one more\nthing that's really exciting.",
+      "start": 2768.89,
+      "duration": 4.14
+    },
+    {
+      "text": "Today we're unlocking new\nmulti-modal capabilities",
+      "start": 2773.03,
+      "duration": 3.35
+    },
+    {
+      "text": "from Gemini Nano.",
+      "start": 2776.38,
+      "duration": 1.6
+    },
+    {
+      "text": "Our multimodal, built-in AI\nAPIs let you create experiences",
+      "start": 2777.98,
+      "duration": 4.07
+    },
+    {
+      "text": "where users can interact with\nGemini using audio and image",
+      "start": 2782.05,
+      "duration": 4.08
+    },
+    {
+      "text": "input.",
+      "start": 2786.13,
+      "duration": 0.85
+    },
+    {
+      "text": "Let me show you how this works.",
+      "start": 2786.98,
+      "duration": 2.04
+    },
+    {
+      "text": "So going back to\nour theater example,",
+      "start": 2789.02,
+      "duration": 2.88
+    },
+    {
+      "text": "we can help people to find\ntheir seat, like an AI usher.",
+      "start": 2791.9,
+      "duration": 4.5
+    },
+    {
+      "text": "So for this, we\nneed a function that",
+      "start": 2796.4,
+      "duration": 2.39
+    },
+    {
+      "text": "can extract information\nfrom a photo of our ticket",
+      "start": 2798.79,
+      "duration": 4.22
+    },
+    {
+      "text": "and highlight it in the app.",
+      "start": 2803.01,
+      "duration": 2.02
+    },
+    {
+      "text": "And I want this to work on every\ndevice and in every browser.",
+      "start": 2805.03,
+      "duration": 4.35
+    },
+    {
+      "text": "So we've partnered with\nGemini and Firebase",
+      "start": 2809.38,
+      "duration": 3.35
+    },
+    {
+      "text": "to offer a hybrid solution\nthat works everywhere,",
+      "start": 2812.73,
+      "duration": 3.81
+    },
+    {
+      "text": "on-device or in the Cloud.",
+      "start": 2816.54,
+      "duration": 3.75
+    },
+    {
+      "text": "So over here in our editor,\nwe start by setting up",
+      "start": 2820.29,
+      "duration": 3.39
+    },
+    {
+      "text": "Firebase and Gemini.",
+      "start": 2823.68,
+      "duration": 2.14
+    },
+    {
+      "text": "And we define our\nmodel parameters.",
+      "start": 2825.82,
+      "duration": 2.09
+    },
+    {
+      "text": "I'm just going to\nclick through here",
+      "start": 2827.91,
+      "duration": 1.5
+    },
+    {
+      "text": "and quickly show you-- we've\ngot a prefer_on_device right",
+      "start": 2829.41,
+      "duration": 3.27
+    },
+    {
+      "text": "over here, set as\na configuration.",
+      "start": 2832.68,
+      "duration": 2.56
+    },
+    {
+      "text": "The AI returned our\ninformation here.",
+      "start": 2835.24,
+      "duration": 3.51
+    },
+    {
+      "text": "We're just configuring the\nimage that's being formatted,",
+      "start": 2838.75,
+      "duration": 2.58
+    },
+    {
+      "text": "and we're finally\ngetting a response.",
+      "start": 2841.33,
+      "duration": 1.77
+    },
+    {
+      "text": "So let's go ahead\nand give this a try.",
+      "start": 2843.1,
+      "duration": 3.68
+    },
+    {
+      "text": "Now, normally, I'd be\ndoing this with my phone,",
+      "start": 2846.78,
+      "duration": 3.48
+    },
+    {
+      "text": "but I'm just\ndeveloping right now.",
+      "start": 2850.26,
+      "duration": 2.02
+    },
+    {
+      "text": "And so I'm just going\nto use this webcam.",
+      "start": 2852.28,
+      "duration": 2.33
+    },
+    {
+      "text": "I'm going to snap a\nphoto of this ticket.",
+      "start": 2854.61,
+      "duration": 3.16
+    },
+    {
+      "text": "Let's try this out.",
+      "start": 2857.77,
+      "duration": 1.045
+    },
+    {
+      "text": "And bam, the built-in\nmultimodal AI instantly--",
+      "start": 2861.96,
+      "duration": 5.916
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2867.876,
+      "duration": 1.734
+    },
+    {
+      "text": "The built-in multimodal AI\ninstantly located my seat",
+      "start": 2869.61,
+      "duration": 3.72
+    },
+    {
+      "text": "section in the theater.",
+      "start": 2873.33,
+      "duration": 1.95
+    },
+    {
+      "text": "It's awesome.",
+      "start": 2875.28,
+      "duration": 1.73
+    },
+    {
+      "text": "UNA KRAVETS: You don't\nhave to wait to get",
+      "start": 2877.01,
+      "duration": 1.75
+    },
+    {
+      "text": "your hands on these new tools.",
+      "start": 2878.76,
+      "duration": 2.23
+    },
+    {
+      "text": "Many of these APIs\nare broadly available,",
+      "start": 2880.99,
+      "duration": 2.76
+    },
+    {
+      "text": "and you can sign up for the\nearly preview program today",
+      "start": 2883.75,
+      "duration": 3.23
+    },
+    {
+      "text": "to start experimenting with\nthese new multimodal AI",
+      "start": 2886.98,
+      "duration": 3.81
+    },
+    {
+      "text": "and hybrid solutions.",
+      "start": 2890.79,
+      "duration": 2.34
+    },
+    {
+      "text": "From building\nbetter UI and faster",
+      "start": 2893.13,
+      "duration": 2.52
+    },
+    {
+      "text": "debugging, to creating\nall-new AI-powered features,",
+      "start": 2895.65,
+      "duration": 4.15
+    },
+    {
+      "text": "we're constantly working\nto give you more tools",
+      "start": 2899.8,
+      "duration": 2.93
+    },
+    {
+      "text": "to bring your vision to life.",
+      "start": 2902.73,
+      "duration": 3.06
+    },
+    {
+      "text": "With your help, together, we\ncan build a more powerful web,",
+      "start": 2905.79,
+      "duration": 4.02
+    },
+    {
+      "text": "made easier.",
+      "start": 2909.81,
+      "duration": 2.498
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2912.308,
+      "duration": 2.964
+    },
+    {
+      "text": "And now let's check out\nhow Firebase Studio is",
+      "start": 2919.23,
+      "duration": 2.94
+    },
+    {
+      "text": "making it even easier to\nspin up a full stack app.",
+      "start": 2922.17,
+      "duration": 3.55
+    },
+    {
+      "text": "Take it away, David.",
+      "start": 2925.72,
+      "duration": 1.868
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 2927.588,
+      "duration": 2.928
+    },
+    {
+      "text": "DAVID EAST: Last month, we\nlaunched Firebase Studio,",
+      "start": 2939.3,
+      "duration": 2.62
+    },
+    {
+      "text": "a Cloud-based AI Workspace\nwhere with a single prompt,",
+      "start": 2941.92,
+      "duration": 3.54
+    },
+    {
+      "text": "you can create a\nfully functional app.",
+      "start": 2945.46,
+      "duration": 2.73
+    },
+    {
+      "text": "You can lean on AI assistance\nthroughout or dive into the cod,",
+      "start": 2948.19,
+      "duration": 3.68
+    },
+    {
+      "text": "thanks to the full power of\nan underlying customizable VM",
+      "start": 2951.87,
+      "duration": 3.6
+    },
+    {
+      "text": "that is open and extensible,\nlike product manager Erland Van",
+      "start": 2955.47,
+      "duration": 4.65
+    },
+    {
+      "text": "Reet, who had been\nkicking around",
+      "start": 2960.12,
+      "duration": 1.62
+    },
+    {
+      "text": "an idea for a flexible\nplatform for sharing things",
+      "start": 2961.74,
+      "duration": 3.27
+    },
+    {
+      "text": "in your community\nfor quite some time,",
+      "start": 2965.01,
+      "duration": 2.68
+    },
+    {
+      "text": "but was actually able to bring\nit to life with Firebase Studio.",
+      "start": 2967.69,
+      "duration": 5.24
+    },
+    {
+      "text": "You can prompt Firebase\nStudio to generate",
+      "start": 2972.93,
+      "duration": 2.22
+    },
+    {
+      "text": "almost anything, like CRM\ntools, interview coaches, sales",
+      "start": 2975.15,
+      "duration": 4.44
+    },
+    {
+      "text": "planners, and games.",
+      "start": 2979.59,
+      "duration": 1.89
+    },
+    {
+      "text": "And today, we're adding\nmore to Firebase Studio",
+      "start": 2981.48,
+      "duration": 3.75
+    },
+    {
+      "text": "to help you build faster in\nevery part of the development",
+      "start": 2985.23,
+      "duration": 3.15
+    },
+    {
+      "text": "stack, from frontend to back.",
+      "start": 2988.38,
+      "duration": 3.45
+    },
+    {
+      "text": "Let's start with the frontend.",
+      "start": 2991.83,
+      "duration": 2.28
+    },
+    {
+      "text": "So if you're like me,\nthen there are two stages",
+      "start": 2994.11,
+      "duration": 3.0
+    },
+    {
+      "text": "you go through\nwhen you're handed",
+      "start": 2997.11,
+      "duration": 1.59
+    },
+    {
+      "text": "an incredible looking design.",
+      "start": 2998.7,
+      "duration": 1.99
+    },
+    {
+      "text": "In the first stage,\nyou're excited to work",
+      "start": 3000.69,
+      "duration": 3.08
+    },
+    {
+      "text": "on a project with such an\nawesome user interface.",
+      "start": 3003.77,
+      "duration": 3.04
+    },
+    {
+      "text": "And in the second\nstage, well, you",
+      "start": 3006.81,
+      "duration": 3.138
+    },
+    {
+      "text": "realize that you actually\nhave to build it.",
+      "start": 3009.948,
+      "duration": 1.792
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 3011.74,
+      "duration": 0.91
+    },
+    {
+      "text": "Going from a design tool to\na functional user interface,",
+      "start": 3012.65,
+      "duration": 3.34
+    },
+    {
+      "text": "running in a\ndevelopment environment",
+      "start": 3015.99,
+      "duration": 1.79
+    },
+    {
+      "text": "can take a lot of work.",
+      "start": 3017.78,
+      "duration": 1.99
+    },
+    {
+      "text": "And we wanted to\nsimplify this process.",
+      "start": 3019.77,
+      "duration": 2.85
+    },
+    {
+      "text": "So now, you can bring your\nFigma designs right to life",
+      "start": 3022.62,
+      "duration": 3.71
+    },
+    {
+      "text": "in Firebase Studio with\nsome help from Builder I/O.",
+      "start": 3026.33,
+      "duration": 4.078
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3030.408,
+      "duration": 3.486
+    },
+    {
+      "text": "Now, when you're in Figma, you\ncan install the Builder I/O",
+      "start": 3035.39,
+      "duration": 2.52
+    },
+    {
+      "text": "plugin, click to export\nto Firebase Studio,",
+      "start": 3037.91,
+      "duration": 2.61
+    },
+    {
+      "text": "and it translates all\nthe component code",
+      "start": 3040.52,
+      "duration": 2.13
+    },
+    {
+      "text": "and opens up a window with\nFirebase Studio for you",
+      "start": 3042.65,
+      "duration": 2.73
+    },
+    {
+      "text": "to kickstart your\ndevelopment process.",
+      "start": 3045.38,
+      "duration": 2.53
+    },
+    {
+      "text": "Let me show you it in action.",
+      "start": 3047.91,
+      "duration": 3.11
+    },
+    {
+      "text": "So I'm here in Firebase\nStudio after importing a Figma",
+      "start": 3051.02,
+      "duration": 3.12
+    },
+    {
+      "text": "mock of a furniture\nstore app that",
+      "start": 3054.14,
+      "duration": 2.07
+    },
+    {
+      "text": "was actually created in Stitch.",
+      "start": 3056.21,
+      "duration": 2.59
+    },
+    {
+      "text": "Now, we have this product\ngrid listing page,",
+      "start": 3058.8,
+      "duration": 3.08
+    },
+    {
+      "text": "and it's gone from a\ndesign to real app code,",
+      "start": 3061.88,
+      "duration": 2.79
+    },
+    {
+      "text": "up and running in a\ndevelopment Workspace.",
+      "start": 3064.67,
+      "duration": 2.23
+    },
+    {
+      "text": "I can scroll through\nall of these products,",
+      "start": 3066.9,
+      "duration": 2.64
+    },
+    {
+      "text": "and since it's gone from\ndesign to real code,",
+      "start": 3069.54,
+      "duration": 2.49
+    },
+    {
+      "text": "I can either dive\nright into the code,",
+      "start": 3072.03,
+      "duration": 1.83
+    },
+    {
+      "text": "or I can ask Gemini\nin Firebase Studio",
+      "start": 3073.86,
+      "duration": 2.33
+    },
+    {
+      "text": "to give me some advice\non where to begin.",
+      "start": 3076.19,
+      "duration": 2.43
+    },
+    {
+      "text": "And what I love about\nthis Figma export",
+      "start": 3078.62,
+      "duration": 3.21
+    },
+    {
+      "text": "is that it didn't just generate\nthis large monolith of code.",
+      "start": 3081.83,
+      "duration": 3.58
+    },
+    {
+      "text": "It generated individual,\nwell-isolated components",
+      "start": 3085.41,
+      "duration": 3.5
+    },
+    {
+      "text": "that make up the whole page.",
+      "start": 3088.91,
+      "duration": 2.94
+    },
+    {
+      "text": "Now, this Figma mock,\nit only added design",
+      "start": 3091.85,
+      "duration": 4.73
+    },
+    {
+      "text": "for the product grid page, but\nnot a single product detail",
+      "start": 3096.58,
+      "duration": 4.35
+    },
+    {
+      "text": "page.",
+      "start": 3100.93,
+      "duration": 0.76
+    },
+    {
+      "text": "So let's build one.",
+      "start": 3101.69,
+      "duration": 3.68
+    },
+    {
+      "text": "So I'm going to open up\nGemini in Firebase Studio,",
+      "start": 3105.37,
+      "duration": 3.27
+    },
+    {
+      "text": "and I am going to\npaste in a prompt,",
+      "start": 3108.64,
+      "duration": 2.5
+    },
+    {
+      "text": "but I will break it all down.",
+      "start": 3111.14,
+      "duration": 3.35
+    },
+    {
+      "text": "So I'm going to ask it to--",
+      "start": 3114.49,
+      "duration": 1.93
+    },
+    {
+      "text": "I asked Firebase Studio to build\na single-product detail page.",
+      "start": 3116.42,
+      "duration": 3.69
+    },
+    {
+      "text": "And I wanted to use\nthe existing component",
+      "start": 3120.11,
+      "duration": 2.15
+    },
+    {
+      "text": "system and sample data.",
+      "start": 3122.26,
+      "duration": 1.87
+    },
+    {
+      "text": "Then I'll give it a file\nname that I want it to use,",
+      "start": 3124.13,
+      "duration": 3.42
+    },
+    {
+      "text": "and I'll ask it to hook\nup to the routing system.",
+      "start": 3127.55,
+      "duration": 2.28
+    },
+    {
+      "text": "And lastly, we're\ngoing to add a feature",
+      "start": 3129.83,
+      "duration": 2.84
+    },
+    {
+      "text": "to create an Add to Cart button.",
+      "start": 3132.67,
+      "duration": 2.49
+    },
+    {
+      "text": "Now, before I send\nin this prompt",
+      "start": 3135.16,
+      "duration": 1.86
+    },
+    {
+      "text": "I can use the model selector.",
+      "start": 3137.02,
+      "duration": 2.47
+    },
+    {
+      "text": "And I can select\nto Gemini 2.5 Pro.",
+      "start": 3139.49,
+      "duration": 4.79
+    },
+    {
+      "text": "And now, when I submit this,\nGemini in Firebase Studio",
+      "start": 3144.28,
+      "duration": 8.43
+    },
+    {
+      "text": "gives me a breakdown of all the\nchanges that it wants to make.",
+      "start": 3152.71,
+      "duration": 4.03
+    },
+    {
+      "text": "But it's not going to make them\nall at once because nobody wants",
+      "start": 3156.74,
+      "duration": 4.55
+    },
+    {
+      "text": "to review a giant file of code.",
+      "start": 3161.29,
+      "duration": 2.05
+    },
+    {
+      "text": "It's going to break things\ninto multiple steps,",
+      "start": 3163.34,
+      "duration": 2.61
+    },
+    {
+      "text": "making it easier to stay in the\nloop and review each change.",
+      "start": 3165.95,
+      "duration": 4.46
+    },
+    {
+      "text": "So it starts by creating the\nfull product detail page.",
+      "start": 3170.41,
+      "duration": 3.91
+    },
+    {
+      "text": "And then after I\ncreate this file,",
+      "start": 3174.32,
+      "duration": 2.87
+    },
+    {
+      "text": "it goes and it updates\nthe routing logic.",
+      "start": 3177.19,
+      "duration": 4.11
+    },
+    {
+      "text": "Then after that, it goes\ninto the product detail card,",
+      "start": 3181.3,
+      "duration": 5.97
+    },
+    {
+      "text": "and it wraps a link.",
+      "start": 3187.27,
+      "duration": 2.05
+    },
+    {
+      "text": "So it points to--\nfrom the detail card",
+      "start": 3189.32,
+      "duration": 2.24
+    },
+    {
+      "text": "to the individual page.",
+      "start": 3191.56,
+      "duration": 2.73
+    },
+    {
+      "text": "And then after\nthat, it identifies",
+      "start": 3194.29,
+      "duration": 3.96
+    },
+    {
+      "text": "that it needs to\nupdate the Dataflow,",
+      "start": 3198.25,
+      "duration": 2.97
+    },
+    {
+      "text": "by having the correct Dataflow\nby passing in the products ID.",
+      "start": 3201.22,
+      "duration": 2.78
+    },
+    {
+      "text": "And now, this part\nis really cool.",
+      "start": 3207.73,
+      "duration": 3.84
+    },
+    {
+      "text": "Gemini and Firebase Studio\nnoticed that our product sample",
+      "start": 3211.57,
+      "duration": 5.16
+    },
+    {
+      "text": "data didn't have a\ndescription property,",
+      "start": 3216.73,
+      "duration": 2.83
+    },
+    {
+      "text": "so it wouldn't display any\ndetails about the detail page.",
+      "start": 3219.56,
+      "duration": 4.68
+    },
+    {
+      "text": "So it updated the\nplaceholder data,",
+      "start": 3224.24,
+      "duration": 2.24
+    },
+    {
+      "text": "and it generated descriptions\nfor each product.",
+      "start": 3226.48,
+      "duration": 2.495
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3228.975,
+      "duration": 2.81
+    },
+    {
+      "text": "And lastly, it generates\nthe Add to Cart button.",
+      "start": 3235.51,
+      "duration": 5.16
+    },
+    {
+      "text": "And so now, once\nI update this file",
+      "start": 3240.67,
+      "duration": 3.45
+    },
+    {
+      "text": "and go back into the web\npage, I can click around,",
+      "start": 3244.12,
+      "duration": 3.33
+    },
+    {
+      "text": "and I have myself a fully\nworking product detail page.",
+      "start": 3247.45,
+      "duration": 4.49
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3251.94,
+      "duration": 3.368
+    },
+    {
+      "text": "So all of this was done\nin just a few minutes",
+      "start": 3257.26,
+      "duration": 2.79
+    },
+    {
+      "text": "with a single import\nand a single prompt.",
+      "start": 3260.05,
+      "duration": 4.65
+    },
+    {
+      "text": "So the frontend, it brings\nthe user experience to life.",
+      "start": 3264.7,
+      "duration": 4.2
+    },
+    {
+      "text": "And for apps to truly perform,\nto handle complex data",
+      "start": 3268.9,
+      "duration": 3.57
+    },
+    {
+      "text": "and connections,\nyou need a backend.",
+      "start": 3272.47,
+      "duration": 3.49
+    },
+    {
+      "text": "So right now, in\nFirebase Studio,",
+      "start": 3275.96,
+      "duration": 1.92
+    },
+    {
+      "text": "you can add your backend\neither by coding it yourself",
+      "start": 3277.88,
+      "duration": 2.93
+    },
+    {
+      "text": "or with Help from Gemini.",
+      "start": 3280.81,
+      "duration": 1.84
+    },
+    {
+      "text": "But wouldn't it be great if it\njust added a backend for you.",
+      "start": 3282.65,
+      "duration": 5.48
+    },
+    {
+      "text": "So normally, when\nyou're prototyping",
+      "start": 3288.13,
+      "duration": 1.77
+    },
+    {
+      "text": "apps in Firebase Studio, we\ngenerate an app blueprint",
+      "start": 3289.9,
+      "duration": 3.12
+    },
+    {
+      "text": "that details some of the most\nimportant characteristics",
+      "start": 3293.02,
+      "duration": 2.7
+    },
+    {
+      "text": "of the app, such as\nfeatures and a style guide.",
+      "start": 3295.72,
+      "duration": 3.99
+    },
+    {
+      "text": "Well, rolling out\nstarting today,",
+      "start": 3299.71,
+      "duration": 2.34
+    },
+    {
+      "text": "we're adding a backend\nsection to the app blueprints.",
+      "start": 3302.05,
+      "duration": 3.406
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3305.456,
+      "duration": 3.3
+    },
+    {
+      "text": "Firebase Studio will detect\nwhen your app needs a backend",
+      "start": 3313.09,
+      "duration": 3.0
+    },
+    {
+      "text": "and provision it for you if\nyour prompt includes a database",
+      "start": 3316.09,
+      "duration": 3.51
+    },
+    {
+      "text": "or authentication.",
+      "start": 3319.6,
+      "duration": 1.68
+    },
+    {
+      "text": "So from this blueprint,\nFirebase Studio",
+      "start": 3321.28,
+      "duration": 2.01
+    },
+    {
+      "text": "will set up the configuration\nfor the backend services.",
+      "start": 3323.29,
+      "duration": 2.83
+    },
+    {
+      "text": "And then it will also generate\ncode to authenticate users",
+      "start": 3326.12,
+      "duration": 3.08
+    },
+    {
+      "text": "and save data to a database.",
+      "start": 3329.2,
+      "duration": 2.55
+    },
+    {
+      "text": "And when you're\nready to publish,",
+      "start": 3331.75,
+      "duration": 2.38
+    },
+    {
+      "text": "Firebase Studio will provision\nthose backend services",
+      "start": 3334.13,
+      "duration": 2.39
+    },
+    {
+      "text": "and deploy to\nFirebase App Hosting.",
+      "start": 3336.52,
+      "duration": 3.0
+    },
+    {
+      "text": "So you can still jump\ninto the coding workspace",
+      "start": 3339.52,
+      "duration": 3.99
+    },
+    {
+      "text": "and extend your apps\nwith any backend",
+      "start": 3343.51,
+      "duration": 2.38
+    },
+    {
+      "text": "if you prefer a different\nstack or if your needs change",
+      "start": 3345.89,
+      "duration": 2.93
+    },
+    {
+      "text": "as your app grows.",
+      "start": 3348.82,
+      "duration": 1.8
+    },
+    {
+      "text": "These features are\nstarting to roll out today,",
+      "start": 3350.62,
+      "duration": 2.2
+    },
+    {
+      "text": "and we're rapidly adding new\ncapabilities to Firebase Studio,",
+      "start": 3352.82,
+      "duration": 3.44
+    },
+    {
+      "text": "based on your feedback.",
+      "start": 3356.26,
+      "duration": 1.87
+    },
+    {
+      "text": "So try it out now.",
+      "start": 3358.13,
+      "duration": 2.521
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3360.651,
+      "duration": 2.886
+    },
+    {
+      "text": "Another demo down, and we\nare into the homestretch.",
+      "start": 3369.56,
+      "duration": 4.26
+    },
+    {
+      "text": "Next, if you want to start\ntuning your own AI models,",
+      "start": 3373.82,
+      "duration": 5.58
+    },
+    {
+      "text": "here's Gus to tell you all\nabout what's new with Gemma.",
+      "start": 3379.4,
+      "duration": 4.692
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 3384.092,
+      "duration": 3.444
+    },
+    {
+      "text": "GUS MARTINS: Hi, everyone.",
+      "start": 3393.94,
+      "duration": 1.45
+    },
+    {
+      "text": "[CHEERING]",
+      "start": 3395.39,
+      "duration": 3.388
+    },
+    {
+      "text": "I'm very happy to\nbe here with you.",
+      "start": 3400.72,
+      "duration": 2.26
+    },
+    {
+      "text": "Thank you very much.",
+      "start": 3402.98,
+      "duration": 1.44
+    },
+    {
+      "text": "Today has been all\nabout making it easier",
+      "start": 3404.42,
+      "duration": 3.62
+    },
+    {
+      "text": "for you to build great\nthings with Gemini.",
+      "start": 3408.04,
+      "duration": 3.27
+    },
+    {
+      "text": "But sometimes you really want\nto fine tune your own model,",
+      "start": 3411.31,
+      "duration": 4.49
+    },
+    {
+      "text": "like when you want AI to help\nyou understand sensitive data,",
+      "start": 3415.8,
+      "duration": 3.89
+    },
+    {
+      "text": "learn the details of your\nbusiness, or even run offline.",
+      "start": 3419.69,
+      "duration": 3.41
+    },
+    {
+      "text": "And that's why we\nreleased Gemma,",
+      "start": 3423.1,
+      "duration": 2.17
+    },
+    {
+      "text": "our family of open models.",
+      "start": 3425.27,
+      "duration": 2.57
+    },
+    {
+      "text": "With Gemma open models, we\nare bringing the magical AI",
+      "start": 3427.84,
+      "duration": 3.36
+    },
+    {
+      "text": "experiences instantly and\nprivately to our users' hands.",
+      "start": 3431.2,
+      "duration": 4.47
+    },
+    {
+      "text": "A couple of months ago,\nwe launched Gemma 3,",
+      "start": 3435.67,
+      "duration": 2.94
+    },
+    {
+      "text": "state-of-the-art open models\ncapable of running on a single",
+      "start": 3438.61,
+      "duration": 3.66
+    },
+    {
+      "text": "Cloud or desktop accelerator.",
+      "start": 3442.27,
+      "duration": 2.14
+    },
+    {
+      "text": "But we kept cooking.",
+      "start": 3444.41,
+      "duration": 1.74
+    },
+    {
+      "text": "And today, I'm thrilled\nto announce Gemma 3n,",
+      "start": 3446.15,
+      "duration": 4.23
+    },
+    {
+      "text": "a model that can now run on as\nlittle as two gigabytes of RAM.",
+      "start": 3450.38,
+      "duration": 4.075
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3454.455,
+      "duration": 1.465
+    },
+    {
+      "text": "Cool.",
+      "start": 3455.92,
+      "duration": 2.13
+    },
+    {
+      "text": "Thank you.",
+      "start": 3458.05,
+      "duration": 2.91
+    },
+    {
+      "text": "Gemma 3n shares the same\narchitecture as Gemini Nano",
+      "start": 3460.96,
+      "duration": 4.47
+    },
+    {
+      "text": "and is engineered for\nincredible performance.",
+      "start": 3465.43,
+      "duration": 3.4
+    },
+    {
+      "text": "It's much faster and\nleaner mobile hardware,",
+      "start": 3468.83,
+      "duration": 2.63
+    },
+    {
+      "text": "compared to Gemma 3.",
+      "start": 3471.46,
+      "duration": 1.83
+    },
+    {
+      "text": "We've also added\naudio understanding,",
+      "start": 3473.29,
+      "duration": 2.77
+    },
+    {
+      "text": "make it truly multimodal.",
+      "start": 3476.06,
+      "duration": 2.45
+    },
+    {
+      "text": "We are sharing Gemma\n3 in preview today.",
+      "start": 3478.51,
+      "duration": 2.95
+    },
+    {
+      "text": "It starts on Google AI Studio\nand with Google AI Edge.",
+      "start": 3481.46,
+      "duration": 3.45
+    },
+    {
+      "text": "And we are also bringing it to\nopen-source tools like Hugging",
+      "start": 3484.91,
+      "duration": 2.93
+    },
+    {
+      "text": "Face, Ollama and Unsloth and the\nothers all in the coming weeks.",
+      "start": 3487.84,
+      "duration": 4.56
+    },
+    {
+      "text": "The Gemma family is designed\nto be highly adaptable.",
+      "start": 3492.4,
+      "duration": 3.81
+    },
+    {
+      "text": "And one domain where this\nopenness and adaptability",
+      "start": 3496.21,
+      "duration": 3.54
+    },
+    {
+      "text": "is showing incredible\npromise is health care.",
+      "start": 3499.75,
+      "duration": 3.74
+    },
+    {
+      "text": "And today, I'm\nvery, very excited",
+      "start": 3503.49,
+      "duration": 2.91
+    },
+    {
+      "text": "to introduce MedGemma, our\nmost capable collection",
+      "start": 3506.4,
+      "duration": 3.84
+    },
+    {
+      "text": "of open models for\nmulti-modal medical text",
+      "start": 3510.24,
+      "duration": 3.57
+    },
+    {
+      "text": "and image understanding.",
+      "start": 3513.81,
+      "duration": 1.506
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3515.316,
+      "duration": 3.19
+    },
+    {
+      "text": "Yeah, there's a bunch of those.",
+      "start": 3519.45,
+      "duration": 2.04
+    },
+    {
+      "text": "MedGemma works great across\na range of medical, image,",
+      "start": 3521.49,
+      "duration": 3.84
+    },
+    {
+      "text": "and text applications\nso that developers",
+      "start": 3525.33,
+      "duration": 2.46
+    },
+    {
+      "text": "like you can adapt the model\nfor their own health apps,",
+      "start": 3527.79,
+      "duration": 4.56
+    },
+    {
+      "text": "for example, when you want\nto analyze radiology images",
+      "start": 3532.35,
+      "duration": 2.52
+    },
+    {
+      "text": "or summarize patient\ninformation for physicians.",
+      "start": 3534.87,
+      "duration": 4.35
+    },
+    {
+      "text": "OK, I've talked a lot already.",
+      "start": 3539.22,
+      "duration": 1.57
+    },
+    {
+      "text": "Let me show you something.",
+      "start": 3540.79,
+      "duration": 1.41
+    },
+    {
+      "text": "Let me show you how easy\nit is to grab a Gemma model",
+      "start": 3542.2,
+      "duration": 3.83
+    },
+    {
+      "text": "and build something\ncompletely unique for you.",
+      "start": 3546.03,
+      "duration": 3.6
+    },
+    {
+      "text": "And so let me go here\nto a Google Colab.",
+      "start": 3549.63,
+      "duration": 7.14
+    },
+    {
+      "text": "Nice.",
+      "start": 3556.77,
+      "duration": 1.62
+    },
+    {
+      "text": "And what we are\ngoing to do is we",
+      "start": 3558.39,
+      "duration": 1.83
+    },
+    {
+      "text": "will use Unsloth,\nwhich is a fantastic",
+      "start": 3560.22,
+      "duration": 2.25
+    },
+    {
+      "text": "library for fine-tuning LLMs\nlike Gemma, for example,",
+      "start": 3562.47,
+      "duration": 3.55
+    },
+    {
+      "text": "and it's much faster\nand use less memory.",
+      "start": 3566.02,
+      "duration": 2.55
+    },
+    {
+      "text": "And it runs great on\nNVIDIA GPUs that are",
+      "start": 3568.57,
+      "duration": 3.47
+    },
+    {
+      "text": "on Google Colab's free tier.",
+      "start": 3572.04,
+      "duration": 2.01
+    },
+    {
+      "text": "For this demo, I want to show\nyou how easy it is to fine-tune.",
+      "start": 3574.05,
+      "duration": 4.74
+    },
+    {
+      "text": "My daughter and I, we have\na unique emoji language",
+      "start": 3578.79,
+      "duration": 2.58
+    },
+    {
+      "text": "for texting.",
+      "start": 3581.37,
+      "duration": 1.06
+    },
+    {
+      "text": "It would be great to create a\npersonalized translator for us.",
+      "start": 3582.43,
+      "duration": 3.72
+    },
+    {
+      "text": "For example, when we talk about\nour dog Luna-- you know what?",
+      "start": 3586.15,
+      "duration": 3.99
+    },
+    {
+      "text": "Let me show you something.",
+      "start": 3590.14,
+      "duration": 1.41
+    },
+    {
+      "text": "This is Luna.",
+      "start": 3591.55,
+      "duration": 1.03
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3592.58,
+      "duration": 0.91
+    },
+    {
+      "text": "Thank you.",
+      "start": 3593.49,
+      "duration": 0.61
+    },
+    {
+      "text": "AUDIENCE: Aw.",
+      "start": 3594.1,
+      "duration": 0.94
+    },
+    {
+      "text": "GUS MARTINS: [LAUGHS]",
+      "start": 3595.04,
+      "duration": 1.88
+    },
+    {
+      "text": "So when we talk\nabout our dog Luna,",
+      "start": 3598.8,
+      "duration": 3.54
+    },
+    {
+      "text": "it should automatically\ntranslate to her special emoji.",
+      "start": 3602.34,
+      "duration": 3.61
+    },
+    {
+      "text": "So what I did is\nI created a custom",
+      "start": 3605.95,
+      "duration": 2.09
+    },
+    {
+      "text": "data set to fine-tune Gemma\nto teach it our specific emoji",
+      "start": 3608.04,
+      "duration": 4.05
+    },
+    {
+      "text": "dialect.",
+      "start": 3612.09,
+      "duration": 1.0
+    },
+    {
+      "text": "And in Colab, we do the same.",
+      "start": 3613.09,
+      "duration": 2.75
+    },
+    {
+      "text": "We load the model, set up the\nenvironment-- just the usual.",
+      "start": 3615.84,
+      "duration": 4.59
+    },
+    {
+      "text": "Colab caches popular models,\nso it loads really quickly.",
+      "start": 3620.43,
+      "duration": 3.85
+    },
+    {
+      "text": "Training can take some time.",
+      "start": 3624.28,
+      "duration": 4.19
+    },
+    {
+      "text": "It can take some time.",
+      "start": 3628.47,
+      "duration": 0.97
+    },
+    {
+      "text": "So I've already\nformatted the data set.",
+      "start": 3629.44,
+      "duration": 2.06
+    },
+    {
+      "text": "I did the training.",
+      "start": 3631.5,
+      "duration": 1.12
+    },
+    {
+      "text": "And now I already have\nmy custom model variant.",
+      "start": 3632.62,
+      "duration": 3.05
+    },
+    {
+      "text": "And here we go.",
+      "start": 3635.67,
+      "duration": 2.115
+    },
+    {
+      "text": "But the thing is I would\nlike to compare my custom",
+      "start": 3637.785,
+      "duration": 4.035
+    },
+    {
+      "text": "model against the original\none and see if it really",
+      "start": 3641.82,
+      "duration": 3.42
+    },
+    {
+      "text": "learned from my data.",
+      "start": 3645.24,
+      "duration": 1.42
+    },
+    {
+      "text": "And to do that, I'm\ngoing to build a UI.",
+      "start": 3646.66,
+      "duration": 2.9
+    },
+    {
+      "text": "Using the new AI Colab--",
+      "start": 3649.56,
+      "duration": 2.43
+    },
+    {
+      "text": "new AI-first Colab that\nwe've just launched,",
+      "start": 3651.99,
+      "duration": 3.07
+    },
+    {
+      "text": "it's an entirely new\nway to build faster.",
+      "start": 3655.06,
+      "duration": 2.75
+    },
+    {
+      "text": "It's a agentic-first\nexperience that",
+      "start": 3657.81,
+      "duration": 2.13
+    },
+    {
+      "text": "transforms coding into a\ndynamic conversation that helps",
+      "start": 3659.94,
+      "duration": 3.96
+    },
+    {
+      "text": "you navigate complex tests.",
+      "start": 3663.9,
+      "duration": 2.31
+    },
+    {
+      "text": "So let me show it\nfor you right here.",
+      "start": 3666.21,
+      "duration": 3.09
+    },
+    {
+      "text": "Open the feature.",
+      "start": 3669.3,
+      "duration": 1.83
+    },
+    {
+      "text": "Let's put my prompt and execute.",
+      "start": 3671.13,
+      "duration": 4.86
+    },
+    {
+      "text": "So Colab, now, is\ngenerate for me the code.",
+      "start": 3675.99,
+      "duration": 3.22
+    },
+    {
+      "text": "Oh, nice.",
+      "start": 3679.21,
+      "duration": 0.66
+    },
+    {
+      "text": "Done already.",
+      "start": 3679.87,
+      "duration": 2.12
+    },
+    {
+      "text": "Let's see.",
+      "start": 3681.99,
+      "duration": 0.73
+    },
+    {
+      "text": "And you can see here.",
+      "start": 3685.5,
+      "duration": 1.7
+    },
+    {
+      "text": "I think everyone is\nusing Colab today.",
+      "start": 3689.76,
+      "duration": 2.35
+    },
+    {
+      "text": "Nice.",
+      "start": 3692.11,
+      "duration": 0.56
+    },
+    {
+      "text": "It's here.",
+      "start": 3692.67,
+      "duration": 1.53
+    },
+    {
+      "text": "And there it is.",
+      "start": 3694.2,
+      "duration": 2.34
+    },
+    {
+      "text": "So just like that, Colab\ncreated this application for me.",
+      "start": 3696.54,
+      "duration": 3.36
+    },
+    {
+      "text": "But the thing is,\nwe should test this.",
+      "start": 3699.9,
+      "duration": 3.93
+    },
+    {
+      "text": "Any suggestions for prompts?",
+      "start": 3703.83,
+      "duration": 2.26
+    },
+    {
+      "text": "Anything?",
+      "start": 3706.09,
+      "duration": 0.5
+    },
+    {
+      "text": "AUDIENCE: \"Luna\nloves strawberries.\"",
+      "start": 3706.59,
+      "duration": 2.17
+    },
+    {
+      "text": "GUS MARTINS: Sure.",
+      "start": 3708.76,
+      "duration": 0.75
+    },
+    {
+      "text": "I can do that.",
+      "start": 3709.51,
+      "duration": 2.66
+    },
+    {
+      "text": "Luna loves-- sorry.",
+      "start": 3712.17,
+      "duration": 4.08
+    },
+    {
+      "text": "Nervous.",
+      "start": 3716.25,
+      "duration": 0.906
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 3717.156,
+      "duration": 3.514
+    },
+    {
+      "text": "Strawberries, correct?",
+      "start": 3721.17,
+      "duration": 1.54
+    },
+    {
+      "text": "Yes, let's try that.",
+      "start": 3722.71,
+      "duration": 1.17
+    },
+    {
+      "text": "Let's try that.",
+      "start": 3723.88,
+      "duration": 1.19
+    },
+    {
+      "text": "And come on.",
+      "start": 3725.07,
+      "duration": 1.87
+    },
+    {
+      "text": "Demo.",
+      "start": 3726.94,
+      "duration": 0.5
+    },
+    {
+      "text": "Ooh, worked.",
+      "start": 3727.44,
+      "duration": 1.86
+    },
+    {
+      "text": "Let's zoom in for you.",
+      "start": 3729.3,
+      "duration": 1.63
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3730.93,
+      "duration": 3.14
+    },
+    {
+      "text": "There you go.",
+      "start": 3736.55,
+      "duration": 0.82
+    },
+    {
+      "text": "You can see the difference\nbetween my custom model",
+      "start": 3737.37,
+      "duration": 2.3
+    },
+    {
+      "text": "and the base one,\nand that it really",
+      "start": 3739.67,
+      "duration": 2.31
+    },
+    {
+      "text": "knows the language and the\ndetails about our emoji dialect.",
+      "start": 3741.98,
+      "duration": 4.62
+    },
+    {
+      "text": "Isn't that cool?",
+      "start": 3746.6,
+      "duration": 1.23
+    },
+    {
+      "text": "So this is a really fun example\nthat highlights the power",
+      "start": 3747.83,
+      "duration": 4.02
+    },
+    {
+      "text": "that you have.",
+      "start": 3751.85,
+      "duration": 1.62
+    },
+    {
+      "text": "You take a base\nmodel like Gemma.",
+      "start": 3753.47,
+      "duration": 2.11
+    },
+    {
+      "text": "You take accessible\ntools like Unsloth",
+      "start": 3755.58,
+      "duration": 2.6
+    },
+    {
+      "text": "and use the new AI-first\nColab, and you can quickly",
+      "start": 3758.18,
+      "duration": 3.69
+    },
+    {
+      "text": "build and fine-tune with\nyour own personal data.",
+      "start": 3761.87,
+      "duration": 3.64
+    },
+    {
+      "text": "And you can also deploy\nthese using Google Cloud",
+      "start": 3765.51,
+      "duration": 2.99
+    },
+    {
+      "text": "with Cloud Run, Vertex.",
+      "start": 3768.5,
+      "duration": 1.96
+    },
+    {
+      "text": "Or you can even use Google\nAI Edge for local deployment.",
+      "start": 3770.46,
+      "duration": 3.47
+    },
+    {
+      "text": "But the thing is, my\nemoji project just",
+      "start": 3773.93,
+      "duration": 3.99
+    },
+    {
+      "text": "scratches the surface, showing\nhow to quickly build on a Gemma",
+      "start": 3777.92,
+      "duration": 3.45
+    },
+    {
+      "text": "model for your own use case.",
+      "start": 3781.37,
+      "duration": 2.23
+    },
+    {
+      "text": "What is truly inspiring\nis the Gemmaverse.",
+      "start": 3783.6,
+      "duration": 4.11
+    },
+    {
+      "text": "Tens of thousands of model\nvariants, tools, and libraries",
+      "start": 3787.71,
+      "duration": 3.8
+    },
+    {
+      "text": "created by you, the\ndeveloper community.",
+      "start": 3791.51,
+      "duration": 3.16
+    },
+    {
+      "text": "Gemma has been downloaded\nover 150 million times,",
+      "start": 3794.67,
+      "duration": 4.83
+    },
+    {
+      "text": "and we've seen the community\ncreate close to 70,000 Gemma",
+      "start": 3799.5,
+      "duration": 4.01
+    },
+    {
+      "text": "variants, hundreds of\nwhich are specifically",
+      "start": 3803.51,
+      "duration": 2.97
+    },
+    {
+      "text": "for the world's\ndiverse languages,",
+      "start": 3806.48,
+      "duration": 1.796
+    },
+    {
+      "text": "like the incredible story we\nshared last year of Navarasa,",
+      "start": 3808.276,
+      "duration": 4.624
+    },
+    {
+      "text": "a Gemma model fine-tuned to\nspeak 15 Indic languages.",
+      "start": 3812.9,
+      "duration": 5.46
+    },
+    {
+      "text": "Gemma is available\nin over 140 languages",
+      "start": 3818.36,
+      "duration": 2.97
+    },
+    {
+      "text": "and is the best multilingual\nopen model on the planet.",
+      "start": 3821.33,
+      "duration": 4.2
+    },
+    {
+      "text": "And we're excited to announce\nthat we're expanding Gemma",
+      "start": 3825.53,
+      "duration": 3.54
+    },
+    {
+      "text": "even further to sign languages.",
+      "start": 3829.07,
+      "duration": 3.69
+    },
+    {
+      "text": "SignGemma-- that's\na good one, guys.",
+      "start": 3832.76,
+      "duration": 3.291
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3836.051,
+      "duration": 2.946
+    },
+    {
+      "text": "SignGemma is a new\nfamily of models",
+      "start": 3840.47,
+      "duration": 2.73
+    },
+    {
+      "text": "trained to translate sign\nlanguage to spoken language",
+      "start": 3843.2,
+      "duration": 3.54
+    },
+    {
+      "text": "texts.",
+      "start": 3846.74,
+      "duration": 0.73
+    },
+    {
+      "text": "But it's best at American\nSign Language in English.",
+      "start": 3847.47,
+      "duration": 2.665
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3857.305,
+      "duration": 3.471
+    },
+    {
+      "text": "Thank you.",
+      "start": 3861.66,
+      "duration": 0.5
+    },
+    {
+      "text": "It's the most capable sign\nlanguage understanding model",
+      "start": 3862.16,
+      "duration": 3.09
+    },
+    {
+      "text": "ever.",
+      "start": 3865.25,
+      "duration": 0.73
+    },
+    {
+      "text": "And we can't wait\nfor you, developers",
+      "start": 3865.98,
+      "duration": 2.88
+    },
+    {
+      "text": "and deaf and\nhard-of-hearing communities,",
+      "start": 3868.86,
+      "duration": 2.0
+    },
+    {
+      "text": "to take this foundation\nand build with it.",
+      "start": 3870.86,
+      "duration": 3.69
+    },
+    {
+      "text": "And that's not all.",
+      "start": 3874.55,
+      "duration": 1.51
+    },
+    {
+      "text": "Gemma is also\nhelping researchers",
+      "start": 3876.06,
+      "duration": 2.03
+    },
+    {
+      "text": "expand our understanding to\nmore than just human language.",
+      "start": 3878.09,
+      "duration": 4.14
+    },
+    {
+      "text": "Just last month, we\nintroduced DolphinGemma,",
+      "start": 3882.23,
+      "duration": 3.46
+    },
+    {
+      "text": "the world's first large\nlanguage model for Dolphins.",
+      "start": 3885.69,
+      "duration": 3.38
+    },
+    {
+      "text": "AUDIENCE: [LAUGHS]",
+      "start": 3889.07,
+      "duration": 0.75
+    },
+    {
+      "text": "GUS MARTINS: Yeah.",
+      "start": 3889.82,
+      "duration": 2.614
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3892.434,
+      "duration": 3.266
+    },
+    {
+      "text": "Working with the researchers\nat Georgia Tech and the Wild",
+      "start": 3895.7,
+      "duration": 2.76
+    },
+    {
+      "text": "Dolphin Project, DolphinGemma\nwas fine-tuned on data",
+      "start": 3898.46,
+      "duration": 3.09
+    },
+    {
+      "text": "from decades of field\nresearch to help",
+      "start": 3901.55,
+      "duration": 2.97
+    },
+    {
+      "text": "scientists better\nunderstand patterns",
+      "start": 3904.52,
+      "duration": 2.16
+    },
+    {
+      "text": "in how dolphins communicate.",
+      "start": 3906.68,
+      "duration": 2.34
+    },
+    {
+      "text": "Can you imagine going to\nvacation someday and being",
+      "start": 3909.02,
+      "duration": 3.51
+    },
+    {
+      "text": "able to talk to a dolphin?",
+      "start": 3912.53,
+      "duration": 2.595
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 3915.125,
+      "duration": 1.365
+    },
+    {
+      "text": "Let's check on the progress.",
+      "start": 3916.49,
+      "duration": 2.85
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 3919.34,
+      "duration": 1.335
+    },
+    {
+      "text": "[FUN MUSIC]",
+      "start": 3920.675,
+      "duration": 1.335
+    },
+    {
+      "text": "- When I was 12\nyears old, I would",
+      "start": 3922.01,
+      "duration": 2.19
+    },
+    {
+      "text": "page through the encyclopedia.",
+      "start": 3924.2,
+      "duration": 1.81
+    },
+    {
+      "text": "I would stop on the whale and\ndolphin page, and I would go,",
+      "start": 3926.01,
+      "duration": 2.91
+    },
+    {
+      "text": "I wonder what is going on in\nthe minds of these animals.",
+      "start": 3928.92,
+      "duration": 3.62
+    },
+    {
+      "text": "Language, to me, is\nthe ultimate question",
+      "start": 3932.54,
+      "duration": 2.97
+    },
+    {
+      "text": "about intelligence,\nthe thing that we",
+      "start": 3935.51,
+      "duration": 2.52
+    },
+    {
+      "text": "haven't been able to nail\nwithout a great tool.",
+      "start": 3938.03,
+      "duration": 3.33
+    },
+    {
+      "text": "How do you decipher\nanother species?",
+      "start": 3941.36,
+      "duration": 3.6
+    },
+    {
+      "text": "The main use of DolphinGemma\nis to eventually look",
+      "start": 3944.96,
+      "duration": 2.783
+    },
+    {
+      "text": "at their natural\nlanguage patterns",
+      "start": 3947.743,
+      "duration": 1.417
+    },
+    {
+      "text": "and match it with\nthe underwater video.",
+      "start": 3949.16,
+      "duration": 2.02
+    },
+    {
+      "text": "That's how we really figure\nout \"their language,\"",
+      "start": 3951.18,
+      "duration": 2.43
+    },
+    {
+      "text": "if they had it.",
+      "start": 3953.61,
+      "duration": 1.31
+    },
+    {
+      "text": "All right.",
+      "start": 3954.92,
+      "duration": 1.03
+    },
+    {
+      "text": "Beautiful day.",
+      "start": 3955.95,
+      "duration": 1.08
+    },
+    {
+      "text": "Woo-hoo.",
+      "start": 3957.03,
+      "duration": 1.28
+    },
+    {
+      "text": "- Imagine a world where you\ncould talk to an animal.",
+      "start": 3958.31,
+      "duration": 2.85
+    },
+    {
+      "text": "DolphinGemma is the\nfirst LLM for Dolphins.",
+      "start": 3961.16,
+      "duration": 2.83
+    },
+    {
+      "text": "We've leveraged over 40 years\nof Denise's vocalization",
+      "start": 3963.99,
+      "duration": 3.05
+    },
+    {
+      "text": "research to create this large\nlanguage model to generate",
+      "start": 3967.04,
+      "duration": 3.48
+    },
+    {
+      "text": "new synthetic dolphin sounds.",
+      "start": 3970.52,
+      "duration": 2.16
+    },
+    {
+      "text": "These sounds will help us to\none day hopefully communicate",
+      "start": 3972.68,
+      "duration": 2.73
+    },
+    {
+      "text": "with the dolphins.",
+      "start": 3975.41,
+      "duration": 1.27
+    },
+    {
+      "text": "[DOLPHIN CHITTERING SOUND\nEFFECT]",
+      "start": 3976.68,
+      "duration": 2.03
+    },
+    {
+      "text": "- Thad shows up at\nmy office one day,",
+      "start": 3978.71,
+      "duration": 1.92
+    },
+    {
+      "text": "and he's wearing one of his\nmany wearable computers.",
+      "start": 3980.63,
+      "duration": 2.79
+    },
+    {
+      "text": "And they're like, ooh, this\nguy's a techno man, right?",
+      "start": 3983.42,
+      "duration": 2.98
+    },
+    {
+      "text": "- I was like, well, I\ndo wearable computers.",
+      "start": 3986.4,
+      "duration": 1.92
+    },
+    {
+      "text": "This sounds like\na summer project.",
+      "start": 3988.32,
+      "duration": 1.17
+    },
+    {
+      "text": "We'll get this done for you.",
+      "start": 3989.49,
+      "duration": 1.167
+    },
+    {
+      "text": "Here it is, 15 years later.",
+      "start": 3990.657,
+      "duration": 2.363
+    },
+    {
+      "text": "We've engineered\nthis CHAT JUNIOR",
+      "start": 3993.02,
+      "duration": 1.65
+    },
+    {
+      "text": "device to play our synthetic\ndolphin sounds underwater.",
+      "start": 3994.67,
+      "duration": 2.632
+    },
+    {
+      "text": "Let's see which one this one is.",
+      "start": 3997.302,
+      "duration": 1.333
+    },
+    {
+      "text": "[DOLPHIN WHISTLING]",
+      "start": 3998.635,
+      "duration": 1.225
+    },
+    {
+      "text": "That is the signature\nwhistle for Denise.",
+      "start": 3999.86,
+      "duration": 2.35
+    },
+    {
+      "text": "So whenever she's\napproaching the dolphin,",
+      "start": 4002.21,
+      "duration": 1.86
+    },
+    {
+      "text": "she can introduce herself.",
+      "start": 4004.07,
+      "duration": 1.58
+    },
+    {
+      "text": "- So what they're\ndoing is they're",
+      "start": 4005.65,
+      "duration": 2.04
+    },
+    {
+      "text": "testing the distance\nat which the two chat",
+      "start": 4007.69,
+      "duration": 2.76
+    },
+    {
+      "text": "boxes can efficiently\nrecognize our synthetic sounds.",
+      "start": 4010.45,
+      "duration": 4.56
+    },
+    {
+      "text": "Oh, there we go.",
+      "start": 4015.01,
+      "duration": 0.7
+    },
+    {
+      "text": "All right.",
+      "start": 4015.71,
+      "duration": 0.5
+    },
+    {
+      "text": "We want it to work close\nto 100% before we take it",
+      "start": 4016.21,
+      "duration": 3.18
+    },
+    {
+      "text": "in with the dolphins.",
+      "start": 4019.39,
+      "duration": 1.36
+    },
+    {
+      "text": "It's this dance between\ngetting data and respecting",
+      "start": 4020.75,
+      "duration": 2.48
+    },
+    {
+      "text": "their culture.",
+      "start": 4023.23,
+      "duration": 0.59
+    },
+    {
+      "text": "- You know I'm not\nvery seaworthy, so.",
+      "start": 4023.82,
+      "duration": 2.14
+    },
+    {
+      "text": "- Ah you did great.",
+      "start": 4025.96,
+      "duration": 1.15
+    },
+    {
+      "text": "- The true breakthrough\nfor me with DolphinGemma",
+      "start": 4027.11,
+      "duration": 2.12
+    },
+    {
+      "text": "is that I can generate so\nmany of these so quickly.",
+      "start": 4029.23,
+      "duration": 2.59
+    },
+    {
+      "text": "I just scroll\nthrough here and do",
+      "start": 4031.82,
+      "duration": 1.49
+    },
+    {
+      "text": "days worth of work in minutes.",
+      "start": 4033.31,
+      "duration": 2.07
+    },
+    {
+      "text": "If we're going to\nuse this open model,",
+      "start": 4035.38,
+      "duration": 1.9
+    },
+    {
+      "text": "people would take\nadvantage of Denise's 40",
+      "start": 4037.28,
+      "duration": 2.39
+    },
+    {
+      "text": "years worth of research\nand use it to model",
+      "start": 4039.67,
+      "duration": 2.4
+    },
+    {
+      "text": "for their own purposes.",
+      "start": 4042.07,
+      "duration": 2.07
+    },
+    {
+      "text": "- Science is most\nexciting when you find",
+      "start": 4044.14,
+      "duration": 1.8
+    },
+    {
+      "text": "something you're not expecting.",
+      "start": 4045.94,
+      "duration": 1.48
+    },
+    {
+      "text": "You may discover\nsomething that you never",
+      "start": 4047.42,
+      "duration": 1.708
+    },
+    {
+      "text": "even thought to look for.",
+      "start": 4049.128,
+      "duration": 1.492
+    },
+    {
+      "text": "And that's the beauty.",
+      "start": 4050.62,
+      "duration": 1.21
+    },
+    {
+      "text": "You don't know what's coming.",
+      "start": 4051.83,
+      "duration": 1.59
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 4053.42,
+      "duration": 2.94
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 4056.36,
+      "duration": 0.98
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 4057.34,
+      "duration": 3.92
+    },
+    {
+      "text": "JOSH WOODWARD:\nIsn't that amazing?",
+      "start": 4063.22,
+      "duration": 1.63
+    },
+    {
+      "text": "The world's first large\nlanguage model for dolphins.",
+      "start": 4064.85,
+      "duration": 3.45
+    },
+    {
+      "text": "And it was made to run on this\nright here, a Pixel 9 powered",
+      "start": 4068.3,
+      "duration": 4.31
+    },
+    {
+      "text": "rig, just like this, so.",
+      "start": 4072.61,
+      "duration": 3.03
+    },
+    {
+      "text": "All right, I can't help myself.",
+      "start": 4075.64,
+      "duration": 1.42
+    },
+    {
+      "text": "We're going to do one more\ndemo, and then it's a wrap.",
+      "start": 4077.06,
+      "duration": 2.25
+    },
+    {
+      "text": "Does that sound good?",
+      "start": 4079.31,
+      "duration": 0.89
+    },
+    {
+      "text": "All right.",
+      "start": 4080.2,
+      "duration": 0.65
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 4080.85,
+      "duration": 1.45
+    },
+    {
+      "text": "So does everyone remembers\nthe keynote companion app",
+      "start": 4082.3,
+      "duration": 2.82
+    },
+    {
+      "text": "that Paige built right\nhere at the desk?",
+      "start": 4085.12,
+      "duration": 1.83
+    },
+    {
+      "text": "Let's bring it back up\non stage, and let's just",
+      "start": 4086.95,
+      "duration": 2.6
+    },
+    {
+      "text": "see what it thought.",
+      "start": 4089.55,
+      "duration": 3.06
+    },
+    {
+      "text": "Hey, tell me, what did you\nthink of today's announcements?",
+      "start": 4092.61,
+      "duration": 4.619
+    },
+    {
+      "text": "KC: Oh, I thought\nthey were amazing.",
+      "start": 4097.229,
+      "duration": 2.5
+    },
+    {
+      "text": "All the new features\nfor developers",
+      "start": 4099.729,
+      "duration": 1.581
+    },
+    {
+      "text": "are so exciting,\nespecially the stuff",
+      "start": 4101.31,
+      "duration": 2.339
+    },
+    {
+      "text": "with Gemini and the\nAI tools in Chrome.",
+      "start": 4103.649,
+      "duration": 2.411
+    },
+    {
+      "text": "It's going to make it so much--",
+      "start": 4106.06,
+      "duration": 1.719
+    },
+    {
+      "text": "JOSH WOODWARD: Wait.",
+      "start": 4107.779,
+      "duration": 0.833
+    },
+    {
+      "text": "But what about my\ndemo, the one I did?",
+      "start": 4108.612,
+      "duration": 2.688
+    },
+    {
+      "text": "KC: Your demo was fan--",
+      "start": 4111.3,
+      "duration": 3.3
+    },
+    {
+      "text": "JOSH WOODWARD: Oh.",
+      "start": 4114.6,
+      "duration": 0.864
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 4115.464,
+      "duration": 1.656
+    },
+    {
+      "text": "It's a live demo.",
+      "start": 4117.12,
+      "duration": 0.85
+    },
+    {
+      "text": "What--",
+      "start": 4117.97,
+      "duration": 0.5
+    },
+    {
+      "text": "KC: Seriously, see?",
+      "start": 4118.47,
+      "duration": 2.259
+    },
+    {
+      "text": "JOSH WOODWARD: What was\nsome of the advice you'd",
+      "start": 4120.729,
+      "duration": 2.0
+    },
+    {
+      "text": "give people to\nbuild, if you don't",
+      "start": 4122.729,
+      "duration": 1.417
+    },
+    {
+      "text": "want to talk about my demo?",
+      "start": 4124.146,
+      "duration": 2.514
+    },
+    {
+      "text": "KC: I definitely recommend\ntrying out the new AI",
+      "start": 4126.66,
+      "duration": 2.55
+    },
+    {
+      "text": "features in Chrome DevTools.",
+      "start": 4129.21,
+      "duration": 1.63
+    },
+    {
+      "text": "It looks like it's going to\nmake debugging so much easier,",
+      "start": 4130.84,
+      "duration": 3.059
+    },
+    {
+      "text": "especially with\nthe AI assistants",
+      "start": 4133.899,
+      "duration": 1.941
+    },
+    {
+      "text": "helping you fix issues directly.",
+      "start": 4135.84,
+      "duration": 1.51
+    },
+    {
+      "text": "JOSH WOODWARD: All\nright, can you maybe just",
+      "start": 4137.35,
+      "duration": 1.833
+    },
+    {
+      "text": "close us-- bid a fond\nfarewell to the crowd.",
+      "start": 4139.183,
+      "duration": 2.397
+    },
+    {
+      "text": "What's on your mind?",
+      "start": 4141.58,
+      "duration": 2.48
+    },
+    {
+      "text": "KC: Absolutely.",
+      "start": 4144.06,
+      "duration": 1.08
+    },
+    {
+      "text": "Thank you all so much\nfor being here today.",
+      "start": 4145.14,
+      "duration": 2.5
+    },
+    {
+      "text": "We've seen some\nincredible innovations,",
+      "start": 4147.64,
+      "duration": 2.37
+    },
+    {
+      "text": "and I can't wait to see\nwhat amazing things you'll",
+      "start": 4150.01,
+      "duration": 2.45
+    },
+    {
+      "text": "build with all the new tools.",
+      "start": 4152.46,
+      "duration": 1.45
+    },
+    {
+      "text": "Have a fantastic rest of I/O.",
+      "start": 4153.91,
+      "duration": 2.63
+    },
+    {
+      "text": "JOSH WOODWARD: All right.",
+      "start": 4156.54,
+      "duration": 1.06
+    },
+    {
+      "text": "[CHEERING, APPLAUSE]",
+      "start": 4157.6,
+      "duration": 3.416
+    },
+    {
+      "text": "Everything you've seen here is\nall going to be on I/O.Google",
+      "start": 4163.95,
+      "duration": 3.61
+    },
+    {
+      "text": "so you can check it out.",
+      "start": 4167.56,
+      "duration": 1.02
+    },
+    {
+      "text": "And don't forget to join your\nlocal Google Developer program.",
+      "start": 4168.58,
+      "duration": 3.84
+    },
+    {
+      "text": "You can connect to\nthe local builders.",
+      "start": 4172.42,
+      "duration": 1.82
+    },
+    {
+      "text": "And I hope all of\nyou enjoy the rest",
+      "start": 4174.24,
+      "duration": 2.31
+    },
+    {
+      "text": "of I/O. We're excited\nto see how you're",
+      "start": 4176.55,
+      "duration": 1.65
+    },
+    {
+      "text": "going to change the future\nof software development.",
+      "start": 4178.2,
+      "duration": 2.29
+    },
+    {
+      "text": "Thanks again.",
+      "start": 4180.49,
+      "duration": 1.55
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 4182.04,
+      "duration": 1.8
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 4183.84,
+      "duration": 3.35
+    }
+  ]
+}

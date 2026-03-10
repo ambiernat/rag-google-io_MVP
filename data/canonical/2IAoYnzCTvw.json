@@ -1,0 +1,90 @@
+[
+  {
+    "id": "2IAoYnzCTvw__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 0.0,
+    "timestamp_end": 117.61,
+    "text": "[MUSIC PLAYING] CODY SMITH: Hi, I'm Cody, a\nproduct manager on Android. JOYCE TOH: And I'm Joyce,\na developer relations engineer on Chrome OS. Android is a powerful\nand highly capable platform for developers to\nbuild and deliver great app experiences for their users. Native Android apps offer\nperformance optimizations, device hardware access to things\nlike the camera and sensors, and offline functionality,\nwhich are all important for creating\nfeature-rich experiences. But Android apps can also\nfurther extend their capability by integrating web content\nand functionalities into it. So whether you'd like to\nleverage your existing web app investments and bring it\nto the Android platform or have an existing\nAndroid app and would like to take\nadvantage of the power and flexibility of the web, you\ncan consider the different web on Android APIs and\ntechnologies available today. In fact, over 3\nmillion Android apps are already using\nembedded web today. When and how you deploy embedded\nweb depends on your use case and needs. So let's dive further into\neach of these technologies to learn more. The two main embedded web\ntechnologies we will cover today are WebView and Custom tabs. WebView is an Android\nsystem component that allows web pages to be\ndisplayed within an activity layout. It can be customized\nand controlled to integrate and interact\nseamlessly with your native app, but in its simplest form, it's\na view that displays web pages. Custom tab is a feature\nof Android browsers that allows a customized browser\nexperience within an app. It's powered by a user's\npreferred browser, but also allows some\ndeveloper customization to the user experience. The first use case\nwe will cover is when you are looking to add\nweb content to your main app experience, where you own\nor control the content. And this use case, we recommend\nusing Android WebView. CODY SMITH: Built on the\nopen source Chromium Engine, Android WebView is the\nmost common Android API for embedded web. WebView is a view to\ndisplay web content.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 105.07,
+    "timestamp_end": 214.26,
+    "text": "And this use case, we recommend\nusing Android WebView. CODY SMITH: Built on the\nopen source Chromium Engine, Android WebView is the\nmost common Android API for embedded web. WebView is a view to\ndisplay web content. It does not include features\nof a traditional web browser, such as navigation\ncontrols or an address bar. This is so you can build in\nline with the rest of your app for a seamless user experience. Given the high flexibility\nand customization of WebView, it works really well as a main\nsupporting element to your app experience, as users\ntypically won't even know it's web powered content. Some of the most common ways\nyou can customize WebView are being able to resize the web\nelement based on your use case and need, handle events which\nimpact content rendering, such as form submissions,\nor using JavaScript to interact with and respond\nto the rest of your app code. With the advantages and\nflexibility of WebView, here are use cases where WebView\nwill typically be a good option. As shown on our initial slides\nwith Gmail, HTML text editing. Because you may already have an\nexisting investment with a web service where you\nleverage text editing, it can make sense to leverage\nthe capabilities of an HTML text editor within your\napp as well, so you can have a single source\nyou edit and deploy across your app and web. Second, HTML-based web pages\nsuch as articles, lists, web games, or other pages. Similar to the first,\nthere are many times when you as an app\ndeveloper already have an existing web page you\nwant to seamlessly integrate into your app experience without\ntaking the user to a browser. This is another good time\nto consider using WebView. Note, Android does have powerful\ntools to build and recreate this content as well with\ntextview and other views. The times to consider\nWebView are typically best when the content is\nsubject to a high frequency of iteration. Think about what King does with\ntheir popular \"Candy Crush Saga\" game. WebView allows them\nto iterate and launch",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 201.73,
+    "timestamp_end": 310.3,
+    "text": "The times to consider\nWebView are typically best when the content is\nsubject to a high frequency of iteration. Think about what King does with\ntheir popular \"Candy Crush Saga\" game. WebView allows them\nto iterate and launch in-app campaigns\nwhere they can iterate and cycle through while keeping\nthe core game experience and release cycle the same. A news article is\nanother good example. News articles can be updated\nand modified in real time as news continues to\ncome in, and oftentimes are powered by a website. Because you own or have\na high degree of trust with this content, you\ncan be confident what is being surfaced\nwith a web source will be accurate and safe. Another common use case\nto consider using WebView is to display third-party\ncontent like ads. Ads are a powerful tool to\ntailor your user experience and generate revenue\nwhen well done. WebView enables you\nto power these ad experiences from existing\nSDKs or other sources tailored to your app users for a\nseamless, integrated app experience. Before we move on, we\nwant to be sure to share with you what's new and coming\nsoon to Android WebView. First up, WebView now integrates\nwith family link content controls. Next, we've also\nadded support so you can integrate with\nvarious payment providers like Google Pay or others to\npass their payment experiences. And WebView now also supports\npasskeys as an authentication method. Additionally,\nrolling out now, we have some significant\ninvestments we've made to improve\nstartup load and rendering times in WebView for\ngreater performance. This is an area we are\ncontinuing to invest in and are excited for additional\nimprovements to come. In summary, think\nWebView when you are looking to embed web\ncontent as a part of your main or supporting app experience\nfor the benefits of flexibility and customization. JOYCE TOH: Now, let's\nlook at the second use case for using embedded\nweb within your app. In-app browsing is\nbest for when you are looking for a more full and\ntraditional browsing experience",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 299.67,
+    "timestamp_end": 412.09000000000003,
+    "text": "and customization. JOYCE TOH: Now, let's\nlook at the second use case for using embedded\nweb within your app. In-app browsing is\nbest for when you are looking for a more full and\ntraditional browsing experience but still want it done within\nthe context of your app. While WebView can also\nbe used in this scenario, it is typically for very\nadvanced custom browsing experiences, where you have\na high level of investment to build and maintain\nthe experience. Instead, we recommend Custom\ntabs as the primary method to implement an in-app\nbrowsing experience. With Custom tabs,\nyour app directly launches a customizable browser\nexperience and loads web content in it. Users remain in\nyour app while they browse so they can stay engaged\nand return easily to the app. Here, you can see an\nexample of a Custom tab and its basic default anatomy. You'll notice that the web\npage is open full screen, with a browser address\nbar at the top. Let's Zoom in on it. The address bar displays the\nURL of the current web page, letting the user know what\nwebsite they're currently looking at. This also indicates to\nthe user that they're viewing this content from\nthe Custom tabs browser. There's also a\nClose button, which lets the user easily\nclose the Custom tab and return to the app. A Share button, as well\nas an additional menu, gives the user access to\nother browser actions. Remember, Custom tabs are\na feature of and by default powered by a user's\npreferred Android browser. Therefore, it also has access\nto any API or feature offered by the browser. There's no additional\nmaintenance overhead for things like managing\npermissions, storing cookies, and saving passwords because\nit automatically shares state with the browser. With Custom tabs, you're getting\nall of these powerful browser features out of the box. On the other hand, this\nmeans capabilities may vary and customizations will differ. Though most browsers\nhave some level of support for Custom tabs,\nit's important to verify the availability of\nfeatures and ensure",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 400.13,
+    "timestamp_end": 516.429,
+    "text": "On the other hand, this\nmeans capabilities may vary and customizations will differ. Though most browsers\nhave some level of support for Custom tabs,\nit's important to verify the availability of\nfeatures and ensure compatibility of your\nimplementation across browsers. Here's how you would check\nif the user's default browser supports Custom tabs,\nwith the get package name helper method. If no package is\nreturned, this means that Custom tabs\nare not supported by the default browser. In this scenario,\nyou can continue to check if other browsers on\nthe device support custom tabs or fall back to a standard\naction view intent to launch the URL in\nany available browser. In general, Custom tabs\nare good as a powerful, out-of-the-box\nbrowsing experience. They allow you as\nan app developer to develop your\nprimary app experience and also benefit from the\ncapabilities of full browsers while keeping users\nwithin your app context. It is a simple and easy\nway to provide your users a seamless transition to and\nfrom an embedded web browsing experience. Thanks to the shared state. There's also reduced\nfriction for users if they've already signed\ninto and granted permissions to the site before. More importantly, the\nuser's credentials are protected and stay isolated\nto any third-party sites. Keeping in mind the strengths\nand limitations of Custom tabs, let's take a look\nat some examples. In this example, you\ncan see that clicking on a link in a YouTube\nvideo description opens up a Custom tab\ndisplaying the website. In this use case, the link\nis not controlled by YouTube, because the video uploader\nmanages the links that they'd like to show in the\ndescription of their video, and the link goes to third-party\ncontent not owned by YouTube. By using a Custom tab to\nopen these description links, the YouTube app doesn't have\nto worry about the best way to integrate it into\nits existing native app UI and experience. Instead, it can hand it off to\nthe device's default browser to provide the\nbrowsing experience.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 504.37,
+    "timestamp_end": 619.6,
+    "text": "the YouTube app doesn't have\nto worry about the best way to integrate it into\nits existing native app UI and experience. Instead, it can hand it off to\nthe device's default browser to provide the\nbrowsing experience. At the same time, the user\nstays within the YouTube app and can easily\nexit the Custom tab once they've completed\ntheir browsing journey. They are then returned back to\nthe YouTube app and the video they were on. Next we have the Reddit app. When a user taps\non an in-app ad, instead of taking the user\nout of the Reddit app context and redirecting them\nto an outside browser, the ad link is launched\nin a custom tab. Custom tabs allow\na light touch way to embed this content\ninto their app while continuing to keep\nthe user in their app. To get started with using a\nCustom tab to open a link, you'll need to first install and\nadd the AndroidX browser library to your project. Then create a Custom tabs intent\nand use it to launch the URL. But there's a lot more can do\nin terms of UI customization. These include setting\nthe browser bar color to match your branding,\nadding a custom close icon, and displaying the document\ntitle with the URL. You can also configure the\nentrance and exit animations for when the user transitions\nto and from the web browsing experience. Here, you can see the Custom tab\nslides in from the right when it's launched. Then upon exit, it slides\nback out to the right. While there will be\nsignals to the user that they're in a web\nbrowsing experience, these customizations allow\nyou to adapt the appearance and behavior so it\nstill matches and feels like a part of your\nmain app experience. Starting in Chrome 107, you can\nalso specify a launch height so the Custom tab doesn't\nlaunch as a full window and instead as a partial\nCustom tab, which behaves as a bottom sheet\nthat the user can also drag up to expand to full screen. As with all Custom tab features,\nsupport for these customizations may vary across browsers. So always verify\navailability of features",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 607.15,
+    "timestamp_end": 724.6700000000001,
+    "text": "behaves as a bottom sheet\nthat the user can also drag up to expand to full screen. As with all Custom tab features,\nsupport for these customizations may vary across browsers. So always verify\navailability of features and ensure compatibility\nof your implementation against browsers and\nbrowser versions. Now, let's build on what we've\nlearned about Custom tabs and take a look at a\nrelated technology. Trusted web activities,\nor TWAs for short, are a subclass of the\nAndroid activity class. It also allows an Android\napp to open web content and uses a protocol\nbased on Custom tabs. Therefore, web content\nrendered in a TWA is similarly rendered\nby the user's browser. So it also supports the same\nbrowser features and APIs. With Custom tabs, we saw that\nthere is some minimal Browser UI shown in the address bar,\nlike the URL and Close button. TWAs, however, do not\nhave the address bar, and the Web Content\nis shown full screen. This capability of TWAs\nis enabled by the fact that content in a TWA\nis considered trusted. The Android app and\nwebsite are expected to be owned by the\nsame developer. Hence, the browser\naddress bar can be removed, as there is no\nneed to indicate to the user that they're consuming\nthird-party web content. CODY SMITH: To close out, let's\ngive a quick summary of what we've covered. Here's a quick run through of\nthe features and advantages supported by WebView\nand Custom tabs. So you'll be able to make\nan informed decision when choosing which to use. If embedding web content that is\nyour own, whether it's primary or supporting\ncontent, WebView is great for more advanced control\nof the UI and more seamless integration with your\nnative app code and UX. You can leverage JavaScript to\ninteract with your app code. Its flexibility and\nadvanced controls allow you to implement\nbetter customization to mix and match and coordinate the web\nand Native Android components of your app into a tightly\nintegrated experience for your user. Custom tabs have the full power\nof the user's default browser behind it.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "2IAoYnzCTvw__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "2IAoYnzCTvw",
+    "title": "Google I/O 2025 \u2013 2IAoYnzCTvw",
+    "timestamp_start": 710.96,
+    "timestamp_end": 764.07,
+    "text": "allow you to implement\nbetter customization to mix and match and coordinate the web\nand Native Android components of your app into a tightly\nintegrated experience for your user. Custom tabs have the full power\nof the user's default browser behind it. So it can provide a great\nin-app browsing experience with some minimal Browser UI\nwhile preserving user privacy and reducing user friction. Thanks to shared state of things\nlike permissions and cookies, which stay isolated\nfrom the Android client. JOYCE TOH: Lastly,\ncheck out the links below to get the technical\ndocumentation for everything we covered. Developer.android.com\nis your go to resource for all things\nAndroid development, including embedded\nweb on Android. Thank you for joining us to\nlearn about best practices for using embedded web\nin your Android apps. We can't wait to\nsee how you take advantage of these technologies\nto build powerful and capable applications for your users. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

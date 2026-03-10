@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mP9QESmEDls__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 0.0,
+    "timestamp_end": 137.42000000000002,
+    "text": "[MUSIC PLAYING] CAREN CHANG: Hey, everyone. I'm Caren, and today I'm\njoined by Taj and Sa-ryong to talk about the\nlatest developments for on-device generative\nAI in Android. In this talk, we'll\ncover how to consider use cases for on-device\nAI in Android apps, Gemini Nano, Google's most\nefficient model that's optimized for mobile devices and\nbuilt with privacy and safety by design, a set of new gen\nAI APIs powered by Gemini Nano to help your app perform the\nmost common tasks, apps that are already using Gemini\nNano in production, and preview what we're\nworking on next to help bring Gemini Nano to more developers. Let's start by exploring\nwhat type of use cases are well-suited for AI. Successful Gemini\nusage typically focuses on one of the following. Content consumption,\ncreation, or classification. Gen AI can help users consume\ncontent from different sources by aggregating, condensing, or\nextracting important information for example, providing a\nsummary of users' notifications, summarizing contents\nof an email thread, highlighting main\npoints of a document, or extracting information from\nan image to be returned as text. Next, let's consider gen AI\nfor content creation use cases. For example, gen AI can\nhelp users brainstorm ideas or generate prompts at the\nbeginning of the content creation process. During the creation\nprocess, gen AI can offer writing assistance,\nsuch as checking grammar or rephrasing recommendations. And before sharing\ncontent, gen AI can help suggest captions,\nhashtags, or taglines. Finally, gen AI can be used\nto provide better content classification experiences. For example, by analyzing\nuser generated content, such as comments and\nreviews, to filter for spam or detect overall sentiment,\nor categorizing content into different\ntopics and themes, such as organizing personal\nnotes or documents. With these use cases\nin mind, let's now consider how on-device\ngen AI is well suited to perform these tasks. On-device gen AI\nrefers to the ability to process prompts and\ndata directly on the device",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 121.32,
+    "timestamp_end": 246.95000000000002,
+    "text": "such as organizing personal\nnotes or documents. With these use cases\nin mind, let's now consider how on-device\ngen AI is well suited to perform these tasks. On-device gen AI\nrefers to the ability to process prompts and\ndata directly on the device without sending\ndata to a server. Since the server\nis not required, this offers a few advantages. Sensitive user data can be\nprocessed locally on the device. Functionality of\nthe model does not depend on internet\nconnectivity, meaning the model can output\nresults, even with spotty or no internet connection. And lastly, there is\nno additional cost for each inference,\nsince everything runs on the user's hardware. With these advantages,\non-device gen AI makes a great\nsolution for the use cases involving content\nconsumption, creation, and classification. So let's dive into how\nyou can already enable some of these use cases today. Gemini Nano is Google's most\nefficient large language model for on-device tasks,\nand you can now build with Gemini Nano using\nAndroid's AICore system service. AICore is a system level module. By using it to\naccess Gemini Nano, apps can gain advantages\nsuch as optimizations based on device hardware to\nenable low inference latency and reduce power consumption. No extra effort in managing\nmodel deployment, including updates to Gemini Nano model. And local processing. AICore can directly\naccess the internet. Any requests to download\nmodels or other information are routed through\nprivate compute service, a separate companion\nAPK, AICore is also designed to isolate\neach inference request. This means that requests\nare handled independently and processed from\none app at a time, to mitigate the risk\nof data being exposed to other apps that use AICore. Input data and resulting\noutputs are never stored anywhere on the device. In addition, it's\nimportant to ensure that Gemini Nano\nallows developers to build with AI responsibly. To achieve this, multiple\nlayers of protection were implemented to limit\nharmful or unintended results.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 235.07,
+    "timestamp_end": 369.22999999999996,
+    "text": "In addition, it's\nimportant to ensure that Gemini Nano\nallows developers to build with AI responsibly. To achieve this, multiple\nlayers of protection were implemented to limit\nharmful or unintended results. At its core, the\nGemini Nano model is trained with\nsafety considerations. On top of that, both the input\nprompt and the results generated by Gemini Nano\nruntime are evaluated against our safety filters\nbefore providing results to the app. With these benefits\nin mind, now let's hear from Taj about how\nyou can easily adopt Gemini Nano in your Android apps. TAJ DARRA: We are\nexcited to announce a new set of generative\nAI APIs as part of ML Kit to help your apps perform\non-device tasks using the Gemini Nano model. To start, we are releasing\nfour new APIs that are built for on-device tasks. Summarization, to summarize\ntexts such as chat conversations and articles. Proofreading, to help\nusers polish short content. Rewrite, to assist users\nin rewording content in different styles,\nsuch as formally, casually, concisely,\nor even emojify. And image description, to\nprovide a short description for your images. Key benefits of\nthese APIs include high level APIs that allow\nfor easy integration, similar to the\nexisting ML Kit APIs. Quality results out of the box,\nmeaning no extra effort required for prompt engineering or fine\ntuning for specific use cases. Consistent quality across\nsupported devices and model upgrades. Now, let's dive into what\nit means for these APIs to be powered by Gemini Nano. There are four main\ncomponents that make up each of the gen AI APIs. The first, the base\nmodel, Gemini Nano. That runs the inferences. Next, for each task, we've\ndeveloped a low rank adaptation or LoRA block to further improve\nthe quality of specific tasks. Before each API's\nrelease, we also run a set of evaluation\nmetrics to standardize the quality of the output across\ndifferent Android devices. And lastly, each API is\nbuilt on optimized prompts so that the model can return\nthe best quality results.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 355.28,
+    "timestamp_end": 483.82,
+    "text": "run a set of evaluation\nmetrics to standardize the quality of the output across\ndifferent Android devices. And lastly, each API is\nbuilt on optimized prompts so that the model can return\nthe best quality results. These components significantly\nreduce developer effort required to incorporate\ngen AI in Android apps with Gemini Nano. Let's take a closer\nlook at what it takes to implement one of\nthese APIs in an Android app. For this example, let's try\nsummarizing a web article to get the gist of it. Start by defining which\ntask is being implemented. In this case, it's\nthe summarizer task. Then set different\noptions to guide the model in processing the input request\nand generating higher quality results tailored to\nthe app's use case. In this one, we want to create\na summarization of an article, and we want the summarization\nto be returned in a one bullet format. Next, check whether this API is\navailable on the current device and whether it needs\nto be downloaded. If the feature is\navailable on the device, start creating the\nsummarization request. And if the feature hasn't\nbeen downloaded yet, start the download process. Once the feature is\ndownloaded, run the inference. And finally, once\noutput is ready, read the results of\nthe summarization. When the use case is completed,\nbe sure to release the resource. Now, if we put it all together,\nnot including the code to download the feature, it\ntook just 10 lines of code to implement the summarization\nfeature with Nano. This was the code example\nfor the summarization task. But usage of all AI APIs will\nfollow this similar pattern of defining the task to\nimplement, along with the input and output format\ndesired, checking whether the task is\navailable on-device and whether it has\nalready been downloaded, creating the request\nto run the task, and running the inference\nto get a result output. Here's how we best\nuse these gen AI APIs. For the gen AI\nsummarization API, consider using it for\nsummarizing call or message transcripts that involve\ntwo or more users,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 469.68,
+    "timestamp_end": 598.02,
+    "text": "and running the inference\nto get a result output. Here's how we best\nuse these gen AI APIs. For the gen AI\nsummarization API, consider using it for\nsummarizing call or message transcripts that involve\ntwo or more users, and short articles or documents\nless than 4,000 tokens long, or about 3,000 English words. For the gen AI proofreading\nand rewrite APIs, consider using it during\nthe content creation process for short\ncontent around 256 tokens to help with tasks\nlike refining messages in a particular tone, polishing\npersonal notes for easier consumption later, and\nrewording content to be more suitable for\ndifferent settings. And lastly, the\nimage description API could be useful\nin a lot of cases, like generating titles\nof images very quickly, utilizing descriptions of\nimages for when you can't look at your screen, like when\nyou're driving or listening to a podcast, or generating\nalternative text to help visually impaired\nusers better understand the content of their images. For more detailed\ndocumentation on all the gen AI APIs, be sure to check out\nthe official documentation page and sample on GitHub. SA-RYONG KANG: Now\nthat you know how to start using Gemini\nNano in your app, let's take a look at some apps\nthat are already leveraging Gemini Nano's capabilities. Envision is an app that\nspeaks out the visual world to help visually impaired people\nlead more independent lives. A common use case for Envision\nis take a picture of document and have it read aloud. To improve this user\njourney even more, Envision integrated gen\nAI API summarization feature so users can get a\nconcise and meaningful summary of captured document. This significantly enhances\nthe user experience by allowing them\nto quickly grasp the main points of the\ndocument and determine if more detailed\nreading is desired, and saving them time and effort. During the API\nintegration process, Envision engineers found\nthat the gen AI summarization API was easy to\nuse, and they were able to build out this\nnew gen AI powered feature in just a couple of hours.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 581.86,
+    "timestamp_end": 732.2099999999999,
+    "text": "and saving them time and effort. During the API\nintegration process, Envision engineers found\nthat the gen AI summarization API was easy to\nuse, and they were able to build out this\nnew gen AI powered feature in just a couple of hours. Google Home's new\nStatus widget uses Gemini Nano to provide status\nupdates about your home. The Nano model analyzes complex\ndata, such as the device status, camera, events, and activity\nlogs, and then synthesizes this information into a\nsimple summary report. The Google Home engineers\nfound that Gemini Nano is excellent for handling\nspecialized tasks and saving on server costs. Several Google Apps, including\nMessages, Recorder, Talkback, and GBoard, have also been using\nGemini Nano for summarization, rewriting, and image description\nto improve the user experience. In addition, your Pixel phones\nthat support Gemini Nano now include these helpful features. The Weather app now gives you\na quick, personalized forecast summary. Less scrolling, more knowing. On-device scam detection is now\nrunning in Messages and Phone by Google Pixel Screenshots\napps analyze your screenshots to suggest relevant\nactions, such as navigating to an address. It also allows you to\neasily query information like package tracking\nnumber or a Wi-Fi password. And lastly, imagine having an\nefficient notetaker assisting on your calls. That's what we've built\nin Phone by Google. It not only transcribes\nand summarizes your calls, but also creates action items or\nappointments on your calendar. With so many apps already using\nGemini Nano in production, we are excited to continue\nworking on improving our Gemini Nano and Gemini API offerings. Gemini Nano is becoming\nmore and more capable. We are adding even better\nsupport for languages like German, Japanese,\nKorean, Spanish, and more. And in addition to\nimage and text input, we are also working\non supporting audio. At this year's I/O, we showcased\nour on-device innovation by launching a new\nGemma on-device model.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 713.43,
+    "timestamp_end": 866.94,
+    "text": "like German, Japanese,\nKorean, Spanish, and more. And in addition to\nimage and text input, we are also working\non supporting audio. At this year's I/O, we showcased\nour on-device innovation by launching a new\nGemma on-device model. We are excited to soon bring\nsimilar advancements along with only with Google feature\nto Gemini Nano for Android. And to make it even easier for\nyou to build with Gemini Nano, we are introducing\na gen AI prompt API designed so you can\nfocus on achieving results through well-crafted prompts. This will be available\nlater this year. Let me introduce Kakao Mobility,\ncreator of the popular South Korean rideshare app KakaoT. Let's take a look at how\nthey use the prompt API to improve a critical\nuser journey in their app. In the KakaoT app, users\ncan place delivery orders by sending a message\nthrough chat. However, Kakao\nfaced the challenge of easily extracting phone\nnumbers and addresses from delivery request messages. With the power of\nprompting, they could quickly obtain the\nrequired information. Because Nano understands\nthe meaningful entities, you don't need to teach it what\nphone numbers or addresses look like in the context of messages. Also, you might notice that\nthere were multiple names and phone numbers in the\ninput, but Nano understands which one is for the recipient. Next, the prompt API gives you\na full control of the output. Kakao wanted to get the\nresult from JSON format. Providing a schema or an example\nof desired response format was enough to get\nthe expected result. With this new implementation\nto easily extract critical information needed\nto process each delivery order request, Kakao is\nexpecting to save more than 40 seconds per order. This feature is coming to\nall KakaoT users this month. Even further, having a\nconsistent cross-device experience was key. For this, Kakao built\na unified function leveraging Gemini\nFlash in the cloud when local inference\ncouldn't ensure good quality. With this hybrid\nAI approach, they are able to provide\nconsistent experiences",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "mP9QESmEDls__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "mP9QESmEDls",
+    "title": "Google I/O 2025 \u2013 mP9QESmEDls",
+    "timestamp_start": 851.04,
+    "timestamp_end": 920.15,
+    "text": "For this, Kakao built\na unified function leveraging Gemini\nFlash in the cloud when local inference\ncouldn't ensure good quality. With this hybrid\nAI approach, they are able to provide\nconsistent experiences to all of their users. We are focused on\nenabling even more use cases with Nano's multi-modality\nby gathering feedback from developers and\npartnering with companies like Kakao Mobility. CAREN CHANG: We've covered\na lot in this session. To quickly recap, the new gen\nAI APIs powered by Gemini Nano are available for you\nto implement today. This includes APIs for\nsummarization, proofreading, rewrite, and image description. We'll continue to work on\nimproving the developer experience with Gemini Nano,\nso be sure to keep an eye on our official AI documentation\nat developer.android.com/ai for the latest updates. And we're excited to\nsee what you will build with our on-device offerings. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

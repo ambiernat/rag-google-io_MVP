@@ -1,0 +1,2007 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "fKY6qYxytLI",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.367
+    },
+    {
+      "text": "LISIE LILIENFELD: Hi.",
+      "start": 6.26,
+      "duration": 0.94
+    },
+    {
+      "text": "I'm Lisie Lilienfeld, a product\nmanager working on Android.",
+      "start": 7.2,
+      "duration": 4.17
+    },
+    {
+      "text": "I'm here with my\ncolleagues, Julie Cattiau",
+      "start": 11.37,
+      "duration": 2.45
+    },
+    {
+      "text": "and Casey Burkhardt.",
+      "start": 13.82,
+      "duration": 1.33
+    },
+    {
+      "text": "And together, we\nare excited to share",
+      "start": 15.15,
+      "duration": 2.39
+    },
+    {
+      "text": "some of the latest updates\nfrom Android Accessibility.",
+      "start": 17.54,
+      "duration": 3.81
+    },
+    {
+      "text": "For context, we on the\nAndroid accessibility team",
+      "start": 21.35,
+      "duration": 3.69
+    },
+    {
+      "text": "follow the principle of\nnothing about us without us.",
+      "start": 25.04,
+      "duration": 3.66
+    },
+    {
+      "text": "This means that we\ninnovate not only",
+      "start": 28.7,
+      "duration": 2.67
+    },
+    {
+      "text": "for people with disabilities,\nbut also with them",
+      "start": 31.37,
+      "duration": 2.97
+    },
+    {
+      "text": "in collaboration.",
+      "start": 34.34,
+      "duration": 2.01
+    },
+    {
+      "text": "So I just want to say\nthank you to all the people",
+      "start": 36.35,
+      "duration": 2.55
+    },
+    {
+      "text": "with disabilities who were\ninvolved in designing, building,",
+      "start": 38.9,
+      "duration": 3.04
+    },
+    {
+      "text": "and testing these features.",
+      "start": 41.94,
+      "duration": 2.51
+    },
+    {
+      "text": "OK, let's get into the updates.",
+      "start": 44.45,
+      "duration": 3.24
+    },
+    {
+      "text": "First, let me tell you about\nsome new features for people",
+      "start": 47.69,
+      "duration": 3.54
+    },
+    {
+      "text": "with visual impairments.",
+      "start": 51.23,
+      "duration": 1.75
+    },
+    {
+      "text": "In this section, I'll\ncover updates to TalkBack,",
+      "start": 52.98,
+      "duration": 3.41
+    },
+    {
+      "text": "Outline Text, and two features\nthat are exclusive to Pixel.",
+      "start": 56.39,
+      "duration": 3.87
+    },
+    {
+      "text": "People who are blind\nor have low vision",
+      "start": 60.26,
+      "duration": 2.71
+    },
+    {
+      "text": "are able to use their device\nwith the assistance of TalkBack,",
+      "start": 62.97,
+      "duration": 3.61
+    },
+    {
+      "text": "Android's built-in\nscreen reader.",
+      "start": 66.58,
+      "duration": 2.51
+    },
+    {
+      "text": "It reads out content that\nis on the screen in response",
+      "start": 69.09,
+      "duration": 3.39
+    },
+    {
+      "text": "to the user's taps and swipes.",
+      "start": 72.48,
+      "duration": 2.97
+    },
+    {
+      "text": "Until recently, images\nwere particularly",
+      "start": 75.45,
+      "duration": 3.0
+    },
+    {
+      "text": "hard to understand unless\ndevelopers provided",
+      "start": 78.45,
+      "duration": 3.03
+    },
+    {
+      "text": "a detailed description.",
+      "start": 81.48,
+      "duration": 1.89
+    },
+    {
+      "text": "When the user would\ninteract with an image,",
+      "start": 83.37,
+      "duration": 2.56
+    },
+    {
+      "text": "the descriptions they would get\ncould be too short or vague.",
+      "start": 85.93,
+      "duration": 3.65
+    },
+    {
+      "text": "So an image might be\ndescribed as a building",
+      "start": 89.58,
+      "duration": 3.36
+    },
+    {
+      "text": "or a view of Sydney, Australia.",
+      "start": 92.94,
+      "duration": 2.79
+    },
+    {
+      "text": "But now users can get\nimage descriptions",
+      "start": 95.73,
+      "duration": 3.06
+    },
+    {
+      "text": "powered by Gemini, which are\nmuch more detailed and vivid.",
+      "start": 98.79,
+      "duration": 4.26
+    },
+    {
+      "text": "Gemini might say, \"The\nimage shows a wide shot",
+      "start": 103.05,
+      "duration": 3.57
+    },
+    {
+      "text": "of Sydney, Australia.",
+      "start": 106.62,
+      "duration": 1.39
+    },
+    {
+      "text": "The Sydney Opera House and\nthe Sydney Harbor Bridge",
+      "start": 108.01,
+      "duration": 2.81
+    },
+    {
+      "text": "are visible in the\ncenter of the image.",
+      "start": 110.82,
+      "duration": 2.76
+    },
+    {
+      "text": "The sky is clear and blue.\"",
+      "start": 113.58,
+      "duration": 3.03
+    },
+    {
+      "text": "Users with vision impairments\nhave called these descriptions",
+      "start": 116.61,
+      "duration": 3.57
+    },
+    {
+      "text": "a game-changer.",
+      "start": 120.18,
+      "duration": 1.61
+    },
+    {
+      "text": "In the past, if they were\nbrowsing social media",
+      "start": 121.79,
+      "duration": 3.12
+    },
+    {
+      "text": "or in a group chat, they might\nhave missed out on the photos.",
+      "start": 124.91,
+      "duration": 3.81
+    },
+    {
+      "text": "Even photos in their own camera\nroll were hard to experience.",
+      "start": 128.72,
+      "duration": 4.38
+    },
+    {
+      "text": "Now TalkBack enables them\nto enjoy these photos",
+      "start": 133.1,
+      "duration": 3.42
+    },
+    {
+      "text": "of family and friends.",
+      "start": 136.52,
+      "duration": 1.92
+    },
+    {
+      "text": "And if you're interested in the\ntechnology behind this feature,",
+      "start": 138.44,
+      "duration": 3.7
+    },
+    {
+      "text": "it uses a fast and powerful\nserver-side Gemini model.",
+      "start": 142.14,
+      "duration": 5.36
+    },
+    {
+      "text": "On Pixel 9 Pro Series\ndevices, TalkBack",
+      "start": 147.5,
+      "duration": 3.72
+    },
+    {
+      "text": "can also use the\non-device Gemini Nano",
+      "start": 151.22,
+      "duration": 2.49
+    },
+    {
+      "text": "model, which enables users to\nget image descriptions even",
+      "start": 153.71,
+      "duration": 3.63
+    },
+    {
+      "text": "while offline.",
+      "start": 157.34,
+      "duration": 1.06
+    },
+    {
+      "text": "New in this release, we're\nextending TalkBack's image",
+      "start": 158.4,
+      "duration": 3.56
+    },
+    {
+      "text": "description feature to enable\nusers to ask Gemini follow-up",
+      "start": 161.96,
+      "duration": 4.23
+    },
+    {
+      "text": "questions to get more detail\non what matters to them.",
+      "start": 166.19,
+      "duration": 3.87
+    },
+    {
+      "text": "So let's say I'm in a group\nchat and a friend shares a photo",
+      "start": 170.06,
+      "duration": 3.84
+    },
+    {
+      "text": "of herself with a new guitar.",
+      "start": 173.9,
+      "duration": 2.46
+    },
+    {
+      "text": "I might not be able\nto see the image,",
+      "start": 176.36,
+      "duration": 2.5
+    },
+    {
+      "text": "but I can use TalkBack to get\na description of the image",
+      "start": 178.86,
+      "duration": 3.67
+    },
+    {
+      "text": "and then ask Gemini\nfor more details",
+      "start": 182.53,
+      "duration": 2.3
+    },
+    {
+      "text": "specifically about the guitar.",
+      "start": 184.83,
+      "duration": 2.37
+    },
+    {
+      "text": "This gives me the context to\nrespond to my friend's message",
+      "start": 187.2,
+      "duration": 3.69
+    },
+    {
+      "text": "with genuine enthusiasm.",
+      "start": 190.89,
+      "duration": 2.49
+    },
+    {
+      "text": "Also new, TalkBack\nusers can now easily",
+      "start": 193.38,
+      "duration": 3.3
+    },
+    {
+      "text": "ask Gemini to describe\nand answer questions",
+      "start": 196.68,
+      "duration": 2.73
+    },
+    {
+      "text": "about the whole screen.",
+      "start": 199.41,
+      "duration": 2.04
+    },
+    {
+      "text": "This can help with getting\noriented quickly on a new page,",
+      "start": 201.45,
+      "duration": 3.9
+    },
+    {
+      "text": "like the spoken equivalent\nof glancing at the screen.",
+      "start": 205.35,
+      "duration": 4.14
+    },
+    {
+      "text": "In addition to the\nnew AI features,",
+      "start": 209.49,
+      "duration": 2.65
+    },
+    {
+      "text": "TalkBack has made\nseveral improvements",
+      "start": 212.14,
+      "duration": 2.21
+    },
+    {
+      "text": "to help users navigate their\ndevice more efficiently.",
+      "start": 214.35,
+      "duration": 4.23
+    },
+    {
+      "text": "Screen Search lets you jump\nto what you're looking for,",
+      "start": 218.58,
+      "duration": 3.52
+    },
+    {
+      "text": "and now you can search across\nmultiple pages of an app",
+      "start": 222.1,
+      "duration": 3.2
+    },
+    {
+      "text": "within the search results view.",
+      "start": 225.3,
+      "duration": 2.7
+    },
+    {
+      "text": "Opening hyperlinks has\nalso gotten easier,",
+      "start": 228.0,
+      "duration": 3.31
+    },
+    {
+      "text": "requiring fewer taps,\neven if the link",
+      "start": 231.31,
+      "duration": 2.57
+    },
+    {
+      "text": "appears within a block of text.",
+      "start": 233.88,
+      "duration": 2.02
+    },
+    {
+      "text": "Finally, TalkBack has also made\nit easier to navigate tables",
+      "start": 235.9,
+      "duration": 4.28
+    },
+    {
+      "text": "and to use Braille displays.",
+      "start": 240.18,
+      "duration": 2.4
+    },
+    {
+      "text": "To learn more about the\nnew features and TalkBack,",
+      "start": 242.58,
+      "duration": 2.79
+    },
+    {
+      "text": "check out the Help Center\nlink in the description below.",
+      "start": 245.37,
+      "duration": 3.24
+    },
+    {
+      "text": "Now on to Outline Text--",
+      "start": 248.61,
+      "duration": 3.17
+    },
+    {
+      "text": "designed for people\nwith low vision,",
+      "start": 251.78,
+      "duration": 2.32
+    },
+    {
+      "text": "Outline Text increases\nthe contrast of the text.",
+      "start": 254.1,
+      "duration": 3.6
+    },
+    {
+      "text": "It changes the text to\neither black or white,",
+      "start": 257.7,
+      "duration": 2.93
+    },
+    {
+      "text": "based on the\noriginal text color,",
+      "start": 260.63,
+      "duration": 2.02
+    },
+    {
+      "text": "and adds a subtle,\ntransparent highlight",
+      "start": 262.65,
+      "duration": 2.48
+    },
+    {
+      "text": "behind the text for contrast.",
+      "start": 265.13,
+      "duration": 2.94
+    },
+    {
+      "text": "One nice detail is\nthat it preserves",
+      "start": 268.07,
+      "duration": 2.64
+    },
+    {
+      "text": "the color of links\nand colored text",
+      "start": 270.71,
+      "duration": 2.47
+    },
+    {
+      "text": "so users won't miss out\non a color that indicates",
+      "start": 273.18,
+      "duration": 3.11
+    },
+    {
+      "text": "important information.",
+      "start": 276.29,
+      "duration": 1.41
+    },
+    {
+      "text": "For people who\nhave Pixel devices,",
+      "start": 277.7,
+      "duration": 2.17
+    },
+    {
+      "text": "there are two more\nfeatures designed",
+      "start": 279.87,
+      "duration": 2.09
+    },
+    {
+      "text": "for vision accessibility.",
+      "start": 281.96,
+      "duration": 2.07
+    },
+    {
+      "text": "Pixel Magnifier helps\npeople with low vision",
+      "start": 284.03,
+      "duration": 3.24
+    },
+    {
+      "text": "to see the world around them.",
+      "start": 287.27,
+      "duration": 1.98
+    },
+    {
+      "text": "It uses the Pixel camera to\nlet people capture and zoom in",
+      "start": 289.25,
+      "duration": 4.29
+    },
+    {
+      "text": "on anything they want\nto see more clearly.",
+      "start": 293.54,
+      "duration": 2.85
+    },
+    {
+      "text": "New updates include the ability\nto search for specific words",
+      "start": 296.39,
+      "duration": 3.99
+    },
+    {
+      "text": "within an image and\npicture in picture,",
+      "start": 300.38,
+      "duration": 3.08
+    },
+    {
+      "text": "so you can keep track of\nwhere you are in an image when",
+      "start": 303.46,
+      "duration": 2.54
+    },
+    {
+      "text": "you zoom way in.",
+      "start": 306.0,
+      "duration": 1.98
+    },
+    {
+      "text": "Finally, there's Guided Frame.",
+      "start": 307.98,
+      "duration": 2.88
+    },
+    {
+      "text": "Guided Frame helps Pixel\nusers capture great photos",
+      "start": 310.86,
+      "duration": 4.35
+    },
+    {
+      "text": "by giving spoken feedback\non what's in the viewfinder.",
+      "start": 315.21,
+      "duration": 3.22
+    },
+    {
+      "text": "New in Guided Frame is improved\nobject detection and guidance",
+      "start": 318.43,
+      "duration": 5.21
+    },
+    {
+      "text": "on taking selfies\nat a good angle.",
+      "start": 323.64,
+      "duration": 2.2
+    },
+    {
+      "text": "Guided Frame turns\non automatically",
+      "start": 325.84,
+      "duration": 2.42
+    },
+    {
+      "text": "when a user has\nTalkBack turned on.",
+      "start": 328.26,
+      "duration": 2.29
+    },
+    {
+      "text": "But now it can also\nbe enabled directly",
+      "start": 330.55,
+      "duration": 2.42
+    },
+    {
+      "text": "in the Pixel camera settings.",
+      "start": 332.97,
+      "duration": 2.1
+    },
+    {
+      "text": "And if you want to revisit\nall the photos you've",
+      "start": 335.07,
+      "duration": 2.76
+    },
+    {
+      "text": "captured using\nGuided Frame, you can",
+      "start": 337.83,
+      "duration": 2.76
+    },
+    {
+      "text": "use TalkBack to hear\nvivid descriptions",
+      "start": 340.59,
+      "duration": 2.55
+    },
+    {
+      "text": "and ask Gemini to remind\nyou of the details from all",
+      "start": 343.14,
+      "duration": 3.42
+    },
+    {
+      "text": "your favorite moments.",
+      "start": 346.56,
+      "duration": 1.51
+    },
+    {
+      "text": "Now I'll pass it\nover to Julie to talk",
+      "start": 348.07,
+      "duration": 2.87
+    },
+    {
+      "text": "about hearing accessibility.",
+      "start": 350.94,
+      "duration": 3.6
+    },
+    {
+      "text": "JULIE CATTIAU: Thank you, Lisie.",
+      "start": 354.54,
+      "duration": 1.47
+    },
+    {
+      "text": "Hi, my name is Julie.",
+      "start": 356.01,
+      "duration": 1.84
+    },
+    {
+      "text": "I'm a product manager on the\nAndroid accessibility team.",
+      "start": 357.85,
+      "duration": 3.61
+    },
+    {
+      "text": "And I'd love to\nshare with you what",
+      "start": 361.46,
+      "duration": 1.97
+    },
+    {
+      "text": "we've been working on for\nthe deaf and hard-of-hearing",
+      "start": 363.43,
+      "duration": 2.97
+    },
+    {
+      "text": "community.",
+      "start": 366.4,
+      "duration": 1.71
+    },
+    {
+      "text": "The first update I\nhave is a feature",
+      "start": 368.11,
+      "duration": 2.76
+    },
+    {
+      "text": "called Expressive Captions.",
+      "start": 370.87,
+      "duration": 2.22
+    },
+    {
+      "text": "You may already be using\nLive Captions, which",
+      "start": 373.09,
+      "duration": 2.97
+    },
+    {
+      "text": "is designed to caption any\nvideo you watch on your Android",
+      "start": 376.06,
+      "duration": 3.51
+    },
+    {
+      "text": "device.",
+      "start": 379.57,
+      "duration": 1.35
+    },
+    {
+      "text": "Expressive Captions\nis a new feature",
+      "start": 380.92,
+      "duration": 2.52
+    },
+    {
+      "text": "in Live Captions that\nhelps viewers experience",
+      "start": 383.44,
+      "duration": 3.12
+    },
+    {
+      "text": "the emotions in a video.",
+      "start": 386.56,
+      "duration": 2.46
+    },
+    {
+      "text": "In order to do that,\nExpressive Captions",
+      "start": 389.02,
+      "duration": 2.94
+    },
+    {
+      "text": "include captions that convey\nemphasis, tone, and sounds.",
+      "start": 391.96,
+      "duration": 4.96
+    },
+    {
+      "text": "And with Expressive Captions V2,\nwhich is coming in Android 16,",
+      "start": 396.92,
+      "duration": 4.59
+    },
+    {
+      "text": "we'll also be adding\nword duration,",
+      "start": 401.51,
+      "duration": 2.84
+    },
+    {
+      "text": "as featured in this video\nclip, and new sounds,",
+      "start": 404.35,
+      "duration": 3.18
+    },
+    {
+      "text": "such as when someone is\nwhispering or yawning.",
+      "start": 407.53,
+      "duration": 4.8
+    },
+    {
+      "text": "Next, we've made some\nimprovements to Live Transcribe.",
+      "start": 412.33,
+      "duration": 3.58
+    },
+    {
+      "text": "Live Transcribe is\nan app that captions",
+      "start": 415.91,
+      "duration": 2.51
+    },
+    {
+      "text": "real-world, face-to-face\nconversations",
+      "start": 418.42,
+      "duration": 3.2
+    },
+    {
+      "text": "in more than 80 languages.",
+      "start": 421.62,
+      "duration": 2.73
+    },
+    {
+      "text": "You can use Live\nTranscribe today anywhere,",
+      "start": 424.35,
+      "duration": 3.31
+    },
+    {
+      "text": "even if you're offline,\nin 15 languages that",
+      "start": 427.66,
+      "duration": 2.87
+    },
+    {
+      "text": "are available on device.",
+      "start": 430.53,
+      "duration": 2.7
+    },
+    {
+      "text": "We've recently added a\nhandy dual-screen mode",
+      "start": 433.23,
+      "duration": 3.81
+    },
+    {
+      "text": "for foldable phones, making\nface-to-face conversations even",
+      "start": 437.04,
+      "duration": 4.59
+    },
+    {
+      "text": "easier.",
+      "start": 441.63,
+      "duration": 1.62
+    },
+    {
+      "text": "And in June, we'll also\nadd support for pinch",
+      "start": 443.25,
+      "duration": 3.48
+    },
+    {
+      "text": "to zoom so our users can\neasily and quickly increase",
+      "start": 446.73,
+      "duration": 4.14
+    },
+    {
+      "text": "the font size in\nLive Transcribe.",
+      "start": 450.87,
+      "duration": 2.55
+    },
+    {
+      "text": "Moving on to hearing aids--",
+      "start": 453.42,
+      "duration": 3.12
+    },
+    {
+      "text": "we've made it easier\nto directly transfer",
+      "start": 456.54,
+      "duration": 3.03
+    },
+    {
+      "text": "a call to your hearing aid.",
+      "start": 459.57,
+      "duration": 2.64
+    },
+    {
+      "text": "You can now directly select your\nhearing aid from the phone app",
+      "start": 462.21,
+      "duration": 3.93
+    },
+    {
+      "text": "while you're making\na phone call.",
+      "start": 466.14,
+      "duration": 2.55
+    },
+    {
+      "text": "This feature is available\nfor all hearing aids devices",
+      "start": 468.69,
+      "duration": 3.9
+    },
+    {
+      "text": "that are LE audio supported.",
+      "start": 472.59,
+      "duration": 3.63
+    },
+    {
+      "text": "We're also making it easier\nfor users of hearing aids",
+      "start": 476.22,
+      "duration": 3.12
+    },
+    {
+      "text": "to access key hearing\naid settings directly",
+      "start": 479.34,
+      "duration": 3.13
+    },
+    {
+      "text": "from the Quick Settings menu.",
+      "start": 482.47,
+      "duration": 2.4
+    },
+    {
+      "text": "Starting in Android\n15, users could easily",
+      "start": 484.87,
+      "duration": 3.87
+    },
+    {
+      "text": "manage hearing aid settings\nlike presets, battery level,",
+      "start": 488.74,
+      "duration": 3.97
+    },
+    {
+      "text": "and Bluetooth from\nthe shortcut menu.",
+      "start": 492.71,
+      "duration": 3.38
+    },
+    {
+      "text": "And building on this,\nin Android 16, users",
+      "start": 496.09,
+      "duration": 3.36
+    },
+    {
+      "text": "will also be able to view their\nhearing aids' connection status",
+      "start": 499.45,
+      "duration": 3.36
+    },
+    {
+      "text": "and control their hearing\naid ambient volume,",
+      "start": 502.81,
+      "duration": 3.03
+    },
+    {
+      "text": "all in one place.",
+      "start": 505.84,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's now take a look at\nsome of our updates focused",
+      "start": 508.84,
+      "duration": 2.91
+    },
+    {
+      "text": "on dexterity.",
+      "start": 511.75,
+      "duration": 1.75
+    },
+    {
+      "text": "We recently introduced new\nkeyboard accessibility features",
+      "start": 513.5,
+      "duration": 3.98
+    },
+    {
+      "text": "for devices with connected\nphysical keyboards.",
+      "start": 517.48,
+      "duration": 3.76
+    },
+    {
+      "text": "Mouse keys allows users to\ncontrol the on-screen mouse",
+      "start": 521.24,
+      "duration": 4.37
+    },
+    {
+      "text": "pointer using the keypad buttons\ninstead of a mouse or trackpad.",
+      "start": 525.61,
+      "duration": 4.93
+    },
+    {
+      "text": "This feature can be useful for\nusers with limited hand or arm",
+      "start": 530.54,
+      "duration": 3.95
+    },
+    {
+      "text": "movement, who may find\nit difficult to use",
+      "start": 534.49,
+      "duration": 2.4
+    },
+    {
+      "text": "a traditional mouse.",
+      "start": 536.89,
+      "duration": 2.25
+    },
+    {
+      "text": "The Sticky Keys feature allows\nyou to press shortcut keys one",
+      "start": 539.14,
+      "duration": 5.0
+    },
+    {
+      "text": "at a time instead of having\nto press multiple buttons",
+      "start": 544.14,
+      "duration": 3.42
+    },
+    {
+      "text": "simultaneously.",
+      "start": 547.56,
+      "duration": 2.49
+    },
+    {
+      "text": "Slow Keys allows you to adjust\nhow long you need to hold down",
+      "start": 550.05,
+      "duration": 4.38
+    },
+    {
+      "text": "a key before it's registered.",
+      "start": 554.43,
+      "duration": 2.52
+    },
+    {
+      "text": "And finally, Bounce Keys\nignores quickly repeated presses",
+      "start": 556.95,
+      "duration": 4.08
+    },
+    {
+      "text": "of the same key.",
+      "start": 561.03,
+      "duration": 2.43
+    },
+    {
+      "text": "All these features aim to\nimprove typing and navigation",
+      "start": 563.46,
+      "duration": 3.72
+    },
+    {
+      "text": "for users with\nlimited dexterity,",
+      "start": 567.18,
+      "duration": 2.65
+    },
+    {
+      "text": "and we hope you'll\nfind them helpful.",
+      "start": 569.83,
+      "duration": 2.07
+    },
+    {
+      "text": "And with that, I'll\npass it over to Casey",
+      "start": 571.9,
+      "duration": 2.39
+    },
+    {
+      "text": "to talk about developer\nand API updates.",
+      "start": 574.29,
+      "duration": 4.47
+    },
+    {
+      "text": "CASEY BURKHARDT: Thanks, Julie.",
+      "start": 578.76,
+      "duration": 1.32
+    },
+    {
+      "text": "Hi.",
+      "start": 580.08,
+      "duration": 0.61
+    },
+    {
+      "text": "My name is Casey Burkhardt.",
+      "start": 580.69,
+      "duration": 1.32
+    },
+    {
+      "text": "I'm a software engineer on the\nAndroid accessibility team.",
+      "start": 582.01,
+      "duration": 3.47
+    },
+    {
+      "text": "I'm excited to\nhighlight some changes",
+      "start": 585.48,
+      "duration": 1.71
+    },
+    {
+      "text": "to the accessibility\nAPIs, as well as updates",
+      "start": 587.19,
+      "duration": 3.03
+    },
+    {
+      "text": "to accessibility best practices\nand tooling for app developers.",
+      "start": 590.22,
+      "duration": 5.01
+    },
+    {
+      "text": "The Android accessibility\nAPI is the foundation",
+      "start": 595.23,
+      "duration": 2.76
+    },
+    {
+      "text": "that allows apps\nto expose their UI",
+      "start": 597.99,
+      "duration": 2.1
+    },
+    {
+      "text": "and functionality to a wide\nrange of assistive technologies.",
+      "start": 600.09,
+      "duration": 3.16
+    },
+    {
+      "text": "And in Android 16, we've\nmade a number of additions",
+      "start": 603.25,
+      "duration": 3.12
+    },
+    {
+      "text": "to the platform\naccessibility API",
+      "start": 606.37,
+      "duration": 2.01
+    },
+    {
+      "text": "to allow apps to more\nexpressively represent",
+      "start": 608.38,
+      "duration": 2.7
+    },
+    {
+      "text": "their semantics.",
+      "start": 611.08,
+      "duration": 1.86
+    },
+    {
+      "text": "We'll touch on a few\nof important additions,",
+      "start": 612.94,
+      "duration": 2.68
+    },
+    {
+      "text": "particularly in the\nAccessibilityNodeInfo",
+      "start": 615.62,
+      "duration": 2.54
+    },
+    {
+      "text": "and AccessibilityEvent\nclasses, but you",
+      "start": 618.16,
+      "duration": 2.37
+    },
+    {
+      "text": "can find the full details\non developer.android.com.",
+      "start": 620.53,
+      "duration": 3.75
+    },
+    {
+      "text": "You should also check out this\nyear's Build More Accessible UIs",
+      "start": 624.28,
+      "duration": 3.57
+    },
+    {
+      "text": "with Jetpack Compose\nGoogle I/O session",
+      "start": 627.85,
+      "duration": 2.8
+    },
+    {
+      "text": "to learn about the\naccessibility APIs",
+      "start": 630.65,
+      "duration": 2.45
+    },
+    {
+      "text": "through the semantics\nsurfaced by Compose-based UI.",
+      "start": 633.1,
+      "duration": 3.75
+    },
+    {
+      "text": "We've added a new concept known\nas a supplemental description,",
+      "start": 636.85,
+      "duration": 4.18
+    },
+    {
+      "text": "which offers a structured way to\nadd an additional accessibility",
+      "start": 641.03,
+      "duration": 3.53
+    },
+    {
+      "text": "label to UI elements in order\nto describe their purpose.",
+      "start": 644.56,
+      "duration": 3.84
+    },
+    {
+      "text": "Supplemental descriptions\nare particularly",
+      "start": 648.4,
+      "duration": 2.34
+    },
+    {
+      "text": "useful when defined on\ncontainers or focusable",
+      "start": 650.74,
+      "duration": 3.06
+    },
+    {
+      "text": "groupings of UI.",
+      "start": 653.8,
+      "duration": 1.51
+    },
+    {
+      "text": "They should be\nused in cases where",
+      "start": 655.31,
+      "duration": 1.82
+    },
+    {
+      "text": "you want to expose some\nadditional information",
+      "start": 657.13,
+      "duration": 2.28
+    },
+    {
+      "text": "about the group in a way\nthat won't override the text",
+      "start": 659.41,
+      "duration": 3.13
+    },
+    {
+      "text": "or description from its subtree.",
+      "start": 662.54,
+      "duration": 2.67
+    },
+    {
+      "text": "You can think of\nsupplemental descriptions",
+      "start": 665.21,
+      "duration": 2.13
+    },
+    {
+      "text": "as a complement to content\ndescriptions, which",
+      "start": 667.34,
+      "duration": 2.76
+    },
+    {
+      "text": "offer similar labeling\nfunctionality but will",
+      "start": 670.1,
+      "duration": 2.85
+    },
+    {
+      "text": "override the descriptions\nfrom the group's descendants.",
+      "start": 672.95,
+      "duration": 4.56
+    },
+    {
+      "text": "This API allows you to augment\nhow a screen reader would",
+      "start": 677.51,
+      "duration": 3.03
+    },
+    {
+      "text": "describe your UI without having\nto build up your own content",
+      "start": 680.54,
+      "duration": 3.33
+    },
+    {
+      "text": "descriptions, which\ncan be error prone",
+      "start": 683.87,
+      "duration": 2.25
+    },
+    {
+      "text": "or introduce challenges\nwith localization.",
+      "start": 686.12,
+      "duration": 2.53
+    },
+    {
+      "text": "As an example, a\nsupplemental description",
+      "start": 688.65,
+      "duration": 2.36
+    },
+    {
+      "text": "might be used on\na custom dropdown",
+      "start": 691.01,
+      "duration": 1.92
+    },
+    {
+      "text": "menu that doesn't otherwise have\na label describing its purpose.",
+      "start": 692.93,
+      "duration": 4.0
+    },
+    {
+      "text": "In this case, we use font_family\nto convey that information",
+      "start": 696.93,
+      "duration": 4.16
+    },
+    {
+      "text": "to users while preserving other\ntext labels that represent",
+      "start": 701.09,
+      "duration": 3.69
+    },
+    {
+      "text": "the currently selected font.",
+      "start": 704.78,
+      "duration": 2.67
+    },
+    {
+      "text": "We've also added XML\nattributes and APIs on view",
+      "start": 707.45,
+      "duration": 4.11
+    },
+    {
+      "text": "to make it more\nconvenient to provide",
+      "start": 711.56,
+      "duration": 1.86
+    },
+    {
+      "text": "supplemental descriptions.",
+      "start": 713.42,
+      "duration": 1.66
+    },
+    {
+      "text": "The accessibility API now\noffers a structured way",
+      "start": 715.08,
+      "duration": 3.11
+    },
+    {
+      "text": "to represent a UI element's\nexpanded or collapsed state.",
+      "start": 718.19,
+      "duration": 4.67
+    },
+    {
+      "text": "Previously, the\nbest approach was",
+      "start": 722.86,
+      "duration": 2.07
+    },
+    {
+      "text": "to surface this information\nthrough the free-form state",
+      "start": 724.93,
+      "duration": 2.94
+    },
+    {
+      "text": "description property,\nbut we now recommend",
+      "start": 727.87,
+      "duration": 2.55
+    },
+    {
+      "text": "migrating to this new API.",
+      "start": 730.42,
+      "duration": 1.65
+    },
+    {
+      "text": "AccessibilityNodeInfo's\nnew expandedState property",
+      "start": 732.07,
+      "duration": 3.96
+    },
+    {
+      "text": "allows you to convey\nwhether something on screen",
+      "start": 736.03,
+      "duration": 2.46
+    },
+    {
+      "text": "is collapsed, partially,\nor fully expanded.",
+      "start": 738.49,
+      "duration": 3.64
+    },
+    {
+      "text": "And the new expanded\ncontent change type",
+      "start": 742.13,
+      "duration": 2.57
+    },
+    {
+      "text": "on AccessibilityEvent\nsignals any change",
+      "start": 744.7,
+      "duration": 3.0
+    },
+    {
+      "text": "in that UI's expanded state\nto accessibility services.",
+      "start": 747.7,
+      "duration": 5.1
+    },
+    {
+      "text": "When UI can be expanded\nand collapsed by users,",
+      "start": 752.8,
+      "duration": 3.1
+    },
+    {
+      "text": "you should continue\nto support and respond",
+      "start": 755.9,
+      "duration": 2.33
+    },
+    {
+      "text": "to action expand and action\ncollapse accessibility actions,",
+      "start": 758.23,
+      "duration": 4.08
+    },
+    {
+      "text": "which are supported\ngoing back to API 21.",
+      "start": 762.31,
+      "duration": 3.01
+    },
+    {
+      "text": "We've also added a\nway for developers",
+      "start": 765.32,
+      "duration": 1.7
+    },
+    {
+      "text": "to convey partially\nchecked controls",
+      "start": 767.02,
+      "duration": 2.22
+    },
+    {
+      "text": "within the accessibility API.",
+      "start": 769.24,
+      "duration": 2.11
+    },
+    {
+      "text": "You'll sometimes\nencounter this pattern",
+      "start": 771.35,
+      "duration": 1.88
+    },
+    {
+      "text": "in hierarchical lists, where\na checkbox for a parent group",
+      "start": 773.23,
+      "duration": 3.87
+    },
+    {
+      "text": "uses this state to represent\nthat some of its children",
+      "start": 777.1,
+      "duration": 3.0
+    },
+    {
+      "text": "are selected while\nothers are not.",
+      "start": 780.1,
+      "duration": 2.8
+    },
+    {
+      "text": "We've deprecated\nAccessibilityNodeInfo's Boolean",
+      "start": 782.9,
+      "duration": 3.51
+    },
+    {
+      "text": "checked property and replaced\nit with an integer property that",
+      "start": 786.41,
+      "duration": 3.66
+    },
+    {
+      "text": "can represent true, false,\nor partial checked states.",
+      "start": 790.07,
+      "duration": 5.1
+    },
+    {
+      "text": "We've also added a new\ncontent change type",
+      "start": 795.17,
+      "duration": 2.52
+    },
+    {
+      "text": "on AccessibilityEvent to convey\na change in a UI element's",
+      "start": 797.69,
+      "duration": 3.72
+    },
+    {
+      "text": "checked state.",
+      "start": 801.41,
+      "duration": 1.62
+    },
+    {
+      "text": "Previously, sending a\nTYPE_VIEW_CLICKED accessibility",
+      "start": 803.03,
+      "duration": 3.69
+    },
+    {
+      "text": "event from a checkable\nelement was expected.",
+      "start": 806.72,
+      "duration": 4.11
+    },
+    {
+      "text": "We still recommend dispatching\nthat event on earlier API",
+      "start": 810.83,
+      "duration": 3.18
+    },
+    {
+      "text": "versions, but you should begin\nusing this new approach starting",
+      "start": 814.01,
+      "duration": 3.42
+    },
+    {
+      "text": "at API 36 to ensure\nscreenreaders provide feedback",
+      "start": 817.43,
+      "duration": 3.81
+    },
+    {
+      "text": "when the checked state\nof a control changes.",
+      "start": 821.24,
+      "duration": 2.97
+    },
+    {
+      "text": "Another addition to the\naccessibility API in Android 16",
+      "start": 824.21,
+      "duration": 3.54
+    },
+    {
+      "text": "relates to how apps represent\nform fields that require",
+      "start": 827.75,
+      "duration": 3.42
+    },
+    {
+      "text": "user input or selection.",
+      "start": 831.17,
+      "duration": 2.37
+    },
+    {
+      "text": "A common practice is to indicate\nrequired or optional fields",
+      "start": 833.54,
+      "duration": 3.63
+    },
+    {
+      "text": "using a visible text\nlabel, sometimes",
+      "start": 837.17,
+      "duration": 2.64
+    },
+    {
+      "text": "relying on an asterisk to denote\nwhich fields require input.",
+      "start": 839.81,
+      "duration": 4.08
+    },
+    {
+      "text": "In addition to\nvisible labels, we now",
+      "start": 843.89,
+      "duration": 2.21
+    },
+    {
+      "text": "also recommend using\nAccessibilityNodeInfo's",
+      "start": 846.1,
+      "duration": 2.86
+    },
+    {
+      "text": "new fieldRequired property\nto convey this information",
+      "start": 848.96,
+      "duration": 3.71
+    },
+    {
+      "text": "to Accessibility Services\nin a structured way.",
+      "start": 852.67,
+      "duration": 2.76
+    },
+    {
+      "text": "Previously, there was not\na consistent way for apps",
+      "start": 855.43,
+      "duration": 2.82
+    },
+    {
+      "text": "to indicate to\nAccessibility Services",
+      "start": 858.25,
+      "duration": 2.1
+    },
+    {
+      "text": "that a UI element was displaying\nan indeterminate state,",
+      "start": 860.35,
+      "duration": 3.64
+    },
+    {
+      "text": "such as loading\nindicators and progress",
+      "start": 863.99,
+      "duration": 2.48
+    },
+    {
+      "text": "bars without a numerical\nprogress value.",
+      "start": 866.47,
+      "duration": 2.91
+    },
+    {
+      "text": "In Android 16, we've\nmade an addition",
+      "start": 869.38,
+      "duration": 2.49
+    },
+    {
+      "text": "to AccessibilityNodeInfo's\nRange Info class",
+      "start": 871.87,
+      "duration": 3.33
+    },
+    {
+      "text": "to offer a reliable way\nto convey this state.",
+      "start": 875.2,
+      "duration": 3.87
+    },
+    {
+      "text": "When displaying such\na progress indicator,",
+      "start": 879.07,
+      "duration": 2.5
+    },
+    {
+      "text": "we recommend using the new\nindeterminate RangeInfo",
+      "start": 881.57,
+      "duration": 3.29
+    },
+    {
+      "text": "type on the accessibility node\ninfo emitted by that element.",
+      "start": 884.86,
+      "duration": 4.06
+    },
+    {
+      "text": "You can continue to set a\ncontent description or state",
+      "start": 888.92,
+      "duration": 2.75
+    },
+    {
+      "text": "description too if you'd like\nto convey additional information",
+      "start": 891.67,
+      "duration": 3.54
+    },
+    {
+      "text": "to users.",
+      "start": 895.21,
+      "duration": 1.06
+    },
+    {
+      "text": "Next up, I'd like to highlight\nsome recently updated",
+      "start": 896.27,
+      "duration": 2.75
+    },
+    {
+      "text": "accessibility best practices.",
+      "start": 899.02,
+      "duration": 2.62
+    },
+    {
+      "text": "As you heard from\nLisie, we're continuing",
+      "start": 901.64,
+      "duration": 2.34
+    },
+    {
+      "text": "to improve TalkBack's image\ndescription features, which",
+      "start": 903.98,
+      "duration": 3.18
+    },
+    {
+      "text": "automatically offer detailed\ninformation about images",
+      "start": 907.16,
+      "duration": 2.91
+    },
+    {
+      "text": "and photos.",
+      "start": 910.07,
+      "duration": 1.53
+    },
+    {
+      "text": "Developers play\nan important role",
+      "start": 911.6,
+      "duration": 1.8
+    },
+    {
+      "text": "in ensuring this feature\nworks well across apps.",
+      "start": 913.4,
+      "duration": 3.57
+    },
+    {
+      "text": "We continue to\nrecommend providing",
+      "start": 916.97,
+      "duration": 1.86
+    },
+    {
+      "text": "your own descriptive and\nlocalized accessibility",
+      "start": 918.83,
+      "duration": 2.64
+    },
+    {
+      "text": "labels throughout\nyour UIs. But in cases",
+      "start": 921.47,
+      "duration": 2.91
+    },
+    {
+      "text": "where that's not\npossible, such as where",
+      "start": 924.38,
+      "duration": 2.19
+    },
+    {
+      "text": "images from user-generated\ncontent are displayed,",
+      "start": 926.57,
+      "duration": 3.13
+    },
+    {
+      "text": "there's another important\nstep in ensuring these image",
+      "start": 929.7,
+      "duration": 2.69
+    },
+    {
+      "text": "description features work well.",
+      "start": 932.39,
+      "duration": 1.81
+    },
+    {
+      "text": "Conveying image semantics\nfrom UI elements that",
+      "start": 934.2,
+      "duration": 3.26
+    },
+    {
+      "text": "may benefit from\nadditional descriptions",
+      "start": 937.46,
+      "duration": 2.19
+    },
+    {
+      "text": "will cue TalkBack to offer\nor automatically generate",
+      "start": 939.65,
+      "duration": 3.6
+    },
+    {
+      "text": "image descriptions.",
+      "start": 943.25,
+      "duration": 1.89
+    },
+    {
+      "text": "When using Compose,\nthis is accomplished",
+      "start": 945.14,
+      "duration": 2.28
+    },
+    {
+      "text": "by using or extending\nan image Composable.",
+      "start": 947.42,
+      "duration": 3.42
+    },
+    {
+      "text": "If you're working with views,\nuse an ImageView, ImageButton,",
+      "start": 950.84,
+      "duration": 4.2
+    },
+    {
+      "text": "or one of their subclasses.",
+      "start": 955.04,
+      "duration": 2.67
+    },
+    {
+      "text": "If you're using a\ncustom view, override",
+      "start": 957.71,
+      "duration": 2.68
+    },
+    {
+      "text": "getAccessibilityClassName and\nreturn android.widget.ImageView.",
+      "start": 960.39,
+      "duration": 6.13
+    },
+    {
+      "text": "As we continue to evolve\nAndroid's Accessibility API,",
+      "start": 966.52,
+      "duration": 3.34
+    },
+    {
+      "text": "we're focusing on offering\napp developers the ability",
+      "start": 969.86,
+      "duration": 2.66
+    },
+    {
+      "text": "to convey a richer\nset of UI semantics",
+      "start": 972.52,
+      "duration": 2.73
+    },
+    {
+      "text": "that generalize to a wider\nrange of assistive technologies.",
+      "start": 975.25,
+      "duration": 3.93
+    },
+    {
+      "text": "We're also moving away\nfrom APIs and practices",
+      "start": 979.18,
+      "duration": 3.03
+    },
+    {
+      "text": "that are tied to the behaviors\nof specific accessibility",
+      "start": 982.21,
+      "duration": 3.15
+    },
+    {
+      "text": "services.",
+      "start": 985.36,
+      "duration": 0.91
+    },
+    {
+      "text": "Last year, we strongly\ndiscouraged the use",
+      "start": 986.27,
+      "duration": 2.9
+    },
+    {
+      "text": "of accessibility\nannouncements, a concept that",
+      "start": 989.17,
+      "duration": 2.91
+    },
+    {
+      "text": "often overoptimizes the\nexperience for users of screen",
+      "start": 992.08,
+      "duration": 3.03
+    },
+    {
+      "text": "readers and may produce\ninconsistent, sometimes",
+      "start": 995.11,
+      "duration": 3.21
+    },
+    {
+      "text": "disruptive experiences.",
+      "start": 998.32,
+      "duration": 2.19
+    },
+    {
+      "text": "With Android 16,\nwe're officially",
+      "start": 1000.51,
+      "duration": 2.37
+    },
+    {
+      "text": "deprecating the APIs used to\ngenerate these announcements.",
+      "start": 1002.88,
+      "duration": 3.34
+    },
+    {
+      "text": "And we're planning to end\nsupport for TalkBack's handling",
+      "start": 1006.22,
+      "duration": 2.84
+    },
+    {
+      "text": "of them in a future release.",
+      "start": 1009.06,
+      "duration": 2.82
+    },
+    {
+      "text": "To make it easier\nto test for this,",
+      "start": 1011.88,
+      "duration": 2.13
+    },
+    {
+      "text": "TalkBack's speech\noutput overlay,",
+      "start": 1014.01,
+      "duration": 2.29
+    },
+    {
+      "text": "which you can enable from\nits developer settings,",
+      "start": 1016.3,
+      "duration": 2.37
+    },
+    {
+      "text": "will turn red when\nproducing feedback",
+      "start": 1018.67,
+      "duration": 1.98
+    },
+    {
+      "text": "from accessibility\nannouncements.",
+      "start": 1020.65,
+      "duration": 2.25
+    },
+    {
+      "text": "If your app relies\non TYPE_ANNOUNCEMENT",
+      "start": 1022.9,
+      "duration": 2.83
+    },
+    {
+      "text": "AccessibilityEvents or view's\nannounceForAccessibility method,",
+      "start": 1025.73,
+      "duration": 3.81
+    },
+    {
+      "text": "now is the time to migrate to\na more semantic alternative.",
+      "start": 1029.54,
+      "duration": 3.65
+    },
+    {
+      "text": "These alternatives include\nproviding descriptive labels",
+      "start": 1033.19,
+      "duration": 3.51
+    },
+    {
+      "text": "that clearly communicates\nactions associated",
+      "start": 1036.7,
+      "duration": 2.31
+    },
+    {
+      "text": "with UI elements,\neliminating the need",
+      "start": 1039.01,
+      "duration": 2.4
+    },
+    {
+      "text": "to provide confirmation\nannouncements for most user",
+      "start": 1041.41,
+      "duration": 2.31
+    },
+    {
+      "text": "interactions; using window\nand pane titles to convey",
+      "start": 1043.72,
+      "duration": 4.5
+    },
+    {
+      "text": "a high-level description for\nactivities and fragments,",
+      "start": 1048.22,
+      "duration": 2.74
+    },
+    {
+      "text": "which are described by\nTalkBack automatically",
+      "start": 1050.96,
+      "duration": 2.3
+    },
+    {
+      "text": "during transitions; or defining\nlive regions on UI elements",
+      "start": 1053.26,
+      "duration": 4.47
+    },
+    {
+      "text": "that appear temporarily or\nupdate their descriptions",
+      "start": 1057.73,
+      "duration": 2.94
+    },
+    {
+      "text": "if users should be made aware of\nthose related content changes.",
+      "start": 1060.67,
+      "duration": 4.29
+    },
+    {
+      "text": "For more details,\ncheck out the announce",
+      "start": 1064.96,
+      "duration": 2.46
+    },
+    {
+      "text": "for accessibility API\ndocumentation linked",
+      "start": 1067.42,
+      "duration": 2.7
+    },
+    {
+      "text": "from the description below.",
+      "start": 1070.12,
+      "duration": 1.95
+    },
+    {
+      "text": "Finally, an update on testing--",
+      "start": 1072.07,
+      "duration": 2.97
+    },
+    {
+      "text": "we've heard many\nrequests from developers",
+      "start": 1075.04,
+      "duration": 2.1
+    },
+    {
+      "text": "for accessibility checks that\nwork from composed tests.",
+      "start": 1077.14,
+      "duration": 4.07
+    },
+    {
+      "text": "And today I'm excited to\nshare that in Compose 1.8,",
+      "start": 1081.21,
+      "duration": 4.08
+    },
+    {
+      "text": "we've released an integration\nbetween Android's Accessibility",
+      "start": 1085.29,
+      "duration": 3.35
+    },
+    {
+      "text": "Test Framework and the\nCompose UI test library.",
+      "start": 1088.64,
+      "duration": 4.05
+    },
+    {
+      "text": "This new offering can\nleverage existing tests",
+      "start": 1092.69,
+      "duration": 2.88
+    },
+    {
+      "text": "using Android Compose\ntest rule to identify",
+      "start": 1095.57,
+      "duration": 3.24
+    },
+    {
+      "text": "some common accessibility\nissues automatically.",
+      "start": 1098.81,
+      "duration": 3.24
+    },
+    {
+      "text": "To enable these\nchecks, add the UI test",
+      "start": 1102.05,
+      "duration": 3.51
+    },
+    {
+      "text": "JUnit 4 accessibility\ndependency,",
+      "start": 1105.56,
+      "duration": 2.94
+    },
+    {
+      "text": "call the enable accessibility\nchecks extension",
+      "start": 1108.5,
+      "duration": 3.03
+    },
+    {
+      "text": "function on Android\nCompose test rule,",
+      "start": 1111.53,
+      "duration": 2.79
+    },
+    {
+      "text": "and trigger a test action, such\nas calling perform click OK.",
+      "start": 1114.32,
+      "duration": 3.87
+    },
+    {
+      "text": "You can also invoke try\nperform accessibility checks",
+      "start": 1118.19,
+      "duration": 3.75
+    },
+    {
+      "text": "to explicitly run the\naccessibility checks",
+      "start": 1121.94,
+      "duration": 2.34
+    },
+    {
+      "text": "at any point during a test.",
+      "start": 1124.28,
+      "duration": 2.85
+    },
+    {
+      "text": "If the accessibility\ntest framework",
+      "start": 1127.13,
+      "duration": 1.86
+    },
+    {
+      "text": "identifies a potential\nissue, it will throw",
+      "start": 1128.99,
+      "duration": 2.4
+    },
+    {
+      "text": "an exception failing the test.",
+      "start": 1131.39,
+      "duration": 3.54
+    },
+    {
+      "text": "You can customize the behavior\nof the accessibility checks",
+      "start": 1134.93,
+      "duration": 3.33
+    },
+    {
+      "text": "by providing your own\nAccessibilityValidator instance.",
+      "start": 1138.26,
+      "duration": 3.73
+    },
+    {
+      "text": "This allows you to do things\nlike configure the severity",
+      "start": 1141.99,
+      "duration": 2.99
+    },
+    {
+      "text": "level for problems that will\ncause tests to fail or provide",
+      "start": 1144.98,
+      "duration": 3.63
+    },
+    {
+      "text": "a matcher for suppressing\nfailures from known issues.",
+      "start": 1148.61,
+      "duration": 3.69
+    },
+    {
+      "text": "We continue to strongly\nrecommend developers test apps",
+      "start": 1152.3,
+      "duration": 3.06
+    },
+    {
+      "text": "by using them with Android's\nassistive technologies",
+      "start": 1155.36,
+      "duration": 2.61
+    },
+    {
+      "text": "to best understand the\nexperience users will encounter.",
+      "start": 1157.97,
+      "duration": 3.39
+    },
+    {
+      "text": "These automated checks\ncomplement manual testing",
+      "start": 1161.36,
+      "duration": 2.97
+    },
+    {
+      "text": "by accelerating the\ndetection of a variety",
+      "start": 1164.33,
+      "duration": 2.46
+    },
+    {
+      "text": "of possible\naccessibility barriers.",
+      "start": 1166.79,
+      "duration": 2.23
+    },
+    {
+      "text": "We've covered a lot\nhere, from updates",
+      "start": 1169.02,
+      "duration": 2.27
+    },
+    {
+      "text": "to accessibility features\nrelated to vision, hearing,",
+      "start": 1171.29,
+      "duration": 2.71
+    },
+    {
+      "text": "and dexterity to changes\nin our APIs, best",
+      "start": 1174.0,
+      "duration": 2.96
+    },
+    {
+      "text": "practices, and tooling.",
+      "start": 1176.96,
+      "duration": 2.1
+    },
+    {
+      "text": "Be sure to check out the\nlinks in the description",
+      "start": 1179.06,
+      "duration": 2.28
+    },
+    {
+      "text": "to learn more\nabout these topics.",
+      "start": 1181.34,
+      "duration": 2.05
+    },
+    {
+      "text": "Thanks for joining us today\nand for doing your part",
+      "start": 1183.39,
+      "duration": 2.69
+    },
+    {
+      "text": "to build an ecosystem of highly\naccessible and inclusive apps.",
+      "start": 1186.08,
+      "duration": 3.9
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1189.98,
+      "duration": 2.75
+    }
+  ]
+}

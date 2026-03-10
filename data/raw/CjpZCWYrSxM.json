@@ -1,0 +1,3607 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "CjpZCWYrSxM",
+  "language": "en",
+  "segments": [
+    {
+      "text": "It's not often that we witness a",
+      "start": 6.64,
+      "duration": 3.84
+    },
+    {
+      "text": "technology redefine the boundaries of",
+      "start": 8.48,
+      "duration": 4.0
+    },
+    {
+      "text": "human potential, but one of these",
+      "start": 10.48,
+      "duration": 5.119
+    },
+    {
+      "text": "moments is now. And the technology is of",
+      "start": 12.48,
+      "duration": 6.48
+    },
+    {
+      "text": "course AI. My name is Thomas Steiner.",
+      "start": 15.599,
+      "duration": 5.281
+    },
+    {
+      "text": "I'm a developer relations engineer at",
+      "start": 18.96,
+      "duration": 4.319
+    },
+    {
+      "text": "Chrome. And in my talk, practical",
+      "start": 20.88,
+      "duration": 4.159
+    },
+    {
+      "text": "built-in AI with Gemman Anano and",
+      "start": 23.279,
+      "duration": 3.92
+    },
+    {
+      "text": "Chrome, I want to take you with me on a",
+      "start": 25.039,
+      "duration": 4.08
+    },
+    {
+      "text": "journey into the exciting world of",
+      "start": 27.199,
+      "duration": 5.2
+    },
+    {
+      "text": "built-in AI in Chrome. Chrome's AI",
+      "start": 29.119,
+      "duration": 6.721
+    },
+    {
+      "text": "mission is simple and yet powerful. Make",
+      "start": 32.399,
+      "duration": 6.0
+    },
+    {
+      "text": "Chrome and the web smarter for all",
+      "start": 35.84,
+      "duration": 6.399
+    },
+    {
+      "text": "developers and all users. All developers",
+      "start": 38.399,
+      "duration": 6.16
+    },
+    {
+      "text": "means web and extension developers of",
+      "start": 42.239,
+      "duration": 5.041
+    },
+    {
+      "text": "any skill level. AI should be easy to",
+      "start": 44.559,
+      "duration": 4.801
+    },
+    {
+      "text": "use independent of whether whether or",
+      "start": 47.28,
+      "duration": 5.52
+    },
+    {
+      "text": "not you are an AI expert and all users",
+      "start": 49.36,
+      "duration": 6.48
+    },
+    {
+      "text": "means democratizing access to AI for all",
+      "start": 52.8,
+      "duration": 5.919
+    },
+    {
+      "text": "users, not just those with access to the",
+      "start": 55.84,
+      "duration": 5.32
+    },
+    {
+      "text": "latest ultra high-end devices and",
+      "start": 58.719,
+      "duration": 6.241
+    },
+    {
+      "text": "services. One thing in 2025 is certain,",
+      "start": 61.16,
+      "duration": 7.4
+    },
+    {
+      "text": "AI is everywhere. And when AI is",
+      "start": 64.96,
+      "duration": 6.64
+    },
+    {
+      "text": "everywhere, then of course it's also in",
+      "start": 68.56,
+      "duration": 5.84
+    },
+    {
+      "text": "Chrome. It's actually not just in",
+      "start": 71.6,
+      "duration": 6.24
+    },
+    {
+      "text": "Chrome, it's built right into Chrome as",
+      "start": 74.4,
+      "duration": 6.96
+    },
+    {
+      "text": "built-in AI. So, what's coming in this",
+      "start": 77.84,
+      "duration": 6.639
+    },
+    {
+      "text": "talk? First, I recap the concept of",
+      "start": 81.36,
+      "duration": 5.439
+    },
+    {
+      "text": "built-in AI and provide an overview of",
+      "start": 84.479,
+      "duration": 4.68
+    },
+    {
+      "text": "the built-in AI APIs we've been",
+      "start": 86.799,
+      "duration": 5.041
+    },
+    {
+      "text": "developing. Next, I'll show you some",
+      "start": 89.159,
+      "duration": 4.761
+    },
+    {
+      "text": "amazing use cases that our partners have",
+      "start": 91.84,
+      "duration": 5.44
+    },
+    {
+      "text": "realized with these APIs. And then I",
+      "start": 93.92,
+      "duration": 5.92
+    },
+    {
+      "text": "have some new and exciting features up",
+      "start": 97.28,
+      "duration": 5.28
+    },
+    {
+      "text": "my sleeve that I'll show you. So be",
+      "start": 99.84,
+      "duration": 4.56
+    },
+    {
+      "text": "prepared to see some more exciting",
+      "start": 102.56,
+      "duration": 5.199
+    },
+    {
+      "text": "built-in surprises. Oh, and legal",
+      "start": 104.4,
+      "duration": 5.6
+    },
+    {
+      "text": "wouldn't let me use the original Madlan",
+      "start": 107.759,
+      "duration": 5.121
+    },
+    {
+      "text": "Dubois train meme. So I've just",
+      "start": 110.0,
+      "duration": 6.399
+    },
+    {
+      "text": "reenacted it myself. Enjoy the meme and",
+      "start": 112.88,
+      "duration": 5.919
+    },
+    {
+      "text": "let's get started. The concept of",
+      "start": 116.399,
+      "duration": 4.481
+    },
+    {
+      "text": "built-in AI was introduced by my",
+      "start": 118.799,
+      "duration": 4.881
+    },
+    {
+      "text": "colleagues Kenji and Mood in their talk",
+      "start": 120.88,
+      "duration": 6.0
+    },
+    {
+      "text": "practical ondevice web AI from Google IO",
+      "start": 123.68,
+      "duration": 6.639
+    },
+    {
+      "text": "last year. I highly recommend you go",
+      "start": 126.88,
+      "duration": 6.4
+    },
+    {
+      "text": "check out that talk or watch it again.",
+      "start": 130.319,
+      "duration": 5.441
+    },
+    {
+      "text": "Since then, we established the concept",
+      "start": 133.28,
+      "duration": 5.2
+    },
+    {
+      "text": "of built-in area, reshaped the API",
+      "start": 135.76,
+      "duration": 4.64
+    },
+    {
+      "text": "surfaces multiple times based on",
+      "start": 138.48,
+      "duration": 4.08
+    },
+    {
+      "text": "developer feedback, and made some",
+      "start": 140.4,
+      "duration": 4.559
+    },
+    {
+      "text": "important quality improvements to the AI",
+      "start": 142.56,
+      "duration": 4.0
+    },
+    {
+      "text": "model.",
+      "start": 144.959,
+      "duration": 4.0
+    },
+    {
+      "text": "Kenji provided a first update of the",
+      "start": 146.56,
+      "duration": 4.72
+    },
+    {
+      "text": "built-in AI effort at the web AI summit",
+      "start": 148.959,
+      "duration": 5.201
+    },
+    {
+      "text": "in November. Again, I highly recommend",
+      "start": 151.28,
+      "duration": 5.28
+    },
+    {
+      "text": "you watch this talk and all the other",
+      "start": 154.16,
+      "duration": 4.92
+    },
+    {
+      "text": "web summit talks. In",
+      "start": 156.56,
+      "duration": 5.12
+    },
+    {
+      "text": "fact, to briefly recap the concept of",
+      "start": 159.08,
+      "duration": 6.519
+    },
+    {
+      "text": "built-in AI, this is Chrome, the browser",
+      "start": 161.68,
+      "duration": 6.559
+    },
+    {
+      "text": "that you all know and love. And in",
+      "start": 165.599,
+      "duration": 5.601
+    },
+    {
+      "text": "Chrome for a long time already, we have",
+      "start": 168.239,
+      "duration": 5.521
+    },
+    {
+      "text": "smaller expert models built in, for",
+      "start": 171.2,
+      "duration": 5.28
+    },
+    {
+      "text": "example, for translation and language",
+      "start": 173.76,
+      "duration": 4.8
+    },
+    {
+      "text": "detection, but also less visible",
+      "start": 176.48,
+      "duration": 4.479
+    },
+    {
+      "text": "features like notification prompt",
+      "start": 178.56,
+      "duration": 4.64
+    },
+    {
+      "text": "prediction to block spammy notification",
+      "start": 180.959,
+      "duration": 5.36
+    },
+    {
+      "text": "prompts and more. What's new now with",
+      "start": 183.2,
+      "duration": 5.52
+    },
+    {
+      "text": "built-in AI is that we've added a",
+      "start": 186.319,
+      "duration": 5.121
+    },
+    {
+      "text": "general purpose large language model or",
+      "start": 188.72,
+      "duration": 5.36
+    },
+    {
+      "text": "LLM for short. In the concrete case,",
+      "start": 191.44,
+      "duration": 6.56
+    },
+    {
+      "text": "it's actually a relatively small LLM",
+      "start": 194.08,
+      "duration": 6.64
+    },
+    {
+      "text": "called Gemini Nano. Unlike the other",
+      "start": 198.0,
+      "duration": 4.879
+    },
+    {
+      "text": "models, Gemini Nano doesn't ship with",
+      "start": 200.72,
+      "duration": 4.48
+    },
+    {
+      "text": "Chrome by default, but is downloaded",
+      "start": 202.879,
+      "duration": 4.72
+    },
+    {
+      "text": "dynamically on demand once a web app",
+      "start": 205.2,
+      "duration": 4.8
+    },
+    {
+      "text": "wants to make use of it. The reason for",
+      "start": 207.599,
+      "duration": 4.56
+    },
+    {
+      "text": "not shipping it by default is that while",
+      "start": 210.0,
+      "duration": 5.36
+    },
+    {
+      "text": "it's small for an LLM, it's still a",
+      "start": 212.159,
+      "duration": 5.681
+    },
+    {
+      "text": "larger resource.",
+      "start": 215.36,
+      "duration": 5.36
+    },
+    {
+      "text": "As a general purpose LLM, Geminano can",
+      "start": 217.84,
+      "duration": 5.36
+    },
+    {
+      "text": "be optimized for specific tasks like",
+      "start": 220.72,
+      "duration": 5.48
+    },
+    {
+      "text": "text summarization, creative writing and",
+      "start": 223.2,
+      "duration": 6.2
+    },
+    {
+      "text": "others. This happens through so-called",
+      "start": 226.2,
+      "duration": 5.88
+    },
+    {
+      "text": "fine-tunings. Combined the expert",
+      "start": 229.4,
+      "duration": 5.119
+    },
+    {
+      "text": "models, the German nano L&M and the",
+      "start": 232.08,
+      "duration": 5.28
+    },
+    {
+      "text": "finetunings are then exposed as highle",
+      "start": 234.519,
+      "duration": 5.241
+    },
+    {
+      "text": "APIs allowing the browser to match",
+      "start": 237.36,
+      "duration": 5.12
+    },
+    {
+      "text": "developer intent with the best model and",
+      "start": 239.76,
+      "duration": 5.44
+    },
+    {
+      "text": "fine-tuning for the task at hand. This",
+      "start": 242.48,
+      "duration": 4.88
+    },
+    {
+      "text": "is complimentary to low-level approaches",
+      "start": 245.2,
+      "duration": 5.039
+    },
+    {
+      "text": "for running AI models. Watch the talk",
+      "start": 247.36,
+      "duration": 5.36
+    },
+    {
+      "text": "real world AI use cases in a browser",
+      "start": 250.239,
+      "duration": 5.761
+    },
+    {
+      "text": "with vasom webpu and webn by my",
+      "start": 252.72,
+      "duration": 5.6
+    },
+    {
+      "text": "colleagues Euro and sweater for more",
+      "start": 256.0,
+      "duration": 4.639
+    },
+    {
+      "text": "details on those. The advantage of",
+      "start": 258.32,
+      "duration": 5.28
+    },
+    {
+      "text": "built-in are at hand. With the AI model",
+      "start": 260.639,
+      "duration": 5.441
+    },
+    {
+      "text": "running on the device, sensitive data",
+      "start": 263.6,
+      "duration": 4.96
+    },
+    {
+      "text": "never needs to leave the user's browser,",
+      "start": 266.08,
+      "duration": 5.16
+    },
+    {
+      "text": "which means huge benefits from a privacy",
+      "start": 268.56,
+      "duration": 5.0
+    },
+    {
+      "text": "perspective when there's no server",
+      "start": 271.24,
+      "duration": 4.84
+    },
+    {
+      "text": "involved. This also means that running",
+      "start": 273.56,
+      "duration": 5.16
+    },
+    {
+      "text": "the AI model can happen entirely offline",
+      "start": 276.08,
+      "duration": 5.2
+    },
+    {
+      "text": "once the model has been downloaded and",
+      "start": 278.72,
+      "duration": 4.72
+    },
+    {
+      "text": "you always get great performance thanks",
+      "start": 281.28,
+      "duration": 4.4
+    },
+    {
+      "text": "to hardware acceleration on your device.",
+      "start": 283.44,
+      "duration": 4.319
+    },
+    {
+      "text": "So in some cases, you might even beat",
+      "start": 285.68,
+      "duration": 4.88
+    },
+    {
+      "text": "the performance of the cloud. So with",
+      "start": 287.759,
+      "duration": 4.88
+    },
+    {
+      "text": "this required background checked, what",
+      "start": 290.56,
+      "duration": 4.52
+    },
+    {
+      "text": "are those built-in APIs",
+      "start": 292.639,
+      "duration": 4.721
+    },
+    {
+      "text": "concretely? But before we get into the",
+      "start": 295.08,
+      "duration": 5.48
+    },
+    {
+      "text": "details, a fair warning. All the APIs",
+      "start": 297.36,
+      "duration": 5.839
+    },
+    {
+      "text": "that you see have limited availability",
+      "start": 300.56,
+      "duration": 5.12
+    },
+    {
+      "text": "baseline status. You can test them in",
+      "start": 303.199,
+      "duration": 4.481
+    },
+    {
+      "text": "Chrome and sometimes they're even still",
+      "start": 305.68,
+      "duration": 4.56
+    },
+    {
+      "text": "experimental and have to toggle a flag",
+      "start": 307.68,
+      "duration": 5.92
+    },
+    {
+      "text": "in Chrome flags to activate them. With",
+      "start": 310.24,
+      "duration": 5.76
+    },
+    {
+      "text": "this out of the way, first there's the",
+      "start": 313.6,
+      "duration": 5.039
+    },
+    {
+      "text": "free form prompt API, which is an origin",
+      "start": 316.0,
+      "duration": 4.88
+    },
+    {
+      "text": "trial for Chrome extensions and testable",
+      "start": 318.639,
+      "duration": 5.601
+    },
+    {
+      "text": "behind a flag for the web. Origin trials",
+      "start": 320.88,
+      "duration": 6.08
+    },
+    {
+      "text": "give you access to a new or experimental",
+      "start": 324.24,
+      "duration": 5.12
+    },
+    {
+      "text": "feature so they can experiment with this",
+      "start": 326.96,
+      "duration": 5.28
+    },
+    {
+      "text": "feature and offer it to your users for a",
+      "start": 329.36,
+      "duration": 5.839
+    },
+    {
+      "text": "limited time. The prompt API is our",
+      "start": 332.24,
+      "duration": 5.04
+    },
+    {
+      "text": "testing ground for figuring out what",
+      "start": 335.199,
+      "duration": 5.321
+    },
+    {
+      "text": "developers want to use with access to an",
+      "start": 337.28,
+      "duration": 6.16
+    },
+    {
+      "text": "LLM. As a free form API, you can tell",
+      "start": 340.52,
+      "duration": 6.119
+    },
+    {
+      "text": "the prompt API to almost do anything.",
+      "start": 343.44,
+      "duration": 5.759
+    },
+    {
+      "text": "First, you create a session with the LLM",
+      "start": 346.639,
+      "duration": 4.84
+    },
+    {
+      "text": "by calling language",
+      "start": 349.199,
+      "duration": 4.72
+    },
+    {
+      "text": "model.create. Then, you call the prompt",
+      "start": 351.479,
+      "duration": 4.44
+    },
+    {
+      "text": "function of the resulting AI session",
+      "start": 353.919,
+      "duration": 4.801
+    },
+    {
+      "text": "object, passing it a prompt like explain",
+      "start": 355.919,
+      "duration": 4.761
+    },
+    {
+      "text": "quantum computing like",
+      "start": 358.72,
+      "duration": 4.64
+    },
+    {
+      "text": "M5. If you build Chrome extensions, you",
+      "start": 360.68,
+      "duration": 4.76
+    },
+    {
+      "text": "could take this concept even further and",
+      "start": 363.36,
+      "duration": 4.48
+    },
+    {
+      "text": "create a generic explain like M5",
+      "start": 365.44,
+      "duration": 5.599
+    },
+    {
+      "text": "extension, for example, for new sites.",
+      "start": 367.84,
+      "duration": 5.359
+    },
+    {
+      "text": "First you need to extract the article",
+      "start": 371.039,
+      "duration": 4.081
+    },
+    {
+      "text": "text from the web page and get it into",
+      "start": 373.199,
+      "duration": 4.801
+    },
+    {
+      "text": "the extension. Then like on the web you",
+      "start": 375.12,
+      "duration": 4.96
+    },
+    {
+      "text": "need to create a session but from an",
+      "start": 378.0,
+      "duration": 4.479
+    },
+    {
+      "text": "extension context. During the origin",
+      "start": 380.08,
+      "duration": 5.44
+    },
+    {
+      "text": "trial phase you need to call chrome AI",
+      "start": 382.479,
+      "duration": 6.56
+    },
+    {
+      "text": "origin trial language model create. The",
+      "start": 385.52,
+      "duration": 5.44
+    },
+    {
+      "text": "resulting session object is exactly the",
+      "start": 389.039,
+      "duration": 4.081
+    },
+    {
+      "text": "same as on the web and you can call the",
+      "start": 390.96,
+      "duration": 4.88
+    },
+    {
+      "text": "prompt method like before.",
+      "start": 393.12,
+      "duration": 5.04
+    },
+    {
+      "text": "Next, after the Vform prompt API,",
+      "start": 395.84,
+      "duration": 3.76
+    },
+    {
+      "text": "there's the family of the writing",
+      "start": 398.16,
+      "duration": 4.479
+    },
+    {
+      "text": "assistance APIs. Concretely, it consists",
+      "start": 399.6,
+      "duration": 5.2
+    },
+    {
+      "text": "of the summarizer API, which is an",
+      "start": 402.639,
+      "duration": 4.4
+    },
+    {
+      "text": "origin trail, and a writer and the",
+      "start": 404.8,
+      "duration": 5.399
+    },
+    {
+      "text": "rewriter API, which are both behind a",
+      "start": 407.039,
+      "duration": 5.841
+    },
+    {
+      "text": "flag. Imagine a page that lets users",
+      "start": 410.199,
+      "duration": 5.081
+    },
+    {
+      "text": "write blog posts. You can then use the",
+      "start": 412.88,
+      "duration": 4.72
+    },
+    {
+      "text": "summarizer API to suggest headlines for",
+      "start": 415.28,
+      "duration": 4.8
+    },
+    {
+      "text": "the posts. First, you get the text of",
+      "start": 417.6,
+      "duration": 4.879
+    },
+    {
+      "text": "the blog post. Next, you create a",
+      "start": 420.08,
+      "duration": 4.239
+    },
+    {
+      "text": "summarizer instance by calling",
+      "start": 422.479,
+      "duration": 4.481
+    },
+    {
+      "text": "summarizer create, providing a type of",
+      "start": 424.319,
+      "duration": 6.16
+    },
+    {
+      "text": "headline and a desired length of short.",
+      "start": 426.96,
+      "duration": 5.519
+    },
+    {
+      "text": "You can then get a headline suggestion",
+      "start": 430.479,
+      "duration": 4.761
+    },
+    {
+      "text": "by calling the summarizers summarize",
+      "start": 432.479,
+      "duration": 5.28
+    },
+    {
+      "text": "function. The writer API could help the",
+      "start": 435.24,
+      "duration": 4.28
+    },
+    {
+      "text": "user draft such a blog post to begin",
+      "start": 437.759,
+      "duration": 4.56
+    },
+    {
+      "text": "with. The shared context here is a list",
+      "start": 439.52,
+      "duration": 5.36
+    },
+    {
+      "text": "of things that got better. You then",
+      "start": 442.319,
+      "duration": 4.641
+    },
+    {
+      "text": "create a writer passing it the shared",
+      "start": 444.88,
+      "duration": 4.48
+    },
+    {
+      "text": "context and in the next step call the",
+      "start": 446.96,
+      "duration": 4.639
+    },
+    {
+      "text": "writer's write function telling it to",
+      "start": 449.36,
+      "duration": 4.32
+    },
+    {
+      "text": "write a blog post about the world",
+      "start": 451.599,
+      "duration": 5.121
+    },
+    {
+      "text": "changing for the better. The rewriter",
+      "start": 453.68,
+      "duration": 5.44
+    },
+    {
+      "text": "API is pretty similar just that instead",
+      "start": 456.72,
+      "duration": 4.479
+    },
+    {
+      "text": "of writing something from scratch it",
+      "start": 459.12,
+      "duration": 4.44
+    },
+    {
+      "text": "allows you to have an existing draft",
+      "start": 461.199,
+      "duration": 4.961
+    },
+    {
+      "text": "rewritten. You create the rewriter and",
+      "start": 463.56,
+      "duration": 4.44
+    },
+    {
+      "text": "provide it the same shared context as",
+      "start": 466.16,
+      "duration": 4.479
+    },
+    {
+      "text": "before and then call the API's rewrite",
+      "start": 468.0,
+      "duration": 4.96
+    },
+    {
+      "text": "function asking for the tone of the",
+      "start": 470.639,
+      "duration": 4.601
+    },
+    {
+      "text": "rewritten version to be less",
+      "start": 472.96,
+      "duration": 5.04
+    },
+    {
+      "text": "fun. Finally, there's the family of the",
+      "start": 475.24,
+      "duration": 6.16
+    },
+    {
+      "text": "translation APIs which are all in origin",
+      "start": 478.0,
+      "duration": 5.759
+    },
+    {
+      "text": "trials. Namely, there's the language",
+      "start": 481.4,
+      "duration": 5.88
+    },
+    {
+      "text": "detector API and the translator API.",
+      "start": 483.759,
+      "duration": 6.0
+    },
+    {
+      "text": "First, the language detector API which",
+      "start": 487.28,
+      "duration": 5.199
+    },
+    {
+      "text": "serves to well detect the language of",
+      "start": 489.759,
+      "duration": 5.041
+    },
+    {
+      "text": "for example user generated input text",
+      "start": 492.479,
+      "duration": 4.881
+    },
+    {
+      "text": "when the language is unknown. You create",
+      "start": 494.8,
+      "duration": 5.44
+    },
+    {
+      "text": "a language detector by calling create.",
+      "start": 497.36,
+      "duration": 4.8
+    },
+    {
+      "text": "Next, you call the language detectors",
+      "start": 500.24,
+      "duration": 4.399
+    },
+    {
+      "text": "detect function which returns an array",
+      "start": 502.16,
+      "duration": 4.879
+    },
+    {
+      "text": "of language detection objects each",
+      "start": 504.639,
+      "duration": 4.481
+    },
+    {
+      "text": "containing the confidence and the",
+      "start": 507.039,
+      "duration": 4.88
+    },
+    {
+      "text": "detected language. Here I just pick the",
+      "start": 509.12,
+      "duration": 5.279
+    },
+    {
+      "text": "first array entry which contains the",
+      "start": 511.919,
+      "duration": 4.961
+    },
+    {
+      "text": "most likely detected language. The",
+      "start": 514.399,
+      "duration": 4.56
+    },
+    {
+      "text": "language detector API pairs well with",
+      "start": 516.88,
+      "duration": 4.32
+    },
+    {
+      "text": "the translator API, which allows you to",
+      "start": 518.959,
+      "duration": 4.481
+    },
+    {
+      "text": "translate from a source language to a",
+      "start": 521.2,
+      "duration": 4.88
+    },
+    {
+      "text": "target language. You create a translator",
+      "start": 523.44,
+      "duration": 4.8
+    },
+    {
+      "text": "by calling the create function with the",
+      "start": 526.08,
+      "duration": 4.879
+    },
+    {
+      "text": "source and the target language. Then you",
+      "start": 528.24,
+      "duration": 4.88
+    },
+    {
+      "text": "call the translators translate method",
+      "start": 530.959,
+      "duration": 3.88
+    },
+    {
+      "text": "and you get the",
+      "start": 533.12,
+      "duration": 4.159
+    },
+    {
+      "text": "translation. Something that humans are",
+      "start": 534.839,
+      "duration": 5.321
+    },
+    {
+      "text": "really good at is spotting patterns. Do",
+      "start": 537.279,
+      "duration": 6.081
+    },
+    {
+      "text": "you sp a pattern here? What do you see?",
+      "start": 540.16,
+      "duration": 5.48
+    },
+    {
+      "text": "a whale, a",
+      "start": 543.36,
+      "duration": 5.84
+    },
+    {
+      "text": "submarine, a sheep, from clouds to",
+      "start": 545.64,
+      "duration": 5.8
+    },
+    {
+      "text": "something less subjective. Do you spot",
+      "start": 549.2,
+      "duration": 5.52
+    },
+    {
+      "text": "the pattern here? Right. All instances",
+      "start": 551.44,
+      "duration": 6.16
+    },
+    {
+      "text": "are created equal. From language model",
+      "start": 554.72,
+      "duration": 5.36
+    },
+    {
+      "text": "to a translator, they're all created",
+      "start": 557.6,
+      "duration": 4.799
+    },
+    {
+      "text": "consistently the same way through a",
+      "start": 560.08,
+      "duration": 4.56
+    },
+    {
+      "text": "create function that in some cases has",
+      "start": 562.399,
+      "duration": 4.721
+    },
+    {
+      "text": "some optional options.",
+      "start": 564.64,
+      "duration": 3.84
+    },
+    {
+      "text": "I skipped it in the previous code",
+      "start": 567.12,
+      "duration": 3.279
+    },
+    {
+      "text": "samples for brevity reasons, but",
+      "start": 568.48,
+      "duration": 4.0
+    },
+    {
+      "text": "remember how I said the model will be",
+      "start": 570.399,
+      "duration": 5.12
+    },
+    {
+      "text": "downloaded dynamically on demand. So how",
+      "start": 572.48,
+      "duration": 4.84
+    },
+    {
+      "text": "do you know if the model has been",
+      "start": 575.519,
+      "duration": 4.0
+    },
+    {
+      "text": "downloaded to allow the developer to",
+      "start": 577.32,
+      "duration": 3.959
+    },
+    {
+      "text": "easily check for the readiness of the",
+      "start": 579.519,
+      "duration": 4.0
+    },
+    {
+      "text": "model? There's a consistent way through",
+      "start": 581.279,
+      "duration": 5.12
+    },
+    {
+      "text": "the availability function. It responds",
+      "start": 583.519,
+      "duration": 5.361
+    },
+    {
+      "text": "with unavailable if the implementation",
+      "start": 586.399,
+      "duration": 4.481
+    },
+    {
+      "text": "doesn't support the requested task or",
+      "start": 588.88,
+      "duration": 5.6
+    },
+    {
+      "text": "options. It responds with downloadable",
+      "start": 590.88,
+      "duration": 5.2
+    },
+    {
+      "text": "when the implementation supports the",
+      "start": 594.48,
+      "duration": 3.44
+    },
+    {
+      "text": "task and options and the model or",
+      "start": 596.08,
+      "duration": 3.72
+    },
+    {
+      "text": "fine-tuning can be",
+      "start": 597.92,
+      "duration": 4.479
+    },
+    {
+      "text": "downloaded. It responds with download",
+      "start": 599.8,
+      "duration": 5.28
+    },
+    {
+      "text": "ding when the required download is in",
+      "start": 602.399,
+      "duration": 5.681
+    },
+    {
+      "text": "progress. And finally, it responds with",
+      "start": 605.08,
+      "duration": 5.759
+    },
+    {
+      "text": "available when the API is ready to be",
+      "start": 608.08,
+      "duration": 6.439
+    },
+    {
+      "text": "used. Here they are again unavailable,",
+      "start": 610.839,
+      "duration": 6.12
+    },
+    {
+      "text": "downloadable, downloading, and",
+      "start": 614.519,
+      "duration": 6.081
+    },
+    {
+      "text": "available. consistently the same for all",
+      "start": 616.959,
+      "duration": 6.481
+    },
+    {
+      "text": "APIs. Beyond the base Geminano model,",
+      "start": 620.6,
+      "duration": 5.08
+    },
+    {
+      "text": "we've also started adding fine-tunings",
+      "start": 623.44,
+      "duration": 4.44
+    },
+    {
+      "text": "to better address specific developer",
+      "start": 625.68,
+      "duration": 4.88
+    },
+    {
+      "text": "needs. Geminano's architecture is",
+      "start": 627.88,
+      "duration": 5.079
+    },
+    {
+      "text": "wonderfully shapable, allowing us to",
+      "start": 630.56,
+      "duration": 4.48
+    },
+    {
+      "text": "easily improve on challenging areas",
+      "start": 632.959,
+      "duration": 4.88
+    },
+    {
+      "text": "noted by developers, such as generating",
+      "start": 635.04,
+      "duration": 5.68
+    },
+    {
+      "text": "concise and informative headlines. We",
+      "start": 637.839,
+      "duration": 5.12
+    },
+    {
+      "text": "are pretty excited about this as we've",
+      "start": 640.72,
+      "duration": 4.48
+    },
+    {
+      "text": "seen our summarization quality metrics",
+      "start": 642.959,
+      "duration": 5.201
+    },
+    {
+      "text": "improve by up to two digits. Subscribe",
+      "start": 645.2,
+      "duration": 5.36
+    },
+    {
+      "text": "to developer.chrome.com for upcoming",
+      "start": 648.16,
+      "duration": 4.119
+    },
+    {
+      "text": "article with more",
+      "start": 650.56,
+      "duration": 4.16
+    },
+    {
+      "text": "details. These API shapes and the",
+      "start": 652.279,
+      "duration": 4.601
+    },
+    {
+      "text": "consistency that you just saw are also",
+      "start": 654.72,
+      "duration": 4.0
+    },
+    {
+      "text": "the products of the feedback the Chrome",
+      "start": 656.88,
+      "duration": 4.079
+    },
+    {
+      "text": "team has received from moving this API",
+      "start": 658.72,
+      "duration": 4.08
+    },
+    {
+      "text": "incubations into the web machine",
+      "start": 660.959,
+      "duration": 4.12
+    },
+    {
+      "text": "learning community group at the",
+      "start": 662.8,
+      "duration": 5.44
+    },
+    {
+      "text": "W3C. All three API families, the prompt",
+      "start": 665.079,
+      "duration": 5.721
+    },
+    {
+      "text": "API, the writing assistance API, and the",
+      "start": 668.24,
+      "duration": 4.64
+    },
+    {
+      "text": "translation APIs are in the charter of",
+      "start": 670.8,
+      "duration": 3.52
+    },
+    {
+      "text": "the web machine learning community",
+      "start": 672.88,
+      "duration": 3.36
+    },
+    {
+      "text": "group. and we're working with the",
+      "start": 674.32,
+      "duration": 3.84
+    },
+    {
+      "text": "community and other browser vendors to",
+      "start": 676.24,
+      "duration": 3.08
+    },
+    {
+      "text": "make them",
+      "start": 678.16,
+      "duration": 3.04
+    },
+    {
+      "text": "interoperable. With these APIs",
+      "start": 679.32,
+      "duration": 3.56
+    },
+    {
+      "text": "interoperability journey being well",
+      "start": 681.2,
+      "duration": 3.84
+    },
+    {
+      "text": "underway, we're moving forward with",
+      "start": 682.88,
+      "duration": 5.36
+    },
+    {
+      "text": "shipping the first APIs in Chrome 138.",
+      "start": 685.04,
+      "duration": 5.68
+    },
+    {
+      "text": "Concretely, the Rome API is shipping for",
+      "start": 688.24,
+      "duration": 4.32
+    },
+    {
+      "text": "Chrome extensions. From the writing",
+      "start": 690.72,
+      "duration": 3.679
+    },
+    {
+      "text": "assistance API family, we're shipping",
+      "start": 692.56,
+      "duration": 4.56
+    },
+    {
+      "text": "the summarize API. And finally, we're",
+      "start": 694.399,
+      "duration": 4.401
+    },
+    {
+      "text": "shipping the APIs that form the",
+      "start": 697.12,
+      "duration": 4.32
+    },
+    {
+      "text": "translation API, namely the translator",
+      "start": 698.8,
+      "duration": 5.44
+    },
+    {
+      "text": "and the language detector APIs. We're",
+      "start": 701.44,
+      "duration": 4.56
+    },
+    {
+      "text": "also moving forward with the two other",
+      "start": 704.24,
+      "duration": 3.839
+    },
+    {
+      "text": "APIs from the writing assistance APIs",
+      "start": 706.0,
+      "duration": 4.8
+    },
+    {
+      "text": "family. The writer and the rewriter APIs",
+      "start": 708.079,
+      "duration": 4.961
+    },
+    {
+      "text": "enter the origin trial phase. Likewise",
+      "start": 710.8,
+      "duration": 4.84
+    },
+    {
+      "text": "in Chrome",
+      "start": 713.04,
+      "duration": 5.039
+    },
+    {
+      "text": "138. From the start, we've closely",
+      "start": 715.64,
+      "duration": 4.28
+    },
+    {
+      "text": "worked with a diverse group of partners",
+      "start": 718.079,
+      "duration": 4.241
+    },
+    {
+      "text": "that have tested our APIs thoroughly and",
+      "start": 719.92,
+      "duration": 4.159
+    },
+    {
+      "text": "that have helped us clarify the use",
+      "start": 722.32,
+      "duration": 3.0
+    },
+    {
+      "text": "cases for these",
+      "start": 724.079,
+      "duration": 4.481
+    },
+    {
+      "text": "APIs. This slide contains logos of just",
+      "start": 725.32,
+      "duration": 4.84
+    },
+    {
+      "text": "some of the partners that we've worked",
+      "start": 728.56,
+      "duration": 3.68
+    },
+    {
+      "text": "with. It ranges from consulting",
+      "start": 730.16,
+      "duration": 4.239
+    },
+    {
+      "text": "companies like Deote to travel companies",
+      "start": 732.24,
+      "duration": 4.96
+    },
+    {
+      "text": "like Redbus or Make My Trip to partners",
+      "start": 734.399,
+      "duration": 5.281
+    },
+    {
+      "text": "related to publishing like Cyber Agent",
+      "start": 737.2,
+      "duration": 5.04
+    },
+    {
+      "text": "or Bright Sides. Check out the links in",
+      "start": 739.68,
+      "duration": 4.64
+    },
+    {
+      "text": "the description to in-depth case studies",
+      "start": 742.24,
+      "duration": 4.64
+    },
+    {
+      "text": "about those partners as in this talk I",
+      "start": 744.32,
+      "duration": 4.44
+    },
+    {
+      "text": "can barely scratch the",
+      "start": 746.88,
+      "duration": 4.72
+    },
+    {
+      "text": "surface. Redbus is a bus ticket booking",
+      "start": 748.76,
+      "duration": 5.319
+    },
+    {
+      "text": "service based out of India. They use the",
+      "start": 751.6,
+      "duration": 4.799
+    },
+    {
+      "text": "summarizer API to let customers sum",
+      "start": 754.079,
+      "duration": 4.641
+    },
+    {
+      "text": "customers summarize bus reviews so",
+      "start": 756.399,
+      "duration": 4.161
+    },
+    {
+      "text": "passengers can quickly see what other",
+      "start": 758.72,
+      "duration": 5.28
+    },
+    {
+      "text": "passengers liked or disliked. As Red Bus",
+      "start": 760.56,
+      "duration": 5.12
+    },
+    {
+      "text": "knows their locked in customers, they",
+      "start": 764.0,
+      "duration": 3.44
+    },
+    {
+      "text": "have plans to tailor the summaries based",
+      "start": 765.68,
+      "duration": 4.08
+    },
+    {
+      "text": "on individual preferences like a strong",
+      "start": 767.44,
+      "duration": 5.6
+    },
+    {
+      "text": "desire to have reliable Wi-Fi on board",
+      "start": 769.76,
+      "duration": 4.6
+    },
+    {
+      "text": "or a seat",
+      "start": 773.04,
+      "duration": 3.84
+    },
+    {
+      "text": "comfort. Spanish e-commerce platform",
+      "start": 774.36,
+      "duration": 4.76
+    },
+    {
+      "text": "Moravia has a similar use case and",
+      "start": 776.88,
+      "duration": 4.399
+    },
+    {
+      "text": "likewise used the summarizer API to",
+      "start": 779.12,
+      "duration": 4.48
+    },
+    {
+      "text": "summarize product reviews. So users can",
+      "start": 781.279,
+      "duration": 4.8
+    },
+    {
+      "text": "get a summary of say all the four star",
+      "start": 783.6,
+      "duration": 3.479
+    },
+    {
+      "text": "star",
+      "start": 786.079,
+      "duration": 3.601
+    },
+    {
+      "text": "reviews. Publishing company Brightides",
+      "start": 787.079,
+      "duration": 4.921
+    },
+    {
+      "text": "integrated the summary summarizer API",
+      "start": 789.68,
+      "duration": 5.0
+    },
+    {
+      "text": "into its AI powered content management",
+      "start": 792.0,
+      "duration": 5.44
+    },
+    {
+      "text": "system. One of their publications, the",
+      "start": 794.68,
+      "duration": 5.48
+    },
+    {
+      "text": "iconic the standard now has personalized",
+      "start": 797.44,
+      "duration": 4.399
+    },
+    {
+      "text": "news summaries. For example, to",
+      "start": 800.16,
+      "duration": 3.2
+    },
+    {
+      "text": "summarize an article about a",
+      "start": 801.839,
+      "duration": 3.361
+    },
+    {
+      "text": "thunderstorm warning according to the",
+      "start": 803.36,
+      "duration": 3.32
+    },
+    {
+      "text": "shared location of the",
+      "start": 805.2,
+      "duration": 4.079
+    },
+    {
+      "text": "user. Terra is one of the largest",
+      "start": 806.68,
+      "duration": 4.839
+    },
+    {
+      "text": "content portals from Brazil. They",
+      "start": 809.279,
+      "duration": 4.081
+    },
+    {
+      "text": "combine the summarizer API and the",
+      "start": 811.519,
+      "duration": 4.081
+    },
+    {
+      "text": "translator API so the journalists can",
+      "start": 813.36,
+      "duration": 5.039
+    },
+    {
+      "text": "get news new stories summarized in their",
+      "start": 815.6,
+      "duration": 4.88
+    },
+    {
+      "text": "content management system. They",
+      "start": 818.399,
+      "duration": 3.601
+    },
+    {
+      "text": "translate the original Portuguese",
+      "start": 820.48,
+      "duration": 3.52
+    },
+    {
+      "text": "content to English with the translator",
+      "start": 822.0,
+      "duration": 4.72
+    },
+    {
+      "text": "API. After the summarizer API create a",
+      "start": 824.0,
+      "duration": 4.56
+    },
+    {
+      "text": "summary in English which they then",
+      "start": 826.72,
+      "duration": 4.08
+    },
+    {
+      "text": "translate back to Portuguese and make it",
+      "start": 828.56,
+      "duration": 5.839
+    },
+    {
+      "text": "available for all users.",
+      "start": 830.8,
+      "duration": 5.44
+    },
+    {
+      "text": "Recognizing that content creation can be",
+      "start": 834.399,
+      "duration": 4.0
+    },
+    {
+      "text": "timeconuming for bloggers, Japanese",
+      "start": 836.24,
+      "duration": 4.32
+    },
+    {
+      "text": "internet company Cyber Agent wanted to",
+      "start": 838.399,
+      "duration": 4.401
+    },
+    {
+      "text": "enhance the blogging experience on the",
+      "start": 840.56,
+      "duration": 4.959
+    },
+    {
+      "text": "popular blogging platform Amoeba Blog.",
+      "start": 842.8,
+      "duration": 4.719
+    },
+    {
+      "text": "Cyber Agent chose to develop a Chrome",
+      "start": 845.519,
+      "duration": 3.76
+    },
+    {
+      "text": "extension as a way to implement these",
+      "start": 847.519,
+      "duration": 3.921
+    },
+    {
+      "text": "new AI features without potentially",
+      "start": 849.279,
+      "duration": 4.36
+    },
+    {
+      "text": "disrupting the existing Amoeba blog",
+      "start": 851.44,
+      "duration": 4.639
+    },
+    {
+      "text": "website. The resulting Chrome extension",
+      "start": 853.639,
+      "duration": 4.921
+    },
+    {
+      "text": "provides several key features. AI",
+      "start": 856.079,
+      "duration": 4.801
+    },
+    {
+      "text": "assistance for generating catchy titles",
+      "start": 858.56,
+      "duration": 4.719
+    },
+    {
+      "text": "and effective headings, improving and",
+      "start": 860.88,
+      "duration": 4.8
+    },
+    {
+      "text": "editing sentences, and even drafting",
+      "start": 863.279,
+      "duration": 5.481
+    },
+    {
+      "text": "subsequence paragraphs based on selected",
+      "start": 865.68,
+      "duration": 5.36
+    },
+    {
+      "text": "sentences. Indian insurance platform",
+      "start": 868.76,
+      "duration": 4.36
+    },
+    {
+      "text": "policy bazar built an insurance",
+      "start": 871.04,
+      "duration": 4.239
+    },
+    {
+      "text": "assistant chatbot that users can talk to",
+      "start": 873.12,
+      "duration": 4.64
+    },
+    {
+      "text": "in the native indic languages. They use",
+      "start": 875.279,
+      "duration": 4.481
+    },
+    {
+      "text": "the language detection API to identify",
+      "start": 877.76,
+      "duration": 4.24
+    },
+    {
+      "text": "the user's input language. If it's an",
+      "start": 879.76,
+      "duration": 4.48
+    },
+    {
+      "text": "indic language, the translator API",
+      "start": 882.0,
+      "duration": 4.48
+    },
+    {
+      "text": "translates the input to English and",
+      "start": 884.24,
+      "duration": 4.159
+    },
+    {
+      "text": "forwards this query to a custom",
+      "start": 886.48,
+      "duration": 4.0
+    },
+    {
+      "text": "serverside model which responds in",
+      "start": 888.399,
+      "duration": 4.081
+    },
+    {
+      "text": "English. They then use the translator",
+      "start": 890.48,
+      "duration": 3.919
+    },
+    {
+      "text": "API again to translate the model's",
+      "start": 892.48,
+      "duration": 3.919
+    },
+    {
+      "text": "response back to the users's native",
+      "start": 894.399,
+      "duration": 5.281
+    },
+    {
+      "text": "Indic language. Traveler website make my",
+      "start": 896.399,
+      "duration": 5.281
+    },
+    {
+      "text": "trip supports customers with writing",
+      "start": 899.68,
+      "duration": 4.32
+    },
+    {
+      "text": "reviews based on a few keywords. The",
+      "start": 901.68,
+      "duration": 4.959
+    },
+    {
+      "text": "writer API expands the text to a more",
+      "start": 904.0,
+      "duration": 4.639
+    },
+    {
+      "text": "complete review which the customer can",
+      "start": 906.639,
+      "duration": 4.0
+    },
+    {
+      "text": "then refine with the rewriter API. For",
+      "start": 908.639,
+      "duration": 4.121
+    },
+    {
+      "text": "example, to make it less",
+      "start": 910.639,
+      "duration": 4.64
+    },
+    {
+      "text": "formal, consulting firm Deote is",
+      "start": 912.76,
+      "duration": 4.16
+    },
+    {
+      "text": "experimenting with multiple built-in",
+      "start": 915.279,
+      "duration": 4.401
+    },
+    {
+      "text": "APIs. They run an in-house Deoid",
+      "start": 916.92,
+      "duration": 4.599
+    },
+    {
+      "text": "engineering platform for 50,000",
+      "start": 919.68,
+      "duration": 4.48
+    },
+    {
+      "text": "engineers and are evaluating whether the",
+      "start": 921.519,
+      "duration": 5.12
+    },
+    {
+      "text": "prompt API, the summarizer API, and the",
+      "start": 924.16,
+      "duration": 4.799
+    },
+    {
+      "text": "writer and rewriter APIs can help with",
+      "start": 926.639,
+      "duration": 4.64
+    },
+    {
+      "text": "tasks like form filling, engineering",
+      "start": 928.959,
+      "duration": 4.521
+    },
+    {
+      "text": "onboarding, and providing",
+      "start": 931.279,
+      "duration": 4.56
+    },
+    {
+      "text": "feedback. But we didn't just work with",
+      "start": 933.48,
+      "duration": 4.52
+    },
+    {
+      "text": "big and small partners. also looped in",
+      "start": 935.839,
+      "duration": 4.321
+    },
+    {
+      "text": "the developer community from the get-go",
+      "start": 938.0,
+      "duration": 4.56
+    },
+    {
+      "text": "and invited them to test our APIs and",
+      "start": 940.16,
+      "duration": 5.2
+    },
+    {
+      "text": "give us feedback. We are running an",
+      "start": 942.56,
+      "duration": 4.88
+    },
+    {
+      "text": "early preview program with more than",
+      "start": 945.36,
+      "duration": 4.479
+    },
+    {
+      "text": "16,000 members whom we invited to test",
+      "start": 947.44,
+      "duration": 5.28
+    },
+    {
+      "text": "our APIs the moment the code become",
+      "start": 949.839,
+      "duration": 5.36
+    },
+    {
+      "text": "available in Chrome and who bravely",
+      "start": 952.72,
+      "duration": 5.2
+    },
+    {
+      "text": "stuck around even when things broke. A",
+      "start": 955.199,
+      "duration": 4.64
+    },
+    {
+      "text": "heartfelt thank you for staying with us",
+      "start": 957.92,
+      "duration": 3.44
+    },
+    {
+      "text": "here.",
+      "start": 959.839,
+      "duration": 4.0
+    },
+    {
+      "text": "We also organized a public built-in AI",
+      "start": 961.36,
+      "duration": 4.399
+    },
+    {
+      "text": "challenge hackathon that attracted",
+      "start": 963.839,
+      "duration": 4.401
+    },
+    {
+      "text": "nearly 9,000 developers from across the",
+      "start": 965.759,
+      "duration": 5.161
+    },
+    {
+      "text": "world and for which we handed out",
+      "start": 968.24,
+      "duration": 4.599
+    },
+    {
+      "text": "$65,000 in",
+      "start": 970.92,
+      "duration": 4.52
+    },
+    {
+      "text": "prizes. We had amazing contributions",
+      "start": 972.839,
+      "duration": 4.841
+    },
+    {
+      "text": "from developers like you who won prizes",
+      "start": 975.44,
+      "duration": 5.12
+    },
+    {
+      "text": "in categories like best real world app,",
+      "start": 977.68,
+      "duration": 5.2
+    },
+    {
+      "text": "most innovative app, best hybrid app,",
+      "start": 980.56,
+      "duration": 4.48
+    },
+    {
+      "text": "and more separated into Chrome",
+      "start": 982.88,
+      "duration": 5.36
+    },
+    {
+      "text": "extensions and web apps. Thank you to",
+      "start": 985.04,
+      "duration": 5.2
+    },
+    {
+      "text": "all our participants and of course",
+      "start": 988.24,
+      "duration": 4.56
+    },
+    {
+      "text": "congratulations again to the winners.",
+      "start": 990.24,
+      "duration": 4.32
+    },
+    {
+      "text": "Oh, and keep your eyes open for a",
+      "start": 992.8,
+      "duration": 4.44
+    },
+    {
+      "text": "potential 2025 edition of the Builtin AI",
+      "start": 994.56,
+      "duration": 5.399
+    },
+    {
+      "text": "hackathon. They'll announce it on",
+      "start": 997.24,
+      "duration": 4.68
+    },
+    {
+      "text": "developer.chrome.com. So, be sure to",
+      "start": 999.959,
+      "duration": 4.081
+    },
+    {
+      "text": "subscribe to this",
+      "start": 1001.92,
+      "duration": 5.279
+    },
+    {
+      "text": "feed. This all sounds fantastic, right?",
+      "start": 1004.04,
+      "duration": 6.2
+    },
+    {
+      "text": "But of course, there's always a butt or",
+      "start": 1007.199,
+      "duration": 5.681
+    },
+    {
+      "text": "an and yet if you take joy in misleading",
+      "start": 1010.24,
+      "duration": 4.719
+    },
+    {
+      "text": "people predicting your sentences like I",
+      "start": 1012.88,
+      "duration": 5.6
+    },
+    {
+      "text": "do. The and yet here is the classic",
+      "start": 1014.959,
+      "duration": 6.8
+    },
+    {
+      "text": "chicken and egg problem. If a feature",
+      "start": 1018.48,
+      "duration": 4.839
+    },
+    {
+      "text": "doesn't work on all devices and",
+      "start": 1021.759,
+      "duration": 4.8
+    },
+    {
+      "text": "browsers, developers won't use it. But",
+      "start": 1023.319,
+      "duration": 5.961
+    },
+    {
+      "text": "if no one uses the feature, there's no",
+      "start": 1026.559,
+      "duration": 5.921
+    },
+    {
+      "text": "reason for browsers to implement it. And",
+      "start": 1029.28,
+      "duration": 4.96
+    },
+    {
+      "text": "this is where the hybrid software",
+      "start": 1032.48,
+      "duration": 4.079
+    },
+    {
+      "text": "development kit comes in. But before I",
+      "start": 1034.24,
+      "duration": 4.559
+    },
+    {
+      "text": "explain more about this SDK, let me",
+      "start": 1036.559,
+      "duration": 5.36
+    },
+    {
+      "text": "restate the challenge. Running AI models",
+      "start": 1038.799,
+      "duration": 6.0
+    },
+    {
+      "text": "is still a quite demanding task. Yes,",
+      "start": 1041.919,
+      "duration": 4.64
+    },
+    {
+      "text": "the state-of-the-art changes all the",
+      "start": 1044.799,
+      "duration": 4.321
+    },
+    {
+      "text": "time and advancements like early Excel",
+      "start": 1046.559,
+      "duration": 5.041
+    },
+    {
+      "text": "models will definitely help, but there",
+      "start": 1049.12,
+      "duration": 4.4
+    },
+    {
+      "text": "is an undeniable support gap at the",
+      "start": 1051.6,
+      "duration": 3.959
+    },
+    {
+      "text": "moment which includes the following",
+      "start": 1053.52,
+      "duration": 4.64
+    },
+    {
+      "text": "platforms. Chrome OS will soon be",
+      "start": 1055.559,
+      "duration": 4.521
+    },
+    {
+      "text": "developed on large portions of the",
+      "start": 1058.16,
+      "duration": 4.24
+    },
+    {
+      "text": "Android stack. So, we'll work on adding",
+      "start": 1060.08,
+      "duration": 5.2
+    },
+    {
+      "text": "support once the transition is done.",
+      "start": 1062.4,
+      "duration": 4.96
+    },
+    {
+      "text": "While some higherend Pixel devices come",
+      "start": 1065.28,
+      "duration": 4.32
+    },
+    {
+      "text": "with Geminine Nano, the majority of",
+      "start": 1067.36,
+      "duration": 4.48
+    },
+    {
+      "text": "Android devices in the wild don't",
+      "start": 1069.6,
+      "duration": 4.56
+    },
+    {
+      "text": "satisfy the requirements for running AI",
+      "start": 1071.84,
+      "duration": 3.24
+    },
+    {
+      "text": "models",
+      "start": 1074.16,
+      "duration": 3.6
+    },
+    {
+      "text": "performantly. Some desktop devices don't",
+      "start": 1075.08,
+      "duration": 4.44
+    },
+    {
+      "text": "meet the hardware requirements like",
+      "start": 1077.76,
+      "duration": 4.799
+    },
+    {
+      "text": "having more than 4 GB of video RAM. And",
+      "start": 1079.52,
+      "duration": 5.44
+    },
+    {
+      "text": "lastly, while we hope that these APIs",
+      "start": 1082.559,
+      "duration": 4.801
+    },
+    {
+      "text": "will in time be available in other",
+      "start": 1084.96,
+      "duration": 4.8
+    },
+    {
+      "text": "browsers, today they're available only",
+      "start": 1087.36,
+      "duration": 5.679
+    },
+    {
+      "text": "in Chrome and they're not in Chromium.",
+      "start": 1089.76,
+      "duration": 4.96
+    },
+    {
+      "text": "All right, so let's talk about the",
+      "start": 1093.039,
+      "duration": 4.64
+    },
+    {
+      "text": "hybrid SDK. It's an extension of the",
+      "start": 1094.72,
+      "duration": 6.0
+    },
+    {
+      "text": "existing Firebase web SDK, a platform",
+      "start": 1097.679,
+      "duration": 4.961
+    },
+    {
+      "text": "designed to support you throughout your",
+      "start": 1100.72,
+      "duration": 4.8
+    },
+    {
+      "text": "app development journey. The core idea",
+      "start": 1102.64,
+      "duration": 5.12
+    },
+    {
+      "text": "of the hybrid SDK is that it will use",
+      "start": 1105.52,
+      "duration": 3.92
+    },
+    {
+      "text": "the built-in APIs whenever they",
+      "start": 1107.76,
+      "duration": 4.32
+    },
+    {
+      "text": "available and to fall back to Gemini on",
+      "start": 1109.44,
+      "duration": 5.68
+    },
+    {
+      "text": "the server. The hybrid SDK will be",
+      "start": 1112.08,
+      "duration": 5.44
+    },
+    {
+      "text": "available later this year. Until the",
+      "start": 1115.12,
+      "duration": 4.4
+    },
+    {
+      "text": "full solution is built out, we'll make a",
+      "start": 1117.52,
+      "duration": 4.08
+    },
+    {
+      "text": "developer preview available in Chrome so",
+      "start": 1119.52,
+      "duration": 4.72
+    },
+    {
+      "text": "developers can test it. Note that this",
+      "start": 1121.6,
+      "duration": 4.48
+    },
+    {
+      "text": "temporary solution isn't meant for",
+      "start": 1124.24,
+      "duration": 6.64
+    },
+    {
+      "text": "production use quite yet. See the link",
+      "start": 1126.08,
+      "duration": 4.8
+    },
+    {
+      "text": "go.gle/hybrid-",
+      "start": 1131.0,
+      "duration": 3.0
+    },
+    {
+      "text": "SDK-developer-review for more",
+      "start": 1134.2,
+      "duration": 3.56
+    },
+    {
+      "text": "information about the developer preview",
+      "start": 1135.6,
+      "duration": 4.92
+    },
+    {
+      "text": "and the availability of the final",
+      "start": 1137.76,
+      "duration": 5.279
+    },
+    {
+      "text": "version. Let's briefly recap what we",
+      "start": 1140.52,
+      "duration": 6.12
+    },
+    {
+      "text": "what we saw so far. four APIs shipping,",
+      "start": 1143.039,
+      "duration": 6.241
+    },
+    {
+      "text": "two APIs entering origin trail, and a",
+      "start": 1146.64,
+      "duration": 7.039
+    },
+    {
+      "text": "new hybrid SDK. But wait, there's more.",
+      "start": 1149.28,
+      "duration": 7.639
+    },
+    {
+      "text": "Prepare for some bleeding edge",
+      "start": 1153.679,
+      "duration": 5.521
+    },
+    {
+      "text": "explorations. We've seen a lot of you,",
+      "start": 1156.919,
+      "duration": 4.12
+    },
+    {
+      "text": "our partners, early preview program",
+      "start": 1159.2,
+      "duration": 4.56
+    },
+    {
+      "text": "members and developers in general try to",
+      "start": 1161.039,
+      "duration": 5.041
+    },
+    {
+      "text": "make use of the free form prompt API for",
+      "start": 1163.76,
+      "duration": 5.279
+    },
+    {
+      "text": "proof reading. as a common theme once we",
+      "start": 1166.08,
+      "duration": 5.04
+    },
+    {
+      "text": "know what you want to do with the m with",
+      "start": 1169.039,
+      "duration": 4.721
+    },
+    {
+      "text": "the a model we can fine-tune the model",
+      "start": 1171.12,
+      "duration": 5.52
+    },
+    {
+      "text": "for this very task and that's exactly",
+      "start": 1173.76,
+      "duration": 5.36
+    },
+    {
+      "text": "what we did so we are now introducing a",
+      "start": 1176.64,
+      "duration": 4.72
+    },
+    {
+      "text": "proofreader API that you can soon try",
+      "start": 1179.12,
+      "duration": 5.04
+    },
+    {
+      "text": "out in your apps it's based on",
+      "start": 1181.36,
+      "duration": 5.12
+    },
+    {
+      "text": "fine-tuning the Gemin model so it can",
+      "start": 1184.16,
+      "duration": 4.24
+    },
+    {
+      "text": "deal well with typical problems you want",
+      "start": 1186.48,
+      "duration": 4.24
+    },
+    {
+      "text": "a proof reader API to be aware of such",
+      "start": 1188.4,
+      "duration": 5.6
+    },
+    {
+      "text": "as spelling issues like this missing L",
+      "start": 1190.72,
+      "duration": 5.52
+    },
+    {
+      "text": "it can also detect punctuation issues",
+      "start": 1194.0,
+      "duration": 4.799
+    },
+    {
+      "text": "like this comma that shouldn't be there",
+      "start": 1196.24,
+      "duration": 5.439
+    },
+    {
+      "text": "or capitalization errors like the lower",
+      "start": 1198.799,
+      "duration": 5.161
+    },
+    {
+      "text": "case word fix that should be",
+      "start": 1201.679,
+      "duration": 4.801
+    },
+    {
+      "text": "uppercase the API is also trained on",
+      "start": 1203.96,
+      "duration": 5.24
+    },
+    {
+      "text": "wrong prepositions like this on that",
+      "start": 1206.48,
+      "duration": 6.24
+    },
+    {
+      "text": "should be an at how many times have you",
+      "start": 1209.2,
+      "duration": 5.68
+    },
+    {
+      "text": "skipped a word maybe because you got",
+      "start": 1212.72,
+      "duration": 5.04
+    },
+    {
+      "text": "distracted when you were writing here",
+      "start": 1214.88,
+      "duration": 6.24
+    },
+    {
+      "text": "there is an I missing and finally the",
+      "start": 1217.76,
+      "duration": 5.68
+    },
+    {
+      "text": "API can detect general grammar issues",
+      "start": 1221.12,
+      "duration": 5.24
+    },
+    {
+      "text": "like this is that should be an",
+      "start": 1223.44,
+      "duration": 6.239
+    },
+    {
+      "text": "horror. So, how do you use this API? Of",
+      "start": 1226.36,
+      "duration": 5.559
+    },
+    {
+      "text": "course, first you need a text with",
+      "start": 1229.679,
+      "duration": 5.201
+    },
+    {
+      "text": "spelling issues like this. Next, you",
+      "start": 1231.919,
+      "duration": 4.88
+    },
+    {
+      "text": "instantiate the proof reader, which",
+      "start": 1234.88,
+      "duration": 4.4
+    },
+    {
+      "text": "remember consistently as with all the",
+      "start": 1236.799,
+      "duration": 4.841
+    },
+    {
+      "text": "other APIs, works with the create",
+      "start": 1239.28,
+      "duration": 5.04
+    },
+    {
+      "text": "function. In this example, I pass",
+      "start": 1241.64,
+      "duration": 4.76
+    },
+    {
+      "text": "additional options to tell the API to",
+      "start": 1244.32,
+      "duration": 4.239
+    },
+    {
+      "text": "include the correction types and",
+      "start": 1246.4,
+      "duration": 4.72
+    },
+    {
+      "text": "explanations for the corrections. And I",
+      "start": 1248.559,
+      "duration": 5.041
+    },
+    {
+      "text": "print the API to expect English as the",
+      "start": 1251.12,
+      "duration": 4.72
+    },
+    {
+      "text": "input language. Now you need to call the",
+      "start": 1253.6,
+      "duration": 4.559
+    },
+    {
+      "text": "proofread function which gives you an",
+      "start": 1255.84,
+      "duration": 4.719
+    },
+    {
+      "text": "array of detailed correction objects and",
+      "start": 1258.159,
+      "duration": 4.241
+    },
+    {
+      "text": "a complete corrected version of the",
+      "start": 1260.559,
+      "duration": 4.48
+    },
+    {
+      "text": "input string. You can then loop over the",
+      "start": 1262.4,
+      "duration": 5.44
+    },
+    {
+      "text": "corrections one by one. Each correction",
+      "start": 1265.039,
+      "duration": 5.12
+    },
+    {
+      "text": "has a start index and an end index",
+      "start": 1267.84,
+      "duration": 5.04
+    },
+    {
+      "text": "relative to the input string. The actual",
+      "start": 1270.159,
+      "duration": 5.281
+    },
+    {
+      "text": "correction and if you've opted in the",
+      "start": 1272.88,
+      "duration": 5.679
+    },
+    {
+      "text": "correction type and the explanation. It",
+      "start": 1275.44,
+      "duration": 5.28
+    },
+    {
+      "text": "may be a bit of a visual overkill, but",
+      "start": 1278.559,
+      "duration": 4.081
+    },
+    {
+      "text": "for the sake of the demo, here is a",
+      "start": 1280.72,
+      "duration": 4.319
+    },
+    {
+      "text": "color-coded proof the API demo that",
+      "start": 1282.64,
+      "duration": 4.96
+    },
+    {
+      "text": "shows the API in action. Let's see what",
+      "start": 1285.039,
+      "duration": 5.76
+    },
+    {
+      "text": "the API detects. Ah, yes, of course. It",
+      "start": 1287.6,
+      "duration": 5.84
+    },
+    {
+      "text": "should be knocking on wood, not knocking",
+      "start": 1290.799,
+      "duration": 6.161
+    },
+    {
+      "text": "at wood. The proofy API will be testable",
+      "start": 1293.44,
+      "duration": 7.68
+    },
+    {
+      "text": "behind a flag in Chrome 139 or 140.",
+      "start": 1296.96,
+      "duration": 5.92
+    },
+    {
+      "text": "Textual APIs like the just announced",
+      "start": 1301.12,
+      "duration": 4.96
+    },
+    {
+      "text": "proof API are exciting, but it gets even",
+      "start": 1302.88,
+      "duration": 6.039
+    },
+    {
+      "text": "more exciting. introducing multimodal",
+      "start": 1306.08,
+      "duration": 5.839
+    },
+    {
+      "text": "APIs. First, we're adding image support",
+      "start": 1308.919,
+      "duration": 6.201
+    },
+    {
+      "text": "to the prompt API. This means you can",
+      "start": 1311.919,
+      "duration": 5.441
+    },
+    {
+      "text": "ask the German and model about what it",
+      "start": 1315.12,
+      "duration": 4.96
+    },
+    {
+      "text": "sees in a visual content. This unlocks",
+      "start": 1317.36,
+      "duration": 5.04
+    },
+    {
+      "text": "use cases like having AI describe an",
+      "start": 1320.08,
+      "duration": 4.56
+    },
+    {
+      "text": "image. For example, if you run a",
+      "start": 1322.4,
+      "duration": 3.759
+    },
+    {
+      "text": "blogging platform, you can have the",
+      "start": 1324.64,
+      "duration": 3.6
+    },
+    {
+      "text": "model make suggestions for alternative",
+      "start": 1326.159,
+      "duration": 4.481
+    },
+    {
+      "text": "text for uploaded images that the user",
+      "start": 1328.24,
+      "duration": 5.04
+    },
+    {
+      "text": "can then refine and tweak.",
+      "start": 1330.64,
+      "duration": 4.56
+    },
+    {
+      "text": "Another use case is getting product",
+      "start": 1333.28,
+      "duration": 3.84
+    },
+    {
+      "text": "description drafts based on product",
+      "start": 1335.2,
+      "duration": 4.12
+    },
+    {
+      "text": "images, for example, for e-commerce",
+      "start": 1337.12,
+      "duration": 4.88
+    },
+    {
+      "text": "platforms. Or you can use the model to",
+      "start": 1339.32,
+      "duration": 5.0
+    },
+    {
+      "text": "extract textual information from images,",
+      "start": 1342.0,
+      "duration": 4.48
+    },
+    {
+      "text": "for example, to extract information from",
+      "start": 1344.32,
+      "duration": 4.56
+    },
+    {
+      "text": "recipe scans to preserve a handwritten",
+      "start": 1346.48,
+      "duration": 5.36
+    },
+    {
+      "text": "recipe collection. We and our partners",
+      "start": 1348.88,
+      "duration": 5.44
+    },
+    {
+      "text": "have been super impressed by German's",
+      "start": 1351.84,
+      "duration": 6.319
+    },
+    {
+      "text": "OCR powers, especially for handwriting.",
+      "start": 1354.32,
+      "duration": 5.52
+    },
+    {
+      "text": "The way you use images with the prompt",
+      "start": 1358.159,
+      "duration": 3.441
+    },
+    {
+      "text": "API is similar to the regular prompt",
+      "start": 1359.84,
+      "duration": 4.4
+    },
+    {
+      "text": "API. First, you create a session by",
+      "start": 1361.6,
+      "duration": 5.28
+    },
+    {
+      "text": "calling the grade function. Yes, right.",
+      "start": 1364.24,
+      "duration": 5.2
+    },
+    {
+      "text": "You remember the consistency, but this",
+      "start": 1366.88,
+      "duration": 4.48
+    },
+    {
+      "text": "time you pass it unexpected input",
+      "start": 1369.44,
+      "duration": 4.56
+    },
+    {
+      "text": "options with an array of input object",
+      "start": 1371.36,
+      "duration": 6.16
+    },
+    {
+      "text": "types. Here I pass image. Image here",
+      "start": 1374.0,
+      "duration": 5.84
+    },
+    {
+      "text": "really means anything visual starting",
+      "start": 1377.52,
+      "duration": 4.72
+    },
+    {
+      "text": "from an image element to a blob of an",
+      "start": 1379.84,
+      "duration": 4.8
+    },
+    {
+      "text": "image to an image bit map, a video still",
+      "start": 1382.24,
+      "duration": 4.96
+    },
+    {
+      "text": "frame or a canvas object. In this",
+      "start": 1384.64,
+      "duration": 5.279
+    },
+    {
+      "text": "example, I pass an image element and a",
+      "start": 1387.2,
+      "duration": 3.8
+    },
+    {
+      "text": "canvas",
+      "start": 1389.919,
+      "duration": 3.521
+    },
+    {
+      "text": "element. Finally, you can then prompt",
+      "start": 1391.0,
+      "duration": 5.24
+    },
+    {
+      "text": "the API about the inputs. In the running",
+      "start": 1393.44,
+      "duration": 5.2
+    },
+    {
+      "text": "example, I ask the model what it thinks",
+      "start": 1396.24,
+      "duration": 4.319
+    },
+    {
+      "text": "of the recreation of a reference image",
+      "start": 1398.64,
+      "duration": 4.96
+    },
+    {
+      "text": "that the user has drawn onto the canvas.",
+      "start": 1400.559,
+      "duration": 4.721
+    },
+    {
+      "text": "This is the finished demo. So, we can",
+      "start": 1403.6,
+      "duration": 3.8
+    },
+    {
+      "text": "take it for a spin and draw the Mona",
+      "start": 1405.28,
+      "duration": 5.759
+    },
+    {
+      "text": "Lisa. Here we go. That's my colleagues",
+      "start": 1407.4,
+      "duration": 5.96
+    },
+    {
+      "text": "Mona Lisa. Let's see what the model",
+      "start": 1411.039,
+      "duration": 5.441
+    },
+    {
+      "text": "model's verdict is. I have to say the",
+      "start": 1413.36,
+      "duration": 5.28
+    },
+    {
+      "text": "model is brutally honest but correct",
+      "start": 1416.48,
+      "duration": 4.72
+    },
+    {
+      "text": "here in telling us that the drawing is a",
+      "start": 1418.64,
+      "duration": 5.24
+    },
+    {
+      "text": "poor imitation of Dainci's",
+      "start": 1421.2,
+      "duration": 4.88
+    },
+    {
+      "text": "masterpiece. We didn't stop at image",
+      "start": 1423.88,
+      "duration": 4.279
+    },
+    {
+      "text": "input though. We're also introducing",
+      "start": 1426.08,
+      "duration": 5.12
+    },
+    {
+      "text": "audio input support for the prompt API.",
+      "start": 1428.159,
+      "duration": 4.88
+    },
+    {
+      "text": "If you have an online podcast recording",
+      "start": 1431.2,
+      "duration": 3.76
+    },
+    {
+      "text": "app, you can use the prompt API to",
+      "start": 1433.039,
+      "duration": 3.841
+    },
+    {
+      "text": "create transcription suggestions that a",
+      "start": 1434.96,
+      "duration": 5.04
+    },
+    {
+      "text": "human reviewer can then refine. This API",
+      "start": 1436.88,
+      "duration": 4.88
+    },
+    {
+      "text": "is also useful if you want to add",
+      "start": 1440.0,
+      "duration": 4.24
+    },
+    {
+      "text": "textual search for audio segments. Say",
+      "start": 1441.76,
+      "duration": 4.48
+    },
+    {
+      "text": "you have a long podcast and you want to",
+      "start": 1444.24,
+      "duration": 4.08
+    },
+    {
+      "text": "let the user search for parts they're",
+      "start": 1446.24,
+      "duration": 4.319
+    },
+    {
+      "text": "interested in. But you can also think of",
+      "start": 1448.32,
+      "duration": 4.64
+    },
+    {
+      "text": "use cases like classifying audio, for",
+      "start": 1450.559,
+      "duration": 4.641
+    },
+    {
+      "text": "example, to categorize an audio file",
+      "start": 1452.96,
+      "duration": 5.76
+    },
+    {
+      "text": "archive into music styles. By now, you",
+      "start": 1455.2,
+      "duration": 5.52
+    },
+    {
+      "text": "probably know the drill. As per the",
+      "start": 1458.72,
+      "duration": 4.16
+    },
+    {
+      "text": "consistent API design, you create a",
+      "start": 1460.72,
+      "duration": 4.88
+    },
+    {
+      "text": "session by calling create, but this time",
+      "start": 1462.88,
+      "duration": 4.799
+    },
+    {
+      "text": "passing type audio in the expected",
+      "start": 1465.6,
+      "duration": 4.559
+    },
+    {
+      "text": "inputs array. Next, you get the blob of",
+      "start": 1467.679,
+      "duration": 4.801
+    },
+    {
+      "text": "an audio file, but it would also work",
+      "start": 1470.159,
+      "duration": 4.961
+    },
+    {
+      "text": "with a reference to an audio element.",
+      "start": 1472.48,
+      "duration": 4.64
+    },
+    {
+      "text": "Finally, you call the prompt method",
+      "start": 1475.12,
+      "duration": 5.2
+    },
+    {
+      "text": "asking it to to transcribe the speech.",
+      "start": 1477.12,
+      "duration": 4.799
+    },
+    {
+      "text": "Here's a short demo where the same",
+      "start": 1480.32,
+      "duration": 3.4
+    },
+    {
+      "text": "colleague from the Mona Lisa demo from",
+      "start": 1481.919,
+      "duration": 5.12
+    },
+    {
+      "text": "before has recorded his voice and then",
+      "start": 1483.72,
+      "duration": 5.8
+    },
+    {
+      "text": "uses the prompt API with audio input and",
+      "start": 1487.039,
+      "duration": 4.561
+    },
+    {
+      "text": "the prompt transcribe this short audio",
+      "start": 1489.52,
+      "duration": 4.159
+    },
+    {
+      "text": "to get a transcription.",
+      "start": 1491.6,
+      "duration": 4.959
+    },
+    {
+      "text": "How many times did I say the word AI",
+      "start": 1493.679,
+      "duration": 4.48
+    },
+    {
+      "text": "yet?",
+      "start": 1496.559,
+      "duration": 3.841
+    },
+    {
+      "text": "As you can see, it got the message, \"How",
+      "start": 1498.159,
+      "duration": 4.88
+    },
+    {
+      "text": "many times did I say the word AI yet?\"",
+      "start": 1500.4,
+      "duration": 4.68
+    },
+    {
+      "text": "And that's exactly what he",
+      "start": 1503.039,
+      "duration": 4.321
+    },
+    {
+      "text": "said. We also have the built-in AI",
+      "start": 1505.08,
+      "duration": 4.68
+    },
+    {
+      "text": "playground, which lets you explore the",
+      "start": 1507.36,
+      "duration": 4.799
+    },
+    {
+      "text": "prompt API with multimodal input some",
+      "start": 1509.76,
+      "duration": 5.039
+    },
+    {
+      "text": "more. Here, I'm using an image, and I'm",
+      "start": 1512.159,
+      "duration": 4.64
+    },
+    {
+      "text": "asking the model what color the person's",
+      "start": 1514.799,
+      "duration": 5.041
+    },
+    {
+      "text": "head is. While a prompt API with image",
+      "start": 1516.799,
+      "duration": 5.601
+    },
+    {
+      "text": "input and a prompt API with audio input",
+      "start": 1519.84,
+      "duration": 4.719
+    },
+    {
+      "text": "will be entering origin trail in either",
+      "start": 1522.4,
+      "duration": 6.56
+    },
+    {
+      "text": "Chrome 139 or Chrome 140. It's really",
+      "start": 1524.559,
+      "duration": 6.081
+    },
+    {
+      "text": "early days for multimodal input in the",
+      "start": 1528.96,
+      "duration": 3.92
+    },
+    {
+      "text": "prompt API. But because it's never too",
+      "start": 1530.64,
+      "duration": 4.56
+    },
+    {
+      "text": "early to get feedback on an API, we've",
+      "start": 1532.88,
+      "duration": 4.399
+    },
+    {
+      "text": "worked with select partners and granted",
+      "start": 1535.2,
+      "duration": 4.24
+    },
+    {
+      "text": "them access to a special build of Chrome",
+      "start": 1537.279,
+      "duration": 4.961
+    },
+    {
+      "text": "so they could test the multimodal APIs.",
+      "start": 1539.44,
+      "duration": 5.2
+    },
+    {
+      "text": "We ran several virtual and on-site",
+      "start": 1542.24,
+      "duration": 4.48
+    },
+    {
+      "text": "oneweek partner hackathons. And to give",
+      "start": 1544.64,
+      "duration": 4.56
+    },
+    {
+      "text": "you a feeling for how hacky the events",
+      "start": 1546.72,
+      "duration": 4.64
+    },
+    {
+      "text": "were, the instructions included",
+      "start": 1549.2,
+      "duration": 4.479
+    },
+    {
+      "text": "downloading a model from Google Drive",
+      "start": 1551.36,
+      "duration": 4.319
+    },
+    {
+      "text": "and hot swapping it with the regular",
+      "start": 1553.679,
+      "duration": 4.081
+    },
+    {
+      "text": "Geminine model before launching the",
+      "start": 1555.679,
+      "duration": 4.561
+    },
+    {
+      "text": "special Chrome build. Here you can see",
+      "start": 1557.76,
+      "duration": 4.399
+    },
+    {
+      "text": "the logos of some of the partners that",
+      "start": 1560.24,
+      "duration": 4.48
+    },
+    {
+      "text": "took part in the hackathons. As I said,",
+      "start": 1562.159,
+      "duration": 5.201
+    },
+    {
+      "text": "we had a mixed virtual and on-site event",
+      "start": 1564.72,
+      "duration": 4.8
+    },
+    {
+      "text": "format at different hackathons around",
+      "start": 1567.36,
+      "duration": 5.52
+    },
+    {
+      "text": "the globe. Nika, India's leading beauty",
+      "start": 1569.52,
+      "duration": 5.6
+    },
+    {
+      "text": "and lifestyle destination, experimented",
+      "start": 1572.88,
+      "duration": 4.24
+    },
+    {
+      "text": "with visual search based on the prompt",
+      "start": 1575.12,
+      "duration": 4.799
+    },
+    {
+      "text": "API with image input to let users find",
+      "start": 1577.12,
+      "duration": 3.88
+    },
+    {
+      "text": "fitting",
+      "start": 1579.919,
+      "duration": 4.0
+    },
+    {
+      "text": "outfits. Chef, a German recipe site,",
+      "start": 1581.0,
+      "duration": 4.84
+    },
+    {
+      "text": "used the prompt API with image input to",
+      "start": 1583.919,
+      "duration": 4.561
+    },
+    {
+      "text": "let users digitize handwritten recipes",
+      "start": 1585.84,
+      "duration": 4.959
+    },
+    {
+      "text": "or recipes they photographed, for",
+      "start": 1588.48,
+      "duration": 5.6
+    },
+    {
+      "text": "example, from cooking magazines. The API",
+      "start": 1590.799,
+      "duration": 5.841
+    },
+    {
+      "text": "effectively functions as client side OCR",
+      "start": 1594.08,
+      "duration": 4.719
+    },
+    {
+      "text": "and users can then edit the recipes on",
+      "start": 1596.64,
+      "duration": 4.8
+    },
+    {
+      "text": "the site to fix potential problems. The",
+      "start": 1598.799,
+      "duration": 4.48
+    },
+    {
+      "text": "Independent, a UK- based online",
+      "start": 1601.44,
+      "duration": 3.839
+    },
+    {
+      "text": "newspaper, integrated the prompt API",
+      "start": 1603.279,
+      "duration": 3.921
+    },
+    {
+      "text": "with image input into their content",
+      "start": 1605.279,
+      "duration": 4.241
+    },
+    {
+      "text": "management system. It helps them to",
+      "start": 1607.2,
+      "duration": 4.32
+    },
+    {
+      "text": "generate image titles, suggestions for",
+      "start": 1609.52,
+      "duration": 5.68
+    },
+    {
+      "text": "alternative text or image descriptions.",
+      "start": 1611.52,
+      "duration": 6.32
+    },
+    {
+      "text": "Brazilian group OX used the prompt API",
+      "start": 1615.2,
+      "duration": 4.88
+    },
+    {
+      "text": "with audio input to transcribe audio",
+      "start": 1617.84,
+      "duration": 4.319
+    },
+    {
+      "text": "messages in their chat platform which",
+      "start": 1620.08,
+      "duration": 4.4
+    },
+    {
+      "text": "enhances accessibility and allows the",
+      "start": 1622.159,
+      "duration": 4.721
+    },
+    {
+      "text": "messages to be read in more places and",
+      "start": 1624.48,
+      "duration": 5.199
+    },
+    {
+      "text": "less time as all the processing happens",
+      "start": 1626.88,
+      "duration": 5.039
+    },
+    {
+      "text": "client side. This will likely be the",
+      "start": 1629.679,
+      "duration": 4.081
+    },
+    {
+      "text": "optimal solution for end to end",
+      "start": 1631.919,
+      "duration": 4.0
+    },
+    {
+      "text": "encrypted messages.",
+      "start": 1633.76,
+      "duration": 4.399
+    },
+    {
+      "text": "I'm still super impressed with what our",
+      "start": 1635.919,
+      "duration": 4.961
+    },
+    {
+      "text": "partners have achieved in just one week",
+      "start": 1638.159,
+      "duration": 4.561
+    },
+    {
+      "text": "and I'm looking forward to seeing many",
+      "start": 1640.88,
+      "duration": 3.84
+    },
+    {
+      "text": "of these use cases go into production",
+      "start": 1642.72,
+      "duration": 4.88
+    },
+    {
+      "text": "soon. So, let's recap what we've covered",
+      "start": 1644.72,
+      "duration": 5.76
+    },
+    {
+      "text": "in this talk. First, we're shipping four",
+      "start": 1647.6,
+      "duration": 5.04
+    },
+    {
+      "text": "APIs. The prompt API for Chrome",
+      "start": 1650.48,
+      "duration": 4.72
+    },
+    {
+      "text": "extensions. The summarize API, the",
+      "start": 1652.64,
+      "duration": 4.399
+    },
+    {
+      "text": "language detector API, and the",
+      "start": 1655.2,
+      "duration": 4.8
+    },
+    {
+      "text": "translator API. The prompt API for web",
+      "start": 1657.039,
+      "duration": 5.361
+    },
+    {
+      "text": "remains behind a flag.",
+      "start": 1660.0,
+      "duration": 4.96
+    },
+    {
+      "text": "Second, we're moving two APIs into",
+      "start": 1662.4,
+      "duration": 4.879
+    },
+    {
+      "text": "origin trail. The writer and the",
+      "start": 1664.96,
+      "duration": 6.0
+    },
+    {
+      "text": "rewriter APIs. And third, we're making",
+      "start": 1667.279,
+      "duration": 5.361
+    },
+    {
+      "text": "three completely new APIs testable",
+      "start": 1670.96,
+      "duration": 3.92
+    },
+    {
+      "text": "behind the flag. The prompt API with",
+      "start": 1672.64,
+      "duration": 4.72
+    },
+    {
+      "text": "image input, the prompt API with audio",
+      "start": 1674.88,
+      "duration": 5.679
+    },
+    {
+      "text": "input, and the proofreader API. And",
+      "start": 1677.36,
+      "duration": 5.919
+    },
+    {
+      "text": "finally, we have announced a hybrid SDK",
+      "start": 1680.559,
+      "duration": 4.641
+    },
+    {
+      "text": "developer preview to extend the reach of",
+      "start": 1683.279,
+      "duration": 4.481
+    },
+    {
+      "text": "these APIs to browsers and devices that",
+      "start": 1685.2,
+      "duration": 5.52
+    },
+    {
+      "text": "wouldn't otherwise be covered. So,",
+      "start": 1687.76,
+      "duration": 6.72
+    },
+    {
+      "text": "what's next? You are next. Please go and",
+      "start": 1690.72,
+      "duration": 8.559
+    },
+    {
+      "text": "try our APIs. Check out our docs on",
+      "start": 1694.48,
+      "duration": 4.799
+    },
+    {
+      "text": "developer.com/doccks/ai/builtin. And",
+      "start": 1700.679,
+      "duration": 3.961
+    },
+    {
+      "text": "remember, multiple APIs are in origin",
+      "start": 1701.919,
+      "duration": 4.801
+    },
+    {
+      "text": "origin trials so you can try them on",
+      "start": 1704.64,
+      "duration": 4.96
+    },
+    {
+      "text": "real users. Play with all of our demos",
+      "start": 1706.72,
+      "duration": 5.12
+    },
+    {
+      "text": "on",
+      "start": 1709.6,
+      "duration": 2.24
+    },
+    {
+      "text": "chrome.dev/web-ai-demos. If you find a",
+      "start": 1712.679,
+      "duration": 3.641
+    },
+    {
+      "text": "bug with Chrome's implementation, help",
+      "start": 1714.32,
+      "duration": 3.839
+    },
+    {
+      "text": "the team and file a bug at",
+      "start": 1716.32,
+      "duration": 3.64
+    },
+    {
+      "text": "new.crbug.com.",
+      "start": 1718.159,
+      "duration": 3.841
+    },
+    {
+      "text": "crbark.com. If you're interested in",
+      "start": 1719.96,
+      "duration": 4.04
+    },
+    {
+      "text": "these APIs turning into web standards,",
+      "start": 1722.0,
+      "duration": 4.08
+    },
+    {
+      "text": "become part of the standards effort and",
+      "start": 1724.0,
+      "duration": 4.24
+    },
+    {
+      "text": "check out the relevant repositories on",
+      "start": 1726.08,
+      "duration": 4.12
+    },
+    {
+      "text": "GitHub under the web machine learning",
+      "start": 1728.24,
+      "duration": 3.919
+    },
+    {
+      "text": "organization. You can comment on",
+      "start": 1730.2,
+      "duration": 5.16
+    },
+    {
+      "text": "existing spec issues or open new ones.",
+      "start": 1732.159,
+      "duration": 5.841
+    },
+    {
+      "text": "And of course, if you haven't already,",
+      "start": 1735.36,
+      "duration": 4.88
+    },
+    {
+      "text": "join the early pre preview program.",
+      "start": 1738.0,
+      "duration": 4.32
+    },
+    {
+      "text": "You'll hear of new opportunities to test",
+      "start": 1740.24,
+      "duration": 5.12
+    },
+    {
+      "text": "APIs as soon as they are testable. Sign",
+      "start": 1742.32,
+      "duration": 5.92
+    },
+    {
+      "text": "up at goo.gle/chrome-ai.",
+      "start": 1745.36,
+      "duration": 2.88
+    },
+    {
+      "text": "GLE/Chrome-AI-Dev-Preview-Join. And with",
+      "start": 1751.399,
+      "duration": 3.801
+    },
+    {
+      "text": "that, thank you very much for watching",
+      "start": 1752.799,
+      "duration": 4.961
+    },
+    {
+      "text": "my talk. It's an honor to present this",
+      "start": 1755.2,
+      "duration": 4.64
+    },
+    {
+      "text": "joint effort on behalf of the entire",
+      "start": 1757.76,
+      "duration": 4.72
+    },
+    {
+      "text": "Chrome AI team. I hope you have as much",
+      "start": 1759.84,
+      "duration": 5.04
+    },
+    {
+      "text": "fun working with the built-in AI APIs as",
+      "start": 1762.48,
+      "duration": 5.28
+    },
+    {
+      "text": "I do. If you have any questions, be sure",
+      "start": 1764.88,
+      "duration": 4.96
+    },
+    {
+      "text": "to reach out. You'll easily find me on",
+      "start": 1767.76,
+      "duration": 4.08
+    },
+    {
+      "text": "the internet by searching for Thomas",
+      "start": 1769.84,
+      "duration": 6.839
+    },
+    {
+      "text": "Diner Google. Happy hacking.",
+      "start": 1771.84,
+      "duration": 4.839
+    },
+    {
+      "text": "[Applause]",
+      "start": 1778.37,
+      "duration": 3.2
+    }
+  ]
+}

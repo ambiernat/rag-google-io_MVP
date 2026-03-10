@@ -1,0 +1,112 @@
+[
+  {
+    "id": "rxKYK3DIzN0__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 0.0,
+    "timestamp_end": 159.3,
+    "text": "[MUSIC PLAYING] PETER FRIESE: Firebase\nis a powerful platform for building amazing apps. You've got robust databases,\nauthentication, hosting, and now AI\nintegration tools like the Firebase AI SDKs,\nGenkit, and even vector embeddings\nin Cloud Firestore. But let's be real. How do you use them? When does each make sense? And seriously, they\nseem so similar. Do you need complex\nbackend work or can you keep it simple on the client\nwith the tools you already love? How do you make sure these AI\nfeatures are robust, secure, and production-ready, giving\nyour users a smooth experience? Hey, I'm Peter. And today, I'm going to\ndemystify all of this, showing you exactly how it\nworks and when to choose which Firebase AI tool. To show you how\nthese features can be used in a real-world\nscenario, my team and I have been working\non a meal-planning app to collect and store\nour favorite recipes. Users can add their own recipes,\nbrowse them, and then get this beautifully\ndesigned screen that helps them with the cooking. This is great, but we\nfound that it's often difficult to decide\nwhat to cook. So we came up with\na couple of ideas to make it easier and\nmore fun for users to discover new recipes and help\nthem decide what to cook today. For example, a user might\nwant to surprise guests at a dinner party with\na meal in the style of a particular cuisine. We also wanted to\nbuild something that helps the user\ndecide what to cook based on what's in their fridge. Just snap a picture of\nwhat's in your fridge and get a suggestion\nfor a recipe. How amazing would that be? And of course, since users can\nstore their favorite recipes in this app, for example,\ntheir grandma's apple crumble, we want to ensure the app\nprovides recipe suggestions that consider their\npersonal collection. To kick things off, we started\nby prototyping a prompt in AI Studio. And honestly, the results\nwere pretty impressive. Check this out. We asked for a vegan\nTurkish recipe for fall, and it gave us a full ingredient\nlist and detailed steps.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 142.02,
+    "timestamp_end": 299.02000000000004,
+    "text": "To kick things off, we started\nby prototyping a prompt in AI Studio. And honestly, the results\nwere pretty impressive. Check this out. We asked for a vegan\nTurkish recipe for fall, and it gave us a full ingredient\nlist and detailed steps. AI Studio has a\nhandy feature that gives you the working code in\nthe language of your choice for generating the\nresponse from this prompt, including the code to\ngenerate the recipe as JSON-structured output\nso that we can easily parse and render the\nresult into the app's UI. To use this code\nin our app, we need to make sure the app is\nconnected to Firebase and that it has the\nFirebase SDK installed. Since our meal-planning app\nuses Firebase to store recipes in Cloud Firestore, we've\nalready connected the app to a Firebase project. But if you'd like to learn\nhow to set up your app to use Firebase, including\ncreating a Firebase project and connecting your\napp to Firebase, here is a video that walks\nyou through the steps. And since this is an iOS\napp, adding the Firebase SDK to your app\nis, of course, done using Swift Package Manager. With that out of the way, we\ncan connect our UI to the code. Now we can run the app\nand try out a new feature. Let's see. I think I need a\ndessert for four people. Ah, this sounds great. But wait, doesn't the\nGemini API require us to provide a Gemini API key? And isn't adding that API\nkey into our app's code base a security risk? It is indeed, as anyone\ncan now download the app, open it in a hex editor, and\nexfiltrate your Gemini API key. A malicious actor can\nthen use your API key to make calls with it, racking\nup charges on your account. So you should never, ever\nput your Gemini API key directly into the\ncode base of any app that you want to make\navailable publicly. The best way to protect\nyour precious Gemini API key from being stolen\nis to never put it into your app in\nthe first place. The good news is that\nFirebase has built a solution to help secure your app\nfrom these malicious actors.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 283.69,
+    "timestamp_end": 443.65999999999997,
+    "text": "The best way to protect\nyour precious Gemini API key from being stolen\nis to never put it into your app in\nthe first place. The good news is that\nFirebase has built a solution to help secure your app\nfrom these malicious actors. When you use the Firebase AI\nSDK to access generative models like Gemini, you don't put\na Gemini API key directly in your app. Instead, the key\nstays on the server and can only be accessed\nby a legitimate request from your app. This is achieved by using\nFirebase App Check, which helps you to protect your\napp's backend resources and make sure it only\nserves requests that come in from your legitimate app\nrunning on untampered devices. Now that we've got a basic\nAI feature built in our app, we are ready to implement the\nnext, even cooler feature-- suggesting a recipe based on\na photo rather than only text. If you're anything\nlike me, you've stared in your fridge totally\nstuck for dinner ideas. I usually fall back on\nthe same old recipes. But imagine if your\napp could actually suggest something\nnew and exciting based on what's\nalready in your fridge. Users could simply\nsnap a photo, and we can combine that\nsnapshot with a text prompt describing their desired\ndish, sending it to the AI. This combination of\nvisual data and text is called multimodal input. In this code\nsnippet, you can see that parsing the user's\nphoto to the model requires just a small\nchange to our code. We add the photo as an\nadditional parameter to the generateContent method. And that's it. Great. Let's give this a try. OK, so let me take a picture\nand see what it comes up with. So I'm taking a picture of\nthis plate of fruit here. And yeah, this sounds delicious. But to be honest,\nI am struggling to picture what this dish\nactually should look like. Wouldn't it be\namazing if we could ask the model to generate an\nimage of the finished recipe? Using the Firebase AI\nSDK, I can make a call to imagine our image\ngeneration model and prompt it to generate\nan inspirational picture of the dish based on\nthe text of the recipe.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 425.6,
+    "timestamp_end": 576.3900000000001,
+    "text": "ask the model to generate an\nimage of the finished recipe? Using the Firebase AI\nSDK, I can make a call to imagine our image\ngeneration model and prompt it to generate\nan inspirational picture of the dish based on\nthe text of the recipe. Let's give this a try. And this is a lot more\ninspiring than just looking at the text of the recipe. It's true. A picture is worth\na thousand words. So we've added a couple of\nreally cool features to our app with just a few lines of code. And we were able\nto do all of this on the client using the\ntools and programming language we know and love. However, you might have\nnoticed that all of the recipes that Gemini\nsuggested for us were based on its foundational\ntraining data. And while I appreciate\nthat Gemini can surprise me with a wide variety\nof recipes, our users might actually\nprefer custom recipes that are based on the\ncollection of personal recipes they've stored in the app. For example, our users\nmight have a collection of recipes that have been\npassed down several generations in the family. Or in a future\nversion of the app, we may decide to offer recipes\ncreated by famous chefs as an in-app purchase. How can you implement this? Well, first, the\nuser takes a photo. Our app then uploads\nthat photo to Gemini and prompts it to\ndetect the ingredients. We should probably make sure\nto get this list of ingredients as structured output to\nmake it easier to work with. Then we'll take this\nlist of ingredients and retrieve all of the\nuser's personal recipes that can be prepared\nusing those ingredients. And finally, we will\nprompt the model to generate a new dish that\nis inspired by these existing recipes. As you can see, we need quite\na few model capabilities to implement these features-- multimodal input to\nunderstand what's in the photo of the\nuser's fridge, retrieval augmented generation to\nfetch matching recipes from the database,\nmultimodal output to generate a new recipe with\ncorresponding image of the dish, tool used to call an API to\norder any missing ingredients.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 561.6,
+    "timestamp_end": 700.14,
+    "text": "augmented generation to\nfetch matching recipes from the database,\nmultimodal output to generate a new recipe with\ncorresponding image of the dish, tool used to call an API to\norder any missing ingredients. Let's think about the\nimplementation of this feature. Sure, we could run\nthe entire process, detecting ingredients,\nretrieving recipes, generating a new recipe, and even ordering\nany missing ingredients directly in the app using\nthese client SDKs. But let's be honest. In this scenario, this might\nnot be the ideal solution, as you'd have to coordinate\ndifferent services and transfer potentially a\nlot of data back and forth between your client\napp and those services. By moving this complex\nflow to the backend, we drastically reduce the amount\nof data being transferred. This translates to faster\nresponse times, a better user experience, and less strain\non the user's device, especially on spotty networks. And this is where\nGenkit comes in. Genkit is Google's open-source\nAI integration framework. It allows you to implement\nAI flows using TypeScript. And we've just announced\nsupport for Go and Python. Genkit flows are like\nregular functions, which means you can do\nanything that you would also be able to do in\nany other function, like calling other APIs,\nretrieving data from a database, performing\ncomputations, et cetera. But the cool thing is that\nGenkit flows are observable. And that means you can monitor\nthem using the AI Monitoring dashboard in the\nFirebase console or any other tool that supports\nOpenTelemetry, such as Google Cloud's Observability Suite. Genkit also provides\neasy-to-use abstractions for working with models\nand vector stores. And this enables\nus to tap into any of the recipes our users have\nstored in their app's database and use them to generate new\nrecipes based on the ingredients the user has on hand. Another really cool\nfeature of Genkit is its unified model interface. This allows you to\nuse different models by just providing the\nname of the model you want to use instead.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 682.15,
+    "timestamp_end": 835.25,
+    "text": "and use them to generate new\nrecipes based on the ingredients the user has on hand. Another really cool\nfeature of Genkit is its unified model interface. This allows you to\nuse different models by just providing the\nname of the model you want to use instead. This makes it super\neasy to experiment with different models. Let's take a look at how\nyou would implement the meal planning use case with Genkit. First, we create a Genkit flow. Then we pass the user's\ninput to the model, prompting it to detect\nwhich ingredients can be seen in the picture. By providing an\noutput schema, we can tell Genkit to\nwork with the model to return structured output,\nwhich will make it easier for us to further process the result. Now that we have the\nlist of ingredients, we need to find\nmatching recipes that also fit the user's needs,\nthings dietary restrictions and preferred cuisines. That's no easy task when dealing\nwith complex search queries. Retrieving relevant\ndata from a database based on free-form inputs,\nsuch as natural language or a list of ingredients,\nis a common challenge in AI applications. That's where Genkit's retriever\nabstractions comes in. It streamlines this\ncomplex process, making it surprisingly\nefficient. You can think of the retriever\nas your intelligent search assistant. It takes the user's\nrequest, translates it into a vector\nembedding, and then uses nearest-neighbor search to\nquickly locate the best matching recipes in your database. Vector embeddings\nare essentially a way to turn text into\na series of numbers that a computer can understand. Here is the number\nrepresentation for apples. And here is the number\nrepresentation for oranges. Since these are vectors, we\ncan use mathematical functions like cosine to measure\nhow similar they are. This allows our\nsystem to understand that apples and oranges are\nboth fruits, even though they are different. So it turns out you can\ncompare apples and oranges. Our recipes are stored\nin Cloud Firestore, which supports vector embeddings. So when the user\nstores a new recipe,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 815.11,
+    "timestamp_end": 964.51,
+    "text": "that apples and oranges are\nboth fruits, even though they are different. So it turns out you can\ncompare apples and oranges. Our recipes are stored\nin Cloud Firestore, which supports vector embeddings. So when the user\nstores a new recipe, we also calculate vector\nembeddings for its ingredients and store them alongside it. Genkit's Firestore\nretriever can then use those embeddings to quickly\nfind the recipes that best match a user's ingredients, like those\ndetected in their fridge photo. The result is a number\nof Firestore documents that contain the best\nmatching recipes. Using these recipes,\nwe prompt the model to generate a brand-new\nrecipe for the specified number of people,\ntaking inspiration from the recipes\nfound in the database. This flow does a lot with\na few lines of code thanks to Genkit's powerful\nAI abstractions. Now, you might be wondering\nhow we can include this Genkit flow in our mobile application. After all, our client\napp is written in Swift, and the Genkit flow is\nwritten in TypeScript. To bring those two\nworlds together, we will first expose\nthe Genkit flow as a callable cloud function. This will allow us to deploy it\nto Cloud Functions for Firebase or Cloud Run. We can then use the Firebase\nclient SDK to call this endpoint from our Swift app. So we've implemented two\nexciting new features for our app, and we are ready\nto ship them to production. But before we can\ndo that, we need to make sure that our app is\nsafe from unauthorized access. App Check is Firebase's\nsolution for keeping your app's backend resources safe. This works both for\nFirebase resources as well as your\nown custom backend. We can use App Check to\nprotect the backend services our app uses. First, we need to\nregister our app with App Check in the Firebase console. Next, we will add the App Check\nlibrary to our client app. Then we configure the App\nCheck provider we want to use. This needs to happen before you\ninitialize the Firebase SDK. Once you start out\nrolling the app,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 947.95,
+    "timestamp_end": 1084.6599999999999,
+    "text": "Next, we will add the App Check\nlibrary to our client app. Then we configure the App\nCheck provider we want to use. This needs to happen before you\ninitialize the Firebase SDK. Once you start out\nrolling the app, you will see your app's\nrequests showing up in the App Check section of the\nFirebase console. You can now enforce\nApp Check for your app. And as soon as you do that,\nonly legitimate requests from your app will be permitted,\nand all other requests will be blocked. Now that we implemented\nthese AI features in our app, we want to see how\nthey are performing both in test and production. To enable telemetry for your\nGenkit flows and other actions, add the following lines to\nyour source, and then redeploy. The next time you call\nyour deployed Genkit flows, telemetry data\nwill be collected. To see a high-level\noverview of the Genkit flows deployed in your\nFirebase project, visit the Firebase console. At the top, you will see the\nvitals of your Genkit flows, such as the number of\nrequests, the success rate, and the latency. At the bottom of\nthe screen, you can see a list of all the deployed\nGenkit flows of your project. You can drill into\nindividual flows to see more details, most\nimportantly, how many tokens or images they\nconsumed or produced. But there is more. You can see the input\nand output parameters. And when you click\non an invocation, you can see the entire\ntrace of your flow. With the trace\ninspector, you can examine every step of the\nflow invocation in detail. It reveals the input\nand output of each step along with any\nassociated attributes. This allows for a granular\nunderstanding of the flow's execution process. This is a really valuable\ntool to help you gain insight into the performance of your\nAI features and production. And it's a great help when\noptimizing or debugging your Genkit flows. You can also inspect any\ninvocations that fail, like this one. This is a great help\nfor understanding why some of your invocations\nmight have failed. All of this is possible\nbecause Genkit flows",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 1070.36,
+    "timestamp_end": 1213.96,
+    "text": "your Genkit flows. You can also inspect any\ninvocations that fail, like this one. This is a great help\nfor understanding why some of your invocations\nmight have failed. All of this is possible\nbecause Genkit flows and all of their underlying\nactions are observable. You don't have to add any\nadditional instrumentation. It's all built in. And there you have it. We've implemented a bunch\nof exciting new features for our app, making\nuse of the AI services available from Firebase. We use the Firebase AI SDK to\ncall Gemini to generate recipes based on the user's input. We used both text input\nand multimodal input, allowing our users to\ngenerate recipes based on what's in their fridge. We then used multimodal\noutput to generate recipes, including inspirational\nimages showing what the meal should look like. We were able to implement all of\nthis in our client application using the same\ntools and languages that we're used to\nas mobile developers. We then switched it\nup a gear and used Genkit to implement\na feature that grounds the model in the user's\ndata, which allows the app to provide results\nthat are based on the user's personal recipes. And finally, we made our\napplication ready for production and looked at how Firebase's\nAI monitoring features can help us operate the AI features\nof our app with confidence. So now you might be wondering\nwhen you should use the Firebase AI SDKs versus Genkit. The answer is, it\ndepends on your use case. If you're implementing\nfeatures that don't require you to tap\ninto a large data set or data of any other backend\nservices, the Firebase AI SDKs are a great way to add powerful\nAI features to your app. As you saw, it's\neasy to get started, and you have access to a wide\nspectrum of generative AI features. On the other hand, if\nyour use case requires you to tap into\na large data set, for example, a product\ndatabase, or if you need to connect your model\nto other backend services, Genkit is the best choice. It allows you to\nimplement AI flows that integrate all those\nvarious services",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "rxKYK3DIzN0__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "rxKYK3DIzN0",
+    "title": "Google I/O 2025 \u2013 rxKYK3DIzN0",
+    "timestamp_start": 1198.1,
+    "timestamp_end": 1254.9,
+    "text": "you to tap into\na large data set, for example, a product\ndatabase, or if you need to connect your model\nto other backend services, Genkit is the best choice. It allows you to\nimplement AI flows that integrate all those\nvarious services and make them accessible to your\nclient application via callable API endpoints. Genkit is also the\ngo-to way if you'd like to integrate non-Google\nmodels, like those from Anthropic or OpenAI. Finally, keep in mind that this\nisn't an either/or decision. As you saw in our\nexample, you can have the best of both worlds\nby using the Firebase AI SDKs and Genkit in the same app. Pick the best tool for the job. Thanks for watching, and I\nwill see you in the next one. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

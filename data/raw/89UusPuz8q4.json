@@ -1,0 +1,1632 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "89UusPuz8q4",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.241
+    },
+    {
+      "text": "JOLANDA VERHOEF:\nBecause I get to start,",
+      "start": 6.02,
+      "duration": 2.07
+    },
+    {
+      "text": "of course I'm going to start\nwith my all-time favorite topic,",
+      "start": 8.09,
+      "duration": 4.26
+    },
+    {
+      "text": "Jetpack Compose.",
+      "start": 12.35,
+      "duration": 0.98
+    },
+    {
+      "text": "[CHEERS AND APPLAUSE]",
+      "start": 13.33,
+      "duration": 3.218
+    },
+    {
+      "text": "Now, I was actually\npreparing this talk,",
+      "start": 18.38,
+      "duration": 2.4
+    },
+    {
+      "text": "and I was looking\nfor some inspiration.",
+      "start": 20.78,
+      "duration": 2.24
+    },
+    {
+      "text": "And so I watched the 2019 talk,\nthe \"What's New in Android\"",
+      "start": 23.02,
+      "duration": 3.64
+    },
+    {
+      "text": "talk back then.",
+      "start": 26.66,
+      "duration": 1.15
+    },
+    {
+      "text": "And it made me realize that\nwe've come such a long way.",
+      "start": 27.81,
+      "duration": 2.99
+    },
+    {
+      "text": "Back then, we introduced\nCompose as this new UI toolkit",
+      "start": 30.8,
+      "duration": 4.08
+    },
+    {
+      "text": "for all of you to try out.",
+      "start": 34.88,
+      "duration": 1.66
+    },
+    {
+      "text": "And now, Compose is\nour recommended toolkit",
+      "start": 36.54,
+      "duration": 2.87
+    },
+    {
+      "text": "for building UI on Android.",
+      "start": 39.41,
+      "duration": 3.66
+    },
+    {
+      "text": "And year over year, we\nsee the adoption grow.",
+      "start": 43.07,
+      "duration": 3.07
+    },
+    {
+      "text": "We are now at 60% of\nthe top 1,000 apps,",
+      "start": 46.14,
+      "duration": 3.72
+    },
+    {
+      "text": "using it and loving\nit, in production.",
+      "start": 49.86,
+      "duration": 3.62
+    },
+    {
+      "text": "And Compose gives us the\nfeatures, the performance,",
+      "start": 53.48,
+      "duration": 3.76
+    },
+    {
+      "text": "the stability, and\nthe libraries that you",
+      "start": 57.24,
+      "duration": 2.69
+    },
+    {
+      "text": "need to help build you\nbeautiful, adaptive apps,",
+      "start": 59.93,
+      "duration": 4.18
+    },
+    {
+      "text": "and also to build\nthose apps faster,",
+      "start": 64.11,
+      "duration": 2.82
+    },
+    {
+      "text": "so that you can be focusing\non those things that",
+      "start": 66.93,
+      "duration": 2.78
+    },
+    {
+      "text": "truly matter to your users.",
+      "start": 69.71,
+      "duration": 3.45
+    },
+    {
+      "text": "With the stable\nrelease of Compose,",
+      "start": 73.16,
+      "duration": 1.93
+    },
+    {
+      "text": "we've added lots of\nnew functionalities,",
+      "start": 75.09,
+      "duration": 2.25
+    },
+    {
+      "text": "with more to come in\nthe alphas as well.",
+      "start": 77.34,
+      "duration": 3.05
+    },
+    {
+      "text": "And today, I want to highlight\na few important ones for you.",
+      "start": 80.39,
+      "duration": 4.5
+    },
+    {
+      "text": "So let's start with autofill.",
+      "start": 84.89,
+      "duration": 2.26
+    },
+    {
+      "text": "Autofill allows users of your\napp to automatically fill out",
+      "start": 87.15,
+      "duration": 3.89
+    },
+    {
+      "text": "form fields with\npersonal information",
+      "start": 91.04,
+      "duration": 2.88
+    },
+    {
+      "text": "that they filled out\nsome time before.",
+      "start": 93.92,
+      "duration": 2.64
+    },
+    {
+      "text": "And you've been asking for\nautofill support in Compose",
+      "start": 96.56,
+      "duration": 2.85
+    },
+    {
+      "text": "for quite some time now.",
+      "start": 99.41,
+      "duration": 1.77
+    },
+    {
+      "text": "And we've actually been working\non it for quite some time",
+      "start": 101.18,
+      "duration": 2.82
+    },
+    {
+      "text": "now, to be honest.",
+      "start": 104.0,
+      "duration": 1.56
+    },
+    {
+      "text": "But it was quite a difficult\nthing to implement,",
+      "start": 105.56,
+      "duration": 2.82
+    },
+    {
+      "text": "because we needed to\ndo quite a big rewrite",
+      "start": 108.38,
+      "duration": 2.37
+    },
+    {
+      "text": "of our internal semantic system.",
+      "start": 110.75,
+      "duration": 2.82
+    },
+    {
+      "text": "We continued.",
+      "start": 113.57,
+      "duration": 1.06
+    },
+    {
+      "text": "We did that rewrite.",
+      "start": 114.63,
+      "duration": 1.23
+    },
+    {
+      "text": "It's done.",
+      "start": 115.86,
+      "duration": 0.72
+    },
+    {
+      "text": "And so the basic\nautofill APIs are",
+      "start": 116.58,
+      "duration": 2.18
+    },
+    {
+      "text": "available for you\nto use in the latest",
+      "start": 118.76,
+      "duration": 1.98
+    },
+    {
+      "text": "stable version of Compose.",
+      "start": 120.74,
+      "duration": 2.0
+    },
+    {
+      "text": "So let's take a look.",
+      "start": 122.74,
+      "duration": 2.665
+    },
+    {
+      "text": "Here you see a\ntypical login screen",
+      "start": 125.405,
+      "duration": 2.195
+    },
+    {
+      "text": "with two text fields,\nUsername and Password.",
+      "start": 127.6,
+      "duration": 3.25
+    },
+    {
+      "text": "And those two text\nfields both play a role",
+      "start": 130.85,
+      "duration": 2.39
+    },
+    {
+      "text": "in authentication,\nwhich we somehow have",
+      "start": 133.24,
+      "duration": 2.01
+    },
+    {
+      "text": "to convey to the autofill APIs.",
+      "start": 135.25,
+      "duration": 2.5
+    },
+    {
+      "text": "So how would we implement that?",
+      "start": 137.75,
+      "duration": 2.24
+    },
+    {
+      "text": "First, we get a\nsemantics modifier.",
+      "start": 139.99,
+      "duration": 2.98
+    },
+    {
+      "text": "You've been using this probably\nin some other cases in your app",
+      "start": 142.97,
+      "duration": 2.66
+    },
+    {
+      "text": "as well.",
+      "start": 145.63,
+      "duration": 0.88
+    },
+    {
+      "text": "And inside, we have a new\ncontent type property.",
+      "start": 146.51,
+      "duration": 3.69
+    },
+    {
+      "text": "When you set that\ncontent type property,",
+      "start": 150.2,
+      "duration": 1.92
+    },
+    {
+      "text": "you can give it the role\nof the authentication",
+      "start": 152.12,
+      "duration": 2.6
+    },
+    {
+      "text": "that that text field has.",
+      "start": 154.72,
+      "duration": 1.57
+    },
+    {
+      "text": "So in this case, I'm setting\nthe first one to Type.Username,",
+      "start": 156.29,
+      "duration": 4.43
+    },
+    {
+      "text": "and then the second\none to Type.Password.",
+      "start": 160.72,
+      "duration": 2.5
+    },
+    {
+      "text": "And that's all we need\nto make autofill work.",
+      "start": 163.22,
+      "duration": 3.5
+    },
+    {
+      "text": "Now, if you use the\nalpha version of Compose,",
+      "start": 166.72,
+      "duration": 2.52
+    },
+    {
+      "text": "this is actually even\neasier because we've",
+      "start": 169.24,
+      "duration": 1.86
+    },
+    {
+      "text": "added a new modifier,\ncontentType,",
+      "start": 171.1,
+      "duration": 2.38
+    },
+    {
+      "text": "which lets you just set this\ndirectly with one line of code.",
+      "start": 173.48,
+      "duration": 5.51
+    },
+    {
+      "text": "Next up is autosizing text, or\nmaking your text automatically",
+      "start": 178.99,
+      "duration": 4.02
+    },
+    {
+      "text": "adapt to the size\nof its container.",
+      "start": 183.01,
+      "duration": 2.25
+    },
+    {
+      "text": "This is as easy as adding\nthis new autosize parameter",
+      "start": 185.26,
+      "duration": 3.63
+    },
+    {
+      "text": "to your text composable.",
+      "start": 188.89,
+      "duration": 1.98
+    },
+    {
+      "text": "And you can even configure it\nwith minimum and maximum font",
+      "start": 190.87,
+      "duration": 2.91
+    },
+    {
+      "text": "sizes or with the\ngranularity of each step.",
+      "start": 193.78,
+      "duration": 4.68
+    },
+    {
+      "text": "Another modifier we've\nadded is animateBounds,",
+      "start": 198.46,
+      "duration": 2.98
+    },
+    {
+      "text": "which lets you\nautomatically animate",
+      "start": 201.44,
+      "duration": 2.81
+    },
+    {
+      "text": "the position and the size of\na composable in its container.",
+      "start": 204.25,
+      "duration": 4.56
+    },
+    {
+      "text": "This is similar to animated\ncontent size, which",
+      "start": 208.81,
+      "duration": 2.55
+    },
+    {
+      "text": "you might already be using.",
+      "start": 211.36,
+      "duration": 1.45
+    },
+    {
+      "text": "But this one does both\nthe size and the position",
+      "start": 212.81,
+      "duration": 2.72
+    },
+    {
+      "text": "at the same time, given that\nyou're in a LookaheadScope.",
+      "start": 215.53,
+      "duration": 4.47
+    },
+    {
+      "text": "Then, another new modifier, this\ntime to do visibility tracking.",
+      "start": 220.0,
+      "duration": 4.87
+    },
+    {
+      "text": "In the latest stable\nversion of Compose,",
+      "start": 224.87,
+      "duration": 2.04
+    },
+    {
+      "text": "we added onLayoutRectChanged.",
+      "start": 226.91,
+      "duration": 2.99
+    },
+    {
+      "text": "This is a low-level\nAPI that you can",
+      "start": 229.9,
+      "duration": 2.13
+    },
+    {
+      "text": "use to track a composables\nposition within either",
+      "start": 232.03,
+      "duration": 3.93
+    },
+    {
+      "text": "its roots, the\nwindow, or the screen.",
+      "start": 235.96,
+      "duration": 2.64
+    },
+    {
+      "text": "And it unlocks various\nuse cases, mostly related",
+      "start": 238.6,
+      "duration": 4.05
+    },
+    {
+      "text": "to visibility tracking\nor position tracking.",
+      "start": 242.65,
+      "duration": 2.65
+    },
+    {
+      "text": "Now, it's similar to\nonGloballyPositioned,",
+      "start": 245.3,
+      "duration": 3.0
+    },
+    {
+      "text": "which you might already be\nusing to track the location.",
+      "start": 248.3,
+      "duration": 2.91
+    },
+    {
+      "text": "But this one is more\nperformance out of the box.",
+      "start": 251.21,
+      "duration": 2.82
+    },
+    {
+      "text": "And it allows you to add\nthrottle or debouncing, which",
+      "start": 254.03,
+      "duration": 4.28
+    },
+    {
+      "text": "makes it OK to use for\nuse cases like tracking",
+      "start": 258.31,
+      "duration": 3.269
+    },
+    {
+      "text": "the location of an item while\nyou're scrolling a lazy list.",
+      "start": 261.579,
+      "duration": 4.381
+    },
+    {
+      "text": "And in the alpha\nversions of Compose,",
+      "start": 265.96,
+      "duration": 2.2
+    },
+    {
+      "text": "we've added some\nhigher-level APIs",
+      "start": 268.16,
+      "duration": 1.88
+    },
+    {
+      "text": "on top of this low-level API,\nwhich are very, very specific",
+      "start": 270.04,
+      "duration": 4.35
+    },
+    {
+      "text": "for our various use cases.",
+      "start": 274.39,
+      "duration": 2.31
+    },
+    {
+      "text": "So first of all, we added\nonVisibilityChanged,",
+      "start": 276.7,
+      "duration": 3.16
+    },
+    {
+      "text": "which gives you a callback any\ntime the visibility of that",
+      "start": 279.86,
+      "duration": 3.2
+    },
+    {
+      "text": "composable changes.",
+      "start": 283.06,
+      "duration": 1.17
+    },
+    {
+      "text": "So it enters or it\nexits the viewport.",
+      "start": 284.23,
+      "duration": 2.71
+    },
+    {
+      "text": "This is great for use cases like\nautomatically playing or pausing",
+      "start": 286.94,
+      "duration": 4.1
+    },
+    {
+      "text": "a video when it comes into view.",
+      "start": 291.04,
+      "duration": 1.99
+    },
+    {
+      "text": "And we're actually\nusing it in Androidify.",
+      "start": 293.03,
+      "duration": 3.65
+    },
+    {
+      "text": "We've also added onFirstVisible,\nwhich is great for use cases",
+      "start": 296.68,
+      "duration": 3.9
+    },
+    {
+      "text": "like impression tracking,\nbecause it gives",
+      "start": 300.58,
+      "duration": 2.04
+    },
+    {
+      "text": "a callback any time a\ncomposable has been in view",
+      "start": 302.62,
+      "duration": 2.78
+    },
+    {
+      "text": "for a certain amount of time.",
+      "start": 305.4,
+      "duration": 2.37
+    },
+    {
+      "text": "So you can already start using\nthis stable onLayoutRectChanged",
+      "start": 307.77,
+      "duration": 4.74
+    },
+    {
+      "text": "modifier in your stable\nversion of Compose.",
+      "start": 312.51,
+      "duration": 3.22
+    },
+    {
+      "text": "And then, you can use\nthese higher level APIs",
+      "start": 315.73,
+      "duration": 2.57
+    },
+    {
+      "text": "when you use the alpha version.",
+      "start": 318.3,
+      "duration": 3.24
+    },
+    {
+      "text": "You can learn more\nabout these APIs",
+      "start": 321.54,
+      "duration": 2.01
+    },
+    {
+      "text": "and many more in\nthe two brand-new",
+      "start": 323.55,
+      "duration": 1.95
+    },
+    {
+      "text": "technical talks that we're\nreleasing as part of this year's",
+      "start": 325.5,
+      "duration": 2.55
+    },
+    {
+      "text": "I/O for best practices\nin text input",
+      "start": 328.05,
+      "duration": 2.76
+    },
+    {
+      "text": "and best practices\nin accessibility.",
+      "start": 330.81,
+      "duration": 4.29
+    },
+    {
+      "text": "But we haven't\nbeen focusing only",
+      "start": 335.1,
+      "duration": 2.07
+    },
+    {
+      "text": "on adding new\nfeatures to Compose.",
+      "start": 337.17,
+      "duration": 1.9
+    },
+    {
+      "text": "And new features also shouldn't\nbe the only reason why you're",
+      "start": 339.07,
+      "duration": 3.74
+    },
+    {
+      "text": "upgrading your Compose version.",
+      "start": 342.81,
+      "duration": 2.22
+    },
+    {
+      "text": "Another consideration\nis performance.",
+      "start": 345.03,
+      "duration": 2.97
+    },
+    {
+      "text": "When you run your app on\nolder versions of Compose,",
+      "start": 348.0,
+      "duration": 4.08
+    },
+    {
+      "text": "you might sometimes\nsee some jank.",
+      "start": 352.08,
+      "duration": 2.453
+    },
+    {
+      "text": "This is what some of\nyou have mentioned.",
+      "start": 354.533,
+      "duration": 1.667
+    },
+    {
+      "text": "When you run older\nversions and you run them",
+      "start": 356.2,
+      "duration": 2.12
+    },
+    {
+      "text": "on lower-end devices,\nthere might be some jank.",
+      "start": 358.32,
+      "duration": 3.19
+    },
+    {
+      "text": "In this case, we're using an\ninternal benchmark project.",
+      "start": 361.51,
+      "duration": 3.77
+    },
+    {
+      "text": "And in that internal\nbenchmark project,",
+      "start": 365.28,
+      "duration": 2.31
+    },
+    {
+      "text": "we've just built\nan app, and we're",
+      "start": 367.59,
+      "duration": 1.46
+    },
+    {
+      "text": "running it with versions\nof Compose from 2023.",
+      "start": 369.05,
+      "duration": 4.11
+    },
+    {
+      "text": "We're running it on\na Pixel 3a device.",
+      "start": 373.16,
+      "duration": 2.29
+    },
+    {
+      "text": "And we're seeing jank\nrates of about 2%.",
+      "start": 375.45,
+      "duration": 3.14
+    },
+    {
+      "text": "Now, what we did is we kept the\nsource code exactly the same,",
+      "start": 378.59,
+      "duration": 4.03
+    },
+    {
+      "text": "but we updated the\nversion of Compose.",
+      "start": 382.62,
+      "duration": 2.51
+    },
+    {
+      "text": "And so what we see is that\nwith later versions of Compose,",
+      "start": 385.13,
+      "duration": 3.13
+    },
+    {
+      "text": "this jank rate already\ndrops to about 1%.",
+      "start": 388.26,
+      "duration": 3.8
+    },
+    {
+      "text": "Then, if we update the\nCompose version to March 2025,",
+      "start": 392.06,
+      "duration": 4.21
+    },
+    {
+      "text": "this drops to less\nthan half a percent.",
+      "start": 396.27,
+      "duration": 2.49
+    },
+    {
+      "text": "And with the latest\nstable version of Compose,",
+      "start": 398.76,
+      "duration": 2.94
+    },
+    {
+      "text": "we hardly have any jank left.",
+      "start": 401.7,
+      "duration": 2.58
+    },
+    {
+      "text": "We're at less than 0.1%",
+      "start": 404.28,
+      "duration": 1.23
+    },
+    {
+      "text": "[CHEERS AND APPLAUSE]",
+      "start": 405.51,
+      "duration": 3.282
+    },
+    {
+      "text": "Now, this is just\none example benchmark",
+      "start": 412.28,
+      "duration": 1.98
+    },
+    {
+      "text": "that demonstrates all the work\nthat our engineers have been",
+      "start": 414.26,
+      "duration": 2.46
+    },
+    {
+      "text": "doing in the past years to\nmake the performance of Compose",
+      "start": 416.72,
+      "duration": 2.91
+    },
+    {
+      "text": "better.",
+      "start": 419.63,
+      "duration": 0.91
+    },
+    {
+      "text": "But our engineers are\nconstantly finding and applying",
+      "start": 420.54,
+      "duration": 3.17
+    },
+    {
+      "text": "other optimizations as well.",
+      "start": 423.71,
+      "duration": 2.01
+    },
+    {
+      "text": "For example, we're introducing\npausable composition,",
+      "start": 425.72,
+      "duration": 3.19
+    },
+    {
+      "text": "which splits the composition\nover several frames.",
+      "start": 428.91,
+      "duration": 3.24
+    },
+    {
+      "text": "We are offloading some of the\nharder work of the main thread,",
+      "start": 432.15,
+      "duration": 3.48
+    },
+    {
+      "text": "starting with text measurements.",
+      "start": 435.63,
+      "duration": 1.86
+    },
+    {
+      "text": "And we're allowing you to\ncustomize the prefetching",
+      "start": 437.49,
+      "duration": 3.77
+    },
+    {
+      "text": "of items in a lazy list.",
+      "start": 441.26,
+      "duration": 3.51
+    },
+    {
+      "text": "So between these new features\nthat I just mentioned",
+      "start": 444.77,
+      "duration": 2.82
+    },
+    {
+      "text": "and the performance\nupdates, now really",
+      "start": 447.59,
+      "duration": 2.52
+    },
+    {
+      "text": "is a time for you to prioritize\nupgrading your Compose version",
+      "start": 450.11,
+      "duration": 3.63
+    },
+    {
+      "text": "and get access to all\nof these added benefits.",
+      "start": 453.74,
+      "duration": 2.413
+    },
+    {
+      "text": "Now, remember that I said that\n60% of the top 1,000 apps are",
+      "start": 458.81,
+      "duration": 4.05
+    },
+    {
+      "text": "using Compose?",
+      "start": 462.86,
+      "duration": 1.8
+    },
+    {
+      "text": "Several of those are\nactually Google apps.",
+      "start": 464.66,
+      "duration": 2.89
+    },
+    {
+      "text": "Google Photos, Maps,\nand Drive, and more",
+      "start": 467.55,
+      "duration": 3.47
+    },
+    {
+      "text": "have been using Compose\nin production for years.",
+      "start": 471.02,
+      "duration": 3.48
+    },
+    {
+      "text": "And recently, we've been\nworking with these app teams",
+      "start": 474.5,
+      "duration": 2.67
+    },
+    {
+      "text": "to improve the stability\nof our Compose releases",
+      "start": 477.17,
+      "duration": 3.36
+    },
+    {
+      "text": "by catching bugs at an earlier\nstage, because some of you",
+      "start": 480.53,
+      "duration": 4.76
+    },
+    {
+      "text": "have mentioned that upgrading\nCompose versions can sometimes",
+      "start": 485.29,
+      "duration": 2.91
+    },
+    {
+      "text": "be difficult. So let me\nshow you a little bit more",
+      "start": 488.2,
+      "duration": 3.42
+    },
+    {
+      "text": "about how we did this.",
+      "start": 491.62,
+      "duration": 2.67
+    },
+    {
+      "text": "What you're used to is that\nwhenever we have a Compose",
+      "start": 494.29,
+      "duration": 2.31
+    },
+    {
+      "text": "change, we merge this into\nthe Compose main branch,",
+      "start": 496.6,
+      "duration": 2.95
+    },
+    {
+      "text": "and then it goes through\nthis alpha, beta, RC,",
+      "start": 499.55,
+      "duration": 2.6
+    },
+    {
+      "text": "and stable release cycle.",
+      "start": 502.15,
+      "duration": 2.13
+    },
+    {
+      "text": "But for Google\napps, this actually",
+      "start": 504.28,
+      "duration": 2.73
+    },
+    {
+      "text": "works a little bit differently\nbecause all of the Google apps",
+      "start": 507.01,
+      "duration": 3.24
+    },
+    {
+      "text": "share a single version\nof Compose among them.",
+      "start": 510.25,
+      "duration": 3.72
+    },
+    {
+      "text": "And we used to update that\nversion about once a month.",
+      "start": 513.97,
+      "duration": 4.42
+    },
+    {
+      "text": "But recently, we've\nbeen working to update",
+      "start": 518.39,
+      "duration": 2.779
+    },
+    {
+      "text": "that about once every day.",
+      "start": 521.169,
+      "duration": 2.681
+    },
+    {
+      "text": "So any change in Compose that\nmakes it into the main branch,",
+      "start": 523.85,
+      "duration": 3.77
+    },
+    {
+      "text": "actually makes it to all of\nthese Google apps within days",
+      "start": 527.62,
+      "duration": 3.79
+    },
+    {
+      "text": "and can make it to millions\nof users within a week.",
+      "start": 531.41,
+      "duration": 4.07
+    },
+    {
+      "text": "Now, that also means\nthat for new features,",
+      "start": 535.48,
+      "duration": 2.53
+    },
+    {
+      "text": "we are adding feature\nflags to make sure",
+      "start": 538.01,
+      "duration": 2.45
+    },
+    {
+      "text": "that we allow for early testing\nby these Google apps or by you",
+      "start": 540.46,
+      "duration": 3.81
+    },
+    {
+      "text": "in alpha versions of Compose.",
+      "start": 544.27,
+      "duration": 2.05
+    },
+    {
+      "text": "And you can test\nthem, and you can",
+      "start": 546.32,
+      "duration": 1.67
+    },
+    {
+      "text": "let us know if there are any\nperformance regressions or bugs",
+      "start": 547.99,
+      "duration": 3.09
+    },
+    {
+      "text": "with the implementation.",
+      "start": 551.08,
+      "duration": 1.45
+    },
+    {
+      "text": "And so we have this quick\niteration of testing out",
+      "start": 552.53,
+      "duration": 3.23
+    },
+    {
+      "text": "new functionality.",
+      "start": 555.76,
+      "duration": 2.37
+    },
+    {
+      "text": "And at some point, whenever\nthe changes make it",
+      "start": 558.13,
+      "duration": 3.27
+    },
+    {
+      "text": "into a beta or a stable\nversion of Compose,",
+      "start": 561.4,
+      "duration": 2.86
+    },
+    {
+      "text": "they've often been running, in\nproduction, in these Google apps",
+      "start": 564.26,
+      "duration": 3.47
+    },
+    {
+      "text": "with millions of users\nfor weeks, if not months.",
+      "start": 567.73,
+      "duration": 4.05
+    },
+    {
+      "text": "That should give you\na lot more certainty",
+      "start": 571.78,
+      "duration": 3.06
+    },
+    {
+      "text": "in upgrading to the latest\nCompose stable version whenever",
+      "start": 574.84,
+      "duration": 3.03
+    },
+    {
+      "text": "it comes out.",
+      "start": 577.87,
+      "duration": 3.09
+    },
+    {
+      "text": "Now, another stability\nimprovement that we did",
+      "start": 580.96,
+      "duration": 2.37
+    },
+    {
+      "text": "is that we did a big sweep of\nall of our experimental APIs.",
+      "start": 583.33,
+      "duration": 4.15
+    },
+    {
+      "text": "You shared with us\nthat having too many",
+      "start": 587.48,
+      "duration": 2.03
+    },
+    {
+      "text": "of these experimental\nAPIs can sometimes",
+      "start": 589.51,
+      "duration": 2.79
+    },
+    {
+      "text": "make the API surface feel\na little bit less stable.",
+      "start": 592.3,
+      "duration": 3.84
+    },
+    {
+      "text": "So we went through them.",
+      "start": 596.14,
+      "duration": 1.39
+    },
+    {
+      "text": "And for many of the\nAPIs, we cleaned them up",
+      "start": 597.53,
+      "duration": 3.62
+    },
+    {
+      "text": "and made sure that we\ncould stabilize them.",
+      "start": 601.15,
+      "duration": 2.46
+    },
+    {
+      "text": "But some of them were actually\nexperimental for several years",
+      "start": 603.61,
+      "duration": 3.2
+    },
+    {
+      "text": "now, because we\neventually wanted",
+      "start": 606.81,
+      "duration": 1.8
+    },
+    {
+      "text": "to get around to fixing them.",
+      "start": 608.61,
+      "duration": 1.9
+    },
+    {
+      "text": "But they're either good\nenough as they are,",
+      "start": 610.51,
+      "duration": 2.91
+    },
+    {
+      "text": "and we stabilize them now, or\nwe deprecated them and we will",
+      "start": 613.42,
+      "duration": 3.35
+    },
+    {
+      "text": "remove them for now.",
+      "start": 616.77,
+      "duration": 1.45
+    },
+    {
+      "text": "So with that, we reduced\n32% of the experimental APIs",
+      "start": 618.22,
+      "duration": 4.94
+    },
+    {
+      "text": "over the course\nof just one year.",
+      "start": 623.16,
+      "duration": 2.05
+    },
+    {
+      "text": "And looking at some of the\nbiggest contributors, Foundation",
+      "start": 625.21,
+      "duration": 3.2
+    },
+    {
+      "text": "and Compose UI, that number\neven increases to 66%.",
+      "start": 628.41,
+      "duration": 5.04
+    },
+    {
+      "text": "So this should\ngive you much more",
+      "start": 633.45,
+      "duration": 2.4
+    },
+    {
+      "text": "security in using stable APIs\nwhen you're using Compose.",
+      "start": 635.85,
+      "duration": 4.24
+    },
+    {
+      "text": "And also, we plan to remove\neven more of those in the future",
+      "start": 640.09,
+      "duration": 3.56
+    },
+    {
+      "text": "as well.",
+      "start": 643.65,
+      "duration": 0.545
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 648.915,
+      "duration": 1.455
+    },
+    {
+      "text": "Thank you.",
+      "start": 650.37,
+      "duration": 1.0
+    },
+    {
+      "text": "Now, so far I've been\nmentioning Compose,",
+      "start": 655.23,
+      "duration": 1.71
+    },
+    {
+      "text": "and I've been talking about all\nthe core modules, Foundation,",
+      "start": 656.94,
+      "duration": 3.13
+    },
+    {
+      "text": "Runtime, UI, et cetera.",
+      "start": 660.07,
+      "duration": 1.73
+    },
+    {
+      "text": "But actually, we are working\non a wider suite of libraries.",
+      "start": 661.8,
+      "duration": 4.71
+    },
+    {
+      "text": "Compose is part of the\nset of Jetpack libraries.",
+      "start": 666.51,
+      "duration": 3.07
+    },
+    {
+      "text": "And we've been working on\nadding Compose supports on more",
+      "start": 669.58,
+      "duration": 3.17
+    },
+    {
+      "text": "of these libraries as well.",
+      "start": 672.75,
+      "duration": 1.567
+    },
+    {
+      "text": "You've heard a little bit about\nthis in the developer keynote,",
+      "start": 674.317,
+      "duration": 2.583
+    },
+    {
+      "text": "but I wanted to expand a\nlittle bit more in this talk.",
+      "start": 676.9,
+      "duration": 3.38
+    },
+    {
+      "text": "So first of all, any\napp has Navigation.",
+      "start": 680.28,
+      "duration": 3.16
+    },
+    {
+      "text": "And we've heard that\nthe Jetpack Navigation",
+      "start": 683.44,
+      "duration": 2.33
+    },
+    {
+      "text": "solution can sometimes be\nchallenging in a Compose world.",
+      "start": 685.77,
+      "duration": 4.06
+    },
+    {
+      "text": "Especially when you're\ndealing with the back stack",
+      "start": 689.83,
+      "duration": 3.14
+    },
+    {
+      "text": "or with hoisting\nstate, it doesn't seem",
+      "start": 692.97,
+      "duration": 2.55
+    },
+    {
+      "text": "to quite fit that use case.",
+      "start": 695.52,
+      "duration": 2.92
+    },
+    {
+      "text": "And so we sat down,\nand we re-envisioned",
+      "start": 698.44,
+      "duration": 2.63
+    },
+    {
+      "text": "what we think Compose\nshould look like,",
+      "start": 701.07,
+      "duration": 2.23
+    },
+    {
+      "text": "what we think Navigation should\nlook like in a Compose world.",
+      "start": 703.3,
+      "duration": 4.1
+    },
+    {
+      "text": "And thus, we're introducing\nNavigation 3, a first alpha",
+      "start": 707.4,
+      "duration": 4.38
+    },
+    {
+      "text": "of a new artifact that\nmakes it much easier to work",
+      "start": 711.78,
+      "duration": 3.99
+    },
+    {
+      "text": "with Navigation\nin a Compose app,",
+      "start": 715.77,
+      "duration": 2.08
+    },
+    {
+      "text": "because this is built with\nCompose and using Compose.",
+      "start": 717.85,
+      "duration": 3.72
+    },
+    {
+      "text": "And so let me show you\nwhat that library offers.",
+      "start": 721.57,
+      "duration": 5.15
+    },
+    {
+      "text": "The library makes it\neasy to do transitions",
+      "start": 726.72,
+      "duration": 2.63
+    },
+    {
+      "text": "between different\ndestinations, using animations",
+      "start": 729.35,
+      "duration": 3.48
+    },
+    {
+      "text": "to implement predictive back\nor to create shared element",
+      "start": 732.83,
+      "duration": 3.45
+    },
+    {
+      "text": "transitions.",
+      "start": 736.28,
+      "duration": 2.56
+    },
+    {
+      "text": "It has a flexible,\nlayered architecture",
+      "start": 738.84,
+      "duration": 3.75
+    },
+    {
+      "text": "that is adaptive out of the box\nand works across form factors,",
+      "start": 742.59,
+      "duration": 3.09
+    },
+    {
+      "text": "including XR.",
+      "start": 745.68,
+      "duration": 1.55
+    },
+    {
+      "text": "And it even has a Material\nDesign integration.",
+      "start": 747.23,
+      "duration": 3.39
+    },
+    {
+      "text": "But most importantly, it\nis fully customizable.",
+      "start": 750.62,
+      "duration": 4.44
+    },
+    {
+      "text": "So if you need more\ncontrol, we give you",
+      "start": 755.06,
+      "duration": 3.09
+    },
+    {
+      "text": "all the control you need.",
+      "start": 758.15,
+      "duration": 1.51
+    },
+    {
+      "text": "You can, if you want to,\ncontrol the full back stack",
+      "start": 759.66,
+      "duration": 3.26
+    },
+    {
+      "text": "and implement Navigation\nexactly the way",
+      "start": 762.92,
+      "duration": 2.82
+    },
+    {
+      "text": "that it is needed for your app.",
+      "start": 765.74,
+      "duration": 1.985
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 770.94,
+      "duration": 3.395
+    },
+    {
+      "text": "Now, this library is\ncurrently in alpha,",
+      "start": 775.79,
+      "duration": 2.23
+    },
+    {
+      "text": "so we're still working on it.",
+      "start": 778.02,
+      "duration": 2.212
+    },
+    {
+      "text": "But we really want to\nmake sure that this",
+      "start": 780.232,
+      "duration": 1.708
+    },
+    {
+      "text": "is the best Navigation\nlibrary we could be building.",
+      "start": 781.94,
+      "duration": 2.77
+    },
+    {
+      "text": "So please, go and check it out.",
+      "start": 784.71,
+      "duration": 2.01
+    },
+    {
+      "text": "There's full\ndocumentation available.",
+      "start": 786.72,
+      "duration": 1.95
+    },
+    {
+      "text": "And we would really like\nto hear from you, if this",
+      "start": 788.67,
+      "duration": 2.12
+    },
+    {
+      "text": "works for your use cases.",
+      "start": 790.79,
+      "duration": 3.45
+    },
+    {
+      "text": "Then another thing we heard\nfrom you, loud and clear,",
+      "start": 794.24,
+      "duration": 3.04
+    },
+    {
+      "text": "is that you want Compose\nsupport for camera and media",
+      "start": 797.28,
+      "duration": 2.48
+    },
+    {
+      "text": "experiences.",
+      "start": 799.76,
+      "duration": 1.06
+    },
+    {
+      "text": "And so we've been working\non adding this support.",
+      "start": 800.82,
+      "duration": 3.62
+    },
+    {
+      "text": "We have Media3 and CameraX\nas our recommended solutions",
+      "start": 804.44,
+      "duration": 3.84
+    },
+    {
+      "text": "for these experiences\nin your Android apps.",
+      "start": 808.28,
+      "duration": 2.85
+    },
+    {
+      "text": "And here, as well,\nwe re-envisioned",
+      "start": 811.13,
+      "duration": 3.0
+    },
+    {
+      "text": "what this should look\nlike in a Compose world.",
+      "start": 814.13,
+      "duration": 2.26
+    },
+    {
+      "text": "So we didn't just wrap\nPreviewView or PlayerView",
+      "start": 816.39,
+      "duration": 2.81
+    },
+    {
+      "text": "and call it a day.",
+      "start": 819.2,
+      "duration": 1.12
+    },
+    {
+      "text": "We're actually building building\nblocks from the ground up,",
+      "start": 820.32,
+      "duration": 3.2
+    },
+    {
+      "text": "and making sure that you can\nbuild whatever your app needs",
+      "start": 823.52,
+      "duration": 3.45
+    },
+    {
+      "text": "as much or as little.",
+      "start": 826.97,
+      "duration": 2.37
+    },
+    {
+      "text": "That, unfortunately, does mean\nthat it will take a little bit",
+      "start": 829.34,
+      "duration": 3.0
+    },
+    {
+      "text": "longer to get to full parity\nwith PlayerView and PreviewView.",
+      "start": 832.34,
+      "duration": 3.85
+    },
+    {
+      "text": "But it also means that you have\nfull control over your camera",
+      "start": 836.19,
+      "duration": 4.31
+    },
+    {
+      "text": "or media experience.",
+      "start": 840.5,
+      "duration": 2.28
+    },
+    {
+      "text": "So let me demonstrate\nwhat we mean with that",
+      "start": 842.78,
+      "duration": 2.37
+    },
+    {
+      "text": "for the Media3 artifacts.",
+      "start": 845.15,
+      "duration": 2.63
+    },
+    {
+      "text": "Here you see Androidify.",
+      "start": 847.78,
+      "duration": 1.71
+    },
+    {
+      "text": "And Androidify has this\nuse case where we wanted",
+      "start": 849.49,
+      "duration": 3.15
+    },
+    {
+      "text": "to show a tutorial video.",
+      "start": 852.64,
+      "duration": 1.95
+    },
+    {
+      "text": "It's quite a trivial video.",
+      "start": 854.59,
+      "duration": 2.35
+    },
+    {
+      "text": "We know the URL.",
+      "start": 856.94,
+      "duration": 1.83
+    },
+    {
+      "text": "We know the aspect ratio.",
+      "start": 858.77,
+      "duration": 1.62
+    },
+    {
+      "text": "The only thing we want to\ndo is automatically play it,",
+      "start": 860.39,
+      "duration": 2.57
+    },
+    {
+      "text": "and then show a Play/Pause\nbutton on top of it,",
+      "start": 862.96,
+      "duration": 2.88
+    },
+    {
+      "text": "so that this video can be paused\nfor accessibility purposes.",
+      "start": 865.84,
+      "duration": 4.08
+    },
+    {
+      "text": "Let's implement it.",
+      "start": 869.92,
+      "duration": 2.4
+    },
+    {
+      "text": "We start with a video player\ncomposable in our sample app.",
+      "start": 872.32,
+      "duration": 3.67
+    },
+    {
+      "text": "And what you see is\nthat we're pausing",
+      "start": 875.99,
+      "duration": 2.03
+    },
+    {
+      "text": "in a player instance, which is\ncoming from a Media3 library.",
+      "start": 878.02,
+      "duration": 4.68
+    },
+    {
+      "text": "Then what we do is we\nsimply forward this player",
+      "start": 882.7,
+      "duration": 3.3
+    },
+    {
+      "text": "instance to the player\nsurface composable as part",
+      "start": 886.0,
+      "duration": 3.45
+    },
+    {
+      "text": "of the new artifact.",
+      "start": 889.45,
+      "duration": 1.53
+    },
+    {
+      "text": "And that surface\ncomposable actually",
+      "start": 890.98,
+      "duration": 2.1
+    },
+    {
+      "text": "takes care of the rendering,\nnothing we have to do.",
+      "start": 893.08,
+      "duration": 4.05
+    },
+    {
+      "text": "Then to add a Play/Pause\nbutton, instead",
+      "start": 897.13,
+      "duration": 3.06
+    },
+    {
+      "text": "of calling the library directly\nand letting it render it for us,",
+      "start": 900.19,
+      "duration": 3.64
+    },
+    {
+      "text": "we actually implement our own\nand we pause the player into it.",
+      "start": 903.83,
+      "duration": 4.91
+    },
+    {
+      "text": "So what does that\nPlay/Pause button look like?",
+      "start": 908.74,
+      "duration": 3.22
+    },
+    {
+      "text": "Well, what do we do with\nthe player instance?",
+      "start": 911.96,
+      "duration": 2.04
+    },
+    {
+      "text": "We create a\nPlayPauseButtonState.",
+      "start": 914.0,
+      "duration": 3.0
+    },
+    {
+      "text": "This is part of the artifact.",
+      "start": 917.0,
+      "duration": 1.65
+    },
+    {
+      "text": "And it allows us to\ninteract with the player.",
+      "start": 918.65,
+      "duration": 3.15
+    },
+    {
+      "text": "And it allows us to show\ndata from the player.",
+      "start": 921.8,
+      "duration": 3.59
+    },
+    {
+      "text": "So we control the UI.",
+      "start": 925.39,
+      "duration": 2.61
+    },
+    {
+      "text": "But the artifact controls\nall the pesky logic",
+      "start": 928.0,
+      "duration": 3.18
+    },
+    {
+      "text": "of whether we should be showing\na Play or a Pause button,",
+      "start": 931.18,
+      "duration": 3.25
+    },
+    {
+      "text": "and what to do when we click it.",
+      "start": 934.43,
+      "duration": 3.23
+    },
+    {
+      "text": "And with that, it works.",
+      "start": 937.66,
+      "duration": 2.76
+    },
+    {
+      "text": "That's all.",
+      "start": 940.42,
+      "duration": 1.18
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 941.6,
+      "duration": 3.283
+    },
+    {
+      "text": "And with that, you saw\nhow Compose makes it easy",
+      "start": 948.64,
+      "duration": 2.94
+    },
+    {
+      "text": "and how it has all the features,\nperformance, stability,",
+      "start": 951.58,
+      "duration": 3.31
+    },
+    {
+      "text": "and libraries for\nyou to build apps.",
+      "start": 954.89,
+      "duration": 2.45
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 957.34,
+      "duration": 3.35
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "xo271p-Fl_4__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 0.0,
+    "timestamp_end": 155.78,
+    "text": "[MUSIC PLAYING] KHANH NGUYEN: All right, so\nI have my app running here. Let's go ahead and\nsubmit some feedback. This yellow-- not feeling it. So let's say that I really\ndon't like this yellow. It's really jarring. It really is. So let's say that I\nprefer for it to be blue. All right. Yes, please. Change the app color to blue. And you'll see that the app\nhas now shifted its theme color to blue. Hi, I'm Khanh, a DevRel engineer\non the Flutter team at Google. ANDREW PEYNADO: Hey, I'm\nAndrew, a product manager on the Firebase team at Google. KHANH NGUYEN: Have you\nheard about these AI agents? Maybe your boss\nsaid that you need to integrate one into your app. As an engineer, one\nof the first things that I looked up after\nlearning about AI agents was, how do I build one? Google Search seems to\nindicate that many of you are asking the same questions. So in this video,\nwe're going to show you how to build a multimodal\nagentic app with Flutter and Vertex AI in Firebase. We want you to leave this video\nfeeling like building agentic apps is just as straightforward\nas building any other app that you're used to . And hopefully you'll think of\nagentic features and experiences as another tool in your\napp development toolbox. OK. So what's on the agenda, Andrew? ANDREW PEYNADO:\nFirst, we'll chat about generative\nAI and agents, just to make sure we're\nall on the same page. Then we'll do a run-through\nof Flutter and Firebase, the tools we're using today. And finally, we're going to\njump into the code for the app that you just saw at\nthe start of the video. We'll get to agents soon. But first, let's\ntake a step back and look at one of the\nfoundational building blocks for agents-- generative AI. GenAI allows you to create\nnew and innovative content and experiences by prompting\nlarge language models. With prompting, you\ncan turn a few words into an explanation or code,\nan image, or even a video. Gemini is Google's\nmultimodal AI model. Gemini 2.0 and 2.5 are\nGoogle's latest LLMs. It improves on Gemini\n1.5's overall quality,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 131.51,
+    "timestamp_end": 278.72,
+    "text": "With prompting, you\ncan turn a few words into an explanation or code,\nan image, or even a video. Gemini is Google's\nmultimodal AI model. Gemini 2.0 and 2.5 are\nGoogle's latest LLMs. It improves on Gemini\n1.5's overall quality, has function calling, and\nsupports multimodal live, which lets users have\nlow-latency, bidirectional voice and video interactions\nwith Gemini. We've already seen a\nlot of examples and code on how to generate content\nwith language models, so let's shift our\nfocus towards AI agents. What is it? An agent is an\napplication that attempts to achieve a goal by observing\nthe world and acting upon it, using the tools that\nit has at its disposal. Here's how it looks in practice. An agent is made up of\nthree key components-- a language model for\nreasoning, like Gemini, tools that enable it to\ninteract with the outside world, whether that's making an\nAPI call to retrieve data or to take some kind of action. Keep in mind the phrase\n\"tool\" and \"function calling\" are often used interchangeably\nand represent the same concept. Finally, it also processes\ninformation, makes decisions, and continues to iterate\nuntil its goal is reached or a stopping point\ncriteria is met. Now that we know\nwhat agents are, let's take a look at how to\nbuild them into your apps with Flutter and Firebase. If you're a Flutter\ndeveloper, chances are you've already\nused a Firebase service in one of your apps. But if this is the first\ntime building with Firebase, it's an all-in-one app\ndevelopment platform that spans the entire\ndevelopment lifecycle. You can use it to build and run\nmodern AI-powered experiences. On the build side, you can\nintegrate AI capabilities into your applications. On the run side, you can\nuse AI assistive tools to optimize your app's\nquality and experience. Vertex AI in Firebase, which\nwe'll call the Vertex SDK, is a part of the broader\nFirebase family of services. It's an easy way to add\nGenAI to mobile and web apps in production. Yep, it's in GA. So you can add it\nto your Flutter app",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 261.26,
+    "timestamp_end": 392.34999999999997,
+    "text": "Vertex AI in Firebase, which\nwe'll call the Vertex SDK, is a part of the broader\nFirebase family of services. It's an easy way to add\nGenAI to mobile and web apps in production. Yep, it's in GA. So you can add it\nto your Flutter app and ship it right\nto the App Store. The Vertex SDK allows\nyou to easily access Gemini models using native\ncode and supports a variety of features, such as multimodal\nprompting, JSON output, and schemas, function calling,\nbidirectional streaming and image generation. It's natively integrated with\nApp Check, Remote Config, and Cloud Storage, so you don't\nhave to wire them up yourself. What makes it\nexceptionally special is its production-ready\narchitecture. By providing a native\nintegration with App Check, the Vertex SDK allows you\nto protect your applications from abuse by rejecting\nillegitimate requests and only allowing real users\nto trigger Vertex API calls. The Vertex SDK is available on\npub.dev as the Firebase Vertex AI package. So you can quickly add it\nto your Flutter projects by running a single command-- flutter pub add\nfirebase_vertexai. If you can build a Flutter app,\nyou can use the Vertex SDK. It's just another API call,\nso why Flutter though? KHANH NGUYEN:\nAndrew, I mean, we're on the Flutter YouTube channel. I think everyone\nalready knows why. But in case you're new to\nthe channel, first, welcome. We're happy to have you here. And second, Flutter is\nthe world's most popular multiplatform app\ndevelopment SDK. It enables you to build\nproduction-grade apps and deploy to iOS, Android,\nweb, Windows, macOS, and Linux, all from a single code base. This means you can\nminimize development time and ship high-quality\napps faster. Not to mention, using Flutter\nand the Vertex SDK together means that you don't have\nto switch between languages or frameworks. You don't even have to switch\nbetween projects or code bases. All of your code and prompts\nlive within your Flutter project, written in Dart. Like Andrew said, if you\ncan build a Flutter app,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 382.02,
+    "timestamp_end": 504.69,
+    "text": "or frameworks. You don't even have to switch\nbetween projects or code bases. All of your code and prompts\nlive within your Flutter project, written in Dart. Like Andrew said, if you\ncan build a Flutter app, you can use the Vertex\nSDK and vice versa. They're better together, sort\nof like macaroni and cheese. ANDREW PEYNADO: OK. Now that we have all\nthe context, let's jump into building the app. If you've used Flutter and\nFirebase together before, the setup process will\nlook very familiar. You'll first want to make sure\nthat your dev environment is set up with Flutter and\nthe Flutter fire CLI tool. Then head on over\nto the Firebase Console at firebase.google.com\nand create a project. If you already have a project,\nyou're already one step ahead. Then jump over to the\nVertex AI product page, configure your billing account,\nand enable the Vertex APIs. That's as much as you'll have\nto do in the Firebase Console. Let's look at setting\nup your Flutter project. If you already have a Flutter\nproject you'd like to work with, that's perfect. You can use it. If you're starting fresh,\nyou can create a new project using the Flutter\ncreate command. Next, add the Firebase core\nand Firebase Vertex AI packages from pub.dev. Finally, you'll want to\nconnect the Flutter app to the Firebase project using\nthe flutterfire configure command. In your Flutter\ncode, you'll want to import the Firebase packages\nand initialize the Firebase App. Now, if you're already\nusing Firebase in your app, you probably already have\nthat initialize app code. It's the same across all\nof the Firebase packages. That's it for the project setup. Now you can make calls to\nGemini using the Vertex SDK from within your Flutter app. KHANH NGUYEN: Let\nme tell you a story about how I came up with the\nconcept for this demo app. I previously worked\nas a support engineer. Whether you're the\nuser filing a complaint or the engineer\nsupporting users, you know how the process goes. The user tries to\ndo something, but it doesn't work the way\nthat they want it to,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 492.3,
+    "timestamp_end": 660.14,
+    "text": "I previously worked\nas a support engineer. Whether you're the\nuser filing a complaint or the engineer\nsupporting users, you know how the process goes. The user tries to\ndo something, but it doesn't work the way\nthat they want it to, so they open a ticket. An engineer reviews it\nand points to some docs, or they ask for some\nadditional information. The user responds with\nthe results or answers, and then the back and forth\ngoes on for a few more cycles. Finally, the ticket\nis eventually closed. This process takes a lot of time\nfrom both the user and engineer. What if the engineer misses\nsomething and the user configuration, or\nperhaps a user overlooks a step in the instructions? What if we could insert an agent\nin the middle of this process to help both the user\nand the engineer, an agent that\nprocesses user feedback and takes action to make\nchanges in the app on behalf of the user, collects all of\nthe necessary troubleshooting information like device\nInfo, battery info, settings, and change history, and helps\nto prioritize and categorize the feedback among all\nof the other tickets? Would an agent like\nthis help to minimize the amount of back\nand forth that needs to happen between\nthe user and the engineer? And that's how the agentic app\nmanager prototype was born. Let's try this font here. I don't like this Georgia font. I want a more fun font. So we'll wait for that. And then you'll see, it prompts\nyou for a different font. In this case, it's Caveat,\nwhich is indeed a more fun font, most certainly. But now the font is too small. So we'll say this font\nsize is way too small-- oops, not \"but.\" It needs to be about 30% bigger. Yes, please. And as you can see, it\nmakes the font much bigger, and it's much more readable now. Now finally, let's pretend this\npage is scrolling really slowly. And go ahead and submit. And would you like to\nfile a feedback report? Yes, please. And so there you go. And now you have the\nfull feedback report with the user feedback as\nwell as the device and battery information there.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 635.24,
+    "timestamp_end": 763.14,
+    "text": "And go ahead and submit. And would you like to\nfile a feedback report? Yes, please. And so there you go. And now you have the\nfull feedback report with the user feedback as\nwell as the device and battery information there. And then there's the\nscreenshot as well. So what did we just see? The app lets you file\nfeedback by taking a screenshot, letting\nyou annotate it, and then write some text. Then the agent does\nsome reasoning, drawing conclusions as to\nwhy you might be filing that particular feedback. Say you don't like the color\nscheme and prefer blue. The agent determines that\nit has a tool to change that and does it for you. But of course, UX matters. You wouldn't want the UI\nto suddenly change out from under you, right? So the agent first uses another\ntool to show an alert modal, asking for confirmation before\nactually changing the color. And finally, if there are no\ntools that the agent can use or the setting change\nrequest is denied, the app automatically builds\na standardized feedback report that helps the developer to\nprioritize and troubleshoot by collecting and summarizing\nall the available device and battery information,\nproviding an action history, and generating tags along with\na suggested priority level. You can see how the potential\nuse case for an agent like this goes on and on. Take a moment to think about it. What are some of the other tools\nthat you can give to an agent to make it even more useful? Here's the architecture for\nthis agentic ad manager. The Flutter app\nprovides user feedback in the form of natural language\ntext and a marked-up screenshot. The Vertex SDK sends\nthe input along with the system instructions\nthat we've defined to the Gemini 2.0 model. The model then responds\nwith function calls in order to fulfill its role of\nbeing a friendly and helpful app concierge. You can see how this levels\nup our use of generative AI. Not only is Gemini\ngenerating new content, but it's actually taking\nactions and making changes in order to fulfill its goal\nof being helpful to the user.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 750.84,
+    "timestamp_end": 857.98,
+    "text": "You can see how this levels\nup our use of generative AI. Not only is Gemini\ngenerating new content, but it's actually taking\nactions and making changes in order to fulfill its goal\nof being helpful to the user. Looking at this\narchitecture diagram, it looks like any other app\nmaking API calls, right? There are some data being\npassed back and forth, functions being called. The real difference comes from,\none, Gemini's ability to reason, understand, and process\nunstructured, multimodal input, and two, its ability\nto determine an output based on the prompting. To build this type of\nagentic functionality, you first have to construct a\nFirebase Vertex AI generative model. For this particular\nprototype, we'll configure the generative\nmodel with Gemini 2.0 Flash. Then we give Gemini a list\nof tools or function calls that it can use. These tools can do things\nlike modify parts of the app, retrieve device information,\nand file a feedback report. And finally, we define\na system instruction to give the agent a persona\nand goal, more specifically, defining its goal of being\na friendly and helpful app concierge, along with some\nadditional instructions that we wanted to follow. Once that's all configured,\nwe can start a chat session. The nice thing about\nthese chat sessions is that they store\nthe chat history from our Gemini interactions. Otherwise, we'd have to\nimplement our own chat history. From there, whenever the\nuser hits submit feedback, our callback sends\na message to Gemini with a prompt along with the\nfeedback text and screenshot. When response comes back,\nwe check whether Gemini has made any function calls. Let's say Gemini has issued\nsome tool calls, otherwise known as function calls. Keep in mind, Gemini\ndoesn't actually execute the function itself. It essentially\ngives instructions that say, do this thing. But your app is ultimately\nresponsible for actually doing the thing. Gemini is sort of like\na backseat driver. ANDREW PEYNADO: That's\nactually helpful.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 846.995,
+    "timestamp_end": 956.88,
+    "text": "It essentially\ngives instructions that say, do this thing. But your app is ultimately\nresponsible for actually doing the thing. Gemini is sort of like\na backseat driver. ANDREW PEYNADO: That's\nactually helpful. KHANH NGUYEN: Thanks for helping\nme land that point, Andrew. So with every response, we check\nthe function calls name and then call the function that's\nresponsible for doing the thing. Let's take a closer\nlook at two of the tools that the agentic app\nmanager has at its disposal. Each tool is defined as\na function declaration. It's a declarative way of\ndescribing what a tool does. Each tool has a name\nand a description, along with a map of parameters\nand their descriptions. Remember that good\ntool descriptions are important because the\nLLM uses them to determine what the tool does. Meanwhile, good\nparameter descriptions will help it to generate\nmore useful argument values with each function call. Here's the function declaration\nfor the app color tool. This particular tool\nrequires three integers, each representing the red,\ngreen, and blue channels in the RGB value. And here's the function that\nactually sets the app color. We grab the RGB parameter\nvalues that Gemini has generated from the\nfunction call object and update the\napp's color state. And here's the\nfunction declaration for the tool, which asks\nfor user confirmation. You can see the parameter\nis a string that represents the question to ask the user. And for simplicity, the\nanswer to this question needs to be either yes or no. So when the Gemini response\ninvokes the Ask Confirmation tool, we pull the question\nthat Gemini provided as a parameter from the\nfunction call object, drop it into the function that\ninvokes the alert model, take the response, which is true\nor false, in place of yes or no, and send it back to\nGemini as a chat message. Assuming the user\nresponded yes, Gemini should then respond with\nanother function call to execute the change. And that's how you\nbuild an agentic app with Vertex AI and\nFirebase and Flutter,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 943.35,
+    "timestamp_end": 1055.3799999999999,
+    "text": "and send it back to\nGemini as a chat message. Assuming the user\nresponded yes, Gemini should then respond with\nanother function call to execute the change. And that's how you\nbuild an agentic app with Vertex AI and\nFirebase and Flutter, implementing precisely\nthis architecture diagram that we saw earlier. The app sends text and a\nscreenshot to the Gemini model that's been configured\nwith our system prompt. Then Gemini responds by\ncalling various tools to make changes and take action\nin order to fulfill its goal. A quick aside here before we\njump to the next segment-- I didn't actually build\nany of the feedback UI that you saw in the demo. The annotation canvas, the text\nfield to type the feedback, it's all built into the\nfeedback package from pub.dev. I built this fake email app,\nwrapped it in the feedback widget, and it just worked-- pretty awesome if you ask me. Definitely check it out\nif you haven't already. Now, as we were\nworking on this demo, I felt like my fake mail\napp was a little bland. So let me show you\nsomething cool. I added profile pictures\nfor the email senders. ANDREW PEYNADO: What's\nso exciting about that? Isn't that how mail\napps usually work? KHANH NGUYEN: Great\nquestion, Andrew. It's exciting because I\nactually used Imagen 3. It's an image\ngeneration model that's available through Vertex AI. The even more exciting\npart is that Imagen 3 is available through\nthe Vertex SDK as well. So just like how we could\naccess the Gemini 2.0 model through the\nVertex SDK, you can do the same with Imagen 3. The Imagen model\nAPI looks really similar to the\ngenerative model API, but notice that it's an\nImagen model constructor. Just like before, you specify\na model and an image generation config. Here, you can specify the number of images that you\nwant back for each prompt. At the time of this recording,\nit'll default to one image, but you can get as many as\nfour images if you wanted. Then you can call the\ngenerateImages method with your prompt. Once the response comes\nback with the images,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 1043.65,
+    "timestamp_end": 1168.26,
+    "text": "At the time of this recording,\nit'll default to one image, but you can get as many as\nfour images if you wanted. Then you can call the\ngenerateImages method with your prompt. Once the response comes\nback with the images, you can grab the image\nbytes and display them in your app using a\nmemory image widget. OK, but I do have one more\nthing to show you today. I was talking to one of our\nawesome Firebase engineers, and they mentioned a\nreally cool feature that they were working on-- bidirectional audio streaming\nusing Gemini's live API. In short, what if\nI could literally talk and have a conversation\nwith Gemini in real time? I'd like to talk to\nthe manager, please. Hey, Gemini. GEMINI: Hello there. How can I help you today? KHANH NGUYEN: I don't like\nthe purple color of this app. Can you change it\nto a blue, please? GEMINI: Sure, I can\nhelp you with that. I can change the\napp color to blue. Would you like me to do that? KHANH NGUYEN: Yes, please. Cool, thanks. Can you also-- GEMINI: You're welcome. Is there-- KHANH NGUYEN: --make the\nfont a serif font, please? GEMINI: Sure, I can change\nthe font to a serif font. Would you like me\nto use Georgia, which is a highly-readable\nserif typeface designed for screen use? KHANH NGUYEN: Yes. Never mind, I don't like that. Can we go back to the\nInter font, please? OK, thanks. That's all I need. GEMINI: You're welcome. KHANH NGUYEN: Bye, Gemini. GEMINI: Goodbye. Have a great day. ANDREW PEYNADO: Oh,\nthat's what you meant. That's pretty cool. This is a great time\nfor me to tell you that real-time bidirectional\nstreaming is now available in Preview. So you can try it out\ntoday in your Flutter apps. KHANH NGUYEN: And guess what? The code follows the\nsame API structure as the generative models\nwe've already used. You swap out your\ngenerative model constructor with a live generative\nmodel constructor, specify a model that has Gemini\nLive API support, like Gemini 2.0 or Gemini 2.5, provide\na Live generation config, which specifies the voice\nand response modality, which in this case is audio.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_010",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 1153.97,
+    "timestamp_end": 1271.6399999999999,
+    "text": "with a live generative\nmodel constructor, specify a model that has Gemini\nLive API support, like Gemini 2.0 or Gemini 2.5, provide\na Live generation config, which specifies the voice\nand response modality, which in this case is audio. And then you can reuse the\nsame list of tools and system instructions. From there, you can start\nstreaming your audio. Of course, once you're done\nbuilding your agentic Flutter app, you have quite a few\ndeployment options to pick from. Believe it or not, we managed to\nuse three different generative models from the Vertex SDK. We first built our\nagentic app manager using a regular generative\nmodel with Gemini 2.0. Then we used the Imagen model to\ngenerate images with Imagen 3. And finally, we added\nreal-time audio streaming with the new Live generative\nmodel, also using Gemini 2.0. So, Andrew, what\nare the high-level takeaways that everyone should\ntake away from this video? ANDREW PEYNADO: Well,\nthere's a few things. Number one, language\nmodels like Gemini enable us as developers to\ncraft better user experiences by understanding unstructured\ninput paired with an ability to reason. Number two, Vertex\nAI and Firebase is an easy way for you to add\nAI and agentic functionality into your Flutter\napps in production. And number three,\nFlutter helps you ship your production-grade,\nmultiplatform apps faster with just one code base. KHANH NGUYEN: And\nfinally, we hope that we've been able to keep\nour promise, showing you that building agentic apps is\nas straightforward as building any other app that you're\nalready experts at building. Hopefully you now think\nof agentic features and experiences as another tool\nin your app development toolbox. It is software just with a\nnondeterministic runtime. It's a new paradigm that\nwe're all getting used to. ANDREW PEYNADO: If you want\naccess to the code for the app, head on over to the\nFlutter demos repo at github.com/flutter/demos. KHANH NGUYEN: Thanks for\ntaking the time out of your day to watch this video.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "xo271p-Fl_4__chunk_011",
+    "schema_version": "canonical_v1",
+    "video_id": "xo271p-Fl_4",
+    "title": "Google I/O 2025 \u2013 xo271p-Fl_4",
+    "timestamp_start": 1259.75,
+    "timestamp_end": 1288.6299999999999,
+    "text": "ANDREW PEYNADO: If you want\naccess to the code for the app, head on over to the\nFlutter demos repo at github.com/flutter/demos. KHANH NGUYEN: Thanks for\ntaking the time out of your day to watch this video. Please drop us a comment if you\nhave any questions or feedback. If you're working on a\ncool project with Flutter and Firebase, let\nus know as well. We'd love to see them. With that said, I think\nthat's a wrap for us. Catch you next time. Bye. ANDREW PEYNADO: Bye. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

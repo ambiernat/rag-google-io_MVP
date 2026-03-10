@@ -1,0 +1,1567 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "Wzpz_y_EFPs",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi, I'm Harsha",
+      "start": 6.2,
+      "duration": 5.319
+    },
+    {
+      "text": "Alapati and today I'm going to present a",
+      "start": 8.679,
+      "duration": 5.481
+    },
+    {
+      "text": "new offering in data security and",
+      "start": 11.519,
+      "duration": 5.52
+    },
+    {
+      "text": "compliance space so that you can govern",
+      "start": 14.16,
+      "duration": 5.8
+    },
+    {
+      "text": "your data for security, privacy and",
+      "start": 17.039,
+      "duration": 6.32
+    },
+    {
+      "text": "compliance. Let's get started. Data has",
+      "start": 19.96,
+      "duration": 5.64
+    },
+    {
+      "text": "become an extraordinary asset for all",
+      "start": 23.359,
+      "duration": 4.08
+    },
+    {
+      "text": "enterprises.",
+      "start": 25.6,
+      "duration": 4.48
+    },
+    {
+      "text": "collecting enormous amount of data from",
+      "start": 27.439,
+      "duration": 6.081
+    },
+    {
+      "text": "various touch points, democratizing it",
+      "start": 30.08,
+      "duration": 7.24
+    },
+    {
+      "text": "and driving innovation with AI, ML and",
+      "start": 33.52,
+      "duration": 6.64
+    },
+    {
+      "text": "analytics has almost become an essential",
+      "start": 37.32,
+      "duration": 4.0
+    },
+    {
+      "text": "business",
+      "start": 40.16,
+      "duration": 3.559
+    },
+    {
+      "text": "function. There lies a",
+      "start": 41.32,
+      "duration": 6.079
+    },
+    {
+      "text": "challenge. Data offers both risks and",
+      "start": 43.719,
+      "duration": 6.121
+    },
+    {
+      "text": "rewards. It's important to balance the",
+      "start": 47.399,
+      "duration": 4.721
+    },
+    {
+      "text": "risk to gain the",
+      "start": 49.84,
+      "duration": 4.48
+    },
+    {
+      "text": "rewards. What is at stake if you don't",
+      "start": 52.12,
+      "duration": 6.52
+    },
+    {
+      "text": "do that? The data risks are real. In",
+      "start": 54.32,
+      "duration": 7.879
+    },
+    {
+      "text": "year 2024, the data breaches increase",
+      "start": 58.64,
+      "duration": 6.0
+    },
+    {
+      "text": "significantly. These threat actors are",
+      "start": 62.199,
+      "duration": 4.641
+    },
+    {
+      "text": "using aggressive techniques. Double",
+      "start": 64.64,
+      "duration": 5.6
+    },
+    {
+      "text": "extortion, triple extortion. The cost of",
+      "start": 66.84,
+      "duration": 5.639
+    },
+    {
+      "text": "failing to prevent these data breaches",
+      "start": 70.24,
+      "duration": 5.48
+    },
+    {
+      "text": "is nonritical. I'm referring to personal",
+      "start": 72.479,
+      "duration": 5.96
+    },
+    {
+      "text": "liability. But is this applicable to my",
+      "start": 75.72,
+      "duration": 5.48
+    },
+    {
+      "text": "organization, my industry? Do I need to",
+      "start": 78.439,
+      "duration": 5.68
+    },
+    {
+      "text": "worry about it? The answer is",
+      "start": 81.2,
+      "duration": 5.84
+    },
+    {
+      "text": "yes. Irrespective of the industry and",
+      "start": 84.119,
+      "duration": 5.32
+    },
+    {
+      "text": "the type of the workload, you have to",
+      "start": 87.04,
+      "duration": 5.36
+    },
+    {
+      "text": "manage this data risk. Depending on the",
+      "start": 89.439,
+      "duration": 5.121
+    },
+    {
+      "text": "size of the organization and whether",
+      "start": 92.4,
+      "duration": 4.24
+    },
+    {
+      "text": "your industry is under regulatory",
+      "start": 94.56,
+      "duration": 4.68
+    },
+    {
+      "text": "perview, the requirements might",
+      "start": 96.64,
+      "duration": 4.799
+    },
+    {
+      "text": "change. Let's start with the financial",
+      "start": 99.24,
+      "duration": 4.68
+    },
+    {
+      "text": "services industry. If you are operating",
+      "start": 101.439,
+      "duration": 4.881
+    },
+    {
+      "text": "in financial services industry today, it",
+      "start": 103.92,
+      "duration": 5.6
+    },
+    {
+      "text": "is very highly likely that you have to",
+      "start": 106.32,
+      "duration": 6.119
+    },
+    {
+      "text": "meet certain regional banking regulatory",
+      "start": 109.52,
+      "duration": 6.08
+    },
+    {
+      "text": "requirements. Example, monitor and",
+      "start": 112.439,
+      "duration": 5.32
+    },
+    {
+      "text": "review privilege access to sensitive",
+      "start": 115.6,
+      "duration": 5.519
+    },
+    {
+      "text": "data in 48 hours. You have to make sure",
+      "start": 117.759,
+      "duration": 5.281
+    },
+    {
+      "text": "that your retail customer data is",
+      "start": 121.119,
+      "duration": 5.481
+    },
+    {
+      "text": "protected from accidental sharing for",
+      "start": 123.04,
+      "duration": 7.52
+    },
+    {
+      "text": "PCIDSS and DORA. You have to manage data",
+      "start": 126.6,
+      "duration": 6.68
+    },
+    {
+      "text": "residency and data protection for retail",
+      "start": 130.56,
+      "duration": 5.36
+    },
+    {
+      "text": "customer data. And these requirements",
+      "start": 133.28,
+      "duration": 4.88
+    },
+    {
+      "text": "change as you move from one region to",
+      "start": 135.92,
+      "duration": 5.6
+    },
+    {
+      "text": "another region. Example, European Union",
+      "start": 138.16,
+      "duration": 6.159
+    },
+    {
+      "text": "banking audit requirements versus",
+      "start": 141.52,
+      "duration": 6.28
+    },
+    {
+      "text": "monetary authority of Singapore audit",
+      "start": 144.319,
+      "duration": 5.28
+    },
+    {
+      "text": "requirements. Likewise, if you're",
+      "start": 147.8,
+      "duration": 4.2
+    },
+    {
+      "text": "operating in healthcare industry, you",
+      "start": 149.599,
+      "duration": 4.081
+    },
+    {
+      "text": "have to make sure the patient data is",
+      "start": 152.0,
+      "duration": 4.959
+    },
+    {
+      "text": "used for restricted purposes only.",
+      "start": 153.68,
+      "duration": 4.12
+    },
+    {
+      "text": "As an",
+      "start": 156.959,
+      "duration": 3.441
+    },
+    {
+      "text": "example, when a pharma company shares",
+      "start": 157.8,
+      "duration": 5.96
+    },
+    {
+      "text": "patient records with several agencies,",
+      "start": 160.4,
+      "duration": 4.72
+    },
+    {
+      "text": "they have to make sure that patient",
+      "start": 163.76,
+      "duration": 3.839
+    },
+    {
+      "text": "records are only used for research",
+      "start": 165.12,
+      "duration": 4.68
+    },
+    {
+      "text": "purposes, nothing",
+      "start": 167.599,
+      "duration": 4.801
+    },
+    {
+      "text": "else. You have to meet data protection",
+      "start": 169.8,
+      "duration": 4.48
+    },
+    {
+      "text": "and data retention",
+      "start": 172.4,
+      "duration": 4.64
+    },
+    {
+      "text": "requirements. HIPOP mandates patient",
+      "start": 174.28,
+      "duration": 5.88
+    },
+    {
+      "text": "data should be retained for 6 years.",
+      "start": 177.04,
+      "duration": 5.32
+    },
+    {
+      "text": "If you have an AIM ML",
+      "start": 180.16,
+      "duration": 4.159
+    },
+    {
+      "text": "workloads, you have to make sure",
+      "start": 182.36,
+      "duration": 4.04
+    },
+    {
+      "text": "sensitive data is not accidentally",
+      "start": 184.319,
+      "duration": 4.401
+    },
+    {
+      "text": "leaking into the training environments.",
+      "start": 186.4,
+      "duration": 5.119
+    },
+    {
+      "text": "This is a very very big problem. You",
+      "start": 188.72,
+      "duration": 5.4
+    },
+    {
+      "text": "need controls to prevent",
+      "start": 191.519,
+      "duration": 5.36
+    },
+    {
+      "text": "that. And you have to make sure your IP,",
+      "start": 194.12,
+      "duration": 4.52
+    },
+    {
+      "text": "the models, the weights are protected",
+      "start": 196.879,
+      "duration": 4.0
+    },
+    {
+      "text": "from expiltration.",
+      "start": 198.64,
+      "duration": 4.64
+    },
+    {
+      "text": "You need compliance explanability for",
+      "start": 200.879,
+      "duration": 5.121
+    },
+    {
+      "text": "all your models in production so that",
+      "start": 203.28,
+      "duration": 4.8
+    },
+    {
+      "text": "you can reason about what data these",
+      "start": 206.0,
+      "duration": 4.64
+    },
+    {
+      "text": "models are trained on with complete data",
+      "start": 208.08,
+      "duration": 3.799
+    },
+    {
+      "text": "bill of",
+      "start": 210.64,
+      "duration": 4.0
+    },
+    {
+      "text": "materials. But the challenge is today",
+      "start": 211.879,
+      "duration": 5.08
+    },
+    {
+      "text": "there is no single point solution to",
+      "start": 214.64,
+      "duration": 4.959
+    },
+    {
+      "text": "address these variations of requirements",
+      "start": 216.959,
+      "duration": 4.481
+    },
+    {
+      "text": "even for the few requirements that we",
+      "start": 219.599,
+      "duration": 4.441
+    },
+    {
+      "text": "just went through.",
+      "start": 221.44,
+      "duration": 4.879
+    },
+    {
+      "text": "Unfortunately, the current data security",
+      "start": 224.04,
+      "duration": 5.64
+    },
+    {
+      "text": "and posture management solutions DSPM",
+      "start": 226.319,
+      "duration": 6.321
+    },
+    {
+      "text": "fall short as they lack the depth and",
+      "start": 229.68,
+      "duration": 5.6
+    },
+    {
+      "text": "breadth of capabilities required to",
+      "start": 232.64,
+      "duration": 4.519
+    },
+    {
+      "text": "address these",
+      "start": 235.28,
+      "duration": 4.159
+    },
+    {
+      "text": "requirements. As you can see here with",
+      "start": 237.159,
+      "duration": 4.44
+    },
+    {
+      "text": "the current solutions while they shine",
+      "start": 239.439,
+      "duration": 5.041
+    },
+    {
+      "text": "in few areas such as coverage across the",
+      "start": 241.599,
+      "duration": 6.041
+    },
+    {
+      "text": "data stores out of the box access",
+      "start": 244.48,
+      "duration": 5.039
+    },
+    {
+      "text": "intelligence they lack the key",
+      "start": 247.64,
+      "duration": 4.76
+    },
+    {
+      "text": "capabilities such as data controls to",
+      "start": 249.519,
+      "duration": 6.201
+    },
+    {
+      "text": "secure your data and monitor those",
+      "start": 252.4,
+      "duration": 5.76
+    },
+    {
+      "text": "controls that leaves the gaps in your",
+      "start": 255.72,
+      "duration": 5.0
+    },
+    {
+      "text": "data posture and makes your data",
+      "start": 258.16,
+      "duration": 4.92
+    },
+    {
+      "text": "vulnerable to all sorts",
+      "start": 260.72,
+      "duration": 5.039
+    },
+    {
+      "text": "service. To address that exact problem",
+      "start": 263.08,
+      "duration": 5.36
+    },
+    {
+      "text": "for our customers, we're excited to",
+      "start": 265.759,
+      "duration": 5.521
+    },
+    {
+      "text": "announce data security and compliance",
+      "start": 268.44,
+      "duration": 6.36
+    },
+    {
+      "text": "partial management as a beyond DSPM",
+      "start": 271.28,
+      "duration": 5.72
+    },
+    {
+      "text": "offering from Google",
+      "start": 274.8,
+      "duration": 5.959
+    },
+    {
+      "text": "Cloud. A first of its kind by any cloud",
+      "start": 277.0,
+      "duration": 6.52
+    },
+    {
+      "text": "provider. We're announcing in preview as",
+      "start": 280.759,
+      "duration": 4.481
+    },
+    {
+      "text": "part of security command",
+      "start": 283.52,
+      "duration": 4.239
+    },
+    {
+      "text": "center. Our vision with this product is",
+      "start": 285.24,
+      "duration": 4.519
+    },
+    {
+      "text": "to bring security and compliance to the",
+      "start": 287.759,
+      "duration": 5.921
+    },
+    {
+      "text": "data wherever it is GCP or elsewhere.",
+      "start": 289.759,
+      "duration": 6.88
+    },
+    {
+      "text": "provide comprehensive coverage across",
+      "start": 293.68,
+      "duration": 6.92
+    },
+    {
+      "text": "security, privacy, and compliance use",
+      "start": 296.639,
+      "duration": 6.241
+    },
+    {
+      "text": "cases. Let me walk you through how we're",
+      "start": 300.6,
+      "duration": 5.159
+    },
+    {
+      "text": "executing on the vision. The journey for",
+      "start": 302.88,
+      "duration": 4.56
+    },
+    {
+      "text": "data governance for security and",
+      "start": 305.759,
+      "duration": 4.121
+    },
+    {
+      "text": "compliance has three major",
+      "start": 307.44,
+      "duration": 3.96
+    },
+    {
+      "text": "steps.",
+      "start": 309.88,
+      "duration": 4.879
+    },
+    {
+      "text": "Discover, secure, and",
+      "start": 311.4,
+      "duration": 5.6
+    },
+    {
+      "text": "monitor. Starting with",
+      "start": 314.759,
+      "duration": 4.681
+    },
+    {
+      "text": "discover, we are bringing Google maps",
+      "start": 317.0,
+      "duration": 4.84
+    },
+    {
+      "text": "like experience to data with what we",
+      "start": 319.44,
+      "duration": 4.4
+    },
+    {
+      "text": "call data map.",
+      "start": 321.84,
+      "duration": 4.48
+    },
+    {
+      "text": "With that you can find the answers for",
+      "start": 323.84,
+      "duration": 5.28
+    },
+    {
+      "text": "what data do I have and where is it and",
+      "start": 326.32,
+      "duration": 5.28
+    },
+    {
+      "text": "once you discover the data the next step",
+      "start": 329.12,
+      "duration": 3.56
+    },
+    {
+      "text": "is",
+      "start": 331.6,
+      "duration": 4.92
+    },
+    {
+      "text": "secure. This is where the beyond DSPM",
+      "start": 332.68,
+      "duration": 5.88
+    },
+    {
+      "text": "capabilities. We're offering data",
+      "start": 336.52,
+      "duration": 4.6
+    },
+    {
+      "text": "controls as a library that exposes the",
+      "start": 338.56,
+      "duration": 6.56
+    },
+    {
+      "text": "platform capabilities as controls so",
+      "start": 341.12,
+      "duration": 6.639
+    },
+    {
+      "text": "that you can protect your data. With",
+      "start": 345.12,
+      "duration": 5.4
+    },
+    {
+      "text": "that you can codify your requirements as",
+      "start": 347.759,
+      "duration": 5.641
+    },
+    {
+      "text": "policies and apply across the",
+      "start": 350.52,
+      "duration": 5.0
+    },
+    {
+      "text": "infrastructure and these controls are",
+      "start": 353.4,
+      "duration": 4.88
+    },
+    {
+      "text": "available as cloud controls with data",
+      "start": 355.52,
+      "duration": 4.959
+    },
+    {
+      "text": "frameworks. Let's dive into the secure",
+      "start": 358.28,
+      "duration": 5.24
+    },
+    {
+      "text": "part. The user journey for secure starts",
+      "start": 360.479,
+      "duration": 5.84
+    },
+    {
+      "text": "with identifying the sensitive data that",
+      "start": 363.52,
+      "duration": 5.6
+    },
+    {
+      "text": "is in scope for a specific outcome and",
+      "start": 366.319,
+      "duration": 5.841
+    },
+    {
+      "text": "creating an implicit boundary around it.",
+      "start": 369.12,
+      "duration": 5.199
+    },
+    {
+      "text": "For that today users can use coarse",
+      "start": 372.16,
+      "duration": 5.92
+    },
+    {
+      "text": "grain or folder project or fine grain",
+      "start": 374.319,
+      "duration": 6.801
+    },
+    {
+      "text": "filters such as sensitivity location",
+      "start": 378.08,
+      "duration": 6.36
+    },
+    {
+      "text": "tags for identifying the",
+      "start": 381.12,
+      "duration": 5.76
+    },
+    {
+      "text": "boundaries. Once these boundaries are",
+      "start": 384.44,
+      "duration": 4.44
+    },
+    {
+      "text": "identified, the next step is to map the",
+      "start": 386.88,
+      "duration": 5.159
+    },
+    {
+      "text": "requirements to control",
+      "start": 388.88,
+      "duration": 5.36
+    },
+    {
+      "text": "policies. The controls that you see",
+      "start": 392.039,
+      "duration": 5.16
+    },
+    {
+      "text": "here, data access, data flow, data",
+      "start": 394.24,
+      "duration": 6.48
+    },
+    {
+      "text": "retention, data protection, AI controls,",
+      "start": 397.199,
+      "duration": 5.84
+    },
+    {
+      "text": "and",
+      "start": 400.72,
+      "duration": 2.319
+    },
+    {
+      "text": "purpose-built for specific security and",
+      "start": 405.08,
+      "duration": 4.72
+    },
+    {
+      "text": "compliance",
+      "start": 407.759,
+      "duration": 4.481
+    },
+    {
+      "text": "outcomes. And these controls can be",
+      "start": 409.8,
+      "duration": 6.04
+    },
+    {
+      "text": "applied in detective or preventive mode",
+      "start": 412.24,
+      "duration": 8.079
+    },
+    {
+      "text": "on the identified implicit boundaries.",
+      "start": 415.84,
+      "duration": 7.12
+    },
+    {
+      "text": "In the detective mode, users will get",
+      "start": 420.319,
+      "duration": 5.0
+    },
+    {
+      "text": "alerts for any non-compliant",
+      "start": 422.96,
+      "duration": 4.799
+    },
+    {
+      "text": "operation. And in preventive mode, these",
+      "start": 425.319,
+      "duration": 4.801
+    },
+    {
+      "text": "operations are prevented from",
+      "start": 427.759,
+      "duration": 4.961
+    },
+    {
+      "text": "happening. And once applied, these",
+      "start": 430.12,
+      "duration": 5.68
+    },
+    {
+      "text": "policies follow the data wherever it",
+      "start": 432.72,
+      "duration": 6.44
+    },
+    {
+      "text": "goes. Let me go through each of these",
+      "start": 435.8,
+      "duration": 5.92
+    },
+    {
+      "text": "controls. Data access",
+      "start": 439.16,
+      "duration": 4.68
+    },
+    {
+      "text": "governance. Using data access",
+      "start": 441.72,
+      "duration": 4.039
+    },
+    {
+      "text": "governance, you can restrict the access",
+      "start": 443.84,
+      "duration": 5.44
+    },
+    {
+      "text": "to sensitive data to allow principles.",
+      "start": 445.759,
+      "duration": 5.121
+    },
+    {
+      "text": "Let's say there is an enterprise that",
+      "start": 449.28,
+      "duration": 3.319
+    },
+    {
+      "text": "collects customer payment card",
+      "start": 450.88,
+      "duration": 4.159
+    },
+    {
+      "text": "information and the organization has a",
+      "start": 452.599,
+      "duration": 3.521
+    },
+    {
+      "text": "compliance",
+      "start": 455.039,
+      "duration": 3.841
+    },
+    {
+      "text": "requirement to only allow access to",
+      "start": 456.12,
+      "duration": 5.88
+    },
+    {
+      "text": "payment card information in plain text",
+      "start": 458.88,
+      "duration": 5.36
+    },
+    {
+      "text": "only to the fraud detection team.",
+      "start": 462.0,
+      "duration": 4.0
+    },
+    {
+      "text": "There's an admin responsible for",
+      "start": 464.24,
+      "duration": 4.56
+    },
+    {
+      "text": "implementing the policy. I start with",
+      "start": 466.0,
+      "duration": 4.72
+    },
+    {
+      "text": "managing this with identity and access",
+      "start": 468.8,
+      "duration": 4.56
+    },
+    {
+      "text": "management. The IM is the right place to",
+      "start": 470.72,
+      "duration": 4.56
+    },
+    {
+      "text": "start.",
+      "start": 473.36,
+      "duration": 4.08
+    },
+    {
+      "text": "But soon I realize the policies quickly",
+      "start": 475.28,
+      "duration": 5.359
+    },
+    {
+      "text": "drift as the data evolves. Data gets",
+      "start": 477.44,
+      "duration": 6.199
+    },
+    {
+      "text": "copied, replicated and",
+      "start": 480.639,
+      "duration": 5.12
+    },
+    {
+      "text": "processed. Very quickly it becomes",
+      "start": 483.639,
+      "duration": 4.84
+    },
+    {
+      "text": "unmanageable for me to track data",
+      "start": 485.759,
+      "duration": 5.041
+    },
+    {
+      "text": "continuously to find where the relevant",
+      "start": 488.479,
+      "duration": 4.481
+    },
+    {
+      "text": "data is and make sure the access",
+      "start": 490.8,
+      "duration": 3.72
+    },
+    {
+      "text": "policies are",
+      "start": 492.96,
+      "duration": 4.079
+    },
+    {
+      "text": "compliant. And you can solve this exact",
+      "start": 494.52,
+      "duration": 4.119
+    },
+    {
+      "text": "problem with data access governance",
+      "start": 497.039,
+      "duration": 4.321
+    },
+    {
+      "text": "control. With access governance control,",
+      "start": 498.639,
+      "duration": 6.081
+    },
+    {
+      "text": "you can define a policy that says only",
+      "start": 501.36,
+      "duration": 6.08
+    },
+    {
+      "text": "allow fraud detection team to access the",
+      "start": 504.72,
+      "duration": 5.199
+    },
+    {
+      "text": "data sets with the customer payment",
+      "start": 507.44,
+      "duration": 5.76
+    },
+    {
+      "text": "information the implicit boundary and",
+      "start": 509.919,
+      "duration": 6.56
+    },
+    {
+      "text": "apply in detective or preventive and the",
+      "start": 513.2,
+      "duration": 5.519
+    },
+    {
+      "text": "control will do the rest. Once the",
+      "start": 516.479,
+      "duration": 5.44
+    },
+    {
+      "text": "policy is applied as the data evolves",
+      "start": 518.719,
+      "duration": 5.12
+    },
+    {
+      "text": "the data is brought into the implicit",
+      "start": 521.919,
+      "duration": 4.081
+    },
+    {
+      "text": "boundary and policy is applied",
+      "start": 523.839,
+      "duration": 3.761
+    },
+    {
+      "text": "automatically.",
+      "start": 526.0,
+      "duration": 3.8
+    },
+    {
+      "text": "The next control is data flow",
+      "start": 527.6,
+      "duration": 4.64
+    },
+    {
+      "text": "governance. Using data flow governance",
+      "start": 529.8,
+      "duration": 4.44
+    },
+    {
+      "text": "control, you can restrict the flows of",
+      "start": 532.24,
+      "duration": 4.36
+    },
+    {
+      "text": "data to certain",
+      "start": 534.24,
+      "duration": 4.24
+    },
+    {
+      "text": "boundaries. Let's say there is an",
+      "start": 536.6,
+      "duration": 3.76
+    },
+    {
+      "text": "enterprise with operations in",
+      "start": 538.48,
+      "duration": 4.08
+    },
+    {
+      "text": "Switzerland. The organization has a",
+      "start": 540.36,
+      "duration": 4.919
+    },
+    {
+      "text": "compliance requirement to not move the",
+      "start": 542.56,
+      "duration": 5.64
+    },
+    {
+      "text": "Swiss citizen customer data outside",
+      "start": 545.279,
+      "duration": 5.441
+    },
+    {
+      "text": "Switzerland. As an admin to implement",
+      "start": 548.2,
+      "duration": 5.48
+    },
+    {
+      "text": "that policy, I start with identity and",
+      "start": 550.72,
+      "duration": 6.559
+    },
+    {
+      "text": "access management. I am only allow Swiss",
+      "start": 553.68,
+      "duration": 6.96
+    },
+    {
+      "text": "employees to access assuming that they",
+      "start": 557.279,
+      "duration": 6.321
+    },
+    {
+      "text": "always access from within Switzerland",
+      "start": 560.64,
+      "duration": 5.36
+    },
+    {
+      "text": "but quickly realize they do travel and",
+      "start": 563.6,
+      "duration": 4.96
+    },
+    {
+      "text": "access from outside Switzerland",
+      "start": 566.0,
+      "duration": 5.68
+    },
+    {
+      "text": "violating the policy. As the next step,",
+      "start": 568.56,
+      "duration": 5.6
+    },
+    {
+      "text": "I resort to perimeterbased solutions and",
+      "start": 571.68,
+      "duration": 5.04
+    },
+    {
+      "text": "I realized they're not suitable for the",
+      "start": 574.16,
+      "duration": 4.88
+    },
+    {
+      "text": "use case.",
+      "start": 576.72,
+      "duration": 4.48
+    },
+    {
+      "text": "Left with no choice, I lock down the",
+      "start": 579.04,
+      "duration": 4.68
+    },
+    {
+      "text": "entire data instance making it",
+      "start": 581.2,
+      "duration": 5.0
+    },
+    {
+      "text": "unavailable even for the valid use",
+      "start": 583.72,
+      "duration": 5.32
+    },
+    {
+      "text": "cases. You can solve this exact problem",
+      "start": 586.2,
+      "duration": 4.84
+    },
+    {
+      "text": "with data flow governance. You can",
+      "start": 589.04,
+      "duration": 5.44
+    },
+    {
+      "text": "define a policy that says only allow",
+      "start": 591.04,
+      "duration": 6.64
+    },
+    {
+      "text": "access from Switzerland and apply to the",
+      "start": 594.48,
+      "duration": 5.6
+    },
+    {
+      "text": "data sets with Swiss citizen customer",
+      "start": 597.68,
+      "duration": 5.04
+    },
+    {
+      "text": "information the implicit boundary in",
+      "start": 600.08,
+      "duration": 6.0
+    },
+    {
+      "text": "detective or preventive mode. Also in",
+      "start": 602.72,
+      "duration": 5.679
+    },
+    {
+      "text": "future we plan to extend the support to",
+      "start": 606.08,
+      "duration": 5.36
+    },
+    {
+      "text": "logical boundaries such as organization",
+      "start": 608.399,
+      "duration": 5.921
+    },
+    {
+      "text": "folder or project so that you can",
+      "start": 611.44,
+      "duration": 5.24
+    },
+    {
+      "text": "control the flow across these",
+      "start": 614.32,
+      "duration": 4.72
+    },
+    {
+      "text": "environments and prevent potential",
+      "start": 616.68,
+      "duration": 5.159
+    },
+    {
+      "text": "exfiltration attempts. The next control",
+      "start": 619.04,
+      "duration": 5.6
+    },
+    {
+      "text": "is data retention control. Using data",
+      "start": 621.839,
+      "duration": 4.881
+    },
+    {
+      "text": "retention control you can manage the",
+      "start": 624.64,
+      "duration": 5.04
+    },
+    {
+      "text": "historical depth of the data for the",
+      "start": 626.72,
+      "duration": 6.84
+    },
+    {
+      "text": "maximum retention and minimum retention",
+      "start": 629.68,
+      "duration": 6.56
+    },
+    {
+      "text": "periods. Let's say in an enterprise with",
+      "start": 633.56,
+      "duration": 5.64
+    },
+    {
+      "text": "GDPR compliance requirement to delete",
+      "start": 636.24,
+      "duration": 6.32
+    },
+    {
+      "text": "the customer data within 90 days after",
+      "start": 639.2,
+      "duration": 6.079
+    },
+    {
+      "text": "customer unsubscribes or request to",
+      "start": 642.56,
+      "duration": 5.839
+    },
+    {
+      "text": "delete the data. For that you can define",
+      "start": 645.279,
+      "duration": 6.0
+    },
+    {
+      "text": "a policy with maximum retention period",
+      "start": 648.399,
+      "duration": 4.12
+    },
+    {
+      "text": "of 90",
+      "start": 651.279,
+      "duration": 4.321
+    },
+    {
+      "text": "days and apply for the customer data the",
+      "start": 652.519,
+      "duration": 6.841
+    },
+    {
+      "text": "implicit boundary in detective mode.",
+      "start": 655.6,
+      "duration": 5.44
+    },
+    {
+      "text": "Likewise, if you are an enterprise with",
+      "start": 659.36,
+      "duration": 3.84
+    },
+    {
+      "text": "the HIPPA compliance requirement to",
+      "start": 661.04,
+      "duration": 4.52
+    },
+    {
+      "text": "retain the patient data records for 6",
+      "start": 663.2,
+      "duration": 6.079
+    },
+    {
+      "text": "years, it define a policy with minimum",
+      "start": 665.56,
+      "duration": 6.839
+    },
+    {
+      "text": "retention period of 6 years and apply",
+      "start": 669.279,
+      "duration": 5.281
+    },
+    {
+      "text": "for the patient data records. The",
+      "start": 672.399,
+      "duration": 6.0
+    },
+    {
+      "text": "implicit boundary in detective mode, the",
+      "start": 674.56,
+      "duration": 6.399
+    },
+    {
+      "text": "control will do the rest. The next one",
+      "start": 678.399,
+      "duration": 4.801
+    },
+    {
+      "text": "is the data protection control. Using",
+      "start": 680.959,
+      "duration": 4.241
+    },
+    {
+      "text": "data protection control, you can manage",
+      "start": 683.2,
+      "duration": 3.72
+    },
+    {
+      "text": "the encryption key",
+      "start": 685.2,
+      "duration": 3.92
+    },
+    {
+      "text": "configuration for properties like key",
+      "start": 686.92,
+      "duration": 5.24
+    },
+    {
+      "text": "rotation period, location of the keys or",
+      "start": 689.12,
+      "duration": 4.6
+    },
+    {
+      "text": "segregation of",
+      "start": 692.16,
+      "duration": 4.119
+    },
+    {
+      "text": "duties. As an admin, I can create a",
+      "start": 693.72,
+      "duration": 5.6
+    },
+    {
+      "text": "policy with a key rotation period of 90",
+      "start": 696.279,
+      "duration": 6.56
+    },
+    {
+      "text": "days and location of keys to be certain",
+      "start": 699.32,
+      "duration": 6.84
+    },
+    {
+      "text": "location and apply on the keys that",
+      "start": 702.839,
+      "duration": 5.0
+    },
+    {
+      "text": "protect the data in the implicit",
+      "start": 706.16,
+      "duration": 4.48
+    },
+    {
+      "text": "boundary. So far we have seen data",
+      "start": 707.839,
+      "duration": 5.201
+    },
+    {
+      "text": "access, data flow, retention and",
+      "start": 710.64,
+      "duration": 4.56
+    },
+    {
+      "text": "protection controls. But let me stress",
+      "start": 713.04,
+      "duration": 5.32
+    },
+    {
+      "text": "this again. Only GCP can offer these",
+      "start": 715.2,
+      "duration": 6.84
+    },
+    {
+      "text": "controls as it requires deeper platform",
+      "start": 718.36,
+      "duration": 5.96
+    },
+    {
+      "text": "integration. Once these data controls",
+      "start": 722.04,
+      "duration": 3.96
+    },
+    {
+      "text": "are deployed with frameworks for",
+      "start": 724.32,
+      "duration": 4.44
+    },
+    {
+      "text": "specific outcomes, the next step is",
+      "start": 726.0,
+      "duration": 5.519
+    },
+    {
+      "text": "monitoring. Users can use monitoring to",
+      "start": 728.76,
+      "duration": 4.72
+    },
+    {
+      "text": "manage the health of the deployed",
+      "start": 731.519,
+      "duration": 6.0
+    },
+    {
+      "text": "frameworks near real time and remediate.",
+      "start": 733.48,
+      "duration": 6.68
+    },
+    {
+      "text": "With that we have gone through discover",
+      "start": 737.519,
+      "duration": 6.32
+    },
+    {
+      "text": "secure and monitor steps and how you can",
+      "start": 740.16,
+      "duration": 6.96
+    },
+    {
+      "text": "use the beyond DSPM capabilities to",
+      "start": 743.839,
+      "duration": 5.44
+    },
+    {
+      "text": "govern the data for security and",
+      "start": 747.12,
+      "duration": 3.719
+    },
+    {
+      "text": "compliance",
+      "start": 749.279,
+      "duration": 3.921
+    },
+    {
+      "text": "successfully. But that's not the end. We",
+      "start": 750.839,
+      "duration": 5.0
+    },
+    {
+      "text": "have one more thing to offer. We're",
+      "start": 753.2,
+      "duration": 4.8
+    },
+    {
+      "text": "introducing data security and compliance",
+      "start": 755.839,
+      "duration": 4.56
+    },
+    {
+      "text": "posture management natively within",
+      "start": 758.0,
+      "duration": 5.04
+    },
+    {
+      "text": "Bitquery security setup. With that,",
+      "start": 760.399,
+      "duration": 5.761
+    },
+    {
+      "text": "Bitquery admins can discover, secure,",
+      "start": 763.04,
+      "duration": 6.0
+    },
+    {
+      "text": "and monitor Bitquery assets using the",
+      "start": 766.16,
+      "duration": 5.28
+    },
+    {
+      "text": "same beyond DSPM capabilities that we",
+      "start": 769.04,
+      "duration": 4.64
+    },
+    {
+      "text": "have gone through within the Bitquery",
+      "start": 771.44,
+      "duration": 4.639
+    },
+    {
+      "text": "Security Center. We're excited about the",
+      "start": 773.68,
+      "duration": 5.12
+    },
+    {
+      "text": "possibilities here to serve the Bitquery",
+      "start": 776.079,
+      "duration": 5.521
+    },
+    {
+      "text": "admins in future. With that, a few of",
+      "start": 778.8,
+      "duration": 4.56
+    },
+    {
+      "text": "you may be wondering about the tools",
+      "start": 781.6,
+      "duration": 4.0
+    },
+    {
+      "text": "that you're already invested in to",
+      "start": 783.36,
+      "duration": 6.8
+    },
+    {
+      "text": "protect assets outside GCP. For that we",
+      "start": 785.6,
+      "duration": 5.84
+    },
+    {
+      "text": "are supporting integration with",
+      "start": 790.16,
+      "duration": 4.08
+    },
+    {
+      "text": "thirdparty security vendor products so",
+      "start": 791.44,
+      "duration": 4.959
+    },
+    {
+      "text": "that you can use Google data security",
+      "start": 794.24,
+      "duration": 5.12
+    },
+    {
+      "text": "and compliance partial management as a",
+      "start": 796.399,
+      "duration": 5.44
+    },
+    {
+      "text": "central console to protect your assets",
+      "start": 799.36,
+      "duration": 4.56
+    },
+    {
+      "text": "across the spectrum. We are starting",
+      "start": 801.839,
+      "duration": 3.521
+    },
+    {
+      "text": "with these three vendors and planning to",
+      "start": 803.92,
+      "duration": 3.919
+    },
+    {
+      "text": "add more in future. With that please",
+      "start": 805.36,
+      "duration": 4.56
+    },
+    {
+      "text": "reach out to your GCP team to find out",
+      "start": 807.839,
+      "duration": 4.321
+    },
+    {
+      "text": "more on data security and compliance",
+      "start": 809.92,
+      "duration": 4.56
+    },
+    {
+      "text": "posture management offering. Thank you",
+      "start": 812.16,
+      "duration": 5.56
+    },
+    {
+      "text": "very much.",
+      "start": 814.48,
+      "duration": 3.24
+    },
+    {
+      "text": "[Applause]",
+      "start": 819.0,
+      "duration": 3.19
+    }
+  ]
+}

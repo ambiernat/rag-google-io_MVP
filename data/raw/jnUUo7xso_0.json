@@ -1,0 +1,3027 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "jnUUo7xso_0",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.355
+    },
+    {
+      "text": "ADITI ROY: Hello, and welcome.",
+      "start": 5.66,
+      "duration": 1.69
+    },
+    {
+      "text": "My name is Aditi Roy, longtime\nbusiness and news reporter",
+      "start": 7.35,
+      "duration": 3.11
+    },
+    {
+      "text": "and founder of Aditi Roy Media.",
+      "start": 10.46,
+      "duration": 2.08
+    },
+    {
+      "text": "Today I'm thrilled to\nbring our next speaker",
+      "start": 12.54,
+      "duration": 2.51
+    },
+    {
+      "text": "on to the stage, Waymo\nCo-CEO Dmitri Dolgov.",
+      "start": 15.05,
+      "duration": 4.42
+    },
+    {
+      "text": "Dimitri was one of the\nfounders of Google's",
+      "start": 19.47,
+      "duration": 2.9
+    },
+    {
+      "text": "original self-driving\ncar project.",
+      "start": 22.37,
+      "duration": 2.47
+    },
+    {
+      "text": "And he's going to take us\nthrough an adventurous ride",
+      "start": 24.84,
+      "duration": 2.51
+    },
+    {
+      "text": "through the history\nof autonomous driving",
+      "start": 27.35,
+      "duration": 2.22
+    },
+    {
+      "text": "and where it will\nlead in the future.",
+      "start": 29.57,
+      "duration": 2.14
+    },
+    {
+      "text": "Please join me in\nwelcoming Dmitri.",
+      "start": 31.71,
+      "duration": 2.49
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 34.2,
+      "duration": 1.508
+    },
+    {
+      "text": "DMITRI DOLGOV: Thank you.",
+      "start": 35.708,
+      "duration": 1.042
+    },
+    {
+      "text": "Hi, everyone.",
+      "start": 39.95,
+      "duration": 1.06
+    },
+    {
+      "text": "Good afternoon.",
+      "start": 41.01,
+      "duration": 1.17
+    },
+    {
+      "text": "It's great to be here.",
+      "start": 42.18,
+      "duration": 2.42
+    },
+    {
+      "text": "Most of the AI that\npeople talk about nowadays",
+      "start": 44.6,
+      "duration": 4.44
+    },
+    {
+      "text": "lives in the digital world, and\nit is incredibly impressive.",
+      "start": 49.04,
+      "duration": 5.07
+    },
+    {
+      "text": "It can write code.",
+      "start": 54.11,
+      "duration": 1.45
+    },
+    {
+      "text": "It can diagnose\nillness, compose music,",
+      "start": 55.56,
+      "duration": 2.94
+    },
+    {
+      "text": "create videos, and so much more.",
+      "start": 58.5,
+      "duration": 2.41
+    },
+    {
+      "text": "But the AI that we\nare building at Waymo",
+      "start": 60.91,
+      "duration": 3.28
+    },
+    {
+      "text": "doesn't live on your screen.",
+      "start": 64.19,
+      "duration": 1.83
+    },
+    {
+      "text": "It lives in real\nlife, among people,",
+      "start": 66.02,
+      "duration": 3.66
+    },
+    {
+      "text": "in weather, in\ntraffic, in motion.",
+      "start": 69.68,
+      "duration": 3.05
+    },
+    {
+      "text": "So today we'll talk about the\nmost advanced application of AI",
+      "start": 72.73,
+      "duration": 4.62
+    },
+    {
+      "text": "in the physical world,\nWaymo's autonomous vehicles.",
+      "start": 77.35,
+      "duration": 5.64
+    },
+    {
+      "text": "But why do we need autonomous\nvehicles in the first place?",
+      "start": 82.99,
+      "duration": 4.68
+    },
+    {
+      "text": "Well, because when it\ncomes to road safety,",
+      "start": 87.67,
+      "duration": 2.47
+    },
+    {
+      "text": "the status quo is unacceptable.",
+      "start": 90.14,
+      "duration": 4.4
+    },
+    {
+      "text": "Every year, more\nthan a million people",
+      "start": 94.54,
+      "duration": 2.94
+    },
+    {
+      "text": "lose their lives to road\ncollisions across the world.",
+      "start": 97.48,
+      "duration": 3.87
+    },
+    {
+      "text": "To break that down, every\n26 seconds, a person",
+      "start": 101.35,
+      "duration": 4.11
+    },
+    {
+      "text": "loses their life to\na road collision.",
+      "start": 105.46,
+      "duration": 2.37
+    },
+    {
+      "text": "This is staggering.",
+      "start": 107.83,
+      "duration": 1.92
+    },
+    {
+      "text": "And the vast majority\nof these tragedies",
+      "start": 109.75,
+      "duration": 2.58
+    },
+    {
+      "text": "are due to human error.",
+      "start": 112.33,
+      "duration": 2.07
+    },
+    {
+      "text": "We can do better.",
+      "start": 114.4,
+      "duration": 1.74
+    },
+    {
+      "text": "And this is why we founded\nWaymo more than 15 years ago,",
+      "start": 116.14,
+      "duration": 3.42
+    },
+    {
+      "text": "to challenge the status quo\nand to build a safer mobility",
+      "start": 119.56,
+      "duration": 4.14
+    },
+    {
+      "text": "option for all.",
+      "start": 123.7,
+      "duration": 2.37
+    },
+    {
+      "text": "Let's go back to those early\ndays for just a minute.",
+      "start": 126.07,
+      "duration": 3.27
+    },
+    {
+      "text": "It's quite fitting that we\nare here today at Google I/O",
+      "start": 129.34,
+      "duration": 5.31
+    },
+    {
+      "text": "because we started in 2009 as\nthe Google self-driving car",
+      "start": 134.65,
+      "duration": 5.31
+    },
+    {
+      "text": "project.",
+      "start": 139.96,
+      "duration": 1.14
+    },
+    {
+      "text": "In fact, this very\nparking lot, where",
+      "start": 141.1,
+      "duration": 4.29
+    },
+    {
+      "text": "we're sitting right now next\nto the Shoreline amphitheater,",
+      "start": 145.39,
+      "duration": 2.49
+    },
+    {
+      "text": "is where, in 2009, we did\nour very first car bring up",
+      "start": 147.88,
+      "duration": 4.35
+    },
+    {
+      "text": "and testing, as well as an\noccasional autonomous race.",
+      "start": 152.23,
+      "duration": 4.9
+    },
+    {
+      "text": "So check this out and see if\nyou can spot the amphitheater",
+      "start": 157.13,
+      "duration": 2.84
+    },
+    {
+      "text": "in the background.",
+      "start": 159.97,
+      "duration": 1.379
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 161.349,
+      "duration": 0.667
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 162.016,
+      "duration": 2.958
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 191.017,
+      "duration": 0.583
+    },
+    {
+      "text": "I honestly did not know that you\ncould drift a Prius until then.",
+      "start": 191.6,
+      "duration": 5.64
+    },
+    {
+      "text": "And by the way,\nthose cones that you",
+      "start": 197.24,
+      "duration": 1.98
+    },
+    {
+      "text": "see lying down on\nthe ground, they're",
+      "start": 199.22,
+      "duration": 1.758
+    },
+    {
+      "text": "supposed to be like that.",
+      "start": 200.978,
+      "duration": 1.042
+    },
+    {
+      "text": "We did not hit them.",
+      "start": 202.02,
+      "duration": 1.14
+    },
+    {
+      "text": "They're pointer cones.",
+      "start": 203.16,
+      "duration": 1.29
+    },
+    {
+      "text": "They tell you which way\nyou're supposed to go,",
+      "start": 204.45,
+      "duration": 1.92
+    },
+    {
+      "text": "and we use them to\nset up the course",
+      "start": 206.37,
+      "duration": 1.82
+    },
+    {
+      "text": "to allow human drivers to\ncompete against our autonomous",
+      "start": 208.19,
+      "duration": 5.88
+    },
+    {
+      "text": "racing Prius.",
+      "start": 214.07,
+      "duration": 3.12
+    },
+    {
+      "text": "When we started in 2009,\nwe had a pretty small team.",
+      "start": 217.19,
+      "duration": 3.4
+    },
+    {
+      "text": "It was about a dozen engineers\nwho came together with one goal,",
+      "start": 220.59,
+      "duration": 4.46
+    },
+    {
+      "text": "to prove that autonomous\nvehicles were possible.",
+      "start": 225.05,
+      "duration": 4.71
+    },
+    {
+      "text": "Here are some pictures of the\nteam from those early days.",
+      "start": 229.76,
+      "duration": 2.62
+    },
+    {
+      "text": "There's a younger version of me.",
+      "start": 232.38,
+      "duration": 2.13
+    },
+    {
+      "text": "I practically lived in the\ncar for the first year or so,",
+      "start": 234.51,
+      "duration": 3.68
+    },
+    {
+      "text": "and nowadays we hear from our\nWaymo riders that many of them",
+      "start": 238.19,
+      "duration": 3.98
+    },
+    {
+      "text": "like to use Waymo as\ntheir mobile workspace.",
+      "start": 242.17,
+      "duration": 2.32
+    },
+    {
+      "text": "So I like to take credit\nfor actually starting",
+      "start": 244.49,
+      "duration": 2.48
+    },
+    {
+      "text": "that trend back in 2009.",
+      "start": 246.97,
+      "duration": 2.04
+    },
+    {
+      "text": "Many of us, at the time, came\nfrom the so-called DARPA Grand",
+      "start": 249.01,
+      "duration": 5.07
+    },
+    {
+      "text": "Challenges.",
+      "start": 254.08,
+      "duration": 0.94
+    },
+    {
+      "text": "Those were competitions,\nin early 2000s,",
+      "start": 255.02,
+      "duration": 2.54
+    },
+    {
+      "text": "that really pushed forward the\nstate of the art in robotics",
+      "start": 257.56,
+      "duration": 3.69
+    },
+    {
+      "text": "and autonomy.",
+      "start": 261.25,
+      "duration": 1.08
+    },
+    {
+      "text": "So that meant that\nmany of us had",
+      "start": 262.33,
+      "duration": 2.79
+    },
+    {
+      "text": "some experience in the\nautonomous vehicle space,",
+      "start": 265.12,
+      "duration": 2.68
+    },
+    {
+      "text": "and it was not\nentirely new to us.",
+      "start": 267.8,
+      "duration": 2.9
+    },
+    {
+      "text": "However, this was different.",
+      "start": 270.7,
+      "duration": 1.51
+    },
+    {
+      "text": "This wasn't about winning\na race in the desert.",
+      "start": 272.21,
+      "duration": 3.0
+    },
+    {
+      "text": "This was about proving that\nautonomous vehicles can",
+      "start": 275.21,
+      "duration": 4.37
+    },
+    {
+      "text": "work on real roads and, if so,\nredefine the future of driving.",
+      "start": 279.58,
+      "duration": 6.69
+    },
+    {
+      "text": "So when we started,\nour first goal",
+      "start": 286.27,
+      "duration": 2.13
+    },
+    {
+      "text": "was to learn as much as\npossible about the space.",
+      "start": 288.4,
+      "duration": 3.04
+    },
+    {
+      "text": "And to that end, Google's\nfounders, Larry and Sergey,",
+      "start": 291.44,
+      "duration": 3.6
+    },
+    {
+      "text": "gave our team two challenges.",
+      "start": 295.04,
+      "duration": 3.27
+    },
+    {
+      "text": "The first one was to drive\n100,000 miles in autonomous",
+      "start": 298.31,
+      "duration": 4.26
+    },
+    {
+      "text": "mode.",
+      "start": 302.57,
+      "duration": 0.81
+    },
+    {
+      "text": "And at the time, this\nwas orders of magnitude",
+      "start": 303.38,
+      "duration": 3.42
+    },
+    {
+      "text": "more than anyone has done.",
+      "start": 306.8,
+      "duration": 2.31
+    },
+    {
+      "text": "And the second challenge, and\nthat one actually turned out",
+      "start": 309.11,
+      "duration": 3.21
+    },
+    {
+      "text": "to be the more difficult\none, was to drive 10 routes.",
+      "start": 312.32,
+      "duration": 4.69
+    },
+    {
+      "text": "Each one was about\n100 miles long.",
+      "start": 317.01,
+      "duration": 2.31
+    },
+    {
+      "text": "And we had to complete each\none, from beginning to end,",
+      "start": 319.32,
+      "duration": 2.93
+    },
+    {
+      "text": "with no human intervention.",
+      "start": 322.25,
+      "duration": 3.45
+    },
+    {
+      "text": "So we're super excited\nwhen we managed",
+      "start": 325.7,
+      "duration": 2.16
+    },
+    {
+      "text": "to finish both of\nthese challenges",
+      "start": 327.86,
+      "duration": 1.47
+    },
+    {
+      "text": "in about a year and a half.",
+      "start": 329.33,
+      "duration": 1.59
+    },
+    {
+      "text": "So again, technology of 2009, a\nteam of about a dozen engineers,",
+      "start": 330.92,
+      "duration": 5.52
+    },
+    {
+      "text": "18 months, and we got it done.",
+      "start": 336.44,
+      "duration": 3.66
+    },
+    {
+      "text": "However, there's a\nmassive difference",
+      "start": 340.1,
+      "duration": 3.36
+    },
+    {
+      "text": "between doing 10 routes once\nor building a system that just",
+      "start": 343.46,
+      "duration": 5.49
+    },
+    {
+      "text": "works most of the\ntime versus building",
+      "start": 348.95,
+      "duration": 3.12
+    },
+    {
+      "text": "a reliable, scalable,\nfully autonomous service",
+      "start": 352.07,
+      "duration": 3.31
+    },
+    {
+      "text": "with no human behind the wheel.",
+      "start": 355.38,
+      "duration": 2.46
+    },
+    {
+      "text": "And the challenge isn't\njust building the tech.",
+      "start": 357.84,
+      "duration": 3.43
+    },
+    {
+      "text": "It's proving that it's safe.",
+      "start": 361.27,
+      "duration": 2.01
+    },
+    {
+      "text": "It's earning the public's trust.",
+      "start": 363.28,
+      "duration": 2.1
+    },
+    {
+      "text": "It's building a product that\npeople love and actually want",
+      "start": 365.38,
+      "duration": 3.74
+    },
+    {
+      "text": "to use.",
+      "start": 369.12,
+      "duration": 1.62
+    },
+    {
+      "text": "So as you can see, it's\nbeen a long road for us.",
+      "start": 370.74,
+      "duration": 2.55
+    },
+    {
+      "text": "But we've always built for\nthe long game, layer by layer,",
+      "start": 373.29,
+      "duration": 5.01
+    },
+    {
+      "text": "never cutting any\ncorners or compromising",
+      "start": 378.3,
+      "duration": 2.01
+    },
+    {
+      "text": "on what really matters.",
+      "start": 380.31,
+      "duration": 1.68
+    },
+    {
+      "text": "And that's what got\nus to where we are.",
+      "start": 381.99,
+      "duration": 3.03
+    },
+    {
+      "text": "And today, Waymo is operating\na 24/7 fully autonomous ride",
+      "start": 385.02,
+      "duration": 5.52
+    },
+    {
+      "text": "hailing service with no human\nbehind the wheel in four major",
+      "start": 390.54,
+      "duration": 3.48
+    },
+    {
+      "text": "US markets--",
+      "start": 394.02,
+      "duration": 0.93
+    },
+    {
+      "text": "San Francisco, Phoenix,\nLA, and Austin.",
+      "start": 394.95,
+      "duration": 4.089
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 399.039,
+      "duration": 2.395
+    },
+    {
+      "text": "Thank you.",
+      "start": 405.75,
+      "duration": 0.61
+    },
+    {
+      "text": "And soon bringing it to\nAtlanta, Miami, and DC",
+      "start": 406.36,
+      "duration": 3.87
+    },
+    {
+      "text": "and many more cities after that.",
+      "start": 410.23,
+      "duration": 2.05
+    },
+    {
+      "text": "Every week, we're serving more\nthan a quarter of a million",
+      "start": 412.28,
+      "duration": 4.1
+    },
+    {
+      "text": "fully autonomous paid trips,\nand we're growing exponentially.",
+      "start": 416.38,
+      "duration": 3.88
+    },
+    {
+      "text": "This is five times higher\nthan the same time last year.",
+      "start": 420.26,
+      "duration": 4.91
+    },
+    {
+      "text": "In fact, we just hit\na major milestone.",
+      "start": 425.17,
+      "duration": 2.68
+    },
+    {
+      "text": "We crossed 10 million fully\nautonomous paid trips.",
+      "start": 427.85,
+      "duration": 3.65
+    },
+    {
+      "text": "And half of those took\nplace just this year alone,",
+      "start": 431.5,
+      "duration": 3.69
+    },
+    {
+      "text": "in less than five months.",
+      "start": 435.19,
+      "duration": 1.36
+    },
+    {
+      "text": "This is what exponential\nscaling looks like.",
+      "start": 436.55,
+      "duration": 2.19
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 438.74,
+      "duration": 2.435
+    },
+    {
+      "text": "But we're just getting started.",
+      "start": 444.1,
+      "duration": 3.18
+    },
+    {
+      "text": "With every mile driven, we're\nalso making our roads safer.",
+      "start": 447.28,
+      "duration": 4.98
+    },
+    {
+      "text": "The data speaks for itself.",
+      "start": 452.26,
+      "duration": 2.14
+    },
+    {
+      "text": "When it comes to serious\ncollisions, anything involving",
+      "start": 454.4,
+      "duration": 3.98
+    },
+    {
+      "text": "an injury, or\nairbag deployments,",
+      "start": 458.38,
+      "duration": 2.41
+    },
+    {
+      "text": "the Waymo Driver is about\nfive times safer than humans.",
+      "start": 460.79,
+      "duration": 4.55
+    },
+    {
+      "text": "And for anything\ninvolving pedestrians,",
+      "start": 465.34,
+      "duration": 2.77
+    },
+    {
+      "text": "the results are even stronger.",
+      "start": 468.11,
+      "duration": 2.4
+    },
+    {
+      "text": "Now, this data purely looks\nat rates of collisions",
+      "start": 470.51,
+      "duration": 4.8
+    },
+    {
+      "text": "with no consideration\nof who is at fault.",
+      "start": 475.31,
+      "duration": 3.06
+    },
+    {
+      "text": "If you take that into account,\nthe results are even stronger.",
+      "start": 478.37,
+      "duration": 4.86
+    },
+    {
+      "text": "A large insurance company, Swiss\nRe, has analyzed the Waymo data",
+      "start": 483.23,
+      "duration": 3.69
+    },
+    {
+      "text": "and used insurance claim\nas a proxy for fault,",
+      "start": 486.92,
+      "duration": 4.11
+    },
+    {
+      "text": "and they found the Waymo Driver\nto be about 10 times better",
+      "start": 491.03,
+      "duration": 3.45
+    },
+    {
+      "text": "than humans.",
+      "start": 494.48,
+      "duration": 2.61
+    },
+    {
+      "text": "Now, this is a safety record\nthat we feel proud of.",
+      "start": 497.09,
+      "duration": 3.04
+    },
+    {
+      "text": "And with more than 50 million\nfully autonomous miles",
+      "start": 500.13,
+      "duration": 3.89
+    },
+    {
+      "text": "under our belt at\nthis point, we feel",
+      "start": 504.02,
+      "duration": 2.07
+    },
+    {
+      "text": "like we're actually starting to\nrealize our mission of making",
+      "start": 506.09,
+      "duration": 2.79
+    },
+    {
+      "text": "our roads safer.",
+      "start": 508.88,
+      "duration": 2.37
+    },
+    {
+      "text": "Now, let me show you\na couple of examples",
+      "start": 511.25,
+      "duration": 2.76
+    },
+    {
+      "text": "of the types of\nsituations and behaviors",
+      "start": 514.01,
+      "duration": 2.22
+    },
+    {
+      "text": "by the Waymo Driver that lead\nto these overall numbers.",
+      "start": 516.23,
+      "duration": 4.319
+    },
+    {
+      "text": "This first example\nis from Austin.",
+      "start": 520.549,
+      "duration": 2.161
+    },
+    {
+      "text": "What you're seeing here\nis a view from a car.",
+      "start": 522.71,
+      "duration": 3.63
+    },
+    {
+      "text": "Cameras on the bottom\nare how the scene",
+      "start": 526.34,
+      "duration": 2.74
+    },
+    {
+      "text": "would appear to a human driver.",
+      "start": 529.08,
+      "duration": 1.51
+    },
+    {
+      "text": "And then at the top is how the\nWaymo Driver sees the scene.",
+      "start": 530.59,
+      "duration": 4.14
+    },
+    {
+      "text": "So keep an eye on that scooter\nrider up ahead and to our right.",
+      "start": 534.73,
+      "duration": 3.685
+    },
+    {
+      "text": "All of a sudden, they lose\ntheir balance and stumble",
+      "start": 541.883,
+      "duration": 2.167
+    },
+    {
+      "text": "onto the road right\nin front of us.",
+      "start": 544.05,
+      "duration": 2.04
+    },
+    {
+      "text": "The Waymo Driver\nreacts immediately,",
+      "start": 546.09,
+      "duration": 1.75
+    },
+    {
+      "text": "swerves to the left,\nkeeping both the scooter",
+      "start": 547.84,
+      "duration": 2.54
+    },
+    {
+      "text": "rider and our passengers safe.",
+      "start": 550.38,
+      "duration": 3.424
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 553.804,
+      "duration": 1.406
+    },
+    {
+      "text": "Here's another one.",
+      "start": 555.21,
+      "duration": 1.24
+    },
+    {
+      "text": "An oncoming truck\nswerves into our lane.",
+      "start": 556.45,
+      "duration": 2.51
+    },
+    {
+      "text": "The Waymo Driver again\nreacts immediately,",
+      "start": 558.96,
+      "duration": 2.44
+    },
+    {
+      "text": "nudges onto the shoulder,\navoids what could",
+      "start": 561.4,
+      "duration": 2.93
+    },
+    {
+      "text": "have been a head-on collision.",
+      "start": 564.33,
+      "duration": 3.36
+    },
+    {
+      "text": "So this Superhuman\nperformance is the result",
+      "start": 567.69,
+      "duration": 4.2
+    },
+    {
+      "text": "of the state-of-the-art AI that\nis the backbone of the Waymo",
+      "start": 571.89,
+      "duration": 3.45
+    },
+    {
+      "text": "Driver.",
+      "start": 575.34,
+      "duration": 2.07
+    },
+    {
+      "text": "Now, there are a\nfew things that make",
+      "start": 577.41,
+      "duration": 1.62
+    },
+    {
+      "text": "autonomous driving a uniquely\nchallenging AI problem.",
+      "start": 579.03,
+      "duration": 5.28
+    },
+    {
+      "text": "There's three main\naspects of that.",
+      "start": 584.31,
+      "duration": 2.2
+    },
+    {
+      "text": "The first one is that we operate\nin a complex, messy, noisy",
+      "start": 586.51,
+      "duration": 4.86
+    },
+    {
+      "text": "physical environment.",
+      "start": 591.37,
+      "duration": 1.3
+    },
+    {
+      "text": "We have to deal with\ndifferent weather conditions--",
+      "start": 592.67,
+      "duration": 2.72
+    },
+    {
+      "text": "rain, fog, dust\nstorms, and so forth.",
+      "start": 595.39,
+      "duration": 2.97
+    },
+    {
+      "text": "And we share the\nroads with humans,",
+      "start": 598.36,
+      "duration": 2.47
+    },
+    {
+      "text": "who often act unpredictably\nand sometimes recklessly.",
+      "start": 600.83,
+      "duration": 4.91
+    },
+    {
+      "text": "The second aspect is that it is\na safety-critical environment.",
+      "start": 605.74,
+      "duration": 5.67
+    },
+    {
+      "text": "So any mistake can have very\nserious and very immediate",
+      "start": 611.41,
+      "duration": 6.96
+    },
+    {
+      "text": "consequences.",
+      "start": 618.37,
+      "duration": 1.8
+    },
+    {
+      "text": "That means our tolerance for\nerrors is very, very low.",
+      "start": 620.17,
+      "duration": 5.35
+    },
+    {
+      "text": "And we need a lot of\nnines in our performance",
+      "start": 625.52,
+      "duration": 2.03
+    },
+    {
+      "text": "across the entire stack.",
+      "start": 627.55,
+      "duration": 2.4
+    },
+    {
+      "text": "And the last aspect is that\nit's a real-time environment.",
+      "start": 629.95,
+      "duration": 4.2
+    },
+    {
+      "text": "Our AI doesn't run\non a data center",
+      "start": 634.15,
+      "duration": 2.282
+    },
+    {
+      "text": "somewhere where it\ncan take a few seconds",
+      "start": 636.432,
+      "duration": 1.708
+    },
+    {
+      "text": "to process all the data,\ncrunch the numbers,",
+      "start": 638.14,
+      "duration": 2.767
+    },
+    {
+      "text": "and come up with the\nright driving decision.",
+      "start": 640.907,
+      "duration": 1.833
+    },
+    {
+      "text": "It all happens in real\ntime on board the vehicle,",
+      "start": 642.74,
+      "duration": 2.52
+    },
+    {
+      "text": "where milliseconds\nmatter, especially when",
+      "start": 645.26,
+      "duration": 2.4
+    },
+    {
+      "text": "we're moving at high speeds.",
+      "start": 647.66,
+      "duration": 2.88
+    },
+    {
+      "text": "And all of the hard problems\nare in the long tail",
+      "start": 650.54,
+      "duration": 3.54
+    },
+    {
+      "text": "of driving, the rare events.",
+      "start": 654.08,
+      "duration": 2.2
+    },
+    {
+      "text": "It's things like a grill falling\noff a truck in front of you",
+      "start": 656.28,
+      "duration": 3.11
+    },
+    {
+      "text": "on a freeway or trees\ncoming down during a storm,",
+      "start": 659.39,
+      "duration": 3.25
+    },
+    {
+      "text": "flooding, toddlers on the\nloose, and so much more.",
+      "start": 662.64,
+      "duration": 3.48
+    },
+    {
+      "text": "In fact, every day\ntoday, the Waymo Driver",
+      "start": 666.12,
+      "duration": 3.26
+    },
+    {
+      "text": "encountered situations\nthat many of us",
+      "start": 669.38,
+      "duration": 2.61
+    },
+    {
+      "text": "would never see in a\nlifetime of driving.",
+      "start": 671.99,
+      "duration": 3.6
+    },
+    {
+      "text": "So how do we go about\ntackling this problem?",
+      "start": 675.59,
+      "duration": 2.29
+    },
+    {
+      "text": "Well, because we operate\nin the physical world,",
+      "start": 677.88,
+      "duration": 2.64
+    },
+    {
+      "text": "it starts with sensors.",
+      "start": 680.52,
+      "duration": 2.45
+    },
+    {
+      "text": "At Waymo, we use three\nmain sensing modalities--",
+      "start": 682.97,
+      "duration": 2.28
+    },
+    {
+      "text": "LiDAR, cameras, and radars.",
+      "start": 685.25,
+      "duration": 2.32
+    },
+    {
+      "text": "Each one has a full 360-degree\ncoverage around the vehicle.",
+      "start": 687.57,
+      "duration": 3.83
+    },
+    {
+      "text": "And they have different\nphysical characteristics,",
+      "start": 691.4,
+      "duration": 2.35
+    },
+    {
+      "text": "so they complement\neach other very nicely",
+      "start": 693.75,
+      "duration": 2.46
+    },
+    {
+      "text": "and give us redundancy.",
+      "start": 696.21,
+      "duration": 2.96
+    },
+    {
+      "text": "Here's what the data\nactually looks like.",
+      "start": 699.17,
+      "duration": 1.84
+    },
+    {
+      "text": "Again, cameras on the bottom.",
+      "start": 701.01,
+      "duration": 1.55
+    },
+    {
+      "text": "And at the top is what we get\nfrom our state-of-the-art,",
+      "start": 702.56,
+      "duration": 5.16
+    },
+    {
+      "text": "custom-designed LiDAR\nand imaging radar.",
+      "start": 707.72,
+      "duration": 2.97
+    },
+    {
+      "text": "So these yellowish-brown 3D\nshapes is what we get from",
+      "start": 710.69,
+      "duration": 5.63
+    },
+    {
+      "text": "our LiDAR.",
+      "start": 716.32,
+      "duration": 0.79
+    },
+    {
+      "text": "And then this heat\nmap on the ground",
+      "start": 717.11,
+      "duration": 1.82
+    },
+    {
+      "text": "is what the world looks\nlike to our imaging radar.",
+      "start": 718.93,
+      "duration": 3.21
+    },
+    {
+      "text": "And working together,\nthese sensors",
+      "start": 722.14,
+      "duration": 2.52
+    },
+    {
+      "text": "can give the Waymo Driver\nsuperhuman sensing ability.",
+      "start": 724.66,
+      "duration": 4.2
+    },
+    {
+      "text": "Let me show you an example.",
+      "start": 728.86,
+      "duration": 1.36
+    },
+    {
+      "text": "This is from Phoenix.",
+      "start": 730.22,
+      "duration": 1.7
+    },
+    {
+      "text": "We're driving in a dust storm.",
+      "start": 731.92,
+      "duration": 2.1
+    },
+    {
+      "text": "This is what the scene looks\nlike to our high-resolution,",
+      "start": 734.02,
+      "duration": 3.55
+    },
+    {
+      "text": "high-dynamic range camera,\nnot unlike what any of us",
+      "start": 737.57,
+      "duration": 3.26
+    },
+    {
+      "text": "would see if we\nwere to drive there.",
+      "start": 740.83,
+      "duration": 3.42
+    },
+    {
+      "text": "This is what it looks like to\nour LiDAR for that same frame.",
+      "start": 744.25,
+      "duration": 3.89
+    },
+    {
+      "text": "You can much more\nclearly see that there's",
+      "start": 748.14,
+      "duration": 1.75
+    },
+    {
+      "text": "a pedestrian standing\non the side of the road.",
+      "start": 749.89,
+      "duration": 2.97
+    },
+    {
+      "text": "So imagine they were\nto step onto our path.",
+      "start": 752.86,
+      "duration": 1.84
+    },
+    {
+      "text": "This early detection can\nmake a really big difference",
+      "start": 754.7,
+      "duration": 2.63
+    },
+    {
+      "text": "in how the situation plays out.",
+      "start": 757.33,
+      "duration": 3.93
+    },
+    {
+      "text": "But as great as these sensors\nare, they're just that, sensors.",
+      "start": 761.26,
+      "duration": 4.06
+    },
+    {
+      "text": "They give you raw,\nsometimes noisy measurements",
+      "start": 765.32,
+      "duration": 4.08
+    },
+    {
+      "text": "of the world around you.",
+      "start": 769.4,
+      "duration": 2.43
+    },
+    {
+      "text": "So it all comes down to our AI\nto interpret all of that data",
+      "start": 771.83,
+      "duration": 5.64
+    },
+    {
+      "text": "and make good driving decisions.",
+      "start": 777.47,
+      "duration": 2.76
+    },
+    {
+      "text": "In fact, AI and ML has played\na key role in our technology",
+      "start": 780.23,
+      "duration": 4.47
+    },
+    {
+      "text": "from the earliest days.",
+      "start": 784.7,
+      "duration": 1.92
+    },
+    {
+      "text": "And over the years,\nwe've seen multiple waves",
+      "start": 786.62,
+      "duration": 2.19
+    },
+    {
+      "text": "of innovation and\nbig breakthroughs",
+      "start": 788.81,
+      "duration": 1.77
+    },
+    {
+      "text": "that helped us improve\nthe Waymo Driver.",
+      "start": 790.58,
+      "duration": 2.41
+    },
+    {
+      "text": "And in many cases, we actually\npushed the field forward",
+      "start": 792.99,
+      "duration": 4.19
+    },
+    {
+      "text": "ourselves.",
+      "start": 797.18,
+      "duration": 1.41
+    },
+    {
+      "text": "One of the big\nearly breakthroughs",
+      "start": 798.59,
+      "duration": 3.57
+    },
+    {
+      "text": "was due to the advance of\nconvolutional neural nets,",
+      "start": 802.16,
+      "duration": 3.55
+    },
+    {
+      "text": "or ConvNets, which\ntook off about 2013.",
+      "start": 805.71,
+      "duration": 3.89
+    },
+    {
+      "text": "And they were a game\nchanger in computer vision,",
+      "start": 809.6,
+      "duration": 3.06
+    },
+    {
+      "text": "and they really gave us a\nbig boost on the perception",
+      "start": 812.66,
+      "duration": 2.46
+    },
+    {
+      "text": "side of things.",
+      "start": 815.12,
+      "duration": 1.41
+    },
+    {
+      "text": "Then, in 2017 came an even\nmore profound change--",
+      "start": 816.53,
+      "duration": 5.66
+    },
+    {
+      "text": "transformers.",
+      "start": 822.19,
+      "duration": 2.0
+    },
+    {
+      "text": "This is the foundational\narchitecture",
+      "start": 824.19,
+      "duration": 2.58
+    },
+    {
+      "text": "that powers all of the\nlarge language models",
+      "start": 826.77,
+      "duration": 2.13
+    },
+    {
+      "text": "that we see today.",
+      "start": 828.9,
+      "duration": 0.94
+    },
+    {
+      "text": "And for us, it gave us an\nadditional boost in perception.",
+      "start": 829.84,
+      "duration": 3.69
+    },
+    {
+      "text": "But even more importantly, it\nled to some major breakthroughs",
+      "start": 833.53,
+      "duration": 4.01
+    },
+    {
+      "text": "in the area of understanding\nintent, making predictions",
+      "start": 837.54,
+      "duration": 3.21
+    },
+    {
+      "text": "about the behaviors of\nothers, and applying ML",
+      "start": 840.75,
+      "duration": 2.34
+    },
+    {
+      "text": "to this problem of decision\nmaking and planning.",
+      "start": 843.09,
+      "duration": 3.21
+    },
+    {
+      "text": "It turns out that modeling the\ninteractive aspects of driving,",
+      "start": 846.3,
+      "duration": 4.89
+    },
+    {
+      "text": "the social aspects of driving,\nis not unlike modeling",
+      "start": 851.19,
+      "duration": 2.49
+    },
+    {
+      "text": "a conversation, except\ninstead of words, you",
+      "start": 853.68,
+      "duration": 3.93
+    },
+    {
+      "text": "have states of objects.",
+      "start": 857.61,
+      "duration": 1.39
+    },
+    {
+      "text": "And instead of\nsentences, you have",
+      "start": 859.0,
+      "duration": 1.91
+    },
+    {
+      "text": "trajectories of those objects.",
+      "start": 860.91,
+      "duration": 2.55
+    },
+    {
+      "text": "And then, most recently,\nlarge language models",
+      "start": 863.46,
+      "duration": 2.49
+    },
+    {
+      "text": "and visual language\nmodels, LLMs and VLMs,",
+      "start": 865.95,
+      "duration": 2.52
+    },
+    {
+      "text": "have opened up entirely\nnew possibilities",
+      "start": 868.47,
+      "duration": 2.19
+    },
+    {
+      "text": "for us that allow us to combine\nthe expertise of the Waymo AI",
+      "start": 870.66,
+      "duration": 4.95
+    },
+    {
+      "text": "with the general world\nknowledge of VLMs.",
+      "start": 875.61,
+      "duration": 5.08
+    },
+    {
+      "text": "So how can we use VLMs\nfor autonomous driving?",
+      "start": 880.69,
+      "duration": 2.82
+    },
+    {
+      "text": "Well, one use case\nis just understanding",
+      "start": 883.51,
+      "duration": 2.79
+    },
+    {
+      "text": "language, understanding text.",
+      "start": 886.3,
+      "duration": 1.78
+    },
+    {
+      "text": "Take this parking\nsign, for example.",
+      "start": 888.08,
+      "duration": 2.96
+    },
+    {
+      "text": "It's a little scary,\na little daunting.",
+      "start": 891.04,
+      "duration": 1.78
+    },
+    {
+      "text": "By the time you're done\nreading it and decoding it,",
+      "start": 892.82,
+      "duration": 2.97
+    },
+    {
+      "text": "you're probably\ngetting towed already.",
+      "start": 895.79,
+      "duration": 1.71
+    },
+    {
+      "text": "So we asked Gemini.",
+      "start": 897.5,
+      "duration": 1.92
+    },
+    {
+      "text": "It's Wednesday at 4:00 PM.",
+      "start": 899.42,
+      "duration": 1.35
+    },
+    {
+      "text": "Can you park here?",
+      "start": 900.77,
+      "duration": 0.93
+    },
+    {
+      "text": "Anybody?",
+      "start": 901.7,
+      "duration": 0.86
+    },
+    {
+      "text": "Yes, no?",
+      "start": 902.56,
+      "duration": 1.89
+    },
+    {
+      "text": "Well, Gemini comes back with\nthe correct answer right away.",
+      "start": 904.45,
+      "duration": 4.14
+    },
+    {
+      "text": "Another area where using VLMs\nis very helpful for autonomous",
+      "start": 908.59,
+      "duration": 5.67
+    },
+    {
+      "text": "driving is just general\nscene understanding.",
+      "start": 914.26,
+      "duration": 4.12
+    },
+    {
+      "text": "For example, you can\ngive this image to Gemini",
+      "start": 918.38,
+      "duration": 4.1
+    },
+    {
+      "text": "and ask it to interpret\nwhat's going on",
+      "start": 922.48,
+      "duration": 4.26
+    },
+    {
+      "text": "and what driving actions\none should take here.",
+      "start": 926.74,
+      "duration": 4.15
+    },
+    {
+      "text": "And it comes back right away\nwith a deep understanding",
+      "start": 930.89,
+      "duration": 3.23
+    },
+    {
+      "text": "of the context of\nthe scene, as well",
+      "start": 934.12,
+      "duration": 2.25
+    },
+    {
+      "text": "as some high-level description\nof appropriate actions.",
+      "start": 936.37,
+      "duration": 4.51
+    },
+    {
+      "text": "So naturally, the next step is\nto go for deeper integration.",
+      "start": 940.88,
+      "duration": 6.12
+    },
+    {
+      "text": "And last year, we\npublished some research",
+      "start": 947.0,
+      "duration": 2.31
+    },
+    {
+      "text": "that we called EMMA\nthat does just that.",
+      "start": 949.31,
+      "duration": 3.3
+    },
+    {
+      "text": "Essentially, it is an\nend-to-end ML model",
+      "start": 952.61,
+      "duration": 4.2
+    },
+    {
+      "text": "that takes in input from\nmultiple cameras and, as output,",
+      "start": 956.81,
+      "duration": 4.74
+    },
+    {
+      "text": "produces a trajectory.",
+      "start": 961.55,
+      "duration": 2.49
+    },
+    {
+      "text": "And almost out of the box,\nit drives reasonably well.",
+      "start": 964.04,
+      "duration": 4.48
+    },
+    {
+      "text": "Now, this is a research model.",
+      "start": 968.52,
+      "duration": 1.53
+    },
+    {
+      "text": "It has certain limitations.",
+      "start": 970.05,
+      "duration": 1.38
+    },
+    {
+      "text": "It's not safe enough to drive on\nits own without a human driver.",
+      "start": 971.43,
+      "duration": 4.13
+    },
+    {
+      "text": "But it illustrates\nthe huge potential",
+      "start": 975.56,
+      "duration": 3.24
+    },
+    {
+      "text": "of large multi-modal language\nmodels for autonomous driving.",
+      "start": 978.8,
+      "duration": 5.73
+    },
+    {
+      "text": "So to leverage that\npotential, we've",
+      "start": 984.53,
+      "duration": 2.04
+    },
+    {
+      "text": "been developing what we call the\nWaymo Foundation Model, which",
+      "start": 986.57,
+      "duration": 3.84
+    },
+    {
+      "text": "combines the AV domain expertise\nof the Waymo AI backbone",
+      "start": 990.41,
+      "duration": 4.35
+    },
+    {
+      "text": "and the general world\nknowledge of VLMs.",
+      "start": 994.76,
+      "duration": 3.19
+    },
+    {
+      "text": "It's essentially an\nencoder and decoder model.",
+      "start": 997.95,
+      "duration": 3.66
+    },
+    {
+      "text": "The job of the encoder, or the\nperception side on the left,",
+      "start": 1001.61,
+      "duration": 2.85
+    },
+    {
+      "text": "is to take the data from\nall of our sensors--",
+      "start": 1004.46,
+      "duration": 3.61
+    },
+    {
+      "text": "the LiDARs, the\ncameras, the radars--",
+      "start": 1008.07,
+      "duration": 1.77
+    },
+    {
+      "text": "and to compress it or encode\nit into a representation that",
+      "start": 1009.84,
+      "duration": 5.18
+    },
+    {
+      "text": "contains all of the\ninformation that's",
+      "start": 1015.02,
+      "duration": 1.95
+    },
+    {
+      "text": "relevant for the\ntask of driving.",
+      "start": 1016.97,
+      "duration": 2.58
+    },
+    {
+      "text": "And the decoder, the\npart on the right,",
+      "start": 1019.55,
+      "duration": 1.63
+    },
+    {
+      "text": "that's the generative part.",
+      "start": 1021.18,
+      "duration": 1.53
+    },
+    {
+      "text": "That's the part that understands\nthe social interactive aspects",
+      "start": 1022.71,
+      "duration": 3.26
+    },
+    {
+      "text": "of driving that\ncan model behavior.",
+      "start": 1025.97,
+      "duration": 1.48
+    },
+    {
+      "text": "It can predict what\nother people will do.",
+      "start": 1027.45,
+      "duration": 1.83
+    },
+    {
+      "text": "It can generate trajectories\nand driving behaviors.",
+      "start": 1029.28,
+      "duration": 3.02
+    },
+    {
+      "text": "It's also the foundation\nfor generative models",
+      "start": 1032.3,
+      "duration": 3.36
+    },
+    {
+      "text": "of agent behavior that\nwe use for simulation.",
+      "start": 1035.66,
+      "duration": 4.53
+    },
+    {
+      "text": "And that brings me to the second\nkey challenge of autonomous",
+      "start": 1040.19,
+      "duration": 4.23
+    },
+    {
+      "text": "driving, just beyond the\nbuilding of a good driver,",
+      "start": 1044.42,
+      "duration": 3.88
+    },
+    {
+      "text": "and that's evaluation.",
+      "start": 1048.3,
+      "duration": 2.33
+    },
+    {
+      "text": "Now, key to good evaluation\nis a good simulator.",
+      "start": 1050.63,
+      "duration": 5.62
+    },
+    {
+      "text": "So what makes a good simulator?",
+      "start": 1056.25,
+      "duration": 1.62
+    },
+    {
+      "text": "Well, first of\nall, it needs to be",
+      "start": 1057.87,
+      "duration": 1.8
+    },
+    {
+      "text": "able to run at very large scale,\nsimulating billions of miles.",
+      "start": 1059.67,
+      "duration": 3.66
+    },
+    {
+      "text": "Second, it needs to be\nable to run in closed loop,",
+      "start": 1063.33,
+      "duration": 3.37
+    },
+    {
+      "text": "meaning that if you take an\naction in this simulated world,",
+      "start": 1066.7,
+      "duration": 2.88
+    },
+    {
+      "text": "the world responds\nappropriately.",
+      "start": 1069.58,
+      "duration": 2.99
+    },
+    {
+      "text": "And third, it needs\nto be realistic,",
+      "start": 1072.57,
+      "duration": 3.33
+    },
+    {
+      "text": "both from the perspective\nof sensor realism",
+      "start": 1075.9,
+      "duration": 4.35
+    },
+    {
+      "text": "as well as from the perspective\nof behavioral realism,",
+      "start": 1080.25,
+      "duration": 3.73
+    },
+    {
+      "text": "meaning that all of the\nsimulated agents, all",
+      "start": 1083.98,
+      "duration": 3.2
+    },
+    {
+      "text": "the simulated road users,\nare behaving the way they",
+      "start": 1087.18,
+      "duration": 3.09
+    },
+    {
+      "text": "would in real life.",
+      "start": 1090.27,
+      "duration": 3.03
+    },
+    {
+      "text": "So we have a bit of an\ninteresting chicken and egg",
+      "start": 1093.3,
+      "duration": 2.1
+    },
+    {
+      "text": "problem.",
+      "start": 1095.4,
+      "duration": 0.84
+    },
+    {
+      "text": "To build a good driver, you\nneed to build a good simulator.",
+      "start": 1096.24,
+      "duration": 3.03
+    },
+    {
+      "text": "And to build a\ngood simulator, you",
+      "start": 1099.27,
+      "duration": 1.62
+    },
+    {
+      "text": "need to create realistic models\nof pedestrians, cyclists,",
+      "start": 1100.89,
+      "duration": 3.45
+    },
+    {
+      "text": "and other vehicles.",
+      "start": 1104.34,
+      "duration": 1.86
+    },
+    {
+      "text": "So in many ways, these\ntwo key technical pillars",
+      "start": 1106.2,
+      "duration": 4.44
+    },
+    {
+      "text": "of the AV problem actually share\nthe same technical foundation.",
+      "start": 1110.64,
+      "duration": 4.19
+    },
+    {
+      "text": "And we've made some really\ngreat strides in the Waymo AI",
+      "start": 1114.83,
+      "duration": 3.11
+    },
+    {
+      "text": "to power both.",
+      "start": 1117.94,
+      "duration": 1.83
+    },
+    {
+      "text": "So let me show you a couple\nof examples of the work",
+      "start": 1119.77,
+      "duration": 2.31
+    },
+    {
+      "text": "that we have been\ndoing in simulation.",
+      "start": 1122.08,
+      "duration": 3.81
+    },
+    {
+      "text": "Here's one example where\nwe created a dense 3D",
+      "start": 1125.89,
+      "duration": 3.45
+    },
+    {
+      "text": "reconstruction of a block of\nSan Francisco at scale using",
+      "start": 1129.34,
+      "duration": 3.75
+    },
+    {
+      "text": "millions of camera images.",
+      "start": 1133.09,
+      "duration": 1.71
+    },
+    {
+      "text": "And once we have that\n[INAUDIBLE] model,",
+      "start": 1134.8,
+      "duration": 2.17
+    },
+    {
+      "text": "then, in simulation, we\ncan generate all kinds",
+      "start": 1136.97,
+      "duration": 2.93
+    },
+    {
+      "text": "of different versions\nby varying the time",
+      "start": 1139.9,
+      "duration": 2.04
+    },
+    {
+      "text": "of day or weather and other\nenvironmental conditions.",
+      "start": 1141.94,
+      "duration": 4.59
+    },
+    {
+      "text": "And we've pushed\nthis line of work",
+      "start": 1146.53,
+      "duration": 1.59
+    },
+    {
+      "text": "further and used\ndiffusion techniques",
+      "start": 1148.12,
+      "duration": 2.4
+    },
+    {
+      "text": "that are commonly used in\n[? video ?] generation to give",
+      "start": 1150.52,
+      "duration": 2.43
+    },
+    {
+      "text": "us fully controllable\nmodels, where not only can we",
+      "start": 1152.95,
+      "duration": 4.05
+    },
+    {
+      "text": "control the global environmental\nproperties of the scene,",
+      "start": 1157.0,
+      "duration": 3.69
+    },
+    {
+      "text": "as here, but we can also add\nor remove individual objects,",
+      "start": 1160.69,
+      "duration": 5.17
+    },
+    {
+      "text": "allowing us to\ngenerate and simulate",
+      "start": 1165.86,
+      "duration": 1.94
+    },
+    {
+      "text": "a whole number of new\ndynamic traffic situations",
+      "start": 1167.8,
+      "duration": 4.43
+    },
+    {
+      "text": "for the purpose of\ntraining, evaluating,",
+      "start": 1172.23,
+      "duration": 2.53
+    },
+    {
+      "text": "and testing the Waymo Driver.",
+      "start": 1174.76,
+      "duration": 2.66
+    },
+    {
+      "text": "Now, all of these components--",
+      "start": 1177.42,
+      "duration": 1.95
+    },
+    {
+      "text": "sensing, AI, simulation,\nand evaluation--",
+      "start": 1179.37,
+      "duration": 3.96
+    },
+    {
+      "text": "come together to\ngive the Waymo Driver",
+      "start": 1183.33,
+      "duration": 3.42
+    },
+    {
+      "text": "truly superhuman performance.",
+      "start": 1186.75,
+      "duration": 2.85
+    },
+    {
+      "text": "Let me show you an example.",
+      "start": 1189.6,
+      "duration": 2.25
+    },
+    {
+      "text": "This is from San Francisco.",
+      "start": 1191.85,
+      "duration": 1.6
+    },
+    {
+      "text": "It's a fairly nominal situation,\nwhere, waiting at a red light,",
+      "start": 1193.45,
+      "duration": 4.94
+    },
+    {
+      "text": "there's a bus that\ncrosses in front of us.",
+      "start": 1198.39,
+      "duration": 2.19
+    },
+    {
+      "text": "So let's see how this goes.",
+      "start": 1200.58,
+      "duration": 1.27
+    },
+    {
+      "text": "Our light turns green.",
+      "start": 1201.85,
+      "duration": 1.17
+    },
+    {
+      "text": "We proceed.",
+      "start": 1203.02,
+      "duration": 0.505
+    },
+    {
+      "text": "And notice, we are\ndetecting a pedestrian",
+      "start": 1206.49,
+      "duration": 2.85
+    },
+    {
+      "text": "on the other side of the bus.",
+      "start": 1209.34,
+      "duration": 3.72
+    },
+    {
+      "text": "That would be completely\noccluded to a human driver.",
+      "start": 1213.06,
+      "duration": 3.63
+    },
+    {
+      "text": "So what's happening\nhere is that our sensors",
+      "start": 1216.69,
+      "duration": 3.6
+    },
+    {
+      "text": "are able to pick up the\nmovement of the person's feet",
+      "start": 1220.29,
+      "duration": 3.42
+    },
+    {
+      "text": "under the bus.",
+      "start": 1223.71,
+      "duration": 1.26
+    },
+    {
+      "text": "And just that little bit\nof noisy and sparse signal",
+      "start": 1224.97,
+      "duration": 4.63
+    },
+    {
+      "text": "is enough for the\nWaymo Driver to detect",
+      "start": 1229.6,
+      "duration": 2.94
+    },
+    {
+      "text": "that there's a pedestrian there\nand, furthermore, to predict",
+      "start": 1232.54,
+      "duration": 2.88
+    },
+    {
+      "text": "what they're going\nto do in the future,",
+      "start": 1235.42,
+      "duration": 1.63
+    },
+    {
+      "text": "allowing us to take a\ndefensive action early,",
+      "start": 1237.05,
+      "duration": 3.0
+    },
+    {
+      "text": "keeping everyone safe.",
+      "start": 1240.05,
+      "duration": 2.81
+    },
+    {
+      "text": "So all of these AI\nadvances have tremendously",
+      "start": 1242.86,
+      "duration": 3.27
+    },
+    {
+      "text": "accelerated our progress,\nmaking the Waymo",
+      "start": 1246.13,
+      "duration": 3.06
+    },
+    {
+      "text": "Driver truly generalizable.",
+      "start": 1249.19,
+      "duration": 2.65
+    },
+    {
+      "text": "Here are all the\nplaces where we've",
+      "start": 1251.84,
+      "duration": 3.74
+    },
+    {
+      "text": "tested over the\nlast couple of years",
+      "start": 1255.58,
+      "duration": 1.65
+    },
+    {
+      "text": "beyond our mature\ncommercial markets.",
+      "start": 1257.23,
+      "duration": 2.08
+    },
+    {
+      "text": "It includes everything\nfrom snowy Upstate New York",
+      "start": 1259.31,
+      "duration": 2.87
+    },
+    {
+      "text": "to the left-hand side\ntraffic in Tokyo.",
+      "start": 1262.18,
+      "duration": 5.22
+    },
+    {
+      "text": "And with the help of\nAI, the Waymo Driver",
+      "start": 1267.4,
+      "duration": 2.97
+    },
+    {
+      "text": "is learning fast\nand adapting quickly",
+      "start": 1270.37,
+      "duration": 2.37
+    },
+    {
+      "text": "to all of these\ndifferent environments.",
+      "start": 1272.74,
+      "duration": 3.69
+    },
+    {
+      "text": "And not only is the Waymo\nDriver generalizing well",
+      "start": 1276.43,
+      "duration": 4.17
+    },
+    {
+      "text": "across different geographies,\nit is generalizing well",
+      "start": 1280.6,
+      "duration": 2.79
+    },
+    {
+      "text": "across different\nvehicle platforms",
+      "start": 1283.39,
+      "duration": 1.65
+    },
+    {
+      "text": "and across different\napplications.",
+      "start": 1285.04,
+      "duration": 2.22
+    },
+    {
+      "text": "Today, we're very\nfocused on ride hailing.",
+      "start": 1287.26,
+      "duration": 2.62
+    },
+    {
+      "text": "In the future, the\nWaymo Driver will",
+      "start": 1289.88,
+      "duration": 3.0
+    },
+    {
+      "text": "power all kinds of\nproducts, all kinds",
+      "start": 1292.88,
+      "duration": 1.83
+    },
+    {
+      "text": "of commercial applications,\nfrom local deliveries,",
+      "start": 1294.71,
+      "duration": 2.34
+    },
+    {
+      "text": "to long-haul trucking,\nto personal vehicles.",
+      "start": 1297.05,
+      "duration": 4.2
+    },
+    {
+      "text": "By 2030, total\nvehicle miles traveled",
+      "start": 1301.25,
+      "duration": 3.99
+    },
+    {
+      "text": "is projected to\nreach 20 trillion.",
+      "start": 1305.24,
+      "duration": 3.42
+    },
+    {
+      "text": "Just imagine the impact\nthat the Waymo Driver",
+      "start": 1308.66,
+      "duration": 3.03
+    },
+    {
+      "text": "will have taking all of\nthese opportunities together.",
+      "start": 1311.69,
+      "duration": 5.4
+    },
+    {
+      "text": "But across every use case, one\nthing remains constant for us,",
+      "start": 1317.09,
+      "duration": 4.3
+    },
+    {
+      "text": "and that's trust.",
+      "start": 1321.39,
+      "duration": 2.18
+    },
+    {
+      "text": "It's core to what we have\nbuilt, and it always will be.",
+      "start": 1323.57,
+      "duration": 3.66
+    },
+    {
+      "text": "And trust doesn't\njust happen overnight.",
+      "start": 1327.23,
+      "duration": 3.24
+    },
+    {
+      "text": "Trust is earned, with\nevery mile we drive,",
+      "start": 1330.47,
+      "duration": 2.8
+    },
+    {
+      "text": "with every ride we serve,\nwith every bit of technology",
+      "start": 1333.27,
+      "duration": 2.45
+    },
+    {
+      "text": "that we deployed.",
+      "start": 1335.72,
+      "duration": 2.01
+    },
+    {
+      "text": "And the thing that makes us\nhappy is our happy riders.",
+      "start": 1337.73,
+      "duration": 4.08
+    },
+    {
+      "text": "So let's hear from\nthem directly.",
+      "start": 1341.81,
+      "duration": 2.433
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 1344.243,
+      "duration": 0.667
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1344.91,
+      "duration": 2.76
+    },
+    {
+      "text": "- What are we doing?",
+      "start": 1349.007,
+      "duration": 0.833
+    },
+    {
+      "text": "- We're in our first ever Waymo.",
+      "start": 1349.84,
+      "duration": 1.623
+    },
+    {
+      "text": "- And what does it mean\nwhen we're in a Waymo?",
+      "start": 1351.463,
+      "duration": 1.917
+    },
+    {
+      "text": "- It means that there\nis nobody driving.",
+      "start": 1353.38,
+      "duration": 1.85
+    },
+    {
+      "text": "- There's nobody [BLEEP]\ndriving this thing.",
+      "start": 1355.23,
+      "duration": 1.9
+    },
+    {
+      "text": "- And this is a fully\nautonomous Waymo ride.",
+      "start": 1357.13,
+      "duration": 3.175
+    },
+    {
+      "text": "- The truck was over\nthe yellow line,",
+      "start": 1368.07,
+      "duration": 2.59
+    },
+    {
+      "text": "so the Waymo braked\nand moved to the side.",
+      "start": 1370.66,
+      "duration": 2.8
+    },
+    {
+      "text": "- It knew how to\npronounce my name.",
+      "start": 1376.8,
+      "duration": 2.04
+    },
+    {
+      "text": "- Oh my god.",
+      "start": 1378.84,
+      "duration": 1.11
+    },
+    {
+      "text": "Look at this.",
+      "start": 1379.95,
+      "duration": 0.542
+    },
+    {
+      "text": "- Wow.",
+      "start": 1380.492,
+      "duration": 0.5
+    },
+    {
+      "text": "It's nice.",
+      "start": 1380.992,
+      "duration": 0.518
+    },
+    {
+      "text": "I love it.",
+      "start": 1381.51,
+      "duration": 0.99
+    },
+    {
+      "text": "This is nuts.",
+      "start": 1382.5,
+      "duration": 1.05
+    },
+    {
+      "text": "- Ah!",
+      "start": 1383.55,
+      "duration": 2.52
+    },
+    {
+      "text": "- This is so cool.",
+      "start": 1386.07,
+      "duration": 1.12
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 1394.877,
+      "duration": 0.583
+    },
+    {
+      "text": "ADITI ROY: Makes me want to\ngo into a Waymo right now.",
+      "start": 1395.46,
+      "duration": 2.25
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1397.71,
+      "duration": 2.82
+    },
+    {
+      "text": "Thank you so much,\nDmitri, for that",
+      "start": 1400.53,
+      "duration": 2.32
+    },
+    {
+      "text": "look inside this\nfascinating technology.",
+      "start": 1402.85,
+      "duration": 2.52
+    },
+    {
+      "text": "A reminder to the audience,\nhave your questions prepared.",
+      "start": 1405.37,
+      "duration": 3.07
+    },
+    {
+      "text": "You can start lining\nup on either side",
+      "start": 1408.44,
+      "duration": 2.36
+    },
+    {
+      "text": "of the stage at the mics.",
+      "start": 1410.8,
+      "duration": 1.89
+    },
+    {
+      "text": "While you think\nof your questions,",
+      "start": 1412.69,
+      "duration": 1.9
+    },
+    {
+      "text": "I have a couple of my\nown to start us off.",
+      "start": 1414.59,
+      "duration": 2.37
+    },
+    {
+      "text": "You spoke about\nhow AI has really",
+      "start": 1416.96,
+      "duration": 2.93
+    },
+    {
+      "text": "turbocharged the acceleration\ninto an expansion to new cities.",
+      "start": 1419.89,
+      "duration": 5.05
+    },
+    {
+      "text": "Can you go into more detail\nabout how things are different",
+      "start": 1424.94,
+      "duration": 3.74
+    },
+    {
+      "text": "now compared to five years ago?",
+      "start": 1428.68,
+      "duration": 4.14
+    },
+    {
+      "text": "DMITRI DOLGOV: Let me start with\nthe second part of the question,",
+      "start": 1432.82,
+      "duration": 3.96
+    },
+    {
+      "text": "because five years ago, things\nwere qualitatively different.",
+      "start": 1436.78,
+      "duration": 5.19
+    },
+    {
+      "text": "Actually, five\nyears ago, in 2020,",
+      "start": 1441.97,
+      "duration": 2.41
+    },
+    {
+      "text": "we had just begun to offer\nour fully autonomous service",
+      "start": 1444.38,
+      "duration": 5.75
+    },
+    {
+      "text": "to the public.",
+      "start": 1450.13,
+      "duration": 1.06
+    },
+    {
+      "text": "And it was in the East\nValley of Phoenix,",
+      "start": 1451.19,
+      "duration": 3.78
+    },
+    {
+      "text": "in a city called Chandler.",
+      "start": 1454.97,
+      "duration": 1.98
+    },
+    {
+      "text": "But that was on the fourth\ngeneration of the Waymo Driver,",
+      "start": 1456.95,
+      "duration": 4.47
+    },
+    {
+      "text": "the previous generation.",
+      "start": 1461.42,
+      "duration": 1.86
+    },
+    {
+      "text": "And while we were\nwith that deployment,",
+      "start": 1463.28,
+      "duration": 4.57
+    },
+    {
+      "text": "we were learning all the million\nthings that it takes to actually",
+      "start": 1467.85,
+      "duration": 4.34
+    },
+    {
+      "text": "operate a 24/7\ncommercial service.",
+      "start": 1472.19,
+      "duration": 2.8
+    },
+    {
+      "text": "On the technical side,\nwe were doubling down",
+      "start": 1474.99,
+      "duration": 3.11
+    },
+    {
+      "text": "on making a leap from\nthe fourth generation",
+      "start": 1478.1,
+      "duration": 3.9
+    },
+    {
+      "text": "to the fifth generation.",
+      "start": 1482.0,
+      "duration": 1.09
+    },
+    {
+      "text": "And the fifth generation is\nwhat we see on the roads today.",
+      "start": 1483.09,
+      "duration": 2.6
+    },
+    {
+      "text": "And by far the biggest delta\nfrom between those generations",
+      "start": 1485.69,
+      "duration": 4.77
+    },
+    {
+      "text": "was our aggressive\nbig bet on AI.",
+      "start": 1490.46,
+      "duration": 3.6
+    },
+    {
+      "text": "And that really paid off with\nall of the safety performance",
+      "start": 1494.06,
+      "duration": 4.44
+    },
+    {
+      "text": "that we talked about\non the pace of scaling",
+      "start": 1498.5,
+      "duration": 1.8
+    },
+    {
+      "text": "that we're seeing today.",
+      "start": 1500.3,
+      "duration": 1.89
+    },
+    {
+      "text": "Now, in terms of\nthe specific role",
+      "start": 1502.19,
+      "duration": 6.54
+    },
+    {
+      "text": "that AI plays in\ngeneralizability and going",
+      "start": 1508.73,
+      "duration": 2.91
+    },
+    {
+      "text": "to different cities and going\nto different geographies,",
+      "start": 1511.64,
+      "duration": 3.21
+    },
+    {
+      "text": "I would say that\nI primarily don't",
+      "start": 1514.85,
+      "duration": 2.97
+    },
+    {
+      "text": "look at it from the perspective\nof cities or zip codes.",
+      "start": 1517.82,
+      "duration": 6.76
+    },
+    {
+      "text": "We primarily focus\non the capabilities",
+      "start": 1524.58,
+      "duration": 3.06
+    },
+    {
+      "text": "of the Waymo Driver.",
+      "start": 1527.64,
+      "duration": 2.05
+    },
+    {
+      "text": "So we have this term,\nthe operating domain",
+      "start": 1529.69,
+      "duration": 1.85
+    },
+    {
+      "text": "or operating design domain.",
+      "start": 1531.54,
+      "duration": 1.29
+    },
+    {
+      "text": "It's basically the set of all of\nthe features in the environment",
+      "start": 1532.83,
+      "duration": 3.36
+    },
+    {
+      "text": "that we deem the Waymo Driver to\nbe fully ready for for a fully",
+      "start": 1536.19,
+      "duration": 4.02
+    },
+    {
+      "text": "autonomous operation.",
+      "start": 1540.21,
+      "duration": 1.56
+    },
+    {
+      "text": "So the-- now, if you look\nat it through that lens,",
+      "start": 1541.77,
+      "duration": 4.09
+    },
+    {
+      "text": "there's cities, and\nthen there's cities.",
+      "start": 1545.86,
+      "duration": 1.98
+    },
+    {
+      "text": "Given where we are today,\nlook at the operating domain",
+      "start": 1547.84,
+      "duration": 2.42
+    },
+    {
+      "text": "and all the capabilities of the\nWaymo Driver across weather,",
+      "start": 1550.26,
+      "duration": 2.65
+    },
+    {
+      "text": "across different cities, when we\nare operating in San Francisco,",
+      "start": 1552.91,
+      "duration": 2.667
+    },
+    {
+      "text": "LA, Phoenix, Austin.",
+      "start": 1555.577,
+      "duration": 1.113
+    },
+    {
+      "text": "There's many cities that\nfall, today, kind of squarely",
+      "start": 1556.69,
+      "duration": 4.67
+    },
+    {
+      "text": "into that operating\ndomain where we already",
+      "start": 1561.36,
+      "duration": 2.1
+    },
+    {
+      "text": "have robust performance and\nconfidence in the Waymo Driver.",
+      "start": 1563.46,
+      "duration": 3.37
+    },
+    {
+      "text": "Take, for example, Atlanta.",
+      "start": 1566.83,
+      "duration": 1.83
+    },
+    {
+      "text": "And those cities,\nit's all a matter",
+      "start": 1568.66,
+      "duration": 1.91
+    },
+    {
+      "text": "of validation and confirmation.",
+      "start": 1570.57,
+      "duration": 1.39
+    },
+    {
+      "text": "And we find that we show up, and\nit kind of works out of the box",
+      "start": 1571.96,
+      "duration": 2.667
+    },
+    {
+      "text": "right away.",
+      "start": 1574.627,
+      "duration": 0.513
+    },
+    {
+      "text": "And then there's other\ncities, like Tokyo,",
+      "start": 1575.14,
+      "duration": 2.51
+    },
+    {
+      "text": "where we do need to expand\nthe operating domain.",
+      "start": 1577.65,
+      "duration": 2.74
+    },
+    {
+      "text": "And we do need to\nteach the Waymo Driver,",
+      "start": 1580.39,
+      "duration": 2.58
+    },
+    {
+      "text": "for example, to drive on\nthe other side of the road,",
+      "start": 1582.97,
+      "duration": 3.22
+    },
+    {
+      "text": "or maybe the traffic\nlights or the signs",
+      "start": 1586.19,
+      "duration": 1.91
+    },
+    {
+      "text": "are a little bit different.",
+      "start": 1588.1,
+      "duration": 1.35
+    },
+    {
+      "text": "And there we're finding\nthat the big bet on AI",
+      "start": 1589.45,
+      "duration": 3.66
+    },
+    {
+      "text": "is really paying off, because\nyou just give it new data,",
+      "start": 1593.11,
+      "duration": 2.65
+    },
+    {
+      "text": "and it learns incredibly\nwell and incredibly fast.",
+      "start": 1595.76,
+      "duration": 3.33
+    },
+    {
+      "text": "And if you think about\nit, it's actually not",
+      "start": 1599.09,
+      "duration": 3.23
+    },
+    {
+      "text": "that counterintuitive,\nbecause if you show up",
+      "start": 1602.32,
+      "duration": 2.46
+    },
+    {
+      "text": "to a new city, what are the\nhardest problems in autonomous",
+      "start": 1604.78,
+      "duration": 2.88
+    },
+    {
+      "text": "driving?",
+      "start": 1607.66,
+      "duration": 0.57
+    },
+    {
+      "text": "Well, it's not detecting the\nsigns and the different colored",
+      "start": 1608.23,
+      "duration": 3.54
+    },
+    {
+      "text": "cones.",
+      "start": 1611.77,
+      "duration": 0.55
+    },
+    {
+      "text": "It is the fundamental\nunderstanding.",
+      "start": 1612.32,
+      "duration": 2.625
+    },
+    {
+      "text": "So when you go up and\nshow up to a new place,",
+      "start": 1614.945,
+      "duration": 1.875
+    },
+    {
+      "text": "pedestrians still look the same.",
+      "start": 1616.82,
+      "duration": 1.53
+    },
+    {
+      "text": "Cars largely look the same.",
+      "start": 1618.35,
+      "duration": 1.35
+    },
+    {
+      "text": "How people interact with\none another fundamentally",
+      "start": 1619.7,
+      "duration": 2.45
+    },
+    {
+      "text": "remains the same.",
+      "start": 1622.15,
+      "duration": 0.94
+    },
+    {
+      "text": "So that's what we're seeing,\nand it's very encouraging.",
+      "start": 1623.09,
+      "duration": 3.03
+    },
+    {
+      "text": "And with time, the operating\ndomain will just expand,",
+      "start": 1626.12,
+      "duration": 3.14
+    },
+    {
+      "text": "and the speed of\niteration, with all",
+      "start": 1629.26,
+      "duration": 1.5
+    },
+    {
+      "text": "of the amazing progress in AI,\nwill just get faster and faster.",
+      "start": 1630.76,
+      "duration": 3.07
+    },
+    {
+      "text": "ADITI ROY: What will\nbe some of the most",
+      "start": 1633.83,
+      "duration": 1.79
+    },
+    {
+      "text": "profound positive impacts of\nautonomous driving to society?",
+      "start": 1635.62,
+      "duration": 5.063
+    },
+    {
+      "text": "DMITRI DOLGOV: Well, for\nthe most profound impact,",
+      "start": 1643.86,
+      "duration": 3.546
+    },
+    {
+      "text": "I immediately go back to safety.",
+      "start": 1647.406,
+      "duration": 2.004
+    },
+    {
+      "text": "I talked about it-- again,\nmillion lives lost on the roads",
+      "start": 1649.41,
+      "duration": 3.45
+    },
+    {
+      "text": "across the world every\nyear, in this country alone,",
+      "start": 1652.86,
+      "duration": 2.32
+    },
+    {
+      "text": "about 40,000.",
+      "start": 1655.18,
+      "duration": 0.87
+    },
+    {
+      "text": "This is insane.",
+      "start": 1656.05,
+      "duration": 1.04
+    },
+    {
+      "text": "Even if we invented\ncars today, there's",
+      "start": 1657.09,
+      "duration": 2.13
+    },
+    {
+      "text": "no way we'd be OK with that.",
+      "start": 1659.22,
+      "duration": 1.8
+    },
+    {
+      "text": "But it goes beyond that.",
+      "start": 1661.02,
+      "duration": 2.37
+    },
+    {
+      "text": "I think not only will\nautonomous vehicles save lives,",
+      "start": 1663.39,
+      "duration": 4.81
+    },
+    {
+      "text": "they will change our\nlives in many ways.",
+      "start": 1668.2,
+      "duration": 3.63
+    },
+    {
+      "text": "They will change\nour relationship",
+      "start": 1671.83,
+      "duration": 5.21
+    },
+    {
+      "text": "with time, how we experience\ncities, and so much more.",
+      "start": 1677.04,
+      "duration": 2.77
+    },
+    {
+      "text": "So in terms of time,\ntoday, an average American",
+      "start": 1679.81,
+      "duration": 4.25
+    },
+    {
+      "text": "spends about 300 hours a year\nsitting behind the wheel.",
+      "start": 1684.06,
+      "duration": 3.772
+    },
+    {
+      "text": "For the whole country, that's\nabout 80 billion hours.",
+      "start": 1687.832,
+      "duration": 2.208
+    },
+    {
+      "text": "Think about all the wonderful\nthings we can do with that time.",
+      "start": 1690.04,
+      "duration": 3.35
+    },
+    {
+      "text": "As the deployments and\nthe autonomous vehicles",
+      "start": 1693.39,
+      "duration": 2.61
+    },
+    {
+      "text": "scale up across our\ncities, across countries,",
+      "start": 1696.0,
+      "duration": 2.87
+    },
+    {
+      "text": "I think the cities themselves\nwill start to change.",
+      "start": 1698.87,
+      "duration": 2.52
+    },
+    {
+      "text": "The streets will\nchange, the parking lots",
+      "start": 1701.39,
+      "duration": 1.708
+    },
+    {
+      "text": "will shrink, and so forth.",
+      "start": 1703.098,
+      "duration": 1.742
+    },
+    {
+      "text": "Another thing that\nI find, actually,",
+      "start": 1704.84,
+      "duration": 1.5
+    },
+    {
+      "text": "that's maybe the one that\nis closest to my heart",
+      "start": 1706.34,
+      "duration": 5.06
+    },
+    {
+      "text": "and to many people at\nWaymo, beyond safety,",
+      "start": 1711.4,
+      "duration": 2.22
+    },
+    {
+      "text": "is accessibility and making\ntransportation inclusive.",
+      "start": 1713.62,
+      "duration": 5.04
+    },
+    {
+      "text": "I mean, it should be\ninclusive, but today it isn't.",
+      "start": 1718.66,
+      "duration": 2.25
+    },
+    {
+      "text": "People who are blind,\npeople who have low vision,",
+      "start": 1720.91,
+      "duration": 3.87
+    },
+    {
+      "text": "sometimes they have\ntrouble finding",
+      "start": 1724.78,
+      "duration": 2.37
+    },
+    {
+      "text": "the ride in a busy pickup area.",
+      "start": 1727.15,
+      "duration": 2.29
+    },
+    {
+      "text": "Sometimes they just get rejected\nbecause of their guide dogs",
+      "start": 1729.44,
+      "duration": 2.72
+    },
+    {
+      "text": "or they just don't feel safe.",
+      "start": 1732.16,
+      "duration": 1.47
+    },
+    {
+      "text": "With Waymo, we've designed\neverything from the ground up,",
+      "start": 1733.63,
+      "duration": 2.375
+    },
+    {
+      "text": "from beginning to end, to\nbe inclusive and accessible.",
+      "start": 1736.005,
+      "duration": 2.785
+    },
+    {
+      "text": "And it can be very powerful.",
+      "start": 1738.79,
+      "duration": 3.48
+    },
+    {
+      "text": "Many things for us,\nwe get our time back.",
+      "start": 1742.27,
+      "duration": 1.75
+    },
+    {
+      "text": "That's nice to have.",
+      "start": 1744.02,
+      "duration": 1.23
+    },
+    {
+      "text": "For many people\nwith disabilities,",
+      "start": 1745.25,
+      "duration": 1.68
+    },
+    {
+      "text": "it's really life changing.",
+      "start": 1746.93,
+      "duration": 2.16
+    },
+    {
+      "text": "There's a couple that I\nrecently learned about.",
+      "start": 1749.09,
+      "duration": 2.673
+    },
+    {
+      "text": "It's a married couple.",
+      "start": 1751.763,
+      "duration": 0.917
+    },
+    {
+      "text": "They are blind.",
+      "start": 1752.68,
+      "duration": 0.79
+    },
+    {
+      "text": "They live in Phoenix.",
+      "start": 1753.47,
+      "duration": 2.79
+    },
+    {
+      "text": "They have not been\nin a car together",
+      "start": 1756.26,
+      "duration": 2.73
+    },
+    {
+      "text": "alone for more than 30 years.",
+      "start": 1758.99,
+      "duration": 3.48
+    },
+    {
+      "text": "And today they use Waymo.",
+      "start": 1762.47,
+      "duration": 1.77
+    },
+    {
+      "text": "They love it.",
+      "start": 1764.24,
+      "duration": 0.64
+    },
+    {
+      "text": "It gives them the\nfreedom of mobility",
+      "start": 1764.88,
+      "duration": 4.64
+    },
+    {
+      "text": "without needing to\nrely on other people.",
+      "start": 1769.52,
+      "duration": 2.68
+    },
+    {
+      "text": "So that can be life\nchanging for many people.",
+      "start": 1772.2,
+      "duration": 3.292
+    },
+    {
+      "text": "And I guess maybe the\nlast thing I'll say",
+      "start": 1775.492,
+      "duration": 1.708
+    },
+    {
+      "text": "is that today, with the\ntrillions of miles that we're",
+      "start": 1777.2,
+      "duration": 3.002
+    },
+    {
+      "text": "driving and only\nincreasing, there are so",
+      "start": 1780.202,
+      "duration": 1.708
+    },
+    {
+      "text": "many aspects of\nsociety that rely",
+      "start": 1781.91,
+      "duration": 3.15
+    },
+    {
+      "text": "on that foundational\nlayer of moving people",
+      "start": 1785.06,
+      "duration": 2.85
+    },
+    {
+      "text": "and goods around that\nonce there's autonomy",
+      "start": 1787.91,
+      "duration": 3.39
+    },
+    {
+      "text": "across that stack,\nI think we'll see",
+      "start": 1791.3,
+      "duration": 1.507
+    },
+    {
+      "text": "all kinds of new applications,\nall kinds of new benefits",
+      "start": 1792.807,
+      "duration": 2.333
+    },
+    {
+      "text": "that pop up over time.",
+      "start": 1795.14,
+      "duration": 1.62
+    },
+    {
+      "text": "ADITI ROY: So many\npositive repercussions.",
+      "start": 1796.76,
+      "duration": 2.02
+    },
+    {
+      "text": "Dmitri Dolgov, thank you\nso much for your time.",
+      "start": 1798.78,
+      "duration": 3.17
+    },
+    {
+      "text": "DMITRI DOLGOV: Thank you.",
+      "start": 1801.95,
+      "duration": 1.71
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1803.66,
+      "duration": 3.35
+    }
+  ]
+}

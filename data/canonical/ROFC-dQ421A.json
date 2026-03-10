@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ROFC-dQ421A__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 6.319,
+    "timestamp_end": 144.239,
+    "text": "Hello everybody and welcome to this talk about unlocking ML performance with actionable diagnostics for TPUs and GPUs on Google cloud. My name is Reesh and I am the product management lead for diagnostics tooling for ML infrastructure software on Google cloud. Along with me I have my colleague Hira who is leading outbound product for developers on Google cloud. Today I'm very happy to announce a new cloud diagnostics profiling library as well as a newly updated XPRO tool. Both of these together enable a seamless profiling experience for ML engineers to performance optimize their ML workloads on any XLA based framework including Jax Pyrush XLA and car tensorflow on Google cloud. The cloud diagnostics xprof library has been built to enable a seamless self-hosted experience for Emma workflow profiling on GCP. The main features of this library include easy setup of infrastructure for xr using tensorboard as a host profile sharing to enable collaboration within user teams and with Google and ondemand profiling to capture profiles during your ML workload run. Check out this library on GitHub under AI hypercomputer cloud diagnostics XPRO. The core profiling tool XRO has also been newly updated. Previously you may be familiar with the tool TensorFlow profiler which we have now rebranded to XRP and move the codebase under the open XLA projects so we can support all XLA based frameworks used in the market with the same consistent experience. With this updated XPRO codebase and rebranding, we are now bringing the same tool used internally to optimize ML workloads within Google and Google DeepMine out to Google Cloud customers and the rest of the ecosystem. Let me now start by describing the features of the Cloud Diagnostics XPR library. To start out with, you need to set up your Google Cloud environment by setting up G-Cloud. Then all you need to do is pip install the latest version of the XPR library. In order to create a self-hosted tensorboard VM instance, you can use the XP profiler create command.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 127.439,
+    "timestamp_end": 267.75899999999996,
+    "text": "Cloud environment by setting up G-Cloud. Then all you need to do is pip install the latest version of the XPR library. In order to create a self-hosted tensorboard VM instance, you can use the XP profiler create command. You will need to provide a zone and a GCS bucket path. Once a VM is created, you will get a link to access the VM and view profiles there if they are already captured in that directory. Alternatively, you can also connect to the VM using XP profiler connect and SSH into the VM. Once you have the VMs created, you can easily list and delete these VMs using XProfiler list and XProfiler delete. X-profiler list also prints the link name in case you missed clicking it previously during create. In order to capture profiles from your ML workload, you need to enable profile capture in your Jax, PyTorch or TensorFlow code. In all these frameworks, you enable profile capture with some type of start server. Now that you've enabled profile capture, you can capture your profiles either programmatically or on demand. Programmatically means you capture profiles beforehand in your code. With Jax, you use start trace and stop trace. For PyTorch, you use step trace or trace. And for TensorFlow you use trace. This will enable capture of profiles within your code when it runs. Alternatively, you can capture profiles on demand while your workload is running. This is done typically when you see some performance issue with your workload and want to collect profiles at that instant to diagnose issue. You can collect profiles on demand using XP profofiler capture in the CLI or capture profile button from the tensorboard UI. An example of how profiles are capture can be seen using max text which is a reference implementation built on top of the Jax framework. To use max text, first you need to create the TPU or GPU VMs and set up Max on those VMs. Then you need to configure max text using base.yml YAML to modify configs such as model architecture, sharding, learning rate, etc. Also, within train.py, we already have code that",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 247.68,
+    "timestamp_end": 371.319,
+    "text": "or GPU VMs and set up Max on those VMs. Then you need to configure max text using base.yml YAML to modify configs such as model architecture, sharding, learning rate, etc. Also, within train.py, we already have code that records ML workload metrics to collect, enable profile capture as well as programmatic capture for training. Then when you run max train.py, you specify the profiler to use, which will enable profile collection by XRO. These profiles and metrics will be collected within the GCS bucket specified. I will now pass on to Hira who will give you a quick tour of the newly updated XPR tool. Thanks for that Rajes. Tensorboard and XPRO are new to me. This kind of tour helped me so I'm hoping it helps you. On the left navigation you see the specific run that you're reviewing. You can also switch between multiple tools and filter down to the specific host that you care about. The overview offers a top level view of your workload performance, including average step time and framework op placement on the device versus the host. For every workload, it's important to understand whether the accelerator is indeed being used as you expected. If you find that only 30% of your ops are running on the device, you probably want your TPUs to do more. There's also visual to show how step time changed over the course of the run and which devices participated. For training jobs, step time variance over the run is crucial to determining whether data or environmental conditions are impacting performance. Have you ever run into an out of memory error and wondered what do you want me to do about this? This is where the memory tool comes in. First, you can look at your peak memory allocation to see how close to the edge you are. Next, you can look at where in the program sequence this particular operation occurs. Maybe you plan to have this happen somewhere else and the compiler tried to help you out with some fusion. Then you can dig into the details to see if your data structures are sized on the device the",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 356.88,
+    "timestamp_end": 482.08000000000004,
+    "text": "particular operation occurs. Maybe you plan to have this happen somewhere else and the compiler tried to help you out with some fusion. Then you can dig into the details to see if your data structures are sized on the device the way you expected. Was that 2048x 2048x2 by 4? Who knows? The graph viewer shows you a visual representation of your XLA program. You search for the HLLO or highle operations the op by name and then you can view the HLO graph in detail. Most viewers don't directly come to the graph viewer. They come here from the HLO op profile or the trace viewer. If you've ever looked at a performance cascade chart, you know the question, where's the time being spent? The op profile tool shows you the nested contribution for highle operations, how much compute, how much memory, how much bandwidth, and notice the opinionated wasted column. Anytime your code isn't keeping the accelerator busy, it's being wasteful. Now let's say you identify a particular op that consumes most of your memory at the wrong time. Well, what is it? Remember, it may not match directly with your source code because the compiler may be trying to help you out. This is where the graph viewer is helpful. So you can see a graphical representation of that particular operation, right? But often you need to see the big picture. Now there are humans I know who can divine mysteries from a screen like this. They take one look and they squint at the screen knowingly. They tilt their heads and declare, \"Your immaterialization is killing you.\" I'm not one of those people. I can tell you simpler things. Wider bars are taking longer than narrower bars. And when you find a wider bar, you can dig into what's going on using the graph viewer we just talked about. Similar to the HLO OP profile, the framework opts tool helps you find your most time-conuming ops, but at a framework level. You can see execution time on device as well as on the host. At the bottom, you can see a table of all framework ops and execution time to find your most expensive",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 467.28,
+    "timestamp_end": 608.64,
+    "text": "your most time-conuming ops, but at a framework level. You can see execution time on device as well as on the host. At the bottom, you can see a table of all framework ops and execution time to find your most expensive ops. Before I let Rajes show you some real scenarios, there's just one more tool you need to know about. This is the roof line analysis tool to help you see where your code is with respect to the theoretical peak performance of your hardware. Are you computebound or still managing memory with host offloads and data transfers? The roof line is a plot of the operational intensity versus flops. I think about it as the ratio of flops used to bytes used. There are many examples where this is not what you want, but more often than not, you want to be on up and high to the right of the elbow. All right, Rajes, they're all yours now. Thanks a lot, Hia. I hope you all enjoyed Hia's colorful tour of our newly updated XRO tool. Now for some more fun and real examples. I will now show you some real performance optimization scenarios for max text workloads on both TPU and GPU and how we use XPRO to optimize these workloads. The first scenario is a mixtx 22b model with sequence length 4K and per device batch size of one running on one part of trillium which is 256 TPU chips. Looking at the HLO OP profile tool, we see that TPU flops utilization is low at 27%. Digging deeper into the OP profile table, we see an all reduce op, which is taking up 31% of our overall step time. Next, we look at the roof line tool. We see immediately that the program is to the left of the RGLine elbow, indicating the program is memory bound. We also see this in the table that the program is HBM bound. Now we dig deeper using the trace viewer tool. In the trace viewer we look at one layer in the backward pass and see that out of the 89 milliseconds time for one layer in the backward pass the all reduces use 33 milliseconds. Clicking on the all reduce op we see that the all reduce has a size of 8x 6k by 16k which is exactly the",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 590.08,
+    "timestamp_end": 740.48,
+    "text": "out of the 89 milliseconds time for one layer in the backward pass the all reduces use 33 milliseconds. Clicking on the all reduce op we see that the all reduce has a size of 8x 6k by 16k which is exactly the size of the feed forward weights. Importantly this size doesn't depend on batch. So if we increase batch size, we can increase compute while keeping the communication constant, changing the ratio of compute to communication more in our favor. Just to check if we have enough memory to increase batch size, we go to memory viewer. We chose right at the top that we have used only 12GB out of the available 32GB. So let's increase batch size. We increase batch size to eight and look at the HLO OP profile. We see TPU flops utilization doubled from 27% to 60%. We also see the all reduced time has reduced down to 8.7%. And convolution op is using 70% of the time making us more computebound which is what we want. If we quickly look at the roof line tool, the program is now up and to the right of the elbow, showing we're computebound. And in the trace viewer we see that our overall backward pass is now 326 milliseconds while the all reduces stay at 33 milliseconds which means our matill operations take more of the time making this computebound. And in the memory viewer we see we use 29GB out of 32GB. So we're using our HP much more optimally. Now we are done optimizing ML 8x22B on one part of trillium. I will now show a similar scenario on GPUs with the Llama 3.145B model running on 256 A4 which is B200 GPUs. We use hybrid FSDP across these 256 GPUs which is a combination of FSTP and data parallel and we start with a per device batch size of one. Looking at the trace viewer, we see the view for GPUs is different than TPUs where traces are organized by the different streams on the GPU. Looking at the trace for this model, we notice that out of the 99 milliseconds in one layer of the backward pass, 40 milliseconds is exposed communication. Looking at the memory viewer, we see that we have only used",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "ROFC-dQ421A__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "ROFC-dQ421A",
+    "title": "Google I/O 2025 \u2013 ROFC-dQ421A",
+    "timestamp_start": 721.04,
+    "timestamp_end": 813.97,
+    "text": "Looking at the trace for this model, we notice that out of the 99 milliseconds in one layer of the backward pass, 40 milliseconds is exposed communication. Looking at the memory viewer, we see that we have only used 126GB out of 180 GB HPM. Just like we did on TPUs, let's increase batch size. We increase per device batch size to two. Looking at trace viewer, we see now that our backward pass time increased to 179 milliseconds, but communication exposed is only 58 milliseconds. So we now have a higher ratio of compute to communication making us computebound. Now looking at memory viewer, we see that we are using 165GB out of 180GB. So much better use of the HPM. We are done optimizing llama 345b on 256 A4 GPUs. As a summary, please go try out our new cloud diagnostics XPR library on any of your ML workloads on Jax PyTorch XLA or KAS TensorFlow. Please also check out our newly relaunched XPR tool to learn more about all the different tools supported and how to use XPRO for different use cases. We always welcome any feedback. So please reach out to us for questions, feature requests, etc. Thank you very much for attending our session. [Applause]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

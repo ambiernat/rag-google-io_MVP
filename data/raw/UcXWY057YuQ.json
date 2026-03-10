@@ -1,0 +1,2137 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "UcXWY057YuQ",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.82
+    },
+    {
+      "text": "BRAMUS VAN DAMME: Hey there,\nI'm Bramus, Chrome Developer",
+      "start": 6.11,
+      "duration": 2.58
+    },
+    {
+      "text": "Relations Engineer\nhere at Google.",
+      "start": 8.69,
+      "duration": 1.96
+    },
+    {
+      "text": "In this session,\nyou'll learn how",
+      "start": 10.65,
+      "duration": 1.76
+    },
+    {
+      "text": "to guide, inform,\nand delight users",
+      "start": 12.41,
+      "duration": 2.4
+    },
+    {
+      "text": "by adding subtle and supportive\nanimations to your user",
+      "start": 14.81,
+      "duration": 2.85
+    },
+    {
+      "text": "interfaces.",
+      "start": 17.66,
+      "duration": 1.56
+    },
+    {
+      "text": "I'll be covering\nCSS @starting-style,",
+      "start": 19.22,
+      "duration": 2.11
+    },
+    {
+      "text": "how to animate to hide auto,\nscroll-driven animations.",
+      "start": 21.33,
+      "duration": 3.54
+    },
+    {
+      "text": "And be sure to stick\naround until the end",
+      "start": 24.87,
+      "duration": 1.71
+    },
+    {
+      "text": "because I have some new features\nfor view transitions to share.",
+      "start": 26.58,
+      "duration": 2.99
+    },
+    {
+      "text": "When building an interface,\nbe it on the web or not,",
+      "start": 29.57,
+      "duration": 2.61
+    },
+    {
+      "text": "you have to think\nabout a lot of details.",
+      "start": 32.18,
+      "duration": 2.41
+    },
+    {
+      "text": "Not only do you have to think\nabout what you will show,",
+      "start": 34.59,
+      "duration": 2.34
+    },
+    {
+      "text": "but also how you will show it.",
+      "start": 36.93,
+      "duration": 2.03
+    },
+    {
+      "text": "And this goes well beyond\nbasic design aspects",
+      "start": 38.96,
+      "duration": 2.61
+    },
+    {
+      "text": "such as font sizes and colors.",
+      "start": 41.57,
+      "duration": 1.84
+    },
+    {
+      "text": "You also need to think about\nthe user needs, the hierarchy",
+      "start": 43.41,
+      "duration": 2.96
+    },
+    {
+      "text": "and structure of things,\nthe navigation model,",
+      "start": 46.37,
+      "duration": 2.26
+    },
+    {
+      "text": "accessibility, and so on.",
+      "start": 48.63,
+      "duration": 2.45
+    },
+    {
+      "text": "And once you have done all\nthat, you are not finished yet.",
+      "start": 51.08,
+      "duration": 3.04
+    },
+    {
+      "text": "That's because\ninterfaces aren't static.",
+      "start": 54.12,
+      "duration": 2.547
+    },
+    {
+      "text": "There are a lot of things that\ncan happen in between two state",
+      "start": 56.667,
+      "duration": 2.583
+    },
+    {
+      "text": "changes, such as going\nfrom one page to another",
+      "start": 59.25,
+      "duration": 3.01
+    },
+    {
+      "text": "or when manipulating a component\nsuch as pressing a button.",
+      "start": 62.26,
+      "duration": 4.04
+    },
+    {
+      "text": "And that's where animations\nand transitions come into play.",
+      "start": 66.3,
+      "duration": 2.8
+    },
+    {
+      "text": "Research from the Nielsen Norman\nGroup by Page Laubheimer shows",
+      "start": 69.1,
+      "duration": 3.8
+    },
+    {
+      "text": "that, \"When UI animations are\nsubtle, unobtrusive and brief,",
+      "start": 72.9,
+      "duration": 4.06
+    },
+    {
+      "text": "they can improve the user\nexperience and can communicate",
+      "start": 76.96,
+      "duration": 3.14
+    },
+    {
+      "text": "feedback and state changes,\nprevent disorientation,",
+      "start": 80.1,
+      "duration": 3.13
+    },
+    {
+      "text": "and strengthen signifiers.\"",
+      "start": 83.23,
+      "duration": 2.99
+    },
+    {
+      "text": "Before I continue,\nlet's be clear.",
+      "start": 86.22,
+      "duration": 1.8
+    },
+    {
+      "text": "The animations that\nyou add to your UI",
+      "start": 88.02,
+      "duration": 2.13
+    },
+    {
+      "text": "should not get in\nthe way of users.",
+      "start": 90.15,
+      "duration": 2.38
+    },
+    {
+      "text": "If they have flagged\nthat they are not",
+      "start": 92.53,
+      "duration": 1.76
+    },
+    {
+      "text": "fine with lots of motion,\nthen you should respect that.",
+      "start": 94.29,
+      "duration": 3.15
+    },
+    {
+      "text": "You can detect this in\nboth CSS and JavaScript",
+      "start": 97.44,
+      "duration": 2.97
+    },
+    {
+      "text": "by checking the\nprefers-reduced-motion",
+      "start": 100.41,
+      "duration": 2.07
+    },
+    {
+      "text": "preference.",
+      "start": 102.48,
+      "duration": 1.56
+    },
+    {
+      "text": "Note, though, that this check\nwas omitted from all code",
+      "start": 104.04,
+      "duration": 2.558
+    },
+    {
+      "text": "snippets I'm about to\nshow you in this talk",
+      "start": 106.598,
+      "duration": 1.792
+    },
+    {
+      "text": "for the sake of brevity,\nbut assume they are there.",
+      "start": 108.39,
+      "duration": 3.72
+    },
+    {
+      "text": "Also note that a preference\nfor reduced motion",
+      "start": 112.11,
+      "duration": 2.61
+    },
+    {
+      "text": "does not equal no motion.",
+      "start": 114.72,
+      "duration": 2.04
+    },
+    {
+      "text": "Instead of no\nmotion, you can opt",
+      "start": 116.76,
+      "duration": 2.1
+    },
+    {
+      "text": "to reduce the distance\ntraveled by elements,",
+      "start": 118.86,
+      "duration": 2.5
+    },
+    {
+      "text": "tweak the duration\nof an animation,",
+      "start": 121.36,
+      "duration": 2.1
+    },
+    {
+      "text": "use a cross-fade instead of\nmoving elements on the screen,",
+      "start": 123.46,
+      "duration": 2.76
+    },
+    {
+      "text": "and so on.",
+      "start": 126.22,
+      "duration": 1.67
+    },
+    {
+      "text": "Let's take a look at this page\nthat shows the avatars of me",
+      "start": 127.89,
+      "duration": 3.18
+    },
+    {
+      "text": "and my teammates, Adam and Una.",
+      "start": 131.07,
+      "duration": 1.99
+    },
+    {
+      "text": "Upon hovering each avatar, a\nlabel with the person's name",
+      "start": 133.06,
+      "duration": 3.47
+    },
+    {
+      "text": "appears, and upon\nclicking the avatar,",
+      "start": 136.53,
+      "duration": 2.23
+    },
+    {
+      "text": "a dialogue with more info opens.",
+      "start": 138.76,
+      "duration": 2.01
+    },
+    {
+      "text": "You can also dismiss\nthe dialogue.",
+      "start": 140.77,
+      "duration": 2.81
+    },
+    {
+      "text": "As you might have noticed,\nthe changes right now",
+      "start": 143.58,
+      "duration": 2.37
+    },
+    {
+      "text": "are very abrupt.",
+      "start": 145.95,
+      "duration": 1.42
+    },
+    {
+      "text": "That is because there are\nno animations on this page.",
+      "start": 147.37,
+      "duration": 3.44
+    },
+    {
+      "text": "And adding a little\nbit of animation",
+      "start": 150.81,
+      "duration": 2.1
+    },
+    {
+      "text": "can make the whole\nexperience more delightful.",
+      "start": 152.91,
+      "duration": 3.09
+    },
+    {
+      "text": "Now, to add\nanimations on the web,",
+      "start": 156.0,
+      "duration": 2.29
+    },
+    {
+      "text": "you typically use CSS\nAnimations, the Web Animations",
+      "start": 158.29,
+      "duration": 3.14
+    },
+    {
+      "text": "API, CSS Transitions, or maybe\neven requestAnimationFrame.",
+      "start": 161.43,
+      "duration": 4.92
+    },
+    {
+      "text": "Or you could use a library that\ntypically builds upon those web",
+      "start": 166.35,
+      "duration": 2.97
+    },
+    {
+      "text": "platform primitives.",
+      "start": 169.32,
+      "duration": 1.8
+    },
+    {
+      "text": "To animate the dialogue\nI just showed you,",
+      "start": 171.12,
+      "duration": 2.26
+    },
+    {
+      "text": "we can rely on CSS Transitions\nto animate the dialog",
+      "start": 173.38,
+      "duration": 3.3
+    },
+    {
+      "text": "in and out.",
+      "start": 176.68,
+      "duration": 1.29
+    },
+    {
+      "text": "Properties we are looking\nto animate typically",
+      "start": 177.97,
+      "duration": 2.19
+    },
+    {
+      "text": "include the opacity, the\nposition, and also the size",
+      "start": 180.16,
+      "duration": 3.3
+    },
+    {
+      "text": "of the subject.",
+      "start": 183.46,
+      "duration": 0.91
+    },
+    {
+      "text": "But how do you transition\nfrom something that",
+      "start": 184.37,
+      "duration": 1.91
+    },
+    {
+      "text": "wasn't being rendered before?",
+      "start": 186.28,
+      "duration": 1.78
+    },
+    {
+      "text": "Well, that's where CSS\n@starting-style comes into play.",
+      "start": 188.06,
+      "duration": 3.35
+    },
+    {
+      "text": "@starting-style allows you to\ndefine values for CSS properties",
+      "start": 191.41,
+      "duration": 3.6
+    },
+    {
+      "text": "before the element receives\nits first style update.",
+      "start": 195.01,
+      "duration": 3.28
+    },
+    {
+      "text": "That means that when the\nelement is first being rendered,",
+      "start": 198.29,
+      "duration": 2.94
+    },
+    {
+      "text": "it will transition from\nthose before values.",
+      "start": 201.23,
+      "duration": 3.11
+    },
+    {
+      "text": "CSS @starting-style\nshipped in Chrome 116,",
+      "start": 204.34,
+      "duration": 2.77
+    },
+    {
+      "text": "which was released in 2023.",
+      "start": 207.11,
+      "duration": 2.3
+    },
+    {
+      "text": "Since then, Safari has added\nsupport for it in Safari 17.5.",
+      "start": 209.41,
+      "duration": 3.85
+    },
+    {
+      "text": "And at the time\nof recording this,",
+      "start": 213.26,
+      "duration": 1.59
+    },
+    {
+      "text": "Firefox has an almost\ncomplete implementation,",
+      "start": 214.85,
+      "duration": 2.7
+    },
+    {
+      "text": "but they don't support\ntransitioning the property",
+      "start": 217.55,
+      "duration": 2.33
+    },
+    {
+      "text": "display just yet.",
+      "start": 219.88,
+      "duration": 1.24
+    },
+    {
+      "text": "Back to the dialogue--\nhere is the CSS",
+      "start": 221.12,
+      "duration": 2.78
+    },
+    {
+      "text": "to add entry and exit\nanimations to it.",
+      "start": 223.9,
+      "duration": 3.09
+    },
+    {
+      "text": "The opacity will transition\nfrom 0 to 1 when the dialog gets",
+      "start": 226.99,
+      "duration": 3.24
+    },
+    {
+      "text": "shown, thanks to the\n@starting-style rule.",
+      "start": 230.23,
+      "duration": 2.77
+    },
+    {
+      "text": "And using regular selector\nmatching, the dialog's opacity",
+      "start": 233.0,
+      "duration": 3.15
+    },
+    {
+      "text": "will change back from 1 to\n0 when the dialog closes.",
+      "start": 236.15,
+      "duration": 3.15
+    },
+    {
+      "text": "To make sure the values\nactually smoothly",
+      "start": 239.3,
+      "duration": 3.42
+    },
+    {
+      "text": "transition instead of\nsimply flipping over,",
+      "start": 242.72,
+      "duration": 2.41
+    },
+    {
+      "text": "we need to mark them as\ntransitionable properties using",
+      "start": 245.13,
+      "duration": 2.9
+    },
+    {
+      "text": "the CSS transition property.",
+      "start": 248.03,
+      "duration": 2.52
+    },
+    {
+      "text": "And because the dialog becomes\nvisible in the top layer,",
+      "start": 250.55,
+      "duration": 2.92
+    },
+    {
+      "text": "we also need to mark display\nand overlay as transitional.",
+      "start": 253.47,
+      "duration": 3.78
+    },
+    {
+      "text": "Now, I won't go into\ndetails about the top layer",
+      "start": 257.25,
+      "duration": 2.39
+    },
+    {
+      "text": "right here and now, but follow\nthe link shown on screen",
+      "start": 259.64,
+      "duration": 2.58
+    },
+    {
+      "text": "to learn more\nabout transitioning",
+      "start": 262.22,
+      "duration": 1.44
+    },
+    {
+      "text": "to and from the top layer.",
+      "start": 263.66,
+      "duration": 2.94
+    },
+    {
+      "text": "Here's the result of\nthe code I came up with.",
+      "start": 266.6,
+      "duration": 2.14
+    },
+    {
+      "text": "The dialog fades in and\nout as it gets toggled.",
+      "start": 268.74,
+      "duration": 3.35
+    },
+    {
+      "text": "As you can see, it works, but\nhonestly, we can't do better.",
+      "start": 272.09,
+      "duration": 4.74
+    },
+    {
+      "text": "For best effect--\nand this applies",
+      "start": 276.83,
+      "duration": 2.19
+    },
+    {
+      "text": "to any transition or\nanimation-- tweak the duration.",
+      "start": 279.02,
+      "duration": 3.06
+    },
+    {
+      "text": "Add to easing that\nis being used.",
+      "start": 282.08,
+      "duration": 3.21
+    },
+    {
+      "text": "Research from the Nielsen\nNorman Group shows that,",
+      "start": 285.29,
+      "duration": 2.52
+    },
+    {
+      "text": "\"The duration of most animations\nshould be in the range of 100",
+      "start": 287.81,
+      "duration": 3.8
+    },
+    {
+      "text": "to 500 milliseconds, depending\non complexity and how far",
+      "start": 291.61,
+      "duration": 3.97
+    },
+    {
+      "text": "the element is traveling.\"",
+      "start": 295.58,
+      "duration": 2.4
+    },
+    {
+      "text": "Based on their research, a\nduration of 100 milliseconds",
+      "start": 297.98,
+      "duration": 3.12
+    },
+    {
+      "text": "feel instant, and a\nduration of 400 milliseconds",
+      "start": 301.1,
+      "duration": 3.15
+    },
+    {
+      "text": "is considered slow.",
+      "start": 304.25,
+      "duration": 1.74
+    },
+    {
+      "text": "The sweet spot is somewhere\nbetween 200 to 300 milliseconds",
+      "start": 305.99,
+      "duration": 3.24
+    },
+    {
+      "text": "for animations that cause\nsubstantial screen changes.",
+      "start": 309.23,
+      "duration": 3.81
+    },
+    {
+      "text": "For smaller interactions, such\nas a radio button changing,",
+      "start": 313.04,
+      "duration": 3.6
+    },
+    {
+      "text": "100 milliseconds\nis the way to go.",
+      "start": 316.64,
+      "duration": 3.48
+    },
+    {
+      "text": "The timings I mentioned\nare used for entry effects.",
+      "start": 320.12,
+      "duration": 3.04
+    },
+    {
+      "text": "The motion section of\nmaterial design states that,",
+      "start": 323.16,
+      "duration": 2.75
+    },
+    {
+      "text": "\"Transitions that\nclose, dismiss,",
+      "start": 325.91,
+      "duration": 2.01
+    },
+    {
+      "text": "or collapse an element\nuse shorter durations,\"",
+      "start": 327.92,
+      "duration": 3.19
+    },
+    {
+      "text": "which also aligns with what the\nNielsen Norman Group recommends.",
+      "start": 331.11,
+      "duration": 4.07
+    },
+    {
+      "text": "Examples included in\nthe material design",
+      "start": 335.18,
+      "duration": 2.13
+    },
+    {
+      "text": "motion guidelines indicate\nthat a dialog should animate in",
+      "start": 337.31,
+      "duration": 3.33
+    },
+    {
+      "text": "at 300 milliseconds and animate\nout at 250 milliseconds.",
+      "start": 340.64,
+      "duration": 5.1
+    },
+    {
+      "text": "With the timings defined, one\nlast step is to set the easing.",
+      "start": 345.74,
+      "duration": 3.4
+    },
+    {
+      "text": "Seeing something change\nusing a linear easing",
+      "start": 349.14,
+      "duration": 2.55
+    },
+    {
+      "text": "feels very unnatural.",
+      "start": 351.69,
+      "duration": 1.78
+    },
+    {
+      "text": "What you should use\ninstead is an easing curve.",
+      "start": 353.47,
+      "duration": 3.14
+    },
+    {
+      "text": "While bouncing and overshooting\nusing the CSS linear function",
+      "start": 356.61,
+      "duration": 3.3
+    },
+    {
+      "text": "can be playful,\ntypically you'd use",
+      "start": 359.91,
+      "duration": 2.55
+    },
+    {
+      "text": "a decelerated easing\nfor entry effects",
+      "start": 362.46,
+      "duration": 2.58
+    },
+    {
+      "text": "and an accelerated\neasing for exit effects.",
+      "start": 365.04,
+      "duration": 3.34
+    },
+    {
+      "text": "You can find more info\nabout this in the motion",
+      "start": 368.38,
+      "duration": 2.15
+    },
+    {
+      "text": "guidelines of Material Design.",
+      "start": 370.53,
+      "duration": 2.55
+    },
+    {
+      "text": "Note, though, that if you are\nusing something like a bounce",
+      "start": 373.08,
+      "duration": 2.49
+    },
+    {
+      "text": "easing, then you\nmost likely will need",
+      "start": 375.57,
+      "duration": 1.98
+    },
+    {
+      "text": "to tweak the duration again.",
+      "start": 377.55,
+      "duration": 1.51
+    },
+    {
+      "text": "It's a balance you\nwill have to find.",
+      "start": 379.06,
+      "duration": 2.45
+    },
+    {
+      "text": "So combining everything I\njust told you, we get this.",
+      "start": 381.51,
+      "duration": 3.84
+    },
+    {
+      "text": "While edits, I also added\ntransitions to the buttons",
+      "start": 385.35,
+      "duration": 3.06
+    },
+    {
+      "text": "as you hover them,\nand I also made sure",
+      "start": 388.41,
+      "duration": 2.1
+    },
+    {
+      "text": "that the backdrop animates\nin along with the dialog.",
+      "start": 390.51,
+      "duration": 3.49
+    },
+    {
+      "text": "I think it's pretty sweet.",
+      "start": 394.0,
+      "duration": 2.15
+    },
+    {
+      "text": "You can follow the link\nto see the full code.",
+      "start": 396.15,
+      "duration": 2.91
+    },
+    {
+      "text": "To learn more about using\n@starting-style and more use",
+      "start": 399.06,
+      "duration": 3.15
+    },
+    {
+      "text": "cases, such as using\nit for popovers,",
+      "start": 402.21,
+      "duration": 2.44
+    },
+    {
+      "text": "check out this article written\nby Una Kravets and Joey Arhar",
+      "start": 404.65,
+      "duration": 3.18
+    },
+    {
+      "text": "by visiting the link\nshown on screen.",
+      "start": 407.83,
+      "duration": 2.1
+    },
+    {
+      "text": "Here's a mock-up of\nsome quick action",
+      "start": 409.93,
+      "duration": 1.89
+    },
+    {
+      "text": "buttons that are part of\nan email client on the web.",
+      "start": 411.82,
+      "duration": 3.03
+    },
+    {
+      "text": "The idea is that, whenever you\nhover on one of the buttons",
+      "start": 414.85,
+      "duration": 2.49
+    },
+    {
+      "text": "or focus them with the keyboard,\nthat the label that goes along",
+      "start": 417.34,
+      "duration": 3.02
+    },
+    {
+      "text": "with each icon becomes visible\nand also the container enclosing",
+      "start": 420.36,
+      "duration": 3.85
+    },
+    {
+      "text": "both the icon and the label\ngets sized to its natural size.",
+      "start": 424.21,
+      "duration": 4.62
+    },
+    {
+      "text": "When implementing\nthis in HTML and CSS,",
+      "start": 428.83,
+      "duration": 2.29
+    },
+    {
+      "text": "you'll quickly notice\nthat, although this should",
+      "start": 431.12,
+      "duration": 2.15
+    },
+    {
+      "text": "be possible to do\nwith CSS transitions,",
+      "start": 433.27,
+      "duration": 2.5
+    },
+    {
+      "text": "it actually doesn't work.",
+      "start": 435.77,
+      "duration": 1.82
+    },
+    {
+      "text": "The culprit here is\nthe max-content value",
+      "start": 437.59,
+      "duration": 2.34
+    },
+    {
+      "text": "for the width on hover.",
+      "start": 439.93,
+      "duration": 1.57
+    },
+    {
+      "text": "That is not a fixed size, but\none of the intrinsic sizing",
+      "start": 441.5,
+      "duration": 3.5
+    },
+    {
+      "text": "keywords.",
+      "start": 445.0,
+      "duration": 1.65
+    },
+    {
+      "text": "Historically\nspeaking, it was never",
+      "start": 446.65,
+      "duration": 1.74
+    },
+    {
+      "text": "possible to transition\nfrom a fixed size",
+      "start": 448.39,
+      "duration": 2.19
+    },
+    {
+      "text": "to one of the intrinsic\nsizing keywords auto,",
+      "start": 450.58,
+      "duration": 2.61
+    },
+    {
+      "text": "min-content, max-content,\nand fit-content.",
+      "start": 453.19,
+      "duration": 3.3
+    },
+    {
+      "text": "In Chrome 129, that changed\nwith the introduction",
+      "start": 456.49,
+      "duration": 2.88
+    },
+    {
+      "text": "of the interpolate-size\nCSS property.",
+      "start": 459.37,
+      "duration": 2.44
+    },
+    {
+      "text": "When set to\nallow-keywords, you unlock",
+      "start": 461.81,
+      "duration": 2.36
+    },
+    {
+      "text": "transitioning from a fixed\nlength to an intrinsic sizing",
+      "start": 464.17,
+      "duration": 3.1
+    },
+    {
+      "text": "keyword and back.",
+      "start": 467.27,
+      "duration": 1.74
+    },
+    {
+      "text": "For backwards\ncompatibility reasons,",
+      "start": 469.01,
+      "duration": 2.29
+    },
+    {
+      "text": "the default behavior is numeric\nonly, which does not allow this.",
+      "start": 471.3,
+      "duration": 4.73
+    },
+    {
+      "text": "You typically declare\nthis property on the root,",
+      "start": 476.03,
+      "duration": 2.17
+    },
+    {
+      "text": "but if your site has parts that\nare not compatible with it,",
+      "start": 478.2,
+      "duration": 3.21
+    },
+    {
+      "text": "you can choose to only\nobtain a specific subtree",
+      "start": 481.41,
+      "duration": 2.78
+    },
+    {
+      "text": "to allow animations to/from\nintrinsic sizing keywords.",
+      "start": 484.19,
+      "duration": 4.08
+    },
+    {
+      "text": "And with the opt-in in\nplace, the result is this.",
+      "start": 488.27,
+      "duration": 2.92
+    },
+    {
+      "text": "The buttons nicely grow\ninto their larger version",
+      "start": 491.19,
+      "duration": 2.9
+    },
+    {
+      "text": "as you hover or focus\nthem with the keyboard.",
+      "start": 494.09,
+      "duration": 4.26
+    },
+    {
+      "text": "Another way to\nenable interpolation",
+      "start": 498.35,
+      "duration": 1.92
+    },
+    {
+      "text": "to and from intrinsic\nsizing keywords",
+      "start": 500.27,
+      "duration": 1.83
+    },
+    {
+      "text": "is to use the\ncalc-size function.",
+      "start": 502.1,
+      "duration": 2.23
+    },
+    {
+      "text": "I won't go into details\nhere now because calc-size",
+      "start": 504.33,
+      "duration": 2.78
+    },
+    {
+      "text": "is reserved for\nmore advanced usage,",
+      "start": 507.11,
+      "duration": 2.32
+    },
+    {
+      "text": "such as when needing\nto do calculations",
+      "start": 509.43,
+      "duration": 2.0
+    },
+    {
+      "text": "with an intrinsic size.",
+      "start": 511.43,
+      "duration": 1.45
+    },
+    {
+      "text": "To learn more about\ninterpolate-size and calc-size,",
+      "start": 512.88,
+      "duration": 2.73
+    },
+    {
+      "text": "check out this\narticle I published",
+      "start": 515.61,
+      "duration": 1.58
+    },
+    {
+      "text": "by visiting the link\nshown on screen.",
+      "start": 517.19,
+      "duration": 2.099
+    },
+    {
+      "text": "And remember, typically,\ninterpolate-size allow-keywords",
+      "start": 519.289,
+      "duration": 3.241
+    },
+    {
+      "text": "will get you far enough.",
+      "start": 522.53,
+      "duration": 1.6
+    },
+    {
+      "text": "A practical example where\ninterpolate-size is used",
+      "start": 524.13,
+      "duration": 2.81
+    },
+    {
+      "text": "is to animate the details\nelement as it opens and closes.",
+      "start": 526.94,
+      "duration": 3.93
+    },
+    {
+      "text": "In addition to\ninterpolate-size, the code",
+      "start": 530.87,
+      "duration": 2.37
+    },
+    {
+      "text": "also uses the new\ndetails-content pseudo-element",
+      "start": 533.24,
+      "duration": 2.85
+    },
+    {
+      "text": "which wraps the contents\nof the details element.",
+      "start": 536.09,
+      "duration": 3.69
+    },
+    {
+      "text": "The details-content\npseudo-element",
+      "start": 539.78,
+      "duration": 1.71
+    },
+    {
+      "text": "was added in Chrome 131 in\n2024, and Safari shipped this",
+      "start": 541.49,
+      "duration": 4.11
+    },
+    {
+      "text": "in Safari 18.4 just recently.",
+      "start": 545.6,
+      "duration": 3.0
+    },
+    {
+      "text": "You can expect Firefox to also\nadd support for details-content",
+      "start": 548.6,
+      "duration": 3.27
+    },
+    {
+      "text": "later this year because\nthe details element is part",
+      "start": 551.87,
+      "duration": 3.18
+    },
+    {
+      "text": "of the Interop 2025 effort.",
+      "start": 555.05,
+      "duration": 2.61
+    },
+    {
+      "text": "More info about Interop can be\nfound by visiting this link.",
+      "start": 557.66,
+      "duration": 4.08
+    },
+    {
+      "text": "In addition to this new\ndetails-content pseudo-element,",
+      "start": 561.74,
+      "duration": 3.04
+    },
+    {
+      "text": "you can also use\ndisplay types other",
+      "start": 564.78,
+      "duration": 2.09
+    },
+    {
+      "text": "than block on the\ndetails element,",
+      "start": 566.87,
+      "duration": 2.23
+    },
+    {
+      "text": "allowing you to create\nhorizontal accordions",
+      "start": 569.1,
+      "duration": 2.3
+    },
+    {
+      "text": "like this one right here.",
+      "start": 571.4,
+      "duration": 1.48
+    },
+    {
+      "text": "And this too is part of the\nInterop efforts focus area.",
+      "start": 572.88,
+      "duration": 3.59
+    },
+    {
+      "text": "To learn about animating\nthe details element,",
+      "start": 576.47,
+      "duration": 2.47
+    },
+    {
+      "text": "go visit this link.",
+      "start": 578.94,
+      "duration": 1.045
+    },
+    {
+      "text": "An area where transitions and\nanimations can add delight",
+      "start": 582.53,
+      "duration": 3.09
+    },
+    {
+      "text": "to your user interface\nis to animate elements",
+      "start": 585.62,
+      "duration": 2.46
+    },
+    {
+      "text": "as they enter or leave\nthe scroll port they",
+      "start": 588.08,
+      "duration": 2.28
+    },
+    {
+      "text": "are contained in.",
+      "start": 590.36,
+      "duration": 1.35
+    },
+    {
+      "text": "Take this example right here,\nwhere each image animates in",
+      "start": 591.71,
+      "duration": 3.75
+    },
+    {
+      "text": "as it enters the scroll port.",
+      "start": 595.46,
+      "duration": 2.22
+    },
+    {
+      "text": "Or here's another example\nthat shrinks the fixed header",
+      "start": 597.68,
+      "duration": 2.55
+    },
+    {
+      "text": "bar on scroll as you start\nscrolling the page over a fixed",
+      "start": 600.23,
+      "duration": 3.72
+    },
+    {
+      "text": "distance.",
+      "start": 603.95,
+      "duration": 1.95
+    },
+    {
+      "text": "To build this, you can use\nscroll-driven animations,",
+      "start": 605.9,
+      "duration": 2.89
+    },
+    {
+      "text": "which allow you to take an\nexisting CSS or wrap animation",
+      "start": 608.79,
+      "duration": 3.53
+    },
+    {
+      "text": "and connect its\nprogress to a scroller.",
+      "start": 612.32,
+      "duration": 2.76
+    },
+    {
+      "text": "As you scroll up and\ndown, the animation",
+      "start": 615.08,
+      "duration": 1.89
+    },
+    {
+      "text": "scrubs forwards or backwards\nin direct response.",
+      "start": 616.97,
+      "duration": 3.42
+    },
+    {
+      "text": "Scroll-driven animations\nsupport [INAUDIBLE]",
+      "start": 620.39,
+      "duration": 1.92
+    },
+    {
+      "text": "in Chrome with Chrome 115, which\nI announced at Google I/O 2023.",
+      "start": 622.31,
+      "duration": 4.65
+    },
+    {
+      "text": "And this year, we welcome\nSafari in adding support",
+      "start": 626.96,
+      "duration": 2.52
+    },
+    {
+      "text": "for scroll-driven animations.",
+      "start": 629.48,
+      "duration": 2.4
+    },
+    {
+      "text": "At the time of\nrecording, the feature",
+      "start": 631.88,
+      "duration": 1.71
+    },
+    {
+      "text": "is available in Safari\nTechnology Preview,",
+      "start": 633.59,
+      "duration": 2.23
+    },
+    {
+      "text": "and I have a hunch that,\nas you are watching this,",
+      "start": 635.82,
+      "duration": 2.52
+    },
+    {
+      "text": "the feature will be available\nin a stable version of Safari.",
+      "start": 638.34,
+      "duration": 4.2
+    },
+    {
+      "text": "Firefox is working on an\nexperimental implementation",
+      "start": 642.54,
+      "duration": 2.7
+    },
+    {
+      "text": "at this time, and we\nhope to welcome them",
+      "start": 645.24,
+      "duration": 2.01
+    },
+    {
+      "text": "in a set of browsers\nwith support soon.",
+      "start": 647.25,
+      "duration": 3.27
+    },
+    {
+      "text": "Even though support for\nscroll-driven animations",
+      "start": 650.52,
+      "duration": 2.28
+    },
+    {
+      "text": "is limited to only two browsers\nat the time of writing,",
+      "start": 652.8,
+      "duration": 3.04
+    },
+    {
+      "text": "I believe it is totally worth\nadding scroll-driven animations",
+      "start": 655.84,
+      "duration": 3.02
+    },
+    {
+      "text": "to your websites today as\nthese animations are typically",
+      "start": 658.86,
+      "duration": 3.42
+    },
+    {
+      "text": "considered to be a\nprogressive enhancement.",
+      "start": 662.28,
+      "duration": 3.33
+    },
+    {
+      "text": "To learn all about\nscroll-driven animations,",
+      "start": 665.61,
+      "duration": 2.47
+    },
+    {
+      "text": "visit\nscroll-driven-animations.style,",
+      "start": 668.08,
+      "duration": 2.24
+    },
+    {
+      "text": "your one-stop shop for all your\nscroll-driven animations needs.",
+      "start": 670.32,
+      "duration": 4.44
+    },
+    {
+      "text": "On that website, I\nshare a bunch of demos,",
+      "start": 674.76,
+      "duration": 2.65
+    },
+    {
+      "text": "each with an explanation\nto how they were built,",
+      "start": 677.41,
+      "duration": 2.37
+    },
+    {
+      "text": "tucked away behind the info\nicon at the bottom right.",
+      "start": 679.78,
+      "duration": 3.29
+    },
+    {
+      "text": "The website also\nfeatures some tools",
+      "start": 683.07,
+      "duration": 1.92
+    },
+    {
+      "text": "to help you grasp various\nconcepts such as the view",
+      "start": 684.99,
+      "duration": 2.46
+    },
+    {
+      "text": "timeline ranges.",
+      "start": 687.45,
+      "duration": 2.1
+    },
+    {
+      "text": "Additionally, you can also\ndownload the Chrome DevTools",
+      "start": 689.55,
+      "duration": 2.73
+    },
+    {
+      "text": "extension to help you debug\nthis type of animations.",
+      "start": 692.28,
+      "duration": 3.45
+    },
+    {
+      "text": "And last but not least, the site\nalso includes a free 10-part",
+      "start": 695.73,
+      "duration": 3.34
+    },
+    {
+      "text": "video course that teaches you\nall there is to know about",
+      "start": 699.07,
+      "duration": 2.37
+    },
+    {
+      "text": "scroll-driven animations.",
+      "start": 701.44,
+      "duration": 1.66
+    },
+    {
+      "text": "So check out\nscroll-driven-animations.style",
+      "start": 703.1,
+      "duration": 2.78
+    },
+    {
+      "text": "to learn about scroll-driven\nanimations today.",
+      "start": 705.88,
+      "duration": 3.96
+    },
+    {
+      "text": "When talking about animations\nand transitions on the web,",
+      "start": 709.84,
+      "duration": 3.13
+    },
+    {
+      "text": "of course, I have to\nmention view transitions,",
+      "start": 712.97,
+      "duration": 2.73
+    },
+    {
+      "text": "a feature pioneered by Google\nand since then standardized",
+      "start": 715.7,
+      "duration": 3.65
+    },
+    {
+      "text": "at the CSS Working Group.",
+      "start": 719.35,
+      "duration": 2.67
+    },
+    {
+      "text": "With view transitions,\nyou can have",
+      "start": 722.02,
+      "duration": 1.62
+    },
+    {
+      "text": "a smooth transition between\ntwo states of your website.",
+      "start": 723.64,
+      "duration": 3.43
+    },
+    {
+      "text": "These two states can\nbe smaller things,",
+      "start": 727.07,
+      "duration": 2.31
+    },
+    {
+      "text": "such as two items that swap\nplaces or a full layout change,",
+      "start": 729.38,
+      "duration": 3.93
+    },
+    {
+      "text": "such as seen in this demo.",
+      "start": 733.31,
+      "duration": 2.63
+    },
+    {
+      "text": "The trigger for the state change\ncan be done through script",
+      "start": 735.94,
+      "duration": 2.82
+    },
+    {
+      "text": "by calling\ndocument.startViewTransition",
+      "start": 738.76,
+      "duration": 2.95
+    },
+    {
+      "text": "or by navigating from one\npage to another after opting",
+      "start": 741.71,
+      "duration": 3.62
+    },
+    {
+      "text": "in both pages using CSS.",
+      "start": 745.33,
+      "duration": 2.35
+    },
+    {
+      "text": "Yes, you can have\nview transitions",
+      "start": 747.68,
+      "duration": 2.27
+    },
+    {
+      "text": "by simply clicking a link.",
+      "start": 749.95,
+      "duration": 2.49
+    },
+    {
+      "text": "The view transition API takes\ncare of many things for you,",
+      "start": 752.44,
+      "duration": 3.4
+    },
+    {
+      "text": "and you get to customize your\nanimations using CSS animations",
+      "start": 755.84,
+      "duration": 3.41
+    },
+    {
+      "text": "or web animations.",
+      "start": 759.25,
+      "duration": 2.28
+    },
+    {
+      "text": "For more info about\nview transitions,",
+      "start": 761.53,
+      "duration": 2.08
+    },
+    {
+      "text": "be sure to read our\nextensive documentation",
+      "start": 763.61,
+      "duration": 2.27
+    },
+    {
+      "text": "on developer.chrome.com\nby visiting this link.",
+      "start": 765.88,
+      "duration": 3.78
+    },
+    {
+      "text": "Framework integration\nis also available,",
+      "start": 769.66,
+      "duration": 2.29
+    },
+    {
+      "text": "including React with its\nbuilt-in view transition",
+      "start": 771.95,
+      "duration": 2.45
+    },
+    {
+      "text": "component.",
+      "start": 774.4,
+      "duration": 1.44
+    },
+    {
+      "text": "As I'm recording this,\nthe implementation",
+      "start": 775.84,
+      "duration": 1.86
+    },
+    {
+      "text": "is still experimental,\nbut that should",
+      "start": 777.7,
+      "duration": 2.13
+    },
+    {
+      "text": "change throughout the year.",
+      "start": 779.83,
+      "duration": 1.56
+    },
+    {
+      "text": "Because React's view\ntransition component",
+      "start": 781.39,
+      "duration": 2.01
+    },
+    {
+      "text": "is integrated into\nReact's core, it",
+      "start": 783.4,
+      "duration": 2.46
+    },
+    {
+      "text": "can cleverly determine if and\nwhen to start a view transition,",
+      "start": 785.86,
+      "duration": 3.58
+    },
+    {
+      "text": "automatically adding\nview transition name",
+      "start": 789.44,
+      "duration": 1.97
+    },
+    {
+      "text": "values as it sees fit.",
+      "start": 791.41,
+      "duration": 1.95
+    },
+    {
+      "text": "For your convenience, there\nare also some lifecycle events",
+      "start": 793.36,
+      "duration": 2.79
+    },
+    {
+      "text": "you can hook on to.",
+      "start": 796.15,
+      "duration": 2.16
+    },
+    {
+      "text": "For more info about React's\nview transition component,",
+      "start": 798.31,
+      "duration": 2.71
+    },
+    {
+      "text": "here's a link to follow.",
+      "start": 801.02,
+      "duration": 2.33
+    },
+    {
+      "text": "Looking at a timeline,\na lot has happened",
+      "start": 803.35,
+      "duration": 2.19
+    },
+    {
+      "text": "since we first announced the\nprototype of view transitions",
+      "start": 805.54,
+      "duration": 2.61
+    },
+    {
+      "text": "in 2021.",
+      "start": 808.15,
+      "duration": 2.01
+    },
+    {
+      "text": "In 2023, we shipped\nsame-document view transitions.",
+      "start": 810.16,
+      "duration": 3.77
+    },
+    {
+      "text": "And in 2024, we shipped\ncross-document view transitions",
+      "start": 813.93,
+      "duration": 3.35
+    },
+    {
+      "text": "along with some extra additions\nsuch as view transition",
+      "start": 817.28,
+      "duration": 2.49
+    },
+    {
+      "text": "types and view\ntransition classes,",
+      "start": 819.77,
+      "duration": 2.08
+    },
+    {
+      "text": "something I covered last\nyear in my Google I/O video",
+      "start": 821.85,
+      "duration": 2.57
+    },
+    {
+      "text": "titled Multi-page Application\nView Transitions Are Here.",
+      "start": 824.42,
+      "duration": 3.54
+    },
+    {
+      "text": "In 2024, we also welcomed\nSafari and shipping",
+      "start": 827.96,
+      "duration": 2.79
+    },
+    {
+      "text": "both same-document and\ncross-document view transitions.",
+      "start": 830.75,
+      "duration": 3.37
+    },
+    {
+      "text": "And this year, same-document\nview transitions",
+      "start": 834.12,
+      "duration": 2.63
+    },
+    {
+      "text": "became part of Interop 2025.",
+      "start": 836.75,
+      "duration": 2.59
+    },
+    {
+      "text": "So we can expect\nFirefox to ship it",
+      "start": 839.34,
+      "duration": 2.15
+    },
+    {
+      "text": "as well this year, which will\nmake the feature baseline newly",
+      "start": 841.49,
+      "duration": 3.39
+    },
+    {
+      "text": "available later this year.",
+      "start": 844.88,
+      "duration": 2.37
+    },
+    {
+      "text": "So if you've been holding off on\nlearning about view transitions,",
+      "start": 847.25,
+      "duration": 3.49
+    },
+    {
+      "text": "now is the time to start.",
+      "start": 850.74,
+      "duration": 1.85
+    },
+    {
+      "text": "A new feature that shipped\nin Chrome this year",
+      "start": 852.59,
+      "duration": 2.07
+    },
+    {
+      "text": "is automatically generated\nview transition name values.",
+      "start": 854.66,
+      "duration": 3.54
+    },
+    {
+      "text": "Without auto naming, you need\nto give each and every element",
+      "start": 858.2,
+      "duration": 3.18
+    },
+    {
+      "text": "a unique view transition name.",
+      "start": 861.38,
+      "duration": 2.31
+    },
+    {
+      "text": "Got 100 elements to snapshot?",
+      "start": 863.69,
+      "duration": 1.93
+    },
+    {
+      "text": "Well, that's 100 names please.",
+      "start": 865.62,
+      "duration": 2.81
+    },
+    {
+      "text": "When view transition name\nis set to match elements,",
+      "start": 868.43,
+      "duration": 2.32
+    },
+    {
+      "text": "you don't need to do all that.",
+      "start": 870.75,
+      "duration": 1.51
+    },
+    {
+      "text": "And Chrome will generate\nan internal view transition",
+      "start": 872.26,
+      "duration": 2.9
+    },
+    {
+      "text": "name for every matched element\nbased on the element's identity.",
+      "start": 875.16,
+      "duration": 4.8
+    },
+    {
+      "text": "Note that because elements\nin different documents",
+      "start": 879.96,
+      "duration": 2.37
+    },
+    {
+      "text": "have a different identity,\nusage of matched element",
+      "start": 882.33,
+      "duration": 2.94
+    },
+    {
+      "text": "is limited to same-document\nview transitions.",
+      "start": 885.27,
+      "duration": 3.24
+    },
+    {
+      "text": "To apply styles to all those\nauto-named snapshots in one",
+      "start": 888.51,
+      "duration": 3.06
+    },
+    {
+      "text": "go, use view-transition-class.",
+      "start": 891.57,
+      "duration": 2.25
+    },
+    {
+      "text": "Or if you need to target\njust the one element,",
+      "start": 893.82,
+      "duration": 2.65
+    },
+    {
+      "text": "give it a manual\nview-transition-name",
+      "start": 896.47,
+      "duration": 1.67
+    },
+    {
+      "text": "like you did before.",
+      "start": 898.14,
+      "duration": 1.98
+    },
+    {
+      "text": "In the following demo,\nthis approach is used.",
+      "start": 900.12,
+      "duration": 2.53
+    },
+    {
+      "text": "Each card that sits in the\nrow gets an automatically",
+      "start": 902.65,
+      "duration": 2.69
+    },
+    {
+      "text": "generated view transition name.",
+      "start": 905.34,
+      "duration": 1.78
+    },
+    {
+      "text": "It's only the card that\nis entering or exiting",
+      "start": 907.12,
+      "duration": 2.99
+    },
+    {
+      "text": "that gets an explicit name set,\nand that name is used in the CSS",
+      "start": 910.11,
+      "duration": 4.26
+    },
+    {
+      "text": "to attach specific animations\nonto that snapshot.",
+      "start": 914.37,
+      "duration": 3.6
+    },
+    {
+      "text": "If you already have unique\nnames present in your DOM,",
+      "start": 917.97,
+      "duration": 2.83
+    },
+    {
+      "text": "for example, through\nan ID attribute,",
+      "start": 920.8,
+      "duration": 1.95
+    },
+    {
+      "text": "it is possible to\nuse those names",
+      "start": 922.75,
+      "duration": 2.06
+    },
+    {
+      "text": "as the view-transition-name\nby means of the attr function.",
+      "start": 924.81,
+      "duration": 4.05
+    },
+    {
+      "text": "With attr, you can read a value\nfrom an attribute in a markup",
+      "start": 928.86,
+      "duration": 3.72
+    },
+    {
+      "text": "and cast it to a\ncustom-ident for use",
+      "start": 932.58,
+      "duration": 2.37
+    },
+    {
+      "text": "with the view-transition-name\nproperty.",
+      "start": 934.95,
+      "duration": 2.97
+    },
+    {
+      "text": "In this snippet, the\nview transition name",
+      "start": 937.92,
+      "duration": 1.86
+    },
+    {
+      "text": "is derived from the ID\nattribute using attr,",
+      "start": 939.78,
+      "duration": 2.62
+    },
+    {
+      "text": "but it could be any attribute.",
+      "start": 942.4,
+      "duration": 2.51
+    },
+    {
+      "text": "The fallback is also set\nto null, but if you want,",
+      "start": 944.91,
+      "duration": 2.86
+    },
+    {
+      "text": "you can set it to\nmatch-element instead.",
+      "start": 947.77,
+      "duration": 3.23
+    },
+    {
+      "text": "Learn about attr by following\nthis link right here.",
+      "start": 951.0,
+      "duration": 3.63
+    },
+    {
+      "text": "view-transition-name\nmatch-element",
+      "start": 954.63,
+      "duration": 1.71
+    },
+    {
+      "text": "is available in Chrome\n137 and Safari 18.4.",
+      "start": 956.34,
+      "duration": 3.93
+    },
+    {
+      "text": "The attr function I mentioned\nis supported in Chrome 133.",
+      "start": 960.27,
+      "duration": 4.2
+    },
+    {
+      "text": "Looking forward,\nChrome is currently",
+      "start": 964.47,
+      "duration": 1.74
+    },
+    {
+      "text": "working on a few new view\ntransitions-related features,",
+      "start": 966.21,
+      "duration": 2.7
+    },
+    {
+      "text": "of which I want\nto highlight two.",
+      "start": 968.91,
+      "duration": 1.51
+    },
+    {
+      "text": "The first one is nested\nview transition groups,",
+      "start": 970.42,
+      "duration": 2.91
+    },
+    {
+      "text": "which, as the name\nindicates, allow",
+      "start": 973.33,
+      "duration": 2.06
+    },
+    {
+      "text": "you to nest view transition\ngroups pseudo-elements.",
+      "start": 975.39,
+      "duration": 3.69
+    },
+    {
+      "text": "That way, snapshots\nof nested elements",
+      "start": 979.08,
+      "duration": 2.61
+    },
+    {
+      "text": "can be clipped by\nother snapshots.",
+      "start": 981.69,
+      "duration": 3.27
+    },
+    {
+      "text": "Without group nesting, such\nas seen in this recording,",
+      "start": 984.96,
+      "duration": 3.14
+    },
+    {
+      "text": "content bleeds out of the parent\nwhile the view transition runs.",
+      "start": 988.1,
+      "duration": 4.19
+    },
+    {
+      "text": "But with group nesting,\nthe snapshots of the albums",
+      "start": 992.29,
+      "duration": 2.91
+    },
+    {
+      "text": "can be nested within the view\ntransition group of the wrapper.",
+      "start": 995.2,
+      "duration": 3.48
+    },
+    {
+      "text": "And when also applying overflow\nclip on that outer wrapper,",
+      "start": 998.68,
+      "duration": 3.22
+    },
+    {
+      "text": "it behaves as expected.",
+      "start": 1001.9,
+      "duration": 2.36
+    },
+    {
+      "text": "To enable group nesting, set the\nview-transition-group property",
+      "start": 1004.26,
+      "duration": 3.12
+    },
+    {
+      "text": "on either the parent, which\ncontains all the children,",
+      "start": 1007.38,
+      "duration": 3.01
+    },
+    {
+      "text": "or on each child individually.",
+      "start": 1010.39,
+      "duration": 2.73
+    },
+    {
+      "text": "On the parent, you set\nthe value to contain",
+      "start": 1013.12,
+      "duration": 2.33
+    },
+    {
+      "text": "to have it contain all\nsnapshots of all children.",
+      "start": 1015.45,
+      "duration": 3.57
+    },
+    {
+      "text": "Or alternatively, when applying\nthe property onto each child,",
+      "start": 1019.02,
+      "duration": 3.52
+    },
+    {
+      "text": "you set its value to\nnearest to find the nearest",
+      "start": 1022.54,
+      "duration": 2.9
+    },
+    {
+      "text": "parent with a view\ntransition name,",
+      "start": 1025.44,
+      "duration": 1.99
+    },
+    {
+      "text": "or you can also set it\nto a custom-ident that",
+      "start": 1027.43,
+      "duration": 2.419
+    },
+    {
+      "text": "matches a parent's name.",
+      "start": 1029.849,
+      "duration": 2.581
+    },
+    {
+      "text": "Whichever method\nyou choose, don't",
+      "start": 1032.43,
+      "duration": 1.74
+    },
+    {
+      "text": "forget to set overflow\nclip on the parent",
+      "start": 1034.17,
+      "duration": 2.189
+    },
+    {
+      "text": "to clip the nested pseudos.",
+      "start": 1036.359,
+      "duration": 2.73
+    },
+    {
+      "text": "At the time of\nrecording, we have not",
+      "start": 1039.089,
+      "duration": 1.591
+    },
+    {
+      "text": "decided what exactly the\npseudo-tree would look like,",
+      "start": 1040.68,
+      "duration": 2.74
+    },
+    {
+      "text": "but it could look\nsomething like this,",
+      "start": 1043.42,
+      "duration": 2.01
+    },
+    {
+      "text": "in which the groups\nof each album",
+      "start": 1045.43,
+      "duration": 2.25
+    },
+    {
+      "text": "get placed inside the\ngroup of the wrapper.",
+      "start": 1047.68,
+      "duration": 3.06
+    },
+    {
+      "text": "The second upcoming\nfeature I want to highlight",
+      "start": 1050.74,
+      "duration": 2.1
+    },
+    {
+      "text": "is scoped transitions.",
+      "start": 1052.84,
+      "duration": 1.48
+    },
+    {
+      "text": "Yes, finally, after three\nyears of hinting at it,",
+      "start": 1054.32,
+      "duration": 3.24
+    },
+    {
+      "text": "our team of engineers are\nactively working on it.",
+      "start": 1057.56,
+      "duration": 3.59
+    },
+    {
+      "text": "The idea is that\ninstead of calling",
+      "start": 1061.15,
+      "duration": 1.77
+    },
+    {
+      "text": "document.startViewTransition,\nyou",
+      "start": 1062.92,
+      "duration": 2.34
+    },
+    {
+      "text": "get to call startViewTransition\non a specific element",
+      "start": 1065.26,
+      "duration": 2.88
+    },
+    {
+      "text": "to start a view transition\nonly on that element.",
+      "start": 1068.14,
+      "duration": 3.57
+    },
+    {
+      "text": "And in that case, the\nresulting pseudo-tree",
+      "start": 1071.71,
+      "duration": 2.07
+    },
+    {
+      "text": "will get injected\nonto just that element",
+      "start": 1073.78,
+      "duration": 2.1
+    },
+    {
+      "text": "without affecting\nthe rest of the page.",
+      "start": 1075.88,
+      "duration": 2.11
+    },
+    {
+      "text": "It will also allow\nmultiple view transitions",
+      "start": 1077.99,
+      "duration": 2.24
+    },
+    {
+      "text": "on different subtrees to run\nat the same time, something",
+      "start": 1080.23,
+      "duration": 3.36
+    },
+    {
+      "text": "that is not possible today.",
+      "start": 1083.59,
+      "duration": 2.37
+    },
+    {
+      "text": "Wow, that was a lot, I know.",
+      "start": 1085.96,
+      "duration": 2.37
+    },
+    {
+      "text": "What you need to take\naway from all this",
+      "start": 1088.33,
+      "duration": 2.04
+    },
+    {
+      "text": "is that adding motion\nto your user interfaces",
+      "start": 1090.37,
+      "duration": 2.76
+    },
+    {
+      "text": "can improve UX when\nused appropriately.",
+      "start": 1093.13,
+      "duration": 3.24
+    },
+    {
+      "text": "Building on the core\nprimitives of CSS animations,",
+      "start": 1096.37,
+      "duration": 2.97
+    },
+    {
+      "text": "WAPI animations,\nCSS transitions,",
+      "start": 1099.34,
+      "duration": 2.89
+    },
+    {
+      "text": "and requestAnimationFrame, the\nweb platform now offers more",
+      "start": 1102.23,
+      "duration": 3.68
+    },
+    {
+      "text": "entry points into\nthose primitives,",
+      "start": 1105.91,
+      "duration": 2.16
+    },
+    {
+      "text": "with @starting-style,\ninterpolate-size, calc-size,",
+      "start": 1108.07,
+      "duration": 3.94
+    },
+    {
+      "text": "scroll-driven animations,\nand view transitions.",
+      "start": 1112.01,
+      "duration": 3.56
+    },
+    {
+      "text": "And we're not done with\nthese features yet.",
+      "start": 1115.57,
+      "duration": 2.11
+    },
+    {
+      "text": "We keep on refining\nand extending",
+      "start": 1117.68,
+      "duration": 1.85
+    },
+    {
+      "text": "them to give you more\nfine-grained control over many",
+      "start": 1119.53,
+      "duration": 3.03
+    },
+    {
+      "text": "of the aspects.",
+      "start": 1122.56,
+      "duration": 1.18
+    },
+    {
+      "text": "So what will you create?",
+      "start": 1123.74,
+      "duration": 2.25
+    },
+    {
+      "text": "The tools are in your hands,\nand the web is your canvas.",
+      "start": 1125.99,
+      "duration": 3.03
+    },
+    {
+      "text": "Imagine the\ncaptivating experiences",
+      "start": 1129.02,
+      "duration": 2.27
+    },
+    {
+      "text": "you can craft from the subtle\ndelight of a toggle switch",
+      "start": 1131.29,
+      "duration": 2.94
+    },
+    {
+      "text": "to immersive, multi-page\njourneys such as this one right",
+      "start": 1134.23,
+      "duration": 3.12
+    },
+    {
+      "text": "here.",
+      "start": 1137.35,
+      "duration": 1.44
+    },
+    {
+      "text": "I'm eager to see your\nvisions come to life.",
+      "start": 1138.79,
+      "duration": 2.5
+    },
+    {
+      "text": "Please share your\nprogress and finished",
+      "start": 1141.29,
+      "duration": 1.76
+    },
+    {
+      "text": "projects in the comments\nbelow or connect with me",
+      "start": 1143.05,
+      "duration": 2.4
+    },
+    {
+      "text": "on social media.",
+      "start": 1145.45,
+      "duration": 1.03
+    },
+    {
+      "text": "Together, we can build a more\ndynamic and engaging web.",
+      "start": 1146.48,
+      "duration": 3.35
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1149.83,
+      "duration": 3.05
+    }
+  ]
+}

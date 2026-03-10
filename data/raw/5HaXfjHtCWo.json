@@ -1,0 +1,2442 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "5HaXfjHtCWo",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.778
+    },
+    {
+      "text": "SINEAD BOVELL: Hi, everyone!",
+      "start": 6.02,
+      "duration": 1.39
+    },
+    {
+      "text": "Well, it is such a\nprivilege to introduce",
+      "start": 7.41,
+      "duration": 2.93
+    },
+    {
+      "text": "somebody whose work is shaping\nthe future of computing.",
+      "start": 10.34,
+      "duration": 4.27
+    },
+    {
+      "text": "So Julian Kelly is\nthe senior director",
+      "start": 14.61,
+      "duration": 2.54
+    },
+    {
+      "text": "of quantum hardware at Google\nQuantum AI, where he brings",
+      "start": 17.15,
+      "duration": 3.72
+    },
+    {
+      "text": "over a decade of expertise in\ndesigning, and fabricating,",
+      "start": 20.87,
+      "duration": 4.44
+    },
+    {
+      "text": "and fine-tuning semiconducting\nquantum processors",
+      "start": 25.31,
+      "duration": 3.57
+    },
+    {
+      "text": "from many generations\nof Sycamore",
+      "start": 28.88,
+      "duration": 2.22
+    },
+    {
+      "text": "to the latest\nbreakthrough Willow Chip.",
+      "start": 31.1,
+      "duration": 2.73
+    },
+    {
+      "text": "Julian is one of the earliest\nmembers of Google Quantum AI.",
+      "start": 33.83,
+      "duration": 4.24
+    },
+    {
+      "text": "So welcome, Julian.",
+      "start": 38.07,
+      "duration": 1.47
+    },
+    {
+      "text": "It's great to be here with you.",
+      "start": 39.54,
+      "duration": 1.757
+    },
+    {
+      "text": "JULIAN KELLY: Thank you so much.",
+      "start": 41.297,
+      "duration": 1.333
+    },
+    {
+      "text": "Really wonderful to be here.",
+      "start": 42.63,
+      "duration": 1.167
+    },
+    {
+      "text": "SINEAD BOVELL: And we will\nbe doing Q&A at the end.",
+      "start": 46.4,
+      "duration": 2.77
+    },
+    {
+      "text": "So if you do have\nquestions, you can save them",
+      "start": 49.17,
+      "duration": 2.3
+    },
+    {
+      "text": "for the last 10 minutes.",
+      "start": 51.47,
+      "duration": 1.68
+    },
+    {
+      "text": "OK.",
+      "start": 53.15,
+      "duration": 0.58
+    },
+    {
+      "text": "So I'm going to start with a\nquestion I'm curious about.",
+      "start": 53.73,
+      "duration": 2.69
+    },
+    {
+      "text": "For the past 80 years,\nthe world has been",
+      "start": 56.42,
+      "duration": 2.88
+    },
+    {
+      "text": "running on classical computers.",
+      "start": 59.3,
+      "duration": 1.72
+    },
+    {
+      "text": "And we've done some pretty\nremarkable things, arguably.",
+      "start": 61.02,
+      "duration": 2.98
+    },
+    {
+      "text": "I mean, everything we're\ntalking about in AI, that's",
+      "start": 64.0,
+      "duration": 2.54
+    },
+    {
+      "text": "powered by classical computers.",
+      "start": 66.54,
+      "duration": 1.57
+    },
+    {
+      "text": "We've gone to space a few\ntimes on classical computers.",
+      "start": 68.11,
+      "duration": 3.93
+    },
+    {
+      "text": "Yet we consistently hear\nthat quantum computers",
+      "start": 72.04,
+      "duration": 2.87
+    },
+    {
+      "text": "will be the successor\nto classical computers.",
+      "start": 74.91,
+      "duration": 2.95
+    },
+    {
+      "text": "So could you explain\nthe core concepts",
+      "start": 77.86,
+      "duration": 2.54
+    },
+    {
+      "text": "behind quantum computing?",
+      "start": 80.4,
+      "duration": 1.6
+    },
+    {
+      "text": "How is it different from\nclassical computers?",
+      "start": 82.0,
+      "duration": 2.48
+    },
+    {
+      "text": "And why is quantum\ncomputing important?",
+      "start": 84.48,
+      "duration": 2.338
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 86.818,
+      "duration": 0.792
+    },
+    {
+      "text": "Thanks.",
+      "start": 87.61,
+      "duration": 0.518
+    },
+    {
+      "text": "This is a great question.",
+      "start": 88.128,
+      "duration": 1.042
+    },
+    {
+      "text": "So classical computers can solve\nall these wonderful problems",
+      "start": 89.17,
+      "duration": 4.04
+    },
+    {
+      "text": "as you just described.",
+      "start": 93.21,
+      "duration": 0.917
+    },
+    {
+      "text": "But it turns out there are\nsome problems that only",
+      "start": 94.127,
+      "duration": 2.083
+    },
+    {
+      "text": "a quantum computer can solve.",
+      "start": 96.21,
+      "duration": 1.3
+    },
+    {
+      "text": "So a quantum computer can\nsolve certain problems",
+      "start": 97.51,
+      "duration": 2.15
+    },
+    {
+      "text": "that would otherwise\nbe completely",
+      "start": 99.66,
+      "duration": 1.74
+    },
+    {
+      "text": "impossible for a\nclassical computer.",
+      "start": 101.4,
+      "duration": 2.76
+    },
+    {
+      "text": "In terms of the kind of\nfundamentals of how they work,",
+      "start": 104.16,
+      "duration": 2.91
+    },
+    {
+      "text": "classical computers\nwork on binary or bits.",
+      "start": 107.07,
+      "duration": 2.71
+    },
+    {
+      "text": "That's in 0 and 1.",
+      "start": 109.78,
+      "duration": 0.75
+    },
+    {
+      "text": "You can think of it as a\nlight switch that's either",
+      "start": 110.53,
+      "duration": 2.125
+    },
+    {
+      "text": "in the on or the off position.",
+      "start": 112.655,
+      "duration": 1.505
+    },
+    {
+      "text": "But qubits use quantum\nbits or qubits.",
+      "start": 114.16,
+      "duration": 3.09
+    },
+    {
+      "text": "And qubits can be in what are\ncalled superposition states, 0",
+      "start": 117.25,
+      "duration": 3.17
+    },
+    {
+      "text": "and 1 at the same time.",
+      "start": 120.42,
+      "duration": 1.38
+    },
+    {
+      "text": "And they have this\nexponential scaling behavior.",
+      "start": 121.8,
+      "duration": 2.64
+    },
+    {
+      "text": "So every time you add\na qubit to your system,",
+      "start": 124.44,
+      "duration": 2.07
+    },
+    {
+      "text": "you can think of that as\ndoubling the computational power",
+      "start": 126.51,
+      "duration": 2.93
+    },
+    {
+      "text": "of your quantum computer.",
+      "start": 129.44,
+      "duration": 1.95
+    },
+    {
+      "text": "Fundamentally,\nquantum computers are",
+      "start": 131.39,
+      "duration": 2.1
+    },
+    {
+      "text": "able to run on\nquantum mechanics.",
+      "start": 133.49,
+      "duration": 2.77
+    },
+    {
+      "text": "And quantum mechanics is what\nunderlies all the physical laws",
+      "start": 136.26,
+      "duration": 3.77
+    },
+    {
+      "text": "of the world.",
+      "start": 140.03,
+      "duration": 0.7
+    },
+    {
+      "text": "So quantum computers,\nin some sense,",
+      "start": 140.73,
+      "duration": 2.0
+    },
+    {
+      "text": "speak the natural\nlanguage of the universe.",
+      "start": 142.73,
+      "duration": 1.792
+    },
+    {
+      "text": "SINEAD BOVELL: OK.",
+      "start": 144.522,
+      "duration": 0.75
+    },
+    {
+      "text": "And we're going to get into\nthat a little bit more.",
+      "start": 145.272,
+      "duration": 2.208
+    },
+    {
+      "text": "So would you consider\nquantum computing then",
+      "start": 147.48,
+      "duration": 3.02
+    },
+    {
+      "text": "to be the next big thing after\nAI or is it more nuanced?",
+      "start": 150.5,
+      "duration": 4.54
+    },
+    {
+      "text": "Will quantum and AI\nconverge in some way",
+      "start": 155.04,
+      "duration": 2.66
+    },
+    {
+      "text": "and end up reinforcing\neach other?",
+      "start": 157.7,
+      "duration": 1.6
+    },
+    {
+      "text": "JULIAN KELLY: Yes.",
+      "start": 159.3,
+      "duration": 0.75
+    },
+    {
+      "text": "It's a great question.",
+      "start": 160.05,
+      "duration": 1.46
+    },
+    {
+      "text": "I think it's a good mental\nmodel that quantum computing is",
+      "start": 161.51,
+      "duration": 2.85
+    },
+    {
+      "text": "the next big thing after AI.",
+      "start": 164.36,
+      "duration": 1.45
+    },
+    {
+      "text": "It's distinct from it.",
+      "start": 165.81,
+      "duration": 1.23
+    },
+    {
+      "text": "But at the same time, they\ndo have the opportunity",
+      "start": 167.04,
+      "duration": 3.02
+    },
+    {
+      "text": "to complement each other.",
+      "start": 170.06,
+      "duration": 1.54
+    },
+    {
+      "text": "You can maybe think\nof that in two ways.",
+      "start": 171.6,
+      "duration": 1.71
+    },
+    {
+      "text": "AI helps us with\nour day to day jobs",
+      "start": 173.31,
+      "duration": 2.21
+    },
+    {
+      "text": "and building a quantum\ncomputer right now.",
+      "start": 175.52,
+      "duration": 1.822
+    },
+    {
+      "text": "But also a quantum computer\nhas the opportunity",
+      "start": 177.342,
+      "duration": 1.958
+    },
+    {
+      "text": "to enhance AI systems as well.",
+      "start": 179.3,
+      "duration": 2.072
+    },
+    {
+      "text": "SINEAD BOVELL: And we're\ngoing to get into some",
+      "start": 181.372,
+      "duration": 1.958
+    },
+    {
+      "text": "of the challenges with quantum.",
+      "start": 183.33,
+      "duration": 1.96
+    },
+    {
+      "text": "But I want to talk about\nsome of the possibilities.",
+      "start": 185.29,
+      "duration": 2.52
+    },
+    {
+      "text": "So why should we all\nbe paying attention",
+      "start": 187.81,
+      "duration": 2.96
+    },
+    {
+      "text": "to what's happening in quantum?",
+      "start": 190.77,
+      "duration": 1.72
+    },
+    {
+      "text": "What could theoretically\nbecome possible in a world",
+      "start": 192.49,
+      "duration": 2.81
+    },
+    {
+      "text": "with quantum computers?",
+      "start": 195.3,
+      "duration": 1.098
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 196.398,
+      "duration": 0.792
+    },
+    {
+      "text": "So there are a number\nof application areas",
+      "start": 197.19,
+      "duration": 2.19
+    },
+    {
+      "text": "that we've identified that\nquantum could be beneficial in.",
+      "start": 199.38,
+      "duration": 2.74
+    },
+    {
+      "text": "So for example, a\nquantum computer",
+      "start": 202.12,
+      "duration": 2.84
+    },
+    {
+      "text": "could be critical in the\ndrug discovery process.",
+      "start": 204.96,
+      "duration": 3.25
+    },
+    {
+      "text": "So for example, we have a\npaper from a few years ago",
+      "start": 208.21,
+      "duration": 3.32
+    },
+    {
+      "text": "where we worked on\nthis particular enzyme.",
+      "start": 211.53,
+      "duration": 2.71
+    },
+    {
+      "text": "It's called cytochrome\nP450 enzyme.",
+      "start": 214.24,
+      "duration": 2.19
+    },
+    {
+      "text": "And you could imagine if\nyou're a drug maker, one",
+      "start": 216.43,
+      "duration": 2.15
+    },
+    {
+      "text": "of the things you do is you make\nall these different candidate",
+      "start": 218.58,
+      "duration": 2.1
+    },
+    {
+      "text": "drugs.",
+      "start": 220.68,
+      "duration": 0.4
+    },
+    {
+      "text": "You work hard to\nbuild all of them.",
+      "start": 221.08,
+      "duration": 1.44
+    },
+    {
+      "text": "And then you don't\nknow how they're",
+      "start": 222.52,
+      "duration": 1.01
+    },
+    {
+      "text": "going to behave when they\ngo inside the human body.",
+      "start": 223.53,
+      "duration": 2.5
+    },
+    {
+      "text": "Some of them get\nmetabolized by this enzyme",
+      "start": 226.03,
+      "duration": 2.03
+    },
+    {
+      "text": "and immediately\ndon't work right.",
+      "start": 228.06,
+      "duration": 2.17
+    },
+    {
+      "text": "And the problem is\nyou can't predict",
+      "start": 230.23,
+      "duration": 2.147
+    },
+    {
+      "text": "which ones are going to work or\nwhich ones aren't, because you",
+      "start": 232.377,
+      "duration": 2.583
+    },
+    {
+      "text": "would have to then understand\nwhat quantum mechanics is",
+      "start": 234.96,
+      "duration": 2.292
+    },
+    {
+      "text": "going to do.",
+      "start": 237.252,
+      "duration": 0.598
+    },
+    {
+      "text": "So a quantum computer would\nallow you to basically figure",
+      "start": 237.85,
+      "duration": 2.375
+    },
+    {
+      "text": "out which drugs would or\nwould not be effective",
+      "start": 240.225,
+      "duration": 2.485
+    },
+    {
+      "text": "beforehand in simulation.",
+      "start": 242.71,
+      "duration": 1.693
+    },
+    {
+      "text": "And you wouldn't have\nto spend your time",
+      "start": 244.403,
+      "duration": 1.667
+    },
+    {
+      "text": "building all these candidate\ndrugs for a number of them",
+      "start": 246.07,
+      "duration": 2.97
+    },
+    {
+      "text": "to immediately fail.",
+      "start": 249.04,
+      "duration": 0.858
+    },
+    {
+      "text": "You could just focus\non the ones that",
+      "start": 249.898,
+      "duration": 1.542
+    },
+    {
+      "text": "are going to be more\neffective, which will just save",
+      "start": 251.44,
+      "duration": 2.167
+    },
+    {
+      "text": "time and money for everyone.",
+      "start": 253.607,
+      "duration": 1.293
+    },
+    {
+      "text": "SINEAD BOVELL: And\nI'm starting to sense",
+      "start": 254.9,
+      "duration": 0.95
+    },
+    {
+      "text": "some of that\nconvergence with what's",
+      "start": 255.85,
+      "duration": 1.89
+    },
+    {
+      "text": "happening in AI\nand drug discovery,",
+      "start": 257.74,
+      "duration": 1.719
+    },
+    {
+      "text": "and then eventually being able\nto model that with quantum.",
+      "start": 259.459,
+      "duration": 3.191
+    },
+    {
+      "text": "OK.",
+      "start": 262.65,
+      "duration": 0.5
+    },
+    {
+      "text": "So based on where the industry\nstands in this moment, when do",
+      "start": 263.15,
+      "duration": 4.04
+    },
+    {
+      "text": "you think quantum\ncomputers will actually be",
+      "start": 267.19,
+      "duration": 2.01
+    },
+    {
+      "text": "solving some of these problems?",
+      "start": 269.2,
+      "duration": 1.698
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 270.898,
+      "duration": 0.792
+    },
+    {
+      "text": "So that's a big goal for us.",
+      "start": 271.69,
+      "duration": 1.63
+    },
+    {
+      "text": "And we're optimistic that on the\ntime scale of about five years",
+      "start": 273.32,
+      "duration": 3.05
+    },
+    {
+      "text": "or so, we could be able to solve\na real world interesting problem",
+      "start": 276.37,
+      "duration": 3.24
+    },
+    {
+      "text": "on a quantum computer that\nwould be impossible to solve",
+      "start": 279.61,
+      "duration": 2.52
+    },
+    {
+      "text": "on a classical computer.",
+      "start": 282.13,
+      "duration": 1.6
+    },
+    {
+      "text": "SINEAD BOVELL: So just after\n2030, we'll give you a call",
+      "start": 283.73,
+      "duration": 3.29
+    },
+    {
+      "text": "and make sure it's\nall ready to go.",
+      "start": 287.02,
+      "duration": 2.33
+    },
+    {
+      "text": "OK.",
+      "start": 289.35,
+      "duration": 0.5
+    },
+    {
+      "text": "So about a year\nago, I was attending",
+      "start": 289.85,
+      "duration": 1.58
+    },
+    {
+      "text": "a conversation-- a conference.",
+      "start": 291.43,
+      "duration": 1.66
+    },
+    {
+      "text": "And I struck up a\nconversation with a professor",
+      "start": 293.09,
+      "duration": 1.97
+    },
+    {
+      "text": "of quantum mechanics.",
+      "start": 295.06,
+      "duration": 1.48
+    },
+    {
+      "text": "And he said something\nthat I will never forget.",
+      "start": 296.54,
+      "duration": 3.21
+    },
+    {
+      "text": "He said, the more you learn\nabout quantum mechanics,",
+      "start": 299.75,
+      "duration": 4.7
+    },
+    {
+      "text": "the less sense any of it makes.",
+      "start": 304.45,
+      "duration": 2.78
+    },
+    {
+      "text": "So in terms of the\nbreakthroughs that we're",
+      "start": 307.23,
+      "duration": 3.0
+    },
+    {
+      "text": "waiting for and\nactually building",
+      "start": 310.23,
+      "duration": 1.86
+    },
+    {
+      "text": "scalable, practical\ncomputers, is it",
+      "start": 312.09,
+      "duration": 2.76
+    },
+    {
+      "text": "breakthroughs in the hardware?",
+      "start": 314.85,
+      "duration": 1.93
+    },
+    {
+      "text": "Is it the software?",
+      "start": 316.78,
+      "duration": 1.46
+    },
+    {
+      "text": "Or is it understanding\nof the strange world",
+      "start": 318.24,
+      "duration": 3.42
+    },
+    {
+      "text": "of quantum physics?",
+      "start": 321.66,
+      "duration": 1.188
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 322.848,
+      "duration": 0.792
+    },
+    {
+      "text": "So there's maybe two\nparts to your question.",
+      "start": 323.64,
+      "duration": 2.91
+    },
+    {
+      "text": "The first one, I think it's so\ninteresting that quantum often",
+      "start": 326.55,
+      "duration": 3.72
+    },
+    {
+      "text": "gets this, oh,\nit's totally crazy.",
+      "start": 330.27,
+      "duration": 2.23
+    },
+    {
+      "text": "It's unapproachable.",
+      "start": 332.5,
+      "duration": 0.852
+    },
+    {
+      "text": "How could you really\nunderstand it?",
+      "start": 333.352,
+      "duration": 1.458
+    },
+    {
+      "text": "And I think what is so fun\nabout working on this project,",
+      "start": 334.81,
+      "duration": 4.367
+    },
+    {
+      "text": "and one of the things\nthat really drew me in",
+      "start": 339.177,
+      "duration": 1.833
+    },
+    {
+      "text": "is the fact that you really get\nto interact with quantum systems",
+      "start": 341.01,
+      "duration": 2.31
+    },
+    {
+      "text": "yourself.",
+      "start": 343.32,
+      "duration": 0.73
+    },
+    {
+      "text": "When you're a student in\nundergrad or graduate school,",
+      "start": 344.05,
+      "duration": 3.32
+    },
+    {
+      "text": "you run all these\nquantum equations.",
+      "start": 347.37,
+      "duration": 1.77
+    },
+    {
+      "text": "And it seems very\nintangible in some sense.",
+      "start": 349.14,
+      "duration": 2.217
+    },
+    {
+      "text": "It's like, oh, it's for things\nthat are really small or really",
+      "start": 351.357,
+      "duration": 2.583
+    },
+    {
+      "text": "cold you don't interact with.",
+      "start": 353.94,
+      "duration": 1.48
+    },
+    {
+      "text": "But when you actually have these\nquantum computers in the lab,",
+      "start": 355.42,
+      "duration": 2.583
+    },
+    {
+      "text": "you can play with them.",
+      "start": 358.003,
+      "duration": 1.097
+    },
+    {
+      "text": "You get to tinker with them.",
+      "start": 359.1,
+      "duration": 1.21
+    },
+    {
+      "text": "You actually can\nunderstand them.",
+      "start": 360.31,
+      "duration": 1.59
+    },
+    {
+      "text": "And you can build an intuition.",
+      "start": 361.9,
+      "duration": 1.317
+    },
+    {
+      "text": "And it's super fun because then\nquantum mechanics becomes just",
+      "start": 363.217,
+      "duration": 2.583
+    },
+    {
+      "text": "like another tool\nin your toolbox.",
+      "start": 365.8,
+      "duration": 2.92
+    },
+    {
+      "text": "And it's a very engaging\nproblem to work on.",
+      "start": 368.72,
+      "duration": 4.73
+    },
+    {
+      "text": "But going to the main thing\nthat you're asking about,",
+      "start": 373.45,
+      "duration": 3.9
+    },
+    {
+      "text": "there's a number of things we\nneed in order for a quantum",
+      "start": 377.35,
+      "duration": 3.96
+    },
+    {
+      "text": "computer to be useful.",
+      "start": 381.31,
+      "duration": 1.09
+    },
+    {
+      "text": "We need the hardware and\nwe need the software.",
+      "start": 382.4,
+      "duration": 3.21
+    },
+    {
+      "text": "The history of quantum computing\nis quite interesting in that",
+      "start": 385.61,
+      "duration": 3.755
+    },
+    {
+      "text": "in the mid-'90s or so, people\ncame up with these kind",
+      "start": 389.365,
+      "duration": 3.105
+    },
+    {
+      "text": "of application use\ncases to be like, oh,",
+      "start": 392.47,
+      "duration": 2.055
+    },
+    {
+      "text": "if only I had a\nquantum computer,",
+      "start": 394.525,
+      "duration": 1.375
+    },
+    {
+      "text": "I could do all this cool stuff.",
+      "start": 395.9,
+      "duration": 1.5
+    },
+    {
+      "text": "But the hardware was nowhere\nclose to that use case.",
+      "start": 397.4,
+      "duration": 4.68
+    },
+    {
+      "text": "So in some sense,\nthe hardware really",
+      "start": 402.08,
+      "duration": 1.91
+    },
+    {
+      "text": "has limited a lot of the\ndevelopment of these quantum",
+      "start": 403.99,
+      "duration": 3.21
+    },
+    {
+      "text": "computers to be able\nto make them performant",
+      "start": 407.2,
+      "duration": 2.31
+    },
+    {
+      "text": "enough to be interesting.",
+      "start": 409.51,
+      "duration": 1.45
+    },
+    {
+      "text": "That being said,\nit's a joint problem",
+      "start": 410.96,
+      "duration": 1.94
+    },
+    {
+      "text": "both on bringing\ndown the resource",
+      "start": 412.9,
+      "duration": 2.04
+    },
+    {
+      "text": "costs on the application\nand software side",
+      "start": 414.94,
+      "duration": 2.23
+    },
+    {
+      "text": "but also building\nup the hardware",
+      "start": 417.17,
+      "duration": 1.49
+    },
+    {
+      "text": "to be large and performant\nenough to meet in the middle",
+      "start": 418.66,
+      "duration": 2.72
+    },
+    {
+      "text": "until we really have that first\nreal world application use case.",
+      "start": 421.38,
+      "duration": 5.303
+    },
+    {
+      "text": "SINEAD BOVELL: And\nI think we have",
+      "start": 426.683,
+      "duration": 1.417
+    },
+    {
+      "text": "started to hear about\nprogress more frequently.",
+      "start": 428.1,
+      "duration": 3.97
+    },
+    {
+      "text": "In the last 18\nmonths, we've been",
+      "start": 432.07,
+      "duration": 1.478
+    },
+    {
+      "text": "hearing from multiple companies\ndifferent breakthroughs",
+      "start": 433.548,
+      "duration": 2.292
+    },
+    {
+      "text": "or milestones.",
+      "start": 435.84,
+      "duration": 0.73
+    },
+    {
+      "text": "Sorry.",
+      "start": 436.57,
+      "duration": 0.5
+    },
+    {
+      "text": "So for somebody who's\nnot in the field,",
+      "start": 437.07,
+      "duration": 2.62
+    },
+    {
+      "text": "how should we decipher what's\na breakthrough that matters",
+      "start": 439.69,
+      "duration": 3.8
+    },
+    {
+      "text": "and what is actually just hype?",
+      "start": 443.49,
+      "duration": 2.128
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 445.618,
+      "duration": 0.792
+    },
+    {
+      "text": "This is a really good question.",
+      "start": 446.41,
+      "duration": 1.292
+    },
+    {
+      "text": "And I'll say, even\nfor an expert,",
+      "start": 447.702,
+      "duration": 1.618
+    },
+    {
+      "text": "it can be difficult to look in\nthe media and decipher exactly",
+      "start": 449.32,
+      "duration": 4.34
+    },
+    {
+      "text": "what is important\nand what isn't.",
+      "start": 453.66,
+      "duration": 1.84
+    },
+    {
+      "text": "You really dig into the details.",
+      "start": 455.5,
+      "duration": 1.62
+    },
+    {
+      "text": "But I can offer maybe\nthree points of guidance",
+      "start": 457.12,
+      "duration": 2.57
+    },
+    {
+      "text": "that people can ask\nwhenever they're",
+      "start": 459.69,
+      "duration": 1.65
+    },
+    {
+      "text": "looking at some\ntype of announcement",
+      "start": 461.34,
+      "duration": 1.57
+    },
+    {
+      "text": "to get a sense of\nhow important it is.",
+      "start": 462.91,
+      "duration": 2.64
+    },
+    {
+      "text": "So number one, at the end of the\nday, we're building a computer.",
+      "start": 465.55,
+      "duration": 4.44
+    },
+    {
+      "text": "It might be a computer that\nruns on quantum mechanics",
+      "start": 469.99,
+      "duration": 2.337
+    },
+    {
+      "text": "but it's a computer.",
+      "start": 472.327,
+      "duration": 0.833
+    },
+    {
+      "text": "And computers have spec sheets.",
+      "start": 473.16,
+      "duration": 1.96
+    },
+    {
+      "text": "They have how big\nis your computer.",
+      "start": 475.12,
+      "duration": 2.4
+    },
+    {
+      "text": "How fast does it run?",
+      "start": 477.52,
+      "duration": 1.71
+    },
+    {
+      "text": "How does the\ninformation move around?",
+      "start": 479.23,
+      "duration": 1.95
+    },
+    {
+      "text": "How is the connectivity?",
+      "start": 481.18,
+      "duration": 1.23
+    },
+    {
+      "text": "And you can use\nthis to sort of cut",
+      "start": 482.41,
+      "duration": 2.49
+    },
+    {
+      "text": "through these big\nhypey announcements",
+      "start": 484.9,
+      "duration": 2.52
+    },
+    {
+      "text": "and say how powerful is\nthe thing that you built.",
+      "start": 487.42,
+      "duration": 3.04
+    },
+    {
+      "text": "So for example,\nrecently in December,",
+      "start": 490.46,
+      "duration": 2.007
+    },
+    {
+      "text": "we had this announcement\nof our chip Willow.",
+      "start": 492.467,
+      "duration": 1.833
+    },
+    {
+      "text": "And we very\ndeliberately attached",
+      "start": 494.3,
+      "duration": 1.73
+    },
+    {
+      "text": "a sort of specification\nsheet to be like, here's",
+      "start": 496.03,
+      "duration": 2.22
+    },
+    {
+      "text": "all the numbers that\nwe think that you",
+      "start": 498.25,
+      "duration": 1.29
+    },
+    {
+      "text": "need to know to understand what\nthis computer has the capability",
+      "start": 499.54,
+      "duration": 2.7
+    },
+    {
+      "text": "to do.",
+      "start": 502.24,
+      "duration": 1.02
+    },
+    {
+      "text": "And that's a guide that\nwhen you see something else,",
+      "start": 503.26,
+      "duration": 3.13
+    },
+    {
+      "text": "you can say, OK, well, now\ntell me a bit more about it",
+      "start": 506.39,
+      "duration": 2.49
+    },
+    {
+      "text": "if someone--",
+      "start": 508.88,
+      "duration": 1.85
+    },
+    {
+      "text": "yeah, just help ground\nyou at the end of the day.",
+      "start": 510.73,
+      "duration": 3.9
+    },
+    {
+      "text": "Number two is this\nsort of, will it scale?",
+      "start": 514.63,
+      "duration": 3.12
+    },
+    {
+      "text": "Some demonstrations are kind\nof small foundational things.",
+      "start": 517.75,
+      "duration": 4.044
+    },
+    {
+      "text": "But at the end of the day, we\nwant to build a large scale",
+      "start": 521.794,
+      "duration": 2.375
+    },
+    {
+      "text": "computer.",
+      "start": 524.169,
+      "duration": 0.911
+    },
+    {
+      "text": "And the third thing is, at the\nend of the day, the competition",
+      "start": 525.08,
+      "duration": 4.22
+    },
+    {
+      "text": "for a quantum computer really\nis a classical supercomputer.",
+      "start": 529.3,
+      "duration": 3.85
+    },
+    {
+      "text": "So if you're running something\non your quantum computer,",
+      "start": 533.15,
+      "duration": 2.37
+    },
+    {
+      "text": "but you can also do it on\na classical supercomputer,",
+      "start": 535.52,
+      "duration": 2.97
+    },
+    {
+      "text": "why should you care?",
+      "start": 538.49,
+      "duration": 1.135
+    },
+    {
+      "text": "That really, for us, is\nwhere we feel the bar is.",
+      "start": 539.625,
+      "duration": 2.545
+    },
+    {
+      "text": "We need to solve problems that\notherwise would be completely",
+      "start": 542.17,
+      "duration": 2.5
+    },
+    {
+      "text": "impossible on our\nquantum computers",
+      "start": 544.67,
+      "duration": 1.66
+    },
+    {
+      "text": "or we don't think that\nwe've done our job.",
+      "start": 546.33,
+      "duration": 1.795
+    },
+    {
+      "text": "SINEAD BOVELL: I see.",
+      "start": 548.125,
+      "duration": 0.875
+    },
+    {
+      "text": "OK.",
+      "start": 549.0,
+      "duration": 0.5
+    },
+    {
+      "text": "So now we know\nwhat counts as hype",
+      "start": 549.5,
+      "duration": 2.4
+    },
+    {
+      "text": "and to follow that spec sheet.",
+      "start": 551.9,
+      "duration": 1.51
+    },
+    {
+      "text": "So Google recently achieved\na significant milestone",
+      "start": 553.41,
+      "duration": 3.23
+    },
+    {
+      "text": "in quantum error correction\nwith its Willow chip.",
+      "start": 556.64,
+      "duration": 2.77
+    },
+    {
+      "text": "So can you provide\nsome context as",
+      "start": 559.41,
+      "duration": 2.21
+    },
+    {
+      "text": "to where this places Google in\nthe global landscape of quantum",
+      "start": 561.62,
+      "duration": 4.35
+    },
+    {
+      "text": "computing and why this\nbreakthrough was quite",
+      "start": 565.97,
+      "duration": 3.06
+    },
+    {
+      "text": "pivotal on the journey to\nscalable and practical quantum",
+      "start": 569.03,
+      "duration": 3.15
+    },
+    {
+      "text": "computers?",
+      "start": 572.18,
+      "duration": 0.5
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 572.68,
+      "duration": 0.792
+    },
+    {
+      "text": "So we're really excited\nabout this breakthrough",
+      "start": 573.472,
+      "duration": 2.248
+    },
+    {
+      "text": "in quantum error correction.",
+      "start": 575.72,
+      "duration": 1.18
+    },
+    {
+      "text": "And what we're able to\ndo with our Willow chip",
+      "start": 576.9,
+      "duration": 1.917
+    },
+    {
+      "text": "is meet an outstanding challenge\nthat's been in the field",
+      "start": 578.817,
+      "duration": 3.863
+    },
+    {
+      "text": "for 30 years.",
+      "start": 582.68,
+      "duration": 1.3
+    },
+    {
+      "text": "And what that is is that when\nthe theory of quantum error",
+      "start": 583.98,
+      "duration": 3.62
+    },
+    {
+      "text": "correction came out in\nthe mid-'90s, the thing",
+      "start": 587.6,
+      "duration": 2.075
+    },
+    {
+      "text": "that's tricky about it is\nyou actually have to make",
+      "start": 589.675,
+      "duration": 2.125
+    },
+    {
+      "text": "the hardware good enough\nin order for it to work.",
+      "start": 591.8,
+      "duration": 2.718
+    },
+    {
+      "text": "There's a threshold\nthat you have to cross.",
+      "start": 594.518,
+      "duration": 1.792
+    },
+    {
+      "text": "Otherwise it won't\nsolve your problem.",
+      "start": 596.31,
+      "duration": 2.64
+    },
+    {
+      "text": "And you can't make a\nmachine that's large scale.",
+      "start": 598.95,
+      "duration": 2.96
+    },
+    {
+      "text": "So in terms of maybe\nan analogy to make",
+      "start": 601.91,
+      "duration": 2.0
+    },
+    {
+      "text": "it a bit more\naccessible, imagine",
+      "start": 603.91,
+      "duration": 2.76
+    },
+    {
+      "text": "that there are a whole\nbunch of companies or teams",
+      "start": 606.67,
+      "duration": 3.21
+    },
+    {
+      "text": "trying to get into\nthe aviation industry.",
+      "start": 609.88,
+      "duration": 2.64
+    },
+    {
+      "text": "Suppose no one had ever\nbuilt a plane before.",
+      "start": 612.52,
+      "duration": 2.23
+    },
+    {
+      "text": "And you might have\na plane over here.",
+      "start": 614.75,
+      "duration": 2.31
+    },
+    {
+      "text": "It's like this one's\ngot two engines.",
+      "start": 617.06,
+      "duration": 2.472
+    },
+    {
+      "text": "How cool is that?",
+      "start": 619.532,
+      "duration": 0.708
+    },
+    {
+      "text": "This one's got two floors\nin, like, first class.",
+      "start": 620.24,
+      "duration": 2.1
+    },
+    {
+      "text": "And that one's got a cargo bay.",
+      "start": 622.34,
+      "duration": 1.677
+    },
+    {
+      "text": "And everyone's talking\nabout how we're",
+      "start": 624.017,
+      "duration": 1.583
+    },
+    {
+      "text": "going to fly people\nall over the world",
+      "start": 625.6,
+      "duration": 2.04
+    },
+    {
+      "text": "and do logistics\nand stuff like that.",
+      "start": 627.64,
+      "duration": 1.78
+    },
+    {
+      "text": "But the planes need to\nfly at the end of the day.",
+      "start": 629.42,
+      "duration": 3.54
+    },
+    {
+      "text": "They need to be able\nto sustain flight.",
+      "start": 632.96,
+      "duration": 1.89
+    },
+    {
+      "text": "And in some sense,\nthis is showing",
+      "start": 634.85,
+      "duration": 1.88
+    },
+    {
+      "text": "that Willow, this\nchip that we made,",
+      "start": 636.73,
+      "duration": 2.07
+    },
+    {
+      "text": "can actually do that in the\ncontext of error correction,",
+      "start": 638.8,
+      "duration": 2.77
+    },
+    {
+      "text": "can pass this\nthreshold of liftoff",
+      "start": 641.57,
+      "duration": 3.92
+    },
+    {
+      "text": "and sustaining its flight.",
+      "start": 645.49,
+      "duration": 1.42
+    },
+    {
+      "text": "And that's really a foundational\nrequirement in order",
+      "start": 646.91,
+      "duration": 2.57
+    },
+    {
+      "text": "to build and scale up\nto larger computers.",
+      "start": 649.48,
+      "duration": 3.31
+    },
+    {
+      "text": "SINEAD BOVELL: Really\nhelpful analogy.",
+      "start": 652.79,
+      "duration": 2.06
+    },
+    {
+      "text": "OK.",
+      "start": 654.85,
+      "duration": 0.64
+    },
+    {
+      "text": "So in the world of AI,\nwe hear a lot about AGI.",
+      "start": 655.49,
+      "duration": 3.96
+    },
+    {
+      "text": "That is the kind of\nHoly Grail moment.",
+      "start": 659.45,
+      "duration": 2.19
+    },
+    {
+      "text": "It is the moment where\neverything changes.",
+      "start": 661.64,
+      "duration": 2.38
+    },
+    {
+      "text": "Is there a particular\nmoment in quantum",
+      "start": 664.02,
+      "duration": 3.68
+    },
+    {
+      "text": "that would be considered\nthe AGI moment of quantum",
+      "start": 667.7,
+      "duration": 2.8
+    },
+    {
+      "text": "where everything changes\nfrom that point forward?",
+      "start": 670.5,
+      "duration": 2.208
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 672.708,
+      "duration": 0.792
+    },
+    {
+      "text": "I think a moment\nthat you could look",
+      "start": 673.5,
+      "duration": 1.5
+    },
+    {
+      "text": "to that would be sort of\nan undeniable breakthrough",
+      "start": 675.0,
+      "duration": 2.9
+    },
+    {
+      "text": "is that if you can solve\nthis, a practical, real world",
+      "start": 677.9,
+      "duration": 4.56
+    },
+    {
+      "text": "application, and then do that\non an error-corrected computer--",
+      "start": 682.46,
+      "duration": 3.818
+    },
+    {
+      "text": "and the reason that\nthis is so important is",
+      "start": 686.278,
+      "duration": 1.792
+    },
+    {
+      "text": "the sort of you've\ncrossed this 0 to 1",
+      "start": 688.07,
+      "duration": 1.98
+    },
+    {
+      "text": "moment of quantum computing\nbecause you've not only",
+      "start": 690.05,
+      "duration": 3.09
+    },
+    {
+      "text": "got a real world application\nbut you've done it",
+      "start": 693.14,
+      "duration": 2.1
+    },
+    {
+      "text": "on this foundation that can\nthen be incrementally improved",
+      "start": 695.24,
+      "duration": 3.27
+    },
+    {
+      "text": "and will go into the\nfuture starting up",
+      "start": 698.51,
+      "duration": 2.8
+    },
+    {
+      "text": "you could imagine a\nvirtuous cycle or a Moore's",
+      "start": 701.31,
+      "duration": 2.9
+    },
+    {
+      "text": "law for quantum\ncomputing in that case,",
+      "start": 704.21,
+      "duration": 2.35
+    },
+    {
+      "text": "be much more predictable, and\nunderstandable, and reliable.",
+      "start": 706.56,
+      "duration": 3.51
+    },
+    {
+      "text": "And I think at that point,\nit would be undeniable",
+      "start": 710.07,
+      "duration": 3.05
+    },
+    {
+      "text": "that this new computing\nparadigm is here.",
+      "start": 713.12,
+      "duration": 2.535
+    },
+    {
+      "text": "It can do things\nthat are useful.",
+      "start": 715.655,
+      "duration": 1.375
+    },
+    {
+      "text": "And we can see how it's going\nto move into the future.",
+      "start": 717.03,
+      "duration": 2.73
+    },
+    {
+      "text": "SINEAD BOVELL: And\nis there an acronym?",
+      "start": 719.76,
+      "duration": 1.625
+    },
+    {
+      "text": "Is there a QGI somewhere\nthat we can find?",
+      "start": 721.385,
+      "duration": 2.185
+    },
+    {
+      "text": "JULIAN KELLY: That's\na great question.",
+      "start": 723.57,
+      "duration": 0.97
+    },
+    {
+      "text": "I don't think we have a--",
+      "start": 724.54,
+      "duration": 1.19
+    },
+    {
+      "text": "or I'm not aware of a cute\nnickname for that yet.",
+      "start": 725.73,
+      "duration": 2.065
+    },
+    {
+      "text": "We should probably get one.",
+      "start": 727.795,
+      "duration": 1.125
+    },
+    {
+      "text": "SINEAD BOVELL: And so how\ncan the average person",
+      "start": 728.92,
+      "duration": 2.09
+    },
+    {
+      "text": "expect quantum computers\nto be a part of their life?",
+      "start": 731.01,
+      "duration": 2.98
+    },
+    {
+      "text": "Am I on my laptop and then I\ngo into a quantum application",
+      "start": 733.99,
+      "duration": 3.14
+    },
+    {
+      "text": "or a problem that's unique\nfor quantum computers",
+      "start": 737.13,
+      "duration": 2.8
+    },
+    {
+      "text": "or can we expect the line\nof quantum-first devices",
+      "start": 739.93,
+      "duration": 3.44
+    },
+    {
+      "text": "in the pipeline?",
+      "start": 743.37,
+      "duration": 1.095
+    },
+    {
+      "text": "JULIAN KELLY: The way that we're\nthinking about it right now is",
+      "start": 744.465,
+      "duration": 2.625
+    },
+    {
+      "text": "that you have to rewind\nyourself a number of decades",
+      "start": 747.09,
+      "duration": 5.13
+    },
+    {
+      "text": "on the classical\ncomputing front.",
+      "start": 752.22,
+      "duration": 1.72
+    },
+    {
+      "text": "We're kind of building, in some\nsense, these quantum mainframes",
+      "start": 753.94,
+      "duration": 3.26
+    },
+    {
+      "text": "that people would dial into\noriginally for specialized",
+      "start": 757.2,
+      "duration": 3.54
+    },
+    {
+      "text": "problems.",
+      "start": 760.74,
+      "duration": 0.79
+    },
+    {
+      "text": "So we talked a bit about\nthe drug discovery one.",
+      "start": 761.53,
+      "duration": 4.52
+    },
+    {
+      "text": "Quantum computing also has\napplications in, for example,",
+      "start": 766.05,
+      "duration": 2.86
+    },
+    {
+      "text": "optimization is\npotential benefit.",
+      "start": 768.91,
+      "duration": 2.43
+    },
+    {
+      "text": "There's other cases like\nin industrial chemistry,",
+      "start": 771.34,
+      "duration": 2.45
+    },
+    {
+      "text": "like fertilizer production.",
+      "start": 773.79,
+      "duration": 1.6
+    },
+    {
+      "text": "It could greatly\nenhance the process",
+      "start": 775.39,
+      "duration": 2.66
+    },
+    {
+      "text": "to make that reduce\nthe amount of energy.",
+      "start": 778.05,
+      "duration": 1.9
+    },
+    {
+      "text": "So the initial use cases\nthat we have targeted",
+      "start": 779.95,
+      "duration": 3.31
+    },
+    {
+      "text": "are very focused on these\nbig scientific and industrial",
+      "start": 783.26,
+      "duration": 3.36
+    },
+    {
+      "text": "questions.",
+      "start": 786.62,
+      "duration": 1.03
+    },
+    {
+      "text": "That being said, I think that\nif you were to ask someone",
+      "start": 787.65,
+      "duration": 4.13
+    },
+    {
+      "text": "in the '50s, or '60s, or\n'70s about where you thought",
+      "start": 791.78,
+      "duration": 2.783
+    },
+    {
+      "text": "computing was going, I don't\nthink anyone would have",
+      "start": 794.563,
+      "duration": 2.167
+    },
+    {
+      "text": "predicted the type of technology\nthat you see around us today",
+      "start": 796.73,
+      "duration": 3.6
+    },
+    {
+      "text": "or was just shown\noff here as well.",
+      "start": 800.33,
+      "duration": 2.95
+    },
+    {
+      "text": "So that's a couple\nsteps in the future.",
+      "start": 803.28,
+      "duration": 2.49
+    },
+    {
+      "text": "I don't know of any\nsuper clear use case",
+      "start": 805.77,
+      "duration": 3.41
+    },
+    {
+      "text": "to say one way or the other.",
+      "start": 809.18,
+      "duration": 1.33
+    },
+    {
+      "text": "But yeah.",
+      "start": 810.51,
+      "duration": 1.11
+    },
+    {
+      "text": "I think it's a good\nmental model in terms",
+      "start": 811.62,
+      "duration": 2.24
+    },
+    {
+      "text": "of where we are in\nquantum computing",
+      "start": 813.86,
+      "duration": 1.507
+    },
+    {
+      "text": "as compared to looking at the\nhistory of the development",
+      "start": 815.367,
+      "duration": 2.333
+    },
+    {
+      "text": "of classical computing.",
+      "start": 817.7,
+      "duration": 1.35
+    },
+    {
+      "text": "SINEAD BOVELL: Because famously,\nAndy Grove, CEO of Intel,",
+      "start": 819.05,
+      "duration": 3.03
+    },
+    {
+      "text": "in 1992 said, the\nidea of a smartphone",
+      "start": 822.08,
+      "duration": 3.06
+    },
+    {
+      "text": "was nothing more than a\npipe dream fueled by greed.",
+      "start": 825.14,
+      "duration": 3.48
+    },
+    {
+      "text": "And now here we are.",
+      "start": 828.62,
+      "duration": 1.4
+    },
+    {
+      "text": "JULIAN KELLY: And there's\na nice quote, I think,",
+      "start": 830.02,
+      "duration": 2.0
+    },
+    {
+      "text": "from IBM at some point in\nthe 1900s about we think that",
+      "start": 832.02,
+      "duration": 4.19
+    },
+    {
+      "text": "there's only like a desire for\nfive computers in the entire",
+      "start": 836.21,
+      "duration": 2.537
+    },
+    {
+      "text": "world, which is that's clearly\nnot where we're at today.",
+      "start": 838.747,
+      "duration": 2.333
+    },
+    {
+      "text": "SINEAD BOVELL: Meanwhile,\ncomputers driving us around now.",
+      "start": 841.08,
+      "duration": 2.4
+    },
+    {
+      "text": "OK.",
+      "start": 843.48,
+      "duration": 0.5
+    },
+    {
+      "text": "So a big question.",
+      "start": 843.98,
+      "duration": 1.78
+    },
+    {
+      "text": "Are quantum computers going\nto break the internet?",
+      "start": 845.76,
+      "duration": 3.81
+    },
+    {
+      "text": "And if so-- or break encryption.",
+      "start": 849.57,
+      "duration": 2.8
+    },
+    {
+      "text": "And if so, what should every\ngovernment and every holder",
+      "start": 852.37,
+      "duration": 3.8
+    },
+    {
+      "text": "of Bitcoin be doing\ntoday to prepare",
+      "start": 856.17,
+      "duration": 2.58
+    },
+    {
+      "text": "for what experts call Q Day?",
+      "start": 858.75,
+      "duration": 1.938
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 860.688,
+      "duration": 0.792
+    },
+    {
+      "text": "So I think the kind of\napplication to encryption",
+      "start": 861.48,
+      "duration": 3.69
+    },
+    {
+      "text": "has been something that's\nbeen known for over 30",
+      "start": 865.17,
+      "duration": 2.627
+    },
+    {
+      "text": "years at this point.",
+      "start": 867.797,
+      "duration": 0.833
+    },
+    {
+      "text": "It was discovered\nin the mid-'90s.",
+      "start": 868.63,
+      "duration": 1.5
+    },
+    {
+      "text": "And I think the fact\nthat you're asking me",
+      "start": 870.13,
+      "duration": 2.03
+    },
+    {
+      "text": "about it is actually really\ngreat evidence that this is sort",
+      "start": 872.16,
+      "duration": 2.5
+    },
+    {
+      "text": "of a well understood issue.",
+      "start": 874.66,
+      "duration": 2.78
+    },
+    {
+      "text": "There are government\ninstitutions like NIST,",
+      "start": 877.44,
+      "duration": 2.345
+    },
+    {
+      "text": "for example, that are\nleading the way in developing",
+      "start": 879.785,
+      "duration": 2.125
+    },
+    {
+      "text": "post-quantum\ncryptography protocols.",
+      "start": 881.91,
+      "duration": 2.17
+    },
+    {
+      "text": "And I think we're\nworking to support them.",
+      "start": 884.08,
+      "duration": 1.93
+    },
+    {
+      "text": "We're collaborating with them.",
+      "start": 886.01,
+      "duration": 1.25
+    },
+    {
+      "text": "And I think it's important that\nwe get those sort of rolled out",
+      "start": 887.26,
+      "duration": 4.61
+    },
+    {
+      "text": "to everyone.",
+      "start": 891.87,
+      "duration": 0.85
+    },
+    {
+      "text": "That being said, in terms\nof maybe an analogy, one",
+      "start": 892.72,
+      "duration": 3.53
+    },
+    {
+      "text": "to think about is something like\nY2K where people were really",
+      "start": 896.25,
+      "duration": 4.38
+    },
+    {
+      "text": "worried about this.",
+      "start": 900.63,
+      "duration": 2.09
+    },
+    {
+      "text": "Some people are\nthinking, oh, the planes",
+      "start": 902.72,
+      "duration": 1.853
+    },
+    {
+      "text": "are going to fall out of\nthe sky and the whole world",
+      "start": 904.573,
+      "duration": 2.167
+    },
+    {
+      "text": "is going to shut down.",
+      "start": 906.74,
+      "duration": 0.85
+    },
+    {
+      "text": "But people are very\naware of the issue.",
+      "start": 907.59,
+      "duration": 1.65
+    },
+    {
+      "text": "And then people did all the prep\nwork to get everything in order.",
+      "start": 909.24,
+      "duration": 3.703
+    },
+    {
+      "text": "And then when it\nactually came, it",
+      "start": 912.943,
+      "duration": 1.417
+    },
+    {
+      "text": "was a bit of a nothing burger.",
+      "start": 914.36,
+      "duration": 1.86
+    },
+    {
+      "text": "And it's a little bit of a\nbutt of jokes at some times.",
+      "start": 916.22,
+      "duration": 3.13
+    },
+    {
+      "text": "I mean, you have to do\nthe preparation for it.",
+      "start": 919.35,
+      "duration": 3.39
+    },
+    {
+      "text": "But that's a kind of\nexample to keep in mind.",
+      "start": 922.74,
+      "duration": 2.55
+    },
+    {
+      "text": "SINEAD BOVELL: So December 2029,\nif you are holding Bitcoin,",
+      "start": 925.29,
+      "duration": 3.32
+    },
+    {
+      "text": "you might be able to still hold.",
+      "start": 928.61,
+      "duration": 2.35
+    },
+    {
+      "text": "OK.",
+      "start": 930.96,
+      "duration": 0.5
+    },
+    {
+      "text": "So we've established\nquantum computers,",
+      "start": 931.46,
+      "duration": 2.14
+    },
+    {
+      "text": "they are coming\neventually and that we",
+      "start": 933.6,
+      "duration": 2.48
+    },
+    {
+      "text": "do have to do some migration\nfor the post-quantum world,",
+      "start": 936.08,
+      "duration": 4.05
+    },
+    {
+      "text": "the post-world of encryption.",
+      "start": 940.13,
+      "duration": 1.48
+    },
+    {
+      "text": "Who is responsible for preparing\nthe world for this, especially",
+      "start": 941.61,
+      "duration": 3.65
+    },
+    {
+      "text": "a problem that spans\ngovernments, industries,",
+      "start": 945.26,
+      "duration": 2.05
+    },
+    {
+      "text": "and billions of devices?",
+      "start": 947.31,
+      "duration": 1.38
+    },
+    {
+      "text": "Who's actually overseeing this?",
+      "start": 948.69,
+      "duration": 1.292
+    },
+    {
+      "text": "JULIAN KELLY: I mean I think\nwe're really looking, again,",
+      "start": 949.982,
+      "duration": 2.375
+    },
+    {
+      "text": "to leadership from\ninstitutions like NIST",
+      "start": 952.357,
+      "duration": 2.053
+    },
+    {
+      "text": "to help set the standard.",
+      "start": 954.41,
+      "duration": 1.9
+    },
+    {
+      "text": "And then we can support\nthat in any way that we can",
+      "start": 956.31,
+      "duration": 3.2
+    },
+    {
+      "text": "in terms of product\nintegration, for example,",
+      "start": 959.51,
+      "duration": 1.9
+    },
+    {
+      "text": "with things that we've\nalready started to work on.",
+      "start": 961.41,
+      "duration": 2.38
+    },
+    {
+      "text": "But I think that's\nwhere we look to.",
+      "start": 963.79,
+      "duration": 2.382
+    },
+    {
+      "text": "SINEAD BOVELL: So it's\nkind of in collaboration",
+      "start": 966.172,
+      "duration": 1.958
+    },
+    {
+      "text": "with the academic side,\nwith government side,",
+      "start": 968.13,
+      "duration": 2.563
+    },
+    {
+      "text": "and with the private sector.",
+      "start": 970.693,
+      "duration": 1.167
+    },
+    {
+      "text": "JULIAN KELLY: That's right.",
+      "start": 971.86,
+      "duration": 1.125
+    },
+    {
+      "text": "SINEAD BOVELL: So in a recent\nblog post published by Google,",
+      "start": 972.985,
+      "duration": 4.445
+    },
+    {
+      "text": "it was written that quantum\ncomputers could one day prove",
+      "start": 977.43,
+      "duration": 4.02
+    },
+    {
+      "text": "that we may live\nin a multiverse.",
+      "start": 981.45,
+      "duration": 3.37
+    },
+    {
+      "text": "So in your opinion, do we?",
+      "start": 984.82,
+      "duration": 2.6
+    },
+    {
+      "text": "And if so, what do\nquantum scientists know",
+      "start": 987.42,
+      "duration": 3.03
+    },
+    {
+      "text": "that the rest of us do not?",
+      "start": 990.45,
+      "duration": 2.26
+    },
+    {
+      "text": "JULIAN KELLY: So this\nis a very fun question",
+      "start": 992.71,
+      "duration": 5.15
+    },
+    {
+      "text": "for quantum physicists that\ngoes back about 100 years or so.",
+      "start": 997.86,
+      "duration": 3.76
+    },
+    {
+      "text": "This is like the 100th year of\nquantum that we're celebrating",
+      "start": 1001.62,
+      "duration": 3.14
+    },
+    {
+      "text": "this year.",
+      "start": 1004.76,
+      "duration": 0.7
+    },
+    {
+      "text": "And one of the things that\nthis fundamentally stems from",
+      "start": 1005.46,
+      "duration": 4.16
+    },
+    {
+      "text": "is that there's this--",
+      "start": 1009.62,
+      "duration": 2.67
+    },
+    {
+      "text": "it seems in some cases\nthere's two rules that govern",
+      "start": 1012.29,
+      "duration": 4.56
+    },
+    {
+      "text": "how quantum systems work.",
+      "start": 1016.85,
+      "duration": 1.91
+    },
+    {
+      "text": "You just use one\nset of equations",
+      "start": 1018.76,
+      "duration": 2.012
+    },
+    {
+      "text": "and you do like a\nmeasurement at the end.",
+      "start": 1020.772,
+      "duration": 1.708
+    },
+    {
+      "text": "And we call it the\nmeasurement problem.",
+      "start": 1022.48,
+      "duration": 1.77
+    },
+    {
+      "text": "And what this does is we\nknow extremely well how",
+      "start": 1024.25,
+      "duration": 3.89
+    },
+    {
+      "text": "quantum systems work.",
+      "start": 1028.14,
+      "duration": 1.09
+    },
+    {
+      "text": "It's one of the best\nunderstood and measured",
+      "start": 1029.23,
+      "duration": 2.03
+    },
+    {
+      "text": "theories in physics.",
+      "start": 1031.26,
+      "duration": 1.24
+    },
+    {
+      "text": "It's been tested very\nrigorously in all",
+      "start": 1032.5,
+      "duration": 2.15
+    },
+    {
+      "text": "these different applications.",
+      "start": 1034.65,
+      "duration": 2.52
+    },
+    {
+      "text": "But there's this\none key point where",
+      "start": 1037.17,
+      "duration": 2.07
+    },
+    {
+      "text": "it's left up to interpretation.",
+      "start": 1039.24,
+      "duration": 2.29
+    },
+    {
+      "text": "And so one of the\ninterpretations",
+      "start": 1041.53,
+      "duration": 2.222
+    },
+    {
+      "text": "is called the many-worlds\ninterpretation.",
+      "start": 1043.752,
+      "duration": 1.708
+    },
+    {
+      "text": "There's the Copenhagen\ninterpretation.",
+      "start": 1045.46,
+      "duration": 1.68
+    },
+    {
+      "text": "And there's others as well.",
+      "start": 1047.14,
+      "duration": 2.61
+    },
+    {
+      "text": "My personal taste is I'm\nvery much an experimentalist.",
+      "start": 1049.75,
+      "duration": 4.5
+    },
+    {
+      "text": "And if I want to--",
+      "start": 1054.25,
+      "duration": 3.182
+    },
+    {
+      "text": "I spend my time\nthinking about things",
+      "start": 1057.432,
+      "duration": 1.668
+    },
+    {
+      "text": "that I can construct a\nvery clear hypothesis for.",
+      "start": 1059.1,
+      "duration": 2.71
+    },
+    {
+      "text": "So like until we're\nkind of at that moment,",
+      "start": 1061.81,
+      "duration": 2.36
+    },
+    {
+      "text": "I will say, honestly,\nfor me personally,",
+      "start": 1064.17,
+      "duration": 2.5
+    },
+    {
+      "text": "not something I think\nabout that much,",
+      "start": 1066.67,
+      "duration": 1.59
+    },
+    {
+      "text": "but I know a lot of\nother people really",
+      "start": 1068.26,
+      "duration": 1.76
+    },
+    {
+      "text": "enjoy the kind of\nphilosophical debate of what",
+      "start": 1070.02,
+      "duration": 2.79
+    },
+    {
+      "text": "quantum mechanics means.",
+      "start": 1072.81,
+      "duration": 1.33
+    },
+    {
+      "text": "SINEAD BOVELL: Yeah.",
+      "start": 1074.14,
+      "duration": 0.833
+    },
+    {
+      "text": "I think a lot of people inferred\nbecause Willow chip helped",
+      "start": 1074.973,
+      "duration": 2.517
+    },
+    {
+      "text": "to solve a problem that would\nhave taken a classical computer",
+      "start": 1077.49,
+      "duration": 2.91
+    },
+    {
+      "text": "longer than the age of the\nuniverse to solve, well,",
+      "start": 1080.4,
+      "duration": 3.45
+    },
+    {
+      "text": "therefore, it must\nprove that there's",
+      "start": 1083.85,
+      "duration": 1.73
+    },
+    {
+      "text": "some multiverses going on.",
+      "start": 1085.58,
+      "duration": 2.05
+    },
+    {
+      "text": "But I guess that's up to the\nbeholder in terms of how they're",
+      "start": 1087.63,
+      "duration": 2.78
+    },
+    {
+      "text": "interpreting that.",
+      "start": 1090.41,
+      "duration": 1.0
+    },
+    {
+      "text": "JULIAN KELLY: Yeah.",
+      "start": 1091.41,
+      "duration": 0.36
+    },
+    {
+      "text": "I mean, I think it's also just\nlike another really good test",
+      "start": 1091.77,
+      "duration": 2.57
+    },
+    {
+      "text": "of quantum mechanics\nbecause, honestly,",
+      "start": 1094.34,
+      "duration": 3.04
+    },
+    {
+      "text": "before we were able to start\ndoing these demonstrations,",
+      "start": 1097.38,
+      "duration": 3.36
+    },
+    {
+      "text": "people still had\nthese suspicions that,",
+      "start": 1100.74,
+      "duration": 1.71
+    },
+    {
+      "text": "hey, maybe when you get a really\nbig, controllable, fine-tuned",
+      "start": 1102.45,
+      "duration": 2.798
+    },
+    {
+      "text": "quantum system,\nyou're going to start",
+      "start": 1105.248,
+      "duration": 1.542
+    },
+    {
+      "text": "to see some deviations\nfrom the underlying theory",
+      "start": 1106.79,
+      "duration": 4.08
+    },
+    {
+      "text": "That was just sort of a hunch\nor a concern that people had.",
+      "start": 1110.87,
+      "duration": 3.97
+    },
+    {
+      "text": "And we haven't seen that.",
+      "start": 1114.84,
+      "duration": 1.532
+    },
+    {
+      "text": "In fact, we just\nhave more evidence",
+      "start": 1116.372,
+      "duration": 1.458
+    },
+    {
+      "text": "that quantum mechanics works\nthe way that we think it does,",
+      "start": 1117.83,
+      "duration": 3.34
+    },
+    {
+      "text": "which is [? really-- ?]\nit's pretty interesting.",
+      "start": 1121.17,
+      "duration": 4.81
+    },
+    {
+      "text": "SINEAD BOVELL: Alrighty.",
+      "start": 1125.98,
+      "duration": 1.0
+    },
+    {
+      "text": "Thank you so much, Julian.",
+      "start": 1126.98,
+      "duration": 1.127
+    },
+    {
+      "text": "This was a pleasure.",
+      "start": 1128.107,
+      "duration": 0.833
+    },
+    {
+      "text": "Thank you all.",
+      "start": 1128.94,
+      "duration": 0.95
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1129.89,
+      "duration": 1.0
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1131.39,
+      "duration": 3.05
+    }
+  ]
+}

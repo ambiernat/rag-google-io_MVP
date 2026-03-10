@@ -1,0 +1,112 @@
+[
+  {
+    "id": "6eTiMIhtnBA__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 6.919,
+    "timestamp_end": 171.68,
+    "text": "Hello, welcome to this session about Gemini Cloud Assist. My name is Leanit. I'm a developer relations engineer at Google Cloud. Today I'm going to review the new capabilities of Gemini Cloud Assist that were announced during Cloud Next. Let me start with a short overview of what is new and then move to realtime demonstration of the new products. Some of the products that you will see are in preview but available to all Google Cloud users. I encourage you to try them in your respective environments. Google Cloud manages resources and projects. Any resource that you create like a virtual machine or a service account belongs to a single project. This traditional resource centric approach introduces a large amount of complexity to application design, deployment and management. It is especially hard when applications cross project boundaries. This forces application and platform developers to translate application design into low-level infrastructure architectures. Operators are faced with additional challenges when they need to troubleshoot application functions going through the maze of cloud infrastructures in search for the application's footprint. Other tasks such as capacity planning or cost optimization also require continuous translation between application business model and cloud resources. Recognizing these challenges, Google has been placing AI at the center of your Google Cloud experience. By today, you have been seeing Gemini across multiple areas of Google Cloud. To improve application management and operations, Google Cloud leverages Gemini's state-of-the-art models to help you perform application life cycle tasks. This assistance is focused on three areas. Design operations and optimization of your applications. I'll demonstrate how Gemini helps to manage applications related tasks in the demo. Let's zoom in into these three areas of the application life cycle. When doing design, we need to answer many questions. What is the right services required to run the application? How should the services",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 150.8,
+    "timestamp_end": 302.72,
+    "text": "related tasks in the demo. Let's zoom in into these three areas of the application life cycle. When doing design, we need to answer many questions. What is the right services required to run the application? How should the services interact between themselves to follow the recommended architectural patterns to do it in a secure way? Moving to operations, one of the critical tasks is to find the quickest way to mitigate the failure. answer questions like is it a problem in my application or is it an infrastructure problem and similarly when the application is operational reduce the ways to optimize capacity management or track and reduce operational costs in each area. Gemini Cloud Assist provides you with tools and best practices to complete your tasks. Gemini Cloud Assist helps to utilize best practices when designing your application, providing you with Terraform scripts for deploying your application and identifying a specific component that experience a problem. Using Gemini Cloud Assist, you can see the usage of your resources and control operational costs in an application centric view. This is the vision of AIdriven application management. How does Gemini cloud assist address all these questions? The cloud assist stack look like this. At the base level, it has a collection of information providers. They are integrations or what we call agents that use Google services such as resource manager, asset inventory, and cloud monitoring to retrieve information about your application and its infrastructure. The next level is an application hub, a platform for managing workloads and resources in an application ccentric way. We will see some functions of the application hub in the demo. On top of app, there are new products including cloud hub, investigations, application design center and other that support users operations in application match. They help to design, operate, and optimize workloads, resources, and assets of your application. With the help of Gemini AI models, developers and platform",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 282.32,
+    "timestamp_end": 468.0,
+    "text": "design center and other that support users operations in application match. They help to design, operate, and optimize workloads, resources, and assets of your application. With the help of Gemini AI models, developers and platform engineers no longer need to search for resources that are relevant to their applications across projects and cloud console views. Using these products, they access and operate application data and resources directly. Now, Gemini Cloud Assist has a holistic view based on authoritative product knowledge, contextbased resource inspections, and upto-date information retrieval on one side and user input using natural language prompts and interactive UI widgets from different devices on another. After this introduction, let's see how this new Gemini Cloud Assist products work in practice. I'd like to begin the demo with uh the new version of the Gemini Cloud Assist chat. The new version of the chat is currently in preview. Uh let me open it in the full page to see responses better. Like in the previous version, chat helps you perform operations on Google Cloud. Let me show you an example. I want uh to get assistance with creating a new instance of the MySQL database and chat provides me with a G-Cloud command that does exactly what I asked it to do. The new version uh supports now Terraform. So I can make use of the cont context awareness and ask for the terraform script that performs the operation that I asked for in the previous prompt. And here I get uh the valid Terraform resource defining this uh new instance of the cloud SQL. uh and you can see the additional explanations. Chat is especially helpful when you try to perform some operations that require extensive uh searching documentation. One good example of this is uh a search for IM ro that helps you or allows you to perform a certain operation. Here I asked for IM role required to be able to view and download objects from cloud storage. I received the name of the role. It is storage object viewer and the G-Cloud command that performs this",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 449.199,
+    "timestamp_end": 659.56,
+    "text": "a certain operation. Here I asked for IM role required to be able to view and download objects from cloud storage. I received the name of the role. It is storage object viewer and the G-Cloud command that performs this operation. New version of the chat understands the context of the currently selected project. So I can inquire about resources in my project. For example, I asked right now uh about total number of virtual machines I have in my project. Uh in the response you can see uh a widget uh in with a link to asset inventory. If I uh switch to the asset inventory using this link, I will get uh uh the context from the chat SQL query that returns the total number of machines that I can execute or modify uh to get other results. However, if you don't like to deal with SQL, you can do the same from the chat. Here is a slightly modified version of the previous prompt asking for the virtual machines that were provisioned in US central region. Uh you can see there are nine out of 11 machines, virtual machines that were provisioned in the US central region. However, all these operations as you can see they are resourceoriented. What about application centric approach? When we work with application, we usually begin with creating a design of our application. Let's prompt a chat for help to design a three tier web application. The response includes overall description of the design and short design diagram. Let me open the design in the preview window. The response of the chat was just another type of the widget as you can see. And then it opens a preview. Uh we can see that uh the suggested design follows best uh practices uh recommended for the applications deployed to cloud run whereas the front- end service uh is placed behind the Google uh global load balancer for protection and uh support for uh scaling and other operations. and uh it uses secret manager to maintain secrets such as password for the my uh SQL database. Now uh you can't uh you can uh do almost nothing with the current format. You can briefly review the",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 633.92,
+    "timestamp_end": 846.199,
+    "text": "and other operations. and uh it uses secret manager to maintain secrets such as password for the my uh SQL database. Now uh you can't uh you can uh do almost nothing with the current format. You can briefly review the configuration properties of each of the component but you have uh ability to open this design in application design center. As I previously mentioned, application design center is one of the new products uh allowing you to operate in uh application centric approach. uh in opposite to the uh uh resource ccentric approach which which works on the project level. This uh application design center requires uh to maintain application at the folder level. So we have opened application design center in the precreated uh application folder and here we have a prompt to continue uh with the design created in Gemini chat. So the first step is to create uh a template. Let's write uh demo template one. Let's create a new template. Uh a template is a way for you to manage your designs and uh you can share the templates with your designs with other team members across your organization. Here uh at the template level you can see all components and you can access component configurations. For example, you can define uh additional containers for your cloud run service or you can use uh different components available to uh enrich you or modify the suggested design. Now this design is uh uh follows all best practices. However, for this demo, I would like to use some simplified version of the design. So, uh Google provides a couple of templates for you to try out application design center. I will use one of them. Uh let's copy and create another template. Three tier demo app. I'm uh skipping many metadata fields uh available. So for example uh you can define additional information here uh like service name three tier up front. However all of this is not required. This is already uh a version of the template that you can use. And in order to deploy it, we uh need to configure an application. Application is",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 820.44,
+    "timestamp_end": 1047.24,
+    "text": "name three tier up front. However all of this is not required. This is already uh a version of the template that you can use. And in order to deploy it, we uh need to configure an application. Application is uh an element that actually allows to be deployed. So uh again we need to create the application. I'm skipping all the metadata. uh in the configuration I have to point where the application will be deployed including the project which will host resources for this application, the location and uh additional attributes such as environment and uh criticality of the application or list of the owners of the application I will skip for the matter of this demo. And here we have the application uh uh it can be deployed once all uh components uh are initialized properly. So let me quickly initialize all elements. So we will enable uh pardon enable the deploy button. So once uh all these fields are initialized we have enabled the deploy button. Now uh it will take some time to provision uh a new cloud SQL database. So for this particular uh demo I have already created an application. You can see it here. It is already deployed. And uh speaking about application uh centric uh approach, you can see all uh components of your application in the uh application hub. Application hub uh was introduced in uh last year but uh in this year uh multiple additional features and new products have been integrated with it. So in the application hub you can see the components uh that we created for our application. You can click on each of these component to see metadata and other information related to the component and you can uh see the infrastructure resource uh referenced uh or linked by this component. Let me open uh a resource for the front end service. It is uh basically uh a standard cloud run service. uh you can see it was provisioned in the project that uh I have uh selected and uh this is uh basically a simple to-do application. Uh I will uh do a couple of uh operations uh on the application. So we will have uh some uh logs and metrics",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 1019.68,
+    "timestamp_end": 1284.72,
+    "text": "see it was provisioned in the project that uh I have uh selected and uh this is uh basically a simple to-do application. Uh I will uh do a couple of uh operations uh on the application. So we will have uh some uh logs and metrics uh to review later. Okay, let me return back to the application design uh center. So, uh the application uh hub we completed right now uh the design part we uh created components connected them together. Uh application design center also generates a terraform script that provisions uh this design supporting infrastructure code uh pattern and you can maintain this infra uh uh terraform files in your source uh repository. Now the next step is uh monitoring and uh uh the application right. So again uh you can monitor your application from the application uh hub. We have uh a link here to the application observability. Application observability provides like uh previously we saw the application centric view. Again you're tracking components. You're tracking uh golden signals for this components. Uh you can see it as a list or you can switch to a dashboard to see uh the signals as charts. Right. Now uh you can uh track it as an at application level or you can open a specific component. Tracking a specific component shows basically the same uh signals but on the level of the single component. Another way to approach it is uh to use health and troubleshooting in the cloud hub. It is another new product that was added as part of the application centric approach. It allows you to uh review and uh uh track uh various incidents and investigations that might happen. Uh it should work on the same uh context as the application. Wait a moment. Okay. Okay. So, let me reopen it again. The problem was in the wrong application being selected in the filter. So you can see it is tracking uh what is happening in each of the applications. Uh you have the same access to the dashboard and other components and uh if any incidents are reported you have a quick access on the application level via the cloud hub. Now uh this",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 1258.08,
+    "timestamp_end": 1515.08,
+    "text": "what is happening in each of the applications. Uh you have the same access to the dashboard and other components and uh if any incidents are reported you have a quick access on the application level via the cloud hub. Now uh this new products uh mean that uh don't mean sorry uh don't mean that uh you don't have any other way to work with uh your application resources. You still can use uh Gemini chat for example uh to track your applications uh the same way as it is aware about resources at the project level. It is uh it has access and can help you with discovering application related uh content and uh resources. Same way uh when you work with uh other uh existing tools for example log explorer you have now additional support for the application centric view. All you have to do is just select the application. In our case, it is to-do application and you get all logs related to this application. If you want to further uh filter this to the level of the specific workload, you can. Now you can see all application specific uh logs produced by a specific uh component and each of this log you have the same functionality you had before. Uh you can get assistance from Gemini chat to explain this log entry. Uh if you enabled uh investigations, you will get a a a button that allows you to initiate investigation based on specific log entry. Same way you can use Geminina chart to search for different uh resources related to the performance of your components. So for example, I asked to provide me the top 95 percentile for the uh my application front end service in cloud run. I've got a widget and I can open the relevant page in the console from chat that's showing me this widget. Oh, let's see. an alternative uh more representative data. Let's see the requests per second in the last time. So this was our experiments to run the application before that uh that we did a few moments ago. Geminina chat provides you many other capabilities even if you are not using application centric approach. So uh for example, Gemini chat provides you",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 1485.679,
+    "timestamp_end": 1746.84,
+    "text": "the application before that uh that we did a few moments ago. Geminina chat provides you many other capabilities even if you are not using application centric approach. So uh for example, Gemini chat provides you insights about your resources that you can use uh for fuse the optimize them or uh for followup uh capacity planning in databases. There is uh query insights that help you to analyze your database performance and uh propose improvements over your queries and then other information. Right now it is simple demo application. As you see there is no many things that can be improved. Another source of optimization is uh called recommendations. Let's click on all recommendations to see what we have right now. So we have security recommendations most of them on the database. Clicking on any one of them you get more details and potential instruction too uh how to handle the recommendation. No, you can just dismiss it if you think it is not uh relevant or important for your work. The last area that I want to stop uh and show you in this demo is uh introduction uh integration excuse me integration of Gemini cloud assist into the billink. So uh when you open the billing you will see insights uh that Gemini cloud assist builds for you based on your usage. Another uh improvement is that the usage now is available on the granularity of the single day compared to the previous case when you had to work and analyze on the manly bas basis. So you can see the summary provided you by Gemini cloud assist. You can use interactive uh widget to ask Gemini cloud assist to help you with additional information. As you could see, you can use Gemini Cloud Assist and new application centric products to accelerate application life cycle management for your cloud applications. You can get assistance via multiple channels starting with a familiar chat interface and ending with specialized widgets. In this short presentation, I wasn't able to demonstrate to you all capabilities of the new products, including cost optimization",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "6eTiMIhtnBA__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "6eTiMIhtnBA",
+    "title": "Google I/O 2025 \u2013 6eTiMIhtnBA",
+    "timestamp_start": 1728.799,
+    "timestamp_end": 1791.49,
+    "text": "multiple channels starting with a familiar chat interface and ending with specialized widgets. In this short presentation, I wasn't able to demonstrate to you all capabilities of the new products, including cost optimization recommendations that require more mature environments or troubleshooting investigations. You can find this information in other IO talks and in materials of the recently ended cloud next event. I appreciate you joining me for this exploration of the new Gemini Cloud Assist tools over the past 20 minutes. We've seen some powerful capabilities today and the best way to understand their impact is to try them yourself. Mhm. I encourage each of you to experiment with these features in your respective environments. Thank you again for your engagement. [Applause]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

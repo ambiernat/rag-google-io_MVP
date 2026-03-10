@@ -1,0 +1,1672 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "ROFC-dQ421A",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hello everybody and welcome to this talk",
+      "start": 6.319,
+      "duration": 4.161
+    },
+    {
+      "text": "about unlocking ML performance with",
+      "start": 8.32,
+      "duration": 4.8
+    },
+    {
+      "text": "actionable diagnostics for TPUs and GPUs",
+      "start": 10.48,
+      "duration": 5.199
+    },
+    {
+      "text": "on Google cloud. My name is Reesh and I",
+      "start": 13.12,
+      "duration": 3.919
+    },
+    {
+      "text": "am the product management lead for",
+      "start": 15.679,
+      "duration": 3.041
+    },
+    {
+      "text": "diagnostics tooling for ML",
+      "start": 17.039,
+      "duration": 4.24
+    },
+    {
+      "text": "infrastructure software on Google cloud.",
+      "start": 18.72,
+      "duration": 5.04
+    },
+    {
+      "text": "Along with me I have my colleague Hira",
+      "start": 21.279,
+      "duration": 4.24
+    },
+    {
+      "text": "who is leading outbound product for",
+      "start": 23.76,
+      "duration": 3.56
+    },
+    {
+      "text": "developers on Google",
+      "start": 25.519,
+      "duration": 4.481
+    },
+    {
+      "text": "cloud. Today I'm very happy to announce",
+      "start": 27.32,
+      "duration": 4.84
+    },
+    {
+      "text": "a new cloud diagnostics profiling",
+      "start": 30.0,
+      "duration": 5.96
+    },
+    {
+      "text": "library as well as a newly updated XPRO",
+      "start": 32.16,
+      "duration": 6.719
+    },
+    {
+      "text": "tool. Both of these together enable a",
+      "start": 35.96,
+      "duration": 5.0
+    },
+    {
+      "text": "seamless profiling experience for ML",
+      "start": 38.879,
+      "duration": 4.881
+    },
+    {
+      "text": "engineers to performance optimize their",
+      "start": 40.96,
+      "duration": 5.599
+    },
+    {
+      "text": "ML workloads on any XLA based framework",
+      "start": 43.76,
+      "duration": 6.16
+    },
+    {
+      "text": "including Jax Pyrush XLA and car",
+      "start": 46.559,
+      "duration": 6.561
+    },
+    {
+      "text": "tensorflow on Google cloud. The cloud",
+      "start": 49.92,
+      "duration": 5.76
+    },
+    {
+      "text": "diagnostics xprof library has been built",
+      "start": 53.12,
+      "duration": 4.64
+    },
+    {
+      "text": "to enable a seamless self-hosted",
+      "start": 55.68,
+      "duration": 4.399
+    },
+    {
+      "text": "experience for Emma workflow profiling",
+      "start": 57.76,
+      "duration": 3.72
+    },
+    {
+      "text": "on",
+      "start": 60.079,
+      "duration": 3.921
+    },
+    {
+      "text": "GCP. The main features of this library",
+      "start": 61.48,
+      "duration": 5.24
+    },
+    {
+      "text": "include easy setup of infrastructure for",
+      "start": 64.0,
+      "duration": 5.92
+    },
+    {
+      "text": "xr using tensorboard as a host profile",
+      "start": 66.72,
+      "duration": 5.2
+    },
+    {
+      "text": "sharing to enable collaboration within",
+      "start": 69.92,
+      "duration": 5.04
+    },
+    {
+      "text": "user teams and with Google and ondemand",
+      "start": 71.92,
+      "duration": 5.199
+    },
+    {
+      "text": "profiling to capture profiles during",
+      "start": 74.96,
+      "duration": 4.72
+    },
+    {
+      "text": "your ML workload run. Check out this",
+      "start": 77.119,
+      "duration": 5.281
+    },
+    {
+      "text": "library on GitHub under AI hypercomputer",
+      "start": 79.68,
+      "duration": 4.6
+    },
+    {
+      "text": "cloud diagnostics",
+      "start": 82.4,
+      "duration": 5.28
+    },
+    {
+      "text": "XPRO. The core profiling tool XRO has",
+      "start": 84.28,
+      "duration": 6.12
+    },
+    {
+      "text": "also been newly updated. Previously you",
+      "start": 87.68,
+      "duration": 4.96
+    },
+    {
+      "text": "may be familiar with the tool TensorFlow",
+      "start": 90.4,
+      "duration": 4.56
+    },
+    {
+      "text": "profiler which we have now rebranded to",
+      "start": 92.64,
+      "duration": 5.04
+    },
+    {
+      "text": "XRP and move the codebase under the open",
+      "start": 94.96,
+      "duration": 6.08
+    },
+    {
+      "text": "XLA projects so we can support all XLA",
+      "start": 97.68,
+      "duration": 5.36
+    },
+    {
+      "text": "based frameworks used in the market with",
+      "start": 101.04,
+      "duration": 4.719
+    },
+    {
+      "text": "the same consistent experience.",
+      "start": 103.04,
+      "duration": 4.96
+    },
+    {
+      "text": "With this updated XPRO codebase and",
+      "start": 105.759,
+      "duration": 4.32
+    },
+    {
+      "text": "rebranding, we are now bringing the same",
+      "start": 108.0,
+      "duration": 4.88
+    },
+    {
+      "text": "tool used internally to optimize ML",
+      "start": 110.079,
+      "duration": 4.481
+    },
+    {
+      "text": "workloads within Google and Google",
+      "start": 112.88,
+      "duration": 4.239
+    },
+    {
+      "text": "DeepMine out to Google Cloud customers",
+      "start": 114.56,
+      "duration": 4.68
+    },
+    {
+      "text": "and the rest of the",
+      "start": 117.119,
+      "duration": 4.081
+    },
+    {
+      "text": "ecosystem. Let me now start by",
+      "start": 119.24,
+      "duration": 3.559
+    },
+    {
+      "text": "describing the features of the Cloud",
+      "start": 121.2,
+      "duration": 4.72
+    },
+    {
+      "text": "Diagnostics XPR library. To start out",
+      "start": 122.799,
+      "duration": 4.64
+    },
+    {
+      "text": "with, you need to set up your Google",
+      "start": 125.92,
+      "duration": 4.399
+    },
+    {
+      "text": "Cloud environment by setting up G-Cloud.",
+      "start": 127.439,
+      "duration": 5.041
+    },
+    {
+      "text": "Then all you need to do is pip install",
+      "start": 130.319,
+      "duration": 4.601
+    },
+    {
+      "text": "the latest version of the XPR",
+      "start": 132.48,
+      "duration": 4.399
+    },
+    {
+      "text": "library. In order to create a",
+      "start": 134.92,
+      "duration": 4.92
+    },
+    {
+      "text": "self-hosted tensorboard VM instance, you",
+      "start": 136.879,
+      "duration": 5.681
+    },
+    {
+      "text": "can use the XP profiler create command.",
+      "start": 139.84,
+      "duration": 4.399
+    },
+    {
+      "text": "You will need to provide a zone and a",
+      "start": 142.56,
+      "duration": 5.44
+    },
+    {
+      "text": "GCS bucket path. Once a VM is created,",
+      "start": 144.239,
+      "duration": 6.161
+    },
+    {
+      "text": "you will get a link to access the VM and",
+      "start": 148.0,
+      "duration": 4.319
+    },
+    {
+      "text": "view profiles there if they are already",
+      "start": 150.4,
+      "duration": 4.119
+    },
+    {
+      "text": "captured in that directory.",
+      "start": 152.319,
+      "duration": 4.241
+    },
+    {
+      "text": "Alternatively, you can also connect to",
+      "start": 154.519,
+      "duration": 5.321
+    },
+    {
+      "text": "the VM using XP profiler connect and SSH",
+      "start": 156.56,
+      "duration": 4.759
+    },
+    {
+      "text": "into the",
+      "start": 159.84,
+      "duration": 4.08
+    },
+    {
+      "text": "VM. Once you have the VMs created, you",
+      "start": 161.319,
+      "duration": 4.761
+    },
+    {
+      "text": "can easily list and delete these VMs",
+      "start": 163.92,
+      "duration": 5.12
+    },
+    {
+      "text": "using XProfiler list and XProfiler",
+      "start": 166.08,
+      "duration": 6.08
+    },
+    {
+      "text": "delete. X-profiler list also prints the",
+      "start": 169.04,
+      "duration": 5.04
+    },
+    {
+      "text": "link name in case you missed clicking it",
+      "start": 172.16,
+      "duration": 4.56
+    },
+    {
+      "text": "previously during create.",
+      "start": 174.08,
+      "duration": 4.239
+    },
+    {
+      "text": "In order to capture profiles from your",
+      "start": 176.72,
+      "duration": 3.76
+    },
+    {
+      "text": "ML workload, you need to enable profile",
+      "start": 178.319,
+      "duration": 4.321
+    },
+    {
+      "text": "capture in your Jax, PyTorch or",
+      "start": 180.48,
+      "duration": 4.399
+    },
+    {
+      "text": "TensorFlow code. In all these",
+      "start": 182.64,
+      "duration": 4.319
+    },
+    {
+      "text": "frameworks, you enable profile capture",
+      "start": 184.879,
+      "duration": 5.28
+    },
+    {
+      "text": "with some type of start server. Now that",
+      "start": 186.959,
+      "duration": 5.121
+    },
+    {
+      "text": "you've enabled profile capture, you can",
+      "start": 190.159,
+      "duration": 3.481
+    },
+    {
+      "text": "capture your profiles either",
+      "start": 192.08,
+      "duration": 4.239
+    },
+    {
+      "text": "programmatically or on demand.",
+      "start": 193.64,
+      "duration": 4.519
+    },
+    {
+      "text": "Programmatically means you capture",
+      "start": 196.319,
+      "duration": 4.321
+    },
+    {
+      "text": "profiles beforehand in your code. With",
+      "start": 198.159,
+      "duration": 5.041
+    },
+    {
+      "text": "Jax, you use start trace and stop trace.",
+      "start": 200.64,
+      "duration": 4.4
+    },
+    {
+      "text": "For PyTorch, you use step trace or",
+      "start": 203.2,
+      "duration": 5.039
+    },
+    {
+      "text": "trace. And for TensorFlow you use trace.",
+      "start": 205.04,
+      "duration": 5.119
+    },
+    {
+      "text": "This will enable capture of profiles",
+      "start": 208.239,
+      "duration": 3.72
+    },
+    {
+      "text": "within your code when it",
+      "start": 210.159,
+      "duration": 4.881
+    },
+    {
+      "text": "runs. Alternatively, you can capture",
+      "start": 211.959,
+      "duration": 5.161
+    },
+    {
+      "text": "profiles on demand while your workload",
+      "start": 215.04,
+      "duration": 4.479
+    },
+    {
+      "text": "is running. This is done typically when",
+      "start": 217.12,
+      "duration": 4.24
+    },
+    {
+      "text": "you see some performance issue with your",
+      "start": 219.519,
+      "duration": 3.921
+    },
+    {
+      "text": "workload and want to collect profiles at",
+      "start": 221.36,
+      "duration": 5.76
+    },
+    {
+      "text": "that instant to diagnose issue. You can",
+      "start": 223.44,
+      "duration": 5.68
+    },
+    {
+      "text": "collect profiles on demand using XP",
+      "start": 227.12,
+      "duration": 5.44
+    },
+    {
+      "text": "profofiler capture in the CLI or capture",
+      "start": 229.12,
+      "duration": 5.96
+    },
+    {
+      "text": "profile button from the tensorboard",
+      "start": 232.56,
+      "duration": 5.2
+    },
+    {
+      "text": "UI. An example of how profiles are",
+      "start": 235.08,
+      "duration": 5.4
+    },
+    {
+      "text": "capture can be seen using max text which",
+      "start": 237.76,
+      "duration": 4.64
+    },
+    {
+      "text": "is a reference implementation built on",
+      "start": 240.48,
+      "duration": 5.119
+    },
+    {
+      "text": "top of the Jax framework. To use max",
+      "start": 242.4,
+      "duration": 5.28
+    },
+    {
+      "text": "text, first you need to create the TPU",
+      "start": 245.599,
+      "duration": 7.041
+    },
+    {
+      "text": "or GPU VMs and set up Max on those VMs.",
+      "start": 247.68,
+      "duration": 6.96
+    },
+    {
+      "text": "Then you need to configure max text",
+      "start": 252.64,
+      "duration": 4.64
+    },
+    {
+      "text": "using base.yml YAML to modify configs",
+      "start": 254.64,
+      "duration": 5.119
+    },
+    {
+      "text": "such as model architecture, sharding,",
+      "start": 257.28,
+      "duration": 5.199
+    },
+    {
+      "text": "learning rate, etc. Also, within",
+      "start": 259.759,
+      "duration": 5.201
+    },
+    {
+      "text": "train.py, we already have code that",
+      "start": 262.479,
+      "duration": 5.28
+    },
+    {
+      "text": "records ML workload metrics to collect,",
+      "start": 264.96,
+      "duration": 4.72
+    },
+    {
+      "text": "enable profile capture as well as",
+      "start": 267.759,
+      "duration": 4.961
+    },
+    {
+      "text": "programmatic capture for training. Then",
+      "start": 269.68,
+      "duration": 6.0
+    },
+    {
+      "text": "when you run max train.py, you specify",
+      "start": 272.72,
+      "duration": 4.96
+    },
+    {
+      "text": "the profiler to use, which will enable",
+      "start": 275.68,
+      "duration": 4.72
+    },
+    {
+      "text": "profile collection by XRO. These",
+      "start": 277.68,
+      "duration": 4.48
+    },
+    {
+      "text": "profiles and metrics will be collected",
+      "start": 280.4,
+      "duration": 3.64
+    },
+    {
+      "text": "within the GCS bucket",
+      "start": 282.16,
+      "duration": 4.64
+    },
+    {
+      "text": "specified. I will now pass on to Hira",
+      "start": 284.04,
+      "duration": 4.439
+    },
+    {
+      "text": "who will give you a quick tour of the",
+      "start": 286.8,
+      "duration": 5.839
+    },
+    {
+      "text": "newly updated XPR tool.",
+      "start": 288.479,
+      "duration": 6.321
+    },
+    {
+      "text": "Thanks for that Rajes. Tensorboard and",
+      "start": 292.639,
+      "duration": 4.481
+    },
+    {
+      "text": "XPRO are new to me. This kind of tour",
+      "start": 294.8,
+      "duration": 4.72
+    },
+    {
+      "text": "helped me so I'm hoping it helps you. On",
+      "start": 297.12,
+      "duration": 4.639
+    },
+    {
+      "text": "the left navigation you see the specific",
+      "start": 299.52,
+      "duration": 4.16
+    },
+    {
+      "text": "run that you're reviewing. You can also",
+      "start": 301.759,
+      "duration": 3.921
+    },
+    {
+      "text": "switch between multiple tools and filter",
+      "start": 303.68,
+      "duration": 3.68
+    },
+    {
+      "text": "down to the specific host that you care",
+      "start": 305.68,
+      "duration": 4.239
+    },
+    {
+      "text": "about. The overview offers a top level",
+      "start": 307.36,
+      "duration": 4.559
+    },
+    {
+      "text": "view of your workload performance,",
+      "start": 309.919,
+      "duration": 3.601
+    },
+    {
+      "text": "including average step time and",
+      "start": 311.919,
+      "duration": 3.28
+    },
+    {
+      "text": "framework op placement on the device",
+      "start": 313.52,
+      "duration": 4.32
+    },
+    {
+      "text": "versus the host. For every workload,",
+      "start": 315.199,
+      "duration": 4.0
+    },
+    {
+      "text": "it's important to understand whether the",
+      "start": 317.84,
+      "duration": 3.04
+    },
+    {
+      "text": "accelerator is indeed being used as you",
+      "start": 319.199,
+      "duration": 4.241
+    },
+    {
+      "text": "expected. If you find that only 30% of",
+      "start": 320.88,
+      "duration": 4.319
+    },
+    {
+      "text": "your ops are running on the device, you",
+      "start": 323.44,
+      "duration": 3.92
+    },
+    {
+      "text": "probably want your TPUs to do more.",
+      "start": 325.199,
+      "duration": 3.921
+    },
+    {
+      "text": "There's also visual to show how step",
+      "start": 327.36,
+      "duration": 3.279
+    },
+    {
+      "text": "time changed over the course of the run",
+      "start": 329.12,
+      "duration": 3.76
+    },
+    {
+      "text": "and which devices participated. For",
+      "start": 330.639,
+      "duration": 4.4
+    },
+    {
+      "text": "training jobs, step time variance over",
+      "start": 332.88,
+      "duration": 3.759
+    },
+    {
+      "text": "the run is crucial to determining",
+      "start": 335.039,
+      "duration": 3.6
+    },
+    {
+      "text": "whether data or environmental conditions",
+      "start": 336.639,
+      "duration": 3.161
+    },
+    {
+      "text": "are impacting",
+      "start": 338.639,
+      "duration": 3.601
+    },
+    {
+      "text": "performance. Have you ever run into an",
+      "start": 339.8,
+      "duration": 4.839
+    },
+    {
+      "text": "out of memory error and wondered what do",
+      "start": 342.24,
+      "duration": 4.64
+    },
+    {
+      "text": "you want me to do about this? This is",
+      "start": 344.639,
+      "duration": 4.201
+    },
+    {
+      "text": "where the memory tool comes",
+      "start": 346.88,
+      "duration": 4.4
+    },
+    {
+      "text": "in. First, you can look at your peak",
+      "start": 348.84,
+      "duration": 3.96
+    },
+    {
+      "text": "memory allocation to see how close to",
+      "start": 351.28,
+      "duration": 4.08
+    },
+    {
+      "text": "the edge you are. Next, you can look at",
+      "start": 352.8,
+      "duration": 4.08
+    },
+    {
+      "text": "where in the program sequence this",
+      "start": 355.36,
+      "duration": 3.839
+    },
+    {
+      "text": "particular operation occurs. Maybe you",
+      "start": 356.88,
+      "duration": 4.159
+    },
+    {
+      "text": "plan to have this happen somewhere else",
+      "start": 359.199,
+      "duration": 3.361
+    },
+    {
+      "text": "and the compiler tried to help you out",
+      "start": 361.039,
+      "duration": 3.841
+    },
+    {
+      "text": "with some fusion. Then you can dig into",
+      "start": 362.56,
+      "duration": 3.759
+    },
+    {
+      "text": "the details to see if your data",
+      "start": 364.88,
+      "duration": 2.879
+    },
+    {
+      "text": "structures are sized on the device the",
+      "start": 366.319,
+      "duration": 5.0
+    },
+    {
+      "text": "way you expected. Was that 2048x",
+      "start": 367.759,
+      "duration": 7.841
+    },
+    {
+      "text": "2048x2 by 4? Who knows? The graph viewer",
+      "start": 371.319,
+      "duration": 5.72
+    },
+    {
+      "text": "shows you a visual representation of",
+      "start": 375.6,
+      "duration": 3.68
+    },
+    {
+      "text": "your XLA program. You search for the",
+      "start": 377.039,
+      "duration": 5.361
+    },
+    {
+      "text": "HLLO or highle operations the op by name",
+      "start": 379.28,
+      "duration": 5.039
+    },
+    {
+      "text": "and then you can view the HLO graph in",
+      "start": 382.4,
+      "duration": 4.32
+    },
+    {
+      "text": "detail. Most viewers don't directly come",
+      "start": 384.319,
+      "duration": 4.16
+    },
+    {
+      "text": "to the graph viewer. They come here from",
+      "start": 386.72,
+      "duration": 4.84
+    },
+    {
+      "text": "the HLO op profile or the trace",
+      "start": 388.479,
+      "duration": 5.201
+    },
+    {
+      "text": "viewer. If you've ever looked at a",
+      "start": 391.56,
+      "duration": 4.04
+    },
+    {
+      "text": "performance cascade chart, you know the",
+      "start": 393.68,
+      "duration": 4.56
+    },
+    {
+      "text": "question, where's the time being spent?",
+      "start": 395.6,
+      "duration": 5.52
+    },
+    {
+      "text": "The op profile tool shows you the nested",
+      "start": 398.24,
+      "duration": 5.519
+    },
+    {
+      "text": "contribution for highle operations, how",
+      "start": 401.12,
+      "duration": 5.32
+    },
+    {
+      "text": "much compute, how much memory, how much",
+      "start": 403.759,
+      "duration": 5.041
+    },
+    {
+      "text": "bandwidth, and notice the opinionated",
+      "start": 406.44,
+      "duration": 5.24
+    },
+    {
+      "text": "wasted column. Anytime your code isn't",
+      "start": 408.8,
+      "duration": 5.36
+    },
+    {
+      "text": "keeping the accelerator busy, it's being",
+      "start": 411.68,
+      "duration": 4.0
+    },
+    {
+      "text": "wasteful.",
+      "start": 414.16,
+      "duration": 3.36
+    },
+    {
+      "text": "Now let's say you identify a particular",
+      "start": 415.68,
+      "duration": 3.919
+    },
+    {
+      "text": "op that consumes most of your memory at",
+      "start": 417.52,
+      "duration": 5.119
+    },
+    {
+      "text": "the wrong time. Well, what is it?",
+      "start": 419.599,
+      "duration": 4.961
+    },
+    {
+      "text": "Remember, it may not match directly with",
+      "start": 422.639,
+      "duration": 3.441
+    },
+    {
+      "text": "your source code because the compiler",
+      "start": 424.56,
+      "duration": 3.68
+    },
+    {
+      "text": "may be trying to help you out. This is",
+      "start": 426.08,
+      "duration": 4.16
+    },
+    {
+      "text": "where the graph viewer is helpful. So",
+      "start": 428.24,
+      "duration": 3.6
+    },
+    {
+      "text": "you can see a graphical representation",
+      "start": 430.24,
+      "duration": 3.239
+    },
+    {
+      "text": "of that particular",
+      "start": 431.84,
+      "duration": 4.72
+    },
+    {
+      "text": "operation, right? But often you need to",
+      "start": 433.479,
+      "duration": 5.401
+    },
+    {
+      "text": "see the big picture. Now there are",
+      "start": 436.56,
+      "duration": 4.0
+    },
+    {
+      "text": "humans I know who can divine mysteries",
+      "start": 438.88,
+      "duration": 4.08
+    },
+    {
+      "text": "from a screen like this. They take one",
+      "start": 440.56,
+      "duration": 4.079
+    },
+    {
+      "text": "look and they squint at the screen",
+      "start": 442.96,
+      "duration": 3.72
+    },
+    {
+      "text": "knowingly. They tilt their heads and",
+      "start": 444.639,
+      "duration": 4.481
+    },
+    {
+      "text": "declare, \"Your immaterialization is",
+      "start": 446.68,
+      "duration": 4.6
+    },
+    {
+      "text": "killing you.\" I'm not one of those",
+      "start": 449.12,
+      "duration": 4.479
+    },
+    {
+      "text": "people. I can tell you simpler things.",
+      "start": 451.28,
+      "duration": 4.0
+    },
+    {
+      "text": "Wider bars are taking longer than",
+      "start": 453.599,
+      "duration": 3.921
+    },
+    {
+      "text": "narrower bars. And when you find a wider",
+      "start": 455.28,
+      "duration": 3.919
+    },
+    {
+      "text": "bar, you can dig into what's going on",
+      "start": 457.52,
+      "duration": 4.04
+    },
+    {
+      "text": "using the graph viewer we just talked",
+      "start": 459.199,
+      "duration": 6.081
+    },
+    {
+      "text": "about. Similar to the HLO OP profile,",
+      "start": 461.56,
+      "duration": 5.72
+    },
+    {
+      "text": "the framework opts tool helps you find",
+      "start": 465.28,
+      "duration": 3.68
+    },
+    {
+      "text": "your most time-conuming ops, but at a",
+      "start": 467.28,
+      "duration": 3.919
+    },
+    {
+      "text": "framework level. You can see execution",
+      "start": 468.96,
+      "duration": 4.72
+    },
+    {
+      "text": "time on device as well as on the host.",
+      "start": 471.199,
+      "duration": 4.4
+    },
+    {
+      "text": "At the bottom, you can see a table of",
+      "start": 473.68,
+      "duration": 4.079
+    },
+    {
+      "text": "all framework ops and execution time to",
+      "start": 475.599,
+      "duration": 4.04
+    },
+    {
+      "text": "find your most expensive",
+      "start": 477.759,
+      "duration": 4.321
+    },
+    {
+      "text": "ops. Before I let Rajes show you some",
+      "start": 479.639,
+      "duration": 4.041
+    },
+    {
+      "text": "real scenarios, there's just one more",
+      "start": 482.08,
+      "duration": 3.92
+    },
+    {
+      "text": "tool you need to know about. This is the",
+      "start": 483.68,
+      "duration": 4.16
+    },
+    {
+      "text": "roof line analysis tool to help you see",
+      "start": 486.0,
+      "duration": 3.919
+    },
+    {
+      "text": "where your code is with respect to the",
+      "start": 487.84,
+      "duration": 4.52
+    },
+    {
+      "text": "theoretical peak performance of your",
+      "start": 489.919,
+      "duration": 5.201
+    },
+    {
+      "text": "hardware. Are you computebound or still",
+      "start": 492.36,
+      "duration": 5.0
+    },
+    {
+      "text": "managing memory with host offloads and",
+      "start": 495.12,
+      "duration": 4.88
+    },
+    {
+      "text": "data transfers? The roof line is a plot",
+      "start": 497.36,
+      "duration": 4.239
+    },
+    {
+      "text": "of the operational intensity versus",
+      "start": 500.0,
+      "duration": 4.08
+    },
+    {
+      "text": "flops. I think about it as the ratio of",
+      "start": 501.599,
+      "duration": 5.28
+    },
+    {
+      "text": "flops used to bytes used. There are many",
+      "start": 504.08,
+      "duration": 4.239
+    },
+    {
+      "text": "examples where this is not what you",
+      "start": 506.879,
+      "duration": 3.6
+    },
+    {
+      "text": "want, but more often than not, you want",
+      "start": 508.319,
+      "duration": 4.6
+    },
+    {
+      "text": "to be on up and high to the right of the",
+      "start": 510.479,
+      "duration": 4.641
+    },
+    {
+      "text": "elbow. All right, Rajes, they're all",
+      "start": 512.919,
+      "duration": 3.36
+    },
+    {
+      "text": "yours",
+      "start": 515.12,
+      "duration": 4.24
+    },
+    {
+      "text": "now. Thanks a lot, Hia. I hope you all",
+      "start": 516.279,
+      "duration": 6.2
+    },
+    {
+      "text": "enjoyed Hia's colorful tour of our newly",
+      "start": 519.36,
+      "duration": 6.479
+    },
+    {
+      "text": "updated XRO tool. Now for some more fun",
+      "start": 522.479,
+      "duration": 6.081
+    },
+    {
+      "text": "and real examples. I will now show you",
+      "start": 525.839,
+      "duration": 4.481
+    },
+    {
+      "text": "some real performance optimization",
+      "start": 528.56,
+      "duration": 4.64
+    },
+    {
+      "text": "scenarios for max text workloads on both",
+      "start": 530.32,
+      "duration": 6.079
+    },
+    {
+      "text": "TPU and GPU and how we use XPRO to",
+      "start": 533.2,
+      "duration": 4.6
+    },
+    {
+      "text": "optimize these",
+      "start": 536.399,
+      "duration": 5.241
+    },
+    {
+      "text": "workloads. The first scenario is a mixtx",
+      "start": 537.8,
+      "duration": 7.56
+    },
+    {
+      "text": "22b model with sequence length 4K and",
+      "start": 541.64,
+      "duration": 6.36
+    },
+    {
+      "text": "per device batch size of one running on",
+      "start": 545.36,
+      "duration": 5.84
+    },
+    {
+      "text": "one part of trillium which is 256 TPU",
+      "start": 548.0,
+      "duration": 4.959
+    },
+    {
+      "text": "chips.",
+      "start": 551.2,
+      "duration": 4.639
+    },
+    {
+      "text": "Looking at the HLO OP profile tool, we",
+      "start": 552.959,
+      "duration": 6.281
+    },
+    {
+      "text": "see that TPU flops utilization is low at",
+      "start": 555.839,
+      "duration": 6.321
+    },
+    {
+      "text": "27%. Digging deeper into the OP profile",
+      "start": 559.24,
+      "duration": 5.56
+    },
+    {
+      "text": "table, we see an all reduce op, which is",
+      "start": 562.16,
+      "duration": 5.72
+    },
+    {
+      "text": "taking up 31% of our overall step",
+      "start": 564.8,
+      "duration": 5.68
+    },
+    {
+      "text": "time. Next, we look at the roof line",
+      "start": 567.88,
+      "duration": 4.84
+    },
+    {
+      "text": "tool. We see immediately that the",
+      "start": 570.48,
+      "duration": 4.32
+    },
+    {
+      "text": "program is to the left of the RGLine",
+      "start": 572.72,
+      "duration": 4.72
+    },
+    {
+      "text": "elbow, indicating the program is memory",
+      "start": 574.8,
+      "duration": 5.12
+    },
+    {
+      "text": "bound. We also see this in the table",
+      "start": 577.44,
+      "duration": 5.92
+    },
+    {
+      "text": "that the program is HBM bound.",
+      "start": 579.92,
+      "duration": 5.44
+    },
+    {
+      "text": "Now we dig deeper using the trace viewer",
+      "start": 583.36,
+      "duration": 4.64
+    },
+    {
+      "text": "tool. In the trace viewer we look at one",
+      "start": 585.36,
+      "duration": 4.72
+    },
+    {
+      "text": "layer in the backward pass and see that",
+      "start": 588.0,
+      "duration": 4.959
+    },
+    {
+      "text": "out of the 89 milliseconds time for one",
+      "start": 590.08,
+      "duration": 5.199
+    },
+    {
+      "text": "layer in the backward pass the all",
+      "start": 592.959,
+      "duration": 4.681
+    },
+    {
+      "text": "reduces use 33",
+      "start": 595.279,
+      "duration": 4.641
+    },
+    {
+      "text": "milliseconds. Clicking on the all reduce",
+      "start": 597.64,
+      "duration": 4.52
+    },
+    {
+      "text": "op we see that the all reduce has a size",
+      "start": 599.92,
+      "duration": 6.32
+    },
+    {
+      "text": "of 8x 6k by 16k which is exactly the",
+      "start": 602.16,
+      "duration": 6.48
+    },
+    {
+      "text": "size of the feed forward weights.",
+      "start": 606.24,
+      "duration": 4.56
+    },
+    {
+      "text": "Importantly this size doesn't depend on",
+      "start": 608.64,
+      "duration": 4.96
+    },
+    {
+      "text": "batch. So if we increase batch size, we",
+      "start": 610.8,
+      "duration": 4.64
+    },
+    {
+      "text": "can increase compute while keeping the",
+      "start": 613.6,
+      "duration": 4.08
+    },
+    {
+      "text": "communication constant, changing the",
+      "start": 615.44,
+      "duration": 4.32
+    },
+    {
+      "text": "ratio of compute to communication more",
+      "start": 617.68,
+      "duration": 3.24
+    },
+    {
+      "text": "in our",
+      "start": 619.76,
+      "duration": 3.44
+    },
+    {
+      "text": "favor. Just to check if we have enough",
+      "start": 620.92,
+      "duration": 4.599
+    },
+    {
+      "text": "memory to increase batch size, we go to",
+      "start": 623.2,
+      "duration": 4.72
+    },
+    {
+      "text": "memory viewer. We chose right at the top",
+      "start": 625.519,
+      "duration": 5.201
+    },
+    {
+      "text": "that we have used only 12GB out of the",
+      "start": 627.92,
+      "duration": 3.8
+    },
+    {
+      "text": "available",
+      "start": 630.72,
+      "duration": 3.96
+    },
+    {
+      "text": "32GB. So let's increase batch",
+      "start": 631.72,
+      "duration": 5.72
+    },
+    {
+      "text": "size. We increase batch size to eight",
+      "start": 634.68,
+      "duration": 5.56
+    },
+    {
+      "text": "and look at the HLO OP profile. We see",
+      "start": 637.44,
+      "duration": 5.68
+    },
+    {
+      "text": "TPU flops utilization doubled from 27%",
+      "start": 640.24,
+      "duration": 6.159
+    },
+    {
+      "text": "to 60%. We also see the all reduced time",
+      "start": 643.12,
+      "duration": 5.0
+    },
+    {
+      "text": "has reduced down to",
+      "start": 646.399,
+      "duration": 5.12
+    },
+    {
+      "text": "8.7%. And convolution op is using 70% of",
+      "start": 648.12,
+      "duration": 5.8
+    },
+    {
+      "text": "the time making us more computebound",
+      "start": 651.519,
+      "duration": 5.121
+    },
+    {
+      "text": "which is what we want. If we quickly",
+      "start": 653.92,
+      "duration": 4.479
+    },
+    {
+      "text": "look at the roof line tool, the program",
+      "start": 656.64,
+      "duration": 4.08
+    },
+    {
+      "text": "is now up and to the right of the elbow,",
+      "start": 658.399,
+      "duration": 4.88
+    },
+    {
+      "text": "showing we're computebound. And in the",
+      "start": 660.72,
+      "duration": 4.239
+    },
+    {
+      "text": "trace viewer we see that our overall",
+      "start": 663.279,
+      "duration": 5.361
+    },
+    {
+      "text": "backward pass is now 326 milliseconds",
+      "start": 664.959,
+      "duration": 6.0
+    },
+    {
+      "text": "while the all reduces stay at 33",
+      "start": 668.64,
+      "duration": 4.56
+    },
+    {
+      "text": "milliseconds which means our matill",
+      "start": 670.959,
+      "duration": 4.641
+    },
+    {
+      "text": "operations take more of the time making",
+      "start": 673.2,
+      "duration": 3.72
+    },
+    {
+      "text": "this",
+      "start": 675.6,
+      "duration": 3.52
+    },
+    {
+      "text": "computebound. And in the memory viewer",
+      "start": 676.92,
+      "duration": 6.12
+    },
+    {
+      "text": "we see we use 29GB out of 32GB. So we're",
+      "start": 679.12,
+      "duration": 7.12
+    },
+    {
+      "text": "using our HP much more optimally. Now we",
+      "start": 683.04,
+      "duration": 6.16
+    },
+    {
+      "text": "are done optimizing ML 8x22B on one part",
+      "start": 686.24,
+      "duration": 4.96
+    },
+    {
+      "text": "of trillium.",
+      "start": 689.2,
+      "duration": 3.759
+    },
+    {
+      "text": "I will now show a similar scenario on",
+      "start": 691.2,
+      "duration": 3.639
+    },
+    {
+      "text": "GPUs with the Llama",
+      "start": 692.959,
+      "duration": 5.841
+    },
+    {
+      "text": "3.145B model running on 256 A4 which is",
+      "start": 694.839,
+      "duration": 8.201
+    },
+    {
+      "text": "B200 GPUs. We use hybrid FSDP across",
+      "start": 698.8,
+      "duration": 7.599
+    },
+    {
+      "text": "these 256 GPUs which is a combination of",
+      "start": 703.04,
+      "duration": 6.4
+    },
+    {
+      "text": "FSTP and data parallel and we start with",
+      "start": 706.399,
+      "duration": 6.161
+    },
+    {
+      "text": "a per device batch size of one. Looking",
+      "start": 709.44,
+      "duration": 5.28
+    },
+    {
+      "text": "at the trace viewer, we see the view for",
+      "start": 712.56,
+      "duration": 5.04
+    },
+    {
+      "text": "GPUs is different than TPUs where traces",
+      "start": 714.72,
+      "duration": 4.64
+    },
+    {
+      "text": "are organized by the different streams",
+      "start": 717.6,
+      "duration": 3.44
+    },
+    {
+      "text": "on the GPU.",
+      "start": 719.36,
+      "duration": 3.44
+    },
+    {
+      "text": "Looking at the trace for this model, we",
+      "start": 721.04,
+      "duration": 4.239
+    },
+    {
+      "text": "notice that out of the 99 milliseconds",
+      "start": 722.8,
+      "duration": 5.36
+    },
+    {
+      "text": "in one layer of the backward pass, 40",
+      "start": 725.279,
+      "duration": 5.721
+    },
+    {
+      "text": "milliseconds is exposed",
+      "start": 728.16,
+      "duration": 4.72
+    },
+    {
+      "text": "communication. Looking at the memory",
+      "start": 731.0,
+      "duration": 4.8
+    },
+    {
+      "text": "viewer, we see that we have only used",
+      "start": 732.88,
+      "duration": 7.6
+    },
+    {
+      "text": "126GB out of 180 GB HPM. Just like we",
+      "start": 735.8,
+      "duration": 7.839
+    },
+    {
+      "text": "did on TPUs, let's increase batch",
+      "start": 740.48,
+      "duration": 5.68
+    },
+    {
+      "text": "size. We increase per device batch size",
+      "start": 743.639,
+      "duration": 5.241
+    },
+    {
+      "text": "to two. Looking at trace viewer, we see",
+      "start": 746.16,
+      "duration": 4.32
+    },
+    {
+      "text": "now that our backward pass time",
+      "start": 748.88,
+      "duration": 5.519
+    },
+    {
+      "text": "increased to 179 milliseconds, but",
+      "start": 750.48,
+      "duration": 6.4
+    },
+    {
+      "text": "communication exposed is only 58",
+      "start": 754.399,
+      "duration": 4.801
+    },
+    {
+      "text": "milliseconds. So we now have a higher",
+      "start": 756.88,
+      "duration": 4.8
+    },
+    {
+      "text": "ratio of compute to communication making",
+      "start": 759.2,
+      "duration": 5.68
+    },
+    {
+      "text": "us computebound. Now looking at memory",
+      "start": 761.68,
+      "duration": 6.719
+    },
+    {
+      "text": "viewer, we see that we are using 165GB",
+      "start": 764.88,
+      "duration": 6.56
+    },
+    {
+      "text": "out of 180GB. So much better use of the",
+      "start": 768.399,
+      "duration": 6.721
+    },
+    {
+      "text": "HPM. We are done optimizing llama 345b",
+      "start": 771.44,
+      "duration": 6.519
+    },
+    {
+      "text": "on 256 A4",
+      "start": 775.12,
+      "duration": 5.519
+    },
+    {
+      "text": "GPUs. As a summary, please go try out",
+      "start": 777.959,
+      "duration": 5.721
+    },
+    {
+      "text": "our new cloud diagnostics XPR library on",
+      "start": 780.639,
+      "duration": 5.601
+    },
+    {
+      "text": "any of your ML workloads on Jax PyTorch",
+      "start": 783.68,
+      "duration": 5.76
+    },
+    {
+      "text": "XLA or KAS TensorFlow. Please also check",
+      "start": 786.24,
+      "duration": 6.0
+    },
+    {
+      "text": "out our newly relaunched XPR tool to",
+      "start": 789.44,
+      "duration": 4.72
+    },
+    {
+      "text": "learn more about all the different tools",
+      "start": 792.24,
+      "duration": 4.48
+    },
+    {
+      "text": "supported and how to use XPRO for",
+      "start": 794.16,
+      "duration": 5.28
+    },
+    {
+      "text": "different use cases. We always welcome",
+      "start": 796.72,
+      "duration": 4.88
+    },
+    {
+      "text": "any feedback. So please reach out to us",
+      "start": 799.44,
+      "duration": 5.04
+    },
+    {
+      "text": "for questions, feature requests, etc.",
+      "start": 801.6,
+      "duration": 4.479
+    },
+    {
+      "text": "Thank you very much for attending our",
+      "start": 804.48,
+      "duration": 4.599
+    },
+    {
+      "text": "session.",
+      "start": 806.079,
+      "duration": 3.0
+    },
+    {
+      "text": "[Applause]",
+      "start": 810.78,
+      "duration": 3.19
+    }
+  ]
+}

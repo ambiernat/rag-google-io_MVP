@@ -1,0 +1,4702 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "v6Rzo5khNE8",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.451
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 3.451,
+      "duration": 2.799
+    },
+    {
+      "text": "MICHAEL THOMSEN: Good morning.",
+      "start": 6.25,
+      "duration": 1.25
+    },
+    {
+      "text": "Good morning, everyone.",
+      "start": 7.5,
+      "duration": 0.958
+    },
+    {
+      "text": "Are we ready for this?",
+      "start": 8.458,
+      "duration": 1.498
+    },
+    {
+      "text": "AUDIENCE: Yes.",
+      "start": 9.956,
+      "duration": 0.894
+    },
+    {
+      "text": "MICHAEL THOMSEN: All right,\nlet's talk about Flutter.",
+      "start": 10.85,
+      "duration": 4.68
+    },
+    {
+      "text": "All right.",
+      "start": 15.53,
+      "duration": 0.88
+    },
+    {
+      "text": "Thank you.",
+      "start": 16.41,
+      "duration": 0.52
+    },
+    {
+      "text": "Thank you.",
+      "start": 16.93,
+      "duration": 0.5
+    },
+    {
+      "text": "Thank you, everyone,\nfor joining us today.",
+      "start": 17.43,
+      "duration": 1.89
+    },
+    {
+      "text": "We are so pleased to be\nable to share the latest",
+      "start": 19.32,
+      "duration": 2.87
+    },
+    {
+      "text": "news about Dart and Flutter.",
+      "start": 22.19,
+      "duration": 1.78
+    },
+    {
+      "text": "Whether you're joining us here\nin the tent today at Google I/O",
+      "start": 23.97,
+      "duration": 3.65
+    },
+    {
+      "text": "in Mountain View or on YouTube.",
+      "start": 27.62,
+      "duration": 2.62
+    },
+    {
+      "text": "Thank you.",
+      "start": 30.24,
+      "duration": 0.685
+    },
+    {
+      "text": "All right.",
+      "start": 33.92,
+      "duration": 1.11
+    },
+    {
+      "text": "Before we get into\nall the news, let's",
+      "start": 35.03,
+      "duration": 2.64
+    },
+    {
+      "text": "spend just a moment\nreflecting on why",
+      "start": 37.67,
+      "duration": 3.15
+    },
+    {
+      "text": "we care so much about Flutter.",
+      "start": 40.82,
+      "duration": 2.58
+    },
+    {
+      "text": "We all interact with a multitude\nof devices throughout our day.",
+      "start": 43.4,
+      "duration": 4.3
+    },
+    {
+      "text": "We have mobile phones in\nour pockets, laptops at work",
+      "start": 47.7,
+      "duration": 4.07
+    },
+    {
+      "text": "or in school.",
+      "start": 51.77,
+      "duration": 1.21
+    },
+    {
+      "text": "Web browsers power anything\nfrom ordering dinner",
+      "start": 52.98,
+      "duration": 3.29
+    },
+    {
+      "text": "to scientific research,\nand embedded devices",
+      "start": 56.27,
+      "duration": 2.79
+    },
+    {
+      "text": "are all around us.",
+      "start": 59.06,
+      "duration": 1.54
+    },
+    {
+      "text": "This presents a fundamental\nchallenge to app developers.",
+      "start": 60.6,
+      "duration": 4.8
+    },
+    {
+      "text": "How can we support\nall these devices",
+      "start": 65.4,
+      "duration": 2.37
+    },
+    {
+      "text": "with high quality experiences?",
+      "start": 67.77,
+      "duration": 2.44
+    },
+    {
+      "text": "How can we avoid fragmenting our\ndevelopment teams, our marketing",
+      "start": 70.21,
+      "duration": 4.43
+    },
+    {
+      "text": "teams, and our support teams\ninto a handful of silos?",
+      "start": 74.64,
+      "duration": 3.973
+    },
+    {
+      "text": "Our goal with Flutter is\nto fundamentally change",
+      "start": 81.42,
+      "duration": 3.09
+    },
+    {
+      "text": "that core question from\nworrying over which",
+      "start": 84.51,
+      "duration": 3.51
+    },
+    {
+      "text": "platforms to support to a pure\nfocus on what you want to build.",
+      "start": 88.02,
+      "duration": 6.15
+    },
+    {
+      "text": "We do that by supporting\nall device classes",
+      "start": 94.17,
+      "duration": 2.94
+    },
+    {
+      "text": "from a single shared\nsource code base.",
+      "start": 97.11,
+      "duration": 3.84
+    },
+    {
+      "text": "With Flutter, you can create\nrich and beautiful experiences",
+      "start": 100.95,
+      "duration": 3.54
+    },
+    {
+      "text": "that target them all,\nand you can do so",
+      "start": 104.49,
+      "duration": 2.97
+    },
+    {
+      "text": "in less time with higher\nproductivity and higher quality.",
+      "start": 107.46,
+      "duration": 6.75
+    },
+    {
+      "text": "We can't do all this work alone.",
+      "start": 114.21,
+      "duration": 2.13
+    },
+    {
+      "text": "A core component of the formula\nis a rich and vibrant ecosystem.",
+      "start": 116.34,
+      "duration": 5.83
+    },
+    {
+      "text": "We ended last year\nwith our Flutter",
+      "start": 122.17,
+      "duration": 2.19
+    },
+    {
+      "text": "in production live\nstream guest hosted",
+      "start": 124.36,
+      "duration": 2.4
+    },
+    {
+      "text": "by rock legend and Flutter\ndeveloper Rivers Cuomo,",
+      "start": 126.76,
+      "duration": 4.15
+    },
+    {
+      "text": "also known as the lead singer\nsongwriter for the band Weezer.",
+      "start": 130.91,
+      "duration": 2.96
+    },
+    {
+      "text": "And we highlighted\nFlutter's momentum",
+      "start": 133.87,
+      "duration": 3.12
+    },
+    {
+      "text": "as a production grade\nframework trusted by some",
+      "start": 136.99,
+      "duration": 3.6
+    },
+    {
+      "text": "of the world's largest brands.",
+      "start": 140.59,
+      "duration": 3.48
+    },
+    {
+      "text": "That momentum was\nperhaps best summarized",
+      "start": 144.07,
+      "duration": 2.43
+    },
+    {
+      "text": "by our announcements\naround Flutter adoption.",
+      "start": 146.5,
+      "duration": 2.23
+    },
+    {
+      "text": "First, according to\nthe JetBrains' State",
+      "start": 148.73,
+      "duration": 2.93
+    },
+    {
+      "text": "of the Developer\nEcosystem survey,",
+      "start": 151.66,
+      "duration": 1.96
+    },
+    {
+      "text": "Flutter has been the most\nused multi-platform app",
+      "start": 153.62,
+      "duration": 2.93
+    },
+    {
+      "text": "framework since 2021.",
+      "start": 156.55,
+      "duration": 3.99
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 160.54,
+      "duration": 4.44
+    },
+    {
+      "text": "Second, according to app\nintelligence provider Apptopia,",
+      "start": 164.98,
+      "duration": 3.61
+    },
+    {
+      "text": "Flutter now accounts\nfor a whopping 28%",
+      "start": 168.59,
+      "duration": 3.17
+    },
+    {
+      "text": "of all new free apps\nin the Apple App Store.",
+      "start": 171.76,
+      "duration": 4.17
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 175.93,
+      "duration": 2.23
+    },
+    {
+      "text": "All right, but why\ndon't we take a moment",
+      "start": 178.16,
+      "duration": 3.12
+    },
+    {
+      "text": "to look at some of these graphs,\nall these great apps being",
+      "start": 181.28,
+      "duration": 2.64
+    },
+    {
+      "text": "put out there and the\nawesome developers that",
+      "start": 183.92,
+      "duration": 2.52
+    },
+    {
+      "text": "are creating them.",
+      "start": 186.44,
+      "duration": 1.0
+    },
+    {
+      "text": "I'd like to welcome on\nstage Craig from DevRel.",
+      "start": 187.44,
+      "duration": 2.82
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 190.26,
+      "duration": 1.7
+    },
+    {
+      "text": "All right.",
+      "start": 191.96,
+      "duration": 0.5
+    },
+    {
+      "text": "CRAIG LABENZ: So a\nlot of Flutter apps",
+      "start": 198.26,
+      "duration": 2.46
+    },
+    {
+      "text": "are making it into the Apple\nApp Store and Google Play store.",
+      "start": 200.72,
+      "duration": 3.61
+    },
+    {
+      "text": "So as Michael said, let's\nlook at a few of them.",
+      "start": 204.33,
+      "duration": 3.08
+    },
+    {
+      "text": "Now Reflection.app uses\na complete Google Stack,",
+      "start": 207.41,
+      "duration": 3.76
+    },
+    {
+      "text": "Flutter, Firebase,\nand Gemini to provide",
+      "start": 211.17,
+      "duration": 3.47
+    },
+    {
+      "text": "a personalized journaling\nexperience for users.",
+      "start": 214.64,
+      "duration": 3.28
+    },
+    {
+      "text": "Now Firebase App Check\nguards their backend",
+      "start": 217.92,
+      "duration": 2.51
+    },
+    {
+      "text": "against fraudulent requests.",
+      "start": 220.43,
+      "duration": 1.87
+    },
+    {
+      "text": "Firebase Remote\nConfig allows them",
+      "start": 222.3,
+      "duration": 2.24
+    },
+    {
+      "text": "to remain nimble in the face\nof ever-shifting user demands,",
+      "start": 224.54,
+      "duration": 4.03
+    },
+    {
+      "text": "and Gemini responds with\nthose journaling prompts",
+      "start": 228.57,
+      "duration": 2.84
+    },
+    {
+      "text": "in less than 300 milliseconds.",
+      "start": 231.41,
+      "duration": 1.96
+    },
+    {
+      "text": "Of course, Flutter\nbrings it all together",
+      "start": 233.37,
+      "duration": 1.79
+    },
+    {
+      "text": "by allowing them to deliver\nthis experience to their users",
+      "start": 235.16,
+      "duration": 3.04
+    },
+    {
+      "text": "on whatever devices they use.",
+      "start": 238.2,
+      "duration": 2.13
+    },
+    {
+      "text": "And Reflection's\nadoption of Gemini",
+      "start": 240.33,
+      "duration": 2.4
+    },
+    {
+      "text": "is recent because all\nthis stuff is so new,",
+      "start": 242.73,
+      "duration": 3.04
+    },
+    {
+      "text": "but I particularly\nlike this post from one",
+      "start": 245.77,
+      "duration": 2.93
+    },
+    {
+      "text": "of their recent engineering\nblog posts, or this graph.",
+      "start": 248.7,
+      "duration": 3.58
+    },
+    {
+      "text": "And in case it's unclear\nwhat's going on here,",
+      "start": 252.28,
+      "duration": 2.91
+    },
+    {
+      "text": "the good folks at\nReflection had the courtesy",
+      "start": 255.19,
+      "duration": 2.389
+    },
+    {
+      "text": "to include an arrow to\ntell us where to look.",
+      "start": 257.579,
+      "duration": 2.471
+    },
+    {
+      "text": "And as it says,\nthis is the moment",
+      "start": 260.05,
+      "duration": 1.849
+    },
+    {
+      "text": "they added Gemini and Vertex\nAI for those personalized",
+      "start": 261.899,
+      "duration": 4.381
+    },
+    {
+      "text": "responses, and that\nimmediately kicked off",
+      "start": 266.28,
+      "duration": 2.79
+    },
+    {
+      "text": "a 60% increase in\nuser engagement",
+      "start": 269.07,
+      "duration": 3.03
+    },
+    {
+      "text": "and a corresponding increase\nin user satisfaction.",
+      "start": 272.1,
+      "duration": 3.63
+    },
+    {
+      "text": "Another cool story is\nteamLab based out of Tokyo,",
+      "start": 275.73,
+      "duration": 3.04
+    },
+    {
+      "text": "and they create solutions\nfor digital content",
+      "start": 278.77,
+      "duration": 2.03
+    },
+    {
+      "text": "production, urban planning,\nand architectural space design.",
+      "start": 280.8,
+      "duration": 3.7
+    },
+    {
+      "text": "Now, their museum\napps allow users",
+      "start": 284.5,
+      "duration": 3.05
+    },
+    {
+      "text": "to interact more\nwith the exhibits,",
+      "start": 287.55,
+      "duration": 2.05
+    },
+    {
+      "text": "including reading and\ninteracting more with art pieces",
+      "start": 289.6,
+      "duration": 2.96
+    },
+    {
+      "text": "right in front of\nthem on their phones.",
+      "start": 292.56,
+      "duration": 1.75
+    },
+    {
+      "text": "And they've delivered this to\nan astounding 35 million users.",
+      "start": 294.31,
+      "duration": 4.88
+    },
+    {
+      "text": "And they find with\nFlutter, they're",
+      "start": 299.19,
+      "duration": 1.61
+    },
+    {
+      "text": "able to dramatically increase\ntheir development velocity.",
+      "start": 300.8,
+      "duration": 3.34
+    },
+    {
+      "text": "That allows them to spend\nmore time polishing their app",
+      "start": 304.14,
+      "duration": 3.2
+    },
+    {
+      "text": "and adding the features\ntheir users are requesting.",
+      "start": 307.34,
+      "duration": 3.84
+    },
+    {
+      "text": "Another new Flutter user is\nthe Google Cloud mobile app.",
+      "start": 311.18,
+      "duration": 3.7
+    },
+    {
+      "text": "Google Cloud, anyone\never heard of them?",
+      "start": 314.88,
+      "duration": 2.51
+    },
+    {
+      "text": "So they took a look\nat their existing apps",
+      "start": 317.39,
+      "duration": 1.95
+    },
+    {
+      "text": "and switched to Flutter to\nbuild a range of new features,",
+      "start": 319.34,
+      "duration": 3.28
+    },
+    {
+      "text": "with the goal of writing once\nand delivering everywhere.",
+      "start": 322.62,
+      "duration": 3.06
+    },
+    {
+      "text": "Another familiar promise.",
+      "start": 325.68,
+      "duration": 1.91
+    },
+    {
+      "text": "And they found tremendous\nvalue with the UI and logic",
+      "start": 327.59,
+      "duration": 3.96
+    },
+    {
+      "text": "consistency that they were able\nto get from a single-shared code",
+      "start": 331.55,
+      "duration": 3.03
+    },
+    {
+      "text": "base.",
+      "start": 334.58,
+      "duration": 0.7
+    },
+    {
+      "text": "And they found that Flutter\ndelivered native-like feel",
+      "start": 335.28,
+      "duration": 2.96
+    },
+    {
+      "text": "and performance\nwithout compromises.",
+      "start": 338.24,
+      "duration": 2.65
+    },
+    {
+      "text": "And the screenshot here, we see\nis one of their latest features,",
+      "start": 340.89,
+      "duration": 2.97
+    },
+    {
+      "text": "CloudAssist, which\noffers AI powered",
+      "start": 343.86,
+      "duration": 2.63
+    },
+    {
+      "text": "analysis and troubleshooting\nof your Cloud projects.",
+      "start": 346.49,
+      "duration": 4.17
+    },
+    {
+      "text": "Another fun one is NotebookLM,\na research-- an AI powered",
+      "start": 350.66,
+      "duration": 4.3
+    },
+    {
+      "text": "research and writing assistant\nstraight out of Google Labs.",
+      "start": 354.96,
+      "duration": 3.01
+    },
+    {
+      "text": "And previously this was\nonly available as a website,",
+      "start": 357.97,
+      "duration": 2.64
+    },
+    {
+      "text": "but the team was immediately\ninundated with requests",
+      "start": 360.61,
+      "duration": 2.9
+    },
+    {
+      "text": "for a mobile client.",
+      "start": 363.51,
+      "duration": 1.75
+    },
+    {
+      "text": "And as fast as everything moves\nin the AI space, obviously",
+      "start": 365.26,
+      "duration": 3.38
+    },
+    {
+      "text": "development velocity and time to\nmarket was going to be critical.",
+      "start": 368.64,
+      "duration": 3.55
+    },
+    {
+      "text": "So that made Flutter\na natural choice.",
+      "start": 372.19,
+      "duration": 2.52
+    },
+    {
+      "text": "And we're very excited about\nNotebookLM's big public release",
+      "start": 374.71,
+      "duration": 4.34
+    },
+    {
+      "text": "this week.",
+      "start": 379.05,
+      "duration": 2.07
+    },
+    {
+      "text": "Now a lot of credit for all\nthe achievements of Flutter",
+      "start": 381.12,
+      "duration": 3.12
+    },
+    {
+      "text": "goes to our awesome community.",
+      "start": 384.24,
+      "duration": 2.23
+    },
+    {
+      "text": "I personally--",
+      "start": 386.47,
+      "duration": 1.35
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 387.82,
+      "duration": 0.81
+    },
+    {
+      "text": "Yes, that's you all.",
+      "start": 388.63,
+      "duration": 4.19
+    },
+    {
+      "text": "I personally think\nFlutter remains",
+      "start": 392.82,
+      "duration": 1.98
+    },
+    {
+      "text": "one of the most helpful\ncommunities in tech,",
+      "start": 394.8,
+      "duration": 2.38
+    },
+    {
+      "text": "with countless live streams,\nQ&A shows and forums,",
+      "start": 397.18,
+      "duration": 3.23
+    },
+    {
+      "text": "and local groups\nall over the world.",
+      "start": 400.41,
+      "duration": 2.53
+    },
+    {
+      "text": "And one organizing force behind\nall of this is the Flutter",
+      "start": 402.94,
+      "duration": 3.02
+    },
+    {
+      "text": "Meetup Network, which has 150\ngroups spanning 66 countries,",
+      "start": 405.96,
+      "duration": 5.5
+    },
+    {
+      "text": "including an astounding\n83,124 members who,",
+      "start": 411.46,
+      "duration": 5.23
+    },
+    {
+      "text": "in the 2024 calendar\nyear, enjoyed 541 events.",
+      "start": 416.69,
+      "duration": 5.04
+    },
+    {
+      "text": "So pretty incredible.",
+      "start": 421.73,
+      "duration": 1.44
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 423.17,
+      "duration": 4.43
+    },
+    {
+      "text": "We've also seen a strong growth\nin the number of contributors",
+      "start": 427.6,
+      "duration": 3.0
+    },
+    {
+      "text": "to the actual core\nFlutter repositories.",
+      "start": 430.6,
+      "duration": 2.38
+    },
+    {
+      "text": "In the last year, we welcomed\n202 new first-time contributors,",
+      "start": 432.98,
+      "duration": 4.92
+    },
+    {
+      "text": "which brought our\nunique contributor count",
+      "start": 437.9,
+      "duration": 2.3
+    },
+    {
+      "text": "for the last year up to 843.",
+      "start": 440.2,
+      "duration": 3.1
+    },
+    {
+      "text": "And in total, these developers\nlanded over 4,000 changes",
+      "start": 443.3,
+      "duration": 3.71
+    },
+    {
+      "text": "to Flutter.",
+      "start": 447.01,
+      "duration": 2.04
+    },
+    {
+      "text": "But despite our success, we know\nthat there is a lot more work",
+      "start": 449.05,
+      "duration": 3.6
+    },
+    {
+      "text": "to be done.",
+      "start": 452.65,
+      "duration": 0.75
+    },
+    {
+      "text": "And a few months ago, we\nreleased our 2025 roadmap.",
+      "start": 453.4,
+      "duration": 3.15
+    },
+    {
+      "text": "We already have a lot of\nexciting progress to share.",
+      "start": 456.55,
+      "duration": 2.95
+    },
+    {
+      "text": "So let's start by\ntalking about what",
+      "start": 459.5,
+      "duration": 2.0
+    },
+    {
+      "text": "we've done to improve Dart,\nwhich empowers Flutter",
+      "start": 461.5,
+      "duration": 2.91
+    },
+    {
+      "text": "with a modern programming\nlanguage and fast and flexible",
+      "start": 464.41,
+      "duration": 3.51
+    },
+    {
+      "text": "developer tools.",
+      "start": 467.92,
+      "duration": 0.95
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 472.747,
+      "duration": 3.998
+    },
+    {
+      "text": "MICHAEL THOMSEN: All right.",
+      "start": 476.745,
+      "duration": 1.125
+    },
+    {
+      "text": "It's a developer conference.",
+      "start": 477.87,
+      "duration": 1.26
+    },
+    {
+      "text": "So yeah, let's talk about Dart.",
+      "start": 479.13,
+      "duration": 2.33
+    },
+    {
+      "text": "Dart is a key ingredient\nto further success.",
+      "start": 481.46,
+      "duration": 3.46
+    },
+    {
+      "text": "Our ability to co-evolve\nDart and Flutter",
+      "start": 484.92,
+      "duration": 2.63
+    },
+    {
+      "text": "together is a core\nenabler of our success.",
+      "start": 487.55,
+      "duration": 3.19
+    },
+    {
+      "text": "And we continue to\nevolve the Dart language.",
+      "start": 490.74,
+      "duration": 2.64
+    },
+    {
+      "text": "Here's a visualization\nof all the improvements",
+      "start": 493.38,
+      "duration": 2.36
+    },
+    {
+      "text": "we've made since our major null\nsafety feature back in 2021.",
+      "start": 495.74,
+      "duration": 4.54
+    },
+    {
+      "text": "Quite a few changes, right?",
+      "start": 500.28,
+      "duration": 2.27
+    },
+    {
+      "text": "This includes a mix of\ncapabilities, smaller additive",
+      "start": 502.55,
+      "duration": 3.81
+    },
+    {
+      "text": "changes ranging up to larger\nfeatures that impact all Dart",
+      "start": 506.36,
+      "duration": 3.75
+    },
+    {
+      "text": "and Flutter codes.",
+      "start": 510.11,
+      "duration": 0.94
+    },
+    {
+      "text": "And we're not done yet.",
+      "start": 511.05,
+      "duration": 2.72
+    },
+    {
+      "text": "In December, we launched\ndigit separators.",
+      "start": 513.77,
+      "duration": 2.56
+    },
+    {
+      "text": "This is an optional syntax\nthat adds visual separators",
+      "start": 516.33,
+      "duration": 3.77
+    },
+    {
+      "text": "to large numbers in your code.",
+      "start": 520.1,
+      "duration": 1.809
+    },
+    {
+      "text": "For example, the constant\ndeclarations on the slide.",
+      "start": 521.909,
+      "duration": 2.451
+    },
+    {
+      "text": "This feature makes\nit much easier",
+      "start": 524.36,
+      "duration": 1.68
+    },
+    {
+      "text": "to reach these\nkinds of constants",
+      "start": 526.04,
+      "duration": 1.38
+    },
+    {
+      "text": "without requiring\na magnifying glass.",
+      "start": 527.42,
+      "duration": 3.7
+    },
+    {
+      "text": "In February, we launched\nwild card variables.",
+      "start": 531.12,
+      "duration": 2.89
+    },
+    {
+      "text": "This is a specialized\nfeature for those cases",
+      "start": 534.01,
+      "duration": 2.69
+    },
+    {
+      "text": "where you don't care\nabout some values.",
+      "start": 536.7,
+      "duration": 2.47
+    },
+    {
+      "text": "For example, some of the values\nreturned from a function call.",
+      "start": 539.17,
+      "duration": 3.71
+    },
+    {
+      "text": "Before you had to make up\nan actual variable names,",
+      "start": 542.88,
+      "duration": 2.58
+    },
+    {
+      "text": "for these by convention,\nthis increasing amount of",
+      "start": 545.46,
+      "duration": 2.88
+    },
+    {
+      "text": "underscores.",
+      "start": 548.34,
+      "duration": 1.09
+    },
+    {
+      "text": "And now a single has a\nspecial semantic meaning.",
+      "start": 549.43,
+      "duration": 3.45
+    },
+    {
+      "text": "This non-binding, and you\ncan repeat it as many times",
+      "start": 552.88,
+      "duration": 2.69
+    },
+    {
+      "text": "as you need to\nfor all the values",
+      "start": 555.57,
+      "duration": 1.77
+    },
+    {
+      "text": "that you don't care about.",
+      "start": 557.34,
+      "duration": 1.71
+    },
+    {
+      "text": "And then available today in\nDart 3.8, null aware elements.",
+      "start": 559.05,
+      "duration": 5.76
+    },
+    {
+      "text": "This allows you to include\nan element in a collection",
+      "start": 564.81,
+      "duration": 3.12
+    },
+    {
+      "text": "only if it's not null.",
+      "start": 567.93,
+      "duration": 2.25
+    },
+    {
+      "text": "This works in all collections\nsuch as lists, maps, and sets.",
+      "start": 570.18,
+      "duration": 4.36
+    },
+    {
+      "text": "Whew.",
+      "start": 574.54,
+      "duration": 0.5
+    },
+    {
+      "text": "Thank you.",
+      "start": 575.04,
+      "duration": 0.53
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 575.57,
+      "duration": 4.51
+    },
+    {
+      "text": "Before this, you would have\nhad to use our existing syntax",
+      "start": 580.08,
+      "duration": 3.69
+    },
+    {
+      "text": "for conditional elements,\nas seen on the top",
+      "start": 583.77,
+      "duration": 4.17
+    },
+    {
+      "text": "to check whether a value\nwas null, and then including",
+      "start": 587.94,
+      "duration": 3.1
+    },
+    {
+      "text": "accordingly.",
+      "start": 591.04,
+      "duration": 1.17
+    },
+    {
+      "text": "And now you can just add\na simple question mark",
+      "start": 592.21,
+      "duration": 2.49
+    },
+    {
+      "text": "before the variable name and\neverything is handled for you.",
+      "start": 594.7,
+      "duration": 2.7
+    },
+    {
+      "text": "I think that's pretty neat.",
+      "start": 597.4,
+      "duration": 2.82
+    },
+    {
+      "text": "But we're not done.",
+      "start": 600.22,
+      "duration": 1.41
+    },
+    {
+      "text": "We are currently looking\nat addressing duplication",
+      "start": 601.63,
+      "duration": 2.49
+    },
+    {
+      "text": "in Flutter codes\nwith a new, shorter",
+      "start": 604.12,
+      "duration": 2.22
+    },
+    {
+      "text": "syntax for selecting a\nmember on a type that",
+      "start": 606.34,
+      "duration": 2.82
+    },
+    {
+      "text": "is known based on the context.",
+      "start": 609.16,
+      "duration": 3.077
+    },
+    {
+      "text": "Whew.",
+      "start": 612.237,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 612.737,
+      "duration": 4.493
+    },
+    {
+      "text": "Take, for example, a constructor\ncall to a Flutter column.",
+      "start": 617.23,
+      "duration": 3.61
+    },
+    {
+      "text": "As you know, it has a cross\naxis alignment argument",
+      "start": 620.84,
+      "duration": 4.16
+    },
+    {
+      "text": "of the type crossAxisalignment.",
+      "start": 625.0,
+      "duration": 2.91
+    },
+    {
+      "text": "And so there's really\nno reason to repeat",
+      "start": 627.91,
+      "duration": 1.8
+    },
+    {
+      "text": "this with Dart shorthands,\nwe just type Dart Stretch.",
+      "start": 629.71,
+      "duration": 4.11
+    },
+    {
+      "text": "And this is based\non context types.",
+      "start": 633.82,
+      "duration": 1.9
+    },
+    {
+      "text": "So like the actual type system.",
+      "start": 635.72,
+      "duration": 1.4
+    },
+    {
+      "text": "You still get code completions\nwhen you type the dot.",
+      "start": 637.12,
+      "duration": 3.08
+    },
+    {
+      "text": "Everything is checked by the\nAnalyzer, so it's fully sound.",
+      "start": 640.2,
+      "duration": 4.42
+    },
+    {
+      "text": "We expect this feature\nto land in stable",
+      "start": 644.62,
+      "duration": 2.5
+    },
+    {
+      "text": "in the second half of the year.",
+      "start": 647.12,
+      "duration": 3.42
+    },
+    {
+      "text": "All right.",
+      "start": 650.54,
+      "duration": 0.96
+    },
+    {
+      "text": "That's it for the Dart language.",
+      "start": 651.5,
+      "duration": 1.39
+    },
+    {
+      "text": "But we're not done with\ndeveloper experience.",
+      "start": 652.89,
+      "duration": 2.13
+    },
+    {
+      "text": "So let's talk about some tools.",
+      "start": 655.02,
+      "duration": 3.56
+    },
+    {
+      "text": "One of the trickiest parts of\nlearning any framework, I find,",
+      "start": 658.58,
+      "duration": 3.9
+    },
+    {
+      "text": "is learning what all\nthe available APIs are.",
+      "start": 662.48,
+      "duration": 3.24
+    },
+    {
+      "text": "It can be quite overwhelming\nat first when you're new.",
+      "start": 665.72,
+      "duration": 2.85
+    },
+    {
+      "text": "And I think great developer\ntooling can really help here.",
+      "start": 668.57,
+      "duration": 3.09
+    },
+    {
+      "text": "Today we're announcing a\nnew property editor feature.",
+      "start": 671.66,
+      "duration": 4.35
+    },
+    {
+      "text": "Whew.",
+      "start": 676.01,
+      "duration": 0.933
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 676.943,
+      "duration": 3.177
+    },
+    {
+      "text": "With this, when you select\na widget in your IDE,",
+      "start": 680.12,
+      "duration": 3.24
+    },
+    {
+      "text": "we will show you all the primary\nlayout features properties.",
+      "start": 683.36,
+      "duration": 3.72
+    },
+    {
+      "text": "You don't have to go read the\ndocs or go to the declaration.",
+      "start": 687.08,
+      "duration": 3.25
+    },
+    {
+      "text": "You can then easily\njust in the editor,",
+      "start": 690.33,
+      "duration": 2.64
+    },
+    {
+      "text": "change it to a new value that\nwill propagate into the source",
+      "start": 692.97,
+      "duration": 3.2
+    },
+    {
+      "text": "code, and hot reload will\nshow it in the running app.",
+      "start": 696.17,
+      "duration": 3.25
+    },
+    {
+      "text": "I think that's a\nreally great feature.",
+      "start": 699.42,
+      "duration": 3.53
+    },
+    {
+      "text": "A related developer\ntool often used",
+      "start": 702.95,
+      "duration": 2.86
+    },
+    {
+      "text": "for diagnosing layout issues\nis the DevTools Inspector.",
+      "start": 705.81,
+      "duration": 5.01
+    },
+    {
+      "text": "We recently made quite a\nnumber of improvements to this.",
+      "start": 710.82,
+      "duration": 3.25
+    },
+    {
+      "text": "We added a new\ncondensed widget tree",
+      "start": 714.07,
+      "duration": 2.21
+    },
+    {
+      "text": "that omits all the\nuninteresting widgets.",
+      "start": 716.28,
+      "duration": 2.65
+    },
+    {
+      "text": "We added a simpler\nproperties view and options",
+      "start": 718.93,
+      "duration": 3.56
+    },
+    {
+      "text": "to automatically\npropagate in responses",
+      "start": 722.49,
+      "duration": 2.61
+    },
+    {
+      "text": "to things like hot reload\nand navigation events.",
+      "start": 725.1,
+      "duration": 4.26
+    },
+    {
+      "text": "We're also making quite a few\nchanges to pub.dev, our package",
+      "start": 729.36,
+      "duration": 2.88
+    },
+    {
+      "text": "manager.",
+      "start": 732.24,
+      "duration": 1.08
+    },
+    {
+      "text": "We recently added\ndark mode support",
+      "start": 733.32,
+      "duration": 1.74
+    },
+    {
+      "text": "for better contrast and a\nnew download counts feature.",
+      "start": 735.06,
+      "duration": 3.15
+    },
+    {
+      "text": "That can be really helpful to\nunderstand how your packages are",
+      "start": 738.21,
+      "duration": 3.3
+    },
+    {
+      "text": "being used, and especially\nhow that user is distributed",
+      "start": 741.51,
+      "duration": 3.3
+    },
+    {
+      "text": "across the versions\nof the package.",
+      "start": 744.81,
+      "duration": 3.813
+    },
+    {
+      "text": "A brand new feature we're\nannouncing this week",
+      "start": 748.623,
+      "duration": 1.917
+    },
+    {
+      "text": "is trending packages.",
+      "start": 750.54,
+      "duration": 2.04
+    },
+    {
+      "text": "This will show you\npackages that have",
+      "start": 752.58,
+      "duration": 1.77
+    },
+    {
+      "text": "a big recent uptick\nin usage right",
+      "start": 754.35,
+      "duration": 2.4
+    },
+    {
+      "text": "on the front page of pub.dev.",
+      "start": 756.75,
+      "duration": 1.99
+    },
+    {
+      "text": "And we think this can\nbe a really useful tool",
+      "start": 758.74,
+      "duration": 2.12
+    },
+    {
+      "text": "for discovering some\nnew packages that",
+      "start": 760.86,
+      "duration": 2.31
+    },
+    {
+      "text": "might be of your interest.",
+      "start": 763.17,
+      "duration": 1.2
+    },
+    {
+      "text": "Finally, we completed a\nfull migration of pub.dev,",
+      "start": 766.99,
+      "duration": 3.66
+    },
+    {
+      "text": "of its original\nproprietary infrastructure",
+      "start": 770.65,
+      "duration": 2.85
+    },
+    {
+      "text": "and onto ready made Google\nCloud infrastructure.",
+      "start": 773.5,
+      "duration": 3.07
+    },
+    {
+      "text": "We hope this can ensure we can\nretain our reliability and fault",
+      "start": 776.57,
+      "duration": 3.74
+    },
+    {
+      "text": "tolerance, despite the\nvery strong growth of usage",
+      "start": 780.31,
+      "duration": 2.82
+    },
+    {
+      "text": "on pub.dev.",
+      "start": 783.13,
+      "duration": 2.91
+    },
+    {
+      "text": "All right, let's talk\nabout the formatter.",
+      "start": 786.04,
+      "duration": 2.07
+    },
+    {
+      "text": "This is a tool you\nprobably all used.",
+      "start": 788.11,
+      "duration": 3.09
+    },
+    {
+      "text": "Earlier this year-- thank you.",
+      "start": 791.2,
+      "duration": 1.96
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 793.16,
+      "duration": 3.35
+    },
+    {
+      "text": "Earlier this year, we\nadded new functionality",
+      "start": 796.51,
+      "duration": 2.37
+    },
+    {
+      "text": "to help it automate the adding\nand removal of trailing commas.",
+      "start": 798.88,
+      "duration": 5.61
+    },
+    {
+      "text": "We also optimized the actual\nformatting of the formatter",
+      "start": 804.49,
+      "duration": 3.0
+    },
+    {
+      "text": "in quite a few cases.",
+      "start": 807.49,
+      "duration": 1.27
+    },
+    {
+      "text": "And our goal was to enable you\nto focus on what your code does,",
+      "start": 808.76,
+      "duration": 3.63
+    },
+    {
+      "text": "and less so on how it looks.",
+      "start": 812.39,
+      "duration": 2.36
+    },
+    {
+      "text": "We got a lot of feedback,\na lot of feedback on this.",
+      "start": 814.75,
+      "duration": 2.94
+    },
+    {
+      "text": "So thank you for that.",
+      "start": 817.69,
+      "duration": 1.45
+    },
+    {
+      "text": "And we try and\nreact to feedback.",
+      "start": 819.14,
+      "duration": 2.25
+    },
+    {
+      "text": "So we've made a\nbunch of adjustments",
+      "start": 821.39,
+      "duration": 2.08
+    },
+    {
+      "text": "to the actual formatting.",
+      "start": 823.47,
+      "duration": 1.57
+    },
+    {
+      "text": "A couple of examples\nare shown on the slide,",
+      "start": 825.04,
+      "duration": 1.92
+    },
+    {
+      "text": "but there are many more\nadjustments we made.",
+      "start": 826.96,
+      "duration": 2.22
+    },
+    {
+      "text": "And then one of the most\ncontroversial changes",
+      "start": 829.18,
+      "duration": 2.12
+    },
+    {
+      "text": "was this removal of trailing\ncommerce on your behalf.",
+      "start": 831.3,
+      "duration": 3.54
+    },
+    {
+      "text": "And we understand\nsome of you are very",
+      "start": 834.84,
+      "duration": 1.65
+    },
+    {
+      "text": "passionate about that change.",
+      "start": 836.49,
+      "duration": 1.77
+    },
+    {
+      "text": "So we'd like to announce a new\nconfiguration option for you",
+      "start": 838.26,
+      "duration": 2.46
+    },
+    {
+      "text": "to turn that off.",
+      "start": 840.72,
+      "duration": 1.24
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 841.96,
+      "duration": 4.77
+    },
+    {
+      "text": "All right.",
+      "start": 850.56,
+      "duration": 1.08
+    },
+    {
+      "text": "Next up we changed\nthe Dart compiler.",
+      "start": 851.64,
+      "duration": 2.19
+    },
+    {
+      "text": "If you're using it, for\nexample, for embedded, we now",
+      "start": 853.83,
+      "duration": 3.99
+    },
+    {
+      "text": "support the ability\nto cross compile.",
+      "start": 857.82,
+      "duration": 2.17
+    },
+    {
+      "text": "So you can compile Linux\nbinaries from Windows and Mac OS",
+      "start": 859.99,
+      "duration": 4.04
+    },
+    {
+      "text": "machines.",
+      "start": 864.03,
+      "duration": 0.517
+    },
+    {
+      "text": "This can be really useful if\nyou're running on something",
+      "start": 864.547,
+      "duration": 2.333
+    },
+    {
+      "text": "like a Raspberry Pi.",
+      "start": 866.88,
+      "duration": 1.8
+    },
+    {
+      "text": "Before, if you didn't\nhave a Linux machine,",
+      "start": 868.68,
+      "duration": 1.96
+    },
+    {
+      "text": "you'd have to run\nthe compilation",
+      "start": 870.64,
+      "duration": 1.375
+    },
+    {
+      "text": "on the actual Raspberry Pi,\nwhich is extremely slow.",
+      "start": 872.015,
+      "duration": 3.545
+    },
+    {
+      "text": "It's like waiting for ice\ncream on a sunny day, right?",
+      "start": 875.56,
+      "duration": 2.72
+    },
+    {
+      "text": "But now we support\ncross compilation,",
+      "start": 878.28,
+      "duration": 1.852
+    },
+    {
+      "text": "so you can just do\nthat compilation right",
+      "start": 880.132,
+      "duration": 1.708
+    },
+    {
+      "text": "on your macOS or\nWindows machine, which",
+      "start": 881.84,
+      "duration": 2.31
+    },
+    {
+      "text": "is probably quite a bit faster.",
+      "start": 884.15,
+      "duration": 4.38
+    },
+    {
+      "text": "Speaking of slow, I think we all\nhate waiting for our CLI tools.",
+      "start": 888.53,
+      "duration": 4.77
+    },
+    {
+      "text": "We recently took a really\nhard look at the Dart CLI tool",
+      "start": 893.3,
+      "duration": 3.99
+    },
+    {
+      "text": "and realized we were still\nrunning it in JIT mode,",
+      "start": 897.29,
+      "duration": 3.49
+    },
+    {
+      "text": "despite AOT compilation\nnow being so much faster.",
+      "start": 900.78,
+      "duration": 3.44
+    },
+    {
+      "text": "So we've compiled the whole\ntool into an AOT binary.",
+      "start": 904.22,
+      "duration": 4.38
+    },
+    {
+      "text": "And of course, the results\nwill vary depending on what",
+      "start": 908.6,
+      "duration": 2.28
+    },
+    {
+      "text": "you run-- when you run it on.",
+      "start": 910.88,
+      "duration": 1.51
+    },
+    {
+      "text": "In the examples\nhere on the slide,",
+      "start": 912.39,
+      "duration": 1.77
+    },
+    {
+      "text": "we're running it on\na single package.",
+      "start": 914.16,
+      "duration": 1.68
+    },
+    {
+      "text": "And as you can see, Dart Format\ntends to be a near instant.",
+      "start": 915.84,
+      "duration": 3.74
+    },
+    {
+      "text": "And something like Dart Analyze\nnow completes roughly 50%",
+      "start": 919.58,
+      "duration": 3.45
+    },
+    {
+      "text": "faster.",
+      "start": 923.03,
+      "duration": 1.17
+    },
+    {
+      "text": "I think this will make your\neveryday use of the tools",
+      "start": 924.2,
+      "duration": 2.73
+    },
+    {
+      "text": "much more responsive.",
+      "start": 926.93,
+      "duration": 1.42
+    },
+    {
+      "text": "And in something\nlike CI workflows,",
+      "start": 928.35,
+      "duration": 1.95
+    },
+    {
+      "text": "they should complete\nmuch faster.",
+      "start": 930.3,
+      "duration": 1.375
+    },
+    {
+      "text": "This work is currently\nhappening in main.",
+      "start": 934.79,
+      "duration": 2.35
+    },
+    {
+      "text": "So if you want to try it,\ngive it a look in main",
+      "start": 937.14,
+      "duration": 2.75
+    },
+    {
+      "text": "and it should make its way to\nstable in later in the year.",
+      "start": 939.89,
+      "duration": 3.81
+    },
+    {
+      "text": "That's all for Darts.",
+      "start": 943.7,
+      "duration": 2.31
+    },
+    {
+      "text": "Craig, why don't we talk\nabout Flutter a bit.",
+      "start": 946.01,
+      "duration": 2.681
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 948.691,
+      "duration": 5.851
+    },
+    {
+      "text": "CRAIG LABENZ: Well,\npeople who know",
+      "start": 954.542,
+      "duration": 1.458
+    },
+    {
+      "text": "me know that I do love\nto talk about Flutter.",
+      "start": 956.0,
+      "duration": 4.05
+    },
+    {
+      "text": "All right, so Flutter launched\nin 2017 on Android and iOS.",
+      "start": 960.05,
+      "duration": 5.08
+    },
+    {
+      "text": "And we are so proud of\nthe mobile experience",
+      "start": 965.13,
+      "duration": 2.57
+    },
+    {
+      "text": "that we've built\nin the years since.",
+      "start": 967.7,
+      "duration": 1.99
+    },
+    {
+      "text": "Our material in\nCupertino widgets,",
+      "start": 969.69,
+      "duration": 1.88
+    },
+    {
+      "text": "Track, Google, and\nApple's design languages.",
+      "start": 971.57,
+      "duration": 2.68
+    },
+    {
+      "text": "And of course, Flutter\nshines brightest",
+      "start": 974.25,
+      "duration": 2.63
+    },
+    {
+      "text": "when you bring your\nbrand's own custom design.",
+      "start": 976.88,
+      "duration": 3.69
+    },
+    {
+      "text": "But underneath all\nthose shiny UIs,",
+      "start": 980.57,
+      "duration": 2.65
+    },
+    {
+      "text": "Flutter apps can also access\neach and every native API",
+      "start": 983.22,
+      "duration": 4.37
+    },
+    {
+      "text": "on the host platform, often\nthrough a mature plugin",
+      "start": 987.59,
+      "duration": 3.03
+    },
+    {
+      "text": "that you just install\nwith a single command.",
+      "start": 990.62,
+      "duration": 2.5
+    },
+    {
+      "text": "But what about new\nAPIs, maybe something",
+      "start": 993.12,
+      "duration": 2.87
+    },
+    {
+      "text": "announced at a big\nfancy tech conference",
+      "start": 995.99,
+      "duration": 2.55
+    },
+    {
+      "text": "that's only available in\nan Android or iOS beta?",
+      "start": 998.54,
+      "duration": 3.4
+    },
+    {
+      "text": "Well, those beta APIs are\nalso all available to Flutter",
+      "start": 1001.94,
+      "duration": 4.77
+    },
+    {
+      "text": "developers, but\noften the developer",
+      "start": 1006.71,
+      "duration": 3.66
+    },
+    {
+      "text": "experience to reach\nthem has not risen",
+      "start": 1010.37,
+      "duration": 2.4
+    },
+    {
+      "text": "to the level of our standards.",
+      "start": 1012.77,
+      "duration": 1.63
+    },
+    {
+      "text": "First of all, the function\ncalls to native methods",
+      "start": 1014.4,
+      "duration": 3.08
+    },
+    {
+      "text": "were asynchronous in Dart,\neven if the target function",
+      "start": 1017.48,
+      "duration": 3.99
+    },
+    {
+      "text": "was synchronous.",
+      "start": 1021.47,
+      "duration": 1.06
+    },
+    {
+      "text": "Secondly, the parameters\ngoing into those functions",
+      "start": 1022.53,
+      "duration": 3.77
+    },
+    {
+      "text": "and the return values coming\nback out were not type-safe.",
+      "start": 1026.3,
+      "duration": 3.4
+    },
+    {
+      "text": "And third, the boilerplate to\nmake all this happen really",
+      "start": 1029.7,
+      "duration": 4.46
+    },
+    {
+      "text": "felt like homework.",
+      "start": 1034.16,
+      "duration": 1.12
+    },
+    {
+      "text": "So we're imagining a\ntotally new world here,",
+      "start": 1035.28,
+      "duration": 2.339
+    },
+    {
+      "text": "which we call direct\nnative interop.",
+      "start": 1037.619,
+      "duration": 3.271
+    },
+    {
+      "text": "And our vision is to allow\nyou to eventually access",
+      "start": 1040.89,
+      "duration": 3.32
+    },
+    {
+      "text": "all native code as easily as\nyou access your own Dart code.",
+      "start": 1044.21,
+      "duration": 4.84
+    },
+    {
+      "text": "And we're working on three\ncomplementary projects",
+      "start": 1049.05,
+      "duration": 2.6
+    },
+    {
+      "text": "here to realize this vision.",
+      "start": 1051.65,
+      "duration": 1.69
+    },
+    {
+      "text": "And I want to share updates\nwith all of those with you now.",
+      "start": 1053.34,
+      "duration": 3.71
+    },
+    {
+      "text": "So they are, merging\nthe UI thread back",
+      "start": 1057.05,
+      "duration": 3.19
+    },
+    {
+      "text": "into the platform thread, Build\nHooks, and the related features",
+      "start": 1060.24,
+      "duration": 4.41
+    },
+    {
+      "text": "FFIGen and JNIGen.",
+      "start": 1064.65,
+      "duration": 3.24
+    },
+    {
+      "text": "So the first project merging\nthat Flutter UI thread back",
+      "start": 1067.89,
+      "duration": 3.9
+    },
+    {
+      "text": "into the platform thread was\na very serious undertaking.",
+      "start": 1071.79,
+      "duration": 3.64
+    },
+    {
+      "text": "And to understand\nit better, let's",
+      "start": 1075.43,
+      "duration": 1.85
+    },
+    {
+      "text": "take a look at Flutter's\nhistorical architecture.",
+      "start": 1077.28,
+      "duration": 3.3
+    },
+    {
+      "text": "So originally,\nthe Flutter Engine",
+      "start": 1080.58,
+      "duration": 2.61
+    },
+    {
+      "text": "was managing two\nnew threads separate",
+      "start": 1083.19,
+      "duration": 2.76
+    },
+    {
+      "text": "from the main platform thread.",
+      "start": 1085.95,
+      "duration": 1.69
+    },
+    {
+      "text": "However, this design, which\nseemed reasonable eight years",
+      "start": 1087.64,
+      "duration": 3.29
+    },
+    {
+      "text": "ago, came with hidden fees.",
+      "start": 1090.93,
+      "duration": 2.62
+    },
+    {
+      "text": "The vast majority of native\nplatform-- or native APIs",
+      "start": 1093.55,
+      "duration": 3.89
+    },
+    {
+      "text": "have to be invoked from\nthe platform thread.",
+      "start": 1097.44,
+      "duration": 3.76
+    },
+    {
+      "text": "And so instead of calling\nthose directly from Dart,",
+      "start": 1101.2,
+      "duration": 2.94
+    },
+    {
+      "text": "we all had to marshal the\ncalls through these things",
+      "start": 1104.14,
+      "duration": 3.74
+    },
+    {
+      "text": "called platform channels.",
+      "start": 1107.88,
+      "duration": 1.81
+    },
+    {
+      "text": "And this created two problems.",
+      "start": 1109.69,
+      "duration": 1.83
+    },
+    {
+      "text": "First, it added friction\nand that async behavior",
+      "start": 1111.52,
+      "duration": 2.485
+    },
+    {
+      "text": "to what could have\notherwise been",
+      "start": 1114.005,
+      "duration": 1.375
+    },
+    {
+      "text": "a simple synchronous\nfunction call.",
+      "start": 1115.38,
+      "duration": 2.14
+    },
+    {
+      "text": "And second, because\nit was operating",
+      "start": 1117.52,
+      "duration": 3.42
+    },
+    {
+      "text": "on those serialized\npayloads, that's",
+      "start": 1120.94,
+      "duration": 2.82
+    },
+    {
+      "text": "why all type safety was lost.",
+      "start": 1123.76,
+      "duration": 2.32
+    },
+    {
+      "text": "So we knew we wanted\nto make this better.",
+      "start": 1126.08,
+      "duration": 2.9
+    },
+    {
+      "text": "And to realize this direct\nnative interop vision,",
+      "start": 1128.98,
+      "duration": 2.8
+    },
+    {
+      "text": "we had to merge two of those\nthreads doing away with the UI",
+      "start": 1131.78,
+      "duration": 3.89
+    },
+    {
+      "text": "thread that the Flutter\nEngine was starting and moving",
+      "start": 1135.67,
+      "duration": 2.94
+    },
+    {
+      "text": "all of that Dart code execution\nback onto the platform thread.",
+      "start": 1138.61,
+      "duration": 4.6
+    },
+    {
+      "text": "And this can help us avoid\nthe forced use of futures",
+      "start": 1143.21,
+      "duration": 3.83
+    },
+    {
+      "text": "in Dart code calling\nsynchronous native functions,",
+      "start": 1147.04,
+      "duration": 3.16
+    },
+    {
+      "text": "and it can allow\nfor type safety.",
+      "start": 1150.2,
+      "duration": 3.41
+    },
+    {
+      "text": "Now, as a side note, platform\nchannels do still exist.",
+      "start": 1153.61,
+      "duration": 3.07
+    },
+    {
+      "text": "So this is not a breaking\nchange for existing plugins.",
+      "start": 1156.68,
+      "duration": 4.34
+    },
+    {
+      "text": "So merging the UI thread\nback into the platform thread",
+      "start": 1161.02,
+      "duration": 3.63
+    },
+    {
+      "text": "will simplify situations\nwhere the native API",
+      "start": 1164.65,
+      "duration": 3.42
+    },
+    {
+      "text": "that you need to call is\noffered by the host platform.",
+      "start": 1168.07,
+      "duration": 3.4
+    },
+    {
+      "text": "But sometimes you\nneed to interact",
+      "start": 1171.47,
+      "duration": 1.58
+    },
+    {
+      "text": "with a library, maybe written\nin a different language.",
+      "start": 1173.05,
+      "duration": 2.29
+    },
+    {
+      "text": "For example, a machine learning\nlibrary written in C or Rust.",
+      "start": 1175.34,
+      "duration": 4.13
+    },
+    {
+      "text": "And those libraries often\ncome with their own dedicated",
+      "start": 1179.47,
+      "duration": 2.72
+    },
+    {
+      "text": "binaries, and they have to\nbe available at compile time.",
+      "start": 1182.19,
+      "duration": 3.04
+    },
+    {
+      "text": "And then they need to\nbe put somewhere where",
+      "start": 1185.23,
+      "duration": 1.97
+    },
+    {
+      "text": "your Dart code knows to look.",
+      "start": 1187.2,
+      "duration": 1.98
+    },
+    {
+      "text": "And this is the exact headache\nthat the Build Hooks feature",
+      "start": 1189.18,
+      "duration": 3.78
+    },
+    {
+      "text": "looks to solve by\neither downloading",
+      "start": 1192.96,
+      "duration": 2.22
+    },
+    {
+      "text": "a pre-prepared artifact\nfrom any public URL,",
+      "start": 1195.18,
+      "duration": 3.07
+    },
+    {
+      "text": "or by compiling one from source,\nand then baking it directly",
+      "start": 1198.25,
+      "duration": 3.8
+    },
+    {
+      "text": "into your Flutter app.",
+      "start": 1202.05,
+      "duration": 1.39
+    },
+    {
+      "text": "And as of today, Build Hooks\nis available in preview",
+      "start": 1203.44,
+      "duration": 3.17
+    },
+    {
+      "text": "on the main channel.",
+      "start": 1206.61,
+      "duration": 2.22
+    },
+    {
+      "text": "So now you've got that\nmachine learning library",
+      "start": 1208.83,
+      "duration": 3.06
+    },
+    {
+      "text": "in your Flutter app, in\na place where your Dart",
+      "start": 1211.89,
+      "duration": 2.16
+    },
+    {
+      "text": "code knows how to find it.",
+      "start": 1214.05,
+      "duration": 1.33
+    },
+    {
+      "text": "The only thing that remains is\nto actually call its functions.",
+      "start": 1215.38,
+      "duration": 4.22
+    },
+    {
+      "text": "And so for this, you engage\nwith Dart's low level",
+      "start": 1219.6,
+      "duration": 3.3
+    },
+    {
+      "text": "FFI APIs to manage memory,\ncall functions, and do",
+      "start": 1222.9,
+      "duration": 3.6
+    },
+    {
+      "text": "whatever else you need.",
+      "start": 1226.5,
+      "duration": 1.47
+    },
+    {
+      "text": "The only problem is different\nlanguages are, well,",
+      "start": 1227.97,
+      "duration": 3.88
+    },
+    {
+      "text": "different from each other\nand the translation layer",
+      "start": 1231.85,
+      "duration": 2.24
+    },
+    {
+      "text": "to get from one to the other\ncan often be a bit unwieldy.",
+      "start": 1234.09,
+      "duration": 3.96
+    },
+    {
+      "text": "So enter the third\nitem on our list.",
+      "start": 1238.05,
+      "duration": 2.62
+    },
+    {
+      "text": "The complementary\nfeatures FFIGen",
+      "start": 1240.67,
+      "duration": 2.66
+    },
+    {
+      "text": "to talk to C-like\nlanguages and JNIGen",
+      "start": 1243.33,
+      "duration": 3.03
+    },
+    {
+      "text": "to talk to Java and Kotlin.",
+      "start": 1246.36,
+      "duration": 2.11
+    },
+    {
+      "text": "And these tools read the\nheader files of the functions",
+      "start": 1248.47,
+      "duration": 3.14
+    },
+    {
+      "text": "that you hope to\ncall and generate",
+      "start": 1251.61,
+      "duration": 1.92
+    },
+    {
+      "text": "that translation code for you.",
+      "start": 1253.53,
+      "duration": 2.67
+    },
+    {
+      "text": "Now, the whole direct\nnative interop effort",
+      "start": 1256.2,
+      "duration": 2.61
+    },
+    {
+      "text": "is a very large undertaking and\ncurrently remains experimental.",
+      "start": 1258.81,
+      "duration": 4.42
+    },
+    {
+      "text": "But we're excited to keep\nmaking progress this year.",
+      "start": 1263.23,
+      "duration": 2.61
+    },
+    {
+      "text": "And for a deeper dive on native\ninterop and Flutter in general,",
+      "start": 1265.84,
+      "duration": 3.565
+    },
+    {
+      "text": "you're going to\nwant to check out",
+      "start": 1269.405,
+      "duration": 1.375
+    },
+    {
+      "text": "James Williams's talk,\nhow Flutter makes",
+      "start": 1270.78,
+      "duration": 2.94
+    },
+    {
+      "text": "the most of your platforms.",
+      "start": 1273.72,
+      "duration": 3.03
+    },
+    {
+      "text": "So native interop, powered\nby all these features,",
+      "start": 1276.75,
+      "duration": 3.19
+    },
+    {
+      "text": "is essential when building\nan app that really feels",
+      "start": 1279.94,
+      "duration": 2.93
+    },
+    {
+      "text": "right in the user's hands.",
+      "start": 1282.87,
+      "duration": 1.87
+    },
+    {
+      "text": "And that certainly\nincludes on iOS.",
+      "start": 1284.74,
+      "duration": 3.0
+    },
+    {
+      "text": "We want iOS developers to feel\nat home building with Flutter.",
+      "start": 1287.74,
+      "duration": 3.96
+    },
+    {
+      "text": "So this year, we've taken\na look at everything",
+      "start": 1291.7,
+      "duration": 2.16
+    },
+    {
+      "text": "to make sure it's all\nup to our standards.",
+      "start": 1293.86,
+      "duration": 3.06
+    },
+    {
+      "text": "But to start, we\nknew we didn't just",
+      "start": 1296.92,
+      "duration": 2.49
+    },
+    {
+      "text": "want to refresh our\nCupertino widgets.",
+      "start": 1299.41,
+      "duration": 2.26
+    },
+    {
+      "text": "We also wanted to establish\na cleaner foundation,",
+      "start": 1301.67,
+      "duration": 3.18
+    },
+    {
+      "text": "on top of which we could build\nwidgets of any design language.",
+      "start": 1304.85,
+      "duration": 3.54
+    },
+    {
+      "text": "And so toward that end, we've\nmigrated tens of thousands",
+      "start": 1308.39,
+      "duration": 3.5
+    },
+    {
+      "text": "of functional lines of code back\ninto the base widgets library.",
+      "start": 1311.89,
+      "duration": 4.63
+    },
+    {
+      "text": "And this is not a\nbreaking change,",
+      "start": 1316.52,
+      "duration": 1.89
+    },
+    {
+      "text": "but it sets us up for\ncleaner Cupertino widget",
+      "start": 1318.41,
+      "duration": 2.84
+    },
+    {
+      "text": "implementations, and\nit sets all of us",
+      "start": 1321.25,
+      "duration": 2.1
+    },
+    {
+      "text": "up for whatever design\nlanguages we want",
+      "start": 1323.35,
+      "duration": 1.95
+    },
+    {
+      "text": "to use in our Flutter apps.",
+      "start": 1325.3,
+      "duration": 2.88
+    },
+    {
+      "text": "And this foundational work\nsupported big investments",
+      "start": 1328.18,
+      "duration": 3.45
+    },
+    {
+      "text": "in the Cupertino library\nto improve its fidelity",
+      "start": 1331.63,
+      "duration": 2.73
+    },
+    {
+      "text": "and expand its coverage.",
+      "start": 1334.36,
+      "duration": 1.57
+    },
+    {
+      "text": "Our mindset regarding\nApple and iOS",
+      "start": 1335.93,
+      "duration": 2.6
+    },
+    {
+      "text": "is that we want to sweat the\ndetails so that your apps just",
+      "start": 1338.53,
+      "duration": 3.96
+    },
+    {
+      "text": "work the way you expect.",
+      "start": 1342.49,
+      "duration": 1.78
+    },
+    {
+      "text": "So we've revisited spring\nand scrolling physics.",
+      "start": 1344.27,
+      "duration": 3.84
+    },
+    {
+      "text": "We've updated our bottom sheets,\nour collapsibles, and navigation",
+      "start": 1348.11,
+      "duration": 3.7
+    },
+    {
+      "text": "bars, especially those\nincluding search fields.",
+      "start": 1351.81,
+      "duration": 2.97
+    },
+    {
+      "text": "In this app that we've\nall been looking at here,",
+      "start": 1354.78,
+      "duration": 2.02
+    },
+    {
+      "text": "written by community\nmember Maher Safadi,",
+      "start": 1356.8,
+      "duration": 2.01
+    },
+    {
+      "text": "uses Flutter's off the\nshelf Cupertino widgets",
+      "start": 1358.81,
+      "duration": 2.72
+    },
+    {
+      "text": "to showcase our efforts to\nfaithfully replicate Apple's",
+      "start": 1361.53,
+      "duration": 3.63
+    },
+    {
+      "text": "aesthetic.",
+      "start": 1365.16,
+      "duration": 1.83
+    },
+    {
+      "text": "Another detail\nthat we're sweating",
+      "start": 1366.99,
+      "duration": 1.8
+    },
+    {
+      "text": "so you don't have to is\nsupporting one of Apple's more",
+      "start": 1368.79,
+      "duration": 2.25
+    },
+    {
+      "text": "unique shapes, the\nsquircle, which",
+      "start": 1371.04,
+      "duration": 2.4
+    },
+    {
+      "text": "blends the arcs of\nseveral different shapes.",
+      "start": 1373.44,
+      "duration": 2.73
+    },
+    {
+      "text": "And the precise algorithm\nto the iOS squircle",
+      "start": 1376.17,
+      "duration": 2.65
+    },
+    {
+      "text": "remains a mystery to many,\ncertainly including yours truly.",
+      "start": 1378.82,
+      "duration": 3.06
+    },
+    {
+      "text": "But that has not\nstopped the Flutter team",
+      "start": 1381.88,
+      "duration": 2.12
+    },
+    {
+      "text": "from trying our best to create\nour take on it to the highest",
+      "start": 1384.0,
+      "duration": 3.51
+    },
+    {
+      "text": "possible fidelity.",
+      "start": 1387.51,
+      "duration": 1.92
+    },
+    {
+      "text": "So the difference\nbetween a squircle",
+      "start": 1389.43,
+      "duration": 2.25
+    },
+    {
+      "text": "and what you might\nfirst approximate it to,",
+      "start": 1391.68,
+      "duration": 2.19
+    },
+    {
+      "text": "a rounded square,\nis very subtle.",
+      "start": 1393.87,
+      "duration": 3.34
+    },
+    {
+      "text": "But while this\ngraphic might make",
+      "start": 1397.21,
+      "duration": 1.61
+    },
+    {
+      "text": "you think that this\ndoesn't matter,",
+      "start": 1398.82,
+      "duration": 1.648
+    },
+    {
+      "text": "and why are we even\ntalking about it,",
+      "start": 1400.468,
+      "duration": 1.542
+    },
+    {
+      "text": "it's actually very important.",
+      "start": 1402.01,
+      "duration": 1.92
+    },
+    {
+      "text": "It turns out that squircles\nare a big part of what",
+      "start": 1403.93,
+      "duration": 2.51
+    },
+    {
+      "text": "makes iOS feel like iOS.",
+      "start": 1406.44,
+      "duration": 3.42
+    },
+    {
+      "text": "So we examined all\nkinds of shapes,",
+      "start": 1409.86,
+      "duration": 2.03
+    },
+    {
+      "text": "including the next\nclosest shape,",
+      "start": 1411.89,
+      "duration": 1.95
+    },
+    {
+      "text": "which is called a superellipse.",
+      "start": 1413.84,
+      "duration": 1.95
+    },
+    {
+      "text": "Ultimately, we\nfound that squircle",
+      "start": 1415.79,
+      "duration": 1.76
+    },
+    {
+      "text": "seemed to be a mixture of\narcs from plain old circles",
+      "start": 1417.55,
+      "duration": 3.48
+    },
+    {
+      "text": "and these fancy superellipses.",
+      "start": 1421.03,
+      "duration": 2.47
+    },
+    {
+      "text": "Now, we think Flutter's squircle\nimplementation is pretty close,",
+      "start": 1423.5,
+      "duration": 3.68
+    },
+    {
+      "text": "and the community\nnoticed and agreed.",
+      "start": 1427.18,
+      "duration": 3.09
+    },
+    {
+      "text": "Mike Rydstrom, typically a\ndiscerning eye on the fidelity",
+      "start": 1430.27,
+      "duration": 3.6
+    },
+    {
+      "text": "of Flutter's material\nimplementation,",
+      "start": 1433.87,
+      "duration": 2.14
+    },
+    {
+      "text": "posted a 12-post thread on X\nshowcasing his findings that",
+      "start": 1436.01,
+      "duration": 4.58
+    },
+    {
+      "text": "have all the world's\nthird party squircles,",
+      "start": 1440.59,
+      "duration": 2.31
+    },
+    {
+      "text": "Flutter's is the best.",
+      "start": 1442.9,
+      "duration": 3.076
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1445.976,
+      "duration": 0.794
+    },
+    {
+      "text": "Yeah.",
+      "start": 1446.77,
+      "duration": 1.98
+    },
+    {
+      "text": "A lot of work went\ninto that on the team,",
+      "start": 1448.75,
+      "duration": 2.5
+    },
+    {
+      "text": "just exploring\nmathematical models",
+      "start": 1451.25,
+      "duration": 1.995
+    },
+    {
+      "text": "and what might be going on.",
+      "start": 1453.245,
+      "duration": 1.125
+    },
+    {
+      "text": "They're really cool.",
+      "start": 1454.37,
+      "duration": 0.92
+    },
+    {
+      "text": "And you can find it today\nin the stable channel",
+      "start": 1455.29,
+      "duration": 2.37
+    },
+    {
+      "text": "as the RSuperellipse\nclass, and we're already",
+      "start": 1457.66,
+      "duration": 2.82
+    },
+    {
+      "text": "including it in our Cupertino\nwidgets where appropriate.",
+      "start": 1460.48,
+      "duration": 3.81
+    },
+    {
+      "text": "Now, beyond building out\njust the Cupertino Library,",
+      "start": 1464.29,
+      "duration": 2.98
+    },
+    {
+      "text": "we're also hard at\nwork migrating off",
+      "start": 1467.27,
+      "duration": 2.16
+    },
+    {
+      "text": "of CocoaPods and on to\nSwift Package Manager.",
+      "start": 1469.43,
+      "duration": 3.04
+    },
+    {
+      "text": "That will simplify\nall of our dev setups.",
+      "start": 1472.47,
+      "duration": 2.79
+    },
+    {
+      "text": "So CocoaPods is\ninstalled but broken.",
+      "start": 1475.26,
+      "duration": 3.09
+    },
+    {
+      "text": "Fare thee well.",
+      "start": 1478.35,
+      "duration": 2.181
+    },
+    {
+      "text": "All right.",
+      "start": 1480.531,
+      "duration": 0.5
+    },
+    {
+      "text": "We are still in a\ntransitory state here,",
+      "start": 1483.86,
+      "duration": 2.23
+    },
+    {
+      "text": "but already 150 plugins have\nadded Swift Package Manager",
+      "start": 1486.09,
+      "duration": 4.04
+    },
+    {
+      "text": "support, and we're happy\nto announce that includes",
+      "start": 1490.13,
+      "duration": 2.13
+    },
+    {
+      "text": "all Firebase plugins.",
+      "start": 1492.26,
+      "duration": 1.65
+    },
+    {
+      "text": "And we aim to complete this\ntransition to Swift Package",
+      "start": 1493.91,
+      "duration": 2.58
+    },
+    {
+      "text": "Manager soon.",
+      "start": 1496.49,
+      "duration": 2.67
+    },
+    {
+      "text": "Similarly, on the other\nside of the mobile coin,",
+      "start": 1499.16,
+      "duration": 3.01
+    },
+    {
+      "text": "Flutter will always aim for\na no compromises experience",
+      "start": 1502.17,
+      "duration": 4.1
+    },
+    {
+      "text": "on Android.",
+      "start": 1506.27,
+      "duration": 1.53
+    },
+    {
+      "text": "First, as a Flutter 3.29,\nAndroid has joined iOS in using",
+      "start": 1507.8,
+      "duration": 4.53
+    },
+    {
+      "text": "Impeller as its\nprimary renderer,",
+      "start": 1512.33,
+      "duration": 2.35
+    },
+    {
+      "text": "with one small exception of very\nold 10-year-old Android devices",
+      "start": 1514.68,
+      "duration": 4.85
+    },
+    {
+      "text": "that run a very\ndated graphics stack.",
+      "start": 1519.53,
+      "duration": 2.53
+    },
+    {
+      "text": "And to continue to\nsupport those devices,",
+      "start": 1522.06,
+      "duration": 2.52
+    },
+    {
+      "text": "Flutter will continue to\nuse Skia on Android API",
+      "start": 1524.58,
+      "duration": 3.33
+    },
+    {
+      "text": "level 28 and below.",
+      "start": 1527.91,
+      "duration": 2.94
+    },
+    {
+      "text": "As of Flutter 3.27, we also made\nAndroid's edge-to-edge UI system",
+      "start": 1530.85,
+      "duration": 5.62
+    },
+    {
+      "text": "Flutter's default. And\nedge-to-edge opens up",
+      "start": 1536.47,
+      "duration": 2.75
+    },
+    {
+      "text": "the whole vertical height of\na display to a Flutter app,",
+      "start": 1539.22,
+      "duration": 2.89
+    },
+    {
+      "text": "running on an Android\ndevice that does not have",
+      "start": 1542.11,
+      "duration": 2.6
+    },
+    {
+      "text": "any top or bottom system UI.",
+      "start": 1544.71,
+      "duration": 2.35
+    },
+    {
+      "text": "And this had\ndelicate implications",
+      "start": 1547.06,
+      "duration": 2.03
+    },
+    {
+      "text": "for how Flutter\nthinks about things",
+      "start": 1549.09,
+      "duration": 1.8
+    },
+    {
+      "text": "like safe areas and system UI.",
+      "start": 1550.89,
+      "duration": 3.72
+    },
+    {
+      "text": "This year, we've also added\nAndroid scribe feature,",
+      "start": 1554.61,
+      "duration": 3.79
+    },
+    {
+      "text": "which converts raw\nhandwriting into actual text.",
+      "start": 1558.4,
+      "duration": 3.51
+    },
+    {
+      "text": "And this is a pretty cool\nfeature because it just works,",
+      "start": 1561.91,
+      "duration": 3.3
+    },
+    {
+      "text": "even if your\nhandwriting is like mine",
+      "start": 1565.21,
+      "duration": 1.792
+    },
+    {
+      "text": "and it looks like a\nchild finger-painting",
+      "start": 1567.002,
+      "duration": 1.708
+    },
+    {
+      "text": "with spaghetti sauce.",
+      "start": 1568.71,
+      "duration": 2.76
+    },
+    {
+      "text": "Now, beyond all that, we've\nalso delivered numerous material",
+      "start": 1571.47,
+      "duration": 3.06
+    },
+    {
+      "text": "updates, including supporting\nnew page transitions,",
+      "start": 1574.53,
+      "duration": 3.16
+    },
+    {
+      "text": "updating progress\nindicators and sliders,",
+      "start": 1577.69,
+      "duration": 2.45
+    },
+    {
+      "text": "and other areas of polish.",
+      "start": 1580.14,
+      "duration": 3.12
+    },
+    {
+      "text": "All right, next up, the web.",
+      "start": 1583.26,
+      "duration": 3.64
+    },
+    {
+      "text": "Now Dart code-- yeah.",
+      "start": 1586.9,
+      "duration": 2.25
+    },
+    {
+      "text": "Dart code has always been able\nto compile itself to JavaScript",
+      "start": 1589.15,
+      "duration": 3.63
+    },
+    {
+      "text": "as a first-class feature.",
+      "start": 1592.78,
+      "duration": 1.57
+    },
+    {
+      "text": "So Dart web apps actually\ngo back more than a decade.",
+      "start": 1594.35,
+      "duration": 3.38
+    },
+    {
+      "text": "But AOT natively\ncompiled code, turns out",
+      "start": 1597.73,
+      "duration": 3.84
+    },
+    {
+      "text": "runs a little bit faster\nthan interpreted code.",
+      "start": 1601.57,
+      "duration": 2.38
+    },
+    {
+      "text": "And so the web world\nhas been hard at work",
+      "start": 1603.95,
+      "duration": 2.39
+    },
+    {
+      "text": "even in this playing field with,\nwe already know, WebAssembly.",
+      "start": 1606.34,
+      "duration": 4.26
+    },
+    {
+      "text": "And in Flutter,\nwe are, of course,",
+      "start": 1610.6,
+      "duration": 1.96
+    },
+    {
+      "text": "fully supporting WebAssembly,\nas we announced last year",
+      "start": 1612.56,
+      "duration": 3.74
+    },
+    {
+      "text": "with our commitment, or\nwe announced last year",
+      "start": 1616.3,
+      "duration": 3.42
+    },
+    {
+      "text": "with Dart's ability to\ncompile itself to WasmGC.",
+      "start": 1619.72,
+      "duration": 3.54
+    },
+    {
+      "text": "And with WebAssembly,\nFlutter web apps",
+      "start": 1623.26,
+      "duration": 1.95
+    },
+    {
+      "text": "start a lot faster\nbecause there's",
+      "start": 1625.21,
+      "duration": 2.07
+    },
+    {
+      "text": "no JavaScript to interpret.",
+      "start": 1627.28,
+      "duration": 1.51
+    },
+    {
+      "text": "And in complicated\nscenarios, they",
+      "start": 1628.79,
+      "duration": 1.97
+    },
+    {
+      "text": "can render frames\nup to twice as fast.",
+      "start": 1630.76,
+      "duration": 2.98
+    },
+    {
+      "text": "And for the last year,\nwe've been focusing hard",
+      "start": 1633.74,
+      "duration": 2.21
+    },
+    {
+      "text": "with the community\non leveraging WasmGC,",
+      "start": 1635.95,
+      "duration": 2.68
+    },
+    {
+      "text": "and that involves having\nindividual packages upgrade",
+      "start": 1638.63,
+      "duration": 4.16
+    },
+    {
+      "text": "to our new JS interop model.",
+      "start": 1642.79,
+      "duration": 2.57
+    },
+    {
+      "text": "And we've made great progress\nwith the community on this.",
+      "start": 1645.36,
+      "duration": 2.86
+    },
+    {
+      "text": "So thank you all, as evidenced\nby 92% of the top 250 web",
+      "start": 1648.22,
+      "duration": 4.94
+    },
+    {
+      "text": "packages supporting Wasm.",
+      "start": 1653.16,
+      "duration": 3.48
+    },
+    {
+      "text": "Next, we've also\ndone a lot of work",
+      "start": 1656.64,
+      "duration": 2.04
+    },
+    {
+      "text": "with our accessibility system,\nincluding a huge refactor",
+      "start": 1658.68,
+      "duration": 2.94
+    },
+    {
+      "text": "to improve performance and help\nthe Flutter web Engine spend",
+      "start": 1661.62,
+      "duration": 3.39
+    },
+    {
+      "text": "less time syncing its semantics\ntree with the browser's",
+      "start": 1665.01,
+      "duration": 3.33
+    },
+    {
+      "text": "accessibility APIs.",
+      "start": 1668.34,
+      "duration": 1.89
+    },
+    {
+      "text": "We've also added an\nentirely new semantics roles",
+      "start": 1670.23,
+      "duration": 3.09
+    },
+    {
+      "text": "system, which Flutter converts\nto standard ARIA labels",
+      "start": 1673.32,
+      "duration": 3.99
+    },
+    {
+      "text": "on the web.",
+      "start": 1677.31,
+      "duration": 1.0
+    },
+    {
+      "text": "And this offers developers\nmore precise control",
+      "start": 1678.31,
+      "duration": 2.87
+    },
+    {
+      "text": "over how a UI element\nthat you're creating",
+      "start": 1681.18,
+      "duration": 2.61
+    },
+    {
+      "text": "will be interpreted\nby the browser's",
+      "start": 1683.79,
+      "duration": 2.37
+    },
+    {
+      "text": "assistive technologies.",
+      "start": 1686.16,
+      "duration": 1.48
+    },
+    {
+      "text": "We've also landed dozens of\nother bug fixes improvements",
+      "start": 1687.64,
+      "duration": 3.02
+    },
+    {
+      "text": "to our accessibility system.",
+      "start": 1690.66,
+      "duration": 2.52
+    },
+    {
+      "text": "Now, all of these\nimprovements to Flutter web",
+      "start": 1693.18,
+      "duration": 4.41
+    },
+    {
+      "text": "are good and fun and all,\nbut this is just between us.",
+      "start": 1697.59,
+      "duration": 3.847
+    },
+    {
+      "text": "This is a private\nconversation, right?",
+      "start": 1701.437,
+      "duration": 1.583
+    },
+    {
+      "text": "There's no one listening.",
+      "start": 1703.02,
+      "duration": 1.74
+    },
+    {
+      "text": "If you've made a\nFlutter web app before,",
+      "start": 1704.76,
+      "duration": 3.25
+    },
+    {
+      "text": "you've probably\nnoticed the absence",
+      "start": 1708.01,
+      "duration": 2.69
+    },
+    {
+      "text": "of Flutter's flagship\nfeature stateful hot reload.",
+      "start": 1710.7,
+      "duration": 4.95
+    },
+    {
+      "text": "But today, I am\nexcited to announce",
+      "start": 1715.65,
+      "duration": 3.06
+    },
+    {
+      "text": "that stateful hot reload is\navailable for Flutter web",
+      "start": 1718.71,
+      "duration": 7.11
+    },
+    {
+      "text": "in preview on all channels.",
+      "start": 1725.82,
+      "duration": 3.7
+    },
+    {
+      "text": "Yes.",
+      "start": 1729.52,
+      "duration": 0.84
+    },
+    {
+      "text": "And you can try yourself today\nby adding this flag to Flutter",
+      "start": 1730.36,
+      "duration": 3.71
+    },
+    {
+      "text": "run or by visiting DartPad.dev\nwhere it's globally enabled.",
+      "start": 1734.07,
+      "duration": 4.18
+    },
+    {
+      "text": "And we hope to enable this by\ndefault by the end of the year.",
+      "start": 1738.25,
+      "duration": 3.15
+    },
+    {
+      "text": "But first, why don't\nwe take a look.",
+      "start": 1741.4,
+      "duration": 2.965
+    },
+    {
+      "text": "Because it's going\nto be so fun to see.",
+      "start": 1744.365,
+      "duration": 1.625
+    },
+    {
+      "text": "Can we switch to the demo?",
+      "start": 1745.99,
+      "duration": 3.02
+    },
+    {
+      "text": "All right I've got DartPad here.",
+      "start": 1749.01,
+      "duration": 2.29
+    },
+    {
+      "text": "So the first thing I will do\nis load up the counter app",
+      "start": 1751.3,
+      "duration": 3.5
+    },
+    {
+      "text": "and run it.",
+      "start": 1754.8,
+      "duration": 0.79
+    },
+    {
+      "text": "And we see a new button there.",
+      "start": 1755.59,
+      "duration": 2.16
+    },
+    {
+      "text": "Reload all right.",
+      "start": 1757.75,
+      "duration": 2.16
+    },
+    {
+      "text": "So I'm going to run the\nold faithful counter app",
+      "start": 1759.91,
+      "duration": 2.55
+    },
+    {
+      "text": "and then I will\ncount 1, 2, 3, 4, 5.",
+      "start": 1762.46,
+      "duration": 2.89
+    },
+    {
+      "text": "All right.",
+      "start": 1765.35,
+      "duration": 0.51
+    },
+    {
+      "text": "Now I don't want to\nmake the change myself,",
+      "start": 1765.86,
+      "duration": 3.06
+    },
+    {
+      "text": "so I'll have Gemini\ndo the hard work.",
+      "start": 1768.92,
+      "duration": 3.06
+    },
+    {
+      "text": "Here we go.",
+      "start": 1771.98,
+      "duration": 2.12
+    },
+    {
+      "text": "Hello, dearest Gemini.",
+      "start": 1774.1,
+      "duration": 3.18
+    },
+    {
+      "text": "Old buddy, old pal, would you\nplease, if it please the court,",
+      "start": 1777.28,
+      "duration": 7.8
+    },
+    {
+      "text": "rotate the text widget\nshowing the count 45 degrees?",
+      "start": 1785.08,
+      "duration": 7.65
+    },
+    {
+      "text": "There we go.",
+      "start": 1792.73,
+      "duration": 1.8
+    },
+    {
+      "text": "Thank you.",
+      "start": 1794.53,
+      "duration": 0.94
+    },
+    {
+      "text": "OK, so now I'll press Generate.",
+      "start": 1795.47,
+      "duration": 2.61
+    },
+    {
+      "text": "Gemini cooks for a\nbit, brings in math.",
+      "start": 1798.08,
+      "duration": 2.64
+    },
+    {
+      "text": "Yeah, that's what we expect.",
+      "start": 1800.72,
+      "duration": 1.44
+    },
+    {
+      "text": "Wraps this widget.",
+      "start": 1802.16,
+      "duration": 1.11
+    },
+    {
+      "text": "OK, whatever.",
+      "start": 1803.27,
+      "duration": 0.63
+    },
+    {
+      "text": "That's fine, I accept.",
+      "start": 1803.9,
+      "duration": 1.74
+    },
+    {
+      "text": "But there it is.",
+      "start": 1805.64,
+      "duration": 1.59
+    },
+    {
+      "text": "Rotated.",
+      "start": 1807.23,
+      "duration": 0.852
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1808.082,
+      "duration": 1.718
+    },
+    {
+      "text": "And statefully hot reloaded.",
+      "start": 1809.8,
+      "duration": 3.42
+    },
+    {
+      "text": "That was so much faster than\nit ever would have been before.",
+      "start": 1813.22,
+      "duration": 4.45
+    },
+    {
+      "text": "All right.",
+      "start": 1817.67,
+      "duration": 0.9
+    },
+    {
+      "text": "Next I'm going to pass\nthings back to Michael",
+      "start": 1818.57,
+      "duration": 2.48
+    },
+    {
+      "text": "to take a look at our ecosystem.",
+      "start": 1821.05,
+      "duration": 2.962
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1824.012,
+      "duration": 2.823
+    },
+    {
+      "text": "MICHAEL THOMSEN: Thank you.",
+      "start": 1826.835,
+      "duration": 1.125
+    },
+    {
+      "text": "Thank you.",
+      "start": 1827.96,
+      "duration": 0.61
+    },
+    {
+      "text": "Google is proud to\nsupport Flutter,",
+      "start": 1831.32,
+      "duration": 2.8
+    },
+    {
+      "text": "but so much of the\nvalue for developers",
+      "start": 1834.12,
+      "duration": 2.81
+    },
+    {
+      "text": "comes from elsewhere\nin the community.",
+      "start": 1836.93,
+      "duration": 3.69
+    },
+    {
+      "text": "One big contributor\nto Flutter is",
+      "start": 1840.62,
+      "duration": 2.4
+    },
+    {
+      "text": "Canonical, the folks behind\nUbuntu, the world's most popular",
+      "start": 1843.02,
+      "duration": 3.42
+    },
+    {
+      "text": "distribution of Linux.",
+      "start": 1846.44,
+      "duration": 1.33
+    },
+    {
+      "text": "The team at Canonical\nused Flutter themselves",
+      "start": 1847.77,
+      "duration": 2.66
+    },
+    {
+      "text": "for Ubuntu's first\nparty app marketplace.",
+      "start": 1850.43,
+      "duration": 3.78
+    },
+    {
+      "text": "But they have been\nexcited to contribute",
+      "start": 1854.21,
+      "duration": 2.04
+    },
+    {
+      "text": "towards Flutter's overall\nquality on desktop, including",
+      "start": 1856.25,
+      "duration": 3.3
+    },
+    {
+      "text": "contributing feature work\nfrom multi-window support",
+      "start": 1859.55,
+      "duration": 2.34
+    },
+    {
+      "text": "as seen in the screenshot.",
+      "start": 1861.89,
+      "duration": 1.71
+    },
+    {
+      "text": "They are also contributing\nthe desktop implementation",
+      "start": 1863.6,
+      "duration": 2.73
+    },
+    {
+      "text": "of the thread merging that\nCraig discussed earlier,",
+      "start": 1866.33,
+      "duration": 3.13
+    },
+    {
+      "text": "and many, many fixes related to\naccessibility, text input focus,",
+      "start": 1869.46,
+      "duration": 4.74
+    },
+    {
+      "text": "and keyboard and mouse events.",
+      "start": 1874.2,
+      "duration": 2.12
+    },
+    {
+      "text": "Canonical is really helping\nus unlock the promise",
+      "start": 1876.32,
+      "duration": 3.06
+    },
+    {
+      "text": "of open source development.",
+      "start": 1879.38,
+      "duration": 2.84
+    },
+    {
+      "text": "Another company with a business\ncritical interest in Flutter",
+      "start": 1882.22,
+      "duration": 3.15
+    },
+    {
+      "text": "is LG.",
+      "start": 1885.37,
+      "duration": 1.53
+    },
+    {
+      "text": "The creator of webOS\nand manufacturer",
+      "start": 1886.9,
+      "duration": 2.43
+    },
+    {
+      "text": "of hundreds of millions of new\ndevices with screens per year.",
+      "start": 1889.33,
+      "duration": 4.082
+    },
+    {
+      "text": "Whew.",
+      "start": 1893.412,
+      "duration": 0.922
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1894.334,
+      "duration": 2.766
+    },
+    {
+      "text": "Last year, LG announced plans to\nrewrite many of their core webOS",
+      "start": 1897.1,
+      "duration": 5.07
+    },
+    {
+      "text": "system apps in Flutter after\nan initiative confirmed",
+      "start": 1902.17,
+      "duration": 3.63
+    },
+    {
+      "text": "that Flutter delivered\nsignificant improvements",
+      "start": 1905.8,
+      "duration": 2.82
+    },
+    {
+      "text": "in launch time, runtime\nresponsiveness, and memory",
+      "start": 1908.62,
+      "duration": 3.12
+    },
+    {
+      "text": "consumption.",
+      "start": 1911.74,
+      "duration": 1.14
+    },
+    {
+      "text": "This year, Flutter-- sorry.",
+      "start": 1912.88,
+      "duration": 1.93
+    },
+    {
+      "text": "This year, LG is excited to\nannounce a significant expansion",
+      "start": 1914.81,
+      "duration": 3.41
+    },
+    {
+      "text": "of Flutter.",
+      "start": 1918.22,
+      "duration": 0.85
+    },
+    {
+      "text": "Their webOS team is aiming\nto complete the development",
+      "start": 1919.07,
+      "duration": 3.08
+    },
+    {
+      "text": "of a new webOS Flutter SDK.",
+      "start": 1922.15,
+      "duration": 2.77
+    },
+    {
+      "text": "This is targeting\nan official launch",
+      "start": 1924.92,
+      "duration": 2.78
+    },
+    {
+      "text": "in the first half of\nnext year, and will",
+      "start": 1927.7,
+      "duration": 2.28
+    },
+    {
+      "text": "allow developers to release\nFlutter apps to the LG content",
+      "start": 1929.98,
+      "duration": 3.09
+    },
+    {
+      "text": "store.",
+      "start": 1933.07,
+      "duration": 0.82
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1933.89,
+      "duration": 2.78
+    },
+    {
+      "text": "Thank you.",
+      "start": 1936.67,
+      "duration": 0.72
+    },
+    {
+      "text": "To increase awareness\nof webOS as a platform,",
+      "start": 1941.3,
+      "duration": 2.86
+    },
+    {
+      "text": "LG recently held a\nworldwide webOS hackathon,",
+      "start": 1944.16,
+      "duration": 3.92
+    },
+    {
+      "text": "challenging developers\nto build apps",
+      "start": 1948.08,
+      "duration": 2.22
+    },
+    {
+      "text": "that utilize the\ncapabilities of their TVs",
+      "start": 1950.3,
+      "duration": 2.88
+    },
+    {
+      "text": "with their dedicated remotes.",
+      "start": 1953.18,
+      "duration": 3.42
+    },
+    {
+      "text": "I was very happy to see\nFlutter community team",
+      "start": 1956.6,
+      "duration": 2.13
+    },
+    {
+      "text": "member Lucas Klingspor, one of\nthe core maintainers of Flame,",
+      "start": 1958.73,
+      "duration": 3.25
+    },
+    {
+      "text": "took second prize\nin this competition",
+      "start": 1961.98,
+      "duration": 2.21
+    },
+    {
+      "text": "with a very cool game that uses\nLG's remote as a magic wand.",
+      "start": 1964.19,
+      "duration": 4.3
+    },
+    {
+      "text": "You can complete runes, cast\nspells, and defeat enemies.",
+      "start": 1968.49,
+      "duration": 4.29
+    },
+    {
+      "text": "I think that's pretty cool\nwork by a single developer",
+      "start": 1972.78,
+      "duration": 3.05
+    },
+    {
+      "text": "on this all new experimental\nplatform in just a few weekends.",
+      "start": 1975.83,
+      "duration": 3.43
+    },
+    {
+      "text": "Congratulations.",
+      "start": 1979.26,
+      "duration": 1.475
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1980.735,
+      "duration": 4.185
+    },
+    {
+      "text": "All right.",
+      "start": 1984.92,
+      "duration": 1.26
+    },
+    {
+      "text": "Across our ecosystem, we've\nseen interesting applications",
+      "start": 1986.18,
+      "duration": 4.02
+    },
+    {
+      "text": "of embedded devices powered by\nFlutter in interesting locations",
+      "start": 1990.2,
+      "duration": 3.84
+    },
+    {
+      "text": "such as theme parks, research\nfacilities, and all around",
+      "start": 1994.04,
+      "duration": 4.0
+    },
+    {
+      "text": "the home.",
+      "start": 1998.04,
+      "duration": 1.89
+    },
+    {
+      "text": "One recent example is from\nUniversal Destinations",
+      "start": 1999.93,
+      "duration": 2.97
+    },
+    {
+      "text": "& Experiences.",
+      "start": 2002.9,
+      "duration": 1.24
+    },
+    {
+      "text": "As we announced\nalready last year,",
+      "start": 2004.14,
+      "duration": 1.95
+    },
+    {
+      "text": "they use Flutter for their iOS\nand Android apps at their parks",
+      "start": 2006.09,
+      "duration": 3.68
+    },
+    {
+      "text": "in Orlando,\nHollywood, and Osaka.",
+      "start": 2009.77,
+      "duration": 2.98
+    },
+    {
+      "text": "And they reported\nback then they were",
+      "start": 2012.75,
+      "duration": 2.03
+    },
+    {
+      "text": "able to get a 45% decrease\nin code base size.",
+      "start": 2014.78,
+      "duration": 3.19
+    },
+    {
+      "text": "But they are not done yet.",
+      "start": 2017.97,
+      "duration": 1.82
+    },
+    {
+      "text": "At their newest theme park,\nUniversal Epic Universe",
+      "start": 2019.79,
+      "duration": 2.94
+    },
+    {
+      "text": "in Orlando, they are now\nusing Flutter to power",
+      "start": 2022.73,
+      "duration": 2.73
+    },
+    {
+      "text": "their guest-facing,\nself-service dining kiosks.",
+      "start": 2025.46,
+      "duration": 5.97
+    },
+    {
+      "text": "Thank you.",
+      "start": 2031.43,
+      "duration": 3.24
+    },
+    {
+      "text": "They were able to take\ntheir existing mobile apps",
+      "start": 2034.67,
+      "duration": 2.52
+    },
+    {
+      "text": "and reimagine them\nas a kiosk interface.",
+      "start": 2037.19,
+      "duration": 2.59
+    },
+    {
+      "text": "And they've been able to\ncreate rich animations",
+      "start": 2039.78,
+      "duration": 2.6
+    },
+    {
+      "text": "and smooth transitions.",
+      "start": 2042.38,
+      "duration": 1.48
+    },
+    {
+      "text": "And I think it's a really great\nshowcase of how powerful Flutter",
+      "start": 2043.86,
+      "duration": 2.99
+    },
+    {
+      "text": "is and how you can apply it.",
+      "start": 2046.85,
+      "duration": 3.389
+    },
+    {
+      "text": "Another example is 1080\nMotion out of Sweden.",
+      "start": 2050.239,
+      "duration": 3.4
+    },
+    {
+      "text": "They offer state-of-the-art\ntraining and rehabilitation",
+      "start": 2053.639,
+      "duration": 3.75
+    },
+    {
+      "text": "software for professional\nathletes around the world.",
+      "start": 2057.389,
+      "duration": 3.371
+    },
+    {
+      "text": "And their customers receive\nrealtime performance feedback",
+      "start": 2060.76,
+      "duration": 3.35
+    },
+    {
+      "text": "on hardware that delivers\nindividualized workouts",
+      "start": 2064.11,
+      "duration": 3.06
+    },
+    {
+      "text": "for that athlete on that day.",
+      "start": 2067.17,
+      "duration": 4.14
+    },
+    {
+      "text": "1080 motion, as you're\nseeing in the video,",
+      "start": 2071.31,
+      "duration": 2.05
+    },
+    {
+      "text": "they run Flutter on all their\ncustomer-facing screens,",
+      "start": 2073.36,
+      "duration": 2.819
+    },
+    {
+      "text": "and they achieve 60 frames per\nsecond on low cost embedded",
+      "start": 2076.179,
+      "duration": 4.341
+    },
+    {
+      "text": "hardware and 120 frames per\nsecond on high-end tablets.",
+      "start": 2080.52,
+      "duration": 3.61
+    },
+    {
+      "text": "And what's more, they\nenjoy 100% code sharing",
+      "start": 2084.13,
+      "duration": 2.87
+    },
+    {
+      "text": "between their tablet\napp and embedded apps,",
+      "start": 2087.0,
+      "duration": 2.29
+    },
+    {
+      "text": "and everything comes from\none shared code base.",
+      "start": 2089.29,
+      "duration": 2.143
+    },
+    {
+      "text": "That's pretty cool.",
+      "start": 2091.433,
+      "duration": 0.792
+    },
+    {
+      "text": "Flutter is also revolutionizing\nUIs on small screens found",
+      "start": 2094.77,
+      "duration": 3.54
+    },
+    {
+      "text": "on appliances.",
+      "start": 2098.31,
+      "duration": 1.71
+    },
+    {
+      "text": "And I was just thinking when we\nstarted Flutter many moons ago,",
+      "start": 2100.02,
+      "duration": 3.52
+    },
+    {
+      "text": "I don't think I ever imagined\nseeing Flutter run on a toaster,",
+      "start": 2103.54,
+      "duration": 3.68
+    },
+    {
+      "text": "but that's what's happening now.",
+      "start": 2107.22,
+      "duration": 3.66
+    },
+    {
+      "text": "GE Appliances utilize\nFlutter as their UI toolkit",
+      "start": 2110.88,
+      "duration": 3.36
+    },
+    {
+      "text": "for all their products--\nfor all their main products",
+      "start": 2114.24,
+      "duration": 2.32
+    },
+    {
+      "text": "equipped with an LCD screen.",
+      "start": 2116.56,
+      "duration": 1.62
+    },
+    {
+      "text": "And Flutter has enabled them\nto implement these rich user",
+      "start": 2118.18,
+      "duration": 2.94
+    },
+    {
+      "text": "interfaces on their\nAOSP based platform.",
+      "start": 2121.12,
+      "duration": 3.34
+    },
+    {
+      "text": "Their team, mostly comprising\nof embedded and JavaScript",
+      "start": 2124.46,
+      "duration": 3.65
+    },
+    {
+      "text": "developers, were able\nto learn Dart really",
+      "start": 2128.11,
+      "duration": 2.34
+    },
+    {
+      "text": "quickly and accelerate\ntheir adoption",
+      "start": 2130.45,
+      "duration": 3.21
+    },
+    {
+      "text": "and become productive\nin a quick time.",
+      "start": 2133.66,
+      "duration": 3.12
+    },
+    {
+      "text": "In the future, they\nplan to expand on",
+      "start": 2136.78,
+      "duration": 2.79
+    },
+    {
+      "text": "their embedded starting point by\nbuilding user-facing mobile apps",
+      "start": 2139.57,
+      "duration": 3.54
+    },
+    {
+      "text": "with DART and Flutter too.",
+      "start": 2143.11,
+      "duration": 2.01
+    },
+    {
+      "text": "All right, that's it\nfor the latest stories.",
+      "start": 2145.12,
+      "duration": 3.24
+    },
+    {
+      "text": "I think we might\nhave one more topic.",
+      "start": 2148.36,
+      "duration": 2.32
+    },
+    {
+      "text": "So let's get back to Craig.",
+      "start": 2150.68,
+      "duration": 1.165
+    },
+    {
+      "text": "CRAIG LABENZ: Thank you.",
+      "start": 2156.25,
+      "duration": 1.0
+    },
+    {
+      "text": "Yes.",
+      "start": 2157.25,
+      "duration": 0.62
+    },
+    {
+      "text": "So by my watch,\nwe've currently gone",
+      "start": 2157.87,
+      "duration": 3.03
+    },
+    {
+      "text": "about 30 minutes at a Google I/O\nevent without talking about AI.",
+      "start": 2160.9,
+      "duration": 6.96
+    },
+    {
+      "text": "And that has got to\nbe a world record.",
+      "start": 2167.86,
+      "duration": 4.92
+    },
+    {
+      "text": "But the world record\nends at 30 minutes.",
+      "start": 2172.78,
+      "duration": 2.84
+    },
+    {
+      "text": "Because there are two\nareas of AI stuff that I do",
+      "start": 2175.62,
+      "duration": 2.72
+    },
+    {
+      "text": "want to talk about.",
+      "start": 2178.34,
+      "duration": 1.35
+    },
+    {
+      "text": "So first of all, how AI can\nenhance the features that you",
+      "start": 2179.69,
+      "duration": 4.08
+    },
+    {
+      "text": "put into your Flutter apps, and\nsecondly, how AI can help you",
+      "start": 2183.77,
+      "duration": 3.63
+    },
+    {
+      "text": "develop those\nFlutter apps faster.",
+      "start": 2187.4,
+      "duration": 2.35
+    },
+    {
+      "text": "So first, let's start by\ntalking about what AI can do",
+      "start": 2189.75,
+      "duration": 2.57
+    },
+    {
+      "text": "for your apps and your users.",
+      "start": 2192.32,
+      "duration": 3.36
+    },
+    {
+      "text": "So as you heard during the\nkeynote, Vertex AI in Firebase",
+      "start": 2195.68,
+      "duration": 3.63
+    },
+    {
+      "text": "is now known as Firebase AI\nLogic, and among many new things",
+      "start": 2199.31,
+      "duration": 4.23
+    },
+    {
+      "text": "that allows you to use either\nthe Vertex AI or developer",
+      "start": 2203.54,
+      "duration": 3.84
+    },
+    {
+      "text": "Gemini APIs, all from\na single Dart SDK.",
+      "start": 2207.38,
+      "duration": 3.85
+    },
+    {
+      "text": "So a lot simpler for all of us.",
+      "start": 2211.23,
+      "duration": 3.62
+    },
+    {
+      "text": "And Firebase AI logic also has\na new AI monitoring dashboard",
+      "start": 2214.85,
+      "duration": 4.02
+    },
+    {
+      "text": "in the Firebase Console.",
+      "start": 2218.87,
+      "duration": 1.48
+    },
+    {
+      "text": "And as detailed\nhere, it provides",
+      "start": 2220.35,
+      "duration": 3.17
+    },
+    {
+      "text": "detailed, actionable insights\ninto your Flutter app's usage",
+      "start": 2223.52,
+      "duration": 3.66
+    },
+    {
+      "text": "of the Gemini API.",
+      "start": 2227.18,
+      "duration": 1.57
+    },
+    {
+      "text": "And with this tool, you can\ndiscover consumption patterns,",
+      "start": 2228.75,
+      "duration": 2.76
+    },
+    {
+      "text": "explore performance metrics,\nand spot either potential issues",
+      "start": 2231.51,
+      "duration": 3.18
+    },
+    {
+      "text": "or unexpected behavior.",
+      "start": 2234.69,
+      "duration": 1.57
+    },
+    {
+      "text": "This gives you the data\nto make smart decisions",
+      "start": 2236.26,
+      "duration": 2.51
+    },
+    {
+      "text": "about efficient use\nof the Gemini API.",
+      "start": 2238.77,
+      "duration": 3.625
+    },
+    {
+      "text": "Now, with all of these\nnew things coming out,",
+      "start": 2242.395,
+      "duration": 1.875
+    },
+    {
+      "text": "one of my favorite\nfeatures and tools",
+      "start": 2244.27,
+      "duration": 3.29
+    },
+    {
+      "text": "is Gemini Live API, which offers\nthis low latency, bidirectional",
+      "start": 2247.56,
+      "duration": 5.22
+    },
+    {
+      "text": "audio streaming\nfor users to just",
+      "start": 2252.78,
+      "duration": 2.04
+    },
+    {
+      "text": "sort of chit chat with Gemini.",
+      "start": 2254.82,
+      "duration": 2.29
+    },
+    {
+      "text": "And it's currently in preview\nand only available on the Vertex",
+      "start": 2257.11,
+      "duration": 2.84
+    },
+    {
+      "text": "AI Gemini API, but it's already\nreally fun to build stuff with.",
+      "start": 2259.95,
+      "duration": 4.54
+    },
+    {
+      "text": "So let's take a quick look at\na Flutter app that uses this.",
+      "start": 2264.49,
+      "duration": 5.842
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 2270.332,
+      "duration": 0.988
+    },
+    {
+      "text": "- A great Google\nI/O. So I'm here",
+      "start": 2271.32,
+      "duration": 2.37
+    },
+    {
+      "text": "visiting my partner's\nfamily right now,",
+      "start": 2273.69,
+      "duration": 1.66
+    },
+    {
+      "text": "and her mom has the best\ncollection of plants.",
+      "start": 2275.35,
+      "duration": 2.503
+    },
+    {
+      "text": "And so I built\nmyself a little app",
+      "start": 2277.853,
+      "duration": 1.417
+    },
+    {
+      "text": "to help me identify\nthe various plants that",
+      "start": 2279.27,
+      "duration": 2.16
+    },
+    {
+      "text": "are around the house.",
+      "start": 2281.43,
+      "duration": 1.03
+    },
+    {
+      "text": "Let me show you\nexactly how it works.",
+      "start": 2282.46,
+      "duration": 2.3
+    },
+    {
+      "text": "All right.",
+      "start": 2284.76,
+      "duration": 0.7
+    },
+    {
+      "text": "We're going to call Gemini.",
+      "start": 2285.46,
+      "duration": 1.77
+    },
+    {
+      "text": "Hey, Gemini.",
+      "start": 2287.23,
+      "duration": 2.12
+    },
+    {
+      "text": "- Hello, I'm Gemini,\na plant identifier.",
+      "start": 2289.35,
+      "duration": 2.7
+    },
+    {
+      "text": "Would you like to turn on your\ncamera and show me a plant",
+      "start": 2292.05,
+      "duration": 2.39
+    },
+    {
+      "text": "so I can help identify it?",
+      "start": 2294.44,
+      "duration": 1.69
+    },
+    {
+      "text": "- All right, I can do that.",
+      "start": 2296.13,
+      "duration": 1.56
+    },
+    {
+      "text": "Can you see me?",
+      "start": 2297.69,
+      "duration": 1.94
+    },
+    {
+      "text": "- Yes, I can see you.",
+      "start": 2299.63,
+      "duration": 2.05
+    },
+    {
+      "text": "- So I have these\ntwo plants here.",
+      "start": 2301.68,
+      "duration": 1.95
+    },
+    {
+      "text": "Can you tell me what they are?",
+      "start": 2303.63,
+      "duration": 2.96
+    },
+    {
+      "text": "- OK, I see two plants.",
+      "start": 2306.59,
+      "duration": 2.64
+    },
+    {
+      "text": "The one with the broad striped\nleaves looks like a Calathea.",
+      "start": 2309.23,
+      "duration": 4.03
+    },
+    {
+      "text": "The other one with the\nheart-shaped leaves",
+      "start": 2313.26,
+      "duration": 2.03
+    },
+    {
+      "text": "appears to be a pothos.",
+      "start": 2315.29,
+      "duration": 1.6
+    },
+    {
+      "text": "Fun fact, pothos is also\nknown as devil's Ivy",
+      "start": 2316.89,
+      "duration": 3.83
+    },
+    {
+      "text": "because it's almost\nimpossible to kill.",
+      "start": 2320.72,
+      "duration": 2.32
+    },
+    {
+      "text": "And it stays green even\nwhen kept in the dark.",
+      "start": 2323.04,
+      "duration": 3.41
+    },
+    {
+      "text": "- OK, cool.",
+      "start": 2326.45,
+      "duration": 0.97
+    },
+    {
+      "text": "Thank you, Gemini.",
+      "start": 2327.42,
+      "duration": 0.78
+    },
+    {
+      "text": "So it can run on web, but of\ncourse it's a Flutter app.",
+      "start": 2328.2,
+      "duration": 3.45
+    },
+    {
+      "text": "So I ran that same app\non my phone as well.",
+      "start": 2331.65,
+      "duration": 3.27
+    },
+    {
+      "text": "Let's go ahead and dial\nup Gemini one more time.",
+      "start": 2334.92,
+      "duration": 2.37
+    },
+    {
+      "text": "Hey, Gemini.",
+      "start": 2337.29,
+      "duration": 1.88
+    },
+    {
+      "text": "- Hello.",
+      "start": 2339.17,
+      "duration": 0.84
+    },
+    {
+      "text": "I am a plant identifier.",
+      "start": 2340.01,
+      "duration": 2.35
+    },
+    {
+      "text": "Would you like to turn on your\ncamera and show me a plant",
+      "start": 2342.36,
+      "duration": 2.54
+    },
+    {
+      "text": "so I can help\nidentify it for you?",
+      "start": 2344.9,
+      "duration": 1.69
+    },
+    {
+      "text": "- Sure thing.",
+      "start": 2346.59,
+      "duration": 1.032
+    },
+    {
+      "text": "Can you tell me\nwhat this plant is?",
+      "start": 2347.622,
+      "duration": 1.458
+    },
+    {
+      "text": "- OK.",
+      "start": 2349.08,
+      "duration": 1.37
+    },
+    {
+      "text": "That looks like a Boston fern.",
+      "start": 2350.45,
+      "duration": 2.16
+    },
+    {
+      "text": "A fun fact about\nthe Boston fern is",
+      "start": 2352.61,
+      "duration": 1.83
+    },
+    {
+      "text": "that it's one of the\noldest known houseplants.",
+      "start": 2354.44,
+      "duration": 2.32
+    },
+    {
+      "text": "- So that's Flutter\nand Firebase AI Logic.",
+      "start": 2356.76,
+      "duration": 2.54
+    },
+    {
+      "text": "Live API support is\nin preview right now,",
+      "start": 2359.3,
+      "duration": 2.17
+    },
+    {
+      "text": "so you start building today.",
+      "start": 2361.47,
+      "duration": 1.38
+    },
+    {
+      "text": "But that's it for me.",
+      "start": 2362.85,
+      "duration": 1.38
+    },
+    {
+      "text": "Happy Google I/O.",
+      "start": 2364.23,
+      "duration": 1.35
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 2365.58,
+      "duration": 1.413
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2366.993,
+      "duration": 2.357
+    },
+    {
+      "text": "CRAIG LABENZ: Pretty cool.",
+      "start": 2369.35,
+      "duration": 1.92
+    },
+    {
+      "text": "Now, if you want a step\nby step guide for how",
+      "start": 2371.27,
+      "duration": 2.43
+    },
+    {
+      "text": "to build agentic apps\nwith Firebase and Flutter,",
+      "start": 2373.7,
+      "duration": 3.01
+    },
+    {
+      "text": "you should check out Andrew\nand Khan's talk, which",
+      "start": 2376.71,
+      "duration": 2.09
+    },
+    {
+      "text": "is aptly named, Agentic Apps\nwith Firebase and Flutter,",
+      "start": 2378.8,
+      "duration": 3.63
+    },
+    {
+      "text": "and Vertex AI.",
+      "start": 2382.43,
+      "duration": 2.16
+    },
+    {
+      "text": "So that's the latest stuff\nfor once your app is running.",
+      "start": 2384.59,
+      "duration": 2.53
+    },
+    {
+      "text": "But what about all that\nsupport during development?",
+      "start": 2387.12,
+      "duration": 2.61
+    },
+    {
+      "text": "We're all living through a\ncrazy evolution in this area.",
+      "start": 2389.73,
+      "duration": 3.93
+    },
+    {
+      "text": "Just a few years ago,\nLLMs would burp up",
+      "start": 2393.66,
+      "duration": 2.93
+    },
+    {
+      "text": "some vaguely correct pseudocode\nthat we still had to untangle.",
+      "start": 2396.59,
+      "duration": 3.408
+    },
+    {
+      "text": "And then maybe about\na year ago, that",
+      "start": 2399.998,
+      "duration": 1.542
+    },
+    {
+      "text": "was starting to get\npretty reliable.",
+      "start": 2401.54,
+      "duration": 2.83
+    },
+    {
+      "text": "And nowadays, everything\nis coming together so",
+      "start": 2404.37,
+      "duration": 2.15
+    },
+    {
+      "text": "fast that all anyone wants to\ntalk about is vibe coding, where",
+      "start": 2406.52,
+      "duration": 3.87
+    },
+    {
+      "text": "you just tell the AI assistant\nwhat you want it to build,",
+      "start": 2410.39,
+      "duration": 2.59
+    },
+    {
+      "text": "and then you get out\nof the way and you",
+      "start": 2412.98,
+      "duration": 1.625
+    },
+    {
+      "text": "let it develop the\nwhole thing all",
+      "start": 2414.605,
+      "duration": 1.575
+    },
+    {
+      "text": "the way to a runnable prototype\nand maybe even beyond.",
+      "start": 2416.18,
+      "duration": 3.19
+    },
+    {
+      "text": "And with such trends,\nyou might ask yourself,",
+      "start": 2419.37,
+      "duration": 2.49
+    },
+    {
+      "text": "do we still really need these\nmulti-platform frameworks",
+      "start": 2421.86,
+      "duration": 3.0
+    },
+    {
+      "text": "If AIs could just\nwrite the code for us",
+      "start": 2424.86,
+      "duration": 2.27
+    },
+    {
+      "text": "across all of those\nmultiple platforms?",
+      "start": 2427.13,
+      "duration": 2.89
+    },
+    {
+      "text": "Well, we absolutely think so.",
+      "start": 2430.02,
+      "duration": 2.46
+    },
+    {
+      "text": "While AI--",
+      "start": 2432.48,
+      "duration": 1.22
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2433.7,
+      "duration": 0.6
+    },
+    {
+      "text": "Right.",
+      "start": 2434.3,
+      "duration": 1.86
+    },
+    {
+      "text": "While AI is going to\nincreasingly write",
+      "start": 2436.16,
+      "duration": 2.4
+    },
+    {
+      "text": "more of the code in the future,\nthe non-deterministic nature",
+      "start": 2438.56,
+      "duration": 2.88
+    },
+    {
+      "text": "of LLMs can make it hard\nto predict exactly how it's",
+      "start": 2441.44,
+      "duration": 3.962
+    },
+    {
+      "text": "going to implement something.",
+      "start": 2445.402,
+      "duration": 1.208
+    },
+    {
+      "text": "And this is ever\nmore challenging",
+      "start": 2446.61,
+      "duration": 1.52
+    },
+    {
+      "text": "on those multiple platforms if\nyou're not familiar with them",
+      "start": 2448.13,
+      "duration": 2.88
+    },
+    {
+      "text": "all.",
+      "start": 2451.01,
+      "duration": 0.58
+    },
+    {
+      "text": "And so with Flutter\nsingle codebase support,",
+      "start": 2451.59,
+      "duration": 2.19
+    },
+    {
+      "text": "you can vibe code your\nfeature or app just once,",
+      "start": 2453.78,
+      "duration": 2.91
+    },
+    {
+      "text": "and then ship the same great\nuser experience to everyone.",
+      "start": 2456.69,
+      "duration": 4.82
+    },
+    {
+      "text": "And with Flutter\nand Gemini, it's",
+      "start": 2461.51,
+      "duration": 1.41
+    },
+    {
+      "text": "truly never been easier\nto experiment with an idea",
+      "start": 2462.92,
+      "duration": 2.61
+    },
+    {
+      "text": "at warp speed.",
+      "start": 2465.53,
+      "duration": 1.21
+    },
+    {
+      "text": "As we saw, Gemini is even\nintegrated into DartPad",
+      "start": 2466.74,
+      "duration": 2.75
+    },
+    {
+      "text": "and that can get you up\nand running with no setup",
+      "start": 2469.49,
+      "duration": 2.55
+    },
+    {
+      "text": "or installation necessary.",
+      "start": 2472.04,
+      "duration": 1.54
+    },
+    {
+      "text": "And that feature was\nbuilt with the Gemini API,",
+      "start": 2473.58,
+      "duration": 3.27
+    },
+    {
+      "text": "and its full source code is\navailable on the DartPad GitHub",
+      "start": 2476.85,
+      "duration": 2.99
+    },
+    {
+      "text": "repository.",
+      "start": 2479.84,
+      "duration": 0.85
+    },
+    {
+      "text": "It can serve as an\nexample for all of us",
+      "start": 2480.69,
+      "duration": 2.84
+    },
+    {
+      "text": "on how to build these\ngreat kind of tools.",
+      "start": 2483.53,
+      "duration": 2.46
+    },
+    {
+      "text": "Another place it now has Gemini\nsupport is Android Studio.",
+      "start": 2485.99,
+      "duration": 3.28
+    },
+    {
+      "text": "The Flutter and Android Studio\nteams collaborated on this.",
+      "start": 2489.27,
+      "duration": 3.0
+    },
+    {
+      "text": "And as of their\nmost recent release,",
+      "start": 2492.27,
+      "duration": 1.83
+    },
+    {
+      "text": "Meerkat Feature Drop Gemini\nSupport for Dart and Flutter",
+      "start": 2494.1,
+      "duration": 3.86
+    },
+    {
+      "text": "is now first class.",
+      "start": 2497.96,
+      "duration": 3.72
+    },
+    {
+      "text": "Yeah, thank you.",
+      "start": 2501.68,
+      "duration": 2.94
+    },
+    {
+      "text": "So all you need\nto connect Gemini",
+      "start": 2504.62,
+      "duration": 1.86
+    },
+    {
+      "text": "to Android Studio is a\nsimple Google account login,",
+      "start": 2506.48,
+      "duration": 2.53
+    },
+    {
+      "text": "and then Gemini is\navailable at no extra cost.",
+      "start": 2509.01,
+      "duration": 2.57
+    },
+    {
+      "text": "For large businesses that\ndesire enterprise grade",
+      "start": 2511.58,
+      "duration": 2.52
+    },
+    {
+      "text": "privacy or security.\nbacked by Google Cloud,",
+      "start": 2514.1,
+      "duration": 3.25
+    },
+    {
+      "text": "you can also optionally upgrade\nto a Gemini Code Assist standard",
+      "start": 2517.35,
+      "duration": 3.56
+    },
+    {
+      "text": "or enterprise license.",
+      "start": 2520.91,
+      "duration": 2.22
+    },
+    {
+      "text": "And if you're a VS\nCode user, rest easy,",
+      "start": 2523.13,
+      "duration": 2.34
+    },
+    {
+      "text": "the Gemini Code Assist\nextension and a Google account",
+      "start": 2525.47,
+      "duration": 3.31
+    },
+    {
+      "text": "is all it takes to bring\nGemini code assistance right",
+      "start": 2528.78,
+      "duration": 2.61
+    },
+    {
+      "text": "to your workflows in VS Code.",
+      "start": 2531.39,
+      "duration": 2.88
+    },
+    {
+      "text": "Now MCPE needs very little\nintroduction these days.",
+      "start": 2534.27,
+      "duration": 4.18
+    },
+    {
+      "text": "It's an exciting\nnew open protocol",
+      "start": 2538.45,
+      "duration": 1.82
+    },
+    {
+      "text": "that's gaining a lot of\nmomentum for helping AI agents",
+      "start": 2540.27,
+      "duration": 2.97
+    },
+    {
+      "text": "interact with various data\nsources in a standardized way.",
+      "start": 2543.24,
+      "duration": 3.73
+    },
+    {
+      "text": "And we are experimenting\nto see if we",
+      "start": 2546.97,
+      "duration": 2.24
+    },
+    {
+      "text": "can use it to power more\naccurate and relevant code",
+      "start": 2549.21,
+      "duration": 3.39
+    },
+    {
+      "text": "generation and connect it\nto Dart's tooling for better",
+      "start": 2552.6,
+      "duration": 3.21
+    },
+    {
+      "text": "performance on complex tasks\nlike fixing layout issues,",
+      "start": 2555.81,
+      "duration": 5.02
+    },
+    {
+      "text": "resolving runtime errors, and\neven managing dependencies.",
+      "start": 2560.83,
+      "duration": 4.16
+    },
+    {
+      "text": "So it's probably not\nnews to many of you",
+      "start": 2564.99,
+      "duration": 3.03
+    },
+    {
+      "text": "that AI is coming in hot\nand changing everything",
+      "start": 2568.02,
+      "duration": 2.49
+    },
+    {
+      "text": "right before our very\neyes, but Dart and Flutter",
+      "start": 2570.51,
+      "duration": 2.49
+    },
+    {
+      "text": "remain committed to\nbeing a great way",
+      "start": 2573.0,
+      "duration": 2.49
+    },
+    {
+      "text": "to deliver your AI powered\napps to every platform",
+      "start": 2575.49,
+      "duration": 3.12
+    },
+    {
+      "text": "from a single code base.",
+      "start": 2578.61,
+      "duration": 1.66
+    },
+    {
+      "text": "Michael.",
+      "start": 2580.27,
+      "duration": 1.796
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2582.066,
+      "duration": 4.984
+    },
+    {
+      "text": "MICHAEL THOMSEN: That's\nall we have for today.",
+      "start": 2587.05,
+      "duration": 2.26
+    },
+    {
+      "text": "Hopefully, you've\ngotten a great look",
+      "start": 2589.31,
+      "duration": 2.18
+    },
+    {
+      "text": "at all the recent advancements\nacross Dart and Flutter,",
+      "start": 2591.49,
+      "duration": 3.49
+    },
+    {
+      "text": "whether new, exciting customer\nstories, Dart language editions,",
+      "start": 2594.98,
+      "duration": 4.35
+    },
+    {
+      "text": "developer tools, enhancements,\nand our work for better interop.",
+      "start": 2599.33,
+      "duration": 3.75
+    },
+    {
+      "text": "And let's not forget the\nmany upgrades across Flutter",
+      "start": 2603.08,
+      "duration": 2.21
+    },
+    {
+      "text": "for Android, iOS, desktop,\nthe web, and embedded.",
+      "start": 2605.29,
+      "duration": 3.78
+    },
+    {
+      "text": "And of course, the exciting\nand fast-moving field",
+      "start": 2609.07,
+      "duration": 2.61
+    },
+    {
+      "text": "of AI, both for AI powered\napplications and AI",
+      "start": 2611.68,
+      "duration": 3.33
+    },
+    {
+      "text": "powered development.",
+      "start": 2615.01,
+      "duration": 1.59
+    },
+    {
+      "text": "A huge Thank you to\nall of you, all of you",
+      "start": 2616.6,
+      "duration": 3.24
+    },
+    {
+      "text": "who made Flutter what it is.",
+      "start": 2619.84,
+      "duration": 2.64
+    },
+    {
+      "text": "We're proud to continue the\njourney with you all to build",
+      "start": 2622.48,
+      "duration": 3.78
+    },
+    {
+      "text": "the world's best app framework.",
+      "start": 2626.26,
+      "duration": 3.52
+    },
+    {
+      "text": "Have a great Google\nI/O. Thank you.",
+      "start": 2629.78,
+      "duration": 2.03
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2631.81,
+      "duration": 0.6
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2632.41,
+      "duration": 2.15
+    }
+  ]
+}

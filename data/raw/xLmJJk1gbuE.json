@@ -1,0 +1,1942 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "xLmJJk1gbuE",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.928
+    },
+    {
+      "text": "MATTHIAS GRUNDMANN:\nHey, everyone.",
+      "start": 5.813,
+      "duration": 1.417
+    },
+    {
+      "text": "I'm Matthias, Engineering\nLead for our AI Edge Team,",
+      "start": 7.23,
+      "duration": 3.66
+    },
+    {
+      "text": "which includes tooling,\ninfrastructure and applied ML.",
+      "start": 10.89,
+      "duration": 3.81
+    },
+    {
+      "text": "I'm super excited to share\nsome of our latest advances",
+      "start": 14.7,
+      "duration": 3.47
+    },
+    {
+      "text": "in bringing language models\nto mobile and the web.",
+      "start": 18.17,
+      "duration": 3.31
+    },
+    {
+      "text": "This is a rapidly\nevolving space.",
+      "start": 21.48,
+      "duration": 2.13
+    },
+    {
+      "text": "And we have some great\ncontent for you today.",
+      "start": 23.61,
+      "duration": 2.6
+    },
+    {
+      "text": "While our focus will\nbe on language models,",
+      "start": 26.21,
+      "duration": 2.62
+    },
+    {
+      "text": "most of these\nimprovements are also",
+      "start": 28.83,
+      "duration": 2.15
+    },
+    {
+      "text": "generally applicable for\ntraditional edge models.",
+      "start": 30.98,
+      "duration": 3.42
+    },
+    {
+      "text": "As you are listening\nto this talk,",
+      "start": 34.4,
+      "duration": 1.63
+    },
+    {
+      "text": "you are likely already convinced\nand excited about the benefits",
+      "start": 36.03,
+      "duration": 3.11
+    },
+    {
+      "text": "of this technology.",
+      "start": 39.14,
+      "duration": 1.15
+    },
+    {
+      "text": "But just to level set, let's\nbriefly review them together.",
+      "start": 40.29,
+      "duration": 3.98
+    },
+    {
+      "text": "Customers often\nrely on apps where",
+      "start": 44.27,
+      "duration": 2.82
+    },
+    {
+      "text": "real-time,\nlow-latency processing",
+      "start": 47.09,
+      "duration": 2.13
+    },
+    {
+      "text": "is absolutely\ncritical, for example,",
+      "start": 49.22,
+      "duration": 2.71
+    },
+    {
+      "text": "when removing the\nbackground in every frame",
+      "start": 51.93,
+      "duration": 2.09
+    },
+    {
+      "text": "of a video conference stream.",
+      "start": 54.02,
+      "duration": 1.95
+    },
+    {
+      "text": "Offline use is also\nhighly valuable,",
+      "start": 55.97,
+      "duration": 2.89
+    },
+    {
+      "text": "enabling users to set timers\nor reminders via voice",
+      "start": 58.86,
+      "duration": 3.32
+    },
+    {
+      "text": "without network connectivity.",
+      "start": 62.18,
+      "duration": 2.4
+    },
+    {
+      "text": "Running ML on the edge also\noffers clear privacy advantages,",
+      "start": 64.58,
+      "duration": 4.3
+    },
+    {
+      "text": "such as de-noising voice\nmessages without the user's data",
+      "start": 68.88,
+      "duration": 3.53
+    },
+    {
+      "text": "ever leaving the device.",
+      "start": 72.41,
+      "duration": 1.9
+    },
+    {
+      "text": "And as a developer,\nyou reduce or eliminate",
+      "start": 74.31,
+      "duration": 2.63
+    },
+    {
+      "text": "the need to deal with\nserver-side maintenance,",
+      "start": 76.94,
+      "duration": 2.77
+    },
+    {
+      "text": "capacity constraints,\nor inference costs.",
+      "start": 79.71,
+      "duration": 3.86
+    },
+    {
+      "text": "When running AI on the\nedge, Google AI Edge",
+      "start": 83.57,
+      "duration": 3.24
+    },
+    {
+      "text": "provides all the\nnecessary tools.",
+      "start": 86.81,
+      "duration": 2.5
+    },
+    {
+      "text": "You can select the right\ntool for your application,",
+      "start": 89.31,
+      "duration": 2.97
+    },
+    {
+      "text": "whether that is a high-level\nAPI for common tasks like image",
+      "start": 92.28,
+      "duration": 3.2
+    },
+    {
+      "text": "segmentation or\ninterface directly",
+      "start": 95.48,
+      "duration": 2.34
+    },
+    {
+      "text": "with our runtime\nfor implementing",
+      "start": 97.82,
+      "duration": 1.77
+    },
+    {
+      "text": "custom and complex AI features.",
+      "start": 99.59,
+      "duration": 3.0
+    },
+    {
+      "text": "Hundreds of thousands\nof developers",
+      "start": 102.59,
+      "duration": 2.1
+    },
+    {
+      "text": "rely on Google AI Edge every\nday, including nearly all",
+      "start": 104.69,
+      "duration": 3.6
+    },
+    {
+      "text": "of Google's major mobile\napplications and products.",
+      "start": 108.29,
+      "duration": 3.69
+    },
+    {
+      "text": "We're excited to dive into what\nwe've been working on lately,",
+      "start": 111.98,
+      "duration": 3.43
+    },
+    {
+      "text": "so let's jump right in.",
+      "start": 115.41,
+      "duration": 1.7
+    },
+    {
+      "text": "Last year, we launched\nour LLM Inference API,",
+      "start": 117.11,
+      "duration": 3.89
+    },
+    {
+      "text": "providing developers with a\nsimple prompt in, response",
+      "start": 121.0,
+      "duration": 3.23
+    },
+    {
+      "text": "out API to run many popular,\nsmall language models directly",
+      "start": 124.23,
+      "duration": 4.74
+    },
+    {
+      "text": "on the edge.",
+      "start": 128.97,
+      "duration": 1.259
+    },
+    {
+      "text": "It offers full\ncross-platform support,",
+      "start": 130.229,
+      "duration": 2.471
+    },
+    {
+      "text": "including web, iOS, and\nAndroid with leading industry",
+      "start": 132.7,
+      "duration": 4.76
+    },
+    {
+      "text": "performance.",
+      "start": 137.46,
+      "duration": 1.35
+    },
+    {
+      "text": "Next, let's have a look\nat our recent advances.",
+      "start": 138.81,
+      "duration": 3.78
+    },
+    {
+      "text": "First, we continue to expand\nsupport for many more models.",
+      "start": 142.59,
+      "duration": 5.13
+    },
+    {
+      "text": "We recently launched our LiteRT\ncommunity on Hugging Face,",
+      "start": 147.72,
+      "duration": 3.82
+    },
+    {
+      "text": "teaming up with members of the\ncommunity to convert and share",
+      "start": 151.54,
+      "duration": 3.38
+    },
+    {
+      "text": "models ready to be used\nout-of-the-box on the edge.",
+      "start": 154.92,
+      "duration": 3.1
+    },
+    {
+      "text": "We're particularly excited to\nsupport the most recent DeepSeek",
+      "start": 158.02,
+      "duration": 3.62
+    },
+    {
+      "text": "and Gemma models.",
+      "start": 161.64,
+      "duration": 1.5
+    },
+    {
+      "text": "Check out the LiteRT\nHugging Face community",
+      "start": 163.14,
+      "duration": 2.76
+    },
+    {
+      "text": "to explore our supported models\nand even contribute your own.",
+      "start": 165.9,
+      "duration": 4.29
+    },
+    {
+      "text": "Now, to discuss customizing\nyour own models,",
+      "start": 170.19,
+      "duration": 3.25
+    },
+    {
+      "text": "I'll hand it over to\nmy colleague, Mark.",
+      "start": 173.44,
+      "duration": 4.25
+    },
+    {
+      "text": "MARK SHERWOOD: Thanks, Matthias.",
+      "start": 177.69,
+      "duration": 1.56
+    },
+    {
+      "text": "Our progress on edge language\nmodels has been truly awesome.",
+      "start": 179.25,
+      "duration": 3.73
+    },
+    {
+      "text": "Let's dive into how to even\nbetter customize these models.",
+      "start": 182.98,
+      "duration": 3.71
+    },
+    {
+      "text": "On our LiteRT Hugging\nFace community,",
+      "start": 186.69,
+      "duration": 1.99
+    },
+    {
+      "text": "you can find model assets\nthat have been converted",
+      "start": 188.68,
+      "duration": 2.36
+    },
+    {
+      "text": "and are ready to run\nimmediately on the edge.",
+      "start": 191.04,
+      "duration": 2.91
+    },
+    {
+      "text": "However, if you want to\ncustomize these models yourself",
+      "start": 193.95,
+      "duration": 3.15
+    },
+    {
+      "text": "before running them\non the edge, you",
+      "start": 197.1,
+      "duration": 1.59
+    },
+    {
+      "text": "need to start with an\nedge-optimized Python",
+      "start": 198.69,
+      "duration": 1.89
+    },
+    {
+      "text": "implementation of the model\nthat you want to customize.",
+      "start": 200.58,
+      "duration": 3.6
+    },
+    {
+      "text": "For many popular models,\nwe've made these for you,",
+      "start": 204.18,
+      "duration": 2.64
+    },
+    {
+      "text": "and you can find them in\nour Google AI Edge GitHub.",
+      "start": 206.82,
+      "duration": 2.74
+    },
+    {
+      "text": "These Python implementations are\nready to be paired with model",
+      "start": 209.56,
+      "duration": 2.84
+    },
+    {
+      "text": "weights, either the original\nweights from the model",
+      "start": 212.4,
+      "duration": 2.46
+    },
+    {
+      "text": "or your fine tuned-weights.",
+      "start": 214.86,
+      "duration": 1.74
+    },
+    {
+      "text": "Then, you convert them\nto an edge model format",
+      "start": 216.6,
+      "duration": 2.1
+    },
+    {
+      "text": "that can be run on device.",
+      "start": 218.7,
+      "duration": 2.55
+    },
+    {
+      "text": "So how do you actually fine\ntune one of these models?",
+      "start": 221.25,
+      "duration": 2.74
+    },
+    {
+      "text": "Well, there are lots of\ndifferent community provided",
+      "start": 223.99,
+      "duration": 2.45
+    },
+    {
+      "text": "tools such as Torchtune or\nHugging Face Transformers.",
+      "start": 226.44,
+      "duration": 3.54
+    },
+    {
+      "text": "With these tools, you\ntake your own data.",
+      "start": 229.98,
+      "duration": 2.23
+    },
+    {
+      "text": "You run either a low or a\nfine tune or a full fine",
+      "start": 232.21,
+      "duration": 2.69
+    },
+    {
+      "text": "tune on top of the\npre-trained weights,",
+      "start": 234.9,
+      "duration": 1.87
+    },
+    {
+      "text": "and then you convert the\nmodel to an edge model",
+      "start": 236.77,
+      "duration": 2.22
+    },
+    {
+      "text": "to be run on device.",
+      "start": 238.99,
+      "duration": 2.1
+    },
+    {
+      "text": "It's really straightforward.",
+      "start": 241.09,
+      "duration": 1.33
+    },
+    {
+      "text": "And we have a great\nColab publish,",
+      "start": 242.42,
+      "duration": 1.44
+    },
+    {
+      "text": "which uses Hugging Face\nTransformers and Google AI Edge",
+      "start": 243.86,
+      "duration": 2.45
+    },
+    {
+      "text": "to run through every step you'll\nneed to process from fine tuning",
+      "start": 246.31,
+      "duration": 3.42
+    },
+    {
+      "text": "to on-device model inference.",
+      "start": 249.73,
+      "duration": 3.24
+    },
+    {
+      "text": "And after you fine tuned or\nwhen you convert a custom model",
+      "start": 252.97,
+      "duration": 3.84
+    },
+    {
+      "text": "to an edge format, you'll\nwant to quantize it",
+      "start": 256.81,
+      "duration": 2.31
+    },
+    {
+      "text": "with AI Edge Quantizer.",
+      "start": 259.12,
+      "duration": 2.49
+    },
+    {
+      "text": "Quantization is a method to\nreduce the precision of each",
+      "start": 261.61,
+      "duration": 2.58
+    },
+    {
+      "text": "model weight from 32-bit\nfloating point, or FP32,",
+      "start": 264.19,
+      "duration": 3.45
+    },
+    {
+      "text": "to a smaller floating\npoint or integer data type.",
+      "start": 267.64,
+      "duration": 3.14
+    },
+    {
+      "text": "Reducing the precision\nof a model's weight",
+      "start": 270.78,
+      "duration": 1.75
+    },
+    {
+      "text": "reduces the size of a\nmodel on disk in memory,",
+      "start": 272.53,
+      "duration": 2.83
+    },
+    {
+      "text": "and it often improves\nmodel latency.",
+      "start": 275.36,
+      "duration": 2.27
+    },
+    {
+      "text": "We are really excited\nfor AI Quantizer",
+      "start": 277.63,
+      "duration": 2.25
+    },
+    {
+      "text": "to now support Int4\npost-training quantization,",
+      "start": 279.88,
+      "duration": 2.56
+    },
+    {
+      "text": "allowing you to take a\ntraditional FP32 model",
+      "start": 282.44,
+      "duration": 3.02
+    },
+    {
+      "text": "and reduce its size\nby eight times,",
+      "start": 285.46,
+      "duration": 2.11
+    },
+    {
+      "text": "making it run\nsignificantly faster, often",
+      "start": 287.57,
+      "duration": 2.51
+    },
+    {
+      "text": "for a minimal quality loss.",
+      "start": 290.08,
+      "duration": 1.98
+    },
+    {
+      "text": "With our new Int4 post-training\nquantization schemes",
+      "start": 292.06,
+      "duration": 2.67
+    },
+    {
+      "text": "optimized for\nlanguage models, you",
+      "start": 294.73,
+      "duration": 1.8
+    },
+    {
+      "text": "can convert your Int4 weights\nwith just a few lines of code.",
+      "start": 296.53,
+      "duration": 3.21
+    },
+    {
+      "text": "Now, everything discussed so far\nhas been around customization",
+      "start": 299.74,
+      "duration": 3.75
+    },
+    {
+      "text": "through weights or quantization.",
+      "start": 303.49,
+      "duration": 2.22
+    },
+    {
+      "text": "If you want to make\narchitectural changes to a model",
+      "start": 305.71,
+      "duration": 2.52
+    },
+    {
+      "text": "or even bring a net new\nlanguage model to the edge,",
+      "start": 308.23,
+      "duration": 2.65
+    },
+    {
+      "text": "you can use our AI Edge\nTorch Generative API.",
+      "start": 310.88,
+      "duration": 3.38
+    },
+    {
+      "text": "With the AI Edge\nTorch Generative API,",
+      "start": 314.26,
+      "duration": 2.08
+    },
+    {
+      "text": "you build the language\nmodel architecture",
+      "start": 316.34,
+      "duration": 1.73
+    },
+    {
+      "text": "using a combination of\nPyTorch native layers",
+      "start": 318.07,
+      "duration": 2.16
+    },
+    {
+      "text": "and AI Edge Torch layers\noptimized for edge inference.",
+      "start": 320.23,
+      "duration": 3.473
+    },
+    {
+      "text": "Then, you attach\nthe model weights",
+      "start": 323.703,
+      "duration": 1.417
+    },
+    {
+      "text": "and convert it to\nrun with LiteRT.",
+      "start": 325.12,
+      "duration": 3.03
+    },
+    {
+      "text": "Now, last but not least,\neverything we've shown you today",
+      "start": 328.15,
+      "duration": 2.97
+    },
+    {
+      "text": "needs to be inspectable\nand testable",
+      "start": 331.12,
+      "duration": 2.08
+    },
+    {
+      "text": "so that you can debug when you\nhit issues and sleep at night,",
+      "start": 333.2,
+      "duration": 2.88
+    },
+    {
+      "text": "knowing that your end users\nexperience the same results",
+      "start": 336.08,
+      "duration": 2.33
+    },
+    {
+      "text": "and performance that you do when\nyou test during development.",
+      "start": 338.41,
+      "duration": 3.39
+    },
+    {
+      "text": "For inspectability, we\nhave Model Explorer.",
+      "start": 341.8,
+      "duration": 3.12
+    },
+    {
+      "text": "Model Explorer is our\ngraph visualization tool",
+      "start": 344.92,
+      "duration": 2.76
+    },
+    {
+      "text": "that lets you visualize\nyour language models",
+      "start": 347.68,
+      "duration": 2.1
+    },
+    {
+      "text": "or really any ML model,\nvisually and intuitively.",
+      "start": 349.78,
+      "duration": 4.08
+    },
+    {
+      "text": "With hierarchical views,\nyou can internalize",
+      "start": 353.86,
+      "duration": 2.46
+    },
+    {
+      "text": "the structure of even\nbillion parameter models.",
+      "start": 356.32,
+      "duration": 2.7
+    },
+    {
+      "text": "You can display a\nsingle model or even",
+      "start": 359.02,
+      "duration": 2.64
+    },
+    {
+      "text": "two variants of the\nsame model side by side.",
+      "start": 361.66,
+      "duration": 2.82
+    },
+    {
+      "text": "Inspect the same model with\ndifferent quantization schemes",
+      "start": 364.48,
+      "duration": 2.83
+    },
+    {
+      "text": "or potentially with a\nslight architectural tweak",
+      "start": 367.31,
+      "duration": 2.09
+    },
+    {
+      "text": "and drill down into\nthe differences.",
+      "start": 369.4,
+      "duration": 2.08
+    },
+    {
+      "text": "Model Explorer was released\nlast year and has already seen",
+      "start": 371.48,
+      "duration": 2.48
+    },
+    {
+      "text": "100,000 downloads and growing.",
+      "start": 373.96,
+      "duration": 2.76
+    },
+    {
+      "text": "For testability, we\nhave AI Edge Portal.",
+      "start": 376.72,
+      "duration": 2.68
+    },
+    {
+      "text": "While most of our APIs and SDKs\nhave Python versions to test in",
+      "start": 379.4,
+      "duration": 4.01
+    },
+    {
+      "text": "on notebooks or on desktops,\nrunning on servers or desktops",
+      "start": 383.41,
+      "duration": 3.45
+    },
+    {
+      "text": "will not always\ngive the same result",
+      "start": 386.86,
+      "duration": 1.5
+    },
+    {
+      "text": "as running on an\nactual end device.",
+      "start": 388.36,
+      "duration": 2.25
+    },
+    {
+      "text": "And even if you do test on a\nreal device, or maybe a few",
+      "start": 390.61,
+      "duration": 3.27
+    },
+    {
+      "text": "have in the office, results vary\nacross the hundreds of devices",
+      "start": 393.88,
+      "duration": 3.57
+    },
+    {
+      "text": "that your users will\nhave in production.",
+      "start": 397.45,
+      "duration": 2.19
+    },
+    {
+      "text": "To ease this testing pain, we\nhave created AI Edge Portal,",
+      "start": 399.64,
+      "duration": 3.49
+    },
+    {
+      "text": "a new GCP service that\ntakes your LiteRT models",
+      "start": 403.13,
+      "duration": 3.32
+    },
+    {
+      "text": "and runs them across many real\ndevices in our device lab, all",
+      "start": 406.45,
+      "duration": 3.54
+    },
+    {
+      "text": "with just a few clicks.",
+      "start": 409.99,
+      "duration": 1.3
+    },
+    {
+      "text": "You can run benchmarks, bulk\ninference, and even evals,",
+      "start": 411.29,
+      "duration": 3.45
+    },
+    {
+      "text": "all running on a large\ncollection of devices, mirroring",
+      "start": 414.74,
+      "duration": 2.58
+    },
+    {
+      "text": "what you will really\nsee in production.",
+      "start": 417.32,
+      "duration": 2.91
+    },
+    {
+      "text": "AI Edge Portal is currently\nin private preview,",
+      "start": 420.23,
+      "duration": 2.14
+    },
+    {
+      "text": "so please reach out\nif you would like",
+      "start": 422.37,
+      "duration": 1.542
+    },
+    {
+      "text": "access ahead of our general\navailability release.",
+      "start": 423.912,
+      "duration": 3.323
+    },
+    {
+      "text": "Between our broad language\nmodel support and high degree",
+      "start": 427.235,
+      "duration": 2.715
+    },
+    {
+      "text": "of customization, we\nare confident that you",
+      "start": 429.95,
+      "duration": 2.117
+    },
+    {
+      "text": "can get the right language\nmodel running on mobile",
+      "start": 432.067,
+      "duration": 2.083
+    },
+    {
+      "text": "and web that fits your needs.",
+      "start": 434.15,
+      "duration": 1.75
+    },
+    {
+      "text": "But as we've worked with a lot\nof developers over the last year",
+      "start": 435.9,
+      "duration": 3.02
+    },
+    {
+      "text": "to build impactful\nfeatures on top",
+      "start": 438.92,
+      "duration": 1.68
+    },
+    {
+      "text": "of language models\non the edge, we've",
+      "start": 440.6,
+      "duration": 1.89
+    },
+    {
+      "text": "heard time and time\nagain that there",
+      "start": 442.49,
+      "duration": 1.77
+    },
+    {
+      "text": "are additional tools they need\nto deliver these AI features.",
+      "start": 444.26,
+      "duration": 3.21
+    },
+    {
+      "text": "As we've built these\ntools for Google Teams",
+      "start": 447.47,
+      "duration": 1.86
+    },
+    {
+      "text": "and seen their\nutility, we are really",
+      "start": 449.33,
+      "duration": 2.1
+    },
+    {
+      "text": "excited to make them\navailable to you as well.",
+      "start": 451.43,
+      "duration": 2.14
+    },
+    {
+      "text": "Today, we'll talk\nabout two of these--",
+      "start": 453.57,
+      "duration": 1.83
+    },
+    {
+      "text": "On-device Retrieval\nAugmented Generation, or RAG,",
+      "start": 455.4,
+      "duration": 2.51
+    },
+    {
+      "text": "and on-device tool calling.",
+      "start": 457.91,
+      "duration": 2.85
+    },
+    {
+      "text": "First, Retrieval Augmented\nGeneration, or RAG.",
+      "start": 460.76,
+      "duration": 3.96
+    },
+    {
+      "text": "Small language models are\ngreat for natural language",
+      "start": 464.72,
+      "duration": 2.49
+    },
+    {
+      "text": "understanding.",
+      "start": 467.21,
+      "duration": 0.688
+    },
+    {
+      "text": "But often, they don't have\nthe specific knowledge",
+      "start": 467.898,
+      "duration": 2.042
+    },
+    {
+      "text": "to answer a given query.",
+      "start": 469.94,
+      "duration": 1.62
+    },
+    {
+      "text": "Rather than try and fine\ntune them with the knowledge,",
+      "start": 471.56,
+      "duration": 2.38
+    },
+    {
+      "text": "you can feed that knowledge to\nthe model during inference time.",
+      "start": 473.94,
+      "duration": 3.53
+    },
+    {
+      "text": "Parsing, storing, and then\nretrieving the right information",
+      "start": 477.47,
+      "duration": 2.85
+    },
+    {
+      "text": "at inference time\ntogether makes up",
+      "start": 480.32,
+      "duration": 1.62
+    },
+    {
+      "text": "retrieval augmented generation.",
+      "start": 481.94,
+      "duration": 2.13
+    },
+    {
+      "text": "User queries are fed into the\nRAG SDK, which can retrieve data",
+      "start": 484.07,
+      "duration": 3.548
+    },
+    {
+      "text": "from your storage and feed the\nresponse to the small language",
+      "start": 487.618,
+      "duration": 2.542
+    },
+    {
+      "text": "model.",
+      "start": 490.16,
+      "duration": 0.698
+    },
+    {
+      "text": "This is particularly useful when\nyou have lots of information",
+      "start": 490.858,
+      "duration": 2.542
+    },
+    {
+      "text": "to query against, often\nhundreds, if not thousands,",
+      "start": 493.4,
+      "duration": 2.56
+    },
+    {
+      "text": "of pages or sources.",
+      "start": 495.96,
+      "duration": 1.7
+    },
+    {
+      "text": "Google AI Edge's RAG SDK\nenables this behavior for you.",
+      "start": 497.66,
+      "duration": 3.49
+    },
+    {
+      "text": "It works right out of the box.",
+      "start": 501.15,
+      "duration": 1.68
+    },
+    {
+      "text": "It includes an on-device\nembedding model,",
+      "start": 502.83,
+      "duration": 2.01
+    },
+    {
+      "text": "chunking method,\nvector database,",
+      "start": 504.84,
+      "duration": 1.68
+    },
+    {
+      "text": "and retrieval function.",
+      "start": 506.52,
+      "duration": 1.14
+    },
+    {
+      "text": "It's also modular,\nso you can replace",
+      "start": 507.66,
+      "duration": 1.79
+    },
+    {
+      "text": "any or all of these parts\nwith your own preferred ones.",
+      "start": 509.45,
+      "duration": 2.5
+    },
+    {
+      "text": "Our RAG SDK is\navailable on Android",
+      "start": 511.95,
+      "duration": 1.79
+    },
+    {
+      "text": "today and will support iOS\nand web later this year.",
+      "start": 513.74,
+      "duration": 3.9
+    },
+    {
+      "text": "Second, we have\nfunction calling, also",
+      "start": 517.64,
+      "duration": 2.55
+    },
+    {
+      "text": "commonly called tool use.",
+      "start": 520.19,
+      "duration": 1.68
+    },
+    {
+      "text": "Oftentimes, when\nbuilding features,",
+      "start": 521.87,
+      "duration": 1.75
+    },
+    {
+      "text": "you don't simply want the\nlanguage model to return text,",
+      "start": 523.62,
+      "duration": 2.46
+    },
+    {
+      "text": "but you want it to\ntake an actual action.",
+      "start": 526.08,
+      "duration": 2.34
+    },
+    {
+      "text": "That action is\ngenerally executing",
+      "start": 528.42,
+      "duration": 1.61
+    },
+    {
+      "text": "an API that then\nprogrammatically does",
+      "start": 530.03,
+      "duration": 1.77
+    },
+    {
+      "text": "something else.",
+      "start": 531.8,
+      "duration": 1.29
+    },
+    {
+      "text": "We are excited for the launch\nof our Google AI Edge Function",
+      "start": 533.09,
+      "duration": 2.67
+    },
+    {
+      "text": "Calling SDK.",
+      "start": 535.76,
+      "duration": 1.15
+    },
+    {
+      "text": "This SDK lets you register your\nfunctions from your application",
+      "start": 536.91,
+      "duration": 2.93
+    },
+    {
+      "text": "to be used with\nyour language model.",
+      "start": 539.84,
+      "duration": 1.86
+    },
+    {
+      "text": "You can use it out\nof the box, simply",
+      "start": 541.7,
+      "duration": 1.98
+    },
+    {
+      "text": "registering your functions\non device with the SDK",
+      "start": 543.68,
+      "duration": 2.31
+    },
+    {
+      "text": "and using a base model.",
+      "start": 545.99,
+      "duration": 2.01
+    },
+    {
+      "text": "Or if you need better accuracy\nor for more robust scenarios,",
+      "start": 548.0,
+      "duration": 3.76
+    },
+    {
+      "text": "you can customize your model.",
+      "start": 551.76,
+      "duration": 1.895
+    },
+    {
+      "text": "In Python, register your\napplication functions",
+      "start": 553.655,
+      "duration": 2.305
+    },
+    {
+      "text": "and provide a base model.",
+      "start": 555.96,
+      "duration": 1.43
+    },
+    {
+      "text": "Our SDK will use\nsynthetic data generation",
+      "start": 557.39,
+      "duration": 2.363
+    },
+    {
+      "text": "and then fine tune\nyour base model",
+      "start": 559.753,
+      "duration": 1.417
+    },
+    {
+      "text": "for your specific functions.",
+      "start": 561.17,
+      "duration": 1.69
+    },
+    {
+      "text": "Take this new customized\nmodel and run it on device",
+      "start": 562.86,
+      "duration": 2.63
+    },
+    {
+      "text": "with our SDK to greatly expand\nthe capabilities of function",
+      "start": 565.49,
+      "duration": 3.0
+    },
+    {
+      "text": "calling on the edge.",
+      "start": 568.49,
+      "duration": 1.41
+    },
+    {
+      "text": "Try it out yourself\nand give us feedback.",
+      "start": 569.9,
+      "duration": 2.02
+    },
+    {
+      "text": "This is a newly released\nSDK and, like our RAG SDK,",
+      "start": 571.92,
+      "duration": 2.9
+    },
+    {
+      "text": "is available on Android with iOS\nand web versions coming later.",
+      "start": 574.82,
+      "duration": 3.93
+    },
+    {
+      "text": "Great.",
+      "start": 578.75,
+      "duration": 0.66
+    },
+    {
+      "text": "Before we move on, a quick\nrecap of our video so far.",
+      "start": 579.41,
+      "duration": 3.34
+    },
+    {
+      "text": "We've covered our wide\nand growing support",
+      "start": 582.75,
+      "duration": 2.66
+    },
+    {
+      "text": "of small language models\non mobile and web,",
+      "start": 585.41,
+      "duration": 2.91
+    },
+    {
+      "text": "your options to bring\nnew models or customize",
+      "start": 588.32,
+      "duration": 2.85
+    },
+    {
+      "text": "existing models using\nquantization and fine tuning,",
+      "start": 591.17,
+      "duration": 3.17
+    },
+    {
+      "text": "and our RAG and function\ncalling SDKs, which",
+      "start": 594.34,
+      "duration": 2.99
+    },
+    {
+      "text": "act as force multipliers\nto edge language models,",
+      "start": 597.33,
+      "duration": 2.35
+    },
+    {
+      "text": "enabling even more\npowerful AI capabilities.",
+      "start": 599.68,
+      "duration": 3.05
+    },
+    {
+      "text": "Now, I'll hand it over\nto my colleague Mogan.",
+      "start": 602.73,
+      "duration": 3.987
+    },
+    {
+      "text": "MOGAN SHIEH: Thanks, Mark.",
+      "start": 606.717,
+      "duration": 1.083
+    },
+    {
+      "text": "And Hi, everyone.",
+      "start": 607.8,
+      "duration": 1.36
+    },
+    {
+      "text": "I'm happy to be here to talk\nabout our infrastructure",
+      "start": 609.16,
+      "duration": 2.45
+    },
+    {
+      "text": "improvements.",
+      "start": 611.61,
+      "duration": 1.02
+    },
+    {
+      "text": "Over the last few years, we've\nheard your feedback that,",
+      "start": 612.63,
+      "duration": 3.03
+    },
+    {
+      "text": "while TFLite offered you\ntremendous advantages, that it",
+      "start": 615.66,
+      "duration": 2.91
+    },
+    {
+      "text": "can be difficult and\nsometimes confusing to use.",
+      "start": 618.57,
+      "duration": 2.92
+    },
+    {
+      "text": "We had to refer to\ndocumentation, blogs,",
+      "start": 621.49,
+      "duration": 3.21
+    },
+    {
+      "text": "and look up tips and tricks\nto leverage its advantages.",
+      "start": 624.7,
+      "duration": 3.29
+    },
+    {
+      "text": "With LiteRT, we're taking steps\nto improve this and improve",
+      "start": 627.99,
+      "duration": 3.57
+    },
+    {
+      "text": "the developer experience.",
+      "start": 631.56,
+      "duration": 2.1
+    },
+    {
+      "text": "As many of you know,\nGPUs have always",
+      "start": 633.66,
+      "duration": 2.7
+    },
+    {
+      "text": "been at the center of\nGoogle AI Edge acceleration.",
+      "start": 636.36,
+      "duration": 3.46
+    },
+    {
+      "text": "So as a key example, we want\nto make it easier for everyone",
+      "start": 639.82,
+      "duration": 3.92
+    },
+    {
+      "text": "to take advantage of them.",
+      "start": 643.74,
+      "duration": 1.74
+    },
+    {
+      "text": "Our entire runtime\nstack is designed",
+      "start": 645.48,
+      "duration": 2.13
+    },
+    {
+      "text": "to be GPU first compared to\nmany other edge runtimes.",
+      "start": 647.61,
+      "duration": 3.55
+    },
+    {
+      "text": "GPUs are the most accessible\nand prevalent method",
+      "start": 651.16,
+      "duration": 3.14
+    },
+    {
+      "text": "of acceleration, realizing\nsignificant performance",
+      "start": 654.3,
+      "duration": 3.03
+    },
+    {
+      "text": "increases over just CPUs.",
+      "start": 657.33,
+      "duration": 2.22
+    },
+    {
+      "text": "In the past, these\nare all steps that",
+      "start": 659.55,
+      "duration": 3.0
+    },
+    {
+      "text": "were required to take\nadvantage of GPU acceleration.",
+      "start": 662.55,
+      "duration": 3.25
+    },
+    {
+      "text": "You first had to load the model,\ncreate the flatbuffer objects,",
+      "start": 665.8,
+      "duration": 3.96
+    },
+    {
+      "text": "create the resolver\nand the interpreter,",
+      "start": 669.76,
+      "duration": 2.85
+    },
+    {
+      "text": "then create and initialize\nthe GPU delegate,",
+      "start": 672.61,
+      "duration": 3.15
+    },
+    {
+      "text": "configure it, and analyze\nthe model for supported ops.",
+      "start": 675.76,
+      "duration": 3.45
+    },
+    {
+      "text": "You needed to remember\nto do all of this",
+      "start": 679.21,
+      "duration": 2.09
+    },
+    {
+      "text": "and hope you didn't\nforget a step",
+      "start": 681.3,
+      "duration": 1.41
+    },
+    {
+      "text": "and troubleshoot it if\nany steps were missed.",
+      "start": 682.71,
+      "duration": 2.83
+    },
+    {
+      "text": "This was cumbersome and tedious,\nso we're taking this opportunity",
+      "start": 685.54,
+      "duration": 3.47
+    },
+    {
+      "text": "to simplify this process.",
+      "start": 689.01,
+      "duration": 2.02
+    },
+    {
+      "text": "Now with LiteRT, we\njust require two steps--",
+      "start": 691.03,
+      "duration": 3.45
+    },
+    {
+      "text": "specify and load the\nmodel, compile the model",
+      "start": 694.48,
+      "duration": 2.99
+    },
+    {
+      "text": "and specify the backend you'd\nlike to target as an option.",
+      "start": 697.47,
+      "duration": 3.34
+    },
+    {
+      "text": "And that's it.",
+      "start": 700.81,
+      "duration": 1.37
+    },
+    {
+      "text": "In this example, you can\nwrite up 80% less code",
+      "start": 702.18,
+      "duration": 3.3
+    },
+    {
+      "text": "while getting\nmaximum performance.",
+      "start": 705.48,
+      "duration": 2.43
+    },
+    {
+      "text": "Not only are we making\nGPUs easier to use,",
+      "start": 707.91,
+      "duration": 2.89
+    },
+    {
+      "text": "we also wanted to\ntake this opportunity",
+      "start": 710.8,
+      "duration": 1.74
+    },
+    {
+      "text": "to share an exciting update\nto our GPU acceleration.",
+      "start": 712.54,
+      "duration": 3.6
+    },
+    {
+      "text": "With the era of GenAI, we've\nrearchitected our GPU delegate",
+      "start": 716.14,
+      "duration": 4.44
+    },
+    {
+      "text": "as ML drift for even\nbetter performance",
+      "start": 720.58,
+      "duration": 2.61
+    },
+    {
+      "text": "overall compared to previous\nversions and to better support",
+      "start": 723.19,
+      "duration": 3.54
+    },
+    {
+      "text": "the unique requirements\nof running GenAI models.",
+      "start": 726.73,
+      "duration": 3.03
+    },
+    {
+      "text": "For small language\nmodels on device,",
+      "start": 729.76,
+      "duration": 2.89
+    },
+    {
+      "text": "you can see a 12x improvement\ncompared to other inference",
+      "start": 732.65,
+      "duration": 4.64
+    },
+    {
+      "text": "frameworks.",
+      "start": 737.29,
+      "duration": 0.85
+    },
+    {
+      "text": "That's right-- a 12x improvement\ncompared to GPU enabled",
+      "start": 738.14,
+      "duration": 3.59
+    },
+    {
+      "text": "frameworks.",
+      "start": 741.73,
+      "duration": 1.32
+    },
+    {
+      "text": "So again, we wanted\nto encourage everybody",
+      "start": 743.05,
+      "duration": 2.52
+    },
+    {
+      "text": "to explore leveraging LiteRT's\nGPU acceleration with our latest",
+      "start": 745.57,
+      "duration": 3.84
+    },
+    {
+      "text": "changes, making it\neasier than ever.",
+      "start": 749.41,
+      "duration": 2.74
+    },
+    {
+      "text": "More details on\nchanges under the hood",
+      "start": 752.15,
+      "duration": 2.03
+    },
+    {
+      "text": "will be available in the\ndocumentation, along with how",
+      "start": 754.18,
+      "duration": 2.82
+    },
+    {
+      "text": "to incorporate ML Drift today.",
+      "start": 757.0,
+      "duration": 2.52
+    },
+    {
+      "text": "As we push the boundaries\nof performance,",
+      "start": 759.52,
+      "duration": 2.26
+    },
+    {
+      "text": "we also wanted to make\nit equally as simple",
+      "start": 761.78,
+      "duration": 2.18
+    },
+    {
+      "text": "to take advantage of NPUs, a\nspecialized silicon becoming",
+      "start": 763.96,
+      "duration": 3.75
+    },
+    {
+      "text": "more prevalent for running\nAI in flagship phones.",
+      "start": 767.71,
+      "duration": 3.48
+    },
+    {
+      "text": "AI models are becoming\nlarger and more complex,",
+      "start": 771.19,
+      "duration": 3.1
+    },
+    {
+      "text": "especially in the\ngenerative space.",
+      "start": 774.29,
+      "duration": 1.71
+    },
+    {
+      "text": "And NPUs will not only\nprovide an advantage,",
+      "start": 776.0,
+      "duration": 2.73
+    },
+    {
+      "text": "but will become a necessity\nfor giving users a responsive",
+      "start": 778.73,
+      "duration": 3.35
+    },
+    {
+      "text": "experience on mobile.",
+      "start": 782.08,
+      "duration": 1.5
+    },
+    {
+      "text": "Leveraging NPUs to\nrun models locally",
+      "start": 783.58,
+      "duration": 2.61
+    },
+    {
+      "text": "also means a more\nprivate experience",
+      "start": 786.19,
+      "duration": 1.77
+    },
+    {
+      "text": "for users and cost-effective\nsolution for developers,",
+      "start": 787.96,
+      "duration": 4.42
+    },
+    {
+      "text": "so you don't need to\nmanage cloud compute costs.",
+      "start": 792.38,
+      "duration": 3.02
+    },
+    {
+      "text": "Here, you can see\nwe make it almost as",
+      "start": 795.4,
+      "duration": 2.94
+    },
+    {
+      "text": "simple to leverage\nNPUs with same lines",
+      "start": 798.34,
+      "duration": 2.76
+    },
+    {
+      "text": "to load and then compile\nthe model specifying",
+      "start": 801.1,
+      "duration": 2.58
+    },
+    {
+      "text": "the additional NPU backend\nwith fallback to GPU and CPU.",
+      "start": 803.68,
+      "duration": 5.145
+    },
+    {
+      "text": "All you need to do is configure\na few additional resources",
+      "start": 808.825,
+      "duration": 2.805
+    },
+    {
+      "text": "unique to NPUs,\nlike the compiler.",
+      "start": 811.63,
+      "duration": 2.85
+    },
+    {
+      "text": "To make the speed tangible,\nwe've observed a 25x performance",
+      "start": 814.48,
+      "duration": 4.47
+    },
+    {
+      "text": "compared to CPUs and at least a\neight times improvement versus",
+      "start": 818.95,
+      "duration": 4.38
+    },
+    {
+      "text": "GPUs in our internal testing\nusing LiteRT, When available,",
+      "start": 823.33,
+      "duration": 4.51
+    },
+    {
+      "text": "NPUs provide not only a better\nperformance with a meaningful",
+      "start": 827.84,
+      "duration": 3.5
+    },
+    {
+      "text": "reduction in latency, but\nalso typically a reduction",
+      "start": 831.34,
+      "duration": 3.54
+    },
+    {
+      "text": "in processor memory\nand power utilization,",
+      "start": 834.88,
+      "duration": 2.77
+    },
+    {
+      "text": "resulting in resource savings.",
+      "start": 837.65,
+      "duration": 2.07
+    },
+    {
+      "text": "This allows the device to run\nlonger with improved thermals",
+      "start": 839.72,
+      "duration": 3.26
+    },
+    {
+      "text": "and overall system health.",
+      "start": 842.98,
+      "duration": 2.25
+    },
+    {
+      "text": "This applies to both classical\nmodels, as well as GenAI models.",
+      "start": 845.23,
+      "duration": 3.97
+    },
+    {
+      "text": "So you don't need to\nbe in the AI space",
+      "start": 849.2,
+      "duration": 2.27
+    },
+    {
+      "text": "to realize the\nadvantages of NPUs,",
+      "start": 851.47,
+      "duration": 2.86
+    },
+    {
+      "text": "and your users will\nbe happier for it.",
+      "start": 854.33,
+      "duration": 2.78
+    },
+    {
+      "text": "In this space, we're\npartnering closely",
+      "start": 857.11,
+      "duration": 2.67
+    },
+    {
+      "text": "with Qualcomm and MediaTek to\noffer a streamlined developer",
+      "start": 859.78,
+      "duration": 3.93
+    },
+    {
+      "text": "experience.",
+      "start": 863.71,
+      "duration": 1.12
+    },
+    {
+      "text": "While each vendor does\nhave their own toolchains,",
+      "start": 864.83,
+      "duration": 2.85
+    },
+    {
+      "text": "LiteRT unifies the experience\nby creating an environment,",
+      "start": 867.68,
+      "duration": 3.3
+    },
+    {
+      "text": "as you saw in the\ncode sample, to unify",
+      "start": 870.98,
+      "duration": 2.27
+    },
+    {
+      "text": "compilation and distribution of\nthe binaries for these vendors.",
+      "start": 873.25,
+      "duration": 3.88
+    },
+    {
+      "text": "We'll be adding support for more\nvendors in the coming months.",
+      "start": 877.13,
+      "duration": 3.54
+    },
+    {
+      "text": "Mediatek and\nQualcomm integrations",
+      "start": 880.67,
+      "duration": 1.94
+    },
+    {
+      "text": "are available today with more\ndocumentation on our website.",
+      "start": 882.61,
+      "duration": 3.6
+    },
+    {
+      "text": "When the models are\ncompiled for each vendor,",
+      "start": 886.21,
+      "duration": 2.38
+    },
+    {
+      "text": "separate binaries are saved\nin directories for each target",
+      "start": 888.59,
+      "duration": 3.15
+    },
+    {
+      "text": "and bundled into new\nAI packs that we've",
+      "start": 891.74,
+      "duration": 2.43
+    },
+    {
+      "text": "developed in cooperation\nwith Google Play store.",
+      "start": 894.17,
+      "duration": 3.07
+    },
+    {
+      "text": "This allows us to configure\nthe correct model distribution",
+      "start": 897.24,
+      "duration": 3.2
+    },
+    {
+      "text": "for supported\ndevices in addition",
+      "start": 900.44,
+      "duration": 2.22
+    },
+    {
+      "text": "to any necessary\nruntimes or dependencies.",
+      "start": 902.66,
+      "duration": 2.83
+    },
+    {
+      "text": "Again, for more information\nand documentation,",
+      "start": 905.49,
+      "duration": 2.64
+    },
+    {
+      "text": "head on over to Google/AI-Edge.",
+      "start": 908.13,
+      "duration": 3.68
+    },
+    {
+      "text": "To highlight some\nreal examples, we'd",
+      "start": 911.81,
+      "duration": 2.7
+    },
+    {
+      "text": "like to share about the work\nfrom three of our early access",
+      "start": 914.51,
+      "duration": 2.67
+    },
+    {
+      "text": "partners.",
+      "start": 917.18,
+      "duration": 1.2
+    },
+    {
+      "text": "The first is Ensign\nInfoSecurity,",
+      "start": 918.38,
+      "duration": 2.5
+    },
+    {
+      "text": "a Singapore-based\ncybersecurity firm battling",
+      "start": 920.88,
+      "duration": 3.53
+    },
+    {
+      "text": "the problem of deepfakes.",
+      "start": 924.41,
+      "duration": 1.45
+    },
+    {
+      "text": "Video authentication\nhas become popular",
+      "start": 925.86,
+      "duration": 2.39
+    },
+    {
+      "text": "as a reliable means of verifying\na user's identity, transaction,",
+      "start": 928.25,
+      "duration": 4.3
+    },
+    {
+      "text": "and intent.",
+      "start": 932.55,
+      "duration": 1.16
+    },
+    {
+      "text": "With the advent of incredibly\nsophisticated generative",
+      "start": 933.71,
+      "duration": 3.12
+    },
+    {
+      "text": "and deepfake technologies,\nthis has become less reliable.",
+      "start": 936.83,
+      "duration": 3.55
+    },
+    {
+      "text": "It's imperative to run detection\nmodels on device in real time",
+      "start": 940.38,
+      "duration": 4.43
+    },
+    {
+      "text": "so you know the person\nyou're talking to is real.",
+      "start": 944.81,
+      "duration": 2.94
+    },
+    {
+      "text": "By quantizing their\nmodels using LiteRT tools,",
+      "start": 947.75,
+      "duration": 3.43
+    },
+    {
+      "text": "leveraging LiteRT CPU\nand GPU delegates,",
+      "start": 951.18,
+      "duration": 3.09
+    },
+    {
+      "text": "Ensign was able to reduce\ndetection time from 67 seconds",
+      "start": 954.27,
+      "duration": 4.58
+    },
+    {
+      "text": "to 1.2 seconds, all while\nreducing heat and processing",
+      "start": 958.85,
+      "duration": 4.53
+    },
+    {
+      "text": "memory and power\nconsumption to make",
+      "start": 963.38,
+      "duration": 2.19
+    },
+    {
+      "text": "deepfake detection accessible\nfor banks and individuals alike.",
+      "start": 965.57,
+      "duration": 4.47
+    },
+    {
+      "text": "The second is Argmax.",
+      "start": 970.04,
+      "duration": 2.26
+    },
+    {
+      "text": "They are building\nenterprise-grade, on-device",
+      "start": 972.3,
+      "duration": 2.45
+    },
+    {
+      "text": "inference SDKs such as\nWhisperKit for speech-to-text",
+      "start": 974.75,
+      "duration": 3.48
+    },
+    {
+      "text": "and SpeakerKit for\nspeaker identification.",
+      "start": 978.23,
+      "duration": 3.36
+    },
+    {
+      "text": "Argmax switched from\nExecuTorch LiteRT",
+      "start": 981.59,
+      "duration": 3.66
+    },
+    {
+      "text": "and also migrated from our\nolder GPU delegate to ML Drift",
+      "start": 985.25,
+      "duration": 4.53
+    },
+    {
+      "text": "and immediately realized a\n30% performance improvement,",
+      "start": 989.78,
+      "duration": 4.06
+    },
+    {
+      "text": "while also benefiting from\ncross platform support",
+      "start": 993.84,
+      "duration": 2.96
+    },
+    {
+      "text": "and looking to expand\nfor NPU through LiteRT.",
+      "start": 996.8,
+      "duration": 4.68
+    },
+    {
+      "text": "Finally, we have AudioShake.",
+      "start": 1001.48,
+      "duration": 2.08
+    },
+    {
+      "text": "AudioShake makes audio\nmore useful for both humans",
+      "start": 1003.56,
+      "duration": 3.02
+    },
+    {
+      "text": "and machines by separating\nsound into component parts.",
+      "start": 1006.58,
+      "duration": 3.28
+    },
+    {
+      "text": "From enabling remixing\nin DJ applications",
+      "start": 1009.86,
+      "duration": 3.12
+    },
+    {
+      "text": "and removing music\nor crowd noise",
+      "start": 1012.98,
+      "duration": 2.01
+    },
+    {
+      "text": "on the fly to separating\nmultiple voices from a crowd,",
+      "start": 1014.99,
+      "duration": 3.7
+    },
+    {
+      "text": "AudioShake benefits from\ncross-platform support",
+      "start": 1018.69,
+      "duration": 2.84
+    },
+    {
+      "text": "without sacrificing\nperformance, allowing",
+      "start": 1021.53,
+      "duration": 2.52
+    },
+    {
+      "text": "them to focus on training\nthe best possible models",
+      "start": 1024.05,
+      "duration": 2.64
+    },
+    {
+      "text": "for their users.",
+      "start": 1026.69,
+      "duration": 1.379
+    },
+    {
+      "text": "LiteRT's performance\nenables real-time use cases",
+      "start": 1028.069,
+      "duration": 3.091
+    },
+    {
+      "text": "which weren't possible\npreviously with a small team.",
+      "start": 1031.16,
+      "duration": 3.48
+    },
+    {
+      "text": "Thank you so much\nfor joining us today.",
+      "start": 1034.64,
+      "duration": 2.29
+    },
+    {
+      "text": "And we're hoping you're as\nexcited about the future",
+      "start": 1036.93,
+      "duration": 2.63
+    },
+    {
+      "text": "of on-device AI as we are.",
+      "start": 1039.56,
+      "duration": 2.44
+    },
+    {
+      "text": "You can find documentation\nand more information about",
+      "start": 1042.0,
+      "duration": 2.63
+    },
+    {
+      "text": "everything we talked about\ntoday at Google/AI-Edge.",
+      "start": 1044.63,
+      "duration": 4.24
+    },
+    {
+      "text": "As always, if you're\nbuilding interesting products",
+      "start": 1048.87,
+      "duration": 2.72
+    },
+    {
+      "text": "on the edge, we encourage you\nto reach out and contact a team.",
+      "start": 1051.59,
+      "duration": 3.25
+    },
+    {
+      "text": "We would love to hear about it.",
+      "start": 1054.84,
+      "duration": 1.73
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1056.57,
+      "duration": 3.65
+    }
+  ]
+}

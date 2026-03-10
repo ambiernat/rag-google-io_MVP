@@ -1,0 +1,1987 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "21tfI9O9RrA",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.493
+    },
+    {
+      "text": "KUSHAGRA PATEL: Greetings, I/O.\nI am Kushagra Patel, a product",
+      "start": 5.99,
+      "duration": 3.3
+    },
+    {
+      "text": "manager for Google Pay.",
+      "start": 9.29,
+      "duration": 1.98
+    },
+    {
+      "text": "Thank you for joining us today.",
+      "start": 11.27,
+      "duration": 1.78
+    },
+    {
+      "text": "We have been hard\nat work to bring",
+      "start": 13.05,
+      "duration": 2.03
+    },
+    {
+      "text": "a ton of exciting new features\nacross Google Pay API and Google",
+      "start": 15.08,
+      "duration": 4.5
+    },
+    {
+      "text": "Wallet developer platforms to\nenable even better journeys",
+      "start": 19.58,
+      "duration": 4.02
+    },
+    {
+      "text": "for your users.",
+      "start": 23.6,
+      "duration": 1.92
+    },
+    {
+      "text": "So let's get started\nwith Google Pay.",
+      "start": 25.52,
+      "duration": 2.61
+    },
+    {
+      "text": "Our mission at Google\nPay is to provide",
+      "start": 28.13,
+      "duration": 2.94
+    },
+    {
+      "text": "a simple, safe, and\na seamless payments",
+      "start": 31.07,
+      "duration": 3.0
+    },
+    {
+      "text": "experience for everyone,\neverywhere, and help",
+      "start": 34.07,
+      "duration": 3.15
+    },
+    {
+      "text": "your business grow by\ndriving incremental sales.",
+      "start": 37.22,
+      "duration": 3.72
+    },
+    {
+      "text": "Today, we will look at\nhow we are continuing",
+      "start": 40.94,
+      "duration": 2.82
+    },
+    {
+      "text": "to make the most seamless and\naccessible experience for users;",
+      "start": 43.76,
+      "duration": 4.5
+    },
+    {
+      "text": "the new use cases we are\nenabling to meet your growing",
+      "start": 48.26,
+      "duration": 3.15
+    },
+    {
+      "text": "business needs; our commitment\nto ensure Google Pay is the most",
+      "start": 51.41,
+      "duration": 4.74
+    },
+    {
+      "text": "secure way to pay; and updates\nto our developer experience",
+      "start": 56.15,
+      "duration": 4.19
+    },
+    {
+      "text": "to bring the most delight to\nyou, our developer community.",
+      "start": 60.34,
+      "duration": 5.55
+    },
+    {
+      "text": "We are focused on delivering\na seamless one click checkout",
+      "start": 65.89,
+      "duration": 3.81
+    },
+    {
+      "text": "experience and making it\naccessible across all surfaces",
+      "start": 69.7,
+      "duration": 4.17
+    },
+    {
+      "text": "for your users.",
+      "start": 73.87,
+      "duration": 2.67
+    },
+    {
+      "text": "We are very pleased to announce\nthat we have redesigned",
+      "start": 76.54,
+      "duration": 3.51
+    },
+    {
+      "text": "and re-engineered our\nUX from the ground-up",
+      "start": 80.05,
+      "duration": 3.79
+    },
+    {
+      "text": "to ensure it drives even higher\nconversion for your business.",
+      "start": 83.84,
+      "duration": 5.27
+    },
+    {
+      "text": "The newly designed\npay sheet now shows",
+      "start": 89.11,
+      "duration": 2.94
+    },
+    {
+      "text": "card-identifying information,\nsuch as rich card art and name,",
+      "start": 92.05,
+      "duration": 5.46
+    },
+    {
+      "text": "to help users quickly\nidentify and select the card",
+      "start": 97.51,
+      "duration": 3.75
+    },
+    {
+      "text": "they want to pay with.",
+      "start": 101.26,
+      "duration": 2.37
+    },
+    {
+      "text": "Our UX is now optimized\nto support dark mode,",
+      "start": 103.63,
+      "duration": 4.24
+    },
+    {
+      "text": "making it a more delightful\nexperience for your users",
+      "start": 107.87,
+      "duration": 4.31
+    },
+    {
+      "text": "while checking out.",
+      "start": 112.18,
+      "duration": 2.49
+    },
+    {
+      "text": "Next, we are thrilled to\nannounce the support for Google",
+      "start": 114.67,
+      "duration": 3.52
+    },
+    {
+      "text": "Pay on Android WebViews.",
+      "start": 118.19,
+      "duration": 2.82
+    },
+    {
+      "text": "More users are making purchases\nusing in-app browsers,",
+      "start": 121.01,
+      "duration": 4.33
+    },
+    {
+      "text": "and with Chrome\nVersion 136, your users",
+      "start": 125.34,
+      "duration": 4.01
+    },
+    {
+      "text": "will be able to\npurchase seamlessly",
+      "start": 129.35,
+      "duration": 2.61
+    },
+    {
+      "text": "using Google Pay through an\nAndroid-native experience,",
+      "start": 131.96,
+      "duration": 4.27
+    },
+    {
+      "text": "and also be able to use device\ntokens from their Google Wallet,",
+      "start": 136.23,
+      "duration": 3.72
+    },
+    {
+      "text": "providing you with a\nhigh-quality token.",
+      "start": 139.95,
+      "duration": 3.86
+    },
+    {
+      "text": "All you need is a single\nchange to your app manifest.",
+      "start": 143.81,
+      "duration": 4.33
+    },
+    {
+      "text": "Simply enable\nPayment_Request and see",
+      "start": 148.14,
+      "duration": 2.48
+    },
+    {
+      "text": "the rest of it come to action.",
+      "start": 150.62,
+      "duration": 2.97
+    },
+    {
+      "text": "We introduced the Pay button\nfor Android last year.",
+      "start": 153.59,
+      "duration": 3.13
+    },
+    {
+      "text": "And you saw an\nincrease in sales when",
+      "start": 156.72,
+      "duration": 3.23
+    },
+    {
+      "text": "users saw their card-identifying\ninformation on the button.",
+      "start": 159.95,
+      "duration": 4.08
+    },
+    {
+      "text": "We have not only\nrevamped the experience,",
+      "start": 164.03,
+      "duration": 2.53
+    },
+    {
+      "text": "but have added more\ncustomization flexibility",
+      "start": 166.56,
+      "duration": 3.32
+    },
+    {
+      "text": "and are providing you\nwith more control.",
+      "start": 169.88,
+      "duration": 3.57
+    },
+    {
+      "text": "Now you can show\nand hide the border",
+      "start": 173.45,
+      "duration": 3.2
+    },
+    {
+      "text": "and have added support\nfor more button copies",
+      "start": 176.65,
+      "duration": 3.06
+    },
+    {
+      "text": "to match your checkout screens.",
+      "start": 179.71,
+      "duration": 3.09
+    },
+    {
+      "text": "We also heard your\nrequest to support",
+      "start": 182.8,
+      "duration": 2.04
+    },
+    {
+      "text": "presenting card-identifying\ninformation",
+      "start": 184.84,
+      "duration": 2.22
+    },
+    {
+      "text": "when your UX does\nnot support a button.",
+      "start": 187.06,
+      "duration": 2.91
+    },
+    {
+      "text": "So in the coming months, we are\nintroducing Payment Metadata API",
+      "start": 189.97,
+      "duration": 5.49
+    },
+    {
+      "text": "that you can use to enable\nsimilar functionality",
+      "start": 195.46,
+      "duration": 3.42
+    },
+    {
+      "text": "as the dynamic button.",
+      "start": 198.88,
+      "duration": 3.09
+    },
+    {
+      "text": "We are pleased to\nannounce upcoming support",
+      "start": 201.97,
+      "duration": 2.97
+    },
+    {
+      "text": "for merchant-initiated\ntransactions in the Google Pay",
+      "start": 204.94,
+      "duration": 3.87
+    },
+    {
+      "text": "Online API designed\nto streamline payments",
+      "start": 208.81,
+      "duration": 4.5
+    },
+    {
+      "text": "for subscriptions, automatic\nreloads, and deferred charges.",
+      "start": 213.31,
+      "duration": 5.91
+    },
+    {
+      "text": "Your customers will benefit\nfrom enhanced pay sheet details,",
+      "start": 219.22,
+      "duration": 3.91
+    },
+    {
+      "text": "fostering trust and leading to a\nmore seamless checkout process,",
+      "start": 223.13,
+      "duration": 5.04
+    },
+    {
+      "text": "ultimately driving sales\ngrowth for your business.",
+      "start": 228.17,
+      "duration": 5.18
+    },
+    {
+      "text": "With this feature, you\nwill be able to receive",
+      "start": 233.35,
+      "duration": 3.24
+    },
+    {
+      "text": "payment tokens not bound to\na customer specific device",
+      "start": 236.59,
+      "duration": 4.89
+    },
+    {
+      "text": "to ensure payment continuity\nand prevent interruptions,",
+      "start": 241.48,
+      "duration": 4.54
+    },
+    {
+      "text": "even when a customer switches\ntheir device in the future",
+      "start": 246.02,
+      "duration": 3.62
+    },
+    {
+      "text": "or modifies their Wallet.",
+      "start": 249.64,
+      "duration": 3.27
+    },
+    {
+      "text": "Finally, you will be able to\nreceive live cycle notifications",
+      "start": 252.91,
+      "duration": 4.56
+    },
+    {
+      "text": "for Google Pay payment tokens\nfor underlying credential",
+      "start": 257.47,
+      "duration": 4.109
+    },
+    {
+      "text": "changes, giving you time\nto proactively reach out",
+      "start": 261.579,
+      "duration": 4.321
+    },
+    {
+      "text": "to your customers to update\ntheir payment methods",
+      "start": 265.9,
+      "duration": 2.73
+    },
+    {
+      "text": "before the next billing cycle\nimproving recurring transaction",
+      "start": 268.63,
+      "duration": 4.32
+    },
+    {
+      "text": "continuity.",
+      "start": 272.95,
+      "duration": 2.31
+    },
+    {
+      "text": "We heard your request\nto provide you",
+      "start": 275.26,
+      "duration": 2.4
+    },
+    {
+      "text": "finer control over what payment\ncards you want to accept.",
+      "start": 277.66,
+      "duration": 4.15
+    },
+    {
+      "text": "So we are constantly\nadding new features.",
+      "start": 281.81,
+      "duration": 2.81
+    },
+    {
+      "text": "You can now accept\nor block cards",
+      "start": 284.62,
+      "duration": 3.39
+    },
+    {
+      "text": "based on the card\nissuer country.",
+      "start": 288.01,
+      "duration": 3.63
+    },
+    {
+      "text": "We are enhancing our an API\nto allow you to disburse funds",
+      "start": 291.64,
+      "duration": 4.32
+    },
+    {
+      "text": "to your users.",
+      "start": 295.96,
+      "duration": 1.54
+    },
+    {
+      "text": "This enhancement will allow\nyou to send money directly",
+      "start": 297.5,
+      "duration": 3.2
+    },
+    {
+      "text": "to your recipients cards.",
+      "start": 300.7,
+      "duration": 3.51
+    },
+    {
+      "text": "Security and fraud prevention is\nat the core of everything we do.",
+      "start": 304.21,
+      "duration": 5.13
+    },
+    {
+      "text": "Our latest fraud\ndetection models",
+      "start": 309.34,
+      "duration": 2.13
+    },
+    {
+      "text": "have shown a significant\nreduction in payment fraud,",
+      "start": 311.47,
+      "duration": 3.66
+    },
+    {
+      "text": "driving lower cost\nfor your business.",
+      "start": 315.13,
+      "duration": 3.66
+    },
+    {
+      "text": "You can now report\nchargeback data",
+      "start": 318.79,
+      "duration": 1.68
+    },
+    {
+      "text": "to Google Pay on\na periodic basis",
+      "start": 320.47,
+      "duration": 2.64
+    },
+    {
+      "text": "through a simple file upload\nthrough our business console.",
+      "start": 323.11,
+      "duration": 4.53
+    },
+    {
+      "text": "We have the pipeline set\nup that automatically",
+      "start": 327.64,
+      "duration": 3.09
+    },
+    {
+      "text": "process your uploaded\ndata and leverages it",
+      "start": 330.73,
+      "duration": 3.21
+    },
+    {
+      "text": "for tuning in our model further\nhelp improve model precision,",
+      "start": 333.94,
+      "duration": 6.27
+    },
+    {
+      "text": "And when suspicious\nactivity is detected,",
+      "start": 340.21,
+      "duration": 2.53
+    },
+    {
+      "text": "Google can present\nID and [INAUDIBLE]",
+      "start": 342.74,
+      "duration": 2.54
+    },
+    {
+      "text": "challenge that the user must\npass to complete the purchase.",
+      "start": 345.28,
+      "duration": 4.45
+    },
+    {
+      "text": "This is available to\nyou today without you",
+      "start": 349.73,
+      "duration": 3.55
+    },
+    {
+      "text": "writing a single line of code.",
+      "start": 353.28,
+      "duration": 2.64
+    },
+    {
+      "text": "To empower you with greater\ncontrol over risk management,",
+      "start": 355.92,
+      "duration": 3.82
+    },
+    {
+      "text": "we plan to expand our\nresponse parameters",
+      "start": 359.74,
+      "duration": 2.66
+    },
+    {
+      "text": "in the next few months.",
+      "start": 362.4,
+      "duration": 2.76
+    },
+    {
+      "text": "Please remember, Google\nPay validation and fraud",
+      "start": 365.16,
+      "duration": 3.54
+    },
+    {
+      "text": "checks are supplementary\nand should not",
+      "start": 368.7,
+      "duration": 3.15
+    },
+    {
+      "text": "replace your established\nrisk management procedures.",
+      "start": 371.85,
+      "duration": 4.14
+    },
+    {
+      "text": "We also keep\ndevelopers top of mind,",
+      "start": 375.99,
+      "duration": 2.26
+    },
+    {
+      "text": "ensuring a delightful\ndeveloper experience.",
+      "start": 378.25,
+      "duration": 4.73
+    },
+    {
+      "text": "Testing your payment\nflows with Google Pay",
+      "start": 382.98,
+      "duration": 2.25
+    },
+    {
+      "text": "is now easier with the latest\nupdates to the test card suite.",
+      "start": 385.23,
+      "duration": 6.18
+    },
+    {
+      "text": "See test cards for\nyour PSP of choice",
+      "start": 391.41,
+      "duration": 2.94
+    },
+    {
+      "text": "directly in the\npayment sheet when",
+      "start": 394.35,
+      "duration": 2.58
+    },
+    {
+      "text": "using the API in the\ntest environment.",
+      "start": 396.93,
+      "duration": 3.72
+    },
+    {
+      "text": "Use these cards to run manual\nor automated end-to-end tests",
+      "start": 400.65,
+      "duration": 4.59
+    },
+    {
+      "text": "and strengthen the quality\nof your payment stories.",
+      "start": 405.24,
+      "duration": 3.9
+    },
+    {
+      "text": "Updates include regular\nand tokenized test",
+      "start": 409.14,
+      "duration": 3.32
+    },
+    {
+      "text": "cards, debit cards,\nand test cards now",
+      "start": 412.46,
+      "duration": 4.08
+    },
+    {
+      "text": "appear directly in\nyour Google Pay sheet",
+      "start": 416.54,
+      "duration": 2.52
+    },
+    {
+      "text": "when using the test\npay environment.",
+      "start": 419.06,
+      "duration": 3.36
+    },
+    {
+      "text": "We have heard from you\nthat error handling",
+      "start": 422.42,
+      "duration": 2.13
+    },
+    {
+      "text": "is a critical part of your\napplication and checkout flows.",
+      "start": 424.55,
+      "duration": 4.35
+    },
+    {
+      "text": "Today, we are\nintroducing improvements",
+      "start": 428.9,
+      "duration": 3.12
+    },
+    {
+      "text": "to our APIs that make it easier\nto troubleshoot your Google Pay",
+      "start": 432.02,
+      "duration": 4.5
+    },
+    {
+      "text": "Integrations on\nAndroid, giving you",
+      "start": 436.52,
+      "duration": 3.48
+    },
+    {
+      "text": "timely and detailed information\nabout the build and runtime",
+      "start": 440.0,
+      "duration": 4.89
+    },
+    {
+      "text": "errors.",
+      "start": 444.89,
+      "duration": 1.89
+    },
+    {
+      "text": "Now you can fix your\nintegrations at dev time",
+      "start": 446.78,
+      "duration": 2.64
+    },
+    {
+      "text": "more quickly with fine-grained\nerror logs and react",
+      "start": 449.42,
+      "duration": 4.32
+    },
+    {
+      "text": "to unexpected scenarios at\nruntime with detailed exceptions",
+      "start": 453.74,
+      "duration": 4.62
+    },
+    {
+      "text": "and error codes.",
+      "start": 458.36,
+      "duration": 2.64
+    },
+    {
+      "text": "We recently published resources\ndesigned for web developers just",
+      "start": 461.0,
+      "duration": 4.47
+    },
+    {
+      "text": "starting out with\nthe Google Pay API.",
+      "start": 465.47,
+      "duration": 4.0
+    },
+    {
+      "text": "These resources work\ntogether, providing",
+      "start": 469.47,
+      "duration": 2.79
+    },
+    {
+      "text": "for a delightful\nonboarding experience.",
+      "start": 472.26,
+      "duration": 3.81
+    },
+    {
+      "text": "The Codelabs provides\nstep-by-step walkthroughs",
+      "start": 476.07,
+      "duration": 3.24
+    },
+    {
+      "text": "of a working implementation.",
+      "start": 479.31,
+      "duration": 2.82
+    },
+    {
+      "text": "The IDX templates provide\none-click development",
+      "start": 482.13,
+      "duration": 3.12
+    },
+    {
+      "text": "environments with\nready-to-run implementations.",
+      "start": 485.25,
+      "duration": 3.64
+    },
+    {
+      "text": "And third, the\nLearning Pathway is",
+      "start": 488.89,
+      "duration": 2.54
+    },
+    {
+      "text": "a guided tour of the API from\nconcept to implementation.",
+      "start": 491.43,
+      "duration": 5.37
+    },
+    {
+      "text": "This year, we plan to\nlaunch similar resources",
+      "start": 496.8,
+      "duration": 3.12
+    },
+    {
+      "text": "for native Android,\nFlutter, React.js, React",
+      "start": 499.92,
+      "duration": 3.96
+    },
+    {
+      "text": "Native, and Angular.",
+      "start": 503.88,
+      "duration": 3.03
+    },
+    {
+      "text": "You will find links to\nthese resources and more",
+      "start": 506.91,
+      "duration": 2.28
+    },
+    {
+      "text": "in the video's description.",
+      "start": 509.19,
+      "duration": 3.119
+    },
+    {
+      "text": "We know that your\nbusiness relies",
+      "start": 512.309,
+      "duration": 2.25
+    },
+    {
+      "text": "on continuous\navailability of our APIs.",
+      "start": 514.559,
+      "duration": 3.75
+    },
+    {
+      "text": "Last year, our services\nhad an uptime of 99.99%,",
+      "start": 518.309,
+      "duration": 5.521
+    },
+    {
+      "text": "and we are committed to\nhaving high availability.",
+      "start": 523.83,
+      "duration": 3.44
+    },
+    {
+      "text": "To pair with this, we want\nto announce the availability",
+      "start": 527.27,
+      "duration": 3.06
+    },
+    {
+      "text": "of our self-serve Google\nPay API Status Dashboard",
+      "start": 530.33,
+      "duration": 4.92
+    },
+    {
+      "text": "where you can find real-time\ninformation on the health",
+      "start": 535.25,
+      "duration": 3.03
+    },
+    {
+      "text": "of Google Pay API products.",
+      "start": 538.28,
+      "duration": 2.58
+    },
+    {
+      "text": "The dashboard monitors\nkey Google Pay APIs,",
+      "start": 540.86,
+      "duration": 3.1
+    },
+    {
+      "text": "including the CreateButton,\nthe IsReadyToPay API,",
+      "start": 543.96,
+      "duration": 4.08
+    },
+    {
+      "text": "and the LoadPaymentData API.",
+      "start": 548.04,
+      "duration": 3.05
+    },
+    {
+      "text": "You can stay abreast with\nincidents impacting availability",
+      "start": 551.09,
+      "duration": 3.39
+    },
+    {
+      "text": "of any of these key services and\nupdates through this dashboard.",
+      "start": 554.48,
+      "duration": 5.07
+    },
+    {
+      "text": "Beyond the website, you can\naccess the Status Dashboard also",
+      "start": 559.55,
+      "duration": 4.32
+    },
+    {
+      "text": "via the RSS feed and\nthe JSON history file,",
+      "start": 563.87,
+      "duration": 3.91
+    },
+    {
+      "text": "allowing for programmatic\nconsumption of the data.",
+      "start": 567.78,
+      "duration": 3.95
+    },
+    {
+      "text": "Remember, the Google\nPay API Status Dashboard",
+      "start": 571.73,
+      "duration": 3.12
+    },
+    {
+      "text": "is designed to be available\neven if the APIs themselves",
+      "start": 574.85,
+      "duration": 3.69
+    },
+    {
+      "text": "are experiencing an issue.",
+      "start": 578.54,
+      "duration": 3.39
+    },
+    {
+      "text": "EDSON YANAGA: Hello IO, I'm\nEdson Yanaga, a developer",
+      "start": 581.93,
+      "duration": 3.0
+    },
+    {
+      "text": "relations engineer\nfor Google Wallet,",
+      "start": 584.93,
+      "duration": 2.08
+    },
+    {
+      "text": "and I'm super excited to talk\nabout what we've been doing.",
+      "start": 587.01,
+      "duration": 3.53
+    },
+    {
+      "text": "Last year, we announced the\nGoogle Wallet global expansion.",
+      "start": 590.54,
+      "duration": 3.46
+    },
+    {
+      "text": "Since then, Google Wallet\nis available in more than 90",
+      "start": 594.0,
+      "duration": 3.32
+    },
+    {
+      "text": "countries and territories,\nwith dozens more coming soon.",
+      "start": 597.32,
+      "duration": 3.52
+    },
+    {
+      "text": "We've worked hard to make\nGoogle Wallet more robust, more",
+      "start": 600.84,
+      "duration": 3.38
+    },
+    {
+      "text": "flexible, and ultimately\nmore feature-rich for you.",
+      "start": 604.22,
+      "duration": 3.58
+    },
+    {
+      "text": "This means providing you\nwith enhanced features",
+      "start": 607.8,
+      "duration": 2.42
+    },
+    {
+      "text": "and documentations to build\ninnovative engagement strategies",
+      "start": 610.22,
+      "duration": 3.84
+    },
+    {
+      "text": "that not only simplify\ndaily transactions,",
+      "start": 614.06,
+      "duration": 2.74
+    },
+    {
+      "text": "but also foster a deeper\nconnection between Google",
+      "start": 616.8,
+      "duration": 2.72
+    },
+    {
+      "text": "Wallet and your users.",
+      "start": 619.52,
+      "duration": 1.99
+    },
+    {
+      "text": "Digital IDs in Google Wallet\nare available in US markets",
+      "start": 621.51,
+      "duration": 3.23
+    },
+    {
+      "text": "today and are built\nwith trust, ease of use,",
+      "start": 624.74,
+      "duration": 3.04
+    },
+    {
+      "text": "and interoperability\nas our top priorities.",
+      "start": 627.78,
+      "duration": 2.97
+    },
+    {
+      "text": "This is why we're working to\nbring more digital IDs to Google",
+      "start": 630.75,
+      "duration": 3.38
+    },
+    {
+      "text": "Wallet to support our\nusers across the globe.",
+      "start": 634.13,
+      "duration": 2.95
+    },
+    {
+      "text": "Today, we are live\nin six US states,",
+      "start": 637.08,
+      "duration": 3.15
+    },
+    {
+      "text": "with more states coming soon.",
+      "start": 640.23,
+      "duration": 2.09
+    },
+    {
+      "text": "If you have a US passport,\nand soon, a British passport,",
+      "start": 642.32,
+      "duration": 3.67
+    },
+    {
+      "text": "you can also create a\ndigital ID called an ID",
+      "start": 645.99,
+      "duration": 2.6
+    },
+    {
+      "text": "Pass with your passport and\nstore it in Google Wallet.",
+      "start": 648.59,
+      "duration": 4.59
+    },
+    {
+      "text": "British users will be able to\nuse their ID Pass for proving",
+      "start": 653.18,
+      "duration": 3.3
+    },
+    {
+      "text": "that they meet the eligibility\ncriteria for select railcards",
+      "start": 656.48,
+      "duration": 3.87
+    },
+    {
+      "text": "purchased through UK-based\nRail Delivery Group's",
+      "start": 660.35,
+      "duration": 3.15
+    },
+    {
+      "text": "railcard-retaining\nplatform, railcard.co.uk.",
+      "start": 663.5,
+      "duration": 3.9
+    },
+    {
+      "text": "To enable your users to\nleverage these digital IDs,",
+      "start": 667.4,
+      "duration": 3.19
+    },
+    {
+      "text": "Google worked together with\necosystem partners in the W3C",
+      "start": 670.59,
+      "duration": 3.86
+    },
+    {
+      "text": "and introduced our\nDigital Credentials API.",
+      "start": 674.45,
+      "duration": 3.13
+    },
+    {
+      "text": "This API can be used\nby a digital wallet",
+      "start": 677.58,
+      "duration": 2.45
+    },
+    {
+      "text": "and provides a unified\nand secure framework",
+      "start": 680.03,
+      "duration": 2.76
+    },
+    {
+      "text": "for apps and websites to\nrequest verifiable proof of age",
+      "start": 682.79,
+      "duration": 3.54
+    },
+    {
+      "text": "or identity directly from any\ndigital wallet in the user's",
+      "start": 686.33,
+      "duration": 4.05
+    },
+    {
+      "text": "device.",
+      "start": 690.38,
+      "duration": 2.19
+    },
+    {
+      "text": "The API was designed\nto be interoperable",
+      "start": 692.57,
+      "duration": 2.52
+    },
+    {
+      "text": "with multi-wallet\nsupport across devices",
+      "start": 695.09,
+      "duration": 2.64
+    },
+    {
+      "text": "and operating systems\nwith a single integration.",
+      "start": 697.73,
+      "duration": 4.94
+    },
+    {
+      "text": "This system prioritizes\nuser privacy",
+      "start": 702.67,
+      "duration": 2.7
+    },
+    {
+      "text": "through encrypted credentials,\nstandardized data formats",
+      "start": 705.37,
+      "duration": 3.33
+    },
+    {
+      "text": "for interoperability,\nand selective disclosure",
+      "start": 708.7,
+      "duration": 2.97
+    },
+    {
+      "text": "where only necessary attributes\nsuch as age above 18 are shared.",
+      "start": 711.67,
+      "duration": 5.37
+    },
+    {
+      "text": "The Digital\nCredentials API will be",
+      "start": 717.04,
+      "duration": 1.95
+    },
+    {
+      "text": "leveraged by developers for\nagent identity verification",
+      "start": 718.99,
+      "duration": 3.21
+    },
+    {
+      "text": "across a variety of use cases.",
+      "start": 722.2,
+      "duration": 2.55
+    },
+    {
+      "text": "Notably, Google has\ndeveloped our own innovative",
+      "start": 724.75,
+      "duration": 3.45
+    },
+    {
+      "text": "zero-knowledge proof technology\nthat allows for age verification",
+      "start": 728.2,
+      "duration": 3.78
+    },
+    {
+      "text": "without any possibility\nto link back",
+      "start": 731.98,
+      "duration": 1.98
+    },
+    {
+      "text": "to a user's personal identity.",
+      "start": 733.96,
+      "duration": 3.75
+    },
+    {
+      "text": "We will be open sourcing\nthe ZKP libraries",
+      "start": 737.71,
+      "duration": 2.97
+    },
+    {
+      "text": "to help make the\ninternet a safer",
+      "start": 740.68,
+      "duration": 1.86
+    },
+    {
+      "text": "place for kids and families.",
+      "start": 742.54,
+      "duration": 2.4
+    },
+    {
+      "text": "The API is available\nto your Android apps",
+      "start": 744.94,
+      "duration": 2.73
+    },
+    {
+      "text": "through the Credential\nManager Jetpack Library.",
+      "start": 747.67,
+      "duration": 2.59
+    },
+    {
+      "text": "It's also available on\nChrome on mobile web,",
+      "start": 750.26,
+      "duration": 2.55
+    },
+    {
+      "text": "and on desktop\nvia Origin Trials.",
+      "start": 752.81,
+      "duration": 3.17
+    },
+    {
+      "text": "And it will soon\nwork cross-device,",
+      "start": 755.98,
+      "duration": 2.2
+    },
+    {
+      "text": "providing a seamless\nexperience between Chrome",
+      "start": 758.18,
+      "duration": 2.18
+    },
+    {
+      "text": "on desktop and your\nAndroid device.",
+      "start": 760.36,
+      "duration": 2.67
+    },
+    {
+      "text": "To learn more about how to\nget started with the Digital",
+      "start": 763.03,
+      "duration": 2.63
+    },
+    {
+      "text": "Credentials API, please\nwatch the Chrome session",
+      "start": 765.66,
+      "duration": 2.91
+    },
+    {
+      "text": "on authentication and identity.",
+      "start": 768.57,
+      "duration": 3.42
+    },
+    {
+      "text": "Now, I'll let Kevin talk\nabout Wallet Passes.",
+      "start": 771.99,
+      "duration": 4.273
+    },
+    {
+      "text": "KEVIN MILLER: Thanks, Edson.",
+      "start": 776.263,
+      "duration": 1.167
+    },
+    {
+      "text": "I'm Kevin Miller,\na senior product",
+      "start": 777.43,
+      "duration": 1.55
+    },
+    {
+      "text": "manager for Google\nWallet, and we have",
+      "start": 778.98,
+      "duration": 1.74
+    },
+    {
+      "text": "a lot of things to talk about.",
+      "start": 780.72,
+      "duration": 1.75
+    },
+    {
+      "text": "First thing, we're very\nexcited to introduce",
+      "start": 782.47,
+      "duration": 2.39
+    },
+    {
+      "text": "Google Wallet support for kids.",
+      "start": 784.86,
+      "duration": 2.61
+    },
+    {
+      "text": "Parents and guardians\nin select countries",
+      "start": 787.47,
+      "duration": 1.98
+    },
+    {
+      "text": "can now give their\nkids the freedom",
+      "start": 789.45,
+      "duration": 1.95
+    },
+    {
+      "text": "to tap and pay in stores,\nplus keep supported passes",
+      "start": 791.4,
+      "duration": 3.45
+    },
+    {
+      "text": "like event tickets,\nlibrary cards,",
+      "start": 794.85,
+      "duration": 1.9
+    },
+    {
+      "text": "and gift cards all\nin one place right",
+      "start": 796.75,
+      "duration": 2.48
+    },
+    {
+      "text": "on their kids' Android devices.",
+      "start": 799.23,
+      "duration": 2.07
+    },
+    {
+      "text": "Safety is key, so parents have\ncontrols with Family Link.",
+      "start": 801.3,
+      "duration": 3.64
+    },
+    {
+      "text": "They will get notified by\nemail about every transaction",
+      "start": 804.94,
+      "duration": 2.69
+    },
+    {
+      "text": "and can easily track recent\npurchases, remove payment cards,",
+      "start": 807.63,
+      "duration": 3.6
+    },
+    {
+      "text": "and turn off Passes\naccess all in Family Link.",
+      "start": 811.23,
+      "duration": 3.66
+    },
+    {
+      "text": "Best of all, there are no\nchanges in the Google Wallet API",
+      "start": 814.89,
+      "duration": 2.97
+    },
+    {
+      "text": "to support this enhancement.",
+      "start": 817.86,
+      "duration": 2.86
+    },
+    {
+      "text": "Last year, we expanded\nmobile push notifications",
+      "start": 820.72,
+      "duration": 2.43
+    },
+    {
+      "text": "for the Google Wallet API,\nempowering you to deliver",
+      "start": 823.15,
+      "duration": 3.03
+    },
+    {
+      "text": "timely updates to your users.",
+      "start": 826.18,
+      "duration": 1.87
+    },
+    {
+      "text": "This year, we're taking\nit a step further",
+      "start": 828.05,
+      "duration": 1.94
+    },
+    {
+      "text": "with the introduction of\nField Update Notifications.",
+      "start": 829.99,
+      "duration": 3.4
+    },
+    {
+      "text": "Imagine being able to trigger\na push notification, not just",
+      "start": 833.39,
+      "duration": 3.11
+    },
+    {
+      "text": "on a general update,\nbut specifically",
+      "start": 836.5,
+      "duration": 1.83
+    },
+    {
+      "text": "when a particular field\nwithin a pass changes.",
+      "start": 838.33,
+      "duration": 2.59
+    },
+    {
+      "text": "For example, when a user's point\nbalance crosses a threshold",
+      "start": 840.92,
+      "duration": 3.38
+    },
+    {
+      "text": "or when their tier\nstatus is upgraded,",
+      "start": 844.3,
+      "duration": 1.93
+    },
+    {
+      "text": "a push notification\ncan be triggered,",
+      "start": 846.23,
+      "duration": 1.92
+    },
+    {
+      "text": "which will notify them that the\ndata on their pass has changed.",
+      "start": 848.15,
+      "duration": 3.92
+    },
+    {
+      "text": "This granularity allows\nfor a much more engaging",
+      "start": 852.07,
+      "duration": 2.7
+    },
+    {
+      "text": "and user-centric experience,\ndriving higher engagement",
+      "start": 854.77,
+      "duration": 3.12
+    },
+    {
+      "text": "and utility on the pass.",
+      "start": 857.89,
+      "duration": 2.79
+    },
+    {
+      "text": "Speaking of notifications,\nwe're really",
+      "start": 860.68,
+      "duration": 1.86
+    },
+    {
+      "text": "excited to announce that we\nwill support nearby Passes",
+      "start": 862.54,
+      "duration": 2.91
+    },
+    {
+      "text": "notifications for the\nGoogle Wallet API.",
+      "start": 865.45,
+      "duration": 3.03
+    },
+    {
+      "text": "If enabled by the\nuser, this feature",
+      "start": 868.48,
+      "duration": 1.8
+    },
+    {
+      "text": "is designed to provide timely\nand relevant information",
+      "start": 870.28,
+      "duration": 2.76
+    },
+    {
+      "text": "by alerting users about\npertinent passes such as loyalty",
+      "start": 873.04,
+      "duration": 3.24
+    },
+    {
+      "text": "cards, offers, boarding\npasses, or event tickets",
+      "start": 876.28,
+      "duration": 2.93
+    },
+    {
+      "text": "when they approach a\ndesignated point of interest.",
+      "start": 879.21,
+      "duration": 3.66
+    },
+    {
+      "text": "The Google Wallet app sends\na contextual notification",
+      "start": 882.87,
+      "duration": 2.88
+    },
+    {
+      "text": "when the user is near\na specific location.",
+      "start": 885.75,
+      "duration": 2.68
+    },
+    {
+      "text": "This notification serves\nas a direct gateway,",
+      "start": 888.43,
+      "duration": 2.82
+    },
+    {
+      "text": "allowing users to seamlessly\naccess the associated",
+      "start": 891.25,
+      "duration": 2.39
+    },
+    {
+      "text": "pass with a single tap.",
+      "start": 893.64,
+      "duration": 2.49
+    },
+    {
+      "text": "This direct access promotes\na more fluid and intuitive",
+      "start": 896.13,
+      "duration": 2.85
+    },
+    {
+      "text": "interaction with\nthe stored passes,",
+      "start": 898.98,
+      "duration": 2.08
+    },
+    {
+      "text": "encouraging users to leverage\nthe wallets capabilities more",
+      "start": 901.06,
+      "duration": 3.05
+    },
+    {
+      "text": "effectively.",
+      "start": 904.11,
+      "duration": 2.22
+    },
+    {
+      "text": "To ensure user control\nand flexibility,",
+      "start": 906.33,
+      "duration": 2.05
+    },
+    {
+      "text": "we've introduced two new\ntoggles to help users control",
+      "start": 908.38,
+      "duration": 2.75
+    },
+    {
+      "text": "their notifications experience.",
+      "start": 911.13,
+      "duration": 1.75
+    },
+    {
+      "text": "The first is on the\nPass Detail Screen",
+      "start": 912.88,
+      "duration": 2.36
+    },
+    {
+      "text": "that allows users to turn\non or off notifications",
+      "start": 915.24,
+      "duration": 2.97
+    },
+    {
+      "text": "from that specific pass.",
+      "start": 918.21,
+      "duration": 2.1
+    },
+    {
+      "text": "This applies to\nall notifications",
+      "start": 920.31,
+      "duration": 1.74
+    },
+    {
+      "text": "related to your pass, including\nfield updates and nearby passes",
+      "start": 922.05,
+      "duration": 3.69
+    },
+    {
+      "text": "notifications.",
+      "start": 925.74,
+      "duration": 1.41
+    },
+    {
+      "text": "The second is through the nearby\nPasses Notifications Channel",
+      "start": 927.15,
+      "duration": 3.18
+    },
+    {
+      "text": "that allows users to\ncontrol whether they receive",
+      "start": 930.33,
+      "duration": 2.34
+    },
+    {
+      "text": "nearby passes notifications.",
+      "start": 932.67,
+      "duration": 2.46
+    },
+    {
+      "text": "This empowers users to tailor\ntheir notification settings",
+      "start": 935.13,
+      "duration": 3.38
+    },
+    {
+      "text": "based on their specific\nneeds and preferences.",
+      "start": 938.51,
+      "duration": 4.14
+    },
+    {
+      "text": "Engaging users goes\nbeyond just notifications,",
+      "start": 942.65,
+      "duration": 2.89
+    },
+    {
+      "text": "and we recognize that you\nhave more value you want",
+      "start": 945.54,
+      "duration": 2.96
+    },
+    {
+      "text": "to make your users aware of.",
+      "start": 948.5,
+      "duration": 1.6
+    },
+    {
+      "text": "To address this, we're\nintroducing Value Added",
+      "start": 950.1,
+      "duration": 2.57
+    },
+    {
+      "text": "Opportunities, which\nis a significant step",
+      "start": 952.67,
+      "duration": 2.43
+    },
+    {
+      "text": "towards transforming passes\ninto a more dynamic engagement",
+      "start": 955.1,
+      "duration": 3.69
+    },
+    {
+      "text": "surface for you and your users.",
+      "start": 958.79,
+      "duration": 3.0
+    },
+    {
+      "text": "This feature empowers you to\nintegrate personalized modules",
+      "start": 961.79,
+      "duration": 3.54
+    },
+    {
+      "text": "directly into your passes,\nshowcasing relevant deals,",
+      "start": 965.33,
+      "duration": 3.25
+    },
+    {
+      "text": "promotions, and\nadditional services.",
+      "start": 968.58,
+      "duration": 2.93
+    },
+    {
+      "text": "By highlighting these\nvalue-added benefits,",
+      "start": 971.51,
+      "duration": 1.8
+    },
+    {
+      "text": "such as exclusive offers\nor upgrade options,",
+      "start": 973.31,
+      "duration": 2.98
+    },
+    {
+      "text": "you can guide users back\nto your app or website,",
+      "start": 976.29,
+      "duration": 2.94
+    },
+    {
+      "text": "creating a dynamic gateway\nfor ongoing user interaction.",
+      "start": 979.23,
+      "duration": 5.3
+    },
+    {
+      "text": "Users have saved\nmillions of passes",
+      "start": 984.53,
+      "duration": 1.83
+    },
+    {
+      "text": "by manually adding their\nloyalty cards to Google Wallet.",
+      "start": 986.36,
+      "duration": 2.98
+    },
+    {
+      "text": "These passes are unlinked\nfrom their merchant accounts,",
+      "start": 989.34,
+      "duration": 2.85
+    },
+    {
+      "text": "and as a developer, you\ncan't update or engage",
+      "start": 992.19,
+      "duration": 2.7
+    },
+    {
+      "text": "users on these passes.",
+      "start": 994.89,
+      "duration": 1.78
+    },
+    {
+      "text": "We've now introduced a\npass upgrade experience",
+      "start": 996.67,
+      "duration": 2.54
+    },
+    {
+      "text": "that prompts users to sign\ninto their merchant account",
+      "start": 999.21,
+      "duration": 2.79
+    },
+    {
+      "text": "and save a linked\nversion of the pass.",
+      "start": 1002.0,
+      "duration": 3.66
+    },
+    {
+      "text": "All you need to do is integrate\nwith the Wallet API's user",
+      "start": 1005.66,
+      "duration": 3.36
+    },
+    {
+      "text": "Loyalty Program\nEnrollment feature",
+      "start": 1009.02,
+      "duration": 1.99
+    },
+    {
+      "text": "and ensure that users can\nsave the linked pass once they",
+      "start": 1011.01,
+      "duration": 3.11
+    },
+    {
+      "text": "successfully sign in.",
+      "start": 1014.12,
+      "duration": 1.96
+    },
+    {
+      "text": "We'll be expanding on\nthis feature in the future",
+      "start": 1016.08,
+      "duration": 2.0
+    },
+    {
+      "text": "to enable users who have added\na pass using our Everything",
+      "start": 1018.08,
+      "duration": 3.18
+    },
+    {
+      "text": "Else feature to link to the\nmerchant account as well.",
+      "start": 1021.26,
+      "duration": 3.75
+    },
+    {
+      "text": "At last year's I/O, we announced\nAuto Linked Passes, allowing",
+      "start": 1025.01,
+      "duration": 2.97
+    },
+    {
+      "text": "you to add an additional\nrelated pass automatically",
+      "start": 1027.98,
+      "duration": 2.73
+    },
+    {
+      "text": "to your user's Google Wallet,\nprovided they already have",
+      "start": 1030.71,
+      "duration": 2.7
+    },
+    {
+      "text": "an existing pass issued by you.",
+      "start": 1033.41,
+      "duration": 2.08
+    },
+    {
+      "text": "Now, we're happy to\nannounce an expansion",
+      "start": 1035.49,
+      "duration": 2.24
+    },
+    {
+      "text": "of this feature for airlines.",
+      "start": 1037.73,
+      "duration": 1.75
+    },
+    {
+      "text": "Developers from\nairlines that integrate",
+      "start": 1039.48,
+      "duration": 1.82
+    },
+    {
+      "text": "loyalty cards for their\nfrequent flyer programs",
+      "start": 1041.3,
+      "duration": 2.22
+    },
+    {
+      "text": "with the Google Wallet\nAPI can automatically",
+      "start": 1043.52,
+      "duration": 2.28
+    },
+    {
+      "text": "push boarding passes\nto their users' wallets",
+      "start": 1045.8,
+      "duration": 2.4
+    },
+    {
+      "text": "once they check in for a flight.",
+      "start": 1048.2,
+      "duration": 1.698
+    },
+    {
+      "text": "That's another way\nthat Google Wallet",
+      "start": 1049.898,
+      "duration": 1.542
+    },
+    {
+      "text": "is making your user's\ntravel journey even better.",
+      "start": 1051.44,
+      "duration": 3.35
+    },
+    {
+      "text": "Google Wallet users already\nbenefit from streamlined travel",
+      "start": 1054.79,
+      "duration": 2.97
+    },
+    {
+      "text": "on open-loop EMV transit systems\nusing tokenized payment methods",
+      "start": 1057.76,
+      "duration": 3.87
+    },
+    {
+      "text": "for seamless fare transactions.",
+      "start": 1061.63,
+      "duration": 2.02
+    },
+    {
+      "text": "Our Google Transit\nInsight solution",
+      "start": 1063.65,
+      "duration": 1.88
+    },
+    {
+      "text": "further enhances this\nexperience by providing riders",
+      "start": 1065.53,
+      "duration": 3.06
+    },
+    {
+      "text": "with detailed journey and\nfare construction details.",
+      "start": 1068.59,
+      "duration": 3.21
+    },
+    {
+      "text": "The tokenized\nopen-loop payment card",
+      "start": 1071.8,
+      "duration": 1.8
+    },
+    {
+      "text": "acts as a bridge between user\npayments and transit systems,",
+      "start": 1073.6,
+      "duration": 3.82
+    },
+    {
+      "text": "facilitating this communication.",
+      "start": 1077.42,
+      "duration": 2.9
+    },
+    {
+      "text": "Building on this\nfoundation, we're",
+      "start": 1080.32,
+      "duration": 1.56
+    },
+    {
+      "text": "excited to announce the upcoming\nexpansion of Google Transit",
+      "start": 1081.88,
+      "duration": 2.82
+    },
+    {
+      "text": "Insights to support specific\npass types sales such as season",
+      "start": 1084.7,
+      "duration": 4.77
+    },
+    {
+      "text": "passes directly\nlinked to the user's",
+      "start": 1089.47,
+      "duration": 2.25
+    },
+    {
+      "text": "tokenized open-loop\npayment card.",
+      "start": 1091.72,
+      "duration": 2.7
+    },
+    {
+      "text": "With this new\ncapability, developers",
+      "start": 1094.42,
+      "duration": 1.71
+    },
+    {
+      "text": "will soon be able to leverage\nthe Google transit API",
+      "start": 1096.13,
+      "duration": 2.97
+    },
+    {
+      "text": "to implement seamless pass\npurchasing and management,",
+      "start": 1099.1,
+      "duration": 3.34
+    },
+    {
+      "text": "eliminating the need for\nseparate transit cards.",
+      "start": 1102.44,
+      "duration": 3.89
+    },
+    {
+      "text": "Users of Google Wallet will\nnow see real-time transit pass",
+      "start": 1106.33,
+      "duration": 2.97
+    },
+    {
+      "text": "updates, such as on-time\nor delayed train status,",
+      "start": 1109.3,
+      "duration": 2.75
+    },
+    {
+      "text": "directly on their passes.",
+      "start": 1112.05,
+      "duration": 2.49
+    },
+    {
+      "text": "This enhanced\nexperience is powered",
+      "start": 1114.54,
+      "duration": 1.53
+    },
+    {
+      "text": "by the Google Wallet\nAPI's new Live Status",
+      "start": 1116.07,
+      "duration": 3.03
+    },
+    {
+      "text": "Support and a seamless\nintegration with Google Maps.",
+      "start": 1119.1,
+      "duration": 3.715
+    },
+    {
+      "text": "Train operators can\nenable this feature",
+      "start": 1122.815,
+      "duration": 1.625
+    },
+    {
+      "text": "by ensuring their tickets\ncontain the required fields",
+      "start": 1124.44,
+      "duration": 2.88
+    },
+    {
+      "text": "and providing a\nreal time GTFS feed,",
+      "start": 1127.32,
+      "duration": 2.71
+    },
+    {
+      "text": "making it accessible to\nmajor operators worldwide.",
+      "start": 1130.03,
+      "duration": 4.73
+    },
+    {
+      "text": "For some use cases,\nit's important for you",
+      "start": 1134.76,
+      "duration": 1.86
+    },
+    {
+      "text": "to create a pass that includes a\nprofile photo of the user you're",
+      "start": 1136.62,
+      "duration": 3.09
+    },
+    {
+      "text": "distributing the pass to.",
+      "start": 1139.71,
+      "duration": 1.63
+    },
+    {
+      "text": "To achieve this, we're enabling\nsecure private images on passes.",
+      "start": 1141.34,
+      "duration": 3.87
+    },
+    {
+      "text": "With this feature,\nyou're able to define",
+      "start": 1145.21,
+      "duration": 2.0
+    },
+    {
+      "text": "passes that include\nimages that are only",
+      "start": 1147.21,
+      "duration": 2.16
+    },
+    {
+      "text": "accessible to the\nholder of the pass.",
+      "start": 1149.37,
+      "duration": 1.96
+    },
+    {
+      "text": "For example, this allows you to\ncreate digital business cards,",
+      "start": 1151.33,
+      "duration": 3.51
+    },
+    {
+      "text": "membership passes,\nor event tickets",
+      "start": 1154.84,
+      "duration": 1.94
+    },
+    {
+      "text": "with the user\nprofile image on it.",
+      "start": 1156.78,
+      "duration": 3.102
+    },
+    {
+      "text": "Please note that\nthis feature can't",
+      "start": 1159.882,
+      "duration": 1.458
+    },
+    {
+      "text": "be used for official\nidentity verification.",
+      "start": 1161.34,
+      "duration": 4.2
+    },
+    {
+      "text": "Join the Developer\nAdvisory Council",
+      "start": 1165.54,
+      "duration": 1.92
+    },
+    {
+      "text": "and shape the future of Google\nPay and Google Wallet APIs.",
+      "start": 1167.46,
+      "duration": 3.88
+    },
+    {
+      "text": "Members may provide feedback\nto influence API design,",
+      "start": 1171.34,
+      "duration": 3.61
+    },
+    {
+      "text": "engage with the Google Pay\nand Google Wallet teams,",
+      "start": 1174.95,
+      "duration": 2.64
+    },
+    {
+      "text": "and participate in\nexclusive events.",
+      "start": 1177.59,
+      "duration": 2.78
+    },
+    {
+      "text": "Find a link to a\nmembership interest form",
+      "start": 1180.37,
+      "duration": 2.07
+    },
+    {
+      "text": "in the video's description.",
+      "start": 1182.44,
+      "duration": 2.4
+    },
+    {
+      "text": "What a fantastic year it's\nbeen for Google Pay and Google",
+      "start": 1184.84,
+      "duration": 2.55
+    },
+    {
+      "text": "Wallet.",
+      "start": 1187.39,
+      "duration": 0.52
+    },
+    {
+      "text": "We've seen incredible progress\nacross both platforms delivering",
+      "start": 1187.91,
+      "duration": 3.11
+    },
+    {
+      "text": "real value to\ndevelopers and users,",
+      "start": 1191.02,
+      "duration": 2.41
+    },
+    {
+      "text": "and we're just getting started.",
+      "start": 1193.43,
+      "duration": 1.94
+    },
+    {
+      "text": "We truly hope that\nno matter what you're",
+      "start": 1195.37,
+      "duration": 2.16
+    },
+    {
+      "text": "building, from the\ncore of payments",
+      "start": 1197.53,
+      "duration": 2.04
+    },
+    {
+      "text": "to the latest in digital\nIDs, engaging retail sites",
+      "start": 1199.57,
+      "duration": 3.18
+    },
+    {
+      "text": "to rewarding loyalty\nprograms, you've",
+      "start": 1202.75,
+      "duration": 2.19
+    },
+    {
+      "text": "discovered something\ninspiring today.",
+      "start": 1204.94,
+      "duration": 2.08
+    },
+    {
+      "text": "We can't wait to see the amazing\nthings you'll build and innovate",
+      "start": 1207.02,
+      "duration": 3.05
+    },
+    {
+      "text": "with the Google Pay\nand Google Wallet APIs.",
+      "start": 1210.07,
+      "duration": 2.95
+    },
+    {
+      "text": "Have a wonderful.",
+      "start": 1213.02,
+      "duration": 0.78
+    },
+    {
+      "text": "Google I/O, everyone.",
+      "start": 1213.8,
+      "duration": 1.2
+    },
+    {
+      "text": "Thank you so much\nfor watching us.",
+      "start": 1215.0,
+      "duration": 1.88
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1216.88,
+      "duration": 3.65
+    }
+  ]
+}

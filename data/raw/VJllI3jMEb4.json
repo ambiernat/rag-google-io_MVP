@@ -1,0 +1,5192 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "VJllI3jMEb4",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.988
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 4.98,
+      "duration": 1.88
+    },
+    {
+      "text": "MIRA LANE: Hi, everyone.",
+      "start": 6.86,
+      "duration": 1.0
+    },
+    {
+      "text": "My name is Mira Lane, and I'm\nthe VP in Tech and Society",
+      "start": 7.86,
+      "duration": 3.2
+    },
+    {
+      "text": "here at Google.",
+      "start": 11.06,
+      "duration": 1.09
+    },
+    {
+      "text": "And today, we have the pleasure\nof having Demis Hassabis, CEO",
+      "start": 12.15,
+      "duration": 5.09
+    },
+    {
+      "text": "and Nobel Prize\nwinner, and Darren",
+      "start": 17.24,
+      "duration": 2.25
+    },
+    {
+      "text": "Aronofsky, cinematic\npioneer joining us",
+      "start": 19.49,
+      "duration": 3.0
+    },
+    {
+      "text": "for an amazing conversation.",
+      "start": 22.49,
+      "duration": 2.11
+    },
+    {
+      "text": "Darren and Demis, come on stage.",
+      "start": 24.6,
+      "duration": 2.4
+    },
+    {
+      "text": "[APPLAUSE, CHEERS]",
+      "start": 27.0,
+      "duration": 2.886
+    },
+    {
+      "text": "MIRA LANE: All right.",
+      "start": 33.77,
+      "duration": 0.875
+    },
+    {
+      "text": "Hello.",
+      "start": 37.31,
+      "duration": 0.84
+    },
+    {
+      "text": "DARREN ARONOFSKY: Hi.",
+      "start": 38.15,
+      "duration": 0.49
+    },
+    {
+      "text": "DEMIS HASSABIS: Hi.",
+      "start": 38.64,
+      "duration": 0.792
+    },
+    {
+      "text": "MIRA LANE: OK, so\nlet's get started.",
+      "start": 39.432,
+      "duration": 1.788
+    },
+    {
+      "text": "The two of you apparently\nmet 30 years ago.",
+      "start": 41.22,
+      "duration": 2.892
+    },
+    {
+      "text": "DARREN ARONOFSKY: Yeah, yeah.",
+      "start": 44.112,
+      "duration": 1.208
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 45.32,
+      "duration": 0.667
+    },
+    {
+      "text": "Do you remember that?",
+      "start": 45.987,
+      "duration": 1.793
+    },
+    {
+      "text": "DARREN ARONOFSKY: Well, he\nremembers it better than me.",
+      "start": 47.78,
+      "duration": 3.12
+    },
+    {
+      "text": "I had just finished \"Pi.\"",
+      "start": 50.9,
+      "duration": 2.22
+    },
+    {
+      "text": "We actually haven't\nquite figured out how.",
+      "start": 53.12,
+      "duration": 2.858
+    },
+    {
+      "text": "There's no evidence of it\nout there in the world,",
+      "start": 55.978,
+      "duration": 2.042
+    },
+    {
+      "text": "but he has a good memory of it.",
+      "start": 58.02,
+      "duration": 1.46
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, I think\nwe were trying to work out",
+      "start": 59.48,
+      "duration": 2.333
+    },
+    {
+      "text": "backstage that we first met 30\nyears ago, early in our careers,",
+      "start": 61.813,
+      "duration": 4.537
+    },
+    {
+      "text": "and we were on some\npanel at a London event",
+      "start": 66.35,
+      "duration": 3.35
+    },
+    {
+      "text": "with Neal Stephenson, as\nwell, who was our hero",
+      "start": 69.7,
+      "duration": 2.16
+    },
+    {
+      "text": "at the time of science fiction.",
+      "start": 71.86,
+      "duration": 1.915
+    },
+    {
+      "text": "It was a pretty cool panel,\nbut maybe we hallucinated it.",
+      "start": 73.775,
+      "duration": 2.375
+    },
+    {
+      "text": "DARREN ARONOFSKY: First\nfilm video game maker",
+      "start": 76.15,
+      "duration": 1.92
+    },
+    {
+      "text": "and legendary sci-fi writer.",
+      "start": 78.07,
+      "duration": 2.53
+    },
+    {
+      "text": "And then--",
+      "start": 80.6,
+      "duration": 0.56
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, and we\nthink it was called \"The Future",
+      "start": 81.16,
+      "duration": 1.62
+    },
+    {
+      "text": "of Storytelling.\"",
+      "start": 82.78,
+      "duration": 0.91
+    },
+    {
+      "text": "So in a way, this is a nice full\ncircle here, being here today.",
+      "start": 83.69,
+      "duration": 4.228
+    },
+    {
+      "text": "MIRA LANE: Well, you know what?",
+      "start": 87.918,
+      "duration": 1.292
+    },
+    {
+      "text": "I looked it up, and\nI couldn't find it.",
+      "start": 89.21,
+      "duration": 1.65
+    },
+    {
+      "text": "And then I went\nand asked Gemini.",
+      "start": 90.86,
+      "duration": 1.65
+    },
+    {
+      "text": "DARREN ARONOFSKY: Oh.",
+      "start": 92.51,
+      "duration": 0.875
+    },
+    {
+      "text": "MIRA LANE: And Gemini\nsaid, yes, there",
+      "start": 93.385,
+      "duration": 1.935
+    },
+    {
+      "text": "is evidence of you being on a\npanel in 1999, 26 years ago,",
+      "start": 95.32,
+      "duration": 4.77
+    },
+    {
+      "text": "discussing the future\nof storytelling.",
+      "start": 100.09,
+      "duration": 2.41
+    },
+    {
+      "text": "At the time, the\nemerging technologies",
+      "start": 102.5,
+      "duration": 1.97
+    },
+    {
+      "text": "were the internet, CD-ROMs,\ninteractive media like Flash,",
+      "start": 104.47,
+      "duration": 4.9
+    },
+    {
+      "text": "and early forms of\ninteractive video games.",
+      "start": 109.37,
+      "duration": 3.45
+    },
+    {
+      "text": "And so now we're talking\nabout AI 26 years ago.",
+      "start": 112.82,
+      "duration": 2.308
+    },
+    {
+      "text": "DEMIS HASSABIS: That\ndates us a little bit.",
+      "start": 115.128,
+      "duration": 1.792
+    },
+    {
+      "text": "DARREN ARONOFSKY: The utmost\nexpert in CD-ROMs, everybody.",
+      "start": 116.92,
+      "duration": 2.417
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 119.337,
+      "duration": 1.153
+    },
+    {
+      "text": "MIRA LANE: Maybe a few things\nhave happened since then.",
+      "start": 120.49,
+      "duration": 2.38
+    },
+    {
+      "text": "All right, so let's get started.",
+      "start": 122.87,
+      "duration": 1.572
+    },
+    {
+      "text": "Darren, you want to talk\nto us about Primordial",
+      "start": 124.442,
+      "duration": 1.958
+    },
+    {
+      "text": "Soup and the\nstrategic partnership",
+      "start": 126.4,
+      "duration": 1.68
+    },
+    {
+      "text": "you have going on\nwith Google DeepMind?",
+      "start": 128.08,
+      "duration": 1.8
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nWell, when I first",
+      "start": 129.88,
+      "duration": 1.5
+    },
+    {
+      "text": "started seeing some of\nthe stuff coming out",
+      "start": 131.38,
+      "duration": 2.34
+    },
+    {
+      "text": "of the generative models\na couple of years ago,",
+      "start": 133.72,
+      "duration": 2.71
+    },
+    {
+      "text": "I was really kind of\nstunned, excited, inspired,",
+      "start": 136.43,
+      "duration": 4.77
+    },
+    {
+      "text": "and I just started\nto mess around.",
+      "start": 141.2,
+      "duration": 2.18
+    },
+    {
+      "text": "And I knew that\nit was definitely",
+      "start": 143.38,
+      "duration": 2.97
+    },
+    {
+      "text": "going to impact storytelling.",
+      "start": 146.35,
+      "duration": 2.08
+    },
+    {
+      "text": "I didn't know exactly how\nlong or how it would happen,",
+      "start": 148.43,
+      "duration": 3.06
+    },
+    {
+      "text": "but I definitely\nwanted to get involved.",
+      "start": 151.49,
+      "duration": 2.19
+    },
+    {
+      "text": "So I started talking\nto a lot of people",
+      "start": 153.68,
+      "duration": 3.02
+    },
+    {
+      "text": "everywhere in the\nbusiness, and I hit Google.",
+      "start": 156.7,
+      "duration": 5.23
+    },
+    {
+      "text": "DeepMind was definitely\nan early interest",
+      "start": 161.93,
+      "duration": 2.24
+    },
+    {
+      "text": "because I like the\nleadership of Demis",
+      "start": 164.17,
+      "duration": 2.73
+    },
+    {
+      "text": "and how it's always\npointing towards human use",
+      "start": 166.9,
+      "duration": 3.63
+    },
+    {
+      "text": "and human benefit,\nis what I feel like.",
+      "start": 170.53,
+      "duration": 3.57
+    },
+    {
+      "text": "And I think storytelling\nis of the same nature.",
+      "start": 174.1,
+      "duration": 2.52
+    },
+    {
+      "text": "It's this incredible human art.",
+      "start": 176.62,
+      "duration": 1.71
+    },
+    {
+      "text": "It might be bigger than art.",
+      "start": 178.33,
+      "duration": 1.71
+    },
+    {
+      "text": "It's something that\ndefines us as a species.",
+      "start": 180.04,
+      "duration": 2.125
+    },
+    {
+      "text": "MIRA LANE: Yep.",
+      "start": 182.165,
+      "duration": 0.625
+    },
+    {
+      "text": "DARREN ARONOFSKY: And\nthere's so many things",
+      "start": 182.79,
+      "duration": 2.82
+    },
+    {
+      "text": "threatening it for our\nattention that I just",
+      "start": 185.61,
+      "duration": 2.94
+    },
+    {
+      "text": "wanted to make sure\nthat storytellers stayed",
+      "start": 188.55,
+      "duration": 1.86
+    },
+    {
+      "text": "on the front line\nof storytelling",
+      "start": 190.41,
+      "duration": 2.37
+    },
+    {
+      "text": "with these new\ntechnologies and new tools.",
+      "start": 192.78,
+      "duration": 2.02
+    },
+    {
+      "text": "MIRA LANE: And why did you\ncall it Primordial Soup?",
+      "start": 194.8,
+      "duration": 2.57
+    },
+    {
+      "text": "DARREN ARONOFSKY: Because\nit kind of felt like that.",
+      "start": 197.37,
+      "duration": 2.167
+    },
+    {
+      "text": "It's like the whole\nstability, nature of it,",
+      "start": 199.537,
+      "duration": 3.773
+    },
+    {
+      "text": "and how it was emerging.",
+      "start": 203.31,
+      "duration": 1.48
+    },
+    {
+      "text": "Things were just sort of\ncoming out of nothing.",
+      "start": 204.79,
+      "duration": 2.34
+    },
+    {
+      "text": "My partner, Ari Handel, named it\nthat, and it just sort of stuck.",
+      "start": 207.13,
+      "duration": 3.81
+    },
+    {
+      "text": "My other company\nis called Protozoa,",
+      "start": 210.94,
+      "duration": 1.5
+    },
+    {
+      "text": "so I'm into the early life forms\nand the science fact stuff.",
+      "start": 212.44,
+      "duration": 6.29
+    },
+    {
+      "text": "So our motto, kind of not\nseriously, is, \"Make soup,",
+      "start": 218.73,
+      "duration": 5.11
+    },
+    {
+      "text": "not slop.\"",
+      "start": 223.84,
+      "duration": 1.46
+    },
+    {
+      "text": "Because it feels like there's\na lot of slop coming out,",
+      "start": 225.3,
+      "duration": 2.76
+    },
+    {
+      "text": "and it's really\ngrabbing our attention.",
+      "start": 228.06,
+      "duration": 3.502
+    },
+    {
+      "text": "But we all have seen these\nimages, but how many have",
+      "start": 231.562,
+      "duration": 3.968
+    },
+    {
+      "text": "actually stuck in our head?",
+      "start": 235.53,
+      "duration": 1.69
+    },
+    {
+      "text": "You're like, whoa,\nthat's super cool,",
+      "start": 237.22,
+      "duration": 1.557
+    },
+    {
+      "text": "and then you kind of\nforget you ever saw it.",
+      "start": 238.777,
+      "duration": 1.833
+    },
+    {
+      "text": "And I think what's missing from\nit is emotional content, which",
+      "start": 240.61,
+      "duration": 3.2
+    },
+    {
+      "text": "is storytelling over time.",
+      "start": 243.81,
+      "duration": 1.96
+    },
+    {
+      "text": "And so I was like, OK,\nhow do we take this slop",
+      "start": 245.77,
+      "duration": 3.05
+    },
+    {
+      "text": "and figure out how to\nshape it and really empower",
+      "start": 248.82,
+      "duration": 3.51
+    },
+    {
+      "text": "storytellers to tell stories\nthat we haven't told before?",
+      "start": 252.33,
+      "duration": 2.548
+    },
+    {
+      "text": "MIRA LANE: And you're\ngoing to be telling stories",
+      "start": 254.878,
+      "duration": 2.042
+    },
+    {
+      "text": "through three films.",
+      "start": 256.92,
+      "duration": 1.21
+    },
+    {
+      "text": "DARREN ARONOFSKY: Yeah.",
+      "start": 258.13,
+      "duration": 0.17
+    },
+    {
+      "text": "MIRA LANE: You share a little\nbit about that and the emerging",
+      "start": 258.3,
+      "duration": 1.8
+    },
+    {
+      "text": "filmmakers you're going\nto be working with?",
+      "start": 260.1,
+      "duration": 1.792
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nYeah, well, I'm",
+      "start": 261.892,
+      "duration": 1.448
+    },
+    {
+      "text": "interested in very veteran\nstorytellers and artists who",
+      "start": 263.34,
+      "duration": 6.06
+    },
+    {
+      "text": "have been playing around and\nhave successful names, careers,",
+      "start": 269.4,
+      "duration": 5.13
+    },
+    {
+      "text": "and worlds, and trying to\nmake sure that the tools",
+      "start": 274.53,
+      "duration": 2.785
+    },
+    {
+      "text": "that are available to them.",
+      "start": 277.315,
+      "duration": 1.125
+    },
+    {
+      "text": "So Demis has sort opened\nup a lot of his team",
+      "start": 278.44,
+      "duration": 4.19
+    },
+    {
+      "text": "to work with us to be\nlike, this is what we need.",
+      "start": 282.63,
+      "duration": 2.92
+    },
+    {
+      "text": "This is how we're\ngoing to tell stories.",
+      "start": 285.55,
+      "duration": 1.83
+    },
+    {
+      "text": "And he's able to push his teams\nto try to help us in that way.",
+      "start": 287.38,
+      "duration": 3.87
+    },
+    {
+      "text": "But I'm also interested\nin the AI-native kids.",
+      "start": 291.25,
+      "duration": 3.673
+    },
+    {
+      "text": "Because I would have been one of\nthose kids if I was making \"Pi\"",
+      "start": 294.923,
+      "duration": 2.667
+    },
+    {
+      "text": "today.",
+      "start": 297.59,
+      "duration": 0.58
+    },
+    {
+      "text": "And I was in my 20s, it would\nbe me and five friends in a room",
+      "start": 298.17,
+      "duration": 3.47
+    },
+    {
+      "text": "just sort of jamming, just\ntrying to figure out how to turn",
+      "start": 301.64,
+      "duration": 2.85
+    },
+    {
+      "text": "this into a story.",
+      "start": 304.49,
+      "duration": 1.28
+    },
+    {
+      "text": "But I could have used\nthe help of storytelling,",
+      "start": 305.77,
+      "duration": 2.85
+    },
+    {
+      "text": "like how to actually shape\nemotion and character.",
+      "start": 308.62,
+      "duration": 3.62
+    },
+    {
+      "text": "So kind of both ends and\nthen meet in the middle.",
+      "start": 312.24,
+      "duration": 3.24
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 315.48,
+      "duration": 0.74
+    },
+    {
+      "text": "And Demis, you are one of those\nauthentic leaders that really",
+      "start": 316.22,
+      "duration": 3.96
+    },
+    {
+      "text": "believes in the arts and\ncollaborating with artists,",
+      "start": 320.18,
+      "duration": 3.52
+    },
+    {
+      "text": "musicians, filmmakers.",
+      "start": 323.7,
+      "duration": 1.98
+    },
+    {
+      "text": "What does this\nexperience mean to you.",
+      "start": 325.68,
+      "duration": 1.74
+    },
+    {
+      "text": "Why is it important\nfor Google DeepMind?",
+      "start": 327.42,
+      "duration": 1.775
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, I\nthink it's really critical.",
+      "start": 329.195,
+      "duration": 2.125
+    },
+    {
+      "text": "And well, first of all, I wanted\nto collaborate with Darren",
+      "start": 331.32,
+      "duration": 2.78
+    },
+    {
+      "text": "on something for 30 years.",
+      "start": 334.1,
+      "duration": 1.433
+    },
+    {
+      "text": "So this is our chance.",
+      "start": 335.533,
+      "duration": 0.917
+    },
+    {
+      "text": "DARREN ARONOFSKY: A video game.",
+      "start": 336.45,
+      "duration": 1.292
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, maybe\na video game at some point.",
+      "start": 337.742,
+      "duration": 3.224
+    },
+    {
+      "text": "But it's important for the whole\nprocess of what we're building,",
+      "start": 340.966,
+      "duration": 3.424
+    },
+    {
+      "text": "I think, here at Google and\nat DeepMind, which-- we're",
+      "start": 344.39,
+      "duration": 3.03
+    },
+    {
+      "text": "trying to create these tools.",
+      "start": 347.42,
+      "duration": 1.38
+    },
+    {
+      "text": "And they're amazing.",
+      "start": 348.8,
+      "duration": 1.24
+    },
+    {
+      "text": "And we want them to empower\nthe creative process",
+      "start": 350.04,
+      "duration": 2.81
+    },
+    {
+      "text": "and help artists with\ntheir creative process.",
+      "start": 352.85,
+      "duration": 4.24
+    },
+    {
+      "text": "And what better\nway of doing that?",
+      "start": 357.09,
+      "duration": 1.478
+    },
+    {
+      "text": "You can't really do\nthat in isolation",
+      "start": 358.568,
+      "duration": 1.542
+    },
+    {
+      "text": "just with the technology.",
+      "start": 360.11,
+      "duration": 1.33
+    },
+    {
+      "text": "We're building that.",
+      "start": 361.44,
+      "duration": 1.29
+    },
+    {
+      "text": "But we need input from\nthe creative community.",
+      "start": 362.73,
+      "duration": 2.94
+    },
+    {
+      "text": "And what better way to\ndo that than collaborate",
+      "start": 365.67,
+      "duration": 2.3
+    },
+    {
+      "text": "with some of the top\nartists, filmmakers,",
+      "start": 367.97,
+      "duration": 2.98
+    },
+    {
+      "text": "musicians in the\nworld like Darren,",
+      "start": 370.95,
+      "duration": 3.42
+    },
+    {
+      "text": "who are also forward-thinking?",
+      "start": 374.37,
+      "duration": 1.56
+    },
+    {
+      "text": "I think, always embracing\nthe possibilities",
+      "start": 375.93,
+      "duration": 2.21
+    },
+    {
+      "text": "and the opportunities\nof technology.",
+      "start": 378.14,
+      "duration": 1.54
+    },
+    {
+      "text": "It's coming.",
+      "start": 379.68,
+      "duration": 1.2
+    },
+    {
+      "text": "The change is coming.",
+      "start": 380.88,
+      "duration": 1.2
+    },
+    {
+      "text": "It's sort of inevitable,\nbut we can shape it.",
+      "start": 382.08,
+      "duration": 2.22
+    },
+    {
+      "text": "And I really\nbelieve, and I think",
+      "start": 384.3,
+      "duration": 1.49
+    },
+    {
+      "text": "we're both on the same page\nwith this, of shaping it",
+      "start": 385.79,
+      "duration": 2.52
+    },
+    {
+      "text": "in a positive direction.",
+      "start": 388.31,
+      "duration": 1.77
+    },
+    {
+      "text": "How can it help\nwith storytelling,",
+      "start": 390.08,
+      "duration": 1.99
+    },
+    {
+      "text": "give these creative tools\nand the things they create",
+      "start": 392.07,
+      "duration": 3.98
+    },
+    {
+      "text": "some kind of soul, in a way?",
+      "start": 396.05,
+      "duration": 1.87
+    },
+    {
+      "text": "I think that's where the\nhuman creativity comes in.",
+      "start": 397.92,
+      "duration": 3.87
+    },
+    {
+      "text": "And then these are just even\nbetter tools than we had before.",
+      "start": 401.79,
+      "duration": 3.0
+    },
+    {
+      "text": "That's how I see it.",
+      "start": 404.79,
+      "duration": 1.53
+    },
+    {
+      "text": "And even the name we\ncalled our tool, Flow,",
+      "start": 406.32,
+      "duration": 2.34
+    },
+    {
+      "text": "I think it's to do with that.",
+      "start": 408.66,
+      "duration": 1.22
+    },
+    {
+      "text": "I love that name, because we've\nall experienced being in flow,",
+      "start": 409.88,
+      "duration": 3.78
+    },
+    {
+      "text": "whether you're doing technical\ncreative work or artistic work.",
+      "start": 413.66,
+      "duration": 3.87
+    },
+    {
+      "text": "It's the same kind of flow\nstate that we all know and love.",
+      "start": 417.53,
+      "duration": 2.94
+    },
+    {
+      "text": "And I love these tools to\nhelp us, in that flow state,",
+      "start": 420.47,
+      "duration": 4.05
+    },
+    {
+      "text": "produce more.",
+      "start": 424.52,
+      "duration": 0.96
+    },
+    {
+      "text": "And I think they can.",
+      "start": 425.48,
+      "duration": 1.62
+    },
+    {
+      "text": "And I think these early\nexperiments are part of that.",
+      "start": 427.1,
+      "duration": 3.99
+    },
+    {
+      "text": "The technology is\ndeveloping fast.",
+      "start": 431.09,
+      "duration": 1.86
+    },
+    {
+      "text": "But we also need to\nunderstand, what do artists",
+      "start": 432.95,
+      "duration": 2.21
+    },
+    {
+      "text": "want from these tools?",
+      "start": 435.16,
+      "duration": 1.17
+    },
+    {
+      "text": "Down to the technical\nlevel, like camera controls",
+      "start": 436.33,
+      "duration": 3.51
+    },
+    {
+      "text": "and other things--",
+      "start": 439.84,
+      "duration": 1.26
+    },
+    {
+      "text": "what would be useful?",
+      "start": 441.1,
+      "duration": 1.18
+    },
+    {
+      "text": "And we need to understand that\nfrom the professionals working",
+      "start": 442.28,
+      "duration": 3.29
+    },
+    {
+      "text": "in the industry and do that\nvery much as a collaboration.",
+      "start": 445.57,
+      "duration": 3.37
+    },
+    {
+      "text": "And I'm a huge believer in that.",
+      "start": 448.94,
+      "duration": 2.06
+    },
+    {
+      "text": "The technology is going\nto impact everything.",
+      "start": 451.0,
+      "duration": 2.44
+    },
+    {
+      "text": "We need to have wider\ninputs into that, not just",
+      "start": 453.44,
+      "duration": 2.78
+    },
+    {
+      "text": "the technologists.",
+      "start": 456.22,
+      "duration": 1.0
+    },
+    {
+      "text": "MIRA LANE: Right.",
+      "start": 457.22,
+      "duration": 1.37
+    },
+    {
+      "text": "Technological development is\ninherently creative, as well.",
+      "start": 458.59,
+      "duration": 3.165
+    },
+    {
+      "text": "Right?",
+      "start": 461.755,
+      "duration": 0.5
+    },
+    {
+      "text": "This isn't--",
+      "start": 462.255,
+      "duration": 0.385
+    },
+    {
+      "text": "DEMIS HASSABIS: Exactly.",
+      "start": 462.64,
+      "duration": 1.0
+    },
+    {
+      "text": "MIRA LANE: There aren't hard\nlines between these two fields.",
+      "start": 463.64,
+      "duration": 2.7
+    },
+    {
+      "text": "DEMIS HASSABIS: And I know\nyou feel the same way in that",
+      "start": 466.34,
+      "duration": 2.333
+    },
+    {
+      "text": "your technology career is.",
+      "start": 468.673,
+      "duration": 1.327
+    },
+    {
+      "text": "And same with Darren, too.",
+      "start": 470.0,
+      "duration": 1.23
+    },
+    {
+      "text": "And I learned that\nearly from games.",
+      "start": 471.23,
+      "duration": 2.12
+    },
+    {
+      "text": "Because, in the '90s, when I\nwas making games as a teenager,",
+      "start": 473.35,
+      "duration": 3.33
+    },
+    {
+      "text": "it was the golden era, in\nsome ways, of computer games,",
+      "start": 476.68,
+      "duration": 3.43
+    },
+    {
+      "text": "exploration, this\nwhole new medium.",
+      "start": 480.11,
+      "duration": 1.627
+    },
+    {
+      "text": "No one really knew\nwhat to do with it.",
+      "start": 481.737,
+      "duration": 1.583
+    },
+    {
+      "text": "Interactive media, what was it?",
+      "start": 483.32,
+      "duration": 1.95
+    },
+    {
+      "text": "That was partly what our panel\nwas about in, whatever it was,",
+      "start": 485.27,
+      "duration": 3.02
+    },
+    {
+      "text": "the late '90s.",
+      "start": 488.29,
+      "duration": 0.73
+    },
+    {
+      "text": "MIRA LANE: 26 years ago.",
+      "start": 489.02,
+      "duration": 0.29
+    },
+    {
+      "text": "DEMIS HASSABIS:\nIt was about, what",
+      "start": 489.31,
+      "duration": 1.417
+    },
+    {
+      "text": "do you do in this interactive\nmedia that's different from more",
+      "start": 490.727,
+      "duration": 2.633
+    },
+    {
+      "text": "traditional media?",
+      "start": 493.36,
+      "duration": 1.09
+    },
+    {
+      "text": "And I loved working\nin games in that time",
+      "start": 494.45,
+      "duration": 2.69
+    },
+    {
+      "text": "because it brought together\nthe best of technology",
+      "start": 497.14,
+      "duration": 3.6
+    },
+    {
+      "text": "at the time--\ngraphics engines, AI,",
+      "start": 500.74,
+      "duration": 2.4
+    },
+    {
+      "text": "even GPUs were\ninvented for games.",
+      "start": 503.14,
+      "duration": 2.44
+    },
+    {
+      "text": "So all the cool stuff going\non in computers, in my view,",
+      "start": 505.58,
+      "duration": 3.03
+    },
+    {
+      "text": "in the '80s and\n'90s, was in games.",
+      "start": 508.61,
+      "duration": 2.9
+    },
+    {
+      "text": "But you also worked\nwith artists, designers",
+      "start": 511.51,
+      "duration": 3.09
+    },
+    {
+      "text": "to make the thing really\nbeautiful and fun.",
+      "start": 514.6,
+      "duration": 2.26
+    },
+    {
+      "text": "So from very early on--",
+      "start": 516.86,
+      "duration": 1.67
+    },
+    {
+      "text": "and most of my family actually\nis on the creative and musician",
+      "start": 518.53,
+      "duration": 2.879
+    },
+    {
+      "text": "side, so I'm the odd one out in\nthe sciences, as a scientist,",
+      "start": 521.409,
+      "duration": 3.611
+    },
+    {
+      "text": "but I've always been around\nin and around creatives.",
+      "start": 525.02,
+      "duration": 2.62
+    },
+    {
+      "text": "And I love that combination\nof technology and creativity.",
+      "start": 527.64,
+      "duration": 3.693
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 531.333,
+      "duration": 0.667
+    },
+    {
+      "text": "There is this\nreinforcing cycle, I",
+      "start": 532.0,
+      "duration": 1.94
+    },
+    {
+      "text": "think, between artists\nand technologists,",
+      "start": 533.94,
+      "duration": 2.01
+    },
+    {
+      "text": "where the artists are\npushing technologists,",
+      "start": 535.95,
+      "duration": 1.99
+    },
+    {
+      "text": "and the technologists are\nlike, well, what about this?",
+      "start": 537.94,
+      "duration": 2.25
+    },
+    {
+      "text": "And try this out\nand back and forth.",
+      "start": 540.19,
+      "duration": 2.04
+    },
+    {
+      "text": "And even in the\ncultural ecosystem,",
+      "start": 542.23,
+      "duration": 1.8
+    },
+    {
+      "text": "the stories that we hear, they\nturn into the technologies",
+      "start": 544.03,
+      "duration": 3.17
+    },
+    {
+      "text": "that we develop and vice versa.",
+      "start": 547.2,
+      "duration": 2.08
+    },
+    {
+      "text": "And so how do you think\nabout that, Darren,",
+      "start": 549.28,
+      "duration": 1.88
+    },
+    {
+      "text": "that kind of reinforcing cycle\nbetween cinema and technology?",
+      "start": 551.16,
+      "duration": 4.072
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nIt's interesting.",
+      "start": 555.232,
+      "duration": 1.458
+    },
+    {
+      "text": "I often think about how\nmuch the world we live in",
+      "start": 556.69,
+      "duration": 3.5
+    },
+    {
+      "text": "was predicted by storytellers.",
+      "start": 560.19,
+      "duration": 2.07
+    },
+    {
+      "text": "I'm a big fan of sci-fi.",
+      "start": 562.26,
+      "duration": 3.21
+    },
+    {
+      "text": "The only thing missing from\n\"Star Trek\" is the transporter,",
+      "start": 565.47,
+      "duration": 3.43
+    },
+    {
+      "text": "which Dennis is working on.",
+      "start": 568.9,
+      "duration": 1.47
+    },
+    {
+      "text": "MIRA LANE: Working on that.",
+      "start": 570.37,
+      "duration": 1.76
+    },
+    {
+      "text": "DARREN ARONOFSKY: But everything\nelse kind of came to pass,",
+      "start": 572.13,
+      "duration": 2.47
+    },
+    {
+      "text": "and it's all pretty wild.",
+      "start": 574.6,
+      "duration": 2.99
+    },
+    {
+      "text": "I think, I agree, I think that\nart can be found anywhere--",
+      "start": 577.59,
+      "duration": 5.7
+    },
+    {
+      "text": "in technology, for sure, and\npeople coming up with it.",
+      "start": 583.29,
+      "duration": 3.49
+    },
+    {
+      "text": "We've been collaborating on this\nnew film with all these people",
+      "start": 586.78,
+      "duration": 5.87
+    },
+    {
+      "text": "at Google Labs and\nthroughout Google",
+      "start": 592.65,
+      "duration": 2.25
+    },
+    {
+      "text": "that I don't know if there\nare artists or technologists.",
+      "start": 594.9,
+      "duration": 2.71
+    },
+    {
+      "text": "It's very hard to--",
+      "start": 597.61,
+      "duration": 1.04
+    },
+    {
+      "text": "I don't think they know\nhow to define themselves.",
+      "start": 598.65,
+      "duration": 2.17
+    },
+    {
+      "text": "I think it's a\nbit of everything.",
+      "start": 600.82,
+      "duration": 1.47
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 602.29,
+      "duration": 1.16
+    },
+    {
+      "text": "Maybe, let's go under the hood.",
+      "start": 603.45,
+      "duration": 1.39
+    },
+    {
+      "text": "Oh did you--",
+      "start": 604.84,
+      "duration": 0.36
+    },
+    {
+      "text": "DEMIS HASSABIS:\nYeah, well, I'm just",
+      "start": 605.2,
+      "duration": 0.53
+    },
+    {
+      "text": "going to add to\nthat that's why I'm",
+      "start": 605.73,
+      "duration": 1.95
+    },
+    {
+      "text": "a huge fan of the Renaissance\nEra and people like da Vinci.",
+      "start": 607.68,
+      "duration": 3.273
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 610.953,
+      "duration": 0.667
+    },
+    {
+      "text": "DEMIS HASSABIS:\nBecause back then,",
+      "start": 611.62,
+      "duration": 0.89
+    },
+    {
+      "text": "they didn't, I don't think,\nif you read biographies of da",
+      "start": 612.51,
+      "duration": 2.375
+    },
+    {
+      "text": "Vinci, he didn't really, when\nhe was building his engines",
+      "start": 614.885,
+      "duration": 2.987
+    },
+    {
+      "text": "and things like that versus\npainting the \"Mona Lisa,\"",
+      "start": 617.872,
+      "duration": 2.208
+    },
+    {
+      "text": "I think he just felt it was all\npart of the creative process.",
+      "start": 620.08,
+      "duration": 2.552
+    },
+    {
+      "text": "MIRA LANE: Right.",
+      "start": 622.632,
+      "duration": 0.708
+    },
+    {
+      "text": "DEMIS HASSABIS: And\nthat's beautiful, I think.",
+      "start": 623.34,
+      "duration": 2.02
+    },
+    {
+      "text": "And maybe we can get back\nto that in this new era.",
+      "start": 625.36,
+      "duration": 2.82
+    },
+    {
+      "text": "And I think that that's what\nseparates the good scientists",
+      "start": 628.18,
+      "duration": 2.83
+    },
+    {
+      "text": "and the great scientists,\nthe good artists",
+      "start": 631.01,
+      "duration": 1.75
+    },
+    {
+      "text": "and the great artists,\nis their creativity.",
+      "start": 632.76,
+      "duration": 1.83
+    },
+    {
+      "text": "Actually, on the science\nside and technical side,",
+      "start": 634.59,
+      "duration": 2.042
+    },
+    {
+      "text": "it's not the technical skills.",
+      "start": 636.632,
+      "duration": 1.628
+    },
+    {
+      "text": "All good scientists\nand engineers",
+      "start": 638.26,
+      "duration": 1.49
+    },
+    {
+      "text": "have good technical skills.",
+      "start": 639.75,
+      "duration": 1.48
+    },
+    {
+      "text": "But then it's the\ncreativity on top.",
+      "start": 641.23,
+      "duration": 2.06
+    },
+    {
+      "text": "And I think it's very\nsimilar, that process,",
+      "start": 643.29,
+      "duration": 2.01
+    },
+    {
+      "text": "even though it's in\na different domain.",
+      "start": 645.3,
+      "duration": 2.01
+    },
+    {
+      "text": "MIRA LANE: There are an\nenormous number of artists",
+      "start": 647.31,
+      "duration": 2.36
+    },
+    {
+      "text": "within Google DeepMind.",
+      "start": 649.67,
+      "duration": 1.39
+    },
+    {
+      "text": "It is shocking.",
+      "start": 651.06,
+      "duration": 0.735
+    },
+    {
+      "text": "For those of you that\nmight not realize this,",
+      "start": 651.795,
+      "duration": 1.875
+    },
+    {
+      "text": "there are musicians, there\nare storytellers, filmmakers.",
+      "start": 653.67,
+      "duration": 3.81
+    },
+    {
+      "text": "And there is this kind of\ninspirational back-and-forth",
+      "start": 657.48,
+      "duration": 3.47
+    },
+    {
+      "text": "that goes on.",
+      "start": 660.95,
+      "duration": 1.06
+    },
+    {
+      "text": "I know we'll actually get into\nEliza's film in a little bit.",
+      "start": 662.01,
+      "duration": 2.615
+    },
+    {
+      "text": "But you'll hear about\nsome of the technicians",
+      "start": 664.625,
+      "duration": 1.875
+    },
+    {
+      "text": "behind that, as well, and\nthe collaboration that's",
+      "start": 666.5,
+      "duration": 2.73
+    },
+    {
+      "text": "been going on.",
+      "start": 669.23,
+      "duration": 1.417
+    },
+    {
+      "text": "Demis, I was wondering if you\ncould share with the group",
+      "start": 670.647,
+      "duration": 2.333
+    },
+    {
+      "text": "a little bit about just how\nthis technology is made.",
+      "start": 672.98,
+      "duration": 3.19
+    },
+    {
+      "text": "What are some of the\nconsiderations and approaches",
+      "start": 676.17,
+      "duration": 2.21
+    },
+    {
+      "text": "that go into building Veo 3?",
+      "start": 678.38,
+      "duration": 1.525
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 679.905,
+      "duration": 0.875
+    },
+    {
+      "text": "MIRA LANE: How do you tune\nfor creativity or spontaneity,",
+      "start": 680.78,
+      "duration": 3.45
+    },
+    {
+      "text": "and how do you think about that?",
+      "start": 684.23,
+      "duration": 1.42
+    },
+    {
+      "text": "DEMIS HASSABIS: Well, I\nthink the reason we're",
+      "start": 685.65,
+      "duration": 2.383
+    },
+    {
+      "text": "working on things like\nVeo 3 is, obviously, we",
+      "start": 688.033,
+      "duration": 1.917
+    },
+    {
+      "text": "want to build these\namazing creative tools.",
+      "start": 689.95,
+      "duration": 2.077
+    },
+    {
+      "text": "Actually, the creativity\nand the spontaneity",
+      "start": 692.027,
+      "duration": 1.833
+    },
+    {
+      "text": "comes from the user and\nthe creator, I think.",
+      "start": 693.86,
+      "duration": 2.67
+    },
+    {
+      "text": "In today's models, there's a lot\nof skill in how you use and get",
+      "start": 696.53,
+      "duration": 4.25
+    },
+    {
+      "text": "the most out of these models.",
+      "start": 700.78,
+      "duration": 1.48
+    },
+    {
+      "text": "You know that.",
+      "start": 702.26,
+      "duration": 0.68
+    },
+    {
+      "text": "You've been playing\naround with them a lot,",
+      "start": 702.94,
+      "duration": 1.54
+    },
+    {
+      "text": "and Darren, obviously,\nand his team.",
+      "start": 704.48,
+      "duration": 1.62
+    },
+    {
+      "text": "And you get very different\nresults from the same tool.",
+      "start": 706.1,
+      "duration": 3.26
+    },
+    {
+      "text": "So it's a different\ntype of technical skill",
+      "start": 709.36,
+      "duration": 3.33
+    },
+    {
+      "text": "that one has to\nlearn now and master.",
+      "start": 712.69,
+      "duration": 3.9
+    },
+    {
+      "text": "But from a more of\nan AGI perspective,",
+      "start": 716.59,
+      "duration": 2.19
+    },
+    {
+      "text": "in terms of the\noverall goal of AI,",
+      "start": 718.78,
+      "duration": 2.82
+    },
+    {
+      "text": "I think it harks back to\nwhat I talked yesterday",
+      "start": 721.6,
+      "duration": 2.19
+    },
+    {
+      "text": "on the keynote\nabout world models.",
+      "start": 723.79,
+      "duration": 3.005
+    },
+    {
+      "text": "In order for AI to\nbe truly general,",
+      "start": 726.795,
+      "duration": 4.625
+    },
+    {
+      "text": "it's got to understand\nthe physical environment,",
+      "start": 731.42,
+      "duration": 2.13
+    },
+    {
+      "text": "the world we live in,\nthe context we're in.",
+      "start": 733.55,
+      "duration": 1.86
+    },
+    {
+      "text": "It can't just stay in symbolic\nworld of maths and language.",
+      "start": 735.41,
+      "duration": 3.71
+    },
+    {
+      "text": "That's obviously\npart of who we are.",
+      "start": 739.12,
+      "duration": 1.57
+    },
+    {
+      "text": "But it's only a\npart of what makes",
+      "start": 740.69,
+      "duration": 3.05
+    },
+    {
+      "text": "the human world a civilization.",
+      "start": 743.74,
+      "duration": 2.14
+    },
+    {
+      "text": "And one of the ways to\ndemonstrate that you understand",
+      "start": 745.88,
+      "duration": 3.92
+    },
+    {
+      "text": "the world or the\nsystem understands",
+      "start": 749.8,
+      "duration": 1.733
+    },
+    {
+      "text": "some aspects of the world,\nthe physics of the world,",
+      "start": 751.533,
+      "duration": 2.167
+    },
+    {
+      "text": "is can you generate\nit accurately?",
+      "start": 753.7,
+      "duration": 1.693
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 755.393,
+      "duration": 0.667
+    },
+    {
+      "text": "DEMIS HASSABIS: And\nso if you can generate",
+      "start": 756.06,
+      "duration": 1.75
+    },
+    {
+      "text": "those things and accurate\nphysics and light and gravity--",
+      "start": 757.81,
+      "duration": 3.96
+    },
+    {
+      "text": "and we're not there yet.",
+      "start": 761.77,
+      "duration": 1.0
+    },
+    {
+      "text": "But I mean, I think Veo is\nincredible, what it can do,",
+      "start": 762.77,
+      "duration": 4.19
+    },
+    {
+      "text": "and surprising even to those of\nus working on it how accurate it",
+      "start": 766.96,
+      "duration": 4.37
+    },
+    {
+      "text": "can be already.",
+      "start": 771.33,
+      "duration": 1.15
+    },
+    {
+      "text": "But that's on the way to this.",
+      "start": 772.48,
+      "duration": 2.08
+    },
+    {
+      "text": "And it's not there yet, but it's\non the way to this system that",
+      "start": 774.56,
+      "duration": 2.87
+    },
+    {
+      "text": "really understands,\nin a deep way",
+      "start": 777.43,
+      "duration": 1.65
+    },
+    {
+      "text": "about the world, which we can\nthen use in many other domains.",
+      "start": 779.08,
+      "duration": 3.67
+    },
+    {
+      "text": "And from an assistant\nin your daily life",
+      "start": 782.75,
+      "duration": 2.75
+    },
+    {
+      "text": "to cracking some areas\nof science, maybe one day",
+      "start": 785.5,
+      "duration": 2.88
+    },
+    {
+      "text": "some fundamental physics itself.",
+      "start": 788.38,
+      "duration": 2.91
+    },
+    {
+      "text": "So I think it's a\nkey component of what",
+      "start": 791.29,
+      "duration": 3.78
+    },
+    {
+      "text": "our AI systems need to do.",
+      "start": 795.07,
+      "duration": 1.51
+    },
+    {
+      "text": "And then, over\ntime, you'll start",
+      "start": 796.58,
+      "duration": 1.55
+    },
+    {
+      "text": "seeing a lot of what Veo\ncan do in main Gemini.",
+      "start": 798.13,
+      "duration": 3.9
+    },
+    {
+      "text": "MIRA LANE: I think I would\npush that a little bit,",
+      "start": 802.03,
+      "duration": 2.22
+    },
+    {
+      "text": "too, because it not only\nneeds to be able to generate",
+      "start": 804.25,
+      "duration": 2.79
+    },
+    {
+      "text": "the world, but with\nart, sometimes we",
+      "start": 807.04,
+      "duration": 2.13
+    },
+    {
+      "text": "need to hallucinate, as well.",
+      "start": 809.17,
+      "duration": 1.31
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 810.48,
+      "duration": 0.29
+    },
+    {
+      "text": "MIRA LANE: We don't always want\nto follow gravity in the way",
+      "start": 810.77,
+      "duration": 2.18
+    },
+    {
+      "text": "that you traditionally\nexperience it, right?",
+      "start": 812.95,
+      "duration": 2.01
+    },
+    {
+      "text": "DEMIS HASSABIS: Exactly.",
+      "start": 814.96,
+      "duration": 0.61
+    },
+    {
+      "text": "It's interesting.",
+      "start": 815.57,
+      "duration": 0.6
+    },
+    {
+      "text": "I was asked this\nearlier by a journalist",
+      "start": 816.17,
+      "duration": 1.667
+    },
+    {
+      "text": "today about hallucination.",
+      "start": 817.837,
+      "duration": 1.293
+    },
+    {
+      "text": "And in some contexts,\nit's very useful.",
+      "start": 819.13,
+      "duration": 2.817
+    },
+    {
+      "text": "So we call it\nhallucination now, which",
+      "start": 821.947,
+      "duration": 1.583
+    },
+    {
+      "text": "is a negative term when you're\ninformation-seeking, obviously,",
+      "start": 823.53,
+      "duration": 2.99
+    },
+    {
+      "text": "right?",
+      "start": 826.52,
+      "duration": 0.72
+    },
+    {
+      "text": "So then you--",
+      "start": 827.24,
+      "duration": 1.085
+    },
+    {
+      "text": "DARREN ARONOFSKY:\n[LAUGHS] [INAUDIBLE].",
+      "start": 828.325,
+      "duration": 1.625
+    },
+    {
+      "text": "DEMIS HASSABIS: --want to then.",
+      "start": 829.95,
+      "duration": 0.82
+    },
+    {
+      "text": "But of course, the same word,\nthe two sides of the coin,",
+      "start": 830.77,
+      "duration": 2.45
+    },
+    {
+      "text": "is imagination.",
+      "start": 833.22,
+      "duration": 1.23
+    },
+    {
+      "text": "It's which I studied for my PhD.",
+      "start": 834.45,
+      "duration": 1.84
+    },
+    {
+      "text": "How does the brain do it?",
+      "start": 836.29,
+      "duration": 1.08
+    },
+    {
+      "text": "And, obviously, vital\nfor creative processes,",
+      "start": 837.37,
+      "duration": 2.49
+    },
+    {
+      "text": "you want sort of a\nuseful hallucination,",
+      "start": 839.86,
+      "duration": 5.48
+    },
+    {
+      "text": "should we call it.",
+      "start": 845.34,
+      "duration": 0.9
+    },
+    {
+      "text": "DARREN ARONOFSKY: I think\nthere's so much exciting things",
+      "start": 846.24,
+      "duration": 3.03
+    },
+    {
+      "text": "in the hallucinations.",
+      "start": 849.27,
+      "duration": 1.57
+    },
+    {
+      "text": "And like, I was talking\nearlier with Demis",
+      "start": 850.84,
+      "duration": 3.08
+    },
+    {
+      "text": "about the early HTML\nartists that were just",
+      "start": 853.92,
+      "duration": 3.69
+    },
+    {
+      "text": "sort of playing\naround and messing",
+      "start": 857.61,
+      "duration": 1.74
+    },
+    {
+      "text": "with what a website could be\nand how exciting that was.",
+      "start": 859.35,
+      "duration": 2.83
+    },
+    {
+      "text": "I'm so curious about the\nart that's going to happen,",
+      "start": 862.18,
+      "duration": 3.09
+    },
+    {
+      "text": "where the system falls\napart and breaks apart",
+      "start": 865.27,
+      "duration": 2.57
+    },
+    {
+      "text": "and what that unveils.",
+      "start": 867.84,
+      "duration": 2.125
+    },
+    {
+      "text": "And I think there'll\nprobably be people",
+      "start": 869.965,
+      "duration": 1.625
+    },
+    {
+      "text": "that will be playing around with\nearly models for a long time.",
+      "start": 871.59,
+      "duration": 4.89
+    },
+    {
+      "text": "A good friend of mine\ndid a poetry book,",
+      "start": 876.48,
+      "duration": 3.75
+    },
+    {
+      "text": "I think, on ChatGPT,\ntwo or three,",
+      "start": 880.23,
+      "duration": 2.46
+    },
+    {
+      "text": "that gave just the first\ntwo sentences of a poem",
+      "start": 882.69,
+      "duration": 3.54
+    },
+    {
+      "text": "just to see what would come out.",
+      "start": 886.23,
+      "duration": 1.42
+    },
+    {
+      "text": "And it was fascinating.",
+      "start": 887.65,
+      "duration": 1.41
+    },
+    {
+      "text": "And it's kind of sad now\nthat it's so accurate.",
+      "start": 889.06,
+      "duration": 2.085
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 891.145,
+      "duration": 0.875
+    },
+    {
+      "text": "DARREN ARONOFSKY: And\nso there's something.",
+      "start": 892.02,
+      "duration": 1.792
+    },
+    {
+      "text": "These early models for\nvideo are super exciting.",
+      "start": 893.812,
+      "duration": 3.118
+    },
+    {
+      "text": "MIRA LANE: And there's\nsomething beautiful",
+      "start": 896.93,
+      "duration": 1.75
+    },
+    {
+      "text": "even about the glitchiness\nin the models, as well.",
+      "start": 898.68,
+      "duration": 2.898
+    },
+    {
+      "text": "And that's something\nwe have to figure out.",
+      "start": 901.578,
+      "duration": 1.792
+    },
+    {
+      "text": "How do we retain\nthat part of it?",
+      "start": 903.37,
+      "duration": 1.62
+    },
+    {
+      "text": "DEMIS HASSABIS: Well,\nI'm pretty sure we'll",
+      "start": 904.99,
+      "duration": 0.62
+    },
+    {
+      "text": "be able to harness that\nin an intentional way",
+      "start": 905.61,
+      "duration": 2.31
+    },
+    {
+      "text": "where it's like\nplayful exploration",
+      "start": 907.92,
+      "duration": 2.28
+    },
+    {
+      "text": "or imagination, probably guided\nby the user or the creator.",
+      "start": 910.2,
+      "duration": 5.1
+    },
+    {
+      "text": "And I think it could\nbe, definitely,",
+      "start": 915.3,
+      "duration": 1.95
+    },
+    {
+      "text": "a useful component\nof the system.",
+      "start": 917.25,
+      "duration": 1.78
+    },
+    {
+      "text": "So we don't want to\nlose that altogether--",
+      "start": 919.03,
+      "duration": 1.055
+    },
+    {
+      "text": "MIRA LANE: Oh, exactly.",
+      "start": 920.085,
+      "duration": 0.795
+    },
+    {
+      "text": "DEMIS HASSABIS: --in\nthe right circumstances.",
+      "start": 920.88,
+      "duration": 1.875
+    },
+    {
+      "text": "MIRA LANE: Do you think\nthese models will exhibit",
+      "start": 922.755,
+      "duration": 3.435
+    },
+    {
+      "text": "more innate creativity, Demis?",
+      "start": 926.19,
+      "duration": 2.07
+    },
+    {
+      "text": "What does it take for\nthere to be like a move 37",
+      "start": 928.26,
+      "duration": 3.3
+    },
+    {
+      "text": "in one of these models?",
+      "start": 931.56,
+      "duration": 1.62
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nOh, interesting.",
+      "start": 933.18,
+      "duration": 1.417
+    },
+    {
+      "text": "DEMIS HASSABIS:\nYeah, well, look, I",
+      "start": 934.597,
+      "duration": 1.993
+    },
+    {
+      "text": "think move 37, the reason it\nwas so significant in AlphaGo",
+      "start": 936.59,
+      "duration": 4.21
+    },
+    {
+      "text": "in the big Lee Sedol\nmatch, world match,",
+      "start": 940.8,
+      "duration": 1.88
+    },
+    {
+      "text": "it was probably\nthe first example",
+      "start": 942.68,
+      "duration": 2.16
+    },
+    {
+      "text": "in a really heavily studied\narea of human endeavor",
+      "start": 944.84,
+      "duration": 3.03
+    },
+    {
+      "text": "that it came up with an\nacknowledged truly novel idea.",
+      "start": 947.87,
+      "duration": 4.2
+    },
+    {
+      "text": "Obviously, albeit within\nthe context of a game of Go,",
+      "start": 952.07,
+      "duration": 2.92
+    },
+    {
+      "text": "but we have played Go\nfor hundreds of years",
+      "start": 954.99,
+      "duration": 2.27
+    },
+    {
+      "text": "very seriously.",
+      "start": 957.26,
+      "duration": 1.18
+    },
+    {
+      "text": "So it's been explored\nvery heavily.",
+      "start": 958.44,
+      "duration": 2.13
+    },
+    {
+      "text": "And yet it was able\nto find a totally sort",
+      "start": 960.57,
+      "duration": 3.41
+    },
+    {
+      "text": "of novel, radical idea.",
+      "start": 963.98,
+      "duration": 1.93
+    },
+    {
+      "text": "And that's what, for\nme, I was waiting",
+      "start": 965.91,
+      "duration": 1.73
+    },
+    {
+      "text": "to see before we started\nall our science program.",
+      "start": 967.64,
+      "duration": 3.57
+    },
+    {
+      "text": "Because it needs at\nleast that level,",
+      "start": 971.21,
+      "duration": 2.015
+    },
+    {
+      "text": "and albeit relatively\nconstrained creativity,",
+      "start": 973.225,
+      "duration": 2.765
+    },
+    {
+      "text": "to be able to help in scientific\nproblems like AlphaFold.",
+      "start": 975.99,
+      "duration": 4.46
+    },
+    {
+      "text": "But there's another layer above\nthat which we're nowhere near",
+      "start": 980.45,
+      "duration": 3.45
+    },
+    {
+      "text": "yet, I think, with\nour AI systems,",
+      "start": 983.9,
+      "duration": 1.57
+    },
+    {
+      "text": "where it's sort of-- we were\ndiscussing this yesterday--",
+      "start": 985.47,
+      "duration": 2.333
+    },
+    {
+      "text": "true out-of-the-box\nthinking, true invention,",
+      "start": 987.803,
+      "duration": 2.757
+    },
+    {
+      "text": "not just extrapolation\nor interpolation.",
+      "start": 990.56,
+      "duration": 2.53
+    },
+    {
+      "text": "And the examples I give there\nis, could our systems come up",
+      "start": 993.09,
+      "duration": 4.55
+    },
+    {
+      "text": "with general relativity\nwith the same information",
+      "start": 997.64,
+      "duration": 2.49
+    },
+    {
+      "text": "Einstein had in 1900?",
+      "start": 1000.13,
+      "duration": 1.96
+    },
+    {
+      "text": "No, for sure not.",
+      "start": 1002.09,
+      "duration": 1.5
+    },
+    {
+      "text": "Could it have not just\ncome up with move 37,",
+      "start": 1003.59,
+      "duration": 2.34
+    },
+    {
+      "text": "could it have invented Go, a\ngame as elegant and as beautiful",
+      "start": 1005.93,
+      "duration": 4.34
+    },
+    {
+      "text": "as Go?",
+      "start": 1010.27,
+      "duration": 0.88
+    },
+    {
+      "text": "No.",
+      "start": 1011.15,
+      "duration": 0.53
+    },
+    {
+      "text": "So there's something\nmissing, still,",
+      "start": 1011.68,
+      "duration": 1.99
+    },
+    {
+      "text": "from what we're able\nto do as human creators",
+      "start": 1013.67,
+      "duration": 4.19
+    },
+    {
+      "text": "from these systems.",
+      "start": 1017.86,
+      "duration": 1.27
+    },
+    {
+      "text": "But that doesn't\nmean they already",
+      "start": 1019.13,
+      "duration": 1.58
+    },
+    {
+      "text": "can't do some\nincremental creativity,",
+      "start": 1020.71,
+      "duration": 2.08
+    },
+    {
+      "text": "I would call it, like move--",
+      "start": 1022.79,
+      "duration": 1.71
+    },
+    {
+      "text": "like extrapolation of\nwhat is currently known.",
+      "start": 1024.5,
+      "duration": 2.31
+    },
+    {
+      "text": "And our system, AlphaEvolve,\nthat we just released last week,",
+      "start": 1026.81,
+      "duration": 2.88
+    },
+    {
+      "text": "is another example of that,\nusing evolutionary techniques",
+      "start": 1029.69,
+      "duration": 2.99
+    },
+    {
+      "text": "to go a little bit beyond\nwhat the current foundation",
+      "start": 1032.68,
+      "duration": 3.12
+    },
+    {
+      "text": "model or LLM knows.",
+      "start": 1035.8,
+      "duration": 1.434
+    },
+    {
+      "text": "So there's-- I think there's\ngoing to be some interesting",
+      "start": 1037.234,
+      "duration": 2.375
+    },
+    {
+      "text": "exploration of hybrid systems,\nwhere you have another system,",
+      "start": 1039.609,
+      "duration": 3.431
+    },
+    {
+      "text": "whether that's Monte Carlo tree\nsearch or evolution that can get",
+      "start": 1043.04,
+      "duration": 3.41
+    },
+    {
+      "text": "your main model outside of\nthe scope of what it currently",
+      "start": 1046.45,
+      "duration": 3.86
+    },
+    {
+      "text": "knows.",
+      "start": 1050.31,
+      "duration": 0.52
+    },
+    {
+      "text": "MIRA LANE: Yep.",
+      "start": 1050.83,
+      "duration": 0.77
+    },
+    {
+      "text": "And they are pretty\nconstrained at the moment.",
+      "start": 1051.6,
+      "duration": 2.8
+    },
+    {
+      "text": "We were talking\nabout true artistry",
+      "start": 1054.4,
+      "duration": 2.45
+    },
+    {
+      "text": "does happen with constraints.",
+      "start": 1056.85,
+      "duration": 1.817
+    },
+    {
+      "text": "When you look at the\nmodels right now,",
+      "start": 1058.667,
+      "duration": 1.583
+    },
+    {
+      "text": "Darren, they're not one where\nyou can type in a prompt",
+      "start": 1060.25,
+      "duration": 2.96
+    },
+    {
+      "text": "and have a beautiful film\njust produced by itself.",
+      "start": 1063.21,
+      "duration": 3.63
+    },
+    {
+      "text": "DARREN ARONOFSKY: That's the\nfear that's floating out there.",
+      "start": 1066.84,
+      "duration": 2.5
+    },
+    {
+      "text": "MIRA LANE: Exactly.",
+      "start": 1069.34,
+      "duration": 0.792
+    },
+    {
+      "text": "And that's not reality as well.",
+      "start": 1070.132,
+      "duration": 1.556
+    },
+    {
+      "text": "What does it look like\nright now, actually?",
+      "start": 1071.688,
+      "duration": 1.792
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nAnd I don't know",
+      "start": 1073.48,
+      "duration": 1.417
+    },
+    {
+      "text": "how near that reality is\nfor that level of control",
+      "start": 1074.897,
+      "duration": 3.043
+    },
+    {
+      "text": "and precision.",
+      "start": 1077.94,
+      "duration": 1.18
+    },
+    {
+      "text": "When you're-- and I asked Demis\nthis question a while ago,",
+      "start": 1079.12,
+      "duration": 3.36
+    },
+    {
+      "text": "which was, when\nyou're on a movie set,",
+      "start": 1082.48,
+      "duration": 3.33
+    },
+    {
+      "text": "you'll have hundreds of artists\nworking together that basically",
+      "start": 1085.81,
+      "duration": 4.64
+    },
+    {
+      "text": "have PhD levels of experience\nto focus on this one moment",
+      "start": 1090.45,
+      "duration": 5.01
+    },
+    {
+      "text": "in time.",
+      "start": 1095.46,
+      "duration": 1.03
+    },
+    {
+      "text": "And then, at the core of that,\nyou have an actor who's truly",
+      "start": 1096.49,
+      "duration": 3.29
+    },
+    {
+      "text": "a one-in-a-million person.",
+      "start": 1099.78,
+      "duration": 1.45
+    },
+    {
+      "text": "They're there because they\nhave some type of thing",
+      "start": 1101.23,
+      "duration": 2.45
+    },
+    {
+      "text": "that they're able to express\nthat people all over the world",
+      "start": 1103.68,
+      "duration": 3.09
+    },
+    {
+      "text": "can experience and\nunderstand in some way,",
+      "start": 1106.77,
+      "duration": 3.07
+    },
+    {
+      "text": "be it a little look\nout of the corner",
+      "start": 1109.84,
+      "duration": 2.36
+    },
+    {
+      "text": "of their eye or a little smirk.",
+      "start": 1112.2,
+      "duration": 2.08
+    },
+    {
+      "text": "The entire world feels it.",
+      "start": 1114.28,
+      "duration": 3.53
+    },
+    {
+      "text": "And for a brief moment, in a\nreal three-dimensional space,",
+      "start": 1117.81,
+      "duration": 4.63
+    },
+    {
+      "text": "in real time, with\nthe restrictions",
+      "start": 1122.44,
+      "duration": 2.24
+    },
+    {
+      "text": "of the technology\nthat exist, something",
+      "start": 1124.68,
+      "duration": 3.09
+    },
+    {
+      "text": "happens where all these\nartists come together",
+      "start": 1127.77,
+      "duration": 4.08
+    },
+    {
+      "text": "to create a moment.",
+      "start": 1131.85,
+      "duration": 3.41
+    },
+    {
+      "text": "That level of control is\nnot what this is about.",
+      "start": 1135.26,
+      "duration": 4.61
+    },
+    {
+      "text": "If anything, what I'm starting\nto feel from it is it's",
+      "start": 1139.87,
+      "duration": 2.84
+    },
+    {
+      "text": "a form of collage,\nwhere you're basically",
+      "start": 1142.71,
+      "duration": 4.26
+    },
+    {
+      "text": "asking for all these\ndifferent types of images.",
+      "start": 1146.97,
+      "duration": 2.71
+    },
+    {
+      "text": "And you're searching--\nin the old way,",
+      "start": 1149.68,
+      "duration": 2.43
+    },
+    {
+      "text": "you'd be searching through\nmagazines and other places",
+      "start": 1152.11,
+      "duration": 2.39
+    },
+    {
+      "text": "to get images to cut them up and\nmove them and mix them around",
+      "start": 1154.5,
+      "duration": 3.63
+    },
+    {
+      "text": "together to bring\nmeaning to them.",
+      "start": 1158.13,
+      "duration": 4.59
+    },
+    {
+      "text": "So I'm more interested--\nwith storytelling,",
+      "start": 1162.72,
+      "duration": 2.97
+    },
+    {
+      "text": "it might be move 73, was it?",
+      "start": 1165.69,
+      "duration": 4.128
+    },
+    {
+      "text": "DEMIS HASSABIS: 37.",
+      "start": 1169.818,
+      "duration": 0.792
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nNo, the next one.",
+      "start": 1170.61,
+      "duration": 0.57
+    },
+    {
+      "text": "DEMIS HASSABIS:\nOh, the other one?",
+      "start": 1171.18,
+      "duration": 0.6
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nYeah, the human one.",
+      "start": 1171.78,
+      "duration": 0.47
+    },
+    {
+      "text": "DEMIS HASSABIS: It was 79.",
+      "start": 1172.25,
+      "duration": 0.7
+    },
+    {
+      "text": "DARREN ARONOFSKY: 79?",
+      "start": 1172.95,
+      "duration": 0.56
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah.",
+      "start": 1173.51,
+      "duration": 0.28
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nMove 79 is the one",
+      "start": 1173.79,
+      "duration": 1.88
+    },
+    {
+      "text": "that I think is happening a\nlot, where there's basically",
+      "start": 1175.67,
+      "duration": 4.44
+    },
+    {
+      "text": "all this new stuff\ncoming at people",
+      "start": 1180.11,
+      "duration": 2.04
+    },
+    {
+      "text": "and how you're going\nto fit it all together.",
+      "start": 1182.15,
+      "duration": 2.7
+    },
+    {
+      "text": "MIRA LANE: And you've talked\nabout the value of storytelling",
+      "start": 1184.85,
+      "duration": 2.82
+    },
+    {
+      "text": "and how that is even more\nimportant now, given the desire",
+      "start": 1187.67,
+      "duration": 5.79
+    },
+    {
+      "text": "for everyone's attention.",
+      "start": 1193.46,
+      "duration": 1.63
+    },
+    {
+      "text": "Maybe talk a little bit about\nwhy that's important for you",
+      "start": 1195.09,
+      "duration": 2.6
+    },
+    {
+      "text": "in particular.",
+      "start": 1197.69,
+      "duration": 1.51
+    },
+    {
+      "text": "DARREN ARONOFSKY: How do you\nfeel two hours after TikTok",
+      "start": 1199.2,
+      "duration": 3.83
+    },
+    {
+      "text": "or Instagram or YouTube--",
+      "start": 1203.03,
+      "duration": 2.61
+    },
+    {
+      "text": "how do you feel after that\ntwo hours versus everyone",
+      "start": 1205.64,
+      "duration": 3.39
+    },
+    {
+      "text": "in this room has a two-hour\nexperience in a movie theater",
+      "start": 1209.03,
+      "duration": 2.91
+    },
+    {
+      "text": "where they completely remember\nexactly where they were",
+      "start": 1211.94,
+      "duration": 2.52
+    },
+    {
+      "text": "and how they felt?",
+      "start": 1214.46,
+      "duration": 1.27
+    },
+    {
+      "text": "That's the power of\nstorytelling and movies.",
+      "start": 1215.73,
+      "duration": 3.3
+    },
+    {
+      "text": "And so I just-- we're\nat a war for attention.",
+      "start": 1219.03,
+      "duration": 4.82
+    },
+    {
+      "text": "And storytelling is this\nincredible art that connects us.",
+      "start": 1223.85,
+      "duration": 3.64
+    },
+    {
+      "text": "The fact that you can watch\na movie and be transported",
+      "start": 1227.49,
+      "duration": 2.75
+    },
+    {
+      "text": "into the shoes of a\nseven-year-old girl in Iran",
+      "start": 1230.24,
+      "duration": 3.19
+    },
+    {
+      "text": "or an 80-year-old guy in Wales--",
+      "start": 1233.43,
+      "duration": 2.22
+    },
+    {
+      "text": "that's the magic of it.",
+      "start": 1235.65,
+      "duration": 1.5
+    },
+    {
+      "text": "It's not you.",
+      "start": 1237.15,
+      "duration": 0.81
+    },
+    {
+      "text": "It's not your face on\nsomeone else's body.",
+      "start": 1237.96,
+      "duration": 2.1
+    },
+    {
+      "text": "It's just someone you've never\nmet before that you don't know.",
+      "start": 1240.06,
+      "duration": 3.05
+    },
+    {
+      "text": "Yet you completely\nrelate to them.",
+      "start": 1243.11,
+      "duration": 1.783
+    },
+    {
+      "text": "And everyone in the room,\nwhen it's done well,",
+      "start": 1244.893,
+      "duration": 1.917
+    },
+    {
+      "text": "can relate to that person.",
+      "start": 1246.81,
+      "duration": 1.17
+    },
+    {
+      "text": "And that is so super important\nto what makes us people.",
+      "start": 1247.98,
+      "duration": 3.06
+    },
+    {
+      "text": "And if we lose that and our\nattention to that, it's--",
+      "start": 1251.04,
+      "duration": 3.59
+    },
+    {
+      "text": "I don't know the consequences.",
+      "start": 1254.63,
+      "duration": 2.95
+    },
+    {
+      "text": "MIRA LANE: How do you\nfeel about that, Demis?",
+      "start": 1257.58,
+      "duration": 1.94
+    },
+    {
+      "text": "DEMIS HASSABIS: Well, look, I\nthink I agree with-- actually,",
+      "start": 1259.52,
+      "duration": 2.67
+    },
+    {
+      "text": "with Darren.",
+      "start": 1262.19,
+      "duration": 0.51
+    },
+    {
+      "text": "And I-- on all those aspects.",
+      "start": 1262.7,
+      "duration": 1.93
+    },
+    {
+      "text": "And I think that's why\nthese collaborations are",
+      "start": 1264.63,
+      "duration": 2.0
+    },
+    {
+      "text": "so important at the\ncutting edge of technology",
+      "start": 1266.63,
+      "duration": 1.98
+    },
+    {
+      "text": "and the cutting edge of\nfilmmaking, storytelling,",
+      "start": 1268.61,
+      "duration": 2.52
+    },
+    {
+      "text": "and artistic creativity.",
+      "start": 1271.13,
+      "duration": 1.54
+    },
+    {
+      "text": "Actually, we-- if you think\nabout all of our work we do,",
+      "start": 1272.67,
+      "duration": 3.3
+    },
+    {
+      "text": "I love collaborating with the\ntop domain experts in the area,",
+      "start": 1275.97,
+      "duration": 3.6
+    },
+    {
+      "text": "whether that's biology and\nchemistry with AlphaFold.",
+      "start": 1279.57,
+      "duration": 2.858
+    },
+    {
+      "text": "We couldn't have done it\nwith just technologists.",
+      "start": 1282.428,
+      "duration": 2.042
+    },
+    {
+      "text": "We needed the domain experts,\nwhether it's filmmaking or music",
+      "start": 1284.47,
+      "duration": 3.78
+    },
+    {
+      "text": "or whether it's games playing.",
+      "start": 1288.25,
+      "duration": 1.45
+    },
+    {
+      "text": "And I have a huge respect for\nall of those creative endeavors,",
+      "start": 1289.7,
+      "duration": 4.25
+    },
+    {
+      "text": "having been involved in\nthese creative endeavors",
+      "start": 1293.95,
+      "duration": 2.37
+    },
+    {
+      "text": "and-- at my start of my career.",
+      "start": 1296.32,
+      "duration": 1.93
+    },
+    {
+      "text": "And I think it's\nreally important",
+      "start": 1298.25,
+      "duration": 2.6
+    },
+    {
+      "text": "that we shape these\ntechnologies in positive ways.",
+      "start": 1300.85,
+      "duration": 3.94
+    },
+    {
+      "text": "And you can only do that-- you\ncan't just do that in a silo",
+      "start": 1304.79,
+      "duration": 2.99
+    },
+    {
+      "text": "with just the technology.",
+      "start": 1307.78,
+      "duration": 1.06
+    },
+    {
+      "text": "You have to bring in the\nexperts in those domains",
+      "start": 1308.84,
+      "duration": 2.96
+    },
+    {
+      "text": "and really have some\nhumility about, yes, you're",
+      "start": 1311.8,
+      "duration": 3.72
+    },
+    {
+      "text": "building these cool things.",
+      "start": 1315.52,
+      "duration": 1.125
+    },
+    {
+      "text": "But you don't\nnecessarily know how",
+      "start": 1316.645,
+      "duration": 1.417
+    },
+    {
+      "text": "to use them in the right way.",
+      "start": 1318.062,
+      "duration": 1.428
+    },
+    {
+      "text": "That's what people like\nDarren are here for.",
+      "start": 1319.49,
+      "duration": 2.04
+    },
+    {
+      "text": "And then it's a learning--\nit's a joint learning process.",
+      "start": 1321.53,
+      "duration": 3.18
+    },
+    {
+      "text": "We're both exploring.",
+      "start": 1324.71,
+      "duration": 1.13
+    },
+    {
+      "text": "None of us know what's going\nto happen in 5, 10 years.",
+      "start": 1325.84,
+      "duration": 3.19
+    },
+    {
+      "text": "But we can definitely help\nshape it with our platforms",
+      "start": 1329.03,
+      "duration": 4.23
+    },
+    {
+      "text": "and I think by collaborating\nin this really deep way.",
+      "start": 1333.26,
+      "duration": 3.695
+    },
+    {
+      "text": "And I think it's beautiful.",
+      "start": 1336.955,
+      "duration": 1.125
+    },
+    {
+      "text": "And I think that's the way we'll\nwin this war, as Darren talked",
+      "start": 1338.08,
+      "duration": 2.9
+    },
+    {
+      "text": "about, of we're\nproviding these tools,",
+      "start": 1340.98,
+      "duration": 2.38
+    },
+    {
+      "text": "but the tools can be used\nfor good or for bad--",
+      "start": 1343.36,
+      "duration": 2.43
+    },
+    {
+      "text": "and in general, but also\nin the artistic sense.",
+      "start": 1345.79,
+      "duration": 3.9
+    },
+    {
+      "text": "And I hope that through\nthese kind of collaborations,",
+      "start": 1349.69,
+      "duration": 2.82
+    },
+    {
+      "text": "we can power up the\ngood, these wholesome",
+      "start": 1352.51,
+      "duration": 1.94
+    },
+    {
+      "text": "experiences, these meaningful,\ndelightful experiences,",
+      "start": 1354.45,
+      "duration": 3.33
+    },
+    {
+      "text": "versus the fast food version of\nit, which is happening, anyway,",
+      "start": 1357.78,
+      "duration": 5.02
+    },
+    {
+      "text": "by the way, without AI.",
+      "start": 1362.8,
+      "duration": 2.12
+    },
+    {
+      "text": "It's not like TikTok, Instagram,\nand these other things",
+      "start": 1364.92,
+      "duration": 3.0
+    },
+    {
+      "text": "are-- it's happening, anyway.",
+      "start": 1367.92,
+      "duration": 1.78
+    },
+    {
+      "text": "DARREN ARONOFSKY: But\nthe tools are making",
+      "start": 1369.7,
+      "duration": 0.86
+    },
+    {
+      "text": "them more attention-grabbing.",
+      "start": 1370.56,
+      "duration": 1.42
+    },
+    {
+      "text": "DEMIS HASSABIS: Of course.",
+      "start": 1371.98,
+      "duration": 0.33
+    },
+    {
+      "text": "But it could be-- it\ncould-- but it's also",
+      "start": 1372.31,
+      "duration": 1.94
+    },
+    {
+      "text": "allowing the good side of\nit to potentially produce",
+      "start": 1374.25,
+      "duration": 3.3
+    },
+    {
+      "text": "more output as well.",
+      "start": 1377.55,
+      "duration": 1.72
+    },
+    {
+      "text": "So it's going to be an\ninteresting-- we'll see.",
+      "start": 1379.27,
+      "duration": 2.99
+    },
+    {
+      "text": "And the thing is the way I look\nat it is the change is coming.",
+      "start": 1382.26,
+      "duration": 3.16
+    },
+    {
+      "text": "So you can't-- like with\nall technology leaps,",
+      "start": 1385.42,
+      "duration": 2.64
+    },
+    {
+      "text": "there's so many amazing\nopportunities here.",
+      "start": 1388.06,
+      "duration": 3.26
+    },
+    {
+      "text": "The horse has\nbolted, if you like.",
+      "start": 1391.32,
+      "duration": 1.562
+    },
+    {
+      "text": "It's not going back in the barn.",
+      "start": 1392.882,
+      "duration": 1.333
+    },
+    {
+      "text": "But we can shape it from here.",
+      "start": 1394.215,
+      "duration": 1.295
+    },
+    {
+      "text": "And that's what we have to do.",
+      "start": 1395.51,
+      "duration": 1.25
+    },
+    {
+      "text": "And that's the history of\ntechnology and creativity,",
+      "start": 1396.76,
+      "duration": 2.55
+    },
+    {
+      "text": "I think, from the\nvery beginning--",
+      "start": 1399.31,
+      "duration": 1.79
+    },
+    {
+      "text": "is how do we-- we're talking\nabout hunter-gatherers",
+      "start": 1401.1,
+      "duration": 2.97
+    },
+    {
+      "text": "with telling stories\naround the fire and then",
+      "start": 1404.07,
+      "duration": 2.82
+    },
+    {
+      "text": "the cave paintings.",
+      "start": 1406.89,
+      "duration": 0.91
+    },
+    {
+      "text": "It's the very beginning.",
+      "start": 1407.8,
+      "duration": 1.26
+    },
+    {
+      "text": "If you think of fire as\nthe first technology,",
+      "start": 1409.06,
+      "duration": 2.36
+    },
+    {
+      "text": "they're intertwined.",
+      "start": 1411.42,
+      "duration": 1.42
+    },
+    {
+      "text": "And I think that it's\nthe same here today.",
+      "start": 1412.84,
+      "duration": 3.77
+    },
+    {
+      "text": "And even our story,\nof how we met",
+      "start": 1416.61,
+      "duration": 1.65
+    },
+    {
+      "text": "each other, and then back\nnow, future of storytelling--",
+      "start": 1418.26,
+      "duration": 2.74
+    },
+    {
+      "text": "we're in the past.",
+      "start": 1421.0,
+      "duration": 1.14
+    },
+    {
+      "text": "And now we're in the now.",
+      "start": 1422.14,
+      "duration": 1.05
+    },
+    {
+      "text": "And then there's a\nfuture version of that.",
+      "start": 1423.19,
+      "duration": 2.21
+    },
+    {
+      "text": "DARREN ARONOFSKY: I always think\nit's always been a technology",
+      "start": 1425.4,
+      "duration": 3.09
+    },
+    {
+      "text": "business, filmmaking.",
+      "start": 1428.49,
+      "duration": 0.99
+    },
+    {
+      "text": "MIRA LANE: Has, yeah.",
+      "start": 1429.48,
+      "duration": 0.903
+    },
+    {
+      "text": "DARREN ARONOFSKY: The\ncamera and the projector",
+      "start": 1430.383,
+      "duration": 1.917
+    },
+    {
+      "text": "came before\nstorytelling found it.",
+      "start": 1432.3,
+      "duration": 3.12
+    },
+    {
+      "text": "The early shots were of\ntheir factory workers.",
+      "start": 1435.42,
+      "duration": 2.86
+    },
+    {
+      "text": "And then we all know\nwhat happened with sound,",
+      "start": 1438.28,
+      "duration": 4.85
+    },
+    {
+      "text": "Al Jolson saying \"You\nain't heard nothing yet,\"",
+      "start": 1443.13,
+      "duration": 2.7
+    },
+    {
+      "text": "unleashing musicals and a\nwhole new way of communicating",
+      "start": 1445.83,
+      "duration": 5.25
+    },
+    {
+      "text": "to the masses.",
+      "start": 1451.08,
+      "duration": 0.85
+    },
+    {
+      "text": "And then, of course, color--",
+      "start": 1451.93,
+      "duration": 1.52
+    },
+    {
+      "text": "just think about the\nstorytelling use of color",
+      "start": 1453.45,
+      "duration": 2.25
+    },
+    {
+      "text": "in \"The Wizard of Oz.\"",
+      "start": 1455.7,
+      "duration": 1.67
+    },
+    {
+      "text": "And then VFX-- and when\nI was a kid, it was--",
+      "start": 1457.37,
+      "duration": 3.0
+    },
+    {
+      "text": "Spielberg and Lucas had\nthe keys to the kingdom.",
+      "start": 1460.37,
+      "duration": 2.47
+    },
+    {
+      "text": "And now pretty much\nevery filmmaker",
+      "start": 1462.84,
+      "duration": 2.0
+    },
+    {
+      "text": "is using all types of VFX in\nall different types of ways,",
+      "start": 1464.84,
+      "duration": 2.98
+    },
+    {
+      "text": "ways that you don't even notice.",
+      "start": 1467.82,
+      "duration": 3.5
+    },
+    {
+      "text": "And the question-- this is\na radical new technology",
+      "start": 1471.32,
+      "duration": 4.35
+    },
+    {
+      "text": "that's very game-changing.",
+      "start": 1475.67,
+      "duration": 2.11
+    },
+    {
+      "text": "And no one, really, can\nunderstand exactly how",
+      "start": 1477.78,
+      "duration": 2.57
+    },
+    {
+      "text": "it's going to impact.",
+      "start": 1480.35,
+      "duration": 1.03
+    },
+    {
+      "text": "But it's definitely\ngoing to have impact.",
+      "start": 1481.38,
+      "duration": 2.36
+    },
+    {
+      "text": "And to say it's not\nthere, that-- there",
+      "start": 1483.74,
+      "duration": 3.21
+    },
+    {
+      "text": "will be many filmmakers, I\nthink, that will do that,",
+      "start": 1486.95,
+      "duration": 2.32
+    },
+    {
+      "text": "and I will, too.",
+      "start": 1489.27,
+      "duration": 1.077
+    },
+    {
+      "text": "I have a movie coming\nout this summer.",
+      "start": 1490.347,
+      "duration": 1.583
+    },
+    {
+      "text": "And I continue to--\nwill make those.",
+      "start": 1491.93,
+      "duration": 1.78
+    },
+    {
+      "text": "But the tools are just very,\nvery helpful and powerful.",
+      "start": 1493.71,
+      "duration": 3.11
+    },
+    {
+      "text": "And we just have to--",
+      "start": 1496.82,
+      "duration": 1.23
+    },
+    {
+      "text": "we have to learn\nto work with them.",
+      "start": 1498.05,
+      "duration": 2.4
+    },
+    {
+      "text": "MIRA LANE: What do you think\nabout the democratization",
+      "start": 1500.45,
+      "duration": 2.49
+    },
+    {
+      "text": "of this type of\ntechnology, the types",
+      "start": 1502.94,
+      "duration": 2.13
+    },
+    {
+      "text": "of stories that might come out?",
+      "start": 1505.07,
+      "duration": 1.42
+    },
+    {
+      "text": "What do you want to see happen?",
+      "start": 1506.49,
+      "duration": 1.922
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nThat's always exciting.",
+      "start": 1508.412,
+      "duration": 1.708
+    },
+    {
+      "text": "When I teach, I'm always\ntelling kids all over the world,",
+      "start": 1510.12,
+      "duration": 5.84
+    },
+    {
+      "text": "go tell a story that means\nsomething to you in your life.",
+      "start": 1515.96,
+      "duration": 4.62
+    },
+    {
+      "text": "The more personal it can\nbe, as long as it's--",
+      "start": 1520.58,
+      "duration": 4.042
+    },
+    {
+      "text": "as long as you feel it's\ngoing to move your mom",
+      "start": 1524.622,
+      "duration": 1.958
+    },
+    {
+      "text": "and dad and your friends--",
+      "start": 1526.58,
+      "duration": 1.35
+    },
+    {
+      "text": "means it's probably going to\nmove people all over the earth",
+      "start": 1527.93,
+      "duration": 2.52
+    },
+    {
+      "text": "if you do it well.",
+      "start": 1530.45,
+      "duration": 1.65
+    },
+    {
+      "text": "So I do think that, as these\ntools become more and more",
+      "start": 1532.1,
+      "duration": 4.86
+    },
+    {
+      "text": "available, they just give more\nopportunities for storytellers",
+      "start": 1536.96,
+      "duration": 4.432
+    },
+    {
+      "text": "around the world.",
+      "start": 1541.392,
+      "duration": 0.708
+    },
+    {
+      "text": "It's similar, though.",
+      "start": 1542.1,
+      "duration": 0.875
+    },
+    {
+      "text": "It's like-- Francis\nFord Coppola had",
+      "start": 1542.975,
+      "duration": 3.105
+    },
+    {
+      "text": "a quote, which I\ncan't quote in full,",
+      "start": 1546.08,
+      "duration": 3.1
+    },
+    {
+      "text": "about a girl with a video camera\nmaking the next great film when",
+      "start": 1549.18,
+      "duration": 5.12
+    },
+    {
+      "text": "video cameras first\nstarted to come around.",
+      "start": 1554.3,
+      "duration": 1.8
+    },
+    {
+      "text": "And there's definitely going to\nbe films that we've never done.",
+      "start": 1556.1,
+      "duration": 3.73
+    },
+    {
+      "text": "But I still think storytelling\ntakes a lot of craft,",
+      "start": 1559.83,
+      "duration": 3.57
+    },
+    {
+      "text": "a lot of patience,\na lot of work.",
+      "start": 1563.4,
+      "duration": 2.19
+    },
+    {
+      "text": "And there will always be\ncollaboration involved with it.",
+      "start": 1565.59,
+      "duration": 2.34
+    },
+    {
+      "text": "It's never going to be a person\nwith some prompts on a computer.",
+      "start": 1567.93,
+      "duration": 3.6
+    },
+    {
+      "text": "It's always going to be a\nteam of people coming together",
+      "start": 1571.53,
+      "duration": 2.74
+    },
+    {
+      "text": "to figure it out.",
+      "start": 1574.27,
+      "duration": 1.86
+    },
+    {
+      "text": "MIRA LANE: Maybe on\nthat note, why don't we",
+      "start": 1576.13,
+      "duration": 1.86
+    },
+    {
+      "text": "dig into the-- one of the\nfilms that you guys are working",
+      "start": 1577.99,
+      "duration": 3.21
+    },
+    {
+      "text": "on right now with Eliza McNitt?",
+      "start": 1581.2,
+      "duration": 1.6
+    },
+    {
+      "text": "We'll pull you on\nstage in just a moment.",
+      "start": 1582.8,
+      "duration": 1.98
+    },
+    {
+      "text": "But share with the\naudience a little bit",
+      "start": 1584.78,
+      "duration": 1.91
+    },
+    {
+      "text": "about what that\nprocess has been like",
+      "start": 1586.69,
+      "duration": 1.68
+    },
+    {
+      "text": "and that back-and-forth\nthat's been",
+      "start": 1588.37,
+      "duration": 1.59
+    },
+    {
+      "text": "going on with the technologists,\nwhat it's been actually",
+      "start": 1589.96,
+      "duration": 2.61
+    },
+    {
+      "text": "like working with the tools.",
+      "start": 1592.57,
+      "duration": 2.385
+    },
+    {
+      "text": "DARREN ARONOFSKY: Well,\nEliza will fill us in more.",
+      "start": 1594.955,
+      "duration": 2.125
+    },
+    {
+      "text": "But it's been a wild experience.",
+      "start": 1597.08,
+      "duration": 3.65
+    },
+    {
+      "text": "It's really good to keep this\nold brain with fresh new stuff.",
+      "start": 1600.73,
+      "duration": 3.82
+    },
+    {
+      "text": "So it's been wild just to see\neverything that's going on",
+      "start": 1604.55,
+      "duration": 3.39
+    },
+    {
+      "text": "and is possible.",
+      "start": 1607.94,
+      "duration": 1.4
+    },
+    {
+      "text": "What blew my mind\nis, at the beginning,",
+      "start": 1609.34,
+      "duration": 2.94
+    },
+    {
+      "text": "was, you have these models.",
+      "start": 1612.28,
+      "duration": 1.83
+    },
+    {
+      "text": "And they really, actually,\ndon't know what they do.",
+      "start": 1614.11,
+      "duration": 3.06
+    },
+    {
+      "text": "And so they were building tools\nto prod these models to see",
+      "start": 1617.17,
+      "duration": 3.84
+    },
+    {
+      "text": "what it will do.",
+      "start": 1621.01,
+      "duration": 1.185
+    },
+    {
+      "text": "And that blew my\nmind as an idea--",
+      "start": 1622.195,
+      "duration": 2.955
+    },
+    {
+      "text": "that there's so many\npossibilities in there.",
+      "start": 1625.15,
+      "duration": 4.89
+    },
+    {
+      "text": "But this has been a huge\nteam from Primordial Soup",
+      "start": 1630.04,
+      "duration": 5.82
+    },
+    {
+      "text": "and from Google and\nGoogle DeepMind of--",
+      "start": 1635.86,
+      "duration": 3.94
+    },
+    {
+      "text": "we've had as many\nworkers on this",
+      "start": 1639.8,
+      "duration": 1.7
+    },
+    {
+      "text": "as you would have\non a normal movie.",
+      "start": 1641.5,
+      "duration": 2.07
+    },
+    {
+      "text": "It was really important\nto Eliza to have",
+      "start": 1643.57,
+      "duration": 2.19
+    },
+    {
+      "text": "a traditional human-based shoot.",
+      "start": 1645.76,
+      "duration": 4.14
+    },
+    {
+      "text": "She'll talk a lot about that.",
+      "start": 1649.9,
+      "duration": 1.42
+    },
+    {
+      "text": "But there's real actors.",
+      "start": 1651.32,
+      "duration": 1.8
+    },
+    {
+      "text": "And we made a deal with SAG\nand with the unions to do that.",
+      "start": 1653.12,
+      "duration": 3.925
+    },
+    {
+      "text": "And it was very interesting.",
+      "start": 1659.56,
+      "duration": 2.67
+    },
+    {
+      "text": "There's a baby in this.",
+      "start": 1662.23,
+      "duration": 1.26
+    },
+    {
+      "text": "It's about a birth,\nas you'll see--",
+      "start": 1663.49,
+      "duration": 2.11
+    },
+    {
+      "text": "not giving away too much.",
+      "start": 1665.6,
+      "duration": 1.23
+    },
+    {
+      "text": "But it's really--",
+      "start": 1666.83,
+      "duration": 2.39
+    },
+    {
+      "text": "I've worked-- I've had babies.",
+      "start": 1669.22,
+      "duration": 2.62
+    },
+    {
+      "text": "I've [? eaten ?] babies\n[? and ?] mother.",
+      "start": 1671.84,
+      "duration": 1.97
+    },
+    {
+      "text": "So have I have experience\nwith how hard it",
+      "start": 1673.81,
+      "duration": 2.85
+    },
+    {
+      "text": "is to have babies on set.",
+      "start": 1676.66,
+      "duration": 2.77
+    },
+    {
+      "text": "And it's also-- it's ethically a\nlittle questionable because it's",
+      "start": 1679.43,
+      "duration": 8.33
+    },
+    {
+      "text": "someone else's child.",
+      "start": 1687.76,
+      "duration": 1.33
+    },
+    {
+      "text": "And of course, they're\nnot sentient enough",
+      "start": 1689.09,
+      "duration": 2.77
+    },
+    {
+      "text": "to make that decision.",
+      "start": 1691.86,
+      "duration": 1.12
+    },
+    {
+      "text": "So you're making a\ndecision for them.",
+      "start": 1692.98,
+      "duration": 2.4
+    },
+    {
+      "text": "So we actually-- the\nGoogle DeepMind team",
+      "start": 1695.38,
+      "duration": 3.38
+    },
+    {
+      "text": "did some incredible newborn and\nembryo forms that are just wild.",
+      "start": 1698.76,
+      "duration": 5.79
+    },
+    {
+      "text": "So it was incredible\nthings that are",
+      "start": 1704.55,
+      "duration": 2.34
+    },
+    {
+      "text": "just impossible to photograph\nthat were done, and not--",
+      "start": 1706.89,
+      "duration": 4.59
+    },
+    {
+      "text": "in ways that could\nbe done with VFX,",
+      "start": 1711.48,
+      "duration": 2.2
+    },
+    {
+      "text": "but they were done\nin ways to see if--",
+      "start": 1713.68,
+      "duration": 2.71
+    },
+    {
+      "text": "how-- it's amazing how easy to\nbring this stuff to life is.",
+      "start": 1716.39,
+      "duration": 3.192
+    },
+    {
+      "text": "MIRA LANE: You think we\ncan take greater risks?",
+      "start": 1719.582,
+      "duration": 1.958
+    },
+    {
+      "text": "We've talked about\nrisk-taking and how",
+      "start": 1721.54,
+      "duration": 1.583
+    },
+    {
+      "text": "this might increase\nthe types of stories",
+      "start": 1723.123,
+      "duration": 3.057
+    },
+    {
+      "text": "that you might not\nhave told in the past.",
+      "start": 1726.18,
+      "duration": 1.882
+    },
+    {
+      "text": "DARREN ARONOFSKY: Absolutely.",
+      "start": 1728.062,
+      "duration": 1.208
+    },
+    {
+      "text": "You will learn so much\nby generating ideas",
+      "start": 1729.27,
+      "duration": 2.64
+    },
+    {
+      "text": "and seeing what works\nand doesn't work",
+      "start": 1731.91,
+      "duration": 1.8
+    },
+    {
+      "text": "and putting them together.",
+      "start": 1733.71,
+      "duration": 1.77
+    },
+    {
+      "text": "It's like storyboarding\non the next level.",
+      "start": 1735.48,
+      "duration": 3.173
+    },
+    {
+      "text": "MIRA LANE: Yeah.",
+      "start": 1738.653,
+      "duration": 0.667
+    },
+    {
+      "text": "Yep.",
+      "start": 1739.32,
+      "duration": 0.82
+    },
+    {
+      "text": "So why don't we\nplay Eliza's video?",
+      "start": 1740.14,
+      "duration": 5.28
+    },
+    {
+      "text": "Eliza will bring you on stage.",
+      "start": 1745.42,
+      "duration": 1.99
+    },
+    {
+      "text": "And then we'll talk a\nlittle bit about what",
+      "start": 1747.41,
+      "duration": 2.2
+    },
+    {
+      "text": "it took to create your video,\nwhich is still in progress,",
+      "start": 1749.61,
+      "duration": 3.06
+    },
+    {
+      "text": "actually.",
+      "start": 1752.67,
+      "duration": 1.413
+    },
+    {
+      "text": "[AUDIO PLAYBACK]",
+      "start": 1754.083,
+      "duration": 2.367
+    },
+    {
+      "text": "- Film has always been\nthis deeply human act",
+      "start": 1756.45,
+      "duration": 2.94
+    },
+    {
+      "text": "of connecting people with\neach other's stories.",
+      "start": 1759.39,
+      "duration": 2.58
+    },
+    {
+      "text": "And it has the ability to\nrip us out of our experience",
+      "start": 1761.97,
+      "duration": 4.38
+    },
+    {
+      "text": "and take us on another journey.",
+      "start": 1766.35,
+      "duration": 2.43
+    },
+    {
+      "text": "I don't think that ever changes.",
+      "start": 1768.78,
+      "duration": 2.34
+    },
+    {
+      "text": "- This is a story that\ntraverses the entire history",
+      "start": 1771.12,
+      "duration": 3.36
+    },
+    {
+      "text": "of the universe.",
+      "start": 1774.48,
+      "duration": 1.65
+    },
+    {
+      "text": "But it's really\nabout a mom and what",
+      "start": 1776.13,
+      "duration": 2.76
+    },
+    {
+      "text": "happens when her child is\nborn with a hole in her heart.",
+      "start": 1778.89,
+      "duration": 3.9
+    },
+    {
+      "text": "We filmed really\nemotional performances,",
+      "start": 1782.79,
+      "duration": 2.83
+    },
+    {
+      "text": "but then generated video we\ncould never capture otherwise.",
+      "start": 1785.62,
+      "duration": 5.742
+    },
+    {
+      "text": "I want the baby to be\nholding the mother's finger.",
+      "start": 1791.362,
+      "duration": 3.728
+    },
+    {
+      "text": "- Just the bliss\nof the two of them?",
+      "start": 1795.09,
+      "duration": 1.66
+    },
+    {
+      "text": "- Yeah.",
+      "start": 1796.75,
+      "duration": 2.03
+    },
+    {
+      "text": "- Veo is a generative\nvideo model.",
+      "start": 1798.78,
+      "duration": 2.5
+    },
+    {
+      "text": "But to me, it's another\nlens through which",
+      "start": 1801.28,
+      "duration": 2.33
+    },
+    {
+      "text": "I get to imagine the\nuniverse around me.",
+      "start": 1803.61,
+      "duration": 3.11
+    },
+    {
+      "text": "- It's been incredibly\ninteresting to see",
+      "start": 1806.72,
+      "duration": 2.37
+    },
+    {
+      "text": "the strengths of these models,\nthe limits of the models,",
+      "start": 1809.09,
+      "duration": 2.89
+    },
+    {
+      "text": "and try to shape them to\nmake storytelling tools.",
+      "start": 1811.98,
+      "duration": 4.85
+    },
+    {
+      "text": "- To be honest, I never\nthought about telling the story",
+      "start": 1816.83,
+      "duration": 2.31
+    },
+    {
+      "text": "of the day I was born.",
+      "start": 1819.14,
+      "duration": 1.92
+    },
+    {
+      "text": "But here we are.",
+      "start": 1821.06,
+      "duration": 2.211
+    },
+    {
+      "text": "[BEEPING]",
+      "start": 1823.271,
+      "duration": 2.949
+    },
+    {
+      "text": "[SOFT MUSIC]",
+      "start": 1826.22,
+      "duration": 0.96
+    },
+    {
+      "text": "- This was supposed\nto be a checkup.",
+      "start": 1828.8,
+      "duration": 1.54
+    },
+    {
+      "text": "- Crash, C-section.",
+      "start": 1830.34,
+      "duration": 2.3
+    },
+    {
+      "text": "- Baby's in distress.",
+      "start": 1832.64,
+      "duration": 0.94
+    },
+    {
+      "text": "- We need help here!",
+      "start": 1833.58,
+      "duration": 1.05
+    },
+    {
+      "text": "- We need to go.",
+      "start": 1834.63,
+      "duration": 1.02
+    },
+    {
+      "text": "- Is my baby going to be OK?",
+      "start": 1835.65,
+      "duration": 1.207
+    },
+    {
+      "text": "- We're going to do\neverything we can.",
+      "start": 1836.857,
+      "duration": 1.583
+    },
+    {
+      "text": "- Am I going to be OK?",
+      "start": 1838.44,
+      "duration": 1.52
+    },
+    {
+      "text": "- For every creature that came\nbefore you, from every star that",
+      "start": 1839.96,
+      "duration": 5.49
+    },
+    {
+      "text": "died so that you could begin--",
+      "start": 1845.45,
+      "duration": 4.2
+    },
+    {
+      "text": "[BREATHING]",
+      "start": 1849.65,
+      "duration": 1.78
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1851.43,
+      "duration": 2.3
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 1858.09,
+      "duration": 1.85
+    },
+    {
+      "text": "DEMIS HASSABIS: Very cool.",
+      "start": 1859.94,
+      "duration": 1.588
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1861.528,
+      "duration": 2.844
+    },
+    {
+      "text": "ELIZA MCNITT: Hello.",
+      "start": 1866.75,
+      "duration": 1.27
+    },
+    {
+      "text": "MIRA LANE: Eliza, welcome.",
+      "start": 1868.02,
+      "duration": 1.25
+    },
+    {
+      "text": "ELIZA MCNITT: Thank you.",
+      "start": 1869.27,
+      "duration": 1.54
+    },
+    {
+      "text": "MIRA LANE: So I want to\nintroduce you really briefly",
+      "start": 1870.81,
+      "duration": 2.39
+    },
+    {
+      "text": "for the audience.",
+      "start": 1873.2,
+      "duration": 1.21
+    },
+    {
+      "text": "Eliza is a visionary\nwriter and director",
+      "start": 1874.41,
+      "duration": 3.2
+    },
+    {
+      "text": "who masterfully blends\nscience and the arts",
+      "start": 1877.61,
+      "duration": 3.0
+    },
+    {
+      "text": "to tell profound stories\nabout humanity's connection",
+      "start": 1880.61,
+      "duration": 3.42
+    },
+    {
+      "text": "to the cosmos.",
+      "start": 1884.03,
+      "duration": 1.36
+    },
+    {
+      "text": "Her groundbreaking works,\nsuch as \"Sphere\" and \"Astra,\"",
+      "start": 1885.39,
+      "duration": 3.3
+    },
+    {
+      "text": "has captivated audiences\nand critics alike,",
+      "start": 1888.69,
+      "duration": 3.15
+    },
+    {
+      "text": "earning accolades at prestigious\nfestivals like Sundance",
+      "start": 1891.84,
+      "duration": 3.98
+    },
+    {
+      "text": "and Venice.",
+      "start": 1895.82,
+      "duration": 1.77
+    },
+    {
+      "text": "So Eliza, maybe tell\neverybody a little bit",
+      "start": 1897.59,
+      "duration": 2.55
+    },
+    {
+      "text": "about your film, the\ninspiration behind it.",
+      "start": 1900.14,
+      "duration": 2.47
+    },
+    {
+      "text": "And get us behind the\nscenes a little bit.",
+      "start": 1902.61,
+      "duration": 2.348
+    },
+    {
+      "text": "ELIZA MCNITT: Sure.",
+      "start": 1904.958,
+      "duration": 0.792
+    },
+    {
+      "text": "So the day that I was\nborn, I nearly died.",
+      "start": 1905.75,
+      "duration": 4.33
+    },
+    {
+      "text": "And my mom went into the\nhospital for a routine checkup",
+      "start": 1910.08,
+      "duration": 3.53
+    },
+    {
+      "text": "and was told that she had to\nhave an emergency C-section.",
+      "start": 1913.61,
+      "duration": 2.83
+    },
+    {
+      "text": "And all of a sudden,\nher life and my life",
+      "start": 1916.44,
+      "duration": 2.33
+    },
+    {
+      "text": "were completely in question.",
+      "start": 1918.77,
+      "duration": 1.36
+    },
+    {
+      "text": "And so this is the\nstory of the day",
+      "start": 1920.13,
+      "duration": 2.15
+    },
+    {
+      "text": "that my mother brought\nme into the universe.",
+      "start": 1922.28,
+      "duration": 2.046
+    },
+    {
+      "text": "Thank you.",
+      "start": 1926.84,
+      "duration": 1.24
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1928.08,
+      "duration": 1.61
+    },
+    {
+      "text": "MIRA LANE: That is such\na personal story, Eliza.",
+      "start": 1929.69,
+      "duration": 3.07
+    },
+    {
+      "text": "ELIZA MCNITT: Yes.",
+      "start": 1932.76,
+      "duration": 0.75
+    },
+    {
+      "text": "MIRA LANE: What has\nthis process been like?",
+      "start": 1933.51,
+      "duration": 1.71
+    },
+    {
+      "text": "And a lot of the folks\nyou've been working with",
+      "start": 1935.22,
+      "duration": 1.31
+    },
+    {
+      "text": "are actually in the\naudience as well.",
+      "start": 1936.53,
+      "duration": 1.75
+    },
+    {
+      "text": "So thank you to everybody who's\nbeen working on this project.",
+      "start": 1938.28,
+      "duration": 3.11
+    },
+    {
+      "text": "What's it been like?",
+      "start": 1941.39,
+      "duration": 1.51
+    },
+    {
+      "text": "ELIZA MCNITT: Well, I think,\nfor me, ultimately, this",
+      "start": 1942.9,
+      "duration": 2.66
+    },
+    {
+      "text": "is a story about the\nferocity of a mother's love.",
+      "start": 1945.56,
+      "duration": 3.34
+    },
+    {
+      "text": "And it's a really\npersonal story.",
+      "start": 1948.9,
+      "duration": 1.98
+    },
+    {
+      "text": "And I think when I did\n\"Spheres\" with Darren,",
+      "start": 1950.88,
+      "duration": 3.0
+    },
+    {
+      "text": "I really hid myself behind\nthis grand image of the cosmos.",
+      "start": 1953.88,
+      "duration": 3.735
+    },
+    {
+      "text": "And I felt with this\nwas an opportunity",
+      "start": 1957.615,
+      "duration": 1.625
+    },
+    {
+      "text": "to really tear out a\nliteral piece of my heart",
+      "start": 1959.24,
+      "duration": 2.76
+    },
+    {
+      "text": "and throw it into the universe.",
+      "start": 1962.0,
+      "duration": 1.33
+    },
+    {
+      "text": "So I'm quite\nexcited and nervous.",
+      "start": 1963.33,
+      "duration": 1.74
+    },
+    {
+      "text": "And it's just been just\nthe-- just the experience",
+      "start": 1965.07,
+      "duration": 3.62
+    },
+    {
+      "text": "of a lifetime to work with\nthe team at the Creative Lab",
+      "start": 1968.69,
+      "duration": 2.73
+    },
+    {
+      "text": "and with the amazing group of\npeople that we have who are",
+      "start": 1971.42,
+      "duration": 4.17
+    },
+    {
+      "text": "both--",
+      "start": 1975.59,
+      "duration": 0.54
+    },
+    {
+      "text": "they are artists.",
+      "start": 1976.13,
+      "duration": 1.38
+    },
+    {
+      "text": "And it's just been the\nmost creative environment",
+      "start": 1977.51,
+      "duration": 3.34
+    },
+    {
+      "text": "that I could have imagined\nworking in as a filmmaker.",
+      "start": 1980.85,
+      "duration": 2.8
+    },
+    {
+      "text": "So I've been super\ninspired and pushed",
+      "start": 1983.65,
+      "duration": 2.48
+    },
+    {
+      "text": "every day beyond what I\nthought what was possible.",
+      "start": 1986.13,
+      "duration": 2.697
+    },
+    {
+      "text": "MIRA LANE: And there's a lot of\ntechnicians behind the scenes,",
+      "start": 1988.827,
+      "duration": 2.583
+    },
+    {
+      "text": "as well, right?",
+      "start": 1991.41,
+      "duration": 0.735
+    },
+    {
+      "text": "ELIZA MCNITT: Yes, a lot\nof-- so many technicians.",
+      "start": 1992.145,
+      "duration": 2.083
+    },
+    {
+      "text": "There's about 15\ngenerators who are--",
+      "start": 1994.228,
+      "duration": 1.892
+    },
+    {
+      "text": "and artists who are working on\ncreating all the images that you",
+      "start": 1996.12,
+      "duration": 2.91
+    },
+    {
+      "text": "just saw, who are just\ndedicated to that.",
+      "start": 1999.03,
+      "duration": 2.56
+    },
+    {
+      "text": "And we just counted the credits\nbefore I got on stage here.",
+      "start": 2001.59,
+      "duration": 3.33
+    },
+    {
+      "text": "And there are over 165 people\nwho have been working tirelessly",
+      "start": 2004.92,
+      "duration": 4.1
+    },
+    {
+      "text": "on this film.",
+      "start": 2009.02,
+      "duration": 1.03
+    },
+    {
+      "text": "So it's pretty remarkable.",
+      "start": 2010.05,
+      "duration": 2.52
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2012.57,
+      "duration": 2.49
+    },
+    {
+      "text": "But I have to say, as\nfar as the process--",
+      "start": 2015.06,
+      "duration": 2.3
+    },
+    {
+      "text": "and thank you, Demis,\nfor this-- there's",
+      "start": 2017.36,
+      "duration": 1.8
+    },
+    {
+      "text": "been-- in the process\nof generating,",
+      "start": 2019.16,
+      "duration": 1.5
+    },
+    {
+      "text": "there's a lot of nightmares\nthat come out of it.",
+      "start": 2020.66,
+      "duration": 2.65
+    },
+    {
+      "text": "So it's been a very\ninteresting process",
+      "start": 2023.31,
+      "duration": 1.97
+    },
+    {
+      "text": "to create and see what comes\nout when you embrace that chaos.",
+      "start": 2025.28,
+      "duration": 4.14
+    },
+    {
+      "text": "MIRA LANE: And you\nhave a hybrid approach.",
+      "start": 2029.42,
+      "duration": 1.78
+    },
+    {
+      "text": "ELIZA MCNITT: Yes.",
+      "start": 2031.2,
+      "duration": 0.75
+    },
+    {
+      "text": "MIRA LANE: So some of this\nis footage that's been shot.",
+      "start": 2031.95,
+      "duration": 2.292
+    },
+    {
+      "text": "It's not all\nAI-generated film, right?",
+      "start": 2034.242,
+      "duration": 1.936
+    },
+    {
+      "text": "ELIZA MCNITT: Yeah, absolutely.",
+      "start": 2036.178,
+      "duration": 1.292
+    },
+    {
+      "text": "For me, one major boundary\nfor me, as a filmmaker is--",
+      "start": 2037.47,
+      "duration": 5.24
+    },
+    {
+      "text": "and I think Darren said\nit so beautifully-- it's",
+      "start": 2042.71,
+      "duration": 2.01
+    },
+    {
+      "text": "about capturing that moment with\nhumans and a performance that",
+      "start": 2044.72,
+      "duration": 4.47
+    },
+    {
+      "text": "can only be captured\nby humanity.",
+      "start": 2049.19,
+      "duration": 2.049
+    },
+    {
+      "text": "And so that, for me, was so\ncrucial to create with this.",
+      "start": 2051.239,
+      "duration": 3.96
+    },
+    {
+      "text": "So we had a full live-action\nshoot with an incredible actress",
+      "start": 2055.199,
+      "duration": 5.331
+    },
+    {
+      "text": "named Audrey Corsa,\nwho just cosmically has",
+      "start": 2060.53,
+      "duration": 2.609
+    },
+    {
+      "text": "the same name as my own mother.",
+      "start": 2063.139,
+      "duration": 1.631
+    },
+    {
+      "text": "So it was all really beautiful.",
+      "start": 2064.77,
+      "duration": 3.59
+    },
+    {
+      "text": "MIRA LANE: And Darren,\nyou brought this up.",
+      "start": 2068.36,
+      "duration": 2.17
+    },
+    {
+      "text": "But there's some scenes\nwith a baby, baby Eliza,",
+      "start": 2070.53,
+      "duration": 3.8
+    },
+    {
+      "text": "that were AI-generated.",
+      "start": 2074.33,
+      "duration": 2.32
+    },
+    {
+      "text": "So what was that process like?",
+      "start": 2076.65,
+      "duration": 2.13
+    },
+    {
+      "text": "And walk us through\ngenerating a baby.",
+      "start": 2078.78,
+      "duration": 2.879
+    },
+    {
+      "text": "ELIZA MCNITT: So as Darren\nsaid, working with a baby--",
+      "start": 2081.659,
+      "duration": 3.391
+    },
+    {
+      "text": "it's super unethical.",
+      "start": 2085.05,
+      "duration": 1.2
+    },
+    {
+      "text": "And with this film, we\nwant our baby to consent.",
+      "start": 2086.25,
+      "duration": 2.82
+    },
+    {
+      "text": "So the baby is actually\nme in this film.",
+      "start": 2089.07,
+      "duration": 4.53
+    },
+    {
+      "text": "And we used my late\nfather's images from the day",
+      "start": 2093.6,
+      "duration": 4.51
+    },
+    {
+      "text": "that I was born to train a\nstyle to create me as a newborn",
+      "start": 2098.11,
+      "duration": 4.86
+    },
+    {
+      "text": "and put that in the film.",
+      "start": 2102.97,
+      "duration": 1.45
+    },
+    {
+      "text": "I will say, I think it added\na few pounds to me as a baby.",
+      "start": 2104.42,
+      "duration": 2.82
+    },
+    {
+      "text": "But I still look adorable.",
+      "start": 2107.24,
+      "duration": 3.81
+    },
+    {
+      "text": "So that's been this incredibly\nremarkable part of the process.",
+      "start": 2111.05,
+      "duration": 3.48
+    },
+    {
+      "text": "And another thing, too, is\nmy father was a photographer.",
+      "start": 2114.53,
+      "duration": 3.5
+    },
+    {
+      "text": "And his images have\nalways deeply inspired me.",
+      "start": 2118.03,
+      "duration": 3.73
+    },
+    {
+      "text": "He used to climb up in\nhelicopters and planes",
+      "start": 2121.76,
+      "duration": 3.35
+    },
+    {
+      "text": "and hang out of them and take\nphotos of boats from the sky.",
+      "start": 2125.11,
+      "duration": 3.88
+    },
+    {
+      "text": "And he had incredible film\nstock and a beautiful style.",
+      "start": 2128.99,
+      "duration": 3.793
+    },
+    {
+      "text": "And so we've used\nsomething called",
+      "start": 2132.783,
+      "duration": 1.417
+    },
+    {
+      "text": "a LoRA to train a style\nthat we could only",
+      "start": 2134.2,
+      "duration": 2.25
+    },
+    {
+      "text": "do on images that are\ncopyrighted that we own",
+      "start": 2136.45,
+      "duration": 2.56
+    },
+    {
+      "text": "to create a touch of my father's\nvision to also implement",
+      "start": 2139.01,
+      "duration": 5.263
+    },
+    {
+      "text": "in the film, as well, so\nthat it's not just about me",
+      "start": 2144.273,
+      "duration": 2.167
+    },
+    {
+      "text": "and my mom, but it also has a\npiece of my dad's heart as well.",
+      "start": 2146.44,
+      "duration": 3.87
+    },
+    {
+      "text": "MIRA LANE: And Demis,\nI thought maybe",
+      "start": 2150.31,
+      "duration": 1.62
+    },
+    {
+      "text": "we could talk to the audience\na little bit about how",
+      "start": 2151.93,
+      "duration": 2.7
+    },
+    {
+      "text": "these models work\nwith LoRAs and the way",
+      "start": 2154.63,
+      "duration": 2.61
+    },
+    {
+      "text": "that people can bring in their\nfootage and their content",
+      "start": 2157.24,
+      "duration": 3.57
+    },
+    {
+      "text": "so that it can be a little\nbit more specific to the style",
+      "start": 2160.81,
+      "duration": 3.12
+    },
+    {
+      "text": "of what they have.",
+      "start": 2163.93,
+      "duration": 1.33
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, it's\namazing what Eliza's done,",
+      "start": 2165.26,
+      "duration": 3.36
+    },
+    {
+      "text": "and a very moving story.",
+      "start": 2168.62,
+      "duration": 1.74
+    },
+    {
+      "text": "And actually, I think--",
+      "start": 2170.36,
+      "duration": 2.9
+    },
+    {
+      "text": "I didn't know that that's\nwhat you were going to do.",
+      "start": 2173.26,
+      "duration": 2.44
+    },
+    {
+      "text": "But it's actually\npersonal connection for me",
+      "start": 2175.7,
+      "duration": 1.833
+    },
+    {
+      "text": "because my mom's mom died\ngiving birth to my mom.",
+      "start": 2177.533,
+      "duration": 3.417
+    },
+    {
+      "text": "So my mom had a really\nhard start in life.",
+      "start": 2180.95,
+      "duration": 2.88
+    },
+    {
+      "text": "So it's very moving for\nme to see that, too.",
+      "start": 2183.83,
+      "duration": 2.7
+    },
+    {
+      "text": "And I think it's amazing, which\nis this collage idea that Darren",
+      "start": 2186.53,
+      "duration": 4.61
+    },
+    {
+      "text": "was talking about, where we\nhave Whisk and other tools where",
+      "start": 2191.14,
+      "duration": 3.15
+    },
+    {
+      "text": "you can bring in images and\nother things that you want.",
+      "start": 2194.29,
+      "duration": 2.92
+    },
+    {
+      "text": "And then it will shift\nthe generation process",
+      "start": 2197.21,
+      "duration": 3.98
+    },
+    {
+      "text": "to be more in that style.",
+      "start": 2201.19,
+      "duration": 2.23
+    },
+    {
+      "text": "So it's amazing\nuse case, actually,",
+      "start": 2203.42,
+      "duration": 2.03
+    },
+    {
+      "text": "of your childhood,\nyour baby pictures.",
+      "start": 2205.45,
+      "duration": 2.86
+    },
+    {
+      "text": "And then it becomes--",
+      "start": 2208.31,
+      "duration": 1.02
+    },
+    {
+      "text": "it looks like you.",
+      "start": 2209.33,
+      "duration": 1.01
+    },
+    {
+      "text": "And I think we'll refine--",
+      "start": 2210.34,
+      "duration": 1.5
+    },
+    {
+      "text": "actually, you pushing the\ntechnology to the limits",
+      "start": 2211.84,
+      "duration": 2.39
+    },
+    {
+      "text": "will allow us to refine\nthose tools so that they'll",
+      "start": 2214.23,
+      "duration": 2.43
+    },
+    {
+      "text": "be even more consistent\nover frames and over time,",
+      "start": 2216.66,
+      "duration": 3.25
+    },
+    {
+      "text": "and more useful\nto you, hopefully.",
+      "start": 2219.91,
+      "duration": 2.023
+    },
+    {
+      "text": "MIRA LANE: So what do you\nthink is the next mountain",
+      "start": 2221.933,
+      "duration": 2.167
+    },
+    {
+      "text": "range, Demis, in terms\nof these Veo models?",
+      "start": 2224.1,
+      "duration": 3.16
+    },
+    {
+      "text": "So we announced this\nweek Veo with sound.",
+      "start": 2227.26,
+      "duration": 3.48
+    },
+    {
+      "text": "So where do you think\nthese models are going?",
+      "start": 2230.74,
+      "duration": 3.32
+    },
+    {
+      "text": "DEMIS HASSABIS: Well,\nI think it's incredible",
+      "start": 2234.06,
+      "duration": 3.06
+    },
+    {
+      "text": "that the-- the speed at\nwhich they're improving.",
+      "start": 2237.12,
+      "duration": 2.23
+    },
+    {
+      "text": "I think the sound--",
+      "start": 2239.35,
+      "duration": 0.93
+    },
+    {
+      "text": "actually, I'm surprised\nhow much of a difference",
+      "start": 2240.28,
+      "duration": 2.0
+    },
+    {
+      "text": "it makes to these videos.",
+      "start": 2242.28,
+      "duration": 3.04
+    },
+    {
+      "text": "It's hard to imagine now they're\nnot being generated with sound",
+      "start": 2245.32,
+      "duration": 2.63
+    },
+    {
+      "text": "once you see Veo 3, actually.",
+      "start": 2247.95,
+      "duration": 1.452
+    },
+    {
+      "text": "It's pretty astounding.",
+      "start": 2249.402,
+      "duration": 0.958
+    },
+    {
+      "text": "And I think the internet's\nalready normalized that now.",
+      "start": 2250.36,
+      "duration": 6.311
+    },
+    {
+      "text": "I think the next step is\nwhat we discussed earlier--",
+      "start": 2256.671,
+      "duration": 2.259
+    },
+    {
+      "text": "a world model, more\nconsistency over time--",
+      "start": 2258.93,
+      "duration": 2.86
+    },
+    {
+      "text": "it's still only 8 seconds--",
+      "start": 2261.79,
+      "duration": 2.06
+    },
+    {
+      "text": "and even higher fidelity\nand those things--",
+      "start": 2263.85,
+      "duration": 2.56
+    },
+    {
+      "text": "so just more accuracy about\na wider range of things.",
+      "start": 2266.41,
+      "duration": 5.06
+    },
+    {
+      "text": "DARREN ARONOFSKY: I want him to\nput a hallucination button in.",
+      "start": 2271.47,
+      "duration": 2.788
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, we will--",
+      "start": 2274.258,
+      "duration": 1.292
+    },
+    {
+      "text": "yes, exactly.",
+      "start": 2275.55,
+      "duration": 0.85
+    },
+    {
+      "text": "Once we can stop it\ndoing it unintentionally,",
+      "start": 2276.4,
+      "duration": 2.27
+    },
+    {
+      "text": "we can put a button back in\nwhere you can intentionally",
+      "start": 2278.67,
+      "duration": 3.12
+    },
+    {
+      "text": "make it intentional\nhallucination maybe toward--",
+      "start": 2281.79,
+      "duration": 3.51
+    },
+    {
+      "text": "with some extra guidance,\nlike these are the sorts",
+      "start": 2285.3,
+      "duration": 3.0
+    },
+    {
+      "text": "of things I want you to--",
+      "start": 2288.3,
+      "duration": 1.38
+    },
+    {
+      "text": "DARREN ARONOFSKY: Yes.",
+      "start": 2289.68,
+      "duration": 1.83
+    },
+    {
+      "text": "MIRA LANE: New feature request.",
+      "start": 2291.51,
+      "duration": 1.81
+    },
+    {
+      "text": "So maybe let's look into\nthe future a little bit.",
+      "start": 2293.32,
+      "duration": 2.37
+    },
+    {
+      "text": "Let's continue this.",
+      "start": 2295.69,
+      "duration": 1.73
+    },
+    {
+      "text": "We're on a panel not\n26 years from now,",
+      "start": 2297.42,
+      "duration": 2.86
+    },
+    {
+      "text": "but maybe a few years from now.",
+      "start": 2300.28,
+      "duration": 2.67
+    },
+    {
+      "text": "But we're on a panel talking\nabout the intersection",
+      "start": 2302.95,
+      "duration": 2.48
+    },
+    {
+      "text": "of technology and storytelling.",
+      "start": 2305.43,
+      "duration": 2.673
+    },
+    {
+      "text": "What does that world\nlook like in a few years?",
+      "start": 2308.103,
+      "duration": 1.917
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nWell, I think we'll",
+      "start": 2310.02,
+      "duration": 1.542
+    },
+    {
+      "text": "realize that this technology\nwas just like CD-ROMs.",
+      "start": 2311.562,
+      "duration": 2.698
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 2314.26,
+      "duration": 1.01
+    },
+    {
+      "text": "You're like, wow,\nhow wrong we were.",
+      "start": 2315.27,
+      "duration": 1.61
+    },
+    {
+      "text": "DEMIS HASSABIS: Definitely 26\nyears from now, for sure, yes.",
+      "start": 2316.88,
+      "duration": 2.5
+    },
+    {
+      "text": "DARREN ARONOFSKY: We just\nneed Neal Stephenson with us.",
+      "start": 2319.38,
+      "duration": 1.72
+    },
+    {
+      "text": "DEMIS HASSABIS: Yeah, exactly.",
+      "start": 2321.1,
+      "duration": 1.25
+    },
+    {
+      "text": "DARREN ARONOFSKY: You\nhave the crystal ball.",
+      "start": 2325.26,
+      "duration": 1.895
+    },
+    {
+      "text": "DEMIS HASSABIS: What's the\nspecific question, Mira,",
+      "start": 2327.155,
+      "duration": 2.125
+    },
+    {
+      "text": "you wanted to ask?",
+      "start": 2329.28,
+      "duration": 0.86
+    },
+    {
+      "text": "MIRA LANE: What do you\nimagine the world will",
+      "start": 2330.14,
+      "duration": 1.02
+    },
+    {
+      "text": "look like in a few years?",
+      "start": 2331.16,
+      "duration": 1.12
+    },
+    {
+      "text": "And Darren, you can't\nskip out on this question,",
+      "start": 2332.28,
+      "duration": 3.14
+    },
+    {
+      "text": "either, because I'm\ncurious about what",
+      "start": 2335.42,
+      "duration": 2.79
+    },
+    {
+      "text": "new forms of\nstorytelling might exist.",
+      "start": 2338.21,
+      "duration": 2.133
+    },
+    {
+      "text": "You guys are pushing\nthe boundary.",
+      "start": 2340.343,
+      "duration": 1.417
+    },
+    {
+      "text": "It's not necessarily going\nto be linear storytelling.",
+      "start": 2341.76,
+      "duration": 2.34
+    },
+    {
+      "text": "There might be other\nways that people are",
+      "start": 2344.1,
+      "duration": 2.15
+    },
+    {
+      "text": "experimenting with these tools.",
+      "start": 2346.25,
+      "duration": 2.01
+    },
+    {
+      "text": "DARREN ARONOFSKY: What's\nexciting to me about \"Ancestra,\"",
+      "start": 2348.26,
+      "duration": 3.52
+    },
+    {
+      "text": "just to talk about that project\nand just hearing Eliza talk,",
+      "start": 2351.78,
+      "duration": 4.08
+    },
+    {
+      "text": "it's like, she probably would\nhave never gone to this project",
+      "start": 2355.86,
+      "duration": 4.13
+    },
+    {
+      "text": "without this technology.",
+      "start": 2359.99,
+      "duration": 1.235
+    },
+    {
+      "text": "ELIZA MCNITT: Absolutely.",
+      "start": 2361.225,
+      "duration": 0.485
+    },
+    {
+      "text": "DARREN ARONOFSKY: And it's an\nincredibly personal technology.",
+      "start": 2361.71,
+      "duration": 2.55
+    },
+    {
+      "text": "And I'm not going to push her.",
+      "start": 2364.26,
+      "duration": 2.19
+    },
+    {
+      "text": "But I can only\nimagine what it might",
+      "start": 2366.45,
+      "duration": 2.48
+    },
+    {
+      "text": "have meant for\nher and her family",
+      "start": 2368.93,
+      "duration": 1.92
+    },
+    {
+      "text": "to do something like this.",
+      "start": 2370.85,
+      "duration": 1.18
+    },
+    {
+      "text": "And I think that's--",
+      "start": 2372.03,
+      "duration": 2.94
+    },
+    {
+      "text": "and when I-- when we\ndecided, Primordial Soup,",
+      "start": 2374.97,
+      "duration": 3.41
+    },
+    {
+      "text": "to work with Eliza, we didn't\nknow she would lean into that.",
+      "start": 2378.38,
+      "duration": 4.12
+    },
+    {
+      "text": "We just knew she was this\nincredible filmmaker that",
+      "start": 2382.5,
+      "duration": 2.81
+    },
+    {
+      "text": "could connect emotional stories\nand also work with technology.",
+      "start": 2385.31,
+      "duration": 4.36
+    },
+    {
+      "text": "And so we were just excited\nto see what happened.",
+      "start": 2389.67,
+      "duration": 2.36
+    },
+    {
+      "text": "And that she stumbled\ninto something so personal",
+      "start": 2392.03,
+      "duration": 3.27
+    },
+    {
+      "text": "for this experiment--",
+      "start": 2395.3,
+      "duration": 1.24
+    },
+    {
+      "text": "I think that's-- that's\nkind of-- show what's going",
+      "start": 2396.54,
+      "duration": 4.43
+    },
+    {
+      "text": "to happen, very\npersonal stories.",
+      "start": 2400.97,
+      "duration": 2.71
+    },
+    {
+      "text": "ELIZA MCNITT: Definitely.",
+      "start": 2403.68,
+      "duration": 1.32
+    },
+    {
+      "text": "I think on that point, it's\nlike, I think the future",
+      "start": 2405.0,
+      "duration": 3.05
+    },
+    {
+      "text": "that this offers us\nis the opportunity",
+      "start": 2408.05,
+      "duration": 2.46
+    },
+    {
+      "text": "to really connect with\nour families in ways",
+      "start": 2410.51,
+      "duration": 1.98
+    },
+    {
+      "text": "that we didn't anticipate.",
+      "start": 2412.49,
+      "duration": 1.48
+    },
+    {
+      "text": "And through this project\nand this process,",
+      "start": 2413.97,
+      "duration": 2.4
+    },
+    {
+      "text": "it's just opened up a whole\nnew relationship with my mom",
+      "start": 2416.37,
+      "duration": 3.17
+    },
+    {
+      "text": "and finding out stories that\nI never knew about my birth.",
+      "start": 2419.54,
+      "duration": 2.83
+    },
+    {
+      "text": "And we had the entire\ngroup at the Creative Lab--",
+      "start": 2422.37,
+      "duration": 3.81
+    },
+    {
+      "text": "Ben Wiley and [? Hobby ?] and\neveryone came out to my house",
+      "start": 2426.18,
+      "duration": 3.38
+    },
+    {
+      "text": "and sat there for a day and had\nthese incredible conversations.",
+      "start": 2429.56,
+      "duration": 4.39
+    },
+    {
+      "text": "And this is not a\nproject I would have ever",
+      "start": 2433.95,
+      "duration": 2.6
+    },
+    {
+      "text": "had the opportunity to\ndo without these tools.",
+      "start": 2436.55,
+      "duration": 2.47
+    },
+    {
+      "text": "And I think, what's amazing\nabout this is, hopefully,",
+      "start": 2439.02,
+      "duration": 2.99
+    },
+    {
+      "text": "in five years, these\ntools will democratize",
+      "start": 2442.01,
+      "duration": 3.27
+    },
+    {
+      "text": "filmmaking so that anybody\ncan pick this up and start",
+      "start": 2445.28,
+      "duration": 4.38
+    },
+    {
+      "text": "to hone their vision\nas a filmmaker",
+      "start": 2449.66,
+      "duration": 2.04
+    },
+    {
+      "text": "without having to spend tons\nof money that's not accessible.",
+      "start": 2451.7,
+      "duration": 3.79
+    },
+    {
+      "text": "So I hope that\nthat's the future.",
+      "start": 2455.49,
+      "duration": 2.72
+    },
+    {
+      "text": "DEMIS HASSABIS: Maybe two\nthings for me is one on--",
+      "start": 2458.21,
+      "duration": 3.07
+    },
+    {
+      "text": "this is a wonderful\ncollaboration.",
+      "start": 2461.28,
+      "duration": 1.67
+    },
+    {
+      "text": "And you can see it just--\nthe beginnings of it.",
+      "start": 2462.95,
+      "duration": 2.435
+    },
+    {
+      "text": "I think, hopefully, we can\ninfluence the way the technology",
+      "start": 2465.385,
+      "duration": 3.715
+    },
+    {
+      "text": "and the creative industries\ngo in a positive direction",
+      "start": 2469.1,
+      "duration": 2.91
+    },
+    {
+      "text": "with-- as a role model, how\nthat collaboration can go.",
+      "start": 2472.01,
+      "duration": 3.078
+    },
+    {
+      "text": "I think this is just\nthe beginning of that.",
+      "start": 2475.088,
+      "duration": 1.792
+    },
+    {
+      "text": "So maybe in 10 years' time,\nwe can look back on that.",
+      "start": 2476.88,
+      "duration": 2.208
+    },
+    {
+      "text": "And hopefully, we've\nwon that balance",
+      "start": 2479.088,
+      "duration": 2.582
+    },
+    {
+      "text": "in terms of creating nourishing\nsoup, delicious soup.",
+      "start": 2481.67,
+      "duration": 4.47
+    },
+    {
+      "text": "And that's what we want to do.",
+      "start": 2486.14,
+      "duration": 1.72
+    },
+    {
+      "text": "And then on the\ntechnology side, what",
+      "start": 2487.86,
+      "duration": 1.653
+    },
+    {
+      "text": "I'm really excited about next,\nwhich relates to our CD-ROM",
+      "start": 2489.513,
+      "duration": 2.417
+    },
+    {
+      "text": "question, which I think was what\nwe were discussing 26 years ago,",
+      "start": 2491.93,
+      "duration": 2.708
+    },
+    {
+      "text": "is how do you use CD-ROMs\nwith interactive games?",
+      "start": 2494.638,
+      "duration": 2.39
+    },
+    {
+      "text": "Well, the next\ngeneration, of course,",
+      "start": 2497.028,
+      "duration": 1.542
+    },
+    {
+      "text": "I'm going to eventually\nwant to do games",
+      "start": 2498.57,
+      "duration": 2.06
+    },
+    {
+      "text": "with these things,\nthese technologies.",
+      "start": 2500.63,
+      "duration": 2.62
+    },
+    {
+      "text": "And Genie 2 is one example.",
+      "start": 2503.25,
+      "duration": 2.12
+    },
+    {
+      "text": "And now we're combining\nthat with Veo quality.",
+      "start": 2505.37,
+      "duration": 2.91
+    },
+    {
+      "text": "So then one can imagine you\nwill have interactive versions",
+      "start": 2508.28,
+      "duration": 4.07
+    },
+    {
+      "text": "of these technologies-- so\nalmost like talking about \"Star",
+      "start": 2512.35,
+      "duration": 4.02
+    },
+    {
+      "text": "Trek,\" the Holodeck,\nin some sense.",
+      "start": 2516.37,
+      "duration": 1.99
+    },
+    {
+      "text": "And then what?",
+      "start": 2518.36,
+      "duration": 0.785
+    },
+    {
+      "text": "What can you do with that, both\nin gaming and entertainment",
+      "start": 2519.145,
+      "duration": 4.028
+    },
+    {
+      "text": "and filmmaking--",
+      "start": 2523.173,
+      "duration": 0.667
+    },
+    {
+      "text": "DARREN ARONOFSKY: Storytelling.",
+      "start": 2523.84,
+      "duration": 0.75
+    },
+    {
+      "text": "DEMIS HASSABIS: --and\nstorytelling, ultimately,",
+      "start": 2524.59,
+      "duration": 1.958
+    },
+    {
+      "text": "with-- which is actually what I\nthink, from my memory at least,",
+      "start": 2526.548,
+      "duration": 2.912
+    },
+    {
+      "text": "was the topic of the\npanel we were on.",
+      "start": 2529.46,
+      "duration": 3.5
+    },
+    {
+      "text": "How do you mix these\ndifferent media,",
+      "start": 2532.96,
+      "duration": 1.78
+    },
+    {
+      "text": "which were nascent, at least\nin gaming in those days--",
+      "start": 2534.74,
+      "duration": 2.85
+    },
+    {
+      "text": "novels, films, games?",
+      "start": 2537.59,
+      "duration": 2.55
+    },
+    {
+      "text": "And now we've got\nthis new dimension.",
+      "start": 2540.14,
+      "duration": 2.602
+    },
+    {
+      "text": "MIRA LANE: I love this.",
+      "start": 2542.742,
+      "duration": 0.958
+    },
+    {
+      "text": "DARREN ARONOFSKY: Fun.",
+      "start": 2543.7,
+      "duration": 0.4
+    },
+    {
+      "text": "MIRA LANE: Yeah, I think we\ncould talk about this for hours.",
+      "start": 2544.1,
+      "duration": 2.64
+    },
+    {
+      "text": "But we'll end right here.",
+      "start": 2546.74,
+      "duration": 1.29
+    },
+    {
+      "text": "Thank you, dear panelists.",
+      "start": 2548.03,
+      "duration": 1.47
+    },
+    {
+      "text": "ELIZA MCNITT: Thank you.",
+      "start": 2549.5,
+      "duration": 0.33
+    },
+    {
+      "text": "DARREN ARONOFSKY:\nThat was amazing.",
+      "start": 2549.83,
+      "duration": 0.6
+    },
+    {
+      "text": "MIRA LANE: Thank you, audience.",
+      "start": 2550.43,
+      "duration": 1.35
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2551.78,
+      "duration": 4.25
+    }
+  ]
+}

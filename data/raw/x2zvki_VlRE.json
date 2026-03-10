@@ -1,0 +1,1367 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "x2zvki_VlRE",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.458
+    },
+    {
+      "text": "KIRUPA CHINNATHAMBI:\nHi, everyone.",
+      "start": 5.543,
+      "duration": 1.417
+    },
+    {
+      "text": "Today, we're going to learn\nabout how Firebase Studio can",
+      "start": 6.96,
+      "duration": 2.375
+    },
+    {
+      "text": "help you build high-quality\nfull-stack AI apps quickly.",
+      "start": 9.335,
+      "duration": 3.475
+    },
+    {
+      "text": "My name is Kirupa Chinnathambi,\nand I'm a PM on Firebase Studio.",
+      "start": 12.81,
+      "duration": 3.39
+    },
+    {
+      "text": "I'm joined by my\ncolleague Rody Davis,",
+      "start": 16.2,
+      "duration": 1.98
+    },
+    {
+      "text": "who is a developer relations\nengineer also on the same team.",
+      "start": 18.18,
+      "duration": 3.36
+    },
+    {
+      "text": "We're going to start by getting\na 30,000-foot overview of how",
+      "start": 21.54,
+      "duration": 3.26
+    },
+    {
+      "text": "app development has changed and\nwhy we built Firebase Studio.",
+      "start": 24.8,
+      "duration": 3.67
+    },
+    {
+      "text": "We will follow up with a deeper\nlook at Firebase Studio's",
+      "start": 28.47,
+      "duration": 2.45
+    },
+    {
+      "text": "marquee features, along with a\nlive demo that really highlights",
+      "start": 30.92,
+      "duration": 3.51
+    },
+    {
+      "text": "the breadth and depth\nof capabilities that",
+      "start": 34.43,
+      "duration": 1.95
+    },
+    {
+      "text": "can help you be productive.",
+      "start": 36.38,
+      "duration": 1.84
+    },
+    {
+      "text": "So there are three big\nchanges to app development",
+      "start": 38.22,
+      "duration": 2.51
+    },
+    {
+      "text": "over the years that\nplayed a big role in us",
+      "start": 40.73,
+      "duration": 2.46
+    },
+    {
+      "text": "building Firebase Studio.",
+      "start": 43.19,
+      "duration": 1.66
+    },
+    {
+      "text": "First, app development has\ngotten really difficult.",
+      "start": 44.85,
+      "duration": 2.94
+    },
+    {
+      "text": "Building apps today is time\nconsuming, often frustrating,",
+      "start": 47.79,
+      "duration": 3.33
+    },
+    {
+      "text": "and filled with numerous\nhoops we need to jump through.",
+      "start": 51.12,
+      "duration": 2.61
+    },
+    {
+      "text": "And this complexity spans\nthe full software development",
+      "start": 53.73,
+      "duration": 3.17
+    },
+    {
+      "text": "lifecycle.",
+      "start": 56.9,
+      "duration": 1.03
+    },
+    {
+      "text": "All stops on this path\nare more complicated",
+      "start": 57.93,
+      "duration": 2.84
+    },
+    {
+      "text": "now than they've ever been.",
+      "start": 60.77,
+      "duration": 1.69
+    },
+    {
+      "text": "This complexity is\nparticularly frustrating",
+      "start": 62.46,
+      "duration": 2.48
+    },
+    {
+      "text": "if you're a\nprofessional developer.",
+      "start": 64.94,
+      "duration": 1.72
+    },
+    {
+      "text": "You and I don't have the luxury\nof skipping steps or cutting",
+      "start": 66.66,
+      "duration": 3.17
+    },
+    {
+      "text": "corners.",
+      "start": 69.83,
+      "duration": 0.82
+    },
+    {
+      "text": "Some of the complexities\nyou need to wrangle",
+      "start": 70.65,
+      "duration": 2.06
+    },
+    {
+      "text": "include answering what your\ntechnology stack should be.",
+      "start": 72.71,
+      "duration": 3.52
+    },
+    {
+      "text": "What are your dependencies?",
+      "start": 76.23,
+      "duration": 2.13
+    },
+    {
+      "text": "Is what you're building secure,\nscalable, and performant?",
+      "start": 78.36,
+      "duration": 3.81
+    },
+    {
+      "text": "Depending on your project,\nyour team, and the industry",
+      "start": 82.17,
+      "duration": 2.66
+    },
+    {
+      "text": "you're working in, the types\nof questions you need to answer",
+      "start": 84.83,
+      "duration": 2.91
+    },
+    {
+      "text": "can be numerous and varied.",
+      "start": 87.74,
+      "duration": 2.05
+    },
+    {
+      "text": "All of this can be\nhugely overwhelming.",
+      "start": 89.79,
+      "duration": 2.67
+    },
+    {
+      "text": "The software\ndevelopment lifecycle",
+      "start": 92.46,
+      "duration": 1.67
+    },
+    {
+      "text": "should be smoother and\neasier for all of us",
+      "start": 94.13,
+      "duration": 2.37
+    },
+    {
+      "text": "to navigate as we\nbuild our apps.",
+      "start": 96.5,
+      "duration": 3.09
+    },
+    {
+      "text": "A trend that we've been\nobserving for some time, that",
+      "start": 99.59,
+      "duration": 2.4
+    },
+    {
+      "text": "really accelerated in\nthe last few years,",
+      "start": 101.99,
+      "duration": 1.83
+    },
+    {
+      "text": "is that software\ndevelopment is becoming",
+      "start": 103.82,
+      "duration": 1.77
+    },
+    {
+      "text": "more decentralized and\ncollaborative across devices,",
+      "start": 105.59,
+      "duration": 2.98
+    },
+    {
+      "text": "geographies, and time zones.",
+      "start": 108.57,
+      "duration": 2.04
+    },
+    {
+      "text": "It used to be that all we\nneeded to get our apps built",
+      "start": 110.61,
+      "duration": 2.51
+    },
+    {
+      "text": "was our primary, often\npowerful, computer.",
+      "start": 113.12,
+      "duration": 2.92
+    },
+    {
+      "text": "Now, over time, we\nstarted to take our work",
+      "start": 116.04,
+      "duration": 2.12
+    },
+    {
+      "text": "onto our personal devices.",
+      "start": 118.16,
+      "duration": 1.57
+    },
+    {
+      "text": "These could be our\nlaptops, phones, tablets,",
+      "start": 119.73,
+      "duration": 2.22
+    },
+    {
+      "text": "and an even smaller\ndevices like watches.",
+      "start": 121.95,
+      "duration": 2.61
+    },
+    {
+      "text": "Beyond just building our apps\nacross a variety of devices,",
+      "start": 124.56,
+      "duration": 3.36
+    },
+    {
+      "text": "we also now work from\na variety of locations.",
+      "start": 127.92,
+      "duration": 2.7
+    },
+    {
+      "text": "It could be a coffee shop.",
+      "start": 130.62,
+      "duration": 1.74
+    },
+    {
+      "text": "It could be a\nsecondary workplace.",
+      "start": 132.36,
+      "duration": 2.07
+    },
+    {
+      "text": "It could even be our homes.",
+      "start": 134.43,
+      "duration": 1.38
+    },
+    {
+      "text": "To add more color\nto the situation,",
+      "start": 135.81,
+      "duration": 1.98
+    },
+    {
+      "text": "we now collaborate closely\nwith other people, each of whom",
+      "start": 137.79,
+      "duration": 3.23
+    },
+    {
+      "text": "could be working\non the same project",
+      "start": 141.02,
+      "duration": 1.83
+    },
+    {
+      "text": "from different locations,\ndifferent devices, and maybe",
+      "start": 142.85,
+      "duration": 2.85
+    },
+    {
+      "text": "even different time zones.",
+      "start": 145.7,
+      "duration": 1.96
+    },
+    {
+      "text": "Third, and one that is probably\nvery top of mind for all of us,",
+      "start": 147.66,
+      "duration": 3.5
+    },
+    {
+      "text": "is the role AI assistants\nand powerful LLMs",
+      "start": 151.16,
+      "duration": 3.03
+    },
+    {
+      "text": "are playing in\ncompletely changing how",
+      "start": 154.19,
+      "duration": 2.43
+    },
+    {
+      "text": "we as developers build apps.",
+      "start": 156.62,
+      "duration": 1.87
+    },
+    {
+      "text": "This visualization really drives\nhome the two extreme workflows",
+      "start": 158.49,
+      "duration": 3.26
+    },
+    {
+      "text": "you, me, and our\nteams are likely",
+      "start": 161.75,
+      "duration": 2.25
+    },
+    {
+      "text": "adopting when building apps.",
+      "start": 164.0,
+      "duration": 1.81
+    },
+    {
+      "text": "On one end, we\nhave a world where",
+      "start": 165.81,
+      "duration": 1.7
+    },
+    {
+      "text": "we are in the driver's\nseat, and the AI",
+      "start": 167.51,
+      "duration": 1.74
+    },
+    {
+      "text": "plays a purely assistive role.",
+      "start": 169.25,
+      "duration": 2.5
+    },
+    {
+      "text": "On the other end,\nwe have a world",
+      "start": 171.75,
+      "duration": 1.7
+    },
+    {
+      "text": "where the AI is doing almost\nall of the heavy lifting.",
+      "start": 173.45,
+      "duration": 2.815
+    },
+    {
+      "text": "We're playing more\nof a consulting role",
+      "start": 176.265,
+      "duration": 1.625
+    },
+    {
+      "text": "and nudging the AI into the\nright direction if needed.",
+      "start": 177.89,
+      "duration": 3.25
+    },
+    {
+      "text": "The complexity of\nproblems AI can solve,",
+      "start": 181.14,
+      "duration": 2.32
+    },
+    {
+      "text": "though, has grown\nby leaps and bounds.",
+      "start": 183.46,
+      "duration": 1.86
+    },
+    {
+      "text": "Today, a quarter of all new code\nat Google is generated by AI.",
+      "start": 185.32,
+      "duration": 4.22
+    },
+    {
+      "text": "Beyond just\nproductivity, use of AI",
+      "start": 189.54,
+      "duration": 2.4
+    },
+    {
+      "text": "also tends to increase overall\nsatisfaction and happiness.",
+      "start": 191.94,
+      "duration": 3.07
+    },
+    {
+      "text": "Here's where a study that showed\nindividuals assigned to use AI",
+      "start": 195.01,
+      "duration": 3.05
+    },
+    {
+      "text": "were both productive\nand more happy",
+      "start": 198.06,
+      "duration": 2.19
+    },
+    {
+      "text": "than individuals and teams\nwho didn't use AI at all.",
+      "start": 200.25,
+      "duration": 3.152
+    },
+    {
+      "text": "This chart highlights\nwhat I said a second ago,",
+      "start": 203.402,
+      "duration": 1.958
+    },
+    {
+      "text": "where the use of AI\npretty much leads",
+      "start": 205.36,
+      "duration": 1.542
+    },
+    {
+      "text": "to an increase in\npositive emotions",
+      "start": 206.902,
+      "duration": 1.748
+    },
+    {
+      "text": "and a decrease in\nnegative emotions.",
+      "start": 208.65,
+      "duration": 2.56
+    },
+    {
+      "text": "This is pretty powerful.",
+      "start": 211.21,
+      "duration": 1.01
+    },
+    {
+      "text": "In recognizing these three major\nshifts, a handful of us who",
+      "start": 212.22,
+      "duration": 3.78
+    },
+    {
+      "text": "love developer tools got\ntogether a few years ago",
+      "start": 216.0,
+      "duration": 2.07
+    },
+    {
+      "text": "and asked, can we do better?",
+      "start": 218.07,
+      "duration": 2.11
+    },
+    {
+      "text": "We landed on a\nhandful of principles.",
+      "start": 220.18,
+      "duration": 3.0
+    },
+    {
+      "text": "First, the ideal environment\nneeds to be ubiquitous.",
+      "start": 223.18,
+      "duration": 3.36
+    },
+    {
+      "text": "You should be able to build\nany app from any device,",
+      "start": 226.54,
+      "duration": 2.76
+    },
+    {
+      "text": "from anywhere.",
+      "start": 229.3,
+      "duration": 1.05
+    },
+    {
+      "text": "You and I should\nhave easy access",
+      "start": 230.35,
+      "duration": 1.97
+    },
+    {
+      "text": "to integrated solutions,\nnot individual puzzle pieces",
+      "start": 232.32,
+      "duration": 2.76
+    },
+    {
+      "text": "that we have to figure out how\nto combine in the right way.",
+      "start": 235.08,
+      "duration": 3.69
+    },
+    {
+      "text": "AI assistants shouldn't just\nbe limited to coding scenarios",
+      "start": 238.77,
+      "duration": 3.33
+    },
+    {
+      "text": "or tacked on as an afterthought.",
+      "start": 242.1,
+      "duration": 2.11
+    },
+    {
+      "text": "AI assistance needs to\nbe thoughtfully woven",
+      "start": 244.21,
+      "duration": 2.36
+    },
+    {
+      "text": "throughout the entirety of the\nsoftware development lifecycle.",
+      "start": 246.57,
+      "duration": 3.37
+    },
+    {
+      "text": "Now, software\ndevelopment has always",
+      "start": 249.94,
+      "duration": 2.09
+    },
+    {
+      "text": "been a collaborative activity.",
+      "start": 252.03,
+      "duration": 1.69
+    },
+    {
+      "text": "And we need to ensure\nthat our tools help here,",
+      "start": 253.72,
+      "duration": 2.4
+    },
+    {
+      "text": "where we can be working across\na variety of devices, locations,",
+      "start": 256.12,
+      "duration": 3.39
+    },
+    {
+      "text": "and time zones.",
+      "start": 259.51,
+      "duration": 2.75
+    },
+    {
+      "text": "To help answer the question\nof \"Can we do better?,\"",
+      "start": 262.26,
+      "duration": 2.68
+    },
+    {
+      "text": "we're thrilled to\nannounce Firebase Studio.",
+      "start": 264.94,
+      "duration": 2.81
+    },
+    {
+      "text": "Firebase Studio is an integrated\nand extensible agentic workspace",
+      "start": 267.75,
+      "duration": 4.08
+    },
+    {
+      "text": "to build, run, and\nmanage web apps,",
+      "start": 271.83,
+      "duration": 2.5
+    },
+    {
+      "text": "cross-platform mobile apps,\nbackend services, and more.",
+      "start": 274.33,
+      "duration": 3.217
+    },
+    {
+      "text": "Let's walk through some\nof the high-level features",
+      "start": 277.547,
+      "duration": 2.083
+    },
+    {
+      "text": "that Firebase Studio\nbrings to the table.",
+      "start": 279.63,
+      "duration": 2.05
+    },
+    {
+      "text": "First, it is fully web-based.",
+      "start": 281.68,
+      "duration": 2.07
+    },
+    {
+      "text": "All you need is a browser\nand an internet connection.",
+      "start": 283.75,
+      "duration": 2.22
+    },
+    {
+      "text": "And just because\nit's in a browser,",
+      "start": 285.97,
+      "duration": 1.64
+    },
+    {
+      "text": "though, does not mean you have\nto sacrifice capabilities.",
+      "start": 287.61,
+      "duration": 2.77
+    },
+    {
+      "text": "You have a full\nCloud VM with access",
+      "start": 290.38,
+      "duration": 1.94
+    },
+    {
+      "text": "to the file system, terminal,\nand other necessary commands.",
+      "start": 292.32,
+      "duration": 3.52
+    },
+    {
+      "text": "It's also built on the\nfamiliar VS Code environment.",
+      "start": 295.84,
+      "duration": 3.54
+    },
+    {
+      "text": "You have easy starting\npoints, configurable using",
+      "start": 299.38,
+      "duration": 2.6
+    },
+    {
+      "text": "a technology called NixOS.",
+      "start": 301.98,
+      "duration": 2.13
+    },
+    {
+      "text": "AI assistance and\ncollaborative features",
+      "start": 304.11,
+      "duration": 2.07
+    },
+    {
+      "text": "are integrated throughout.",
+      "start": 306.18,
+      "duration": 1.87
+    },
+    {
+      "text": "Now, Firebase Studio may look\nvery familiar to many of you.",
+      "start": 308.05,
+      "duration": 3.51
+    },
+    {
+      "text": "It is built on the learnings\nwe received from the hundreds",
+      "start": 311.56,
+      "duration": 2.43
+    },
+    {
+      "text": "and thousands of you\nwho use Project IDX",
+      "start": 313.99,
+      "duration": 2.6
+    },
+    {
+      "text": "and gave us your feedback.",
+      "start": 316.59,
+      "duration": 1.45
+    },
+    {
+      "text": "We actually went public\nwith Project IDX at I/O",
+      "start": 318.04,
+      "duration": 2.69
+    },
+    {
+      "text": "just last year.",
+      "start": 320.73,
+      "duration": 1.18
+    },
+    {
+      "text": "So it's great to highlight\nthe evolution of IDX",
+      "start": 321.91,
+      "duration": 2.06
+    },
+    {
+      "text": "into Firebase Studio with\nyou all at this year's I/O",
+      "start": 323.97,
+      "duration": 3.15
+    },
+    {
+      "text": "conference.",
+      "start": 327.12,
+      "duration": 0.82
+    },
+    {
+      "text": "Now, let's take a look\nat Firebase Studio",
+      "start": 327.94,
+      "duration": 1.91
+    },
+    {
+      "text": "and walk through its\nmost common features.",
+      "start": 329.85,
+      "duration": 2.855
+    },
+    {
+      "text": "When you launch Firebase\nStudio for the first time,",
+      "start": 332.705,
+      "duration": 2.225
+    },
+    {
+      "text": "you'll have a bunch\nof options on how",
+      "start": 334.93,
+      "duration": 1.61
+    },
+    {
+      "text": "you'd like to get started.",
+      "start": 336.54,
+      "duration": 1.15
+    },
+    {
+      "text": "You can start with our\napp prototyper, where",
+      "start": 337.69,
+      "duration": 2.0
+    },
+    {
+      "text": "you specify what\nkind of app you'd",
+      "start": 339.69,
+      "duration": 1.5
+    },
+    {
+      "text": "like to build using multimodal,\nnatural-language prompts.",
+      "start": 341.19,
+      "duration": 3.7
+    },
+    {
+      "text": "In this mode, you can\nask us to build an app.",
+      "start": 344.89,
+      "duration": 2.36
+    },
+    {
+      "text": "Once you do that,\nwe first translate",
+      "start": 347.25,
+      "duration": 1.5
+    },
+    {
+      "text": "your request into something\nwe call a blueprint.",
+      "start": 348.75,
+      "duration": 3.16
+    },
+    {
+      "text": "Think of a blueprint as a\none-pager or a mini PRD.",
+      "start": 351.91,
+      "duration": 3.83
+    },
+    {
+      "text": "When you're OK with\nthe requirements,",
+      "start": 355.74,
+      "duration": 1.87
+    },
+    {
+      "text": "we start building your app.",
+      "start": 357.61,
+      "duration": 1.83
+    },
+    {
+      "text": "You can continue to interact\nwith the AI assistants",
+      "start": 359.44,
+      "duration": 2.18
+    },
+    {
+      "text": "to fine tune the app's output.",
+      "start": 361.62,
+      "duration": 1.93
+    },
+    {
+      "text": "You can draw directly\nonto the preview surface",
+      "start": 363.55,
+      "duration": 2.16
+    },
+    {
+      "text": "with our annotation feature.",
+      "start": 365.71,
+      "duration": 1.32
+    },
+    {
+      "text": "You can select elements\nand describe the changes",
+      "start": 367.03,
+      "duration": 2.36
+    },
+    {
+      "text": "you would like to see.",
+      "start": 369.39,
+      "duration": 1.26
+    },
+    {
+      "text": "Once you are ready to share\nyour application with the world,",
+      "start": 370.65,
+      "duration": 2.5
+    },
+    {
+      "text": "you can choose to deploy\nto Firebase App Hosting",
+      "start": 373.15,
+      "duration": 2.24
+    },
+    {
+      "text": "or make your app temporarily\navailable with our preview mode.",
+      "start": 375.39,
+      "duration": 3.58
+    },
+    {
+      "text": "Now, going back to the\nFirebase Studio landing page,",
+      "start": 378.97,
+      "duration": 2.67
+    },
+    {
+      "text": "you can also create\na new workspace",
+      "start": 381.64,
+      "duration": 1.7
+    },
+    {
+      "text": "and build it\nentirely from scratch",
+      "start": 383.34,
+      "duration": 1.87
+    },
+    {
+      "text": "or choose from a\ncollection of templates.",
+      "start": 385.21,
+      "duration": 2.357
+    },
+    {
+      "text": "We provide some of the\nmost common templates",
+      "start": 387.567,
+      "duration": 1.833
+    },
+    {
+      "text": "available to you for\neasy, direct access.",
+      "start": 389.4,
+      "duration": 2.412
+    },
+    {
+      "text": "You can explore\nour full collection",
+      "start": 391.812,
+      "duration": 1.458
+    },
+    {
+      "text": "of templates, which span\nthe most common starting",
+      "start": 393.27,
+      "duration": 2.28
+    },
+    {
+      "text": "points for frontend,\nbackend, mobile, and more.",
+      "start": 395.55,
+      "duration": 3.37
+    },
+    {
+      "text": "If you want to go one level\ndeeper, below the templates,",
+      "start": 398.92,
+      "duration": 3.0
+    },
+    {
+      "text": "we give you a lot of\nflexibility to specify",
+      "start": 401.92,
+      "duration": 2.3
+    },
+    {
+      "text": "how your environment is\nbuilt all the way down",
+      "start": 404.22,
+      "duration": 2.43
+    },
+    {
+      "text": "to the VM-specific details,\nbuild tools, and more.",
+      "start": 406.65,
+      "duration": 3.54
+    },
+    {
+      "text": "You can also bring your existing\nproject into Firebase Studio.",
+      "start": 410.19,
+      "duration": 3.293
+    },
+    {
+      "text": "You can choose to open your\nproject from popular Git",
+      "start": 413.483,
+      "duration": 2.167
+    },
+    {
+      "text": "providers like GitHub,\nBitbucket, and GitLab,",
+      "start": 415.65,
+      "duration": 2.71
+    },
+    {
+      "text": "or you can upload a zip file\nof your existing project",
+      "start": 418.36,
+      "duration": 2.48
+    },
+    {
+      "text": "from your local computer.",
+      "start": 420.84,
+      "duration": 2.22
+    },
+    {
+      "text": "Independent of how\nyou get started",
+      "start": 423.06,
+      "duration": 1.47
+    },
+    {
+      "text": "with building your app\nin Firebase Studio,",
+      "start": 424.53,
+      "duration": 1.93
+    },
+    {
+      "text": "we give you full\nagentic capabilities",
+      "start": 426.46,
+      "duration": 1.76
+    },
+    {
+      "text": "throughout with\nour AI assistants.",
+      "start": 428.22,
+      "duration": 2.41
+    },
+    {
+      "text": "Changes you ask for can be\nmade to a single line of code",
+      "start": 430.63,
+      "duration": 2.66
+    },
+    {
+      "text": "or to an entire code base.",
+      "start": 433.29,
+      "duration": 1.51
+    },
+    {
+      "text": "This is the power of Gemini\nexposed through our app",
+      "start": 434.8,
+      "duration": 2.51
+    },
+    {
+      "text": "development environment.",
+      "start": 437.31,
+      "duration": 1.78
+    },
+    {
+      "text": "Beyond our built-in AI systems,\nagents from Gemini Code Assist",
+      "start": 439.09,
+      "duration": 3.35
+    },
+    {
+      "text": "will also be fully available.",
+      "start": 442.44,
+      "duration": 2.44
+    },
+    {
+      "text": "Our goal is to ensure\nyou have the flexibility",
+      "start": 444.88,
+      "duration": 2.24
+    },
+    {
+      "text": "to choose how much AI\nassistance you want.",
+      "start": 447.12,
+      "duration": 2.56
+    },
+    {
+      "text": "You can use a lot of AI,\nor you can use some AI.",
+      "start": 449.68,
+      "duration": 2.55
+    },
+    {
+      "text": "You're fully in control.",
+      "start": 452.23,
+      "duration": 1.8
+    },
+    {
+      "text": "Lastly, we talked about the\nimportance of collaboration",
+      "start": 454.03,
+      "duration": 2.6
+    },
+    {
+      "text": "when it comes to building apps.",
+      "start": 456.63,
+      "duration": 1.78
+    },
+    {
+      "text": "Firebase Studio also share\nyour entire workspace",
+      "start": 458.41,
+      "duration": 2.48
+    },
+    {
+      "text": "with your colleagues and\nbuild apps in real time",
+      "start": 460.89,
+      "duration": 2.222
+    },
+    {
+      "text": "just as naturally as you might\nif you're working physically",
+      "start": 463.112,
+      "duration": 2.458
+    },
+    {
+      "text": "side by side with someone.",
+      "start": 465.57,
+      "duration": 1.86
+    },
+    {
+      "text": "Before I hand it\nover to Rody, who",
+      "start": 467.43,
+      "duration": 1.53
+    },
+    {
+      "text": "will walk through\nsome live demos,",
+      "start": 468.96,
+      "duration": 1.54
+    },
+    {
+      "text": "a main takeaway is that Firebase\nStudio is a professional tool",
+      "start": 470.5,
+      "duration": 3.44
+    },
+    {
+      "text": "designed for all developers.",
+      "start": 473.94,
+      "duration": 1.72
+    },
+    {
+      "text": "Whether you're AI first, code\nfirst, frontend, backend,",
+      "start": 475.66,
+      "duration": 2.7
+    },
+    {
+      "text": "greenfield, or brownfield,\nwe have you covered.",
+      "start": 478.36,
+      "duration": 2.43
+    },
+    {
+      "text": "All are welcome.",
+      "start": 480.79,
+      "duration": 1.05
+    },
+    {
+      "text": "Now let's turn it over to Rody.",
+      "start": 481.84,
+      "duration": 3.77
+    },
+    {
+      "text": "RODY DAVIS: Hi, my name is Rody.",
+      "start": 485.61,
+      "duration": 1.57
+    },
+    {
+      "text": "So now it's time to see\nFirebase Studio in action.",
+      "start": 487.18,
+      "duration": 3.42
+    },
+    {
+      "text": "There are two main\nmodes that you can start",
+      "start": 490.6,
+      "duration": 1.94
+    },
+    {
+      "text": "from inside of Firebase Studio.",
+      "start": 492.54,
+      "duration": 2.04
+    },
+    {
+      "text": "The first is an IDE view,\nwhich you should already",
+      "start": 494.58,
+      "duration": 2.55
+    },
+    {
+      "text": "be familiar with because\nit's the same IDE from IDX.",
+      "start": 497.13,
+      "duration": 3.27
+    },
+    {
+      "text": "And the second is a new\napp prototyping agent.",
+      "start": 500.4,
+      "duration": 3.66
+    },
+    {
+      "text": "With this new app\nprototyping agent,",
+      "start": 504.06,
+      "duration": 1.81
+    },
+    {
+      "text": "you can build\nfull-stack applications",
+      "start": 505.87,
+      "duration": 1.82
+    },
+    {
+      "text": "from natural language.",
+      "start": 507.69,
+      "duration": 1.66
+    },
+    {
+      "text": "It will start by creating\na blueprint for us",
+      "start": 509.35,
+      "duration": 2.27
+    },
+    {
+      "text": "to review, which we\ncan modify at will,",
+      "start": 511.62,
+      "duration": 1.99
+    },
+    {
+      "text": "and then continue to iterate\non in the app with the chat.",
+      "start": 513.61,
+      "duration": 3.799
+    },
+    {
+      "text": "When you're happy\nwith the overview,",
+      "start": 517.409,
+      "duration": 1.541
+    },
+    {
+      "text": "you can start the\napp generation,",
+      "start": 518.95,
+      "duration": 1.49
+    },
+    {
+      "text": "and the blueprint will be\nsaved inside the project",
+      "start": 520.44,
+      "duration": 2.28
+    },
+    {
+      "text": "alongside the code.",
+      "start": 522.72,
+      "duration": 2.25
+    },
+    {
+      "text": "The fully featured\napplication it creates",
+      "start": 524.97,
+      "duration": 2.34
+    },
+    {
+      "text": "is backed by Next.js, connected\nto Genkit and Firebase.",
+      "start": 527.31,
+      "duration": 5.01
+    },
+    {
+      "text": "If you're building an AI\nfeature that needs an API key,",
+      "start": 532.32,
+      "duration": 2.86
+    },
+    {
+      "text": "we will create a\nFirebase project for you",
+      "start": 535.18,
+      "duration": 2.04
+    },
+    {
+      "text": "in addition to\ngenerating the API key.",
+      "start": 537.22,
+      "duration": 3.56
+    },
+    {
+      "text": "As you request new features\nor modify existing ones,",
+      "start": 540.78,
+      "duration": 3.1
+    },
+    {
+      "text": "Gemini will update\nGenkit flows and wire up",
+      "start": 543.88,
+      "duration": 2.57
+    },
+    {
+      "text": "any of the multimodal requests\nand handling inside of React",
+      "start": 546.45,
+      "duration": 3.26
+    },
+    {
+      "text": "for you.",
+      "start": 549.71,
+      "duration": 1.65
+    },
+    {
+      "text": "When you feel like the app\nis in a good place to share,",
+      "start": 551.36,
+      "duration": 2.65
+    },
+    {
+      "text": "we have an easy\none-click Publish button",
+      "start": 554.01,
+      "duration": 2.21
+    },
+    {
+      "text": "that will take the\nNext.js application",
+      "start": 556.22,
+      "duration": 2.04
+    },
+    {
+      "text": "and deploy it with\nFirebase App Hosting.",
+      "start": 558.26,
+      "duration": 3.36
+    },
+    {
+      "text": "As you make changes\nto your code,",
+      "start": 561.62,
+      "duration": 1.66
+    },
+    {
+      "text": "you can also create\nnew rollouts by going",
+      "start": 563.28,
+      "duration": 2.27
+    },
+    {
+      "text": "through the exact same flow.",
+      "start": 565.55,
+      "duration": 2.46
+    },
+    {
+      "text": "We also support other\ndeployment options, too,",
+      "start": 568.01,
+      "duration": 2.19
+    },
+    {
+      "text": "which you can take advantage\nof in the code editor.",
+      "start": 570.2,
+      "duration": 3.09
+    },
+    {
+      "text": "Firebase Studio has a powerful\nintegrated development",
+      "start": 573.29,
+      "duration": 2.7
+    },
+    {
+      "text": "environment which lets\nyou bring existing code",
+      "start": 575.99,
+      "duration": 2.58
+    },
+    {
+      "text": "bases with any stack configured\nby the Nix ecosystem.",
+      "start": 578.57,
+      "duration": 3.13
+    },
+    {
+      "text": "And there's also many\ntemplates to get started with,",
+      "start": 581.7,
+      "duration": 2.255
+    },
+    {
+      "text": "with common frameworks and\nlanguages that you use.",
+      "start": 583.955,
+      "duration": 2.865
+    },
+    {
+      "text": "For those that aren't\naware, Nix is probably",
+      "start": 586.82,
+      "duration": 2.01
+    },
+    {
+      "text": "one of the most supported\npackage ecosystems in the Linux",
+      "start": 588.83,
+      "duration": 2.85
+    },
+    {
+      "text": "world.",
+      "start": 591.68,
+      "duration": 0.58
+    },
+    {
+      "text": "There's over 120,000\npackages to choose from.",
+      "start": 592.26,
+      "duration": 3.98
+    },
+    {
+      "text": "Every workspace\nin Firebase Studio",
+      "start": 596.24,
+      "duration": 1.83
+    },
+    {
+      "text": "is running on a full\nVM powered by NixOS.",
+      "start": 598.07,
+      "duration": 3.78
+    },
+    {
+      "text": "This means that you can run\nmost commands in the terminal",
+      "start": 601.85,
+      "duration": 2.46
+    },
+    {
+      "text": "that you would be\nable to locally.",
+      "start": 604.31,
+      "duration": 2.34
+    },
+    {
+      "text": "This could be anything from\nsetting up and configuring",
+      "start": 606.65,
+      "duration": 2.39
+    },
+    {
+      "text": "databases, to\nrunning Docker files,",
+      "start": 609.04,
+      "duration": 2.47
+    },
+    {
+      "text": "or even running both Python node\nand go all in the same terminal",
+      "start": 611.51,
+      "duration": 3.41
+    },
+    {
+      "text": "at the same time.",
+      "start": 614.92,
+      "duration": 1.41
+    },
+    {
+      "text": "Just like how the app\nprototyper has a powerful chat,",
+      "start": 616.33,
+      "duration": 2.98
+    },
+    {
+      "text": "we also have the full\ncapabilities of Gemini",
+      "start": 619.31,
+      "duration": 2.42
+    },
+    {
+      "text": "right inside of our IDE.",
+      "start": 621.73,
+      "duration": 1.95
+    },
+    {
+      "text": "Gemini can read and write\nfiles and run terminal commands",
+      "start": 623.68,
+      "duration": 2.82
+    },
+    {
+      "text": "with the context\nof your project.",
+      "start": 626.5,
+      "duration": 2.52
+    },
+    {
+      "text": "You can also choose\na custom model",
+      "start": 629.02,
+      "duration": 1.68
+    },
+    {
+      "text": "with an API key, upload\nattachments or drawings,",
+      "start": 630.7,
+      "duration": 3.01
+    },
+    {
+      "text": "and have multiple chat\nhistories persisted for later.",
+      "start": 633.71,
+      "duration": 3.5
+    },
+    {
+      "text": "There are so many more things\nwe did not cover, but make",
+      "start": 637.21,
+      "duration": 2.37
+    },
+    {
+      "text": "sure to check out our Firebase\nYouTube channel for more videos",
+      "start": 639.58,
+      "duration": 2.73
+    },
+    {
+      "text": "and our blog for any updates.",
+      "start": 642.31,
+      "duration": 2.4
+    },
+    {
+      "text": "Head over to Firebase\nStudio to learn more",
+      "start": 644.71,
+      "duration": 1.95
+    },
+    {
+      "text": "and try it out for yourself.",
+      "start": 646.66,
+      "duration": 1.45
+    },
+    {
+      "text": "We are in preview now,\nand we would love feedback",
+      "start": 648.11,
+      "duration": 2.183
+    },
+    {
+      "text": "on the product for things\nthat are going great",
+      "start": 650.293,
+      "duration": 1.917
+    },
+    {
+      "text": "and things that can be improved.",
+      "start": 652.21,
+      "duration": 1.595
+    },
+    {
+      "text": "Thanks for watching,\nand we can't",
+      "start": 653.805,
+      "duration": 1.375
+    },
+    {
+      "text": "wait to see what you'll\nbuild with Firebase Studio.",
+      "start": 655.18,
+      "duration": 2.19
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 657.37,
+      "duration": 3.35
+    }
+  ]
+}

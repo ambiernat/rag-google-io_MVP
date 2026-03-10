@@ -1,0 +1,79 @@
+[
+  {
+    "id": "Wl7QvP2eDbA__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 0.0,
+    "timestamp_end": 135.08,
+    "text": "[MUSIC PLAYING] DALE HAWKINS: Hello, everyone. I'm Dale, a Developer\nRelations Engineer on Google Maps Platform. Last year at I/O, we launched 3D\nmaps in the Maps JavaScript API, marking the first time we\ncombined Google's high fidelity, photorealistic 3D maps with\nour rendering technology. We've been amazed\nwith what you've made. Today, we're excited to share\nwith you a significant leap forward for mobile mapping. For the first time ever, we are\nmaking Google's photorealistic 3D maps available to you,\nour Android developers, with Google Maps Platform. This immersive visual\nexperience lets users engage with the world\nin a completely new way. They can explore everything\nfrom soaring city skylines to breathtaking\ncanyons, and even discover hidden gems\nand new neighborhoods, all in stunning detail\nwith incredible realism. So are you ready to add another\ndimension to your mobile mapping apps? Let's dive in and\nsee how it works. This overview video is\ngeared towards developers who already have some experience\nwith Android development. If you're a brand new to Android\ndevelopment, don't worry. We've included links in the\ndescription of this video to resources that will\nhelp you get up to speed. As with our other Google\nMaps Platform offerings, you will need a Google Maps\nAPI key with the maps 3D SDK for Android API enabled. Please refer to the\nlinked documentation for detailed instructions\non how to obtain an API key and ensure the correct\nAPIs are enabled. Be sure to complete this step\nprior to exploring the samples and building your own\n3D maps experiences. The main component in the maps\n3D SDK is the map 3D view. If you are already familiar with\nthe map view in the Google Maps Android SDK, you'll find the map\n3D view conceptually similar. It serves as the primary Android\nview that will host and render the 3D map within your\napplication's layout. If you haven't used map\nview before, don't worry. We'll explain the\nessential aspects as we go. To add a 3D map to your app,\nyou'll integrate the maps 3D",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 118.41,
+    "timestamp_end": 249.17,
+    "text": "It serves as the primary Android\nview that will host and render the 3D map within your\napplication's layout. If you haven't used map\nview before, don't worry. We'll explain the\nessential aspects as we go. To add a 3D map to your app,\nyou'll integrate the maps 3D view into your layout XML file. Here's an example. As you can see in\nthis XML sample, the map 3D view has several\ncustom attributes prefixed with the map 3D namespace. Let's start with\nthe mode attribute. This attribute allows you\nto configure how the base layer will be rendered. You can choose either hybrid,\nwhich displays 3D imagery with base map, roads, labels,\nand points of interest, or satellite, which displays\nonly the 3D imagery. You can also change the\nmap mode programmatically after the view has been created,\nusing the set map mode function. The next set of map 3D\nattributes control the initial camera location and orientation\nand set any camera restrictions. We will dive into the\ndetails of the camera model and camera restrictions\nin just a moment. Once you have added the map 3D\nview to your layout XML file, you can embed it within your\napplication's user interface using a standard Android layout. For instance, you can place\nthe map 3D view within a linear layout, a frame layout, or any\nother layout container that suits your app's design. To bring the map 3D view\nto life in your activity, you'll need to inflate your\nlayout and get a reference to the map 3D view in your code. Here is a minimal example\nof the main activity that demonstrates this. First, we'll inflate our view\nusing the set content view method. Then we'll retrieve our map 3D\nview object using the identifier we assigned it in the XML file. Next, we'll create or restore\nthe state of the underlying map view controller. And finally, we'll\nregister the activity as a listener for\nwhen the map is ready. The on map 3D view ready method\nof the on map 3D view ready callback interface will be\ncalled once the map 3D view has been successfully initiated,\nand the Google Map 3D object is",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 233.27,
+    "timestamp_end": 371.33,
+    "text": "as a listener for\nwhen the map is ready. The on map 3D view ready method\nof the on map 3D view ready callback interface will be\ncalled once the map 3D view has been successfully initiated,\nand the Google Map 3D object is ready for you to use. This object provides the means\nto control and manipulate the 3D map, including\nsetting the camera, adding markers and\nmodels, and much more. And that's the fundamental\nprocess of embedding a 3D Google Map into your Android\napplication using the map 3D view. Your users can now experience\nthe world in stunning 3D within your app, and they're able to\nengage with the 3D map through the built in intuitive\ngestures for panning, tilting, and zooming in and out. I do want to acknowledge that\nwhile the SDK's map 3D view is a view component, it is\ncompatible with Jetpack Compose. In fact, these 3D maps Android\ndemos and the sample app were all built using Compose. Take a look at the source\nfor practical strategies for integrating map 3D view\ninto Compose based UIs. This means you can effectively\nuse the 3D maps capabilities within your Compose\napplications. As we move into the\nrealm of 3D mapping, it shouldn't come as a surprise\nthat we'll need to add a third dimension to the traditional\nlatitude and longitude coordinate class. This is where the lat long\naltitude class comes into play. Let's see how you can\ninstantiate a Lat long altitude class in Kotlin. This class represents\na location by combining the latitude and longitude\ncoordinates with an altitude. Note that we\nspecifically use altitude because these lat long\naltitude instances are not bound to the Earth's surface. This flexibility is essential\nfor positioning markers and models and defining the\ncamera's location in 3D space. Now that we can\nspecify locations in three dimensions, let's use\nthat to build our camera model. We'll start by\nsupplying a center. This tells our camera\nwhere to focus. Additionally, we'll\nneed to specify how the point is to be observed. The heading indicates the\ndirection the camera will point",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 354.59,
+    "timestamp_end": 495.97,
+    "text": "in three dimensions, let's use\nthat to build our camera model. We'll start by\nsupplying a center. This tells our camera\nwhere to focus. Additionally, we'll\nneed to specify how the point is to be observed. The heading indicates the\ndirection the camera will point measured in degrees, clockwise\nfrom North, with North corresponding to 0 degrees,\nEast to 90 degrees, South to 180 degrees,\nand West to 270 degrees. The tilt specifies the angle\nof the camera with respect to the vertical axis in degrees. A tilt of 0 degrees means the\ncamera is pointing straight down towards the Earth,\nwhile a tilt of 90 degrees means the camera is\npointing horizontally in the direction\nspecified by the heading. The range defines the distance\nin meters between the camera's position and the center point. The range can vary from\nup to 360 million meters, allowing from views from\nvery close up to all the way to a truly global perspective. The roll allows you to\nset the angle with respect to the horizon. This parameter can be used to\ncreate effects like banking during a flight simulator\nor even a full barrel roll. With our camera in hand, we\ncan call this set camera method on the Google Map 3D instance\nto reposition the camera, you can use camera restrictions\nto set boundaries on how the user can\nmanipulate the camera, preventing them from wandering\noff into irrelevant parts of the globe. You can also apply the minimum\nand maximum for the heading, tilt, and range. You can also define a boundary\nfor the range of the latitude and longitude. The map's 3D SDK includes two\nbuilt in camera animations, fly to and fly around. The fly to method\nsmoothly moves the camera from its current position\nto a specified destination over a given duration. It is analogous to the animate\ncamera call in the 2D Maps SDK. The fly around animation\ncauses the camera to orbit the\nspecified center point at the given tilt and range. You must also specify\nthe number of rotations the camera should make, and the\ntotal duration the animation should take.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 480.85,
+    "timestamp_end": 619.72,
+    "text": "The fly around animation\ncauses the camera to orbit the\nspecified center point at the given tilt and range. You must also specify\nthe number of rotations the camera should make, and the\ntotal duration the animation should take. You can stop any\nin-progress animation by calling stop\ncamera animation. Markers are essential for\nhighlighting locations of interest on your 3D map. To add a marker, you'll use the\nmarker options class to define its properties and then call the\nadd marker method on your Google Maps 3D instance. Additionally, markers need to\nspecify their altitude mode. This tells the engine how to\ninterpret the altitude parameter of the marker's position. This includes the\nfollowing options. Absolute. The altitude is used as the\nmarker's absolute position in meters above sea level. Clamp to ground. The altitude is\nignored and the marker is placed at the\nelevation of the ground at the given location. Relative to ground. The altitude is the number\nof meters between the marker and the ground. And relative to mesh. This mode positions the marker\nrelative to the height of the 3D mesh at its coordinates. This is particularly relevant\nwhen your 3D scene contains detailed models like buildings,\nand you want to place a marker at a specific height\nrelative to those structures. For example, this screen shows\na marker at 1 meter relative to the 3D mesh. When adding a\nmarker, each marker is associated with a unique ID. You have the flexibility to\neither explicitly specify an ID when creating your\nmarker options object, or if you don't\nprovide one, the SDK will automatically\nassign a unique ID. The ID is important if you need\nto manipulate a specific marker after it has been\nadded to the map. To do this, you can call\nthe add marker method again with a new marker options with\nthe same ID as an existing marker. Instead of creating\na new marker, the SDK will update\nthe properties of the existing marker\nwith the values provided in the new marker options. Additionally, the marker\nobject returned by the call",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 601.72,
+    "timestamp_end": 739.8399999999999,
+    "text": "with a new marker options with\nthe same ID as an existing marker. Instead of creating\na new marker, the SDK will update\nthe properties of the existing marker\nwith the values provided in the new marker options. Additionally, the marker\nobject returned by the call add marker is the only way to\nremove the marker from the map. Take a look at the sample\ncode for a detailed example. Beyond markers, 3D maps allows\nyou to enrich your 3D scenes by adding full 3D models. Unlike markers, which are\ntypically 2D icons anchored to a specific point, models are\nfull three dimensional objects that can represent a wide\nvariety of real world or fictional entities. You can add a 3D model to the\nmap using the model options class and the add model method. In addition to the\nposition, you will have to specify the orientation\nand the scale of the model. The same ID rules apply for\nmanipulating and removing models from the map. The Maps 3D SDK also provides\nmethods for drawing vector graphics on your 3D maps\nusing polygons and polylines. These elements can be invaluable\nfor highlighting specific areas, defining routes, or\nconveying spatial information to your users. Polygons are closed,\nfilled shapes with the ability to add one or\nmore holes inside the polygon. Polylines are not closed\nand do not support holes. In this session, we've taken a\ndeep dive into the new Google Maps 3D SDK for Android, showing\nyou how to bring a whole new dimension to your\nMaps applications. We've covered the\nfundamental building blocks, including the map 3D view,\nthe lat long altitude class, and the camera class. You've seen how to\nposition the camera and to limit the camera to views\nrelevant to your application. And lastly, we've seen how to\nadd markers, models, and vector graphics to our maps. The Google Maps 3D SDK is now\navailable in experimental, and we are incredibly excited to\nsee the innovative and immersive experiences you will create. We encourage you to dive\ninto the documentation, explore the sample code,\nand start building the next",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "Wl7QvP2eDbA__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "Wl7QvP2eDbA",
+    "title": "Google I/O 2025 \u2013 Wl7QvP2eDbA",
+    "timestamp_start": 724.87,
+    "timestamp_end": 748.77,
+    "text": "The Google Maps 3D SDK is now\navailable in experimental, and we are incredibly excited to\nsee the innovative and immersive experiences you will create. We encourage you to dive\ninto the documentation, explore the sample code,\nand start building the next generation of location\naware 3D apps today. We can't wait to see\nwhat you'll build. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

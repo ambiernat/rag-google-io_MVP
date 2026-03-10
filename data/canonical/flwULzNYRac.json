@@ -1,0 +1,90 @@
+[
+  {
+    "id": "flwULzNYRac__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 0.0,
+    "timestamp_end": 133.03,
+    "text": "[MUSIC PLAYING] JAMES WILLIAMS: Hi, my\nname is James Williams. I'm a developer relations\nengineer for Dart and Flutter. A common question I\nhear from developers is if choosing\nFlutter means they will have to start\ncompletely from scratch. I'm happy to tell you\nthat's not the case. Your Flutter apps\ncan make the most of the intersection between\nbespoke Flutter features, native platform\nAPIs, and UI, all from the comfy confines\nof your Dart codebase. Let's talk a little bit about\nhow the architecture of Flutter makes this possible. As you may already\nknow, Flutter is Google's cross-platform\napplication framework that allows you to create\napplications targeting a number of platforms from the\nweb, to mobile, to desktop. Flutter is organized\nas a layered system with the component layers\nbuilding on the ones below them. We playfully call this diagram\nthe Flutter architecture layer cake. In brief, the framework\nlayer provides high level, reusable APIs in Dart for\nthings like common widgets, gestures, accessibility,\nand text input. The engine, implemented in C\nand C++, is more low level. It works with them\nbetter, and is responsible for, amongst other\nthings, some messaging between the native\nplatform and Flutter. Closest to the host\nplatform, the embedder is the entry point from the\nhost system to a Flutter app. This is the one layer\nout of the three whose implementation is\nunique to the host platform, and will be written in the\nlanguages that make the most sense for that platform. The code implementing the\nframework and engine layers is shared between all\nFlutter implementations. The work we'll be doing\ntoday touches all three, so let's begin with\nnative interop-- Dart code that will interface\nwith native libraries from our Flutter layer cake. This work is mostly\nin the engine layer. This is a useful\ntool in your toolbox, but not one that you'll\nlikely be using often. To add access to native\nplatform features or libraries, we have a couple of\ndifferent options-- method channels, and our\nplatform specific code",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 118.27,
+    "timestamp_end": 261.23,
+    "text": "This is a useful\ntool in your toolbox, but not one that you'll\nlikely be using often. To add access to native\nplatform features or libraries, we have a couple of\ndifferent options-- method channels, and our\nplatform specific code generation options JNI gen and\nFFI gen. Let's talk about them briefly. Method channels,\nsometimes described as platform channels\nin our documentation, work by creating a named\npassageway from your Dart code to call platform code. What actually\nhappens is you set up a listener on the native side\nthat monitors for a named method call, executes code, and\nthen passes back a result. This can sometimes be\nunwieldy for a couple reasons. Firstly, it's your\nresponsibility to make sure the message\nis type safe and properly conforms to what your\nDart code expects. Second, it may\nbecome overwhelming for complex objects,\nor if you're deploying to platforms with\n[? disparate ?] implementations of the same feature. Third, because you're making\nmethod calls in two places, you'll have more maintenance\nwork when APIs change. The Pigeon package\nis our solution to reduce the overhead of\nmanaging that platform channel code. It also provides some\ncross-platform code generation capabilities to make\nplatform channels easier. The technique for native\ninterop that we'll be focusing on instead for\nthis first section of the talk is JNI gen. JNI gen generates code for use\nwith the Java native interface, a specification provided by\nthe Java programming language. JNI allows Dart to directly call\nand execute code through Dart in native C and C++ bindings. This method of code\ngeneration is not limited to Java and Kotlin. FFI gen, foreign\nfunction interface, exists for use on iOS\nand other platforms. Some configuration details may\ndiffer, but most of the concepts carry over. In fact, JNI gen uses\nFFI gen under the covers to generate C bindings\nto call Java code. So let's look at a\ndiscrete example. Health Connect by Android is a\nlibrary and app allowing a user to track their health\ninformation and vitals,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 242.35,
+    "timestamp_end": 386.34999999999997,
+    "text": "In fact, JNI gen uses\nFFI gen under the covers to generate C bindings\nto call Java code. So let's look at a\ndiscrete example. Health Connect by Android is a\nlibrary and app allowing a user to track their health\ninformation and vitals, controlling which applications\nhave access to them. Like many people,\nI recently became more concerned about\nmy health and wanted to take steps to better track it\nto assist my health care team. With this small\ntracking app, I can log blood pressure for\na given date and time, allowing medical\ncare professionals to interpret the\nhistorical data, giving my doctor a more\ncomplete picture of what's happening the 363 days of the\nyear when I'm not in his office. Health Connect, however, doesn't\npublish a native Dart library, so we will be using JNI gen to\ngenerate our Dart binding code. Let's talk about what we\nneed to do to get started. First, we need to add JNI and\nJNI gen packages to our project and run their setup tasks. Those tasks will\nretrieve native libraries to run Java code and the\nJNI gen app summarizer that helps translate Java code into\na syntax tree that can then be converted into Dart. The full feature set of a\nJNIgen.yaml file is beyond the scope of our exercise\ntoday, but at minimum, it needs to answer\nthree questions-- what classes should\nhave generated bindings? Where is the source or compiled\ncode for those classes located? Where do we want to store the\ngenerated binding classes? Here is our full\nJNIgen.yaml file. Let's break it up\npiece by piece. Starting with our\nfirst question, the classes directive\naccepts a list of qualified class paths for the\nclasses we would like to use. Onto the second question of\nwhere the source is stored, we have a couple of options. JNI gen has support\nfor libraries distributed on Maven Central\nor Google's Maven repositories. Similar to Dart's pub.dev,\nMaven repositories store built artifacts, both\nsource and compiled code, for the build system\nused by Android. Paths listed under\nMaven_downloads",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 366.25,
+    "timestamp_end": 513.14,
+    "text": "distributed on Maven Central\nor Google's Maven repositories. Similar to Dart's pub.dev,\nMaven repositories store built artifacts, both\nsource and compiled code, for the build system\nused by Android. Paths listed under\nMaven_downloads will be downloaded from\neither of these locations. Alternatively, JNI gen\ncan retrieve dependencies from your Android build files. The output directive\ntells JNI gen where to store the generated classes. In this case, it will be in a\ndirectory named health_connect, with inner classes and packages\nmatching the specified classes. After sorting our\nJNIgen.yaml file, we can finally generate the Dart\nbindings with this line of code. Here's a recap of the full flow\nof commands we have to enter. So we're done, right? Not quite. The code generated by JNI gen is\nDart, but it's unlike most Dart you've ever seen. Here's a quick preview of it. Part of that discrepancy\nis from the fact that JNI uses its\nnative interface to locate a pointer to the\nJava environment in memory, and executes code\nusing that pointer. This is what's happening\nbehind the scenes when you execute\nJNI or FFI gen code. This diagram looks more\nimposing than it is in practice because you'll generally be\nworking with regular Dart or first level bindings. The other factor is that\nin that generation process, it tries to account for\nfeatures from Java that don't exist in Dart. Java and Kotlin allow\nmethod overloading. That's to say, a given class\ncan have multiple methods with the same identifier\nas long as the parameters list is different, either\nin type or in number. Dart doesn't support this. To compensate, JNI gen\nuses a numbered suffix to support methods\nwith the same name. Health permission has\noverloaded get read permission, so the second iteration is\nsuffixed with dollar sign 1. Generic information is\nalso enforced a little bit differently. It will sometimes require\nan extra explicit parameter with the object type. In general, for every\nJava or Kotlin class, several JNI gen classes will be\ngenerated-- a class containing",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 497.63,
+    "timestamp_end": 657.38,
+    "text": "Generic information is\nalso enforced a little bit differently. It will sometimes require\nan extra explicit parameter with the object type. In general, for every\nJava or Kotlin class, several JNI gen classes will be\ngenerated-- a class containing the main logic, a\nclass containing the containerized\ntype information, a class allowing\nfor a nullable type, and the above for\nany inner classes. For example, these are generated\nfrom health permission. Let's look at an\nexample using JNI code. In this code to insert\na blood pressure record, it's mostly imperceptible\nfrom Dart code. In fact, only BP\nrecord and get zone offset originated as Dart code. We have two small\nJNI gen artifacts, the metadata.manualEntry\nfunction call, which has dollar\nsign 2 suffix on it, and the conversion of a\nlist into a typed JList. We can freely mix\ntypes from Dart and JNI gen. How connects records needs\ntimezone offsets to be properly stored. So in the get zone\noffset function, it takes a current\nDart date time, retrieves the time\nzone offset, and uses that to create a Java\nzone offset object. We can also add\nextension methods to Dart that make\nuse of Java objects. In this code to\nretrieve records, we have some minor JNI\ngen artifacts, as well. Beyond the cast to a collection\nthat we've seen before, there's some lookup\nfor type information. This is the original tutorial\ncode that I converted from. The verbosity in the Dart\nversion comes from the fact that JNI gen doesn't\ntranslate default parameter information at this time. And here is the\napp running again. With JNI gen, you can stay in\nthe flow state writing Dart code without the need to constantly\nflip back and forth. In JNI gen, you\naren't limited by what has already been provided by\nthe Dart or Flutter teams. You can use native\nAPIs on day one. You can easily translate\nsnippets from native code samples into Dart. Though I use an Android\nAPI in my example, these same capabilities\nare possible on iOS, as well, through\nFFI gen. I hope you consider JNI gen as a\nvaluable part of your toolbox.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 639.83,
+    "timestamp_end": 773.47,
+    "text": "You can easily translate\nsnippets from native code samples into Dart. Though I use an Android\nAPI in my example, these same capabilities\nare possible on iOS, as well, through\nFFI gen. I hope you consider JNI gen as a\nvaluable part of your toolbox. Returning back to our\narchitecture diagram, the next area we'll talk\nabout, platform views, uses code in the framework\nand embedder layers. Platform views give us a\nmeans to embed a component from iOS or Android when\nthere isn't a Flutter version. Perhaps the view or\nwidget is totally new, or something you've already\ndeveloped in native code and aren't ready to migrate. In either case, you can\nleverage native views to speed up your\nadoption of Flutter, so let's work through\nan example in practice. Keeping with the health theme, I\nwhipped up this Swift component to track some activity metrics. So how do I get\nfrom this to this? To use a native view, I have\nto do a little bit of setup both in Flutter\nand in native code. You can include a component\ndirectly in your app, but it's best to\npackage it as a plugin. Using a plugin will\npromote, reuse and hide implementation details\nfrom end user developers. The first thing Flutter\nneeds is a wrapper component that it can use to\ncall the native view. This will be a widget that's\ncalled directly in your app. One key difference with this\ncode and run-of-the-mill Flutter code is a call to UIkit view. UIkit view encapsulates\nan iOS component given a developer defined string\nfor the view type and creation parameters. The view type is a name\nthe platform code will use to map this request to\nthe native implementation so it can be anything you\nwant it to be as long as it's unique to the native components\nin this app or in this plugin. The embedder layer\nis where we need to make the connections between\nFlutter and the host system. As a result, our work\nwill be in native code. The Flutter embedder\nneeds some helpers to understand which\nnative view to create per the request from UIkit view.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 759.9,
+    "timestamp_end": 889.21,
+    "text": "to make the connections between\nFlutter and the host system. As a result, our work\nwill be in native code. The Flutter embedder\nneeds some helpers to understand which\nnative view to create per the request from UIkit view. Here's the widget in question\nrunning in a Swift playground. For each native component\nwe want to implement, we need some\nadditional classes-- a factory that will take the\nparameters dispatch from UIkit view to create the component,\nand for every native view, we need a class wrapping the\nactual implementation decorated with a Flutter\nplatform view interface so that it can be embedded. Lastly, we need to register the\nview factory with the plugin. Again, the ID is the view type\nthat we selected previously. And since we're using a\nplugin for implementation, we need to include that in\nour pubspec.yaml in our app. So the fact that it\ncame from SwiftUI isn't immediately apparent,\nas it's called the same way as any other Flutter widget. And here's how all of\nthat works together. Let's talk a little bit\nabout the performance of platform views. Using platform views will\nresult in a performance cost, so it should be used\nthoughtfully and sparingly. Let's talk a little\nbit about why. So typically, the\nUI for a Flutter app uses a dedicated thread\nfor its drawing calls. When you use a platform view, it\nengages the main platform thread for drawing, so that can\nimpede other essential tasks like OS or plugin messages. But don't let this deter you\nfrom using a platform view if you need to use one. Simply exercise care. In our short time\ntogether, you've learned that Flutter can\nbe both cross-platform, and at the same time\ngive you specificity and access to target platform\nfeatures, UIs, and APIs. We've outlined the various ways\nto interact with native code. We've walked through\nin detail how you can generate Dart bindings\nfor a native library with JNI gen. And lastly, how to\nintegrate a native platform view into a Flutter app\nalongside Flutter components. You won't need to interact\nwith these capabilities",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "flwULzNYRac__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "flwULzNYRac",
+    "title": "Google I/O 2025 \u2013 flwULzNYRac",
+    "timestamp_start": 874.99,
+    "timestamp_end": 900.75,
+    "text": "you can generate Dart bindings\nfor a native library with JNI gen. And lastly, how to\nintegrate a native platform view into a Flutter app\nalongside Flutter components. You won't need to interact\nwith these capabilities to get the large part of your\nwork done from day to day, but they're there waiting\nfor you when you need them. Thank you for watching. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

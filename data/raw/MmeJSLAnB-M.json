@@ -1,0 +1,1777 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "MmeJSLAnB-M",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.472
+    },
+    {
+      "text": "FRANCESCO ROMANO: Hey everyone!",
+      "start": 5.96,
+      "duration": 1.45
+    },
+    {
+      "text": "Do you remember when\ndeveloping Android apps",
+      "start": 7.41,
+      "duration": 3.08
+    },
+    {
+      "text": "meant designing for a\nsingle screen, just one",
+      "start": 10.49,
+      "duration": 4.17
+    },
+    {
+      "text": "app, one screen, touch\nas the only input type?",
+      "start": 14.66,
+      "duration": 5.37
+    },
+    {
+      "text": "We've been interacting\nwith our digital world one",
+      "start": 20.03,
+      "duration": 2.97
+    },
+    {
+      "text": "window at a time.",
+      "start": 23.0,
+      "duration": 1.86
+    },
+    {
+      "text": "But now look around.",
+      "start": 24.86,
+      "duration": 1.87
+    },
+    {
+      "text": "We have phones that\nunfold into tablets.",
+      "start": 26.73,
+      "duration": 3.48
+    },
+    {
+      "text": "Tablets that dock with keyboards\nand lights like laptops",
+      "start": 30.21,
+      "duration": 4.44
+    },
+    {
+      "text": "and even support for\nexternal displays.",
+      "start": 34.65,
+      "duration": 4.19
+    },
+    {
+      "text": "We're using styluses for\nprecision, keyboards for speed,",
+      "start": 38.84,
+      "duration": 4.36
+    },
+    {
+      "text": "and trackpads for\nnuanced control.",
+      "start": 43.2,
+      "duration": 3.8
+    },
+    {
+      "text": "The interaction model has\ngrown far beyond a single touch",
+      "start": 47.0,
+      "duration": 4.23
+    },
+    {
+      "text": "on a small screen.",
+      "start": 51.23,
+      "duration": 2.4
+    },
+    {
+      "text": "Today, users are expecting\na desktop level experience",
+      "start": 53.63,
+      "duration": 4.11
+    },
+    {
+      "text": "from their Android\ndevices, especially",
+      "start": 57.74,
+      "duration": 2.65
+    },
+    {
+      "text": "on this larger form factors.",
+      "start": 60.39,
+      "duration": 3.33
+    },
+    {
+      "text": "Users aren't just consuming\ncontent on these larger screens.",
+      "start": 63.72,
+      "duration": 5.07
+    },
+    {
+      "text": "They want to create, to\nwork, to be productive.",
+      "start": 68.79,
+      "duration": 4.2
+    },
+    {
+      "text": "And they expect desktop\nlevel interactions.",
+      "start": 72.99,
+      "duration": 4.5
+    },
+    {
+      "text": "This is why Android is\ninvesting in desktop windowing.",
+      "start": 77.49,
+      "duration": 5.16
+    },
+    {
+      "text": "This feature has been\nreleased as a developer",
+      "start": 82.65,
+      "duration": 2.46
+    },
+    {
+      "text": "preview in October 2024,\nand I'm happy to share",
+      "start": 85.11,
+      "duration": 3.78
+    },
+    {
+      "text": "that it will be included in\nthe stable Android 16 AOSP.",
+      "start": 88.89,
+      "duration": 3.84
+    },
+    {
+      "text": "Release.",
+      "start": 92.73,
+      "duration": 2.25
+    },
+    {
+      "text": "We've been working\nclosely with OEMs",
+      "start": 94.98,
+      "duration": 2.55
+    },
+    {
+      "text": "to create a consistent\nexperience that's",
+      "start": 97.53,
+      "duration": 2.49
+    },
+    {
+      "text": "fully integrated into\nthe core Android UI.",
+      "start": 100.02,
+      "duration": 4.26
+    },
+    {
+      "text": "Desktop windowing is more than\njust allowing multiple apps",
+      "start": 104.28,
+      "duration": 3.72
+    },
+    {
+      "text": "on screen at the same time.",
+      "start": 108.0,
+      "duration": 2.46
+    },
+    {
+      "text": "It comes with a new system UI\nto make users more productive",
+      "start": 110.46,
+      "duration": 4.06
+    },
+    {
+      "text": "and a new set of APIs\nto allow developers",
+      "start": 114.52,
+      "duration": 2.93
+    },
+    {
+      "text": "to build [INAUDIBLE]\nexperiences that leverage",
+      "start": 117.45,
+      "duration": 2.96
+    },
+    {
+      "text": "this powerful feature.",
+      "start": 120.41,
+      "duration": 2.82
+    },
+    {
+      "text": "And that's what we're\nhere to talk about today.",
+      "start": 123.23,
+      "duration": 3.36
+    },
+    {
+      "text": "So let's explore how to make\nyour apps ready for this new era",
+      "start": 126.59,
+      "duration": 3.84
+    },
+    {
+      "text": "of Android interactions.",
+      "start": 130.43,
+      "duration": 2.73
+    },
+    {
+      "text": "The first pillar for\na great experience",
+      "start": 133.16,
+      "duration": 2.01
+    },
+    {
+      "text": "is providing an adaptive UI.",
+      "start": 135.17,
+      "duration": 3.36
+    },
+    {
+      "text": "This is not just supporting\nlandscape mode anymore.",
+      "start": 138.53,
+      "duration": 4.47
+    },
+    {
+      "text": "Your app can live in a window\nof almost any size and aspect",
+      "start": 143.0,
+      "duration": 4.68
+    },
+    {
+      "text": "ratio, chosen by the user.",
+      "start": 147.68,
+      "duration": 2.94
+    },
+    {
+      "text": "Even if the tablet\nhas a bigger display,",
+      "start": 150.62,
+      "duration": 2.71
+    },
+    {
+      "text": "that doesn't mean that the app\nwill live in a bigger window.",
+      "start": 153.33,
+      "duration": 4.34
+    },
+    {
+      "text": "In desktop windowing,\nthe minimum window size",
+      "start": 157.67,
+      "duration": 2.97
+    },
+    {
+      "text": "is 386 per 352 DP, which is\nsmaller than most phones.",
+      "start": 160.64,
+      "duration": 6.72
+    },
+    {
+      "text": "And this fundamentally changes\nhow we need to think about UI.",
+      "start": 167.36,
+      "duration": 5.61
+    },
+    {
+      "text": "Because users are not just\nmaking small adjustments",
+      "start": 172.97,
+      "duration": 3.99
+    },
+    {
+      "text": "to the window, they can expand\nyour app to fill a huge Canvas.",
+      "start": 176.96,
+      "duration": 5.65
+    },
+    {
+      "text": "The question becomes,\ndoes your UI just stretch",
+      "start": 182.61,
+      "duration": 4.29
+    },
+    {
+      "text": "or does it adapt?",
+      "start": 186.9,
+      "duration": 2.67
+    },
+    {
+      "text": "Does it reflow intelligently,\nmaybe revealing more panels?",
+      "start": 189.57,
+      "duration": 5.82
+    },
+    {
+      "text": "Can you offer more powerful\nfeatures, richer information",
+      "start": 195.39,
+      "duration": 4.15
+    },
+    {
+      "text": "display?",
+      "start": 199.54,
+      "duration": 1.64
+    },
+    {
+      "text": "How do you implement\nsomething like this?",
+      "start": 201.18,
+      "duration": 2.73
+    },
+    {
+      "text": "The foundation remains the same.",
+      "start": 203.91,
+      "duration": 2.67
+    },
+    {
+      "text": "Use the window size classes as\ninputs to your layout decisions.",
+      "start": 206.58,
+      "duration": 5.76
+    },
+    {
+      "text": "They give you essential context\nabout the available space.",
+      "start": 212.34,
+      "duration": 4.68
+    },
+    {
+      "text": "Don't reinvent the wheel and\nleverage the supporting Jetpack",
+      "start": 217.02,
+      "duration": 3.54
+    },
+    {
+      "text": "libraries for test and\noptimize components.",
+      "start": 220.56,
+      "duration": 3.99
+    },
+    {
+      "text": "Get inspired by the\ncanonical layouts",
+      "start": 224.55,
+      "duration": 2.43
+    },
+    {
+      "text": "to build the perfect\nexperience for your use case.",
+      "start": 226.98,
+      "duration": 4.53
+    },
+    {
+      "text": "We have a bunch of\nupdates for developers",
+      "start": 231.51,
+      "duration": 2.07
+    },
+    {
+      "text": "to support the implementation\nof adaptive UI.",
+      "start": 233.58,
+      "duration": 2.89
+    },
+    {
+      "text": "For more information,\nplease check out",
+      "start": 236.47,
+      "duration": 2.13
+    },
+    {
+      "text": "the link in the description.",
+      "start": 238.6,
+      "duration": 2.31
+    },
+    {
+      "text": "But a great desktop\nexperience is more than just",
+      "start": 240.91,
+      "duration": 4.17
+    },
+    {
+      "text": "looking good at any size.",
+      "start": 245.08,
+      "duration": 2.58
+    },
+    {
+      "text": "It's about workflow\nand productivity.",
+      "start": 247.66,
+      "duration": 4.08
+    },
+    {
+      "text": "A key enabler here is to allow\nmultiple instances of your app.",
+      "start": 251.74,
+      "duration": 5.43
+    },
+    {
+      "text": "Let's say your app\ncan edit documents.",
+      "start": 257.17,
+      "duration": 2.7
+    },
+    {
+      "text": "You really want users to be\nable to open two documents",
+      "start": 259.87,
+      "duration": 3.39
+    },
+    {
+      "text": "at the same time on\ndifferent windows,",
+      "start": 263.26,
+      "duration": 2.2
+    },
+    {
+      "text": "so they can reference one\nwhile editing the others.",
+      "start": 265.46,
+      "duration": 4.49
+    },
+    {
+      "text": "Or maybe you want to share\ncontent between the documents",
+      "start": 269.95,
+      "duration": 3.42
+    },
+    {
+      "text": "with drag and drop.",
+      "start": 273.37,
+      "duration": 2.97
+    },
+    {
+      "text": "There are essentially three ways\nto start an additional instance",
+      "start": 276.34,
+      "duration": 4.08
+    },
+    {
+      "text": "of your app, from a UI\naffordance of your own app,",
+      "start": 280.42,
+      "duration": 4.98
+    },
+    {
+      "text": "from the system UI, and\nthis is new to desktop",
+      "start": 285.4,
+      "duration": 3.9
+    },
+    {
+      "text": "windowing with the\ndrag and drop gesture.",
+      "start": 289.3,
+      "duration": 3.21
+    },
+    {
+      "text": "Let's see how to\nimplement all of them.",
+      "start": 292.51,
+      "duration": 4.11
+    },
+    {
+      "text": "In order to support\nmulti-instance, first of all,",
+      "start": 296.62,
+      "duration": 3.39
+    },
+    {
+      "text": "you need to define a launch\nmode for your activity that",
+      "start": 300.01,
+      "duration": 3.41
+    },
+    {
+      "text": "supports multiple instances.",
+      "start": 303.42,
+      "duration": 3.69
+    },
+    {
+      "text": "In this case, I pick\nsingle instance per task.",
+      "start": 307.11,
+      "duration": 4.32
+    },
+    {
+      "text": "This activity can\nonly run as the root",
+      "start": 311.43,
+      "duration": 2.4
+    },
+    {
+      "text": "activity of the task, the first\nactivity that created the task.",
+      "start": 313.83,
+      "duration": 4.3
+    },
+    {
+      "text": "And therefore, there\ncan only be one instance",
+      "start": 318.13,
+      "duration": 3.62
+    },
+    {
+      "text": "of this activity per task.",
+      "start": 321.75,
+      "duration": 3.57
+    },
+    {
+      "text": "Remember that a new task\nin desktop windowing",
+      "start": 325.32,
+      "duration": 3.27
+    },
+    {
+      "text": "will always result\nin a new window.",
+      "start": 328.59,
+      "duration": 4.29
+    },
+    {
+      "text": "You can now start multiple\ninstances of your activity",
+      "start": 332.88,
+      "duration": 3.03
+    },
+    {
+      "text": "by adding those\nflags in the intent.",
+      "start": 335.91,
+      "duration": 4.56
+    },
+    {
+      "text": "When using the new\ntask flag alone,",
+      "start": 340.47,
+      "duration": 3.06
+    },
+    {
+      "text": "if a task is already\nrunning for the activity",
+      "start": 343.53,
+      "duration": 3.21
+    },
+    {
+      "text": "you are now starting, then a new\nactivity will not be started.",
+      "start": 346.74,
+      "duration": 5.13
+    },
+    {
+      "text": "Instead, the current\ntask will simply",
+      "start": 351.87,
+      "duration": 2.85
+    },
+    {
+      "text": "be brought to the\nfront of the screen",
+      "start": 354.72,
+      "duration": 2.21
+    },
+    {
+      "text": "with the state it was last in.",
+      "start": 356.93,
+      "duration": 3.83
+    },
+    {
+      "text": "If the flag is paired with\nflag activity multiple task,",
+      "start": 360.76,
+      "duration": 4.51
+    },
+    {
+      "text": "then it will skip the\nsearch for a matching task",
+      "start": 365.27,
+      "duration": 3.23
+    },
+    {
+      "text": "and unconditionally\nstart a new task,",
+      "start": 368.5,
+      "duration": 3.84
+    },
+    {
+      "text": "which is required if you want to\nalways open a separate window.",
+      "start": 372.34,
+      "duration": 5.16
+    },
+    {
+      "text": "The exact user experience\ndepends on your custom UI.",
+      "start": 377.5,
+      "duration": 4.5
+    },
+    {
+      "text": "For example, Chrome\nprovides the entry point",
+      "start": 382.0,
+      "duration": 2.97
+    },
+    {
+      "text": "from its contextual layer.",
+      "start": 384.97,
+      "duration": 3.54
+    },
+    {
+      "text": "Next, system UI.",
+      "start": 388.51,
+      "duration": 2.19
+    },
+    {
+      "text": "You can add this property in\nyour manifest to tell the system",
+      "start": 390.7,
+      "duration": 3.51
+    },
+    {
+      "text": "launcher that your activity\nsupports multiple instances.",
+      "start": 394.21,
+      "duration": 4.56
+    },
+    {
+      "text": "So users may be able to start\nanother instance directly",
+      "start": 398.77,
+      "duration": 4.02
+    },
+    {
+      "text": "from the launcher,\nfrom the taskbar,",
+      "start": 402.79,
+      "duration": 2.26
+    },
+    {
+      "text": "or from other system\nUI components.",
+      "start": 405.05,
+      "duration": 3.47
+    },
+    {
+      "text": "One example is the\nnew Window menu",
+      "start": 408.52,
+      "duration": 2.07
+    },
+    {
+      "text": "that pops up from the top\napp handle, which is shown",
+      "start": 410.59,
+      "duration": 3.66
+    },
+    {
+      "text": "only if that property is set.",
+      "start": 414.25,
+      "duration": 4.03
+    },
+    {
+      "text": "Then it gives users a hint that\napp supports multi-instance.",
+      "start": 418.28,
+      "duration": 6.12
+    },
+    {
+      "text": "This is already great, but there\nis an even more natural way",
+      "start": 424.4,
+      "duration": 3.75
+    },
+    {
+      "text": "to start another instance.",
+      "start": 428.15,
+      "duration": 2.34
+    },
+    {
+      "text": "Look at how Chrome starts a new\ninstance by dragging a tab out",
+      "start": 430.49,
+      "duration": 4.38
+    },
+    {
+      "text": "of the app window.",
+      "start": 434.87,
+      "duration": 2.07
+    },
+    {
+      "text": "We can implement that\nby leveraging the drag",
+      "start": 436.94,
+      "duration": 2.67
+    },
+    {
+      "text": "and drop API from the\nCompose Foundation library.",
+      "start": 439.61,
+      "duration": 4.53
+    },
+    {
+      "text": "The important parts\nare the two flags",
+      "start": 444.14,
+      "duration": 2.34
+    },
+    {
+      "text": "that customize drag\nand drop behavior.",
+      "start": 446.48,
+      "duration": 3.42
+    },
+    {
+      "text": "DRAG FLAG GLOBAL\nSAME APPLICATION",
+      "start": 449.9,
+      "duration": 2.58
+    },
+    {
+      "text": "indicates that\nthe drag operation",
+      "start": 452.48,
+      "duration": 2.4
+    },
+    {
+      "text": "can cross window boundaries\nfor multiple instances",
+      "start": 454.88,
+      "duration": 3.81
+    },
+    {
+      "text": "of the same application.",
+      "start": 458.69,
+      "duration": 2.28
+    },
+    {
+      "text": "DRAG FLAG START INTENT\nSENDER ON UNHANDLED DRAG",
+      "start": 460.97,
+      "duration": 3.63
+    },
+    {
+      "text": "tells the system that if the\ndrop event happens outside",
+      "start": 464.6,
+      "duration": 5.16
+    },
+    {
+      "text": "of any visible window,\nit should be delegated",
+      "start": 469.76,
+      "duration": 3.18
+    },
+    {
+      "text": "to the system with solve.",
+      "start": 472.94,
+      "duration": 2.03
+    },
+    {
+      "text": "You may be asking, OK, but\nhow does the system know",
+      "start": 474.97,
+      "duration": 3.93
+    },
+    {
+      "text": "which activity to start?",
+      "start": 478.9,
+      "duration": 2.34
+    },
+    {
+      "text": "Well, we are providing the\ninformation in this function.",
+      "start": 481.24,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's have a deeper look.",
+      "start": 484.24,
+      "duration": 2.13
+    },
+    {
+      "text": "The clip data needs\nto contain the intent",
+      "start": 486.37,
+      "duration": 2.82
+    },
+    {
+      "text": "sender of the activity\nthat you want to launch.",
+      "start": 489.19,
+      "duration": 3.3
+    },
+    {
+      "text": "When the drop event ends\noutside of any visible window,",
+      "start": 492.49,
+      "duration": 3.85
+    },
+    {
+      "text": "the system will capture this\nintent and start the activity.",
+      "start": 496.34,
+      "duration": 5.06
+    },
+    {
+      "text": "Now I want to check if you\nwere paying close attention",
+      "start": 501.4,
+      "duration": 2.55
+    },
+    {
+      "text": "and noticed something\ninteresting about the Chrome UI.",
+      "start": 503.95,
+      "duration": 4.47
+    },
+    {
+      "text": "Yes, Chrome is using a\ncustom app header bar.",
+      "start": 508.42,
+      "duration": 5.16
+    },
+    {
+      "text": "We already saw how all the\napps in desktop windowing",
+      "start": 513.58,
+      "duration": 3.51
+    },
+    {
+      "text": "have this header, which is\nreported as a caption bar",
+      "start": 517.09,
+      "duration": 3.87
+    },
+    {
+      "text": "type of insets.",
+      "start": 520.96,
+      "duration": 1.98
+    },
+    {
+      "text": "It's important to account for\nthis when drawing content edge",
+      "start": 522.94,
+      "duration": 3.21
+    },
+    {
+      "text": "to edge, but you can do more.",
+      "start": 526.15,
+      "duration": 3.39
+    },
+    {
+      "text": "In particular, Chrome is\noptimizing the use of space",
+      "start": 529.54,
+      "duration": 3.42
+    },
+    {
+      "text": "by drawing the tabs\ndirectly in the header bar.",
+      "start": 532.96,
+      "duration": 4.36
+    },
+    {
+      "text": "Apps can use this\nnew appearance type",
+      "start": 537.32,
+      "duration": 2.43
+    },
+    {
+      "text": "to make the header bar\ntransparent to allow custom",
+      "start": 539.75,
+      "duration": 3.57
+    },
+    {
+      "text": "content inside the header bar.",
+      "start": 543.32,
+      "duration": 2.46
+    },
+    {
+      "text": "If an app uses this API,\nthe system automatically",
+      "start": 545.78,
+      "duration": 4.08
+    },
+    {
+      "text": "hides the app's\nname from the bar",
+      "start": 549.86,
+      "duration": 2.28
+    },
+    {
+      "text": "to leave more space\nfor the custom content.",
+      "start": 552.14,
+      "duration": 4.32
+    },
+    {
+      "text": "Let's see an example.",
+      "start": 556.46,
+      "duration": 2.82
+    },
+    {
+      "text": "Look how we are rendering the\ncontent only if the capture",
+      "start": 559.28,
+      "duration": 3.57
+    },
+    {
+      "text": "bar is visible, and\nhow we draw a row that",
+      "start": 562.85,
+      "duration": 4.68
+    },
+    {
+      "text": "has the same dimensions\nof the header bar.",
+      "start": 567.53,
+      "duration": 3.45
+    },
+    {
+      "text": "Then we can add\nour tabs within it,",
+      "start": 570.98,
+      "duration": 3.33
+    },
+    {
+      "text": "but we need to avoid overlapping\nthe system components,",
+      "start": 574.31,
+      "duration": 3.42
+    },
+    {
+      "text": "like the app logo and\nthe window controls.",
+      "start": 577.73,
+      "duration": 4.68
+    },
+    {
+      "text": "Calculating the right\npadding requires",
+      "start": 582.41,
+      "duration": 2.61
+    },
+    {
+      "text": "measuring the caption bar and\nsubtracting the areas reserved",
+      "start": 585.02,
+      "duration": 4.41
+    },
+    {
+      "text": "for system components.",
+      "start": 589.43,
+      "duration": 2.19
+    },
+    {
+      "text": "You can learn more about it at\nthe link in the description.",
+      "start": 591.62,
+      "duration": 3.98
+    },
+    {
+      "text": "Desktop windowing\nworks great on tablets.",
+      "start": 595.6,
+      "duration": 2.92
+    },
+    {
+      "text": "And I'm happy to\nshare that Android",
+      "start": 598.52,
+      "duration": 2.21
+    },
+    {
+      "text": "is working to push it further,\nwith external displays.",
+      "start": 600.73,
+      "duration": 4.95
+    },
+    {
+      "text": "Coming to the beta releases of\n25 Q3, as a developer preview,",
+      "start": 605.68,
+      "duration": 4.18
+    },
+    {
+      "text": "the desktop windowing\nexperience will",
+      "start": 609.86,
+      "duration": 1.91
+    },
+    {
+      "text": "be enabled on compatible\ndevices when connected",
+      "start": 611.77,
+      "duration": 3.6
+    },
+    {
+      "text": "to an external display.",
+      "start": 615.37,
+      "duration": 2.73
+    },
+    {
+      "text": "When the phone is connected\nto an external display,",
+      "start": 618.1,
+      "duration": 3.04
+    },
+    {
+      "text": "the phone state\nremains the same,",
+      "start": 621.14,
+      "duration": 2.25
+    },
+    {
+      "text": "and the new desktop session\nstarts on the external display.",
+      "start": 623.39,
+      "duration": 4.85
+    },
+    {
+      "text": "The phone and the external\ndisplay operate independently.",
+      "start": 628.24,
+      "duration": 4.03
+    },
+    {
+      "text": "And apps are specific\nto the display",
+      "start": 632.27,
+      "duration": 2.48
+    },
+    {
+      "text": "on which they are running.",
+      "start": 634.75,
+      "duration": 2.34
+    },
+    {
+      "text": "When a desktop windowing-enabled\ndevice, like a tablet",
+      "start": 637.09,
+      "duration": 3.45
+    },
+    {
+      "text": "is connected to an\nexternal monitor,",
+      "start": 640.54,
+      "duration": 2.59
+    },
+    {
+      "text": "the desktop session is\nextended across both displays.",
+      "start": 643.13,
+      "duration": 4.88
+    },
+    {
+      "text": "They then function as\none continuous system,",
+      "start": 648.01,
+      "duration": 3.13
+    },
+    {
+      "text": "allowing windows, content,\nand cursor to move freely",
+      "start": 651.14,
+      "duration": 4.32
+    },
+    {
+      "text": "between the two displays.",
+      "start": 655.46,
+      "duration": 2.61
+    },
+    {
+      "text": "Let's talk about\nsome best practices",
+      "start": 658.07,
+      "duration": 2.34
+    },
+    {
+      "text": "to ensure a smooth and\nhigh-quality user experience.",
+      "start": 660.41,
+      "duration": 5.16
+    },
+    {
+      "text": "First, do not assume the display\nobject will remain constant.",
+      "start": 665.57,
+      "duration": 6.03
+    },
+    {
+      "text": "When a user connects or\ndisconnects an external monitor",
+      "start": 671.6,
+      "duration": 4.36
+    },
+    {
+      "text": "or even moves your app\nwindow between displays,",
+      "start": 675.96,
+      "duration": 3.24
+    },
+    {
+      "text": "the underlying display object\nassociated with your apps,",
+      "start": 679.2,
+      "duration": 3.59
+    },
+    {
+      "text": "context, or window can change.",
+      "start": 682.79,
+      "duration": 3.15
+    },
+    {
+      "text": "Its properties like size,\nresolution, refresh rate,",
+      "start": 685.94,
+      "duration": 4.18
+    },
+    {
+      "text": "and density can\nall be different.",
+      "start": 690.12,
+      "duration": 4.13
+    },
+    {
+      "text": "Hardcoding values based\non the phone screen,",
+      "start": 694.25,
+      "duration": 2.92
+    },
+    {
+      "text": "for example, will break\nlayouts on an external display.",
+      "start": 697.17,
+      "duration": 3.415
+    },
+    {
+      "text": "Second, you must account for\ndensity configuration changes.",
+      "start": 703.1,
+      "duration": 5.31
+    },
+    {
+      "text": "External monitors can\nhave vastly different",
+      "start": 708.41,
+      "duration": 2.89
+    },
+    {
+      "text": "pixel densities.",
+      "start": 711.3,
+      "duration": 1.24
+    },
+    {
+      "text": "So make sure your app\nresponds correctly",
+      "start": 712.54,
+      "duration": 2.66
+    },
+    {
+      "text": "to these density changes.",
+      "start": 715.2,
+      "duration": 3.12
+    },
+    {
+      "text": "This means using\ndensity-independent pixels",
+      "start": 718.32,
+      "duration": 3.18
+    },
+    {
+      "text": "for layout, providing\ndensity-specific resources,",
+      "start": 721.5,
+      "duration": 4.03
+    },
+    {
+      "text": "and ensuring your UI\nscales appropriately.",
+      "start": 725.53,
+      "duration": 5.12
+    },
+    {
+      "text": "Finally, think beyond\njust the screen.",
+      "start": 730.65,
+      "duration": 4.08
+    },
+    {
+      "text": "When users connect to\nan external monitor,",
+      "start": 734.73,
+      "duration": 2.41
+    },
+    {
+      "text": "they often create a more\ndesktop-like environment.",
+      "start": 737.14,
+      "duration": 4.67
+    },
+    {
+      "text": "This frequently involves using\nexternal keyboards, mice,",
+      "start": 741.81,
+      "duration": 4.48
+    },
+    {
+      "text": "trackpads, webcams,\nmicrophones, and speakers.",
+      "start": 746.29,
+      "duration": 4.49
+    },
+    {
+      "text": "So ensure your app\nworks seamlessly",
+      "start": 750.78,
+      "duration": 2.88
+    },
+    {
+      "text": "with these peripherals.",
+      "start": 753.66,
+      "duration": 2.34
+    },
+    {
+      "text": "Handle keyboard shortcuts,\nmouse pointer interactions,",
+      "start": 756.0,
+      "duration": 3.64
+    },
+    {
+      "text": "correctly support external\ncameras or microphones,",
+      "start": 759.64,
+      "duration": 3.51
+    },
+    {
+      "text": "and respect audio\noutput routing.",
+      "start": 763.15,
+      "duration": 3.65
+    },
+    {
+      "text": "So what's the next step?",
+      "start": 766.8,
+      "duration": 2.76
+    },
+    {
+      "text": "The great news is that enhanced\nsupport for external monitors,",
+      "start": 769.56,
+      "duration": 4.29
+    },
+    {
+      "text": "including many of the\ncapabilities we have discussed",
+      "start": 773.85,
+      "duration": 2.69
+    },
+    {
+      "text": "today, is coming soon as a\ndeveloper preview in the Android",
+      "start": 776.54,
+      "duration": 4.29
+    },
+    {
+      "text": "beta program.",
+      "start": 780.83,
+      "duration": 2.1
+    },
+    {
+      "text": "Stay tuned to learn how to\ntry the connected display",
+      "start": 782.93,
+      "duration": 3.03
+    },
+    {
+      "text": "experience.",
+      "start": 785.96,
+      "duration": 2.61
+    },
+    {
+      "text": "This is the perfect\nopportunity to identify",
+      "start": 788.57,
+      "duration": 2.46
+    },
+    {
+      "text": "areas for improvement and\nstart implementing these best",
+      "start": 791.03,
+      "duration": 3.15
+    },
+    {
+      "text": "practices now, ensuring your app\nis ready to deliver a fantastic",
+      "start": 794.18,
+      "duration": 4.62
+    },
+    {
+      "text": "experience as more users\nadopt multi-display setups.",
+      "start": 798.8,
+      "duration": 4.65
+    },
+    {
+      "text": "Remember that building apps that\nwork great on different devices",
+      "start": 803.45,
+      "duration": 4.23
+    },
+    {
+      "text": "means more than just\nfitting to the screen.",
+      "start": 807.68,
+      "duration": 3.93
+    },
+    {
+      "text": "It's also about using\npowerful interaction tools.",
+      "start": 811.61,
+      "duration": 4.23
+    },
+    {
+      "text": "Join Miguel to learn how\nimproved stylus support",
+      "start": 815.84,
+      "duration": 2.76
+    },
+    {
+      "text": "can boost productivity and\ncreativity in your apps.",
+      "start": 818.6,
+      "duration": 4.738
+    },
+    {
+      "text": "MIGUEL MONTEMAYOR:\nThanks, Francesco.",
+      "start": 823.338,
+      "duration": 1.542
+    },
+    {
+      "text": "Styluses are transforming\nAndroid devices",
+      "start": 824.88,
+      "duration": 2.75
+    },
+    {
+      "text": "into powerful tools for both\nproductivity and creativity.",
+      "start": 827.63,
+      "duration": 4.28
+    },
+    {
+      "text": "Users expect inking to\nfeel as natural and fluid",
+      "start": 831.91,
+      "duration": 3.32
+    },
+    {
+      "text": "as writing on paper.",
+      "start": 835.23,
+      "duration": 2.13
+    },
+    {
+      "text": "To create a simple, fluid\ninking experience like this,",
+      "start": 837.36,
+      "duration": 3.31
+    },
+    {
+      "text": "it generally required\na lot of investment",
+      "start": 840.67,
+      "duration": 2.15
+    },
+    {
+      "text": "in graphics and geometry\njust to get started.",
+      "start": 842.82,
+      "duration": 3.9
+    },
+    {
+      "text": "Developers had to\nhandle everything",
+      "start": 846.72,
+      "duration": 1.65
+    },
+    {
+      "text": "from generating stroke\nshapes with stylus input,",
+      "start": 848.37,
+      "duration": 2.59
+    },
+    {
+      "text": "to rendering those strokes\nquickly and efficiently,",
+      "start": 850.96,
+      "duration": 3.12
+    },
+    {
+      "text": "and even performing complex\ngeometric calculations",
+      "start": 854.08,
+      "duration": 3.08
+    },
+    {
+      "text": "for things like\nerasing and selection.",
+      "start": 857.16,
+      "duration": 3.03
+    },
+    {
+      "text": "We built the ink Jetpack\nlibrary to simplify",
+      "start": 860.19,
+      "duration": 2.79
+    },
+    {
+      "text": "the process of creating,\nrendering, and manipulating",
+      "start": 862.98,
+      "duration": 3.48
+    },
+    {
+      "text": "beautiful ink strokes.",
+      "start": 866.46,
+      "duration": 1.72
+    },
+    {
+      "text": "It provides a powerful\nand modular toolkit",
+      "start": 868.18,
+      "duration": 2.48
+    },
+    {
+      "text": "for integrating rich inking\nfeatures into your app.",
+      "start": 870.66,
+      "duration": 4.32
+    },
+    {
+      "text": "The library consists\nof six modules.",
+      "start": 874.98,
+      "duration": 2.82
+    },
+    {
+      "text": "The Strokes module is the\nfoundation of the ink library,",
+      "start": 877.8,
+      "duration": 3.4
+    },
+    {
+      "text": "handling core data types for\ninteracting with ink input.",
+      "start": 881.2,
+      "duration": 3.62
+    },
+    {
+      "text": "The Authoring module\nmanages the capture",
+      "start": 884.82,
+      "duration": 2.28
+    },
+    {
+      "text": "of user input and real\ntime rendering of strokes",
+      "start": 887.1,
+      "duration": 2.77
+    },
+    {
+      "text": "and facilitates\nlow-latency rendering.",
+      "start": 889.87,
+      "duration": 3.81
+    },
+    {
+      "text": "The Brush module manages\nthe visual style of strokes",
+      "start": 893.68,
+      "duration": 3.3
+    },
+    {
+      "text": "through properties like\ncolor, size, and texture.",
+      "start": 896.98,
+      "duration": 4.17
+    },
+    {
+      "text": "The Geometry module provides\ngeometric primitives",
+      "start": 901.15,
+      "duration": 3.03
+    },
+    {
+      "text": "for shape manipulation\nand enables features",
+      "start": 904.18,
+      "duration": 2.82
+    },
+    {
+      "text": "like stroke erasing\nand selection.",
+      "start": 907.0,
+      "duration": 3.18
+    },
+    {
+      "text": "The Rendering\nmodule incorporates",
+      "start": 910.18,
+      "duration": 1.89
+    },
+    {
+      "text": "canvasStrokeRenderer and\nviewStrokeRenderer, offering",
+      "start": 912.07,
+      "duration": 3.81
+    },
+    {
+      "text": "performant rendering pipelines\nwith anti-aliasing support",
+      "start": 915.88,
+      "duration": 3.48
+    },
+    {
+      "text": "for Compose and\nview-based UIs. Finally,",
+      "start": 919.36,
+      "duration": 4.63
+    },
+    {
+      "text": "the Storage module\nprovides efficient storage",
+      "start": 923.99,
+      "duration": 2.24
+    },
+    {
+      "text": "of stroke input data.",
+      "start": 926.23,
+      "duration": 2.16
+    },
+    {
+      "text": "As a developer, you can\nuse only the modules needed",
+      "start": 928.39,
+      "duration": 2.7
+    },
+    {
+      "text": "for your app's architecture.",
+      "start": 931.09,
+      "duration": 2.01
+    },
+    {
+      "text": "We've received great feedback\nfrom our early partners.",
+      "start": 933.1,
+      "duration": 3.54
+    },
+    {
+      "text": "Ink API significantly reduced\nthe workload required for them",
+      "start": 936.64,
+      "duration": 3.78
+    },
+    {
+      "text": "to implement responsive\nfluid inking in their app.",
+      "start": 940.42,
+      "duration": 3.21
+    },
+    {
+      "text": "Now let's take a look\nat the Brush module",
+      "start": 943.63,
+      "duration": 2.077
+    },
+    {
+      "text": "and some of the\nrecent improvements we",
+      "start": 945.707,
+      "duration": 1.583
+    },
+    {
+      "text": "made with custom brushes.",
+      "start": 947.29,
+      "duration": 2.34
+    },
+    {
+      "text": "You can use the Brush module\nin its factory methods",
+      "start": 949.63,
+      "duration": 2.55
+    },
+    {
+      "text": "to get started quickly\nusing stock brushes",
+      "start": 952.18,
+      "duration": 2.52
+    },
+    {
+      "text": "for pressure-sensitive\npins, highlighters, markers,",
+      "start": 954.7,
+      "duration": 3.7
+    },
+    {
+      "text": "and dashed lines.",
+      "start": 958.4,
+      "duration": 1.35
+    },
+    {
+      "text": "Here you see how I quickly\ncreated a brush with the stock",
+      "start": 959.75,
+      "duration": 3.23
+    },
+    {
+      "text": "pressure pin and set the color,\nsize, and epsilon of the brush.",
+      "start": 962.98,
+      "duration": 4.71
+    },
+    {
+      "text": "We now have added support\nfor customized brushes",
+      "start": 967.69,
+      "duration": 2.94
+    },
+    {
+      "text": "with new experimental\nAPIs, which",
+      "start": 970.63,
+      "duration": 2.64
+    },
+    {
+      "text": "lets you unleash your\ncreativity to implement",
+      "start": 973.27,
+      "duration": 2.31
+    },
+    {
+      "text": "fun, expressive brushes,\nor just match your existing",
+      "start": 975.58,
+      "duration": 4.35
+    },
+    {
+      "text": "set of brushes.",
+      "start": 979.93,
+      "duration": 2.1
+    },
+    {
+      "text": "Here are just a few examples of\nthe many types of custom brushes",
+      "start": 982.03,
+      "duration": 3.45
+    },
+    {
+      "text": "supported in the Ink API.",
+      "start": 985.48,
+      "duration": 1.93
+    },
+    {
+      "text": "You can customize many\nattributes like brush tip shape,",
+      "start": 987.41,
+      "duration": 3.75
+    },
+    {
+      "text": "layering multiple tips,\nand using particles",
+      "start": 991.16,
+      "duration": 2.96
+    },
+    {
+      "text": "to create these effects.",
+      "start": 994.12,
+      "duration": 2.07
+    },
+    {
+      "text": "To use a custom\nbrush in your app,",
+      "start": 996.19,
+      "duration": 2.02
+    },
+    {
+      "text": "you'll need to do two things.",
+      "start": 998.21,
+      "duration": 1.83
+    },
+    {
+      "text": "First, load the\nbrush family file",
+      "start": 1000.04,
+      "duration": 2.42
+    },
+    {
+      "text": "that you created or has\nbeen distributed separately",
+      "start": 1002.46,
+      "duration": 2.76
+    },
+    {
+      "text": "in your app.",
+      "start": 1005.22,
+      "duration": 1.41
+    },
+    {
+      "text": "If the brush\ndoesn't use textures",
+      "start": 1006.63,
+      "duration": 2.13
+    },
+    {
+      "text": "like pens, highlighters,\nand markers,",
+      "start": 1008.76,
+      "duration": 2.83
+    },
+    {
+      "text": "you can load the brush file\nwith the brush family decoder",
+      "start": 1011.59,
+      "duration": 2.72
+    },
+    {
+      "text": "throw method, as shown here.",
+      "start": 1014.31,
+      "duration": 2.55
+    },
+    {
+      "text": "Then you can use that brush\nfamily when creating the brush.",
+      "start": 1016.86,
+      "duration": 3.75
+    },
+    {
+      "text": "When saving an\ninking file, your app",
+      "start": 1020.61,
+      "duration": 2.16
+    },
+    {
+      "text": "must save all the brush\nfamilies used by any stroke.",
+      "start": 1022.77,
+      "duration": 3.66
+    },
+    {
+      "text": "If the brush uses textures like\na pencil or charcoal texture,",
+      "start": 1026.43,
+      "duration": 3.617
+    },
+    {
+      "text": "you'll need to make\nsure to correctly",
+      "start": 1030.047,
+      "duration": 1.542
+    },
+    {
+      "text": "load, manage, and render ink\nstrokes with the texture.",
+      "start": 1031.589,
+      "duration": 4.051
+    },
+    {
+      "text": "This code demonstrates\ninitializing a texture bitmap",
+      "start": 1035.64,
+      "duration": 3.449
+    },
+    {
+      "text": "store, loading brush families\nwith texture decoding,",
+      "start": 1039.089,
+      "duration": 3.401
+    },
+    {
+      "text": "and then later will set\nup inProgressStrokesView",
+      "start": 1042.49,
+      "duration": 2.69
+    },
+    {
+      "text": "and canvasStrokeRenderer\nto use the texture.",
+      "start": 1045.18,
+      "duration": 2.939
+    },
+    {
+      "text": "As a first step,\ninteractivity, we",
+      "start": 1048.119,
+      "duration": 2.311
+    },
+    {
+      "text": "initialize a texture bitmap\nstore named textureStore.",
+      "start": 1050.43,
+      "duration": 4.02
+    },
+    {
+      "text": "Step 2, using serialized\nversion of the brushes",
+      "start": 1054.45,
+      "duration": 3.33
+    },
+    {
+      "text": "we created earlier, we\nload brush family data",
+      "start": 1057.78,
+      "duration": 2.82
+    },
+    {
+      "text": "from raw resources for\nsparkle brush and pencil brush",
+      "start": 1060.6,
+      "duration": 3.21
+    },
+    {
+      "text": "using the decoder throw method.",
+      "start": 1063.81,
+      "duration": 2.47
+    },
+    {
+      "text": "Lastly, step 3,\nour renderers need",
+      "start": 1066.28,
+      "duration": 2.73
+    },
+    {
+      "text": "to know where to\nget our textures.",
+      "start": 1069.01,
+      "duration": 1.75
+    },
+    {
+      "text": "So we pass the texture store\nto both inProgressStrokesView",
+      "start": 1070.76,
+      "duration": 3.56
+    },
+    {
+      "text": "and the canvasStrokeRenderer.",
+      "start": 1074.32,
+      "duration": 3.24
+    },
+    {
+      "text": "Additionally, we're working on\nNative Compose APIs coming soon",
+      "start": 1077.56,
+      "duration": 4.26
+    },
+    {
+      "text": "that make it even\neasier to integrate",
+      "start": 1081.82,
+      "duration": 2.1
+    },
+    {
+      "text": "Ink API in Compose-based apps.",
+      "start": 1083.92,
+      "duration": 3.57
+    },
+    {
+      "text": "The last update on Ink\nAPI I want to share",
+      "start": 1087.49,
+      "duration": 2.46
+    },
+    {
+      "text": "is improvements we've made\nto the new Storage module.",
+      "start": 1089.95,
+      "duration": 3.18
+    },
+    {
+      "text": "Ink API has recently introduced\nserialization of stroke input",
+      "start": 1093.13,
+      "duration": 4.08
+    },
+    {
+      "text": "batch, which uses\ndelta compression",
+      "start": 1097.21,
+      "duration": 2.19
+    },
+    {
+      "text": "algorithms to significantly\nreduce the storage",
+      "start": 1099.4,
+      "duration": 2.64
+    },
+    {
+      "text": "size of stroke input data.",
+      "start": 1102.04,
+      "duration": 2.61
+    },
+    {
+      "text": "Along with Ink API, we're\nexcited to share that more OEM",
+      "start": 1104.65,
+      "duration": 3.42
+    },
+    {
+      "text": "devices now support Notes Roll.",
+      "start": 1108.07,
+      "duration": 3.24
+    },
+    {
+      "text": "Notes Roll is a system\nlevel default app",
+      "start": 1111.31,
+      "duration": 2.46
+    },
+    {
+      "text": "roll that makes\nit easy for users",
+      "start": 1113.77,
+      "duration": 1.8
+    },
+    {
+      "text": "to access their preferred\nnote taking app.",
+      "start": 1115.57,
+      "duration": 2.76
+    },
+    {
+      "text": "Your app can be opened\nin a floating window",
+      "start": 1118.33,
+      "duration": 2.25
+    },
+    {
+      "text": "or from the lock\nscreen for quick access",
+      "start": 1120.58,
+      "duration": 2.25
+    },
+    {
+      "text": "and easy multitasking.",
+      "start": 1122.83,
+      "duration": 2.0
+    },
+    {
+      "text": "Select devices with Android\n15 now support Notes Roll.",
+      "start": 1124.83,
+      "duration": 4.32
+    },
+    {
+      "text": "To learn more about how your\napp can support and register",
+      "start": 1129.15,
+      "duration": 2.88
+    },
+    {
+      "text": "for Notes Roll and to get\nstarted building with Ink API",
+      "start": 1132.03,
+      "duration": 3.42
+    },
+    {
+      "text": "today, check out the links in\nthe description of the video.",
+      "start": 1135.45,
+      "duration": 3.93
+    },
+    {
+      "text": "Now that you've seen all\nthe ways Android is letting",
+      "start": 1139.38,
+      "duration": 2.67
+    },
+    {
+      "text": "developers and users do more\nthan ever with their Android",
+      "start": 1142.05,
+      "duration": 2.67
+    },
+    {
+      "text": "devices, like investing in\ndesktop windowing to provide",
+      "start": 1144.72,
+      "duration": 3.36
+    },
+    {
+      "text": "a desktop level user experience,\nand improving the ink",
+      "start": 1148.08,
+      "duration": 3.42
+    },
+    {
+      "text": "API to reduce the\neffort needed to build",
+      "start": 1151.5,
+      "duration": 2.28
+    },
+    {
+      "text": "natural and fluid inking\nexperiences in your app, now",
+      "start": 1153.78,
+      "duration": 3.18
+    },
+    {
+      "text": "it's up to you to\nbuild experiences",
+      "start": 1156.96,
+      "duration": 1.71
+    },
+    {
+      "text": "that let your users do more\nin your app and on Android.",
+      "start": 1158.67,
+      "duration": 3.66
+    },
+    {
+      "text": "Check out the resources\nlinked below to leverage",
+      "start": 1162.33,
+      "duration": 3.0
+    },
+    {
+      "text": "the latest APIs to build\ndesktop quality experiences",
+      "start": 1165.33,
+      "duration": 3.06
+    },
+    {
+      "text": "and fully utilize\nother modes of input,",
+      "start": 1168.39,
+      "duration": 2.26
+    },
+    {
+      "text": "like keyboard,\nmouse, and stylus.",
+      "start": 1170.65,
+      "duration": 1.7
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1172.35,
+      "duration": 3.35
+    }
+  ]
+}

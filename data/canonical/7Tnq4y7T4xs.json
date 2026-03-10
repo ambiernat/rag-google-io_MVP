@@ -1,0 +1,68 @@
+[
+  {
+    "id": "7Tnq4y7T4xs__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 0.0,
+    "timestamp_end": 152.84,
+    "text": "[MUSIC PLAYING] JINGYU SHI: Hi, I'm\nJingyu, and with me is Kate We work on AI on Android. KATERYNA SEMENOVAV:\nAndroid empowers developers like you to\ncreate incredibly smart and engaging experiences. Think about personalization,\ncontext awareness, and new generative tools. Want to build these advanced\ncapabilities into your app? JINGYU SHI: That's\nwhere Gemini comes in. Today, we'll explore how\nGoogle's powerful Gemini models and APIs help Android\ndevelopers achieve this. First, we'll guide you through\nintelligent experiences on Android OS powered by Gemini. KATERYNA SEMENOVAV:\nThen we will review how you can leverage\nGemini models to implement smart and excellent\nexperiences into your apps. Let's get started. Android is becoming\neven more intelligent, helping users be more productive\nand unlock creativity. Gemini, our AI system, is\nbuilt into the core of Android. It bridges contacts across apps\nto help with task automation and save users time. Gemini can complete actions\nacross connected apps, like Calendar, Maps,\nand many others. For example, you can ask\nGemini to add a reminder or look up information\nfrom an email, and Gemini will complete\nthe task for you. This identical experience is\navailable on Android phones, foldables, and tablets,\nincluding the latest Pixel 9 series, Samsung's Galaxy S24\nseries, and Xiaomi 15 series. And it will be coming\nto more devices soon, including form\nfactors like [? wear, ?] TV, auto, and XR devices. Stay tuned for more\ninformation on how to integrate your own apps with Gemini soon. JINGYU SHI: Now we\ntalked about how Android OS is more intelligent. Let's talk about\nhow you can build smart and personalized\nexperiences with the right Gemini models\nand Google's AI in your apps. At Google, we provide\na full tech stack, [? unlocking ?] you to build AI\nwith the end-to-end experience. This includes our\nadvanced AI models running in the cloud and our local model\noptimized for mobile devices, along with a suite of tools,\nruntimes, and infrastructure for AI development.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "7Tnq4y7T4xs__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 133.67,
+    "timestamp_end": 287.35,
+    "text": "[? unlocking ?] you to build AI\nwith the end-to-end experience. This includes our\nadvanced AI models running in the cloud and our local model\noptimized for mobile devices, along with a suite of tools,\nruntimes, and infrastructure for AI development. To navigate these\ndifferent options and find the right\nsolution, let's consider some key questions\nfor your use case. First, think about modality. Ask yourself, what am I\nfeeding into the system? Is it text and image, maybe\nan audio or a video file? And equally important,\nwhat do I need to generate? Are you looking for text\noutput or audio stream or perhaps creating an image? Second, consider the\ncomplexity of the task. Does your project require\ndeep, specialized knowledge in a particular field? Think about things like\nmedical analysis, legal review, or complex financial modeling. It's that kind of\nexpert knowledge needed. And third, let's talk\nabout the context window, the amount\nof information you need to process at once. Will you be working with really\nlarge amounts of data, things like analyzing\nextensive documents or processing hours of\naudio or video files? How much information does it\nneed to remember or consider simultaneously? That's a lot to consider. So let's look at a\nreal-world example. I received so many messages\ntoday and need a summary to stay up to date. Here's how I would\ndo this with AI. Chat messages generally\ncontain text, image, audio, and video files. But let's start\nsimple with text. What we want to do is a\nstraightforward problem-- summarize the text. And text messages\nare relatively short, so a model that supports\na moderate context window would be sufficient. This points to\n[? our ?] on-device GenAI solution powered\nby Gemini Nano. Processing locally right\non the user's phone has several benefits. It increases user data\nprivacy and safety. Because the data doesn't\nhave to leave the device, you have much greater\ncontrol and security, which is a huge\nbenefit for users. It provides offline capability.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "7Tnq4y7T4xs__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 271.98,
+    "timestamp_end": 423.18,
+    "text": "It increases user data\nprivacy and safety. Because the data doesn't\nhave to leave the device, you have much greater\ncontrol and security, which is a huge\nbenefit for users. It provides offline capability. The feature can work even when\nthere's no internet connection. And there's no additional\ncost for inference every time it runs. These advantages-- privacy\nby design, offline access, and cost efficiency at skill\nare crucial for features like messages summarization. KATERYNA SEMENOVAV: Gemini Nano,\nour most efficient and compact model, is designed and\noptimized for running directly on mobile devices. Last year, we launched\nexperimental access to Gemini Nano, allowing you\nto explore its capabilities. We've seen many creative\nuses since the launch and heard great feedback\nfrom the developer community. Particularly, there's\na huge interest in platform-level support for\nthe most common use cases. So we launched the GenAI\nAPIs powered by Nano allowing you to integrate these\ncommon intelligent experiences into your apps with just\na few lines of code. GenAI APIs are a part\nof ML Kit, our Mobile SDK that brings Google's\nstate of the art on-device GenAI and ML. There are four new generative\nAPIs already available in beta today. Summarization--\nyou can summarize texts such as chat\nconversations, notes, short articles, or documents. Proofread helps you users polish\nshort content, like an email. Rewrite-- you can\nuse this feature to reward different\nstyles, whether to be more formal, casual, concise,\nor with a few emojis. And lastly, image\ndescription-- use this API to provide a short\ndescription of an image. To learn more about how to\nintegrate gen AI APIs, best practices, and what\nwe are building next, check out this talk. Besides these APIs,\npowered by Gemini Nano, we also provide you with\na set of tools, libraries, including MediaPipe\nand [INAUDIBLE] to bring your own custom models. The Google AI Edge\nplatform allows you to build and deploy a\nwide range of custom models on edge devices.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "7Tnq4y7T4xs__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 406.78,
+    "timestamp_end": 554.9599999999999,
+    "text": "we also provide you with\na set of tools, libraries, including MediaPipe\nand [INAUDIBLE] to bring your own custom models. The Google AI Edge\nplatform allows you to build and deploy a\nwide range of custom models on edge devices. It supports various frameworks\nlike TensorFlow, PyTorch, Keras, and JAX, enabling\nyou to integrate AI with more customization\nin your applications. Google AI Edge also\nsupports other AI models. So if you need to customize or\nfine-tune a large language model or you want to reach devices\nwhen Nano is not available, you can use other open models\nvia the MediaPipe LLM Inference API. When serving your\nown models on device, one challenge in handling\nlarge model downloads, updates, and the impact on\nthe user experience. We are making this easier by\nlaunching play for on-device AI. This service is\nin beta, making it easy to manage custom model\ndownloads efficiently. This allows you to deliver the\nright model to each Android device exactly\nwhen users need it. You can find out more on the\nAndroid developers website. JINGYU SHI: Now we have explored\nwhat's available on device. What if I want to\nanalyze and summarize a video file I just\nreceived from my friend or generate an image\nand send it as my reply? KATERYNA SEMENOVAV: For more\ncomplex use cases, like audio and video processing, image\ngeneration, or a wider device reach, we recommend using\nlarger Gemini models running in the cloud. This also includes situations\nrequiring additional domain knowledge or processing\nlarge inputs. This set of models\ninclude Gemini Flash and Pro, offering a balance\nof latency and power for a wide range of tasks. And you can also use the\nImagen model for generating high-quality images. These models excel in scenarios\nlike creating realistic images or generating longform texts\nwith deeper understanding, processing large amount\nof text, images or video to extract structured\ninformation, answer, complex questions, or\ngenerate insightful summaries, analyzing and reasoning across\ndifferent types of data,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "7Tnq4y7T4xs__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 535.12,
+    "timestamp_end": 685.43,
+    "text": "or generating longform texts\nwith deeper understanding, processing large amount\nof text, images or video to extract structured\ninformation, answer, complex questions, or\ngenerate insightful summaries, analyzing and reasoning across\ndifferent types of data, understanding the content\nof an image or a video and its accompanying text,\nbuilding agentic experiences where your app can\nproactively perform tasks on behalf of the user by\nunderstanding the intent and leveraging function calling\nto interact with other services and APIs-- for example, an app that can\nplan a trip, book flights and hotels, all powered by the\nintelligence of Gemini models. Integrating these more capable\nmodels into your Android apps is straightforward\nthrough Firebase. Firebase provides a\nsimplified and secure way to access Gemini Flash,\nGemini Pro, and Imagen models without the need to manage\nyour own backend service. It supports popular Android\ndevelopment languages like Kotlin, Java, and even\ncross-platform frameworks like Flutter. To test these\nmodel capabilities, you can use Google AI\nStudio or Vertex AI Studio that provides direct\naccess to the models. To learn more on how to\nintegrate Gemini models into your apps,\ncheck out this talk that deep dives\ninto the details. JINGYU SHI: OK, let's\nbring it all together. When deciding which Gemini\nmodel best fits your use case, it really comes down\nto understanding the specifics of your\nrequirement and model capabilities. If your priority is\noffline functionality coupled with budget and\ntargeting flagship devices, then on-device GenAI is\nthe solution for you. For common text-based tasks\nand where on-device processing and offline capabilities\nare beneficial, we encourage you to\nbuild with Gemini Nano [? where ?] the GenAI APIs. On the other hand,\nif these requirements are optional but\nyou need to perform a more complex task requiring\nsignificant processing power, you want to target a\nwider device reach, or you need multimodal inputs\nor outputs that are not yet supported on\ndevice, we recommend",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "7Tnq4y7T4xs__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "7Tnq4y7T4xs",
+    "title": "Google I/O 2025 \u2013 7Tnq4y7T4xs",
+    "timestamp_start": 669.11,
+    "timestamp_end": 781.15,
+    "text": "are optional but\nyou need to perform a more complex task requiring\nsignificant processing power, you want to target a\nwider device reach, or you need multimodal inputs\nor outputs that are not yet supported on\ndevice, we recommend building with our more\ncapable and larger models, Gemini Pro and Flash series, or\nthe Imagegen model, [? where ?] the Firebase AI SDK. Now you know where to start. Keep in mind, when\nreleasing into production, you can use a combination\nof both on-device and cloud solutions. And we've seen many developers\nbuilding innovative experiences using this combined approach. KATERYNA SEMENOVAV:\nThis session has provided a foundational overview\nof exciting possibilities that the Gemini models bring\nto Android development. We hope it sparked\nyour imagination and given you a clear\nunderstanding on how to integrate AI into\nyour applications. To help you take\nthe next steps, we encourage you to explore the\nfollowing resources linked in the description below. You will find a comprehensive\ndeveloper guides and CodeLabs specifically covering\nGemini integration. And we have a sample application\nshowcasing various Gemini use cases on Android. Ultimately, the key to building\ntruly impactful Android applications with AI lies in\nfinding the appropriate model and using the right tools\nfor your specific needs. JINGYU SHI: By carefully\nconsidering your use case and leveraging capabilities\nof the Gemini models, you can build creative,\nintelligent, and helpful experiences for your users. We are excited to\nsee what you will build with the power of Gemini. Thank you for joining us. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

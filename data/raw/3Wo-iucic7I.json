@@ -1,0 +1,1937 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "3Wo-iucic7I",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi there, my name is Holt Skinner and",
+      "start": 5.759,
+      "duration": 4.481
+    },
+    {
+      "text": "today we're going to explore Notebook",
+      "start": 8.32,
+      "duration": 4.64
+    },
+    {
+      "text": "LM, Google's simple yet powerful tool",
+      "start": 10.24,
+      "duration": 4.319
+    },
+    {
+      "text": "for information understanding and",
+      "start": 12.96,
+      "duration": 3.84
+    },
+    {
+      "text": "organization built from the ground up",
+      "start": 14.559,
+      "duration": 4.88
+    },
+    {
+      "text": "with Gemini. We'll also explore Google",
+      "start": 16.8,
+      "duration": 4.72
+    },
+    {
+      "text": "Agent Space, an enterprise tool from",
+      "start": 19.439,
+      "duration": 4.161
+    },
+    {
+      "text": "Google Cloud which includes Notebook LM",
+      "start": 21.52,
+      "duration": 4.32
+    },
+    {
+      "text": "for enterprise. First of all, what is",
+      "start": 23.6,
+      "duration": 4.72
+    },
+    {
+      "text": "notebook LM and why is it called that?",
+      "start": 25.84,
+      "duration": 4.08
+    },
+    {
+      "text": "Well, think about the physical notebooks",
+      "start": 28.32,
+      "duration": 3.359
+    },
+    {
+      "text": "you might use every day. They're a",
+      "start": 29.92,
+      "duration": 2.96
+    },
+    {
+      "text": "convenient place to keep track of",
+      "start": 31.679,
+      "duration": 2.88
+    },
+    {
+      "text": "information and documents. You can",
+      "start": 32.88,
+      "duration": 3.92
+    },
+    {
+      "text": "notate your thoughts, ideas, reminders,",
+      "start": 34.559,
+      "duration": 4.401
+    },
+    {
+      "text": "tasks, and other things related to it.",
+      "start": 36.8,
+      "duration": 4.24
+    },
+    {
+      "text": "You can keep an organizational system,",
+      "start": 38.96,
+      "duration": 3.759
+    },
+    {
+      "text": "or it might be more chaotic, depending",
+      "start": 41.04,
+      "duration": 4.4
+    },
+    {
+      "text": "on what works best for you. Now, imagine",
+      "start": 42.719,
+      "duration": 4.32
+    },
+    {
+      "text": "if that notebook could understand",
+      "start": 45.44,
+      "duration": 3.84
+    },
+    {
+      "text": "everything in it, answer any question",
+      "start": 47.039,
+      "duration": 4.161
+    },
+    {
+      "text": "about it, or even help you brainstorm",
+      "start": 49.28,
+      "duration": 4.959
+    },
+    {
+      "text": "new ideas. Well, that's what Notebook LM",
+      "start": 51.2,
+      "duration": 5.28
+    },
+    {
+      "text": "can do. It's a notebook built with",
+      "start": 54.239,
+      "duration": 4.561
+    },
+    {
+      "text": "Gemini, a generative AI language model",
+      "start": 56.48,
+      "duration": 5.0
+    },
+    {
+      "text": "or LM, hence notebook",
+      "start": 58.8,
+      "duration": 5.999
+    },
+    {
+      "text": "LM. Genai models are great for reading",
+      "start": 61.48,
+      "duration": 5.16
+    },
+    {
+      "text": "large amounts of unstructured data and",
+      "start": 64.799,
+      "duration": 3.68
+    },
+    {
+      "text": "then writing summaries or answering",
+      "start": 66.64,
+      "duration": 4.0
+    },
+    {
+      "text": "specific questions about that data.",
+      "start": 68.479,
+      "duration": 4.721
+    },
+    {
+      "text": "Okay, great. So, what can I do with this",
+      "start": 70.64,
+      "duration": 5.12
+    },
+    {
+      "text": "and how can I use it? Well, let's jump",
+      "start": 73.2,
+      "duration": 4.64
+    },
+    {
+      "text": "right in and show you. All you need is a",
+      "start": 75.76,
+      "duration": 4.48
+    },
+    {
+      "text": "Google account. For this example, let's",
+      "start": 77.84,
+      "duration": 4.24
+    },
+    {
+      "text": "pretend that we're a student currently",
+      "start": 80.24,
+      "duration": 3.68
+    },
+    {
+      "text": "enrolled in a class focused on the",
+      "start": 82.08,
+      "duration": 3.76
+    },
+    {
+      "text": "history of computer science, and we're",
+      "start": 83.92,
+      "duration": 3.68
+    },
+    {
+      "text": "going to use Notebook LM to help us",
+      "start": 85.84,
+      "duration": 5.16
+    },
+    {
+      "text": "study for an exam. Go to",
+      "start": 87.6,
+      "duration": 6.159
+    },
+    {
+      "text": "notebooklm.google and click try Notebook",
+      "start": 91.0,
+      "duration": 5.64
+    },
+    {
+      "text": "LM to get started. Accept the terms of",
+      "start": 93.759,
+      "duration": 6.121
+    },
+    {
+      "text": "service, then click create new",
+      "start": 96.64,
+      "duration": 5.68
+    },
+    {
+      "text": "notebook. At this point, we can start",
+      "start": 99.88,
+      "duration": 4.84
+    },
+    {
+      "text": "importing our data. We can load in files",
+      "start": 102.32,
+      "duration": 5.36
+    },
+    {
+      "text": "from Google Drive, Docs, websites, audio",
+      "start": 104.72,
+      "duration": 5.759
+    },
+    {
+      "text": "files, and even YouTube videos. I'll",
+      "start": 107.68,
+      "duration": 6.439
+    },
+    {
+      "text": "load in a Google Doc with class",
+      "start": 110.479,
+      "duration": 6.241
+    },
+    {
+      "text": "notes, a PDF containing some class",
+      "start": 114.119,
+      "duration": 5.241
+    },
+    {
+      "text": "slides, the Wikipedia article on history",
+      "start": 116.72,
+      "duration": 3.8
+    },
+    {
+      "text": "of computer",
+      "start": 119.36,
+      "duration": 3.759
+    },
+    {
+      "text": "science, and a YouTube video from Crash",
+      "start": 120.52,
+      "duration": 4.52
+    },
+    {
+      "text": "Course Computer Science. Once it",
+      "start": 123.119,
+      "duration": 3.921
+    },
+    {
+      "text": "finishes loading, I have lots of options",
+      "start": 125.04,
+      "duration": 4.559
+    },
+    {
+      "text": "to look at. First, we can see that this",
+      "start": 127.04,
+      "duration": 4.48
+    },
+    {
+      "text": "notebook has automatically generated a",
+      "start": 129.599,
+      "duration": 3.601
+    },
+    {
+      "text": "title and an emoji based on what we",
+      "start": 131.52,
+      "duration": 4.88
+    },
+    {
+      "text": "added. Very clever. On the left side, I",
+      "start": 133.2,
+      "duration": 5.119
+    },
+    {
+      "text": "can view the original sources and view",
+      "start": 136.4,
+      "duration": 4.4
+    },
+    {
+      "text": "summaries and key topics. I can click on",
+      "start": 138.319,
+      "duration": 4.481
+    },
+    {
+      "text": "any of these topics to get a generated",
+      "start": 140.8,
+      "duration": 3.079
+    },
+    {
+      "text": "outline of",
+      "start": 142.8,
+      "duration": 3.76
+    },
+    {
+      "text": "them. Let's focus on the chat section",
+      "start": 143.879,
+      "duration": 5.241
+    },
+    {
+      "text": "here. I get a summary of all the sources",
+      "start": 146.56,
+      "duration": 5.0
+    },
+    {
+      "text": "I've uploaded and I can start asking",
+      "start": 149.12,
+      "duration": 4.8
+    },
+    {
+      "text": "questions. For example, what if I want",
+      "start": 151.56,
+      "duration": 5.319
+    },
+    {
+      "text": "to learn more about Ada Love Lace? I get",
+      "start": 153.92,
+      "duration": 4.88
+    },
+    {
+      "text": "a detailed answer about her and the",
+      "start": 156.879,
+      "duration": 4.561
+    },
+    {
+      "text": "impact she made on computing. And notice",
+      "start": 158.8,
+      "duration": 5.04
+    },
+    {
+      "text": "all these citations. This response from",
+      "start": 161.44,
+      "duration": 4.879
+    },
+    {
+      "text": "Gemini is grounded to the information I",
+      "start": 163.84,
+      "duration": 4.399
+    },
+    {
+      "text": "provided. And I can check the original",
+      "start": 166.319,
+      "duration": 3.681
+    },
+    {
+      "text": "source. So I don't need to worry about",
+      "start": 168.239,
+      "duration": 3.761
+    },
+    {
+      "text": "hallucinations or madeup answers from",
+      "start": 170.0,
+      "duration": 5.28
+    },
+    {
+      "text": "the model. Notebook. LM also provides me",
+      "start": 172.0,
+      "duration": 5.2
+    },
+    {
+      "text": "with some sample questions I can ask in",
+      "start": 175.28,
+      "duration": 4.48
+    },
+    {
+      "text": "case I'm stuck on where to go next. This",
+      "start": 177.2,
+      "duration": 4.72
+    },
+    {
+      "text": "chat window retains the context of my",
+      "start": 179.76,
+      "duration": 3.68
+    },
+    {
+      "text": "previous messages, so I don't need to",
+      "start": 181.92,
+      "duration": 3.36
+    },
+    {
+      "text": "repeat myself.",
+      "start": 183.44,
+      "duration": 3.92
+    },
+    {
+      "text": "I can even ask for the responses in a",
+      "start": 185.28,
+      "duration": 4.239
+    },
+    {
+      "text": "different language. For example, let's",
+      "start": 187.36,
+      "duration": 4.599
+    },
+    {
+      "text": "try asking for an answer in",
+      "start": 189.519,
+      "duration": 4.401
+    },
+    {
+      "text": "Spanish. Being able to have a",
+      "start": 191.959,
+      "duration": 3.881
+    },
+    {
+      "text": "conversation with my notes is already",
+      "start": 193.92,
+      "duration": 4.319
+    },
+    {
+      "text": "incredibly useful, but we can do even",
+      "start": 195.84,
+      "duration": 4.8
+    },
+    {
+      "text": "more. Let's say I have a final exam",
+      "start": 198.239,
+      "duration": 4.08
+    },
+    {
+      "text": "coming up that covers the entire",
+      "start": 200.64,
+      "duration": 4.48
+    },
+    {
+      "text": "timeline. I can go under notes and click",
+      "start": 202.319,
+      "duration": 5.28
+    },
+    {
+      "text": "on timeline, and notebook LM will write",
+      "start": 205.12,
+      "duration": 4.96
+    },
+    {
+      "text": "out a timeline in chronological order of",
+      "start": 207.599,
+      "duration": 5.441
+    },
+    {
+      "text": "every key event listed in the notes. I",
+      "start": 210.08,
+      "duration": 4.879
+    },
+    {
+      "text": "can then save this as a source which",
+      "start": 213.04,
+      "duration": 3.919
+    },
+    {
+      "text": "will be used as context for future chats",
+      "start": 214.959,
+      "duration": 5.401
+    },
+    {
+      "text": "and I can easily refer to it",
+      "start": 216.959,
+      "duration": 5.92
+    },
+    {
+      "text": "later. I can also create a study guide",
+      "start": 220.36,
+      "duration": 4.439
+    },
+    {
+      "text": "for myself which makes a quiz with an",
+      "start": 222.879,
+      "duration": 4.161
+    },
+    {
+      "text": "answer key, some essay questions and a",
+      "start": 224.799,
+      "duration": 5.201
+    },
+    {
+      "text": "glossery of key",
+      "start": 227.04,
+      "duration": 2.96
+    },
+    {
+      "text": "terms. And of course I can add my own",
+      "start": 231.72,
+      "duration": 4.12
+    },
+    {
+      "text": "notes that can be converted to sources",
+      "start": 234.319,
+      "duration": 4.401
+    },
+    {
+      "text": "if I want to remember them.",
+      "start": 235.84,
+      "duration": 4.64
+    },
+    {
+      "text": "Now, let's say I feel completely",
+      "start": 238.72,
+      "duration": 3.76
+    },
+    {
+      "text": "overwhelmed with reading and I need to",
+      "start": 240.48,
+      "duration": 4.319
+    },
+    {
+      "text": "head outside, but I still need to keep",
+      "start": 242.48,
+      "duration": 5.44
+    },
+    {
+      "text": "studying. Well, Notebook LM still has me",
+      "start": 244.799,
+      "duration": 5.601
+    },
+    {
+      "text": "covered. I can create an audio overview,",
+      "start": 247.92,
+      "duration": 4.56
+    },
+    {
+      "text": "which is a two-host podcast where they",
+      "start": 250.4,
+      "duration": 4.559
+    },
+    {
+      "text": "deep dive through my whole notebook. I",
+      "start": 252.48,
+      "duration": 4.08
+    },
+    {
+      "text": "can optionally list some items I want",
+      "start": 254.959,
+      "duration": 4.041
+    },
+    {
+      "text": "the host to focus on. Then click on",
+      "start": 256.56,
+      "duration": 5.04
+    },
+    {
+      "text": "generate. In just a few minutes, I have",
+      "start": 259.0,
+      "duration": 4.759
+    },
+    {
+      "text": "a fun and engaging way to review all",
+      "start": 261.6,
+      "duration": 5.12
+    },
+    {
+      "text": "this information. Let's listen.",
+      "start": 263.759,
+      "duration": 4.801
+    },
+    {
+      "text": "You sent over some amazing stuff. Really",
+      "start": 266.72,
+      "duration": 3.36
+    },
+    {
+      "text": "gets you thinking. I mean, where do we",
+      "start": 268.56,
+      "duration": 3.199
+    },
+    {
+      "text": "even begin with something this big?",
+      "start": 270.08,
+      "duration": 2.96
+    },
+    {
+      "text": "Well, I think it's interesting to start",
+      "start": 271.759,
+      "duration": 3.921
+    },
+    {
+      "text": "by thinking about how old the need for",
+      "start": 273.04,
+      "duration": 4.879
+    },
+    {
+      "text": "computation really is. Oh, absolutely.",
+      "start": 275.68,
+      "duration": 4.239
+    },
+    {
+      "text": "Way older than computers. Way older. I",
+      "start": 277.919,
+      "duration": 3.041
+    },
+    {
+      "text": "mean, we're talking ancient",
+      "start": 279.919,
+      "duration": 3.441
+    },
+    {
+      "text": "civilizations here. Like the abacus that",
+      "start": 280.96,
+      "duration": 4.239
+    },
+    {
+      "text": "was invented in Mesopotamia, what, like",
+      "start": 283.36,
+      "duration": 4.48
+    },
+    {
+      "text": "2,700 B.CE. Something like that. Wow.",
+      "start": 285.199,
+      "duration": 5.121
+    },
+    {
+      "text": "So, like before even formal number",
+      "start": 287.84,
+      "duration": 4.96
+    },
+    {
+      "text": "systems, they had a way to calculate and",
+      "start": 290.32,
+      "duration": 4.879
+    },
+    {
+      "text": "keep track of complex problems. Exactly.",
+      "start": 292.8,
+      "duration": 3.839
+    },
+    {
+      "text": "And think about it, people still use",
+      "start": 295.199,
+      "duration": 3.601
+    },
+    {
+      "text": "abacuses today in different forms all",
+      "start": 296.639,
+      "duration": 4.0
+    },
+    {
+      "text": "around the world. It just shows you how",
+      "start": 298.8,
+      "duration": 4.72
+    },
+    {
+      "text": "powerful a simple I can even interact",
+      "start": 300.639,
+      "duration": 5.601
+    },
+    {
+      "text": "live with the podcast hosts and verbally",
+      "start": 303.52,
+      "duration": 4.239
+    },
+    {
+      "text": "ask specific questions for them to",
+      "start": 306.24,
+      "duration": 3.519
+    },
+    {
+      "text": "answer. Kind of like calling into a",
+      "start": 307.759,
+      "duration": 4.321
+    },
+    {
+      "text": "radio show. Let's ask them something.",
+      "start": 309.759,
+      "duration": 4.321
+    },
+    {
+      "text": "All right, so we're diving deep today",
+      "start": 312.08,
+      "duration": 5.119
+    },
+    {
+      "text": "and uh it's going to be a fascinating",
+      "start": 314.08,
+      "duration": 6.559
+    },
+    {
+      "text": "one this time. Oh, hey, welcome. What's",
+      "start": 317.199,
+      "duration": 5.681
+    },
+    {
+      "text": "up? Can you tell me more about Alan",
+      "start": 320.639,
+      "duration": 5.241
+    },
+    {
+      "text": "Turing?",
+      "start": 322.88,
+      "duration": 3.0
+    },
+    {
+      "text": "Oh, absolutely. That's a fantastic",
+      "start": 326.56,
+      "duration": 3.04
+    },
+    {
+      "text": "question. Yeah, he's definitely one of",
+      "start": 328.32,
+      "duration": 2.879
+    },
+    {
+      "text": "the giants of computer science. What's",
+      "start": 329.6,
+      "duration": 3.36
+    },
+    {
+      "text": "fascinating here is that Turing wasn't",
+      "start": 331.199,
+      "duration": 3.521
+    },
+    {
+      "text": "just an engineer building things. He was",
+      "start": 332.96,
+      "duration": 4.16
+    },
+    {
+      "text": "a brilliant mathematician and a logician",
+      "start": 334.72,
+      "duration": 4.56
+    },
+    {
+      "text": "first. Okay, let's unpack this. So, his",
+      "start": 337.12,
+      "duration": 4.0
+    },
+    {
+      "text": "idea of the Turing machine, it wasn't a",
+      "start": 339.28,
+      "duration": 3.199
+    },
+    {
+      "text": "physical machine he built right away,",
+      "start": 341.12,
+      "duration": 3.2
+    },
+    {
+      "text": "was it? Exactly. It was a theoretical",
+      "start": 342.479,
+      "duration": 4.401
+    },
+    {
+      "text": "model, a way to explore the very limits",
+      "start": 344.32,
+      "duration": 5.439
+    },
+    {
+      "text": "of what computation could be. Finally,",
+      "start": 346.88,
+      "duration": 4.8
+    },
+    {
+      "text": "once I have a notebook I like, I can",
+      "start": 349.759,
+      "duration": 3.761
+    },
+    {
+      "text": "easily share this notebook with others,",
+      "start": 351.68,
+      "duration": 4.6
+    },
+    {
+      "text": "giving either viewer or editor",
+      "start": 353.52,
+      "duration": 5.28
+    },
+    {
+      "text": "permissions. Now, what if I become a",
+      "start": 356.28,
+      "duration": 4.919
+    },
+    {
+      "text": "power user of Notebook LM and I need",
+      "start": 358.8,
+      "duration": 4.88
+    },
+    {
+      "text": "more data and customization options, or",
+      "start": 361.199,
+      "duration": 4.161
+    },
+    {
+      "text": "I need to work with my own company's",
+      "start": 363.68,
+      "duration": 5.12
+    },
+    {
+      "text": "data? Google has options for you. You",
+      "start": 365.36,
+      "duration": 5.839
+    },
+    {
+      "text": "can upgrade to Notebook LM Plus through",
+      "start": 368.8,
+      "duration": 4.239
+    },
+    {
+      "text": "Google 1 or a Google Workspace",
+      "start": 371.199,
+      "duration": 3.601
+    },
+    {
+      "text": "subscription, which lets you load in",
+      "start": 373.039,
+      "duration": 4.16
+    },
+    {
+      "text": "more data and add more customization.",
+      "start": 374.8,
+      "duration": 4.08
+    },
+    {
+      "text": "But what if I work for an enterprise",
+      "start": 377.199,
+      "duration": 3.041
+    },
+    {
+      "text": "company and I have security and",
+      "start": 378.88,
+      "duration": 3.2
+    },
+    {
+      "text": "compliance requirements or I want to",
+      "start": 380.24,
+      "duration": 3.44
+    },
+    {
+      "text": "pull in data from a bunch of other",
+      "start": 382.08,
+      "duration": 4.08
+    },
+    {
+      "text": "places such as Jira, Salesforce and",
+      "start": 383.68,
+      "duration": 5.2
+    },
+    {
+      "text": "external sources. Google Cloud has the",
+      "start": 386.16,
+      "duration": 4.56
+    },
+    {
+      "text": "solution for this. Notebook LM",
+      "start": 388.88,
+      "duration": 4.72
+    },
+    {
+      "text": "enterprise part of Google agent space.",
+      "start": 390.72,
+      "duration": 4.4
+    },
+    {
+      "text": "This includes all the features of",
+      "start": 393.6,
+      "duration": 3.76
+    },
+    {
+      "text": "notebook LM and all the data will stay",
+      "start": 395.12,
+      "duration": 4.4
+    },
+    {
+      "text": "in your own cloud project and you have",
+      "start": 397.36,
+      "duration": 3.76
+    },
+    {
+      "text": "all the enterprisegrade features of",
+      "start": 399.52,
+      "duration": 3.76
+    },
+    {
+      "text": "Google Cloud. You can even use it if you",
+      "start": 401.12,
+      "duration": 4.639
+    },
+    {
+      "text": "don't use Google Workspace. This can all",
+      "start": 403.28,
+      "duration": 4.88
+    },
+    {
+      "text": "be set up in the Google Cloud console.",
+      "start": 405.759,
+      "duration": 4.081
+    },
+    {
+      "text": "You can authenticate using your own",
+      "start": 408.16,
+      "duration": 3.68
+    },
+    {
+      "text": "identity provider, use VPC service",
+      "start": 409.84,
+      "duration": 4.16
+    },
+    {
+      "text": "controls, set IM permissions, share",
+      "start": 411.84,
+      "duration": 4.24
+    },
+    {
+      "text": "across teams in organization, and even",
+      "start": 414.0,
+      "duration": 4.56
+    },
+    {
+      "text": "import Microsoft Office files. You can",
+      "start": 416.08,
+      "duration": 4.16
+    },
+    {
+      "text": "import data into notebook element",
+      "start": 418.56,
+      "duration": 3.68
+    },
+    {
+      "text": "enterprise from any source in agent",
+      "start": 420.24,
+      "duration": 3.92
+    },
+    {
+      "text": "space search results. This includes",
+      "start": 422.24,
+      "duration": 3.84
+    },
+    {
+      "text": "firstparty sources like cloud storage",
+      "start": 424.16,
+      "duration": 3.92
+    },
+    {
+      "text": "and Gmail and third party sources like",
+      "start": 426.08,
+      "duration": 4.239
+    },
+    {
+      "text": "Atlassian, Dropbox, GitHub, Notion,",
+      "start": 428.08,
+      "duration": 3.92
+    },
+    {
+      "text": "Salesforce, Workday, and a bunch of",
+      "start": 430.319,
+      "duration": 3.761
+    },
+    {
+      "text": "others. There's links in the description",
+      "start": 432.0,
+      "duration": 3.759
+    },
+    {
+      "text": "with a full list of connectors and how",
+      "start": 434.08,
+      "duration": 4.16
+    },
+    {
+      "text": "to set them up. You can learn more about",
+      "start": 435.759,
+      "duration": 4.081
+    },
+    {
+      "text": "how to set up Agent Space and Notebook",
+      "start": 438.24,
+      "duration": 3.679
+    },
+    {
+      "text": "LM Enterprise, including how to sign up",
+      "start": 439.84,
+      "duration": 3.799
+    },
+    {
+      "text": "for a free trial at the link in the",
+      "start": 441.919,
+      "duration": 3.84
+    },
+    {
+      "text": "description. Notebook LM is an",
+      "start": 443.639,
+      "duration": 3.96
+    },
+    {
+      "text": "incredibly useful tool for anyone who",
+      "start": 445.759,
+      "duration": 3.44
+    },
+    {
+      "text": "wants to learn. Whether you're a",
+      "start": 447.599,
+      "duration": 3.361
+    },
+    {
+      "text": "student, an industry professional, or",
+      "start": 449.199,
+      "duration": 3.601
+    },
+    {
+      "text": "just curious about the world, you can",
+      "start": 450.96,
+      "duration": 4.48
+    },
+    {
+      "text": "find something that will help you out.",
+      "start": 452.8,
+      "duration": 5.04
+    },
+    {
+      "text": "Now, let's dive deeper into Google agent",
+      "start": 455.44,
+      "duration": 4.08
+    },
+    {
+      "text": "space and how it can help enterprise",
+      "start": 457.84,
+      "duration": 3.68
+    },
+    {
+      "text": "organizations break down information",
+      "start": 459.52,
+      "duration": 4.16
+    },
+    {
+      "text": "silos using the latest developments in",
+      "start": 461.52,
+      "duration": 5.2
+    },
+    {
+      "text": "search, generative AI, and AI agents.",
+      "start": 463.68,
+      "duration": 4.88
+    },
+    {
+      "text": "Many large companies use a bunch of",
+      "start": 466.72,
+      "duration": 3.919
+    },
+    {
+      "text": "different software tools every day. Many",
+      "start": 468.56,
+      "duration": 3.68
+    },
+    {
+      "text": "of them work great on their own, but if",
+      "start": 470.639,
+      "duration": 2.881
+    },
+    {
+      "text": "you ever need to connect them together,",
+      "start": 472.24,
+      "duration": 4.079
+    },
+    {
+      "text": "that's a whole different story. Agent",
+      "start": 473.52,
+      "duration": 5.119
+    },
+    {
+      "text": "Space is a fully managed software as a",
+      "start": 476.319,
+      "duration": 4.0
+    },
+    {
+      "text": "service product which acts as a",
+      "start": 478.639,
+      "duration": 3.361
+    },
+    {
+      "text": "centralized information hub for an",
+      "start": 480.319,
+      "duration": 3.921
+    },
+    {
+      "text": "organization. It's like Google search",
+      "start": 482.0,
+      "duration": 4.4
+    },
+    {
+      "text": "for everything inside your company.",
+      "start": 484.24,
+      "duration": 3.679
+    },
+    {
+      "text": "There's a variety of tools to connect",
+      "start": 486.4,
+      "duration": 3.68
+    },
+    {
+      "text": "powerful generative AI models to various",
+      "start": 487.919,
+      "duration": 4.72
+    },
+    {
+      "text": "data sources used in the business world.",
+      "start": 490.08,
+      "duration": 3.76
+    },
+    {
+      "text": "This means that you can create",
+      "start": 492.639,
+      "duration": 3.28
+    },
+    {
+      "text": "enterprisegrade internal search engines",
+      "start": 493.84,
+      "duration": 4.479
+    },
+    {
+      "text": "and AI agents which have secure access",
+      "start": 495.919,
+      "duration": 4.641
+    },
+    {
+      "text": "to data from sources like Google Drive,",
+      "start": 498.319,
+      "duration": 4.081
+    },
+    {
+      "text": "Salesforce, Atlassian, Slack, and even",
+      "start": 500.56,
+      "duration": 4.479
+    },
+    {
+      "text": "Microsoft Office. You can access all of",
+      "start": 502.4,
+      "duration": 4.0
+    },
+    {
+      "text": "your enterprise data from a single",
+      "start": 505.039,
+      "duration": 3.44
+    },
+    {
+      "text": "place. And you can use Google quality",
+      "start": 506.4,
+      "duration": 4.0
+    },
+    {
+      "text": "search and AI models to save a lot of",
+      "start": 508.479,
+      "duration": 4.721
+    },
+    {
+      "text": "time and effort. This product is easiest",
+      "start": 510.4,
+      "duration": 4.48
+    },
+    {
+      "text": "to understand if you see it in action.",
+      "start": 513.2,
+      "duration": 3.68
+    },
+    {
+      "text": "So, let's try it out. Keep in mind that",
+      "start": 514.88,
+      "duration": 3.76
+    },
+    {
+      "text": "technology moves fast, so your",
+      "start": 516.88,
+      "duration": 3.039
+    },
+    {
+      "text": "environment might look slightly",
+      "start": 518.64,
+      "duration": 3.759
+    },
+    {
+      "text": "different depending on when you look. I",
+      "start": 519.919,
+      "duration": 4.401
+    },
+    {
+      "text": "have a demo instance of Agent Space,",
+      "start": 522.399,
+      "duration": 3.44
+    },
+    {
+      "text": "which is built out for a fictional",
+      "start": 524.32,
+      "duration": 4.16
+    },
+    {
+      "text": "company called Neurovibe AI, which does",
+      "start": 525.839,
+      "duration": 4.401
+    },
+    {
+      "text": "data collection and annotation for",
+      "start": 528.48,
+      "duration": 3.359
+    },
+    {
+      "text": "companies interested in building AI",
+      "start": 530.24,
+      "duration": 4.0
+    },
+    {
+      "text": "solutions. However, this homepage can be",
+      "start": 531.839,
+      "duration": 4.081
+    },
+    {
+      "text": "customized for your organization to",
+      "start": 534.24,
+      "duration": 4.8
+    },
+    {
+      "text": "include your logo and style. Let's start",
+      "start": 535.92,
+      "duration": 4.8
+    },
+    {
+      "text": "by exploring this homepage and see what",
+      "start": 539.04,
+      "duration": 3.84
+    },
+    {
+      "text": "we have available to us. First, we have",
+      "start": 540.72,
+      "duration": 4.559
+    },
+    {
+      "text": "a big text box here, which we can use to",
+      "start": 542.88,
+      "duration": 4.32
+    },
+    {
+      "text": "search over all of our data or ask",
+      "start": 545.279,
+      "duration": 4.161
+    },
+    {
+      "text": "specific questions. At the bottom of the",
+      "start": 547.2,
+      "duration": 4.48
+    },
+    {
+      "text": "box, we see options for deep research,",
+      "start": 549.44,
+      "duration": 4.48
+    },
+    {
+      "text": "which we'll discuss more later. Search,",
+      "start": 551.68,
+      "duration": 4.159
+    },
+    {
+      "text": "which gives agent space access to Google",
+      "start": 553.92,
+      "duration": 3.84
+    },
+    {
+      "text": "search, and sources, where we can see",
+      "start": 555.839,
+      "duration": 3.68
+    },
+    {
+      "text": "all of the sources agent space has",
+      "start": 557.76,
+      "duration": 4.56
+    },
+    {
+      "text": "access to. In this case, the demo",
+      "start": 559.519,
+      "duration": 4.241
+    },
+    {
+      "text": "environment is configured with",
+      "start": 562.32,
+      "duration": 4.16
+    },
+    {
+      "text": "SharePoint, Google Workspace, Jira, One",
+      "start": 563.76,
+      "duration": 5.84
+    },
+    {
+      "text": "Drive, Salesforce, and Slack. Below this",
+      "start": 566.48,
+      "duration": 4.88
+    },
+    {
+      "text": "box, we can also see some recommended",
+      "start": 569.6,
+      "duration": 4.32
+    },
+    {
+      "text": "questions to ask. If you look over at",
+      "start": 571.36,
+      "duration": 4.32
+    },
+    {
+      "text": "the left hand side, you can see options",
+      "start": 573.92,
+      "duration": 4.32
+    },
+    {
+      "text": "for agents, prompts, and notebook. We'll",
+      "start": 575.68,
+      "duration": 5.12
+    },
+    {
+      "text": "dive deeper into these later. Let's go",
+      "start": 578.24,
+      "duration": 4.24
+    },
+    {
+      "text": "ahead and try asking for something.",
+      "start": 580.8,
+      "duration": 3.599
+    },
+    {
+      "text": "Suppose I'm on the sales team, and I've",
+      "start": 582.48,
+      "duration": 3.28
+    },
+    {
+      "text": "been given some new accounts I need to",
+      "start": 584.399,
+      "duration": 3.281
+    },
+    {
+      "text": "get onboarded to. One of them is the",
+      "start": 585.76,
+      "duration": 4.88
+    },
+    {
+      "text": "future gamers account. When I ask my",
+      "start": 587.68,
+      "duration": 4.88
+    },
+    {
+      "text": "question, I can see all of the search",
+      "start": 590.64,
+      "duration": 3.44
+    },
+    {
+      "text": "results on the right hand side from",
+      "start": 592.56,
+      "duration": 3.12
+    },
+    {
+      "text": "Salesforce and Slack which have",
+      "start": 594.08,
+      "duration": 3.199
+    },
+    {
+      "text": "information about this account. I can",
+      "start": 595.68,
+      "duration": 4.08
+    },
+    {
+      "text": "filter the results by source if I want.",
+      "start": 597.279,
+      "duration": 4.641
+    },
+    {
+      "text": "All of these data sources are access",
+      "start": 599.76,
+      "duration": 4.32
+    },
+    {
+      "text": "controlled. So my user account can only",
+      "start": 601.92,
+      "duration": 3.919
+    },
+    {
+      "text": "see results that I have been given",
+      "start": 604.08,
+      "duration": 5.04
+    },
+    {
+      "text": "access to. I also have an AI generated",
+      "start": 605.839,
+      "duration": 5.521
+    },
+    {
+      "text": "answer to my query along with citations",
+      "start": 609.12,
+      "duration": 4.2
+    },
+    {
+      "text": "for the data so I can verify that it's",
+      "start": 611.36,
+      "duration": 4.24
+    },
+    {
+      "text": "accurate. Let's take this conversation",
+      "start": 613.32,
+      "duration": 4.12
+    },
+    {
+      "text": "further. I'll ask some follow-up",
+      "start": 615.6,
+      "duration": 3.28
+    },
+    {
+      "text": "questions to see if this account could",
+      "start": 617.44,
+      "duration": 4.88
+    },
+    {
+      "text": "be a good fit for data annotation",
+      "start": 618.88,
+      "duration": 3.44
+    },
+    {
+      "text": "services and I'll generate a marketing",
+      "start": 627.64,
+      "duration": 5.8
+    },
+    {
+      "text": "one pager targeted for this",
+      "start": 630.079,
+      "duration": 3.361
+    },
+    {
+      "text": "customer. Now let's say I want to",
+      "start": 635.16,
+      "duration": 3.96
+    },
+    {
+      "text": "generate an image for this pitch. I can",
+      "start": 637.2,
+      "duration": 4.0
+    },
+    {
+      "text": "just ask for it and Agent Space will",
+      "start": 639.12,
+      "duration": 3.839
+    },
+    {
+      "text": "automatically use the Google Imagine",
+      "start": 641.2,
+      "duration": 4.4
+    },
+    {
+      "text": "model to generate one.",
+      "start": 642.959,
+      "duration": 4.241
+    },
+    {
+      "text": "Now that I've made this pitch, I can",
+      "start": 645.6,
+      "duration": 3.12
+    },
+    {
+      "text": "send it off to someone in an email",
+      "start": 647.2,
+      "duration": 3.759
+    },
+    {
+      "text": "directly within agent space. The Gemini",
+      "start": 648.72,
+      "duration": 3.84
+    },
+    {
+      "text": "model will write it all out and then I'm",
+      "start": 650.959,
+      "duration": 4.88
+    },
+    {
+      "text": "given a confirmation before it's",
+      "start": 652.56,
+      "duration": 3.279
+    },
+    {
+      "text": "sent. Now, suppose I want to meet this",
+      "start": 656.44,
+      "duration": 5.56
+    },
+    {
+      "text": "customer at their office in",
+      "start": 658.88,
+      "duration": 3.12
+    },
+    {
+      "text": "Atlanta. And maybe I should check on the",
+      "start": 662.04,
+      "duration": 4.44
+    },
+    {
+      "text": "weather there before I head out. Note",
+      "start": 664.24,
+      "duration": 3.839
+    },
+    {
+      "text": "here that Agent Space automatically",
+      "start": 666.48,
+      "duration": 2.96
+    },
+    {
+      "text": "called a custom agent in this",
+      "start": 668.079,
+      "duration": 3.361
+    },
+    {
+      "text": "environment called the Neurovibe weather",
+      "start": 669.44,
+      "duration": 3.68
+    },
+    {
+      "text": "agent.",
+      "start": 671.44,
+      "duration": 3.6
+    },
+    {
+      "text": "Now, I want to invite future gamers to",
+      "start": 673.12,
+      "duration": 4.399
+    },
+    {
+      "text": "one of Nervibi's upcoming events. I can",
+      "start": 675.04,
+      "duration": 4.08
+    },
+    {
+      "text": "ask for a list of them and then add one",
+      "start": 677.519,
+      "duration": 3.921
+    },
+    {
+      "text": "to my",
+      "start": 679.12,
+      "duration": 2.32
+    },
+    {
+      "text": "calendar. So, that's pretty neat. Let's",
+      "start": 684.519,
+      "duration": 4.201
+    },
+    {
+      "text": "explore more of agent space and see what",
+      "start": 687.04,
+      "duration": 3.68
+    },
+    {
+      "text": "we can do. We'll check out the agents",
+      "start": 688.72,
+      "duration": 4.96
+    },
+    {
+      "text": "menu on the left side. This is the agent",
+      "start": 690.72,
+      "duration": 4.64
+    },
+    {
+      "text": "gallery where you can find agents",
+      "start": 693.68,
+      "duration": 3.2
+    },
+    {
+      "text": "created by Google and your own",
+      "start": 695.36,
+      "duration": 3.76
+    },
+    {
+      "text": "organization. It's designed to be a",
+      "start": 696.88,
+      "duration": 4.0
+    },
+    {
+      "text": "centralized place to interact with",
+      "start": 699.12,
+      "duration": 3.68
+    },
+    {
+      "text": "firstparty, third party, and partner",
+      "start": 700.88,
+      "duration": 4.16
+    },
+    {
+      "text": "agents, no matter what platform was used",
+      "start": 702.8,
+      "duration": 4.64
+    },
+    {
+      "text": "to create it. You can see the deep",
+      "start": 705.04,
+      "duration": 4.479
+    },
+    {
+      "text": "research agent, which creates a full",
+      "start": 707.44,
+      "duration": 4.16
+    },
+    {
+      "text": "research plan, outputs a detailed report",
+      "start": 709.519,
+      "duration": 4.081
+    },
+    {
+      "text": "with its findings. And there's idea",
+      "start": 711.6,
+      "duration": 3.679
+    },
+    {
+      "text": "generation, which is for brainstorming",
+      "start": 713.6,
+      "duration": 5.04
+    },
+    {
+      "text": "new ideas. On this page, you can also",
+      "start": 715.279,
+      "duration": 5.281
+    },
+    {
+      "text": "create your own agents with agent",
+      "start": 718.64,
+      "duration": 4.4
+    },
+    {
+      "text": "designer. You just click on create and",
+      "start": 720.56,
+      "duration": 4.719
+    },
+    {
+      "text": "you can describe your agent. Give it a",
+      "start": 723.04,
+      "duration": 4.479
+    },
+    {
+      "text": "name, a goal, and instructions for what",
+      "start": 725.279,
+      "duration": 4.481
+    },
+    {
+      "text": "it should do. Currently, all agents will",
+      "start": 727.519,
+      "duration": 4.0
+    },
+    {
+      "text": "have access to every connector within",
+      "start": 729.76,
+      "duration": 3.68
+    },
+    {
+      "text": "agent space, but in the future, you'll",
+      "start": 731.519,
+      "duration": 3.44
+    },
+    {
+      "text": "be able to limit to specific data",
+      "start": 733.44,
+      "duration": 4.32
+    },
+    {
+      "text": "sources and tools. Let's go back to the",
+      "start": 734.959,
+      "duration": 5.041
+    },
+    {
+      "text": "left side. We can view sample prompts to",
+      "start": 737.76,
+      "duration": 5.319
+    },
+    {
+      "text": "get inspiration for our various",
+      "start": 740.0,
+      "duration": 5.92
+    },
+    {
+      "text": "agents. And we can access notebook LM",
+      "start": 743.079,
+      "duration": 4.841
+    },
+    {
+      "text": "Enterprise right here as well. I have",
+      "start": 745.92,
+      "duration": 3.84
+    },
+    {
+      "text": "another video about that already. But",
+      "start": 747.92,
+      "duration": 3.28
+    },
+    {
+      "text": "what I want to highlight here is that",
+      "start": 749.76,
+      "duration": 3.44
+    },
+    {
+      "text": "you can load specific data sources from",
+      "start": 751.2,
+      "duration": 4.079
+    },
+    {
+      "text": "search results directly into a notebook",
+      "start": 753.2,
+      "duration": 4.0
+    },
+    {
+      "text": "LM notebook where you can use it just",
+      "start": 755.279,
+      "duration": 4.68
+    },
+    {
+      "text": "like any other data in that",
+      "start": 757.2,
+      "duration": 5.68
+    },
+    {
+      "text": "tool. Now, how is agent space different",
+      "start": 759.959,
+      "duration": 4.68
+    },
+    {
+      "text": "from all the other Google products with",
+      "start": 762.88,
+      "duration": 4.16
+    },
+    {
+      "text": "agent in the name? All of them interact",
+      "start": 764.639,
+      "duration": 4.721
+    },
+    {
+      "text": "with agents in some way, but they're for",
+      "start": 767.04,
+      "duration": 4.08
+    },
+    {
+      "text": "different types of users or accomplish",
+      "start": 769.36,
+      "duration": 4.32
+    },
+    {
+      "text": "different tasks for the agents. In fact,",
+      "start": 771.12,
+      "duration": 4.32
+    },
+    {
+      "text": "let's see if Agent Space can answer this",
+      "start": 773.68,
+      "duration": 5.12
+    },
+    {
+      "text": "for us. Connected into Google",
+      "start": 775.44,
+      "duration": 3.36
+    },
+    {
+      "text": "search. This actually turned out pretty",
+      "start": 788.76,
+      "duration": 5.319
+    },
+    {
+      "text": "well. So, agent development kit or ADK",
+      "start": 790.959,
+      "duration": 5.921
+    },
+    {
+      "text": "is for building agents. Agent Engine is",
+      "start": 794.079,
+      "duration": 5.361
+    },
+    {
+      "text": "for deploying those agents. Agent Garden",
+      "start": 796.88,
+      "duration": 4.56
+    },
+    {
+      "text": "provides resources or sample agents to",
+      "start": 799.44,
+      "duration": 3.6
+    },
+    {
+      "text": "help you get started.",
+      "start": 801.44,
+      "duration": 3.839
+    },
+    {
+      "text": "And agent space is a complete platform",
+      "start": 803.04,
+      "duration": 4.0
+    },
+    {
+      "text": "for using AI agents within an",
+      "start": 805.279,
+      "duration": 3.841
+    },
+    {
+      "text": "enterprise. I'll also throw in Vert.ex",
+      "start": 807.04,
+      "duration": 4.32
+    },
+    {
+      "text": "AI search part of AI applications.",
+      "start": 809.12,
+      "duration": 4.64
+    },
+    {
+      "text": "Vert.exi search lets you create external",
+      "start": 811.36,
+      "duration": 4.159
+    },
+    {
+      "text": "facing search engines like to put on",
+      "start": 813.76,
+      "duration": 4.16
+    },
+    {
+      "text": "your public website whereas agent space",
+      "start": 815.519,
+      "duration": 4.241
+    },
+    {
+      "text": "is for an internal facing search engine",
+      "start": 817.92,
+      "duration": 3.4
+    },
+    {
+      "text": "for your company's",
+      "start": 819.76,
+      "duration": 4.16
+    },
+    {
+      "text": "employees. Agent Space is an incredibly",
+      "start": 821.32,
+      "duration": 4.6
+    },
+    {
+      "text": "useful tool to boost productivity and",
+      "start": 823.92,
+      "duration": 3.919
+    },
+    {
+      "text": "impact across an organization by",
+      "start": 825.92,
+      "duration": 3.76
+    },
+    {
+      "text": "providing unified access to all of your",
+      "start": 827.839,
+      "duration": 4.321
+    },
+    {
+      "text": "enterprise data and agents. You can get",
+      "start": 829.68,
+      "duration": 4.399
+    },
+    {
+      "text": "started with it by going to the tutorial",
+      "start": 832.16,
+      "duration": 4.16
+    },
+    {
+      "text": "at",
+      "start": 834.079,
+      "duration": 2.241
+    },
+    {
+      "text": "goo.g/agentpace-intro. You can find",
+      "start": 836.519,
+      "duration": 2.921
+    },
+    {
+      "text": "additional tutorials for connecting",
+      "start": 838.0,
+      "duration": 4.72
+    },
+    {
+      "text": "Google data here at",
+      "start": 839.44,
+      "duration": 3.28
+    },
+    {
+      "text": "goo.go/agentpace-google-data and third",
+      "start": 843.24,
+      "duration": 5.2
+    },
+    {
+      "text": "party sources here at goo.go/",
+      "start": 844.88,
+      "duration": 5.28
+    },
+    {
+      "text": "aentpace-connectors. And of course,",
+      "start": 848.44,
+      "duration": 3.16
+    },
+    {
+      "text": "there's lots more information in the",
+      "start": 850.16,
+      "duration": 3.52
+    },
+    {
+      "text": "rest of the documentation. Check out the",
+      "start": 851.6,
+      "duration": 5.52
+    },
+    {
+      "text": "links in the description to try out",
+      "start": 853.68,
+      "duration": 3.44
+    },
+    {
+      "text": "notebookmace and start exploring all",
+      "start": 857.16,
+      "duration": 4.52
+    },
+    {
+      "text": "they have to offer. Have fun exploring",
+      "start": 859.279,
+      "duration": 4.0
+    },
+    {
+      "text": "all these powerful tools and let us know",
+      "start": 861.68,
+      "duration": 5.24
+    },
+    {
+      "text": "what you come up with.",
+      "start": 863.279,
+      "duration": 3.641
+    },
+    {
+      "text": "[Applause]",
+      "start": 868.71,
+      "duration": 3.199
+    }
+  ]
+}

@@ -94,8 +94,6 @@ def main(overwrite: bool = False) -> None:
     config = load_config(CONFIG_PATH)
     video_titles = config.get("video_titles", {})
 
-    all_docs = []
-
     for chunk_file in CHUNK_DIR.glob("*.json"):
         if chunk_file.name.startswith("_"):
             continue
@@ -109,48 +107,28 @@ def main(overwrite: bool = False) -> None:
 
         try:
             chunks = load_chunks(chunk_file)
-            title = video_titles.get(
-                video_id, f"Google I/O 2025 – {video_id}"
-            )
-
-            canonical_docs = convert_chunks_to_canonical(
-                chunks=chunks,
-                video_id=video_id,
-                title=title,
-            )
-
+            title = video_titles.get(video_id, f"Google I/O 2025 – {video_id}")
+            canonical_docs = convert_chunks_to_canonical(chunks=chunks, video_id=video_id, title=title)
             save_canonical_docs(video_id, canonical_docs)
-            all_docs.extend(canonical_docs)
-
-            log_manifest(
-                {
-                    "video_id": video_id,
-                    "status": "ok",
-                    "num_documents": len(canonical_docs),
-                    "schema_version": CANONICAL_SCHEMA_VERSION,
-                    "timestamp": datetime.now(UTC).isoformat(),
-                }
-            )
-
+            log_manifest({...})
             print(f"[OK] Canonicalized {video_id} ({len(canonical_docs)} docs)")
 
         except Exception as e:
-            log_manifest(
-                {
-                    "video_id": video_id,
-                    "status": "error",
-                    "error": str(e),
-                    "timestamp": datetime.now(UTC).isoformat(),
-                }
-            )
+            log_manifest({...})
             print(f"[ERROR] {video_id}: {e}")
 
-    # Save aggregated file (useful for indexing)
-    if all_docs:
-        with open(CANONICAL_DIR / "all_documents.json", "w") as f:
-            json.dump(all_docs, f, indent=2)
+    # ✅ Always rebuild from disk — independent of what was skipped/processed
+    all_docs = []
+    for canonical_file in CANONICAL_DIR.glob("*.json"):
+        if canonical_file.name.startswith("_") or canonical_file.name == "all_documents.json":
+            continue
+        with open(canonical_file) as f:
+            all_docs.extend(json.load(f))
 
-        print(f"\n[OK] Saved all_documents.json ({len(all_docs)} total docs)")
+    with open(CANONICAL_DIR / "all_documents.json", "w") as f:
+        json.dump(all_docs, f, indent=2)
+
+    print(f"\n[OK] Saved all_documents.json ({len(all_docs)} total docs)")
 
 # --------------------
 # Entry point

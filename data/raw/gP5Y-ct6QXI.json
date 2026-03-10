@@ -1,0 +1,1852 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "gP5Y-ct6QXI",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.958
+    },
+    {
+      "text": "BEN TRENGROVE: Hey there.",
+      "start": 6.038,
+      "duration": 1.042
+    },
+    {
+      "text": "I'm Ben.",
+      "start": 7.08,
+      "duration": 0.75
+    },
+    {
+      "text": "I'm a developer\nrelations engineer.",
+      "start": 7.83,
+      "duration": 2.04
+    },
+    {
+      "text": "And later on in the talk,\nI'll be joined by Dustin.",
+      "start": 9.87,
+      "duration": 2.97
+    },
+    {
+      "text": "Let's jump right in.",
+      "start": 12.84,
+      "duration": 1.43
+    },
+    {
+      "text": "Kotlin Multiplatform,\nor KMP for short,",
+      "start": 14.27,
+      "duration": 3.43
+    },
+    {
+      "text": "is a feature of Kotlin that\nallows you to share your Kotlin",
+      "start": 17.7,
+      "duration": 2.75
+    },
+    {
+      "text": "code across multiple platforms.",
+      "start": 20.45,
+      "duration": 2.94
+    },
+    {
+      "text": "KMP brings native performance.",
+      "start": 23.39,
+      "duration": 2.32
+    },
+    {
+      "text": "There is no virtual\nmachine layer",
+      "start": 25.71,
+      "duration": 1.49
+    },
+    {
+      "text": "between your code and\nthe native platform.",
+      "start": 27.2,
+      "duration": 2.53
+    },
+    {
+      "text": "It's compiling down\ninto native code.",
+      "start": 29.73,
+      "duration": 2.63
+    },
+    {
+      "text": "You can adopt KMP at a pace\nthat makes sense for your app.",
+      "start": 32.36,
+      "duration": 4.0
+    },
+    {
+      "text": "You don't have to go all in,\nlike some other multiplatform",
+      "start": 36.36,
+      "duration": 2.63
+    },
+    {
+      "text": "frameworks, and\ndo a full rewrite.",
+      "start": 38.99,
+      "duration": 3.12
+    },
+    {
+      "text": "KMP is also stable,\nand it's already in use",
+      "start": 42.11,
+      "duration": 2.7
+    },
+    {
+      "text": "by apps, both big and small,\nshipping on the Play Store.",
+      "start": 44.81,
+      "duration": 3.81
+    },
+    {
+      "text": "One of those apps is our\nvery own Google Docs.",
+      "start": 48.62,
+      "duration": 3.51
+    },
+    {
+      "text": "The Workspace apps started\nexperimenting with KMP",
+      "start": 52.13,
+      "duration": 3.18
+    },
+    {
+      "text": "last year.",
+      "start": 55.31,
+      "duration": 1.18
+    },
+    {
+      "text": "And now Google Docs is\nrunning KMP in production",
+      "start": 56.49,
+      "duration": 3.38
+    },
+    {
+      "text": "on both iOS and web.",
+      "start": 59.87,
+      "duration": 2.41
+    },
+    {
+      "text": "The runtime\nperformance is on par.",
+      "start": 62.28,
+      "duration": 2.26
+    },
+    {
+      "text": "And in some cases, it's even\nbetter than the non-KMP version.",
+      "start": 64.54,
+      "duration": 3.71
+    },
+    {
+      "text": "Next, they intend to expand KMP\nto other Workspace applications.",
+      "start": 68.25,
+      "duration": 5.94
+    },
+    {
+      "text": "And StoneCo, a leading provider\nof financial technology",
+      "start": 74.19,
+      "duration": 3.51
+    },
+    {
+      "text": "solutions in Brazil, told\nus they are currently",
+      "start": 77.7,
+      "duration": 2.76
+    },
+    {
+      "text": "sharing approximately\n55% of their code",
+      "start": 80.46,
+      "duration": 2.88
+    },
+    {
+      "text": "and they're moving 40%\nfaster thanks to KMP.",
+      "start": 83.34,
+      "duration": 5.43
+    },
+    {
+      "text": "Traditionally,\nbuilding native apps",
+      "start": 88.77,
+      "duration": 2.22
+    },
+    {
+      "text": "requires a lot of duplication\nof code across platforms.",
+      "start": 90.99,
+      "duration": 4.08
+    },
+    {
+      "text": "KMP allows you to write once\nand run almost anywhere.",
+      "start": 95.07,
+      "duration": 5.19
+    },
+    {
+      "text": "A recommended\napproach with AMP is",
+      "start": 100.26,
+      "duration": 2.28
+    },
+    {
+      "text": "to use it to share business\nlogic across various platforms.",
+      "start": 102.54,
+      "duration": 3.87
+    },
+    {
+      "text": "Think domain-layer code,\ndata models, network layers,",
+      "start": 106.41,
+      "duration": 3.97
+    },
+    {
+      "text": "things like that.",
+      "start": 110.38,
+      "duration": 1.79
+    },
+    {
+      "text": "On the Android\nteam, we love KMP.",
+      "start": 112.17,
+      "duration": 2.52
+    },
+    {
+      "text": "Android thrives when we\nhave a strong ecosystem,",
+      "start": 114.69,
+      "duration": 3.72
+    },
+    {
+      "text": "when you can create apps that\ndelight users, create businesses",
+      "start": 118.41,
+      "duration": 4.35
+    },
+    {
+      "text": "that are profitable,\nand create professionals",
+      "start": 122.76,
+      "duration": 2.99
+    },
+    {
+      "text": "with successful careers.",
+      "start": 125.75,
+      "duration": 2.43
+    },
+    {
+      "text": "And KMP, it checks\nall those boxes",
+      "start": 128.18,
+      "duration": 2.64
+    },
+    {
+      "text": "through smooth, native\ninterop, reduced time",
+      "start": 130.82,
+      "duration": 3.81
+    },
+    {
+      "text": "to market, and\ntransferable skills.",
+      "start": 134.63,
+      "duration": 3.99
+    },
+    {
+      "text": "So what are we doing for KMP?",
+      "start": 138.62,
+      "duration": 1.87
+    },
+    {
+      "text": "Let's start with Jetpack.",
+      "start": 140.49,
+      "duration": 3.08
+    },
+    {
+      "text": "Are we just going to\nKMPify everything?",
+      "start": 143.57,
+      "duration": 2.8
+    },
+    {
+      "text": "Well, hang on, not so fast.",
+      "start": 146.37,
+      "duration": 1.86
+    },
+    {
+      "text": "Jetpack has over 800 modules,\nand not every library",
+      "start": 148.23,
+      "duration": 4.19
+    },
+    {
+      "text": "makes sense in a KMP world.",
+      "start": 152.42,
+      "duration": 2.46
+    },
+    {
+      "text": "So we started by clearly\ndefining our levels of support",
+      "start": 154.88,
+      "duration": 3.63
+    },
+    {
+      "text": "for each platform\nthat KMP supports.",
+      "start": 158.51,
+      "duration": 3.39
+    },
+    {
+      "text": "We classify the platforms\ninto three tiers.",
+      "start": 161.9,
+      "duration": 3.16
+    },
+    {
+      "text": "Our main focus is\nmobile development.",
+      "start": 165.06,
+      "duration": 2.82
+    },
+    {
+      "text": "So our highest level of support\nis for Android, iOS, and JVM",
+      "start": 167.88,
+      "duration": 4.13
+    },
+    {
+      "text": "targets.",
+      "start": 172.01,
+      "duration": 1.26
+    },
+    {
+      "text": "This allows you\nto share code that",
+      "start": 173.27,
+      "duration": 1.68
+    },
+    {
+      "text": "uses Jetpack libraries\nacross your mobile apps",
+      "start": 174.95,
+      "duration": 3.0
+    },
+    {
+      "text": "and your Kotlin backend.",
+      "start": 177.95,
+      "duration": 2.79
+    },
+    {
+      "text": "Tier 2 is currently desktop\nsupport for Mac and Linux.",
+      "start": 180.74,
+      "duration": 3.73
+    },
+    {
+      "text": "Tier 3, that's all the\nother KMP platforms.",
+      "start": 184.47,
+      "duration": 3.77
+    },
+    {
+      "text": "The levels of support in\neach tier are as follows.",
+      "start": 188.24,
+      "duration": 3.67
+    },
+    {
+      "text": "Tier 1, our highest\nlevel of support--",
+      "start": 191.91,
+      "duration": 2.52
+    },
+    {
+      "text": "it's fully tested\nin CI and comes",
+      "start": 194.43,
+      "duration": 2.18
+    },
+    {
+      "text": "with strict binary\ncompatibility guarantees.",
+      "start": 196.61,
+      "duration": 3.78
+    },
+    {
+      "text": "Tier 2, it comes\nwith limited testing",
+      "start": 200.39,
+      "duration": 2.43
+    },
+    {
+      "text": "with host-side tests but no\nbinary compatibility guarantees.",
+      "start": 202.82,
+      "duration": 4.18
+    },
+    {
+      "text": "And tier 3, we ensure we don't\nuse any APIs during development",
+      "start": 207.0,
+      "duration": 3.86
+    },
+    {
+      "text": "that would block usage\non those platforms,",
+      "start": 210.86,
+      "duration": 2.62
+    },
+    {
+      "text": "but we provide no support.",
+      "start": 213.48,
+      "duration": 2.78
+    },
+    {
+      "text": "As well as the platforms,\nwe classify the libraries",
+      "start": 216.26,
+      "duration": 2.49
+    },
+    {
+      "text": "into the types of features\nand guarantees we provide.",
+      "start": 218.75,
+      "duration": 3.81
+    },
+    {
+      "text": "Stable libraries bring both\nbinary compatibility and easy",
+      "start": 222.56,
+      "duration": 4.05
+    },
+    {
+      "text": "integration on\ntier one platforms.",
+      "start": 226.61,
+      "duration": 2.88
+    },
+    {
+      "text": "Commonized libraries\nmean the API is stable,",
+      "start": 229.49,
+      "duration": 3.55
+    },
+    {
+      "text": "so you get the binary\ncompatibility guarantees,",
+      "start": 233.04,
+      "duration": 2.76
+    },
+    {
+      "text": "but we aren't planning to\nbuild platform-specific hooks.",
+      "start": 235.8,
+      "duration": 3.47
+    },
+    {
+      "text": "You might have to do some\nmanual integration yourself.",
+      "start": 239.27,
+      "duration": 2.95
+    },
+    {
+      "text": "And alpha, alpha hasn't changed\nwhen it comes to Jetpack.",
+      "start": 242.22,
+      "duration": 3.18
+    },
+    {
+      "text": "The API is under\ndevelopment, and the features",
+      "start": 245.4,
+      "duration": 2.13
+    },
+    {
+      "text": "are subject to change.",
+      "start": 247.53,
+      "duration": 2.4
+    },
+    {
+      "text": "With that, we've been\nmoving slow and steady,",
+      "start": 249.93,
+      "duration": 3.16
+    },
+    {
+      "text": "adding support for KMP to\nmultiple Jetpack libraries",
+      "start": 253.09,
+      "duration": 3.17
+    },
+    {
+      "text": "where we think it makes sense.",
+      "start": 256.26,
+      "duration": 2.4
+    },
+    {
+      "text": "We first started with Room,\nDataStore, and Collections,",
+      "start": 258.66,
+      "duration": 3.4
+    },
+    {
+      "text": "which are now available\nin a stable release.",
+      "start": 262.06,
+      "duration": 2.69
+    },
+    {
+      "text": "We've also commonized\nPaging, and we've",
+      "start": 264.75,
+      "duration": 2.79
+    },
+    {
+      "text": "released alpha versions of\nSaved State and View Model.",
+      "start": 267.54,
+      "duration": 4.47
+    },
+    {
+      "text": "Our KMP support isn't just\nlimited to Jetpack libraries,",
+      "start": 272.01,
+      "duration": 3.18
+    },
+    {
+      "text": "though.",
+      "start": 275.19,
+      "duration": 0.84
+    },
+    {
+      "text": "As part of making KMP\nwork at Google's scale,",
+      "start": 276.03,
+      "duration": 3.43
+    },
+    {
+      "text": "we've been contributing\nback to KMP",
+      "start": 279.46,
+      "duration": 2.12
+    },
+    {
+      "text": "through the Kotlin foundation.",
+      "start": 281.58,
+      "duration": 2.79
+    },
+    {
+      "text": "We've upgraded the\nKotlin Native compiler",
+      "start": 284.37,
+      "duration": 2.52
+    },
+    {
+      "text": "to take advantage of the\nlatest features of LLVM 16.",
+      "start": 286.89,
+      "duration": 4.68
+    },
+    {
+      "text": "We've implemented a more\nefficient garbage collector",
+      "start": 291.57,
+      "duration": 2.73
+    },
+    {
+      "text": "and String representation\nfor Kotlin Native that",
+      "start": 294.3,
+      "duration": 3.39
+    },
+    {
+      "text": "brings both improvements to\nruntime performance and memory",
+      "start": 297.69,
+      "duration": 2.82
+    },
+    {
+      "text": "footprint.",
+      "start": 300.51,
+      "duration": 1.5
+    },
+    {
+      "text": "We're bringing support\nfor Android Lint",
+      "start": 302.01,
+      "duration": 2.13
+    },
+    {
+      "text": "to Kotlin targets, which will\nallow for static analysis of KMP",
+      "start": 304.14,
+      "duration": 4.12
+    },
+    {
+      "text": "code.",
+      "start": 308.26,
+      "duration": 1.68
+    },
+    {
+      "text": "We've also contributed to\nbinary compatibility tracking",
+      "start": 309.94,
+      "duration": 3.24
+    },
+    {
+      "text": "and unifying the\nAPI of AGP and KGP",
+      "start": 313.18,
+      "duration": 3.48
+    },
+    {
+      "text": "to improve the developer\nexperience of KMP and Gradle.",
+      "start": 316.66,
+      "duration": 4.74
+    },
+    {
+      "text": "It doesn't stop there.",
+      "start": 321.4,
+      "duration": 1.45
+    },
+    {
+      "text": "We're also adding\ntooling support.",
+      "start": 322.85,
+      "duration": 2.49
+    },
+    {
+      "text": "The latest versions\nof Android Studio",
+      "start": 325.34,
+      "duration": 2.09
+    },
+    {
+      "text": "include two new templates\nto help you get started.",
+      "start": 327.43,
+      "duration": 3.48
+    },
+    {
+      "text": "You can start a whole new\nKMP app with the new project",
+      "start": 330.91,
+      "duration": 2.67
+    },
+    {
+      "text": "template or add a KMP shared\nmodule to your existing app",
+      "start": 333.58,
+      "duration": 4.65
+    },
+    {
+      "text": "to begin sharing its\ncode to other platforms.",
+      "start": 338.23,
+      "duration": 4.59
+    },
+    {
+      "text": "Running this template and having\na look at the Gradle file,",
+      "start": 342.82,
+      "duration": 2.71
+    },
+    {
+      "text": "your new module\nshows a few sections",
+      "start": 345.53,
+      "duration": 2.18
+    },
+    {
+      "text": "you may not have seen before\nin a traditional Android Gradle",
+      "start": 347.71,
+      "duration": 3.15
+    },
+    {
+      "text": "setup.",
+      "start": 350.86,
+      "duration": 0.93
+    },
+    {
+      "text": "Targets, source sets,\ndependencies-- well,",
+      "start": 351.79,
+      "duration": 3.28
+    },
+    {
+      "text": "to dive into what\nall of that means,",
+      "start": 355.07,
+      "duration": 1.65
+    },
+    {
+      "text": "I'll now hand over to Dustin.",
+      "start": 356.72,
+      "duration": 3.05
+    },
+    {
+      "text": "DUSTIN LAM: So Ben just\nshowed us a lot of code.",
+      "start": 359.77,
+      "duration": 2.59
+    },
+    {
+      "text": "Let's take a step back and\nlook at a typical project",
+      "start": 362.36,
+      "duration": 2.51
+    },
+    {
+      "text": "from a high-level overview.",
+      "start": 364.87,
+      "duration": 1.6
+    },
+    {
+      "text": "Here's a diagram of an Android\napplication built with Gradle.",
+      "start": 366.47,
+      "duration": 3.29
+    },
+    {
+      "text": "As a review, a Gradle project\ncan contain multiple subprojects",
+      "start": 369.76,
+      "duration": 3.71
+    },
+    {
+      "text": "called modules.",
+      "start": 373.47,
+      "duration": 1.27
+    },
+    {
+      "text": "In general, it's best practice\nto modularize your app this way.",
+      "start": 374.74,
+      "duration": 3.27
+    },
+    {
+      "text": "Besides organizational\nreasons, this",
+      "start": 378.01,
+      "duration": 2.3
+    },
+    {
+      "text": "can also have practical\neffects like improving",
+      "start": 380.31,
+      "duration": 1.92
+    },
+    {
+      "text": "your build speeds.",
+      "start": 382.23,
+      "duration": 1.86
+    },
+    {
+      "text": "Each module is configured in\nGradle with a set of plugins.",
+      "start": 384.09,
+      "duration": 3.16
+    },
+    {
+      "text": "And because this only\nbuilds for one target,",
+      "start": 387.25,
+      "duration": 2.155
+    },
+    {
+      "text": "you can directly\nconfigure how it",
+      "start": 389.405,
+      "duration": 1.375
+    },
+    {
+      "text": "builds on Android,\nincluding declaring things",
+      "start": 390.78,
+      "duration": 2.19
+    },
+    {
+      "text": "like dependencies.",
+      "start": 392.97,
+      "duration": 2.19
+    },
+    {
+      "text": "Now, in a KMP context,\nit's very similar,",
+      "start": 395.16,
+      "duration": 2.92
+    },
+    {
+      "text": "but with a few key differences.",
+      "start": 398.08,
+      "duration": 1.89
+    },
+    {
+      "text": "As before, it's\nconfigured using plugins.",
+      "start": 399.97,
+      "duration": 2.94
+    },
+    {
+      "text": "But for KMP, we\nneed to also declare",
+      "start": 402.91,
+      "duration": 2.93
+    },
+    {
+      "text": "what targets we\nwant to compile to",
+      "start": 405.84,
+      "duration": 1.98
+    },
+    {
+      "text": "and how we want to organize\nour sources to share",
+      "start": 407.82,
+      "duration": 2.82
+    },
+    {
+      "text": "code between these targets.",
+      "start": 410.64,
+      "duration": 2.19
+    },
+    {
+      "text": "Let's take a closer look\nat configuring each step.",
+      "start": 412.83,
+      "duration": 3.03
+    },
+    {
+      "text": "An Android library is configured\nwith the Android Gradle",
+      "start": 415.86,
+      "duration": 2.52
+    },
+    {
+      "text": "plugin and the Kotlin Gradle\nplugin, each with its own DSL.",
+      "start": 418.38,
+      "duration": 4.47
+    },
+    {
+      "text": "To convert this to KMP, we\nneed to use the KMP versions",
+      "start": 422.85,
+      "duration": 3.48
+    },
+    {
+      "text": "of these plugins, which\nprovides a unified Gradle",
+      "start": 426.33,
+      "duration": 2.82
+    },
+    {
+      "text": "DSL to configure the build.",
+      "start": 429.15,
+      "duration": 2.82
+    },
+    {
+      "text": "Of course, the\nwhole point of KMP",
+      "start": 431.97,
+      "duration": 1.95
+    },
+    {
+      "text": "is to compile to\nmultiple platforms.",
+      "start": 433.92,
+      "duration": 2.44
+    },
+    {
+      "text": "This is configured in the\nbuild by declaring targets.",
+      "start": 436.36,
+      "duration": 2.85
+    },
+    {
+      "text": "Each target defines\nan artifact to build",
+      "start": 439.21,
+      "duration": 2.51
+    },
+    {
+      "text": "and what platform\nit's compiled for.",
+      "start": 441.72,
+      "duration": 2.94
+    },
+    {
+      "text": "It's important to note that\ntargets may be arbitrarily",
+      "start": 444.66,
+      "duration": 2.55
+    },
+    {
+      "text": "defined, including creating\nmultiple for the same platform",
+      "start": 447.21,
+      "duration": 3.06
+    },
+    {
+      "text": "by giving them custom names.",
+      "start": 450.27,
+      "duration": 1.6
+    },
+    {
+      "text": "Although, this is really\nnot a recommended approach.",
+      "start": 451.87,
+      "duration": 3.98
+    },
+    {
+      "text": "On the other hand, platforms\nare defined by the toolchain.",
+      "start": 455.85,
+      "duration": 3.69
+    },
+    {
+      "text": "They represent a\nvery specific place",
+      "start": 459.54,
+      "duration": 2.25
+    },
+    {
+      "text": "where your code\nruns and directly",
+      "start": 461.79,
+      "duration": 1.83
+    },
+    {
+      "text": "maps to what kind of binary the\nKotlin compiler should spit out.",
+      "start": 463.62,
+      "duration": 4.05
+    },
+    {
+      "text": "To give you an idea of\nhow specific these are,",
+      "start": 467.67,
+      "duration": 2.89
+    },
+    {
+      "text": "there's an example here\nfor a 64-bit iOS simulator",
+      "start": 470.56,
+      "duration": 3.62
+    },
+    {
+      "text": "that's running on Apple silicon.",
+      "start": 474.18,
+      "duration": 2.61
+    },
+    {
+      "text": "Continuing with our\nexample from before,",
+      "start": 476.79,
+      "duration": 2.53
+    },
+    {
+      "text": "here's the configuration\nfor an Android library",
+      "start": 479.32,
+      "duration": 2.57
+    },
+    {
+      "text": "through the Android\nGradle plugin.",
+      "start": 481.89,
+      "duration": 2.76
+    },
+    {
+      "text": "Converting this to KMP\nlooks very similar,",
+      "start": 484.65,
+      "duration": 2.86
+    },
+    {
+      "text": "but Android configuration\nis now encapsulated",
+      "start": 487.51,
+      "duration": 2.82
+    },
+    {
+      "text": "under the Android library\ntarget in the Kotlin DSL.",
+      "start": 490.33,
+      "duration": 3.96
+    },
+    {
+      "text": "Declaring other targets\nis very similar.",
+      "start": 494.29,
+      "duration": 2.7
+    },
+    {
+      "text": "Below Android library, we have\na declaration for a 64-bit iOS",
+      "start": 496.99,
+      "duration": 3.9
+    },
+    {
+      "text": "target, which comes with its own\nset of configuration options.",
+      "start": 500.89,
+      "duration": 4.35
+    },
+    {
+      "text": "As I mentioned earlier,\nit is possible to declare",
+      "start": 505.24,
+      "duration": 2.73
+    },
+    {
+      "text": "multiple targets for\nthe same platform",
+      "start": 507.97,
+      "duration": 2.34
+    },
+    {
+      "text": "by giving them a custom name.",
+      "start": 510.31,
+      "duration": 2.04
+    },
+    {
+      "text": "This is likely something\nyou will never need to do,",
+      "start": 512.35,
+      "duration": 2.559
+    },
+    {
+      "text": "and it's really not a\nrecommended approach.",
+      "start": 514.909,
+      "duration": 2.581
+    },
+    {
+      "text": "But it's a useful\nexample to illustrate",
+      "start": 517.49,
+      "duration": 2.45
+    },
+    {
+      "text": "the difference between a target\nand a platform in a KMP project.",
+      "start": 519.94,
+      "duration": 5.28
+    },
+    {
+      "text": "Source sets in a KMP\nproject define how sources",
+      "start": 525.22,
+      "duration": 2.64
+    },
+    {
+      "text": "are shared between targets.",
+      "start": 527.86,
+      "duration": 2.31
+    },
+    {
+      "text": "By default, each target creates\na matching Main and Test source",
+      "start": 530.17,
+      "duration": 4.5
+    },
+    {
+      "text": "set, which can only\ncompile to that target.",
+      "start": 534.67,
+      "duration": 3.21
+    },
+    {
+      "text": "Each source set can\ndeclare dependencies,",
+      "start": 537.88,
+      "duration": 2.29
+    },
+    {
+      "text": "including on other\nsource sets, which",
+      "start": 540.17,
+      "duration": 1.97
+    },
+    {
+      "text": "is how you configure\nwhat sources are shared.",
+      "start": 542.14,
+      "duration": 3.09
+    },
+    {
+      "text": "Similar to targets, source\nsets can be created arbitrarily",
+      "start": 545.23,
+      "duration": 3.6
+    },
+    {
+      "text": "with whatever name you want.",
+      "start": 548.83,
+      "duration": 2.87
+    },
+    {
+      "text": "Back to our example, but with\nthe default target specific",
+      "start": 551.7,
+      "duration": 3.87
+    },
+    {
+      "text": "source sets configured--",
+      "start": 555.57,
+      "duration": 2.04
+    },
+    {
+      "text": "we can add dependencies\nfor each source set",
+      "start": 557.61,
+      "duration": 2.01
+    },
+    {
+      "text": "in their corresponding blocks.",
+      "start": 559.62,
+      "duration": 2.43
+    },
+    {
+      "text": "In order to share sources\nbetween these targets,",
+      "start": 562.05,
+      "duration": 2.74
+    },
+    {
+      "text": "we can create a new\ncustom source set.",
+      "start": 564.79,
+      "duration": 2.37
+    },
+    {
+      "text": "Let's call it Android and\niOS, marking both targets",
+      "start": 567.16,
+      "duration": 3.26
+    },
+    {
+      "text": "dependent on this new one.",
+      "start": 570.42,
+      "duration": 2.4
+    },
+    {
+      "text": "If the dependencies\nare also commonized,",
+      "start": 572.82,
+      "duration": 2.17
+    },
+    {
+      "text": "we can also move them into this\nnew shared source set as well.",
+      "start": 574.99,
+      "duration": 3.98
+    },
+    {
+      "text": "It turns out that\nsharing sources this way",
+      "start": 578.97,
+      "duration": 2.22
+    },
+    {
+      "text": "is a common pattern.",
+      "start": 581.19,
+      "duration": 1.27
+    },
+    {
+      "text": "So the Kotlin Gradle plugin\ncreates shared source sets",
+      "start": 582.46,
+      "duration": 2.66
+    },
+    {
+      "text": "for you by default.\nPictured here",
+      "start": 585.12,
+      "duration": 2.31
+    },
+    {
+      "text": "is the dependency tree of shared\nsource sets that are configured",
+      "start": 587.43,
+      "duration": 3.12
+    },
+    {
+      "text": "for you, with source sets used\nto compile to iOS highlighted.",
+      "start": 590.55,
+      "duration": 4.74
+    },
+    {
+      "text": "As an example, iOS,\nas its name suggests,",
+      "start": 595.29,
+      "duration": 3.1
+    },
+    {
+      "text": "is for shared sources\nacross all iOS targets.",
+      "start": 598.39,
+      "duration": 3.36
+    },
+    {
+      "text": "And common is the\nroot source set",
+      "start": 601.75,
+      "duration": 1.7
+    },
+    {
+      "text": "that is shared across\nall declared targets.",
+      "start": 603.45,
+      "duration": 3.03
+    },
+    {
+      "text": "Applying this to our\nexample, we no longer",
+      "start": 606.48,
+      "duration": 1.98
+    },
+    {
+      "text": "need to manually create\na custom source set.",
+      "start": 608.46,
+      "duration": 2.83
+    },
+    {
+      "text": "We can just leverage\nthe existing commonMain,",
+      "start": 611.29,
+      "duration": 2.68
+    },
+    {
+      "text": "which everything else\ndepends on out of the box.",
+      "start": 613.97,
+      "duration": 3.2
+    },
+    {
+      "text": "Unique to the\nAndroid target, there",
+      "start": 617.17,
+      "duration": 2.22
+    },
+    {
+      "text": "are two test source sets,\none for host-side tests",
+      "start": 619.39,
+      "duration": 3.0
+    },
+    {
+      "text": "that run directly on\nyour computer in the JVM,",
+      "start": 622.39,
+      "duration": 2.56
+    },
+    {
+      "text": "and another for\ninstrumented device tests",
+      "start": 624.95,
+      "duration": 2.45
+    },
+    {
+      "text": "that run on an Android\ndevice or emulator.",
+      "start": 627.4,
+      "duration": 3.75
+    },
+    {
+      "text": "A note about common--",
+      "start": 631.15,
+      "duration": 1.48
+    },
+    {
+      "text": "as I mentioned earlier, it\nis just a default source set.",
+      "start": 632.63,
+      "duration": 3.74
+    },
+    {
+      "text": "This means there's no such\nthing as a common target.",
+      "start": 636.37,
+      "duration": 2.77
+    },
+    {
+      "text": "There is no special\ncommon platform",
+      "start": 639.14,
+      "duration": 2.21
+    },
+    {
+      "text": "that Kotlin code is\nsupposed to compile to.",
+      "start": 641.35,
+      "duration": 2.73
+    },
+    {
+      "text": "In fact, the compiler only\nchecks your common code",
+      "start": 644.08,
+      "duration": 3.24
+    },
+    {
+      "text": "for compatibility\nagainst declared targets.",
+      "start": 647.32,
+      "duration": 2.77
+    },
+    {
+      "text": "So it's possible to\nwrite common code that",
+      "start": 650.09,
+      "duration": 2.96
+    },
+    {
+      "text": "isn't truly common across\nall possible targets",
+      "start": 653.05,
+      "duration": 3.69
+    },
+    {
+      "text": "if you've only declared a\nsubset of them to compile to.",
+      "start": 656.74,
+      "duration": 3.96
+    },
+    {
+      "text": "So that's a wrap on\nproject configuration.",
+      "start": 660.7,
+      "duration": 2.68
+    },
+    {
+      "text": "If your entire app is built\nlocally as a single Gradle",
+      "start": 663.38,
+      "duration": 2.66
+    },
+    {
+      "text": "project, then you're finished.",
+      "start": 666.04,
+      "duration": 3.18
+    },
+    {
+      "text": "Project dependencies\nwork as normal in Gradle,",
+      "start": 669.22,
+      "duration": 2.04
+    },
+    {
+      "text": "and your app can build\nand compile normally.",
+      "start": 671.26,
+      "duration": 2.8
+    },
+    {
+      "text": "Of course, the whole point\nof Kotlin Multiplatform",
+      "start": 674.06,
+      "duration": 3.81
+    },
+    {
+      "text": "is that it's multiplatform.",
+      "start": 677.87,
+      "duration": 2.17
+    },
+    {
+      "text": "To share our business\nlogic with other apps,",
+      "start": 680.04,
+      "duration": 2.37
+    },
+    {
+      "text": "we'll need to look into how\npublishing and exporting works.",
+      "start": 682.41,
+      "duration": 4.16
+    },
+    {
+      "text": "KMP supports\npublishing libraries",
+      "start": 686.57,
+      "duration": 1.71
+    },
+    {
+      "text": "in several different\nbinary formats.",
+      "start": 688.28,
+      "duration": 2.37
+    },
+    {
+      "text": "For Android and iOS, we\ncare about these three--",
+      "start": 690.65,
+      "duration": 3.42
+    },
+    {
+      "text": "Java archives and\nAndroid archives.",
+      "start": 694.07,
+      "duration": 2.35
+    },
+    {
+      "text": "In this case,\nnothing has changed.",
+      "start": 696.42,
+      "duration": 2.49
+    },
+    {
+      "text": "You can consume them in Gradle\nand use them just as before.",
+      "start": 698.91,
+      "duration": 4.55
+    },
+    {
+      "text": "Klibs are a new archive\nformat introduced",
+      "start": 703.46,
+      "duration": 2.97
+    },
+    {
+      "text": "by Kotlin for non-Android\nand non-JVM targets,",
+      "start": 706.43,
+      "duration": 3.73
+    },
+    {
+      "text": "such as the Kotlin\nNative target for iOS.",
+      "start": 710.16,
+      "duration": 2.135
+    },
+    {
+      "text": "XCFrameworks is\nApple's officially",
+      "start": 715.4,
+      "duration": 2.25
+    },
+    {
+      "text": "supported binary format for\nlibraries on Apple platforms.",
+      "start": 717.65,
+      "duration": 4.17
+    },
+    {
+      "text": "KMP also supports exporting\nthese for a seamless developer",
+      "start": 721.82,
+      "duration": 3.45
+    },
+    {
+      "text": "experience for Apple\nplatform developers.",
+      "start": 725.27,
+      "duration": 4.38
+    },
+    {
+      "text": "Publishing for consumption\nby other KMP projects",
+      "start": 729.65,
+      "duration": 2.37
+    },
+    {
+      "text": "through Gradle can be configured\nwith the Maven Publish Gradle",
+      "start": 732.02,
+      "duration": 3.52
+    },
+    {
+      "text": "plugin.",
+      "start": 735.54,
+      "duration": 0.93
+    },
+    {
+      "text": "A KMP library produces\na separate artifact",
+      "start": 736.47,
+      "duration": 2.76
+    },
+    {
+      "text": "for each target, with\nthe target's name",
+      "start": 739.23,
+      "duration": 2.61
+    },
+    {
+      "text": "appended as a suffix\nto the library's name.",
+      "start": 741.84,
+      "duration": 2.91
+    },
+    {
+      "text": "A root publication\nis also created,",
+      "start": 744.75,
+      "duration": 2.35
+    },
+    {
+      "text": "which includes\nmetadata that allows",
+      "start": 747.1,
+      "duration": 1.82
+    },
+    {
+      "text": "Gradle to resolve the correct\nplatform-specific artifact.",
+      "start": 748.92,
+      "duration": 4.17
+    },
+    {
+      "text": "Very similar to a\npre-KMP world, things",
+      "start": 753.09,
+      "duration": 2.82
+    },
+    {
+      "text": "work pretty much as\nyou would expect.",
+      "start": 755.91,
+      "duration": 2.82
+    },
+    {
+      "text": "At this point if, your entire\nproject is built in Gradle",
+      "start": 758.73,
+      "duration": 2.67
+    },
+    {
+      "text": "with KMP, then you're done.",
+      "start": 761.4,
+      "duration": 2.46
+    },
+    {
+      "text": "Of course, one of\nthe advantages of KMP",
+      "start": 763.86,
+      "duration": 2.64
+    },
+    {
+      "text": "is its ability to integrate with\nnative iOS development in Xcode.",
+      "start": 766.5,
+      "duration": 3.82
+    },
+    {
+      "text": "So let's explore\nhow that works next.",
+      "start": 770.32,
+      "duration": 2.96
+    },
+    {
+      "text": "I mentioned earlier that\nKMP can produce XCFrameworks",
+      "start": 773.28,
+      "duration": 3.27
+    },
+    {
+      "text": "for Apple platforms.",
+      "start": 776.55,
+      "duration": 1.53
+    },
+    {
+      "text": "This is something that\nmust be explicitly enabled",
+      "start": 778.08,
+      "duration": 2.28
+    },
+    {
+      "text": "by configuring the target with\nthe binaries framework option",
+      "start": 780.36,
+      "duration": 3.27
+    },
+    {
+      "text": "in Gradle, as shown here.",
+      "start": 783.63,
+      "duration": 2.25
+    },
+    {
+      "text": "For local experimentation, you\ncan directly integrate Gradle",
+      "start": 785.88,
+      "duration": 3.15
+    },
+    {
+      "text": "into Xcode by adding a Run\nScript into your project's",
+      "start": 789.03,
+      "duration": 2.94
+    },
+    {
+      "text": "build phases.",
+      "start": 791.97,
+      "duration": 1.44
+    },
+    {
+      "text": "The Kotlin Gradle plugin\nprovides a Gradle task",
+      "start": 793.41,
+      "duration": 2.37
+    },
+    {
+      "text": "that builds the\nXCFramework and imports it",
+      "start": 795.78,
+      "duration": 2.14
+    },
+    {
+      "text": "into your Xcode project\nwhen you run it this way.",
+      "start": 797.92,
+      "duration": 2.91
+    },
+    {
+      "text": "While this method is great for\nquickly experimenting locally,",
+      "start": 800.83,
+      "duration": 3.1
+    },
+    {
+      "text": "it's really not the\nrecommended approach.",
+      "start": 803.93,
+      "duration": 3.08
+    },
+    {
+      "text": "In the real world,\nmany teams will",
+      "start": 807.01,
+      "duration": 1.71
+    },
+    {
+      "text": "have dedicated\niOS engineers that",
+      "start": 808.72,
+      "duration": 2.19
+    },
+    {
+      "text": "shouldn't need to interact\nwith Gradle or Kotlin directly.",
+      "start": 810.91,
+      "duration": 3.78
+    },
+    {
+      "text": "In this case, you'll\nwant to make your KMP",
+      "start": 814.69,
+      "duration": 1.92
+    },
+    {
+      "text": "library available\nto Xcode projects",
+      "start": 816.61,
+      "duration": 2.22
+    },
+    {
+      "text": "through a package manager.",
+      "start": 818.83,
+      "duration": 2.157
+    },
+    {
+      "text": "We'll walk through two of the\nmost popular ones, Swift Package",
+      "start": 820.987,
+      "duration": 2.583
+    },
+    {
+      "text": "Manager and CocoaPods.",
+      "start": 823.57,
+      "duration": 2.91
+    },
+    {
+      "text": "Swift Package Manager is Apple's\nofficially supported method",
+      "start": 826.48,
+      "duration": 3.3
+    },
+    {
+      "text": "of distributing binary\npackages, such as XCFrameworks",
+      "start": 829.78,
+      "duration": 3.27
+    },
+    {
+      "text": "for Xcode projects.",
+      "start": 833.05,
+      "duration": 1.95
+    },
+    {
+      "text": "For a new project,\nthis is the best choice",
+      "start": 835.0,
+      "duration": 2.4
+    },
+    {
+      "text": "for aligning with\nmodern best practices.",
+      "start": 837.4,
+      "duration": 2.38
+    },
+    {
+      "text": "And a Swift package\nfor a KMP library",
+      "start": 839.78,
+      "duration": 2.06
+    },
+    {
+      "text": "can be built directly\nwith official tooling.",
+      "start": 841.84,
+      "duration": 2.94
+    },
+    {
+      "text": "To publish a KMP library\nas a Swift package,",
+      "start": 844.78,
+      "duration": 2.56
+    },
+    {
+      "text": "you'll need to assemble the\nXCFramework through Gradle",
+      "start": 847.34,
+      "duration": 2.63
+    },
+    {
+      "text": "with the task shown here.",
+      "start": 849.97,
+      "duration": 1.3
+    },
+    {
+      "text": "Compress it as a\nzip file, and then",
+      "start": 851.27,
+      "duration": 1.91
+    },
+    {
+      "text": "upload it along with a package\nmanifest to a remote repository",
+      "start": 853.18,
+      "duration": 3.15
+    },
+    {
+      "text": "that's visible to\nyour iOS engineers.",
+      "start": 856.33,
+      "duration": 2.75
+    },
+    {
+      "text": "Here's an example of a\nSwift package manifest.",
+      "start": 859.08,
+      "duration": 2.59
+    },
+    {
+      "text": "Essentially, it just contains\na whole bunch of metadata,",
+      "start": 861.67,
+      "duration": 2.91
+    },
+    {
+      "text": "some of it which is required.",
+      "start": 864.58,
+      "duration": 1.575
+    },
+    {
+      "text": "But also, I want to\ndraw your attention",
+      "start": 866.155,
+      "duration": 1.625
+    },
+    {
+      "text": "below to a URL to download\nyour archive and a checksum",
+      "start": 867.78,
+      "duration": 3.93
+    },
+    {
+      "text": "for verifying this\narchive, which",
+      "start": 871.71,
+      "duration": 1.89
+    },
+    {
+      "text": "can be generated with the Swift\npackage command-line interface.",
+      "start": 873.6,
+      "duration": 3.96
+    },
+    {
+      "text": "Adding a Swift package\nto an Xcode project",
+      "start": 877.56,
+      "duration": 2.4
+    },
+    {
+      "text": "is the same as a regular\nflow without KMP.",
+      "start": 879.96,
+      "duration": 3.54
+    },
+    {
+      "text": "This is all done through the\nnative UI in Xcode, which is not",
+      "start": 883.5,
+      "duration": 3.21
+    },
+    {
+      "text": "only seamless with\nexisting workflows,",
+      "start": 886.71,
+      "duration": 2.23
+    },
+    {
+      "text": "but also means iOS\nengineers do not",
+      "start": 888.94,
+      "duration": 2.39
+    },
+    {
+      "text": "need to open up Gradle, Android\nStudio, or a Kotlin code base.",
+      "start": 891.33,
+      "duration": 4.71
+    },
+    {
+      "text": "Another option is CocoaPods.",
+      "start": 896.04,
+      "duration": 2.17
+    },
+    {
+      "text": "This is a popular third-party\ndependency manager",
+      "start": 898.21,
+      "duration": 2.42
+    },
+    {
+      "text": "that can be a good choice\nif your iOS team is already",
+      "start": 900.63,
+      "duration": 2.97
+    },
+    {
+      "text": "using it.",
+      "start": 903.6,
+      "duration": 1.14
+    },
+    {
+      "text": "Jetbrains also\nships a plugin which",
+      "start": 904.74,
+      "duration": 1.92
+    },
+    {
+      "text": "provides a Gradle\nDSL to configure",
+      "start": 906.66,
+      "duration": 2.04
+    },
+    {
+      "text": "exporting for CocoaPods.",
+      "start": 908.7,
+      "duration": 2.79
+    },
+    {
+      "text": "To export to CocoaPods, you'll\nfirst need to install it.",
+      "start": 911.49,
+      "duration": 2.98
+    },
+    {
+      "text": "As CocoaPods is\nbuilt in Ruby, you'll",
+      "start": 914.47,
+      "duration": 2.15
+    },
+    {
+      "text": "first need to install\nRuby and then CocoaPods",
+      "start": 916.62,
+      "duration": 2.46
+    },
+    {
+      "text": "itself, which is\navailable as a Ruby Gem.",
+      "start": 919.08,
+      "duration": 3.15
+    },
+    {
+      "text": "After configuring\nCocoaPods in Gradle,",
+      "start": 922.23,
+      "duration": 2.14
+    },
+    {
+      "text": "a task will be\ncreated for you that",
+      "start": 924.37,
+      "duration": 1.91
+    },
+    {
+      "text": "assembles the XCFramework\nand a podspec you",
+      "start": 926.28,
+      "duration": 2.28
+    },
+    {
+      "text": "can upload to a\nremote repository",
+      "start": 928.56,
+      "duration": 1.86
+    },
+    {
+      "text": "to make it available\nto iOS clients.",
+      "start": 930.42,
+      "duration": 3.06
+    },
+    {
+      "text": "Here's an example of a\nKMP library configured",
+      "start": 933.48,
+      "duration": 2.49
+    },
+    {
+      "text": "to export as a CocoaPod.",
+      "start": 935.97,
+      "duration": 2.49
+    },
+    {
+      "text": "The DSL allows you to specify\na bunch of metadata, which",
+      "start": 938.46,
+      "duration": 3.24
+    },
+    {
+      "text": "is required for the\npodspec, but also provides",
+      "start": 941.7,
+      "duration": 2.76
+    },
+    {
+      "text": "a block to configure\nassembling the XCFramework that",
+      "start": 944.46,
+      "duration": 2.43
+    },
+    {
+      "text": "is bundled with your pod.",
+      "start": 946.89,
+      "duration": 2.4
+    },
+    {
+      "text": "After assembling and\nuploading your pod,",
+      "start": 949.29,
+      "duration": 2.29
+    },
+    {
+      "text": "importing it into\nan Xcode project",
+      "start": 951.58,
+      "duration": 1.76
+    },
+    {
+      "text": "isn't any different as a\nregular iOS dependency.",
+      "start": 953.34,
+      "duration": 3.33
+    },
+    {
+      "text": "Simply add your new library to\nthe Xcode project's pod file",
+      "start": 956.67,
+      "duration": 2.97
+    },
+    {
+      "text": "and run pod install to\nimport your camp library.",
+      "start": 959.64,
+      "duration": 3.18
+    },
+    {
+      "text": "Lastly, you can also\ndeclare dependencies",
+      "start": 962.82,
+      "duration": 2.46
+    },
+    {
+      "text": "on other pods in Gradle by\ndeclaring repos to search for",
+      "start": 965.28,
+      "duration": 2.88
+    },
+    {
+      "text": "and what pods your\nproject depends on.",
+      "start": 968.16,
+      "duration": 2.28
+    },
+    {
+      "text": "That's a wrap on the\nbasics of a KMP build.",
+      "start": 970.44,
+      "duration": 2.44
+    },
+    {
+      "text": "This talk glosses\nover many details.",
+      "start": 972.88,
+      "duration": 2.13
+    },
+    {
+      "text": "But fortunately, there are\nmany resources available",
+      "start": 975.01,
+      "duration": 2.21
+    },
+    {
+      "text": "online with detailed\nguidance, including",
+      "start": 977.22,
+      "duration": 2.5
+    },
+    {
+      "text": "reference documentation\nand a step-by-step Codelab.",
+      "start": 979.72,
+      "duration": 2.97
+    },
+    {
+      "text": "And here we have Ben to talk\na little bit more about that.",
+      "start": 982.69,
+      "duration": 4.05
+    },
+    {
+      "text": "BEN TRENGROVE: So the\neasiest way to get started",
+      "start": 986.74,
+      "duration": 2.28
+    },
+    {
+      "text": "is with the new templates\nin Android Studio mentioned",
+      "start": 989.02,
+      "duration": 2.97
+    },
+    {
+      "text": "previously.",
+      "start": 991.99,
+      "duration": 0.97
+    },
+    {
+      "text": "If you're already in Android\nStudio, this is the fastest way.",
+      "start": 992.96,
+      "duration": 4.1
+    },
+    {
+      "text": "We've also got two\nnew Codelabs released.",
+      "start": 997.06,
+      "duration": 2.67
+    },
+    {
+      "text": "Getting Started\nWith KMP takes you",
+      "start": 999.73,
+      "duration": 2.19
+    },
+    {
+      "text": "through the project setup\nof adding a shared module",
+      "start": 1001.92,
+      "duration": 2.65
+    },
+    {
+      "text": "and then using\nthat shared module",
+      "start": 1004.57,
+      "duration": 1.7
+    },
+    {
+      "text": "to share some business logic\nbetween your Android and iOS",
+      "start": 1006.27,
+      "duration": 3.18
+    },
+    {
+      "text": "app.",
+      "start": 1009.45,
+      "duration": 0.58
+    },
+    {
+      "text": "Migrating your\ndata layer to room",
+      "start": 1010.03,
+      "duration": 2.03
+    },
+    {
+      "text": "takes two existing standalone\napps, one for Android",
+      "start": 1012.06,
+      "duration": 2.85
+    },
+    {
+      "text": "and one for iOS, and migrates\nthese apps to have a shared",
+      "start": 1014.91,
+      "duration": 3.3
+    },
+    {
+      "text": "implementation.",
+      "start": 1018.21,
+      "duration": 1.27
+    },
+    {
+      "text": "All of our Kotlin\ndocumentation, including KMP,",
+      "start": 1019.48,
+      "duration": 2.64
+    },
+    {
+      "text": "lives at google/kotlin.",
+      "start": 1022.12,
+      "duration": 1.85
+    },
+    {
+      "text": "And don't miss the\nJetBrains KMP documentation.",
+      "start": 1023.97,
+      "duration": 3.54
+    },
+    {
+      "text": "That's it.",
+      "start": 1027.51,
+      "duration": 0.816
+    },
+    {
+      "text": "Thanks for watching.",
+      "start": 1028.326,
+      "duration": 0.833
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1029.159,
+      "duration": 3.05
+    }
+  ]
+}

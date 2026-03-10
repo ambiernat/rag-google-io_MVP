@@ -1,0 +1,90 @@
+[
+  {
+    "id": "89UusPuz8q4__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 0.0,
+    "timestamp_end": 146.51,
+    "text": "[MUSIC PLAYING] JOLANDA VERHOEF:\nBecause I get to start, of course I'm going to start\nwith my all-time favorite topic, Jetpack Compose. [CHEERS AND APPLAUSE] Now, I was actually\npreparing this talk, and I was looking\nfor some inspiration. And so I watched the 2019 talk,\nthe \"What's New in Android\" talk back then. And it made me realize that\nwe've come such a long way. Back then, we introduced\nCompose as this new UI toolkit for all of you to try out. And now, Compose is\nour recommended toolkit for building UI on Android. And year over year, we\nsee the adoption grow. We are now at 60% of\nthe top 1,000 apps, using it and loving\nit, in production. And Compose gives us the\nfeatures, the performance, the stability, and\nthe libraries that you need to help build you\nbeautiful, adaptive apps, and also to build\nthose apps faster, so that you can be focusing\non those things that truly matter to your users. With the stable\nrelease of Compose, we've added lots of\nnew functionalities, with more to come in\nthe alphas as well. And today, I want to highlight\na few important ones for you. So let's start with autofill. Autofill allows users of your\napp to automatically fill out form fields with\npersonal information that they filled out\nsome time before. And you've been asking for\nautofill support in Compose for quite some time now. And we've actually been working\non it for quite some time now, to be honest. But it was quite a difficult\nthing to implement, because we needed to\ndo quite a big rewrite of our internal semantic system. We continued. We did that rewrite. It's done. And so the basic\nautofill APIs are available for you\nto use in the latest stable version of Compose. So let's take a look. Here you see a\ntypical login screen with two text fields,\nUsername and Password. And those two text\nfields both play a role in authentication,\nwhich we somehow have to convey to the autofill APIs. So how would we implement that? First, we get a\nsemantics modifier. You've been using this probably\nin some other cases in your app as well.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 133.24,
+    "timestamp_end": 268.15999999999997,
+    "text": "in authentication,\nwhich we somehow have to convey to the autofill APIs. So how would we implement that? First, we get a\nsemantics modifier. You've been using this probably\nin some other cases in your app as well. And inside, we have a new\ncontent type property. When you set that\ncontent type property, you can give it the role\nof the authentication that that text field has. So in this case, I'm setting\nthe first one to Type.Username, and then the second\none to Type.Password. And that's all we need\nto make autofill work. Now, if you use the\nalpha version of Compose, this is actually even\neasier because we've added a new modifier,\ncontentType, which lets you just set this\ndirectly with one line of code. Next up is autosizing text, or\nmaking your text automatically adapt to the size\nof its container. This is as easy as adding\nthis new autosize parameter to your text composable. And you can even configure it\nwith minimum and maximum font sizes or with the\ngranularity of each step. Another modifier we've\nadded is animateBounds, which lets you\nautomatically animate the position and the size of\na composable in its container. This is similar to animated\ncontent size, which you might already be using. But this one does both\nthe size and the position at the same time, given that\nyou're in a LookaheadScope. Then, another new modifier, this\ntime to do visibility tracking. In the latest stable\nversion of Compose, we added onLayoutRectChanged. This is a low-level\nAPI that you can use to track a composables\nposition within either its roots, the\nwindow, or the screen. And it unlocks various\nuse cases, mostly related to visibility tracking\nor position tracking. Now, it's similar to\nonGloballyPositioned, which you might already be\nusing to track the location. But this one is more\nperformance out of the box. And it allows you to add\nthrottle or debouncing, which makes it OK to use for\nuse cases like tracking the location of an item while\nyou're scrolling a lazy list. And in the alpha\nversions of Compose,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 251.21,
+    "timestamp_end": 385.13,
+    "text": "But this one is more\nperformance out of the box. And it allows you to add\nthrottle or debouncing, which makes it OK to use for\nuse cases like tracking the location of an item while\nyou're scrolling a lazy list. And in the alpha\nversions of Compose, we've added some\nhigher-level APIs on top of this low-level API,\nwhich are very, very specific for our various use cases. So first of all, we added\nonVisibilityChanged, which gives you a callback any\ntime the visibility of that composable changes. So it enters or it\nexits the viewport. This is great for use cases like\nautomatically playing or pausing a video when it comes into view. And we're actually\nusing it in Androidify. We've also added onFirstVisible,\nwhich is great for use cases like impression tracking,\nbecause it gives a callback any time a\ncomposable has been in view for a certain amount of time. So you can already start using\nthis stable onLayoutRectChanged modifier in your stable\nversion of Compose. And then, you can use\nthese higher level APIs when you use the alpha version. You can learn more\nabout these APIs and many more in\nthe two brand-new technical talks that we're\nreleasing as part of this year's I/O for best practices\nin text input and best practices\nin accessibility. But we haven't\nbeen focusing only on adding new\nfeatures to Compose. And new features also shouldn't\nbe the only reason why you're upgrading your Compose version. Another consideration\nis performance. When you run your app on\nolder versions of Compose, you might sometimes\nsee some jank. This is what some of\nyou have mentioned. When you run older\nversions and you run them on lower-end devices,\nthere might be some jank. In this case, we're using an\ninternal benchmark project. And in that internal\nbenchmark project, we've just built\nan app, and we're running it with versions\nof Compose from 2023. We're running it on\na Pixel 3a device. And we're seeing jank\nrates of about 2%. Now, what we did is we kept the\nsource code exactly the same, but we updated the\nversion of Compose.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 369.05,
+    "timestamp_end": 507.01,
+    "text": "running it with versions\nof Compose from 2023. We're running it on\na Pixel 3a device. And we're seeing jank\nrates of about 2%. Now, what we did is we kept the\nsource code exactly the same, but we updated the\nversion of Compose. And so what we see is that\nwith later versions of Compose, this jank rate already\ndrops to about 1%. Then, if we update the\nCompose version to March 2025, this drops to less\nthan half a percent. And with the latest\nstable version of Compose, we hardly have any jank left. We're at less than 0.1% [CHEERS AND APPLAUSE] Now, this is just\none example benchmark that demonstrates all the work\nthat our engineers have been doing in the past years to\nmake the performance of Compose better. But our engineers are\nconstantly finding and applying other optimizations as well. For example, we're introducing\npausable composition, which splits the composition\nover several frames. We are offloading some of the\nharder work of the main thread, starting with text measurements. And we're allowing you to\ncustomize the prefetching of items in a lazy list. So between these new features\nthat I just mentioned and the performance\nupdates, now really is a time for you to prioritize\nupgrading your Compose version and get access to all\nof these added benefits. Now, remember that I said that\n60% of the top 1,000 apps are using Compose? Several of those are\nactually Google apps. Google Photos, Maps,\nand Drive, and more have been using Compose\nin production for years. And recently, we've been\nworking with these app teams to improve the stability\nof our Compose releases by catching bugs at an earlier\nstage, because some of you have mentioned that upgrading\nCompose versions can sometimes be difficult. So let me\nshow you a little bit more about how we did this. What you're used to is that\nwhenever we have a Compose change, we merge this into\nthe Compose main branch, and then it goes through\nthis alpha, beta, RC, and stable release cycle. But for Google\napps, this actually",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 494.29,
+    "timestamp_end": 625.2099999999999,
+    "text": "What you're used to is that\nwhenever we have a Compose change, we merge this into\nthe Compose main branch, and then it goes through\nthis alpha, beta, RC, and stable release cycle. But for Google\napps, this actually works a little bit differently\nbecause all of the Google apps share a single version\nof Compose among them. And we used to update that\nversion about once a month. But recently, we've\nbeen working to update that about once every day. So any change in Compose that\nmakes it into the main branch, actually makes it to all of\nthese Google apps within days and can make it to millions\nof users within a week. Now, that also means\nthat for new features, we are adding feature\nflags to make sure that we allow for early testing\nby these Google apps or by you in alpha versions of Compose. And you can test\nthem, and you can let us know if there are any\nperformance regressions or bugs with the implementation. And so we have this quick\niteration of testing out new functionality. And at some point, whenever\nthe changes make it into a beta or a stable\nversion of Compose, they've often been running, in\nproduction, in these Google apps with millions of users\nfor weeks, if not months. That should give you\na lot more certainty in upgrading to the latest\nCompose stable version whenever it comes out. Now, another stability\nimprovement that we did is that we did a big sweep of\nall of our experimental APIs. You shared with us\nthat having too many of these experimental\nAPIs can sometimes make the API surface feel\na little bit less stable. So we went through them. And for many of the\nAPIs, we cleaned them up and made sure that we\ncould stabilize them. But some of them were actually\nexperimental for several years now, because we\neventually wanted to get around to fixing them. But they're either good\nenough as they are, and we stabilize them now, or\nwe deprecated them and we will remove them for now. So with that, we reduced\n32% of the experimental APIs over the course\nof just one year.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 610.51,
+    "timestamp_end": 759.66,
+    "text": "But they're either good\nenough as they are, and we stabilize them now, or\nwe deprecated them and we will remove them for now. So with that, we reduced\n32% of the experimental APIs over the course\nof just one year. And looking at some of the\nbiggest contributors, Foundation and Compose UI, that number\neven increases to 66%. So this should\ngive you much more security in using stable APIs\nwhen you're using Compose. And also, we plan to remove\neven more of those in the future as well. [APPLAUSE] Thank you. Now, so far I've been\nmentioning Compose, and I've been talking about all\nthe core modules, Foundation, Runtime, UI, et cetera. But actually, we are working\non a wider suite of libraries. Compose is part of the\nset of Jetpack libraries. And we've been working on\nadding Compose supports on more of these libraries as well. You've heard a little bit about\nthis in the developer keynote, but I wanted to expand a\nlittle bit more in this talk. So first of all, any\napp has Navigation. And we've heard that\nthe Jetpack Navigation solution can sometimes be\nchallenging in a Compose world. Especially when you're\ndealing with the back stack or with hoisting\nstate, it doesn't seem to quite fit that use case. And so we sat down,\nand we re-envisioned what we think Compose\nshould look like, what we think Navigation should\nlook like in a Compose world. And thus, we're introducing\nNavigation 3, a first alpha of a new artifact that\nmakes it much easier to work with Navigation\nin a Compose app, because this is built with\nCompose and using Compose. And so let me show you\nwhat that library offers. The library makes it\neasy to do transitions between different\ndestinations, using animations to implement predictive back\nor to create shared element transitions. It has a flexible,\nlayered architecture that is adaptive out of the box\nand works across form factors, including XR. And it even has a Material\nDesign integration. But most importantly, it\nis fully customizable. So if you need more\ncontrol, we give you all the control you need.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 742.59,
+    "timestamp_end": 882.6999999999999,
+    "text": "that is adaptive out of the box\nand works across form factors, including XR. And it even has a Material\nDesign integration. But most importantly, it\nis fully customizable. So if you need more\ncontrol, we give you all the control you need. You can, if you want to,\ncontrol the full back stack and implement Navigation\nexactly the way that it is needed for your app. [APPLAUSE] Now, this library is\ncurrently in alpha, so we're still working on it. But we really want to\nmake sure that this is the best Navigation\nlibrary we could be building. So please, go and check it out. There's full\ndocumentation available. And we would really like\nto hear from you, if this works for your use cases. Then another thing we heard\nfrom you, loud and clear, is that you want Compose\nsupport for camera and media experiences. And so we've been working\non adding this support. We have Media3 and CameraX\nas our recommended solutions for these experiences\nin your Android apps. And here, as well,\nwe re-envisioned what this should look\nlike in a Compose world. So we didn't just wrap\nPreviewView or PlayerView and call it a day. We're actually building building\nblocks from the ground up, and making sure that you can\nbuild whatever your app needs as much or as little. That, unfortunately, does mean\nthat it will take a little bit longer to get to full parity\nwith PlayerView and PreviewView. But it also means that you have\nfull control over your camera or media experience. So let me demonstrate\nwhat we mean with that for the Media3 artifacts. Here you see Androidify. And Androidify has this\nuse case where we wanted to show a tutorial video. It's quite a trivial video. We know the URL. We know the aspect ratio. The only thing we want to\ndo is automatically play it, and then show a Play/Pause\nbutton on top of it, so that this video can be paused\nfor accessibility purposes. Let's implement it. We start with a video player\ncomposable in our sample app. And what you see is\nthat we're pausing in a player instance, which is\ncoming from a Media3 library.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "89UusPuz8q4__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "89UusPuz8q4",
+    "title": "Google I/O 2025 \u2013 89UusPuz8q4",
+    "timestamp_start": 865.84,
+    "timestamp_end": 960.69,
+    "text": "so that this video can be paused\nfor accessibility purposes. Let's implement it. We start with a video player\ncomposable in our sample app. And what you see is\nthat we're pausing in a player instance, which is\ncoming from a Media3 library. Then what we do is we\nsimply forward this player instance to the player\nsurface composable as part of the new artifact. And that surface\ncomposable actually takes care of the rendering,\nnothing we have to do. Then to add a Play/Pause\nbutton, instead of calling the library directly\nand letting it render it for us, we actually implement our own\nand we pause the player into it. So what does that\nPlay/Pause button look like? Well, what do we do with\nthe player instance? We create a\nPlayPauseButtonState. This is part of the artifact. And it allows us to\ninteract with the player. And it allows us to show\ndata from the player. So we control the UI. But the artifact controls\nall the pesky logic of whether we should be showing\na Play or a Pause button, and what to do when we click it. And with that, it works. That's all. [APPLAUSE] And with that, you saw\nhow Compose makes it easy and how it has all the features,\nperformance, stability, and libraries for\nyou to build apps. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

@@ -1,0 +1,2212 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "YN04nNsg_L4",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.395
+    },
+    {
+      "text": "YURIKO HIROTA: Hi, I'm\nYuriko, the web ecosystem",
+      "start": 6.23,
+      "duration": 3.33
+    },
+    {
+      "text": "consultant at Google.",
+      "start": 9.56,
+      "duration": 1.9
+    },
+    {
+      "text": "SWETHA GOPALAKRISHNAN: And I'm\nSwetha, also a web ecosystem",
+      "start": 11.46,
+      "duration": 3.47
+    },
+    {
+      "text": "consultant at Google.",
+      "start": 14.93,
+      "duration": 1.95
+    },
+    {
+      "text": "YURIKO HIROTA: We've all seen\nthe flashy demos, the Hello",
+      "start": 16.88,
+      "duration": 3.0
+    },
+    {
+      "text": "World examples that\npromises seamless",
+      "start": 19.88,
+      "duration": 2.58
+    },
+    {
+      "text": "AI integrations on websites.",
+      "start": 22.46,
+      "duration": 2.94
+    },
+    {
+      "text": "But let's be honest, while the\nHello World examples give us",
+      "start": 25.4,
+      "duration": 3.72
+    },
+    {
+      "text": "the fancy glimpse of\nwhat could be done,",
+      "start": 29.12,
+      "duration": 2.98
+    },
+    {
+      "text": "they are still prototypes.",
+      "start": 32.1,
+      "duration": 1.74
+    },
+    {
+      "text": "They don't really show us how\nAI can actually be integrated",
+      "start": 33.84,
+      "duration": 4.55
+    },
+    {
+      "text": "in the real world websites.",
+      "start": 38.39,
+      "duration": 2.49
+    },
+    {
+      "text": "But now get ready to\nlook beyond the hype",
+      "start": 40.88,
+      "duration": 3.31
+    },
+    {
+      "text": "because the future of AI\nand web isn't just theory.",
+      "start": 44.19,
+      "duration": 4.4
+    },
+    {
+      "text": "It's already happening.",
+      "start": 48.59,
+      "duration": 2.55
+    },
+    {
+      "text": "Today we're going to skip\nthe theoreticals and what-ifs",
+      "start": 51.14,
+      "duration": 3.96
+    },
+    {
+      "text": "and get straight\nto the real deal--",
+      "start": 55.1,
+      "duration": 2.64
+    },
+    {
+      "text": "checking out actual AI feature\nexamples on the websites",
+      "start": 57.74,
+      "duration": 4.07
+    },
+    {
+      "text": "and breaking down\nthe tech behind them.",
+      "start": 61.81,
+      "duration": 3.36
+    },
+    {
+      "text": "In this talk, we will first walk\nyou through the potential ways",
+      "start": 65.17,
+      "duration": 4.05
+    },
+    {
+      "text": "to implement the AI\nfeatures to your websites.",
+      "start": 69.22,
+      "duration": 3.36
+    },
+    {
+      "text": "And we will showcase\nthe real world use",
+      "start": 72.58,
+      "duration": 2.79
+    },
+    {
+      "text": "cases to inspire what\npowerful AI features",
+      "start": 75.37,
+      "duration": 3.99
+    },
+    {
+      "text": "you can build on the web.",
+      "start": 79.36,
+      "duration": 2.97
+    },
+    {
+      "text": "We will also pull\nback the curtain",
+      "start": 82.33,
+      "duration": 2.34
+    },
+    {
+      "text": "and give you an overview of\nthe technical architectures",
+      "start": 84.67,
+      "duration": 3.48
+    },
+    {
+      "text": "and APIs that enable these\namazing real world use cases.",
+      "start": 88.15,
+      "duration": 5.31
+    },
+    {
+      "text": "Sounds fun.",
+      "start": 93.46,
+      "duration": 1.06
+    },
+    {
+      "text": "Are you ready?",
+      "start": 94.52,
+      "duration": 1.16
+    },
+    {
+      "text": "Let's dive in.",
+      "start": 95.68,
+      "duration": 2.61
+    },
+    {
+      "text": "First, let's recap\non the three ways",
+      "start": 98.29,
+      "duration": 3.12
+    },
+    {
+      "text": "you can implement AI\nfeatures on your websites.",
+      "start": 101.41,
+      "duration": 4.05
+    },
+    {
+      "text": "So the first way is using\nthe server-side models",
+      "start": 105.46,
+      "duration": 3.69
+    },
+    {
+      "text": "like Vertex AI.",
+      "start": 109.15,
+      "duration": 2.55
+    },
+    {
+      "text": "This is great for running large\nmodels for complex use cases",
+      "start": 111.7,
+      "duration": 3.94
+    },
+    {
+      "text": "or training and retraining\nmodels on your data.",
+      "start": 115.64,
+      "duration": 4.11
+    },
+    {
+      "text": "Then what many people\nmight not realize",
+      "start": 119.75,
+      "duration": 3.45
+    },
+    {
+      "text": "is that you also\nhave another arrow",
+      "start": 123.2,
+      "duration": 2.91
+    },
+    {
+      "text": "in your quiver of AI toolkit.",
+      "start": 126.11,
+      "duration": 2.58
+    },
+    {
+      "text": "That is running AI\non the client side.",
+      "start": 128.69,
+      "duration": 4.68
+    },
+    {
+      "text": "The benefit of running AI on\nthe client side is threefold.",
+      "start": 133.37,
+      "duration": 4.8
+    },
+    {
+      "text": "It's performance since\nthere's no network dependency.",
+      "start": 138.17,
+      "duration": 3.54
+    },
+    {
+      "text": "It even works offline.",
+      "start": 141.71,
+      "duration": 2.58
+    },
+    {
+      "text": "It's private since everything\nstays on your device--",
+      "start": 144.29,
+      "duration": 4.18
+    },
+    {
+      "text": "your prompt, the data\nyou sent with the prompt,",
+      "start": 148.47,
+      "duration": 2.49
+    },
+    {
+      "text": "and the response.",
+      "start": 150.96,
+      "duration": 2.0
+    },
+    {
+      "text": "Last but not least,\nit's cost efficient.",
+      "start": 152.96,
+      "duration": 3.18
+    },
+    {
+      "text": "Once the browser\ndownloads the model,",
+      "start": 156.14,
+      "duration": 2.77
+    },
+    {
+      "text": "running AI is free of cost.",
+      "start": 158.91,
+      "duration": 3.44
+    },
+    {
+      "text": "You can think of running\nAI on the server-side",
+      "start": 162.35,
+      "duration": 3.06
+    },
+    {
+      "text": "as cooking in one of\nthose big chef's kitchens.",
+      "start": 165.41,
+      "duration": 3.54
+    },
+    {
+      "text": "There's a lot of resources\nlike huge countertops,",
+      "start": 168.95,
+      "duration": 3.18
+    },
+    {
+      "text": "and huge refrigerators, and\nmany chefs just running around.",
+      "start": 172.13,
+      "duration": 3.61
+    },
+    {
+      "text": "On the other hand, running\nAI on the client-side,",
+      "start": 175.74,
+      "duration": 3.53
+    },
+    {
+      "text": "it's like cooking in\nyour home kitchen.",
+      "start": 179.27,
+      "duration": 3.02
+    },
+    {
+      "text": "You don't have as vast\nresources as a chef's kitchen,",
+      "start": 182.29,
+      "duration": 3.88
+    },
+    {
+      "text": "but it's not costly\nto implement.",
+      "start": 186.17,
+      "duration": 2.42
+    },
+    {
+      "text": "You have a basic\ntoolkit and ingredients.",
+      "start": 188.59,
+      "duration": 2.4
+    },
+    {
+      "text": "Enough to meet your needs.",
+      "start": 190.99,
+      "duration": 2.16
+    },
+    {
+      "text": "In addition, the home\nkitchen is private",
+      "start": 193.15,
+      "duration": 3.43
+    },
+    {
+      "text": "so you can do any kind\nof crazy cooking you want",
+      "start": 196.58,
+      "duration": 3.53
+    },
+    {
+      "text": "and no one will notice.",
+      "start": 200.11,
+      "duration": 2.64
+    },
+    {
+      "text": "Now you might want to use the\nclient-side models for privacy,",
+      "start": 202.75,
+      "duration": 5.08
+    },
+    {
+      "text": "performance, and\ncost efficiencies.",
+      "start": 207.83,
+      "duration": 2.22
+    },
+    {
+      "text": "However, some AI\ntasks might need",
+      "start": 210.05,
+      "duration": 3.23
+    },
+    {
+      "text": "to be complemented with\nthe server-side models.",
+      "start": 213.28,
+      "duration": 3.18
+    },
+    {
+      "text": "And that's where the\nhybrid approach comes in.",
+      "start": 216.46,
+      "duration": 4.02
+    },
+    {
+      "text": "One of the reasons for\nusing a hybrid approach",
+      "start": 220.48,
+      "duration": 2.55
+    },
+    {
+      "text": "is because of the\nmodel capability.",
+      "start": 223.03,
+      "duration": 3.33
+    },
+    {
+      "text": "For example, let's\nsay a user wants",
+      "start": 226.36,
+      "duration": 2.85
+    },
+    {
+      "text": "to ask a question\non an AI chatbot",
+      "start": 229.21,
+      "duration": 3.15
+    },
+    {
+      "text": "about a service\nyou're providing.",
+      "start": 232.36,
+      "duration": 3.0
+    },
+    {
+      "text": "With the client-side\nAI, it might",
+      "start": 235.36,
+      "duration": 2.19
+    },
+    {
+      "text": "be able to answer the\nquestion if the model has",
+      "start": 237.55,
+      "duration": 2.36
+    },
+    {
+      "text": "sufficient data.",
+      "start": 239.91,
+      "duration": 1.83
+    },
+    {
+      "text": "However, if the model is not\nable to provide the answers,",
+      "start": 241.74,
+      "duration": 4.03
+    },
+    {
+      "text": "then you can fall back\nto the server-side,",
+      "start": 245.77,
+      "duration": 3.27
+    },
+    {
+      "text": "which can be trained on a more\ncomplex and larger data set.",
+      "start": 249.04,
+      "duration": 5.75
+    },
+    {
+      "text": "Another reason for using\nthe hybrid approach",
+      "start": 254.79,
+      "duration": 2.37
+    },
+    {
+      "text": "is the device capability.",
+      "start": 257.16,
+      "duration": 2.88
+    },
+    {
+      "text": "Let's say you want\nto make your AI",
+      "start": 260.04,
+      "duration": 2.07
+    },
+    {
+      "text": "features accessible to\neveryone on your platform",
+      "start": 262.11,
+      "duration": 4.38
+    },
+    {
+      "text": "but your users might be\nusing a variety of devices.",
+      "start": 266.49,
+      "duration": 4.44
+    },
+    {
+      "text": "In such cases, you\nmight want to decide",
+      "start": 270.93,
+      "duration": 2.91
+    },
+    {
+      "text": "whether to run the\nmodel depending",
+      "start": 273.84,
+      "duration": 1.98
+    },
+    {
+      "text": "on the environmental factors.",
+      "start": 275.82,
+      "duration": 2.64
+    },
+    {
+      "text": "For example, if\nthe user is offline",
+      "start": 278.46,
+      "duration": 3.15
+    },
+    {
+      "text": "but has a cached\nmodel on the browser,",
+      "start": 281.61,
+      "duration": 3.04
+    },
+    {
+      "text": "run AI on the client-side.",
+      "start": 284.65,
+      "duration": 2.27
+    },
+    {
+      "text": "Or if the user is on a low end\ndevice which cannot run any AI",
+      "start": 286.92,
+      "duration": 5.94
+    },
+    {
+      "text": "on the client-side, then\nfall back to the server side.",
+      "start": 292.86,
+      "duration": 4.25
+    },
+    {
+      "text": "Later in the talk, we will show\nhow real world websites utilize",
+      "start": 297.11,
+      "duration": 4.65
+    },
+    {
+      "text": "the hybrid approaches to\nmake AI inference more",
+      "start": 301.76,
+      "duration": 2.61
+    },
+    {
+      "text": "efficient so stay tuned.",
+      "start": 304.37,
+      "duration": 3.42
+    },
+    {
+      "text": "Now covering the server-side,\nand the client-side,",
+      "start": 307.79,
+      "duration": 3.55
+    },
+    {
+      "text": "and the hybrid solution\nin this talk is a lot.",
+      "start": 311.34,
+      "duration": 3.47
+    },
+    {
+      "text": "Fortunately, if you're\nlooking for more information",
+      "start": 314.81,
+      "duration": 3.27
+    },
+    {
+      "text": "on the server-side solutions,\nour Google Cloud colleagues",
+      "start": 318.08,
+      "duration": 3.45
+    },
+    {
+      "text": "provide many amazing resources.",
+      "start": 321.53,
+      "duration": 2.43
+    },
+    {
+      "text": "There's a link in\nthe description",
+      "start": 323.96,
+      "duration": 1.75
+    },
+    {
+      "text": "so go check them out.",
+      "start": 325.71,
+      "duration": 2.39
+    },
+    {
+      "text": "For the rest of this\ntalk, we will specifically",
+      "start": 328.1,
+      "duration": 2.79
+    },
+    {
+      "text": "focus on the two solutions,\nclient-side and hybrid.",
+      "start": 330.89,
+      "duration": 5.82
+    },
+    {
+      "text": "Now before diving into\nthe real world examples,",
+      "start": 336.71,
+      "duration": 4.33
+    },
+    {
+      "text": "you might want to\nfamiliarize yourself",
+      "start": 341.04,
+      "duration": 2.24
+    },
+    {
+      "text": "with the set of technologies\nthat power these examples.",
+      "start": 343.28,
+      "duration": 4.68
+    },
+    {
+      "text": "First, you got\nyour low level APIs",
+      "start": 347.96,
+      "duration": 2.37
+    },
+    {
+      "text": "like WebGPU and WebAssembly\nor WASM for short.",
+      "start": 350.33,
+      "duration": 6.07
+    },
+    {
+      "text": "Second, you got your\nhigh level libraries",
+      "start": 356.4,
+      "duration": 2.64
+    },
+    {
+      "text": "that wrap these low\nlevel APIs and make",
+      "start": 359.04,
+      "duration": 3.24
+    },
+    {
+      "text": "your lives a hundred times\neasier to utilize the AI models.",
+      "start": 362.28,
+      "duration": 4.08
+    },
+    {
+      "text": "These libraries include\nMediaPipe and Transformers.js.",
+      "start": 366.36,
+      "duration": 6.63
+    },
+    {
+      "text": "Last but not least,\nthere are some browser",
+      "start": 372.99,
+      "duration": 3.0
+    },
+    {
+      "text": "built-in models and APIs.",
+      "start": 375.99,
+      "duration": 2.46
+    },
+    {
+      "text": "These are already set up for\nyou to use out of the box",
+      "start": 378.45,
+      "duration": 3.16
+    },
+    {
+      "text": "so all you need is to\nplug-in to a JavaScript API.",
+      "start": 381.61,
+      "duration": 5.33
+    },
+    {
+      "text": "Chrome has a set of APIs\nbuilt into the browser called",
+      "start": 386.94,
+      "duration": 4.5
+    },
+    {
+      "text": "the built-in AI APIs.",
+      "start": 391.44,
+      "duration": 2.61
+    },
+    {
+      "text": "If you want to learn more, refer\nto the talk in the description.",
+      "start": 394.05,
+      "duration": 5.22
+    },
+    {
+      "text": "Now I will pass the baton over\nto my amazing colleague Swetha,",
+      "start": 399.27,
+      "duration": 5.11
+    },
+    {
+      "text": "who will walk you through the\nreal world examples of websites",
+      "start": 404.38,
+      "duration": 4.1
+    },
+    {
+      "text": "that implement seamless AI\nand achieved critical business",
+      "start": 408.48,
+      "duration": 4.35
+    },
+    {
+      "text": "impact.",
+      "start": 412.83,
+      "duration": 1.14
+    },
+    {
+      "text": "Over to you, Swetha.",
+      "start": 413.97,
+      "duration": 2.707
+    },
+    {
+      "text": "SWETHA GOPALAKRISHNAN:\nThanks, Yuriko.",
+      "start": 416.677,
+      "duration": 1.583
+    },
+    {
+      "text": "It's very much possible\nto leverage the strategies",
+      "start": 418.26,
+      "duration": 3.86
+    },
+    {
+      "text": "we just mentioned\nin your own website.",
+      "start": 422.12,
+      "duration": 3.36
+    },
+    {
+      "text": "Let's see how some\ncompanies did this.",
+      "start": 425.48,
+      "duration": 3.42
+    },
+    {
+      "text": "First, let's look at some\nclient-side use cases.",
+      "start": 428.9,
+      "duration": 5.37
+    },
+    {
+      "text": "Bilibili is an entertainment\ncontent platform",
+      "start": 434.27,
+      "duration": 3.36
+    },
+    {
+      "text": "with over 330 million\nmonthly active users.",
+      "start": 437.63,
+      "duration": 4.92
+    },
+    {
+      "text": "To make their live video\nstreams more engaging,",
+      "start": 442.55,
+      "duration": 3.21
+    },
+    {
+      "text": "they created a feature called\nbullet screen comments, which",
+      "start": 445.76,
+      "duration": 4.44
+    },
+    {
+      "text": "displays real time user\ncomments over the video.",
+      "start": 450.2,
+      "duration": 4.02
+    },
+    {
+      "text": "The challenge Bilibili\nfaced was that the comments",
+      "start": 454.22,
+      "duration": 3.09
+    },
+    {
+      "text": "can become disruptive\nif they are",
+      "start": 457.31,
+      "duration": 1.89
+    },
+    {
+      "text": "rendered on top of the speaker.",
+      "start": 459.2,
+      "duration": 2.97
+    },
+    {
+      "text": "So they needed a way to know\nwhich areas of the screen",
+      "start": 462.17,
+      "duration": 4.08
+    },
+    {
+      "text": "are the speaker and\nwhich ones aren't",
+      "start": 466.25,
+      "duration": 2.97
+    },
+    {
+      "text": "so that they could render the\ncomments behind the speaker.",
+      "start": 469.22,
+      "duration": 4.14
+    },
+    {
+      "text": "Fortunately, this is a well\nunderstood problem in the AI",
+      "start": 473.36,
+      "duration": 4.01
+    },
+    {
+      "text": "field called image segmentation\nand has out of the box",
+      "start": 477.37,
+      "duration": 4.23
+    },
+    {
+      "text": "models available.",
+      "start": 481.6,
+      "duration": 1.89
+    },
+    {
+      "text": "It works by extracting\nthe speaker's outline",
+      "start": 483.49,
+      "duration": 3.33
+    },
+    {
+      "text": "from the image,\nenabling developers",
+      "start": 486.82,
+      "duration": 2.61
+    },
+    {
+      "text": "to know which parts to modify.",
+      "start": 489.43,
+      "duration": 3.36
+    },
+    {
+      "text": "In Bilibili's case, they\ncould use this model",
+      "start": 492.79,
+      "duration": 3.12
+    },
+    {
+      "text": "to render user comments\nbehind the speaker.",
+      "start": 495.91,
+      "duration": 4.11
+    },
+    {
+      "text": "But given that they serve a huge\namount of content every day,",
+      "start": 500.02,
+      "duration": 4.45
+    },
+    {
+      "text": "they needed a solution that\nwas low cost, low latency,",
+      "start": 504.47,
+      "duration": 4.74
+    },
+    {
+      "text": "and accurate.",
+      "start": 509.21,
+      "duration": 1.91
+    },
+    {
+      "text": "To achieve this,\nthey used MediaPipe",
+      "start": 511.12,
+      "duration": 2.76
+    },
+    {
+      "text": "and tensorflow.js's\nselfie segmentation model,",
+      "start": 513.88,
+      "duration": 3.779
+    },
+    {
+      "text": "running fully client-side.",
+      "start": 517.659,
+      "duration": 3.091
+    },
+    {
+      "text": "And since the model leverages\nWebAssembly and the device's GPU",
+      "start": 520.75,
+      "duration": 4.95
+    },
+    {
+      "text": "under the hood, it allows the\nalgorithm to run in real time",
+      "start": 525.7,
+      "duration": 4.2
+    },
+    {
+      "text": "with very low latency, a\ncritical factor for live video",
+      "start": 529.9,
+      "duration": 4.43
+    },
+    {
+      "text": "streaming.",
+      "start": 534.33,
+      "duration": 2.25
+    },
+    {
+      "text": "Thanks to this client-side\nsolution on the web,",
+      "start": 536.58,
+      "duration": 2.92
+    },
+    {
+      "text": "they were able to improve\nthe viewing experience.",
+      "start": 539.5,
+      "duration": 4.94
+    },
+    {
+      "text": "In fact, they saw a 30%\nincrease in session duration",
+      "start": 544.44,
+      "duration": 4.2
+    },
+    {
+      "text": "and 19% higher click-through\nrate for live streaming videos.",
+      "start": 548.64,
+      "duration": 7.08
+    },
+    {
+      "text": "Vision Nanny, part of the Google\nfor Startups program in India,",
+      "start": 555.72,
+      "duration": 4.74
+    },
+    {
+      "text": "is a web platform\ndeveloped for children",
+      "start": 560.46,
+      "duration": 2.94
+    },
+    {
+      "text": "with cerebral visual\nimpairment, a leading",
+      "start": 563.4,
+      "duration": 3.24
+    },
+    {
+      "text": "cause of childhood blindness.",
+      "start": 566.64,
+      "duration": 2.76
+    },
+    {
+      "text": "It provides AI-powered\nvision stimulation activities",
+      "start": 569.4,
+      "duration": 3.69
+    },
+    {
+      "text": "such as color identification,\ncounting, hand-eye coordination,",
+      "start": 573.09,
+      "duration": 5.14
+    },
+    {
+      "text": "and more.",
+      "start": 578.23,
+      "duration": 2.3
+    },
+    {
+      "text": "This is an example of\na hand-eye coordination",
+      "start": 580.53,
+      "duration": 3.48
+    },
+    {
+      "text": "activity where the child has\nto drag the milk to the cat.",
+      "start": 584.01,
+      "duration": 5.07
+    },
+    {
+      "text": "The best part is these use\ncases run fully client-side,",
+      "start": 589.08,
+      "duration": 5.03
+    },
+    {
+      "text": "which enables parents and\neducators to access them",
+      "start": 594.11,
+      "duration": 4.19
+    },
+    {
+      "text": "anywhere anytime such\nas rural areas or places",
+      "start": 598.3,
+      "duration": 4.77
+    },
+    {
+      "text": "with poor internet.",
+      "start": 603.07,
+      "duration": 2.22
+    },
+    {
+      "text": "This also addresses\nparents' concerns",
+      "start": 605.29,
+      "duration": 3.0
+    },
+    {
+      "text": "about their children's privacy,\nas the child's image never",
+      "start": 608.29,
+      "duration": 4.14
+    },
+    {
+      "text": "leaves the device.",
+      "start": 612.43,
+      "duration": 2.7
+    },
+    {
+      "text": "They chose to build\nfor the web as it",
+      "start": 615.13,
+      "duration": 2.19
+    },
+    {
+      "text": "is accessible from a\nwide variety of devices.",
+      "start": 617.32,
+      "duration": 4.8
+    },
+    {
+      "text": "Their use cases were powered\nby MediaPipe's out-of-the-box",
+      "start": 622.12,
+      "duration": 4.23
+    },
+    {
+      "text": "libraries.",
+      "start": 626.35,
+      "duration": 2.67
+    },
+    {
+      "text": "This particular example\nuses MediaPipe's hand",
+      "start": 629.02,
+      "duration": 3.45
+    },
+    {
+      "text": "landmark detection model, which\nlocates key points of the hands",
+      "start": 632.47,
+      "duration": 4.38
+    },
+    {
+      "text": "on an image, video\nframe, or in real time.",
+      "start": 636.85,
+      "duration": 4.89
+    },
+    {
+      "text": "Another activity they provide\nuses an audio classification",
+      "start": 641.74,
+      "duration": 4.11
+    },
+    {
+      "text": "model.",
+      "start": 645.85,
+      "duration": 1.11
+    },
+    {
+      "text": "In this multi-sensory\nactivity, children",
+      "start": 646.96,
+      "duration": 3.39
+    },
+    {
+      "text": "interact with onscreen\nelements using squeaky toys.",
+      "start": 650.35,
+      "duration": 4.61
+    },
+    {
+      "text": "And they use WebGPU\nwhen available,",
+      "start": 654.96,
+      "duration": 2.92
+    },
+    {
+      "text": "allowing the model\nto run faster.",
+      "start": 657.88,
+      "duration": 3.47
+    },
+    {
+      "text": "A pilot study with 50 children\nshowed that Vision Nanny's web",
+      "start": 661.35,
+      "duration": 4.71
+    },
+    {
+      "text": "platform delivered five\ntimes faster responses,",
+      "start": 666.06,
+      "duration": 4.06
+    },
+    {
+      "text": "improving dexterity,\ncoordination,",
+      "start": 670.12,
+      "duration": 2.97
+    },
+    {
+      "text": "and cognitive skills.",
+      "start": 673.09,
+      "duration": 3.2
+    },
+    {
+      "text": "Therapists also reported saving\nthree hours per therapy session",
+      "start": 676.29,
+      "duration": 4.08
+    },
+    {
+      "text": "by eliminating manual\nsetup of activities.",
+      "start": 680.37,
+      "duration": 5.31
+    },
+    {
+      "text": "Google Meet has a number of\nfeatures that are enabled by AI.",
+      "start": 685.68,
+      "duration": 5.25
+    },
+    {
+      "text": "I'm sure we've\nbeen in video calls",
+      "start": 690.93,
+      "duration": 2.04
+    },
+    {
+      "text": "where there's bad lighting\nand blurry videos.",
+      "start": 692.97,
+      "duration": 3.42
+    },
+    {
+      "text": "It's not very ideal.",
+      "start": 696.39,
+      "duration": 1.335
+    },
+    {
+      "text": "Right?",
+      "start": 697.725,
+      "duration": 1.455
+    },
+    {
+      "text": "Google Meet tackles\nthis with some cool AI",
+      "start": 699.18,
+      "duration": 3.03
+    },
+    {
+      "text": "features, Studio\nLighting and Studio",
+      "start": 702.21,
+      "duration": 4.29
+    },
+    {
+      "text": "Look to improve video quality.",
+      "start": 706.5,
+      "duration": 4.29
+    },
+    {
+      "text": "Let's start with\nStudio Lighting.",
+      "start": 710.79,
+      "duration": 3.53
+    },
+    {
+      "text": "Imagine you're in\na dimly lit room.",
+      "start": 714.32,
+      "duration": 2.76
+    },
+    {
+      "text": "Meet uses AI to make\nit look like you're",
+      "start": 717.08,
+      "duration": 2.88
+    },
+    {
+      "text": "in a professional studio.",
+      "start": 719.96,
+      "duration": 2.31
+    },
+    {
+      "text": "How does that work?",
+      "start": 722.27,
+      "duration": 1.92
+    },
+    {
+      "text": "First, a pipeline of AI\nmodels analyzes the speaker,",
+      "start": 724.19,
+      "duration": 4.39
+    },
+    {
+      "text": "figuring out its shape\nand light reflection.",
+      "start": 728.58,
+      "duration": 4.28
+    },
+    {
+      "text": "Then the browser uses your\nGPU to magically relight",
+      "start": 732.86,
+      "duration": 3.84
+    },
+    {
+      "text": "the speaker, like\nadding a virtual light.",
+      "start": 736.7,
+      "duration": 4.29
+    },
+    {
+      "text": "Now Studio Look.",
+      "start": 740.99,
+      "duration": 2.67
+    },
+    {
+      "text": "This feature\nsharpens and reduces",
+      "start": 743.66,
+      "duration": 3.06
+    },
+    {
+      "text": "the noise of the speaker's face.",
+      "start": 746.72,
+      "duration": 3.15
+    },
+    {
+      "text": "A face detection model finds\nthe face and another model",
+      "start": 749.87,
+      "duration": 4.38
+    },
+    {
+      "text": "enhances it, making it clearer\nand reducing fuzziness.",
+      "start": 754.25,
+      "duration": 6.12
+    },
+    {
+      "text": "But the challenge here\nwas that these AI features",
+      "start": 760.37,
+      "duration": 3.48
+    },
+    {
+      "text": "need to work in real time.",
+      "start": 763.85,
+      "duration": 3.03
+    },
+    {
+      "text": "That means the browser has to\nprocess a lot of video data",
+      "start": 766.88,
+      "duration": 4.08
+    },
+    {
+      "text": "and fast.",
+      "start": 770.96,
+      "duration": 2.61
+    },
+    {
+      "text": "JavaScript, while\npowerful, sometimes",
+      "start": 773.57,
+      "duration": 3.09
+    },
+    {
+      "text": "isn't enough for this\nkind of heavy lifting.",
+      "start": 776.66,
+      "duration": 3.87
+    },
+    {
+      "text": "That's where WebAssembly\nor WASM comes in.",
+      "start": 780.53,
+      "duration": 5.31
+    },
+    {
+      "text": "Google Meet uses a powerful C++\nlibrary called MediaPipe for its",
+      "start": 785.84,
+      "duration": 6.12
+    },
+    {
+      "text": "video processing.",
+      "start": 791.96,
+      "duration": 2.31
+    },
+    {
+      "text": "Normally, C++ code is\nfor native applications.",
+      "start": 794.27,
+      "duration": 4.95
+    },
+    {
+      "text": "But now with WASM, we\ncan take that C++ code,",
+      "start": 799.22,
+      "duration": 4.45
+    },
+    {
+      "text": "compile it into a\nweb-friendly binary format,",
+      "start": 803.67,
+      "duration": 3.81
+    },
+    {
+      "text": "and run it directly in the\nbrowser with near-native speed.",
+      "start": 807.48,
+      "duration": 5.15
+    },
+    {
+      "text": "This is crucial for\nreal-time video processing.",
+      "start": 812.63,
+      "duration": 5.19
+    },
+    {
+      "text": "Essentially, WASM lets us\ntap into the full power",
+      "start": 817.82,
+      "duration": 3.96
+    },
+    {
+      "text": "of your computer's CPU, which\nJavaScript alone can't always",
+      "start": 821.78,
+      "duration": 4.32
+    },
+    {
+      "text": "do.",
+      "start": 826.1,
+      "duration": 2.1
+    },
+    {
+      "text": "Thanks to WASM, Google Meet\ndelivers amazing AI features",
+      "start": 828.2,
+      "duration": 4.29
+    },
+    {
+      "text": "across all major browsers,\nmaking us look great on camera.",
+      "start": 832.49,
+      "duration": 5.76
+    },
+    {
+      "text": "Without it, these real-time\nAI video enhancements",
+      "start": 838.25,
+      "duration": 4.11
+    },
+    {
+      "text": "wouldn't be possible on the web.",
+      "start": 842.36,
+      "duration": 4.02
+    },
+    {
+      "text": "Beyond Studio Lighting\nand Studio Look,",
+      "start": 846.38,
+      "duration": 3.16
+    },
+    {
+      "text": "Meet also uses a client-side\nbackground segmentation model",
+      "start": 849.54,
+      "duration": 5.54
+    },
+    {
+      "text": "and conducted an experiment\ncomparing WebGPU and WebGL",
+      "start": 855.08,
+      "duration": 5.07
+    },
+    {
+      "text": "backends.",
+      "start": 860.15,
+      "duration": 2.1
+    },
+    {
+      "text": "Early results show up to 22%\ndecrease in power consumption",
+      "start": 862.25,
+      "duration": 5.13
+    },
+    {
+      "text": "when using WebGPU\non MacBook Air M2.",
+      "start": 867.38,
+      "duration": 4.92
+    },
+    {
+      "text": "This translates directly\nto a longer battery life",
+      "start": 872.3,
+      "duration": 3.99
+    },
+    {
+      "text": "and a smoother\nexperience for users.",
+      "start": 876.29,
+      "duration": 4.02
+    },
+    {
+      "text": "On top of that, using a\nbrand new WebGPU feature",
+      "start": 880.31,
+      "duration": 4.74
+    },
+    {
+      "text": "called subgroup\nbroadcast, Google Meet",
+      "start": 885.05,
+      "duration": 3.57
+    },
+    {
+      "text": "is allowing advanced\nfeatures like background blur",
+      "start": 888.62,
+      "duration": 3.26
+    },
+    {
+      "text": "and replacement to run with\nsignificantly improved power",
+      "start": 891.88,
+      "duration": 4.2
+    },
+    {
+      "text": "efficiency.",
+      "start": 896.08,
+      "duration": 2.16
+    },
+    {
+      "text": "These WebGPU-powered\nfeatures should",
+      "start": 898.24,
+      "duration": 2.76
+    },
+    {
+      "text": "be rolling out later this year.",
+      "start": 901.0,
+      "duration": 3.51
+    },
+    {
+      "text": "So far, we've looked at some\namazing client-side examples.",
+      "start": 904.51,
+      "duration": 5.55
+    },
+    {
+      "text": "Now let's look at how\nsome companies implemented",
+      "start": 910.06,
+      "duration": 3.93
+    },
+    {
+      "text": "a hybrid approach.",
+      "start": 913.99,
+      "duration": 2.79
+    },
+    {
+      "text": "Tokopedia, an Indonesian\ntechnology company,",
+      "start": 916.78,
+      "duration": 3.34
+    },
+    {
+      "text": "is another great example that\nsaw significant business impact",
+      "start": 920.12,
+      "duration": 4.22
+    },
+    {
+      "text": "from implementing\nclient-side AI features.",
+      "start": 924.34,
+      "duration": 4.26
+    },
+    {
+      "text": "Mitra Tokopedia was one of\ntheir web applications, which",
+      "start": 928.6,
+      "duration": 3.51
+    },
+    {
+      "text": "helped small business owners\nin more than 700 cities",
+      "start": 932.11,
+      "duration": 3.87
+    },
+    {
+      "text": "to sell digital products.",
+      "start": 935.98,
+      "duration": 3.09
+    },
+    {
+      "text": "A key step in Mitra\nTokopedia's onboarding process",
+      "start": 939.07,
+      "duration": 4.02
+    },
+    {
+      "text": "required these sellers\nto verify their identity",
+      "start": 943.09,
+      "duration": 4.05
+    },
+    {
+      "text": "by uploading their national\nID and a selfie with the ID.",
+      "start": 947.14,
+      "duration": 5.81
+    },
+    {
+      "text": "However, most sellers did not\nupload their photos correctly",
+      "start": 952.95,
+      "duration": 4.98
+    },
+    {
+      "text": "in the first step, causing\nthe verification data",
+      "start": 957.93,
+      "duration": 4.02
+    },
+    {
+      "text": "to be rejected.",
+      "start": 961.95,
+      "duration": 1.59
+    },
+    {
+      "text": "This created thousands\nof tickets per week",
+      "start": 963.54,
+      "duration": 2.85
+    },
+    {
+      "text": "to the operations team\nfor manual verification.",
+      "start": 966.39,
+      "duration": 4.62
+    },
+    {
+      "text": "Tokopedia was keen to solve\nthis problem using ML.",
+      "start": 971.01,
+      "duration": 5.79
+    },
+    {
+      "text": "One of their key considerations\nwas fast download and runtime",
+      "start": 976.8,
+      "duration": 5.07
+    },
+    {
+      "text": "performance for quick\nfeedback to users and to cater",
+      "start": 981.87,
+      "duration": 4.98
+    },
+    {
+      "text": "to a variety of devices.",
+      "start": 986.85,
+      "duration": 3.18
+    },
+    {
+      "text": "They used MediaPipe and\nTensorFlow's face detection",
+      "start": 990.03,
+      "duration": 4.14
+    },
+    {
+      "text": "library, a package that provides\nmodels for running real time",
+      "start": 994.17,
+      "duration": 5.13
+    },
+    {
+      "text": "face detection.",
+      "start": 999.3,
+      "duration": 2.82
+    },
+    {
+      "text": "Specifically, the\ntensorflow.js runtime was used.",
+      "start": 1002.12,
+      "duration": 4.92
+    },
+    {
+      "text": "The model returns a\nlist of faces detected.",
+      "start": 1007.04,
+      "duration": 4.4
+    },
+    {
+      "text": "The result contains a bounding\nbox of each detected face",
+      "start": 1011.44,
+      "duration": 4.24
+    },
+    {
+      "text": "as well has an array of six key\npoints for the detected face.",
+      "start": 1015.68,
+      "duration": 5.39
+    },
+    {
+      "text": "This includes features such\nas the eyes, nose, and mouth.",
+      "start": 1021.07,
+      "duration": 3.665
+    },
+    {
+      "text": "By adding this model\nat the very first step",
+      "start": 1027.579,
+      "duration": 2.76
+    },
+    {
+      "text": "of the onboarding\nprocess, they were",
+      "start": 1030.339,
+      "duration": 2.191
+    },
+    {
+      "text": "able to detect the\nseller's face clearly.",
+      "start": 1032.53,
+      "duration": 4.44
+    },
+    {
+      "text": "Upon successful\nverification by the model,",
+      "start": 1036.97,
+      "duration": 2.83
+    },
+    {
+      "text": "the relevant seller information\nwas passed to the backend.",
+      "start": 1039.8,
+      "duration": 4.49
+    },
+    {
+      "text": "If the verification\nfailed, the seller",
+      "start": 1044.29,
+      "duration": 2.4
+    },
+    {
+      "text": "was given a failure message\nand an option to retry.",
+      "start": 1046.69,
+      "duration": 5.04
+    },
+    {
+      "text": "It's worth noting that they\nimplemented a hybrid approach",
+      "start": 1051.73,
+      "duration": 4.35
+    },
+    {
+      "text": "where the face detection\nmodel ran client-side",
+      "start": 1056.08,
+      "duration": 3.36
+    },
+    {
+      "text": "if the device could support it.",
+      "start": 1059.44,
+      "duration": 3.0
+    },
+    {
+      "text": "Otherwise, it was\nrun on the server.",
+      "start": 1062.44,
+      "duration": 3.82
+    },
+    {
+      "text": "This allowed them to achieve\nfast feedback to users",
+      "start": 1066.26,
+      "duration": 3.78
+    },
+    {
+      "text": "while catering to older\nor low end devices.",
+      "start": 1070.04,
+      "duration": 5.67
+    },
+    {
+      "text": "As a result of this\nimplementation,",
+      "start": 1075.71,
+      "duration": 2.68
+    },
+    {
+      "text": "the rejection rate\nsignificantly improved.",
+      "start": 1078.39,
+      "duration": 3.74
+    },
+    {
+      "text": "To be more specific, the\nnumber of manual approvals",
+      "start": 1082.13,
+      "duration": 3.42
+    },
+    {
+      "text": "decreased by almost 70%.",
+      "start": 1085.55,
+      "duration": 2.53
+    },
+    {
+      "text": "And the onboarding rejection\nrate decreased by over 20%.",
+      "start": 1088.08,
+      "duration": 5.27
+    },
+    {
+      "text": "This not only created a\nsmoother experience for sellers",
+      "start": 1093.35,
+      "duration": 4.09
+    },
+    {
+      "text": "but also reduced the operational\ncost for the Tokopedia team.",
+      "start": 1097.44,
+      "duration": 4.44
+    },
+    {
+      "text": "Policy Bazaar is one of\nthe leading insurance",
+      "start": 1104.81,
+      "duration": 3.39
+    },
+    {
+      "text": "platforms in India with 97\nmillion registered customers.",
+      "start": 1108.2,
+      "duration": 5.94
+    },
+    {
+      "text": "They noticed that a\nsignificant number of users",
+      "start": 1114.14,
+      "duration": 3.45
+    },
+    {
+      "text": "were coming onto their\nplatform in the evenings",
+      "start": 1117.59,
+      "duration": 2.88
+    },
+    {
+      "text": "after the customer support\nteam's working hours",
+      "start": 1120.47,
+      "duration": 3.48
+    },
+    {
+      "text": "and wanted to provide better\nservice to those users.",
+      "start": 1123.95,
+      "duration": 4.79
+    },
+    {
+      "text": "To achieve this,\nPolicy Bazaar built",
+      "start": 1128.74,
+      "duration": 2.73
+    },
+    {
+      "text": "a text and voice-powered\ninsurance assistance chatbot",
+      "start": 1131.47,
+      "duration": 4.5
+    },
+    {
+      "text": "called Finova AI that combines\nmultiple AI models using",
+      "start": 1135.97,
+      "duration": 4.95
+    },
+    {
+      "text": "a hybrid architecture where\nsome parts of the solution",
+      "start": 1140.92,
+      "duration": 3.63
+    },
+    {
+      "text": "run client-side and\nsome on the server side.",
+      "start": 1144.55,
+      "duration": 4.5
+    },
+    {
+      "text": "Here's how their solution works.",
+      "start": 1149.05,
+      "duration": 3.06
+    },
+    {
+      "text": "The user input goes through the\nbuilt-in language detector API.",
+      "start": 1152.11,
+      "duration": 6.33
+    },
+    {
+      "text": "And if it's an\nIndic language, it",
+      "start": 1158.44,
+      "duration": 2.46
+    },
+    {
+      "text": "gets converted to English using\nthe built-in translator API.",
+      "start": 1160.9,
+      "duration": 6.27
+    },
+    {
+      "text": "To learn more about\nthese built-in APIs,",
+      "start": 1167.17,
+      "duration": 2.35
+    },
+    {
+      "text": "refer to the talk\nmentioned on this slide.",
+      "start": 1169.52,
+      "duration": 4.22
+    },
+    {
+      "text": "The translated query is then\npassed to a server-side model",
+      "start": 1173.74,
+      "duration": 4.47
+    },
+    {
+      "text": "trained on Policy Bazaar's data\nand returns an English response",
+      "start": 1178.21,
+      "duration": 4.8
+    },
+    {
+      "text": "to the user's question.",
+      "start": 1183.01,
+      "duration": 2.81
+    },
+    {
+      "text": "The translator API then\nconverts the text back",
+      "start": 1185.82,
+      "duration": 4.11
+    },
+    {
+      "text": "into the user's native\nlanguage if required.",
+      "start": 1189.93,
+      "duration": 4.47
+    },
+    {
+      "text": "Policy Bazaar's example\nshows us that you",
+      "start": 1194.4,
+      "duration": 2.94
+    },
+    {
+      "text": "don't need to choose\nbetween client",
+      "start": 1197.34,
+      "duration": 1.77
+    },
+    {
+      "text": "side and server-side models.",
+      "start": 1199.11,
+      "duration": 1.95
+    },
+    {
+      "text": "You can combine or\nchain multiple models",
+      "start": 1201.06,
+      "duration": 3.57
+    },
+    {
+      "text": "by catering each model\nto a specific task",
+      "start": 1204.63,
+      "duration": 3.3
+    },
+    {
+      "text": "in the overall flow.",
+      "start": 1207.93,
+      "duration": 2.97
+    },
+    {
+      "text": "Where low latency, cost,\nand privacy was required,",
+      "start": 1210.9,
+      "duration": 4.42
+    },
+    {
+      "text": "a client-side solution was used.",
+      "start": 1215.32,
+      "duration": 3.08
+    },
+    {
+      "text": "Where more complex models\ntrained on custom data",
+      "start": 1218.4,
+      "duration": 3.12
+    },
+    {
+      "text": "was needed, a server-side\nsolution was used.",
+      "start": 1221.52,
+      "duration": 4.14
+    },
+    {
+      "text": "At the end of this\ncustomer conversation,",
+      "start": 1225.66,
+      "duration": 2.83
+    },
+    {
+      "text": "a transcription is forwarded\nto the human support staff",
+      "start": 1228.49,
+      "duration": 4.19
+    },
+    {
+      "text": "for follow up.",
+      "start": 1232.68,
+      "duration": 2.58
+    },
+    {
+      "text": "However, what happens\nif a user decides",
+      "start": 1235.26,
+      "duration": 3.84
+    },
+    {
+      "text": "to provide inappropriate or\naggressive input to the chatbot?",
+      "start": 1239.1,
+      "duration": 5.54
+    },
+    {
+      "text": "To tackle this, they used\na toxicity detection model",
+      "start": 1244.64,
+      "duration": 4.02
+    },
+    {
+      "text": "that runs fully client-side\nand powered by WebGPU.",
+      "start": 1248.66,
+      "duration": 5.67
+    },
+    {
+      "text": "Why client-side\ntoxicity detection?",
+      "start": 1254.33,
+      "duration": 3.63
+    },
+    {
+      "text": "Due to privacy and\nsensitivity reasons,",
+      "start": 1257.96,
+      "duration": 3.22
+    },
+    {
+      "text": "they wanted to analyze\nmessages on the device",
+      "start": 1261.18,
+      "duration": 3.32
+    },
+    {
+      "text": "and only send meaningful\ndata to the server.",
+      "start": 1264.5,
+      "duration": 4.5
+    },
+    {
+      "text": "And eventually, when\nthe conversation",
+      "start": 1269.0,
+      "duration": 2.49
+    },
+    {
+      "text": "is sent to human\nagents for follow-ups,",
+      "start": 1271.49,
+      "duration": 2.8
+    },
+    {
+      "text": "they wanted to avoid\ntoxic language.",
+      "start": 1274.29,
+      "duration": 3.62
+    },
+    {
+      "text": "This was the\nmotivation to implement",
+      "start": 1277.91,
+      "duration": 2.46
+    },
+    {
+      "text": "a client-side solution.",
+      "start": 1280.37,
+      "duration": 3.21
+    },
+    {
+      "text": "Let's see this in action.",
+      "start": 1283.58,
+      "duration": 2.1
+    },
+    {
+      "text": "When the toxicity\ndetection model",
+      "start": 1285.68,
+      "duration": 2.52
+    },
+    {
+      "text": "identifies a toxic\nmessage, the user",
+      "start": 1288.2,
+      "duration": 3.24
+    },
+    {
+      "text": "is prompted to\nrephrase the message.",
+      "start": 1291.44,
+      "duration": 3.75
+    },
+    {
+      "text": "The message is not\nsent to the server.",
+      "start": 1295.19,
+      "duration": 4.38
+    },
+    {
+      "text": "An added benefit was that\nwhen they switched from WebGL",
+      "start": 1299.57,
+      "duration": 4.15
+    },
+    {
+      "text": "to WebGPU backend for supported\nbrowsers, the model ran 10 times",
+      "start": 1303.72,
+      "duration": 5.22
+    },
+    {
+      "text": "faster, which meant faster\nfeedback to the user",
+      "start": 1308.94,
+      "duration": 3.51
+    },
+    {
+      "text": "to revise their message.",
+      "start": 1312.45,
+      "duration": 2.4
+    },
+    {
+      "text": "So far, we've seen\nhow AI is making",
+      "start": 1314.85,
+      "duration": 3.15
+    },
+    {
+      "text": "a real difference in the web\nexperiences we use every day.",
+      "start": 1318.0,
+      "duration": 5.46
+    },
+    {
+      "text": "Now let's pull back\nthe curtain and explore",
+      "start": 1323.46,
+      "duration": 3.45
+    },
+    {
+      "text": "the technologies that made\nthese features possible.",
+      "start": 1326.91,
+      "duration": 3.84
+    },
+    {
+      "text": "Over to you, Yuriko.",
+      "start": 1330.75,
+      "duration": 2.838
+    },
+    {
+      "text": "YURIKO HIROTA: All right.",
+      "start": 1333.588,
+      "duration": 1.042
+    },
+    {
+      "text": "Let's dive in.",
+      "start": 1334.63,
+      "duration": 2.12
+    },
+    {
+      "text": "For the past few\nyears, Chrome has",
+      "start": 1336.75,
+      "duration": 2.88
+    },
+    {
+      "text": "been building primitives\nlike WebGPU and WASM",
+      "start": 1339.63,
+      "duration": 3.72
+    },
+    {
+      "text": "that allows AI to\nrun on the web.",
+      "start": 1343.35,
+      "duration": 3.36
+    },
+    {
+      "text": "As a developer,\nthough, you'll probably",
+      "start": 1346.71,
+      "duration": 2.52
+    },
+    {
+      "text": "interact with AI\nvia handy libraries",
+      "start": 1349.23,
+      "duration": 3.06
+    },
+    {
+      "text": "like MediaPipe and\ntransformer.js.",
+      "start": 1352.29,
+      "duration": 3.63
+    },
+    {
+      "text": "These libraries abstract\naway the complexities,",
+      "start": 1355.92,
+      "duration": 3.79
+    },
+    {
+      "text": "allowing you to focus\non building amazing AI",
+      "start": 1359.71,
+      "duration": 3.52
+    },
+    {
+      "text": "features for your websites.",
+      "start": 1363.23,
+      "duration": 2.61
+    },
+    {
+      "text": "Let's briefly walk through how\nyou can utilize these libraries",
+      "start": 1365.84,
+      "duration": 3.99
+    },
+    {
+      "text": "in your websites.",
+      "start": 1369.83,
+      "duration": 2.73
+    },
+    {
+      "text": "If you're interested in creating\nsimilar features like Bilibili,",
+      "start": 1372.56,
+      "duration": 3.88
+    },
+    {
+      "text": "then you can use MediaPipe's\nImage Segmenter Tasks.",
+      "start": 1376.44,
+      "duration": 4.64
+    },
+    {
+      "text": "This task uses WebAssembly\nto let you segment images",
+      "start": 1381.08,
+      "duration": 4.5
+    },
+    {
+      "text": "into regions based on the\npredefined categories.",
+      "start": 1385.58,
+      "duration": 4.32
+    },
+    {
+      "text": "This allows for\nthe identification",
+      "start": 1389.9,
+      "duration": 1.89
+    },
+    {
+      "text": "of specific objects or textures,\nsuch as a person, a background,",
+      "start": 1391.79,
+      "duration": 5.23
+    },
+    {
+      "text": "or a cat.",
+      "start": 1397.02,
+      "duration": 2.3
+    },
+    {
+      "text": "Also, did you know\nthat MediaPipe",
+      "start": 1399.32,
+      "duration": 2.46
+    },
+    {
+      "text": "lets you run large language\nmodels completely on the browser",
+      "start": 1401.78,
+      "duration": 4.45
+    },
+    {
+      "text": "thanks to WebGPU?",
+      "start": 1406.23,
+      "duration": 2.63
+    },
+    {
+      "text": "The LLMs that run\non the browsers",
+      "start": 1408.86,
+      "duration": 2.01
+    },
+    {
+      "text": "are typically smaller\nand less capable",
+      "start": 1410.87,
+      "duration": 2.97
+    },
+    {
+      "text": "than the server-side\nLLMs, but they're",
+      "start": 1413.84,
+      "duration": 3.15
+    },
+    {
+      "text": "good for scoped tasks such\nas generating small texts,",
+      "start": 1416.99,
+      "duration": 3.91
+    },
+    {
+      "text": "retrieving information\nin natural language form,",
+      "start": 1420.9,
+      "duration": 3.16
+    },
+    {
+      "text": "or summarizing documents.",
+      "start": 1424.06,
+      "duration": 3.21
+    },
+    {
+      "text": "You also have transformer.js,\na library closely associated",
+      "start": 1427.27,
+      "duration": 5.1
+    },
+    {
+      "text": "with the growing Hugging\nFace ecosystem that",
+      "start": 1432.37,
+      "duration": 3.45
+    },
+    {
+      "text": "lets you use many\nof the ready-made AI",
+      "start": 1435.82,
+      "duration": 2.61
+    },
+    {
+      "text": "models on the website\nfor different tasks,",
+      "start": 1438.43,
+      "duration": 2.95
+    },
+    {
+      "text": "including segmentation\ntasks, classification tasks,",
+      "start": 1441.38,
+      "duration": 3.66
+    },
+    {
+      "text": "speech recognitions, and more.",
+      "start": 1445.04,
+      "duration": 3.56
+    },
+    {
+      "text": "The addition of WebGPU support\nin transformers.js version",
+      "start": 1448.6,
+      "duration": 4.56
+    },
+    {
+      "text": "three last year has generated\nexcitement and creativity",
+      "start": 1453.16,
+      "duration": 4.83
+    },
+    {
+      "text": "amongst the developers.",
+      "start": 1457.99,
+      "duration": 2.61
+    },
+    {
+      "text": "Here are the\nsnippets of examples",
+      "start": 1460.6,
+      "duration": 2.16
+    },
+    {
+      "text": "that would not\nhave been possible",
+      "start": 1462.76,
+      "duration": 1.83
+    },
+    {
+      "text": "without the support of WebGPU.",
+      "start": 1464.59,
+      "duration": 3.6
+    },
+    {
+      "text": "We've seen developers\nexperimenting with reasoning",
+      "start": 1468.19,
+      "duration": 3.12
+    },
+    {
+      "text": "models like DeepSeek optimized\nfor in-browser inference",
+      "start": 1471.31,
+      "duration": 3.93
+    },
+    {
+      "text": "entirely on Chrome.",
+      "start": 1475.24,
+      "duration": 2.88
+    },
+    {
+      "text": "On top of that, Kokoro, an\nopen way text-to-speech model",
+      "start": 1478.12,
+      "duration": 4.76
+    },
+    {
+      "text": "with 82 million\nparameters, can now",
+      "start": 1482.88,
+      "duration": 3.27
+    },
+    {
+      "text": "be used to convert text\nto natural sounding speech",
+      "start": 1486.15,
+      "duration": 4.14
+    },
+    {
+      "text": "and runs in-browser\nthanks to transformer.js.",
+      "start": 1490.29,
+      "duration": 4.92
+    },
+    {
+      "text": "It's 100% free and supports\nunlimited generations.",
+      "start": 1495.21,
+      "duration": 5.49
+    },
+    {
+      "text": "Running a multimodal\nvision language model",
+      "start": 1500.7,
+      "duration": 3.06
+    },
+    {
+      "text": "called Janus Pro One Billion was\nalso made possible on the web,",
+      "start": 1503.76,
+      "duration": 5.1
+    },
+    {
+      "text": "meaning you can create high\nquality images from text",
+      "start": 1508.86,
+      "duration": 3.84
+    },
+    {
+      "text": "descriptions and engage in\ndetailed image discussion,",
+      "start": 1512.7,
+      "duration": 3.97
+    },
+    {
+      "text": "for instance.",
+      "start": 1516.67,
+      "duration": 1.79
+    },
+    {
+      "text": "Developers' enthusiasm and\ncreativity are just incredible.",
+      "start": 1518.46,
+      "duration": 5.85
+    },
+    {
+      "text": "Since Chrome has been at the\nforefront of AI technologies,",
+      "start": 1524.31,
+      "duration": 4.18
+    },
+    {
+      "text": "WebGPU is well supported\nin Chrome browser.",
+      "start": 1528.49,
+      "duration": 4.25
+    },
+    {
+      "text": "It is also available in Safari\nTech Preview and Firefox Nightly",
+      "start": 1532.74,
+      "duration": 4.86
+    },
+    {
+      "text": "as we're recording.",
+      "start": 1537.6,
+      "duration": 2.11
+    },
+    {
+      "text": "Luckily for us, WebAssembly's\nbroad support across browsers,",
+      "start": 1539.71,
+      "duration": 5.5
+    },
+    {
+      "text": "positions the web as a platform\nready for AI development,",
+      "start": 1545.21,
+      "duration": 4.79
+    },
+    {
+      "text": "accessible to all users.",
+      "start": 1550.0,
+      "duration": 3.45
+    },
+    {
+      "text": "I hope that gave you a\nglimpse into the technologies",
+      "start": 1553.45,
+      "duration": 2.79
+    },
+    {
+      "text": "available to you today.",
+      "start": 1556.24,
+      "duration": 2.13
+    },
+    {
+      "text": "Let me hand it back to\nSwetha to wrap it up.",
+      "start": 1558.37,
+      "duration": 4.44
+    },
+    {
+      "text": "SWETHA GOPALAKRISHNAN:\nSo far, we've",
+      "start": 1562.81,
+      "duration": 1.5
+    },
+    {
+      "text": "looked at strategies,\nreal world examples,",
+      "start": 1564.31,
+      "duration": 3.28
+    },
+    {
+      "text": "and the underlying technologies\nfor you to build AI on the web.",
+      "start": 1567.59,
+      "duration": 5.45
+    },
+    {
+      "text": "If you want to learn more,\ncheck out the link on the slide.",
+      "start": 1573.04,
+      "duration": 4.68
+    },
+    {
+      "text": "I hope this talk inspired\nyou to think of what you can",
+      "start": 1577.72,
+      "duration": 4.23
+    },
+    {
+      "text": "develop for your own web app.",
+      "start": 1581.95,
+      "duration": 2.82
+    },
+    {
+      "text": "We can't wait to see\nwhat you'll build.",
+      "start": 1584.77,
+      "duration": 2.67
+    },
+    {
+      "text": "Thank you.",
+      "start": 1587.44,
+      "duration": 0.9
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1588.34,
+      "duration": 2.75
+    }
+  ]
+}

@@ -1,0 +1,2162 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "10oHjdwUIxo",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.353
+    },
+    {
+      "text": "NATALIA MARKOBORODOVA:\nHi, I'm Natalia.",
+      "start": 6.23,
+      "duration": 1.889
+    },
+    {
+      "text": "And today, I'm going\nto talk about how",
+      "start": 8.119,
+      "duration": 2.461
+    },
+    {
+      "text": "to build identity payments\nand embedded widget",
+      "start": 10.58,
+      "duration": 2.85
+    },
+    {
+      "text": "solutions when third-party\ncookies are restricted.",
+      "start": 13.43,
+      "duration": 4.08
+    },
+    {
+      "text": "Let's get started.",
+      "start": 17.51,
+      "duration": 1.95
+    },
+    {
+      "text": "Identity payments and\nembedded widgets often",
+      "start": 19.46,
+      "duration": 2.91
+    },
+    {
+      "text": "rely on third-party cookies.",
+      "start": 22.37,
+      "duration": 2.37
+    },
+    {
+      "text": "Third-party cookies have been\non the web for a long time.",
+      "start": 24.74,
+      "duration": 3.37
+    },
+    {
+      "text": "And many developers use\nthem in their applications.",
+      "start": 28.11,
+      "duration": 3.92
+    },
+    {
+      "text": "However, third-party\ncookies are also",
+      "start": 32.03,
+      "duration": 2.76
+    },
+    {
+      "text": "enabling cross-site\ntracking and expose users",
+      "start": 34.79,
+      "duration": 3.24
+    },
+    {
+      "text": "to security issues, such as\ncross-site request forgery.",
+      "start": 38.03,
+      "duration": 5.1
+    },
+    {
+      "text": "To protect users,\nbrowsers have started",
+      "start": 43.13,
+      "duration": 2.25
+    },
+    {
+      "text": "blocking third-party\ncookies by default",
+      "start": 45.38,
+      "duration": 2.16
+    },
+    {
+      "text": "or giving their users\nthe choice to block them.",
+      "start": 47.54,
+      "duration": 4.62
+    },
+    {
+      "text": "This means developers\nshould audit their solutions",
+      "start": 52.16,
+      "duration": 2.79
+    },
+    {
+      "text": "and update it if they rely\non third party cookies.",
+      "start": 54.95,
+      "duration": 3.96
+    },
+    {
+      "text": "This will help to avoid breakage\nfor users who don't have",
+      "start": 58.91,
+      "duration": 3.5
+    },
+    {
+      "text": "third-party cookies blocked.",
+      "start": 62.41,
+      "duration": 1.54
+    },
+    {
+      "text": "We have good news.",
+      "start": 63.95,
+      "duration": 1.429
+    },
+    {
+      "text": "With Privacy Sandbox\nAPIs, you don't",
+      "start": 65.379,
+      "duration": 2.851
+    },
+    {
+      "text": "have to choose between\nprivacy and functionality.",
+      "start": 68.23,
+      "duration": 3.43
+    },
+    {
+      "text": "Why would you want to\nuse Privacy Sandbox APIs.",
+      "start": 71.66,
+      "duration": 3.62
+    },
+    {
+      "text": "Most importantly,\nPrivacy Sandbox APIs",
+      "start": 75.28,
+      "duration": 3.09
+    },
+    {
+      "text": "offer robust and\nenduring solutions.",
+      "start": 78.37,
+      "duration": 4.23
+    },
+    {
+      "text": "They can ensure your\nsite's functionality",
+      "start": 82.6,
+      "duration": 2.43
+    },
+    {
+      "text": "remains seamless, regardless of\nthird-party cookies availability",
+      "start": 85.03,
+      "duration": 5.61
+    },
+    {
+      "text": "Privacy Sandbox\nAPIs are designed",
+      "start": 90.64,
+      "duration": 2.19
+    },
+    {
+      "text": "to limit the information\nthat is shared about the user",
+      "start": 92.83,
+      "duration": 3.69
+    },
+    {
+      "text": "and reduce the scope of\npotential user tracking.",
+      "start": 96.52,
+      "duration": 3.66
+    },
+    {
+      "text": "Solutions dependent\non third-party cookies",
+      "start": 100.18,
+      "duration": 3.03
+    },
+    {
+      "text": "may fail when\ncookies are blocked.",
+      "start": 103.21,
+      "duration": 2.44
+    },
+    {
+      "text": "Let's take a look\nat how to detect",
+      "start": 105.65,
+      "duration": 2.48
+    },
+    {
+      "text": "whether identity payments\nor embedded widgets",
+      "start": 108.13,
+      "duration": 2.88
+    },
+    {
+      "text": "rely on third-party\ncookies on your site.",
+      "start": 111.01,
+      "duration": 3.72
+    },
+    {
+      "text": "If you don't embed any content,\ndon't distribute or rely",
+      "start": 114.73,
+      "duration": 3.98
+    },
+    {
+      "text": "on cross-site widgets,\ncontent, or scripts,",
+      "start": 118.71,
+      "duration": 3.27
+    },
+    {
+      "text": "and don't reuse the same session\ncookie across multiple sites,",
+      "start": 121.98,
+      "duration": 3.85
+    },
+    {
+      "text": "there is a chance you don't\nrely on third-party cookies.",
+      "start": 125.83,
+      "duration": 4.13
+    },
+    {
+      "text": "But today's web is composable.",
+      "start": 129.96,
+      "duration": 2.74
+    },
+    {
+      "text": "You probably don't implement\neverything from scratch.",
+      "start": 132.7,
+      "duration": 3.53
+    },
+    {
+      "text": "And most external identity\nand payment solutions",
+      "start": 136.23,
+      "duration": 2.79
+    },
+    {
+      "text": "rely on third-party cookies.",
+      "start": 139.02,
+      "duration": 2.55
+    },
+    {
+      "text": "So it never hurts\nto double-check.",
+      "start": 141.57,
+      "duration": 2.65
+    },
+    {
+      "text": "The next step is to\nensure that all users get",
+      "start": 144.22,
+      "duration": 3.32
+    },
+    {
+      "text": "the same experience,\nwhether or not",
+      "start": 147.54,
+      "duration": 2.46
+    },
+    {
+      "text": "third-party cookies\nare available.",
+      "start": 150.0,
+      "duration": 1.78
+    },
+    {
+      "text": "The best way to do so is to\ngo through the user flows",
+      "start": 151.78,
+      "duration": 3.32
+    },
+    {
+      "text": "with third-party\ncookies disabled.",
+      "start": 155.1,
+      "duration": 2.94
+    },
+    {
+      "text": "To disable third-party\ncookies in Chrome.",
+      "start": 158.04,
+      "duration": 2.47
+    },
+    {
+      "text": "Go to DevTools, open\nPrivacy and security panel.",
+      "start": 160.51,
+      "duration": 3.6
+    },
+    {
+      "text": "Go to the Controls tab.",
+      "start": 164.11,
+      "duration": 1.82
+    },
+    {
+      "text": "And enable Temporarily\nlimit third-party cookies.",
+      "start": 165.93,
+      "duration": 3.78
+    },
+    {
+      "text": "Another way to disable cookies\nis through Chrome flags.",
+      "start": 169.71,
+      "duration": 3.54
+    },
+    {
+      "text": "Navigate to Chrome flags\nin your browser's URL bar.",
+      "start": 173.25,
+      "duration": 3.56
+    },
+    {
+      "text": "Enable the Test Third\nParty Cookie flag.",
+      "start": 176.81,
+      "duration": 4.07
+    },
+    {
+      "text": "And you'll find\nother useful flags",
+      "start": 180.88,
+      "duration": 1.95
+    },
+    {
+      "text": "that can help you to fine-tune\nyour browser configuration",
+      "start": 182.83,
+      "duration": 3.24
+    },
+    {
+      "text": "for testing purposes.",
+      "start": 186.07,
+      "duration": 2.43
+    },
+    {
+      "text": "Now that you're all\nset up for testing,",
+      "start": 188.5,
+      "duration": 2.17
+    },
+    {
+      "text": "let's go through some\nuser flows that commonly",
+      "start": 190.67,
+      "duration": 2.3
+    },
+    {
+      "text": "rely on third-party cookies.",
+      "start": 192.97,
+      "duration": 1.98
+    },
+    {
+      "text": "Let's start with identity.",
+      "start": 194.95,
+      "duration": 2.22
+    },
+    {
+      "text": "Here is a checklist\nfor you to go through.",
+      "start": 197.17,
+      "duration": 3.51
+    },
+    {
+      "text": "Can the user create\na new account?",
+      "start": 200.68,
+      "duration": 2.82
+    },
+    {
+      "text": "Can they use a sign-in?",
+      "start": 203.5,
+      "duration": 2.04
+    },
+    {
+      "text": "Do personalized\nsign-in buttons work?",
+      "start": 205.54,
+      "duration": 3.54
+    },
+    {
+      "text": "Does the sign-in status\npersist when they navigate",
+      "start": 209.08,
+      "duration": 3.0
+    },
+    {
+      "text": "to other related domains?",
+      "start": 212.08,
+      "duration": 2.97
+    },
+    {
+      "text": "Can they use a sign-out?",
+      "start": 215.05,
+      "duration": 2.13
+    },
+    {
+      "text": "Do they remain signed out when\nnavigating through the site?",
+      "start": 217.18,
+      "duration": 4.86
+    },
+    {
+      "text": "Can the user recover their\npassword successfully?",
+      "start": 222.04,
+      "duration": 3.78
+    },
+    {
+      "text": "Remember to check these flows\nfor every third-party identity",
+      "start": 225.82,
+      "duration": 3.45
+    },
+    {
+      "text": "provider you integrate\nwith your solution.",
+      "start": 229.27,
+      "duration": 3.57
+    },
+    {
+      "text": "All right, identities checked.",
+      "start": 232.84,
+      "duration": 2.05
+    },
+    {
+      "text": "Let's move to another\nessential component",
+      "start": 234.89,
+      "duration": 2.59
+    },
+    {
+      "text": "of the online\nexperience-- payments.",
+      "start": 237.48,
+      "duration": 4.2
+    },
+    {
+      "text": "Here is a checklist\nto go through",
+      "start": 241.68,
+      "duration": 1.62
+    },
+    {
+      "text": "with third-party\ncookies blocked.",
+      "start": 243.3,
+      "duration": 2.79
+    },
+    {
+      "text": "Can the user check out\nwith third-party providers,",
+      "start": 246.09,
+      "duration": 2.76
+    },
+    {
+      "text": "such as pay with\nexample provider?",
+      "start": 248.85,
+      "duration": 3.72
+    },
+    {
+      "text": "Can users add, update, and\ndelete payment methods?",
+      "start": 252.57,
+      "duration": 4.829
+    },
+    {
+      "text": "Do users see their saved payment\nmethods when making a purchase?",
+      "start": 257.399,
+      "duration": 5.101
+    },
+    {
+      "text": "Do personalized payment\nbuttons render as expected?",
+      "start": 262.5,
+      "duration": 4.56
+    },
+    {
+      "text": "Can the user complete purchases\neven if the personalized button",
+      "start": 267.06,
+      "duration": 3.6
+    },
+    {
+      "text": "doesn't display the\npreferred payment method?",
+      "start": 270.66,
+      "duration": 3.96
+    },
+    {
+      "text": "Does your payment fraud\ndetection work as expected?",
+      "start": 274.62,
+      "duration": 3.3
+    },
+    {
+      "text": "Do users have to go\nthrough extra steps?",
+      "start": 277.92,
+      "duration": 3.96
+    },
+    {
+      "text": "Can your software still\ndetect suspicious patterns?",
+      "start": 281.88,
+      "duration": 3.72
+    },
+    {
+      "text": "Every solution is unique.",
+      "start": 285.6,
+      "duration": 1.72
+    },
+    {
+      "text": "You may have an\nembedded widget that",
+      "start": 287.32,
+      "duration": 2.12
+    },
+    {
+      "text": "relies on third-party cookies\noutside of identity and payments",
+      "start": 289.44,
+      "duration": 3.51
+    },
+    {
+      "text": "use cases.",
+      "start": 292.95,
+      "duration": 1.16
+    },
+    {
+      "text": "It's always a good\nidea to test your site.",
+      "start": 294.11,
+      "duration": 3.27
+    },
+    {
+      "text": "Here are some other\ncommon examples to check.",
+      "start": 297.38,
+      "duration": 3.15
+    },
+    {
+      "text": "Can your user\naccess chat widgets?",
+      "start": 300.53,
+      "duration": 2.52
+    },
+    {
+      "text": "Can they resume the chat session\nif they navigate to other pages",
+      "start": 303.05,
+      "duration": 4.08
+    },
+    {
+      "text": "and domains and back?",
+      "start": 307.13,
+      "duration": 2.82
+    },
+    {
+      "text": "What about social media?",
+      "start": 309.95,
+      "duration": 1.6
+    },
+    {
+      "text": "Can your users\ncomment, like, repost?",
+      "start": 311.55,
+      "duration": 4.25
+    },
+    {
+      "text": "Can your users access\ncontent, for example,",
+      "start": 315.8,
+      "duration": 3.07
+    },
+    {
+      "text": "with an embedded player?",
+      "start": 318.87,
+      "duration": 2.45
+    },
+    {
+      "text": "Can they access premium content\nif they have a subscription.",
+      "start": 321.32,
+      "duration": 5.28
+    },
+    {
+      "text": "Do data dashboard\nwidgets load correctly?",
+      "start": 326.6,
+      "duration": 4.05
+    },
+    {
+      "text": "Does the dashboard\ndisplay all the data",
+      "start": 330.65,
+      "duration": 2.28
+    },
+    {
+      "text": "users expect to see accordingly\nwith their saved preferences?",
+      "start": 332.93,
+      "duration": 4.65
+    },
+    {
+      "text": "Can users navigate\nbetween different sections",
+      "start": 337.58,
+      "duration": 2.19
+    },
+    {
+      "text": "of the dashboard?",
+      "start": 339.77,
+      "duration": 2.55
+    },
+    {
+      "text": "Think of any other\nembedded widgets--",
+      "start": 342.32,
+      "duration": 2.55
+    },
+    {
+      "text": "maps, scheduling, contact forms.",
+      "start": 344.87,
+      "duration": 3.13
+    },
+    {
+      "text": "Do they all work as expected?",
+      "start": 348.0,
+      "duration": 3.76
+    },
+    {
+      "text": "Does your solution have another\ncreative embedded widget?",
+      "start": 351.76,
+      "duration": 3.45
+    },
+    {
+      "text": "Tell us in the comments.",
+      "start": 355.21,
+      "duration": 1.89
+    },
+    {
+      "text": "But what is actually\nhappening under the hood?",
+      "start": 357.1,
+      "duration": 3.75
+    },
+    {
+      "text": "Let's take a closer look\nat the context pattern",
+      "start": 360.85,
+      "duration": 2.79
+    },
+    {
+      "text": "behind these examples.",
+      "start": 363.64,
+      "duration": 2.79
+    },
+    {
+      "text": "Let's go back to\nthe example flows",
+      "start": 366.43,
+      "duration": 1.89
+    },
+    {
+      "text": "we've discussed before, like\npayment buttons or chat widgets.",
+      "start": 368.32,
+      "duration": 5.19
+    },
+    {
+      "text": "These flows are\noften implemented",
+      "start": 373.51,
+      "duration": 1.95
+    },
+    {
+      "text": "as embedded widgets or scripts.",
+      "start": 375.46,
+      "duration": 3.63
+    },
+    {
+      "text": "It doesn't matter if the\nwidget or script is provided",
+      "start": 379.09,
+      "duration": 3.15
+    },
+    {
+      "text": "by a third-party company or\nif it's your company that",
+      "start": 382.24,
+      "duration": 3.87
+    },
+    {
+      "text": "implements and uses the widget.",
+      "start": 386.11,
+      "duration": 2.88
+    },
+    {
+      "text": "If a widget is embedded on\na site different from where",
+      "start": 388.99,
+      "duration": 3.66
+    },
+    {
+      "text": "it is hosted, it is\nconsidered third party.",
+      "start": 392.65,
+      "duration": 3.55
+    },
+    {
+      "text": "The cookies set\nwithin a widget that",
+      "start": 396.2,
+      "duration": 1.97
+    },
+    {
+      "text": "are associated with\nthe widget's domain",
+      "start": 398.17,
+      "duration": 2.26
+    },
+    {
+      "text": "and that are embedded\non a different site",
+      "start": 400.43,
+      "duration": 2.54
+    },
+    {
+      "text": "are also third party.",
+      "start": 402.97,
+      "duration": 3.66
+    },
+    {
+      "text": "Of course, if the widget is\nhosted on the same domain",
+      "start": 406.63,
+      "duration": 3.54
+    },
+    {
+      "text": "as the page that embeds it,\ncookies set by the widget",
+      "start": 410.17,
+      "duration": 3.65
+    },
+    {
+      "text": "are first party.",
+      "start": 413.82,
+      "duration": 3.15
+    },
+    {
+      "text": "A third-party script can also\nset a first-party cookie.",
+      "start": 416.97,
+      "duration": 4.26
+    },
+    {
+      "text": "For example, if a script from\nthird-party.example is embedded",
+      "start": 421.23,
+      "duration": 3.69
+    },
+    {
+      "text": "on site.example, it can set\na cookie associated with",
+      "start": 424.92,
+      "duration": 3.9
+    },
+    {
+      "text": "site.example using\ndocument.cookie property.",
+      "start": 428.82,
+      "duration": 5.28
+    },
+    {
+      "text": "This cookie will be considered\nfirst party within site.example",
+      "start": 434.1,
+      "duration": 4.53
+    },
+    {
+      "text": "and won't be sent with network\nrequests to third-party.example.",
+      "start": 438.63,
+      "duration": 5.34
+    },
+    {
+      "text": "Now that we know what\nthird-party cookies are,",
+      "start": 443.97,
+      "duration": 3.4
+    },
+    {
+      "text": "let's take a look at what\nhappens if they are not",
+      "start": 447.37,
+      "duration": 2.87
+    },
+    {
+      "text": "available to the user.",
+      "start": 450.24,
+      "duration": 2.13
+    },
+    {
+      "text": "Imagine you have two sites--",
+      "start": 452.37,
+      "duration": 1.86
+    },
+    {
+      "text": "site.example that embeds a\nthird-party widget or script",
+      "start": 454.23,
+      "duration": 4.08
+    },
+    {
+      "text": "and provider.example that\nprovides embeddable content,",
+      "start": 458.31,
+      "duration": 3.7
+    },
+    {
+      "text": "scripts, or widgets.",
+      "start": 462.01,
+      "duration": 1.59
+    },
+    {
+      "text": "When the user\nvisits site.example,",
+      "start": 463.6,
+      "duration": 2.73
+    },
+    {
+      "text": "they see its address\nin the URL bar.",
+      "start": 466.33,
+      "duration": 3.53
+    },
+    {
+      "text": "It means that the user\nvisits site.example",
+      "start": 469.86,
+      "duration": 2.66
+    },
+    {
+      "text": "in a top-level context.",
+      "start": 472.52,
+      "duration": 2.52
+    },
+    {
+      "text": "Site.example embeds a widget\nprovided by provider.example.",
+      "start": 475.04,
+      "duration": 4.83
+    },
+    {
+      "text": "This widget can be\nanything really--",
+      "start": 479.87,
+      "duration": 3.27
+    },
+    {
+      "text": "for example, a payment\nform, a user login,",
+      "start": 483.14,
+      "duration": 2.8
+    },
+    {
+      "text": "a fraud detection script,\nor simply a weather widget.",
+      "start": 485.94,
+      "duration": 3.93
+    },
+    {
+      "text": "Imagine streaming.example\nis a content provider.",
+      "start": 489.87,
+      "duration": 4.25
+    },
+    {
+      "text": "The user visits\nstreaming.example",
+      "start": 494.12,
+      "duration": 2.1
+    },
+    {
+      "text": "in the top-level context.",
+      "start": 496.22,
+      "duration": 2.43
+    },
+    {
+      "text": "When the user signs\nin, streaming.example",
+      "start": 498.65,
+      "duration": 2.97
+    },
+    {
+      "text": "writes a cookie stored\nin the user session.",
+      "start": 501.62,
+      "duration": 3.04
+    },
+    {
+      "text": "The signed-in user\nhas a subscription.",
+      "start": 504.66,
+      "duration": 2.61
+    },
+    {
+      "text": "So they have unlimited\naccess to premium content.",
+      "start": 507.27,
+      "duration": 4.55
+    },
+    {
+      "text": "Streaming.example\ndistributes a player widget,",
+      "start": 511.82,
+      "duration": 3.219
+    },
+    {
+      "text": "which other sites can embed.",
+      "start": 515.039,
+      "duration": 2.451
+    },
+    {
+      "text": "Now let's take a look\nat a concrete example.",
+      "start": 517.49,
+      "duration": 3.9
+    },
+    {
+      "text": "Say a famous blogger uploads\na video on streaming.example.",
+      "start": 521.39,
+      "duration": 4.62
+    },
+    {
+      "text": "Only users with a\npremium subscription",
+      "start": 526.01,
+      "duration": 2.35
+    },
+    {
+      "text": "can access the video.",
+      "start": 528.36,
+      "duration": 1.83
+    },
+    {
+      "text": "They also embed this video on\ntheir personal blog.example",
+      "start": 530.19,
+      "duration": 3.63
+    },
+    {
+      "text": "site.",
+      "start": 533.82,
+      "duration": 1.44
+    },
+    {
+      "text": "Then, the user who's signed\nin on streaming.example",
+      "start": 535.26,
+      "duration": 3.57
+    },
+    {
+      "text": "and has a premium subscription\nis now visiting blog.example.",
+      "start": 538.83,
+      "duration": 5.14
+    },
+    {
+      "text": "To grant access to the user, the\nstreaming.example player widget",
+      "start": 543.97,
+      "duration": 3.53
+    },
+    {
+      "text": "needs to validate\ntheir subscription.",
+      "start": 547.5,
+      "duration": 2.88
+    },
+    {
+      "text": "For that, the\nstreaming.example widget",
+      "start": 550.38,
+      "duration": 2.37
+    },
+    {
+      "text": "needs to read the\ncookie that was",
+      "start": 552.75,
+      "duration": 2.31
+    },
+    {
+      "text": "set in the top-level context\nwhen the user visited",
+      "start": 555.06,
+      "duration": 4.08
+    },
+    {
+      "text": "the streaming.example site.",
+      "start": 559.14,
+      "duration": 2.13
+    },
+    {
+      "text": "Now, here is what happens if\nthird-party cookies are not",
+      "start": 561.27,
+      "duration": 3.6
+    },
+    {
+      "text": "available.",
+      "start": 564.87,
+      "duration": 1.08
+    },
+    {
+      "text": "The widget is embedded\non blog.example,",
+      "start": 565.95,
+      "duration": 2.68
+    },
+    {
+      "text": "which is a different site\nthan streaming.example.",
+      "start": 568.63,
+      "duration": 3.26
+    },
+    {
+      "text": "This means that the cookie\nset in the top-level context",
+      "start": 571.89,
+      "duration": 3.24
+    },
+    {
+      "text": "of streaming.example\nis a third-party cookie",
+      "start": 575.13,
+      "duration": 3.21
+    },
+    {
+      "text": "to the widget.",
+      "start": 578.34,
+      "duration": 1.95
+    },
+    {
+      "text": "The widget cannot\naccess the cookie.",
+      "start": 580.29,
+      "duration": 2.49
+    },
+    {
+      "text": "And the user wouldn't be\nable to access the video.",
+      "start": 582.78,
+      "duration": 2.86
+    },
+    {
+      "text": "This happens because the user is\ncurrently visiting another site.",
+      "start": 585.64,
+      "duration": 4.04
+    },
+    {
+      "text": "And the streaming.example\nsite is now",
+      "start": 589.68,
+      "duration": 2.69
+    },
+    {
+      "text": "in a different embedded context.",
+      "start": 592.37,
+      "duration": 3.03
+    },
+    {
+      "text": "There can be other cases in\nwhich a widget or script needs",
+      "start": 595.4,
+      "duration": 3.33
+    },
+    {
+      "text": "to write or read a cookie\nin an embedded context--",
+      "start": 598.73,
+      "duration": 3.45
+    },
+    {
+      "text": "for example, to\nvalidate user identity,",
+      "start": 602.18,
+      "duration": 2.59
+    },
+    {
+      "text": "check their preferred payment\nmethod, or update settings.",
+      "start": 604.77,
+      "duration": 5.24
+    },
+    {
+      "text": "Remember, if the widget is\nembedded on a different site,",
+      "start": 610.01,
+      "duration": 3.55
+    },
+    {
+      "text": "then it's hosted by cookies\nare treated as third party.",
+      "start": 613.56,
+      "duration": 4.2
+    },
+    {
+      "text": "When third-party cookies\nare not available,",
+      "start": 617.76,
+      "duration": 2.37
+    },
+    {
+      "text": "they won't be included in\nthe requests originating",
+      "start": 620.13,
+      "duration": 2.72
+    },
+    {
+      "text": "from a site different than\nthe one the user is visiting.",
+      "start": 622.85,
+      "duration": 3.58
+    },
+    {
+      "text": "So the embedded widget won't\nbe able to write or read",
+      "start": 626.43,
+      "duration": 3.68
+    },
+    {
+      "text": "an unpartitioned cookie.",
+      "start": 630.11,
+      "duration": 1.69
+    },
+    {
+      "text": "Whatever information\nthe cookie stores,",
+      "start": 631.8,
+      "duration": 2.61
+    },
+    {
+      "text": "the widget won't be\nable to access it.",
+      "start": 634.41,
+      "duration": 2.85
+    },
+    {
+      "text": "And that's how\nsome user flows may",
+      "start": 637.26,
+      "duration": 2.09
+    },
+    {
+      "text": "be disrupted when third-party\ncookies aren't available.",
+      "start": 639.35,
+      "duration": 4.91
+    },
+    {
+      "text": "Here is where Privacy Sandbox\nAPIs can help you ensure support",
+      "start": 644.26,
+      "duration": 4.08
+    },
+    {
+      "text": "for those users.",
+      "start": 648.34,
+      "duration": 1.41
+    },
+    {
+      "text": "Let's walk through some of them.",
+      "start": 649.75,
+      "duration": 2.46
+    },
+    {
+      "text": "One of the APIs\nwe have for you is",
+      "start": 652.21,
+      "duration": 2.46
+    },
+    {
+      "text": "Cookies Having Independent\nPartition State, or CHIPS.",
+      "start": 654.67,
+      "duration": 5.16
+    },
+    {
+      "text": "But before we begin,\nlet me introduce",
+      "start": 659.83,
+      "duration": 2.46
+    },
+    {
+      "text": "the concept of unpartitioned\nand partitioned storage.",
+      "start": 662.29,
+      "duration": 4.74
+    },
+    {
+      "text": "Unpartitioned storage\nis the storage",
+      "start": 667.03,
+      "duration": 2.43
+    },
+    {
+      "text": "as we used to know\nit historically.",
+      "start": 669.46,
+      "duration": 2.49
+    },
+    {
+      "text": "It lacks isolation.",
+      "start": 671.95,
+      "duration": 1.71
+    },
+    {
+      "text": "If a site writes data into\nunpartitioned storage,",
+      "start": 673.66,
+      "duration": 3.79
+    },
+    {
+      "text": "it can be accessed by\nthe site in any context,",
+      "start": 677.45,
+      "duration": 3.6
+    },
+    {
+      "text": "regardless of\nwhether the data was",
+      "start": 681.05,
+      "duration": 2.15
+    },
+    {
+      "text": "set in a top-level\nor embedded context.",
+      "start": 683.2,
+      "duration": 2.95
+    },
+    {
+      "text": "For example, both the widget\nembedded on site.example",
+      "start": 686.15,
+      "duration": 3.53
+    },
+    {
+      "text": "and another-site.example would\nbe able to access the same",
+      "start": 689.68,
+      "duration": 4.56
+    },
+    {
+      "text": "unpartitioned storage.",
+      "start": 694.24,
+      "duration": 1.29
+    },
+    {
+      "text": "If third-party\ncookies are available,",
+      "start": 695.53,
+      "duration": 2.26
+    },
+    {
+      "text": "partitioned storage is isolated.",
+      "start": 697.79,
+      "duration": 3.53
+    },
+    {
+      "text": "The data in partitioned storage\nis associated with the exact",
+      "start": 701.32,
+      "duration": 3.86
+    },
+    {
+      "text": "context it was set in and cannot\nbe accessed within a different",
+      "start": 705.18,
+      "duration": 4.47
+    },
+    {
+      "text": "context.",
+      "start": 709.65,
+      "duration": 1.89
+    },
+    {
+      "text": "With this knowledge, we are now\nequipped to understand CHIPS.",
+      "start": 711.54,
+      "duration": 3.58
+    },
+    {
+      "text": "Let's take a look.",
+      "start": 715.12,
+      "duration": 3.2
+    },
+    {
+      "text": "If you don't need to share\nthe data beyond the pair",
+      "start": 718.32,
+      "duration": 2.85
+    },
+    {
+      "text": "provider.example and\nthe site.example,",
+      "start": 721.17,
+      "duration": 3.13
+    },
+    {
+      "text": "add the partitioned\nattribute to your cookies.",
+      "start": 724.3,
+      "duration": 2.54
+    },
+    {
+      "text": "And keep them isolated.",
+      "start": 726.84,
+      "duration": 2.13
+    },
+    {
+      "text": "Partitioned cookies\nintroduced with CHIPS",
+      "start": 728.97,
+      "duration": 2.58
+    },
+    {
+      "text": "are double keyed by the widget\nprovider and the embedding site.",
+      "start": 731.55,
+      "duration": 4.71
+    },
+    {
+      "text": "These CHIPS live in\npartition storage",
+      "start": 736.26,
+      "duration": 2.64
+    },
+    {
+      "text": "with a separate cookie\njar per top-level site.",
+      "start": 738.9,
+      "duration": 3.57
+    },
+    {
+      "text": "The cookie jar will\nonly be accessible",
+      "start": 742.47,
+      "duration": 2.7
+    },
+    {
+      "text": "from the same context,\nthe widget and the site",
+      "start": 745.17,
+      "duration": 3.21
+    },
+    {
+      "text": "embedding it.",
+      "start": 748.38,
+      "duration": 1.03
+    },
+    {
+      "text": "It won't be accessible\nby provider.example",
+      "start": 749.41,
+      "duration": 2.81
+    },
+    {
+      "text": "when it is opened\nas a top-level site",
+      "start": 752.22,
+      "duration": 2.37
+    },
+    {
+      "text": "or provider.example\nwhen it is embedded",
+      "start": 754.59,
+      "duration": 3.0
+    },
+    {
+      "text": "on another site.example.",
+      "start": 757.59,
+      "duration": 1.74
+    },
+    {
+      "text": "Partitioned cookies\nare useful when",
+      "start": 759.33,
+      "duration": 1.98
+    },
+    {
+      "text": "the data doesn't need to be\nshared outside of the widget",
+      "start": 761.31,
+      "duration": 3.26
+    },
+    {
+      "text": "embedded context--",
+      "start": 764.57,
+      "duration": 1.45
+    },
+    {
+      "text": "for example, for chat\nwidgets or payment",
+      "start": 766.02,
+      "duration": 2.75
+    },
+    {
+      "text": "dashboard\nsite-specific settings.",
+      "start": 768.77,
+      "duration": 2.22
+    },
+    {
+      "text": "CHIPS is supported by\nmost major browsers.",
+      "start": 770.99,
+      "duration": 3.48
+    },
+    {
+      "text": "And other browsers are dedicated\nto shipping CHIPS as well.",
+      "start": 774.47,
+      "duration": 3.43
+    },
+    {
+      "text": "And they are currently\nworking on it.",
+      "start": 777.9,
+      "duration": 2.1
+    },
+    {
+      "text": "If you do need to share\ncookies between sites,",
+      "start": 780.0,
+      "duration": 3.48
+    },
+    {
+      "text": "there are other options.",
+      "start": 783.48,
+      "duration": 1.65
+    },
+    {
+      "text": "Let's take a look at\nrelated website sets.",
+      "start": 785.13,
+      "duration": 3.59
+    },
+    {
+      "text": "For example, if you own\nmultiple related sites,",
+      "start": 788.72,
+      "duration": 3.01
+    },
+    {
+      "text": "you can declare\nrelationships between them",
+      "start": 791.73,
+      "duration": 2.27
+    },
+    {
+      "text": "using Related Websites Sets.",
+      "start": 794.0,
+      "duration": 1.8
+    },
+    {
+      "text": "Within a set, browsers allow\nlimited third-party cookie",
+      "start": 795.8,
+      "duration": 3.21
+    },
+    {
+      "text": "access.",
+      "start": 799.01,
+      "duration": 0.91
+    },
+    {
+      "text": "Related Websites Sets\nare useful if you",
+      "start": 799.92,
+      "duration": 2.63
+    },
+    {
+      "text": "own multiple sites that rely\non a service that you also own.",
+      "start": 802.55,
+      "duration": 4.45
+    },
+    {
+      "text": "It can be, for example, an\nin-house identity service",
+      "start": 807.0,
+      "duration": 3.45
+    },
+    {
+      "text": "or perhaps something\nlike a payment link",
+      "start": 810.45,
+      "duration": 2.45
+    },
+    {
+      "text": "service that resides\non a different domain",
+      "start": 812.9,
+      "duration": 2.76
+    },
+    {
+      "text": "from the main solution.",
+      "start": 815.66,
+      "duration": 1.92
+    },
+    {
+      "text": "You can declare\na related website",
+      "start": 817.58,
+      "duration": 2.07
+    },
+    {
+      "text": "set by creating a pull request\nto the Related Websites Sets",
+      "start": 819.65,
+      "duration": 3.65
+    },
+    {
+      "text": "JSON file in GitHub, where the\ncanonical Related Websites Set",
+      "start": 823.3,
+      "duration": 4.14
+    },
+    {
+      "text": "list is hosted.",
+      "start": 827.44,
+      "duration": 1.98
+    },
+    {
+      "text": "Related Websites Sets are\ncurrently supported only",
+      "start": 829.42,
+      "duration": 2.85
+    },
+    {
+      "text": "by Chromium-based browsers.",
+      "start": 832.27,
+      "duration": 2.64
+    },
+    {
+      "text": "If you distribute a solution\nthat other sites rely on,",
+      "start": 834.91,
+      "duration": 3.46
+    },
+    {
+      "text": "there are other\nAPIs that can help.",
+      "start": 838.37,
+      "duration": 2.9
+    },
+    {
+      "text": "Let's take a look at\nthe Storage Access API.",
+      "start": 841.27,
+      "duration": 3.57
+    },
+    {
+      "text": "When third-party\ncookies are blocked,",
+      "start": 844.84,
+      "duration": 1.96
+    },
+    {
+      "text": "your embedded\nwidget doesn't have",
+      "start": 846.8,
+      "duration": 1.82
+    },
+    {
+      "text": "access to its own unpartitioned\nstorage by default.",
+      "start": 848.62,
+      "duration": 3.81
+    },
+    {
+      "text": "One way to fix this\nis to prompt the user",
+      "start": 852.43,
+      "duration": 2.46
+    },
+    {
+      "text": "to grant storage access.",
+      "start": 854.89,
+      "duration": 1.45
+    },
+    {
+      "text": "You can do so by calling\nthe Storage Access API's",
+      "start": 856.34,
+      "duration": 3.42
+    },
+    {
+      "text": "requestStorageAccess method.",
+      "start": 859.76,
+      "duration": 2.27
+    },
+    {
+      "text": "With the Storage\nAccess API, the widget",
+      "start": 862.03,
+      "duration": 2.28
+    },
+    {
+      "text": "can prompt the user to\ngrant storage access.",
+      "start": 864.31,
+      "duration": 2.7
+    },
+    {
+      "text": "With user permission, the widget\ncan access unpartitioned storage",
+      "start": 867.01,
+      "duration": 3.81
+    },
+    {
+      "text": "and will load as expected.",
+      "start": 870.82,
+      "duration": 2.28
+    },
+    {
+      "text": "The Storage Access API can\nbe useful in many cases",
+      "start": 873.1,
+      "duration": 3.3
+    },
+    {
+      "text": "where the user has previously\nvisited the widget provider",
+      "start": 876.4,
+      "duration": 3.19
+    },
+    {
+      "text": "as a top-level context.",
+      "start": 879.59,
+      "duration": 2.11
+    },
+    {
+      "text": "For example, if the\nuser has previously",
+      "start": 881.7,
+      "duration": 2.24
+    },
+    {
+      "text": "logged in with your\nidentity provider",
+      "start": 883.94,
+      "duration": 2.16
+    },
+    {
+      "text": "example and the\nidentity provider",
+      "start": 886.1,
+      "duration": 2.13
+    },
+    {
+      "text": "example widget needs\nto verify user identity",
+      "start": 888.23,
+      "duration": 3.18
+    },
+    {
+      "text": "when embedded on\nanother site or the user",
+      "start": 891.41,
+      "duration": 3.87
+    },
+    {
+      "text": "has set their preferred payment\nmethod with your payments",
+      "start": 895.28,
+      "duration": 2.88
+    },
+    {
+      "text": "provider.example.",
+      "start": 898.16,
+      "duration": 1.77
+    },
+    {
+      "text": "Then they want to pay with\ntheir preferred payment",
+      "start": 899.93,
+      "duration": 2.73
+    },
+    {
+      "text": "method on another site that\nembeds payments provider.example",
+      "start": 902.66,
+      "duration": 3.36
+    },
+    {
+      "text": "widget.",
+      "start": 906.02,
+      "duration": 2.25
+    },
+    {
+      "text": "Storage Access API works across\ndevices and latest browser",
+      "start": 908.27,
+      "duration": 3.72
+    },
+    {
+      "text": "versions.",
+      "start": 911.99,
+      "duration": 0.85
+    },
+    {
+      "text": "Another API that can support the\nfunctionality of your solution",
+      "start": 912.84,
+      "duration": 3.65
+    },
+    {
+      "text": "without third-party cookies is\nFederated Credential Management,",
+      "start": 916.49,
+      "duration": 4.21
+    },
+    {
+      "text": "or FedCM.",
+      "start": 920.7,
+      "duration": 2.33
+    },
+    {
+      "text": "With FedCM, users can sign in on\nsites using account information",
+      "start": 923.03,
+      "duration": 4.8
+    },
+    {
+      "text": "and credentials from\nidentity providers, companies",
+      "start": 927.83,
+      "duration": 3.69
+    },
+    {
+      "text": "that have deep expertise\nin user identity.",
+      "start": 931.52,
+      "duration": 4.29
+    },
+    {
+      "text": "FedCM lets you customize the\nuser identity experience.",
+      "start": 935.81,
+      "duration": 3.54
+    },
+    {
+      "text": "For example, you can choose\nbetween different UI modes",
+      "start": 939.35,
+      "duration": 3.32
+    },
+    {
+      "text": "or configure the\nuser prompt to state",
+      "start": 942.67,
+      "duration": 2.73
+    },
+    {
+      "text": "exactly what user\ndata is requested.",
+      "start": 945.4,
+      "duration": 3.6
+    },
+    {
+      "text": "Additionally, an\nactive FedCM session",
+      "start": 949.0,
+      "duration": 2.4
+    },
+    {
+      "text": "serves as a trust signal\nfor the Storage Access API.",
+      "start": 951.4,
+      "duration": 4.02
+    },
+    {
+      "text": "That means that when\nstorage access is requested,",
+      "start": 955.42,
+      "duration": 3.16
+    },
+    {
+      "text": "your widget will\nautomatically get access",
+      "start": 958.58,
+      "duration": 2.48
+    },
+    {
+      "text": "to its top-level\nunpartitioned storage.",
+      "start": 961.06,
+      "duration": 3.51
+    },
+    {
+      "text": "This accounts for a more\nseamless user experience.",
+      "start": 964.57,
+      "duration": 2.95
+    },
+    {
+      "text": "No additional user\nprompt is required.",
+      "start": 967.52,
+      "duration": 2.97
+    },
+    {
+      "text": "FedCM is a great option for\nidentity payments and content",
+      "start": 970.49,
+      "duration": 3.68
+    },
+    {
+      "text": "providers.",
+      "start": 974.17,
+      "duration": 1.56
+    },
+    {
+      "text": "FedCM is not\nbaseline, because it's",
+      "start": 975.73,
+      "duration": 1.98
+    },
+    {
+      "text": "a new feature that is\nnot yet supported by some",
+      "start": 977.71,
+      "duration": 2.94
+    },
+    {
+      "text": "of the widely used browsers.",
+      "start": 980.65,
+      "duration": 1.66
+    },
+    {
+      "text": "However, other\nbrowsers are currently",
+      "start": 982.31,
+      "duration": 2.84
+    },
+    {
+      "text": "actively implementing FedCM.",
+      "start": 985.15,
+      "duration": 2.16
+    },
+    {
+      "text": "We've covered a lot\nof technologies.",
+      "start": 987.31,
+      "duration": 2.5
+    },
+    {
+      "text": "But now it's time to get\nsome real-world perspective.",
+      "start": 989.81,
+      "duration": 4.19
+    },
+    {
+      "text": "Let's ask Dipti, a product\nspecialist on Google's Privacy",
+      "start": 994.0,
+      "duration": 3.74
+    },
+    {
+      "text": "Sandbox team, who constantly\nconnects with industry leaders",
+      "start": 997.74,
+      "duration": 3.72
+    },
+    {
+      "text": "and knows exactly what\nis driving the market.",
+      "start": 1001.46,
+      "duration": 3.06
+    },
+    {
+      "text": "Hey, Dipti, we are eager\nto hear your insights.",
+      "start": 1004.52,
+      "duration": 3.07
+    },
+    {
+      "text": "What's going on in the industry?",
+      "start": 1007.59,
+      "duration": 2.248
+    },
+    {
+      "text": "DIPTI KOTHARI: Thanks, Natalia.",
+      "start": 1009.838,
+      "duration": 1.292
+    },
+    {
+      "text": "Happy to be here.",
+      "start": 1011.13,
+      "duration": 1.64
+    },
+    {
+      "text": "Industry leaders in identity,\npayments, and embedded widget",
+      "start": 1012.77,
+      "duration": 4.44
+    },
+    {
+      "text": "solutions understand\nhow important",
+      "start": 1017.21,
+      "duration": 2.85
+    },
+    {
+      "text": "it is to offer both privacy\nand a good user experience",
+      "start": 1020.06,
+      "duration": 4.38
+    },
+    {
+      "text": "to their users.",
+      "start": 1024.44,
+      "duration": 1.59
+    },
+    {
+      "text": "Identity, payments, and embeds\nmay rely on third-party cookies.",
+      "start": 1026.03,
+      "duration": 5.68
+    },
+    {
+      "text": "This is suboptimal\nfor user privacy",
+      "start": 1031.71,
+      "duration": 3.29
+    },
+    {
+      "text": "and can impair user experience\nwhere third-party cookies are",
+      "start": 1035.0,
+      "duration": 4.56
+    },
+    {
+      "text": "unavailable.",
+      "start": 1039.56,
+      "duration": 1.529
+    },
+    {
+      "text": "The number of sites and services\nthat use Privacy Sandbox APIs",
+      "start": 1041.089,
+      "duration": 4.98
+    },
+    {
+      "text": "keeps growing and\nincludes KG Media, netID,",
+      "start": 1046.069,
+      "duration": 5.011
+    },
+    {
+      "text": "ORY, PayPal, Seznam, Shopify,\nTimes Internet, Tray,",
+      "start": 1051.08,
+      "duration": 5.99
+    },
+    {
+      "text": "and many others.",
+      "start": 1057.07,
+      "duration": 1.92
+    },
+    {
+      "text": "These companies are\nreporting positive outcomes",
+      "start": 1058.99,
+      "duration": 3.69
+    },
+    {
+      "text": "from their adoption.",
+      "start": 1062.68,
+      "duration": 1.83
+    },
+    {
+      "text": "Let's explore how\nspecific industry",
+      "start": 1064.51,
+      "duration": 2.67
+    },
+    {
+      "text": "leaders are leveraging Privacy\nSandbox to achieve their goals.",
+      "start": 1067.18,
+      "duration": 5.55
+    },
+    {
+      "text": "KG Media, one of Indonesia's\nlargest media groups,",
+      "start": 1072.73,
+      "duration": 4.12
+    },
+    {
+      "text": "with publisher networks like\nKompas reaching over 70 million",
+      "start": 1076.85,
+      "duration": 4.76
+    },
+    {
+      "text": "monthly active users.",
+      "start": 1081.61,
+      "duration": 2.46
+    },
+    {
+      "text": "Recognizing the growing\nimportance of user data privacy,",
+      "start": 1084.07,
+      "duration": 4.66
+    },
+    {
+      "text": "they integrated\nRelated Websites Sets",
+      "start": 1088.73,
+      "duration": 2.48
+    },
+    {
+      "text": "and updated their Google\nIdentity Services implementation",
+      "start": 1091.21,
+      "duration": 4.02
+    },
+    {
+      "text": "to support FedCM.",
+      "start": 1095.23,
+      "duration": 2.22
+    },
+    {
+      "text": "Their integration of\nRelated Websites Sets",
+      "start": 1097.45,
+      "duration": 2.91
+    },
+    {
+      "text": "ensures consistent,\npersonalized user experience",
+      "start": 1100.36,
+      "duration": 3.75
+    },
+    {
+      "text": "within KG Media's related sites.",
+      "start": 1104.11,
+      "duration": 3.21
+    },
+    {
+      "text": "Complementing this,\ntheir adoption",
+      "start": 1107.32,
+      "duration": 2.52
+    },
+    {
+      "text": "of FedCM for Google\nIdentity Services",
+      "start": 1109.84,
+      "duration": 3.17
+    },
+    {
+      "text": "provides a more\nprivacy-respecting way",
+      "start": 1113.01,
+      "duration": 3.33
+    },
+    {
+      "text": "for user authentication.",
+      "start": 1116.34,
+      "duration": 2.91
+    },
+    {
+      "text": "This forward-thinking\napproach not only",
+      "start": 1119.25,
+      "duration": 2.67
+    },
+    {
+      "text": "maintains a seamless\nuser journey",
+      "start": 1121.92,
+      "duration": 2.53
+    },
+    {
+      "text": "but also reinforces trust\nwith their vast audience.",
+      "start": 1124.45,
+      "duration": 5.24
+    },
+    {
+      "text": "Next, I'd like to\ntalk about Seznam,",
+      "start": 1129.69,
+      "duration": 2.71
+    },
+    {
+      "text": "a leading European technology\ncompany, publisher,",
+      "start": 1132.4,
+      "duration": 3.77
+    },
+    {
+      "text": "and identity provider\nreaching over",
+      "start": 1136.17,
+      "duration": 3.18
+    },
+    {
+      "text": "90% of the Czech population.",
+      "start": 1139.35,
+      "duration": 3.06
+    },
+    {
+      "text": "They have integrated\nFedCM to allow",
+      "start": 1142.41,
+      "duration": 2.85
+    },
+    {
+      "text": "users of the e-shops operating\non their partner's platform",
+      "start": 1145.26,
+      "duration": 4.57
+    },
+    {
+      "text": "to sign in using\ntheir Seznam account.",
+      "start": 1149.83,
+      "duration": 3.14
+    },
+    {
+      "text": "In addition, to an\nimproved user experience",
+      "start": 1152.97,
+      "duration": 3.33
+    },
+    {
+      "text": "and a consistent identity flow.",
+      "start": 1156.3,
+      "duration": 2.83
+    },
+    {
+      "text": "Regardless of third-party\ncookie availability,",
+      "start": 1159.13,
+      "duration": 3.33
+    },
+    {
+      "text": "they achieved a noticeable\nincrease in user sign-in rates",
+      "start": 1162.46,
+      "duration": 4.4
+    },
+    {
+      "text": "on their advertiser network.",
+      "start": 1166.86,
+      "duration": 2.4
+    },
+    {
+      "text": "This demonstrates how\nprivacy-respecting solutions",
+      "start": 1169.26,
+      "duration": 4.04
+    },
+    {
+      "text": "can positively impact\nuser engagement.",
+      "start": 1173.3,
+      "duration": 3.9
+    },
+    {
+      "text": "Here's another example of\nTray, an e-commerce CMS",
+      "start": 1177.2,
+      "duration": 4.14
+    },
+    {
+      "text": "provider from Brazil.",
+      "start": 1181.34,
+      "duration": 2.01
+    },
+    {
+      "text": "They adopted a dual strategy.",
+      "start": 1183.35,
+      "duration": 2.89
+    },
+    {
+      "text": "They transitioned\nthird-party plugins to CHIPS",
+      "start": 1186.24,
+      "duration": 2.93
+    },
+    {
+      "text": "to allow them to\nfunction properly,",
+      "start": 1189.17,
+      "duration": 2.38
+    },
+    {
+      "text": "while limiting the potential\nfor cross-site tracking,",
+      "start": 1191.55,
+      "duration": 3.9
+    },
+    {
+      "text": "and updated their internal\napplications to all",
+      "start": 1195.45,
+      "duration": 3.92
+    },
+    {
+      "text": "be first party to each other.",
+      "start": 1199.37,
+      "duration": 2.58
+    },
+    {
+      "text": "Tray prototyped and validated a\nsolution with CHIPS in a 15-day",
+      "start": 1201.95,
+      "duration": 5.28
+    },
+    {
+      "text": "sprint with two developers.",
+      "start": 1207.23,
+      "duration": 2.76
+    },
+    {
+      "text": "With this\nimplementation, they are",
+      "start": 1209.99,
+      "duration": 2.28
+    },
+    {
+      "text": "ready to transition\nto a durable solution",
+      "start": 1212.27,
+      "duration": 2.97
+    },
+    {
+      "text": "and provide support for\nmore users across browsers.",
+      "start": 1215.24,
+      "duration": 4.95
+    },
+    {
+      "text": "These examples from various\nsectors, like media, payments,",
+      "start": 1220.19,
+      "duration": 4.38
+    },
+    {
+      "text": "and e-commerce platforms,\nreally highlight the momentum",
+      "start": 1224.57,
+      "duration": 4.11
+    },
+    {
+      "text": "we are seeing with\nprivacy sandbox adoption.",
+      "start": 1228.68,
+      "duration": 3.94
+    },
+    {
+      "text": "This isn't just about\na cookieless future,",
+      "start": 1232.62,
+      "duration": 3.25
+    },
+    {
+      "text": "it's about creating a\nbetter, more trustworthy,",
+      "start": 1235.87,
+      "duration": 4.13
+    },
+    {
+      "text": "online world in the present.",
+      "start": 1240.0,
+      "duration": 3.073
+    },
+    {
+      "text": "NATALIA MARKOBORODOVA:\nThank you, Dipti.",
+      "start": 1243.073,
+      "duration": 1.667
+    },
+    {
+      "text": "Whoa, it looks like\ncompanies around the world",
+      "start": 1244.74,
+      "duration": 2.46
+    },
+    {
+      "text": "are preparing for third-party\ncookies restrictions.",
+      "start": 1247.2,
+      "duration": 3.27
+    },
+    {
+      "text": "They demonstrate how privacy\nand great user experience",
+      "start": 1250.47,
+      "duration": 2.97
+    },
+    {
+      "text": "go hand in hand.",
+      "start": 1253.44,
+      "duration": 2.34
+    },
+    {
+      "text": "Let's sum up what\nwe've covered so far.",
+      "start": 1255.78,
+      "duration": 3.51
+    },
+    {
+      "text": "We've talked about what\nthird-party cookies are,",
+      "start": 1259.29,
+      "duration": 3.7
+    },
+    {
+      "text": "which solutions don't rely\non third-party cookies, which",
+      "start": 1262.99,
+      "duration": 4.1
+    },
+    {
+      "text": "identity payments\nand widget solutions",
+      "start": 1267.09,
+      "duration": 2.7
+    },
+    {
+      "text": "might be using\nthird-party cookies,",
+      "start": 1269.79,
+      "duration": 2.19
+    },
+    {
+      "text": "and how to test your site.",
+      "start": 1271.98,
+      "duration": 2.94
+    },
+    {
+      "text": "Most importantly, we've\ncovered alternative APIs",
+      "start": 1274.92,
+      "duration": 3.6
+    },
+    {
+      "text": "that can help you\nsupport more users.",
+      "start": 1278.52,
+      "duration": 3.99
+    },
+    {
+      "text": "And lastly, we saw how industry\nleaders adopt the new approach.",
+      "start": 1282.51,
+      "duration": 4.95
+    },
+    {
+      "text": "Now it's time to test\nyour site and transition",
+      "start": 1287.46,
+      "duration": 3.29
+    },
+    {
+      "text": "to the new approach.",
+      "start": 1290.75,
+      "duration": 2.13
+    },
+    {
+      "text": "Together, we can build\na thriving internet",
+      "start": 1292.88,
+      "duration": 2.64
+    },
+    {
+      "text": "that safeguards user privacy.",
+      "start": 1295.52,
+      "duration": 2.91
+    },
+    {
+      "text": "Join us on this journey at\nprivacysandbox.google.com.",
+      "start": 1298.43,
+      "duration": 5.25
+    },
+    {
+      "text": "Check out our identity payments\nand embedded widget guides",
+      "start": 1303.68,
+      "duration": 3.27
+    },
+    {
+      "text": "for more tips.",
+      "start": 1306.95,
+      "duration": 2.34
+    },
+    {
+      "text": "If you want to learn more\nabout each particular API,",
+      "start": 1309.29,
+      "duration": 3.4
+    },
+    {
+      "text": "take a look at the\ndeveloper documentation.",
+      "start": 1312.69,
+      "duration": 2.96
+    },
+    {
+      "text": "Thank you for joining\nour identity payments",
+      "start": 1315.65,
+      "duration": 2.85
+    },
+    {
+      "text": "and embedded widget session.",
+      "start": 1318.5,
+      "duration": 2.37
+    },
+    {
+      "text": "You might also be interested\nin other I/O sessions,",
+      "start": 1320.87,
+      "duration": 3.4
+    },
+    {
+      "text": "like what do cookie changes\nmean for web developers?",
+      "start": 1324.27,
+      "duration": 3.74
+    },
+    {
+      "text": "And reshaping user\nauthentication and identity",
+      "start": 1328.01,
+      "duration": 3.24
+    },
+    {
+      "text": "verification.",
+      "start": 1331.25,
+      "duration": 1.71
+    },
+    {
+      "text": "Check out the links\nin the description.",
+      "start": 1332.96,
+      "duration": 2.49
+    },
+    {
+      "text": "And now happy coding.",
+      "start": 1335.45,
+      "duration": 2.31
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1337.76,
+      "duration": 3.35
+    }
+  ]
+}

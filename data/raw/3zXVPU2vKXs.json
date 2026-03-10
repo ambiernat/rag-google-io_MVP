@@ -1,0 +1,2467 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "3zXVPU2vKXs",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.778
+    },
+    {
+      "text": "DONOVAN MCMURRAY: Hi,\nI'm Donovan McMurray",
+      "start": 5.96,
+      "duration": 1.75
+    },
+    {
+      "text": "and today I'll be joined by my\ncolleagues, Kristina and Mayuri.",
+      "start": 7.71,
+      "duration": 3.92
+    },
+    {
+      "text": "We're going to share how\nto create seamless video",
+      "start": 11.63,
+      "duration": 2.34
+    },
+    {
+      "text": "capture, editing, and playback\nwith CameraX and Media3.",
+      "start": 13.97,
+      "duration": 4.0
+    },
+    {
+      "text": "As a bonus, we'll see how to\nadd custom effects each step",
+      "start": 17.97,
+      "duration": 3.41
+    },
+    {
+      "text": "of the way.",
+      "start": 21.38,
+      "duration": 0.7
+    },
+    {
+      "text": "Let's get started.",
+      "start": 22.08,
+      "duration": 1.58
+    },
+    {
+      "text": "Billions of users have chosen\nAndroid as the platform",
+      "start": 23.66,
+      "duration": 3.12
+    },
+    {
+      "text": "where they express themselves\nand connect with others.",
+      "start": 26.78,
+      "duration": 2.98
+    },
+    {
+      "text": "More and more, these\nusers are looking",
+      "start": 29.76,
+      "duration": 2.33
+    },
+    {
+      "text": "for new, innovative, and fun\nways to express themselves.",
+      "start": 32.09,
+      "duration": 3.87
+    },
+    {
+      "text": "Today, we'll focus on\nusing our Jetpack CameraX,",
+      "start": 35.96,
+      "duration": 3.6
+    },
+    {
+      "text": "and Media3 libraries to build\ndelightful video creation",
+      "start": 39.56,
+      "duration": 3.72
+    },
+    {
+      "text": "and consumption experiences.",
+      "start": 43.28,
+      "duration": 2.17
+    },
+    {
+      "text": "To start things off,\nI'll cover CameraX",
+      "start": 45.45,
+      "duration": 2.72
+    },
+    {
+      "text": "for easy-to-implement camera\nintegration into your app.",
+      "start": 48.17,
+      "duration": 3.51
+    },
+    {
+      "text": "Then Kristina will talk\nabout Media3 Transformer,",
+      "start": 51.68,
+      "duration": 3.34
+    },
+    {
+      "text": "which handles video editing,\ntranscoding, and more.",
+      "start": 55.02,
+      "duration": 3.89
+    },
+    {
+      "text": "Finally, Mayuri will go over\nMedia3 ExoPlayer and the options",
+      "start": 58.91,
+      "duration": 4.84
+    },
+    {
+      "text": "you can set for video playback.",
+      "start": 63.75,
+      "duration": 2.91
+    },
+    {
+      "text": "Jetpack libraries are\nflexible, performant, reliable,",
+      "start": 66.66,
+      "duration": 3.37
+    },
+    {
+      "text": "and consistent, and an\nincreasing number of apps",
+      "start": 70.03,
+      "duration": 3.2
+    },
+    {
+      "text": "are using CameraX\nin Media3 every day.",
+      "start": 73.23,
+      "duration": 3.03
+    },
+    {
+      "text": "In fact, nearly half of\nthe most popular apps",
+      "start": 76.26,
+      "duration": 3.03
+    },
+    {
+      "text": "are already using these Jetpack\nlibraries for their camera",
+      "start": 79.29,
+      "duration": 3.42
+    },
+    {
+      "text": "and media needs.",
+      "start": 82.71,
+      "duration": 1.86
+    },
+    {
+      "text": "So let's dive in and see what\nthese libraries are capable of.",
+      "start": 84.57,
+      "duration": 3.81
+    },
+    {
+      "text": "We'll look at a number\nof code examples",
+      "start": 88.38,
+      "duration": 1.92
+    },
+    {
+      "text": "from one of our hero\nsample apps, Socialite,",
+      "start": 90.3,
+      "duration": 2.86
+    },
+    {
+      "text": "which can be found on\nour GitHub page here.",
+      "start": 93.16,
+      "duration": 4.58
+    },
+    {
+      "text": "Let's start by using\nCameraX to capture",
+      "start": 97.74,
+      "duration": 2.49
+    },
+    {
+      "text": "some videos with effects.",
+      "start": 100.23,
+      "duration": 2.76
+    },
+    {
+      "text": "We first need to set up\nthe basic video recording.",
+      "start": 102.99,
+      "duration": 3.72
+    },
+    {
+      "text": "A quick recap of\nCameraX's structure--",
+      "start": 106.71,
+      "duration": 2.59
+    },
+    {
+      "text": "you select which\nuse cases your app",
+      "start": 109.3,
+      "duration": 2.27
+    },
+    {
+      "text": "needs when setting up CameraX.",
+      "start": 111.57,
+      "duration": 2.32
+    },
+    {
+      "text": "These use cases are preview,\nimage capture, video capture,",
+      "start": 113.89,
+      "duration": 4.62
+    },
+    {
+      "text": "and image analysis.",
+      "start": 118.51,
+      "duration": 1.91
+    },
+    {
+      "text": "For our app, we\nonly need preview",
+      "start": 120.42,
+      "duration": 2.38
+    },
+    {
+      "text": "to show the user\nwhat's being captured",
+      "start": 122.8,
+      "duration": 2.1
+    },
+    {
+      "text": "and video capture to\nsave a video file.",
+      "start": 124.9,
+      "duration": 4.019
+    },
+    {
+      "text": "First, let's create\nthe preview use case.",
+      "start": 128.919,
+      "duration": 3.811
+    },
+    {
+      "text": "We'll set our aspect ratio\nstrategy to be a 16-by-9 ratio.",
+      "start": 132.73,
+      "duration": 5.38
+    },
+    {
+      "text": "CameraX also supports\na 4-by-3 ratio.",
+      "start": 138.11,
+      "duration": 4.07
+    },
+    {
+      "text": "Then we create a\nresolution selector",
+      "start": 142.18,
+      "duration": 2.55
+    },
+    {
+      "text": "and set the aspect\nratio strategy.",
+      "start": 144.73,
+      "duration": 2.76
+    },
+    {
+      "text": "There are other options we could\nset, like whether to prioritize",
+      "start": 147.49,
+      "duration": 3.33
+    },
+    {
+      "text": "capture rate or resolution.",
+      "start": 150.82,
+      "duration": 2.08
+    },
+    {
+      "text": "We'll use the default and\nprioritize capture rate",
+      "start": 152.9,
+      "duration": 2.69
+    },
+    {
+      "text": "for a smooth-looking preview.",
+      "start": 155.59,
+      "duration": 2.82
+    },
+    {
+      "text": "Then we create the preview use\ncase using a builder, like so.",
+      "start": 158.41,
+      "duration": 5.46
+    },
+    {
+      "text": "To create the video\ncapture use case,",
+      "start": 163.87,
+      "duration": 2.17
+    },
+    {
+      "text": "we first need to\ncreate a recorder.",
+      "start": 166.04,
+      "duration": 2.93
+    },
+    {
+      "text": "Let's set the aspect ratio\nto match our preview.",
+      "start": 168.97,
+      "duration": 3.1
+    },
+    {
+      "text": "And for the quality,\nwe'll choose \"highest\"",
+      "start": 172.07,
+      "duration": 2.45
+    },
+    {
+      "text": "to let CameraX find the best\nquality supported on a given",
+      "start": 174.52,
+      "duration": 3.42
+    },
+    {
+      "text": "device.",
+      "start": 177.94,
+      "duration": 1.77
+    },
+    {
+      "text": "You can specify qualities,\nlike standard definition,",
+      "start": 179.71,
+      "duration": 3.41
+    },
+    {
+      "text": "high definition,\nfull high definition,",
+      "start": 183.12,
+      "duration": 2.34
+    },
+    {
+      "text": "and ultra-high definition.",
+      "start": 185.46,
+      "duration": 1.83
+    },
+    {
+      "text": "But not all of them are\nsupported on every device,",
+      "start": 187.29,
+      "duration": 2.97
+    },
+    {
+      "text": "so you also need to specify a\nfallback strategy in that case.",
+      "start": 190.26,
+      "duration": 4.85
+    },
+    {
+      "text": "Then we use the recorder to\ncreate a video capture use case.",
+      "start": 195.11,
+      "duration": 5.13
+    },
+    {
+      "text": "To move things\nalong, I won't show",
+      "start": 200.24,
+      "duration": 1.65
+    },
+    {
+      "text": "all the details of setting\nup the video output file.",
+      "start": 201.89,
+      "duration": 3.34
+    },
+    {
+      "text": "Check out the CameraX\nfoundations video series",
+      "start": 205.23,
+      "duration": 3.18
+    },
+    {
+      "text": "in this video's description\nfor that full explanation.",
+      "start": 208.41,
+      "duration": 4.01
+    },
+    {
+      "text": "And with that, we're close to\nhaving a working video recording",
+      "start": 212.42,
+      "duration": 3.45
+    },
+    {
+      "text": "app already.",
+      "start": 215.87,
+      "duration": 2.28
+    },
+    {
+      "text": "All we need to do to finish\nsetting up the camera",
+      "start": 218.15,
+      "duration": 2.85
+    },
+    {
+      "text": "is to create a camera\nprovider with CameraX.",
+      "start": 221.0,
+      "duration": 3.63
+    },
+    {
+      "text": "The awaitInstance method\nis a suspending function",
+      "start": 224.63,
+      "duration": 3.24
+    },
+    {
+      "text": "that returns a fully\ninitialized camera provider.",
+      "start": 227.87,
+      "duration": 3.99
+    },
+    {
+      "text": "Then we'll create a\nuse case group builder",
+      "start": 231.86,
+      "duration": 2.73
+    },
+    {
+      "text": "and add our preview and\nvideo capture use cases.",
+      "start": 234.59,
+      "duration": 3.9
+    },
+    {
+      "text": "One last thing-- before we\nbind these new use cases,",
+      "start": 238.49,
+      "duration": 3.23
+    },
+    {
+      "text": "we need to make sure any\npreviously bound use cases",
+      "start": 241.72,
+      "duration": 3.05
+    },
+    {
+      "text": "are unbound.",
+      "start": 244.77,
+      "duration": 1.77
+    },
+    {
+      "text": "Then we call bindToLifecycle\nwith a lifecycle owner,",
+      "start": 246.54,
+      "duration": 3.61
+    },
+    {
+      "text": "a camera selector--\nin this case,",
+      "start": 250.15,
+      "duration": 2.19
+    },
+    {
+      "text": "we'll use the\ndefault back camera--",
+      "start": 252.34,
+      "duration": 1.7
+    },
+    {
+      "text": "and our use case group,\nwhich we build inline here.",
+      "start": 254.04,
+      "duration": 4.5
+    },
+    {
+      "text": "And that's all you need to set\nup video recording in your app.",
+      "start": 258.54,
+      "duration": 3.299
+    },
+    {
+      "text": "Now, I started off\nthis talk by saying",
+      "start": 261.839,
+      "duration": 3.001
+    },
+    {
+      "text": "users are looking for new,\ninnovative, and fun ways",
+      "start": 264.84,
+      "duration": 2.76
+    },
+    {
+      "text": "to express themselves.",
+      "start": 267.6,
+      "duration": 1.3
+    },
+    {
+      "text": "So let's look at how to\napply a simple filter, which",
+      "start": 268.9,
+      "duration": 3.11
+    },
+    {
+      "text": "you can build on to create\npretty much any custom",
+      "start": 272.01,
+      "duration": 2.7
+    },
+    {
+      "text": "experience for your users\nthat you can dream of.",
+      "start": 274.71,
+      "duration": 3.72
+    },
+    {
+      "text": "The amazing news is that\nCameraX makes adding effects",
+      "start": 278.43,
+      "duration": 3.21
+    },
+    {
+      "text": "a breeze with the Media3 effect\nconnector, which is currently",
+      "start": 281.64,
+      "duration": 4.08
+    },
+    {
+      "text": "in alpha.",
+      "start": 285.72,
+      "duration": 1.38
+    },
+    {
+      "text": "Kristina will go over more\nbuilt-in Media3 effects later.",
+      "start": 287.1,
+      "duration": 3.58
+    },
+    {
+      "text": "But for now, let's add a\nsimple black-and-white filter.",
+      "start": 290.68,
+      "duration": 4.94
+    },
+    {
+      "text": "When the effect\nshould be applied,",
+      "start": 295.62,
+      "duration": 1.75
+    },
+    {
+      "text": "you can create a Media3 effect,\npassing in the Android context,",
+      "start": 297.37,
+      "duration": 4.37
+    },
+    {
+      "text": "the use case targets\nthis effect will",
+      "start": 301.74,
+      "duration": 2.3
+    },
+    {
+      "text": "be applied to using a bitwise\nOR, an executor, and an error",
+      "start": 304.04,
+      "duration": 4.65
+    },
+    {
+      "text": "listener.",
+      "start": 308.69,
+      "duration": 1.65
+    },
+    {
+      "text": "Then you set the\nlist of effects.",
+      "start": 310.34,
+      "duration": 1.99
+    },
+    {
+      "text": "In our case, it will just be the\nbuilt-in RGB filters grayscale",
+      "start": 312.33,
+      "duration": 4.85
+    },
+    {
+      "text": "filter effect.",
+      "start": 317.18,
+      "duration": 1.95
+    },
+    {
+      "text": "Then just add the\neffect to the use case",
+      "start": 319.13,
+      "duration": 2.61
+    },
+    {
+      "text": "group builder we created in the\nlast section, and we're done.",
+      "start": 321.74,
+      "duration": 3.37
+    },
+    {
+      "text": "We've applied an effect to the\npreview and the final video.",
+      "start": 325.11,
+      "duration": 4.28
+    },
+    {
+      "text": "For my last trick, I'm\ngoing to really show off",
+      "start": 329.39,
+      "duration": 2.46
+    },
+    {
+      "text": "how all of the pieces of\nCameraX can come together",
+      "start": 331.85,
+      "duration": 2.82
+    },
+    {
+      "text": "to great effect.",
+      "start": 334.67,
+      "duration": 2.206
+    },
+    {
+      "text": "[CANNED LAUGHTER]",
+      "start": 336.876,
+      "duration": 1.214
+    },
+    {
+      "text": "Thank you.",
+      "start": 338.09,
+      "duration": 0.79
+    },
+    {
+      "text": "Thank you.",
+      "start": 338.88,
+      "duration": 1.46
+    },
+    {
+      "text": "This effect will allow me to\nrecord what's in front of me,",
+      "start": 340.34,
+      "duration": 3.19
+    },
+    {
+      "text": "and it will also capture\na selfie cutout of me",
+      "start": 343.53,
+      "duration": 2.93
+    },
+    {
+      "text": "as if I were standing in\nfront of a green screen.",
+      "start": 346.46,
+      "duration": 2.97
+    },
+    {
+      "text": "We'll start by using\nCameraX's concurrent camera",
+      "start": 349.43,
+      "duration": 2.73
+    },
+    {
+      "text": "feature to get two camera\nstreams simultaneously.",
+      "start": 352.16,
+      "duration": 3.93
+    },
+    {
+      "text": "So we have our original use\ncase group builder, like before.",
+      "start": 356.09,
+      "duration": 3.94
+    },
+    {
+      "text": "But we'll create a secondary\nuse case group builder",
+      "start": 360.03,
+      "duration": 2.85
+    },
+    {
+      "text": "to use the image\nanalysis use case.",
+      "start": 362.88,
+      "duration": 3.72
+    },
+    {
+      "text": "We'll use an image\nanalysis builder for this.",
+      "start": 366.6,
+      "duration": 2.79
+    },
+    {
+      "text": "The back pressure\nstrategy is used",
+      "start": 369.39,
+      "duration": 2.28
+    },
+    {
+      "text": "to handle frames when the\napplication's analysis",
+      "start": 371.67,
+      "duration": 2.88
+    },
+    {
+      "text": "pipeline can't keep up\nwith CameraX's frame rate",
+      "start": 374.55,
+      "duration": 2.79
+    },
+    {
+      "text": "requirements.",
+      "start": 377.34,
+      "duration": 1.71
+    },
+    {
+      "text": "In our case, we're only\ninterested in the latest frame.",
+      "start": 379.05,
+      "duration": 2.98
+    },
+    {
+      "text": "So if CameraX receives a new\nimage before the application",
+      "start": 382.03,
+      "duration": 3.5
+    },
+    {
+      "text": "finishes processing,\nthe new image",
+      "start": 385.53,
+      "duration": 2.19
+    },
+    {
+      "text": "is saved to the same buffer,\noverwriting the previous image.",
+      "start": 387.72,
+      "duration": 5.04
+    },
+    {
+      "text": "Then we set the\nanalyzer that will do",
+      "start": 392.76,
+      "duration": 2.52
+    },
+    {
+      "text": "the processing of the frames.",
+      "start": 395.28,
+      "duration": 1.84
+    },
+    {
+      "text": "We'll define the selfie\nsegmentation analyzer",
+      "start": 397.12,
+      "duration": 2.51
+    },
+    {
+      "text": "in the next section.",
+      "start": 399.63,
+      "duration": 2.04
+    },
+    {
+      "text": "Then we create a secondary\nuse case group builder",
+      "start": 401.67,
+      "duration": 3.0
+    },
+    {
+      "text": "and add the image\nanalysis use case.",
+      "start": 404.67,
+      "duration": 3.3
+    },
+    {
+      "text": "Now we'll create two\nsingle-camera configs",
+      "start": 407.97,
+      "duration": 3.18
+    },
+    {
+      "text": "to be combined in our\nconcurrent camera setup.",
+      "start": 411.15,
+      "duration": 3.96
+    },
+    {
+      "text": "We've selected\nthe primary camera",
+      "start": 415.11,
+      "duration": 2.1
+    },
+    {
+      "text": "to be a back camera and\nthe secondary camera",
+      "start": 417.21,
+      "duration": 2.88
+    },
+    {
+      "text": "to be a front camera.",
+      "start": 420.09,
+      "duration": 1.38
+    },
+    {
+      "text": "See the code in Socialite to\nsee exactly how we did that.",
+      "start": 421.47,
+      "duration": 4.61
+    },
+    {
+      "text": "Then we'll pass in our two\nuse case groups like so.",
+      "start": 426.08,
+      "duration": 4.17
+    },
+    {
+      "text": "Finally, we specify the\nlifecycle owner for each config.",
+      "start": 430.25,
+      "duration": 5.1
+    },
+    {
+      "text": "Then we need to update the\ncall to bindToLifecycle",
+      "start": 435.35,
+      "duration": 3.51
+    },
+    {
+      "text": "to pass in our list of\nsingle-camera configs.",
+      "start": 438.86,
+      "duration": 3.81
+    },
+    {
+      "text": "CameraX will handle setting up\nthe multiple camera streams.",
+      "start": 442.67,
+      "duration": 4.62
+    },
+    {
+      "text": "Next, we need to set\nup our image analyzer",
+      "start": 447.29,
+      "duration": 2.79
+    },
+    {
+      "text": "to do selfie segmentation.",
+      "start": 450.08,
+      "duration": 2.4
+    },
+    {
+      "text": "We can leverage ML Kit's\nselfie segmentation API",
+      "start": 452.48,
+      "duration": 3.3
+    },
+    {
+      "text": "for this, which can separate\npeople in the foreground",
+      "start": 455.78,
+      "duration": 3.0
+    },
+    {
+      "text": "from the background of an image.",
+      "start": 458.78,
+      "duration": 2.79
+    },
+    {
+      "text": "Going back to our\narchitecture diagram,",
+      "start": 461.57,
+      "duration": 2.44
+    },
+    {
+      "text": "we can create a bitmap from\neach frame that comes out",
+      "start": 464.01,
+      "duration": 3.41
+    },
+    {
+      "text": "of our image analysis,\npass that into ML Kit,",
+      "start": 467.42,
+      "duration": 3.33
+    },
+    {
+      "text": "and get a grid of probabilities\nthat each Pixel is",
+      "start": 470.75,
+      "duration": 3.27
+    },
+    {
+      "text": "in the foreground, which\nwe can turn into a mask",
+      "start": 474.02,
+      "duration": 2.73
+    },
+    {
+      "text": "to remove the background.",
+      "start": 476.75,
+      "duration": 2.7
+    },
+    {
+      "text": "Here's the implementation of the\nselfie segmentation analyzer.",
+      "start": 479.45,
+      "duration": 3.84
+    },
+    {
+      "text": "Read more about\nthe options you can",
+      "start": 483.29,
+      "duration": 1.98
+    },
+    {
+      "text": "set in the selfie\nsegmentation with ML Kit",
+      "start": 485.27,
+      "duration": 3.06
+    },
+    {
+      "text": "on Android guide linked in\nthis video's description.",
+      "start": 488.33,
+      "duration": 4.77
+    },
+    {
+      "text": "Inside the analyze method, we\ncan get the bitmap and the mask",
+      "start": 493.1,
+      "duration": 4.17
+    },
+    {
+      "text": "to do the green screen effect.",
+      "start": 497.27,
+      "duration": 1.84
+    },
+    {
+      "text": "The bitmap can be\ncreated directly",
+      "start": 499.11,
+      "duration": 2.21
+    },
+    {
+      "text": "from the image we get off\nof the provided image proxy.",
+      "start": 501.32,
+      "duration": 4.56
+    },
+    {
+      "text": "For the mask, we\ncan use the results",
+      "start": 505.88,
+      "duration": 2.34
+    },
+    {
+      "text": "of ML Kit in this\nsuccess listener.",
+      "start": 508.22,
+      "duration": 2.56
+    },
+    {
+      "text": "I won't go into the details\nof this success listener",
+      "start": 510.78,
+      "duration": 2.509
+    },
+    {
+      "text": "here, so check Socialite\nfor the full code.",
+      "start": 513.289,
+      "duration": 3.75
+    },
+    {
+      "text": "We're almost ready to\nsee the final result.",
+      "start": 517.039,
+      "duration": 3.331
+    },
+    {
+      "text": "We can take the\nbitmap and the mask",
+      "start": 520.37,
+      "duration": 1.86
+    },
+    {
+      "text": "we generated in the last\nsection and draw the result",
+      "start": 522.23,
+      "duration": 3.0
+    },
+    {
+      "text": "on the original video\nusing an overlay effect.",
+      "start": 525.23,
+      "duration": 4.41
+    },
+    {
+      "text": "Similar to the Media3\neffect we made earlier,",
+      "start": 529.64,
+      "duration": 2.95
+    },
+    {
+      "text": "we'll use CameraX's\noverlay effect",
+      "start": 532.59,
+      "duration": 2.48
+    },
+    {
+      "text": "for drawing an overlay on\ntop of the camera frames.",
+      "start": 535.07,
+      "duration": 4.44
+    },
+    {
+      "text": "Then we set the\nonDrawListener callback",
+      "start": 539.51,
+      "duration": 2.66
+    },
+    {
+      "text": "to draw on the overlay Canvas.",
+      "start": 542.17,
+      "duration": 2.69
+    },
+    {
+      "text": "Check if the mask and\nbitmap is null first",
+      "start": 544.86,
+      "duration": 2.7
+    },
+    {
+      "text": "because we need them to proceed.",
+      "start": 547.56,
+      "duration": 2.82
+    },
+    {
+      "text": "Then we use this line to\nclear the previous drawing",
+      "start": 550.38,
+      "duration": 3.09
+    },
+    {
+      "text": "on the overlay Canvas.",
+      "start": 553.47,
+      "duration": 2.34
+    },
+    {
+      "text": "We'll set up a Paint object to\nhandle the masking appropriately",
+      "start": 555.81,
+      "duration": 4.06
+    },
+    {
+      "text": "and, if any translations\nor rotations are needed,",
+      "start": 559.87,
+      "duration": 3.33
+    },
+    {
+      "text": "apply those with a\ntransformation matrix.",
+      "start": 563.2,
+      "duration": 4.04
+    },
+    {
+      "text": "Then we're ready to\ndraw the selfie overlay.",
+      "start": 567.24,
+      "duration": 2.59
+    },
+    {
+      "text": "First draw the bitmap which\nhas all of the Pixel data.",
+      "start": 569.83,
+      "duration": 3.6
+    },
+    {
+      "text": "Then draw the mask on\ntop of it, like so.",
+      "start": 573.43,
+      "duration": 4.04
+    },
+    {
+      "text": "All that's left is to add\nthe green screen effect",
+      "start": 577.47,
+      "duration": 2.52
+    },
+    {
+      "text": "to our original use\ncase builder, which",
+      "start": 579.99,
+      "duration": 2.28
+    },
+    {
+      "text": "has the preview and video\ncapture use cases on it.",
+      "start": 582.27,
+      "duration": 3.6
+    },
+    {
+      "text": "So you can see my\nsegmented selfie",
+      "start": 585.87,
+      "duration": 1.92
+    },
+    {
+      "text": "being drawn on the preview\nand the output video.",
+      "start": 587.79,
+      "duration": 3.27
+    },
+    {
+      "text": "With only my selfie\nbeing drawn, it",
+      "start": 591.06,
+      "duration": 2.28
+    },
+    {
+      "text": "frees up a lot more of the\nmain content to be visible.",
+      "start": 593.34,
+      "duration": 3.22
+    },
+    {
+      "text": "And what a great view.",
+      "start": 596.56,
+      "duration": 2.96
+    },
+    {
+      "text": "When implementing your\nown effects in your app.",
+      "start": 599.52,
+      "duration": 2.43
+    },
+    {
+      "text": "Just remember that everything\nthat applies to the camera",
+      "start": 601.95,
+      "duration": 2.93
+    },
+    {
+      "text": "has to happen in real time.",
+      "start": 604.88,
+      "duration": 2.34
+    },
+    {
+      "text": "A general rule of\nthumb is that you",
+      "start": 607.22,
+      "duration": 1.74
+    },
+    {
+      "text": "have 30 milliseconds between\nframes if your video is running",
+      "start": 608.96,
+      "duration": 3.72
+    },
+    {
+      "text": "at 30 frames per second.",
+      "start": 612.68,
+      "duration": 2.01
+    },
+    {
+      "text": "For higher frame rates, you\nwould have even less time.",
+      "start": 614.69,
+      "duration": 2.98
+    },
+    {
+      "text": "But there's good news,\nbecause next, you'll",
+      "start": 617.67,
+      "duration": 2.3
+    },
+    {
+      "text": "see how to apply effects\nto already existing videos",
+      "start": 619.97,
+      "duration": 3.51
+    },
+    {
+      "text": "where there are no\nreal-time constraints.",
+      "start": 623.48,
+      "duration": 2.73
+    },
+    {
+      "text": "Over to you, Kristina.",
+      "start": 626.21,
+      "duration": 3.12
+    },
+    {
+      "text": "KRISTINA SIMAKOVA: It sounds\nlike it's Media3 editing",
+      "start": 629.33,
+      "duration": 2.38
+    },
+    {
+      "text": "turn in the spotlight.",
+      "start": 631.71,
+      "duration": 1.79
+    },
+    {
+      "text": "Now, what happens after\nthe recording stops?",
+      "start": 633.5,
+      "duration": 3.28
+    },
+    {
+      "text": "How do we take that\nfootage and transform it",
+      "start": 636.78,
+      "duration": 2.57
+    },
+    {
+      "text": "into something extra compelling?",
+      "start": 639.35,
+      "duration": 2.2
+    },
+    {
+      "text": "That's where Media3 editing\ncapabilities come into play.",
+      "start": 641.55,
+      "duration": 4.46
+    },
+    {
+      "text": "Media3 provides a set\nof APIs that allow",
+      "start": 646.01,
+      "duration": 3.18
+    },
+    {
+      "text": "you to edit media content.",
+      "start": 649.19,
+      "duration": 2.43
+    },
+    {
+      "text": "These APIs can help developers\nwith a range of capabilities.",
+      "start": 651.62,
+      "duration": 4.84
+    },
+    {
+      "text": "Effects is where the\ncreative magic happens.",
+      "start": 656.46,
+      "duration": 3.24
+    },
+    {
+      "text": "Media3 provides a powerful\nand highly customizable",
+      "start": 659.7,
+      "duration": 3.53
+    },
+    {
+      "text": "APIs to create effects that\nyou can apply to your video.",
+      "start": 663.23,
+      "duration": 4.41
+    },
+    {
+      "text": "Preview is where you can\nsee your edits in real time.",
+      "start": 667.64,
+      "duration": 4.26
+    },
+    {
+      "text": "And once you are\nsatisfied with your edits,",
+      "start": 671.9,
+      "duration": 2.5
+    },
+    {
+      "text": "the export function allows\nyou to render the final video.",
+      "start": 674.4,
+      "duration": 3.98
+    },
+    {
+      "text": "We will not be covering\nthe export APIs",
+      "start": 678.38,
+      "duration": 2.4
+    },
+    {
+      "text": "in this presentation.",
+      "start": 680.78,
+      "duration": 1.3
+    },
+    {
+      "text": "Please check Media3 developer\nguide for more details.",
+      "start": 682.08,
+      "duration": 4.25
+    },
+    {
+      "text": "Now let's focus on the heart of\nvideo creation, Media3 effects.",
+      "start": 686.33,
+      "duration": 5.61
+    },
+    {
+      "text": "Media3 offers two approaches\nto applying effects.",
+      "start": 691.94,
+      "duration": 3.97
+    },
+    {
+      "text": "Built-in effects are designed\nfor efficiency and ease of use.",
+      "start": 695.91,
+      "duration": 4.11
+    },
+    {
+      "text": "They handle common\nvideo processing tasks,",
+      "start": 700.02,
+      "duration": 2.66
+    },
+    {
+      "text": "like scaling, rotation,\nand lookup tables.",
+      "start": 702.68,
+      "duration": 4.65
+    },
+    {
+      "text": "Custom effects are more\nadvanced and specialized.",
+      "start": 707.33,
+      "duration": 3.16
+    },
+    {
+      "text": "This approach provides\nincredible flexibility",
+      "start": 710.49,
+      "duration": 2.96
+    },
+    {
+      "text": "and control.",
+      "start": 713.45,
+      "duration": 1.09
+    },
+    {
+      "text": "But does require\nOpenGL knowledge.",
+      "start": 714.54,
+      "duration": 2.63
+    },
+    {
+      "text": "Now let's begin with\nbuilt-in effects.",
+      "start": 717.17,
+      "duration": 3.85
+    },
+    {
+      "text": "These are the essential tools\nof Media3 editing capabilities.",
+      "start": 721.02,
+      "duration": 4.98
+    },
+    {
+      "text": "Let's see a practical example\nof applying a built in effect.",
+      "start": 726.0,
+      "duration": 3.88
+    },
+    {
+      "text": "On the left, you can see a video\nclip with an RGB adjustment",
+      "start": 729.88,
+      "duration": 3.89
+    },
+    {
+      "text": "effect applied.",
+      "start": 733.77,
+      "duration": 1.68
+    },
+    {
+      "text": "And here on the\nright, you can see",
+      "start": 735.45,
+      "duration": 1.86
+    },
+    {
+      "text": "the code snippet that achieves\nthis effect using Media3.",
+      "start": 737.31,
+      "duration": 4.59
+    },
+    {
+      "text": "We start by creating an edited\nmedia item from our video URI.",
+      "start": 741.9,
+      "duration": 4.75
+    },
+    {
+      "text": "Then we use the\nsetEffects method,",
+      "start": 746.65,
+      "duration": 2.72
+    },
+    {
+      "text": "passing in an effects object.",
+      "start": 749.37,
+      "duration": 2.58
+    },
+    {
+      "text": "Within this object,\nwe specify that we",
+      "start": 751.95,
+      "duration": 2.58
+    },
+    {
+      "text": "want to apply an RGB\nadjustment effect.",
+      "start": 754.53,
+      "duration": 3.15
+    },
+    {
+      "text": "This simple code is\nall it takes to enhance",
+      "start": 757.68,
+      "duration": 3.3
+    },
+    {
+      "text": "the visual appeal of our\nvideo using built-in effects.",
+      "start": 760.98,
+      "duration": 4.65
+    },
+    {
+      "text": "For a full list of\nbuilt-in effects,",
+      "start": 765.63,
+      "duration": 2.2
+    },
+    {
+      "text": "follow the short link\npresented on the screen.",
+      "start": 767.83,
+      "duration": 4.1
+    },
+    {
+      "text": "Now let's move on\nto custom effects.",
+      "start": 771.93,
+      "duration": 3.31
+    },
+    {
+      "text": "With custom effects, you can\nunlock the full potential",
+      "start": 775.24,
+      "duration": 3.32
+    },
+    {
+      "text": "of media tree,\nallowing for truly",
+      "start": 778.56,
+      "duration": 2.22
+    },
+    {
+      "text": "unique and specialized\nvideo manipulations.",
+      "start": 780.78,
+      "duration": 3.82
+    },
+    {
+      "text": "When working with custom\neffects in Media3,",
+      "start": 784.6,
+      "duration": 2.41
+    },
+    {
+      "text": "you will primarily interact with\nGL effect and GL shader program.",
+      "start": 787.01,
+      "duration": 4.52
+    },
+    {
+      "text": "As you can see from the\ninterface definition",
+      "start": 791.53,
+      "duration": 3.15
+    },
+    {
+      "text": "from Media3's source code,\nGL effect acts as a factory.",
+      "start": 794.68,
+      "duration": 5.04
+    },
+    {
+      "text": "The drawFrame method is the\ncore of your custom effect's",
+      "start": 799.72,
+      "duration": 3.36
+    },
+    {
+      "text": "rendering logic.",
+      "start": 803.08,
+      "duration": 1.54
+    },
+    {
+      "text": "It's invoked for each video\nframe receiving the OpenGL",
+      "start": 804.62,
+      "duration": 3.62
+    },
+    {
+      "text": "texture containing the output\nfrom the previous effects stage",
+      "start": 808.24,
+      "duration": 3.81
+    },
+    {
+      "text": "and the presentation time.",
+      "start": 812.05,
+      "duration": 2.4
+    },
+    {
+      "text": "Crucially, base\nGL shader program",
+      "start": 814.45,
+      "duration": 2.22
+    },
+    {
+      "text": "handles texture and\nframe buffer management,",
+      "start": 816.67,
+      "duration": 3.01
+    },
+    {
+      "text": "allowing you to focus\nsolely on the rendering",
+      "start": 819.68,
+      "duration": 2.93
+    },
+    {
+      "text": "logic within drawFrame.",
+      "start": 822.61,
+      "duration": 3.3
+    },
+    {
+      "text": "Let's illustrate how\nto apply a custom",
+      "start": 825.91,
+      "duration": 2.4
+    },
+    {
+      "text": "effect with a practical\nexample, a vignette.",
+      "start": 828.31,
+      "duration": 3.93
+    },
+    {
+      "text": "On the left, you\ncan see a video clip",
+      "start": 832.24,
+      "duration": 2.61
+    },
+    {
+      "text": "with this effect applied,\ncreating a darkened border",
+      "start": 834.85,
+      "duration": 3.36
+    },
+    {
+      "text": "around the edges.",
+      "start": 838.21,
+      "duration": 2.1
+    },
+    {
+      "text": "And here on the right,\nwe define a GL effect",
+      "start": 840.31,
+      "duration": 3.56
+    },
+    {
+      "text": "using a lambda expression.",
+      "start": 843.87,
+      "duration": 1.96
+    },
+    {
+      "text": "This lambda returns an\ninstance of our custom shader",
+      "start": 845.83,
+      "duration": 3.17
+    },
+    {
+      "text": "program, which we have\ncreated to apply the vignette.",
+      "start": 849.0,
+      "duration": 4.83
+    },
+    {
+      "text": "This demonstrates\nhow GL effect allows",
+      "start": 853.83,
+      "duration": 2.88
+    },
+    {
+      "text": "you to encapsulate your\ncustom OpenGL shader",
+      "start": 856.71,
+      "duration": 2.94
+    },
+    {
+      "text": "programs, making them easy to\napply within your Media3 editing",
+      "start": 859.65,
+      "duration": 4.23
+    },
+    {
+      "text": "pipeline.",
+      "start": 863.88,
+      "duration": 1.53
+    },
+    {
+      "text": "Now, for a more advanced and\nvisually striking example,",
+      "start": 865.41,
+      "duration": 3.97
+    },
+    {
+      "text": "let's explore style transfer.",
+      "start": 869.38,
+      "duration": 3.17
+    },
+    {
+      "text": "To create a style\ntransfer effect,",
+      "start": 872.55,
+      "duration": 1.9
+    },
+    {
+      "text": "we are leveraging the power of\nLiteRT, Google's runtime library",
+      "start": 874.45,
+      "duration": 4.52
+    },
+    {
+      "text": "for running machine-learning\nmodels on device.",
+      "start": 878.97,
+      "duration": 3.72
+    },
+    {
+      "text": "On the right, you can\nsee the artistic style",
+      "start": 882.69,
+      "duration": 2.49
+    },
+    {
+      "text": "we want to apply to our\nframes and the result--",
+      "start": 885.18,
+      "duration": 3.22
+    },
+    {
+      "text": "a video clip with a\nstyle transfer effect",
+      "start": 888.4,
+      "duration": 2.18
+    },
+    {
+      "text": "applied to the left\npart of the video,",
+      "start": 890.58,
+      "duration": 2.77
+    },
+    {
+      "text": "transforming its\nvisual appearance.",
+      "start": 893.35,
+      "duration": 3.17
+    },
+    {
+      "text": "By combining Media3 video\nprocessing capabilities",
+      "start": 896.52,
+      "duration": 3.66
+    },
+    {
+      "text": "with LiteRT's\nmachine-learning power,",
+      "start": 900.18,
+      "duration": 2.81
+    },
+    {
+      "text": "we can achieve complex\nand visually stunning",
+      "start": 902.99,
+      "duration": 2.9
+    },
+    {
+      "text": "effects like this.",
+      "start": 905.89,
+      "duration": 2.16
+    },
+    {
+      "text": "Now let's look at the\nspecific pixel processing",
+      "start": 908.05,
+      "duration": 3.96
+    },
+    {
+      "text": "for our style transfer effect.",
+      "start": 912.01,
+      "duration": 2.76
+    },
+    {
+      "text": "We have created\nStyleTransferEffect class",
+      "start": 914.77,
+      "duration": 3.03
+    },
+    {
+      "text": "that implements bytebuffer\nGL effect processor.",
+      "start": 917.8,
+      "duration": 4.74
+    },
+    {
+      "text": "To ensure smooth and\nefficient video processing,",
+      "start": 922.54,
+      "duration": 3.04
+    },
+    {
+      "text": "we perform the style transfer\noperations asynchronously.",
+      "start": 925.58,
+      "duration": 3.95
+    },
+    {
+      "text": "This is handled by\nprocess image method",
+      "start": 929.53,
+      "duration": 2.97
+    },
+    {
+      "text": "within our\nStyleTransferEffect class.",
+      "start": 932.5,
+      "duration": 3.66
+    },
+    {
+      "text": "As you can see, process\nimage takes an image object",
+      "start": 936.16,
+      "duration": 3.63
+    },
+    {
+      "text": "and presentation time as input.",
+      "start": 939.79,
+      "duration": 2.53
+    },
+    {
+      "text": "It returns a\nListenableFuture, indicating",
+      "start": 942.32,
+      "duration": 2.81
+    },
+    {
+      "text": "that the processing will\noccur asynchronously",
+      "start": 945.13,
+      "duration": 2.58
+    },
+    {
+      "text": "and will eventually produce a\nbitmap representing the style",
+      "start": 947.71,
+      "duration": 3.51
+    },
+    {
+      "text": "frame.",
+      "start": 951.22,
+      "duration": 1.95
+    },
+    {
+      "text": "After the asynchronous style\ntransfer processing is complete",
+      "start": 953.17,
+      "duration": 3.57
+    },
+    {
+      "text": "and the effects pipeline is\nready to render the frame,",
+      "start": 956.74,
+      "duration": 3.76
+    },
+    {
+      "text": "the finished processing\nand blend method is called.",
+      "start": 960.5,
+      "duration": 4.83
+    },
+    {
+      "text": "And with that, we have explored\nthe power of Media3 custom",
+      "start": 965.33,
+      "duration": 4.44
+    },
+    {
+      "text": "effects and how we can combine\nit with tools like LiteRT",
+      "start": 969.77,
+      "duration": 3.69
+    },
+    {
+      "text": "to create powerful\nvideo effects.",
+      "start": 973.46,
+      "duration": 3.78
+    },
+    {
+      "text": "Now let's talk about the vital\nstep of previewing our edits.",
+      "start": 977.24,
+      "duration": 4.21
+    },
+    {
+      "text": "To simplify this process, Media3\nintroduces the CompositionPlayer",
+      "start": 981.45,
+      "duration": 4.28
+    },
+    {
+      "text": "API.",
+      "start": 985.73,
+      "duration": 1.03
+    },
+    {
+      "text": "CompositionPlayer is designed\nto streamline the implementation",
+      "start": 986.76,
+      "duration": 3.41
+    },
+    {
+      "text": "of previewing media edits.",
+      "start": 990.17,
+      "duration": 1.96
+    },
+    {
+      "text": "It allows your app to play a\ncomposition of media assets,",
+      "start": 992.13,
+      "duration": 4.23
+    },
+    {
+      "text": "effectively rendering all\napplied audio and video effects",
+      "start": 996.36,
+      "duration": 3.47
+    },
+    {
+      "text": "in real time.",
+      "start": 999.83,
+      "duration": 1.41
+    },
+    {
+      "text": "This means you can see\nexactly how your edits will",
+      "start": 1001.24,
+      "duration": 2.94
+    },
+    {
+      "text": "look before exporting\nthe final video.",
+      "start": 1004.18,
+      "duration": 3.21
+    },
+    {
+      "text": "It's important to note that\nCompositionPlayer is currently",
+      "start": 1007.39,
+      "duration": 2.97
+    },
+    {
+      "text": "in early preview and represents\nthe first introduction",
+      "start": 1010.36,
+      "duration": 3.72
+    },
+    {
+      "text": "of this API.",
+      "start": 1014.08,
+      "duration": 2.28
+    },
+    {
+      "text": "We are actively working\non its development,",
+      "start": 1016.36,
+      "duration": 3.19
+    },
+    {
+      "text": "so expect further\nenhancements and refinements",
+      "start": 1019.55,
+      "duration": 2.83
+    },
+    {
+      "text": "in future releases.",
+      "start": 1022.38,
+      "duration": 2.79
+    },
+    {
+      "text": "CompositionPlayer\noffers real-time preview",
+      "start": 1025.17,
+      "duration": 2.58
+    },
+    {
+      "text": "of complex media\nedits, allowing users",
+      "start": 1027.75,
+      "duration": 2.819
+    },
+    {
+      "text": "to fine-tune their work\nbefore finalizing it.",
+      "start": 1030.569,
+      "duration": 3.661
+    },
+    {
+      "text": "It is built upon the familiar\nMedia3 player interface,",
+      "start": 1034.23,
+      "duration": 4.27
+    },
+    {
+      "text": "and you can use the\nsame composition",
+      "start": 1038.5,
+      "duration": 2.089
+    },
+    {
+      "text": "for preview and export.",
+      "start": 1040.589,
+      "duration": 2.101
+    },
+    {
+      "text": "This API streamlines\nthe editing process,",
+      "start": 1042.69,
+      "duration": 3.129
+    },
+    {
+      "text": "allowing users to iterate\nquickly and confidently, knowing",
+      "start": 1045.819,
+      "duration": 4.131
+    },
+    {
+      "text": "that their preview\naccurately reflects",
+      "start": 1049.95,
+      "duration": 2.61
+    },
+    {
+      "text": "the final exported video.",
+      "start": 1052.56,
+      "duration": 3.18
+    },
+    {
+      "text": "Let's look at the code sample.",
+      "start": 1055.74,
+      "duration": 2.38
+    },
+    {
+      "text": "First, we create our\ncomposition object,",
+      "start": 1058.12,
+      "duration": 3.27
+    },
+    {
+      "text": "which encapsulates our edited\nmedia assets and effects.",
+      "start": 1061.39,
+      "duration": 4.46
+    },
+    {
+      "text": "Next, we instantiate\na composition player",
+      "start": 1065.85,
+      "duration": 2.67
+    },
+    {
+      "text": "using the builder pattern.",
+      "start": 1068.52,
+      "duration": 2.76
+    },
+    {
+      "text": "The crucial difference lies in\nhow we set the media source.",
+      "start": 1071.28,
+      "duration": 4.42
+    },
+    {
+      "text": "Instead of using set media\nitems or set playlist,",
+      "start": 1075.7,
+      "duration": 4.62
+    },
+    {
+      "text": "we use set composition to\nprovide our composition object",
+      "start": 1080.32,
+      "duration": 3.23
+    },
+    {
+      "text": "to the player.",
+      "start": 1083.55,
+      "duration": 1.83
+    },
+    {
+      "text": "Finally, we call prepare and\nplay to start the preview.",
+      "start": 1085.38,
+      "duration": 4.86
+    },
+    {
+      "text": "Now let's see composition player\nin action with a final preview.",
+      "start": 1090.24,
+      "duration": 5.49
+    },
+    {
+      "text": "On the right, you will see\na video clip demonstrating",
+      "start": 1095.73,
+      "duration": 3.72
+    },
+    {
+      "text": "the preview of a composition\nwith several effects applied.",
+      "start": 1099.45,
+      "duration": 4.11
+    },
+    {
+      "text": "CompositionPlayer allows us to\npreview all of these effects",
+      "start": 1103.56,
+      "duration": 4.32
+    },
+    {
+      "text": "seamlessly, ensuring that\nthe final output matches",
+      "start": 1107.88,
+      "duration": 3.21
+    },
+    {
+      "text": "our creative intent.",
+      "start": 1111.09,
+      "duration": 2.49
+    },
+    {
+      "text": "This is the culmination of\nthe editing process, where",
+      "start": 1113.58,
+      "duration": 3.63
+    },
+    {
+      "text": "we can fine-tune and confirm\nthat our composition is",
+      "start": 1117.21,
+      "duration": 3.57
+    },
+    {
+      "text": "ready for export\nusing transform APIs.",
+      "start": 1120.78,
+      "duration": 3.9
+    },
+    {
+      "text": "I am pretty happy with\nhow this video turned out.",
+      "start": 1124.68,
+      "duration": 3.04
+    },
+    {
+      "text": "Mayuri, can you help\nus with the next step?",
+      "start": 1127.72,
+      "duration": 3.81
+    },
+    {
+      "text": "MAYURI KHINVASARA\nKHABYA: Of course.",
+      "start": 1131.53,
+      "duration": 1.5
+    },
+    {
+      "text": "Hi there.",
+      "start": 1133.03,
+      "duration": 1.58
+    },
+    {
+      "text": "Donovan and Kristina\nshowed us how",
+      "start": 1134.61,
+      "duration": 2.79
+    },
+    {
+      "text": "to capture, edit, preview\nthe videos with effects.",
+      "start": 1137.4,
+      "duration": 4.15
+    },
+    {
+      "text": "Now you might want to share\nand watch it with others.",
+      "start": 1141.55,
+      "duration": 4.18
+    },
+    {
+      "text": "And that's where we can use the\nMedia3 ExoPlayer for playback.",
+      "start": 1145.73,
+      "duration": 4.58
+    },
+    {
+      "text": "For more than 10 years, the\nopensource ExoPlayer library,",
+      "start": 1150.31,
+      "duration": 3.34
+    },
+    {
+      "text": "now integrated as\na part of Media3,",
+      "start": 1153.65,
+      "duration": 2.73
+    },
+    {
+      "text": "has been a recommended solution\nfor everything Android playback.",
+      "start": 1156.38,
+      "duration": 5.33
+    },
+    {
+      "text": "ExoPlayer is designed for\nefficient real-time playback.",
+      "start": 1161.71,
+      "duration": 4.53
+    },
+    {
+      "text": "It's quick and easy\nto set up ExoPlayer",
+      "start": 1166.24,
+      "duration": 2.79
+    },
+    {
+      "text": "with only a few lines of code.",
+      "start": 1169.03,
+      "duration": 3.12
+    },
+    {
+      "text": "Generally, you'll need\nto provide a media",
+      "start": 1172.15,
+      "duration": 2.25
+    },
+    {
+      "text": "item or a list of media\nitems that references a media",
+      "start": 1174.4,
+      "duration": 3.45
+    },
+    {
+      "text": "source, like a URL, local file,\nor content URI, and prepare it",
+      "start": 1177.85,
+      "duration": 4.5
+    },
+    {
+      "text": "for playback.",
+      "start": 1182.35,
+      "duration": 2.04
+    },
+    {
+      "text": "Is there anything that stands\nout to you in this code snippet?",
+      "start": 1184.39,
+      "duration": 4.2
+    },
+    {
+      "text": "We're thrilled to\nannounce the new Compose",
+      "start": 1188.59,
+      "duration": 2.1
+    },
+    {
+      "text": "artifact for ExoPlayer--",
+      "start": 1190.69,
+      "duration": 2.07
+    },
+    {
+      "text": "introducing the PlayerSurface.",
+      "start": 1192.76,
+      "duration": 2.76
+    },
+    {
+      "text": "Check out our documentation\nfor more details.",
+      "start": 1195.52,
+      "duration": 3.66
+    },
+    {
+      "text": "Please note that this API is\ncurrently in early preview",
+      "start": 1199.18,
+      "duration": 3.43
+    },
+    {
+      "text": "and represents its\ninitial release.",
+      "start": 1202.61,
+      "duration": 3.12
+    },
+    {
+      "text": "We are actively developing it,\nso expect further enhancements",
+      "start": 1205.73,
+      "duration": 3.81
+    },
+    {
+      "text": "in future releases.",
+      "start": 1209.54,
+      "duration": 2.58
+    },
+    {
+      "text": "ExoPlayer capabilities\nextend even further.",
+      "start": 1212.12,
+      "duration": 3.57
+    },
+    {
+      "text": "We are very excited to\nshare that you can directly",
+      "start": 1215.69,
+      "duration": 3.24
+    },
+    {
+      "text": "set effects within\nExoPlayer itself.",
+      "start": 1218.93,
+      "duration": 2.64
+    },
+    {
+      "text": "It provides you with\na set video effects",
+      "start": 1221.57,
+      "duration": 2.43
+    },
+    {
+      "text": "API, a method for applying\nreal-time playback effects,",
+      "start": 1224.0,
+      "duration": 4.21
+    },
+    {
+      "text": "usually on the entire video.",
+      "start": 1228.21,
+      "duration": 2.87
+    },
+    {
+      "text": "How awesome is that?",
+      "start": 1231.08,
+      "duration": 2.55
+    },
+    {
+      "text": "You apply these effects\nto ExoPlayer instance",
+      "start": 1233.63,
+      "duration": 2.79
+    },
+    {
+      "text": "using the setVideoEffects\nAPI method,",
+      "start": 1236.42,
+      "duration": 3.04
+    },
+    {
+      "text": "passing a list of\neffect objects.",
+      "start": 1239.46,
+      "duration": 3.86
+    },
+    {
+      "text": "ExoPlayer takes the\ncurrently loaded media item",
+      "start": 1243.32,
+      "duration": 3.33
+    },
+    {
+      "text": "or the active media\nitem in a playlist,",
+      "start": 1246.65,
+      "duration": 3.03
+    },
+    {
+      "text": "decodes its audio\nand video streams,",
+      "start": 1249.68,
+      "duration": 2.5
+    },
+    {
+      "text": "and then applies the\nconfigured effects",
+      "start": 1252.18,
+      "duration": 2.24
+    },
+    {
+      "text": "during the rendering process.",
+      "start": 1254.42,
+      "duration": 3.96
+    },
+    {
+      "text": "The setVideoEffects\nAPI allows you",
+      "start": 1258.38,
+      "duration": 2.37
+    },
+    {
+      "text": "to set a list of\neffect objects that",
+      "start": 1260.75,
+      "duration": 2.8
+    },
+    {
+      "text": "will process all frames as they\nare output from the player.",
+      "start": 1263.55,
+      "duration": 4.89
+    },
+    {
+      "text": "For example, here, we\nset a single effect",
+      "start": 1268.44,
+      "duration": 3.12
+    },
+    {
+      "text": "that improves contrast to\nhelp with accessibility.",
+      "start": 1271.56,
+      "duration": 4.74
+    },
+    {
+      "text": "You can create\nthese effect objects",
+      "start": 1276.3,
+      "duration": 2.01
+    },
+    {
+      "text": "using the respective\nbuilder classes.",
+      "start": 1278.31,
+      "duration": 3.39
+    },
+    {
+      "text": "If you have a playlist\nof media items",
+      "start": 1281.7,
+      "duration": 2.52
+    },
+    {
+      "text": "and you set effects\non ExoPlayer,",
+      "start": 1284.22,
+      "duration": 2.53
+    },
+    {
+      "text": "those effects will\ngenerally continue",
+      "start": 1286.75,
+      "duration": 2.18
+    },
+    {
+      "text": "to apply to subsequent media\nitems in that playlist,",
+      "start": 1288.93,
+      "duration": 3.81
+    },
+    {
+      "text": "unless you explicitly change\nor clear the effects using",
+      "start": 1292.74,
+      "duration": 3.72
+    },
+    {
+      "text": "setVideoEffects API again.",
+      "start": 1296.46,
+      "duration": 3.9
+    },
+    {
+      "text": "Donovan and Kristina showed\nus a bunch of Media3 effects",
+      "start": 1300.36,
+      "duration": 3.18
+    },
+    {
+      "text": "throughout this talk so far,\nand you can try them out",
+      "start": 1303.54,
+      "duration": 3.12
+    },
+    {
+      "text": "by adding to the effects\nobjects in a list.",
+      "start": 1306.66,
+      "duration": 3.84
+    },
+    {
+      "text": "And of course, as well\nas applying effects",
+      "start": 1310.5,
+      "duration": 2.79
+    },
+    {
+      "text": "during playback, videos\nexported from CameraX",
+      "start": 1313.29,
+      "duration": 3.78
+    },
+    {
+      "text": "and transformers are\nplayable with ExoPlayer too.",
+      "start": 1317.07,
+      "duration": 3.14
+    },
+    {
+      "text": "So you've created, previewed,\nand edited your videos.",
+      "start": 1323.39,
+      "duration": 4.62
+    },
+    {
+      "text": "How do you view and share them?",
+      "start": 1328.01,
+      "duration": 3.45
+    },
+    {
+      "text": "You might wonder, why do we have\ntwo players to view, ExoPlayer",
+      "start": 1331.46,
+      "duration": 3.81
+    },
+    {
+      "text": "and CompositionPlayer?",
+      "start": 1335.27,
+      "duration": 2.28
+    },
+    {
+      "text": "Let's see when should\nyou use which one.",
+      "start": 1337.55,
+      "duration": 4.02
+    },
+    {
+      "text": "In CompositionPlayer, you\nneed to work on a composition,",
+      "start": 1341.57,
+      "duration": 3.55
+    },
+    {
+      "text": "whereas in ExoPlayer, you work\non a media item or a playlist.",
+      "start": 1345.12,
+      "duration": 4.16
+    },
+    {
+      "text": "In CompositionPlayer,\neffects are",
+      "start": 1349.28,
+      "duration": 1.95
+    },
+    {
+      "text": "set on each item or composition,\nwhereas in ExoPlayer, effects",
+      "start": 1351.23,
+      "duration": 4.74
+    },
+    {
+      "text": "are set onto the\nplayer, thus will",
+      "start": 1355.97,
+      "duration": 2.13
+    },
+    {
+      "text": "be applied on each media\nitem in the playlist",
+      "start": 1358.1,
+      "duration": 2.61
+    },
+    {
+      "text": "that you are playing.",
+      "start": 1360.71,
+      "duration": 1.23
+    },
+    {
+      "text": "Last one is the timeline--",
+      "start": 1361.94,
+      "duration": 3.09
+    },
+    {
+      "text": "in CompositionPlayer,\nthe progress",
+      "start": 1365.03,
+      "duration": 2.31
+    },
+    {
+      "text": "is calculated based on the\nduration of the set composition,",
+      "start": 1367.34,
+      "duration": 4.02
+    },
+    {
+      "text": "whereas in ExoPlayer,\nthe progress bar",
+      "start": 1371.36,
+      "duration": 2.94
+    },
+    {
+      "text": "is tied to the currently\nplaying media item.",
+      "start": 1374.3,
+      "duration": 4.29
+    },
+    {
+      "text": "Wow, that was a lot of\ninteresting and cool stuff.",
+      "start": 1378.59,
+      "duration": 4.09
+    },
+    {
+      "text": "The main key takeaway that we\nwould want you to take back",
+      "start": 1382.68,
+      "duration": 3.81
+    },
+    {
+      "text": "is that CameraX and Media3\nwork seamlessly together.",
+      "start": 1386.49,
+      "duration": 4.63
+    },
+    {
+      "text": "And we highly, highly\nrecommend using these",
+      "start": 1391.12,
+      "duration": 2.96
+    },
+    {
+      "text": "to Android developers.",
+      "start": 1394.08,
+      "duration": 2.52
+    },
+    {
+      "text": "For a quick recap, we can do\ncapture, analyze, preview,",
+      "start": 1396.6,
+      "duration": 3.76
+    },
+    {
+      "text": "editing playback with all of\nCameraX in Media3 effects,",
+      "start": 1400.36,
+      "duration": 3.69
+    },
+    {
+      "text": "all seamlessly with\none cohesive solution.",
+      "start": 1404.05,
+      "duration": 4.52
+    },
+    {
+      "text": "First, Donovan walked us through\nusing the Jetpack CameraX",
+      "start": 1408.57,
+      "duration": 3.51
+    },
+    {
+      "text": "Library to capture some\nfootage and apply effects",
+      "start": 1412.08,
+      "duration": 3.27
+    },
+    {
+      "text": "to the video in real time,\nsuch as the grayscale effect",
+      "start": 1415.35,
+      "duration": 4.17
+    },
+    {
+      "text": "or a green screen\neffect that uses",
+      "start": 1419.52,
+      "duration": 2.88
+    },
+    {
+      "text": "both the front-facing and\nthe back-facing cameras",
+      "start": 1422.4,
+      "duration": 3.18
+    },
+    {
+      "text": "of the device at the same time.",
+      "start": 1425.58,
+      "duration": 3.63
+    },
+    {
+      "text": "Next, Kristina showed us how to\nuse Jetpack Media3 transformers",
+      "start": 1429.21,
+      "duration": 4.53
+    },
+    {
+      "text": "to add some extra magic to the\nvideo with built-in effects,",
+      "start": 1433.74,
+      "duration": 3.63
+    },
+    {
+      "text": "like the RGB filter, custom\neffects like a vignette,",
+      "start": 1437.37,
+      "duration": 3.88
+    },
+    {
+      "text": "and even more advanced frame\nprocessing, like style transfer,",
+      "start": 1441.25,
+      "duration": 3.75
+    },
+    {
+      "text": "powered by LiteRT.",
+      "start": 1445.0,
+      "duration": 1.08
+    },
+    {
+      "text": "And lastly, after\npreviewing and exporting",
+      "start": 1448.84,
+      "duration": 3.06
+    },
+    {
+      "text": "our final edited\nvideo, we saw how",
+      "start": 1451.9,
+      "duration": 2.91
+    },
+    {
+      "text": "to use the Jetpack\nMedia3 ExoPlayer",
+      "start": 1454.81,
+      "duration": 2.34
+    },
+    {
+      "text": "to play the videos in\nour Compose first UI",
+      "start": 1457.15,
+      "duration": 3.03
+    },
+    {
+      "text": "and apply a final\nround of effects,",
+      "start": 1460.18,
+      "duration": 2.64
+    },
+    {
+      "text": "like adjusting the\ncontrast if desired.",
+      "start": 1462.82,
+      "duration": 3.93
+    },
+    {
+      "text": "And look at what we were able\nto create, capture, edit,",
+      "start": 1466.75,
+      "duration": 3.67
+    },
+    {
+      "text": "preview, playback, all in one.",
+      "start": 1470.42,
+      "duration": 2.58
+    },
+    {
+      "text": "They all come together\nto create a pretty cool",
+      "start": 1473.0,
+      "duration": 3.11
+    },
+    {
+      "text": "end-to-end journey, isn't it?",
+      "start": 1476.11,
+      "duration": 2.49
+    },
+    {
+      "text": "That's also the key\ntakeaway that we",
+      "start": 1478.6,
+      "duration": 2.07
+    },
+    {
+      "text": "want to give you for this talk.",
+      "start": 1480.67,
+      "duration": 2.31
+    },
+    {
+      "text": "CameraX and Media3 work\nseamlessly together",
+      "start": 1482.98,
+      "duration": 3.6
+    },
+    {
+      "text": "to help you build amazing\napps very easily on Android.",
+      "start": 1486.58,
+      "duration": 5.52
+    },
+    {
+      "text": "Delighted?",
+      "start": 1492.1,
+      "duration": 0.81
+    },
+    {
+      "text": "We are too.",
+      "start": 1492.91,
+      "duration": 1.23
+    },
+    {
+      "text": "How do you go on building\nthese experiences?",
+      "start": 1494.14,
+      "duration": 3.48
+    },
+    {
+      "text": "So here are our top\nthree recommendations",
+      "start": 1497.62,
+      "duration": 2.37
+    },
+    {
+      "text": "that you could go back and\ndo after you we sign off",
+      "start": 1499.99,
+      "duration": 2.44
+    },
+    {
+      "text": "from this talk.",
+      "start": 1502.43,
+      "duration": 2.25
+    },
+    {
+      "text": "First, check out\nour hero sample app,",
+      "start": 1504.68,
+      "duration": 2.56
+    },
+    {
+      "text": "socialite, on GitHub\nto see all the features",
+      "start": 1507.24,
+      "duration": 2.84
+    },
+    {
+      "text": "we talked about today and\nmany more in the context",
+      "start": 1510.08,
+      "duration": 3.27
+    },
+    {
+      "text": "of a social media app.",
+      "start": 1513.35,
+      "duration": 2.82
+    },
+    {
+      "text": "Second, visit the\nMedia3 GitHub repo",
+      "start": 1516.17,
+      "duration": 2.79
+    },
+    {
+      "text": "and explore both the composition\ndemo and the effects demo app",
+      "start": 1518.96,
+      "duration": 4.12
+    },
+    {
+      "text": "for more examples on how to\nuse the effects framework.",
+      "start": 1523.08,
+      "duration": 3.74
+    },
+    {
+      "text": "There are some pretty\ncool demos right there.",
+      "start": 1526.82,
+      "duration": 4.29
+    },
+    {
+      "text": "Last, check out our\nguides and documentations",
+      "start": 1531.11,
+      "duration": 3.06
+    },
+    {
+      "text": "in the Camera and\nMedia Developer Center",
+      "start": 1534.17,
+      "duration": 2.49
+    },
+    {
+      "text": "for more tips on how to\nsupercharge your Android apps.",
+      "start": 1536.66,
+      "duration": 4.23
+    },
+    {
+      "text": "We can't wait to see all\nthe cool and amazing effects",
+      "start": 1540.89,
+      "duration": 3.09
+    },
+    {
+      "text": "you build in your Android\napps to delight your users.",
+      "start": 1543.98,
+      "duration": 4.2
+    },
+    {
+      "text": "Thank you for tuning in.",
+      "start": 1548.18,
+      "duration": 1.74
+    },
+    {
+      "text": "Bye-bye.",
+      "start": 1549.92,
+      "duration": 0.51
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1550.43,
+      "duration": 3.35
+    }
+  ]
+}

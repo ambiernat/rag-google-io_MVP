@@ -1,0 +1,2027 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "I2SplqZ85dk",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.402
+    },
+    {
+      "text": "DAVID LI: Learn how to\npublish extensions faster.",
+      "start": 6.32,
+      "duration": 2.29
+    },
+    {
+      "text": "Discover how extensions are\ntransforming the enterprise.",
+      "start": 8.61,
+      "duration": 3.06
+    },
+    {
+      "text": "And get a sneak peek of what's\ncoming up next for Chrome Web",
+      "start": 11.67,
+      "duration": 2.69
+    },
+    {
+      "text": "Store.",
+      "start": 14.36,
+      "duration": 1.08
+    },
+    {
+      "text": "Welcome to \"Go faster and reach\nfurther with Chrome extensions.\"",
+      "start": 15.44,
+      "duration": 3.13
+    },
+    {
+      "text": "I'm David Li, Product Manager\nfor the Extensions platform.",
+      "start": 18.57,
+      "duration": 2.97
+    },
+    {
+      "text": "HAFSAH ISMAIL: Hi,\nI'm Hafsah Ismail,",
+      "start": 21.54,
+      "duration": 1.89
+    },
+    {
+      "text": "Product Manager for Extensions\nin the Chrome Web Store.",
+      "start": 23.43,
+      "duration": 3.215
+    },
+    {
+      "text": "DAVID LI: And we're here to talk\nabout all the things happening",
+      "start": 26.645,
+      "duration": 2.625
+    },
+    {
+      "text": "with Chrome extensions\nand the Chrome Web Store",
+      "start": 29.27,
+      "duration": 2.19
+    },
+    {
+      "text": "this year and beyond.",
+      "start": 31.46,
+      "duration": 1.74
+    },
+    {
+      "text": "To contextualize all the\nnew and exciting things",
+      "start": 33.2,
+      "duration": 2.34
+    },
+    {
+      "text": "we'll be sharing, it's helpful\nto imagine Chrome extensions",
+      "start": 35.54,
+      "duration": 2.76
+    },
+    {
+      "text": "as a train system.",
+      "start": 38.3,
+      "duration": 1.21
+    },
+    {
+      "text": "The underlying\nplatform is the train.",
+      "start": 39.51,
+      "duration": 2.16
+    },
+    {
+      "text": "And the Chrome Web\nStore is a network",
+      "start": 41.67,
+      "duration": 1.55
+    },
+    {
+      "text": "of tracks that takes your\nitems, your precious cargo,",
+      "start": 43.22,
+      "duration": 2.8
+    },
+    {
+      "text": "and distributes them to\nusers all over the world.",
+      "start": 46.02,
+      "duration": 2.85
+    },
+    {
+      "text": "In the last few years,\nwe've been heavily",
+      "start": 48.87,
+      "duration": 2.3
+    },
+    {
+      "text": "focusing on safety,\nprivacy, and performance",
+      "start": 51.17,
+      "duration": 2.7
+    },
+    {
+      "text": "to ensure that you can count\non the platform to serve",
+      "start": 53.87,
+      "duration": 2.64
+    },
+    {
+      "text": "the needs of your business.",
+      "start": 56.51,
+      "duration": 1.39
+    },
+    {
+      "text": "We've been reinforcing\nthe tracks, so to speak.",
+      "start": 57.9,
+      "duration": 2.51
+    },
+    {
+      "text": "Among other things, we've\nbeen making the system",
+      "start": 60.41,
+      "duration": 2.71
+    },
+    {
+      "text": "more dependable, more\ntrustworthy, and safer",
+      "start": 63.12,
+      "duration": 2.85
+    },
+    {
+      "text": "from external threats.",
+      "start": 65.97,
+      "duration": 1.39
+    },
+    {
+      "text": "This included improvements\nto extension review,",
+      "start": 67.36,
+      "duration": 2.7
+    },
+    {
+      "text": "ensuring that over\n95% of extension",
+      "start": 70.06,
+      "duration": 2.99
+    },
+    {
+      "text": "reviews complete within\nthree days, and the launch",
+      "start": 73.05,
+      "duration": 3.54
+    },
+    {
+      "text": "and migration of the ecosystem\nto Manifest V3, which",
+      "start": 76.59,
+      "duration": 3.03
+    },
+    {
+      "text": "added restrictions to\ncapabilities like remotely",
+      "start": 79.62,
+      "duration": 2.28
+    },
+    {
+      "text": "hosted code, making\nit easier for Chrome",
+      "start": 81.9,
+      "duration": 2.43
+    },
+    {
+      "text": "to ensure the safety and quality\nof extensions within our store.",
+      "start": 84.33,
+      "duration": 3.81
+    },
+    {
+      "text": "This year, we're upping the bar.",
+      "start": 88.14,
+      "duration": 1.78
+    },
+    {
+      "text": "It's not just enough\nto get your cargo",
+      "start": 89.92,
+      "duration": 1.73
+    },
+    {
+      "text": "to its intended destination.",
+      "start": 91.65,
+      "duration": 1.63
+    },
+    {
+      "text": "We're expanding\ndistribution channels",
+      "start": 93.28,
+      "duration": 1.67
+    },
+    {
+      "text": "and speeding up the train.",
+      "start": 94.95,
+      "duration": 2.34
+    },
+    {
+      "text": "Especially with technologies\nlike generative AI changing",
+      "start": 97.29,
+      "duration": 2.58
+    },
+    {
+      "text": "the landscape, it's all the\nmore important for developers",
+      "start": 99.87,
+      "duration": 3.06
+    },
+    {
+      "text": "to iterate quickly and\nto be able to do more",
+      "start": 102.93,
+      "duration": 2.88
+    },
+    {
+      "text": "with their extensions.",
+      "start": 105.81,
+      "duration": 1.27
+    },
+    {
+      "text": "That's why this\nyear our motto is,",
+      "start": 107.08,
+      "duration": 2.36
+    },
+    {
+      "text": "\"Go faster and reach further\nwith Chrome extensions.\"",
+      "start": 109.44,
+      "duration": 4.14
+    },
+    {
+      "text": "By \"go faster,\" we mean not only\nthe ability to publish faster",
+      "start": 113.58,
+      "duration": 3.91
+    },
+    {
+      "text": "but also the ability to\navoid unexpected roadblocks",
+      "start": 117.49,
+      "duration": 2.84
+    },
+    {
+      "text": "and delays.",
+      "start": 120.33,
+      "duration": 1.47
+    },
+    {
+      "text": "The first step was for us\nto first understand what",
+      "start": 121.8,
+      "duration": 3.34
+    },
+    {
+      "text": "was slowing developers down.",
+      "start": 125.14,
+      "duration": 1.84
+    },
+    {
+      "text": "So we reached out\nto the community",
+      "start": 126.98,
+      "duration": 1.73
+    },
+    {
+      "text": "and conducted a number\nof in-depth interviews.",
+      "start": 128.71,
+      "duration": 3.12
+    },
+    {
+      "text": "Here are some of the\nthings we learned.",
+      "start": 131.83,
+      "duration": 2.94
+    },
+    {
+      "text": "First, many devs\nand release managers",
+      "start": 134.77,
+      "duration": 2.34
+    },
+    {
+      "text": "shared that they\nfelt nervous when",
+      "start": 137.11,
+      "duration": 1.902
+    },
+    {
+      "text": "they were ready to click\nthe Submit for review button",
+      "start": 139.012,
+      "duration": 2.208
+    },
+    {
+      "text": "in the dashboard.",
+      "start": 141.22,
+      "duration": 1.06
+    },
+    {
+      "text": "It felt too high stakes.",
+      "start": 142.28,
+      "duration": 2.25
+    },
+    {
+      "text": "Many of you said that\nif you hit Submit",
+      "start": 144.53,
+      "duration": 3.02
+    },
+    {
+      "text": "and there's a typo or\nan issue with the item,",
+      "start": 147.55,
+      "duration": 2.47
+    },
+    {
+      "text": "you're kind of stuck\nwaiting for the item",
+      "start": 150.02,
+      "duration": 1.88
+    },
+    {
+      "text": "to finish review before you're\nable to change anything.",
+      "start": 151.9,
+      "duration": 3.09
+    },
+    {
+      "text": "Second, we're hearing from\nmore and more developers",
+      "start": 154.99,
+      "duration": 2.79
+    },
+    {
+      "text": "that their extension is\nlocked behind a sign-in.",
+      "start": 157.78,
+      "duration": 2.76
+    },
+    {
+      "text": "A lot of these extensions target\nbusiness users or communities",
+      "start": 160.54,
+      "duration": 3.87
+    },
+    {
+      "text": "where logging in is required\nbefore it makes sense",
+      "start": 164.41,
+      "duration": 3.18
+    },
+    {
+      "text": "to show any meaningful\nfunctionality to the user.",
+      "start": 167.59,
+      "duration": 3.15
+    },
+    {
+      "text": "These extensions have a\ndifficult time qualifying",
+      "start": 170.74,
+      "duration": 2.58
+    },
+    {
+      "text": "for the featured badge.",
+      "start": 173.32,
+      "duration": 1.09
+    },
+    {
+      "text": "And this was an especially\nnotable pain point,",
+      "start": 174.41,
+      "duration": 2.28
+    },
+    {
+      "text": "as the badge is a meaningful\nquality indicator for business",
+      "start": 176.69,
+      "duration": 3.17
+    },
+    {
+      "text": "customers that shape their\nfirst impressions of an item.",
+      "start": 179.86,
+      "duration": 3.12
+    },
+    {
+      "text": "And finally, we've\nheard that many of you",
+      "start": 182.98,
+      "duration": 2.2
+    },
+    {
+      "text": "use the Chrome Web Store APIs\nto automate the deployment",
+      "start": 185.18,
+      "duration": 3.51
+    },
+    {
+      "text": "of your extension updates.",
+      "start": 188.69,
+      "duration": 1.54
+    },
+    {
+      "text": "And the API is lacking\ncompared with the dashboard.",
+      "start": 190.23,
+      "duration": 3.26
+    },
+    {
+      "text": "You have this really smooth\nflow going with your deployment.",
+      "start": 193.49,
+      "duration": 3.25
+    },
+    {
+      "text": "You're using, say,\npartial rollouts",
+      "start": 196.74,
+      "duration": 1.97
+    },
+    {
+      "text": "to deploy your extension\nto 10% of your users.",
+      "start": 198.71,
+      "duration": 2.65
+    },
+    {
+      "text": "And then, oops, you realize\nyou can't programmatically",
+      "start": 201.36,
+      "duration": 2.69
+    },
+    {
+      "text": "increment that percentage\nthrough the API.",
+      "start": 204.05,
+      "duration": 2.74
+    },
+    {
+      "text": "So it breaks your flow.",
+      "start": 206.79,
+      "duration": 1.89
+    },
+    {
+      "text": "And someone on the team has to\nmanually go into the dashboard",
+      "start": 208.68,
+      "duration": 2.93
+    },
+    {
+      "text": "to update this number.",
+      "start": 211.61,
+      "duration": 1.74
+    },
+    {
+      "text": "There are clear patterns here.",
+      "start": 213.35,
+      "duration": 2.02
+    },
+    {
+      "text": "So that's why the\nfirst part \"go faster\"",
+      "start": 215.37,
+      "duration": 2.66
+    },
+    {
+      "text": "is investing in ways to\nhelp you publish faster.",
+      "start": 218.03,
+      "duration": 4.08
+    },
+    {
+      "text": "To address the first\npain point of the Submit",
+      "start": 222.11,
+      "duration": 2.28
+    },
+    {
+      "text": "for review button\nfeeling too high stakes,",
+      "start": 224.39,
+      "duration": 2.56
+    },
+    {
+      "text": "we launched, in\nMarch of this year,",
+      "start": 226.95,
+      "duration": 1.88
+    },
+    {
+      "text": "the ability to cancel the\nsubmission for an item that",
+      "start": 228.83,
+      "duration": 2.82
+    },
+    {
+      "text": "is currently pending review.",
+      "start": 231.65,
+      "duration": 1.74
+    },
+    {
+      "text": "So it's OK if you make a\nmistake or notice a typo.",
+      "start": 233.39,
+      "duration": 3.46
+    },
+    {
+      "text": "You can take the\nsubmission back.",
+      "start": 236.85,
+      "duration": 1.47
+    },
+    {
+      "text": "Tell us, hey, never mind, I\ndidn't mean to publish this.",
+      "start": 238.32,
+      "duration": 2.93
+    },
+    {
+      "text": "And fix whatever issue you\nnotice before submitting again.",
+      "start": 241.25,
+      "duration": 3.55
+    },
+    {
+      "text": "This is intended to make\nitem update submissions feel",
+      "start": 244.8,
+      "duration": 3.3
+    },
+    {
+      "text": "lower risk.",
+      "start": 248.1,
+      "duration": 1.0
+    },
+    {
+      "text": "And since we've launched the\nfeature, it's been very popular.",
+      "start": 249.1,
+      "duration": 3.36
+    },
+    {
+      "text": "We didn't make a huge\nsplash when it launched.",
+      "start": 252.46,
+      "duration": 2.22
+    },
+    {
+      "text": "And even still, in the\nmonth of its launch,",
+      "start": 254.68,
+      "duration": 1.89
+    },
+    {
+      "text": "it was used on average\nabout 150 times a day.",
+      "start": 256.57,
+      "duration": 3.269
+    },
+    {
+      "text": "And that number has\ncontinued to rise since then.",
+      "start": 259.839,
+      "duration": 4.071
+    },
+    {
+      "text": "More recently this year, we\nalso launched the ability",
+      "start": 263.91,
+      "duration": 2.79
+    },
+    {
+      "text": "to provide test instructions\nin the dashboard for reviewers",
+      "start": 266.7,
+      "duration": 3.15
+    },
+    {
+      "text": "to use when evaluating\nyour extension for granting",
+      "start": 269.85,
+      "duration": 2.49
+    },
+    {
+      "text": "the Featured badge.",
+      "start": 272.34,
+      "duration": 1.92
+    },
+    {
+      "text": "This is one of the\nchanges we've made",
+      "start": 274.26,
+      "duration": 2.19
+    },
+    {
+      "text": "in light of recent\ntrends in extension usage",
+      "start": 276.45,
+      "duration": 2.088
+    },
+    {
+      "text": "in the enterprise, which\nwe'll cover a little bit later",
+      "start": 278.538,
+      "duration": 2.292
+    },
+    {
+      "text": "in this talk.",
+      "start": 280.83,
+      "duration": 1.17
+    },
+    {
+      "text": "As mentioned before, we're\nseeing more extensions",
+      "start": 282.0,
+      "duration": 2.46
+    },
+    {
+      "text": "in our catalog now restrict\nthe core functionality",
+      "start": 284.46,
+      "duration": 2.94
+    },
+    {
+      "text": "of their extension\nbehind a sign-in prompt,",
+      "start": 287.4,
+      "duration": 2.23
+    },
+    {
+      "text": "typically because\nthe extension itself",
+      "start": 289.63,
+      "duration": 1.82
+    },
+    {
+      "text": "is a companion experience\nto an existing service",
+      "start": 291.45,
+      "duration": 2.46
+    },
+    {
+      "text": "or app that requires the user to\ncreate a username and password.",
+      "start": 293.91,
+      "duration": 4.02
+    },
+    {
+      "text": "These extensions aren't able to\neasily qualify for the Featured",
+      "start": 297.93,
+      "duration": 3.57
+    },
+    {
+      "text": "badge, because much of the\nquality criteria we look at",
+      "start": 301.5,
+      "duration": 2.73
+    },
+    {
+      "text": "requires that we\nuse the extension.",
+      "start": 304.23,
+      "duration": 1.81
+    },
+    {
+      "text": "And we can't meaningfully\nuse it if all we see",
+      "start": 306.04,
+      "duration": 2.76
+    },
+    {
+      "text": "is the login dialog.",
+      "start": 308.8,
+      "duration": 1.45
+    },
+    {
+      "text": "Now developers can give us\ninstructions for a test account",
+      "start": 310.25,
+      "duration": 3.5
+    },
+    {
+      "text": "when they're submitting\nthe extension so",
+      "start": 313.75,
+      "duration": 1.74
+    },
+    {
+      "text": "that the item can be considered\nfor the Featured badge.",
+      "start": 315.49,
+      "duration": 3.3
+    },
+    {
+      "text": "And finally-- and this\nchange isn't out yet--",
+      "start": 318.79,
+      "duration": 2.2
+    },
+    {
+      "text": "we're revamping the Chrome Web\nStore API for publishing items",
+      "start": 320.99,
+      "duration": 3.2
+    },
+    {
+      "text": "to the store.",
+      "start": 324.19,
+      "duration": 0.97
+    },
+    {
+      "text": "We've heard from so many\nbusinesses who deploy extensions",
+      "start": 325.16,
+      "duration": 3.08
+    },
+    {
+      "text": "using the API that they\nfeel it's not keeping up",
+      "start": 328.24,
+      "duration": 2.7
+    },
+    {
+      "text": "with the dashboard.",
+      "start": 330.94,
+      "duration": 1.06
+    },
+    {
+      "text": "And we agree.",
+      "start": 332.0,
+      "duration": 1.17
+    },
+    {
+      "text": "Our most immediate changes\nwill add capabilities",
+      "start": 333.17,
+      "duration": 2.88
+    },
+    {
+      "text": "like allowing you to increment\nthe rollout percentage",
+      "start": 336.05,
+      "duration": 2.54
+    },
+    {
+      "text": "for your extension or\nindicate that you'd",
+      "start": 338.59,
+      "duration": 2.31
+    },
+    {
+      "text": "like to defer the publish\nof your item update",
+      "start": 340.9,
+      "duration": 2.25
+    },
+    {
+      "text": "once it's completed review.",
+      "start": 343.15,
+      "duration": 1.71
+    },
+    {
+      "text": "And this is just the first step.",
+      "start": 344.86,
+      "duration": 2.62
+    },
+    {
+      "text": "The goal is to have a more\npowerful and flexible CWS",
+      "start": 347.48,
+      "duration": 3.8
+    },
+    {
+      "text": "API that will continue to\ngrow and evolve to keep up",
+      "start": 351.28,
+      "duration": 2.85
+    },
+    {
+      "text": "with everyone's needs.",
+      "start": 354.13,
+      "duration": 1.62
+    },
+    {
+      "text": "Of course, as many\nwho work in a big team",
+      "start": 355.75,
+      "duration": 2.46
+    },
+    {
+      "text": "might already know,\ngoing faster doesn't just",
+      "start": 358.21,
+      "duration": 2.79
+    },
+    {
+      "text": "mean pushing code out faster.",
+      "start": 361.0,
+      "duration": 1.92
+    },
+    {
+      "text": "It also means facilitating\neasier collaboration",
+      "start": 362.92,
+      "duration": 2.95
+    },
+    {
+      "text": "between team members.",
+      "start": 365.87,
+      "duration": 2.19
+    },
+    {
+      "text": "In Chrome, we're constantly\ntalking to and listening",
+      "start": 368.06,
+      "duration": 2.52
+    },
+    {
+      "text": "to our developer community.",
+      "start": 370.58,
+      "duration": 1.51
+    },
+    {
+      "text": "And over the years,\nwe've been really",
+      "start": 372.09,
+      "duration": 2.0
+    },
+    {
+      "text": "excited to see the teams behind\nvarious extensions become",
+      "start": 374.09,
+      "duration": 3.09
+    },
+    {
+      "text": "larger and increasingly\ncross-functional.",
+      "start": 377.18,
+      "duration": 2.23
+    },
+    {
+      "text": "Now, it's not a\nsurprise that extensions",
+      "start": 379.41,
+      "duration": 2.18
+    },
+    {
+      "text": "are made by teams of people.",
+      "start": 381.59,
+      "duration": 1.477
+    },
+    {
+      "text": "That's why we have\nthe group publisher",
+      "start": 383.067,
+      "duration": 1.583
+    },
+    {
+      "text": "feature that we introduced a\nlong time ago that lets people",
+      "start": 384.65,
+      "duration": 3.12
+    },
+    {
+      "text": "collaborate on the same items.",
+      "start": 387.77,
+      "duration": 3.0
+    },
+    {
+      "text": "But what was really curious was\nthat many of the same teams who",
+      "start": 390.77,
+      "duration": 3.93
+    },
+    {
+      "text": "are growing larger\nwere actually not",
+      "start": 394.7,
+      "duration": 2.31
+    },
+    {
+      "text": "adding their teammates\ninto the dashboard,",
+      "start": 397.01,
+      "duration": 2.17
+    },
+    {
+      "text": "into the group publisher,\neven though those teammates,",
+      "start": 399.18,
+      "duration": 3.63
+    },
+    {
+      "text": "for example, in marketing\nor customer support,",
+      "start": 402.81,
+      "duration": 2.37
+    },
+    {
+      "text": "would benefit from\nseeing dashboard data.",
+      "start": 405.18,
+      "duration": 2.28
+    },
+    {
+      "text": "They'd probably even benefit\nfrom being able to make changes",
+      "start": 407.46,
+      "duration": 2.69
+    },
+    {
+      "text": "to the store listing.",
+      "start": 410.15,
+      "duration": 1.32
+    },
+    {
+      "text": "And when we dug\ninto the issue, we",
+      "start": 411.47,
+      "duration": 1.65
+    },
+    {
+      "text": "learned it was because of, one,\nsecurity and, two, coordination",
+      "start": 413.12,
+      "duration": 4.38
+    },
+    {
+      "text": "overhead.",
+      "start": 417.5,
+      "duration": 0.94
+    },
+    {
+      "text": "In terms of security,\nthe larger the team gets,",
+      "start": 418.44,
+      "duration": 3.12
+    },
+    {
+      "text": "the greater the risk that a\nphishing attempt, for example,",
+      "start": 421.56,
+      "duration": 3.21
+    },
+    {
+      "text": "would cause the extension to be\ncompromised or that teams would",
+      "start": 424.77,
+      "duration": 3.1
+    },
+    {
+      "text": "lose track of who was supposed\nto have access and who wasn't.",
+      "start": 427.87,
+      "duration": 3.6
+    },
+    {
+      "text": "And for coordination\noverhead, the bigger the team,",
+      "start": 431.47,
+      "duration": 3.58
+    },
+    {
+      "text": "the more difficult it was to\ncoordinate extension releases.",
+      "start": 435.05,
+      "duration": 4.16
+    },
+    {
+      "text": "Two eng teams might\nwant to release changes",
+      "start": 439.21,
+      "duration": 2.13
+    },
+    {
+      "text": "at the same time.",
+      "start": 441.34,
+      "duration": 1.36
+    },
+    {
+      "text": "Or maybe a marketing team\nwants to update the screenshots",
+      "start": 442.7,
+      "duration": 3.23
+    },
+    {
+      "text": "on the listing page\nat the same time",
+      "start": 445.93,
+      "duration": 2.32
+    },
+    {
+      "text": "as an eng team wants\nto deploy a bug fix.",
+      "start": 448.25,
+      "duration": 3.11
+    },
+    {
+      "text": "To avoid this, we\nsaw a lot of teams",
+      "start": 451.36,
+      "duration": 2.46
+    },
+    {
+      "text": "designate a small group\nof release managers",
+      "start": 453.82,
+      "duration": 2.67
+    },
+    {
+      "text": "who act as gatekeepers for\nsubmissions of new changes.",
+      "start": 456.49,
+      "duration": 3.76
+    },
+    {
+      "text": "And only those\nrelease managers would",
+      "start": 460.25,
+      "duration": 2.48
+    },
+    {
+      "text": "be added to the group publisher,\nwhich meant all other team",
+      "start": 462.73,
+      "duration": 3.33
+    },
+    {
+      "text": "members couldn't access\nstore listing, analytics,",
+      "start": 466.06,
+      "duration": 2.73
+    },
+    {
+      "text": "or other pertinent\ninformation about their item.",
+      "start": 468.79,
+      "duration": 2.73
+    },
+    {
+      "text": "What was clear to\nus was that this",
+      "start": 471.52,
+      "duration": 1.95
+    },
+    {
+      "text": "was causing a lot of\ncoordination and logistics",
+      "start": 473.47,
+      "duration": 2.61
+    },
+    {
+      "text": "overhead that was\nslowing teams down.",
+      "start": 476.08,
+      "duration": 2.59
+    },
+    {
+      "text": "That's why, later\nthis year, we're",
+      "start": 478.67,
+      "duration": 2.33
+    },
+    {
+      "text": "introducing member roles and\npermissions to the dashboard.",
+      "start": 481.0,
+      "duration": 3.48
+    },
+    {
+      "text": "We're mitigating risk and\nincreasing user confidence",
+      "start": 484.48,
+      "duration": 2.86
+    },
+    {
+      "text": "by moving membership management\nentirely into the dashboard.",
+      "start": 487.34,
+      "duration": 4.17
+    },
+    {
+      "text": "What you see here is\nan early UX exploration",
+      "start": 491.51,
+      "duration": 3.06
+    },
+    {
+      "text": "of what this might look like.",
+      "start": 494.57,
+      "duration": 1.51
+    },
+    {
+      "text": "You will be able to\nindividually assign",
+      "start": 496.08,
+      "duration": 2.0
+    },
+    {
+      "text": "roles with varying degrees\nof view and edit permissions.",
+      "start": 498.08,
+      "duration": 3.13
+    },
+    {
+      "text": "For example, if a\nteam member just",
+      "start": 501.21,
+      "duration": 2.03
+    },
+    {
+      "text": "needs to view the\nanalytics for an item,",
+      "start": 503.24,
+      "duration": 2.02
+    },
+    {
+      "text": "you can just grant\nthem viewer permissions",
+      "start": 505.26,
+      "duration": 1.85
+    },
+    {
+      "text": "and be assured that they\nwon't be able to push out",
+      "start": 507.11,
+      "duration": 2.43
+    },
+    {
+      "text": "a new extension release.",
+      "start": 509.54,
+      "duration": 2.31
+    },
+    {
+      "text": "Those were some\nof the ways we're",
+      "start": 511.85,
+      "duration": 1.38
+    },
+    {
+      "text": "helping you go faster this\nyear with Chrome extensions.",
+      "start": 513.23,
+      "duration": 3.66
+    },
+    {
+      "text": "Now let's talk about\nreaching further.",
+      "start": 516.89,
+      "duration": 2.62
+    },
+    {
+      "text": "Really, what \"reach\nfurther\" means is expanding",
+      "start": 519.51,
+      "duration": 2.75
+    },
+    {
+      "text": "what's possible with extensions.",
+      "start": 522.26,
+      "duration": 2.25
+    },
+    {
+      "text": "And expanding what's\npossible takes two forms.",
+      "start": 524.51,
+      "duration": 3.01
+    },
+    {
+      "text": "First, it means\ngiving extensions",
+      "start": 527.52,
+      "duration": 2.24
+    },
+    {
+      "text": "access to new\ntechnologies and APIs",
+      "start": 529.76,
+      "duration": 2.79
+    },
+    {
+      "text": "that allow them to keep up with\nthe latest demands and trends.",
+      "start": 532.55,
+      "duration": 3.73
+    },
+    {
+      "text": "This year, that takes the\nform of our investments",
+      "start": 536.28,
+      "duration": 2.75
+    },
+    {
+      "text": "in generative AI,\nnamely Chrome's",
+      "start": 539.03,
+      "duration": 2.1
+    },
+    {
+      "text": "built in APIs that\nallow developers",
+      "start": 541.13,
+      "duration": 2.16
+    },
+    {
+      "text": "to supercharge their extensions\nwith the power of Gemini Nano.",
+      "start": 543.29,
+      "duration": 3.79
+    },
+    {
+      "text": "And the second form\nof reaching further",
+      "start": 547.08,
+      "duration": 2.06
+    },
+    {
+      "text": "of expanding what's possible\nis expanding the market",
+      "start": 549.14,
+      "duration": 3.39
+    },
+    {
+      "text": "to more or different\nkinds of users.",
+      "start": 552.53,
+      "duration": 2.38
+    },
+    {
+      "text": "Later, you'll hear\nabout shifts we've",
+      "start": 554.91,
+      "duration": 1.97
+    },
+    {
+      "text": "seen in enterprise\nextension adoption",
+      "start": 556.88,
+      "duration": 1.92
+    },
+    {
+      "text": "and what that might mean\nfor you and your business.",
+      "start": 558.8,
+      "duration": 3.54
+    },
+    {
+      "text": "Back to AI.",
+      "start": 562.34,
+      "duration": 0.97
+    },
+    {
+      "text": "We've seen developers\nflocking to the Web",
+      "start": 563.31,
+      "duration": 2.03
+    },
+    {
+      "text": "Store in recent years, finding\nextensions the perfect conduit",
+      "start": 565.34,
+      "duration": 3.36
+    },
+    {
+      "text": "for channeling the\npower of generative AI",
+      "start": 568.7,
+      "duration": 2.28
+    },
+    {
+      "text": "to help users make sense of and\ntransform content on the web.",
+      "start": 570.98,
+      "duration": 3.54
+    },
+    {
+      "text": "And I think they're right.",
+      "start": 574.52,
+      "duration": 1.39
+    },
+    {
+      "text": "Extensions are really a great\nfit for a lot of the use cases",
+      "start": 575.91,
+      "duration": 3.47
+    },
+    {
+      "text": "that generative\nAI is suited for.",
+      "start": 579.38,
+      "duration": 2.91
+    },
+    {
+      "text": "Last year, we ran a hackathon,\nthe Chrome Built-in AI",
+      "start": 582.29,
+      "duration": 2.94
+    },
+    {
+      "text": "Challenge.",
+      "start": 585.23,
+      "duration": 0.79
+    },
+    {
+      "text": "This event highlighted new\non-device generative AI",
+      "start": 586.02,
+      "duration": 3.2
+    },
+    {
+      "text": "APIs running on Gemini Nano.",
+      "start": 589.22,
+      "duration": 2.56
+    },
+    {
+      "text": "And over 70% of\nthe entries we saw,",
+      "start": 591.78,
+      "duration": 3.0
+    },
+    {
+      "text": "and many of the eventual\nwinners, were Chrome extensions.",
+      "start": 594.78,
+      "duration": 3.047
+    },
+    {
+      "text": "One of my favorites was\nan honorable mention",
+      "start": 597.827,
+      "duration": 1.833
+    },
+    {
+      "text": "called Docagram.",
+      "start": 599.66,
+      "duration": 1.09
+    },
+    {
+      "text": "It transforms written web\ncontent into visual diagrams.",
+      "start": 600.75,
+      "duration": 2.85
+    },
+    {
+      "text": "I thought it was a great way\nto make long articles easier",
+      "start": 603.6,
+      "duration": 2.51
+    },
+    {
+      "text": "to digest.",
+      "start": 606.11,
+      "duration": 0.82
+    },
+    {
+      "text": "And I can definitely see this\nfunctionality, for instance,",
+      "start": 606.93,
+      "duration": 2.76
+    },
+    {
+      "text": "being incorporated into more\ncomprehensive study tools",
+      "start": 609.69,
+      "duration": 3.17
+    },
+    {
+      "text": "for students in the future.",
+      "start": 612.86,
+      "duration": 2.34
+    },
+    {
+      "text": "And if you're looking\nfor inspiration,",
+      "start": 615.2,
+      "duration": 1.66
+    },
+    {
+      "text": "I'd recommend checking out the\nentries for the built-in AI",
+      "start": 616.86,
+      "duration": 2.417
+    },
+    {
+      "text": "challenge.",
+      "start": 619.277,
+      "duration": 1.321
+    },
+    {
+      "text": "There's a lot of cool things\nwe're launching this year,",
+      "start": 620.598,
+      "duration": 2.292
+    },
+    {
+      "text": "including some cool\nmultimodal APIs that",
+      "start": 622.89,
+      "duration": 2.12
+    },
+    {
+      "text": "can be used in extensions.",
+      "start": 625.01,
+      "duration": 1.54
+    },
+    {
+      "text": "There's so many\ninteresting things",
+      "start": 626.55,
+      "duration": 1.58
+    },
+    {
+      "text": "to talk about that it has\nits own separate talk.",
+      "start": 628.13,
+      "duration": 2.71
+    },
+    {
+      "text": "If you're interested, look\nin the description for a link",
+      "start": 630.84,
+      "duration": 2.63
+    },
+    {
+      "text": "to the talk about the future of\nChrome extensions with Gemini.",
+      "start": 633.47,
+      "duration": 3.21
+    },
+    {
+      "text": "Rather, what we\nwant to share with",
+      "start": 636.68,
+      "duration": 1.68
+    },
+    {
+      "text": "you now are some equally\nexciting changes happening",
+      "start": 638.36,
+      "duration": 2.91
+    },
+    {
+      "text": "in the world of enterprise.",
+      "start": 641.27,
+      "duration": 1.51
+    },
+    {
+      "text": "And my colleague Hafsah will\nbe giving you the full rundown.",
+      "start": 642.78,
+      "duration": 4.76
+    },
+    {
+      "text": "HAFSAH ISMAIL: Thanks, David.",
+      "start": 647.54,
+      "duration": 1.39
+    },
+    {
+      "text": "Now, building on what we've\nheard about going faster,",
+      "start": 648.93,
+      "duration": 3.93
+    },
+    {
+      "text": "let's explore how we're\nhelping you reach further",
+      "start": 652.86,
+      "duration": 2.72
+    },
+    {
+      "text": "into new markets, starting\nwith the enterprise.",
+      "start": 655.58,
+      "duration": 3.48
+    },
+    {
+      "text": "Think about how much time you\nspent in your browser yesterday.",
+      "start": 659.06,
+      "duration": 3.79
+    },
+    {
+      "text": "For most of us, it's\neasily over five hours.",
+      "start": 662.85,
+      "duration": 3.33
+    },
+    {
+      "text": "And chances are your browser\nsetup looks completely different",
+      "start": 666.18,
+      "duration": 3.38
+    },
+    {
+      "text": "from your colleague's.",
+      "start": 669.56,
+      "duration": 1.3
+    },
+    {
+      "text": "That's the power of extensions.",
+      "start": 670.86,
+      "duration": 2.04
+    },
+    {
+      "text": "They turn our browsers\nfrom standard tools",
+      "start": 672.9,
+      "duration": 2.54
+    },
+    {
+      "text": "into personalized workspaces.",
+      "start": 675.44,
+      "duration": 2.52
+    },
+    {
+      "text": "Today, I'm excited to share\nhow extensions aren't just",
+      "start": 677.96,
+      "duration": 3.45
+    },
+    {
+      "text": "personalizing\nindividual experiences.",
+      "start": 681.41,
+      "duration": 3.19
+    },
+    {
+      "text": "They're reshaping entire\norganizations and enterprises.",
+      "start": 684.6,
+      "duration": 4.29
+    },
+    {
+      "text": "Chrome has evolved beyond\na window to the web.",
+      "start": 688.89,
+      "duration": 3.81
+    },
+    {
+      "text": "It has become the\nnew operating system",
+      "start": 692.7,
+      "duration": 2.6
+    },
+    {
+      "text": "for work, where most day-to-day\nproductivity happens.",
+      "start": 695.3,
+      "duration": 3.93
+    },
+    {
+      "text": "Every day, hundreds\nof millions of people",
+      "start": 699.23,
+      "duration": 3.21
+    },
+    {
+      "text": "rely on Chrome\nspecifically for their jobs",
+      "start": 702.44,
+      "duration": 3.3
+    },
+    {
+      "text": "with knowledge workers\nspending over six hours daily",
+      "start": 705.74,
+      "duration": 3.24
+    },
+    {
+      "text": "in their browsers.",
+      "start": 708.98,
+      "duration": 1.5
+    },
+    {
+      "text": "And enterprise adoption\nof Chrome extensions",
+      "start": 710.48,
+      "duration": 2.34
+    },
+    {
+      "text": "has surged by over 30% in\njust the past few months.",
+      "start": 712.82,
+      "duration": 5.02
+    },
+    {
+      "text": "This rapid growth highlights\na fundamental shift",
+      "start": 717.84,
+      "duration": 3.5
+    },
+    {
+      "text": "in how businesses operate and\nsignals a clear opportunity",
+      "start": 721.34,
+      "duration": 3.66
+    },
+    {
+      "text": "for developers.",
+      "start": 725.0,
+      "duration": 2.46
+    },
+    {
+      "text": "But enterprises face a\nfew unique challenges.",
+      "start": 727.46,
+      "duration": 3.43
+    },
+    {
+      "text": "One of the largest is discovery.",
+      "start": 730.89,
+      "duration": 2.53
+    },
+    {
+      "text": "Employees often don't\nknow which extensions",
+      "start": 733.42,
+      "duration": 2.72
+    },
+    {
+      "text": "are approved for their work.",
+      "start": 736.14,
+      "duration": 1.78
+    },
+    {
+      "text": "And that can lead to confusion,\ndelays, or unnecessary support",
+      "start": 737.92,
+      "duration": 4.68
+    },
+    {
+      "text": "tickets.",
+      "start": 742.6,
+      "duration": 0.89
+    },
+    {
+      "text": "The other large one is security.",
+      "start": 743.49,
+      "duration": 2.5
+    },
+    {
+      "text": "IT administrators are\nconstantly walking a tightrope,",
+      "start": 745.99,
+      "duration": 3.69
+    },
+    {
+      "text": "trying to make the best tools\navailable to their teams,",
+      "start": 749.68,
+      "duration": 3.72
+    },
+    {
+      "text": "while also keeping everything\nsecure and compliant.",
+      "start": 753.4,
+      "duration": 3.54
+    },
+    {
+      "text": "Every IT admin I've spoken with\nhas shared a similar story.",
+      "start": 756.94,
+      "duration": 4.56
+    },
+    {
+      "text": "They genuinely want\nto empower their teams",
+      "start": 761.5,
+      "duration": 2.33
+    },
+    {
+      "text": "with the right tools.",
+      "start": 763.83,
+      "duration": 1.12
+    },
+    {
+      "text": "But they're often overwhelmed\nby approval requests",
+      "start": 764.95,
+      "duration": 3.35
+    },
+    {
+      "text": "and ongoing security concerns.",
+      "start": 768.3,
+      "duration": 3.63
+    },
+    {
+      "text": "And that's why I'm\nexcited today to introduce",
+      "start": 771.93,
+      "duration": 2.43
+    },
+    {
+      "text": "the recently launched Enterprise\nChrome Web Store experience.",
+      "start": 774.36,
+      "duration": 4.03
+    },
+    {
+      "text": "This allows\norganizations to create",
+      "start": 778.39,
+      "duration": 2.33
+    },
+    {
+      "text": "their own curated extension\nmarketplace, filled",
+      "start": 780.72,
+      "duration": 3.63
+    },
+    {
+      "text": "with only the\nextensions they trust",
+      "start": 784.35,
+      "duration": 2.31
+    },
+    {
+      "text": "and tailor made to\nmeet the specific needs",
+      "start": 786.66,
+      "duration": 2.79
+    },
+    {
+      "text": "of their business.",
+      "start": 789.45,
+      "duration": 1.39
+    },
+    {
+      "text": "Enterprises can even\nrecommend different extensions",
+      "start": 790.84,
+      "duration": 3.69
+    },
+    {
+      "text": "to different\ndepartments or teams,",
+      "start": 794.53,
+      "duration": 2.2
+    },
+    {
+      "text": "ensuring the right tools\nreach the right users.",
+      "start": 796.73,
+      "duration": 3.98
+    },
+    {
+      "text": "Let's take a look at what\nthis looks like in action.",
+      "start": 800.71,
+      "duration": 2.53
+    },
+    {
+      "text": "First, employees get\nsimplified access.",
+      "start": 803.24,
+      "duration": 3.54
+    },
+    {
+      "text": "Preapproved extensions appear\nright on the Chrome Web Store",
+      "start": 806.78,
+      "duration": 3.41
+    },
+    {
+      "text": "customized landing page, making\nit easy to find what's allowed",
+      "start": 810.19,
+      "duration": 3.81
+    },
+    {
+      "text": "and install with confidence.",
+      "start": 814.0,
+      "duration": 1.99
+    },
+    {
+      "text": "So no more confusion.",
+      "start": 815.99,
+      "duration": 1.86
+    },
+    {
+      "text": "No more back and forth with IT.",
+      "start": 817.85,
+      "duration": 1.73
+    },
+    {
+      "text": "And no more delays that\nslow everyone down.",
+      "start": 819.58,
+      "duration": 3.04
+    },
+    {
+      "text": "Security is also stronger too.",
+      "start": 822.62,
+      "duration": 2.55
+    },
+    {
+      "text": "Because organizations\ncan choose to promote",
+      "start": 825.17,
+      "duration": 3.11
+    },
+    {
+      "text": "only trusted, vetted\nextensions, admins",
+      "start": 828.28,
+      "duration": 3.54
+    },
+    {
+      "text": "can give employees flexibility\nwithout sacrificing control.",
+      "start": 831.82,
+      "duration": 3.88
+    },
+    {
+      "text": "So productivity\nalso gets a boost.",
+      "start": 835.7,
+      "duration": 2.84
+    },
+    {
+      "text": "With improved\nsearch capabilities,",
+      "start": 838.54,
+      "duration": 2.5
+    },
+    {
+      "text": "including support for\nblock tags and filters",
+      "start": 841.04,
+      "duration": 3.5
+    },
+    {
+      "text": "for private\nextensions, employees",
+      "start": 844.54,
+      "duration": 2.91
+    },
+    {
+      "text": "can quickly zero in on the tools\nthey need to get the job done.",
+      "start": 847.45,
+      "duration": 4.96
+    },
+    {
+      "text": "The experience is fully\ncustomizable in a way",
+      "start": 852.41,
+      "duration": 2.88
+    },
+    {
+      "text": "that really resonates\nwith customers.",
+      "start": 855.29,
+      "duration": 2.5
+    },
+    {
+      "text": "Admins can upload\ntheir company's logos,",
+      "start": 857.79,
+      "duration": 3.09
+    },
+    {
+      "text": "set a welcome banner, create\nannouncements, and even build",
+      "start": 860.88,
+      "duration": 3.95
+    },
+    {
+      "text": "out curated collections\nof extensions tailored",
+      "start": 864.83,
+      "duration": 2.82
+    },
+    {
+      "text": "to specific departments.",
+      "start": 867.65,
+      "duration": 2.14
+    },
+    {
+      "text": "We have seen organizations\nturn the store",
+      "start": 869.79,
+      "duration": 2.99
+    },
+    {
+      "text": "into a space that really\nfeels like an extension",
+      "start": 872.78,
+      "duration": 2.79
+    },
+    {
+      "text": "of their own brand.",
+      "start": 875.57,
+      "duration": 1.3
+    },
+    {
+      "text": "And the feature customers\nare most excited",
+      "start": 876.87,
+      "duration": 2.27
+    },
+    {
+      "text": "about is how easy it is\nto deliver a personalized",
+      "start": 879.14,
+      "duration": 3.33
+    },
+    {
+      "text": "experience for each team, all\nwithout complex IT workflows.",
+      "start": 882.47,
+      "duration": 5.17
+    },
+    {
+      "text": "And coming soon, we're\nadding more transparency.",
+      "start": 887.64,
+      "duration": 3.21
+    },
+    {
+      "text": "Admins will be able to add\ncustom block messages right",
+      "start": 890.85,
+      "duration": 3.89
+    },
+    {
+      "text": "on an extension's\nitem details page.",
+      "start": 894.74,
+      "duration": 2.47
+    },
+    {
+      "text": "So when something\nisn't available,",
+      "start": 897.21,
+      "duration": 2.01
+    },
+    {
+      "text": "employees see a\nclear explanation.",
+      "start": 899.22,
+      "duration": 2.4
+    },
+    {
+      "text": "No IT ticket needed.",
+      "start": 901.62,
+      "duration": 2.81
+    },
+    {
+      "text": "All of this is easy to set\nup through Chrome Enterprise",
+      "start": 904.43,
+      "duration": 3.48
+    },
+    {
+      "text": "Core, a free\ncloud-based management",
+      "start": 907.91,
+      "duration": 2.82
+    },
+    {
+      "text": "tool that helps IT\nteams configure browser",
+      "start": 910.73,
+      "duration": 3.31
+    },
+    {
+      "text": "settings, apps, and extensions\nacross different devices, all",
+      "start": 914.04,
+      "duration": 4.11
+    },
+    {
+      "text": "from one central place.",
+      "start": 918.15,
+      "duration": 2.25
+    },
+    {
+      "text": "Now, here's where it gets\nreally exciting for developers.",
+      "start": 920.4,
+      "duration": 3.55
+    },
+    {
+      "text": "We're rolling out\ntwo major updates.",
+      "start": 923.95,
+      "duration": 2.61
+    },
+    {
+      "text": "First is around direct\ndomain distribution.",
+      "start": 926.56,
+      "duration": 3.48
+    },
+    {
+      "text": "So soon, later in\nthe year, you'll",
+      "start": 930.04,
+      "duration": 1.94
+    },
+    {
+      "text": "be able to deploy\nextensions directly",
+      "start": 931.98,
+      "duration": 2.88
+    },
+    {
+      "text": "to specific enterprise domains.",
+      "start": 934.86,
+      "duration": 2.71
+    },
+    {
+      "text": "No more publishing broadly or\nrelying on manual installs.",
+      "start": 937.57,
+      "duration": 4.02
+    },
+    {
+      "text": "This makes deployments faster,\ncleaner, and more efficient.",
+      "start": 941.59,
+      "duration": 4.4
+    },
+    {
+      "text": "The second is around the\nenterprise discover page.",
+      "start": 945.99,
+      "duration": 2.89
+    },
+    {
+      "text": "Businesses will soon\nbe able to showcase",
+      "start": 948.88,
+      "duration": 2.15
+    },
+    {
+      "text": "your extensions and\ncurated collections that",
+      "start": 951.03,
+      "duration": 2.73
+    },
+    {
+      "text": "align with their team's needs.",
+      "start": 953.76,
+      "duration": 1.75
+    },
+    {
+      "text": "This gives your tools\nfront and center visibility",
+      "start": 955.51,
+      "duration": 3.02
+    },
+    {
+      "text": "and helps build trust\nfrom the very start.",
+      "start": 958.53,
+      "duration": 2.94
+    },
+    {
+      "text": "For developers, these updates\nrepresent more than just",
+      "start": 961.47,
+      "duration": 3.66
+    },
+    {
+      "text": "new features.",
+      "start": 965.13,
+      "duration": 1.0
+    },
+    {
+      "text": "They open up the door to a whole\nnew audience and an opportunity",
+      "start": 966.13,
+      "duration": 3.38
+    },
+    {
+      "text": "to reach further.",
+      "start": 969.51,
+      "duration": 1.41
+    },
+    {
+      "text": "Enterprise customers\noften have more resources",
+      "start": 970.92,
+      "duration": 3.06
+    },
+    {
+      "text": "and are actively looking\nfor more solutions that",
+      "start": 973.98,
+      "duration": 3.4
+    },
+    {
+      "text": "make their teams\nproductive and secure.",
+      "start": 977.38,
+      "duration": 3.07
+    },
+    {
+      "text": "When your extension is featured\nin a trusted enterprise",
+      "start": 980.45,
+      "duration": 3.41
+    },
+    {
+      "text": "environment, it sends\na really strong signal",
+      "start": 983.86,
+      "duration": 2.91
+    },
+    {
+      "text": "and shows that your solution\nmeets a high bar for quality,",
+      "start": 986.77,
+      "duration": 4.27
+    },
+    {
+      "text": "reliability, and relevance.",
+      "start": 991.04,
+      "duration": 2.75
+    },
+    {
+      "text": "And because enterprise\nneeds are often complex,",
+      "start": 993.79,
+      "duration": 4.33
+    },
+    {
+      "text": "whether it's about compliance,\nanalytics or security,",
+      "start": 998.12,
+      "duration": 4.59
+    },
+    {
+      "text": "there's a growing demand\nfor innovative, specialized",
+      "start": 1002.71,
+      "duration": 3.08
+    },
+    {
+      "text": "features.",
+      "start": 1005.79,
+      "duration": 1.14
+    },
+    {
+      "text": "Developers who build\nwith those needs in mind",
+      "start": 1006.93,
+      "duration": 3.45
+    },
+    {
+      "text": "can really create value and\nstand out in a meaningful way",
+      "start": 1010.38,
+      "duration": 4.32
+    },
+    {
+      "text": "and reach further.",
+      "start": 1014.7,
+      "duration": 2.25
+    },
+    {
+      "text": "Our extensions\necosystem has always",
+      "start": 1016.95,
+      "duration": 2.58
+    },
+    {
+      "text": "thrived on collaboration\nbetween Chrome and developers.",
+      "start": 1019.53,
+      "duration": 3.88
+    },
+    {
+      "text": "It's your ideas, your feedback,\nand your innovation that",
+      "start": 1023.41,
+      "duration": 3.169
+    },
+    {
+      "text": "helps shape where we go next.",
+      "start": 1026.579,
+      "duration": 2.141
+    },
+    {
+      "text": "And we're excited to\nkeep building together.",
+      "start": 1028.72,
+      "duration": 3.26
+    },
+    {
+      "text": "Extensions offer powerful ways\nto build on top of Chrome,",
+      "start": 1031.98,
+      "duration": 4.28
+    },
+    {
+      "text": "delivering custom\ncapabilities and value to help",
+      "start": 1036.26,
+      "duration": 2.87
+    },
+    {
+      "text": "solve all kinds of user needs.",
+      "start": 1039.13,
+      "duration": 2.699
+    },
+    {
+      "text": "Here's how you\ncan stay involved.",
+      "start": 1041.829,
+      "duration": 2.131
+    },
+    {
+      "text": "If you'd like to get\nthe latest updates",
+      "start": 1043.96,
+      "duration": 1.83
+    },
+    {
+      "text": "and insights from\nChrome extensions team,",
+      "start": 1045.79,
+      "duration": 2.62
+    },
+    {
+      "text": "please make sure to subscribe to\nour official Chromium Extensions",
+      "start": 1048.41,
+      "duration": 3.83
+    },
+    {
+      "text": "mailing list.",
+      "start": 1052.24,
+      "duration": 1.12
+    },
+    {
+      "text": "You'll find the link down\nin the description below.",
+      "start": 1053.36,
+      "duration": 3.62
+    },
+    {
+      "text": "And if you have ideas,\nquestions, or feedback,",
+      "start": 1056.98,
+      "duration": 3.4
+    },
+    {
+      "text": "we'd love to hear from you.",
+      "start": 1060.38,
+      "duration": 1.65
+    },
+    {
+      "text": "Use our one-stop support form\nto submit feature requests,",
+      "start": 1062.03,
+      "duration": 3.42
+    },
+    {
+      "text": "share pain points,\nor ask questions.",
+      "start": 1065.45,
+      "duration": 2.4
+    },
+    {
+      "text": "As a team, we review\nevery submission.",
+      "start": 1067.85,
+      "duration": 2.54
+    },
+    {
+      "text": "And your input plays a huge role\nin shaping what we build next.",
+      "start": 1070.39,
+      "duration": 4.62
+    },
+    {
+      "text": "Thank you for your dedication\nand the incredible solutions",
+      "start": 1075.01,
+      "duration": 2.79
+    },
+    {
+      "text": "you create.",
+      "start": 1077.8,
+      "duration": 0.94
+    },
+    {
+      "text": "Together, we're not\njust enhancing browsers.",
+      "start": 1078.74,
+      "duration": 2.49
+    },
+    {
+      "text": "We're redefining what's\npossible with Chrome extensions.",
+      "start": 1081.23,
+      "duration": 2.75
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1083.98,
+      "duration": 3.35
+    }
+  ]
+}

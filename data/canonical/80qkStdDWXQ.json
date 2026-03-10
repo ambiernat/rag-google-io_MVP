@@ -1,0 +1,145 @@
+[
+  {
+    "id": "80qkStdDWXQ__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 0.0,
+    "timestamp_end": 124.60000000000001,
+    "text": "[MUSIC PLAYING] SIMONA MILANOVIC: Hi, everyone,\nand welcome to our session on how to build more accessible\nUIs with Jetpack Compose. My name is Simona Milanovic. I'm an Android Developer\nRelations Engineer at Google. MELBA NUZEN: And I'm Melba\nNuzen, a Software Engineer working on Jetpack Compose. SIMONA MILANOVIC: Developing\nwith accessibility in mind means making your apps usable\nby even more people, including those with accessibility\nneeds who may use Android devices in different ways. So, in this talk,\nwe'll focus on how to leverage powerful declarative\nCompose APIs and tools to build apps that are more\ninclusive and accessible. We'll cover practical\nsteps and concepts in supporting\naccessibility with Compose, starting with how to classify\ncomposables and modify them with the appropriate\nAPIs and semantics. We'll also show how to inspect\nthe composable semantics with tools that can\nbe used for debugging unexpected behaviors\nwhen used with Android's assistive technologies. Finally, we'll cover how to\ndetect common accessibility issues and automate some\naspects of testing with Compose accessibility checks. By the end, you'll have the\nright tools and techniques to create more\ndelightful and inclusive experiences for more users. For updates in\nAndroid accessibility, check out the linked I/O talk. As the first step, it's helpful\nto classify your component, as this also impacts the\nlevel of modification of its accessibility\ninformation. A ready-made material\ncomponent will differ in potential adjustments\nfrom a custom component. From an accessibility\nperspective, you can put composables into\nroughly three categories, material components, Compose\nFoundation and UI APIs, and custom components. These range from none to\nminimal semantic modifications for material to potentially\nlarger structural changes for more custom components. This classification helps\nyou choose and integrate more information into the UI\nelements earlier in the app development. This information on\nthe meaning and role",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 109.14,
+    "timestamp_end": 225.22,
+    "text": "for material to potentially\nlarger structural changes for more custom components. This classification helps\nyou choose and integrate more information into the UI\nelements earlier in the app development. This information on\nthe meaning and role of a component that is sent\nto accessibility services is called semantics. For example, a camera icon\nmight be visually just an image, but the semantic meaning\ncould be take a photo. To learn more about\naccessibility basics ahead of this talk, check out the\nlinked documentation and video. By combining the right\nsemantics with Compose APIs, you provide as much information\nas possible about your component to accessibility services,\nwhich then decide how and what to represent\nto the user. MELBA NUZEN: Let's\nlook at each category, starting with\nmaterial components. These pre-built UI elements\ninclude built-in semantics that follow their specific\nrole and function, meaning that most\naccessibility support is provided for you with little\nor no additional work. For example, a material\nbutton might consist of a child icon and some text. Instead of treating the\nchildren as individuals, a material button merges its\nchildren's semantics by default so that accessibility services\ncan treat them as one entity. Merging is a powerful\nconcept in semantics and widely used,\nas we'll see later. But in general,\nmaterial components require little\nadjustment in order to be more accessible when used\nfor their intended purpose. Similarly, in Compose\nUI and Foundation APIs, many accessible practices\nare also followed by default. Using the right APIs\nfor the right purpose usually means you get\npredefined semantics that cover standard use cases,\nbut you should double check that these\ndefaults fit your needs. If it isn't enough\nfor some cases, Compose also provides\nthe tools to adjust for more specific requirements. Most semantic\nproperties are a way to simply provide\nadditional information. Setting something like a\ncontent description or a state",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 214.15,
+    "timestamp_end": 331.29,
+    "text": "Compose also provides\nthe tools to adjust for more specific requirements. Most semantic\nproperties are a way to simply provide\nadditional information. Setting something like a\ncontent description or a state description provides more\nmetadata about a UI component to services that\nconsume semantics. But some semantics require\nmore careful consideration, since they can influence how\nthe structure of a screen is interpreted, rather\nthan only provide additional helpful information. Two, Compose APIs\nare specifically meant to support\naccessibility traversal order. When using composables\nwith predefined semantics, there could be a need to\nmodify their traversal order, or the order in which\naccessibility services navigate through UI elements. By default, Compose arranges\nelements in expected reading order, usually top to\nbottom, then left to right. While this normally\ncreates a logical order, there are some scenarios where\ntop to bottom, left to right is not sufficient and Compose\nmight need additional hints. In these cases, you can use\nCompose's isTraversalGroup and traversalIndex APIs. IsTraversalGroup marks\nlogical semantic groups that need customization,\nwhile traversalIndex adjusts the order of individual\nelements within those groups. Let's look closer at\nthe clock face example. The UI consists of\na circular layout where the numbers of\nthe clock are placed, and some clock text containing\nthe actual number values. To influence the\ndefault traversal order, we set isTraversalGroup equals\ntrue on the surrounding parent, in this case, the\ncircular layout. Then we assign increasing\ntraversalIndex values to each child\nelement so that they can be numbered numerically. To influence traversal\nbehavior, this API must be set on a\ncomponent that will be selectable by\naccessibility services. In this case, we set the\nindex on the text itself rather than the\ncontaining box parent. With those changes, we've\nadjusted our traversal order to be more logical for\naccessibility services.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 316.23,
+    "timestamp_end": 435.71,
+    "text": "be selectable by\naccessibility services. In this case, we set the\nindex on the text itself rather than the\ncontaining box parent. With those changes, we've\nadjusted our traversal order to be more logical for\naccessibility services. As you apply these APIs, here\nare some things to keep in mind. IsTraversalGroup\nequals true should be set on the parent containing\nthe grouped elements. TraversalIndex should be set\non a child component that contains semantics and will be\nused by accessibility services. A no semantics are\nunnecessarily merged, as this may affect which\ncomponents traversal indices are applied to. SIMONA MILANOVIC:\nFoundation APIs that make your composable\nclickable, toggleable, or overall interactable,\nuse the same merging strategies as the\nmaterial button, which merges its children\nsemantics by default. Using the clickable\nmodifier makes that composable merge\nits descendant semantics into a single entity, which\nthen gets represented together by the accessibility services,\nalong with the corresponding action representation. You can also set the on-click\nlabel in the parent clickable to provide additional\ninformation to accessibility\nservices, and offer a more polished representation. For this modifier\nand its click label, using TalkBack as an example,\nit would provide an action hint of double tap to\nopen this article, rather than the generic default\nof double tap to activate. This feedback changes\ndepending on the action type. So, a long click would provide\na TalkBack hint of double tap and hold to, usually\nfollowed by a verb label. In cases where you\ndon't have direct access to a clickable\nmodifier, for example, if it's set somewhere\nin a lower nested layer, but still want to change\nthe default action label, you can split setting\nthe clickable action from modifying its semantics. You can do so using modifier\nsemantics and its on-click label to modify the action\nrepresentation there. In this case, you don't need\nto pass the click action twice,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 421.32,
+    "timestamp_end": 539.5600000000001,
+    "text": "you can split setting\nthe clickable action from modifying its semantics. You can do so using modifier\nsemantics and its on-click label to modify the action\nrepresentation there. In this case, you don't need\nto pass the click action twice, as certain Compose APIs, like\nclickable, handle this for you and pass it down to their\nintrinsic clickable semantics. You might run into\nscenarios where you expect children's semantics\nto be merged into the parent one, but that doesn't happen. In this example, we\nhave a clickable parent with three children\nelements, and we might expect it merges all of them. However, some composables\nwould not automatically merge under a parent by design. A parent cannot merge its\nchildren when the children are also merging, either from\nexplicitly setting merge descendants to true, or by\nbeing components which merge themselves, like\nbuttons or clickables. Knowing how certain APIs\nmerge or define merging can help you debug\nunexpected behaviors. Custom actions can sometimes\nhelp improve the user experience of accessibility services. Complex touchscreen\ngestures, like swipe to dismiss or drag-and-drop,\ncan be challenging for users with accessibility needs. So custom actions can be\nused as a more accessible representation. For example, to make the\nswipe to dismiss gesture more accessible, you can\nlink it to a custom action, passing the dismissal\naction and label there. An accessibility\nservice, like TalkBack, would then highlight\nthe component and hint that there are more\nactions available in its menu, representing the swipe\nto dismiss action there. This only changes\nthe swipe to dismiss for accessibility services. You can still use the\noriginal swipe gesture. In long lists with items that\nhave multiple available actions, it might be tedious\nfor users to iterate through each action for every\nsingle item individually. To improve the navigation\nexperience, which is especially helpful for\ninteraction-based assistive technologies, like Switch\naccess or Voice access,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 527.67,
+    "timestamp_end": 650.312,
+    "text": "through each action for every\nsingle item individually. To improve the navigation\nexperience, which is especially helpful for\ninteraction-based assistive technologies, like Switch\naccess or Voice access, you can use custom\nactions on the parent item and move its nested actions\nout of the individual traversal and into a separate action menu. Using Switch access\nas an example, its menu opens on\nselecting the parent item, offering the available\nactions there. However, make sure\nto always clear the original semantics\nof items which actions you're moving elsewhere. We'll see more on this later. MELBA NUZEN: So\nfar we've covered composables with some\npredefined semantics, but what if you're building\nyour own custom component? As a general rule\nof thumb, it can be helpful to see semantics\nof similar components in the material or\nother Compose libraries. But another tool we can use\nis manual semantic merging. If your custom component\nconsists of multiple elements, you can manually join\ntheir semantic information to treat the component\nas one entity. This is done by setting\nmodifier.semantics, merge descendants equals true. Under the hood,\nmerging components, like a material button\nand modifier.clickable or modifier.toggleable, set\nthis flag to true as well. Setting this API collects\nand combines data from non-merging\nchildren, as merging won't apply to any children\nthat are merging themselves. Let's look at an example of\na custom avatar component. We have three parts, an avatar\nimage, a status overlay, and a profile name overlay. As is, accessibility services\nsee each part separately. But it would make more sense\nto consider the entire avatar component together, rather than\ntreat each element individually. To do this, we've\nset merge descendants equals true on the box\ncontaining all three elements. Then the component is\ngrouped accordingly. But what about times\nwhere we don't need to send semantic information? In some scenarios,\ncertain elements should not be sent to\naccessibility services,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 635.41,
+    "timestamp_end": 754.15,
+    "text": "equals true on the box\ncontaining all three elements. Then the component is\ngrouped accordingly. But what about times\nwhere we don't need to send semantic information? In some scenarios,\ncertain elements should not be sent to\naccessibility services, perhaps because their\nadditional information is redundant for accessibility or\nbecause they are purely visually decorative and non-interactive. In these cases, you\ncan hide elements with the hideFromAccessibility\nAPI, introduced in Compose version 1.8. In the following examples,\nwe see decorative components that can be hidden. A redundant watermark that\nspans a box and a character used to decoratively\nseparate information. Using hideFromAccessibility here\nensures that these components are hidden from\naccessibility services, but still retain their\nsemantics for other purposes, like testing. However, if semantic\ninformation must be completely cleared\nor overwritten, then a more powerful API to\nuse is clearAndSetSemantics. When a component needs its own\nand its descendant semantics cleared, use this API\nwith an empty lambda. Note that when clearing\nwith an empty lambda, the cleared semantics\nare not sent to any consumer, such as\naccessibility, autofill, or testing. When semantics must\nbe overwritten, include your new content\ninside the lambda. When overriding content with\nnew semantics inside the lambda, the new semantics replace\nall previous semantics of the element and\nits descendants. Let's look at a\nfavorite toggle example, represented by an interactable\nrow with an icon and some text. Although the icon and text\nhave some semantic information, together, they do not\nindicate that this component is a toggleable. Merging alone is not\nsufficient, since we must also set the toggle ability, as well\nas role and state semantics, so that component status\nand associated action may be available. For example, TalkBack would\nannounce double tap to toggle rather than double\ntap to activate. By clearing the\noriginal semantics and setting new, more\ndescriptive ones,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 740.89,
+    "timestamp_end": 861.5,
+    "text": "so that component status\nand associated action may be available. For example, TalkBack would\nannounce double tap to toggle rather than double\ntap to activate. By clearing the\noriginal semantics and setting new, more\ndescriptive ones, accessibility\nservices can now see that this is a\ntoggleable component that can alternate state. Some things to remember. Since services receive\nno semantic information when this API is\nset, it's better to be conservative\nabout its use. Semantic information\ncan potentially be used by AI agents\nand similar services to understand the screen,\nand thus should only be cleared when necessary. Custom semantics may be\nset within the API lambda. And lastly, ordering of\nthe modifiers matters. This API clears\nall semantics that are after where it is\napplied, regardless of other merging strategies. Note that in our sample,\nsince clearance at semantics is set after the\nclickable modifier, the clickable semantics\nare not cleared. We've covered quite a\nfew APIs and concepts. To recap, when content\nis not intended to be used by\naccessibility services, use hideFromAccessibility\nwhen it is possibly decorative\nor redundant, but still must be tested. Use clearAndSetSemantics\nwith an empty lambda when parent and\nchildren semantics need to be cleared for all services. Use clearAndSetSemantics\nwith content inside a lambda when a component's semantics\nneed to be manually set. And when content should\nbe treated as one entity with all children\ninformation needed to be considered complete, use\nmerge semantic descendants. SIMONA MILANOVIC: To\nspecify and signal the content type of\nyour custom component, you can use a\nvariety of semantics. Content type semantics support\nthe main semantic information, for example, the text\nof a text composable, and help accessibility\nservices fine tune how the component is\nrepresented, announced, or interacted with. For instance, if your component\nis an alert or a pop-up, like a Snackbar, you\nmight want to signal to accessibility services that\na new structure or updates",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 847.31,
+    "timestamp_end": 971.43,
+    "text": "tune how the component is\nrepresented, announced, or interacted with. For instance, if your component\nis an alert or a pop-up, like a Snackbar, you\nmight want to signal to accessibility services that\na new structure or updates to content should be\nconveyed to users. Alert-like components can be\nmarked with the LiveRegion semantics. This allows\naccessibility services to automatically\nnotify of changes to its component\nor the children. Polite mode should be\nused in most cases, where users' attention should be drawn\nto alerts or important changing content on screen. Assertive mode should\nonly be used sparingly to avoid disruptive\nfeedback, and should be reserved for\nwhen it's crucial that users are aware of\ntime sensitive content. LiveRegions should\nnot be used on content that updates frequently,\nsuch as countdown timers, to avoid overwhelming\nusers with feedback. Window-like custom components,\nsimilar to modal bottom sheet, need additional signals\nto differentiate them from surrounding content. For this, you can use\nthe pane title semantics so that relevant window or\npane changes are represented appropriately by\naccessibility services, along with its main\nsemantic information. Screens with a lot of\ntextual information, like long articles\nor news, are usually divided into different\nsubsections by using headings. Some accessibility\nservices, like TalkBack, allow for easier\nnavigation directly between sections or headings. To enable this, indicate that\nyour component is a heading by defining its semantics. For other content types, such\nas error-like components, you might want to expand on\nthe main semantic information for users with\naccessibility needs. When defining the\nerror states, you can inform the accessibility\nservices of its error semantics and provide expanded\nerror messaging. In this example, TalkBack\nwould hint the main error text, followed by additional\nexpanded messaging. For custom components\nthat track progress, you might want to notify\nusers of its progress changes,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_009",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 956.49,
+    "timestamp_end": 1079.34,
+    "text": "and provide expanded\nerror messaging. In this example, TalkBack\nwould hint the main error text, followed by additional\nexpanded messaging. For custom components\nthat track progress, you might want to notify\nusers of its progress changes, like the current progress\nvalue, its range, and step size. You can do so with\nprogressBarRangeInfo. This ensures that\naccessibility services are aware of progress\nchanges and can update users accordingly. Different assistive\ntechnologies may have unique ways of\nhinting, increasing, and decreasing progression. In custom lists and\ngrids with many items, it might be helpful for\naccessibility services to also have more\ndetailed information, like the total number\nof items and indices, in addition to their main\nsemantic information by using collection info and collection\nitem info on the list and items respectively, and\nTalkBack as an example. In this list, the\nservice announces the total number of items, each\nitem's textual information, and its item's\nindex out of total. There are a number of\ntools that can help quickly inspect the content from an\naccessibility point of view. Using the Android\nAccessibility Suite, which includes Accessibility\nMenu, Select to Speak, and others, provides\ninsight into how your app works for users\nof these technologies. Testing with these\nassistive technologies is highly recommended\nas the best way to understand the\nexperience of app users with accessibility needs. Layout Inspector allows\nyou to inspect and debug semantics of\ncomposables and helps identify any missing or\nincorrect information. The accessibility scanner\napp scans your screen and provides suggestions to\nimprove its accessibility by identifying some\ncommon pitfalls. MELBA NUZEN: Between Compose,\nthe semantic system, and Android Accessibility\nServices, you might run into unexpected\naccessibility behaviors that are difficult to trace. But there's a good chance\nthat semantic properties can help you understand\nwhy your components are behaving the way they are.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_010",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 1067.56,
+    "timestamp_end": 1179.84,
+    "text": "Accessibility\nServices, you might run into unexpected\naccessibility behaviors that are difficult to trace. But there's a good chance\nthat semantic properties can help you understand\nwhy your components are behaving the way they are. You can debug with a\ntool of your choice, from Layout Inspector\nin Android Studio, to TreeDebug in TalkBack\ndeveloper settings, to composeTestRule.printToLog. These tools provide information\nabout nodes and their properties that are exposed to\naccessibility services by Compose. As an example, let's take\na look at Layout Inspector. What if you had a screen\nwith three elements, but with accessibility\nservices on, the first one wasn't\nbeing selected and the second one didn't have\nany action feedback associated with it? We can examine the\nsemantic properties to see if there's anything suspicious. The component tree\nin Layout Inspector contains information\nabout an element's bounds, parameters, and\nsemantic properties. In our tree, we see\nall three elements, but the first one has a hide\nfrom accessibility applied. That can help us debug why\nit isn't being selected. Maybe the element is\nmarked as hidden somewhere in the semantics\ntree, or Compose considers it obscured because\nof some decorative overlay. The second element\nhas a focus property, but no on-click like\nthe previous element. So this element is probably\nmissing a clickable modifier somewhere, which is why\nan accessibility service, like TalkBack, may not announce\nan action signal to the user, like double tap to activate. If we look at the\nthird element, it has all the properties we want. It is focusable,\nhas an on-click, and other additional\nsemantics are applied, which is why it's\ninterpreted as expected. In this way, debugging\ntools can help investigate why certain announcements\nor selections aren't happening with your\naccessibility services. Much of what we covered today\ncan be manually verified, for example, by turning\nan accessibility service, like Switch Access,\non and checking that all works as expected.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_011",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 1169.01,
+    "timestamp_end": 1284.32,
+    "text": "happening with your\naccessibility services. Much of what we covered today\ncan be manually verified, for example, by turning\nan accessibility service, like Switch Access,\non and checking that all works as expected. However, in conjunction\nwith manual verification, you should also use\nautomated testing to flag any potential issues that\ncould impact user experiences. Existing testing\nAPIs in Compose allow you to write\nautomated tests that interact with semantic\nelements, and to assert properties defined in your UI. But you can now use the\nAccessibility Test Framework, the same framework underlying\nAccessibility Scanner and Accessibility\nChecks in Espresso, to perform some\nchecks automatically, starting with Compose 1.8. To do so, add the UI test\njunit4 accessibility library to use accessibility checks. To enable them, call\nenable accessibility checks in the Android Compose test rule\nand trigger an action, or try perform accessibility checks. This specific test fails with\nan exception and a message that the item may not\nhave a label readable by accessibility services. Other checks can look for color\ncontrast, touch target size, or elements traversal order. In combination with\nmanual testing, automated tests that use\nboth Compose APIs, as well as the Accessibility\nTest Framework, can help detect possible problems early\non in the development life cycle. We've covered a lot today,\nfrom classifying composables for accessibility,\nto understanding when and how to set\ncertain semantics, to exploring how to test\nand debug components. We hope you've picked up\na few more tips on how to make your Compose\napp more inclusive, and how to unlock delightful\nexperiences for even more users to enjoy. SIMONA MILANOVIC: Knowing when\nto add just a quick content description to an image, or\na larger set of semantics for a custom\ncomponent, means you're helping accessibility services\nbetter present your component, leading to a better\napp experience for accessibility users. If you want to dive deeper\ninto Compose accessibility,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "80qkStdDWXQ__chunk_012",
+    "schema_version": "canonical_v1",
+    "video_id": "80qkStdDWXQ",
+    "title": "Google I/O 2025 \u2013 80qkStdDWXQ",
+    "timestamp_start": 1272.22,
+    "timestamp_end": 1297.95,
+    "text": "for a custom\ncomponent, means you're helping accessibility services\nbetter present your component, leading to a better\napp experience for accessibility users. If you want to dive deeper\ninto Compose accessibility, take a look at our\nnewly added guidance. Link in the description. Thank you for being a part\nof an ecosystem of highly accessible, inclusive apps. Happy coding! [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

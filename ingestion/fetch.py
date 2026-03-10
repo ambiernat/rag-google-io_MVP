@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 from datetime import datetime, timezone
 import yaml
+import time
 
 # --------------------
 # Paths
@@ -52,9 +53,13 @@ def log_manifest(entry: dict) -> None:
 
 api = YouTubeTranscriptApi()
 
-def fetch_transcript(api, video_id: str, languages=("en",)):
+def fetch_transcript(video_id: str, languages=("en",)):
+    print(f"  → Requesting transcript from YouTube...")  # ← Added
     transcripts = api.list(video_id)
+    print(f"  → Found available transcripts")  # ← Added
+    
     transcript = transcripts.find_transcript(languages)
+    print(f"  → Downloading transcript in {transcript.language_code}...")  # ← Added
 
     segments = [
         {
@@ -65,6 +70,7 @@ def fetch_transcript(api, video_id: str, languages=("en",)):
         for item in transcript.fetch()
     ]
 
+    print(f"  → Downloaded {len(segments)} segments")  # ← Added
     return segments, transcript.language_code
 
 
@@ -88,17 +94,33 @@ def build_raw_payload(
 # --------------------
 def main(video_ids: list[str], languages: list[str], overwrite: bool = False) -> None:
     languages = tuple(languages)
+    total = len(video_ids)  # ← Added
+    
+    print(f"\n{'='*60}")  # ← Added
+    print(f"Starting fetch for {total} videos")  # ← Added
+    print(f"Overwrite mode: {overwrite}")  # ← Added
+    print(f"{'='*60}\n")  # ← Added
 
-    for video_id in video_ids:
+    for idx, video_id in enumerate(video_ids, 1):  # ← Changed to enumerate
+        print(f"\n[{idx}/{total}] Processing: {video_id}")  # ← Added
+        print(f"  URL: https://www.youtube.com/watch?v={video_id}")  # ← Added
+        
         out_path = RAW_DIR / f"{video_id}.json"
 
         if out_path.exists() and not overwrite:
-            print(f"[SKIP] {video_id} already exists")
+            print(f"  [SKIP] Already exists (overwrite=False)")
             continue
+        
+        if out_path.exists() and overwrite:
+            print(f"  [OVERWRITE] File exists, re-downloading...")  # ← Added
 
         try:
-            segments, language = fetch_transcript(api, video_id, languages)
-
+            start_time = time.time()  # ← Added
+            segments, language = fetch_transcript(video_id, languages)
+            fetch_duration = time.time() - start_time  # ← Added
+            
+            print(f"  → Saving to disk...")  # ← Added
+            
             payload = build_raw_payload(
                 video_id=video_id,
                 language=language,
@@ -118,7 +140,9 @@ def main(video_ids: list[str], languages: list[str], overwrite: bool = False) ->
                 }
             )
 
-            print(f"[OK] Fetched transcript for {video_id}")
+            print(f"  ✓ SUCCESS in {fetch_duration:.1f}s")  # ← Changed
+            print(f"  → Waiting 2 seconds before next video...")  # ← Added
+            time.sleep(2)
 
         except (TranscriptsDisabled, NoTranscriptFound) as e:
             log_manifest(
@@ -130,7 +154,7 @@ def main(video_ids: list[str], languages: list[str], overwrite: bool = False) ->
                     "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
-            print(f"[NO TRANSCRIPT] {video_id}: {e}")
+            print(f"  ✗ NO TRANSCRIPT: {e}")  # ← Changed
 
         except Exception as e:
             log_manifest(
@@ -142,8 +166,13 @@ def main(video_ids: list[str], languages: list[str], overwrite: bool = False) ->
                     "timestamp": datetime.now(timezone.utc).isoformat(),
                 }
             )
-            print(f"[ERROR] {video_id}: {e}")
-
+            print(f"  ✗ ERROR: {e}")  # ← Changed
+            print(f"  → Waiting 5 seconds before retry...")  # ← Added
+            time.sleep(5)
+    
+    print(f"\n{'='*60}")  # ← Added
+    print(f"Fetch complete! Processed {total} videos")  # ← Added
+    print(f"{'='*60}\n")  # ← Added
 
 # --------------------
 # Entry point

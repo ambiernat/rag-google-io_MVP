@@ -1,0 +1,2297 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "jrr8gRI1GaY",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi, I'm Fergie, product management",
+      "start": 5.759,
+      "duration": 4.281
+    },
+    {
+      "text": "director at Google, working on AI",
+      "start": 8.0,
+      "duration": 4.4
+    },
+    {
+      "text": "agents. AI generated code is",
+      "start": 10.04,
+      "duration": 4.28
+    },
+    {
+      "text": "increasingly part of the landscape of",
+      "start": 12.4,
+      "duration": 3.959
+    },
+    {
+      "text": "software developers, including those at",
+      "start": 14.32,
+      "duration": 4.48
+    },
+    {
+      "text": "Google. I'm really excited to show you",
+      "start": 16.359,
+      "duration": 4.68
+    },
+    {
+      "text": "how you can use Google's AI agents to",
+      "start": 18.8,
+      "duration": 4.479
+    },
+    {
+      "text": "reduce toil and boost productivity all",
+      "start": 21.039,
+      "duration": 4.361
+    },
+    {
+      "text": "across the software development life",
+      "start": 23.279,
+      "duration": 4.641
+    },
+    {
+      "text": "cycle. It's an interesting period in the",
+      "start": 25.4,
+      "duration": 4.279
+    },
+    {
+      "text": "history of software engineering. AI",
+      "start": 27.92,
+      "duration": 4.4
+    },
+    {
+      "text": "agents are clearly useful and exciting,",
+      "start": 29.679,
+      "duration": 4.241
+    },
+    {
+      "text": "but most people are still trying to",
+      "start": 32.32,
+      "duration": 3.6
+    },
+    {
+      "text": "figure out how they can fully unlock",
+      "start": 33.92,
+      "duration": 4.0
+    },
+    {
+      "text": "their potential by taking care of the",
+      "start": 35.92,
+      "duration": 3.76
+    },
+    {
+      "text": "stuff that they don't want to do so they",
+      "start": 37.92,
+      "duration": 3.12
+    },
+    {
+      "text": "can focus on the stuff that they really",
+      "start": 39.68,
+      "duration": 2.44
+    },
+    {
+      "text": "do want to",
+      "start": 41.04,
+      "duration": 4.0
+    },
+    {
+      "text": "do. We're thinking about how agents can",
+      "start": 42.12,
+      "duration": 6.04
+    },
+    {
+      "text": "help beyond generating code. We all know",
+      "start": 45.04,
+      "duration": 4.72
+    },
+    {
+      "text": "there's a lot goes into shipping",
+      "start": 48.16,
+      "duration": 3.919
+    },
+    {
+      "text": "reliable production grade software. It",
+      "start": 49.76,
+      "duration": 5.68
+    },
+    {
+      "text": "goes well beyond just design and coding.",
+      "start": 52.079,
+      "duration": 5.281
+    },
+    {
+      "text": "By building agents across the life",
+      "start": 55.44,
+      "duration": 4.16
+    },
+    {
+      "text": "cycle, we can make software engineering",
+      "start": 57.36,
+      "duration": 5.72
+    },
+    {
+      "text": "better, faster, and best of all, less",
+      "start": 59.6,
+      "duration": 5.599
+    },
+    {
+      "text": "troublesome. And never has this been",
+      "start": 63.08,
+      "duration": 5.0
+    },
+    {
+      "text": "more important than it is today. As more",
+      "start": 65.199,
+      "duration": 4.721
+    },
+    {
+      "text": "and more code is AI generated,",
+      "start": 68.08,
+      "duration": 4.0
+    },
+    {
+      "text": "bottlenecks begin to appear in the code",
+      "start": 69.92,
+      "duration": 4.8
+    },
+    {
+      "text": "review, testing, deployment, and other",
+      "start": 72.08,
+      "duration": 3.64
+    },
+    {
+      "text": "life cycle",
+      "start": 74.72,
+      "duration": 3.84
+    },
+    {
+      "text": "stages. And until AI generated code is",
+      "start": 75.72,
+      "duration": 5.16
+    },
+    {
+      "text": "consistently trustworthy. These steps",
+      "start": 78.56,
+      "duration": 4.48
+    },
+    {
+      "text": "have outsized importance in ensuring",
+      "start": 80.88,
+      "duration": 5.239
+    },
+    {
+      "text": "that the software you ship remains",
+      "start": 83.04,
+      "duration": 5.52
+    },
+    {
+      "text": "reliable. We have ways of measuring the",
+      "start": 86.119,
+      "duration": 4.241
+    },
+    {
+      "text": "performance of software engineering",
+      "start": 88.56,
+      "duration": 4.4
+    },
+    {
+      "text": "teams. Our research shows that teams",
+      "start": 90.36,
+      "duration": 4.6
+    },
+    {
+      "text": "that take less time to merge committed",
+      "start": 92.96,
+      "duration": 4.24
+    },
+    {
+      "text": "code and release code more frequently to",
+      "start": 94.96,
+      "duration": 4.28
+    },
+    {
+      "text": "end users perform better",
+      "start": 97.2,
+      "duration": 4.64
+    },
+    {
+      "text": "overall. Thinking about reliability or",
+      "start": 99.24,
+      "duration": 5.0
+    },
+    {
+      "text": "stability, we try to optimize for",
+      "start": 101.84,
+      "duration": 4.639
+    },
+    {
+      "text": "reduced fail rates and reduced recovery",
+      "start": 104.24,
+      "duration": 5.28
+    },
+    {
+      "text": "times. Again, our research shows that",
+      "start": 106.479,
+      "duration": 4.881
+    },
+    {
+      "text": "teams that drive these numbers down tend",
+      "start": 109.52,
+      "duration": 5.04
+    },
+    {
+      "text": "to perform better all around. Performing",
+      "start": 111.36,
+      "duration": 4.88
+    },
+    {
+      "text": "well on these metrics leads to better",
+      "start": 114.56,
+      "duration": 4.48
+    },
+    {
+      "text": "results for end users, too. So, we want",
+      "start": 116.24,
+      "duration": 4.8
+    },
+    {
+      "text": "our agents to contribute to these",
+      "start": 119.04,
+      "duration": 3.8
+    },
+    {
+      "text": "specific",
+      "start": 121.04,
+      "duration": 3.6
+    },
+    {
+      "text": "metrics. There are qualitative",
+      "start": 122.84,
+      "duration": 3.319
+    },
+    {
+      "text": "approaches to measuring our work as",
+      "start": 124.64,
+      "duration": 4.8
+    },
+    {
+      "text": "well. A lot of it boils down to toil.",
+      "start": 126.159,
+      "duration": 4.72
+    },
+    {
+      "text": "The things you wish you didn't have to",
+      "start": 129.44,
+      "duration": 4.159
+    },
+    {
+      "text": "do. toil leads to slower onboarding,",
+      "start": 130.879,
+      "duration": 4.72
+    },
+    {
+      "text": "excessive contact switching, high",
+      "start": 133.599,
+      "duration": 4.561
+    },
+    {
+      "text": "maintenance costs, tech debt, and",
+      "start": 135.599,
+      "duration": 4.36
+    },
+    {
+      "text": "overall repetitive",
+      "start": 138.16,
+      "duration": 4.56
+    },
+    {
+      "text": "tasks. Agents are prime candidates for",
+      "start": 139.959,
+      "duration": 4.841
+    },
+    {
+      "text": "addressing these problems, and that's",
+      "start": 142.72,
+      "duration": 4.28
+    },
+    {
+      "text": "exactly what we've",
+      "start": 144.8,
+      "duration": 5.28
+    },
+    {
+      "text": "prioritized. Now, switching gears a bit,",
+      "start": 147.0,
+      "duration": 5.4
+    },
+    {
+      "text": "there really two approaches to agents,",
+      "start": 150.08,
+      "duration": 5.12
+    },
+    {
+      "text": "and both have their places. First is the",
+      "start": 152.4,
+      "duration": 4.839
+    },
+    {
+      "text": "idea of general",
+      "start": 155.2,
+      "duration": 4.72
+    },
+    {
+      "text": "agents. This is the idea of a single",
+      "start": 157.239,
+      "duration": 4.681
+    },
+    {
+      "text": "SDLC agent. that you can feed",
+      "start": 159.92,
+      "duration": 3.92
+    },
+    {
+      "text": "instructions to and get a composite",
+      "start": 161.92,
+      "duration": 5.039
+    },
+    {
+      "text": "solution that uses a variety of tools.",
+      "start": 163.84,
+      "duration": 5.2
+    },
+    {
+      "text": "This is great for multi-step tasks that",
+      "start": 166.959,
+      "duration": 4.841
+    },
+    {
+      "text": "benefit from autonomous planning and",
+      "start": 169.04,
+      "duration": 5.279
+    },
+    {
+      "text": "decision-m. But general agents aren't",
+      "start": 171.8,
+      "duration": 4.84
+    },
+    {
+      "text": "always the right tool for the job.",
+      "start": 174.319,
+      "duration": 4.401
+    },
+    {
+      "text": "Sometimes you have discrete tasks you",
+      "start": 176.64,
+      "duration": 3.679
+    },
+    {
+      "text": "want to accomplish or important",
+      "start": 178.72,
+      "duration": 3.28
+    },
+    {
+      "text": "information you want to surface at the",
+      "start": 180.319,
+      "duration": 4.801
+    },
+    {
+      "text": "right time. This is where specific",
+      "start": 182.0,
+      "duration": 5.36
+    },
+    {
+      "text": "purpose-built agents come in. They're",
+      "start": 185.12,
+      "duration": 4.08
+    },
+    {
+      "text": "geared towards a different flow, one",
+      "start": 187.36,
+      "duration": 5.0
+    },
+    {
+      "text": "that focuses more on existing SDLC",
+      "start": 189.2,
+      "duration": 5.84
+    },
+    {
+      "text": "processes. In this video, we're going to",
+      "start": 192.36,
+      "duration": 4.56
+    },
+    {
+      "text": "show you two of our purpose-built",
+      "start": 195.04,
+      "duration": 4.24
+    },
+    {
+      "text": "agents. Cameron will show you our code",
+      "start": 196.92,
+      "duration": 4.28
+    },
+    {
+      "text": "documentation agent, which helps you",
+      "start": 199.28,
+      "duration": 4.0
+    },
+    {
+      "text": "understand and chat with your codebase",
+      "start": 201.2,
+      "duration": 4.64
+    },
+    {
+      "text": "with a novel kind of hierarchal wiki",
+      "start": 203.28,
+      "duration": 4.48
+    },
+    {
+      "text": "style documentation.",
+      "start": 205.84,
+      "duration": 3.84
+    },
+    {
+      "text": "Then Jay is going to show you our AI",
+      "start": 207.76,
+      "duration": 3.6
+    },
+    {
+      "text": "testing agent which is sort of",
+      "start": 209.68,
+      "duration": 4.16
+    },
+    {
+      "text": "adversarial agent that red teams your",
+      "start": 211.36,
+      "duration": 4.959
+    },
+    {
+      "text": "LLM calls to ensure that the results it",
+      "start": 213.84,
+      "duration": 3.88
+    },
+    {
+      "text": "returns are",
+      "start": 216.319,
+      "duration": 4.0
+    },
+    {
+      "text": "safe. These two agents are integrated",
+      "start": 217.72,
+      "duration": 5.0
+    },
+    {
+      "text": "into Gemini code assist. So I want to",
+      "start": 220.319,
+      "duration": 4.321
+    },
+    {
+      "text": "cover some of the highlights you'll get",
+      "start": 222.72,
+      "duration": 4.12
+    },
+    {
+      "text": "to experience in the latest",
+      "start": 224.64,
+      "duration": 4.64
+    },
+    {
+      "text": "version. One of the newest features is",
+      "start": 226.84,
+      "duration": 5.16
+    },
+    {
+      "text": "the canban board. You might recognize",
+      "start": 229.28,
+      "duration": 5.12
+    },
+    {
+      "text": "this from agile project management,",
+      "start": 232.0,
+      "duration": 4.48
+    },
+    {
+      "text": "which is a tool designed to help",
+      "start": 234.4,
+      "duration": 4.839
+    },
+    {
+      "text": "visualize work and maximize",
+      "start": 236.48,
+      "duration": 5.2
+    },
+    {
+      "text": "efficiency. This is really important in",
+      "start": 239.239,
+      "duration": 4.601
+    },
+    {
+      "text": "the age of agents where you'll have",
+      "start": 241.68,
+      "duration": 4.639
+    },
+    {
+      "text": "multiple autonomous agents forming",
+      "start": 243.84,
+      "duration": 4.959
+    },
+    {
+      "text": "tasks, requiring your feedback, and",
+      "start": 246.319,
+      "duration": 4.56
+    },
+    {
+      "text": "potentially executing longunning",
+      "start": 248.799,
+      "duration": 4.64
+    },
+    {
+      "text": "operations that you'll want to tab away",
+      "start": 250.879,
+      "duration": 4.161
+    },
+    {
+      "text": "from.",
+      "start": 253.439,
+      "duration": 3.441
+    },
+    {
+      "text": "On the camera board, you'll see what",
+      "start": 255.04,
+      "duration": 3.96
+    },
+    {
+      "text": "your agents were up to at any given",
+      "start": 256.88,
+      "duration": 4.639
+    },
+    {
+      "text": "time, like the one in this slide, which",
+      "start": 259.0,
+      "duration": 5.4
+    },
+    {
+      "text": "is working on migrate your code to the",
+      "start": 261.519,
+      "duration": 4.361
+    },
+    {
+      "text": "latest version of",
+      "start": 264.4,
+      "duration": 3.84
+    },
+    {
+      "text": "Java. When the CAM board needs your",
+      "start": 265.88,
+      "duration": 4.72
+    },
+    {
+      "text": "input, it goes into the action needed",
+      "start": 268.24,
+      "duration": 5.12
+    },
+    {
+      "text": "column. Now you know that it's backed.",
+      "start": 270.6,
+      "duration": 4.44
+    },
+    {
+      "text": "You can know exactly what you need to do",
+      "start": 273.36,
+      "duration": 4.72
+    },
+    {
+      "text": "to unblock it. Here, the Java migration",
+      "start": 275.04,
+      "duration": 4.879
+    },
+    {
+      "text": "agent needs you to authorize it to",
+      "start": 278.08,
+      "duration": 4.96
+    },
+    {
+      "text": "update its dependencies.",
+      "start": 279.919,
+      "duration": 5.361
+    },
+    {
+      "text": "And when the agent is finished, you can",
+      "start": 283.04,
+      "duration": 4.64
+    },
+    {
+      "text": "check out what the agent did as well as",
+      "start": 285.28,
+      "duration": 3.96
+    },
+    {
+      "text": "direct links to the",
+      "start": 287.68,
+      "duration": 4.48
+    },
+    {
+      "text": "details. Our migration agent is done and",
+      "start": 289.24,
+      "duration": 5.32
+    },
+    {
+      "text": "offers us a complete change list that we",
+      "start": 292.16,
+      "duration": 5.64
+    },
+    {
+      "text": "can review, accept or reject as we see",
+      "start": 294.56,
+      "duration": 6.079
+    },
+    {
+      "text": "fit. And when we click into it, we can",
+      "start": 297.8,
+      "duration": 5.24
+    },
+    {
+      "text": "see the actual code changes. We don't",
+      "start": 300.639,
+      "duration": 4.321
+    },
+    {
+      "text": "need to accept everything. We can take",
+      "start": 303.04,
+      "duration": 4.879
+    },
+    {
+      "text": "exactly what we want. Our agents will be",
+      "start": 304.96,
+      "duration": 5.44
+    },
+    {
+      "text": "accessible in Firebase Studio 2, which",
+      "start": 307.919,
+      "duration": 4.321
+    },
+    {
+      "text": "was just announced as a public preview",
+      "start": 310.4,
+      "duration": 4.88
+    },
+    {
+      "text": "at Cloud Next. It's a new agentic",
+      "start": 312.24,
+      "duration": 5.6
+    },
+    {
+      "text": "platform for building complete apps that",
+      "start": 315.28,
+      "duration": 5.28
+    },
+    {
+      "text": "run on the web, on mobile, in embedded",
+      "start": 317.84,
+      "duration": 5.919
+    },
+    {
+      "text": "devices, and more. As you can see here,",
+      "start": 320.56,
+      "duration": 6.0
+    },
+    {
+      "text": "Fire Studio caters to the Genai age.",
+      "start": 323.759,
+      "duration": 5.121
+    },
+    {
+      "text": "It's built on VS Code, so all your",
+      "start": 326.56,
+      "duration": 5.04
+    },
+    {
+      "text": "extensions and configs will still work.",
+      "start": 328.88,
+      "duration": 4.56
+    },
+    {
+      "text": "And it's designed for rapid prototyping",
+      "start": 331.6,
+      "duration": 4.92
+    },
+    {
+      "text": "with a live preview and AI assistance",
+      "start": 333.44,
+      "duration": 5.599
+    },
+    {
+      "text": "throughout. And it's for all developers,",
+      "start": 336.52,
+      "duration": 4.959
+    },
+    {
+      "text": "not just those who only want to use",
+      "start": 339.039,
+      "duration": 5.281
+    },
+    {
+      "text": "AI. You have a choice in using as much",
+      "start": 341.479,
+      "duration": 5.401
+    },
+    {
+      "text": "or as little AI as you want when",
+      "start": 344.32,
+      "duration": 4.4
+    },
+    {
+      "text": "building your apps. So you can always",
+      "start": 346.88,
+      "duration": 3.759
+    },
+    {
+      "text": "switch back to the codecentric view when",
+      "start": 348.72,
+      "duration": 3.84
+    },
+    {
+      "text": "that's needed.",
+      "start": 350.639,
+      "duration": 3.521
+    },
+    {
+      "text": "You get access to the agents that",
+      "start": 352.56,
+      "duration": 3.28
+    },
+    {
+      "text": "Cameron and Jay are going to show you",
+      "start": 354.16,
+      "duration": 3.12
+    },
+    {
+      "text": "whether you choose to use Firebase",
+      "start": 355.84,
+      "duration": 3.6
+    },
+    {
+      "text": "Studio or the Gemini Code Assist",
+      "start": 357.28,
+      "duration": 4.4
+    },
+    {
+      "text": "extension in the VS Code marketplace. So",
+      "start": 359.44,
+      "duration": 4.0
+    },
+    {
+      "text": "you can choose the ID experience that",
+      "start": 361.68,
+      "duration": 2.84
+    },
+    {
+      "text": "works best for",
+      "start": 363.44,
+      "duration": 3.199
+    },
+    {
+      "text": "you. With that, I'm going to turn it",
+      "start": 364.52,
+      "duration": 3.959
+    },
+    {
+      "text": "over to Cameron to show you our code",
+      "start": 366.639,
+      "duration": 3.881
+    },
+    {
+      "text": "documentation",
+      "start": 368.479,
+      "duration": 4.641
+    },
+    {
+      "text": "agent. Thanks, Fergus. As Fergus",
+      "start": 370.52,
+      "duration": 4.119
+    },
+    {
+      "text": "mentioned, I'm Cameron and I'm the",
+      "start": 373.12,
+      "duration": 2.799
+    },
+    {
+      "text": "product lead for the Go programming",
+      "start": 374.639,
+      "duration": 3.601
+    },
+    {
+      "text": "language at Google. Today I'm going to",
+      "start": 375.919,
+      "duration": 4.4
+    },
+    {
+      "text": "show you the code documentation agent.",
+      "start": 378.24,
+      "duration": 4.0
+    },
+    {
+      "text": "We recently started using this agent on",
+      "start": 380.319,
+      "duration": 3.921
+    },
+    {
+      "text": "the go project and I'd like to show you",
+      "start": 382.24,
+      "duration": 4.32
+    },
+    {
+      "text": "why and how it's an incredibly valuable",
+      "start": 384.24,
+      "duration": 4.799
+    },
+    {
+      "text": "tool for large code bases like ours.",
+      "start": 386.56,
+      "duration": 4.479
+    },
+    {
+      "text": "When you think of code documentation,",
+      "start": 389.039,
+      "duration": 4.321
+    },
+    {
+      "text": "you probably think of one of two things.",
+      "start": 391.039,
+      "duration": 4.241
+    },
+    {
+      "text": "First, you might think of documentation",
+      "start": 393.36,
+      "duration": 4.08
+    },
+    {
+      "text": "for your end users. The materials on",
+      "start": 395.28,
+      "duration": 4.32
+    },
+    {
+      "text": "getting started, using certain features,",
+      "start": 397.44,
+      "duration": 3.92
+    },
+    {
+      "text": "or even something more detailed like an",
+      "start": 399.6,
+      "duration": 4.24
+    },
+    {
+      "text": "API reference. The other thing you might",
+      "start": 401.36,
+      "duration": 5.119
+    },
+    {
+      "text": "think of is inline documentation. This",
+      "start": 403.84,
+      "duration": 5.12
+    },
+    {
+      "text": "might be Go docs in a Go project, Java",
+      "start": 406.479,
+      "duration": 4.641
+    },
+    {
+      "text": "docs in a Java project, or even just",
+      "start": 408.96,
+      "duration": 3.92
+    },
+    {
+      "text": "regular old comments in any kind of",
+      "start": 411.12,
+      "duration": 3.919
+    },
+    {
+      "text": "project. All of it in line and adjacent",
+      "start": 412.88,
+      "duration": 4.56
+    },
+    {
+      "text": "to the code it describes. But the code",
+      "start": 415.039,
+      "duration": 4.241
+    },
+    {
+      "text": "documentation agent is neither of those",
+      "start": 417.44,
+      "duration": 4.24
+    },
+    {
+      "text": "things. Rather, the code documentation",
+      "start": 419.28,
+      "duration": 4.24
+    },
+    {
+      "text": "agent is a novel way of representing",
+      "start": 421.68,
+      "duration": 4.239
+    },
+    {
+      "text": "your code in a hierarchical wiki style",
+      "start": 423.52,
+      "duration": 4.48
+    },
+    {
+      "text": "document that makes it easy to zoom in",
+      "start": 425.919,
+      "duration": 4.881
+    },
+    {
+      "text": "and out of your code, all in context, so",
+      "start": 428.0,
+      "duration": 4.319
+    },
+    {
+      "text": "you can see how it connects to the rest",
+      "start": 430.8,
+      "duration": 4.239
+    },
+    {
+      "text": "of your codebase. We find this form of",
+      "start": 432.319,
+      "duration": 4.801
+    },
+    {
+      "text": "documentation to be really insightful,",
+      "start": 435.039,
+      "duration": 4.16
+    },
+    {
+      "text": "especially in large complex code bases",
+      "start": 437.12,
+      "duration": 4.639
+    },
+    {
+      "text": "like ours. The documentation itself is",
+      "start": 439.199,
+      "duration": 4.961
+    },
+    {
+      "text": "useful. You can browse, expand, and",
+      "start": 441.759,
+      "duration": 4.401
+    },
+    {
+      "text": "collapse sections just as you would in",
+      "start": 444.16,
+      "duration": 4.4
+    },
+    {
+      "text": "any wiki style document, and it also",
+      "start": 446.16,
+      "duration": 4.479
+    },
+    {
+      "text": "provides excellent context to your AI",
+      "start": 448.56,
+      "duration": 4.8
+    },
+    {
+      "text": "based chat. Instead of using vectors or",
+      "start": 450.639,
+      "duration": 4.801
+    },
+    {
+      "text": "copying in blocks of code that the AI",
+      "start": 453.36,
+      "duration": 4.239
+    },
+    {
+      "text": "chat has to organize on the fly, the",
+      "start": 455.44,
+      "duration": 4.28
+    },
+    {
+      "text": "pre-organized nature of our hierarchical",
+      "start": 457.599,
+      "duration": 4.401
+    },
+    {
+      "text": "documentation significantly improves our",
+      "start": 459.72,
+      "duration": 5.16
+    },
+    {
+      "text": "AI chat experience. The documentation",
+      "start": 462.0,
+      "duration": 5.12
+    },
+    {
+      "text": "itself looks a lot like any other wiki",
+      "start": 464.88,
+      "duration": 4.4
+    },
+    {
+      "text": "style document you've come across. If",
+      "start": 467.12,
+      "duration": 3.359
+    },
+    {
+      "text": "you want to learn about something",
+      "start": 469.28,
+      "duration": 3.28
+    },
+    {
+      "text": "detailed or in the weeds, you can zoom",
+      "start": 470.479,
+      "duration": 4.881
+    },
+    {
+      "text": "in on the relevant section. By zooming",
+      "start": 472.56,
+      "duration": 4.88
+    },
+    {
+      "text": "in, you see where that specific item",
+      "start": 475.36,
+      "duration": 3.92
+    },
+    {
+      "text": "fits in the bigger picture, which is",
+      "start": 477.44,
+      "duration": 3.439
+    },
+    {
+      "text": "remarkably important for understanding",
+      "start": 479.28,
+      "duration": 3.599
+    },
+    {
+      "text": "the specific item's role and how it",
+      "start": 480.879,
+      "duration": 3.281
+    },
+    {
+      "text": "serves the project's larger",
+      "start": 482.879,
+      "duration": 3.361
+    },
+    {
+      "text": "architecture. The documentation includes",
+      "start": 484.16,
+      "duration": 4.08
+    },
+    {
+      "text": "links to the source code as well, so you",
+      "start": 486.24,
+      "duration": 3.359
+    },
+    {
+      "text": "can jump back and forth from the",
+      "start": 488.24,
+      "duration": 4.16
+    },
+    {
+      "text": "document to the underlying code. Next,",
+      "start": 489.599,
+      "duration": 4.88
+    },
+    {
+      "text": "this wiki style document is incredibly",
+      "start": 492.4,
+      "duration": 4.32
+    },
+    {
+      "text": "useful for your AI assisted chat.",
+      "start": 494.479,
+      "duration": 3.84
+    },
+    {
+      "text": "Because the generated document is",
+      "start": 496.72,
+      "duration": 3.84
+    },
+    {
+      "text": "already organized hierarchically, you",
+      "start": 498.319,
+      "duration": 3.681
+    },
+    {
+      "text": "don't need vectors from a vector",
+      "start": 500.56,
+      "duration": 3.52
+    },
+    {
+      "text": "database or for your LLM to make a best",
+      "start": 502.0,
+      "duration": 4.8
+    },
+    {
+      "text": "guess from the code itself. Instead, you",
+      "start": 504.08,
+      "duration": 5.119
+    },
+    {
+      "text": "get more accurate, helpful responses",
+      "start": 506.8,
+      "duration": 4.079
+    },
+    {
+      "text": "complete with links to jump to the",
+      "start": 509.199,
+      "duration": 3.28
+    },
+    {
+      "text": "relevant part of the generated document",
+      "start": 510.879,
+      "duration": 4.4
+    },
+    {
+      "text": "or the underlying code. And your AI chat",
+      "start": 512.479,
+      "duration": 4.881
+    },
+    {
+      "text": "is even able to generate better code for",
+      "start": 515.279,
+      "duration": 3.76
+    },
+    {
+      "text": "you with an understanding of the context",
+      "start": 517.36,
+      "duration": 4.0
+    },
+    {
+      "text": "in which it goes. On the Go team, we",
+      "start": 519.039,
+      "duration": 4.24
+    },
+    {
+      "text": "found this agent useful for two big use",
+      "start": 521.36,
+      "duration": 4.56
+    },
+    {
+      "text": "cases. First, having a document like",
+      "start": 523.279,
+      "duration": 4.12
+    },
+    {
+      "text": "this is incredibly helpful for",
+      "start": 525.92,
+      "duration": 3.919
+    },
+    {
+      "text": "onboarding. New team members can onboard",
+      "start": 527.399,
+      "duration": 4.44
+    },
+    {
+      "text": "more quickly, and existing team members",
+      "start": 529.839,
+      "duration": 4.0
+    },
+    {
+      "text": "spend less time helping new team members",
+      "start": 531.839,
+      "duration": 4.961
+    },
+    {
+      "text": "learn what does what across our project.",
+      "start": 533.839,
+      "duration": 4.961
+    },
+    {
+      "text": "Second, in a large enough codebase,",
+      "start": 536.8,
+      "duration": 3.76
+    },
+    {
+      "text": "nobody can remember every detail for",
+      "start": 538.8,
+      "duration": 3.599
+    },
+    {
+      "text": "long. There's just too much over too",
+      "start": 540.56,
+      "duration": 3.76
+    },
+    {
+      "text": "much time, and there are parts all of us",
+      "start": 542.399,
+      "duration": 4.401
+    },
+    {
+      "text": "have likely never seen before. Having an",
+      "start": 544.32,
+      "duration": 4.24
+    },
+    {
+      "text": "up-to-date map of the whole codebase",
+      "start": 546.8,
+      "duration": 3.68
+    },
+    {
+      "text": "gives us a great sense of what we know,",
+      "start": 548.56,
+      "duration": 3.6
+    },
+    {
+      "text": "what we don't know, and where we can",
+      "start": 550.48,
+      "duration": 3.359
+    },
+    {
+      "text": "look to quickly get up to speed with",
+      "start": 552.16,
+      "duration": 3.359
+    },
+    {
+      "text": "something we're unfamiliar with. Let me",
+      "start": 553.839,
+      "duration": 3.841
+    },
+    {
+      "text": "show you what I mean. At Google, we lead",
+      "start": 555.519,
+      "duration": 3.76
+    },
+    {
+      "text": "some of the largest open source projects",
+      "start": 557.68,
+      "duration": 3.52
+    },
+    {
+      "text": "in the industry, each with thousands of",
+      "start": 559.279,
+      "duration": 3.521
+    },
+    {
+      "text": "contributors who engage with us by",
+      "start": 561.2,
+      "duration": 3.759
+    },
+    {
+      "text": "filing issues, submitting code, and",
+      "start": 562.8,
+      "duration": 4.64
+    },
+    {
+      "text": "more. Over time, these projects",
+      "start": 564.959,
+      "duration": 4.641
+    },
+    {
+      "text": "accumulate thousands of files, tens of",
+      "start": 567.44,
+      "duration": 3.839
+    },
+    {
+      "text": "thousands of issues, and hundreds of",
+      "start": 569.6,
+      "duration": 4.08
+    },
+    {
+      "text": "thousands to millions of lines of code.",
+      "start": 571.279,
+      "duration": 4.081
+    },
+    {
+      "text": "Keeping all this straight while managing",
+      "start": 573.68,
+      "duration": 3.44
+    },
+    {
+      "text": "contributor engagement and continuing to",
+      "start": 575.36,
+      "duration": 4.08
+    },
+    {
+      "text": "deliver reliable, highquality, and high",
+      "start": 577.12,
+      "duration": 4.48
+    },
+    {
+      "text": "impact products and libraries carries a",
+      "start": 579.44,
+      "duration": 3.519
+    },
+    {
+      "text": "lot of overhead for each of these",
+      "start": 581.6,
+      "duration": 4.0
+    },
+    {
+      "text": "projects, including Go. Imagine you're a",
+      "start": 582.959,
+      "duration": 4.56
+    },
+    {
+      "text": "developer on the Go team. Since its",
+      "start": 585.6,
+      "duration": 4.64
+    },
+    {
+      "text": "inception in 2007, the Go project has",
+      "start": 587.519,
+      "duration": 5.201
+    },
+    {
+      "text": "had more than 60,000 commits, more than",
+      "start": 590.24,
+      "duration": 6.159
+    },
+    {
+      "text": "65,000 issues, more than 15,000 files,",
+      "start": 592.72,
+      "duration": 6.64
+    },
+    {
+      "text": "and more than 500,000 lines of code. All",
+      "start": 596.399,
+      "duration": 5.601
+    },
+    {
+      "text": "created or contributed to by over 2200",
+      "start": 599.36,
+      "duration": 5.36
+    },
+    {
+      "text": "contributors. That means that as a Go",
+      "start": 602.0,
+      "duration": 5.279
+    },
+    {
+      "text": "developer on the Go project, any one of",
+      "start": 604.72,
+      "duration": 4.48
+    },
+    {
+      "text": "2,200 different people may have written",
+      "start": 607.279,
+      "duration": 4.081
+    },
+    {
+      "text": "the code you're looking at. This is all",
+      "start": 609.2,
+      "duration": 3.84
+    },
+    {
+      "text": "a lot for the Go team to work through",
+      "start": 611.36,
+      "duration": 3.44
+    },
+    {
+      "text": "day in and day out. But let's see how",
+      "start": 613.04,
+      "duration": 3.52
+    },
+    {
+      "text": "the code documentation agent can make",
+      "start": 614.8,
+      "duration": 3.84
+    },
+    {
+      "text": "this all far more tractable. Let's",
+      "start": 616.56,
+      "duration": 3.839
+    },
+    {
+      "text": "imagine now that I'm new to the Go",
+      "start": 618.64,
+      "duration": 3.439
+    },
+    {
+      "text": "project and I want to make my first",
+      "start": 620.399,
+      "duration": 3.521
+    },
+    {
+      "text": "contribution. Pretty intimidating,",
+      "start": 622.079,
+      "duration": 3.601
+    },
+    {
+      "text": "right? I start by going to the Go",
+      "start": 623.92,
+      "duration": 3.68
+    },
+    {
+      "text": "project on GitHub where we have a label",
+      "start": 625.68,
+      "duration": 4.88
+    },
+    {
+      "text": "for open issues called help wanted. As a",
+      "start": 627.6,
+      "duration": 4.56
+    },
+    {
+      "text": "new contributor, I want to find one of",
+      "start": 630.56,
+      "duration": 3.839
+    },
+    {
+      "text": "these and see if I can answer the call.",
+      "start": 632.16,
+      "duration": 3.72
+    },
+    {
+      "text": "This one seems good for a first",
+      "start": 634.399,
+      "duration": 3.361
+    },
+    {
+      "text": "contribution. Something about adding",
+      "start": 635.88,
+      "duration": 3.88
+    },
+    {
+      "text": "more practical tests for the TCP keep",
+      "start": 637.76,
+      "duration": 4.48
+    },
+    {
+      "text": "alive mechanism. At first glance, that",
+      "start": 639.76,
+      "duration": 4.639
+    },
+    {
+      "text": "sounds pretty straightforward. But then",
+      "start": 642.24,
+      "duration": 4.32
+    },
+    {
+      "text": "I open up the Go repository and reality",
+      "start": 644.399,
+      "duration": 4.641
+    },
+    {
+      "text": "hits. Where do I even begin? The sheer",
+      "start": 646.56,
+      "duration": 4.0
+    },
+    {
+      "text": "number of files and directories is",
+      "start": 649.04,
+      "duration": 3.28
+    },
+    {
+      "text": "overwhelming, making it difficult to",
+      "start": 650.56,
+      "duration": 3.6
+    },
+    {
+      "text": "know where to start looking, let alone",
+      "start": 652.32,
+      "duration": 4.24
+    },
+    {
+      "text": "understand the relevant code. This is",
+      "start": 654.16,
+      "duration": 3.919
+    },
+    {
+      "text": "precisely the kind of situation where",
+      "start": 656.56,
+      "duration": 3.279
+    },
+    {
+      "text": "the code documentation agent can prove",
+      "start": 658.079,
+      "duration": 3.921
+    },
+    {
+      "text": "its worth. Let's see how it might assist",
+      "start": 659.839,
+      "duration": 4.641
+    },
+    {
+      "text": "us in this scenario. I'll start by",
+      "start": 662.0,
+      "duration": 4.56
+    },
+    {
+      "text": "asking the agent what I want to do. A",
+      "start": 664.48,
+      "duration": 4.32
+    },
+    {
+      "text": "really highle question like how can I",
+      "start": 666.56,
+      "duration": 4.12
+    },
+    {
+      "text": "add tests for the TCP keep alive",
+      "start": 668.8,
+      "duration": 4.479
+    },
+    {
+      "text": "mechanism and in a matter of seconds the",
+      "start": 670.68,
+      "duration": 4.76
+    },
+    {
+      "text": "agent provides actionable guidance. It",
+      "start": 673.279,
+      "duration": 3.68
+    },
+    {
+      "text": "appears it should start by looking at",
+      "start": 675.44,
+      "duration": 4.16
+    },
+    {
+      "text": "the net package specifically the dialer",
+      "start": 676.959,
+      "duration": 4.401
+    },
+    {
+      "text": "strct which manages the keep alive",
+      "start": 679.6,
+      "duration": 4.0
+    },
+    {
+      "text": "parameters. From there, the agent",
+      "start": 681.36,
+      "duration": 4.159
+    },
+    {
+      "text": "suggests implementing the new test cases",
+      "start": 683.6,
+      "duration": 4.16
+    },
+    {
+      "text": "within the testing package. This kind of",
+      "start": 685.519,
+      "duration": 4.401
+    },
+    {
+      "text": "clear direction significantly simplifies",
+      "start": 687.76,
+      "duration": 4.4
+    },
+    {
+      "text": "the task at hand. What's particularly",
+      "start": 689.92,
+      "duration": 3.919
+    },
+    {
+      "text": "valuable about the agents response is",
+      "start": 692.16,
+      "duration": 3.2
+    },
+    {
+      "text": "its direct integration with the",
+      "start": 693.839,
+      "duration": 3.841
+    },
+    {
+      "text": "codebase. It provides links that allow",
+      "start": 695.36,
+      "duration": 4.0
+    },
+    {
+      "text": "you to immediately jump to the relevant",
+      "start": 697.68,
+      "duration": 4.32
+    },
+    {
+      "text": "source code. For instance, let's open up",
+      "start": 699.36,
+      "duration": 5.36
+    },
+    {
+      "text": "net.go in the net package and then",
+      "start": 702.0,
+      "duration": 4.88
+    },
+    {
+      "text": "navigate to the dialer strct where we",
+      "start": 704.72,
+      "duration": 4.2
+    },
+    {
+      "text": "can begin to examine the existing",
+      "start": 706.88,
+      "duration": 4.079
+    },
+    {
+      "text": "implementation. If I need a deeper",
+      "start": 708.92,
+      "duration": 3.56
+    },
+    {
+      "text": "understanding of this particular area of",
+      "start": 710.959,
+      "duration": 3.761
+    },
+    {
+      "text": "the code, the agent also provides links",
+      "start": 712.48,
+      "duration": 4.08
+    },
+    {
+      "text": "back to the hierarchical documentation",
+      "start": 714.72,
+      "duration": 3.92
+    },
+    {
+      "text": "that underpins it directly to the",
+      "start": 716.56,
+      "duration": 3.68
+    },
+    {
+      "text": "specific section that offers more",
+      "start": 718.64,
+      "duration": 4.639
+    },
+    {
+      "text": "context and explanation. And this in",
+      "start": 720.24,
+      "duration": 4.88
+    },
+    {
+      "text": "essence is how the code documentation",
+      "start": 723.279,
+      "duration": 4.321
+    },
+    {
+      "text": "agent can be a significant asset. It's",
+      "start": 725.12,
+      "duration": 4.24
+    },
+    {
+      "text": "not just about helping new contributors",
+      "start": 727.6,
+      "duration": 3.919
+    },
+    {
+      "text": "navigate a large open-source project.",
+      "start": 729.36,
+      "duration": 3.76
+    },
+    {
+      "text": "It's a tool that can accelerate",
+      "start": 731.519,
+      "duration": 3.361
+    },
+    {
+      "text": "onboarding for anyone joining a new",
+      "start": 733.12,
+      "duration": 3.6
+    },
+    {
+      "text": "codebase and provide a valuable",
+      "start": 734.88,
+      "duration": 3.92
+    },
+    {
+      "text": "contextual map for developers of all",
+      "start": 736.72,
+      "duration": 4.48
+    },
+    {
+      "text": "experience levels. And now I'll hand it",
+      "start": 738.8,
+      "duration": 4.0
+    },
+    {
+      "text": "off to Jay to tell us about the AI",
+      "start": 741.2,
+      "duration": 3.48
+    },
+    {
+      "text": "testing",
+      "start": 742.8,
+      "duration": 4.96
+    },
+    {
+      "text": "agent. Thanks Cameron. I'm Jay, a",
+      "start": 744.68,
+      "duration": 4.44
+    },
+    {
+      "text": "product manager working on software",
+      "start": 747.76,
+      "duration": 3.68
+    },
+    {
+      "text": "development agents. In particular, my",
+      "start": 749.12,
+      "duration": 3.839
+    },
+    {
+      "text": "team has been focusing on building an",
+      "start": 751.44,
+      "duration": 3.76
+    },
+    {
+      "text": "adversarial testing agent that automates",
+      "start": 752.959,
+      "duration": 4.241
+    },
+    {
+      "text": "AI red teaming for companies integrating",
+      "start": 755.2,
+      "duration": 5.36
+    },
+    {
+      "text": "generative AI. GCP is committed to",
+      "start": 757.2,
+      "duration": 5.199
+    },
+    {
+      "text": "helping developers integrate and support",
+      "start": 760.56,
+      "duration": 4.8
+    },
+    {
+      "text": "more compliant, secure, and private AI",
+      "start": 762.399,
+      "duration": 4.761
+    },
+    {
+      "text": "into their products and",
+      "start": 765.36,
+      "duration": 3.76
+    },
+    {
+      "text": "services. Concerns we're hearing from",
+      "start": 767.16,
+      "duration": 3.64
+    },
+    {
+      "text": "customers are often around ensuring that",
+      "start": 769.12,
+      "duration": 4.0
+    },
+    {
+      "text": "AI systems are acting as intended based",
+      "start": 770.8,
+      "duration": 3.88
+    },
+    {
+      "text": "on the audience in",
+      "start": 773.12,
+      "duration": 4.0
+    },
+    {
+      "text": "question. For example, you might want to",
+      "start": 774.68,
+      "duration": 3.959
+    },
+    {
+      "text": "ensure that your application is only",
+      "start": 777.12,
+      "duration": 4.0
+    },
+    {
+      "text": "discussing topics relevant to children.",
+      "start": 778.639,
+      "duration": 3.841
+    },
+    {
+      "text": "Or you might want to help ensure that",
+      "start": 781.12,
+      "duration": 3.12
+    },
+    {
+      "text": "your product isn't creating posts with",
+      "start": 782.48,
+      "duration": 4.32
+    },
+    {
+      "text": "potentially offensive content.",
+      "start": 784.24,
+      "duration": 4.8
+    },
+    {
+      "text": "AI adversarial testing is our answer to",
+      "start": 786.8,
+      "duration": 4.159
+    },
+    {
+      "text": "application developers looking to test",
+      "start": 789.04,
+      "duration": 4.0
+    },
+    {
+      "text": "their generative AI implementations to",
+      "start": 790.959,
+      "duration": 3.721
+    },
+    {
+      "text": "ensure they're safe for",
+      "start": 793.04,
+      "duration": 4.32
+    },
+    {
+      "text": "users. This system replaces manual red",
+      "start": 794.68,
+      "duration": 3.8
+    },
+    {
+      "text": "teamming efforts performed by",
+      "start": 797.36,
+      "duration": 3.88
+    },
+    {
+      "text": "organizations today with an automated",
+      "start": 798.48,
+      "duration": 5.12
+    },
+    {
+      "text": "system. This system generates a wide",
+      "start": 801.24,
+      "duration": 4.279
+    },
+    {
+      "text": "range of adversarial prompts using an",
+      "start": 803.6,
+      "duration": 4.56
+    },
+    {
+      "text": "unfiltered model. The tool then takes",
+      "start": 805.519,
+      "duration": 4.161
+    },
+    {
+      "text": "these prompts and feeds them to your",
+      "start": 808.16,
+      "duration": 3.679
+    },
+    {
+      "text": "LLM, capturing any responses it",
+      "start": 809.68,
+      "duration": 4.48
+    },
+    {
+      "text": "receives. The response are then",
+      "start": 811.839,
+      "duration": 4.24
+    },
+    {
+      "text": "evaluated based on the content policies",
+      "start": 814.16,
+      "duration": 3.6
+    },
+    {
+      "text": "and a report is drafted that can be",
+      "start": 816.079,
+      "duration": 4.401
+    },
+    {
+      "text": "downloaded and shared with your team.",
+      "start": 817.76,
+      "duration": 4.319
+    },
+    {
+      "text": "This falls into a wider group of",
+      "start": 820.48,
+      "duration": 2.96
+    },
+    {
+      "text": "technical mitigations which",
+      "start": 822.079,
+      "duration": 3.121
+    },
+    {
+      "text": "best-in-class teams are deploying in",
+      "start": 823.44,
+      "duration": 4.0
+    },
+    {
+      "text": "order to ensure risk mitigation at every",
+      "start": 825.2,
+      "duration": 5.72
+    },
+    {
+      "text": "stage of generative AI integration and",
+      "start": 827.44,
+      "duration": 5.44
+    },
+    {
+      "text": "deployment. This also fits within",
+      "start": 830.92,
+      "duration": 3.56
+    },
+    {
+      "text": "Google's wider set of tooling to help",
+      "start": 832.88,
+      "duration": 4.56
+    },
+    {
+      "text": "developers in this area. In particular,",
+      "start": 834.48,
+      "duration": 4.96
+    },
+    {
+      "text": "once users receive their AI adversarial",
+      "start": 837.44,
+      "duration": 3.68
+    },
+    {
+      "text": "testing report, they can share it with",
+      "start": 839.44,
+      "duration": 3.519
+    },
+    {
+      "text": "their team and go to model armor in",
+      "start": 841.12,
+      "duration": 3.44
+    },
+    {
+      "text": "order to take advantage of capabilities",
+      "start": 842.959,
+      "duration": 3.921
+    },
+    {
+      "text": "such as AI guardrails, prompt injection",
+      "start": 844.56,
+      "duration": 4.16
+    },
+    {
+      "text": "protection, jailbreak protection, and",
+      "start": 846.88,
+      "duration": 4.0
+    },
+    {
+      "text": "more. We can draw an analogy here",
+      "start": 848.72,
+      "duration": 4.84
+    },
+    {
+      "text": "between AI guardrails, and a network",
+      "start": 850.88,
+      "duration": 4.959
+    },
+    {
+      "text": "firewall. Adversarial testing is a way",
+      "start": 853.56,
+      "duration": 4.12
+    },
+    {
+      "text": "to look for potential issues, and model",
+      "start": 855.839,
+      "duration": 3.761
+    },
+    {
+      "text": "armor lets you protect your systems in",
+      "start": 857.68,
+      "duration": 3.519
+    },
+    {
+      "text": "production.",
+      "start": 859.6,
+      "duration": 3.2
+    },
+    {
+      "text": "We're excited to put a tool in your",
+      "start": 861.199,
+      "duration": 3.041
+    },
+    {
+      "text": "hands so that you can work alongside",
+      "start": 862.8,
+      "duration": 3.76
+    },
+    {
+      "text": "your security counterparts to test AI",
+      "start": 864.24,
+      "duration": 4.32
+    },
+    {
+      "text": "implementations and take action at a",
+      "start": 866.56,
+      "duration": 4.6
+    },
+    {
+      "text": "deeper level of infrastructure via model",
+      "start": 868.56,
+      "duration": 4.88
+    },
+    {
+      "text": "armor. You can start by triggering the",
+      "start": 871.16,
+      "duration": 3.96
+    },
+    {
+      "text": "AI adversarial testing agent within",
+      "start": 873.44,
+      "duration": 4.68
+    },
+    {
+      "text": "Gemini Code Assist or Firebase",
+      "start": 875.12,
+      "duration": 5.279
+    },
+    {
+      "text": "Studio. The agent will respond by",
+      "start": 878.12,
+      "duration": 4.2
+    },
+    {
+      "text": "summarizing its intended actions,",
+      "start": 880.399,
+      "duration": 3.68
+    },
+    {
+      "text": "including which content policies it",
+      "start": 882.32,
+      "duration": 3.759
+    },
+    {
+      "text": "plans to cover.",
+      "start": 884.079,
+      "duration": 3.921
+    },
+    {
+      "text": "You'll then be taken to the conbon board",
+      "start": 886.079,
+      "duration": 4.0
+    },
+    {
+      "text": "where you can keep tabs on the AI agents",
+      "start": 888.0,
+      "duration": 3.56
+    },
+    {
+      "text": "working on your",
+      "start": 890.079,
+      "duration": 4.0
+    },
+    {
+      "text": "project. You'll see the AI adversarial",
+      "start": 891.56,
+      "duration": 4.279
+    },
+    {
+      "text": "testing activity in the action needed",
+      "start": 894.079,
+      "duration": 3.76
+    },
+    {
+      "text": "tab because we need to connect the agent",
+      "start": 895.839,
+      "duration": 3.641
+    },
+    {
+      "text": "to our",
+      "start": 897.839,
+      "duration": 4.641
+    },
+    {
+      "text": "LLM. Here we'll fill in a few details.",
+      "start": 899.48,
+      "duration": 5.24
+    },
+    {
+      "text": "We're using Vert.Ex AI and we will also",
+      "start": 902.48,
+      "duration": 4.28
+    },
+    {
+      "text": "support third party",
+      "start": 904.72,
+      "duration": 4.32
+    },
+    {
+      "text": "providers. If you'd like, you can also",
+      "start": 906.76,
+      "duration": 4.439
+    },
+    {
+      "text": "modify the LLM settings to ensure it's",
+      "start": 909.04,
+      "duration": 4.32
+    },
+    {
+      "text": "an accurate representation of your model",
+      "start": 911.199,
+      "duration": 4.64
+    },
+    {
+      "text": "in production.",
+      "start": 913.36,
+      "duration": 4.24
+    },
+    {
+      "text": "Once the action is underway, the card",
+      "start": 915.839,
+      "duration": 3.721
+    },
+    {
+      "text": "will move to the running",
+      "start": 917.6,
+      "duration": 4.4
+    },
+    {
+      "text": "section. The agent will keep you updated",
+      "start": 919.56,
+      "duration": 4.92
+    },
+    {
+      "text": "on what it's doing behind the scenes.",
+      "start": 922.0,
+      "duration": 3.839
+    },
+    {
+      "text": "First, it's going to generate",
+      "start": 924.48,
+      "duration": 3.159
+    },
+    {
+      "text": "adversarial",
+      "start": 925.839,
+      "duration": 3.68
+    },
+    {
+      "text": "prompts. After the prompts are",
+      "start": 927.639,
+      "duration": 3.801
+    },
+    {
+      "text": "generated, they're fed to the LLM you",
+      "start": 929.519,
+      "duration": 3.921
+    },
+    {
+      "text": "connected and the response are evaluated",
+      "start": 931.44,
+      "duration": 4.68
+    },
+    {
+      "text": "to determine if they are in or out of",
+      "start": 933.44,
+      "duration": 5.199
+    },
+    {
+      "text": "policy. Once the prompts are evaluated,",
+      "start": 936.12,
+      "duration": 5.32
+    },
+    {
+      "text": "a report is generated.",
+      "start": 938.639,
+      "duration": 4.64
+    },
+    {
+      "text": "We can see a highle summary of the",
+      "start": 941.44,
+      "duration": 3.839
+    },
+    {
+      "text": "report on the conbon board and can click",
+      "start": 943.279,
+      "duration": 3.481
+    },
+    {
+      "text": "in to view more",
+      "start": 945.279,
+      "duration": 3.68
+    },
+    {
+      "text": "information. In the report, we'll find a",
+      "start": 946.76,
+      "duration": 4.4
+    },
+    {
+      "text": "summary of the findings in the top left",
+      "start": 948.959,
+      "duration": 4.56
+    },
+    {
+      "text": "corner. Underneath that, we'll find a",
+      "start": 951.16,
+      "duration": 4.039
+    },
+    {
+      "text": "visual representation of the findings",
+      "start": 953.519,
+      "duration": 3.841
+    },
+    {
+      "text": "across all of the policies tested,",
+      "start": 955.199,
+      "duration": 3.76
+    },
+    {
+      "text": "including insights into the model",
+      "start": 957.36,
+      "duration": 3.44
+    },
+    {
+      "text": "strengths and areas for improvement",
+      "start": 958.959,
+      "duration": 4.641
+    },
+    {
+      "text": "based on how it was implemented. At the",
+      "start": 960.8,
+      "duration": 4.08
+    },
+    {
+      "text": "bottom of the page, you can find a",
+      "start": 963.6,
+      "duration": 3.12
+    },
+    {
+      "text": "detailed list of all results, which can",
+      "start": 964.88,
+      "duration": 3.92
+    },
+    {
+      "text": "be filtered by past fail status or",
+      "start": 966.72,
+      "duration": 4.239
+    },
+    {
+      "text": "policy type.",
+      "start": 968.8,
+      "duration": 4.08
+    },
+    {
+      "text": "Lastly, you can download the report to",
+      "start": 970.959,
+      "duration": 3.521
+    },
+    {
+      "text": "share it with your team and click into",
+      "start": 972.88,
+      "duration": 4.199
+    },
+    {
+      "text": "Model Armor to take action on the",
+      "start": 974.48,
+      "duration": 4.64
+    },
+    {
+      "text": "results. A special thank you for",
+      "start": 977.079,
+      "duration": 3.641
+    },
+    {
+      "text": "watching and contributing to Google's",
+      "start": 979.12,
+      "duration": 3.839
+    },
+    {
+      "text": "developer community. We wouldn't be here",
+      "start": 980.72,
+      "duration": 3.919
+    },
+    {
+      "text": "without you and we hope that these tools",
+      "start": 982.959,
+      "duration": 3.201
+    },
+    {
+      "text": "help you continue putting incredible",
+      "start": 984.639,
+      "duration": 5.401
+    },
+    {
+      "text": "products into the world.",
+      "start": 986.16,
+      "duration": 3.88
+    },
+    {
+      "text": "[Applause]",
+      "start": 991.67,
+      "duration": 3.21
+    }
+  ]
+}

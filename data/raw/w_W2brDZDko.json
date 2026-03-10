@@ -1,0 +1,5402 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "w_W2brDZDko",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.976
+    },
+    {
+      "text": "RICHARD SEROTER: All\nright, welcome, everybody.",
+      "start": 5.842,
+      "duration": 1.958
+    },
+    {
+      "text": "What's new in Cloud.",
+      "start": 7.8,
+      "duration": 1.16
+    },
+    {
+      "text": "Now, my name is Richard.",
+      "start": 8.96,
+      "duration": 1.0
+    },
+    {
+      "text": "I'm going to spend the next 45\nminutes or so giving you about",
+      "start": 9.96,
+      "duration": 3.23
+    },
+    {
+      "text": "1,000 announcements that I\nexpect you to all remember,",
+      "start": 13.19,
+      "duration": 2.578
+    },
+    {
+      "text": "by the end of this.",
+      "start": 15.768,
+      "duration": 0.792
+    },
+    {
+      "text": "It's going to be great.",
+      "start": 16.56,
+      "duration": 1.14
+    },
+    {
+      "text": "So ton happening in Cloud.",
+      "start": 17.7,
+      "duration": 2.1
+    },
+    {
+      "text": "Hopefully, you already got\nexcited by other keynotes today.",
+      "start": 19.8,
+      "duration": 2.82
+    },
+    {
+      "text": "So we're going to jump\nright in and talk about,",
+      "start": 22.62,
+      "duration": 2.51
+    },
+    {
+      "text": "of course, what's new with AI.",
+      "start": 25.13,
+      "duration": 1.3
+    },
+    {
+      "text": "It's contractually obligated\nfor me as an employee at Google",
+      "start": 26.43,
+      "duration": 2.75
+    },
+    {
+      "text": "to start with AI.",
+      "start": 29.18,
+      "duration": 0.88
+    },
+    {
+      "text": "So let's do that.",
+      "start": 30.06,
+      "duration": 1.64
+    },
+    {
+      "text": "What's new with models?",
+      "start": 31.7,
+      "duration": 1.158
+    },
+    {
+      "text": "What should we be\nexcited about here?",
+      "start": 32.858,
+      "duration": 1.542
+    },
+    {
+      "text": "I'm going to try to put\nthese things in context,",
+      "start": 34.4,
+      "duration": 1.84
+    },
+    {
+      "text": "not just drown you\nin announcements.",
+      "start": 36.24,
+      "duration": 1.53
+    },
+    {
+      "text": "But what's interesting\nand new with models?",
+      "start": 37.77,
+      "duration": 1.858
+    },
+    {
+      "text": "Hey, look, if you're using\nsomething like Vertex,",
+      "start": 39.628,
+      "duration": 2.042
+    },
+    {
+      "text": "you're now sitting here with\nhundreds of curated foundation",
+      "start": 41.67,
+      "duration": 2.78
+    },
+    {
+      "text": "models, not just from Google,\nfrom great open models,",
+      "start": 44.45,
+      "duration": 3.52
+    },
+    {
+      "text": "great partners.",
+      "start": 47.97,
+      "duration": 1.02
+    },
+    {
+      "text": "So you really do have an\namazing set of choices",
+      "start": 48.99,
+      "duration": 2.33
+    },
+    {
+      "text": "when you're using\nGoogle Cloud to pick",
+      "start": 51.32,
+      "duration": 1.77
+    },
+    {
+      "text": "your favorite model of choice,\nif that's somehow not Gemini.",
+      "start": 53.09,
+      "duration": 3.6
+    },
+    {
+      "text": "A lot of things in\npreview, you saw today.",
+      "start": 56.69,
+      "duration": 2.14
+    },
+    {
+      "text": "Gemini 2.5 Pro is going\nto be coming GA shortly.",
+      "start": 58.83,
+      "duration": 2.9
+    },
+    {
+      "text": "Gemini 2.5 Flash coming soon.",
+      "start": 61.73,
+      "duration": 2.339
+    },
+    {
+      "text": "The live API, some\namazing things",
+      "start": 64.069,
+      "duration": 1.851
+    },
+    {
+      "text": "you're seeing with\nthe ability to do",
+      "start": 65.92,
+      "duration": 1.83
+    },
+    {
+      "text": "different types of interactions,\nlive with the model.",
+      "start": 67.75,
+      "duration": 3.87
+    },
+    {
+      "text": "Veo 3, that was\namazing stuff I think",
+      "start": 71.62,
+      "duration": 2.43
+    },
+    {
+      "text": "we all saw, being\nable to create video",
+      "start": 74.05,
+      "duration": 1.71
+    },
+    {
+      "text": "with audio and other things,\nhaving that available on Vertex.",
+      "start": 75.76,
+      "duration": 3.13
+    },
+    {
+      "text": "Imagen 4 doing some\nremarkable things",
+      "start": 78.89,
+      "duration": 2.69
+    },
+    {
+      "text": "with images, Lyra with music.",
+      "start": 81.58,
+      "duration": 2.08
+    },
+    {
+      "text": "And of course, now,\ngenerally available, you",
+      "start": 83.66,
+      "duration": 2.0
+    },
+    {
+      "text": "have Veo 2 as well as Llama 4.",
+      "start": 85.66,
+      "duration": 2.02
+    },
+    {
+      "text": "We continue to bring\nmodels like Llama 4.",
+      "start": 87.68,
+      "duration": 2.46
+    },
+    {
+      "text": "This is as a service.",
+      "start": 90.14,
+      "duration": 1.14
+    },
+    {
+      "text": "You do not deploy this\non infrastructure.",
+      "start": 91.28,
+      "duration": 2.01
+    },
+    {
+      "text": "You don't pay for\nunused capacity.",
+      "start": 93.29,
+      "duration": 2.04
+    },
+    {
+      "text": "You're literally just calling\nsome of these open models,",
+      "start": 95.33,
+      "duration": 2.46
+    },
+    {
+      "text": "a number of them.",
+      "start": 97.79,
+      "duration": 0.98
+    },
+    {
+      "text": "Just pay for the tokens,\nand that's all you pay for.",
+      "start": 98.77,
+      "duration": 2.577
+    },
+    {
+      "text": "So we're trying to make\nit easier and easier",
+      "start": 101.347,
+      "duration": 1.833
+    },
+    {
+      "text": "to use our best models as well\nas those from the community.",
+      "start": 103.18,
+      "duration": 4.2
+    },
+    {
+      "text": "Let's talk about Vertex AI.",
+      "start": 107.38,
+      "duration": 1.63
+    },
+    {
+      "text": "This is Google\nCloud's AI platform.",
+      "start": 109.01,
+      "duration": 2.37
+    },
+    {
+      "text": "This is how you build models.",
+      "start": 111.38,
+      "duration": 1.35
+    },
+    {
+      "text": "This is how you build agents.",
+      "start": 112.73,
+      "duration": 1.23
+    },
+    {
+      "text": "This is how you train.",
+      "start": 113.96,
+      "duration": 1.2
+    },
+    {
+      "text": "This is how you do all\nsorts of interesting things.",
+      "start": 115.16,
+      "duration": 2.25
+    },
+    {
+      "text": "Let's talk about\nwhat's new in Vertex.",
+      "start": 117.41,
+      "duration": 2.13
+    },
+    {
+      "text": "Are you familiar\nwith the optimizer?",
+      "start": 119.54,
+      "duration": 2.07
+    },
+    {
+      "text": "The optimizer is a\ngreat way to make sure",
+      "start": 121.61,
+      "duration": 2.09
+    },
+    {
+      "text": "that you can send in a request\nand actually rely on the service",
+      "start": 123.7,
+      "duration": 3.93
+    },
+    {
+      "text": "to pick the right\nmodel for your request.",
+      "start": 127.63,
+      "duration": 2.08
+    },
+    {
+      "text": "Might pick Flash,\nmight pick Pro,",
+      "start": 129.71,
+      "duration": 1.945
+    },
+    {
+      "text": "but gives you some\ndifferent ways",
+      "start": 131.655,
+      "duration": 1.375
+    },
+    {
+      "text": "to let the service\nactually decide what's",
+      "start": 133.03,
+      "duration": 2.25
+    },
+    {
+      "text": "the most cost effective thing?",
+      "start": 135.28,
+      "duration": 1.84
+    },
+    {
+      "text": "What's the fastest\nthing for you?",
+      "start": 137.12,
+      "duration": 1.47
+    },
+    {
+      "text": "It's a really cool service.",
+      "start": 138.59,
+      "duration": 2.3
+    },
+    {
+      "text": "If you think about all\nthe pretraining options",
+      "start": 140.89,
+      "duration": 2.13
+    },
+    {
+      "text": "you have with an\nLLM, we're trying",
+      "start": 143.02,
+      "duration": 2.13
+    },
+    {
+      "text": "to support all of these and\nsome of these in new ways.",
+      "start": 145.15,
+      "duration": 2.56
+    },
+    {
+      "text": "Of course, you can do things\nlike supervised fine tuning.",
+      "start": 147.71,
+      "duration": 2.46
+    },
+    {
+      "text": "This is where you can now use\nthis with things like Gemini 2.",
+      "start": 150.17,
+      "duration": 3.0
+    },
+    {
+      "text": "But you get your\nown labeled data,",
+      "start": 153.17,
+      "duration": 1.94
+    },
+    {
+      "text": "and you want to take your data\nand make the model better,",
+      "start": 155.11,
+      "duration": 2.71
+    },
+    {
+      "text": "more contextual to you.",
+      "start": 157.82,
+      "duration": 1.62
+    },
+    {
+      "text": "Of course, you can do\nretrieval-augmented generation,",
+      "start": 159.44,
+      "duration": 2.49
+    },
+    {
+      "text": "and we support this\nnow with more models",
+      "start": 161.93,
+      "duration": 1.76
+    },
+    {
+      "text": "of how do you use external\ndata to complement your model",
+      "start": 163.69,
+      "duration": 3.36
+    },
+    {
+      "text": "and give it more\ncontextual responses?",
+      "start": 167.05,
+      "duration": 2.23
+    },
+    {
+      "text": "You can do full fine tuning now\nwith models, as you see here,",
+      "start": 169.28,
+      "duration": 3.0
+    },
+    {
+      "text": "some new ones supported,\nwhich is terrific, as well",
+      "start": 172.28,
+      "duration": 2.75
+    },
+    {
+      "text": "as in-context learning.",
+      "start": 175.03,
+      "duration": 1.23
+    },
+    {
+      "text": "This is being able to just pass\nin more things to long context.",
+      "start": 176.26,
+      "duration": 3.592
+    },
+    {
+      "text": "Gemini continues to\nhave some of the best",
+      "start": 179.852,
+      "duration": 1.708
+    },
+    {
+      "text": "long context in the industry.",
+      "start": 181.56,
+      "duration": 1.54
+    },
+    {
+      "text": "So shove a bunch\nof data in there",
+      "start": 183.1,
+      "duration": 1.64
+    },
+    {
+      "text": "and get back really\ncontextual responses.",
+      "start": 184.74,
+      "duration": 2.14
+    },
+    {
+      "text": "So making it easier and easier\nto make these models for you.",
+      "start": 186.88,
+      "duration": 5.24
+    },
+    {
+      "text": "How about the Vertex\nAI global endpoint?",
+      "start": 192.12,
+      "duration": 2.53
+    },
+    {
+      "text": "This is a really\nnice way if you're",
+      "start": 194.65,
+      "duration": 1.55
+    },
+    {
+      "text": "not location sensitive to say,\njust put global in the URL,",
+      "start": 196.2,
+      "duration": 4.47
+    },
+    {
+      "text": "and don't pick US\nCentral 1 or US West 3.",
+      "start": 200.67,
+      "duration": 3.43
+    },
+    {
+      "text": "You don't care about that.",
+      "start": 204.1,
+      "duration": 1.14
+    },
+    {
+      "text": "Just give me the most available\nperformant work for my AI model,",
+      "start": 205.24,
+      "duration": 4.8
+    },
+    {
+      "text": "which is terrific.",
+      "start": 210.04,
+      "duration": 0.925
+    },
+    {
+      "text": "This doesn't work\nwith everything",
+      "start": 210.965,
+      "duration": 1.375
+    },
+    {
+      "text": "if you do context caching and\nstuff, so read the fine print.",
+      "start": 212.34,
+      "duration": 3.88
+    },
+    {
+      "text": "But this gives you\na really nice way",
+      "start": 216.22,
+      "duration": 1.94
+    },
+    {
+      "text": "to just say I'm not location\nsensitive for this workload.",
+      "start": 218.16,
+      "duration": 3.4
+    },
+    {
+      "text": "Just make it fast and easy.",
+      "start": 221.56,
+      "duration": 1.27
+    },
+    {
+      "text": "Agent Builder, how\ndo you build agents?",
+      "start": 225.84,
+      "duration": 2.16
+    },
+    {
+      "text": "We're all agent builders now,\nwhether you want to be or not.",
+      "start": 228.0,
+      "duration": 2.5
+    },
+    {
+      "text": "It's exciting.",
+      "start": 230.5,
+      "duration": 0.96
+    },
+    {
+      "text": "So if you look at\nthe family of things",
+      "start": 231.46,
+      "duration": 1.76
+    },
+    {
+      "text": "that we do now with agents,\nyou might be developing agents.",
+      "start": 233.22,
+      "duration": 2.59
+    },
+    {
+      "text": "Of course, we're at a\ndeveloper conference.",
+      "start": 235.81,
+      "duration": 2.055
+    },
+    {
+      "text": "How do I use some of the\ndifferent tools, the agent",
+      "start": 237.865,
+      "duration": 2.125
+    },
+    {
+      "text": "development kit, which\nwe'll be talking about.",
+      "start": 239.99,
+      "duration": 2.2
+    },
+    {
+      "text": "How do I do things in low\ncode, use the agent garden",
+      "start": 242.19,
+      "duration": 2.51
+    },
+    {
+      "text": "and use existing\nagents, or even see",
+      "start": 244.7,
+      "duration": 2.22
+    },
+    {
+      "text": "how you can integrate\nwith other tools?",
+      "start": 246.92,
+      "duration": 2.05
+    },
+    {
+      "text": "How do you connect\nagents together?",
+      "start": 248.97,
+      "duration": 1.65
+    },
+    {
+      "text": "You've seen us embracing the\nmodel context protocol, MCP.",
+      "start": 250.62,
+      "duration": 3.78
+    },
+    {
+      "text": "How do these agents\ntalk to tools?",
+      "start": 254.4,
+      "duration": 1.98
+    },
+    {
+      "text": "How do they pull in\nreally interesting things",
+      "start": 256.38,
+      "duration": 2.0
+    },
+    {
+      "text": "from outside of the system.",
+      "start": 258.38,
+      "duration": 1.87
+    },
+    {
+      "text": "Even the agent-to-agent\nprotocol and others,",
+      "start": 260.25,
+      "duration": 2.37
+    },
+    {
+      "text": "how do you deploy\nthis and run this?",
+      "start": 262.62,
+      "duration": 1.74
+    },
+    {
+      "text": "We now have Vertex AI Agent\nEngine, which we'll talk about.",
+      "start": 264.36,
+      "duration": 3.06
+    },
+    {
+      "text": "Run it on GKE, Cloud Run,\nall sorts of great places.",
+      "start": 267.42,
+      "duration": 3.36
+    },
+    {
+      "text": "And of course, day two matters.",
+      "start": 270.78,
+      "duration": 1.71
+    },
+    {
+      "text": "How do I do troubleshooting?",
+      "start": 272.49,
+      "duration": 1.35
+    },
+    {
+      "text": "How do I figure\nout observability?",
+      "start": 273.84,
+      "duration": 1.77
+    },
+    {
+      "text": "All of this thing is a family\nof things we call the Vertex AI",
+      "start": 275.61,
+      "duration": 3.05
+    },
+    {
+      "text": "Agent Builder, and you can mix\nand match however you'd like.",
+      "start": 278.66,
+      "duration": 3.93
+    },
+    {
+      "text": "Let's talk about the ADK.",
+      "start": 282.59,
+      "duration": 1.66
+    },
+    {
+      "text": "It's a very, very\nexciting project.",
+      "start": 284.25,
+      "duration": 1.77
+    },
+    {
+      "text": "We just hit 1.0 on Python\ntoday, which is exciting.",
+      "start": 286.02,
+      "duration": 2.517
+    },
+    {
+      "text": "But I'm actually\nreally stoked that we",
+      "start": 288.537,
+      "duration": 1.583
+    },
+    {
+      "text": "shipped the first\nversion of the Java ADK.",
+      "start": 290.12,
+      "duration": 2.8
+    },
+    {
+      "text": "So if you were a\nJava developer--",
+      "start": 292.92,
+      "duration": 1.68
+    },
+    {
+      "text": "you got Java\ndevelopers in the room?",
+      "start": 294.6,
+      "duration": 1.51
+    },
+    {
+      "text": "It's OK to admit it.",
+      "start": 296.11,
+      "duration": 0.9
+    },
+    {
+      "text": "There we go.",
+      "start": 297.01,
+      "duration": 0.87
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 297.88,
+      "duration": 0.56
+    },
+    {
+      "text": "That's right.",
+      "start": 298.44,
+      "duration": 0.542
+    },
+    {
+      "text": "No shame.",
+      "start": 298.982,
+      "duration": 1.468
+    },
+    {
+      "text": "If you love Java,\nnow you can actually",
+      "start": 300.45,
+      "duration": 1.83
+    },
+    {
+      "text": "build great Agentic\napplications.",
+      "start": 302.28,
+      "duration": 2.08
+    },
+    {
+      "text": "This is a really\nsophisticated framework",
+      "start": 304.36,
+      "duration": 2.84
+    },
+    {
+      "text": "where you can do simple things\nor hard things, use session,",
+      "start": 307.2,
+      "duration": 3.03
+    },
+    {
+      "text": "do complicated\nmulti-agent things.",
+      "start": 310.23,
+      "duration": 2.02
+    },
+    {
+      "text": "Really, really awesome.",
+      "start": 312.25,
+      "duration": 1.01
+    },
+    {
+      "text": "Docs are terrific.",
+      "start": 313.26,
+      "duration": 1.005
+    },
+    {
+      "text": "I know the people\nwho wrote them.",
+      "start": 314.265,
+      "duration": 1.375
+    },
+    {
+      "text": "You should use\nthem and read them.",
+      "start": 315.64,
+      "duration": 1.47
+    },
+    {
+      "text": "So exciting stuff\nif you are trying",
+      "start": 317.11,
+      "duration": 1.767
+    },
+    {
+      "text": "to use an open framework from\nGoogle, where you can take",
+      "start": 318.877,
+      "duration": 2.333
+    },
+    {
+      "text": "that agent and run it anywhere.",
+      "start": 321.21,
+      "duration": 3.63
+    },
+    {
+      "text": "As you see the agent\ndevelopment kit,",
+      "start": 324.84,
+      "duration": 1.75
+    },
+    {
+      "text": "and we'll see a demo shortly.",
+      "start": 326.59,
+      "duration": 1.29
+    },
+    {
+      "text": "But really, if you just\nhave instructions, a model,",
+      "start": 327.88,
+      "duration": 2.37
+    },
+    {
+      "text": "some tools, some of\nthese components,",
+      "start": 330.25,
+      "duration": 2.4
+    },
+    {
+      "text": "you can really pull together an\nagent that involves no coding.",
+      "start": 332.65,
+      "duration": 2.94
+    },
+    {
+      "text": "You're doing very sophisticated\nthings with honestly no code.",
+      "start": 335.59,
+      "duration": 3.51
+    },
+    {
+      "text": "What do I want to\nhave the outcome be?",
+      "start": 339.1,
+      "duration": 1.77
+    },
+    {
+      "text": "What tools do you\nhave available to you?",
+      "start": 340.87,
+      "duration": 1.85
+    },
+    {
+      "text": "And which model should I use?",
+      "start": 342.72,
+      "duration": 1.48
+    },
+    {
+      "text": "Plug in non-Gemini models.",
+      "start": 344.2,
+      "duration": 1.71
+    },
+    {
+      "text": "That's fine.",
+      "start": 345.91,
+      "duration": 0.75
+    },
+    {
+      "text": "Call tools that are\noutside of Google Cloud.",
+      "start": 346.66,
+      "duration": 2.15
+    },
+    {
+      "text": "Live your life.",
+      "start": 348.81,
+      "duration": 0.97
+    },
+    {
+      "text": "It's fine.",
+      "start": 349.78,
+      "duration": 0.57
+    },
+    {
+      "text": "It all works great.",
+      "start": 350.35,
+      "duration": 1.05
+    },
+    {
+      "text": "So this makes it really easy\nto build modern agents however",
+      "start": 351.4,
+      "duration": 3.8
+    },
+    {
+      "text": "you'd like to do it.",
+      "start": 355.2,
+      "duration": 1.38
+    },
+    {
+      "text": "And so use the Agent\nDevelopment Kit",
+      "start": 356.58,
+      "duration": 1.83
+    },
+    {
+      "text": "to build these sort of\nagents, test it locally, which",
+      "start": 358.41,
+      "duration": 2.54
+    },
+    {
+      "text": "is really powerful, a really\nsophisticated tool there, which",
+      "start": 360.95,
+      "duration": 2.5
+    },
+    {
+      "text": "we'll see in a second.",
+      "start": 363.45,
+      "duration": 1.21
+    },
+    {
+      "text": "Pick your models.",
+      "start": 364.66,
+      "duration": 1.17
+    },
+    {
+      "text": "You want to use\nsomething from Anthropic.",
+      "start": 365.83,
+      "duration": 1.77
+    },
+    {
+      "text": "You want to use\nsomething from Meta.",
+      "start": 367.6,
+      "duration": 1.58
+    },
+    {
+      "text": "That's great.",
+      "start": 369.18,
+      "duration": 0.76
+    },
+    {
+      "text": "Go for it.",
+      "start": 369.94,
+      "duration": 0.75
+    },
+    {
+      "text": "Now, if you don't\nwant to do Python,",
+      "start": 370.69,
+      "duration": 1.893
+    },
+    {
+      "text": "nobody's going to judge you.",
+      "start": 372.583,
+      "duration": 1.167
+    },
+    {
+      "text": "Use Java.",
+      "start": 373.75,
+      "duration": 0.78
+    },
+    {
+      "text": "It's amazing.",
+      "start": 374.53,
+      "duration": 0.57
+    },
+    {
+      "text": "Pick that as well,\nwhatever works for you.",
+      "start": 375.1,
+      "duration": 2.7
+    },
+    {
+      "text": "And then run this and\nconnect to different services",
+      "start": 377.8,
+      "duration": 2.33
+    },
+    {
+      "text": "and different clouds thanks to\nthis great tool support and MCP",
+      "start": 380.13,
+      "duration": 2.88
+    },
+    {
+      "text": "support.",
+      "start": 383.01,
+      "duration": 0.78
+    },
+    {
+      "text": "If you got to pull data from\nsome other cloud's object",
+      "start": 383.79,
+      "duration": 2.25
+    },
+    {
+      "text": "storage, it's OK.",
+      "start": 386.04,
+      "duration": 1.3
+    },
+    {
+      "text": "Do that.",
+      "start": 387.34,
+      "duration": 0.75
+    },
+    {
+      "text": "So one of the big things to\ntake away here is look at ADK.",
+      "start": 388.09,
+      "duration": 3.33
+    },
+    {
+      "text": "Look at ways that you can--\nall of us can build agents.",
+      "start": 391.42,
+      "duration": 4.52
+    },
+    {
+      "text": "Now, it's great\nthat you have MCP",
+      "start": 395.94,
+      "duration": 2.22
+    },
+    {
+      "text": "for how does an agent\nactually pull data from tools.",
+      "start": 398.16,
+      "duration": 2.83
+    },
+    {
+      "text": "Very important.",
+      "start": 400.99,
+      "duration": 0.84
+    },
+    {
+      "text": "Everyone in the world\nis now using it.",
+      "start": 401.83,
+      "duration": 2.13
+    },
+    {
+      "text": "But how do the agents\ntalk to each other?",
+      "start": 403.96,
+      "duration": 2.01
+    },
+    {
+      "text": "How do they share each\nother's capabilities or share",
+      "start": 405.97,
+      "duration": 2.63
+    },
+    {
+      "text": "state between each other?",
+      "start": 408.6,
+      "duration": 1.63
+    },
+    {
+      "text": "That's why Google created the\nagent-to-agent protocol along",
+      "start": 410.23,
+      "duration": 2.96
+    },
+    {
+      "text": "with a bunch of other companies.",
+      "start": 413.19,
+      "duration": 1.58
+    },
+    {
+      "text": "Microsoft adopted this last\nweek, which is exciting.",
+      "start": 414.77,
+      "duration": 2.55
+    },
+    {
+      "text": "You're seeing more and\nmore companies say,",
+      "start": 417.32,
+      "duration": 1.75
+    },
+    {
+      "text": "this is a really powerful\nway to have agents talk",
+      "start": 419.07,
+      "duration": 2.57
+    },
+    {
+      "text": "to each other, good protocol.",
+      "start": 421.64,
+      "duration": 1.96
+    },
+    {
+      "text": "And now we have an\nSDK for this in Python",
+      "start": 423.6,
+      "duration": 2.12
+    },
+    {
+      "text": "that we shipped today as well.",
+      "start": 425.72,
+      "duration": 1.6
+    },
+    {
+      "text": "So you have an easier\nway to build these.",
+      "start": 427.32,
+      "duration": 2.01
+    },
+    {
+      "text": "So as you think\nof MCP for tools,",
+      "start": 429.33,
+      "duration": 2.69
+    },
+    {
+      "text": "A2A is how agents\ncan communicate.",
+      "start": 432.02,
+      "duration": 3.78
+    },
+    {
+      "text": "Agent Engine, where do\nyou run these darn things?",
+      "start": 435.8,
+      "duration": 2.427
+    },
+    {
+      "text": "Well, you have a lot of choices.",
+      "start": 438.227,
+      "duration": 1.333
+    },
+    {
+      "text": "And so the Vertex AI\nAgent Engine gives you",
+      "start": 439.56,
+      "duration": 2.69
+    },
+    {
+      "text": "a fully managed service\nthat can take your agent,",
+      "start": 442.25,
+      "duration": 2.62
+    },
+    {
+      "text": "run it, scale it, handle all\nthe operational concerns,",
+      "start": 444.87,
+      "duration": 3.78
+    },
+    {
+      "text": "give you some observability,\ngives you session management.",
+      "start": 448.65,
+      "duration": 3.21
+    },
+    {
+      "text": "Really simple to use.",
+      "start": 451.86,
+      "duration": 1.38
+    },
+    {
+      "text": "Just today we lit up\nthe new dashboard.",
+      "start": 453.24,
+      "duration": 1.95
+    },
+    {
+      "text": "So it has a new\ndashboard if you're",
+      "start": 455.19,
+      "duration": 2.0
+    },
+    {
+      "text": "somebody like me who doesn't\nlove using CLIs all the time.",
+      "start": 457.19,
+      "duration": 2.89
+    },
+    {
+      "text": "So it's great.",
+      "start": 460.08,
+      "duration": 0.822
+    },
+    {
+      "text": "So you have a new\nvisual interface,",
+      "start": 460.902,
+      "duration": 1.458
+    },
+    {
+      "text": "great way to run\nservices available today.",
+      "start": 462.36,
+      "duration": 3.74
+    },
+    {
+      "text": "And Agent Engine, again,\nis part of this ecosystem.",
+      "start": 466.1,
+      "duration": 2.59
+    },
+    {
+      "text": "There is no one thing\nthat builds agents.",
+      "start": 468.69,
+      "duration": 2.21
+    },
+    {
+      "text": "Agents are part of\nhow do you build this?",
+      "start": 470.9,
+      "duration": 1.95
+    },
+    {
+      "text": "You might use\nsomething like ADK.",
+      "start": 472.85,
+      "duration": 2.58
+    },
+    {
+      "text": "You might run this in\nsomething like Agent Engine.",
+      "start": 475.43,
+      "duration": 2.34
+    },
+    {
+      "text": "You might register it in\nsomething like Agent Space.",
+      "start": 477.77,
+      "duration": 2.7
+    },
+    {
+      "text": "You might access data in\nthings like our databases",
+      "start": 480.47,
+      "duration": 3.2
+    },
+    {
+      "text": "or other tools or even\nGoogle Workspace services.",
+      "start": 483.67,
+      "duration": 2.95
+    },
+    {
+      "text": "So there's a whole ecosystem\nof things that come together",
+      "start": 486.62,
+      "duration": 2.943
+    },
+    {
+      "text": "when you're building agents.",
+      "start": 489.563,
+      "duration": 1.167
+    },
+    {
+      "text": "There's not just one tool.",
+      "start": 490.73,
+      "duration": 1.35
+    },
+    {
+      "text": "So I think this is a\ngreat way to represent it.",
+      "start": 492.08,
+      "duration": 3.77
+    },
+    {
+      "text": "With that, I just can't show\nyou slides the whole time.",
+      "start": 495.85,
+      "duration": 2.462
+    },
+    {
+      "text": "I'd like to invite my friend\nFran on stage to actually give",
+      "start": 498.312,
+      "duration": 2.458
+    },
+    {
+      "text": "you a live demo.",
+      "start": 500.77,
+      "duration": 1.18
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 501.95,
+      "duration": 2.796
+    },
+    {
+      "text": "FRAN HINKELMANN:\nThank you, Richard.",
+      "start": 507.46,
+      "duration": 1.5
+    },
+    {
+      "text": "RICHARD SEROTER: Yeah.",
+      "start": 508.96,
+      "duration": 0.4
+    },
+    {
+      "text": "FRAN HINKELMANN: Hi, friends.",
+      "start": 509.36,
+      "duration": 1.208
+    },
+    {
+      "text": "You want to see some code?",
+      "start": 510.568,
+      "duration": 1.392
+    },
+    {
+      "text": "RICHARD SEROTER: Yes.",
+      "start": 511.96,
+      "duration": 0.255
+    },
+    {
+      "text": "AUDIENCE: Yes!",
+      "start": 512.215,
+      "duration": 0.255
+    },
+    {
+      "text": "FRAN HINKELMANN:\nYeah, all right,",
+      "start": 512.47,
+      "duration": 1.375
+    },
+    {
+      "text": "let's build an agent together.",
+      "start": 513.845,
+      "duration": 1.755
+    },
+    {
+      "text": "First thing we're going to\ndo pip install Google ADK.",
+      "start": 515.6,
+      "duration": 3.219
+    },
+    {
+      "text": "It's super easy.",
+      "start": 518.819,
+      "duration": 1.156
+    },
+    {
+      "text": "Like Richard just said, we\njust released 1.0 today.",
+      "start": 519.975,
+      "duration": 5.435
+    },
+    {
+      "text": "So ADK is production ready.",
+      "start": 525.41,
+      "duration": 4.01
+    },
+    {
+      "text": "It follows our open source\nrelease guidelines now.",
+      "start": 529.42,
+      "duration": 3.2
+    },
+    {
+      "text": "You get a full year of\nOSS community support.",
+      "start": 532.62,
+      "duration": 3.55
+    },
+    {
+      "text": "And if Python is not your\nthing, use the Java SDK.",
+      "start": 536.17,
+      "duration": 4.68
+    },
+    {
+      "text": "But I'm sticking\nwith Python today.",
+      "start": 540.85,
+      "duration": 3.2
+    },
+    {
+      "text": "All right, so we\ngot it installed.",
+      "start": 544.05,
+      "duration": 3.39
+    },
+    {
+      "text": "A little bit of setup.",
+      "start": 547.44,
+      "duration": 1.51
+    },
+    {
+      "text": "You need an init file.",
+      "start": 548.95,
+      "duration": 1.26
+    },
+    {
+      "text": "You can just copy and paste it.",
+      "start": 550.21,
+      "duration": 1.68
+    },
+    {
+      "text": "Then you need an env file.",
+      "start": 551.89,
+      "duration": 1.95
+    },
+    {
+      "text": "I like to prototype\nwith an API key.",
+      "start": 553.84,
+      "duration": 3.12
+    },
+    {
+      "text": "But I decided I'm not going\nto share my key today.",
+      "start": 556.96,
+      "duration": 2.547
+    },
+    {
+      "text": "RICHARD SEROTER: No?",
+      "start": 559.507,
+      "duration": 0.833
+    },
+    {
+      "text": "Low trust environment here?",
+      "start": 560.34,
+      "duration": 1.72
+    },
+    {
+      "text": "OK.",
+      "start": 562.06,
+      "duration": 0.72
+    },
+    {
+      "text": "FRAN HINKELMANN: So I'm using\nthe typical Google Cloud setup",
+      "start": 562.78,
+      "duration": 3.89
+    },
+    {
+      "text": "that you use to specify your\nproject and your location.",
+      "start": 566.67,
+      "duration": 4.26
+    },
+    {
+      "text": "OK.",
+      "start": 570.93,
+      "duration": 2.09
+    },
+    {
+      "text": "OK.",
+      "start": 573.02,
+      "duration": 0.5
+    },
+    {
+      "text": "So the agent I'm showing\nyou is a data science agent.",
+      "start": 573.52,
+      "duration": 3.9
+    },
+    {
+      "text": "We're going to give\nit data, and it's",
+      "start": 577.42,
+      "duration": 1.61
+    },
+    {
+      "text": "going to do data science on it.",
+      "start": 579.03,
+      "duration": 2.26
+    },
+    {
+      "text": "First thing you do is\nimport the ADK package.",
+      "start": 581.29,
+      "duration": 3.33
+    },
+    {
+      "text": "I'm using the agent, a\nfew other things here.",
+      "start": 584.62,
+      "duration": 2.4
+    },
+    {
+      "text": "And then Richard was saying,\noh, it's complicated.",
+      "start": 587.02,
+      "duration": 3.0
+    },
+    {
+      "text": "It's so straightforward.",
+      "start": 590.02,
+      "duration": 2.18
+    },
+    {
+      "text": "There's barely any code in here.",
+      "start": 592.2,
+      "duration": 1.835
+    },
+    {
+      "text": "RICHARD SEROTER: I said\nit was sophisticated.",
+      "start": 594.035,
+      "duration": 1.875
+    },
+    {
+      "text": "I did not say it\nwas complicated.",
+      "start": 595.91,
+      "duration": 1.375
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 597.285,
+      "duration": 1.175
+    },
+    {
+      "text": "FRAN HINKELMANN: So Agent\nConstructor, you give it",
+      "start": 598.46,
+      "duration": 2.22
+    },
+    {
+      "text": "a model, ADK's model agnostic.",
+      "start": 600.68,
+      "duration": 2.29
+    },
+    {
+      "text": "I'm using Gemini, a\nname, instruction.",
+      "start": 602.97,
+      "duration": 3.42
+    },
+    {
+      "text": "Instruction is telling the\nagent what and how to do it.",
+      "start": 606.39,
+      "duration": 3.84
+    },
+    {
+      "text": "For this one specifically,\nI'm giving it instructions",
+      "start": 610.23,
+      "duration": 3.53
+    },
+    {
+      "text": "about not installing any\npackages because it's going",
+      "start": 613.76,
+      "duration": 3.0
+    },
+    {
+      "text": "to run some data science code.",
+      "start": 616.76,
+      "duration": 2.28
+    },
+    {
+      "text": "And I'm also telling\nit to not hallucinate",
+      "start": 619.04,
+      "duration": 2.1
+    },
+    {
+      "text": "because if we're doing\ndata science science,",
+      "start": 621.14,
+      "duration": 2.67
+    },
+    {
+      "text": "please no hallucinations.",
+      "start": 623.81,
+      "duration": 1.6
+    },
+    {
+      "text": "So things you specify\nin the instructions.",
+      "start": 625.41,
+      "duration": 3.17
+    },
+    {
+      "text": "And then an agent needs tools.",
+      "start": 628.58,
+      "duration": 2.17
+    },
+    {
+      "text": "A tool can really be anything,\nan API, data source, NCP server,",
+      "start": 630.75,
+      "duration": 5.7
+    },
+    {
+      "text": "LangChain package, or actually,\nany Python code that you write.",
+      "start": 636.45,
+      "duration": 4.16
+    },
+    {
+      "text": "My agent is so simple,\nit's actually not",
+      "start": 640.61,
+      "duration": 2.19
+    },
+    {
+      "text": "even having any tools.",
+      "start": 642.8,
+      "duration": 1.44
+    },
+    {
+      "text": "I'm giving it-- oops.",
+      "start": 644.24,
+      "duration": 2.94
+    },
+    {
+      "text": "I'm giving it a code executor,\nwhich is sort of a tool.",
+      "start": 647.18,
+      "duration": 3.48
+    },
+    {
+      "text": "It just goes into a different\nparameter in the constructor.",
+      "start": 650.66,
+      "duration": 3.18
+    },
+    {
+      "text": "So code executor\nis a code sandbox",
+      "start": 653.84,
+      "duration": 2.63
+    },
+    {
+      "text": "to execute arbitrary\ncode because we're",
+      "start": 656.47,
+      "duration": 2.22
+    },
+    {
+      "text": "going to be running\nsome data science Pandas",
+      "start": 658.69,
+      "duration": 2.73
+    },
+    {
+      "text": "code that the agent is\nbuilding, creating for us",
+      "start": 661.42,
+      "duration": 3.49
+    },
+    {
+      "text": "so it can analyze our data.",
+      "start": 664.91,
+      "duration": 2.43
+    },
+    {
+      "text": "OK.",
+      "start": 667.34,
+      "duration": 0.5
+    },
+    {
+      "text": "With all that, we're\nready to run it.",
+      "start": 667.84,
+      "duration": 2.143
+    },
+    {
+      "text": "RICHARD SEROTER:\nThat's an agent, right?",
+      "start": 669.983,
+      "duration": 1.667
+    },
+    {
+      "text": "What you're showing us, that's\nthe complete data science agent.",
+      "start": 671.65,
+      "duration": 3.208
+    },
+    {
+      "text": "You're just rubbing some data\nscience on it, all right.",
+      "start": 674.858,
+      "duration": 2.292
+    },
+    {
+      "text": "FRAN HINKELMANN: The\nwhole thing, input stuff,",
+      "start": 677.15,
+      "duration": 2.28
+    },
+    {
+      "text": "model instruction tools.",
+      "start": 679.43,
+      "duration": 2.52
+    },
+    {
+      "text": "The instructions can\nbe a little longer,",
+      "start": 681.95,
+      "duration": 1.8
+    },
+    {
+      "text": "but that's really\nall there is to it.",
+      "start": 683.75,
+      "duration": 2.28
+    },
+    {
+      "text": "So we can run this, ADK web.",
+      "start": 686.03,
+      "duration": 3.95
+    },
+    {
+      "text": "And ADK comes with\nthis super awesome dev",
+      "start": 689.98,
+      "duration": 2.58
+    },
+    {
+      "text": "UI for local testing.",
+      "start": 692.56,
+      "duration": 1.9
+    },
+    {
+      "text": "It's such a time saver.",
+      "start": 694.46,
+      "duration": 2.57
+    },
+    {
+      "text": "It supports multimodal\ninputs, like images, voice,",
+      "start": 697.03,
+      "duration": 4.23
+    },
+    {
+      "text": "out of the box.",
+      "start": 701.26,
+      "duration": 1.36
+    },
+    {
+      "text": "So I can focus on\nthe agent logic",
+      "start": 702.62,
+      "duration": 2.33
+    },
+    {
+      "text": "instead of worrying\nabout infrastructure.",
+      "start": 704.95,
+      "duration": 2.38
+    },
+    {
+      "text": "All right, let's go local host,\npick our data science agent.",
+      "start": 707.33,
+      "duration": 7.28
+    },
+    {
+      "text": "I'm going to upload a CSV file.",
+      "start": 714.61,
+      "duration": 2.79
+    },
+    {
+      "text": "I could connect to a database,\nbut I want to keep this simple.",
+      "start": 717.4,
+      "duration": 3.33
+    },
+    {
+      "text": "Please create a\nhistogram for me.",
+      "start": 720.73,
+      "duration": 2.6
+    },
+    {
+      "text": "So the agent is off working\nnow, and you can actually",
+      "start": 723.33,
+      "duration": 3.39
+    },
+    {
+      "text": "see it's generating\nPandas code here.",
+      "start": 726.72,
+      "duration": 3.49
+    },
+    {
+      "text": "So we've all gotten\nquestionable answers from LLMs",
+      "start": 730.21,
+      "duration": 4.67
+    },
+    {
+      "text": "where they make things up.",
+      "start": 734.88,
+      "duration": 1.45
+    },
+    {
+      "text": "And I give you data, and I\nsay, do data science on it.",
+      "start": 736.33,
+      "duration": 3.42
+    },
+    {
+      "text": "I don't want anything made up.",
+      "start": 739.75,
+      "duration": 2.04
+    },
+    {
+      "text": "And I want to stress\nhere, the agent",
+      "start": 741.79,
+      "duration": 3.02
+    },
+    {
+      "text": "is not making up the graph.",
+      "start": 744.81,
+      "duration": 2.83
+    },
+    {
+      "text": "The agent is creating the code\nthat then deterministically",
+      "start": 747.64,
+      "duration": 4.37
+    },
+    {
+      "text": "creates this histogram.",
+      "start": 752.01,
+      "duration": 2.2
+    },
+    {
+      "text": "That's super important.",
+      "start": 754.21,
+      "duration": 2.1
+    },
+    {
+      "text": "Yes, you always double check\nwhat your LLM is giving you,",
+      "start": 756.31,
+      "duration": 3.72
+    },
+    {
+      "text": "but I would trust this\npicture because if the code is",
+      "start": 760.03,
+      "duration": 2.66
+    },
+    {
+      "text": "good enough to give me a graph,\nthen it's probably right.",
+      "start": 762.69,
+      "duration": 3.3
+    },
+    {
+      "text": "And it's fully\nrelying on the data.",
+      "start": 765.99,
+      "duration": 1.65
+    },
+    {
+      "text": "This is not a made up LLM\nimage based on the next token.",
+      "start": 767.64,
+      "duration": 4.62
+    },
+    {
+      "text": "The code is made up,\nbut the image is real.",
+      "start": 772.26,
+      "duration": 2.495
+    },
+    {
+      "text": "What do you think, Richard?",
+      "start": 774.755,
+      "duration": 1.125
+    },
+    {
+      "text": "RICHARD SEROTER: Why is it blue?",
+      "start": 775.88,
+      "duration": 1.53
+    },
+    {
+      "text": "FRAN HINKELMANN:\nYou don't like blue?",
+      "start": 777.41,
+      "duration": 1.75
+    },
+    {
+      "text": "RICHARD SEROTER:\nIt's Google I/O. Can",
+      "start": 779.16,
+      "duration": 1.19
+    },
+    {
+      "text": "you Google it up a little bit?",
+      "start": 780.35,
+      "duration": 1.18
+    },
+    {
+      "text": "FRAN HINKELMANN:\nWe can spice it up.",
+      "start": 781.53,
+      "duration": 1.5
+    },
+    {
+      "text": "So let's say-- let's\ngive it the I/O colors.",
+      "start": 783.03,
+      "duration": 5.4
+    },
+    {
+      "text": "Let's get some color in here.",
+      "start": 788.43,
+      "duration": 1.94
+    },
+    {
+      "text": "I could go back, put\nthis in the instructions",
+      "start": 790.37,
+      "duration": 2.49
+    },
+    {
+      "text": "so my agent would\nalways be colorful.",
+      "start": 792.86,
+      "duration": 5.74
+    },
+    {
+      "text": "No?",
+      "start": 798.6,
+      "duration": 0.96
+    },
+    {
+      "text": "No?",
+      "start": 799.56,
+      "duration": 0.77
+    },
+    {
+      "text": "Use all colors, please.",
+      "start": 800.33,
+      "duration": 4.44
+    },
+    {
+      "text": "RICHARD SEROTER: It's a lot\nof pressure right now, Fran.",
+      "start": 804.77,
+      "duration": 2.67
+    },
+    {
+      "text": "FRAN HINKELMANN: OK.",
+      "start": 807.44,
+      "duration": 0.97
+    },
+    {
+      "text": "It's a little more colorful.",
+      "start": 808.41,
+      "duration": 1.526
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 809.936,
+      "duration": 1.044
+    },
+    {
+      "text": "RICHARD SEROTER: Yeah,\nthat's a golf clap.",
+      "start": 810.98,
+      "duration": 1.9
+    },
+    {
+      "text": "It's a--",
+      "start": 812.88,
+      "duration": 0.5
+    },
+    {
+      "text": "FRAN HINKELMANN: Yeah, yeah.",
+      "start": 813.38,
+      "duration": 1.167
+    },
+    {
+      "text": "But you can--",
+      "start": 814.547,
+      "duration": 1.503
+    },
+    {
+      "text": "I just told it in the chat\nmessage, somewhat successful.",
+      "start": 816.05,
+      "duration": 3.73
+    },
+    {
+      "text": "You can just put that\nin your instructions.",
+      "start": 819.78,
+      "duration": 1.95
+    },
+    {
+      "text": "And now every histogram\nwould be nice and colorful",
+      "start": 821.73,
+      "duration": 3.47
+    },
+    {
+      "text": "and I/O branded.",
+      "start": 825.2,
+      "duration": 3.53
+    },
+    {
+      "text": "My data science agent was\nsuper straightforward.",
+      "start": 828.73,
+      "duration": 3.25
+    },
+    {
+      "text": "I showed you the whole code.",
+      "start": 831.98,
+      "duration": 1.29
+    },
+    {
+      "text": "There's only so much code\nI can show on a big screen,",
+      "start": 833.27,
+      "duration": 2.76
+    },
+    {
+      "text": "especially after lunch\nwhen the sun is shining.",
+      "start": 836.03,
+      "duration": 2.84
+    },
+    {
+      "text": "But you can go as complex\nas you want to go,",
+      "start": 838.87,
+      "duration": 3.43
+    },
+    {
+      "text": "multi-agent collaborations,\ncustom workflows.",
+      "start": 842.3,
+      "duration": 4.83
+    },
+    {
+      "text": "And of course, ADK supports\nMCP, the model context protocol,",
+      "start": 847.13,
+      "duration": 5.24
+    },
+    {
+      "text": "out of the box, in addition\nto tons of other tools.",
+      "start": 852.37,
+      "duration": 2.618
+    },
+    {
+      "text": "RICHARD SEROTER: Awesome.",
+      "start": 854.988,
+      "duration": 1.042
+    },
+    {
+      "text": "Your vibe graphing.",
+      "start": 856.03,
+      "duration": 0.97
+    },
+    {
+      "text": "Where can I go\ndeploy this agent?",
+      "start": 857.0,
+      "duration": 1.502
+    },
+    {
+      "text": "FRAN HINKELMANN: Where\ncan you deploy it?",
+      "start": 858.502,
+      "duration": 1.708
+    },
+    {
+      "text": "You're saying,\n\"works on my machine\"",
+      "start": 860.21,
+      "duration": 2.84
+    },
+    {
+      "text": "is not quite good enough.",
+      "start": 863.05,
+      "duration": 1.96
+    },
+    {
+      "text": "Yeah, testing locally is\nnot realistic for anything",
+      "start": 865.01,
+      "duration": 4.07
+    },
+    {
+      "text": "production or anything you\nwork on with other people.",
+      "start": 869.08,
+      "duration": 3.97
+    },
+    {
+      "text": "This is just great for\ntesting things out locally.",
+      "start": 873.05,
+      "duration": 2.34
+    },
+    {
+      "text": "But ADK is an open\nsource Python library.",
+      "start": 875.39,
+      "duration": 2.91
+    },
+    {
+      "text": "You can deploy it\nwherever you want.",
+      "start": 878.3,
+      "duration": 1.5
+    },
+    {
+      "text": "RICHARD SEROTER: Great.",
+      "start": 879.8,
+      "duration": 0.958
+    },
+    {
+      "text": "FRAN HINKELMANN:\nI like Cloud Run.",
+      "start": 880.758,
+      "duration": 1.712
+    },
+    {
+      "text": "GKE is a good option.",
+      "start": 882.47,
+      "duration": 1.91
+    },
+    {
+      "text": "And of course, Vertex Agent\nEngine is a good spot for agent.",
+      "start": 884.38,
+      "duration": 4.89
+    },
+    {
+      "text": "Agent Engine is a\nfully-managed auto scaling",
+      "start": 889.27,
+      "duration": 3.17
+    },
+    {
+      "text": "service on Google Cloud\nthat's specifically",
+      "start": 892.44,
+      "duration": 2.52
+    },
+    {
+      "text": "designed for agents.",
+      "start": 894.96,
+      "duration": 1.69
+    },
+    {
+      "text": "So I suggest go build an agent\nthat makes your life easier,",
+      "start": 896.65,
+      "duration": 3.77
+    },
+    {
+      "text": "and deploy it to the Cloud.",
+      "start": 900.42,
+      "duration": 1.63
+    },
+    {
+      "text": "Back to you, Richard.",
+      "start": 902.05,
+      "duration": 1.08
+    },
+    {
+      "text": "RICHARD SEROTER: Thanks, Fran.",
+      "start": 903.13,
+      "duration": 0.72
+    },
+    {
+      "text": "Great job.",
+      "start": 903.85,
+      "duration": 0.655
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 904.505,
+      "duration": 2.685
+    },
+    {
+      "text": "Yeah, and those SDK\ndeployment options",
+      "start": 909.51,
+      "duration": 1.98
+    },
+    {
+      "text": "aren't even just do it yourself.",
+      "start": 911.49,
+      "duration": 1.72
+    },
+    {
+      "text": "Actually, from the\nCLI you can ADK deploy",
+      "start": 913.21,
+      "duration": 2.42
+    },
+    {
+      "text": "to Cloud Run and Agent\nEngine and things like that.",
+      "start": 915.63,
+      "duration": 2.68
+    },
+    {
+      "text": "So we have made\nthat pretty easy.",
+      "start": 918.31,
+      "duration": 2.03
+    },
+    {
+      "text": "All right, we're not\ndone with agents.",
+      "start": 920.34,
+      "duration": 3.31
+    },
+    {
+      "text": "No, we are not.",
+      "start": 923.65,
+      "duration": 0.78
+    },
+    {
+      "text": "Let's talk about Agent\nSpace a little bit.",
+      "start": 924.43,
+      "duration": 2.13
+    },
+    {
+      "text": "So when you think about how\ndo I-- what's the right way",
+      "start": 926.56,
+      "duration": 2.625
+    },
+    {
+      "text": "to take some of these agents and\nput these interfaces in there?",
+      "start": 929.185,
+      "duration": 2.625
+    },
+    {
+      "text": "It's not going to be that\nweb interface, most likely.",
+      "start": 931.81,
+      "duration": 2.4
+    },
+    {
+      "text": "How do you serve\nup agents to users?",
+      "start": 934.21,
+      "duration": 1.813
+    },
+    {
+      "text": "How do you make them\navailable to folks?",
+      "start": 936.023,
+      "duration": 1.667
+    },
+    {
+      "text": "Agent Space is for your\nemployees, your people",
+      "start": 937.69,
+      "duration": 2.54
+    },
+    {
+      "text": "to get advantage, take\nthe advantage of Google",
+      "start": 940.23,
+      "duration": 2.64
+    },
+    {
+      "text": "quality search, agents that\nconnect to employee directories,",
+      "start": 942.87,
+      "duration": 5.26
+    },
+    {
+      "text": "third-party systems,\nBox, Dropbox,",
+      "start": 948.13,
+      "duration": 2.85
+    },
+    {
+      "text": "all these sorts of systems,\ndatabases, your email, others.",
+      "start": 950.98,
+      "duration": 3.24
+    },
+    {
+      "text": "How does this make it easier\nto pull all that information in",
+      "start": 954.22,
+      "duration": 2.72
+    },
+    {
+      "text": "and actually make things\nlike an intranet feel useful?",
+      "start": 956.94,
+      "duration": 3.04
+    },
+    {
+      "text": "And so this is almost like an\nenterprise operating system.",
+      "start": 959.98,
+      "duration": 2.43
+    },
+    {
+      "text": "Your home page, how\ndo I work better?",
+      "start": 962.41,
+      "duration": 1.97
+    },
+    {
+      "text": "In your environment, Agent Space\ncan take third-party agents,",
+      "start": 964.38,
+      "duration": 3.21
+    },
+    {
+      "text": "can take agents you build, can\ntake out-of-the-box agents.",
+      "start": 967.59,
+      "duration": 3.16
+    },
+    {
+      "text": "Really, really neat way to\nserve this up to your employees",
+      "start": 970.75,
+      "duration": 2.84
+    },
+    {
+      "text": "and make this something\nthey can interact with.",
+      "start": 973.59,
+      "duration": 2.64
+    },
+    {
+      "text": "And of course, this runs on\nthe same Google infrastructure",
+      "start": 976.23,
+      "duration": 2.67
+    },
+    {
+      "text": "that billions of folks\naround the world depend on.",
+      "start": 978.9,
+      "duration": 2.38
+    },
+    {
+      "text": "So you know that we focus a\nton on security here and scale",
+      "start": 981.28,
+      "duration": 3.29
+    },
+    {
+      "text": "and availability.",
+      "start": 984.57,
+      "duration": 2.22
+    },
+    {
+      "text": "So let's talk about the AI Edge.",
+      "start": 986.79,
+      "duration": 1.51
+    },
+    {
+      "text": "You got a bit of a tease\non some of these things",
+      "start": 988.3,
+      "duration": 1.79
+    },
+    {
+      "text": "in some of the\nannouncements today.",
+      "start": 990.09,
+      "duration": 1.33
+    },
+    {
+      "text": "But three things I\nwanted to point out.",
+      "start": 991.42,
+      "duration": 1.71
+    },
+    {
+      "text": "First, there's that\nGemma 3n model.",
+      "start": 993.13,
+      "duration": 2.34
+    },
+    {
+      "text": "This gives you a remarkably\nsmall, high-performing model",
+      "start": 995.47,
+      "duration": 4.04
+    },
+    {
+      "text": "that you can run\non mobile devices.",
+      "start": 999.51,
+      "duration": 2.29
+    },
+    {
+      "text": "Again, you could run\nit on your own laptop.",
+      "start": 1001.8,
+      "duration": 1.86
+    },
+    {
+      "text": "Really, really powerful.",
+      "start": 1003.66,
+      "duration": 1.26
+    },
+    {
+      "text": "Available now, or you\ncan take a look at that.",
+      "start": 1004.92,
+      "duration": 2.25
+    },
+    {
+      "text": "More model support\nfor the LiteRT Hugging",
+      "start": 1007.17,
+      "duration": 2.818
+    },
+    {
+      "text": "Face community as you have more\nmodels you can take advantage",
+      "start": 1009.988,
+      "duration": 2.542
+    },
+    {
+      "text": "of on your mobile devices.",
+      "start": 1012.53,
+      "duration": 1.525
+    },
+    {
+      "text": "And then finally,\neven being able to do",
+      "start": 1014.055,
+      "duration": 1.625
+    },
+    {
+      "text": "on-device retrieval-augmented\ngeneration, bringing",
+      "start": 1015.68,
+      "duration": 3.03
+    },
+    {
+      "text": "more functionality to\nwhat you can do locally",
+      "start": 1018.71,
+      "duration": 2.37
+    },
+    {
+      "text": "on a mobile device is\npretty exciting stuff.",
+      "start": 1021.08,
+      "duration": 2.62
+    },
+    {
+      "text": "So stay tuned to this space.",
+      "start": 1023.7,
+      "duration": 1.53
+    },
+    {
+      "text": "A lot of innovations\nhappening in small places.",
+      "start": 1025.23,
+      "duration": 3.74
+    },
+    {
+      "text": "What's new for app developers?",
+      "start": 1028.97,
+      "duration": 1.796
+    },
+    {
+      "text": "This is the part I get even more\nexcited about, as a lot of us",
+      "start": 1030.766,
+      "duration": 2.583
+    },
+    {
+      "text": "are at least pretend\ndevelopers or real developers.",
+      "start": 1033.349,
+      "duration": 2.528
+    },
+    {
+      "text": "What are we excited about?",
+      "start": 1035.877,
+      "duration": 1.083
+    },
+    {
+      "text": "What's new here in Cloud for us?",
+      "start": 1036.96,
+      "duration": 2.45
+    },
+    {
+      "text": "Gemini Code Assist is our\nflagship coding assistance tool",
+      "start": 1039.41,
+      "duration": 3.3
+    },
+    {
+      "text": "that you can use\nwith Google Cloud",
+      "start": 1042.71,
+      "duration": 1.98
+    },
+    {
+      "text": "and get code\ncompletion, generation,",
+      "start": 1044.69,
+      "duration": 2.01
+    },
+    {
+      "text": "training on your own code base,\nlong context, amazing stuff.",
+      "start": 1046.7,
+      "duration": 4.0
+    },
+    {
+      "text": "This is free for\nindividual use today.",
+      "start": 1050.7,
+      "duration": 1.98
+    },
+    {
+      "text": "Any of you can use it.",
+      "start": 1052.68,
+      "duration": 1.29
+    },
+    {
+      "text": "But we've also made\navailable Code Assist tools.",
+      "start": 1053.97,
+      "duration": 2.82
+    },
+    {
+      "text": "How do I reach out from my\ncoding environment to Google",
+      "start": 1056.79,
+      "duration": 3.38
+    },
+    {
+      "text": "Docs, GitHub,\nGitLab, other places,",
+      "start": 1060.17,
+      "duration": 3.83
+    },
+    {
+      "text": "so I don't have to leave my\nIDE to maybe validate something",
+      "start": 1064.0,
+      "duration": 3.35
+    },
+    {
+      "text": "in my spec or pull information\nabout my latest Jira ticket.",
+      "start": 1067.35,
+      "duration": 4.463
+    },
+    {
+      "text": "So all of these tools make\nit really straightforward",
+      "start": 1071.813,
+      "duration": 2.167
+    },
+    {
+      "text": "to pull in some really, really\npopular systems into your IDE",
+      "start": 1073.98,
+      "duration": 3.93
+    },
+    {
+      "text": "wherever you're coding.",
+      "start": 1077.91,
+      "duration": 2.49
+    },
+    {
+      "text": "Example from my machine, of\ncourse, as we look at the tools",
+      "start": 1080.4,
+      "duration": 3.06
+    },
+    {
+      "text": "that I have access to\nand you have access to.",
+      "start": 1083.46,
+      "duration": 2.19
+    },
+    {
+      "text": "This is something we\ncan all reach into,",
+      "start": 1085.65,
+      "duration": 2.17
+    },
+    {
+      "text": "whether those are\nsecurity systems",
+      "start": 1087.82,
+      "duration": 1.55
+    },
+    {
+      "text": "or work systems or databases.",
+      "start": 1089.37,
+      "duration": 1.96
+    },
+    {
+      "text": "You have access to\na bunch of things.",
+      "start": 1091.33,
+      "duration": 1.94
+    },
+    {
+      "text": "And we're also bringing more\nagents to this environment,",
+      "start": 1093.27,
+      "duration": 2.51
+    },
+    {
+      "text": "like everyone else is,\nof how do I use agents",
+      "start": 1095.78,
+      "duration": 2.32
+    },
+    {
+      "text": "to build better software?",
+      "start": 1098.1,
+      "duration": 1.45
+    },
+    {
+      "text": "And so we're taking this across\nthe software development life",
+      "start": 1099.55,
+      "duration": 2.68
+    },
+    {
+      "text": "cycle.",
+      "start": 1102.23,
+      "duration": 0.5
+    },
+    {
+      "text": "How do you help with coding,\nwith testing, with documentation",
+      "start": 1102.73,
+      "duration": 4.25
+    },
+    {
+      "text": "and other things like that?",
+      "start": 1106.98,
+      "duration": 1.59
+    },
+    {
+      "text": "It's in private preview\ntoday, but you're",
+      "start": 1108.57,
+      "duration": 1.77
+    },
+    {
+      "text": "seeing more and more\ncoding agents coming",
+      "start": 1110.34,
+      "duration": 1.89
+    },
+    {
+      "text": "to this environment as well,\nincluding a GitHub agent",
+      "start": 1112.23,
+      "duration": 2.37
+    },
+    {
+      "text": "today that can do code\nreviews on your pull requests.",
+      "start": 1114.6,
+      "duration": 4.17
+    },
+    {
+      "text": "How about Firebase Studio?",
+      "start": 1118.77,
+      "duration": 1.707
+    },
+    {
+      "text": "I think the-- yeah, there we go.",
+      "start": 1120.477,
+      "duration": 1.333
+    },
+    {
+      "text": "What's new in Firebase\nis coming up after this.",
+      "start": 1121.81,
+      "duration": 1.958
+    },
+    {
+      "text": "I won't steal all their thunder.",
+      "start": 1123.768,
+      "duration": 1.402
+    },
+    {
+      "text": "But there's some\nreally exciting stuff",
+      "start": 1125.17,
+      "duration": 1.583
+    },
+    {
+      "text": "here for people who want to\ngo jump now, Free Workspace.",
+      "start": 1126.753,
+      "duration": 2.837
+    },
+    {
+      "text": "Not now.",
+      "start": 1129.59,
+      "duration": 0.5
+    },
+    {
+      "text": "We're having fun.",
+      "start": 1130.09,
+      "duration": 0.708
+    },
+    {
+      "text": "Wait till after this.",
+      "start": 1130.798,
+      "duration": 1.032
+    },
+    {
+      "text": "But go use your free Workspace.",
+      "start": 1131.83,
+      "duration": 1.92
+    },
+    {
+      "text": "Build end-to-end applications.",
+      "start": 1133.75,
+      "duration": 1.83
+    },
+    {
+      "text": "Use AI for text to app.",
+      "start": 1135.58,
+      "duration": 2.1
+    },
+    {
+      "text": "Have a full environment for\nlocal emulation and testing.",
+      "start": 1137.68,
+      "duration": 3.57
+    },
+    {
+      "text": "Build a go back end or a web\nfront end or a Java back end.",
+      "start": 1141.25,
+      "duration": 3.99
+    },
+    {
+      "text": "And now use features\nlike the integration",
+      "start": 1145.24,
+      "duration": 2.06
+    },
+    {
+      "text": "with Builder for Figma,\nbeing able to turn things",
+      "start": 1147.3,
+      "duration": 2.61
+    },
+    {
+      "text": "into working apps.",
+      "start": 1149.91,
+      "duration": 1.63
+    },
+    {
+      "text": "Use the new Firebase\nlogic, which",
+      "start": 1151.54,
+      "duration": 2.33
+    },
+    {
+      "text": "is this evolution\nof being able to use",
+      "start": 1153.87,
+      "duration": 1.86
+    },
+    {
+      "text": "AI systems behind the scenes.",
+      "start": 1155.73,
+      "duration": 1.87
+    },
+    {
+      "text": "So really, really great\nplatform as you're",
+      "start": 1157.6,
+      "duration": 2.0
+    },
+    {
+      "text": "looking at doing end-to-end\napplication development.",
+      "start": 1159.6,
+      "duration": 3.96
+    },
+    {
+      "text": "Here's my environment as I've\nbeen vibe coding like a madman",
+      "start": 1163.56,
+      "duration": 2.7
+    },
+    {
+      "text": "lately.",
+      "start": 1166.26,
+      "duration": 0.64
+    },
+    {
+      "text": "So it's good stuff.",
+      "start": 1166.9,
+      "duration": 1.44
+    },
+    {
+      "text": "But as you all get\nfree access to a number",
+      "start": 1168.34,
+      "duration": 2.27
+    },
+    {
+      "text": "of workspaces to build here,\nagain, you can go text-to-app.",
+      "start": 1170.61,
+      "duration": 2.7
+    },
+    {
+      "text": "Or you can go full-on\ncoding Workspace,",
+      "start": 1173.31,
+      "duration": 2.56
+    },
+    {
+      "text": "save it, come back to it\nthe next day, the next week.",
+      "start": 1175.87,
+      "duration": 3.05
+    },
+    {
+      "text": "Online IDEs, online\ndev environments",
+      "start": 1178.92,
+      "duration": 2.62
+    },
+    {
+      "text": "are an amazing way to go.",
+      "start": 1181.54,
+      "duration": 3.87
+    },
+    {
+      "text": "Let's show a little\nbit of stuff here.",
+      "start": 1185.41,
+      "duration": 1.87
+    },
+    {
+      "text": "So let's see this\nlive right now,",
+      "start": 1187.28,
+      "duration": 1.547
+    },
+    {
+      "text": "some of our favorite new things.",
+      "start": 1188.827,
+      "duration": 1.333
+    },
+    {
+      "text": "Let's bring Fran back up here.",
+      "start": 1190.16,
+      "duration": 1.38
+    },
+    {
+      "text": "Thank you, Fran.",
+      "start": 1191.54,
+      "duration": 0.93
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1192.47,
+      "duration": 2.87
+    },
+    {
+      "text": "Let's see Code Assist.",
+      "start": 1195.34,
+      "duration": 1.32
+    },
+    {
+      "text": "What you got?",
+      "start": 1196.66,
+      "duration": 0.618
+    },
+    {
+      "text": "FRAN HINKELMANN:\nThank you Thank you.",
+      "start": 1197.278,
+      "duration": 1.542
+    },
+    {
+      "text": "Thank you.",
+      "start": 1198.82,
+      "duration": 1.03
+    },
+    {
+      "text": "Vibe coding, how's the vibe?",
+      "start": 1199.85,
+      "duration": 3.246
+    },
+    {
+      "text": "[CHEERS]",
+      "start": 1203.096,
+      "duration": 0.674
+    },
+    {
+      "text": "Are we enjoying I/O?",
+      "start": 1203.77,
+      "duration": 2.22
+    },
+    {
+      "text": "Yeah?",
+      "start": 1205.99,
+      "duration": 0.72
+    },
+    {
+      "text": "OK.",
+      "start": 1206.71,
+      "duration": 0.67
+    },
+    {
+      "text": "OK.",
+      "start": 1207.38,
+      "duration": 0.5
+    },
+    {
+      "text": "All right, we're not\nactually going to live code,",
+      "start": 1207.88,
+      "duration": 2.14
+    },
+    {
+      "text": "but I'm going to show you a few\ntips and tricks in Gemini Code",
+      "start": 1210.02,
+      "duration": 3.77
+    },
+    {
+      "text": "Assist that are going to\nmake your next live coding",
+      "start": 1213.79,
+      "duration": 2.46
+    },
+    {
+      "text": "session a lot better.",
+      "start": 1216.25,
+      "duration": 1.63
+    },
+    {
+      "text": "So Gemini Code\nAssist, you install it",
+      "start": 1217.88,
+      "duration": 2.51
+    },
+    {
+      "text": "as an extension in VS Code.",
+      "start": 1220.39,
+      "duration": 1.63
+    },
+    {
+      "text": "You all know how to do that.",
+      "start": 1222.02,
+      "duration": 2.21
+    },
+    {
+      "text": "RICHARD SEROTER:\nOr JetBrains IDEs.",
+      "start": 1224.23,
+      "duration": 2.58
+    },
+    {
+      "text": "FRAN HINKELMANN:\nOr JetBrains, yep.",
+      "start": 1226.81,
+      "duration": 2.79
+    },
+    {
+      "text": "And OK.",
+      "start": 1229.6,
+      "duration": 3.13
+    },
+    {
+      "text": "I want to show you the\ntools integration in Code",
+      "start": 1232.73,
+      "duration": 3.02
+    },
+    {
+      "text": "Assist, like Richard said.",
+      "start": 1235.75,
+      "duration": 1.42
+    },
+    {
+      "text": "So if you do add, you see\nall the different tools.",
+      "start": 1237.17,
+      "duration": 4.06
+    },
+    {
+      "text": "Pretty much anything that's\nan API can be used as a tool.",
+      "start": 1241.23,
+      "duration": 3.22
+    },
+    {
+      "text": "There's a bunch of\nthem out of the box.",
+      "start": 1244.45,
+      "duration": 1.74
+    },
+    {
+      "text": "We're going to use Google Docs.",
+      "start": 1246.19,
+      "duration": 1.332
+    },
+    {
+      "text": "RICHARD SEROTER: Good choice.",
+      "start": 1247.522,
+      "duration": 1.208
+    },
+    {
+      "text": "FRAN HINKELMANN: Everybody\nloves Google Docs.",
+      "start": 1248.73,
+      "duration": 1.875
+    },
+    {
+      "text": "And then I can do whatever I can\ndo with an LLM with Google Docs.",
+      "start": 1250.605,
+      "duration": 3.865
+    },
+    {
+      "text": "I can say, hey, what\ndocuments do I have?",
+      "start": 1254.47,
+      "duration": 4.67
+    },
+    {
+      "text": "So this is really nice.",
+      "start": 1259.14,
+      "duration": 1.15
+    },
+    {
+      "text": "I don't have to leave\nmy IDE to do anything.",
+      "start": 1260.29,
+      "duration": 3.98
+    },
+    {
+      "text": "Should I do this one?",
+      "start": 1264.27,
+      "duration": 1.21
+    },
+    {
+      "text": "RICHARD SEROTER: Yeah, I really\nwant to know what's in there.",
+      "start": 1265.48,
+      "duration": 2.6
+    },
+    {
+      "text": "FRAN HINKELMANN: OK.",
+      "start": 1268.08,
+      "duration": 0.833
+    },
+    {
+      "text": "So there's a POD, Product\nRequirement Document,",
+      "start": 1268.913,
+      "duration": 3.727
+    },
+    {
+      "text": "for a Java application.",
+      "start": 1272.64,
+      "duration": 1.96
+    },
+    {
+      "text": "And there's a task in there\nthat need to be implemented.",
+      "start": 1274.6,
+      "duration": 3.0
+    },
+    {
+      "text": "So I'm going to use the\ntools integration to say,",
+      "start": 1277.6,
+      "duration": 3.66
+    },
+    {
+      "text": "hey, Google Docs, summarize the\npod for Java Task Manager file.",
+      "start": 1281.26,
+      "duration": 5.18
+    },
+    {
+      "text": "So this way I don't even have\nto leave the IDE, read the doc,",
+      "start": 1286.44,
+      "duration": 3.73
+    },
+    {
+      "text": "understand it.",
+      "start": 1290.17,
+      "duration": 0.72
+    },
+    {
+      "text": "I just have Gemini read it\nand summarize it for me.",
+      "start": 1290.89,
+      "duration": 3.6
+    },
+    {
+      "text": "And it says, OK,\nit's an initiative.",
+      "start": 1294.49,
+      "duration": 2.22
+    },
+    {
+      "text": "Update Java to 21.",
+      "start": 1296.71,
+      "duration": 1.91
+    },
+    {
+      "text": "Update Spring Boot, migrate\naway from some deprecated stuff.",
+      "start": 1298.62,
+      "duration": 5.15
+    },
+    {
+      "text": "Well, let's just migrate away.",
+      "start": 1303.77,
+      "duration": 2.68
+    },
+    {
+      "text": "Let's upgrade to\nmodern Java here.",
+      "start": 1306.45,
+      "duration": 1.965
+    },
+    {
+      "text": "RICHARD SEROTER: Wow.",
+      "start": 1308.415,
+      "duration": 0.875
+    },
+    {
+      "text": "FRAN HINKELMANN: And as Gemini\nis working, if you can see it",
+      "start": 1309.29,
+      "duration": 3.33
+    },
+    {
+      "text": "here, it's upgrading my POM.",
+      "start": 1312.62,
+      "duration": 2.16
+    },
+    {
+      "text": "You can only see parts of it,\nbut suggesting lots of changes.",
+      "start": 1314.78,
+      "duration": 5.28
+    },
+    {
+      "text": "No work from me.",
+      "start": 1320.06,
+      "duration": 1.18
+    },
+    {
+      "text": "I told it, hey, read\nthe requirements doc.",
+      "start": 1321.24,
+      "duration": 2.46
+    },
+    {
+      "text": "I told it, Hey, do\nwhat's in the doc.",
+      "start": 1323.7,
+      "duration": 2.0
+    },
+    {
+      "text": "And we're done.",
+      "start": 1325.7,
+      "duration": 0.76
+    },
+    {
+      "text": "We've upgraded.",
+      "start": 1326.46,
+      "duration": 1.643
+    },
+    {
+      "text": "RICHARD SEROTER: Yeah.",
+      "start": 1328.103,
+      "duration": 0.917
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1329.02,
+      "duration": 2.2
+    },
+    {
+      "text": "You can still bill eight\nhours of work though.",
+      "start": 1331.22,
+      "duration": 1.96
+    },
+    {
+      "text": "It's OK.",
+      "start": 1333.18,
+      "duration": 0.77
+    },
+    {
+      "text": "FRAN HINKELMANN:\nDon't tell my boss.",
+      "start": 1333.95,
+      "duration": 1.5
+    },
+    {
+      "text": "RICHARD SEROTER:\nYeah, it's fine.",
+      "start": 1335.45,
+      "duration": 1.56
+    },
+    {
+      "text": "FRAN HINKELMANN: All\nright, the next thing",
+      "start": 1337.01,
+      "duration": 1.75
+    },
+    {
+      "text": "I want to show you\nis custom rules.",
+      "start": 1338.76,
+      "duration": 2.67
+    },
+    {
+      "text": "So they are like\nsystem instructions",
+      "start": 1341.43,
+      "duration": 2.34
+    },
+    {
+      "text": "but for Code Assist.",
+      "start": 1343.77,
+      "duration": 2.9
+    },
+    {
+      "text": "Yeah, let's just implement one.",
+      "start": 1346.67,
+      "duration": 2.02
+    },
+    {
+      "text": "So open the Settings, command\nShift P, open Settings.",
+      "start": 1348.69,
+      "duration": 4.53
+    },
+    {
+      "text": "Search for Gemini rules.",
+      "start": 1353.22,
+      "duration": 2.91
+    },
+    {
+      "text": "And here I can set\ndifferent rules.",
+      "start": 1356.13,
+      "duration": 2.81
+    },
+    {
+      "text": "And what I want to do is\nalways generate unit tests.",
+      "start": 1358.94,
+      "duration": 5.25
+    },
+    {
+      "text": "That's a good practice, right?",
+      "start": 1364.19,
+      "duration": 1.55
+    },
+    {
+      "text": "So instead of\nputting the sentence",
+      "start": 1365.74,
+      "duration": 2.25
+    },
+    {
+      "text": "after all of my prompts,\nsometimes forgetting it,",
+      "start": 1367.99,
+      "duration": 2.74
+    },
+    {
+      "text": "I put it in the rules.",
+      "start": 1370.73,
+      "duration": 1.2
+    },
+    {
+      "text": "And now everything I do with\nCode Assist is super customized",
+      "start": 1371.93,
+      "duration": 3.56
+    },
+    {
+      "text": "to my preferences and\nthe style that I have",
+      "start": 1375.49,
+      "duration": 3.24
+    },
+    {
+      "text": "to follow for my code base.",
+      "start": 1378.73,
+      "duration": 1.433
+    },
+    {
+      "text": "RICHARD SEROTER: Nice,\nvery responsible.",
+      "start": 1380.163,
+      "duration": 1.667
+    },
+    {
+      "text": "FRAN HINKELMANN: So\nno more yelling at me",
+      "start": 1381.83,
+      "duration": 1.91
+    },
+    {
+      "text": "about forgetting tests.",
+      "start": 1383.74,
+      "duration": 1.57
+    },
+    {
+      "text": "So let's try this out.",
+      "start": 1385.31,
+      "duration": 2.37
+    },
+    {
+      "text": "Let's just say add\na feature to find",
+      "start": 1387.68,
+      "duration": 6.5
+    },
+    {
+      "text": "a duration of incomplete tasks.",
+      "start": 1394.18,
+      "duration": 2.22
+    },
+    {
+      "text": "OK.",
+      "start": 1396.4,
+      "duration": 0.94
+    },
+    {
+      "text": "It's giving us sources here.",
+      "start": 1397.34,
+      "duration": 2.76
+    },
+    {
+      "text": "And then, further down, more\ncode, more code, more code,",
+      "start": 1400.1,
+      "duration": 7.16
+    },
+    {
+      "text": "more code.",
+      "start": 1407.26,
+      "duration": 1.53
+    },
+    {
+      "text": "OK.",
+      "start": 1408.79,
+      "duration": 0.67
+    },
+    {
+      "text": "And here's a bunch\nof test files.",
+      "start": 1409.46,
+      "duration": 2.4
+    },
+    {
+      "text": "So made it super easy.",
+      "start": 1411.86,
+      "duration": 1.55
+    },
+    {
+      "text": "I don't have to\nremember that that's",
+      "start": 1413.41,
+      "duration": 1.5
+    },
+    {
+      "text": "one of the things I want to do.",
+      "start": 1414.91,
+      "duration": 1.68
+    },
+    {
+      "text": "Put systems instructions in\ncustom rules and the config,",
+      "start": 1416.59,
+      "duration": 3.59
+    },
+    {
+      "text": "much easier to prompt.",
+      "start": 1420.18,
+      "duration": 2.01
+    },
+    {
+      "text": "And the last thing,\nit's not rocket science.",
+      "start": 1422.19,
+      "duration": 5.02
+    },
+    {
+      "text": "It's not even machine learning.",
+      "start": 1427.21,
+      "duration": 2.1
+    },
+    {
+      "text": "But it's absolutely\nmy favorite thing.",
+      "start": 1429.31,
+      "duration": 2.81
+    },
+    {
+      "text": "So I don't know about you, but\nI spend quite a bit of time",
+      "start": 1432.12,
+      "duration": 3.0
+    },
+    {
+      "text": "on refining my prompts.",
+      "start": 1435.12,
+      "duration": 1.428
+    },
+    {
+      "text": "And a lot of times,\nI want to go back",
+      "start": 1436.548,
+      "duration": 1.542
+    },
+    {
+      "text": "to something I did a week\nago or see the response.",
+      "start": 1438.09,
+      "duration": 3.16
+    },
+    {
+      "text": "But I restarted my\nmachine on VS Code,",
+      "start": 1441.25,
+      "duration": 2.3
+    },
+    {
+      "text": "and all these super smart\nanswers and really good",
+      "start": 1443.55,
+      "duration": 3.0
+    },
+    {
+      "text": "prompts that I came\nup with are gone.",
+      "start": 1446.55,
+      "duration": 2.37
+    },
+    {
+      "text": "Code Assist, if you go up here\nto the little History icon,",
+      "start": 1448.92,
+      "duration": 4.09
+    },
+    {
+      "text": "you get a history of all your\nchats, even if you restart.",
+      "start": 1453.01,
+      "duration": 3.72
+    },
+    {
+      "text": "So now I can go\nback and be like,",
+      "start": 1456.73,
+      "duration": 2.24
+    },
+    {
+      "text": "what was I doing last week?",
+      "start": 1458.97,
+      "duration": 1.78
+    },
+    {
+      "text": "What was the answer?",
+      "start": 1460.75,
+      "duration": 1.26
+    },
+    {
+      "text": "How did I write that prompt?",
+      "start": 1462.01,
+      "duration": 1.74
+    },
+    {
+      "text": "And I can see all my prompts.",
+      "start": 1463.75,
+      "duration": 2.15
+    },
+    {
+      "text": "I love it, I think.",
+      "start": 1465.9,
+      "duration": 1.412
+    },
+    {
+      "text": "I think that's something\nyou need to know",
+      "start": 1467.312,
+      "duration": 1.708
+    },
+    {
+      "text": "if you use Gemini Code Assist.",
+      "start": 1469.02,
+      "duration": 1.568
+    },
+    {
+      "text": "RICHARD SEROTER: Yeah, love it.",
+      "start": 1470.588,
+      "duration": 1.292
+    },
+    {
+      "text": "Thank you so much, Fran.",
+      "start": 1471.88,
+      "duration": 1.07
+    },
+    {
+      "text": "FRAN HINKELMANN: Thank you.",
+      "start": 1472.95,
+      "duration": 0.76
+    },
+    {
+      "text": "RICHARD SEROTER: Wonderful.",
+      "start": 1473.71,
+      "duration": 1.125
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1474.835,
+      "duration": 1.74
+    },
+    {
+      "text": "Yes, you can use this\ntoday in the enterprise",
+      "start": 1478.85,
+      "duration": 2.2
+    },
+    {
+      "text": "with a subscription.",
+      "start": 1481.05,
+      "duration": 0.84
+    },
+    {
+      "text": "You can use it free\nfor individuals today",
+      "start": 1481.89,
+      "duration": 2.15
+    },
+    {
+      "text": "with remarkably\nhigh usage limits,",
+      "start": 1484.04,
+      "duration": 1.895
+    },
+    {
+      "text": "that unless you're a\nrobot, you'll never hit.",
+      "start": 1485.935,
+      "duration": 1.925
+    },
+    {
+      "text": "So take advantage of\nit, and use it for fun.",
+      "start": 1487.86,
+      "duration": 3.11
+    },
+    {
+      "text": "Let's talk about a few more\nthings for app developers.",
+      "start": 1490.97,
+      "duration": 2.35
+    },
+    {
+      "text": "How do you design architectures?",
+      "start": 1493.32,
+      "duration": 1.35
+    },
+    {
+      "text": "How do you design systems?",
+      "start": 1494.67,
+      "duration": 1.86
+    },
+    {
+      "text": "Sometimes the Cloud can feel\nlike a pile of infrastructure.",
+      "start": 1496.53,
+      "duration": 3.2
+    },
+    {
+      "text": "It's a user role.",
+      "start": 1499.73,
+      "duration": 1.24
+    },
+    {
+      "text": "It's a storage bucket.",
+      "start": 1500.97,
+      "duration": 1.11
+    },
+    {
+      "text": "It's a bunch of\nKubernetes services,",
+      "start": 1502.08,
+      "duration": 1.77
+    },
+    {
+      "text": "cloud run services, databases.",
+      "start": 1503.85,
+      "duration": 2.04
+    },
+    {
+      "text": "It's hard to organize it all.",
+      "start": 1505.89,
+      "duration": 1.59
+    },
+    {
+      "text": "So Application\nDesign Center is part",
+      "start": 1507.48,
+      "duration": 1.525
+    },
+    {
+      "text": "of the set of tools we've\nbuilt that actually makes",
+      "start": 1509.005,
+      "duration": 2.125
+    },
+    {
+      "text": "it possible to visually model\na system, deploy that system,",
+      "start": 1511.13,
+      "duration": 4.9
+    },
+    {
+      "text": "and then even be able to operate\nthat thing as an application.",
+      "start": 1516.03,
+      "duration": 2.965
+    },
+    {
+      "text": "And so this is a\nreally great way",
+      "start": 1518.995,
+      "duration": 1.375
+    },
+    {
+      "text": "to be able to design using a\nnumber of different Google Cloud",
+      "start": 1520.37,
+      "duration": 2.82
+    },
+    {
+      "text": "Services, connect\nthings together, share",
+      "start": 1523.19,
+      "duration": 2.49
+    },
+    {
+      "text": "this with other people.",
+      "start": 1525.68,
+      "duration": 1.21
+    },
+    {
+      "text": "You can save these templates,\nshare it with your teammates.",
+      "start": 1526.89,
+      "duration": 2.97
+    },
+    {
+      "text": "They can then one-click\ndeploy a certain application",
+      "start": 1529.86,
+      "duration": 2.92
+    },
+    {
+      "text": "architecture, rights\nof production.",
+      "start": 1532.78,
+      "duration": 2.11
+    },
+    {
+      "text": "This makes it a lot easier\nto do canonical definitions",
+      "start": 1534.89,
+      "duration": 3.5
+    },
+    {
+      "text": "and share them with your\nteam and then, again,",
+      "start": 1538.39,
+      "duration": 2.37
+    },
+    {
+      "text": "deploy them as apps\nand manage them as apps",
+      "start": 1540.76,
+      "duration": 2.58
+    },
+    {
+      "text": "and troubleshoot them as apps.",
+      "start": 1543.34,
+      "duration": 1.6
+    },
+    {
+      "text": "The Cloud has been way too\ninfrastructure centric for too",
+      "start": 1544.94,
+      "duration": 2.69
+    },
+    {
+      "text": "long, and Google is building an\napp-centric cloud in, I think,",
+      "start": 1547.63,
+      "duration": 2.73
+    },
+    {
+      "text": "are pretty unique way.",
+      "start": 1550.36,
+      "duration": 2.4
+    },
+    {
+      "text": "Now then, how do you\nmanage that though?",
+      "start": 1552.76,
+      "duration": 1.72
+    },
+    {
+      "text": "So at the same time, we've\nintroduced Cloud Hub, now",
+      "start": 1554.48,
+      "duration": 2.42
+    },
+    {
+      "text": "in preview that you can access.",
+      "start": 1556.9,
+      "duration": 1.54
+    },
+    {
+      "text": "This gives you a way to get,\nagain, an app-centric lens",
+      "start": 1558.44,
+      "duration": 2.51
+    },
+    {
+      "text": "on operations.",
+      "start": 1560.95,
+      "duration": 1.33
+    },
+    {
+      "text": "So if you're an app owner,\nthis might be your homepage.",
+      "start": 1562.28,
+      "duration": 2.64
+    },
+    {
+      "text": "Maybe I'm assuming too\nmuch, but it's cool",
+      "start": 1564.92,
+      "duration": 2.0
+    },
+    {
+      "text": "if you could come in\nevery day and see what's",
+      "start": 1566.92,
+      "duration": 1.875
+    },
+    {
+      "text": "the health of my application?",
+      "start": 1568.795,
+      "duration": 1.255
+    },
+    {
+      "text": "When was my last deployment?",
+      "start": 1570.05,
+      "duration": 1.61
+    },
+    {
+      "text": "Even what was the\ncost of my application",
+      "start": 1571.66,
+      "duration": 2.31
+    },
+    {
+      "text": "in dev, test, and prod?",
+      "start": 1573.97,
+      "duration": 1.6
+    },
+    {
+      "text": "What is the most expensive\nservice in my application?",
+      "start": 1575.57,
+      "duration": 2.64
+    },
+    {
+      "text": "This has been hard to do.",
+      "start": 1578.21,
+      "duration": 1.23
+    },
+    {
+      "text": "You've had to do complex finops\nand processing invoice stuff.",
+      "start": 1579.44,
+      "duration": 4.17
+    },
+    {
+      "text": "What if you just as\nan application owner",
+      "start": 1583.61,
+      "duration": 2.07
+    },
+    {
+      "text": "can see the health optimization,\nfinance information",
+      "start": 1585.68,
+      "duration": 3.14
+    },
+    {
+      "text": "for your app?",
+      "start": 1588.82,
+      "duration": 1.095
+    },
+    {
+      "text": "So you're starting to see these\nthings stitch together and help",
+      "start": 1589.915,
+      "duration": 2.625
+    },
+    {
+      "text": "you as an app developer\nmodel architecture",
+      "start": 1592.54,
+      "duration": 2.43
+    },
+    {
+      "text": "and deploy it effectively.",
+      "start": 1594.97,
+      "duration": 2.143
+    },
+    {
+      "text": "And then there's Gemini Cloud\nAssist, which is in preview,",
+      "start": 1597.113,
+      "duration": 2.417
+    },
+    {
+      "text": "continues to be lit up in\ndifferent parts of Google Cloud.",
+      "start": 1599.53,
+      "duration": 2.95
+    },
+    {
+      "text": "This is giving you ability\nto do design, like you can",
+      "start": 1602.48,
+      "duration": 2.63
+    },
+    {
+      "text": "with the Design Center,\ntroubleshooting, even help",
+      "start": 1605.11,
+      "duration": 3.0
+    },
+    {
+      "text": "you do optimization\nsaying, hey, I want",
+      "start": 1608.11,
+      "duration": 1.73
+    },
+    {
+      "text": "to rightsize this instance.",
+      "start": 1609.84,
+      "duration": 1.43
+    },
+    {
+      "text": "Here's a screenshot\nfrom my environment",
+      "start": 1611.27,
+      "duration": 1.67
+    },
+    {
+      "text": "that's doing investigations.",
+      "start": 1612.94,
+      "duration": 2.258
+    },
+    {
+      "text": "So whenever you get\nsomething in your logs going,",
+      "start": 1615.198,
+      "duration": 2.042
+    },
+    {
+      "text": "I don't know what this is,\nthere's an investigate button",
+      "start": 1617.24,
+      "duration": 2.84
+    },
+    {
+      "text": "that kicks up Cloud Assist.",
+      "start": 1620.08,
+      "duration": 1.42
+    },
+    {
+      "text": "Does an AI-based\ninvestigation that",
+      "start": 1621.5,
+      "duration": 1.97
+    },
+    {
+      "text": "looks at everything else in\nyour app, looks at other logs,",
+      "start": 1623.47,
+      "duration": 2.5
+    },
+    {
+      "text": "looks at other services,\nand in a matter of seconds",
+      "start": 1625.97,
+      "duration": 2.93
+    },
+    {
+      "text": "gives you a bunch of\ndifferent observations",
+      "start": 1628.9,
+      "duration": 2.58
+    },
+    {
+      "text": "and then a couple hypotheses.",
+      "start": 1631.48,
+      "duration": 1.54
+    },
+    {
+      "text": "Hey, maybe you should fix this.",
+      "start": 1633.02,
+      "duration": 1.44
+    },
+    {
+      "text": "Hey, you're out of memory here.",
+      "start": 1634.46,
+      "duration": 1.62
+    },
+    {
+      "text": "This might literally\nsave you hours or days,",
+      "start": 1636.08,
+      "duration": 2.583
+    },
+    {
+      "text": "as we've talked to customers\nwho spend so much time trying",
+      "start": 1638.663,
+      "duration": 2.417
+    },
+    {
+      "text": "to figure out what\nwent wrong where.",
+      "start": 1641.08,
+      "duration": 2.16
+    },
+    {
+      "text": "This is immediately doing\nan AI surgical investigation",
+      "start": 1643.24,
+      "duration": 3.66
+    },
+    {
+      "text": "to bubble up what matters most.",
+      "start": 1646.9,
+      "duration": 1.67
+    },
+    {
+      "text": "It's one of my favorite\nthings we just shipped today",
+      "start": 1651.15,
+      "duration": 2.88
+    },
+    {
+      "text": "around Cloud Run.",
+      "start": 1654.03,
+      "duration": 0.968
+    },
+    {
+      "text": "Cloud Run is still\nprobably the easiest way",
+      "start": 1654.998,
+      "duration": 1.792
+    },
+    {
+      "text": "to get code running\nin the Cloud anywhere.",
+      "start": 1656.79,
+      "duration": 1.772
+    },
+    {
+      "text": "And so there's three things\nyou should be aware of that you",
+      "start": 1658.562,
+      "duration": 2.458
+    },
+    {
+      "text": "might have seen earlier today.",
+      "start": 1661.02,
+      "duration": 1.47
+    },
+    {
+      "text": "From Google AI Studio, you\ncan build an application now,",
+      "start": 1662.49,
+      "duration": 3.94
+    },
+    {
+      "text": "whether it's with text or\nwith code, one-click deploy",
+      "start": 1666.43,
+      "duration": 2.78
+    },
+    {
+      "text": "it to Cloud Run.",
+      "start": 1669.21,
+      "duration": 1.03
+    },
+    {
+      "text": "That's amazing.",
+      "start": 1670.24,
+      "duration": 0.75
+    },
+    {
+      "text": "It's awesome.",
+      "start": 1670.99,
+      "duration": 1.13
+    },
+    {
+      "text": "Yeah, yeah, that\ndeserves applause.",
+      "start": 1672.12,
+      "duration": 1.81
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1673.93,
+      "duration": 1.4
+    },
+    {
+      "text": "You all deserve nice things.",
+      "start": 1675.33,
+      "duration": 1.93
+    },
+    {
+      "text": "There's also a no\nCloud Run MCP server.",
+      "start": 1677.26,
+      "duration": 2.387
+    },
+    {
+      "text": "And so I tried this out as well.",
+      "start": 1679.647,
+      "duration": 1.333
+    },
+    {
+      "text": "I can drop this into\ncursor or other tools",
+      "start": 1680.98,
+      "duration": 2.28
+    },
+    {
+      "text": "and then from those\ntools immediately",
+      "start": 1683.26,
+      "duration": 1.61
+    },
+    {
+      "text": "say, hey, just deploy\nmy app to Cloud Run.",
+      "start": 1684.87,
+      "duration": 1.95
+    },
+    {
+      "text": "Immediately knows how to do it.",
+      "start": 1686.82,
+      "duration": 1.51
+    },
+    {
+      "text": "It works great.",
+      "start": 1688.33,
+      "duration": 0.96
+    },
+    {
+      "text": "And so this MCP server\ncan drop into environments",
+      "start": 1689.29,
+      "duration": 2.75
+    },
+    {
+      "text": "and just make everything aware\nof how to work with Cloud Run.",
+      "start": 1692.04,
+      "duration": 3.69
+    },
+    {
+      "text": "And then we've\nalso made it easy.",
+      "start": 1695.73,
+      "duration": 1.48
+    },
+    {
+      "text": "If you want to use open\nmodels, you can go from Gemma 3",
+      "start": 1697.21,
+      "duration": 2.51
+    },
+    {
+      "text": "with one click in AI Studio to\ndeploy an instance of Gemma 3",
+      "start": 1699.72,
+      "duration": 3.45
+    },
+    {
+      "text": "on Cloud Run with its\nGPUs, with its scale",
+      "start": 1703.17,
+      "duration": 3.45
+    },
+    {
+      "text": "to zero, with its scale to many.",
+      "start": 1706.62,
+      "duration": 2.08
+    },
+    {
+      "text": "What a great way\nto take open models",
+      "start": 1708.7,
+      "duration": 2.38
+    },
+    {
+      "text": "and immediately host them at\nan endpoint that's very elastic",
+      "start": 1711.08,
+      "duration": 3.12
+    },
+    {
+      "text": "and doesn't overcharge you.",
+      "start": 1714.2,
+      "duration": 1.18
+    },
+    {
+      "text": "So Cloud Run continues to\nbe one of the nicest tools",
+      "start": 1715.38,
+      "duration": 3.32
+    },
+    {
+      "text": "to use for public cloud.",
+      "start": 1718.7,
+      "duration": 1.595
+    },
+    {
+      "text": "And now there's\na really nice set",
+      "start": 1720.295,
+      "duration": 1.375
+    },
+    {
+      "text": "of ways to push more code there.",
+      "start": 1721.67,
+      "duration": 3.045
+    },
+    {
+      "text": "And as part of that, too, look,\napplication developers, I know.",
+      "start": 1724.715,
+      "duration": 2.625
+    },
+    {
+      "text": "Do you love security topics?",
+      "start": 1727.34,
+      "duration": 1.33
+    },
+    {
+      "text": "No, no hands go up.",
+      "start": 1728.67,
+      "duration": 1.5
+    },
+    {
+      "text": "Security is-- yeah, stop it.",
+      "start": 1730.17,
+      "duration": 1.56
+    },
+    {
+      "text": "Yeah, the security guy.",
+      "start": 1731.73,
+      "duration": 1.49
+    },
+    {
+      "text": "Most normal people do\nnot like security stuff.",
+      "start": 1733.22,
+      "duration": 7.26
+    },
+    {
+      "text": "But it's super important.",
+      "start": 1740.48,
+      "duration": 1.39
+    },
+    {
+      "text": "And so I like that we've shipped\na number of new unified security",
+      "start": 1741.87,
+      "duration": 3.56
+    },
+    {
+      "text": "offerings, new ways to have\nintegrations and security",
+      "start": 1745.43,
+      "duration": 3.6
+    },
+    {
+      "text": "in Chrome, a number of great\nthings for actually helping",
+      "start": 1749.03,
+      "duration": 2.91
+    },
+    {
+      "text": "you troubleshoot.",
+      "start": 1751.94,
+      "duration": 0.82
+    },
+    {
+      "text": "So while this might not be\nthe most interesting stuff,",
+      "start": 1752.76,
+      "duration": 2.31
+    },
+    {
+      "text": "your business lives or dies\nbased on your security posture.",
+      "start": 1755.07,
+      "duration": 2.72
+    },
+    {
+      "text": "So I love how much we're baking\nin responsible security services",
+      "start": 1757.79,
+      "duration": 3.24
+    },
+    {
+      "text": "into the Cloud.",
+      "start": 1761.03,
+      "duration": 0.92
+    },
+    {
+      "text": "What's new for data folks?",
+      "start": 1766.43,
+      "duration": 2.54
+    },
+    {
+      "text": "MCP toolbox for\ndatabases, how do you",
+      "start": 1768.97,
+      "duration": 2.25
+    },
+    {
+      "text": "make it really easy to connect\nto all these different data",
+      "start": 1771.22,
+      "duration": 2.43
+    },
+    {
+      "text": "services?",
+      "start": 1773.65,
+      "duration": 0.76
+    },
+    {
+      "text": "This is an open source project.",
+      "start": 1774.41,
+      "duration": 1.98
+    },
+    {
+      "text": "It doesn't just include\nGoogle Cloud databases,",
+      "start": 1776.39,
+      "duration": 2.58
+    },
+    {
+      "text": "but this makes it really,\nreally straightforward to bring",
+      "start": 1778.97,
+      "duration": 2.57
+    },
+    {
+      "text": "these databases into\nyour applications, AI",
+      "start": 1781.54,
+      "duration": 2.79
+    },
+    {
+      "text": "systems, whatever, by all\nwith a common contract.",
+      "start": 1784.33,
+      "duration": 3.54
+    },
+    {
+      "text": "Without having to code to\neach different database,",
+      "start": 1787.87,
+      "duration": 2.41
+    },
+    {
+      "text": "this makes them all act\nuniformly for you, again,",
+      "start": 1790.28,
+      "duration": 2.79
+    },
+    {
+      "text": "Google Cloud options as\nwell as third-party options.",
+      "start": 1793.07,
+      "duration": 4.13
+    },
+    {
+      "text": "Very, very exciting\nhere, Firestore",
+      "start": 1797.2,
+      "duration": 1.8
+    },
+    {
+      "text": "is an amazing database.",
+      "start": 1799.0,
+      "duration": 1.18
+    },
+    {
+      "text": "Serverless scales\nremarkably well.",
+      "start": 1800.18,
+      "duration": 2.64
+    },
+    {
+      "text": "And so now with Firestore\nwith MongoDB compatibility",
+      "start": 1802.82,
+      "duration": 3.44
+    },
+    {
+      "text": "you're really getting\na MongoDB-type instance",
+      "start": 1806.26,
+      "duration": 2.557
+    },
+    {
+      "text": "that you don't have to\nworry about sharding.",
+      "start": 1808.817,
+      "duration": 1.833
+    },
+    {
+      "text": "You don't have to\nworry about scaling.",
+      "start": 1810.65,
+      "duration": 1.26
+    },
+    {
+      "text": "You don't have to worry\nany of those pieces.",
+      "start": 1811.91,
+      "duration": 1.42
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1813.33,
+      "duration": 0.5
+    },
+    {
+      "text": "Yeah, there we go, some\napplause in the back.",
+      "start": 1813.83,
+      "duration": 2.3
+    },
+    {
+      "text": "MongoDB has a great\ninterface, but there's still",
+      "start": 1816.13,
+      "duration": 2.16
+    },
+    {
+      "text": "a lot of operational\nwork to really manage",
+      "start": 1818.29,
+      "duration": 2.01
+    },
+    {
+      "text": "these sort of systems, keep\nthem balanced properly.",
+      "start": 1820.3,
+      "duration": 2.38
+    },
+    {
+      "text": "And so, by offering\nthis on Firestore,",
+      "start": 1822.68,
+      "duration": 2.24
+    },
+    {
+      "text": "you get the best of Mongo but\nwith the best of one of the best",
+      "start": 1824.92,
+      "duration": 3.38
+    },
+    {
+      "text": "Cloud databases available.",
+      "start": 1828.3,
+      "duration": 2.79
+    },
+    {
+      "text": "Database Center,\nhow do you actually",
+      "start": 1831.09,
+      "duration": 1.56
+    },
+    {
+      "text": "manage fleets of databases?",
+      "start": 1832.65,
+      "duration": 1.52
+    },
+    {
+      "text": "If you have one database,\nyou can tune out",
+      "start": 1834.17,
+      "duration": 1.75
+    },
+    {
+      "text": "for the next ten seconds.",
+      "start": 1835.92,
+      "duration": 1.33
+    },
+    {
+      "text": "But if you have two\nor 200 or 2,000,",
+      "start": 1837.25,
+      "duration": 3.36
+    },
+    {
+      "text": "how do when I have\nto do upgrades?",
+      "start": 1840.61,
+      "duration": 1.74
+    },
+    {
+      "text": "How do I know the\nhealth of them all?",
+      "start": 1842.35,
+      "duration": 1.58
+    },
+    {
+      "text": "This works now with all of\nthe Google Cloud databases,",
+      "start": 1843.93,
+      "duration": 3.13
+    },
+    {
+      "text": "whether it's Spanner or\nFirestore or AlloyDB or Cloud",
+      "start": 1847.06,
+      "duration": 3.23
+    },
+    {
+      "text": "SQL or Memorystore.",
+      "start": 1850.29,
+      "duration": 1.5
+    },
+    {
+      "text": "Make it really, really simple\nto get a global view of what's",
+      "start": 1851.79,
+      "duration": 3.27
+    },
+    {
+      "text": "going on with my databases.",
+      "start": 1855.06,
+      "duration": 1.69
+    },
+    {
+      "text": "Which ones have hotspots?",
+      "start": 1856.75,
+      "duration": 1.44
+    },
+    {
+      "text": "Which ones need help?",
+      "start": 1858.19,
+      "duration": 1.2
+    },
+    {
+      "text": "This is a great interface\nthat you can all use today.",
+      "start": 1859.39,
+      "duration": 3.89
+    },
+    {
+      "text": "BigQuery, lots going\non with BigQuery.",
+      "start": 1863.28,
+      "duration": 2.08
+    },
+    {
+      "text": "This team is cooking right now.",
+      "start": 1865.36,
+      "duration": 2.4
+    },
+    {
+      "text": "So BigQuery AI, this engine\nmaking it easier and easier",
+      "start": 1867.76,
+      "duration": 4.55
+    },
+    {
+      "text": "to do AI operations in natural\nlanguage within BigQuery, Gemini",
+      "start": 1872.31,
+      "duration": 4.41
+    },
+    {
+      "text": "and BigQuery, this is giving\nyou code completion, not just",
+      "start": 1876.72,
+      "duration": 2.91
+    },
+    {
+      "text": "for SQL, but even for Python.",
+      "start": 1879.63,
+      "duration": 1.93
+    },
+    {
+      "text": "Explain code to a number\nof optimizations, this",
+      "start": 1881.56,
+      "duration": 2.74
+    },
+    {
+      "text": "is a really powerful way\nto use AI to just make",
+      "start": 1884.3,
+      "duration": 3.45
+    },
+    {
+      "text": "it easier to manage BigQuery.",
+      "start": 1887.75,
+      "duration": 2.4
+    },
+    {
+      "text": "Multimodal tables, being able\nto interact with tables, even",
+      "start": 1890.15,
+      "duration": 2.84
+    },
+    {
+      "text": "though they might be storing\nbinary objects and other things",
+      "start": 1892.99,
+      "duration": 2.5
+    },
+    {
+      "text": "or images, all doing it\neasy within BigQuery.",
+      "start": 1895.49,
+      "duration": 3.87
+    },
+    {
+      "text": "Vector Search, every\ndatabase needs Vector Search",
+      "start": 1899.36,
+      "duration": 2.43
+    },
+    {
+      "text": "at Google Cloud nowadays.",
+      "start": 1901.79,
+      "duration": 1.15
+    },
+    {
+      "text": "Let's make it simple to be\nable to do that directly",
+      "start": 1902.94,
+      "duration": 2.27
+    },
+    {
+      "text": "from BigQuery,\ncreate vector stores,",
+      "start": 1905.21,
+      "duration": 2.35
+    },
+    {
+      "text": "access the data there, read\nembeddings, and so forth.",
+      "start": 1907.56,
+      "duration": 3.36
+    },
+    {
+      "text": "And then even\nAI-assisted notebooks,",
+      "start": 1910.92,
+      "duration": 2.1
+    },
+    {
+      "text": "when you're doing things\nwith notebooks in BigQuery,",
+      "start": 1913.02,
+      "duration": 2.28
+    },
+    {
+      "text": "get that assistance\nin cells, help",
+      "start": 1915.3,
+      "duration": 2.36
+    },
+    {
+      "text": "you understand how to build\nand optimize that notebook.",
+      "start": 1917.66,
+      "duration": 2.6
+    },
+    {
+      "text": "So you're seeing a ton\nof things here just",
+      "start": 1920.26,
+      "duration": 1.75
+    },
+    {
+      "text": "to make it easier\nto use BigQuery.",
+      "start": 1922.01,
+      "duration": 2.7
+    },
+    {
+      "text": "Let's talk about governance.",
+      "start": 1924.71,
+      "duration": 1.66
+    },
+    {
+      "text": "BigQuery governance,\na set of tools",
+      "start": 1926.37,
+      "duration": 1.688
+    },
+    {
+      "text": "to help you in a dashboards\nto help you actually manage",
+      "start": 1928.058,
+      "duration": 2.292
+    },
+    {
+      "text": "and understand all of your data.",
+      "start": 1930.35,
+      "duration": 1.8
+    },
+    {
+      "text": "There's a cool business\nglossary helping",
+      "start": 1932.15,
+      "duration": 1.86
+    },
+    {
+      "text": "you have common terms used\nacross your organization.",
+      "start": 1934.01,
+      "duration": 3.51
+    },
+    {
+      "text": "You can export your\nmetadata to Cloud Storage",
+      "start": 1937.52,
+      "duration": 2.76
+    },
+    {
+      "text": "and use that for other purposes\nthere as well, which is neat.",
+      "start": 1940.28,
+      "duration": 3.51
+    },
+    {
+      "text": "Also, being able to do\nat-scale categorization,",
+      "start": 1943.79,
+      "duration": 2.7
+    },
+    {
+      "text": "be able to look at all\nof your different objects",
+      "start": 1946.49,
+      "duration": 2.24
+    },
+    {
+      "text": "and be in Cloud Storage,\nand be able to turn that",
+      "start": 1948.73,
+      "duration": 2.19
+    },
+    {
+      "text": "into observable metadata, and\neven manage disaster recovery.",
+      "start": 1950.92,
+      "duration": 5.14
+    },
+    {
+      "text": "How do I do proper failover?",
+      "start": 1956.06,
+      "duration": 1.288
+    },
+    {
+      "text": "How do I make sure that\nif I have something",
+      "start": 1957.348,
+      "duration": 1.792
+    },
+    {
+      "text": "in a whole region goes offline,\nI can be available elsewhere?",
+      "start": 1959.14,
+      "duration": 3.58
+    },
+    {
+      "text": "So powerful things\nacross BigQuery.",
+      "start": 1962.72,
+      "duration": 1.97
+    },
+    {
+      "text": "If I'm running it, if\nI'm building notebooks,",
+      "start": 1964.69,
+      "duration": 2.47
+    },
+    {
+      "text": "if I'm trying to\nunderstand queries,",
+      "start": 1967.16,
+      "duration": 1.77
+    },
+    {
+      "text": "this product continues to make\nit a one-stop shop for data",
+      "start": 1968.93,
+      "duration": 3.17
+    },
+    {
+      "text": "science and analytics.",
+      "start": 1972.1,
+      "duration": 2.82
+    },
+    {
+      "text": "As well as if you're doing\nthings with third-party systems,",
+      "start": 1974.92,
+      "duration": 2.47
+    },
+    {
+      "text": "we've been embracing\nApache Iceberg,",
+      "start": 1977.39,
+      "duration": 1.8
+    },
+    {
+      "text": "making it simpler and simpler to\nuse Iceberg tables in BigQuery.",
+      "start": 1979.19,
+      "duration": 3.3
+    },
+    {
+      "text": "Serverless Spark, I'm\ntaking advantage of Spark",
+      "start": 1982.49,
+      "duration": 2.84
+    },
+    {
+      "text": "directly within\nBigQuery and not even",
+      "start": 1985.33,
+      "duration": 1.8
+    },
+    {
+      "text": "having to manage\ninfrastructure to do that more",
+      "start": 1987.13,
+      "duration": 2.61
+    },
+    {
+      "text": "sophisticated analysis.",
+      "start": 1989.74,
+      "duration": 1.8
+    },
+    {
+      "text": "And even the Meta store, being\nable to do more things here",
+      "start": 1991.54,
+      "duration": 2.7
+    },
+    {
+      "text": "to access and centralize\ndata, whether that's",
+      "start": 1994.24,
+      "duration": 2.31
+    },
+    {
+      "text": "in BigQuery, Apache\nSpark, Apache Iceberg,",
+      "start": 1996.55,
+      "duration": 2.89
+    },
+    {
+      "text": "having a common view of my\ndata across those places.",
+      "start": 1999.44,
+      "duration": 4.16
+    },
+    {
+      "text": "And of course, making\nBigQuery easier to spend--",
+      "start": 2003.6,
+      "duration": 3.27
+    },
+    {
+      "text": "to do more work with it.",
+      "start": 2006.87,
+      "duration": 1.21
+    },
+    {
+      "text": "If I think about\ncontinuous queries,",
+      "start": 2008.08,
+      "duration": 1.5
+    },
+    {
+      "text": "I love this functionality.",
+      "start": 2009.58,
+      "duration": 1.29
+    },
+    {
+      "text": "Every time data is\ncoming into BigQuery,",
+      "start": 2010.87,
+      "duration": 2.25
+    },
+    {
+      "text": "you can actually have\nthis sort of query running",
+      "start": 2013.12,
+      "duration": 2.21
+    },
+    {
+      "text": "real time on the\nstreaming data coming in.",
+      "start": 2015.33,
+      "duration": 2.62
+    },
+    {
+      "text": "Maybe you're augmenting it.",
+      "start": 2017.95,
+      "duration": 1.35
+    },
+    {
+      "text": "Maybe you're looking\nfor anomalies.",
+      "start": 2019.3,
+      "duration": 1.57
+    },
+    {
+      "text": "You can actually deploy\nthese queries that",
+      "start": 2020.87,
+      "duration": 1.75
+    },
+    {
+      "text": "sit there at the\nedge of BigQuery",
+      "start": 2022.62,
+      "duration": 1.47
+    },
+    {
+      "text": "and run on all the\ndata coming in.",
+      "start": 2024.09,
+      "duration": 3.18
+    },
+    {
+      "text": "Or using history-based\nquery optimization.",
+      "start": 2027.27,
+      "duration": 2.405
+    },
+    {
+      "text": "What have you been\ndoing with BigQuery?",
+      "start": 2029.675,
+      "duration": 1.625
+    },
+    {
+      "text": "Use that whole history.",
+      "start": 2031.3,
+      "duration": 1.38
+    },
+    {
+      "text": "BigQuery will\nautomatically help tune",
+      "start": 2032.68,
+      "duration": 1.76
+    },
+    {
+      "text": "and optimize based on\nwhat you've been doing,",
+      "start": 2034.44,
+      "duration": 2.17
+    },
+    {
+      "text": "the data you've been accessing.",
+      "start": 2036.61,
+      "duration": 2.81
+    },
+    {
+      "text": "Pipe syntax, who loves\nwriting SQL code?",
+      "start": 2039.42,
+      "duration": 2.797
+    },
+    {
+      "text": "I don't know, many of you.",
+      "start": 2042.217,
+      "duration": 1.083
+    },
+    {
+      "text": "There's no shame there.",
+      "start": 2043.3,
+      "duration": 0.99
+    },
+    {
+      "text": "Maybe you want to live\nlife, live on the edge,",
+      "start": 2044.29,
+      "duration": 1.95
+    },
+    {
+      "text": "use pip syntax.",
+      "start": 2046.24,
+      "duration": 1.19
+    },
+    {
+      "text": "A whole new way\nnow to do querying,",
+      "start": 2047.43,
+      "duration": 1.763
+    },
+    {
+      "text": "which if you're a\nUnix person, you",
+      "start": 2049.193,
+      "duration": 1.417
+    },
+    {
+      "text": "might like the pipe syntax for\npassing data around and commands",
+      "start": 2050.61,
+      "duration": 3.69
+    },
+    {
+      "text": "from operation to operation.",
+      "start": 2054.3,
+      "duration": 1.419
+    },
+    {
+      "text": "This is now GA.",
+      "start": 2055.719,
+      "duration": 2.181
+    },
+    {
+      "text": "And analytics and geospatial,\nbe able to work more with maps",
+      "start": 2057.9,
+      "duration": 3.73
+    },
+    {
+      "text": "data and others from\nwithin BigQuery.",
+      "start": 2061.63,
+      "duration": 1.92
+    },
+    {
+      "text": "So again, can we\nkeep you in one place",
+      "start": 2063.55,
+      "duration": 1.583
+    },
+    {
+      "text": "where you don't feel\nlike you're bouncing",
+      "start": 2065.133,
+      "duration": 1.709
+    },
+    {
+      "text": "all over the place to\ndo sophisticated work",
+      "start": 2066.842,
+      "duration": 2.138
+    },
+    {
+      "text": "cost effectively?",
+      "start": 2068.98,
+      "duration": 1.27
+    },
+    {
+      "text": "You can with BigQuery.",
+      "start": 2070.25,
+      "duration": 2.389
+    },
+    {
+      "text": "And then finally,\na couple of things",
+      "start": 2072.639,
+      "duration": 1.5
+    },
+    {
+      "text": "left with Looker and BigQuery.",
+      "start": 2074.139,
+      "duration": 1.511
+    },
+    {
+      "text": "How do we use\nconversational analytics?",
+      "start": 2075.65,
+      "duration": 1.68
+    },
+    {
+      "text": "How do I talk to my\ndata, not in a weird way?",
+      "start": 2077.33,
+      "duration": 2.49
+    },
+    {
+      "text": "But how do I have more of a\nnatural language relationship",
+      "start": 2079.82,
+      "duration": 2.582
+    },
+    {
+      "text": "with this data so\nthat I don't have",
+      "start": 2082.402,
+      "duration": 1.458
+    },
+    {
+      "text": "to understand all\nof the weird joins",
+      "start": 2083.86,
+      "duration": 1.799
+    },
+    {
+      "text": "and group-by's that\nmight be necessary.",
+      "start": 2085.659,
+      "duration": 2.611
+    },
+    {
+      "text": "And then using Spectacles.",
+      "start": 2088.27,
+      "duration": 1.51
+    },
+    {
+      "text": "This is another nice way of\nactually using LookML and doing",
+      "start": 2089.78,
+      "duration": 2.57
+    },
+    {
+      "text": "almost CI/CD for some\nof my Looker dashboards",
+      "start": 2092.35,
+      "duration": 2.67
+    },
+    {
+      "text": "and doing real delivery\nof even dashboards",
+      "start": 2095.02,
+      "duration": 3.3
+    },
+    {
+      "text": "and a proper\nengineering practice.",
+      "start": 2098.32,
+      "duration": 2.08
+    },
+    {
+      "text": "So again, some cool\nintegrations here",
+      "start": 2100.4,
+      "duration": 2.16
+    },
+    {
+      "text": "if you're building dashboards\nwith BigQuery and Looker.",
+      "start": 2102.56,
+      "duration": 3.8
+    },
+    {
+      "text": "What's new with infrastructure?",
+      "start": 2106.36,
+      "duration": 1.6
+    },
+    {
+      "text": "A lot of stuff.",
+      "start": 2107.96,
+      "duration": 0.75
+    },
+    {
+      "text": "A lot of stuff's going on here.",
+      "start": 2108.71,
+      "duration": 0.99
+    },
+    {
+      "text": "There's even some\nwhistles going on.",
+      "start": 2109.7,
+      "duration": 1.64
+    },
+    {
+      "text": "Cloud WAN, wide\narea network, how",
+      "start": 2111.34,
+      "duration": 2.75
+    },
+    {
+      "text": "do you take advantage\nnow of Google's network",
+      "start": 2114.09,
+      "duration": 2.14
+    },
+    {
+      "text": "backbone for your WAN?",
+      "start": 2116.23,
+      "duration": 2.89
+    },
+    {
+      "text": "How do we stretch almost\ntreating a continent",
+      "start": 2119.12,
+      "duration": 2.81
+    },
+    {
+      "text": "like your LAN in this world?",
+      "start": 2121.93,
+      "duration": 1.98
+    },
+    {
+      "text": "So how do I take advantage?",
+      "start": 2123.91,
+      "duration": 1.74
+    },
+    {
+      "text": "You can now ride on the Google\nnetwork even at this level,",
+      "start": 2125.65,
+      "duration": 2.79
+    },
+    {
+      "text": "available in preview.",
+      "start": 2128.44,
+      "duration": 0.943
+    },
+    {
+      "text": "There are some great\narchitectures here.",
+      "start": 2129.383,
+      "duration": 1.667
+    },
+    {
+      "text": "Our team has been publishing\non the Google Cloud blog.",
+      "start": 2131.05,
+      "duration": 2.337
+    },
+    {
+      "text": "Understand more and\nmore about this service.",
+      "start": 2133.387,
+      "duration": 1.833
+    },
+    {
+      "text": "This could be a\nbig deal for you.",
+      "start": 2135.22,
+      "duration": 2.39
+    },
+    {
+      "text": "Cloud Run GPUs, you can get GPUs\non your serverless instance.",
+      "start": 2137.61,
+      "duration": 3.67
+    },
+    {
+      "text": "That's unbelievable.",
+      "start": 2141.28,
+      "duration": 1.14
+    },
+    {
+      "text": "So when you're serving\nup models, AI workloads,",
+      "start": 2142.42,
+      "duration": 2.73
+    },
+    {
+      "text": "doing inference, the fact\nthat I can get a bunch of GPUs",
+      "start": 2145.15,
+      "duration": 3.05
+    },
+    {
+      "text": "on demand, that you can go from\nzero to model in five seconds",
+      "start": 2148.2,
+      "duration": 3.81
+    },
+    {
+      "text": "on Cloud Run scale up to 1,000\ninstances, that's amazing.",
+      "start": 2152.01,
+      "duration": 3.975
+    },
+    {
+      "text": "That's awesome.",
+      "start": 2155.985,
+      "duration": 0.625
+    },
+    {
+      "text": "So this is now available,\ngenerally available",
+      "start": 2156.61,
+      "duration": 2.12
+    },
+    {
+      "text": "with absolutely\nno quota requests.",
+      "start": 2158.73,
+      "duration": 2.35
+    },
+    {
+      "text": "Up until now, you had to give a\nPM stare and a secret handshake",
+      "start": 2161.08,
+      "duration": 2.99
+    },
+    {
+      "text": "and a $20.",
+      "start": 2164.07,
+      "duration": 0.94
+    },
+    {
+      "text": "Not anymore.",
+      "start": 2165.01,
+      "duration": 1.05
+    },
+    {
+      "text": "It's a $50 now.",
+      "start": 2166.06,
+      "duration": 1.17
+    },
+    {
+      "text": "But also, not necessary.",
+      "start": 2167.23,
+      "duration": 2.25
+    },
+    {
+      "text": "All of you can get in\nthere, no quota request.",
+      "start": 2169.48,
+      "duration": 2.4
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2171.88,
+      "duration": 0.74
+    },
+    {
+      "text": "Yeah, there we go.",
+      "start": 2172.62,
+      "duration": 2.31
+    },
+    {
+      "text": "No quotas.",
+      "start": 2174.93,
+      "duration": 1.3
+    },
+    {
+      "text": "DNS Armor, how do I get and\nhave different types of--",
+      "start": 2176.23,
+      "duration": 3.02
+    },
+    {
+      "text": "Cloud's amazing.",
+      "start": 2179.25,
+      "duration": 1.29
+    },
+    {
+      "text": "AI is amazing.",
+      "start": 2180.54,
+      "duration": 0.79
+    },
+    {
+      "text": "All these things are\namazing, but you also",
+      "start": 2181.33,
+      "duration": 1.25
+    },
+    {
+      "text": "want to have better protection.",
+      "start": 2182.58,
+      "duration": 1.48
+    },
+    {
+      "text": "And how can I take advantage\nof things like DNS protection,",
+      "start": 2184.06,
+      "duration": 2.587
+    },
+    {
+      "text": "making sure people\naren't spoofing me,",
+      "start": 2186.647,
+      "duration": 1.583
+    },
+    {
+      "text": "attacking me over DNS.",
+      "start": 2188.23,
+      "duration": 1.62
+    },
+    {
+      "text": "Being able to use DNS Armor as\na service, this is coming soon.",
+      "start": 2189.85,
+      "duration": 3.39
+    },
+    {
+      "text": "But we're just providing\nModel Armor, DNS Armor.",
+      "start": 2193.24,
+      "duration": 2.79
+    },
+    {
+      "text": "A bunch of services are\nmaking it much, much simpler",
+      "start": 2196.03,
+      "duration": 2.36
+    },
+    {
+      "text": "to do robust security.",
+      "start": 2198.39,
+      "duration": 1.69
+    },
+    {
+      "text": "But that's so much on you.",
+      "start": 2200.08,
+      "duration": 1.14
+    },
+    {
+      "text": "Let Google do more\nof this work for you.",
+      "start": 2201.22,
+      "duration": 3.17
+    },
+    {
+      "text": "The GKE inference Gateway, if\nI'm using GKE to serve models,",
+      "start": 2204.39,
+      "duration": 4.53
+    },
+    {
+      "text": "right, I'm using GKE to serve\nopen models, Gemma, whatever,",
+      "start": 2208.92,
+      "duration": 4.06
+    },
+    {
+      "text": "Llama, Mistral, whatever,\nif I'm serving up models,",
+      "start": 2212.98,
+      "duration": 3.15
+    },
+    {
+      "text": "how can I use a gateway\nhere-- this is now available",
+      "start": 2216.13,
+      "duration": 2.45
+    },
+    {
+      "text": "in preview--",
+      "start": 2218.58,
+      "duration": 0.75
+    },
+    {
+      "text": "to do things like\nintelligent routing,",
+      "start": 2219.33,
+      "duration": 2.14
+    },
+    {
+      "text": "or be able to help me pick\nthe right model that I",
+      "start": 2221.47,
+      "duration": 2.63
+    },
+    {
+      "text": "want to use for each one?",
+      "start": 2224.1,
+      "duration": 1.33
+    },
+    {
+      "text": "How do I use this to do\nbetter observability?",
+      "start": 2225.43,
+      "duration": 2.12
+    },
+    {
+      "text": "This is a great component also\nsitting in the open space,",
+      "start": 2227.55,
+      "duration": 4.09
+    },
+    {
+      "text": "but we've really\noperationalized it well in GKE.",
+      "start": 2231.64,
+      "duration": 2.34
+    },
+    {
+      "text": "So if you're\nserving open models,",
+      "start": 2233.98,
+      "duration": 1.64
+    },
+    {
+      "text": "look at the Inference Gateway.",
+      "start": 2235.62,
+      "duration": 1.29
+    },
+    {
+      "text": "It's a really, really smart way\nto direct traffic and manage",
+      "start": 2236.91,
+      "duration": 2.7
+    },
+    {
+      "text": "the workloads.",
+      "start": 2239.61,
+      "duration": 1.49
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2241.1,
+      "duration": 1.29
+    },
+    {
+      "text": "GKE team.",
+      "start": 2242.39,
+      "duration": 0.75
+    },
+    {
+      "text": "All right, Gemini on\nGoogle Distributed Cloud,",
+      "start": 2243.14,
+      "duration": 2.628
+    },
+    {
+      "text": "I didn't think we would ever do\nthis, so this is pretty cool.",
+      "start": 2245.768,
+      "duration": 2.542
+    },
+    {
+      "text": "We are taking our\nflagship AI and making",
+      "start": 2248.31,
+      "duration": 2.54
+    },
+    {
+      "text": "it available on premises for you\nwith Google Distributed Cloud,",
+      "start": 2250.85,
+      "duration": 3.99
+    },
+    {
+      "text": "either connected, meaning it has\na tether back to Google Cloud,",
+      "start": 2254.84,
+      "duration": 3.48
+    },
+    {
+      "text": "or air-gapped sitting in a\nparticular remote environment",
+      "start": 2258.32,
+      "duration": 4.2
+    },
+    {
+      "text": "or sensitive\nenvironment where it",
+      "start": 2262.52,
+      "duration": 1.47
+    },
+    {
+      "text": "can't connect to the internet.",
+      "start": 2263.99,
+      "duration": 1.33
+    },
+    {
+      "text": "You can also get Gemini on that.",
+      "start": 2265.32,
+      "duration": 1.92
+    },
+    {
+      "text": "So this will be coming soon.",
+      "start": 2267.24,
+      "duration": 1.378
+    },
+    {
+      "text": "But this is more and\nmore of us making sure",
+      "start": 2268.618,
+      "duration": 1.792
+    },
+    {
+      "text": "that you have the best\ntechnology available, regardless",
+      "start": 2270.41,
+      "duration": 2.43
+    },
+    {
+      "text": "of where you are.",
+      "start": 2272.84,
+      "duration": 2.55
+    },
+    {
+      "text": "This just got announced\nthis morning, which",
+      "start": 2275.39,
+      "duration": 1.86
+    },
+    {
+      "text": "is pretty exciting.",
+      "start": 2277.25,
+      "duration": 0.822
+    },
+    {
+      "text": "So if you're using\nKubernetes again",
+      "start": 2278.072,
+      "duration": 1.458
+    },
+    {
+      "text": "and you're doing things like\nVLLM for inference, very",
+      "start": 2279.53,
+      "duration": 5.01
+    },
+    {
+      "text": "popular library, how do you do\nthis in a distributed fashion?",
+      "start": 2284.54,
+      "duration": 3.61
+    },
+    {
+      "text": "How do you do this\nacross clusters,",
+      "start": 2288.15,
+      "duration": 1.56
+    },
+    {
+      "text": "across different environments?",
+      "start": 2289.71,
+      "duration": 1.71
+    },
+    {
+      "text": "This is a new project,\nalong with Red Hat and IBM",
+      "start": 2291.42,
+      "duration": 2.81
+    },
+    {
+      "text": "and Core Weave and\nothers, that we've",
+      "start": 2294.23,
+      "duration": 1.74
+    },
+    {
+      "text": "made this possible to stretch\nthis across infrastructure",
+      "start": 2295.97,
+      "duration": 3.65
+    },
+    {
+      "text": "on Kubernetes.",
+      "start": 2299.62,
+      "duration": 0.85
+    },
+    {
+      "text": "So if you're doing\ninference, you're using VLLM,",
+      "start": 2300.47,
+      "duration": 2.56
+    },
+    {
+      "text": "now you have a really great\noption supported by the industry",
+      "start": 2303.03,
+      "duration": 2.5
+    },
+    {
+      "text": "players.",
+      "start": 2305.53,
+      "duration": 2.22
+    },
+    {
+      "text": "Ironwood, a great name.",
+      "start": 2307.75,
+      "duration": 2.35
+    },
+    {
+      "text": "This is a new seventh\ngeneration TPU.",
+      "start": 2310.1,
+      "duration": 2.94
+    },
+    {
+      "text": "Amazing performance.",
+      "start": 2313.04,
+      "duration": 1.59
+    },
+    {
+      "text": "This is also coming soon.",
+      "start": 2314.63,
+      "duration": 1.68
+    },
+    {
+      "text": "Every iteration of\nTPUs we continue",
+      "start": 2316.31,
+      "duration": 2.12
+    },
+    {
+      "text": "to see great energy usage,\nterrific performance, things",
+      "start": 2318.43,
+      "duration": 3.71
+    },
+    {
+      "text": "like that.",
+      "start": 2322.14,
+      "duration": 0.5
+    },
+    {
+      "text": "So you're seeing some\nthings that they're",
+      "start": 2322.64,
+      "duration": 1.708
+    },
+    {
+      "text": "serving the foundation,\nthings like TPUs.",
+      "start": 2324.348,
+      "duration": 1.712
+    },
+    {
+      "text": "This is what Google trains\nand serves Gemini on,",
+      "start": 2326.06,
+      "duration": 2.75
+    },
+    {
+      "text": "you being able to access\nthese in GKE and other places.",
+      "start": 2328.81,
+      "duration": 3.7
+    },
+    {
+      "text": "You continue to get great\nperformance at great price.",
+      "start": 2332.51,
+      "duration": 3.41
+    },
+    {
+      "text": "So I drowned you in\nannouncements today.",
+      "start": 2335.92,
+      "duration": 3.18
+    },
+    {
+      "text": "I don't even think\nI hit them all.",
+      "start": 2339.1,
+      "duration": 1.455
+    },
+    {
+      "text": "But the important\nthing is, look,",
+      "start": 2340.555,
+      "duration": 1.375
+    },
+    {
+      "text": "you're going to take\naway a few things.",
+      "start": 2341.93,
+      "duration": 1.625
+    },
+    {
+      "text": "First off, we're innovating\nin the model space.",
+      "start": 2343.555,
+      "duration": 2.545
+    },
+    {
+      "text": "How are you getting\nabsolutely amazing performance",
+      "start": 2346.1,
+      "duration": 3.02
+    },
+    {
+      "text": "from these models,\nmulti-modal interactions.",
+      "start": 2349.12,
+      "duration": 3.22
+    },
+    {
+      "text": "That's amazing.",
+      "start": 2352.34,
+      "duration": 0.72
+    },
+    {
+      "text": "So you want foundationally\namazing models in tech.",
+      "start": 2353.06,
+      "duration": 2.94
+    },
+    {
+      "text": "But then how do you\nbuild on top of it?",
+      "start": 2356.0,
+      "duration": 1.71
+    },
+    {
+      "text": "You saw Fran\ndemonstrate what we're",
+      "start": 2357.71,
+      "duration": 1.78
+    },
+    {
+      "text": "doing with ADK,\nusing MCP, A-to-A,",
+      "start": 2359.49,
+      "duration": 3.015
+    },
+    {
+      "text": "a lot of three-letter acronyms.",
+      "start": 2362.505,
+      "duration": 1.797
+    },
+    {
+      "text": "But how do you use all these\ndifferent tools and then",
+      "start": 2364.302,
+      "duration": 2.208
+    },
+    {
+      "text": "Gemini Code Assist on\ntop and the databases",
+      "start": 2366.51,
+      "duration": 2.49
+    },
+    {
+      "text": "we have to build really\nawesome software?",
+      "start": 2369.0,
+      "duration": 2.505
+    },
+    {
+      "text": "Again, the models are\namazing, but you're not",
+      "start": 2371.505,
+      "duration": 1.875
+    },
+    {
+      "text": "going to sell the model.",
+      "start": 2373.38,
+      "duration": 1.003
+    },
+    {
+      "text": "You're selling really\nawesome technology",
+      "start": 2374.383,
+      "duration": 1.667
+    },
+    {
+      "text": "that takes advantage of that.",
+      "start": 2376.05,
+      "duration": 1.45
+    },
+    {
+      "text": "So how do you build\namazing software?",
+      "start": 2377.5,
+      "duration": 1.71
+    },
+    {
+      "text": "We've got now for Java, for\nPython, MCP, for lots of folks.",
+      "start": 2379.21,
+      "duration": 4.23
+    },
+    {
+      "text": "How do you make sure you're\nbuilding the best stuff?",
+      "start": 2383.44,
+      "duration": 2.19
+    },
+    {
+      "text": "And then how do you use all of\nthese data, AI, Agent Space,",
+      "start": 2385.63,
+      "duration": 3.63
+    },
+    {
+      "text": "other services to make sure\nthat your systems are robust?",
+      "start": 2389.26,
+      "duration": 3.15
+    },
+    {
+      "text": "You have BigQuery for analytics,\namazing infrastructure that",
+      "start": 2392.41,
+      "duration": 2.99
+    },
+    {
+      "text": "can be tapped into.",
+      "start": 2395.4,
+      "duration": 1.57
+    },
+    {
+      "text": "So amazing models, build\ngreat AI applications or just",
+      "start": 2396.97,
+      "duration": 4.73
+    },
+    {
+      "text": "applications in general.",
+      "start": 2401.7,
+      "duration": 1.33
+    },
+    {
+      "text": "And then take advantage of\nthese great ancillary services,",
+      "start": 2403.03,
+      "duration": 3.06
+    },
+    {
+      "text": "whether that's data analytics,\nsecurity infrastructure,",
+      "start": 2406.09,
+      "duration": 2.93
+    },
+    {
+      "text": "that make you be able\nto do better things.",
+      "start": 2409.02,
+      "duration": 2.68
+    },
+    {
+      "text": "So we're excited about\nthe future of Cloud.",
+      "start": 2411.7,
+      "duration": 2.4
+    },
+    {
+      "text": "We're doing a great\npartnership with NVIDIA.",
+      "start": 2414.1,
+      "duration": 1.98
+    },
+    {
+      "text": "So this new program\nwe'd like to announce.",
+      "start": 2416.08,
+      "duration": 2.5
+    },
+    {
+      "text": "Yeah, so build some\nof this expertise.",
+      "start": 2418.58,
+      "duration": 1.96
+    },
+    {
+      "text": "Get some great perks.",
+      "start": 2420.54,
+      "duration": 1.08
+    },
+    {
+      "text": "Get some access.",
+      "start": 2421.62,
+      "duration": 1.17
+    },
+    {
+      "text": "You can now partner up if you're\nbuilding things with NVIDIA",
+      "start": 2422.79,
+      "duration": 2.54
+    },
+    {
+      "text": "on Google Cloud,\nwhich is amazing.",
+      "start": 2425.33,
+      "duration": 2.16
+    },
+    {
+      "text": "And then sign up for the\nGoogle Developer program.",
+      "start": 2427.49,
+      "duration": 2.17
+    },
+    {
+      "text": "There's no cost.",
+      "start": 2429.66,
+      "duration": 0.93
+    },
+    {
+      "text": "Again, Cameron will take tips.",
+      "start": 2430.59,
+      "duration": 1.47
+    },
+    {
+      "text": "But for the most part it's free.",
+      "start": 2432.06,
+      "duration": 1.68
+    },
+    {
+      "text": "You can get in here.",
+      "start": 2433.74,
+      "duration": 0.893
+    },
+    {
+      "text": "You get newsletters from us.",
+      "start": 2434.633,
+      "duration": 1.167
+    },
+    {
+      "text": "You get early access.",
+      "start": 2435.8,
+      "duration": 1.21
+    },
+    {
+      "text": "You get more access to things\nlike Firebase workspaces.",
+      "start": 2437.01,
+      "duration": 2.55
+    },
+    {
+      "text": "You get all kinds\nof great things.",
+      "start": 2439.56,
+      "duration": 1.53
+    },
+    {
+      "text": "Sign up for this program.",
+      "start": 2441.09,
+      "duration": 1.213
+    },
+    {
+      "text": "You even get spammed with a\nnewsletter from me every week.",
+      "start": 2442.303,
+      "duration": 2.417
+    },
+    {
+      "text": "So that's a detractor.",
+      "start": 2444.72,
+      "duration": 1.13
+    },
+    {
+      "text": "That won't make you sign\nup, but overall, good stuff.",
+      "start": 2445.85,
+      "duration": 3.46
+    },
+    {
+      "text": "Get involved.",
+      "start": 2449.31,
+      "duration": 0.69
+    },
+    {
+      "text": "Learn stuff here.",
+      "start": 2450.0,
+      "duration": 0.84
+    },
+    {
+      "text": "Get hands on in the stations.",
+      "start": 2450.84,
+      "duration": 1.65
+    },
+    {
+      "text": "But this is one of the most\nexciting times of my career",
+      "start": 2452.49,
+      "duration": 2.81
+    },
+    {
+      "text": "to be around technology,\nbe able to build.",
+      "start": 2455.3,
+      "duration": 3.16
+    },
+    {
+      "text": "Let's not waste it.",
+      "start": 2458.46,
+      "duration": 0.962
+    },
+    {
+      "text": "Let's actually do some\namazing things with technology",
+      "start": 2459.422,
+      "duration": 2.208
+    },
+    {
+      "text": "and hopefully with us.",
+      "start": 2461.63,
+      "duration": 1.21
+    },
+    {
+      "text": "Thank you very much.",
+      "start": 2462.84,
+      "duration": 1.04
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2463.88,
+      "duration": 1.2
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2465.08,
+      "duration": 3.05
+    }
+  ]
+}

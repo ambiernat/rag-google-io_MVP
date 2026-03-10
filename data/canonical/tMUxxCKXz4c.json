@@ -1,0 +1,79 @@
+[
+  {
+    "id": "tMUxxCKXz4c__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 6.64,
+    "timestamp_end": 163.04000000000002,
+    "text": "Hi everyone, my name is Kang and I'm a product manager at Google Cloud working on zerative media. In this video, I would like to give you an introductions about generative media which are the AI models that allows you to generate images, videos and audios from a text prompt. In Google Cloud, we offer four gen media models. Imagine for image generations, VO for video generations, chirp for speech generations, and LIA for music generations. For each model, I'll go through the popular use cases that many developers are leveraging them for. Then I'll talk about the technical details on how you can get started with using this model. Now, let's dive into it. We'll start with imagen. The most basic use case that you can use imagen for is to generate highquality images from a text prompt. It can generate many different kinds of images like photorealistic images which would be very difficult and costly to capture in real life such as this drawn photo or this photo of a hummingbird. Imagine can also do macro photography and creating very realistic and artistic lighting condition. Imagine can also generate science fiction images or images of different art styles. Beyond generating images from text prompts, imagine can do image editing as well. It can remove objects from the image so that it can turn this photo into a beautiful photo of the you. It can remove reflections on windows as well to make a picture perfect photo. Besides object removal, imagine can also insert objects into images or extend an image and fill in the missing areas. These features can be used to correct photos taken at a bad angle, for example. Imagine can even completely replace the background of the photo, making them more interesting. It also can stylize your image into many different art styles including oil painting, 3D art, and many more. The background replacement features is actually quite useful in e-commerce as well because it can generate different backgrounds for your product image. It works for a wide range of products from small items like this",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 144.599,
+    "timestamp_end": 303.75899999999996,
+    "text": "more. The background replacement features is actually quite useful in e-commerce as well because it can generate different backgrounds for your product image. It works for a wide range of products from small items like this perfume bottle to big items like appliance or furniture. So that was a highlight of features that imagine offers. Now let me show you how to use imagen in code. Imagine has a restful API which is available through Google cloud. You can call the rest API directly from your applications or you can use one of our gener SDK to make it easier. Next let me show you how to use imagen with the Python SDK. You start with installing the Google gener SDK using pip. Then you'll need to authenticate your environment. If you are using Google Collab, you can use it off module to do it quickly. If you're using a local Python environment, you can use a good Zcloud CLI. Run this command and authenticate with your user credential. Then you need to create a Zenai client. Next, you define the text prompt that you want to use. Then choose an imagen model. Here we choose imagen 3 generate 002 which is the latest and highest quality imagine model as of May 2025 and just call generate images. Wait a few seconds for it to generate and then save the generated image in a file. Very easy, isn't it? There are several parameters that you can use to customize our image generation request. For example, you can choose how many images you want to generate in a single request. You can choose any value between one and four. And if you choose to generate more than one image, you will get multiple variations and pick the one that you like the most to use. You can choose the aspect ratio for the generated images as well. So that was image generations. Now let's talk about image editing. To edit an image like this with imagen basically you need to define a mask which tells which part of the image that you wanted to edit. If you want to remove the objects from the image then the mask is all you need. But if you want to insert objects",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 286.04,
+    "timestamp_end": 442.52,
+    "text": "imagen basically you need to define a mask which tells which part of the image that you wanted to edit. If you want to remove the objects from the image then the mask is all you need. But if you want to insert objects into the image, then you'll need a prompt to specify what to insert. The Python code to do image editing with IMAGEN is very similar to the image generations codes that you saw earlier with a few changes. First, you need to import a few more types from the Genai SDK. Then you define the original image and the mask image. Then you call the edit image functions. You specify the editing mode to use here. For object removal, you don't need to write a prompt. But to insert an object, you need to specify what you want to insert in the prompt. And finally, you save the output image to a file just like what you did earlier with image generations. Very easy, isn't it? Please also check out the Imagen Collab notebooks in the video description for more examples of how you can use Imagen to generate and edit images. Now let's move over to VO, our video generation [Music] model. V2 creates highquality videos covering a wide range of topics and styles. In fact, when we compared to other video generations models, people consistently rated V2 as producing better results. VO's most basic features is to allow you to generate videos from text prompts. As in May 2025, you can generate videos of up to 8 seconds. Just like imaginate many different kinds of videos from photorealistic, science fictions, animations, and many more. You can have more control over the output video by using an image as the initial frame and writing a prompt to turn it into a video because an image is faster than zing a video. This approach allows you to quickly iterate to get the visual that you want before turning them into a video. You can also specify different camera movements such as panning left and right or pushing in to have more control over the output video. One interesting use case of imagetovideo capability is to turn a",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 425.16,
+    "timestamp_end": 586.32,
+    "text": "video. You can also specify different camera movements such as panning left and right or pushing in to have more control over the output video. One interesting use case of imagetovideo capability is to turn a static banner ad like this popcorn ad into an engaging short video ad like this one. V API is also available through the Googlei SDK and let me show you how to use it in Python. You start with installing the same Google geniip pit package. Then import the geni module and initialize a client object just like what you did with imagen earlier. Next, we'll use a model called v2.0 generate 001 for text to video generations. Similar to text to image generations with I imagine we define the prompt the aspects ratio the number of variations we want to create and the length of each video. After calling the generate video functions you will get back a long running operations which you will need to pull it periodically and wait until the video generations operations has completed to download the video. It will take about 20 seconds to generate a 8-second video. Once it has completed, you can save the generated video. If you want to specify an image as the initial frame for the generated video, you can do it by defining the image and then pass it to the generate video function. The other parameters stay the same. Okay, so that's all you need to generate videos with VO using the Google Genai Python SDK. Next, let's talk about CHF, our latest speech generations [Music] model. Text to speech technology has been there for many years, but our latest text to speech model really improve in how natural it sounds and the level of control you have to infuse emotions into the AI generated speech. So, why don't we just let Chirp introduce itself and tell us what it can do? Hey there, I'm Chirp 3. Well, one version of me anyway. And I'm Chirp 3, too, just with a different voice. We're here to tell you about how incredibly natural sounding we are. Yeah, we're not those robotic voices you're used to. We can actually, you know, talk like real",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 570.8,
+    "timestamp_end": 724.9590000000001,
+    "text": "version of me anyway. And I'm Chirp 3, too, just with a different voice. We're here to tell you about how incredibly natural sounding we are. Yeah, we're not those robotic voices you're used to. We can actually, you know, talk like real people with pauses and uh even the occasional um It's true. We've been designed to really capture the flow of conversation. We can handle complex sentences, different tones, and get this, we support 30 different languages. 30. It's kind of crazy. We're talking English with different accents. German, Indonesian, Spanish, Chinese, the list goes on. Imagine reaching a global audience, all with incredibly natural sounding speech in their native tongue. We even support different accents within languages like speaking English with an Indian accent. So whether you need a voice for customer service, e-learning, or well, just about anything, Chirp 3 has you covered. We're versatile, natural, and ready for anything. Give us a try. We think you'll be amazed at how human we can sound without actually being human, of course. Yep. We're pretty good. Thanks for listening. What do you think? I think Ch 3 sounds really natural. Next, let me show you the code to Z speech from text. In order to use chirp in Python, you need to install the Google cloud texttospech SDK using pip. Then you import the text to speech module and create a texttospech client. Now let's move on to configuring the speech generation task. You start with selecting the voice you want to use. and the config of the output audio such as which audio encoding you want to use. Then specify the script that you want chirp to read out. Finally, call synthesize speech functions to start the model inference. And once it has completed, you can save the model output as a file. That was all you need to generate natural voice using chop tree. Lastly, let's talk about LIA, our latest model for music [Music] generations. The main thing LIA does is to create instrumental music based on a single text description. You give it a prompt",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 702.399,
+    "timestamp_end": 874.72,
+    "text": "natural voice using chop tree. Lastly, let's talk about LIA, our latest model for music [Music] generations. The main thing LIA does is to create instrumental music based on a single text description. You give it a prompt describing the mood, gen, and instruments that you want, and Lydia will generate the music. We're not doing vocals yet and focusing on instrumental tracks. Think of this as describing the kind of music you need and Lydia will generate it for you. Before we get into how people are using Lydia, I want to play a few quick examples of music that it has created. [Music] [Applause] [Music] [Applause] [Music] As you can tell, the range of styles is pretty broad, even within the instrumental space. These are just examples dated from text prompts and not from pre-recorded music at all. You can use LIA for many different use cases. For example, a game developer may need to create unique background music for different levels. They can use LRA to quickly generate tracks that perfectly match the mood and setting of each level, saving them time and money on custom compositions. Podcasters could use LRA to create intro and outro music or even background music for specific segments. They could easily generate royaltyfree music following the podcast theme and tone. Meditation apps could use LIA to create personalized music experience for each of their users. They can customize the prompts to evoke specific emotions or memories. Okay, so far I've shown you how to use each Z media model individually, but actually you can do more than that. I'll show you a workflow to combine all four models together to create longer videos for many different use cases. video ads, visual storytelling, short movies, you name it. The typical workflow would start with writing a storyboard for your e video. You can use Gemini to have you brainstorming or writing the whole storyboard based on your idea. Here's my storyboard for a short ad video for an imaginary coffee brand which consists of six different scenes.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "tMUxxCKXz4c__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "tMUxxCKXz4c",
+    "title": "Google I/O 2025 \u2013 tMUxxCKXz4c",
+    "timestamp_start": 854.519,
+    "timestamp_end": 960.22,
+    "text": "video. You can use Gemini to have you brainstorming or writing the whole storyboard based on your idea. Here's my storyboard for a short ad video for an imaginary coffee brand which consists of six different scenes. Then you can use imagine to generate the first frame for each scene. You can iterate on it until you get the visual that you like. After that, you use the VO image to video feature to generate a short clip for each scene. Then you use Chirp and Lia to add music and narrations to the video. Now, let's take a look at the premium coffee video ad that I created using this workflow. Premium coffee selects only the top 1% of fair trade Arabica beans. Slow roasted, perfectly brewed, releasing notes of chocolate and spice. Premium coffee. The taste of true distinction. I hope that you like the video. To recap, we talk about four generative media models today. Imagin for generating images, VO for generating videos, chirp for zing speech, and Lydia for zering music. You can find the collab notebook showing how to use the models in the video descriptions. Please check it out, and I'm looking forward to seeing what you will create using these models. Thank you for watching. [Applause]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

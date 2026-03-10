@@ -1,0 +1,1302 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "wz3kQQubPkc",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi everyone. I'd like to introduce",
+      "start": 6.0,
+      "duration": 4.32
+    },
+    {
+      "text": "Chanel. Chanel is our developer advocate",
+      "start": 7.759,
+      "duration": 4.96
+    },
+    {
+      "text": "here at Google Workspace. And you'll",
+      "start": 10.32,
+      "duration": 4.319
+    },
+    {
+      "text": "notice that she's the one behind a lot",
+      "start": 12.719,
+      "duration": 4.001
+    },
+    {
+      "text": "of the content that we put on our great",
+      "start": 14.639,
+      "duration": 4.881
+    },
+    {
+      "text": "YouTube channel. I'm sure many of you",
+      "start": 16.72,
+      "duration": 4.88
+    },
+    {
+      "text": "had had the pleasure of meeting Slash",
+      "start": 19.52,
+      "duration": 4.56
+    },
+    {
+      "text": "Chappelle, outbound product manager at",
+      "start": 21.6,
+      "duration": 5.28
+    },
+    {
+      "text": "Google Workspace. I highly recommend his",
+      "start": 24.08,
+      "duration": 5.439
+    },
+    {
+      "text": "quarterly Google Workspace Road sessions",
+      "start": 26.88,
+      "duration": 4.88
+    },
+    {
+      "text": "and I'm happy to be sharing the session",
+      "start": 29.519,
+      "duration": 5.361
+    },
+    {
+      "text": "with him today. So today we're going",
+      "start": 31.76,
+      "duration": 5.76
+    },
+    {
+      "text": "exploring. We're going on a journey. The",
+      "start": 34.88,
+      "duration": 4.64
+    },
+    {
+      "text": "cloud platform that we've used to build",
+      "start": 37.52,
+      "duration": 4.719
+    },
+    {
+      "text": "Google Workspace serves as our guide",
+      "start": 39.52,
+      "duration": 5.76
+    },
+    {
+      "text": "today. Since your data is safely in our",
+      "start": 42.239,
+      "duration": 5.681
+    },
+    {
+      "text": "cloud, you can build tools, manage",
+      "start": 45.28,
+      "duration": 5.36
+    },
+    {
+      "text": "tools, and integrate other platforms",
+      "start": 47.92,
+      "duration": 5.44
+    },
+    {
+      "text": "that can get a lot of work done for you",
+      "start": 50.64,
+      "duration": 5.04
+    },
+    {
+      "text": "without you even having to be at your",
+      "start": 53.36,
+      "duration": 5.199
+    },
+    {
+      "text": "computer. In fact, you can do this",
+      "start": 55.68,
+      "duration": 4.96
+    },
+    {
+      "text": "without deploying, updating, or",
+      "start": 58.559,
+      "duration": 4.961
+    },
+    {
+      "text": "installing any software to your users",
+      "start": 60.64,
+      "duration": 5.839
+    },
+    {
+      "text": "thanks to the cloud. This journey is",
+      "start": 63.52,
+      "duration": 5.919
+    },
+    {
+      "text": "about adapting Google Workspace to your",
+      "start": 66.479,
+      "duration": 4.32
+    },
+    {
+      "text": "needs.",
+      "start": 69.439,
+      "duration": 3.841
+    },
+    {
+      "text": "So when I speak to our customers, I get",
+      "start": 70.799,
+      "duration": 4.041
+    },
+    {
+      "text": "feedback that it can be a bit",
+      "start": 73.28,
+      "duration": 3.92
+    },
+    {
+      "text": "overwhelming, scary or sometimes feel",
+      "start": 74.84,
+      "duration": 5.16
+    },
+    {
+      "text": "too complex to do these integrations and",
+      "start": 77.2,
+      "duration": 5.68
+    },
+    {
+      "text": "I can really understand why as many of",
+      "start": 80.0,
+      "duration": 5.439
+    },
+    {
+      "text": "them have been at the other platform for",
+      "start": 82.88,
+      "duration": 5.84
+    },
+    {
+      "text": "decades. So today I present you this",
+      "start": 85.439,
+      "duration": 5.281
+    },
+    {
+      "text": "wonderful map which I created with the",
+      "start": 88.72,
+      "duration": 4.84
+    },
+    {
+      "text": "help of my incredibly talented design",
+      "start": 90.72,
+      "duration": 5.439
+    },
+    {
+      "text": "assistant Gemini.",
+      "start": 93.56,
+      "duration": 4.919
+    },
+    {
+      "text": "This map will guide you to the solution",
+      "start": 96.159,
+      "duration": 5.361
+    },
+    {
+      "text": "best fitted for your needs. Let's dig",
+      "start": 98.479,
+      "duration": 5.761
+    },
+    {
+      "text": "into it. Let's start with the first stop",
+      "start": 101.52,
+      "duration": 5.48
+    },
+    {
+      "text": "on our journey, the Google Workspace",
+      "start": 104.24,
+      "duration": 5.239
+    },
+    {
+      "text": "marketplace. How does this help",
+      "start": 107.0,
+      "duration": 6.119
+    },
+    {
+      "text": "you? Did you know that Workspace has a",
+      "start": 109.479,
+      "duration": 6.401
+    },
+    {
+      "text": "marketplace with thousands of apps and",
+      "start": 113.119,
+      "duration": 5.6
+    },
+    {
+      "text": "add-ons? This means without having to",
+      "start": 115.88,
+      "duration": 5.16
+    },
+    {
+      "text": "create a solution yourself, you can",
+      "start": 118.719,
+      "duration": 4.641
+    },
+    {
+      "text": "simply install one created by other",
+      "start": 121.04,
+      "duration": 3.84
+    },
+    {
+      "text": "developers.",
+      "start": 123.36,
+      "duration": 3.52
+    },
+    {
+      "text": "Customers I work with often have",
+      "start": 124.88,
+      "duration": 4.079
+    },
+    {
+      "text": "questions about these apps. Are they",
+      "start": 126.88,
+      "duration": 4.56
+    },
+    {
+      "text": "vetted by Google? Can I trust them with",
+      "start": 128.959,
+      "duration": 6.161
+    },
+    {
+      "text": "my data? Yes. Before an add-on or an app",
+      "start": 131.44,
+      "duration": 5.68
+    },
+    {
+      "text": "is published to the marketplace, it",
+      "start": 135.12,
+      "duration": 4.72
+    },
+    {
+      "text": "undergoes two separate reviews by teams",
+      "start": 137.12,
+      "duration": 6.32
+    },
+    {
+      "text": "at Google. Oath verification focuses on",
+      "start": 139.84,
+      "duration": 6.16
+    },
+    {
+      "text": "making sure that an app doesn't misuse",
+      "start": 143.44,
+      "duration": 5.68
+    },
+    {
+      "text": "user data. And the app review focuses on",
+      "start": 146.0,
+      "duration": 5.599
+    },
+    {
+      "text": "the information that the app's developer",
+      "start": 149.12,
+      "duration": 4.199
+    },
+    {
+      "text": "provides in the Google Workspace",
+      "start": 151.599,
+      "duration": 4.241
+    },
+    {
+      "text": "marketplace as well as the functionality",
+      "start": 153.319,
+      "duration": 5.64
+    },
+    {
+      "text": "and usability of the app. As a",
+      "start": 155.84,
+      "duration": 4.96
+    },
+    {
+      "text": "developer, you can publish Google",
+      "start": 158.959,
+      "duration": 4.481
+    },
+    {
+      "text": "Workspace add-ons, editor add-ons,",
+      "start": 160.8,
+      "duration": 5.439
+    },
+    {
+      "text": "Google Chat apps, classroom add-ons,",
+      "start": 163.44,
+      "duration": 5.6
+    },
+    {
+      "text": "drive apps, and web apps to the Google",
+      "start": 166.239,
+      "duration": 5.521
+    },
+    {
+      "text": "Workspace marketplace.",
+      "start": 169.04,
+      "duration": 4.559
+    },
+    {
+      "text": "When publishing your solution to the",
+      "start": 171.76,
+      "duration": 4.0
+    },
+    {
+      "text": "marketplace, you can decide to make it",
+      "start": 173.599,
+      "duration": 5.521
+    },
+    {
+      "text": "available to your organization only or",
+      "start": 175.76,
+      "duration": 6.64
+    },
+    {
+      "text": "for anyone with a Google account. And",
+      "start": 179.12,
+      "duration": 5.759
+    },
+    {
+      "text": "one of these powerful integrations is",
+      "start": 182.4,
+      "duration": 6.4
+    },
+    {
+      "text": "between Gmail, Gemini, and Salesforce.",
+      "start": 184.879,
+      "duration": 6.241
+    },
+    {
+      "text": "Yes, that's an add-on that just recently",
+      "start": 188.8,
+      "duration": 4.32
+    },
+    {
+      "text": "launched and it brings your Salesforce",
+      "start": 191.12,
+      "duration": 4.32
+    },
+    {
+      "text": "data into Gmail with a super handy",
+      "start": 193.12,
+      "duration": 6.08
+    },
+    {
+      "text": "helper, Gemini. A great way to deploy a",
+      "start": 195.44,
+      "duration": 6.64
+    },
+    {
+      "text": "Google Workspace add-on is as an admin.",
+      "start": 199.2,
+      "duration": 4.72
+    },
+    {
+      "text": "You can install it for specific groups",
+      "start": 202.08,
+      "duration": 4.68
+    },
+    {
+      "text": "in your organization or your entire",
+      "start": 203.92,
+      "duration": 5.36
+    },
+    {
+      "text": "domain. Just as we mentioned, the admin",
+      "start": 206.76,
+      "duration": 4.44
+    },
+    {
+      "text": "will at this point be able to assess the",
+      "start": 209.28,
+      "duration": 3.92
+    },
+    {
+      "text": "add-on, check what type of data is",
+      "start": 211.2,
+      "duration": 4.56
+    },
+    {
+      "text": "accessed, and then install it. So,",
+      "start": 213.2,
+      "duration": 4.48
+    },
+    {
+      "text": "there's an extra layer of governance",
+      "start": 215.76,
+      "duration": 5.68
+    },
+    {
+      "text": "which many of our customers like having.",
+      "start": 217.68,
+      "duration": 6.559
+    },
+    {
+      "text": "Admins can choose to have full control",
+      "start": 221.44,
+      "duration": 5.12
+    },
+    {
+      "text": "by disabling users to install add-ons",
+      "start": 224.239,
+      "duration": 4.881
+    },
+    {
+      "text": "themselves and instead they can allow",
+      "start": 226.56,
+      "duration": 6.2
+    },
+    {
+      "text": "list add-ons as they see fit.",
+      "start": 229.12,
+      "duration": 6.72
+    },
+    {
+      "text": "Great. Now I have the ability to run",
+      "start": 232.76,
+      "duration": 6.039
+    },
+    {
+      "text": "kind of my own workspace app store with",
+      "start": 235.84,
+      "duration": 5.44
+    },
+    {
+      "text": "some of my own apps and some that I have",
+      "start": 238.799,
+      "duration": 4.08
+    },
+    {
+      "text": "approved specifically for my",
+      "start": 241.28,
+      "duration": 3.679
+    },
+    {
+      "text": "organization.",
+      "start": 242.879,
+      "duration": 4.64
+    },
+    {
+      "text": "But I often come across empowered teams",
+      "start": 244.959,
+      "duration": 4.881
+    },
+    {
+      "text": "that want to improve their workflows",
+      "start": 247.519,
+      "duration": 5.041
+    },
+    {
+      "text": "without involving the IT team. Where",
+      "start": 249.84,
+      "duration": 5.92
+    },
+    {
+      "text": "does this land on our map? That's where",
+      "start": 252.56,
+      "duration": 6.0
+    },
+    {
+      "text": "App Sheet comes in handy. With App",
+      "start": 255.76,
+      "duration": 4.8
+    },
+    {
+      "text": "Sheet, users can create applications",
+      "start": 258.56,
+      "duration": 4.48
+    },
+    {
+      "text": "without having to write a single line of",
+      "start": 260.56,
+      "duration": 4.32
+    },
+    {
+      "text": "code.",
+      "start": 263.04,
+      "duration": 4.48
+    },
+    {
+      "text": "These apps work on desktop and mobile",
+      "start": 264.88,
+      "duration": 4.879
+    },
+    {
+      "text": "devices which makes it a great solution",
+      "start": 267.52,
+      "duration": 4.8
+    },
+    {
+      "text": "platform for any team including",
+      "start": 269.759,
+      "duration": 3.641
+    },
+    {
+      "text": "frontline",
+      "start": 272.32,
+      "duration": 3.12
+    },
+    {
+      "text": "workers. Even though it's great to",
+      "start": 273.4,
+      "duration": 4.079
+    },
+    {
+      "text": "empower the end user to create their own",
+      "start": 275.44,
+      "duration": 4.72
+    },
+    {
+      "text": "solutions, IT departments and admins",
+      "start": 277.479,
+      "duration": 5.0
+    },
+    {
+      "text": "need to be able to be aware of what is",
+      "start": 280.16,
+      "duration": 4.8
+    },
+    {
+      "text": "being created. That's why the governance",
+      "start": 282.479,
+      "duration": 5.121
+    },
+    {
+      "text": "and policy controls for app sheet are so",
+      "start": 284.96,
+      "duration": 5.44
+    },
+    {
+      "text": "valuable. So long gone are the days",
+      "start": 287.6,
+      "duration": 5.52
+    },
+    {
+      "text": "where macros were shared over email. And",
+      "start": 290.4,
+      "duration": 5.12
+    },
+    {
+      "text": "when the author of this macro left the",
+      "start": 293.12,
+      "duration": 5.0
+    },
+    {
+      "text": "company, company chaos",
+      "start": 295.52,
+      "duration": 5.28
+    },
+    {
+      "text": "ensued. You are in control of what apps",
+      "start": 298.12,
+      "duration": 5.079
+    },
+    {
+      "text": "get published and how they are used and",
+      "start": 300.8,
+      "duration": 4.72
+    },
+    {
+      "text": "how they are updated.",
+      "start": 303.199,
+      "duration": 4.641
+    },
+    {
+      "text": "We have over 50 connectors to third",
+      "start": 305.52,
+      "duration": 4.56
+    },
+    {
+      "text": "party systems and you can also use the",
+      "start": 307.84,
+      "duration": 4.96
+    },
+    {
+      "text": "app sheet rest API to integrate with any",
+      "start": 310.08,
+      "duration": 5.76
+    },
+    {
+      "text": "automations you have going. Okay, so",
+      "start": 312.8,
+      "duration": 4.8
+    },
+    {
+      "text": "this seems to be a great enabler for",
+      "start": 315.84,
+      "duration": 4.48
+    },
+    {
+      "text": "citizen developers. But in my 30 years",
+      "start": 317.6,
+      "duration": 5.68
+    },
+    {
+      "text": "in tech, no code solutions have always",
+      "start": 320.32,
+      "duration": 7.2
+    },
+    {
+      "text": "meant some code. How easy is it really?",
+      "start": 323.28,
+      "duration": 6.08
+    },
+    {
+      "text": "You can jump start your app creation by",
+      "start": 327.52,
+      "duration": 4.48
+    },
+    {
+      "text": "using one of the many templates or",
+      "start": 329.36,
+      "duration": 5.2
+    },
+    {
+      "text": "nowadays you only have to tell Gemini",
+      "start": 332.0,
+      "duration": 4.639
+    },
+    {
+      "text": "what your app should do and it will",
+      "start": 334.56,
+      "duration": 5.52
+    },
+    {
+      "text": "create the app for you. So it's really",
+      "start": 336.639,
+      "duration": 5.361
+    },
+    {
+      "text": "no code.",
+      "start": 340.08,
+      "duration": 4.399
+    },
+    {
+      "text": "So, we went from a marketplace managed",
+      "start": 342.0,
+      "duration": 5.28
+    },
+    {
+      "text": "by admins and checked by Google to a",
+      "start": 344.479,
+      "duration": 5.201
+    },
+    {
+      "text": "prompt code solution that empowers teams",
+      "start": 347.28,
+      "duration": 4.28
+    },
+    {
+      "text": "to solve their own",
+      "start": 349.68,
+      "duration": 4.799
+    },
+    {
+      "text": "challenges. But what about the real",
+      "start": 351.56,
+      "duration": 6.12
+    },
+    {
+      "text": "killer, repetitive tasks and my favorite",
+      "start": 354.479,
+      "duration": 6.321
+    },
+    {
+      "text": "thing of all time, spreadsheets?",
+      "start": 357.68,
+      "duration": 4.959
+    },
+    {
+      "text": "I have just the right capability for",
+      "start": 360.8,
+      "duration": 4.399
+    },
+    {
+      "text": "you, macros.",
+      "start": 362.639,
+      "duration": 4.56
+    },
+    {
+      "text": "Have a look at this example of how you",
+      "start": 365.199,
+      "duration": 4.401
+    },
+    {
+      "text": "can record a macro in Google Sheets to",
+      "start": 367.199,
+      "duration": 5.321
+    },
+    {
+      "text": "automate the creation of a pivot",
+      "start": 369.6,
+      "duration": 6.56
+    },
+    {
+      "text": "table. As you can see, you record, you",
+      "start": 372.52,
+      "duration": 7.239
+    },
+    {
+      "text": "save, and then you run the macro like",
+      "start": 376.16,
+      "duration": 7.36
+    },
+    {
+      "text": "magic. The pivot table",
+      "start": 379.759,
+      "duration": 3.761
+    },
+    {
+      "text": "appears. When you record macros in",
+      "start": 396.36,
+      "duration": 5.399
+    },
+    {
+      "text": "Google Sheets, an appcript function is",
+      "start": 398.8,
+      "duration": 5.519
+    },
+    {
+      "text": "automatically created that replicates",
+      "start": 401.759,
+      "duration": 5.361
+    },
+    {
+      "text": "the macro steps.",
+      "start": 404.319,
+      "duration": 5.681
+    },
+    {
+      "text": "To see the code, select extensions",
+      "start": 407.12,
+      "duration": 6.079
+    },
+    {
+      "text": "appcript from the sheets menu. If you",
+      "start": 410.0,
+      "duration": 5.44
+    },
+    {
+      "text": "want to, you can change the macro by",
+      "start": 413.199,
+      "duration": 5.161
+    },
+    {
+      "text": "editing the code in the appcript",
+      "start": 415.44,
+      "duration": 6.0
+    },
+    {
+      "text": "editor. In fact, Google Sheets has not",
+      "start": 418.36,
+      "duration": 5.48
+    },
+    {
+      "text": "only gotten much faster, but it can now",
+      "start": 421.44,
+      "duration": 4.599
+    },
+    {
+      "text": "connect with other systems such as",
+      "start": 423.84,
+      "duration": 5.24
+    },
+    {
+      "text": "Oracle, Looker, and Big",
+      "start": 426.039,
+      "duration": 5.481
+    },
+    {
+      "text": "Query. But here's a tip I've discovered",
+      "start": 429.08,
+      "duration": 5.8
+    },
+    {
+      "text": "recently. Gemini can act as your ally in",
+      "start": 431.52,
+      "duration": 6.76
+    },
+    {
+      "text": "getting you started to do your macro",
+      "start": 434.88,
+      "duration": 5.84
+    },
+    {
+      "text": "translations. And going beyond simple",
+      "start": 438.28,
+      "duration": 5.72
+    },
+    {
+      "text": "macros, appscript, which is Workspac's",
+      "start": 440.72,
+      "duration": 6.24
+    },
+    {
+      "text": "own programming language, allows you to",
+      "start": 444.0,
+      "duration": 6.08
+    },
+    {
+      "text": "extend Workspac's functionality and is a",
+      "start": 446.96,
+      "duration": 6.6
+    },
+    {
+      "text": "powerful way to automate, connect, and",
+      "start": 450.08,
+      "duration": 6.32
+    },
+    {
+      "text": "extend. And this is where Chanel's own",
+      "start": 453.56,
+      "duration": 6.759
+    },
+    {
+      "text": "expertise comes in. This demo I created",
+      "start": 456.4,
+      "duration": 6.72
+    },
+    {
+      "text": "with you Sesh in mind. I know that you",
+      "start": 460.319,
+      "duration": 5.28
+    },
+    {
+      "text": "often get asked to meet with customers",
+      "start": 463.12,
+      "duration": 4.56
+    },
+    {
+      "text": "and I set out on creating a simple",
+      "start": 465.599,
+      "duration": 4.841
+    },
+    {
+      "text": "solution to automate this",
+      "start": 467.68,
+      "duration": 5.2
+    },
+    {
+      "text": "process. Have requesters fill out the",
+      "start": 470.44,
+      "duration": 4.439
+    },
+    {
+      "text": "Google form with information about the",
+      "start": 472.88,
+      "duration": 6.719
+    },
+    {
+      "text": "customer date for the meeting and topic.",
+      "start": 474.879,
+      "duration": 6.72
+    },
+    {
+      "text": "You then check the submissions and",
+      "start": 479.599,
+      "duration": 4.241
+    },
+    {
+      "text": "decide if you want to accept or decline",
+      "start": 481.599,
+      "duration": 5.521
+    },
+    {
+      "text": "the request and special processing if",
+      "start": 483.84,
+      "duration": 5.52
+    },
+    {
+      "text": "the request is from your manager as you",
+      "start": 487.12,
+      "duration": 4.639
+    },
+    {
+      "text": "want to send her an email whenever she",
+      "start": 489.36,
+      "duration": 4.519
+    },
+    {
+      "text": "asks you to meet with a",
+      "start": 491.759,
+      "duration": 4.56
+    },
+    {
+      "text": "customer. Calendar events are created",
+      "start": 493.879,
+      "duration": 5.921
+    },
+    {
+      "text": "automatically as well as emails are sent",
+      "start": 496.319,
+      "duration": 6.16
+    },
+    {
+      "text": "out. This simple automation starts in",
+      "start": 499.8,
+      "duration": 5.959
+    },
+    {
+      "text": "Google forms touches on sheets calendar",
+      "start": 502.479,
+      "duration": 6.961
+    },
+    {
+      "text": "and Gmail. Google Appcript is a rapid",
+      "start": 505.759,
+      "duration": 6.081
+    },
+    {
+      "text": "application development platform built",
+      "start": 509.44,
+      "duration": 5.12
+    },
+    {
+      "text": "into Google Workspace. It makes",
+      "start": 511.84,
+      "duration": 5.439
+    },
+    {
+      "text": "automating a task as we saw the demo",
+      "start": 514.56,
+      "duration": 6.32
+    },
+    {
+      "text": "super easy. The first step is to get the",
+      "start": 517.279,
+      "duration": 5.921
+    },
+    {
+      "text": "data that was written to Google Sheets",
+      "start": 520.88,
+      "duration": 4.72
+    },
+    {
+      "text": "when the Google form was submitted.",
+      "start": 523.2,
+      "duration": 5.28
+    },
+    {
+      "text": "Using Appcript's spreadsheet service, we",
+      "start": 525.6,
+      "duration": 5.679
+    },
+    {
+      "text": "get the active sheet. Use the handy get",
+      "start": 528.48,
+      "duration": 5.44
+    },
+    {
+      "text": "data range method to find the range that",
+      "start": 531.279,
+      "duration": 5.601
+    },
+    {
+      "text": "contains data and use the get values",
+      "start": 533.92,
+      "duration": 5.4
+    },
+    {
+      "text": "method to access the",
+      "start": 536.88,
+      "duration": 4.8
+    },
+    {
+      "text": "data. After that, we can leverage",
+      "start": 539.32,
+      "duration": 5.24
+    },
+    {
+      "text": "AppScript's calendar service to create",
+      "start": 541.68,
+      "duration": 6.0
+    },
+    {
+      "text": "calendar events and we can use the Gmail",
+      "start": 544.56,
+      "duration": 6.44
+    },
+    {
+      "text": "service to send out email",
+      "start": 547.68,
+      "duration": 6.159
+    },
+    {
+      "text": "messages. If you're new to AppScript,",
+      "start": 551.0,
+      "duration": 5.16
+    },
+    {
+      "text": "Gemini is a great assistant when you're",
+      "start": 553.839,
+      "duration": 5.521
+    },
+    {
+      "text": "creating such automations.",
+      "start": 556.16,
+      "duration": 5.6
+    },
+    {
+      "text": "This is actually now part of my workflow",
+      "start": 559.36,
+      "duration": 3.479
+    },
+    {
+      "text": "when",
+      "start": 561.76,
+      "duration": 3.519
+    },
+    {
+      "text": "coding. Before I write a single line of",
+      "start": 562.839,
+      "duration": 5.081
+    },
+    {
+      "text": "code, I start out by asking Gemini if my",
+      "start": 565.279,
+      "duration": 5.761
+    },
+    {
+      "text": "idea is feasible. What are my options?",
+      "start": 567.92,
+      "duration": 6.72
+    },
+    {
+      "text": "Service account or API key? And to go",
+      "start": 571.04,
+      "duration": 5.919
+    },
+    {
+      "text": "beyond everything we've just mentioned,",
+      "start": 574.64,
+      "duration": 4.56
+    },
+    {
+      "text": "your dev teams can tap into Workspace",
+      "start": 576.959,
+      "duration": 4.32
+    },
+    {
+      "text": "directly from their own environments",
+      "start": 579.2,
+      "duration": 5.6
+    },
+    {
+      "text": "using our own backend APIs. There are",
+      "start": 581.279,
+      "duration": 6.081
+    },
+    {
+      "text": "more than 25 Google Workspace APIs that",
+      "start": 584.8,
+      "duration": 5.32
+    },
+    {
+      "text": "can be used to create workflows and",
+      "start": 587.36,
+      "duration": 5.039
+    },
+    {
+      "text": "automations. Would you like to train a",
+      "start": 590.12,
+      "duration": 5.0
+    },
+    {
+      "text": "custom AI model on data from your ERP",
+      "start": 592.399,
+      "duration": 4.641
+    },
+    {
+      "text": "and have the model assist you in writing",
+      "start": 595.12,
+      "duration": 3.24
+    },
+    {
+      "text": "emails to your",
+      "start": 597.04,
+      "duration": 3.68
+    },
+    {
+      "text": "suppliers? For such and similar",
+      "start": 598.36,
+      "duration": 5.08
+    },
+    {
+      "text": "scenarios, you can combine Vertex AI or",
+      "start": 600.72,
+      "duration": 4.96
+    },
+    {
+      "text": "AI development platform with a Google",
+      "start": 603.44,
+      "duration": 5.76
+    },
+    {
+      "text": "Workspace add-on that extends Gmail.",
+      "start": 605.68,
+      "duration": 5.599
+    },
+    {
+      "text": "This is an example of how you can use",
+      "start": 609.2,
+      "duration": 4.72
+    },
+    {
+      "text": "the Google Workspace platform and Vertex",
+      "start": 611.279,
+      "duration": 5.68
+    },
+    {
+      "text": "AI to create a custom solution. We see a",
+      "start": 613.92,
+      "duration": 4.96
+    },
+    {
+      "text": "Google Workspace add-on that extends",
+      "start": 616.959,
+      "duration": 5.281
+    },
+    {
+      "text": "Gmail in action. By clicking the button",
+      "start": 618.88,
+      "duration": 5.84
+    },
+    {
+      "text": "identify angry customers, a call to the",
+      "start": 622.24,
+      "duration": 4.88
+    },
+    {
+      "text": "Vertex API is made from where we sent",
+      "start": 624.72,
+      "duration": 4.88
+    },
+    {
+      "text": "the messages in our inbox to Gemini 2.0",
+      "start": 627.12,
+      "duration": 5.04
+    },
+    {
+      "text": "window flash asking it to apply",
+      "start": 629.6,
+      "duration": 6.04
+    },
+    {
+      "text": "sentiment analysis to identify negative",
+      "start": 632.16,
+      "duration": 6.16
+    },
+    {
+      "text": "messages. For those messages with an",
+      "start": 635.64,
+      "duration": 5.84
+    },
+    {
+      "text": "upset tone, a custom label is",
+      "start": 638.32,
+      "duration": 5.36
+    },
+    {
+      "text": "applied. Let's have a look at how this",
+      "start": 641.48,
+      "duration": 4.76
+    },
+    {
+      "text": "Google Workspace add-on comes together.",
+      "start": 643.68,
+      "duration": 4.719
+    },
+    {
+      "text": "We are using Appcript to create a Google",
+      "start": 646.24,
+      "duration": 5.68
+    },
+    {
+      "text": "Workspace add-on. To access Vertex AI,",
+      "start": 648.399,
+      "duration": 5.68
+    },
+    {
+      "text": "we use a dedicated service account in",
+      "start": 651.92,
+      "duration": 5.919
+    },
+    {
+      "text": "the associated GCP project. VertxAI",
+      "start": 654.079,
+      "duration": 6.32
+    },
+    {
+      "text": "gives us access to more than 130",
+      "start": 657.839,
+      "duration": 4.721
+    },
+    {
+      "text": "different AI models. And for this",
+      "start": 660.399,
+      "duration": 6.161
+    },
+    {
+      "text": "solution, we're using Gemini 2.0 Flash.",
+      "start": 662.56,
+      "duration": 5.719
+    },
+    {
+      "text": "And that brings us to the end of our",
+      "start": 666.56,
+      "duration": 4.56
+    },
+    {
+      "text": "journey. To end our session, we would",
+      "start": 668.279,
+      "duration": 4.921
+    },
+    {
+      "text": "love for you to check out the Google",
+      "start": 671.12,
+      "duration": 5.04
+    },
+    {
+      "text": "Workspace Marketplace to find add-ons",
+      "start": 673.2,
+      "duration": 6.12
+    },
+    {
+      "text": "that can help you get more done within",
+      "start": 676.16,
+      "duration": 6.48
+    },
+    {
+      "text": "Workspace. And Chanel, over to you. And",
+      "start": 679.32,
+      "duration": 4.88
+    },
+    {
+      "text": "if you want to start creating your own",
+      "start": 682.64,
+      "duration": 3.92
+    },
+    {
+      "text": "solutions, please check out the Google",
+      "start": 684.2,
+      "duration": 4.04
+    },
+    {
+      "text": "Workspace Developers YouTube channel",
+      "start": 686.56,
+      "duration": 4.24
+    },
+    {
+      "text": "where yours truly shares videos about",
+      "start": 688.24,
+      "duration": 4.4
+    },
+    {
+      "text": "how you can get started creating your",
+      "start": 690.8,
+      "duration": 5.24
+    },
+    {
+      "text": "own solutions.",
+      "start": 692.64,
+      "duration": 3.4
+    },
+    {
+      "text": "[Applause]",
+      "start": 698.33,
+      "duration": 3.199
+    }
+  ]
+}

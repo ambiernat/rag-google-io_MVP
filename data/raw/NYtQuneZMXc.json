@@ -1,0 +1,4767 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "NYtQuneZMXc",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1.0,
+      "duration": 3.0
+    },
+    {
+      "text": "JAMES MANYIKA: Welcome back,\neverybody, and thank you",
+      "start": 6.5,
+      "duration": 2.64
+    },
+    {
+      "text": "for coming to this session.",
+      "start": 9.14,
+      "duration": 2.11
+    },
+    {
+      "text": "I hope you're all having\na wonderful time here",
+      "start": 11.25,
+      "duration": 2.12
+    },
+    {
+      "text": "at I/O. One of the things we\nthink a lot about at Google",
+      "start": 13.37,
+      "duration": 4.51
+    },
+    {
+      "text": "when we think about\nthe impact of AI,",
+      "start": 17.88,
+      "duration": 2.13
+    },
+    {
+      "text": "we think about how it's going\nto advance the possibilities",
+      "start": 20.01,
+      "duration": 3.62
+    },
+    {
+      "text": "for people, individuals.",
+      "start": 23.63,
+      "duration": 1.84
+    },
+    {
+      "text": "We also think about how it can\nenable and power the economy.",
+      "start": 25.47,
+      "duration": 3.84
+    },
+    {
+      "text": "We also think a\nlot about how much",
+      "start": 29.31,
+      "duration": 3.29
+    },
+    {
+      "text": "it can advance science and help\nus address pressing challenges",
+      "start": 32.6,
+      "duration": 3.69
+    },
+    {
+      "text": "for society.",
+      "start": 36.29,
+      "duration": 0.88
+    },
+    {
+      "text": "Now, you heard a little\nbit of this on the stage",
+      "start": 37.17,
+      "duration": 2.6
+    },
+    {
+      "text": "yesterday from Demis.",
+      "start": 39.77,
+      "duration": 1.33
+    },
+    {
+      "text": "But this session, we\nwanted to spend more time",
+      "start": 41.1,
+      "duration": 2.03
+    },
+    {
+      "text": "focusing on that\nlast part, which",
+      "start": 43.13,
+      "duration": 1.86
+    },
+    {
+      "text": "is how we see AI advancing\nand driving major landmark",
+      "start": 44.99,
+      "duration": 3.57
+    },
+    {
+      "text": "advances in science and\nhelping us tackle some",
+      "start": 48.56,
+      "duration": 2.82
+    },
+    {
+      "text": "pressing societal challenges.",
+      "start": 51.38,
+      "duration": 2.05
+    },
+    {
+      "text": "We have extraordinary\nteams across Google,",
+      "start": 53.43,
+      "duration": 2.57
+    },
+    {
+      "text": "in Google Research,\nGoogle DeepMind,",
+      "start": 56.0,
+      "duration": 1.72
+    },
+    {
+      "text": "work of research\nscientists and others",
+      "start": 57.72,
+      "duration": 1.99
+    },
+    {
+      "text": "working on these hard\nscientific problems that",
+      "start": 59.71,
+      "duration": 2.73
+    },
+    {
+      "text": "are important for\nsociety and for humanity.",
+      "start": 62.44,
+      "duration": 2.95
+    },
+    {
+      "text": "And I'm thrilled that I have\nseveral colleagues here.",
+      "start": 65.39,
+      "duration": 6.44
+    },
+    {
+      "text": "Pushmeet, I'll\nintroduce each of them",
+      "start": 71.83,
+      "duration": 1.95
+    },
+    {
+      "text": "properly when we start\nthe conversation.",
+      "start": 73.78,
+      "duration": 1.84
+    },
+    {
+      "text": "But Pushmeet, Joelle,\nand our friend and",
+      "start": 75.62,
+      "duration": 3.32
+    },
+    {
+      "text": "collaborator Anima\nAnandkumar from Caltech.",
+      "start": 78.94,
+      "duration": 3.9
+    },
+    {
+      "text": "So why don't we jump into it?",
+      "start": 82.84,
+      "duration": 1.842
+    },
+    {
+      "text": "By the way, if you\nwant to find out",
+      "start": 84.682,
+      "duration": 1.458
+    },
+    {
+      "text": "more about our AI\nand science work,",
+      "start": 86.14,
+      "duration": 3.1
+    },
+    {
+      "text": "I think there's a QR\ncode that's available.",
+      "start": 89.24,
+      "duration": 2.97
+    },
+    {
+      "text": "It'll give you a\nlot more details",
+      "start": 92.21,
+      "duration": 1.97
+    },
+    {
+      "text": "about some of the\nextraordinary work",
+      "start": 94.18,
+      "duration": 1.65
+    },
+    {
+      "text": "that my colleagues and all\nof us are doing at Google.",
+      "start": 95.83,
+      "duration": 4.08
+    },
+    {
+      "text": "Let me start with you, Pushmeet.",
+      "start": 99.91,
+      "duration": 1.98
+    },
+    {
+      "text": "So let me actually\nintroduce Pushmeet.",
+      "start": 101.89,
+      "duration": 1.6
+    },
+    {
+      "text": "So Pushmeet Kohli is\nthe Vice President",
+      "start": 103.49,
+      "duration": 2.39
+    },
+    {
+      "text": "for Science and Strategic\nInitiatives at Google DeepMind.",
+      "start": 105.88,
+      "duration": 3.93
+    },
+    {
+      "text": "He works on a lot of the\nfoundational research advancing",
+      "start": 109.81,
+      "duration": 3.33
+    },
+    {
+      "text": "science across multiple areas--\nbiology, mathematics, physics,",
+      "start": 113.14,
+      "duration": 4.12
+    },
+    {
+      "text": "and so forth.",
+      "start": 117.26,
+      "duration": 1.16
+    },
+    {
+      "text": "But let's get into it, Pushmeet.",
+      "start": 118.42,
+      "duration": 3.0
+    },
+    {
+      "text": "A lot has happened\nin the last year.",
+      "start": 121.42,
+      "duration": 2.992
+    },
+    {
+      "text": "What are some of the\nthings you're most excited",
+      "start": 124.412,
+      "duration": 1.958
+    },
+    {
+      "text": "about that you and your\ncolleagues have worked on?",
+      "start": 126.37,
+      "duration": 4.169
+    },
+    {
+      "text": "PUSHMEET KOHLI: So I think,\nJames, one of the first things",
+      "start": 130.539,
+      "duration": 3.631
+    },
+    {
+      "text": "that we have to talk about\nwhen we are talking about AI",
+      "start": 134.17,
+      "duration": 2.73
+    },
+    {
+      "text": "for science is AlphaFold.",
+      "start": 136.9,
+      "duration": 2.11
+    },
+    {
+      "text": "Because it's, in\nsome sense, being",
+      "start": 139.01,
+      "duration": 2.36
+    },
+    {
+      "text": "a key milestone and\na key example of what",
+      "start": 141.37,
+      "duration": 5.46
+    },
+    {
+      "text": "is the potential\nof AI for science.",
+      "start": 146.83,
+      "duration": 3.55
+    },
+    {
+      "text": "What AlphaFold has achieved\nis solve this amazing problem",
+      "start": 150.38,
+      "duration": 5.57
+    },
+    {
+      "text": "in biology that has implications\nacross a whole spectrum",
+      "start": 155.95,
+      "duration": 4.65
+    },
+    {
+      "text": "of different application\nareas, from drug discovery",
+      "start": 160.6,
+      "duration": 3.33
+    },
+    {
+      "text": "to developing enzymes\nfor decomposing plastics,",
+      "start": 163.93,
+      "duration": 5.05
+    },
+    {
+      "text": "to really uncovering a lot of\nmysteries of synthetic biology.",
+      "start": 168.98,
+      "duration": 5.58
+    },
+    {
+      "text": "Now, what AlphaFold 2 did was\nfind the structures of proteins.",
+      "start": 174.56,
+      "duration": 6.88
+    },
+    {
+      "text": "Last year, we expanded\nthat with AlphaFold 3,",
+      "start": 181.44,
+      "duration": 4.36
+    },
+    {
+      "text": "which goes beyond the\nstructures of proteins and sheds",
+      "start": 185.8,
+      "duration": 4.22
+    },
+    {
+      "text": "light on the structures of\nall the other biomolecules",
+      "start": 190.02,
+      "duration": 3.6
+    },
+    {
+      "text": "in the body like how do proteins\ninteract with small ligands,",
+      "start": 193.62,
+      "duration": 5.34
+    },
+    {
+      "text": "which are very relevant\nfor drug discovery.",
+      "start": 198.96,
+      "duration": 2.23
+    },
+    {
+      "text": "How do they form complexes?",
+      "start": 201.19,
+      "duration": 2.34
+    },
+    {
+      "text": "What is the structure\nof those complexes?",
+      "start": 203.53,
+      "duration": 1.83
+    },
+    {
+      "text": "How do proteins interact with\nnucleic acids, RNA and DNA?",
+      "start": 205.36,
+      "duration": 4.59
+    },
+    {
+      "text": "So it really expands\nour ability to think",
+      "start": 209.95,
+      "duration": 3.62
+    },
+    {
+      "text": "about structural\ncharacterization of biology.",
+      "start": 213.57,
+      "duration": 2.74
+    },
+    {
+      "text": "Biology, in itself, is one of\nthe most amazing application",
+      "start": 216.31,
+      "duration": 5.66
+    },
+    {
+      "text": "areas for AI, given the\ncomplexity that it has.",
+      "start": 221.97,
+      "duration": 3.28
+    },
+    {
+      "text": "And what we have been able to\ndo is build on top of AlphaFold",
+      "start": 225.25,
+      "duration": 5.09
+    },
+    {
+      "text": "to not only make progress\non structural biology,",
+      "start": 230.34,
+      "duration": 3.31
+    },
+    {
+      "text": "but take on many\nother different tasks.",
+      "start": 233.65,
+      "duration": 3.33
+    },
+    {
+      "text": "So two good examples in\nbiology have been our work",
+      "start": 236.98,
+      "duration": 5.15
+    },
+    {
+      "text": "on understanding the genome.",
+      "start": 242.13,
+      "duration": 2.23
+    },
+    {
+      "text": "What is the effect of\nmissense variants or mutations",
+      "start": 244.36,
+      "duration": 4.28
+    },
+    {
+      "text": "in the genome?",
+      "start": 248.64,
+      "duration": 1.0
+    },
+    {
+      "text": "So we had a model\ncalled AlphaMissense,",
+      "start": 249.64,
+      "duration": 2.87
+    },
+    {
+      "text": "which was built on top\nof AlphaFold, which",
+      "start": 252.51,
+      "duration": 2.58
+    },
+    {
+      "text": "is able to predict\nwhether variants",
+      "start": 255.09,
+      "duration": 2.55
+    },
+    {
+      "text": "or mutations in the genome\nwould be pathogenic or benign.",
+      "start": 257.64,
+      "duration": 3.52
+    },
+    {
+      "text": "And this has already\nseeing impact",
+      "start": 261.16,
+      "duration": 2.96
+    },
+    {
+      "text": "on diagnosis of rare diseases\nin the medical and clinical",
+      "start": 264.12,
+      "duration": 5.97
+    },
+    {
+      "text": "context.",
+      "start": 270.09,
+      "duration": 1.41
+    },
+    {
+      "text": "Another example is\nAlphaProteo, which",
+      "start": 271.5,
+      "duration": 3.7
+    },
+    {
+      "text": "again leverages\nAlphaFold 3 and is now",
+      "start": 275.2,
+      "duration": 3.53
+    },
+    {
+      "text": "able to think about,\nhow do you synthesize",
+      "start": 278.73,
+      "duration": 2.88
+    },
+    {
+      "text": "binders for new proteins.",
+      "start": 281.61,
+      "duration": 2.41
+    },
+    {
+      "text": "So this is coming up with\ncompletely novel proteins that",
+      "start": 284.02,
+      "duration": 3.71
+    },
+    {
+      "text": "do not exist in nature\nthat we have purposefully",
+      "start": 287.73,
+      "duration": 4.08
+    },
+    {
+      "text": "designed to solve certain\ntasks, like binding",
+      "start": 291.81,
+      "duration": 3.17
+    },
+    {
+      "text": "to specific targets.",
+      "start": 294.98,
+      "duration": 1.63
+    },
+    {
+      "text": "And that opens up a variety\nof different applications,",
+      "start": 296.61,
+      "duration": 4.32
+    },
+    {
+      "text": "both for drug discovery as well\nas for many other application",
+      "start": 300.93,
+      "duration": 5.24
+    },
+    {
+      "text": "areas as well.",
+      "start": 306.17,
+      "duration": 0.997
+    },
+    {
+      "text": "JAMES MANYIKA: What\nI find extraordinary,",
+      "start": 307.167,
+      "duration": 1.708
+    },
+    {
+      "text": "and I think you all\nknow this, so AlphaFold",
+      "start": 308.875,
+      "duration": 1.792
+    },
+    {
+      "text": "is our system that won the\nNobel Prize that Demis and John",
+      "start": 310.667,
+      "duration": 3.903
+    },
+    {
+      "text": "Jumper got a Nobel Prize for.",
+      "start": 314.57,
+      "duration": 1.39
+    },
+    {
+      "text": "But what I find\nextraordinary is the fact",
+      "start": 315.96,
+      "duration": 2.18
+    },
+    {
+      "text": "that now more than 2.5 million\nbiologists around the world",
+      "start": 318.14,
+      "duration": 4.68
+    },
+    {
+      "text": "are using it.",
+      "start": 322.82,
+      "duration": 1.15
+    },
+    {
+      "text": "And these are people\nin over 190 countries.",
+      "start": 323.97,
+      "duration": 3.21
+    },
+    {
+      "text": "And I think that's\nextraordinary how it opens up",
+      "start": 327.18,
+      "duration": 3.23
+    },
+    {
+      "text": "the possibilities for science.",
+      "start": 330.41,
+      "duration": 4.14
+    },
+    {
+      "text": "But, Joelle, let me come to you.",
+      "start": 334.55,
+      "duration": 3.34
+    },
+    {
+      "text": "So I should introduce Joelle.",
+      "start": 337.89,
+      "duration": 1.26
+    },
+    {
+      "text": "So Joelle is a Senior\nDirector at Google DeepMind.",
+      "start": 339.15,
+      "duration": 2.97
+    },
+    {
+      "text": "She works on a lot of\nthe foundational research",
+      "start": 342.12,
+      "duration": 2.24
+    },
+    {
+      "text": "in healthcare and the\nmedical space in particular.",
+      "start": 344.36,
+      "duration": 4.45
+    },
+    {
+      "text": "She also leads a broad range\nof teams across Google,",
+      "start": 348.81,
+      "duration": 3.5
+    },
+    {
+      "text": "building extraordinary\napplications and solutions.",
+      "start": 352.31,
+      "duration": 3.12
+    },
+    {
+      "text": "What have you been most excited\nabout in the last year, Joelle?",
+      "start": 355.43,
+      "duration": 3.788
+    },
+    {
+      "text": "JOELLE BARRAL: Well, thanks,\nJames, and thanks for having me.",
+      "start": 359.218,
+      "duration": 2.542
+    },
+    {
+      "text": "Hi, everyone.",
+      "start": 361.76,
+      "duration": 0.542
+    },
+    {
+      "text": "It's really great to\nbe here this morning.",
+      "start": 362.302,
+      "duration": 2.568
+    },
+    {
+      "text": "It's a tough question.",
+      "start": 364.87,
+      "duration": 0.96
+    },
+    {
+      "text": "Because we do so much across\nthe spectrum in healthcare.",
+      "start": 365.83,
+      "duration": 3.31
+    },
+    {
+      "text": "I think we've\npublished more than 50,",
+      "start": 369.14,
+      "duration": 1.7
+    },
+    {
+      "text": "5-0 papers last year alone.",
+      "start": 370.84,
+      "duration": 2.31
+    },
+    {
+      "text": "But if you're asking\nme to pick one,",
+      "start": 373.15,
+      "duration": 1.51
+    },
+    {
+      "text": "I think I'll cheat a\nlittle bit because I'll",
+      "start": 374.66,
+      "duration": 1.94
+    },
+    {
+      "text": "talk about a family of papers\naround AMIE, our Articulate",
+      "start": 376.6,
+      "duration": 4.2
+    },
+    {
+      "text": "Medical Intelligence Explorer.",
+      "start": 380.8,
+      "duration": 2.05
+    },
+    {
+      "text": "So you can think of it\nas a large language model",
+      "start": 382.85,
+      "duration": 2.63
+    },
+    {
+      "text": "that we've specifically designed\nto be able to do diagnosis.",
+      "start": 385.48,
+      "duration": 6.4
+    },
+    {
+      "text": "So in some ways, augmenting or\nreplacing what a PCP would do,",
+      "start": 391.88,
+      "duration": 5.46
+    },
+    {
+      "text": "what a physician would do.",
+      "start": 397.34,
+      "duration": 1.29
+    },
+    {
+      "text": "And this is obviously\na research project.",
+      "start": 398.63,
+      "duration": 2.39
+    },
+    {
+      "text": "We're really\nexploring the art of",
+      "start": 401.02,
+      "duration": 1.5
+    },
+    {
+      "text": "the possible with\nthat research project.",
+      "start": 402.52,
+      "duration": 4.11
+    },
+    {
+      "text": "A year ago, we had done\nmaybe the initial paper.",
+      "start": 406.63,
+      "duration": 4.18
+    },
+    {
+      "text": "That was a very simple\ndialogue system, text only.",
+      "start": 410.81,
+      "duration": 3.78
+    },
+    {
+      "text": "And over the last\nyear we, for example,",
+      "start": 414.59,
+      "duration": 2.79
+    },
+    {
+      "text": "looked at what it could\ndo in specialty care,",
+      "start": 417.38,
+      "duration": 3.26
+    },
+    {
+      "text": "both in cardiology\nand in oncology,",
+      "start": 420.64,
+      "duration": 2.68
+    },
+    {
+      "text": "with our colleagues at Stanford\nand at Houston Methodist.",
+      "start": 423.32,
+      "duration": 3.18
+    },
+    {
+      "text": "So we're working with\nphysicians and clinical teams",
+      "start": 426.5,
+      "duration": 2.27
+    },
+    {
+      "text": "to see how, for\nspecialty, when you really",
+      "start": 428.77,
+      "duration": 3.33
+    },
+    {
+      "text": "need a lot more knowledge,\nour language models can also",
+      "start": 432.1,
+      "duration": 4.29
+    },
+    {
+      "text": "do diagnostic reasoning\nin a way that is on par",
+      "start": 436.39,
+      "duration": 3.27
+    },
+    {
+      "text": "or better than physicians.",
+      "start": 439.66,
+      "duration": 1.54
+    },
+    {
+      "text": "We've also continued to\npush that series of paper",
+      "start": 441.2,
+      "duration": 2.54
+    },
+    {
+      "text": "to give eyes and ears to AMIE.",
+      "start": 443.74,
+      "duration": 3.1
+    },
+    {
+      "text": "So not just have things\nthat are text only,",
+      "start": 446.84,
+      "duration": 2.58
+    },
+    {
+      "text": "but also have the ability\nto upload various documents",
+      "start": 449.42,
+      "duration": 2.93
+    },
+    {
+      "text": "and reason on those documents.",
+      "start": 452.35,
+      "duration": 2.68
+    },
+    {
+      "text": "And then last but\nnot least, we've",
+      "start": 455.03,
+      "duration": 2.48
+    },
+    {
+      "text": "started a study with Beth\nIsrael Medical Center",
+      "start": 457.51,
+      "duration": 3.48
+    },
+    {
+      "text": "to be able to see what happens\nwhen you start deploying this",
+      "start": 460.99,
+      "duration": 4.53
+    },
+    {
+      "text": "in clinical settings, again,\nunder IRB as a research project.",
+      "start": 465.52,
+      "duration": 4.36
+    },
+    {
+      "text": "But to see under\nphysician supervision",
+      "start": 469.88,
+      "duration": 3.31
+    },
+    {
+      "text": "when this is able\nto either accelerate",
+      "start": 473.19,
+      "duration": 3.12
+    },
+    {
+      "text": "or augment the diagnosis a\nphysician would be doing.",
+      "start": 476.31,
+      "duration": 3.45
+    },
+    {
+      "text": "So a lot of exciting progress\nwith AMIE over the last year.",
+      "start": 479.76,
+      "duration": 3.39
+    },
+    {
+      "text": "JAMES MANYIKA: And\nactually, I know exactly why",
+      "start": 483.15,
+      "duration": 2.708
+    },
+    {
+      "text": "you found it difficult\nperhaps to pick one,",
+      "start": 485.858,
+      "duration": 1.792
+    },
+    {
+      "text": "because there's so much.",
+      "start": 487.65,
+      "duration": 0.97
+    },
+    {
+      "text": "One of the things, at\nleast, I was particularly",
+      "start": 488.62,
+      "duration": 1.958
+    },
+    {
+      "text": "thrilled about last year was\nsome of the work in tuberculosis",
+      "start": 490.578,
+      "duration": 2.862
+    },
+    {
+      "text": "diagnosis, for example, using\nAI tools, just because, what?",
+      "start": 493.44,
+      "duration": 3.57
+    },
+    {
+      "text": "Something like 30% to 40% of the\nworld's population that has TB",
+      "start": 497.01,
+      "duration": 3.93
+    },
+    {
+      "text": "goes undiagnosed.",
+      "start": 500.94,
+      "duration": 1.51
+    },
+    {
+      "text": "And often that's because\nthey live in places",
+      "start": 502.45,
+      "duration": 1.927
+    },
+    {
+      "text": "where the resources\nare not available.",
+      "start": 504.377,
+      "duration": 1.583
+    },
+    {
+      "text": "So that was extraordinary.",
+      "start": 505.96,
+      "duration": 4.13
+    },
+    {
+      "text": "So Anima, again,\nI keep forgetting",
+      "start": 510.09,
+      "duration": 2.04
+    },
+    {
+      "text": "to introduce my panelists.",
+      "start": 512.13,
+      "duration": 2.799
+    },
+    {
+      "text": "So Anima is a professor of\ncomputer science at Caltech.",
+      "start": 514.929,
+      "duration": 4.051
+    },
+    {
+      "text": "And she's done some of the most\ngroundbreaking work around AI,",
+      "start": 518.98,
+      "duration": 3.48
+    },
+    {
+      "text": "advancing how we\nunderstand physical systems",
+      "start": 522.46,
+      "duration": 3.02
+    },
+    {
+      "text": "through these incredible\ntechniques called",
+      "start": 525.48,
+      "duration": 2.13
+    },
+    {
+      "text": "neural operators.",
+      "start": 527.61,
+      "duration": 0.715
+    },
+    {
+      "text": "But you should talk\nabout what have you",
+      "start": 528.325,
+      "duration": 1.625
+    },
+    {
+      "text": "been most excited\nabout in the work",
+      "start": 529.95,
+      "duration": 2.15
+    },
+    {
+      "text": "you've done in the last year?",
+      "start": 532.1,
+      "duration": 1.612
+    },
+    {
+      "text": "ANIMA ANANDKUMAR:\nThank you, James.",
+      "start": 533.712,
+      "duration": 1.458
+    },
+    {
+      "text": "And thank you for\nhaving me here.",
+      "start": 535.17,
+      "duration": 1.68
+    },
+    {
+      "text": "It's such an\nexciting time for AI.",
+      "start": 536.85,
+      "duration": 2.97
+    },
+    {
+      "text": "And to me, the\npassion has always",
+      "start": 539.82,
+      "duration": 2.03
+    },
+    {
+      "text": "been how we can advance\npretty much all of science",
+      "start": 541.85,
+      "duration": 4.17
+    },
+    {
+      "text": "and build broad\nframeworks and foundations",
+      "start": 546.02,
+      "duration": 3.3
+    },
+    {
+      "text": "to be able to do that.",
+      "start": 549.32,
+      "duration": 1.51
+    },
+    {
+      "text": "And to me, now we are seeing the\nentire scientific method itself",
+      "start": 550.83,
+      "duration": 4.19
+    },
+    {
+      "text": "getting upended with AI.",
+      "start": 555.02,
+      "duration": 2.38
+    },
+    {
+      "text": "Because the traditional\napproach has been,",
+      "start": 557.4,
+      "duration": 3.36
+    },
+    {
+      "text": "scientists have ideas,\nhypothesis, you go test it,",
+      "start": 560.76,
+      "duration": 3.87
+    },
+    {
+      "text": "you get feedback.",
+      "start": 564.63,
+      "duration": 1.2
+    },
+    {
+      "text": "You come back, and you\nredo the whole process.",
+      "start": 565.83,
+      "duration": 3.15
+    },
+    {
+      "text": "And of course, now with\napproaches like Co-Scientist,",
+      "start": 568.98,
+      "duration": 3.72
+    },
+    {
+      "text": "AI can come up with\nall kinds of new ideas.",
+      "start": 572.7,
+      "duration": 3.09
+    },
+    {
+      "text": "But the bottleneck still\nremains that if you",
+      "start": 575.79,
+      "duration": 2.48
+    },
+    {
+      "text": "had to go into the lab and\ntest, build, fabricate, do this",
+      "start": 578.27,
+      "duration": 4.41
+    },
+    {
+      "text": "for every single\nhypothesis or idea,",
+      "start": 582.68,
+      "duration": 2.5
+    },
+    {
+      "text": "it would still be not feasible.",
+      "start": 585.18,
+      "duration": 1.97
+    },
+    {
+      "text": "Because that's the\ncritical bottleneck.",
+      "start": 587.15,
+      "duration": 2.15
+    },
+    {
+      "text": "And so what we've\nbeen building is",
+      "start": 589.3,
+      "duration": 1.76
+    },
+    {
+      "text": "AI that understands the\nphysical world, that can really",
+      "start": 591.06,
+      "duration": 4.44
+    },
+    {
+      "text": "create very accurate,\nhigh fidelity,",
+      "start": 595.5,
+      "duration": 2.79
+    },
+    {
+      "text": "digital twins of these\nphysical systems.",
+      "start": 598.29,
+      "duration": 3.15
+    },
+    {
+      "text": "To give you an\nexample, we are now",
+      "start": 601.44,
+      "duration": 3.45
+    },
+    {
+      "text": "able to design photonic\ndevices in the digital realm.",
+      "start": 604.89,
+      "duration": 5.92
+    },
+    {
+      "text": "And the question is, can we\ndo that with enough confidence",
+      "start": 610.81,
+      "duration": 3.89
+    },
+    {
+      "text": "that we can overcome the need\nfor lots of lab experiments",
+      "start": 614.7,
+      "duration": 5.32
+    },
+    {
+      "text": "so we can go ahead and come up\nwith what the best design is,",
+      "start": 620.02,
+      "duration": 4.13
+    },
+    {
+      "text": "given all the\ndifferent manufacturing",
+      "start": 624.15,
+      "duration": 2.16
+    },
+    {
+      "text": "and other constraints?",
+      "start": 626.31,
+      "duration": 1.3
+    },
+    {
+      "text": "And for the domain scientists\nthat are collaborating with us,",
+      "start": 627.61,
+      "duration": 3.54
+    },
+    {
+      "text": "this is just an\namazing new possibility",
+      "start": 631.15,
+      "duration": 2.84
+    },
+    {
+      "text": "that they never thought\nwas ever realistic.",
+      "start": 633.99,
+      "duration": 3.4
+    },
+    {
+      "text": "Because the\ntraditional approach is",
+      "start": 637.39,
+      "duration": 2.24
+    },
+    {
+      "text": "we already have\na current device.",
+      "start": 639.63,
+      "duration": 2.38
+    },
+    {
+      "text": "Let's tweak a few parameters.",
+      "start": 642.01,
+      "duration": 2.07
+    },
+    {
+      "text": "And again, it's too risky to\nchange too much of the design,",
+      "start": 644.08,
+      "duration": 3.39
+    },
+    {
+      "text": "so we'll do small tweaks.",
+      "start": 647.47,
+      "duration": 1.47
+    },
+    {
+      "text": "And we hope it gets better.",
+      "start": 648.94,
+      "duration": 2.34
+    },
+    {
+      "text": "But the challenge is the lab\nexperiments also don't give you",
+      "start": 651.28,
+      "duration": 2.73
+    },
+    {
+      "text": "gradients or feedback, so you\ndon't know if it didn't work,",
+      "start": 654.01,
+      "duration": 3.4
+    },
+    {
+      "text": "why not.",
+      "start": 657.41,
+      "duration": 0.81
+    },
+    {
+      "text": "Whereas if you can create these\nnow surrogates or models that",
+      "start": 658.22,
+      "duration": 4.46
+    },
+    {
+      "text": "accurately capture that physical\nphenomena and these AI models",
+      "start": 662.68,
+      "duration": 4.29
+    },
+    {
+      "text": "are differentiable, we can even\nexplore the entire design space",
+      "start": 666.97,
+      "duration": 4.32
+    },
+    {
+      "text": "and come up with what we think\nare compelling and the most",
+      "start": 671.29,
+      "duration": 3.3
+    },
+    {
+      "text": "promising designs.",
+      "start": 674.59,
+      "duration": 1.45
+    },
+    {
+      "text": "And we were earlier\nable to do this",
+      "start": 676.04,
+      "duration": 1.82
+    },
+    {
+      "text": "for designing the\nmedical catheter,",
+      "start": 677.86,
+      "duration": 2.11
+    },
+    {
+      "text": "where AI was able to\nunderstand the fluid flow",
+      "start": 679.97,
+      "duration": 3.23
+    },
+    {
+      "text": "and come up with an\noptimized design that",
+      "start": 683.2,
+      "duration": 3.09
+    },
+    {
+      "text": "reduced bacterial\ncontamination the maximum.",
+      "start": 686.29,
+      "duration": 3.13
+    },
+    {
+      "text": "And we only had to go to\nthe lab once and test it,",
+      "start": 689.42,
+      "duration": 2.7
+    },
+    {
+      "text": "and it led to\nhundred-fold reduction",
+      "start": 692.12,
+      "duration": 2.33
+    },
+    {
+      "text": "in bacterial contamination.",
+      "start": 694.45,
+      "duration": 1.81
+    },
+    {
+      "text": "And so that to me,\nis the promise.",
+      "start": 696.26,
+      "duration": 1.77
+    },
+    {
+      "text": "As much as we can design\nin the digital realm,",
+      "start": 698.03,
+      "duration": 3.8
+    },
+    {
+      "text": "with all of its physical\ncomplexities and details",
+      "start": 701.83,
+      "duration": 4.75
+    },
+    {
+      "text": "so that it just works\nin the physical world.",
+      "start": 706.58,
+      "duration": 2.85
+    },
+    {
+      "text": "And this is where the techniques\nof neural operators, in my view,",
+      "start": 709.43,
+      "duration": 3.96
+    },
+    {
+      "text": "are critical.",
+      "start": 713.39,
+      "duration": 0.92
+    },
+    {
+      "text": "Because the physical world\nis not just the visible.",
+      "start": 714.31,
+      "duration": 3.16
+    },
+    {
+      "text": "So when we think\nof the world model,",
+      "start": 717.47,
+      "duration": 1.98
+    },
+    {
+      "text": "we're thinking of\nthe world we see.",
+      "start": 719.45,
+      "duration": 1.89
+    },
+    {
+      "text": "But there is the world\nof the invisible, which",
+      "start": 721.34,
+      "duration": 2.3
+    },
+    {
+      "text": "happens at so many scales.",
+      "start": 723.64,
+      "duration": 1.99
+    },
+    {
+      "text": "You can think of fluids\nmoving, matter deforming.",
+      "start": 725.63,
+      "duration": 4.65
+    },
+    {
+      "text": "If you go down even further to\nthe quantum effects at these",
+      "start": 730.28,
+      "duration": 4.43
+    },
+    {
+      "text": "scales that human\neyes cannot see.",
+      "start": 734.71,
+      "duration": 2.68
+    },
+    {
+      "text": "So there are different\nlevels of those complexity",
+      "start": 737.39,
+      "duration": 2.78
+    },
+    {
+      "text": "you need to capture for\ndifferent physical phenomena,",
+      "start": 740.17,
+      "duration": 3.4
+    },
+    {
+      "text": "for different scientific areas.",
+      "start": 743.57,
+      "duration": 1.77
+    },
+    {
+      "text": "And the approach\nof neural operators",
+      "start": 745.34,
+      "duration": 2.36
+    },
+    {
+      "text": "can really help us learn\nacross these different scales.",
+      "start": 747.7,
+      "duration": 4.0
+    },
+    {
+      "text": "Because it's not limited to one\nfixed resolution or one fixed",
+      "start": 751.7,
+      "duration": 4.46
+    },
+    {
+      "text": "grid, which standard\nneural networks do.",
+      "start": 756.16,
+      "duration": 3.28
+    },
+    {
+      "text": "And hence, they can\nlearn any phenomena",
+      "start": 759.44,
+      "duration": 4.28
+    },
+    {
+      "text": "of any complexity of any\ndifferent multiple scales.",
+      "start": 763.72,
+      "duration": 3.37
+    },
+    {
+      "text": "And that's what a lot of\nphysical phenomena are.",
+      "start": 767.09,
+      "duration": 2.173
+    },
+    {
+      "text": "JAMES MANYIKA: I think it's\nquite extraordinary when",
+      "start": 769.263,
+      "duration": 2.167
+    },
+    {
+      "text": "you think about the generality\nof these possibilities,",
+      "start": 771.43,
+      "duration": 2.95
+    },
+    {
+      "text": "but also the idea\nthat we go away",
+      "start": 774.38,
+      "duration": 1.94
+    },
+    {
+      "text": "from solving problems one at a\ntime and look at all of them.",
+      "start": 776.32,
+      "duration": 4.69
+    },
+    {
+      "text": "And I'm struck by\nthat in your work.",
+      "start": 781.01,
+      "duration": 1.74
+    },
+    {
+      "text": "But also, Pushmeet, what\nyou were describing earlier",
+      "start": 782.75,
+      "duration": 2.3
+    },
+    {
+      "text": "with things even\nAlphaMissense, where",
+      "start": 785.05,
+      "duration": 2.22
+    },
+    {
+      "text": "I think before\nAlphaMissense, scientists",
+      "start": 787.27,
+      "duration": 3.6
+    },
+    {
+      "text": "were going one at a time, in\nterms of those genetic coding",
+      "start": 790.87,
+      "duration": 2.983
+    },
+    {
+      "text": "misspellings.",
+      "start": 793.853,
+      "duration": 0.542
+    },
+    {
+      "text": "They had only\nunderstood like 1%.",
+      "start": 794.395,
+      "duration": 3.235
+    },
+    {
+      "text": "And then with AlphaMissense,\nyou got that up to 71% or 70%",
+      "start": 797.63,
+      "duration": 4.1
+    },
+    {
+      "text": "of all the missense spelling.",
+      "start": 801.73,
+      "duration": 1.21
+    },
+    {
+      "text": "So this idea of doing things\nat scale is extraordinary.",
+      "start": 802.94,
+      "duration": 3.81
+    },
+    {
+      "text": "But, Pushmeet, one area you\ndidn't talk a lot about,",
+      "start": 806.75,
+      "duration": 2.42
+    },
+    {
+      "text": "and you've been doing\nand your colleagues have",
+      "start": 809.17,
+      "duration": 2.25
+    },
+    {
+      "text": "been doing a lot of work, is\non weather and climate science,",
+      "start": 811.42,
+      "duration": 3.19
+    },
+    {
+      "text": "which is another\nphysical system.",
+      "start": 814.61,
+      "duration": 1.92
+    },
+    {
+      "text": "Say more about some\nof the advances",
+      "start": 816.53,
+      "duration": 1.73
+    },
+    {
+      "text": "in the last year in weather.",
+      "start": 818.26,
+      "duration": 2.94
+    },
+    {
+      "text": "PUSHMEET KOHLI: So I think\nweather and meteorology",
+      "start": 821.2,
+      "duration": 2.49
+    },
+    {
+      "text": "and climate, I\nthink these are some",
+      "start": 823.69,
+      "duration": 2.38
+    },
+    {
+      "text": "of the very important topics\nthat we are seeing a lot that",
+      "start": 826.07,
+      "duration": 4.02
+    },
+    {
+      "text": "is happening with AI.",
+      "start": 830.09,
+      "duration": 2.34
+    },
+    {
+      "text": "First of all, there is a lot\nof conventional computing",
+      "start": 832.43,
+      "duration": 3.42
+    },
+    {
+      "text": "that has been\napplied to weather.",
+      "start": 835.85,
+      "duration": 1.69
+    },
+    {
+      "text": "It's not as if computational\nmethods have not",
+      "start": 837.54,
+      "duration": 3.08
+    },
+    {
+      "text": "been applied to weather.",
+      "start": 840.62,
+      "duration": 1.0
+    },
+    {
+      "text": "There has been a\nlot of investment.",
+      "start": 841.62,
+      "duration": 2.96
+    },
+    {
+      "text": "Weather prediction\nhas been the subject",
+      "start": 844.58,
+      "duration": 4.11
+    },
+    {
+      "text": "of supercomputer research.",
+      "start": 848.69,
+      "duration": 3.61
+    },
+    {
+      "text": "There's a lot of computation\nthat goes into it.",
+      "start": 852.3,
+      "duration": 2.46
+    },
+    {
+      "text": "What we have been able to show\nin the last couple of years,",
+      "start": 854.76,
+      "duration": 4.95
+    },
+    {
+      "text": "in fact, have been that AI\nmodels, neural network based",
+      "start": 859.71,
+      "duration": 4.4
+    },
+    {
+      "text": "models, have been able to\nproduce near-term forecasts that",
+      "start": 864.11,
+      "duration": 5.07
+    },
+    {
+      "text": "are not only more\naccurate than these very",
+      "start": 869.18,
+      "duration": 5.55
+    },
+    {
+      "text": "expensive simulations,\nbut they can be done",
+      "start": 874.73,
+      "duration": 3.87
+    },
+    {
+      "text": "in a minute on a single chip.",
+      "start": 878.6,
+      "duration": 4.05
+    },
+    {
+      "text": "That democratizes\nweather prediction",
+      "start": 882.65,
+      "duration": 3.42
+    },
+    {
+      "text": "in a way that has\nnot been seen before.",
+      "start": 886.07,
+      "duration": 2.83
+    },
+    {
+      "text": "Now you don't need\na supercomputer",
+      "start": 888.9,
+      "duration": 2.51
+    },
+    {
+      "text": "to make weather prediction.",
+      "start": 891.41,
+      "duration": 1.51
+    },
+    {
+      "text": "You can do that on a single GPU\nor a single TPU in a minute.",
+      "start": 892.92,
+      "duration": 4.44
+    },
+    {
+      "text": "So that opens up\nthe possibilities.",
+      "start": 897.36,
+      "duration": 2.58
+    },
+    {
+      "text": "And what we have done is\nbasically with our WeatherNext",
+      "start": 899.94,
+      "duration": 3.83
+    },
+    {
+      "text": "models, we are actually\nmaking these predictions",
+      "start": 903.77,
+      "duration": 2.31
+    },
+    {
+      "text": "available across the whole\nspectrum of applications.",
+      "start": 906.08,
+      "duration": 4.12
+    },
+    {
+      "text": "So people have now signed\nup through Google Cloud",
+      "start": 910.2,
+      "duration": 2.72
+    },
+    {
+      "text": "to access these predictions.",
+      "start": 912.92,
+      "duration": 2.17
+    },
+    {
+      "text": "And our new model,\nWeatherNext Gen,",
+      "start": 915.09,
+      "duration": 2.81
+    },
+    {
+      "text": "has been able to show that you\ncan track things like cyclones",
+      "start": 917.9,
+      "duration": 4.08
+    },
+    {
+      "text": "much, much more accurately\nover longer time scales",
+      "start": 921.98,
+      "duration": 3.09
+    },
+    {
+      "text": "than conventional systems.",
+      "start": 925.07,
+      "duration": 1.86
+    },
+    {
+      "text": "And then finally, work happening\nacross Google, Google Research",
+      "start": 926.93,
+      "duration": 5.37
+    },
+    {
+      "text": "and DeepMind, on NeuralGCM,\nthese global models,",
+      "start": 932.3,
+      "duration": 6.73
+    },
+    {
+      "text": "which are similar to, in fact,\nwhat Anima has been developing.",
+      "start": 939.03,
+      "duration": 4.42
+    },
+    {
+      "text": "They have been able to not\nonly produce good estimates",
+      "start": 943.45,
+      "duration": 4.14
+    },
+    {
+      "text": "about whether in the short term,\nbut also speed up computations",
+      "start": 947.59,
+      "duration": 5.13
+    },
+    {
+      "text": "about climate simulations.",
+      "start": 952.72,
+      "duration": 1.96
+    },
+    {
+      "text": "So also, what are\nthe implications",
+      "start": 954.68,
+      "duration": 2.66
+    },
+    {
+      "text": "of these systems over the\nlong-term horizons of climate",
+      "start": 957.34,
+      "duration": 3.96
+    },
+    {
+      "text": "prediction?",
+      "start": 961.3,
+      "duration": 0.76
+    },
+    {
+      "text": "So we are seeing developments\nacross the whole spectrum",
+      "start": 962.06,
+      "duration": 3.62
+    },
+    {
+      "text": "of the time domain, from\nnear-term forecasting,",
+      "start": 965.68,
+      "duration": 3.1
+    },
+    {
+      "text": "medium-term forecasting, as well\nas long-term climate prediction.",
+      "start": 968.78,
+      "duration": 3.74
+    },
+    {
+      "text": "JAMES MANYIKA: I think\nit's extraordinary.",
+      "start": 972.52,
+      "duration": 1.75
+    },
+    {
+      "text": "It also reminds me of\nsome of the work we've",
+      "start": 974.27,
+      "duration": 1.833
+    },
+    {
+      "text": "been doing recently,\nas you know,",
+      "start": 976.103,
+      "duration": 2.687
+    },
+    {
+      "text": "related to climate around\nwildfires, for example.",
+      "start": 978.79,
+      "duration": 3.37
+    },
+    {
+      "text": "So I don't know if\nfolks in the room know.",
+      "start": 982.16,
+      "duration": 3.12
+    },
+    {
+      "text": "So for example, we've been doing\nwildfire boundary predictions",
+      "start": 985.28,
+      "duration": 3.41
+    },
+    {
+      "text": "now in about 27 countries, which\nis extraordinarily helpful.",
+      "start": 988.69,
+      "duration": 3.155
+    },
+    {
+      "text": "In fact, some of\nthese techniques",
+      "start": 991.845,
+      "duration": 1.375
+    },
+    {
+      "text": "were used in the Palisades\nfires to actually track",
+      "start": 993.22,
+      "duration": 3.6
+    },
+    {
+      "text": "the boundaries.",
+      "start": 996.82,
+      "duration": 1.18
+    },
+    {
+      "text": "And very recently, we actually\nlaunched this new system,",
+      "start": 998.0,
+      "duration": 3.09
+    },
+    {
+      "text": "FireSat, where it's going\nto be a constellation of 53",
+      "start": 1001.09,
+      "duration": 3.83
+    },
+    {
+      "text": "satellites.",
+      "start": 1004.92,
+      "duration": 0.82
+    },
+    {
+      "text": "The first one went up.",
+      "start": 1005.74,
+      "duration": 1.47
+    },
+    {
+      "text": "And the idea with that\nis that up until now,",
+      "start": 1007.21,
+      "duration": 2.94
+    },
+    {
+      "text": "the granularity of what\nyou could actually look at",
+      "start": 1010.15,
+      "duration": 4.79
+    },
+    {
+      "text": "was fairly coarse.",
+      "start": 1014.94,
+      "duration": 1.182
+    },
+    {
+      "text": "But with these\nsatellites, we'll be",
+      "start": 1016.122,
+      "duration": 1.458
+    },
+    {
+      "text": "able to take a look at areas\nthat are like 5 by 5 meters",
+      "start": 1017.58,
+      "duration": 4.2
+    },
+    {
+      "text": "and be able to make\npredictions anywhere on Earth.",
+      "start": 1021.78,
+      "duration": 3.25
+    },
+    {
+      "text": "So that's another area\nrelated to climate.",
+      "start": 1025.03,
+      "duration": 4.289
+    },
+    {
+      "text": "But just to shift\ngears a little bit.",
+      "start": 1029.319,
+      "duration": 2.461
+    },
+    {
+      "text": "One of the things that's\nbeen interesting is,",
+      "start": 1031.78,
+      "duration": 2.03
+    },
+    {
+      "text": "in addition to these\nkind of landmark advances",
+      "start": 1033.81,
+      "duration": 2.97
+    },
+    {
+      "text": "that you've all\ndescribed, the methods",
+      "start": 1036.78,
+      "duration": 3.21
+    },
+    {
+      "text": "and the ways in which\nscientists do their work",
+      "start": 1039.99,
+      "duration": 4.17
+    },
+    {
+      "text": "are also changing as a\nresult of all of this.",
+      "start": 1044.16,
+      "duration": 2.602
+    },
+    {
+      "text": "And I was wondering,\nmaybe, Joelle,",
+      "start": 1046.762,
+      "duration": 1.458
+    },
+    {
+      "text": "you could start this off.",
+      "start": 1048.22,
+      "duration": 1.095
+    },
+    {
+      "text": "But can you talk a\nlittle bit about how",
+      "start": 1049.315,
+      "duration": 1.625
+    },
+    {
+      "text": "you see the actual\nwork of doing science",
+      "start": 1050.94,
+      "duration": 2.94
+    },
+    {
+      "text": "changing as a result of AI?",
+      "start": 1053.88,
+      "duration": 2.127
+    },
+    {
+      "text": "JOELLE BARRAL: Yeah, absolutely.",
+      "start": 1056.007,
+      "duration": 1.333
+    },
+    {
+      "text": "I think at a meta\nlevel, we are really",
+      "start": 1057.34,
+      "duration": 2.86
+    },
+    {
+      "text": "seeing how AI can\ncompletely change",
+      "start": 1060.2,
+      "duration": 2.43
+    },
+    {
+      "text": "the way we're doing science.",
+      "start": 1062.63,
+      "duration": 2.1
+    },
+    {
+      "text": "And if you think of what we've\npublished as the Co-Scientist,",
+      "start": 1064.73,
+      "duration": 3.87
+    },
+    {
+      "text": "the idea is to have a\nsystem, an AI system that",
+      "start": 1068.6,
+      "duration": 3.75
+    },
+    {
+      "text": "has been specifically\ndesigned to help scientists",
+      "start": 1072.35,
+      "duration": 3.18
+    },
+    {
+      "text": "in their work.",
+      "start": 1075.53,
+      "duration": 1.03
+    },
+    {
+      "text": "So think of it as\na powerful system",
+      "start": 1076.56,
+      "duration": 3.17
+    },
+    {
+      "text": "that can first, for\nexample, help you understand",
+      "start": 1079.73,
+      "duration": 3.33
+    },
+    {
+      "text": "the whole literature--",
+      "start": 1083.06,
+      "duration": 1.71
+    },
+    {
+      "text": "not just what has been\npublished recently here,",
+      "start": 1084.77,
+      "duration": 2.89
+    },
+    {
+      "text": "but what has been\npublished globally,",
+      "start": 1087.66,
+      "duration": 2.51
+    },
+    {
+      "text": "anywhere over the\nlast 100 years,",
+      "start": 1090.17,
+      "duration": 2.74
+    },
+    {
+      "text": "and really put all of that\ninto perspective with respect",
+      "start": 1092.91,
+      "duration": 3.11
+    },
+    {
+      "text": "to the question you're\ncurrently asking yourself.",
+      "start": 1096.02,
+      "duration": 4.35
+    },
+    {
+      "text": "It can then help you\nformulate various hypotheses.",
+      "start": 1100.37,
+      "duration": 3.28
+    },
+    {
+      "text": "And that's really leveraging\nthe creativity of large language",
+      "start": 1103.65,
+      "duration": 2.99
+    },
+    {
+      "text": "models.",
+      "start": 1106.64,
+      "duration": 0.9
+    },
+    {
+      "text": "But it doesn't stop there.",
+      "start": 1107.54,
+      "duration": 1.54
+    },
+    {
+      "text": "Once it has all of\nthose hypotheses,",
+      "start": 1109.08,
+      "duration": 2.43
+    },
+    {
+      "text": "it can also help you, as a\nscientist, explore each of them",
+      "start": 1111.51,
+      "duration": 4.64
+    },
+    {
+      "text": "and critique them,\nagain leveraging AI.",
+      "start": 1116.15,
+      "duration": 3.24
+    },
+    {
+      "text": "So it will rank them.",
+      "start": 1119.39,
+      "duration": 1.35
+    },
+    {
+      "text": "You can make them\ncompete with each other.",
+      "start": 1120.74,
+      "duration": 1.77
+    },
+    {
+      "text": "And it improves\nitself so that it",
+      "start": 1122.51,
+      "duration": 1.55
+    },
+    {
+      "text": "starts, as you interact\nwith the system,",
+      "start": 1124.06,
+      "duration": 2.44
+    },
+    {
+      "text": "as again, as a scientist,\nit's not doing it on its own.",
+      "start": 1126.5,
+      "duration": 3.27
+    },
+    {
+      "text": "But you're really helping.",
+      "start": 1129.77,
+      "duration": 2.48
+    },
+    {
+      "text": "I like to think of it as a new\nchalkboard or a whiteboard.",
+      "start": 1132.25,
+      "duration": 3.732
+    },
+    {
+      "text": "It's something\nwhere you can really",
+      "start": 1135.982,
+      "duration": 1.458
+    },
+    {
+      "text": "bounce ideas and experiment\nwith, but in a much, much more",
+      "start": 1137.44,
+      "duration": 5.46
+    },
+    {
+      "text": "knowledgeable way\nand really augment",
+      "start": 1142.9,
+      "duration": 2.64
+    },
+    {
+      "text": "what you can do very quickly.",
+      "start": 1145.54,
+      "duration": 2.02
+    },
+    {
+      "text": "So then, similar to\nwhat you were saying,",
+      "start": 1147.56,
+      "duration": 1.71
+    },
+    {
+      "text": "you're narrowing down\nthe number of things",
+      "start": 1149.27,
+      "duration": 2.03
+    },
+    {
+      "text": "you really have to go to\nthe lab with to experiment.",
+      "start": 1151.3,
+      "duration": 3.37
+    },
+    {
+      "text": "And so it's what Demis\nlikes to speak about as",
+      "start": 1154.67,
+      "duration": 3.44
+    },
+    {
+      "text": "science at digital speed.",
+      "start": 1158.11,
+      "duration": 1.66
+    },
+    {
+      "text": "Because you can do so much\nbased on just the information",
+      "start": 1159.77,
+      "duration": 4.64
+    },
+    {
+      "text": "you have and those tools.",
+      "start": 1164.41,
+      "duration": 1.653
+    },
+    {
+      "text": "JAMES MANYIKA: Actually,\nsay a little bit more",
+      "start": 1166.063,
+      "duration": 1.917
+    },
+    {
+      "text": "about the experience\nof Co-Scientist.",
+      "start": 1167.98,
+      "duration": 2.928
+    },
+    {
+      "text": "Because one of the things\nthat was extraordinary to me,",
+      "start": 1170.908,
+      "duration": 2.292
+    },
+    {
+      "text": "at least, was the fact\nthat in Co-Scientist, we",
+      "start": 1173.2,
+      "duration": 2.79
+    },
+    {
+      "text": "were able to explore\nnew areas, whether it's",
+      "start": 1175.99,
+      "duration": 2.4
+    },
+    {
+      "text": "in drug repurposing,\nfor example,",
+      "start": 1178.39,
+      "duration": 2.23
+    },
+    {
+      "text": "or antimicrobial resistance,\nand actually discover",
+      "start": 1180.62,
+      "duration": 2.72
+    },
+    {
+      "text": "interesting new insights.",
+      "start": 1183.34,
+      "duration": 1.89
+    },
+    {
+      "text": "Say more about Co-Scientist.",
+      "start": 1185.23,
+      "duration": 1.332
+    },
+    {
+      "text": "JOELLE BARRAL:\nYeah, no, precisely.",
+      "start": 1186.562,
+      "duration": 1.458
+    },
+    {
+      "text": "I think with this system,\nit's an agentic platform.",
+      "start": 1188.02,
+      "duration": 3.19
+    },
+    {
+      "text": "So you have a couple\nof stages where",
+      "start": 1191.21,
+      "duration": 1.85
+    },
+    {
+      "text": "it's looking at, for\nexample, for a given drug,",
+      "start": 1193.06,
+      "duration": 2.7
+    },
+    {
+      "text": "how can it be repurposed.",
+      "start": 1195.76,
+      "duration": 2.44
+    },
+    {
+      "text": "And you see that for\nthat particular problem,",
+      "start": 1198.2,
+      "duration": 2.66
+    },
+    {
+      "text": "you have a combinatorial space\nthat you have to search through.",
+      "start": 1200.86,
+      "duration": 4.96
+    },
+    {
+      "text": "And that's typically\na problem for which",
+      "start": 1205.82,
+      "duration": 2.06
+    },
+    {
+      "text": "AI is very well suited.",
+      "start": 1207.88,
+      "duration": 1.83
+    },
+    {
+      "text": "And so you take this question,\nand you let the system explore.",
+      "start": 1209.71,
+      "duration": 6.67
+    },
+    {
+      "text": "And what we've\nbeen able to do is",
+      "start": 1216.38,
+      "duration": 1.67
+    },
+    {
+      "text": "compare what the AI\ncomes with with what",
+      "start": 1218.05,
+      "duration": 3.66
+    },
+    {
+      "text": "has happened in the\nfield and rediscover",
+      "start": 1221.71,
+      "duration": 2.34
+    },
+    {
+      "text": "things that had taken labs\nyears sometimes to get to.",
+      "start": 1224.05,
+      "duration": 5.41
+    },
+    {
+      "text": "And so it's still\nin the early days.",
+      "start": 1229.46,
+      "duration": 1.65
+    },
+    {
+      "text": "I think we still have to\ndo a lot of validation",
+      "start": 1231.11,
+      "duration": 2.21
+    },
+    {
+      "text": "to make sure that\nnone of those things",
+      "start": 1233.32,
+      "duration": 2.3
+    },
+    {
+      "text": "where, in the training\ndata, none of those things",
+      "start": 1235.62,
+      "duration": 2.16
+    },
+    {
+      "text": "could have been, contaminated\nin any way, shape, or form.",
+      "start": 1237.78,
+      "duration": 4.24
+    },
+    {
+      "text": "So we are really\ncontinuing the work",
+      "start": 1242.02,
+      "duration": 2.21
+    },
+    {
+      "text": "to really see moving\nforward, if we",
+      "start": 1244.23,
+      "duration": 3.78
+    },
+    {
+      "text": "have with the Co-Scientist\na particular hypothesis",
+      "start": 1248.01,
+      "duration": 2.43
+    },
+    {
+      "text": "or if it's really, truly making\nus do a discovery that we",
+      "start": 1250.44,
+      "duration": 3.87
+    },
+    {
+      "text": "wouldn't have come\nup before, that we do",
+      "start": 1254.31,
+      "duration": 2.79
+    },
+    {
+      "text": "that in a way that\nis also extremely",
+      "start": 1257.1,
+      "duration": 1.83
+    },
+    {
+      "text": "rigorous in its validation.",
+      "start": 1258.93,
+      "duration": 1.75
+    },
+    {
+      "text": "So I also want to\nreally emphasize",
+      "start": 1260.68,
+      "duration": 1.61
+    },
+    {
+      "text": "that, again, everything\nis moving so quickly.",
+      "start": 1262.29,
+      "duration": 4.12
+    },
+    {
+      "text": "We also have to\ncontinue to have a very",
+      "start": 1266.41,
+      "duration": 2.21
+    },
+    {
+      "text": "rigorous scientific method\nto make sure that we truly",
+      "start": 1268.62,
+      "duration": 3.96
+    },
+    {
+      "text": "have something unique in the\nway we can do new discoveries.",
+      "start": 1272.58,
+      "duration": 4.17
+    },
+    {
+      "text": "JAMES MANYIKA: Anima, how do\nyou think this is changing",
+      "start": 1276.75,
+      "duration": 2.98
+    },
+    {
+      "text": "how scientists do their work?",
+      "start": 1279.73,
+      "duration": 3.48
+    },
+    {
+      "text": "ANIMA ANANDKUMAR: I think it's\ngiven them incredible tools.",
+      "start": 1283.21,
+      "duration": 2.97
+    },
+    {
+      "text": "So to reiterate on the\nweather and climate modeling,",
+      "start": 1286.18,
+      "duration": 3.44
+    },
+    {
+      "text": "in 2020, when we started\nexploring the neural operators",
+      "start": 1289.62,
+      "duration": 5.42
+    },
+    {
+      "text": "we had developed, it had\nworked well on fluid dynamics,",
+      "start": 1295.04,
+      "duration": 3.66
+    },
+    {
+      "text": "more as a proof of concept.",
+      "start": 1298.7,
+      "duration": 1.48
+    },
+    {
+      "text": "And we wanted a real-world case.",
+      "start": 1300.18,
+      "duration": 1.92
+    },
+    {
+      "text": "And we had collaborators in\nthe Lawrence Berkeley Lab,",
+      "start": 1302.1,
+      "duration": 6.06
+    },
+    {
+      "text": "here, local.",
+      "start": 1308.16,
+      "duration": 0.84
+    },
+    {
+      "text": "And this data set was open.",
+      "start": 1309.0,
+      "duration": 3.17
+    },
+    {
+      "text": "And it was open sourced by\nthe European premier climate",
+      "start": 1312.17,
+      "duration": 5.4
+    },
+    {
+      "text": "and weather organization, ECMWF.",
+      "start": 1317.57,
+      "duration": 2.55
+    },
+    {
+      "text": "And so we're like,\nOK, let's try this.",
+      "start": 1320.12,
+      "duration": 2.32
+    },
+    {
+      "text": "And many people\ndiscouraged us because this",
+      "start": 1322.44,
+      "duration": 2.84
+    },
+    {
+      "text": "was considered\nextremely difficult,",
+      "start": 1325.28,
+      "duration": 2.05
+    },
+    {
+      "text": "high resolution,\nhundreds of variables.",
+      "start": 1327.33,
+      "duration": 3.48
+    },
+    {
+      "text": "And it has taken weather\nscientists decades of work",
+      "start": 1330.81,
+      "duration": 3.5
+    },
+    {
+      "text": "to carefully tune\nphysics-based models, which",
+      "start": 1334.31,
+      "duration": 3.87
+    },
+    {
+      "text": "try to model from\nground up to get",
+      "start": 1338.18,
+      "duration": 2.1
+    },
+    {
+      "text": "to where we are with the\ncurrent weather capabilities.",
+      "start": 1340.28,
+      "duration": 3.37
+    },
+    {
+      "text": "But the beauty of deep learning\nis as long as the data is there,",
+      "start": 1343.65,
+      "duration": 4.23
+    },
+    {
+      "text": "we can just go try it.",
+      "start": 1347.88,
+      "duration": 1.56
+    },
+    {
+      "text": "And even with our\nfirst attempt, what",
+      "start": 1349.44,
+      "duration": 1.97
+    },
+    {
+      "text": "we were surprised was\nwe got to good accuracy",
+      "start": 1351.41,
+      "duration": 4.11
+    },
+    {
+      "text": "not only of typical weather\nconditions like here",
+      "start": 1355.52,
+      "duration": 2.94
+    },
+    {
+      "text": "in California, which honestly\nisn't that hard to predict,",
+      "start": 1358.46,
+      "duration": 4.03
+    },
+    {
+      "text": "but extreme weather events--",
+      "start": 1362.49,
+      "duration": 2.33
+    },
+    {
+      "text": "storms, hurricanes, typhoons.",
+      "start": 1364.82,
+      "duration": 4.2
+    },
+    {
+      "text": "Because you don't think as\na machine learning scientist",
+      "start": 1369.02,
+      "duration": 3.18
+    },
+    {
+      "text": "that you would get that\nbecause they're rare events.",
+      "start": 1372.2,
+      "duration": 2.61
+    },
+    {
+      "text": "In the last four\ndecades, the dataset",
+      "start": 1374.81,
+      "duration": 2.16
+    },
+    {
+      "text": "maybe has a handful of these.",
+      "start": 1376.97,
+      "duration": 2.35
+    },
+    {
+      "text": "But again, the reason why\nI believe this was possible",
+      "start": 1379.32,
+      "duration": 3.62
+    },
+    {
+      "text": "is because there are\nclear physical signatures.",
+      "start": 1382.94,
+      "duration": 3.96
+    },
+    {
+      "text": "Hurricanes have this hot and\nair cool mixing together.",
+      "start": 1386.9,
+      "duration": 3.85
+    },
+    {
+      "text": "So it is not just the amount\nof data, it's the signatures",
+      "start": 1390.75,
+      "duration": 6.21
+    },
+    {
+      "text": "and how significant\nare these events.",
+      "start": 1396.96,
+      "duration": 2.99
+    },
+    {
+      "text": "And the model is\nable to pick that up",
+      "start": 1399.95,
+      "duration": 2.37
+    },
+    {
+      "text": "and is able to even do now\nbetter than traditional models.",
+      "start": 1402.32,
+      "duration": 3.73
+    },
+    {
+      "text": "And I think that took a lot of\nweather scientists by surprise.",
+      "start": 1406.05,
+      "duration": 3.27
+    },
+    {
+      "text": "But I'm also very heartened\nto see how much adoption has",
+      "start": 1409.32,
+      "duration": 3.88
+    },
+    {
+      "text": "happened at lightning speed.",
+      "start": 1413.2,
+      "duration": 1.89
+    },
+    {
+      "text": "Because ECMWF made\nall these models.",
+      "start": 1415.09,
+      "duration": 2.88
+    },
+    {
+      "text": "And our model and\nGoogle DeepMind",
+      "start": 1417.97,
+      "duration": 1.74
+    },
+    {
+      "text": "has done excellent work after\nthat with GraphCast and others.",
+      "start": 1419.71,
+      "duration": 3.67
+    },
+    {
+      "text": "They're available.",
+      "start": 1423.38,
+      "duration": 1.32
+    },
+    {
+      "text": "It built its own model.",
+      "start": 1424.7,
+      "duration": 1.97
+    },
+    {
+      "text": "It declared them as operational,\nwhich is the gold standard,",
+      "start": 1426.67,
+      "duration": 3.4
+    },
+    {
+      "text": "meaning side by side,\nit's running today",
+      "start": 1430.07,
+      "duration": 2.42
+    },
+    {
+      "text": "with traditional models.",
+      "start": 1432.49,
+      "duration": 1.74
+    },
+    {
+      "text": "And weather scientists\ncan make judgments.",
+      "start": 1434.23,
+      "duration": 2.65
+    },
+    {
+      "text": "And on the other key is\nbecause of the speed,",
+      "start": 1436.88,
+      "duration": 2.64
+    },
+    {
+      "text": "we can now build much\nlarger statistical ensembles",
+      "start": 1439.52,
+      "duration": 3.41
+    },
+    {
+      "text": "of events like hurricanes.",
+      "start": 1442.93,
+      "duration": 1.84
+    },
+    {
+      "text": "Because what you care about\nis not just one prediction",
+      "start": 1444.77,
+      "duration": 3.02
+    },
+    {
+      "text": "of where the hurricane\nis going to go,",
+      "start": 1447.79,
+      "duration": 2.68
+    },
+    {
+      "text": "because there's a\nlot of uncertainty.",
+      "start": 1450.47,
+      "duration": 2.1
+    },
+    {
+      "text": "You look at perturbations\nof the current conditions",
+      "start": 1452.57,
+      "duration": 2.51
+    },
+    {
+      "text": "and see how many\nof those tracks are",
+      "start": 1455.08,
+      "duration": 2.49
+    },
+    {
+      "text": "going to land in Florida,\nfor instance, in a very",
+      "start": 1457.57,
+      "duration": 2.43
+    },
+    {
+      "text": "specific region.",
+      "start": 1460.0,
+      "duration": 1.33
+    },
+    {
+      "text": "So each city can then decide\nshould the evacuation happen.",
+      "start": 1461.33,
+      "duration": 3.95
+    },
+    {
+      "text": "If it's 90% versus 60% chance,\nit's a very different policy",
+      "start": 1465.28,
+      "duration": 5.04
+    },
+    {
+      "text": "decision.",
+      "start": 1470.32,
+      "duration": 0.82
+    },
+    {
+      "text": "But now we can enable\nthat which was not",
+      "start": 1471.14,
+      "duration": 2.63
+    },
+    {
+      "text": "possible with\ntraditional models.",
+      "start": 1473.77,
+      "duration": 1.75
+    },
+    {
+      "text": "So it's not just, OK, accuracy\nis somewhat better and faster,",
+      "start": 1475.52,
+      "duration": 4.38
+    },
+    {
+      "text": "but now we can go to\nthe tail events, which",
+      "start": 1479.9,
+      "duration": 2.57
+    },
+    {
+      "text": "is the hardest aspect.",
+      "start": 1482.47,
+      "duration": 1.44
+    },
+    {
+      "text": "And we can come up with\naccurate, calibrated",
+      "start": 1483.91,
+      "duration": 3.6
+    },
+    {
+      "text": "probabilities and assess\nrisk for these events.",
+      "start": 1487.51,
+      "duration": 3.895
+    },
+    {
+      "text": "JAMES MANYIKA: One\nof the things that's",
+      "start": 1491.405,
+      "duration": 1.625
+    },
+    {
+      "text": "been interesting to observe\nin the last few years, one",
+      "start": 1493.03,
+      "duration": 3.84
+    },
+    {
+      "text": "of the changes has been the\ndeeper collaborations that now",
+      "start": 1496.87,
+      "duration": 3.36
+    },
+    {
+      "text": "happen between my\ncolleagues and I and others,",
+      "start": 1500.23,
+      "duration": 3.64
+    },
+    {
+      "text": "but also with academia.",
+      "start": 1503.87,
+      "duration": 1.14
+    },
+    {
+      "text": "So I think in almost\nall of this work,",
+      "start": 1505.01,
+      "duration": 2.04
+    },
+    {
+      "text": "there's deep collaboration\nbetween AI researchers",
+      "start": 1507.05,
+      "duration": 3.32
+    },
+    {
+      "text": "and scientists in\ndifferent disciplines,",
+      "start": 1510.37,
+      "duration": 2.26
+    },
+    {
+      "text": "but also in academic\ninstitutions.",
+      "start": 1512.63,
+      "duration": 2.7
+    },
+    {
+      "text": "I think, for\nexample, some of you",
+      "start": 1515.33,
+      "duration": 1.67
+    },
+    {
+      "text": "may have seen some\nwork we published",
+      "start": 1517.0,
+      "duration": 2.34
+    },
+    {
+      "text": "last year on connectomics,\nwhere we tried to do figure",
+      "start": 1519.34,
+      "duration": 5.01
+    },
+    {
+      "text": "out the wiring\ndiagram of the brain,",
+      "start": 1524.35,
+      "duration": 2.05
+    },
+    {
+      "text": "for example, at\nthe synapse level.",
+      "start": 1526.4,
+      "duration": 2.07
+    },
+    {
+      "text": "That work was a 10-year\ncollaboration with the Lichtman",
+      "start": 1528.47,
+      "duration": 3.1
+    },
+    {
+      "text": "Lab at Harvard, doing this very\npainstaking foundational work.",
+      "start": 1531.57,
+      "duration": 4.957
+    },
+    {
+      "text": "But I want to come\nback, Pushmeet, you",
+      "start": 1536.527,
+      "duration": 1.583
+    },
+    {
+      "text": "and I often spend a lot of\ntime talking about mathematics.",
+      "start": 1538.11,
+      "duration": 3.27
+    },
+    {
+      "text": "You all heard about\nAlphaEvolve yesterday.",
+      "start": 1541.38,
+      "duration": 3.3
+    },
+    {
+      "text": "But I remember one of the\nthings that was striking",
+      "start": 1544.68,
+      "duration": 2.25
+    },
+    {
+      "text": "was last year when AlphaGeometry\nand AlphaProof did well enough",
+      "start": 1546.93,
+      "duration": 5.58
+    },
+    {
+      "text": "to compete at the Math\nOlympiad and compete",
+      "start": 1552.51,
+      "duration": 3.3
+    },
+    {
+      "text": "at the gold level,\none of the things",
+      "start": 1555.81,
+      "duration": 2.28
+    },
+    {
+      "text": "that was striking about that--",
+      "start": 1558.09,
+      "duration": 1.38
+    },
+    {
+      "text": "I don't know if\nall of you tracked",
+      "start": 1559.47,
+      "duration": 1.56
+    },
+    {
+      "text": "that-- was the fact that in a\nlot of how it did what it did,",
+      "start": 1561.03,
+      "duration": 4.03
+    },
+    {
+      "text": "it used a lot of its\nown generated examples",
+      "start": 1565.06,
+      "duration": 3.41
+    },
+    {
+      "text": "to train itself.",
+      "start": 1568.47,
+      "duration": 1.6
+    },
+    {
+      "text": "Talk a lot about how you\nthink about the role of data",
+      "start": 1570.07,
+      "duration": 4.46
+    },
+    {
+      "text": "and other things\nthat are critical",
+      "start": 1574.53,
+      "duration": 2.04
+    },
+    {
+      "text": "and new techniques that are\nemerging as we think about not",
+      "start": 1576.57,
+      "duration": 3.413
+    },
+    {
+      "text": "just mathematics, because you\nand I talk a lot about that,",
+      "start": 1579.983,
+      "duration": 2.417
+    },
+    {
+      "text": "but also other areas of science.",
+      "start": 1582.4,
+      "duration": 2.84
+    },
+    {
+      "text": "PUSHMEET KOHLI: So\nI think when you",
+      "start": 1585.24,
+      "duration": 3.09
+    },
+    {
+      "text": "we talk about AI and\nmachine learning,",
+      "start": 1588.33,
+      "duration": 2.22
+    },
+    {
+      "text": "I think data and experience.",
+      "start": 1590.55,
+      "duration": 3.47
+    },
+    {
+      "text": "We don't get\ninsights in a vacuum.",
+      "start": 1594.02,
+      "duration": 3.21
+    },
+    {
+      "text": "So insights come\nfrom experience.",
+      "start": 1597.23,
+      "duration": 3.43
+    },
+    {
+      "text": "And experience, it\ncomes from data.",
+      "start": 1600.66,
+      "duration": 2.43
+    },
+    {
+      "text": "And that data could be data\nthat scientists have collected",
+      "start": 1603.09,
+      "duration": 4.37
+    },
+    {
+      "text": "over many, many years, like we\ndid in the case of AlphaFold",
+      "start": 1607.46,
+      "duration": 4.68
+    },
+    {
+      "text": "through the PDB, the\nProtein Database Bank.",
+      "start": 1612.14,
+      "duration": 3.48
+    },
+    {
+      "text": "Or it is experience\nthat has been",
+      "start": 1615.62,
+      "duration": 2.1
+    },
+    {
+      "text": "generated through simulations.",
+      "start": 1617.72,
+      "duration": 2.01
+    },
+    {
+      "text": "Now, across many\ndifferent applications,",
+      "start": 1619.73,
+      "duration": 3.16
+    },
+    {
+      "text": "whether you look at biology\nor another great example",
+      "start": 1622.89,
+      "duration": 3.83
+    },
+    {
+      "text": "for synthetic data generation\nis, in fact, fusion.",
+      "start": 1626.72,
+      "duration": 4.09
+    },
+    {
+      "text": "So in fusion, if\nyou want to learn",
+      "start": 1630.81,
+      "duration": 4.04
+    },
+    {
+      "text": "a policy that can stabilize\nplasma in a tokamak,",
+      "start": 1634.85,
+      "duration": 5.02
+    },
+    {
+      "text": "you have very limited data.",
+      "start": 1639.87,
+      "duration": 1.71
+    },
+    {
+      "text": "Because those tokamak\nfusion reactors",
+      "start": 1641.58,
+      "duration": 2.81
+    },
+    {
+      "text": "run for a very short\nduration of time.",
+      "start": 1644.39,
+      "duration": 4.03
+    },
+    {
+      "text": "So you don't have\nmuch data to train on.",
+      "start": 1648.42,
+      "duration": 2.25
+    },
+    {
+      "text": "So in our work on the\nmodel called Pulsar,",
+      "start": 1650.67,
+      "duration": 4.68
+    },
+    {
+      "text": "where we were training a\npolicy to stabilize plasma",
+      "start": 1655.35,
+      "duration": 5.21
+    },
+    {
+      "text": "in a tokamak, a\nlot of the training",
+      "start": 1660.56,
+      "duration": 3.42
+    },
+    {
+      "text": "happened on complete\nsimulation data.",
+      "start": 1663.98,
+      "duration": 3.24
+    },
+    {
+      "text": "And the real challenge\nwas, how do you generalize?",
+      "start": 1667.22,
+      "duration": 4.36
+    },
+    {
+      "text": "How do you make the\npolicy so robust",
+      "start": 1671.58,
+      "duration": 3.23
+    },
+    {
+      "text": "that it can generalize and\ngo over the sim-to-real gap,",
+      "start": 1674.81,
+      "duration": 4.41
+    },
+    {
+      "text": "simulation to real\ndomain transfer?",
+      "start": 1679.22,
+      "duration": 3.88
+    },
+    {
+      "text": "That even though\nthat policy has been",
+      "start": 1683.1,
+      "duration": 1.58
+    },
+    {
+      "text": "trained on simulated data, when\nit is applied in a real reactor,",
+      "start": 1684.68,
+      "duration": 4.48
+    },
+    {
+      "text": "it works.",
+      "start": 1689.16,
+      "duration": 0.72
+    },
+    {
+      "text": "And that is what we showed\nthat it was able to do.",
+      "start": 1689.88,
+      "duration": 3.45
+    },
+    {
+      "text": "Now, we have been\nable to do this",
+      "start": 1693.33,
+      "duration": 2.66
+    },
+    {
+      "text": "in a whole spectrum of\ndifferent applications,",
+      "start": 1695.99,
+      "duration": 4.08
+    },
+    {
+      "text": "even, as you mentioned,\nin mathematics,",
+      "start": 1700.07,
+      "duration": 2.71
+    },
+    {
+      "text": "where it is particularly\nsort of relevant, where",
+      "start": 1702.78,
+      "duration": 3.73
+    },
+    {
+      "text": "in the case of alpha\ngeometry, for instance,",
+      "start": 1706.51,
+      "duration": 2.65
+    },
+    {
+      "text": "we have very limited number\nof geometry problems.",
+      "start": 1709.16,
+      "duration": 2.092
+    },
+    {
+      "text": "Even though we have a\nlot of geometry problems,",
+      "start": 1711.252,
+      "duration": 1.958
+    },
+    {
+      "text": "but the appetite for these\nmodels is immense, as you know.",
+      "start": 1713.21,
+      "duration": 4.56
+    },
+    {
+      "text": "They are quite data hungry.",
+      "start": 1717.77,
+      "duration": 2.49
+    },
+    {
+      "text": "So we had to generate\na large amount of data,",
+      "start": 1720.26,
+      "duration": 3.83
+    },
+    {
+      "text": "in terms of synthetically\ngenerated geometry",
+      "start": 1724.09,
+      "duration": 4.65
+    },
+    {
+      "text": "problems, which we were\ngiving these models to solve.",
+      "start": 1728.74,
+      "duration": 2.74
+    },
+    {
+      "text": "And that is how\nthe model actually",
+      "start": 1731.48,
+      "duration": 2.45
+    },
+    {
+      "text": "learned itself to\nsolve and get itself",
+      "start": 1733.93,
+      "duration": 3.54
+    },
+    {
+      "text": "much better to reach\nat a gold level",
+      "start": 1737.47,
+      "duration": 3.15
+    },
+    {
+      "text": "standard on geometry problems.",
+      "start": 1740.62,
+      "duration": 3.06
+    },
+    {
+      "text": "On the other side,\nthere's another element,",
+      "start": 1743.68,
+      "duration": 3.73
+    },
+    {
+      "text": "which is test time model, which\nwas used in AlphaProof, which",
+      "start": 1747.41,
+      "duration": 5.63
+    },
+    {
+      "text": "is when it tries to solve\nthese very hard problems--",
+      "start": 1753.04,
+      "duration": 3.46
+    },
+    {
+      "text": "and by the way, these are\nincredibly hard problems.",
+      "start": 1756.5,
+      "duration": 2.162
+    },
+    {
+      "text": "Even [INAUDIBLE]\nmedalists wouldn't",
+      "start": 1758.662,
+      "duration": 1.458
+    },
+    {
+      "text": "be able to solve them\nas a matter of fact.",
+      "start": 1760.12,
+      "duration": 3.25
+    },
+    {
+      "text": "They would take time to\nsolve these problems.",
+      "start": 1763.37,
+      "duration": 2.78
+    },
+    {
+      "text": "These are really problems at\nthe highest difficulty level.",
+      "start": 1766.15,
+      "duration": 4.82
+    },
+    {
+      "text": "What the model was doing was\nit was taking the problems",
+      "start": 1770.97,
+      "duration": 3.97
+    },
+    {
+      "text": "and, like a human\nmathematician, it",
+      "start": 1774.94,
+      "duration": 2.72
+    },
+    {
+      "text": "was seeing if it can solve a\nsimpler variant of the problem.",
+      "start": 1777.66,
+      "duration": 4.3
+    },
+    {
+      "text": "So suppose you have to prove\na theorem for all reals.",
+      "start": 1781.96,
+      "duration": 4.61
+    },
+    {
+      "text": "So first you can\nsay, well, I'll not",
+      "start": 1786.57,
+      "duration": 1.518
+    },
+    {
+      "text": "prove the theorem\nfor all reals, I'll",
+      "start": 1788.088,
+      "duration": 1.542
+    },
+    {
+      "text": "prove the theorem for only\neven numbers or odd numbers",
+      "start": 1789.63,
+      "duration": 3.84
+    },
+    {
+      "text": "or a restricted domain.",
+      "start": 1793.47,
+      "duration": 1.21
+    },
+    {
+      "text": "And then I can generalize.",
+      "start": 1794.68,
+      "duration": 1.14
+    },
+    {
+      "text": "So this idea of really\nsynthetically generating",
+      "start": 1795.82,
+      "duration": 3.23
+    },
+    {
+      "text": "a lot of variants of the\nproblem, trying to solve them,",
+      "start": 1799.05,
+      "duration": 3.49
+    },
+    {
+      "text": "and in the process,\nlearning from that",
+      "start": 1802.54,
+      "duration": 1.61
+    },
+    {
+      "text": "experience to then finally\nbe able to solve the larger,",
+      "start": 1804.15,
+      "duration": 4.72
+    },
+    {
+      "text": "more difficult problem.",
+      "start": 1808.87,
+      "duration": 1.59
+    },
+    {
+      "text": "So synthetic data generation\nis everywhere in that sense.",
+      "start": 1810.46,
+      "duration": 6.852
+    },
+    {
+      "text": "JAMES MANYIKA: And it's\nalso interesting to see",
+      "start": 1817.312,
+      "duration": 1.958
+    },
+    {
+      "text": "how that mix changes for\ndifferent kinds of problems",
+      "start": 1819.27,
+      "duration": 3.0
+    },
+    {
+      "text": "between real-world training\ndata versus synthetic",
+      "start": 1822.27,
+      "duration": 3.09
+    },
+    {
+      "text": "versus simulated data.",
+      "start": 1825.36,
+      "duration": 1.24
+    },
+    {
+      "text": "But I wanted to\ncome to something",
+      "start": 1826.6,
+      "duration": 1.38
+    },
+    {
+      "text": "I know, Joelle, you spend\nquite a bit of time thinking",
+      "start": 1827.98,
+      "duration": 2.42
+    },
+    {
+      "text": "about, which is even as we\nmake all these advances,",
+      "start": 1830.4,
+      "duration": 3.37
+    },
+    {
+      "text": "there's still important things\nto think about, about how",
+      "start": 1833.77,
+      "duration": 2.9
+    },
+    {
+      "text": "to be responsible and how to\nthink about responsibility",
+      "start": 1836.67,
+      "duration": 2.97
+    },
+    {
+      "text": "in the science realm.",
+      "start": 1839.64,
+      "duration": 1.66
+    },
+    {
+      "text": "What are some of the things you\nthink a lot about when you think",
+      "start": 1841.3,
+      "duration": 2.93
+    },
+    {
+      "text": "about responsibility with\nregards to AI and science,",
+      "start": 1844.23,
+      "duration": 3.45
+    },
+    {
+      "text": "in particular?",
+      "start": 1847.68,
+      "duration": 2.19
+    },
+    {
+      "text": "JOELLE BARRAL: And maybe to\necho what Pushmeet was saying,",
+      "start": 1849.87,
+      "duration": 2.67
+    },
+    {
+      "text": "synthetic data obviously\nis something very important",
+      "start": 1852.54,
+      "duration": 2.76
+    },
+    {
+      "text": "as well from a\nresponsibility perspective.",
+      "start": 1855.3,
+      "duration": 1.99
+    },
+    {
+      "text": "Because we really want\nto make sure that what",
+      "start": 1857.29,
+      "duration": 2.09
+    },
+    {
+      "text": "we're building in\nhealthcare in particular,",
+      "start": 1859.38,
+      "duration": 3.28
+    },
+    {
+      "text": "is going to help\neveryone everywhere.",
+      "start": 1862.66,
+      "duration": 2.28
+    },
+    {
+      "text": "And that's only possible\nif the data we train on",
+      "start": 1864.94,
+      "duration": 3.11
+    },
+    {
+      "text": "represents people everywhere.",
+      "start": 1868.05,
+      "duration": 2.68
+    },
+    {
+      "text": "And that's really hard\nbecause data is scarce",
+      "start": 1870.73,
+      "duration": 2.51
+    },
+    {
+      "text": "and we don't necessarily\nhave it globally.",
+      "start": 1873.24,
+      "duration": 2.62
+    },
+    {
+      "text": "And so something\nwe're doing with data,",
+      "start": 1875.86,
+      "duration": 2.57
+    },
+    {
+      "text": "in particular, is to see\nhow synthetic data can",
+      "start": 1878.43,
+      "duration": 4.16
+    },
+    {
+      "text": "help us augment.",
+      "start": 1882.59,
+      "duration": 1.26
+    },
+    {
+      "text": "So if you have models that\nhave been trained only",
+      "start": 1883.85,
+      "duration": 3.99
+    },
+    {
+      "text": "on a particular demographic,\nyou can perturb the data",
+      "start": 1887.84,
+      "duration": 4.29
+    },
+    {
+      "text": "so that you're on a\nbunch of dimension,",
+      "start": 1892.13,
+      "duration": 2.76
+    },
+    {
+      "text": "checking what your model would\ndo on that perturbed version",
+      "start": 1894.89,
+      "duration": 4.38
+    },
+    {
+      "text": "of a particular scenario.",
+      "start": 1899.27,
+      "duration": 1.48
+    },
+    {
+      "text": "I talked about AMIE at the\nbeginning, our Articulate",
+      "start": 1900.75,
+      "duration": 2.78
+    },
+    {
+      "text": "Medical Intelligence Explorer.",
+      "start": 1903.53,
+      "duration": 2.17
+    },
+    {
+      "text": "And this is a system that\nwe're testing primarily",
+      "start": 1905.7,
+      "duration": 3.11
+    },
+    {
+      "text": "with patient actors mimicking\nwhat's done in medical school.",
+      "start": 1908.81,
+      "duration": 5.14
+    },
+    {
+      "text": "Students learn\ncomplicated scenarios",
+      "start": 1913.95,
+      "duration": 2.88
+    },
+    {
+      "text": "with actors mimicking the\nbehavior of a patient going",
+      "start": 1916.83,
+      "duration": 4.31
+    },
+    {
+      "text": "through a particular\ndiagnosis in the way",
+      "start": 1921.14,
+      "duration": 2.61
+    },
+    {
+      "text": "they interact with\nthe physician.",
+      "start": 1923.75,
+      "duration": 1.463
+    },
+    {
+      "text": "Because that's\nreally the only way",
+      "start": 1925.213,
+      "duration": 1.417
+    },
+    {
+      "text": "to have something\nrigorous methodologically",
+      "start": 1926.63,
+      "duration": 2.89
+    },
+    {
+      "text": "and to be able to\ngrade those students.",
+      "start": 1929.52,
+      "duration": 2.1
+    },
+    {
+      "text": "Did they react properly\nwhen that patient actor",
+      "start": 1931.62,
+      "duration": 3.62
+    },
+    {
+      "text": "forgot to mention\nhalf of their symptoms",
+      "start": 1935.24,
+      "duration": 1.98
+    },
+    {
+      "text": "or lied midway through\nthe encounter, et cetera?",
+      "start": 1937.22,
+      "duration": 4.8
+    },
+    {
+      "text": "So the students really have to\nlearn and have been learning",
+      "start": 1942.02,
+      "duration": 3.69
+    },
+    {
+      "text": "that way for decades now.",
+      "start": 1945.71,
+      "duration": 1.48
+    },
+    {
+      "text": "So we used the similar\nmethodology with our models",
+      "start": 1947.19,
+      "duration": 4.25
+    },
+    {
+      "text": "to also be able to\nassess them responsibly.",
+      "start": 1951.44,
+      "duration": 3.52
+    },
+    {
+      "text": "The other thing we're doing\non a responsibility front,",
+      "start": 1954.96,
+      "duration": 2.52
+    },
+    {
+      "text": "which is really important\nfrom my perspective,",
+      "start": 1957.48,
+      "duration": 2.15
+    },
+    {
+      "text": "is to always engage\nwith the stakeholders",
+      "start": 1959.63,
+      "duration": 2.46
+    },
+    {
+      "text": "and the external ecosystem.",
+      "start": 1962.09,
+      "duration": 1.84
+    },
+    {
+      "text": "And in healthcare,\nit means physicians",
+      "start": 1963.93,
+      "duration": 1.85
+    },
+    {
+      "text": "from a variety of disciplines.",
+      "start": 1965.78,
+      "duration": 1.6
+    },
+    {
+      "text": "It can be ethicists, of\ncourse, the big hospital",
+      "start": 1967.38,
+      "duration": 5.69
+    },
+    {
+      "text": "centers, et cetera.",
+      "start": 1973.07,
+      "duration": 2.55
+    },
+    {
+      "text": "And that is also a way\nfor us to make sure",
+      "start": 1975.62,
+      "duration": 2.7
+    },
+    {
+      "text": "that what we're building is\naddressing real clinical needs",
+      "start": 1978.32,
+      "duration": 4.12
+    },
+    {
+      "text": "and that we're doing\nit in a way where",
+      "start": 1982.44,
+      "duration": 2.377
+    },
+    {
+      "text": "all of the stakeholders\nthat will have to leverage",
+      "start": 1984.817,
+      "duration": 2.083
+    },
+    {
+      "text": "those systems moving forward\nhelp us get the inputs that",
+      "start": 1986.9,
+      "duration": 6.21
+    },
+    {
+      "text": "make us build them in a way that\nthey will be the most helpful",
+      "start": 1993.11,
+      "duration": 2.61
+    },
+    {
+      "text": "to them.",
+      "start": 1995.72,
+      "duration": 0.91
+    },
+    {
+      "text": "So this is something,\nI mentioned",
+      "start": 1996.63,
+      "duration": 1.67
+    },
+    {
+      "text": "Stanford and Houston Methodist.",
+      "start": 1998.3,
+      "duration": 2.96
+    },
+    {
+      "text": "In France, we're also working\nwith the Curie Institute",
+      "start": 2001.26,
+      "duration": 3.09
+    },
+    {
+      "text": "on various tools to\nhelp us make progress",
+      "start": 2004.35,
+      "duration": 2.4
+    },
+    {
+      "text": "in hard-to-treat cancers.",
+      "start": 2006.75,
+      "duration": 2.35
+    },
+    {
+      "text": "And that really brings the whole\nspectrum from patient care,",
+      "start": 2009.1,
+      "duration": 6.74
+    },
+    {
+      "text": "to the physics that sometimes is\nneeded, to all of the biology,",
+      "start": 2015.84,
+      "duration": 3.0
+    },
+    {
+      "text": "that better understanding\nof the cell,",
+      "start": 2018.84,
+      "duration": 1.92
+    },
+    {
+      "text": "and really making\nsure that we've",
+      "start": 2020.76,
+      "duration": 2.58
+    },
+    {
+      "text": "looked at the problem in\nits entire complexity.",
+      "start": 2023.34,
+      "duration": 3.485
+    },
+    {
+      "text": "JAMES MANYIKA:\nI'm struck by what",
+      "start": 2026.825,
+      "duration": 1.375
+    },
+    {
+      "text": "you said about this idea of\ntrying to solve for everyone.",
+      "start": 2028.2,
+      "duration": 3.55
+    },
+    {
+      "text": "I'm reminded of the fact that--",
+      "start": 2031.75,
+      "duration": 1.64
+    },
+    {
+      "text": "I think people in the\nroom probably know this--",
+      "start": 2033.39,
+      "duration": 2.35
+    },
+    {
+      "text": "but if you remember when the\nhuman genome was first mapped",
+      "start": 2035.74,
+      "duration": 4.07
+    },
+    {
+      "text": "back in the early 2000s, I\nthink often we forget that was",
+      "start": 2039.81,
+      "duration": 3.75
+    },
+    {
+      "text": "actually for a single\ngenomic assembly.",
+      "start": 2043.56,
+      "duration": 3.27
+    },
+    {
+      "text": "It was a single\ngenomic assembly.",
+      "start": 2046.83,
+      "duration": 1.72
+    },
+    {
+      "text": "And one of the things\nwe've done in the last year",
+      "start": 2048.55,
+      "duration": 2.12
+    },
+    {
+      "text": "is actually drafted the\nfirst reference pangenome",
+      "start": 2050.67,
+      "duration": 3.66
+    },
+    {
+      "text": "that actually has 47 genomic\nassemblies, which are much more",
+      "start": 2054.33,
+      "duration": 4.32
+    },
+    {
+      "text": "representative of the full\ngenomic diversity of the world,",
+      "start": 2058.65,
+      "duration": 3.509
+    },
+    {
+      "text": "for example, just as\na way to expand that.",
+      "start": 2062.159,
+      "duration": 2.31
+    },
+    {
+      "text": "But I want to shift\ngears a little bit,",
+      "start": 2064.469,
+      "duration": 3.201
+    },
+    {
+      "text": "Anima, and start with you,\nwhich is, so as you look forward",
+      "start": 2067.67,
+      "duration": 3.9
+    },
+    {
+      "text": "and you start to look ahead,\nwhat do you see in this realm?",
+      "start": 2071.57,
+      "duration": 5.43
+    },
+    {
+      "text": "What are some of\nthe things you're",
+      "start": 2077.0,
+      "duration": 1.71
+    },
+    {
+      "text": "focused on and excited\nabout looking forward?",
+      "start": 2078.71,
+      "duration": 2.571
+    },
+    {
+      "text": "ANIMA ANANDKUMAR: To me,\nit's like the question",
+      "start": 2081.281,
+      "duration": 1.958
+    },
+    {
+      "text": "of, how do we expand\nour understanding",
+      "start": 2083.239,
+      "duration": 2.701
+    },
+    {
+      "text": "of the physical\nworld, an AI that",
+      "start": 2085.94,
+      "duration": 2.43
+    },
+    {
+      "text": "understands it in all of its\ndifferent levels of complexity?",
+      "start": 2088.37,
+      "duration": 4.21
+    },
+    {
+      "text": "And of course, the\none big bottleneck,",
+      "start": 2092.58,
+      "duration": 1.92
+    },
+    {
+      "text": "like Pushmeet also\nmentioned, was the data.",
+      "start": 2094.5,
+      "duration": 2.19
+    },
+    {
+      "text": "So if we have the\ninternet with all of it,",
+      "start": 2096.69,
+      "duration": 2.43
+    },
+    {
+      "text": "we could just download\nand train the model.",
+      "start": 2099.12,
+      "duration": 2.46
+    },
+    {
+      "text": "It's much more straightforward.",
+      "start": 2101.58,
+      "duration": 1.83
+    },
+    {
+      "text": "But even if we\nknow the equations",
+      "start": 2103.41,
+      "duration": 3.68
+    },
+    {
+      "text": "in lots of these\nphysical systems,",
+      "start": 2107.09,
+      "duration": 2.14
+    },
+    {
+      "text": "you can go down all the\nway to quantum scale",
+      "start": 2109.23,
+      "duration": 2.48
+    },
+    {
+      "text": "and say Schrodinger's\nequation, but even",
+      "start": 2111.71,
+      "duration": 2.85
+    },
+    {
+      "text": "to generate the fully accurate\nresult for about 100 electrons",
+      "start": 2114.56,
+      "duration": 5.1
+    },
+    {
+      "text": "takes more than the\nage of the universe.",
+      "start": 2119.66,
+      "duration": 2.26
+    },
+    {
+      "text": "So all these systems,\nin that sense,",
+      "start": 2121.92,
+      "duration": 2.4
+    },
+    {
+      "text": "are extremely compute limited\nand unrealistic to generate",
+      "start": 2124.32,
+      "duration": 3.98
+    },
+    {
+      "text": "the full, accurate data\nneeded to train the models.",
+      "start": 2128.3,
+      "duration": 3.4
+    },
+    {
+      "text": "But then the question is, what\nlevels of approximate data",
+      "start": 2131.7,
+      "duration": 3.77
+    },
+    {
+      "text": "can we give the model?",
+      "start": 2135.47,
+      "duration": 1.33
+    },
+    {
+      "text": "So you know this data\nis wrong and there's",
+      "start": 2136.8,
+      "duration": 2.39
+    },
+    {
+      "text": "going to be a sim-to-real gap.",
+      "start": 2139.19,
+      "duration": 1.81
+    },
+    {
+      "text": "But first of all, in simulation\ncan you refine and give it",
+      "start": 2141.0,
+      "duration": 3.5
+    },
+    {
+      "text": "more and more accurate data?",
+      "start": 2144.5,
+      "duration": 1.78
+    },
+    {
+      "text": "So this notion of\ncurriculum and how",
+      "start": 2146.28,
+      "duration": 2.03
+    },
+    {
+      "text": "do you hopefully have a lot\nof data that is approximate",
+      "start": 2148.31,
+      "duration": 5.67
+    },
+    {
+      "text": "and only a little bit\nof the expensive data",
+      "start": 2153.98,
+      "duration": 2.52
+    },
+    {
+      "text": "that's accurate to fine tune.",
+      "start": 2156.5,
+      "duration": 1.96
+    },
+    {
+      "text": "And you can get\nthe model to behave",
+      "start": 2158.46,
+      "duration": 2.3
+    },
+    {
+      "text": "as the fully accurate system.",
+      "start": 2160.76,
+      "duration": 2.05
+    },
+    {
+      "text": "I think that's the next realm\nin a lot of these areas.",
+      "start": 2162.81,
+      "duration": 3.36
+    },
+    {
+      "text": "And for us, when it\ncomes to these kinds",
+      "start": 2166.17,
+      "duration": 1.94
+    },
+    {
+      "text": "of multiscale phenomena\nlike fluid dynamics,",
+      "start": 2168.11,
+      "duration": 2.86
+    },
+    {
+      "text": "we are now able to\nestablish, both theoretically",
+      "start": 2170.97,
+      "duration": 2.66
+    },
+    {
+      "text": "and in practice as\nwell, that you can now",
+      "start": 2173.63,
+      "duration": 2.99
+    },
+    {
+      "text": "train these models with solvers\nthat we know are approximate.",
+      "start": 2176.62,
+      "duration": 4.48
+    },
+    {
+      "text": "So you can train them\non a coarse grid,",
+      "start": 2181.1,
+      "duration": 1.85
+    },
+    {
+      "text": "and then you can use\nthe same AI model",
+      "start": 2182.95,
+      "duration": 2.43
+    },
+    {
+      "text": "and fine tune it with the\nfine grid information.",
+      "start": 2185.38,
+      "duration": 2.98
+    },
+    {
+      "text": "Because the idea is if\nyou think of a hurricane",
+      "start": 2188.36,
+      "duration": 2.81
+    },
+    {
+      "text": "and you only look at it as a\ncoarse scale, it gets blurry.",
+      "start": 2191.17,
+      "duration": 3.9
+    },
+    {
+      "text": "And without capturing\nthe fine ideas,",
+      "start": 2195.07,
+      "duration": 2.08
+    },
+    {
+      "text": "you can never get to the full,\naccurate path of the hurricane.",
+      "start": 2197.15,
+      "duration": 3.86
+    },
+    {
+      "text": "But now, if most of\nthe way you train",
+      "start": 2201.01,
+      "duration": 2.46
+    },
+    {
+      "text": "with that kind of\ncoarse scale data,",
+      "start": 2203.47,
+      "duration": 1.86
+    },
+    {
+      "text": "and with fine scale\nwith what happens",
+      "start": 2205.33,
+      "duration": 2.34
+    },
+    {
+      "text": "in between those coarse grid,\nwhat happens in between, if you",
+      "start": 2207.67,
+      "duration": 2.94
+    },
+    {
+      "text": "can provide that to\nthese neural operators,",
+      "start": 2210.61,
+      "duration": 3.01
+    },
+    {
+      "text": "they can refine internally.",
+      "start": 2213.62,
+      "duration": 2.24
+    },
+    {
+      "text": "As opposed to what people\nhave been doing more",
+      "start": 2215.86,
+      "duration": 2.04
+    },
+    {
+      "text": "traditionally is, let's\nkeep the coarse grid solver",
+      "start": 2217.9,
+      "duration": 3.0
+    },
+    {
+      "text": "and try to correct the effects\nwith another machine learning",
+      "start": 2220.9,
+      "duration": 3.63
+    },
+    {
+      "text": "model called a closure model or\nyou coarse grain your average",
+      "start": 2224.53,
+      "duration": 3.33
+    },
+    {
+      "text": "out in some simple\nway, add it up.",
+      "start": 2227.86,
+      "duration": 2.53
+    },
+    {
+      "text": "But these are hand engineered.",
+      "start": 2230.39,
+      "duration": 3.12
+    },
+    {
+      "text": "Mixing across scales doesn't\nhappen in an additive way",
+      "start": 2233.51,
+      "duration": 3.32
+    },
+    {
+      "text": "like people think they do.",
+      "start": 2236.83,
+      "duration": 1.72
+    },
+    {
+      "text": "They are bad approximations.",
+      "start": 2238.55,
+      "duration": 2.04
+    },
+    {
+      "text": "But with neural operators, it\nkind of has the flexibility",
+      "start": 2240.59,
+      "duration": 3.56
+    },
+    {
+      "text": "to figure out how to\noptimally mix across scales",
+      "start": 2244.15,
+      "duration": 3.06
+    },
+    {
+      "text": "to fit to the target data and do\nthat with high data efficiency.",
+      "start": 2247.21,
+      "duration": 6.082
+    },
+    {
+      "text": "JAMES MANYIKA: Pushmeet, what\nare you most excited about?",
+      "start": 2253.292,
+      "duration": 2.618
+    },
+    {
+      "text": "PUSHMEET KOHLI: So\na lot of things.",
+      "start": 2255.91,
+      "duration": 1.76
+    },
+    {
+      "text": "[LAUGHTER]",
+      "start": 2257.67,
+      "duration": 1.08
+    },
+    {
+      "text": "JAMES MANYIKA: I know you are.",
+      "start": 2258.75,
+      "duration": 1.25
+    },
+    {
+      "text": "PUSHMEET KOHLI: I think\nwhat we are really",
+      "start": 2260.0,
+      "duration": 2.63
+    },
+    {
+      "text": "seeing is the confluence of\na number of different trends",
+      "start": 2262.63,
+      "duration": 5.76
+    },
+    {
+      "text": "coming together.",
+      "start": 2268.39,
+      "duration": 1.56
+    },
+    {
+      "text": "One is the integration of\ndomain-specific AI models.",
+      "start": 2269.95,
+      "duration": 6.16
+    },
+    {
+      "text": "And we have seen\nthese breakthroughs",
+      "start": 2276.11,
+      "duration": 2.12
+    },
+    {
+      "text": "that AI models have made\nin biology, in chemistry,",
+      "start": 2278.23,
+      "duration": 6.34
+    },
+    {
+      "text": "in weather\nprediction, in health.",
+      "start": 2284.57,
+      "duration": 2.56
+    },
+    {
+      "text": "At the same time, we are\nseeing these agents which",
+      "start": 2287.13,
+      "duration": 3.91
+    },
+    {
+      "text": "can do hypothesis\ngeneration, can",
+      "start": 2291.04,
+      "duration": 2.07
+    },
+    {
+      "text": "operate at the\nlevel of basically",
+      "start": 2293.11,
+      "duration": 2.06
+    },
+    {
+      "text": "the scientific\nprocess, Co-Scientist,",
+      "start": 2295.17,
+      "duration": 2.52
+    },
+    {
+      "text": "AlphaEvolve, which really speed\nup the scientific process.",
+      "start": 2297.69,
+      "duration": 4.84
+    },
+    {
+      "text": "How do these two things come\ntogether, where the agents now",
+      "start": 2302.53,
+      "duration": 4.55
+    },
+    {
+      "text": "are able to also integrate these\ndeep, domain-specific systems",
+      "start": 2307.08,
+      "duration": 10.38
+    },
+    {
+      "text": "and communicate across those\ntwo very different kinds",
+      "start": 2317.46,
+      "duration": 4.41
+    },
+    {
+      "text": "of cognitive processes?",
+      "start": 2321.87,
+      "duration": 2.48
+    },
+    {
+      "text": "And so that acceleration\nthat comes from it, I think,",
+      "start": 2324.35,
+      "duration": 4.45
+    },
+    {
+      "text": "is amazing.",
+      "start": 2328.8,
+      "duration": 1.09
+    },
+    {
+      "text": "We are already seeing that in\nthe context of AlphaEvolve.",
+      "start": 2329.89,
+      "duration": 3.11
+    },
+    {
+      "text": "AlphaEvolve was\nable to discover--",
+      "start": 2333.0,
+      "duration": 3.27
+    },
+    {
+      "text": "it was applied on 50\nopen math problems.",
+      "start": 2336.27,
+      "duration": 3.13
+    },
+    {
+      "text": "75% of those problems, it\nwent to the state of the art.",
+      "start": 2339.4,
+      "duration": 3.68
+    },
+    {
+      "text": "20%, it went beyond\nthe state of the art.",
+      "start": 2343.08,
+      "duration": 4.62
+    },
+    {
+      "text": "This is not one\nparticular problem.",
+      "start": 2347.7,
+      "duration": 2.62
+    },
+    {
+      "text": "This is a wholesale acceleration\nof a whole area of research.",
+      "start": 2350.32,
+      "duration": 8.03
+    },
+    {
+      "text": "So that's what was happening.",
+      "start": 2358.35,
+      "duration": 2.69
+    },
+    {
+      "text": "The other thing that I'm\nreally excited about,",
+      "start": 2361.04,
+      "duration": 2.85
+    },
+    {
+      "text": "in certain domains, we are\nseeing transformative abilities.",
+      "start": 2363.89,
+      "duration": 4.86
+    },
+    {
+      "text": "If you think about\nmaterials, the acceleration",
+      "start": 2368.75,
+      "duration": 3.84
+    },
+    {
+      "text": "that we are seeing in\nmaterials, it's amazing.",
+      "start": 2372.59,
+      "duration": 5.112
+    },
+    {
+      "text": "The way we are\nimproving our abilities",
+      "start": 2377.702,
+      "duration": 2.748
+    },
+    {
+      "text": "to predict the stability of\nmaterials, their properties,",
+      "start": 2380.45,
+      "duration": 3.76
+    },
+    {
+      "text": "that whole closing\nthe validation loop,",
+      "start": 2384.21,
+      "duration": 2.79
+    },
+    {
+      "text": "all of these things are\nsuper interesting and fun.",
+      "start": 2387.0,
+      "duration": 4.683
+    },
+    {
+      "text": "JAMES MANYIKA: And I\nknow if we had more time,",
+      "start": 2391.683,
+      "duration": 1.917
+    },
+    {
+      "text": "you probably would have\ntalked also about Isomorphic",
+      "start": 2393.6,
+      "duration": 2.167
+    },
+    {
+      "text": "Labs and drug discovery.",
+      "start": 2395.767,
+      "duration": 1.363
+    },
+    {
+      "text": "PUSHMEET KOHLI: Exactly,\nexactly, exactly.",
+      "start": 2397.13,
+      "duration": 1.75
+    },
+    {
+      "text": "And I think the point is, we\nare seeing AI not just having",
+      "start": 2398.88,
+      "duration": 4.01
+    },
+    {
+      "text": "scientific impact.",
+      "start": 2402.89,
+      "duration": 1.12
+    },
+    {
+      "text": "There is scientific, social,\nand commercial impact.",
+      "start": 2404.01,
+      "duration": 3.21
+    },
+    {
+      "text": "These things are not\nin just the lab now.",
+      "start": 2407.22,
+      "duration": 2.73
+    },
+    {
+      "text": "AlphaFold, for example, now we\nspun off a part of AlphaFold",
+      "start": 2409.95,
+      "duration": 4.11
+    },
+    {
+      "text": "to really focus\non drug discovery.",
+      "start": 2414.06,
+      "duration": 1.57
+    },
+    {
+      "text": "And Isomorphic is\nreally doing very well",
+      "start": 2415.63,
+      "duration": 2.57
+    },
+    {
+      "text": "in its mission of accelerating\nthe whole drug discovery",
+      "start": 2418.2,
+      "duration": 3.69
+    },
+    {
+      "text": "process.",
+      "start": 2421.89,
+      "duration": 0.58
+    },
+    {
+      "text": "So you are seeing extremely\nhigh commercial impact",
+      "start": 2422.47,
+      "duration": 5.51
+    },
+    {
+      "text": "from the scientific\nbreakthroughs",
+      "start": 2427.98,
+      "duration": 1.38
+    },
+    {
+      "text": "that have been made.",
+      "start": 2429.36,
+      "duration": 0.84
+    },
+    {
+      "text": "JAMES MANYIKA: Joelle, what\nare you most excited about",
+      "start": 2430.2,
+      "duration": 2.25
+    },
+    {
+      "text": "as you look forward?",
+      "start": 2432.45,
+      "duration": 1.132
+    },
+    {
+      "text": "JOELLE BARRAL: I think,\nas Pushmeet was saying,",
+      "start": 2433.582,
+      "duration": 1.958
+    },
+    {
+      "text": "it's really everywhere.",
+      "start": 2435.54,
+      "duration": 2.08
+    },
+    {
+      "text": "And I think it's moving\nat an incredible pace.",
+      "start": 2437.62,
+      "duration": 3.12
+    },
+    {
+      "text": "And for me, we launched\nyesterday MedGemma,",
+      "start": 2440.74,
+      "duration": 3.09
+    },
+    {
+      "text": "which is our openweight model\nfine-tuned on a medical corpus.",
+      "start": 2443.83,
+      "duration": 3.392
+    },
+    {
+      "text": "And I'm really excited to\nsee what the community will",
+      "start": 2447.222,
+      "duration": 2.208
+    },
+    {
+      "text": "do with it, what developers\nwill build on top of it",
+      "start": 2449.43,
+      "duration": 2.52
+    },
+    {
+      "text": "to then answer particular\nclinical needs.",
+      "start": 2451.95,
+      "duration": 1.943
+    },
+    {
+      "text": "Because I think it's\ntrue in healthcare,",
+      "start": 2453.893,
+      "duration": 1.667
+    },
+    {
+      "text": "it's true in the\nsciences, there is so much",
+      "start": 2455.56,
+      "duration": 1.792
+    },
+    {
+      "text": "to do that I think\nthe more we see",
+      "start": 2457.352,
+      "duration": 2.278
+    },
+    {
+      "text": "every single specialty\nand every field",
+      "start": 2459.63,
+      "duration": 4.2
+    },
+    {
+      "text": "redefine itself with AI,\nthat's how we will get",
+      "start": 2463.83,
+      "duration": 3.12
+    },
+    {
+      "text": "to many breakthroughs\nin years to come",
+      "start": 2466.95,
+      "duration": 4.78
+    },
+    {
+      "text": "that are going to redefine, I\nthink, a lot of our industries",
+      "start": 2471.73,
+      "duration": 3.23
+    },
+    {
+      "text": "even.",
+      "start": 2474.96,
+      "duration": 0.5
+    },
+    {
+      "text": "And I think I'm really\nexcited to really see",
+      "start": 2475.46,
+      "duration": 2.7
+    },
+    {
+      "text": "what the community builds on\ntop of some of the foundations",
+      "start": 2478.16,
+      "duration": 2.84
+    },
+    {
+      "text": "that we've put in place.",
+      "start": 2481.0,
+      "duration": 1.383
+    },
+    {
+      "text": "JAMES MANYIKA: I would\njust add one other area",
+      "start": 2482.383,
+      "duration": 1.917
+    },
+    {
+      "text": "that I'm particularly\nexcited about, which",
+      "start": 2484.3,
+      "duration": 1.75
+    },
+    {
+      "text": "is we're making so much\nprogress in quantum computing.",
+      "start": 2486.05,
+      "duration": 3.24
+    },
+    {
+      "text": "And we actually have\na team in quantum AI,",
+      "start": 2489.29,
+      "duration": 1.89
+    },
+    {
+      "text": "which is focused on that.",
+      "start": 2491.18,
+      "duration": 1.17
+    },
+    {
+      "text": "So even before we get to\na fully error-corrected",
+      "start": 2492.35,
+      "duration": 4.04
+    },
+    {
+      "text": "fault-tolerant quantum\ncomputer, we're",
+      "start": 2496.39,
+      "duration": 1.98
+    },
+    {
+      "text": "going to be able to start to\ndo some science along the way.",
+      "start": 2498.37,
+      "duration": 2.8
+    },
+    {
+      "text": "So I think in the\nnext year or two,",
+      "start": 2501.17,
+      "duration": 1.74
+    },
+    {
+      "text": "we're going to start\nto see algorithms,",
+      "start": 2502.91,
+      "duration": 2.43
+    },
+    {
+      "text": "even with these noisy\nquantum systems,",
+      "start": 2505.34,
+      "duration": 1.97
+    },
+    {
+      "text": "that start to work on\nactual scientific problems.",
+      "start": 2507.31,
+      "duration": 3.58
+    },
+    {
+      "text": "We know a lot of science\nareas like chemistry",
+      "start": 2510.89,
+      "duration": 2.42
+    },
+    {
+      "text": "are inherently quantum,\nquantum chemistry and so forth.",
+      "start": 2513.31,
+      "duration": 3.07
+    },
+    {
+      "text": "And so there's a\nwhole set of areas",
+      "start": 2516.38,
+      "duration": 1.49
+    },
+    {
+      "text": "that are going to be possible.",
+      "start": 2517.87,
+      "duration": 1.25
+    },
+    {
+      "text": "So I'd say watch this space\nwith regards to quantum also",
+      "start": 2519.12,
+      "duration": 3.82
+    },
+    {
+      "text": "advancing science.",
+      "start": 2522.94,
+      "duration": 1.24
+    },
+    {
+      "text": "I think in the last\nminute that we've got,",
+      "start": 2524.18,
+      "duration": 2.21
+    },
+    {
+      "text": "I thought we might do a quick\nlightning round, which is more",
+      "start": 2526.39,
+      "duration": 3.14
+    },
+    {
+      "text": "asking perhaps a bit more\nof a personal question",
+      "start": 2529.53,
+      "duration": 2.67
+    },
+    {
+      "text": "to each of you.",
+      "start": 2532.2,
+      "duration": 2.16
+    },
+    {
+      "text": "If you think about the\nnext, I'll say five years,",
+      "start": 2534.36,
+      "duration": 3.91
+    },
+    {
+      "text": "are there one or two\nproblems that you personally",
+      "start": 2538.27,
+      "duration": 2.51
+    },
+    {
+      "text": "would like to see\nbreakthrough progress on?",
+      "start": 2540.78,
+      "duration": 2.587
+    },
+    {
+      "text": "Either you want to\nwork on them or you",
+      "start": 2543.367,
+      "duration": 1.583
+    },
+    {
+      "text": "would like to see breakthrough.",
+      "start": 2544.95,
+      "duration": 1.31
+    },
+    {
+      "text": "Scientific problems, what\nwould be on your list?",
+      "start": 2546.26,
+      "duration": 2.0
+    },
+    {
+      "text": "Do you want to start?",
+      "start": 2548.26,
+      "duration": 0.9
+    },
+    {
+      "text": "ANIMA ANANDKUMAR: Yeah.",
+      "start": 2549.16,
+      "duration": 0.958
+    },
+    {
+      "text": "To me, it's building\nphysical AI in all",
+      "start": 2550.118,
+      "duration": 2.812
+    },
+    {
+      "text": "of its different\nlevels of complexity",
+      "start": 2552.93,
+      "duration": 2.04
+    },
+    {
+      "text": "and scale, so\nmultiscale, multiphysics.",
+      "start": 2554.97,
+      "duration": 3.1
+    },
+    {
+      "text": "So when we think of\nworld models, not just",
+      "start": 2558.07,
+      "duration": 2.48
+    },
+    {
+      "text": "the visible world, but\nthe invisible as well.",
+      "start": 2560.55,
+      "duration": 3.24
+    },
+    {
+      "text": "JAMES MANYIKA: OK, Joelle?",
+      "start": 2563.79,
+      "duration": 1.172
+    },
+    {
+      "text": "What do you [INAUDIBLE]",
+      "start": 2564.962,
+      "duration": 0.958
+    },
+    {
+      "text": "JOELLE BARRAL: You like\nus picking only one.",
+      "start": 2565.92,
+      "duration": 1.27
+    },
+    {
+      "text": "It's always really hard.",
+      "start": 2567.19,
+      "duration": 0.81
+    },
+    {
+      "text": "JAMES MANYIKA: You can do two.",
+      "start": 2568.0,
+      "duration": 0.83
+    },
+    {
+      "text": "JOELLE BARRAL: I can do two.",
+      "start": 2568.83,
+      "duration": 1.17
+    },
+    {
+      "text": "No, in the Earth\nmodeling, I'm really",
+      "start": 2570.0,
+      "duration": 5.13
+    },
+    {
+      "text": "keen to see whether AI is\ngoing to help us better predict",
+      "start": 2575.13,
+      "duration": 3.163
+    },
+    {
+      "text": "earthquakes, for\nexample, or things that",
+      "start": 2578.293,
+      "duration": 1.667
+    },
+    {
+      "text": "can have an impact\non all of us here",
+      "start": 2579.96,
+      "duration": 2.04
+    },
+    {
+      "text": "in California, in particular.",
+      "start": 2582.0,
+      "duration": 1.8
+    },
+    {
+      "text": "And I think those are\nreally hard problems",
+      "start": 2583.8,
+      "duration": 2.37
+    },
+    {
+      "text": "that we've tried for years\nto really get better at.",
+      "start": 2586.17,
+      "duration": 2.77
+    },
+    {
+      "text": "And I think we are at the\nbeginning of something",
+      "start": 2588.94,
+      "duration": 4.55
+    },
+    {
+      "text": "where we could really\nhave major breakthroughs.",
+      "start": 2593.49,
+      "duration": 2.38
+    },
+    {
+      "text": "Something more personal\nthat we are working on,",
+      "start": 2595.87,
+      "duration": 2.85
+    },
+    {
+      "text": "I mentioned cancer already.",
+      "start": 2598.72,
+      "duration": 1.44
+    },
+    {
+      "text": "And if you think of cancer, when\nMarie Curie started the Curie",
+      "start": 2600.16,
+      "duration": 3.74
+    },
+    {
+      "text": "Institute in 1909, I think\nwe were able to cure about 1%",
+      "start": 2603.9,
+      "duration": 3.51
+    },
+    {
+      "text": "of cancers.",
+      "start": 2607.41,
+      "duration": 0.94
+    },
+    {
+      "text": "We've gone a long way.",
+      "start": 2608.35,
+      "duration": 1.67
+    },
+    {
+      "text": "Today, it really depends.",
+      "start": 2610.02,
+      "duration": 1.45
+    },
+    {
+      "text": "There is a very wide\nspectrum of cancers.",
+      "start": 2611.47,
+      "duration": 3.12
+    },
+    {
+      "text": "And our ability to treat\nthem varies greatly.",
+      "start": 2614.59,
+      "duration": 2.49
+    },
+    {
+      "text": "But on average, it's probably\nsomething like 60%, 66%",
+      "start": 2617.08,
+      "duration": 3.77
+    },
+    {
+      "text": "that we're able to\nprovide a cure for.",
+      "start": 2620.85,
+      "duration": 2.38
+    },
+    {
+      "text": "I think with AI, we\nreally have the ability",
+      "start": 2623.23,
+      "duration": 2.18
+    },
+    {
+      "text": "to not take another 100\nyears to get better,",
+      "start": 2625.41,
+      "duration": 2.71
+    },
+    {
+      "text": "but actually, maybe get to\n80%, 90% of cancers cured.",
+      "start": 2628.12,
+      "duration": 4.998
+    },
+    {
+      "text": "And that would be\nabsolutely amazing.",
+      "start": 2633.118,
+      "duration": 1.542
+    },
+    {
+      "text": "So I don't know if it\nwill take us five years.",
+      "start": 2634.66,
+      "duration": 1.917
+    },
+    {
+      "text": "I think healthcare has\ntaught us to be very humble.",
+      "start": 2636.577,
+      "duration": 2.763
+    },
+    {
+      "text": "But I do believe AI will really\naccelerate the way at which we",
+      "start": 2639.34,
+      "duration": 3.29
+    },
+    {
+      "text": "make real progress for some\nof the toughest diseases",
+      "start": 2642.63,
+      "duration": 3.9
+    },
+    {
+      "text": "that we have to tackle.",
+      "start": 2646.53,
+      "duration": 1.993
+    },
+    {
+      "text": "JAMES MANYIKA: I like those.",
+      "start": 2648.523,
+      "duration": 1.167
+    },
+    {
+      "text": "And also, earthquakes\nare hard, as you know.",
+      "start": 2649.69,
+      "duration": 2.58
+    },
+    {
+      "text": "We've done floods, made a lot of\nprogress on predicting floods.",
+      "start": 2652.27,
+      "duration": 2.798
+    },
+    {
+      "text": "But earthquakes are hard.",
+      "start": 2655.068,
+      "duration": 1.042
+    },
+    {
+      "text": "Pushmeet, what do\nyou want to solve?",
+      "start": 2656.11,
+      "duration": 2.26
+    },
+    {
+      "text": "PUSHMEET KOHLI: I think\nif you think about",
+      "start": 2658.37,
+      "duration": 1.75
+    },
+    {
+      "text": "basically the\nhuman civilization,",
+      "start": 2660.12,
+      "duration": 1.66
+    },
+    {
+      "text": "we define human civilization\nin terms of the Stone Age",
+      "start": 2661.78,
+      "duration": 3.32
+    },
+    {
+      "text": "and the Iron Age\nand the Bronze Age.",
+      "start": 2665.1,
+      "duration": 1.78
+    },
+    {
+      "text": "And depending on who you ask, we\nare living through the Silicon",
+      "start": 2666.88,
+      "duration": 3.05
+    },
+    {
+      "text": "Age or the Plastic Age.",
+      "start": 2669.93,
+      "duration": 1.83
+    },
+    {
+      "text": "But the ability to\ntransform energy--",
+      "start": 2671.76,
+      "duration": 4.42
+    },
+    {
+      "text": "that is essentially the power\nthat humanity has today.",
+      "start": 2676.18,
+      "duration": 4.26
+    },
+    {
+      "text": "If you can discover\nnew materials,",
+      "start": 2680.44,
+      "duration": 2.4
+    },
+    {
+      "text": "like a room-temperature\nsuperconductor,",
+      "start": 2682.84,
+      "duration": 2.45
+    },
+    {
+      "text": "that will unleash a power\nthat really expands our action",
+      "start": 2685.29,
+      "duration": 8.58
+    },
+    {
+      "text": "space, in terms of when\nwe deal with problems",
+      "start": 2693.87,
+      "duration": 2.67
+    },
+    {
+      "text": "of energy consumption,\nclimate change, and so on.",
+      "start": 2696.54,
+      "duration": 3.52
+    },
+    {
+      "text": "So a room-temperature\nsuperconductor is mine.",
+      "start": 2700.06,
+      "duration": 4.406
+    },
+    {
+      "text": "Practical fusion is also there.",
+      "start": 2704.466,
+      "duration": 1.914
+    },
+    {
+      "text": "And then finally,\non the math side--",
+      "start": 2706.38,
+      "duration": 1.53
+    },
+    {
+      "text": "I'll take three-- is one of the\nMillennium Prize Math Problems",
+      "start": 2707.91,
+      "duration": 5.09
+    },
+    {
+      "text": "would be a good bonus as well.",
+      "start": 2713.0,
+      "duration": 1.63
+    },
+    {
+      "text": "JAMES MANYIKA: Which one?",
+      "start": 2714.63,
+      "duration": 1.042
+    },
+    {
+      "text": "The Riemann Hypothesis?",
+      "start": 2715.672,
+      "duration": 2.008
+    },
+    {
+      "text": "PUSHMEET KOHLI: There is\none that is my favorite,",
+      "start": 2717.68,
+      "duration": 2.08
+    },
+    {
+      "text": "but I can't disclose it.",
+      "start": 2719.76,
+      "duration": 1.47
+    },
+    {
+      "text": "JAMES MANYIKA: OK.",
+      "start": 2721.23,
+      "duration": 1.19
+    },
+    {
+      "text": "All right.",
+      "start": 2722.42,
+      "duration": 0.7
+    },
+    {
+      "text": "Well, I think one of the\nthings I like about the list",
+      "start": 2723.12,
+      "duration": 3.14
+    },
+    {
+      "text": "that most of you came up\nwith that's on your mind",
+      "start": 2726.26,
+      "duration": 2.123
+    },
+    {
+      "text": "is I think a lot\nof those problems",
+      "start": 2728.383,
+      "duration": 1.417
+    },
+    {
+      "text": "have what you might call a root\nnode aspect to them, which means",
+      "start": 2729.8,
+      "duration": 3.87
+    },
+    {
+      "text": "if you can solve it, it\nopens up so many other things",
+      "start": 2733.67,
+      "duration": 3.27
+    },
+    {
+      "text": "for solutions, products,\nand others to innovate on.",
+      "start": 2736.94,
+      "duration": 3.677
+    },
+    {
+      "text": "That's always been one of\nthe extraordinary things",
+      "start": 2740.617,
+      "duration": 2.083
+    },
+    {
+      "text": "about AlphaFold.",
+      "start": 2742.7,
+      "duration": 1.12
+    },
+    {
+      "text": "Because it just opens up so much\nmore for others to chime in on.",
+      "start": 2743.82,
+      "duration": 4.77
+    },
+    {
+      "text": "Well, help me in\nthanking my panel.",
+      "start": 2748.59,
+      "duration": 1.88
+    },
+    {
+      "text": "I think they're extraordinary.",
+      "start": 2750.47,
+      "duration": 1.25
+    },
+    {
+      "text": "ANIMA ANANDKUMAR: Thank you",
+      "start": 2751.72,
+      "duration": 0.52
+    },
+    {
+      "text": "JAMES MANYIKA: They're\ndoing extraordinary work.",
+      "start": 2752.24,
+      "duration": 2.0
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2754.24,
+      "duration": 2.46
+    }
+  ]
+}

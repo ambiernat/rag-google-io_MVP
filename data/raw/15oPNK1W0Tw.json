@@ -1,0 +1,4607 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "15oPNK1W0Tw",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.94
+    },
+    {
+      "text": "ALEX VANYO: Hi, I'm Alex,\na developer relations",
+      "start": 5.39,
+      "duration": 2.13
+    },
+    {
+      "text": "engineer working on\nadaptive Android apps.",
+      "start": 7.52,
+      "duration": 2.64
+    },
+    {
+      "text": "EMILIE ROBERTS: And I am Emilie\nI work on Android on ChromeOS.",
+      "start": 10.16,
+      "duration": 5.2
+    },
+    {
+      "text": "And if you haven't heard\nthe term \"adaptive\" before,",
+      "start": 15.36,
+      "duration": 3.72
+    },
+    {
+      "text": "you are in luck.",
+      "start": 19.08,
+      "duration": 1.47
+    },
+    {
+      "text": "We are going to take you\nthrough the why, what,",
+      "start": 20.55,
+      "duration": 2.76
+    },
+    {
+      "text": "and how of adaptive\nAndroid development.",
+      "start": 23.31,
+      "duration": 3.3
+    },
+    {
+      "text": "We'll talk about why\nthis is important,",
+      "start": 26.61,
+      "duration": 3.11
+    },
+    {
+      "text": "about a whole bunch\nof new form factors,",
+      "start": 29.72,
+      "duration": 2.41
+    },
+    {
+      "text": "and how many users are using\nyour apps on multiple devices.",
+      "start": 32.13,
+      "duration": 4.59
+    },
+    {
+      "text": "We'll dig a bit deeper into what\nexactly the adaptive mindset is.",
+      "start": 36.72,
+      "duration": 4.98
+    },
+    {
+      "text": "And we'll look at some new tools\nin Compose and Android Studio",
+      "start": 41.7,
+      "duration": 4.67
+    },
+    {
+      "text": "to help you build.",
+      "start": 46.37,
+      "duration": 1.5
+    },
+    {
+      "text": "We also have an important\nAndroid 16 announcement",
+      "start": 47.87,
+      "duration": 3.54
+    },
+    {
+      "text": "that could affect your apps in a\nbig way, so stay tuned for that.",
+      "start": 51.41,
+      "duration": 5.77
+    },
+    {
+      "text": "So let's start with\nwhere we are now",
+      "start": 57.18,
+      "duration": 2.25
+    },
+    {
+      "text": "and why it's important, why\nit's time to think adaptive.",
+      "start": 59.43,
+      "duration": 5.4
+    },
+    {
+      "text": "When smartphones\nfirst appeared, they",
+      "start": 64.83,
+      "duration": 2.97
+    },
+    {
+      "text": "were proof of how far\ncomputing had come.",
+      "start": 67.8,
+      "duration": 3.06
+    },
+    {
+      "text": "Before the 1960s, computers\ncould be room-sized boxes full",
+      "start": 70.86,
+      "duration": 5.28
+    },
+    {
+      "text": "of vacuum tubes\nwith punch cards.",
+      "start": 76.14,
+      "duration": 2.26
+    },
+    {
+      "text": "And then you could miraculously\ncarry massive computing power",
+      "start": 78.4,
+      "duration": 5.72
+    },
+    {
+      "text": "around in your pocket.",
+      "start": 84.12,
+      "duration": 1.9
+    },
+    {
+      "text": "And Android apps\nunlock the potential",
+      "start": 86.02,
+      "duration": 2.72
+    },
+    {
+      "text": "of those devices for\nbillions of users.",
+      "start": 88.74,
+      "duration": 3.28
+    },
+    {
+      "text": "That's really a paradigm\nshift in how many",
+      "start": 92.02,
+      "duration": 3.05
+    },
+    {
+      "text": "humans interact with the world.",
+      "start": 95.07,
+      "duration": 3.72
+    },
+    {
+      "text": "ALEX VANYO: As more apps and\ngames have come to market,",
+      "start": 98.79,
+      "duration": 2.53
+    },
+    {
+      "text": "users expect them to run well\non all the surfaces they use,",
+      "start": 101.32,
+      "duration": 3.54
+    },
+    {
+      "text": "from the watch on their wrists\nto the Chromebook laptop",
+      "start": 104.86,
+      "duration": 2.63
+    },
+    {
+      "text": "to the screen in\ntheir parked car,",
+      "start": 107.49,
+      "duration": 2.14
+    },
+    {
+      "text": "and soon, even\nprojected into extended",
+      "start": 109.63,
+      "duration": 2.33
+    },
+    {
+      "text": "reality from their headsets.",
+      "start": 111.96,
+      "duration": 3.21
+    },
+    {
+      "text": "We think it's important\nto design and build",
+      "start": 115.17,
+      "duration": 2.1
+    },
+    {
+      "text": "apps to meet your users\nwherever they are,",
+      "start": 117.27,
+      "duration": 2.35
+    },
+    {
+      "text": "and to bring your awesome\nexperiences to them",
+      "start": 119.62,
+      "duration": 1.91
+    },
+    {
+      "text": "in a way that meets their\nexpectations and delights them.",
+      "start": 121.53,
+      "duration": 4.11
+    },
+    {
+      "text": "And adaptive doesn't just\nmean basic functionality",
+      "start": 125.64,
+      "duration": 2.399
+    },
+    {
+      "text": "in all these devices.",
+      "start": 128.039,
+      "duration": 1.421
+    },
+    {
+      "text": "It also embraces people\nwith multiple devices",
+      "start": 129.46,
+      "duration": 2.45
+    },
+    {
+      "text": "in a device ecosystem.",
+      "start": 131.91,
+      "duration": 1.87
+    },
+    {
+      "text": "These are users who are\ninvested in your apps,",
+      "start": 133.78,
+      "duration": 2.34
+    },
+    {
+      "text": "both in terms of\ntime and their money.",
+      "start": 136.12,
+      "duration": 2.01
+    },
+    {
+      "text": "So we should offer them\nexceptional experiences.",
+      "start": 138.13,
+      "duration": 3.62
+    },
+    {
+      "text": "Users with more than\none device are often",
+      "start": 141.75,
+      "duration": 1.83
+    },
+    {
+      "text": "the most engaged users.",
+      "start": 143.58,
+      "duration": 1.81
+    },
+    {
+      "text": "For example, across six of the\nmajor streaming apps in the US,",
+      "start": 145.39,
+      "duration": 3.51
+    },
+    {
+      "text": "users that had tablet and phones\nhad three times the amount",
+      "start": 148.9,
+      "duration": 3.41
+    },
+    {
+      "text": "of usage than phone-only users.",
+      "start": 152.31,
+      "duration": 1.99
+    },
+    {
+      "text": "It makes sense to make that\ntablet experience cinematic.",
+      "start": 154.3,
+      "duration": 4.46
+    },
+    {
+      "text": "Since last year, many more apps\nhave been making optimizations",
+      "start": 158.76,
+      "duration": 3.24
+    },
+    {
+      "text": "to improve their apps experience\nacross the device landscape.",
+      "start": 162.0,
+      "duration": 3.25
+    },
+    {
+      "text": "And your adaptive apps can now\naccess new device capabilities",
+      "start": 165.25,
+      "duration": 3.5
+    },
+    {
+      "text": "as well as they extend to more\nclasses of Android devices.",
+      "start": 168.75,
+      "duration": 4.77
+    },
+    {
+      "text": "First, on both of our\nAndroid-for-cars platforms,",
+      "start": 173.52,
+      "duration": 2.68
+    },
+    {
+      "text": "Android Automotive\nOS and Android Auto,",
+      "start": 176.2,
+      "duration": 2.45
+    },
+    {
+      "text": "users stay connected, get\npersonalized navigation,",
+      "start": 178.65,
+      "duration": 2.98
+    },
+    {
+      "text": "and can listen to music\nduring every drive.",
+      "start": 181.63,
+      "duration": 3.29
+    },
+    {
+      "text": "And starting this year,\nadaptive mobile apps",
+      "start": 184.92,
+      "duration": 2.28
+    },
+    {
+      "text": "in permitted categories can be\ndistributed on both platforms",
+      "start": 187.2,
+      "duration": 2.94
+    },
+    {
+      "text": "while parked.",
+      "start": 190.14,
+      "duration": 1.633
+    },
+    {
+      "text": "This can be the same\nmobile app that you",
+      "start": 191.773,
+      "duration": 1.667
+    },
+    {
+      "text": "distribute to phones,\nfoldables, and tablets",
+      "start": 193.44,
+      "duration": 1.833
+    },
+    {
+      "text": "with minimal changes.",
+      "start": 195.273,
+      "duration": 1.297
+    },
+    {
+      "text": "It's still Android after all.",
+      "start": 196.57,
+      "duration": 2.48
+    },
+    {
+      "text": "Both platforms provide an\napp-compatibility experience",
+      "start": 199.05,
+      "duration": 2.58
+    },
+    {
+      "text": "that ensures users can\ncomplete the critical journeys",
+      "start": 201.63,
+      "duration": 2.67
+    },
+    {
+      "text": "within the app.",
+      "start": 204.3,
+      "duration": 2.4
+    },
+    {
+      "text": "So this combination of\nfoldables, tablets, Chromebooks,",
+      "start": 206.7,
+      "duration": 2.89
+    },
+    {
+      "text": "and compatible cars brings us to\nover 500 million active devices",
+      "start": 209.59,
+      "duration": 4.04
+    },
+    {
+      "text": "that your mobile app can run on.",
+      "start": 213.63,
+      "duration": 1.48
+    },
+    {
+      "text": "And that number will\ncontinue to rise.",
+      "start": 215.11,
+      "duration": 3.22
+    },
+    {
+      "text": "Second, we're expanding\nthe number of ways",
+      "start": 218.33,
+      "duration": 1.75
+    },
+    {
+      "text": "that your app can show up\non large-screen devices.",
+      "start": 220.08,
+      "duration": 2.53
+    },
+    {
+      "text": "In Android 16, we've made\nsignificant advancements",
+      "start": 222.61,
+      "duration": 4.1
+    },
+    {
+      "text": "in desktop windowing,\nwhere apps run",
+      "start": 226.71,
+      "duration": 1.98
+    },
+    {
+      "text": "in fully freeform Windows like\nother desktop environments.",
+      "start": 228.69,
+      "duration": 3.18
+    },
+    {
+      "text": "And when you plug in a phone or\ntablet to an external display,",
+      "start": 231.87,
+      "duration": 4.123
+    },
+    {
+      "text": "that desktop\nwindowing environment",
+      "start": 235.993,
+      "duration": 1.417
+    },
+    {
+      "text": "will also appear on the\nconnected monitor or TV.",
+      "start": 237.41,
+      "duration": 3.18
+    },
+    {
+      "text": "This means that phones will also\nbenefit from these improvements,",
+      "start": 240.59,
+      "duration": 3.73
+    },
+    {
+      "text": "on top of over 500\nmillion active devices.",
+      "start": 244.32,
+      "duration": 3.38
+    },
+    {
+      "text": "In Android 16, we've been adding\nfoundational platform support",
+      "start": 247.7,
+      "duration": 3.15
+    },
+    {
+      "text": "for connected displays that\nwill be available in AOSP",
+      "start": 250.85,
+      "duration": 2.85
+    },
+    {
+      "text": "in the coming months\nin developer preview.",
+      "start": 253.7,
+      "duration": 3.87
+    },
+    {
+      "text": "And finally, our newest\nplatform is Android XR.",
+      "start": 257.57,
+      "duration": 3.28
+    },
+    {
+      "text": "Headsets add a new dimension\nto Android, literally.",
+      "start": 260.85,
+      "duration": 3.17
+    },
+    {
+      "text": "Rather than running on\na traditional screen,",
+      "start": 264.02,
+      "duration": 2.02
+    },
+    {
+      "text": "apps are placed into a fully\nimmersive virtual environment,",
+      "start": 266.04,
+      "duration": 2.54
+    },
+    {
+      "text": "where you have a natural sense\nof depth, scale, and realism.",
+      "start": 268.58,
+      "duration": 3.24
+    },
+    {
+      "text": "Headsets are the first form\nfactor that Android XR supports.",
+      "start": 271.82,
+      "duration": 3.285
+    },
+    {
+      "text": "And we'll share more information\nabout the developer experience",
+      "start": 275.105,
+      "duration": 2.625
+    },
+    {
+      "text": "for glasses and how you can\nparticipate later this year.",
+      "start": 277.73,
+      "duration": 3.99
+    },
+    {
+      "text": "Mobile apps form the foundation\nof the home space app experience",
+      "start": 281.72,
+      "duration": 3.54
+    },
+    {
+      "text": "in XR, as mobile apps\ndistributed through the Play",
+      "start": 285.26,
+      "duration": 2.67
+    },
+    {
+      "text": "Store will automatically\nbe available in XR.",
+      "start": 287.93,
+      "duration": 3.01
+    },
+    {
+      "text": "If you're building for Android,\nyou're already building for XR.",
+      "start": 290.94,
+      "duration": 3.13
+    },
+    {
+      "text": "All of the work that you've\nmade and continue to make",
+      "start": 294.07,
+      "duration": 2.39
+    },
+    {
+      "text": "in optimizing for different\naspect ratios and arbitrarily",
+      "start": 296.46,
+      "duration": 3.3
+    },
+    {
+      "text": "resizing directly translates\ninto a great out-of-the-box",
+      "start": 299.76,
+      "duration": 3.57
+    },
+    {
+      "text": "experience in XR.",
+      "start": 303.33,
+      "duration": 2.252
+    },
+    {
+      "text": "And that all leads to\nthe perfect launching pad",
+      "start": 305.582,
+      "duration": 1.958
+    },
+    {
+      "text": "to differentiate for XR.",
+      "start": 307.54,
+      "duration": 1.53
+    },
+    {
+      "text": "You can add an entry point to\nlaunch into full space, where",
+      "start": 309.07,
+      "duration": 3.2
+    },
+    {
+      "text": "your app runs on its own and\nhas full control of the content",
+      "start": 312.27,
+      "duration": 2.61
+    },
+    {
+      "text": "and environment.",
+      "start": 314.88,
+      "duration": 0.97
+    },
+    {
+      "text": "You can transport users\nto a virtual space,",
+      "start": 315.85,
+      "duration": 2.31
+    },
+    {
+      "text": "load 3D graphics in\nyour living room,",
+      "start": 318.16,
+      "duration": 1.83
+    },
+    {
+      "text": "or attach a giant virtual\nscreen on the wall.",
+      "start": 319.99,
+      "duration": 2.84
+    },
+    {
+      "text": "So taken all together,\nwe have a growing number",
+      "start": 322.83,
+      "duration": 2.88
+    },
+    {
+      "text": "of phones, foldables,\ntablets, and Chromebooks.",
+      "start": 325.71,
+      "duration": 2.53
+    },
+    {
+      "text": "Many of those are capable\nof turning into full desktop",
+      "start": 328.24,
+      "duration": 2.66
+    },
+    {
+      "text": "environments when\nplugged into peripherals.",
+      "start": 330.9,
+      "duration": 2.13
+    },
+    {
+      "text": "And cars and XR will form new\nopportunities for running apps.",
+      "start": 333.03,
+      "duration": 4.46
+    },
+    {
+      "text": "EMILIE ROBERTS: OK,\nI'd like to dive",
+      "start": 341.25,
+      "duration": 2.01
+    },
+    {
+      "text": "more into what we mean\nby this adaptive mindset.",
+      "start": 343.26,
+      "duration": 5.13
+    },
+    {
+      "text": "Adaptive is a strategy\nfor app development",
+      "start": 348.39,
+      "duration": 3.08
+    },
+    {
+      "text": "that takes into account the\nwhole expanding Android device",
+      "start": 351.47,
+      "duration": 3.96
+    },
+    {
+      "text": "ecosystem and aims to make your\napps run across it, regardless",
+      "start": 355.43,
+      "duration": 4.89
+    },
+    {
+      "text": "of the screen size\nor input method.",
+      "start": 360.32,
+      "duration": 3.03
+    },
+    {
+      "text": "It has a holistic view of\nhow your users often own",
+      "start": 363.35,
+      "duration": 4.38
+    },
+    {
+      "text": "more than one of these devices.",
+      "start": 367.73,
+      "duration": 2.7
+    },
+    {
+      "text": "And lastly, it considers\nnew novel devices",
+      "start": 370.43,
+      "duration": 2.43
+    },
+    {
+      "text": "that haven't even\nbeen created yet",
+      "start": 372.86,
+      "duration": 1.89
+    },
+    {
+      "text": "and aims to lay down\nstrong engineering",
+      "start": 374.75,
+      "duration": 2.43
+    },
+    {
+      "text": "foundations for the future.",
+      "start": 377.18,
+      "duration": 2.94
+    },
+    {
+      "text": "I do want to reassure\nyou that you do not",
+      "start": 380.12,
+      "duration": 2.58
+    },
+    {
+      "text": "have to rebuild your whole\napp to take advantage",
+      "start": 382.7,
+      "duration": 2.94
+    },
+    {
+      "text": "of all these new form factors.",
+      "start": 385.64,
+      "duration": 1.99
+    },
+    {
+      "text": "And you don't need to build\na brand-new separate app",
+      "start": 387.63,
+      "duration": 3.5
+    },
+    {
+      "text": "for each one of these and\nhave six different versions",
+      "start": 391.13,
+      "duration": 2.31
+    },
+    {
+      "text": "of your app.",
+      "start": 393.44,
+      "duration": 1.83
+    },
+    {
+      "text": "The mindset that\nwe're proposing here",
+      "start": 395.27,
+      "duration": 2.85
+    },
+    {
+      "text": "is that your one app can\nrun across all of these form",
+      "start": 398.12,
+      "duration": 4.17
+    },
+    {
+      "text": "factors, so phones, tablets,\nfoldables, Chromebooks,",
+      "start": 402.29,
+      "duration": 7.89
+    },
+    {
+      "text": "connected displays,\nXR, and auto.",
+      "start": 410.18,
+      "duration": 4.89
+    },
+    {
+      "text": "Super exciting, right?",
+      "start": 415.07,
+      "duration": 2.07
+    },
+    {
+      "text": "I see some big smiles.",
+      "start": 417.14,
+      "duration": 1.24
+    },
+    {
+      "text": "Yeah!",
+      "start": 418.38,
+      "duration": 0.926
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 419.306,
+      "duration": 1.704
+    },
+    {
+      "text": "And a little bit\ndaunting, maybe, for some.",
+      "start": 421.01,
+      "duration": 6.07
+    },
+    {
+      "text": "ALEX VANYO: [LAUGHS]",
+      "start": 427.08,
+      "duration": 1.23
+    },
+    {
+      "text": "EMILIE ROBERTS: So\nthroughout the years,",
+      "start": 428.81,
+      "duration": 1.89
+    },
+    {
+      "text": "I've been working on Chrome OS.",
+      "start": 430.7,
+      "duration": 1.72
+    },
+    {
+      "text": "Tons of devs, some\nof you in this room,",
+      "start": 432.42,
+      "duration": 1.97
+    },
+    {
+      "text": "actually, have come up to\nme and say, hey, Emilie,",
+      "start": 434.39,
+      "duration": 2.8
+    },
+    {
+      "text": "we just don't have the\ntime or resources right now",
+      "start": 437.19,
+      "duration": 2.24
+    },
+    {
+      "text": "to focus on anything other than\nthat portrait phone experience.",
+      "start": 439.43,
+      "duration": 5.01
+    },
+    {
+      "text": "And I totally get that.",
+      "start": 444.44,
+      "duration": 1.45
+    },
+    {
+      "text": "And I hope that\nsome of the business",
+      "start": 445.89,
+      "duration": 2.0
+    },
+    {
+      "text": "metrics my good friend Alex\nshared with you were compelling.",
+      "start": 447.89,
+      "duration": 4.32
+    },
+    {
+      "text": "But there's another element here\non the user-facing side that's",
+      "start": 452.21,
+      "duration": 4.86
+    },
+    {
+      "text": "hard to measure.",
+      "start": 457.07,
+      "duration": 1.03
+    },
+    {
+      "text": "And I wanted to\nhopefully add it in here",
+      "start": 458.1,
+      "duration": 3.23
+    },
+    {
+      "text": "as an underpainting for you.",
+      "start": 461.33,
+      "duration": 2.4
+    },
+    {
+      "text": "It's a personal story.",
+      "start": 463.73,
+      "duration": 1.3
+    },
+    {
+      "text": "So users use your apps\nall day long on all",
+      "start": 465.03,
+      "duration": 3.05
+    },
+    {
+      "text": "their different devices.",
+      "start": 468.08,
+      "duration": 1.16
+    },
+    {
+      "text": "And at work, at the\noffice in Paris,",
+      "start": 469.24,
+      "duration": 2.47
+    },
+    {
+      "text": "we have this amazing music room.",
+      "start": 471.71,
+      "duration": 2.19
+    },
+    {
+      "text": "And I love to pop\ndown and play guitar.",
+      "start": 473.9,
+      "duration": 1.98
+    },
+    {
+      "text": "And I often use a\nphone app to play along",
+      "start": 475.88,
+      "duration": 2.78
+    },
+    {
+      "text": "with the tab or score.",
+      "start": 478.66,
+      "duration": 1.89
+    },
+    {
+      "text": "But later on, at home, I'm\ngoing to use a tablet or maybe",
+      "start": 480.55,
+      "duration": 3.24
+    },
+    {
+      "text": "my Chromebook hooked\nto a 4K monitor,",
+      "start": 483.79,
+      "duration": 2.13
+    },
+    {
+      "text": "because there's better\nsound and a bigger screen,",
+      "start": 485.92,
+      "duration": 2.65
+    },
+    {
+      "text": "which is easier for\nme to play along with.",
+      "start": 488.57,
+      "duration": 3.05
+    },
+    {
+      "text": "However, I want that same app\nthat I know and love on my phone",
+      "start": 491.62,
+      "duration": 4.17
+    },
+    {
+      "text": "to work on those other devices.",
+      "start": 495.79,
+      "duration": 1.96
+    },
+    {
+      "text": "I need all my songs, my\nprogress, my tempo settings.",
+      "start": 497.75,
+      "duration": 4.14
+    },
+    {
+      "text": "And I need the score\nto be the same.",
+      "start": 501.89,
+      "duration": 2.4
+    },
+    {
+      "text": "If there's any musicians here,\nif you're learning a new song,",
+      "start": 504.29,
+      "duration": 3.69
+    },
+    {
+      "text": "you can't keep switching\nbetween different versions",
+      "start": 507.98,
+      "duration": 2.75
+    },
+    {
+      "text": "on the same day.",
+      "start": 510.73,
+      "duration": 1.06
+    },
+    {
+      "text": "At least, I can't.",
+      "start": 511.79,
+      "duration": 1.05
+    },
+    {
+      "text": "So if the app doesn't work\non one of those form factors",
+      "start": 512.84,
+      "duration": 5.06
+    },
+    {
+      "text": "that I want to use, I might\nlook for a better app that does.",
+      "start": 517.9,
+      "duration": 4.8
+    },
+    {
+      "text": "So the message here\nis if your app doesn't",
+      "start": 522.7,
+      "duration": 3.18
+    },
+    {
+      "text": "work across any of\nthese form factors,",
+      "start": 525.88,
+      "duration": 2.39
+    },
+    {
+      "text": "there's a potential you might\nlose those users on phone as",
+      "start": 528.27,
+      "duration": 4.28
+    },
+    {
+      "text": "well.",
+      "start": 532.55,
+      "duration": 1.98
+    },
+    {
+      "text": "OK, enough me talk.",
+      "start": 534.53,
+      "duration": 3.18
+    },
+    {
+      "text": "Before we start looking at\nsome tools and libraries",
+      "start": 537.71,
+      "duration": 2.91
+    },
+    {
+      "text": "to help you build these\ngreat adaptive experiences,",
+      "start": 540.62,
+      "duration": 2.68
+    },
+    {
+      "text": "we thought it'd be cool\nto show you one in action.",
+      "start": 543.3,
+      "duration": 3.45
+    },
+    {
+      "text": "So we're going to demonstrate\none single code base running",
+      "start": 546.75,
+      "duration": 2.93
+    },
+    {
+      "text": "across six different devices.",
+      "start": 549.68,
+      "duration": 2.08
+    },
+    {
+      "text": "And we're going to be using\nthe app Socialite, which",
+      "start": 551.76,
+      "duration": 3.29
+    },
+    {
+      "text": "is on GitHub, so you\ncan check out the code,",
+      "start": 555.05,
+      "duration": 2.52
+    },
+    {
+      "text": "or in the Adaptive Android booth\nout there if you're on site.",
+      "start": 557.57,
+      "duration": 4.59
+    },
+    {
+      "text": "It uses the Compose\nadaptive library,",
+      "start": 562.16,
+      "duration": 2.11
+    },
+    {
+      "text": "which we're going to\ntalk a bunch about today,",
+      "start": 564.27,
+      "duration": 2.31
+    },
+    {
+      "text": "and the list-detail layout.",
+      "start": 566.58,
+      "duration": 2.45
+    },
+    {
+      "text": "So.",
+      "start": 569.03,
+      "duration": 1.14
+    },
+    {
+      "text": "ALEX VANYO: I think\nthat's enough talking.",
+      "start": 570.17,
+      "duration": 1.75
+    },
+    {
+      "text": "Should we try a live demo?",
+      "start": 571.92,
+      "duration": 1.52
+    },
+    {
+      "text": "EMILIE ROBERTS: Let's do it.",
+      "start": 573.44,
+      "duration": 1.253
+    },
+    {
+      "text": "ALEX VANYO: All right.",
+      "start": 574.693,
+      "duration": 0.917
+    },
+    {
+      "text": "I'm in Android Studio here.",
+      "start": 575.61,
+      "duration": 1.26
+    },
+    {
+      "text": "And I have four physical\ndevices up here, plugged in,",
+      "start": 576.87,
+      "duration": 3.14
+    },
+    {
+      "text": "and two emulators.",
+      "start": 580.01,
+      "duration": 1.09
+    },
+    {
+      "text": "So that's six simultaneous\nADB connections.",
+      "start": 581.1,
+      "duration": 3.87
+    },
+    {
+      "text": "I'm sure this should work great.",
+      "start": 584.97,
+      "duration": 3.7
+    },
+    {
+      "text": "All right, launching.",
+      "start": 588.67,
+      "duration": 0.93
+    },
+    {
+      "text": "I can see it launching up here.",
+      "start": 589.6,
+      "duration": 1.573
+    },
+    {
+      "text": "EMILIE ROBERTS: Ooh,\ninstall successful.",
+      "start": 591.173,
+      "duration": 1.667
+    },
+    {
+      "text": "ALEX VANYO: I think\nwe got six installed.",
+      "start": 592.84,
+      "duration": 1.708
+    },
+    {
+      "text": "EMILIE ROBERTS: 1, 2, 3, 4.",
+      "start": 594.548,
+      "duration": 1.967
+    },
+    {
+      "text": "It worked.",
+      "start": 596.515,
+      "duration": 0.5
+    },
+    {
+      "text": "ALEX VANYO: It worked.",
+      "start": 597.015,
+      "duration": 0.785
+    },
+    {
+      "text": "EMILIE ROBERTS: That is great.",
+      "start": 597.8,
+      "duration": 1.32
+    },
+    {
+      "text": "OK.",
+      "start": 599.12,
+      "duration": 0.63
+    },
+    {
+      "text": "So.",
+      "start": 599.75,
+      "duration": 0.583
+    },
+    {
+      "text": "Yeah!",
+      "start": 600.333,
+      "duration": 0.5
+    },
+    {
+      "text": "Woo, Android Studio!",
+      "start": 600.833,
+      "duration": 1.93
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 602.763,
+      "duration": 1.567
+    },
+    {
+      "text": "The spaghetti cable\nconnection has worked.",
+      "start": 604.33,
+      "duration": 2.62
+    },
+    {
+      "text": "So let's start\nwith the emulators.",
+      "start": 606.95,
+      "duration": 2.52
+    },
+    {
+      "text": "We have two emulators, the XR\nemulator and the Android Auto",
+      "start": 609.47,
+      "duration": 4.1
+    },
+    {
+      "text": "Park Mode emulator.",
+      "start": 613.57,
+      "duration": 0.983
+    },
+    {
+      "text": "ALEX VANYO: All right.",
+      "start": 614.553,
+      "duration": 0.917
+    },
+    {
+      "text": "So we're next in XR here.",
+      "start": 615.47,
+      "duration": 1.35
+    },
+    {
+      "text": "This is in Home space.",
+      "start": 616.82,
+      "duration": 1.05
+    },
+    {
+      "text": "So we have the list of chats.",
+      "start": 617.87,
+      "duration": 1.86
+    },
+    {
+      "text": "And I can then go\ninto a detail here.",
+      "start": 619.73,
+      "duration": 2.49
+    },
+    {
+      "text": "Then while you're in Home\nspace, you can resize.",
+      "start": 622.22,
+      "duration": 2.16
+    },
+    {
+      "text": "And then it'll go to\ndetail only if there's not",
+      "start": 624.38,
+      "duration": 3.92
+    },
+    {
+      "text": "enough space to show both.",
+      "start": 628.3,
+      "duration": 1.21
+    },
+    {
+      "text": "And then I can resize back.",
+      "start": 629.51,
+      "duration": 1.35
+    },
+    {
+      "text": "And we're using the\nCompose adaptive library",
+      "start": 630.86,
+      "duration": 1.97
+    },
+    {
+      "text": "to get this list-detail\nbehavior here.",
+      "start": 632.83,
+      "duration": 2.08
+    },
+    {
+      "text": "And I can also launch\ninto a new window.",
+      "start": 634.91,
+      "duration": 3.0
+    },
+    {
+      "text": "And here, you can see that kind\nof 2D apps in a 3D environment",
+      "start": 637.91,
+      "duration": 3.38
+    },
+    {
+      "text": "as I move it around.",
+      "start": 641.29,
+      "duration": 1.56
+    },
+    {
+      "text": "And there's multiple\ncopies of the app open.",
+      "start": 642.85,
+      "duration": 3.49
+    },
+    {
+      "text": "Over on automotive,\nsame sort of list.",
+      "start": 646.34,
+      "duration": 2.71
+    },
+    {
+      "text": "I can click into a specific chat\nand switch between them as well.",
+      "start": 649.05,
+      "duration": 5.745
+    },
+    {
+      "text": "EMILIE ROBERTS: Nice.",
+      "start": 654.795,
+      "duration": 0.875
+    },
+    {
+      "text": "OK, let's move on over to\nthe physical devices there.",
+      "start": 655.67,
+      "duration": 4.48
+    },
+    {
+      "text": "So let's take a look at the--",
+      "start": 660.15,
+      "duration": 2.57
+    },
+    {
+      "text": "can we get this crazy\ncreature working--",
+      "start": 662.72,
+      "duration": 2.52
+    },
+    {
+      "text": "and look at the phone\nand the foldable.",
+      "start": 665.24,
+      "duration": 2.393
+    },
+    {
+      "text": "ALEX VANYO: All right.",
+      "start": 667.633,
+      "duration": 0.917
+    },
+    {
+      "text": "We're on the phone.",
+      "start": 668.55,
+      "duration": 1.31
+    },
+    {
+      "text": "Here, because there's not\nenough width to show both,",
+      "start": 669.86,
+      "duration": 3.91
+    },
+    {
+      "text": "you get kind of a\nnormal experience.",
+      "start": 673.77,
+      "duration": 1.53
+    },
+    {
+      "text": "And we're using the new\nJetpack Navigation 3 library",
+      "start": 675.3,
+      "duration": 2.78
+    },
+    {
+      "text": "in alpha here to get this\ntransition back and forth.",
+      "start": 678.08,
+      "duration": 3.305
+    },
+    {
+      "text": "And then over on a\nfoldable, we have",
+      "start": 684.08,
+      "duration": 3.24
+    },
+    {
+      "text": "the same sort of experience,\nbasically the same as the phone.",
+      "start": 687.32,
+      "duration": 2.65
+    },
+    {
+      "text": "But when you unfold, we get\nnow the list and details side",
+      "start": 689.97,
+      "duration": 3.65
+    },
+    {
+      "text": "by side because there's\nenough space to show both.",
+      "start": 693.62,
+      "duration": 2.23
+    },
+    {
+      "text": "And I can click around\nbetween the different chats.",
+      "start": 695.85,
+      "duration": 2.76
+    },
+    {
+      "text": "EMILIE ROBERTS: That is great.",
+      "start": 698.61,
+      "duration": 1.41
+    },
+    {
+      "text": "And now, let's go\nto the things that I",
+      "start": 700.02,
+      "duration": 1.92
+    },
+    {
+      "text": "love, a little bit larger.",
+      "start": 701.94,
+      "duration": 1.93
+    },
+    {
+      "text": "How about the tablet\nand Chromebook?",
+      "start": 703.87,
+      "duration": 2.58
+    },
+    {
+      "text": "ALEX VANYO: All right,\nwe're on the tablet here.",
+      "start": 706.45,
+      "duration": 2.43
+    },
+    {
+      "text": "This is in desktop windowing.",
+      "start": 708.88,
+      "duration": 1.38
+    },
+    {
+      "text": "So again, it can\nresize like in XR.",
+      "start": 710.26,
+      "duration": 4.85
+    },
+    {
+      "text": "In the desktop experience,\nsee both the list and detail",
+      "start": 715.11,
+      "duration": 2.52
+    },
+    {
+      "text": "at the same time.",
+      "start": 717.63,
+      "duration": 1.06
+    },
+    {
+      "text": "And since I'm in desktop\nwindowing, I can help multitask.",
+      "start": 718.69,
+      "duration": 3.51
+    },
+    {
+      "text": "I can drag over an\nAndroidified image of myself",
+      "start": 722.2,
+      "duration": 2.66
+    },
+    {
+      "text": "over into the chat\nand send it to my cat.",
+      "start": 724.86,
+      "duration": 1.855
+    },
+    {
+      "text": "EMILIE ROBERTS: Nice.",
+      "start": 726.715,
+      "duration": 0.875
+    },
+    {
+      "text": "Drag and drop, we love it.",
+      "start": 727.59,
+      "duration": 2.382
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 729.972,
+      "duration": 1.928
+    },
+    {
+      "text": "Oh, I love this audience.",
+      "start": 734.31,
+      "duration": 1.73
+    },
+    {
+      "text": "You just point, and they clap.",
+      "start": 736.04,
+      "duration": 1.25
+    },
+    {
+      "text": "It's great.",
+      "start": 737.29,
+      "duration": 0.515
+    },
+    {
+      "text": "[LAUGHS]",
+      "start": 737.805,
+      "duration": 0.96
+    },
+    {
+      "text": "ALEX VANYO: And then here,\nwe're on the Chromebook.",
+      "start": 738.765,
+      "duration": 2.125
+    },
+    {
+      "text": "So again, this is a fully\nfreeform desktop windowing",
+      "start": 740.89,
+      "duration": 2.167
+    },
+    {
+      "text": "environment.",
+      "start": 743.057,
+      "duration": 0.683
+    },
+    {
+      "text": "Same app running here,\ncan resize and get",
+      "start": 743.74,
+      "duration": 4.04
+    },
+    {
+      "text": "the same list-detail experience\nas we go back and forth.",
+      "start": 747.78,
+      "duration": 5.76
+    },
+    {
+      "text": "Those are our six devices.",
+      "start": 753.54,
+      "duration": 1.382
+    },
+    {
+      "text": "EMILIE ROBERTS: Yeah, I can't\nbelieve that actually worked.",
+      "start": 754.922,
+      "duration": 2.458
+    },
+    {
+      "text": "Six devices, one code\nbase, check it out",
+      "start": 757.38,
+      "duration": 2.49
+    },
+    {
+      "text": "on GitHub or outside.",
+      "start": 759.87,
+      "duration": 1.91
+    },
+    {
+      "text": "So we use the material\nadaptive library.",
+      "start": 761.78,
+      "duration": 2.17
+    },
+    {
+      "text": "What's cool about\nthat is you can",
+      "start": 763.95,
+      "duration": 1.58
+    },
+    {
+      "text": "drop your existing composables\ninto these canonical layouts.",
+      "start": 765.53,
+      "duration": 5.26
+    },
+    {
+      "text": "And it will attempt to\nhandle all the resizing",
+      "start": 770.79,
+      "duration": 3.86
+    },
+    {
+      "text": "and navigation for you.",
+      "start": 774.65,
+      "duration": 1.78
+    },
+    {
+      "text": "So that one single app bundle\nworks across all those six",
+      "start": 776.43,
+      "duration": 3.26
+    },
+    {
+      "text": "devices.",
+      "start": 779.69,
+      "duration": 0.5
+    },
+    {
+      "text": "ALEX VANYO: And just because\nit's running on all of them",
+      "start": 780.19,
+      "duration": 2.333
+    },
+    {
+      "text": "doesn't mean that it's\nan identical experience.",
+      "start": 782.523,
+      "duration": 2.397
+    },
+    {
+      "text": "You can still make use of\nform factor-specific APIs",
+      "start": 784.92,
+      "duration": 3.17
+    },
+    {
+      "text": "and add differentiated\nexperiences on XR or foldables.",
+      "start": 788.09,
+      "duration": 4.285
+    },
+    {
+      "text": "EMILIE ROBERTS: Yeah.",
+      "start": 792.375,
+      "duration": 0.875
+    },
+    {
+      "text": "My turn.",
+      "start": 793.25,
+      "duration": 2.91
+    },
+    {
+      "text": "OK, let's head\nback to the slides.",
+      "start": 796.16,
+      "duration": 2.65
+    },
+    {
+      "text": "That was the why and the what.",
+      "start": 798.81,
+      "duration": 4.08
+    },
+    {
+      "text": "So it's time for the how.",
+      "start": 802.89,
+      "duration": 1.185
+    },
+    {
+      "text": "How are you going to build?",
+      "start": 804.075,
+      "duration": 1.125
+    },
+    {
+      "text": "And we're going to look\nat some of these tools.",
+      "start": 805.2,
+      "duration": 2.48
+    },
+    {
+      "text": "So I was so excited last\nyear when we could announce",
+      "start": 807.68,
+      "duration": 2.64
+    },
+    {
+      "text": "the Compose adaptive library.",
+      "start": 810.32,
+      "duration": 1.6
+    },
+    {
+      "text": "It was a culmination\nof years of work",
+      "start": 811.92,
+      "duration": 3.11
+    },
+    {
+      "text": "from lots of people at\nGoogle, Alex and me included,",
+      "start": 815.03,
+      "duration": 3.04
+    },
+    {
+      "text": "and some folks in this room,\nto make adaptive Android app",
+      "start": 818.07,
+      "duration": 3.96
+    },
+    {
+      "text": "development easier and\nmore natural on Android.",
+      "start": 822.03,
+      "duration": 3.28
+    },
+    {
+      "text": "And I was so excited yesterday\nto talk to many of you",
+      "start": 825.31,
+      "duration": 3.44
+    },
+    {
+      "text": "in the room and learn\nthat you're already",
+      "start": 828.75,
+      "duration": 3.42
+    },
+    {
+      "text": "using it in your apps.",
+      "start": 832.17,
+      "duration": 1.3
+    },
+    {
+      "text": "And it's working.",
+      "start": 833.47,
+      "duration": 1.02
+    },
+    {
+      "text": "Please keep doing that.",
+      "start": 834.49,
+      "duration": 1.23
+    },
+    {
+      "text": "Please keep letting us know\nwhat you need, what's working,",
+      "start": 835.72,
+      "duration": 2.75
+    },
+    {
+      "text": "and what's not working.",
+      "start": 838.47,
+      "duration": 1.0
+    },
+    {
+      "text": "And we are going to\ncontinue to iterate.",
+      "start": 839.47,
+      "duration": 2.638
+    },
+    {
+      "text": "We launched in September.",
+      "start": 842.108,
+      "duration": 1.042
+    },
+    {
+      "text": "And we've continued to add\nnew features, some of which",
+      "start": 843.15,
+      "duration": 3.27
+    },
+    {
+      "text": "we're going to talk about today.",
+      "start": 846.42,
+      "duration": 1.45
+    },
+    {
+      "text": "So again, that library offers\ncanonical layout patterns,",
+      "start": 847.87,
+      "duration": 4.31
+    },
+    {
+      "text": "like that list-detail\nview we just saw,",
+      "start": 852.18,
+      "duration": 2.01
+    },
+    {
+      "text": "or supporting pane layout.",
+      "start": 854.19,
+      "duration": 2.32
+    },
+    {
+      "text": "And you can fit your\nexisting app code",
+      "start": 856.51,
+      "duration": 2.54
+    },
+    {
+      "text": "into those layout structures.",
+      "start": 859.05,
+      "duration": 1.72
+    },
+    {
+      "text": "And we try to handle some\nof the lifting of resizing",
+      "start": 860.77,
+      "duration": 3.68
+    },
+    {
+      "text": "and navigation for you.",
+      "start": 864.45,
+      "duration": 1.95
+    },
+    {
+      "text": "We want you just to focus on\nhow your app looks and feels.",
+      "start": 866.4,
+      "duration": 4.5
+    },
+    {
+      "text": "Let's look at some of\nthe pieces from the demo.",
+      "start": 870.9,
+      "duration": 4.08
+    },
+    {
+      "text": "So if you're not\nusing Navigation 3--",
+      "start": 874.98,
+      "duration": 2.11
+    },
+    {
+      "text": "we actually added\nNavigation 3 into Socialite.",
+      "start": 877.09,
+      "duration": 2.65
+    },
+    {
+      "text": "But if you're not\nusing Navigation 3,",
+      "start": 879.74,
+      "duration": 2.57
+    },
+    {
+      "text": "and you wanted to use\nthe Compose adaptive",
+      "start": 882.31,
+      "duration": 2.19
+    },
+    {
+      "text": "library directly, this\nis how you go about it.",
+      "start": 884.5,
+      "duration": 2.92
+    },
+    {
+      "text": "You set up a List-Detail\npane scaffold.",
+      "start": 887.42,
+      "duration": 3.05
+    },
+    {
+      "text": "And then you populate the\nList pane and Detail pane",
+      "start": 890.47,
+      "duration": 3.45
+    },
+    {
+      "text": "with your composables.",
+      "start": 893.92,
+      "duration": 2.25
+    },
+    {
+      "text": "And that's a lot of\nthe work for you.",
+      "start": 896.17,
+      "duration": 2.38
+    },
+    {
+      "text": "We should hopefully\nhandle that resizing.",
+      "start": 898.55,
+      "duration": 3.35
+    },
+    {
+      "text": "Let's look at adding\npane extension.",
+      "start": 901.9,
+      "duration": 1.87
+    },
+    {
+      "text": "This was just released.",
+      "start": 903.77,
+      "duration": 1.8
+    },
+    {
+      "text": "That's if you have, between\nthe List-Detail pane, a handle",
+      "start": 905.57,
+      "duration": 3.23
+    },
+    {
+      "text": "to drag back and forth and set\nthat width just where you want",
+      "start": 908.8,
+      "duration": 3.66
+    },
+    {
+      "text": "and have it remembered\nacross folds,",
+      "start": 912.46,
+      "duration": 2.98
+    },
+    {
+      "text": "flips, turns, and restarts.",
+      "start": 915.44,
+      "duration": 3.83
+    },
+    {
+      "text": "One production app that's using\nthe Compose adaptive library",
+      "start": 919.27,
+      "duration": 3.12
+    },
+    {
+      "text": "today is the Google Play store.",
+      "start": 922.39,
+      "duration": 1.81
+    },
+    {
+      "text": "So here, you can see that\npane expansion in action.",
+      "start": 924.2,
+      "duration": 7.327
+    },
+    {
+      "text": "ALEX VANYO: All right,\nlet's talk about--",
+      "start": 931.527,
+      "duration": 1.708
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 933.235,
+      "duration": 0.675
+    },
+    {
+      "text": "EMILIE ROBERTS: Yes!",
+      "start": 933.91,
+      "duration": 1.35
+    },
+    {
+      "text": "Yes!",
+      "start": 935.26,
+      "duration": 2.6
+    },
+    {
+      "text": "ALEX VANYO: Let's talk\nabout Navigation 3.",
+      "start": 937.86,
+      "duration": 1.75
+    },
+    {
+      "text": "You may have heard\nthat we just released",
+      "start": 939.61,
+      "duration": 1.94
+    },
+    {
+      "text": "Navigation 3 library in alpha.",
+      "start": 941.55,
+      "duration": 1.78
+    },
+    {
+      "text": "And it's built to integrate with\nthese Compose adaptive layouts.",
+      "start": 943.33,
+      "duration": 3.09
+    },
+    {
+      "text": "App navigation has always been\na tricky part of app design.",
+      "start": 946.42,
+      "duration": 2.73
+    },
+    {
+      "text": "And the new updates\nmake it easier",
+      "start": 949.15,
+      "duration": 1.7
+    },
+    {
+      "text": "to find user journeys\nacross all of your screens",
+      "start": 950.85,
+      "duration": 2.34
+    },
+    {
+      "text": "with less boilerplate.",
+      "start": 953.19,
+      "duration": 1.33
+    },
+    {
+      "text": "So here's an example\nof how it helps.",
+      "start": 954.52,
+      "duration": 2.6
+    },
+    {
+      "text": "So at smaller window\nsizes, like phones,",
+      "start": 957.12,
+      "duration": 2.38
+    },
+    {
+      "text": "it is likely that\nyour Lists and Detail",
+      "start": 959.5,
+      "duration": 1.7
+    },
+    {
+      "text": "panes are separate\ndestinations, so you're going",
+      "start": 961.2,
+      "duration": 2.91
+    },
+    {
+      "text": "to display them separately.",
+      "start": 964.11,
+      "duration": 1.95
+    },
+    {
+      "text": "This makes sense.",
+      "start": 966.06,
+      "duration": 1.24
+    },
+    {
+      "text": "But when you have enough\nwindow space to show both,",
+      "start": 967.3,
+      "duration": 3.35
+    },
+    {
+      "text": "you want to show the list\nand detail at the same time.",
+      "start": 970.65,
+      "duration": 2.65
+    },
+    {
+      "text": "But your navigation\nflow kind of gets stuck.",
+      "start": 973.3,
+      "duration": 3.29
+    },
+    {
+      "text": "Our previous recommendation\nwith Navigation 2",
+      "start": 976.59,
+      "duration": 2.4
+    },
+    {
+      "text": "and the adaptive libraries was\nto combine your list and detail",
+      "start": 978.99,
+      "duration": 3.0
+    },
+    {
+      "text": "destinations into a\nsingle, larger destination.",
+      "start": 981.99,
+      "duration": 2.74
+    },
+    {
+      "text": "And then that one\ncould show one or both,",
+      "start": 984.73,
+      "duration": 2.49
+    },
+    {
+      "text": "depending on the window size.",
+      "start": 987.22,
+      "duration": 1.61
+    },
+    {
+      "text": "This works, but it requires\nrefactoring to your navigation",
+      "start": 988.83,
+      "duration": 3.78
+    },
+    {
+      "text": "setup, and it's\nnot very intuitive.",
+      "start": 992.61,
+      "duration": 2.21
+    },
+    {
+      "text": "So based on your\nfeedback, now showing",
+      "start": 994.82,
+      "duration": 2.87
+    },
+    {
+      "text": "more than one pane at a time\nis a foundational principle",
+      "start": 997.69,
+      "duration": 2.91
+    },
+    {
+      "text": "in the library.",
+      "start": 1000.6,
+      "duration": 1.193
+    },
+    {
+      "text": "What this means\nis that you do not",
+      "start": 1001.793,
+      "duration": 1.417
+    },
+    {
+      "text": "have to change your\nnavigation destination",
+      "start": 1003.21,
+      "duration": 2.07
+    },
+    {
+      "text": "setup if you have separate\nlists and detail destinations.",
+      "start": 1005.28,
+      "duration": 3.03
+    },
+    {
+      "text": "Instead, you can modify\nthe navigation setup",
+      "start": 1008.31,
+      "duration": 2.49
+    },
+    {
+      "text": "to be capable of rendering\nmultiple destinations",
+      "start": 1010.8,
+      "duration": 3.0
+    },
+    {
+      "text": "at once if and\nwhen space allows.",
+      "start": 1013.8,
+      "duration": 3.16
+    },
+    {
+      "text": "And this also helps drive\npredictive back support",
+      "start": 1016.96,
+      "duration": 2.78
+    },
+    {
+      "text": "between destinations.",
+      "start": 1019.74,
+      "duration": 1.71
+    },
+    {
+      "text": "So let's look at a preview of\nwhat that looks like in code.",
+      "start": 1021.45,
+      "duration": 2.919
+    },
+    {
+      "text": "And this drove the\ndemo you just saw.",
+      "start": 1024.369,
+      "duration": 2.21
+    },
+    {
+      "text": "When setting up the\ndestinations with Navigation 3,",
+      "start": 1026.579,
+      "duration": 2.411
+    },
+    {
+      "text": "instead of combining\nthe destinations,",
+      "start": 1028.99,
+      "duration": 1.68
+    },
+    {
+      "text": "we indicate how navigation\nshould treat our pane",
+      "start": 1030.67,
+      "duration": 3.409
+    },
+    {
+      "text": "through metadata.",
+      "start": 1034.079,
+      "duration": 1.03
+    },
+    {
+      "text": "So is this composable a\nList or is it a Detail pane?",
+      "start": 1035.109,
+      "duration": 2.97
+    },
+    {
+      "text": "So here, we have the chats list,\nwhich showed the list of chats,",
+      "start": 1038.079,
+      "duration": 2.996
+    },
+    {
+      "text": "and the chat\nthread, which showed",
+      "start": 1041.075,
+      "duration": 1.375
+    },
+    {
+      "text": "the detail for a specific chat.",
+      "start": 1042.45,
+      "duration": 2.76
+    },
+    {
+      "text": "Here, then we add in\nthe metadata indicating",
+      "start": 1045.21,
+      "duration": 2.609
+    },
+    {
+      "text": "that the chat list should\nbe considered a list",
+      "start": 1047.819,
+      "duration": 2.231
+    },
+    {
+      "text": "and the chat thread should\nbe considered a detail.",
+      "start": 1050.05,
+      "duration": 2.4
+    },
+    {
+      "text": "And this allows configuring\nhow panes are displayed.",
+      "start": 1052.45,
+      "duration": 2.36
+    },
+    {
+      "text": "And this is actually how\nwe use the Compose adaptive",
+      "start": 1054.81,
+      "duration": 2.57
+    },
+    {
+      "text": "library in the demo.",
+      "start": 1057.38,
+      "duration": 1.24
+    },
+    {
+      "text": "We used an integration\nwith Navigation 3",
+      "start": 1058.62,
+      "duration": 2.12
+    },
+    {
+      "text": "that's available\nin snapshots today.",
+      "start": 1060.74,
+      "duration": 2.418
+    },
+    {
+      "text": "Just a note, we're still in\nearly stages of development",
+      "start": 1063.158,
+      "duration": 2.292
+    },
+    {
+      "text": "here.",
+      "start": 1065.45,
+      "duration": 0.5
+    },
+    {
+      "text": "So these exact API calls might\nchange based on your feedback.",
+      "start": 1065.95,
+      "duration": 3.29
+    },
+    {
+      "text": "And that's a call to all of you.",
+      "start": 1069.24,
+      "duration": 1.59
+    },
+    {
+      "text": "Please give us feedback on how\nthese APIs might work for you.",
+      "start": 1070.83,
+      "duration": 2.542
+    },
+    {
+      "text": "And let us know if there\nare any tweaks that we",
+      "start": 1073.372,
+      "duration": 1.958
+    },
+    {
+      "text": "can do to make it better\nand make it easier",
+      "start": 1075.33,
+      "duration": 1.94
+    },
+    {
+      "text": "for you to build your apps.",
+      "start": 1077.27,
+      "duration": 1.325
+    },
+    {
+      "text": "EMILIE ROBERTS: So in Compose\nadaptive library 1.2, which",
+      "start": 1082.49,
+      "duration": 3.03
+    },
+    {
+      "text": "is now in alpha, we've added two\nnew pane adaptation strategies,",
+      "start": 1085.52,
+      "duration": 5.31
+    },
+    {
+      "text": "levitate and reflow.",
+      "start": 1090.83,
+      "duration": 3.63
+    },
+    {
+      "text": "Let's say I have an app\nwith an extra info panel",
+      "start": 1094.46,
+      "duration": 3.24
+    },
+    {
+      "text": "that I would show.",
+      "start": 1097.7,
+      "duration": 0.9
+    },
+    {
+      "text": "On a wide screen, I normally\nshow that Info panel over",
+      "start": 1098.6,
+      "duration": 3.48
+    },
+    {
+      "text": "on the side.",
+      "start": 1102.08,
+      "duration": 0.97
+    },
+    {
+      "text": "But on a phone-size screen, I\nwant to surface it to the user,",
+      "start": 1103.05,
+      "duration": 5.19
+    },
+    {
+      "text": "but I don't want to take\nup the whole screen.",
+      "start": 1108.24,
+      "duration": 2.22
+    },
+    {
+      "text": "Maybe I even want\nto really make it",
+      "start": 1110.46,
+      "duration": 1.83
+    },
+    {
+      "text": "pop to make sure the user's\nattention is grabbed by it.",
+      "start": 1112.29,
+      "duration": 2.89
+    },
+    {
+      "text": "So levitate allows\nyou to take an app",
+      "start": 1115.18,
+      "duration": 2.93
+    },
+    {
+      "text": "and levitate it up to a\nvertical level in a dialog",
+      "start": 1118.11,
+      "duration": 4.5
+    },
+    {
+      "text": "window, or also something\nlike a bottom sheet type",
+      "start": 1122.61,
+      "duration": 5.85
+    },
+    {
+      "text": "implementation.",
+      "start": 1128.46,
+      "duration": 1.77
+    },
+    {
+      "text": "So here's the code for that.",
+      "start": 1130.23,
+      "duration": 1.9
+    },
+    {
+      "text": "We're going to take\nthat extra pane.",
+      "start": 1132.13,
+      "duration": 1.68
+    },
+    {
+      "text": "And the adaptation strategy\nis to levitate it up",
+      "start": 1133.81,
+      "duration": 3.44
+    },
+    {
+      "text": "into a dialog window that\nfloats on top of other content.",
+      "start": 1137.25,
+      "duration": 3.8
+    },
+    {
+      "text": "I'm only levitating in the\nsituation where I normally",
+      "start": 1143.94,
+      "duration": 3.96
+    },
+    {
+      "text": "show a single pane only, so a\nportrait-type narrower screen.",
+      "start": 1147.9,
+      "duration": 4.45
+    },
+    {
+      "text": "I can also set a scrim\nthat will slightly",
+      "start": 1152.35,
+      "duration": 3.05
+    },
+    {
+      "text": "blur the underlying\nbackground content.",
+      "start": 1155.4,
+      "duration": 3.18
+    },
+    {
+      "text": "If I'd prefer a bottom\nsheet implementation that",
+      "start": 1158.58,
+      "duration": 2.46
+    },
+    {
+      "text": "pulls up over top of\nthat, I can do that, too.",
+      "start": 1161.04,
+      "duration": 2.89
+    },
+    {
+      "text": "I just set the alignment\nand make it draggable.",
+      "start": 1163.93,
+      "duration": 4.52
+    },
+    {
+      "text": "So what if I have the\nsame kind of situation.",
+      "start": 1168.45,
+      "duration": 2.27
+    },
+    {
+      "text": "I have an extra Info pane,\nbut on a narrower screen,",
+      "start": 1170.72,
+      "duration": 3.32
+    },
+    {
+      "text": "I maybe don't want\nit to float right up",
+      "start": 1174.04,
+      "duration": 2.25
+    },
+    {
+      "text": "and grab too much of\nthe user's attention.",
+      "start": 1176.29,
+      "duration": 2.47
+    },
+    {
+      "text": "Well, reflow allows you to\ntake content and specify",
+      "start": 1178.76,
+      "duration": 4.64
+    },
+    {
+      "text": "how they're organized next to\neach other on a narrower screen.",
+      "start": 1183.4,
+      "duration": 4.47
+    },
+    {
+      "text": "So here, I'll take\nthat extra pane",
+      "start": 1187.87,
+      "duration": 2.16
+    },
+    {
+      "text": "and reflow it underneath\nthe Detail pane.",
+      "start": 1190.03,
+      "duration": 3.87
+    },
+    {
+      "text": "Here's the code.",
+      "start": 1193.9,
+      "duration": 1.24
+    },
+    {
+      "text": "So I'm setting the\nreflow strategy.",
+      "start": 1195.14,
+      "duration": 2.58
+    },
+    {
+      "text": "And I'm saying that\nextra pane should reflow",
+      "start": 1197.72,
+      "duration": 3.38
+    },
+    {
+      "text": "underneath the Detail pane.",
+      "start": 1201.1,
+      "duration": 3.709
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1204.809,
+      "duration": 1.391
+    },
+    {
+      "text": "Wow.",
+      "start": 1206.2,
+      "duration": 0.63
+    },
+    {
+      "text": "Yes.",
+      "start": 1206.83,
+      "duration": 2.34
+    },
+    {
+      "text": "Awesome.",
+      "start": 1209.17,
+      "duration": 1.0
+    },
+    {
+      "text": "And what about Compose and XR?",
+      "start": 1210.17,
+      "duration": 3.3
+    },
+    {
+      "text": "So there's a cool strategy\nhere in the Compose adaptive",
+      "start": 1213.47,
+      "duration": 4.01
+    },
+    {
+      "text": "libraries.",
+      "start": 1217.48,
+      "duration": 2.04
+    },
+    {
+      "text": "XR component overrides.",
+      "start": 1219.52,
+      "duration": 1.93
+    },
+    {
+      "text": "You see how the Navigation rail\ngets pulled out into an orbiter?",
+      "start": 1221.45,
+      "duration": 4.68
+    },
+    {
+      "text": "The Mail, Chat, Spaces,\nand the List-Detail panes",
+      "start": 1226.13,
+      "duration": 3.63
+    },
+    {
+      "text": "get pulled out into\nspatialized panes.",
+      "start": 1229.76,
+      "duration": 2.94
+    },
+    {
+      "text": "To enable it, you wrap your\napp in Enable XR Component",
+      "start": 1232.7,
+      "duration": 4.26
+    },
+    {
+      "text": "Overrides.",
+      "start": 1236.96,
+      "duration": 0.91
+    },
+    {
+      "text": "And when your app transitions\nbetween 2D and 3D,",
+      "start": 1237.87,
+      "duration": 3.35
+    },
+    {
+      "text": "the overrides do the rest,\nbuilt into the Compose adaptive",
+      "start": 1241.22,
+      "duration": 3.27
+    },
+    {
+      "text": "library.",
+      "start": 1244.49,
+      "duration": 1.77
+    },
+    {
+      "text": "So for full details on that and\nother Compose approaches in XR,",
+      "start": 1246.26,
+      "duration": 4.15
+    },
+    {
+      "text": "check out this recorded talk.",
+      "start": 1250.41,
+      "duration": 3.38
+    },
+    {
+      "text": "And before moving on,\nwe've discussed a bunch",
+      "start": 1253.79,
+      "duration": 2.79
+    },
+    {
+      "text": "of powerful coding APIs.",
+      "start": 1256.58,
+      "duration": 2.08
+    },
+    {
+      "text": "But what about the\ndesign side of things?",
+      "start": 1258.66,
+      "duration": 2.19
+    },
+    {
+      "text": "I recognize at least one\ndesigner in the room.",
+      "start": 1260.85,
+      "duration": 2.91
+    },
+    {
+      "text": "I'm sure there's more.",
+      "start": 1263.76,
+      "duration": 1.82
+    },
+    {
+      "text": "For that, how to build\nawesome adaptive experiences,",
+      "start": 1265.58,
+      "duration": 3.97
+    },
+    {
+      "text": "check out this recorded talk.",
+      "start": 1269.55,
+      "duration": 1.72
+    },
+    {
+      "text": "ALEX VANYO: So let's\ntalk a bit more",
+      "start": 1273.89,
+      "duration": 1.5
+    },
+    {
+      "text": "about how Jetpack Compose helps\nyou to build adaptive apps.",
+      "start": 1275.39,
+      "duration": 3.13
+    },
+    {
+      "text": "Compose is built\nin layers, which",
+      "start": 1278.52,
+      "duration": 1.88
+    },
+    {
+      "text": "means that the runtime and\nfoundational libraries are",
+      "start": 1280.4,
+      "duration": 2.49
+    },
+    {
+      "text": "shared across Android surfaces.",
+      "start": 1282.89,
+      "duration": 2.26
+    },
+    {
+      "text": "That means that improvements\nto these libraries",
+      "start": 1285.15,
+      "duration": 2.02
+    },
+    {
+      "text": "around performance, testing,\npreview support, tooling,",
+      "start": 1287.17,
+      "duration": 3.1
+    },
+    {
+      "text": "they benefit every form factor.",
+      "start": 1290.27,
+      "duration": 3.17
+    },
+    {
+      "text": "Compose also has strong\ninput support out of the box.",
+      "start": 1293.44,
+      "duration": 2.775
+    },
+    {
+      "text": "Even if you haven't\ntested how your app works",
+      "start": 1296.215,
+      "duration": 1.875
+    },
+    {
+      "text": "with a stylus or mouse,\nyour users have been.",
+      "start": 1298.09,
+      "duration": 2.65
+    },
+    {
+      "text": "And this usually works\ngreat out of the box.",
+      "start": 1300.74,
+      "duration": 1.833
+    },
+    {
+      "text": "Because components like\nclickable and interaction",
+      "start": 1302.573,
+      "duration": 2.042
+    },
+    {
+      "text": "states, they handle\neach of the ways",
+      "start": 1304.615,
+      "duration": 1.515
+    },
+    {
+      "text": "that the users are\ninteracting with their device.",
+      "start": 1306.13,
+      "duration": 2.97
+    },
+    {
+      "text": "And we're working to\nimprove this further.",
+      "start": 1309.1,
+      "duration": 1.9
+    },
+    {
+      "text": "On our roadmap for\nCompose 1.9, we",
+      "start": 1311.0,
+      "duration": 2.21
+    },
+    {
+      "text": "are adding right-click\ncontext menus in addition",
+      "start": 1313.21,
+      "duration": 2.25
+    },
+    {
+      "text": "to enhanced functionality\nfor trackpad and mouse.",
+      "start": 1315.46,
+      "duration": 2.92
+    },
+    {
+      "text": "That also means that more\nmulti-finger gestures",
+      "start": 1318.38,
+      "duration": 2.175
+    },
+    {
+      "text": "are interpreted\nautomatically out of the box,",
+      "start": 1320.555,
+      "duration": 1.875
+    },
+    {
+      "text": "like triple-tapping\nto select a paragraph.",
+      "start": 1322.43,
+      "duration": 3.5
+    },
+    {
+      "text": "Another advantage of Compose is\nthat all of your layout logic",
+      "start": 1325.93,
+      "duration": 2.64
+    },
+    {
+      "text": "is in a single place\nusing Kotlin code.",
+      "start": 1328.57,
+      "duration": 2.31
+    },
+    {
+      "text": "When developing different\nlayouts for different window",
+      "start": 1330.88,
+      "duration": 2.25
+    },
+    {
+      "text": "sizes, you don't have to\nmaintain parallel layout XML",
+      "start": 1333.13,
+      "duration": 2.79
+    },
+    {
+      "text": "files and keep them in sync with\neach other when making changes.",
+      "start": 1335.92,
+      "duration": 3.58
+    },
+    {
+      "text": "Instead, logic can be done at\nruntime with normal Kotlin code",
+      "start": 1339.5,
+      "duration": 3.44
+    },
+    {
+      "text": "in composables.",
+      "start": 1342.94,
+      "duration": 2.83
+    },
+    {
+      "text": "Our recommended way to make\ntop-level layout decisions",
+      "start": 1345.77,
+      "duration": 3.09
+    },
+    {
+      "text": "is to use window\nsize classes, which",
+      "start": 1348.86,
+      "duration": 2.03
+    },
+    {
+      "text": "are a standardized set\nof breakpoints that",
+      "start": 1350.89,
+      "duration": 1.75
+    },
+    {
+      "text": "bucket different window sizes.",
+      "start": 1352.64,
+      "duration": 1.622
+    },
+    {
+      "text": "You can calculate the\ncurrent window size",
+      "start": 1354.262,
+      "duration": 1.708
+    },
+    {
+      "text": "class using androidx.window and\nthe current size of the window",
+      "start": 1355.97,
+      "duration": 3.27
+    },
+    {
+      "text": "with local window info.",
+      "start": 1359.24,
+      "duration": 2.7
+    },
+    {
+      "text": "We define window size\nclasses individually",
+      "start": 1361.94,
+      "duration": 2.07
+    },
+    {
+      "text": "for both width and height.",
+      "start": 1364.01,
+      "duration": 1.98
+    },
+    {
+      "text": "For height, the window\nis an expanded height",
+      "start": 1365.99,
+      "duration": 1.89
+    },
+    {
+      "text": "at 900 DP or more, a medium\nheight at 480 DP or more,",
+      "start": 1367.88,
+      "duration": 3.58
+    },
+    {
+      "text": "and a compact height\nat anything smaller.",
+      "start": 1371.46,
+      "duration": 2.28
+    },
+    {
+      "text": "But because vertical\nscrolling is so ubiquitous,",
+      "start": 1373.74,
+      "duration": 2.72
+    },
+    {
+      "text": "width is usually more important.",
+      "start": 1376.46,
+      "duration": 2.01
+    },
+    {
+      "text": "Width works in a similar way,\nwith breakpoints for an expanded",
+      "start": 1378.47,
+      "duration": 3.84
+    },
+    {
+      "text": "width, 840 DP or higher, medium\nwidth at 600 DP or higher,",
+      "start": 1382.31,
+      "duration": 4.12
+    },
+    {
+      "text": "and compact width\nat anything smaller.",
+      "start": 1386.43,
+      "duration": 2.12
+    },
+    {
+      "text": "And for width, we are\nintroducing two new window size",
+      "start": 1388.55,
+      "duration": 3.09
+    },
+    {
+      "text": "classes, an Androidx\nwindow 1.5, that",
+      "start": 1391.64,
+      "duration": 3.09
+    },
+    {
+      "text": "subdivide the expanded\nwidth-size class bucket further",
+      "start": 1394.73,
+      "duration": 2.68
+    },
+    {
+      "text": "to help adapt layouts to window\nsizes common on large tablets",
+      "start": 1397.41,
+      "duration": 3.17
+    },
+    {
+      "text": "and desktop displays.",
+      "start": 1400.58,
+      "duration": 1.74
+    },
+    {
+      "text": "So when using these new\nwindow size classes,",
+      "start": 1402.32,
+      "duration": 2.46
+    },
+    {
+      "text": "a extra large width window size\nclass is at 600 DP or wider,",
+      "start": 1404.78,
+      "duration": 3.93
+    },
+    {
+      "text": "a large is then between\n1200 DP up to 1600 DP.",
+      "start": 1408.71,
+      "duration": 4.19
+    },
+    {
+      "text": "And that means that\nwhen you're using these,",
+      "start": 1412.9,
+      "duration": 2.14
+    },
+    {
+      "text": "expanded is now\nbetween 840 and 1200.",
+      "start": 1415.04,
+      "duration": 4.31
+    },
+    {
+      "text": "At a large window size\nclass width or bigger,",
+      "start": 1419.35,
+      "duration": 3.732
+    },
+    {
+      "text": "there's now enough\nhorizontal space",
+      "start": 1423.082,
+      "duration": 1.458
+    },
+    {
+      "text": "that the Navigation\nrail can expand",
+      "start": 1424.54,
+      "duration": 1.53
+    },
+    {
+      "text": "into a permanent\nNavigation drawer.",
+      "start": 1426.07,
+      "duration": 1.78
+    },
+    {
+      "text": "And at an extra large\nwindow size class width,",
+      "start": 1427.85,
+      "duration": 2.373
+    },
+    {
+      "text": "there's enough\nhorizontal space that you",
+      "start": 1430.223,
+      "duration": 1.667
+    },
+    {
+      "text": "can have three panes\nof content side",
+      "start": 1431.89,
+      "duration": 1.5
+    },
+    {
+      "text": "by side, depending on\nthe content within them.",
+      "start": 1433.39,
+      "duration": 3.54
+    },
+    {
+      "text": "So let's look at how to use\nthese new window size classes.",
+      "start": 1436.93,
+      "duration": 3.49
+    },
+    {
+      "text": "Here, we're choosing\nhow many panes",
+      "start": 1440.42,
+      "duration": 1.52
+    },
+    {
+      "text": "to show based on\nwhether the window",
+      "start": 1441.94,
+      "duration": 1.71
+    },
+    {
+      "text": "width is expanded or larger.",
+      "start": 1443.65,
+      "duration": 3.12
+    },
+    {
+      "text": "To show three panes, an extra\nlarge width window size class,",
+      "start": 1446.77,
+      "duration": 3.1
+    },
+    {
+      "text": "the first step is to update the\nwindow size calculation to use",
+      "start": 1449.87,
+      "duration": 3.05
+    },
+    {
+      "text": "the new set of breakpoints.",
+      "start": 1452.92,
+      "duration": 1.84
+    },
+    {
+      "text": "And this step won't change\nan existing behavior",
+      "start": 1454.76,
+      "duration": 2.3
+    },
+    {
+      "text": "because the breakpoints\nact as cutoffs.",
+      "start": 1457.06,
+      "duration": 3.09
+    },
+    {
+      "text": "Then you can add a new branch\nusing that new extra large width",
+      "start": 1460.15,
+      "duration": 3.28
+    },
+    {
+      "text": "window size class breakpoint.",
+      "start": 1463.43,
+      "duration": 1.6
+    },
+    {
+      "text": "So now, when the window\nis at least 600 DP wide,",
+      "start": 1465.03,
+      "duration": 2.94
+    },
+    {
+      "text": "we'll show three\npanes instead of two.",
+      "start": 1467.97,
+      "duration": 3.89
+    },
+    {
+      "text": "When you're validating\nlayout logic like this,",
+      "start": 1471.86,
+      "duration": 2.15
+    },
+    {
+      "text": "you can use previews\nto get quick feedback",
+      "start": 1474.01,
+      "duration": 1.75
+    },
+    {
+      "text": "across a wide variety of\nsizes and aspect ratios.",
+      "start": 1475.76,
+      "duration": 3.31
+    },
+    {
+      "text": "For window-filling\nscreens, you can also",
+      "start": 1479.07,
+      "duration": 1.79
+    },
+    {
+      "text": "specify different\ndevices by name",
+      "start": 1480.86,
+      "duration": 1.8
+    },
+    {
+      "text": "to see their respective sizes\nand also their inset values.",
+      "start": 1482.66,
+      "duration": 4.56
+    },
+    {
+      "text": "For automated testing,\nscreenshot tests",
+      "start": 1487.22,
+      "duration": 1.92
+    },
+    {
+      "text": "allow verifying visuals\nacross different window sizes,",
+      "start": 1489.14,
+      "duration": 2.77
+    },
+    {
+      "text": "both for smaller components\nand more complex full-window",
+      "start": 1491.91,
+      "duration": 3.02
+    },
+    {
+      "text": "layouts.",
+      "start": 1494.93,
+      "duration": 1.86
+    },
+    {
+      "text": "And for instrumented\nbehavior tests,",
+      "start": 1496.79,
+      "duration": 2.08
+    },
+    {
+      "text": "you can use device configuration\noverride to locally override",
+      "start": 1498.87,
+      "duration": 3.26
+    },
+    {
+      "text": "many configuration values\nto simulate behavior",
+      "start": 1502.13,
+      "duration": 2.49
+    },
+    {
+      "text": "on different window\nsizes, different font",
+      "start": 1504.62,
+      "duration": 1.74
+    },
+    {
+      "text": "scales, different\nlayout directions,",
+      "start": 1506.36,
+      "duration": 1.68
+    },
+    {
+      "text": "without having to adjust\ndevice settings from the test",
+      "start": 1508.04,
+      "duration": 3.13
+    },
+    {
+      "text": "or run your tests across a\nsuite of different emulators.",
+      "start": 1511.17,
+      "duration": 3.41
+    },
+    {
+      "text": "And another device configuration\noverride you can use",
+      "start": 1514.58,
+      "duration": 2.25
+    },
+    {
+      "text": "is window insets.",
+      "start": 1516.83,
+      "duration": 1.39
+    },
+    {
+      "text": "This allows you to provide\na fake window insets",
+      "start": 1518.22,
+      "duration": 2.13
+    },
+    {
+      "text": "value to help validate\nyour layouts and behavior",
+      "start": 1520.35,
+      "duration": 2.76
+    },
+    {
+      "text": "for different amounts of insets\nas your app goes edge to edge.",
+      "start": 1523.11,
+      "duration": 5.19
+    },
+    {
+      "text": "New Android Studio\ntools can also",
+      "start": 1528.3,
+      "duration": 2.052
+    },
+    {
+      "text": "help check how your\napp is behaving",
+      "start": 1530.352,
+      "duration": 1.458
+    },
+    {
+      "text": "across each of the environments\nthat your app is being used in.",
+      "start": 1531.81,
+      "duration": 2.625
+    },
+    {
+      "text": "Journeys with Gemini, available\nin Android Studio Narwhal",
+      "start": 1534.435,
+      "duration": 2.655
+    },
+    {
+      "text": "Feature Drop, allows defining\ntests using natural language",
+      "start": 1537.09,
+      "duration": 3.15
+    },
+    {
+      "text": "instead of creating\nand maintaining",
+      "start": 1540.24,
+      "duration": 1.56
+    },
+    {
+      "text": "tests written using multiple\ncomplex testing frameworks.",
+      "start": 1541.8,
+      "duration": 5.07
+    },
+    {
+      "text": "Here, we use the\nnatural language",
+      "start": 1546.87,
+      "duration": 1.59
+    },
+    {
+      "text": "to say what we want to do.",
+      "start": 1548.46,
+      "duration": 1.18
+    },
+    {
+      "text": "And the execution taps\non the Plus button",
+      "start": 1549.64,
+      "duration": 1.91
+    },
+    {
+      "text": "and the Accessibility card.",
+      "start": 1551.55,
+      "duration": 1.39
+    },
+    {
+      "text": "And then Journeys with\nGemini interprets the request",
+      "start": 1552.94,
+      "duration": 2.42
+    },
+    {
+      "text": "and makes sure the\noutput matches.",
+      "start": 1555.36,
+      "duration": 2.04
+    },
+    {
+      "text": "And if it doesn't,\nthe test fails.",
+      "start": 1557.4,
+      "duration": 2.52
+    },
+    {
+      "text": "Because these journeys work\ntowards achieving specific goals",
+      "start": 1559.92,
+      "duration": 3.03
+    },
+    {
+      "text": "and validate that flows in\nyour app can be accomplished,",
+      "start": 1562.95,
+      "duration": 2.56
+    },
+    {
+      "text": "they can be more robust for\ndifferent window sizes and form",
+      "start": 1565.51,
+      "duration": 2.6
+    },
+    {
+      "text": "factors.",
+      "start": 1568.11,
+      "duration": 1.03
+    },
+    {
+      "text": "So for example, here, where\nwe have a multi-pane setup,",
+      "start": 1569.14,
+      "duration": 3.0
+    },
+    {
+      "text": "the exact actions\nthe user might take",
+      "start": 1572.14,
+      "duration": 1.85
+    },
+    {
+      "text": "might be slightly different\ndepending on your layout.",
+      "start": 1573.99,
+      "duration": 3.1
+    },
+    {
+      "text": "So instead of having to\nencode those differences very",
+      "start": 1577.09,
+      "duration": 2.71
+    },
+    {
+      "text": "specifically in your\ntests, and then maybe have",
+      "start": 1579.8,
+      "duration": 2.49
+    },
+    {
+      "text": "different tests for\ndifferent window sizes,",
+      "start": 1582.29,
+      "duration": 2.35
+    },
+    {
+      "text": "these higher-level\nobjectives that you",
+      "start": 1584.64,
+      "duration": 1.76
+    },
+    {
+      "text": "can declare with\nnatural language",
+      "start": 1586.4,
+      "duration": 1.44
+    },
+    {
+      "text": "are closer to what the user\nis actually interested in.",
+      "start": 1587.84,
+      "duration": 2.83
+    },
+    {
+      "text": "Can I find my way to a\nspecific part of the app",
+      "start": 1590.67,
+      "duration": 2.21
+    },
+    {
+      "text": "and then do something?",
+      "start": 1592.88,
+      "duration": 2.7
+    },
+    {
+      "text": "This new type of testing can\nbe a great additional tool",
+      "start": 1595.58,
+      "duration": 2.37
+    },
+    {
+      "text": "in your testing\ntoolbelt to validate",
+      "start": 1597.95,
+      "duration": 1.65
+    },
+    {
+      "text": "your features everywhere\nyour users are using them.",
+      "start": 1599.6,
+      "duration": 4.5
+    },
+    {
+      "text": "So we've looked at how the\nCompose adaptive library can",
+      "start": 1604.1,
+      "duration": 2.31
+    },
+    {
+      "text": "help structure your app flows.",
+      "start": 1606.41,
+      "duration": 1.633
+    },
+    {
+      "text": "And we've introduced some new\ntools in Compose and Android",
+      "start": 1608.043,
+      "duration": 2.417
+    },
+    {
+      "text": "Studio.",
+      "start": 1610.46,
+      "duration": 0.99
+    },
+    {
+      "text": "Let's now cover some important\nconsiderations for all apps,",
+      "start": 1611.45,
+      "duration": 2.95
+    },
+    {
+      "text": "including those important\nchanges coming in Android 16.",
+      "start": 1614.4,
+      "duration": 2.85
+    },
+    {
+      "text": "So let's go through\navailability, input,",
+      "start": 1617.25,
+      "duration": 2.48
+    },
+    {
+      "text": "and resizability.",
+      "start": 1619.73,
+      "duration": 3.51
+    },
+    {
+      "text": "EMILIE ROBERTS: OK, let's\nstart with availability,",
+      "start": 1623.24,
+      "duration": 2.77
+    },
+    {
+      "text": "something near and dear\nto my heart on ChromeOS.",
+      "start": 1626.01,
+      "duration": 2.85
+    },
+    {
+      "text": "So why wouldn't an\napp be available?",
+      "start": 1628.86,
+      "duration": 3.41
+    },
+    {
+      "text": "It's one of the easiest ways\nto lose potential users.",
+      "start": 1632.27,
+      "duration": 3.66
+    },
+    {
+      "text": "And it often happens if\nyou declare a feature",
+      "start": 1635.93,
+      "duration": 3.19
+    },
+    {
+      "text": "as required when your app\ndoesn't actually need it.",
+      "start": 1639.12,
+      "duration": 3.22
+    },
+    {
+      "text": "So any features\nlike GPS, camera,",
+      "start": 1642.34,
+      "duration": 4.52
+    },
+    {
+      "text": "telephony, that your app\ndoesn't strictly need,",
+      "start": 1646.86,
+      "duration": 3.22
+    },
+    {
+      "text": "if it's declared in\nyour Android manifest,",
+      "start": 1650.08,
+      "duration": 2.88
+    },
+    {
+      "text": "it won't show up on the\nstore on certain devices.",
+      "start": 1652.96,
+      "duration": 3.95
+    },
+    {
+      "text": "So, for example--\noops, I missed a line.",
+      "start": 1656.91,
+      "duration": 3.96
+    },
+    {
+      "text": "Some of these can also\nbe implicitly required",
+      "start": 1660.87,
+      "duration": 3.93
+    },
+    {
+      "text": "through dependencies on other\nfeatures or permissions.",
+      "start": 1664.8,
+      "duration": 4.17
+    },
+    {
+      "text": "So let's say I have\na social media app.",
+      "start": 1668.97,
+      "duration": 2.1
+    },
+    {
+      "text": "And I want to take some photos.",
+      "start": 1671.07,
+      "duration": 2.35
+    },
+    {
+      "text": "And maybe I want\nto use GPS to see",
+      "start": 1673.42,
+      "duration": 1.76
+    },
+    {
+      "text": "where a user is to surface\nlocal events in the area.",
+      "start": 1675.18,
+      "duration": 3.37
+    },
+    {
+      "text": "No problem.",
+      "start": 1678.55,
+      "duration": 1.02
+    },
+    {
+      "text": "All I need to do is put\n\"Android camera\" and \"GPS\"",
+      "start": 1679.57,
+      "duration": 4.58
+    },
+    {
+      "text": "in the manifest.",
+      "start": 1684.15,
+      "duration": 0.93
+    },
+    {
+      "text": "And everything's great, right?",
+      "start": 1685.08,
+      "duration": 2.67
+    },
+    {
+      "text": "AUDIENCE: No.",
+      "start": 1687.75,
+      "duration": 0.75
+    },
+    {
+      "text": "EMILIE ROBERTS: No.",
+      "start": 1688.5,
+      "duration": 1.03
+    },
+    {
+      "text": "That's right.",
+      "start": 1689.53,
+      "duration": 1.08
+    },
+    {
+      "text": "That's not right at all.",
+      "start": 1690.61,
+      "duration": 1.74
+    },
+    {
+      "text": "This will make it only\navailable on devices",
+      "start": 1692.35,
+      "duration": 2.51
+    },
+    {
+      "text": "with a rear-facing camera or\nwith an internal GPS chip.",
+      "start": 1694.86,
+      "duration": 4.46
+    },
+    {
+      "text": "But the Chromebook there\nhas a front-facing camera.",
+      "start": 1699.32,
+      "duration": 3.96
+    },
+    {
+      "text": "It can get location information.",
+      "start": 1703.28,
+      "duration": 1.86
+    },
+    {
+      "text": "It'd be great for\nmy social media app.",
+      "start": 1705.14,
+      "duration": 2.01
+    },
+    {
+      "text": "But it's not going to\nshow up in the store.",
+      "start": 1707.15,
+      "duration": 1.95
+    },
+    {
+      "text": "So let's fix it.",
+      "start": 1709.1,
+      "duration": 1.91
+    },
+    {
+      "text": "See the difference here?",
+      "start": 1711.01,
+      "duration": 1.98
+    },
+    {
+      "text": "By adding \"required = false,\" we\nsay we'd still like to use that",
+      "start": 1712.99,
+      "duration": 3.69
+    },
+    {
+      "text": "hardware if it's there.",
+      "start": 1716.68,
+      "duration": 2.1
+    },
+    {
+      "text": "And if it's not, it's not\ngoing to block installation",
+      "start": 1718.78,
+      "duration": 3.15
+    },
+    {
+      "text": "or discoverability.",
+      "start": 1721.93,
+      "duration": 2.28
+    },
+    {
+      "text": "So the same goes for all\nhardware or software features.",
+      "start": 1724.21,
+      "duration": 2.83
+    },
+    {
+      "text": "Before making something\na hard requirement,",
+      "start": 1727.04,
+      "duration": 2.52
+    },
+    {
+      "text": "make sure your app\nabsolutely needs it.",
+      "start": 1729.56,
+      "duration": 2.49
+    },
+    {
+      "text": "So after this talk,\nI know all of you",
+      "start": 1732.05,
+      "duration": 2.48
+    },
+    {
+      "text": "are going to go out and\ncheck your Android manifests.",
+      "start": 1734.53,
+      "duration": 3.6
+    },
+    {
+      "text": "Yeah?",
+      "start": 1738.13,
+      "duration": 0.85
+    },
+    {
+      "text": "I heard some shouts\nof agreement.",
+      "start": 1738.98,
+      "duration": 2.0
+    },
+    {
+      "text": "Just to make sure that you're\nnot unintentionally excluding",
+      "start": 1740.98,
+      "duration": 4.44
+    },
+    {
+      "text": "some users.",
+      "start": 1745.42,
+      "duration": 1.38
+    },
+    {
+      "text": "And this is especially\nimportant for tablets, cars,",
+      "start": 1746.8,
+      "duration": 3.45
+    },
+    {
+      "text": "and Chromebooks.",
+      "start": 1750.25,
+      "duration": 1.44
+    },
+    {
+      "text": "Here's a doc link with\na little bit more info.",
+      "start": 1751.69,
+      "duration": 3.59
+    },
+    {
+      "text": "Input is another really\nimportant consideration",
+      "start": 1755.28,
+      "duration": 2.55
+    },
+    {
+      "text": "for these form factors.",
+      "start": 1757.83,
+      "duration": 2.28
+    },
+    {
+      "text": "Tablets that people carry\nin a protective case that",
+      "start": 1760.11,
+      "duration": 3.0
+    },
+    {
+      "text": "has a built-in\nkeyboard and touchpad,",
+      "start": 1763.11,
+      "duration": 2.26
+    },
+    {
+      "text": "or Chromebooks or Detachables\nare all great examples",
+      "start": 1765.37,
+      "duration": 4.31
+    },
+    {
+      "text": "of when your app needs\nto handle touch input one",
+      "start": 1769.68,
+      "duration": 2.04
+    },
+    {
+      "text": "second and then keyboard\nand trackpad input the next.",
+      "start": 1771.72,
+      "duration": 4.53
+    },
+    {
+      "text": "And stylus input is also\nmore common on these devices.",
+      "start": 1776.25,
+      "duration": 4.6
+    },
+    {
+      "text": "So for basic usage, just\nhandling mouse and touchpad",
+      "start": 1780.85,
+      "duration": 3.38
+    },
+    {
+      "text": "is going to get you\nbasically all the way there.",
+      "start": 1784.23,
+      "duration": 2.23
+    },
+    {
+      "text": "But there's a lot more\nyou can do with stylus.",
+      "start": 1786.46,
+      "duration": 2.78
+    },
+    {
+      "text": "And the new Ink API provides a\nreally rich, modularized library",
+      "start": 1789.24,
+      "duration": 5.31
+    },
+    {
+      "text": "with lots of features.",
+      "start": 1794.55,
+      "duration": 1.36
+    },
+    {
+      "text": "Use it to make your app stylus\nexperience a little bit richer",
+      "start": 1795.91,
+      "duration": 3.5
+    },
+    {
+      "text": "and more performant.",
+      "start": 1799.41,
+      "duration": 1.0
+    },
+    {
+      "text": "So check out the docs\nhere at the Ink-API.",
+      "start": 1800.41,
+      "duration": 3.98
+    },
+    {
+      "text": "ALEX VANYO: And finally,\nlet's talk about resizability.",
+      "start": 1807.78,
+      "duration": 3.04
+    },
+    {
+      "text": "So as we've talked and\nseen these new places where",
+      "start": 1810.82,
+      "duration": 2.89
+    },
+    {
+      "text": "apps are running, this is\nthe most important thread",
+      "start": 1813.71,
+      "duration": 2.61
+    },
+    {
+      "text": "for more general app behavior.",
+      "start": 1816.32,
+      "duration": 1.86
+    },
+    {
+      "text": "For example, in\ndesktop windowing,",
+      "start": 1818.18,
+      "duration": 1.75
+    },
+    {
+      "text": "both on a built-in display\nand on a connected display,",
+      "start": 1819.93,
+      "duration": 2.82
+    },
+    {
+      "text": "apps will be used in a fully\nfreeform windowing environment.",
+      "start": 1822.75,
+      "duration": 3.09
+    },
+    {
+      "text": "Users can multitask,\nmove windows around",
+      "start": 1825.84,
+      "duration": 2.45
+    },
+    {
+      "text": "to get something done, or\nget distracted while trying",
+      "start": 1828.29,
+      "duration": 3.12
+    },
+    {
+      "text": "to get something done.",
+      "start": 1831.41,
+      "duration": 1.15
+    },
+    {
+      "text": "And users expect those apps to\nreflow and reshape accordingly.",
+      "start": 1832.56,
+      "duration": 4.79
+    },
+    {
+      "text": "In XR, apps run in two\ndifferent modes, Home space",
+      "start": 1837.35,
+      "duration": 3.06
+    },
+    {
+      "text": "and Full space.",
+      "start": 1840.41,
+      "duration": 1.24
+    },
+    {
+      "text": "And in Home space, a user can\nmultitask with multiple apps",
+      "start": 1841.65,
+      "duration": 3.77
+    },
+    {
+      "text": "running in 2D window.",
+      "start": 1845.42,
+      "duration": 1.3
+    },
+    {
+      "text": "And you can think\nof this like running",
+      "start": 1846.72,
+      "duration": 1.6
+    },
+    {
+      "text": "a bunch of different apps in a\ndesktop windowing environment",
+      "start": 1848.32,
+      "duration": 2.5
+    },
+    {
+      "text": "that has infinite screen space.",
+      "start": 1850.82,
+      "duration": 1.84
+    },
+    {
+      "text": "And that similarity\nis no accident.",
+      "start": 1852.66,
+      "duration": 3.98
+    },
+    {
+      "text": "This user expectation that\napps can be resized arbitrarily",
+      "start": 1856.64,
+      "duration": 3.18
+    },
+    {
+      "text": "and support all aspect ratios\nis the core reason for one",
+      "start": 1859.82,
+      "duration": 2.88
+    },
+    {
+      "text": "of the biggest\nAndroid 16 changes.",
+      "start": 1862.7,
+      "duration": 2.05
+    },
+    {
+      "text": "The platform will\nno longer react",
+      "start": 1864.75,
+      "duration": 1.46
+    },
+    {
+      "text": "to restrictions for orientation,\nresizability, and aspect ratios.",
+      "start": 1866.21,
+      "duration": 4.71
+    },
+    {
+      "text": "Before Android 16,\nOEMs have already",
+      "start": 1870.92,
+      "duration": 2.49
+    },
+    {
+      "text": "implemented ways for users\nto override app aspect ratio",
+      "start": 1873.41,
+      "duration": 3.57
+    },
+    {
+      "text": "and orientation to meet\ntheir expectations.",
+      "start": 1876.98,
+      "duration": 2.877
+    },
+    {
+      "text": "Beginning in Android 16, we're\nmaking this a standard platform",
+      "start": 1879.857,
+      "duration": 2.583
+    },
+    {
+      "text": "behavior on large screens.",
+      "start": 1882.44,
+      "duration": 2.07
+    },
+    {
+      "text": "So starting in Android\n16, when targeting SDK 36,",
+      "start": 1884.51,
+      "duration": 3.76
+    },
+    {
+      "text": "restricting orientation,\naspect ratio,",
+      "start": 1888.27,
+      "duration": 2.0
+    },
+    {
+      "text": "and resizability will no\nlonger always be allowed.",
+      "start": 1890.27,
+      "duration": 3.63
+    },
+    {
+      "text": "On displays that are at least\n600 DP in both dimensions,",
+      "start": 1893.9,
+      "duration": 3.82
+    },
+    {
+      "text": "requests for any of the portrait\nor landscape orientation values",
+      "start": 1897.72,
+      "duration": 3.08
+    },
+    {
+      "text": "will be ignored.",
+      "start": 1900.8,
+      "duration": 1.12
+    },
+    {
+      "text": "And the activity will be given\nthe user's preferred orientation",
+      "start": 1901.92,
+      "duration": 2.81
+    },
+    {
+      "text": "anyway.",
+      "start": 1904.73,
+      "duration": 1.47
+    },
+    {
+      "text": "In addition, restrictions to\nresizability and aspect ratio",
+      "start": 1906.2,
+      "duration": 4.02
+    },
+    {
+      "text": "will also be ignored.",
+      "start": 1910.22,
+      "duration": 1.24
+    },
+    {
+      "text": "So this means that\nactivities will",
+      "start": 1911.46,
+      "duration": 1.67
+    },
+    {
+      "text": "be allowed to be\nany aspect ratio",
+      "start": 1913.13,
+      "duration": 1.56
+    },
+    {
+      "text": "and will be resizable\nin even more situations",
+      "start": 1914.69,
+      "duration": 2.52
+    },
+    {
+      "text": "than they were before.",
+      "start": 1917.21,
+      "duration": 2.28
+    },
+    {
+      "text": "This is a big change.",
+      "start": 1919.49,
+      "duration": 1.33
+    },
+    {
+      "text": "It means that your\napps will need",
+      "start": 1920.82,
+      "duration": 1.49
+    },
+    {
+      "text": "to have layouts that work for\nportrait and landscape windows",
+      "start": 1922.31,
+      "duration": 2.67
+    },
+    {
+      "text": "and everything in between,\nand support those size",
+      "start": 1924.98,
+      "duration": 2.49
+    },
+    {
+      "text": "changes at runtime.",
+      "start": 1927.47,
+      "duration": 1.27
+    },
+    {
+      "text": "So now, whenever you're\nbuilding a new app or screen,",
+      "start": 1928.74,
+      "duration": 2.51
+    },
+    {
+      "text": "build for both\norientations and anticipate",
+      "start": 1931.25,
+      "duration": 2.45
+    },
+    {
+      "text": "resizing from the beginning.",
+      "start": 1933.7,
+      "duration": 1.59
+    },
+    {
+      "text": "Using Compose, you can use\nthe latest tools and libraries",
+      "start": 1935.29,
+      "duration": 2.79
+    },
+    {
+      "text": "to build an adaptive forward\nway from the beginning.",
+      "start": 1938.08,
+      "duration": 2.59
+    },
+    {
+      "text": "And for existing apps,\nit is critical to revisit",
+      "start": 1940.67,
+      "duration": 2.36
+    },
+    {
+      "text": "any old assumptions you\nmight have about window size",
+      "start": 1943.03,
+      "duration": 2.67
+    },
+    {
+      "text": "and what orientations\nyou need to support.",
+      "start": 1945.7,
+      "duration": 2.17
+    },
+    {
+      "text": "Make sure to bring\nit up to date.",
+      "start": 1947.87,
+      "duration": 2.48
+    },
+    {
+      "text": "Some of the most common\nissues we've seen,",
+      "start": 1950.35,
+      "duration": 1.75
+    },
+    {
+      "text": "and users have\nalready seen these",
+      "start": 1952.1,
+      "duration": 1.46
+    },
+    {
+      "text": "when overriding apps today, are\nlayouts where components are cut",
+      "start": 1953.56,
+      "duration": 3.09
+    },
+    {
+      "text": "off, camera viewfinders\nthat are stretched or skewed",
+      "start": 1956.65,
+      "duration": 2.82
+    },
+    {
+      "text": "in strange ways, and\nlosing state when",
+      "start": 1959.47,
+      "duration": 2.4
+    },
+    {
+      "text": "resizing or rotation occurs.",
+      "start": 1961.87,
+      "duration": 2.165
+    },
+    {
+      "text": "So when you're\ntesting your apps,",
+      "start": 1964.035,
+      "duration": 1.375
+    },
+    {
+      "text": "in preparation for\ntargeting SDK 36,",
+      "start": 1965.41,
+      "duration": 2.68
+    },
+    {
+      "text": "make sure to check all\nthese different areas,",
+      "start": 1968.09,
+      "duration": 1.923
+    },
+    {
+      "text": "update your layouts, and make\nsure you're preserving state",
+      "start": 1970.013,
+      "duration": 2.417
+    },
+    {
+      "text": "correctly.",
+      "start": 1972.43,
+      "duration": 1.77
+    },
+    {
+      "text": "And because this\nis a large change,",
+      "start": 1974.2,
+      "duration": 1.66
+    },
+    {
+      "text": "we're doing a few\ndifferent things",
+      "start": 1975.86,
+      "duration": 1.417
+    },
+    {
+      "text": "to help achieve a\nsmooth transition.",
+      "start": 1977.277,
+      "duration": 2.033
+    },
+    {
+      "text": "So first, behavior remains\nunchanged for display",
+      "start": 1979.31,
+      "duration": 2.93
+    },
+    {
+      "text": "environments that are not\nsmall [INAUDIBLE] 600 DP.",
+      "start": 1982.24,
+      "duration": 2.7
+    },
+    {
+      "text": "So in particular, this means\nthat restricting orientation",
+      "start": 1984.94,
+      "duration": 2.99
+    },
+    {
+      "text": "will still work for most\nbuilt-in candybar phone displays",
+      "start": 1987.93,
+      "duration": 2.7
+    },
+    {
+      "text": "and the outer\ndisplays of foldables.",
+      "start": 1990.63,
+      "duration": 3.18
+    },
+    {
+      "text": "Second, we are giving a\ntemporary opt-out manifest flag",
+      "start": 1993.81,
+      "duration": 3.09
+    },
+    {
+      "text": "at both the application\nlevel and the activity level",
+      "start": 1996.9,
+      "duration": 2.61
+    },
+    {
+      "text": "that delays these changes taking\neffect until target SDK 37.",
+      "start": 1999.51,
+      "duration": 4.295
+    },
+    {
+      "text": "This allows for more time\nto plan for these changes",
+      "start": 2003.805,
+      "duration": 2.125
+    },
+    {
+      "text": "if you need it.",
+      "start": 2005.93,
+      "duration": 1.89
+    },
+    {
+      "text": "And third, users will\ncontinue to have the ability",
+      "start": 2007.82,
+      "duration": 2.49
+    },
+    {
+      "text": "to override app behavior.",
+      "start": 2010.31,
+      "duration": 1.81
+    },
+    {
+      "text": "This both gives\nusers an escape hatch",
+      "start": 2012.12,
+      "duration": 2.27
+    },
+    {
+      "text": "to disable these\nrestriction changes",
+      "start": 2014.39,
+      "duration": 2.16
+    },
+    {
+      "text": "and revert back to what the\napp is requesting, and also",
+      "start": 2016.55,
+      "duration": 2.97
+    },
+    {
+      "text": "gives the users a way--\ncontinues to give users a way",
+      "start": 2019.52,
+      "duration": 2.46
+    },
+    {
+      "text": "to force all these aspect\nratios and orientations anyway,",
+      "start": 2021.98,
+      "duration": 2.98
+    },
+    {
+      "text": "even if an app hasn't updated to\ntarget SDK 36 yet, or you have",
+      "start": 2024.96,
+      "duration": 3.98
+    },
+    {
+      "text": "and you're using the opt out.",
+      "start": 2028.94,
+      "duration": 3.06
+    },
+    {
+      "text": "And finally, these changes\nwill not apply to games.",
+      "start": 2032.0,
+      "duration": 3.09
+    },
+    {
+      "text": "Because so many games are\ndesigned for full screen",
+      "start": 2035.09,
+      "duration": 2.11
+    },
+    {
+      "text": "immersive or specific\ndevice orientations,",
+      "start": 2037.2,
+      "duration": 2.46
+    },
+    {
+      "text": "games are currently not opted\ninto this change by default.",
+      "start": 2039.66,
+      "duration": 3.15
+    },
+    {
+      "text": "This means that if your app\ncategory is Game in the Play",
+      "start": 2042.81,
+      "duration": 2.7
+    },
+    {
+      "text": "Store when using App bundles\nand Play-managed app signing,",
+      "start": 2045.51,
+      "duration": 2.919
+    },
+    {
+      "text": "or if you manually specify\nthe app category to Game",
+      "start": 2048.429,
+      "duration": 2.331
+    },
+    {
+      "text": "in the manifest, you are not\nimpacted by these changes",
+      "start": 2050.76,
+      "duration": 2.85
+    },
+    {
+      "text": "unless the users\nmanually opt in.",
+      "start": 2053.61,
+      "duration": 3.24
+    },
+    {
+      "text": "So in summary, make sure to\ntest your app on Android 16",
+      "start": 2056.85,
+      "duration": 3.27
+    },
+    {
+      "text": "thoroughly, both for\nthese changes as well",
+      "start": 2060.12,
+      "duration": 2.34
+    },
+    {
+      "text": "as the other Android\n16 changes, before you",
+      "start": 2062.46,
+      "duration": 2.13
+    },
+    {
+      "text": "update your target SDK version.",
+      "start": 2064.59,
+      "duration": 1.474
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2069.303,
+      "duration": 2.395
+    },
+    {
+      "text": "EMILIE ROBERTS: We got lucky.",
+      "start": 2073.802,
+      "duration": 1.208
+    },
+    {
+      "text": "This is the best audience.",
+      "start": 2075.01,
+      "duration": 1.2
+    },
+    {
+      "text": "This is awesome.",
+      "start": 2076.21,
+      "duration": 1.279
+    },
+    {
+      "text": "These are tough changes, so I'm\nglad you're enthusiastically",
+      "start": 2077.489,
+      "duration": 2.851
+    },
+    {
+      "text": "going to fix all that.",
+      "start": 2080.34,
+      "duration": 1.27
+    },
+    {
+      "text": "Thank you.",
+      "start": 2081.61,
+      "duration": 1.35
+    },
+    {
+      "text": "Yeah.",
+      "start": 2082.96,
+      "duration": 0.5
+    },
+    {
+      "text": "[LAUGHS]",
+      "start": 2083.46,
+      "duration": 1.77
+    },
+    {
+      "text": "So before we close\nout-- actually,",
+      "start": 2085.23,
+      "duration": 1.886
+    },
+    {
+      "text": "we're getting close to the end--",
+      "start": 2087.116,
+      "duration": 1.333
+    },
+    {
+      "text": "I want to talk a little\nbit more about games.",
+      "start": 2088.449,
+      "duration": 2.031
+    },
+    {
+      "text": "And the same things for\napps applies to games.",
+      "start": 2090.48,
+      "duration": 2.83
+    },
+    {
+      "text": "Games expect their\ngames and game engines",
+      "start": 2093.31,
+      "duration": 3.32
+    },
+    {
+      "text": "to seamlessly adapt and\nto be able to handle all",
+      "start": 2096.63,
+      "duration": 2.58
+    },
+    {
+      "text": "those configuration changes.",
+      "start": 2099.21,
+      "duration": 1.57
+    },
+    {
+      "text": "You really don't want to lose\nyour progress if you unfold",
+      "start": 2100.78,
+      "duration": 2.81
+    },
+    {
+      "text": "a foldable or rotate a tablet.",
+      "start": 2103.59,
+      "duration": 2.89
+    },
+    {
+      "text": "So we worked with Unity to help\nempower game developers to build",
+      "start": 2106.48,
+      "duration": 5.49
+    },
+    {
+      "text": "more adaptive experiences.",
+      "start": 2111.97,
+      "duration": 1.66
+    },
+    {
+      "text": "And we added enhanced\nconfiguration handling",
+      "start": 2113.63,
+      "duration": 2.45
+    },
+    {
+      "text": "into Unity 6.",
+      "start": 2116.08,
+      "duration": 1.33
+    },
+    {
+      "text": "There's APIs for handling\nthings like screen size,",
+      "start": 2117.41,
+      "duration": 3.62
+    },
+    {
+      "text": "aspect ratio, and\ndensity changes, which",
+      "start": 2121.03,
+      "duration": 3.0
+    },
+    {
+      "text": "can be a big deal if you\nplug in an external monitor",
+      "start": 2124.03,
+      "duration": 3.0
+    },
+    {
+      "text": "that we don't\nalways think about.",
+      "start": 2127.03,
+      "duration": 2.01
+    },
+    {
+      "text": "And you can do that right\nfrom within your game code.",
+      "start": 2129.04,
+      "duration": 3.3
+    },
+    {
+      "text": "We also created a\nUnity sample project",
+      "start": 2132.34,
+      "duration": 2.7
+    },
+    {
+      "text": "that can take you step by step\nfrom a completely unoptimized",
+      "start": 2135.04,
+      "duration": 4.17
+    },
+    {
+      "text": "game to add resizing\nsupport and adaptability,",
+      "start": 2139.21,
+      "duration": 3.37
+    },
+    {
+      "text": "and then even to add\nfoldable-specific features in.",
+      "start": 2142.58,
+      "duration": 3.45
+    },
+    {
+      "text": "So check it out there.",
+      "start": 2146.03,
+      "duration": 2.93
+    },
+    {
+      "text": "And other top games have used\nthe Jetpack Window Manager",
+      "start": 2148.96,
+      "duration": 4.41
+    },
+    {
+      "text": "library in their own engines to\nadd adaptive gaming experiences.",
+      "start": 2153.37,
+      "duration": 4.96
+    },
+    {
+      "text": "For example, \"Dungeon Hunter\n5,\" \"Asphalt Legends Unite,\"",
+      "start": 2158.33,
+      "duration": 3.48
+    },
+    {
+      "text": "\"Disney Speedstorm,\" which\nyou can play out there,",
+      "start": 2161.81,
+      "duration": 3.04
+    },
+    {
+      "text": "and \"Modern Combat 5\" added\na foldable tabletop posture",
+      "start": 2164.85,
+      "duration": 4.94
+    },
+    {
+      "text": "detection that gives you a split\nview handheld game console-like",
+      "start": 2169.79,
+      "duration": 5.58
+    },
+    {
+      "text": "experience, which\nis pretty cool.",
+      "start": 2175.37,
+      "duration": 2.46
+    },
+    {
+      "text": "And those types of adaptations\nlead to better business metrics.",
+      "start": 2177.83,
+      "duration": 4.81
+    },
+    {
+      "text": "For example, \"Asphalt\nLegends Unite\"",
+      "start": 2182.64,
+      "duration": 2.78
+    },
+    {
+      "text": "saw a 2x 30-day user retention\nversus users without a foldable",
+      "start": 2185.42,
+      "duration": 6.18
+    },
+    {
+      "text": "after they added this\nfoldable adaptation strategy.",
+      "start": 2191.6,
+      "duration": 7.273
+    },
+    {
+      "text": "ALEX VANYO: Let's take a look\nat some other great adaptive",
+      "start": 2198.873,
+      "duration": 2.417
+    },
+    {
+      "text": "apps that are following\nthese practices.",
+      "start": 2201.29,
+      "duration": 1.87
+    },
+    {
+      "text": "Luminar is an AI photo editing\napp just released for Android.",
+      "start": 2203.16,
+      "duration": 3.48
+    },
+    {
+      "text": "It's fun and full of\npowerful features.",
+      "start": 2206.64,
+      "duration": 2.04
+    },
+    {
+      "text": "It was written in Jetpack\nCompose from the ground up",
+      "start": 2208.68,
+      "duration": 2.24
+    },
+    {
+      "text": "in less than six months\nand is fully adaptive",
+      "start": 2210.92,
+      "duration": 2.01
+    },
+    {
+      "text": "across form factors.",
+      "start": 2212.93,
+      "duration": 1.92
+    },
+    {
+      "text": "Luminar also implements\nthe Tensor SDK to power",
+      "start": 2214.85,
+      "duration": 2.28
+    },
+    {
+      "text": "their AI tools for\non-device editing,",
+      "start": 2217.13,
+      "duration": 2.14
+    },
+    {
+      "text": "offering an\noffline-first approach.",
+      "start": 2219.27,
+      "duration": 4.09
+    },
+    {
+      "text": "EMILIE ROBERTS: And here's\nan app I love from Steinberg.",
+      "start": 2223.36,
+      "duration": 3.97
+    },
+    {
+      "text": "So you may have heard of Cubase,\nwhich is a well-known desktop",
+      "start": 2227.33,
+      "duration": 4.73
+    },
+    {
+      "text": "music production software.",
+      "start": 2232.06,
+      "duration": 1.81
+    },
+    {
+      "text": "Well, have you-- oh, I saw a\nbunch of nods, which is great.",
+      "start": 2233.87,
+      "duration": 3.39
+    },
+    {
+      "text": "And have you heard of Cubasis 3?",
+      "start": 2237.26,
+      "duration": 3.14
+    },
+    {
+      "text": "It is one of the most fullest\nfeatured digital audio work",
+      "start": 2240.4,
+      "duration": 5.22
+    },
+    {
+      "text": "stations available on mobile.",
+      "start": 2245.62,
+      "duration": 1.96
+    },
+    {
+      "text": "And it looks great\non large screens.",
+      "start": 2247.58,
+      "duration": 2.34
+    },
+    {
+      "text": "It has good MIDI support.",
+      "start": 2249.92,
+      "duration": 1.26
+    },
+    {
+      "text": "They have amazing\ninstrument packs",
+      "start": 2251.18,
+      "duration": 1.55
+    },
+    {
+      "text": "that you can really fine tune.",
+      "start": 2252.73,
+      "duration": 2.34
+    },
+    {
+      "text": "And of course, it looks\ngreat on Chromebooks.",
+      "start": 2255.07,
+      "duration": 2.73
+    },
+    {
+      "text": "And was anyone here in 2018?",
+      "start": 2257.8,
+      "duration": 4.47
+    },
+    {
+      "text": "Yes.",
+      "start": 2262.27,
+      "duration": 0.84
+    },
+    {
+      "text": "And I hope some folks\non the livestream, too.",
+      "start": 2263.11,
+      "duration": 2.77
+    },
+    {
+      "text": "You may remember when\nwe had a DJ on stage,",
+      "start": 2265.88,
+      "duration": 3.83
+    },
+    {
+      "text": "scratching and showing off\nChromeOS's MIDI support",
+      "start": 2269.71,
+      "duration": 2.67
+    },
+    {
+      "text": "and multi-audio capabilities\nwith Algoriddim's DJ app.",
+      "start": 2272.38,
+      "duration": 6.0
+    },
+    {
+      "text": "Well, they recently added\na foldable integration,",
+      "start": 2278.38,
+      "duration": 2.74
+    },
+    {
+      "text": "where when you put it\nin that Tabletop mode,",
+      "start": 2281.12,
+      "duration": 1.93
+    },
+    {
+      "text": "you get those turntables\njust where you want them",
+      "start": 2283.05,
+      "duration": 2.57
+    },
+    {
+      "text": "under your thumbs, just in\ncase you can't carry around",
+      "start": 2285.62,
+      "duration": 2.91
+    },
+    {
+      "text": "a big MIDI controller with you.",
+      "start": 2288.53,
+      "duration": 3.63
+    },
+    {
+      "text": "And they only had to\ndo minimal changes",
+      "start": 2292.16,
+      "duration": 1.83
+    },
+    {
+      "text": "to get their app working\nin XR Home space.",
+      "start": 2293.99,
+      "duration": 3.61
+    },
+    {
+      "text": "And of course, it works with\nBluetooth MIDI controllers.",
+      "start": 2297.6,
+      "duration": 3.0
+    },
+    {
+      "text": "But they've also been exploring\na 3D XR experience where you can",
+      "start": 2300.6,
+      "duration": 4.55
+    },
+    {
+      "text": "scratch those turntables or\nbrowse your vinyl collection",
+      "start": 2305.15,
+      "duration": 2.73
+    },
+    {
+      "text": "in free space.",
+      "start": 2307.88,
+      "duration": 1.86
+    },
+    {
+      "text": "Pretty cool, right?",
+      "start": 2309.74,
+      "duration": 1.06
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2313.6,
+      "duration": 2.47
+    },
+    {
+      "text": "I don't want to leave.",
+      "start": 2319.04,
+      "duration": 1.15
+    },
+    {
+      "text": "Can we--",
+      "start": 2320.19,
+      "duration": 0.628
+    },
+    {
+      "text": "ALEX VANYO: --keep going?",
+      "start": 2320.818,
+      "duration": 1.042
+    },
+    {
+      "text": "There's a timer that's\ncounting down here,",
+      "start": 2321.86,
+      "duration": 1.75
+    },
+    {
+      "text": "so I think we might\nneed to wrap this up.",
+      "start": 2323.61,
+      "duration": 2.06
+    },
+    {
+      "text": "So we have new\ndevices, environments,",
+      "start": 2325.67,
+      "duration": 2.53
+    },
+    {
+      "text": "and platform shifts.",
+      "start": 2328.2,
+      "duration": 1.08
+    },
+    {
+      "text": "These Android 16 changes around\norientation, aspect ratio,",
+      "start": 2329.28,
+      "duration": 3.47
+    },
+    {
+      "text": "and resizability are a result\nof the platform changing",
+      "start": 2332.75,
+      "duration": 3.03
+    },
+    {
+      "text": "to meet user expectations.",
+      "start": 2335.78,
+      "duration": 2.06
+    },
+    {
+      "text": "Users expect a great experience\nacross all their devices,",
+      "start": 2337.84,
+      "duration": 3.3
+    },
+    {
+      "text": "big and small.",
+      "start": 2341.14,
+      "duration": 1.26
+    },
+    {
+      "text": "And mobile Android apps\nform the foundation",
+      "start": 2342.4,
+      "duration": 2.42
+    },
+    {
+      "text": "across all of these devices.",
+      "start": 2344.82,
+      "duration": 2.31
+    },
+    {
+      "text": "Devices are becoming more\ncapable and flexible.",
+      "start": 2347.13,
+      "duration": 2.62
+    },
+    {
+      "text": "Desktop windowing can transform\nphones, foldables, and tablets",
+      "start": 2349.75,
+      "duration": 2.93
+    },
+    {
+      "text": "into desktop-like\ncomputing environments.",
+      "start": 2352.68,
+      "duration": 2.35
+    },
+    {
+      "text": "That same device that\nyou can hold in your hand",
+      "start": 2355.03,
+      "duration": 2.12
+    },
+    {
+      "text": "can be used in so\nmany different ways.",
+      "start": 2357.15,
+      "duration": 2.85
+    },
+    {
+      "text": "In parked cars, users can\nnow use the built-in screen",
+      "start": 2360.0,
+      "duration": 2.61
+    },
+    {
+      "text": "like a built-in tablet.",
+      "start": 2362.61,
+      "duration": 1.39
+    },
+    {
+      "text": "And with upcoming\nAndroid XR devices,",
+      "start": 2364.0,
+      "duration": 2.4
+    },
+    {
+      "text": "users will have a whole new\ndimension to interact with",
+      "start": 2366.4,
+      "duration": 2.96
+    },
+    {
+      "text": "by placing 2D apps around\nthemselves in 3D space",
+      "start": 2369.36,
+      "duration": 3.0
+    },
+    {
+      "text": "and interacting with 3D content.",
+      "start": 2372.36,
+      "duration": 2.07
+    },
+    {
+      "text": "We don't want you to rebuild\nyour app from the ground",
+      "start": 2374.43,
+      "duration": 2.76
+    },
+    {
+      "text": "up to support all these new\nenvironments and form factors.",
+      "start": 2377.19,
+      "duration": 3.13
+    },
+    {
+      "text": "We are well past the\ndays where it made sense",
+      "start": 2380.32,
+      "duration": 2.27
+    },
+    {
+      "text": "to have a separate phone app\nfrom a separate tablet app.",
+      "start": 2382.59,
+      "duration": 2.89
+    },
+    {
+      "text": "That line has blurred so\nmuch that it basically",
+      "start": 2385.48,
+      "duration": 2.84
+    },
+    {
+      "text": "doesn't exist anymore.",
+      "start": 2388.32,
+      "duration": 1.3
+    },
+    {
+      "text": "And these new form factors\nblur the lines even more.",
+      "start": 2389.62,
+      "duration": 3.572
+    },
+    {
+      "text": "What we're recommending\nis to build",
+      "start": 2393.192,
+      "duration": 1.458
+    },
+    {
+      "text": "a single adaptive mobile\napp that brings your best",
+      "start": 2394.65,
+      "duration": 2.87
+    },
+    {
+      "text": "experiences to this ever\nincreasing collection",
+      "start": 2397.52,
+      "duration": 2.37
+    },
+    {
+      "text": "of surfaces that are\nuniquely Android.",
+      "start": 2399.89,
+      "duration": 3.445
+    },
+    {
+      "text": "We're continuing to\nbuild tools to help",
+      "start": 2403.335,
+      "duration": 1.625
+    },
+    {
+      "text": "you adapt to each\nof these services",
+      "start": 2404.96,
+      "duration": 1.458
+    },
+    {
+      "text": "with adaptive layouts,\na new navigation",
+      "start": 2406.418,
+      "duration": 2.142
+    },
+    {
+      "text": "library, and ongoing updates\nto Compose and tooling.",
+      "start": 2408.56,
+      "duration": 3.75
+    },
+    {
+      "text": "As you update your app\nwith these changes,",
+      "start": 2412.31,
+      "duration": 2.17
+    },
+    {
+      "text": "and to account for\nnew form factors,",
+      "start": 2414.48,
+      "duration": 1.68
+    },
+    {
+      "text": "make sure to build\ncompatible experiences",
+      "start": 2416.16,
+      "duration": 2.33
+    },
+    {
+      "text": "and avoid making assumptions\nwhen designing and building",
+      "start": 2418.49,
+      "duration": 2.94
+    },
+    {
+      "text": "apps that don't hold\ntrue on every device",
+      "start": 2421.43,
+      "duration": 2.55
+    },
+    {
+      "text": "your app is being run on.",
+      "start": 2423.98,
+      "duration": 1.6
+    },
+    {
+      "text": "And if your app\nisn't available, you",
+      "start": 2425.58,
+      "duration": 2.18
+    },
+    {
+      "text": "might lose a customer\nto an app that is.",
+      "start": 2427.76,
+      "duration": 2.85
+    },
+    {
+      "text": "Meet users where they\nare today and where",
+      "start": 2430.61,
+      "duration": 1.71
+    },
+    {
+      "text": "they will be in the future.",
+      "start": 2432.32,
+      "duration": 2.58
+    },
+    {
+      "text": "Thank you so much.",
+      "start": 2434.9,
+      "duration": 1.06
+    },
+    {
+      "text": "We can't wait to see the\nincredible adaptive Android",
+      "start": 2435.96,
+      "duration": 2.81
+    },
+    {
+      "text": "app experiences you will build.",
+      "start": 2438.77,
+      "duration": 2.49
+    },
+    {
+      "text": "EMILIE ROBERTS: Thank you.",
+      "start": 2441.26,
+      "duration": 1.09
+    },
+    {
+      "text": "Enjoy I/O.",
+      "start": 2442.35,
+      "duration": 1.4
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2443.75,
+      "duration": 3.05
+    }
+  ]
+}

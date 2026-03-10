@@ -1,0 +1,3267 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "R_gqv8PwM78",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.736
+    },
+    {
+      "text": "AJA HAMMERLY: Welcome, everyone\nhere at Shoreline and everyone",
+      "start": 6.077,
+      "duration": 2.583
+    },
+    {
+      "text": "tuning in on the live stream,\nto \"What's New in Firebase.\"",
+      "start": 8.66,
+      "duration": 3.69
+    },
+    {
+      "text": "We're here to get\neveryone up to speed",
+      "start": 12.35,
+      "duration": 1.86
+    },
+    {
+      "text": "on all of the great\nnew things in Firebase",
+      "start": 14.21,
+      "duration": 2.04
+    },
+    {
+      "text": "that help you build,\ntest, deploy, run,",
+      "start": 16.25,
+      "duration": 3.24
+    },
+    {
+      "text": "and monitor your\napplications easily.",
+      "start": 19.49,
+      "duration": 2.83
+    },
+    {
+      "text": "I'm Aja, Director of Developer\nRelations in Developer X. And--",
+      "start": 22.32,
+      "duration": 3.333
+    },
+    {
+      "text": "SEBA GNAGNARELLA: And\nI'm Seba, Director",
+      "start": 25.653,
+      "duration": 1.667
+    },
+    {
+      "text": "of Engineering for Developer\nX Frameworks and Services.",
+      "start": 27.32,
+      "duration": 3.9
+    },
+    {
+      "text": "So before we go\ntoo far in, let's",
+      "start": 31.22,
+      "duration": 3.09
+    },
+    {
+      "text": "make sure everyone\nknows what Firebase is.",
+      "start": 34.31,
+      "duration": 2.67
+    },
+    {
+      "text": "Who here has heard of Firebase?",
+      "start": 36.98,
+      "duration": 1.89
+    },
+    {
+      "text": "Come on, raise your hand.",
+      "start": 38.87,
+      "duration": 1.06
+    },
+    {
+      "text": "Don't be shy.",
+      "start": 39.93,
+      "duration": 0.75
+    },
+    {
+      "text": "Come on.",
+      "start": 40.68,
+      "duration": 1.67
+    },
+    {
+      "text": "Who here has used Firebase?",
+      "start": 42.35,
+      "duration": 2.78
+    },
+    {
+      "text": "Good.",
+      "start": 45.13,
+      "duration": 0.5
+    },
+    {
+      "text": "Good.",
+      "start": 45.63,
+      "duration": 0.8
+    },
+    {
+      "text": "What about Firebase Studio?",
+      "start": 46.43,
+      "duration": 2.19
+    },
+    {
+      "text": "Let's make some noise.",
+      "start": 48.62,
+      "duration": 1.03
+    },
+    {
+      "text": "Come on.",
+      "start": 49.65,
+      "duration": 0.5
+    },
+    {
+      "text": "[AUDIENCE CHEERS]",
+      "start": 50.15,
+      "duration": 1.03
+    },
+    {
+      "text": "What about other\nFirebase services?",
+      "start": 51.68,
+      "duration": 2.91
+    },
+    {
+      "text": "Sweet.",
+      "start": 54.59,
+      "duration": 0.63
+    },
+    {
+      "text": "So Firebase is Google's\nplatform to prototype, build,",
+      "start": 55.22,
+      "duration": 3.42
+    },
+    {
+      "text": "deploy, and run\nmodern AI powered",
+      "start": 58.64,
+      "duration": 2.1
+    },
+    {
+      "text": "experiences your users love.",
+      "start": 60.74,
+      "duration": 2.25
+    },
+    {
+      "text": "What makes Firebase so special?",
+      "start": 62.99,
+      "duration": 1.98
+    },
+    {
+      "text": "Well, you know very well.",
+      "start": 64.97,
+      "duration": 2.16
+    },
+    {
+      "text": "First, it's a\ncomprehensive platform.",
+      "start": 67.13,
+      "duration": 2.89
+    },
+    {
+      "text": "Second, it's very\neasy to get started.",
+      "start": 70.02,
+      "duration": 3.09
+    },
+    {
+      "text": "We gave you a well-lit path for\nyou to accomplish your goals.",
+      "start": 73.11,
+      "duration": 3.33
+    },
+    {
+      "text": "And then there is no\nneed to hack together",
+      "start": 76.44,
+      "duration": 2.33
+    },
+    {
+      "text": "a solution from two blog\nposts and three online forums.",
+      "start": 78.77,
+      "duration": 4.53
+    },
+    {
+      "text": "But we don't stop there.",
+      "start": 83.3,
+      "duration": 1.62
+    },
+    {
+      "text": "Firebase is backed by GCP's\ninfrastructure, security,",
+      "start": 84.92,
+      "duration": 3.27
+    },
+    {
+      "text": "and reliability, and\nit's used by millions",
+      "start": 88.19,
+      "duration": 2.64
+    },
+    {
+      "text": "of businesses around the world.",
+      "start": 90.83,
+      "duration": 2.25
+    },
+    {
+      "text": "Most importantly, it's\nextensible and flexible.",
+      "start": 93.08,
+      "duration": 3.34
+    },
+    {
+      "text": "That means that you can decide\nwhich parts of the platform",
+      "start": 96.42,
+      "duration": 2.45
+    },
+    {
+      "text": "makes the most sense\nfor you, and then",
+      "start": 98.87,
+      "duration": 2.4
+    },
+    {
+      "text": "bring the tools and\nservices you need.",
+      "start": 101.27,
+      "duration": 3.78
+    },
+    {
+      "text": "As some of you know, we have an\nextensive portfolio of products.",
+      "start": 105.05,
+      "duration": 2.77
+    },
+    {
+      "text": "Today, we're going\nto focus on what's",
+      "start": 107.82,
+      "duration": 2.03
+    },
+    {
+      "text": "new since the last time we\nmet at Next six weeks ago.",
+      "start": 109.85,
+      "duration": 3.31
+    },
+    {
+      "text": "Aja and I organized the\ncontent around the steps",
+      "start": 113.16,
+      "duration": 2.81
+    },
+    {
+      "text": "you follow to launch\nyour applications--",
+      "start": 115.97,
+      "duration": 3.15
+    },
+    {
+      "text": "prototype and build,\ntest, deploy it, and run.",
+      "start": 119.12,
+      "duration": 4.807
+    },
+    {
+      "text": "AJA HAMMERLY: So we're going\nto start with the prototype",
+      "start": 123.927,
+      "duration": 2.333
+    },
+    {
+      "text": "and build stage because, well,\nthat's where most applications",
+      "start": 126.26,
+      "duration": 3.45
+    },
+    {
+      "text": "and projects start.",
+      "start": 129.71,
+      "duration": 1.45
+    },
+    {
+      "text": "And the big news in the\nprototype and build stage--",
+      "start": 131.16,
+      "duration": 2.48
+    },
+    {
+      "text": "next slide--",
+      "start": 133.64,
+      "duration": 1.56
+    },
+    {
+      "text": "is Firebase Studio, which,\nyou know, awesome product.",
+      "start": 135.2,
+      "duration": 4.24
+    },
+    {
+      "text": "There we go.",
+      "start": 139.44,
+      "duration": 1.79
+    },
+    {
+      "text": "We launched that at Next.",
+      "start": 141.23,
+      "duration": 1.81
+    },
+    {
+      "text": "And in the weeks since then, we\nhave had 1.5 million workspaces",
+      "start": 143.04,
+      "duration": 6.05
+    },
+    {
+      "text": "created.",
+      "start": 149.09,
+      "duration": 1.5
+    },
+    {
+      "text": "That is a lot of\namazing applications.",
+      "start": 150.59,
+      "duration": 4.47
+    },
+    {
+      "text": "Seba, what's the coolest\nthing you've seen?",
+      "start": 155.06,
+      "duration": 2.11
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Oh, I've\nseen hundreds of applications",
+      "start": 157.17,
+      "duration": 2.63
+    },
+    {
+      "text": "from developers of many kinds,\nfrom an expense management",
+      "start": 159.8,
+      "duration": 3.21
+    },
+    {
+      "text": "tool to a car racing\ngame, from a storytelling",
+      "start": 163.01,
+      "duration": 3.54
+    },
+    {
+      "text": "app to an app that allows you\nto learn how to speak Japanese.",
+      "start": 166.55,
+      "duration": 4.57
+    },
+    {
+      "text": "AJA HAMMERLY: I love that one.",
+      "start": 171.12,
+      "duration": 1.35
+    },
+    {
+      "text": "I loved all the\nreally cool language",
+      "start": 172.47,
+      "duration": 1.55
+    },
+    {
+      "text": "learning apps that people came\nup with, the Kanji learning one,",
+      "start": 174.02,
+      "duration": 2.68
+    },
+    {
+      "text": "one to practice your\nconversational language.",
+      "start": 176.7,
+      "duration": 1.93
+    },
+    {
+      "text": "It's been amazing.",
+      "start": 178.63,
+      "duration": 0.845
+    },
+    {
+      "text": "SEBA GNAGNARELLA: You know\nwhat my favorite one is?",
+      "start": 179.475,
+      "duration": 2.125
+    },
+    {
+      "text": "AJA HAMMERLY: What?",
+      "start": 181.6,
+      "duration": 0.08
+    },
+    {
+      "text": "SEBA GNAGNARELLA: And I'm\ngoing to geek out a little bit.",
+      "start": 181.68,
+      "duration": 2.375
+    },
+    {
+      "text": "There is one that we built\nthat uses the power of Gemini",
+      "start": 184.055,
+      "duration": 2.635
+    },
+    {
+      "text": "to let kids learn\nquantum physics.",
+      "start": 186.69,
+      "duration": 2.98
+    },
+    {
+      "text": "AJA HAMMERLY: Ooh.",
+      "start": 189.67,
+      "duration": 0.75
+    },
+    {
+      "text": "SEBA GNAGNARELLA: That's\npretty impressive.",
+      "start": 190.42,
+      "duration": 1.792
+    },
+    {
+      "text": "AJA HAMMERLY: Neat.",
+      "start": 192.212,
+      "duration": 1.708
+    },
+    {
+      "text": "So.",
+      "start": 193.92,
+      "duration": 0.547
+    },
+    {
+      "text": "SEBA GNAGNARELLA: So for those\nof you who haven't heard of it,",
+      "start": 194.467,
+      "duration": 2.583
+    },
+    {
+      "text": "Firebase Studio is our\nCloud-based AI workspace.",
+      "start": 197.05,
+      "duration": 3.86
+    },
+    {
+      "text": "With Firebase Studio, you can\nuse AI to create and modify",
+      "start": 200.91,
+      "duration": 2.79
+    },
+    {
+      "text": "fully functional apps just using\nprompts or jump into Code Mode,",
+      "start": 203.7,
+      "duration": 3.67
+    },
+    {
+      "text": "thanks to the power of\na fully extensible IDE",
+      "start": 207.37,
+      "duration": 2.3
+    },
+    {
+      "text": "based on Code/OS and\nan underlying VM.",
+      "start": 209.67,
+      "duration": 3.27
+    },
+    {
+      "text": "In addition to\nAI-driven app creation,",
+      "start": 212.94,
+      "duration": 2.56
+    },
+    {
+      "text": "we have a set of agents that\nhelp you through the SDLC tasks,",
+      "start": 215.5,
+      "duration": 3.39
+    },
+    {
+      "text": "including testing and\ndocumentation, which",
+      "start": 218.89,
+      "duration": 2.3
+    },
+    {
+      "text": "are in Private Preview.",
+      "start": 221.19,
+      "duration": 1.41
+    },
+    {
+      "text": "AJA HAMMERLY: So I can\nuse Firebase Studio",
+      "start": 222.6,
+      "duration": 2.7
+    },
+    {
+      "text": "to build Go services and\nPython backends too, right?",
+      "start": 225.3,
+      "duration": 3.242
+    },
+    {
+      "text": "SEBA GNAGNARELLA: You got it.",
+      "start": 228.542,
+      "duration": 1.208
+    },
+    {
+      "text": "There are more than 60\ntemplates for common languages",
+      "start": 229.75,
+      "duration": 2.6
+    },
+    {
+      "text": "and frameworks, including\nPython, Kotlin, Angular,",
+      "start": 232.35,
+      "duration": 4.15
+    },
+    {
+      "text": "Flutter, and more.",
+      "start": 236.5,
+      "duration": 1.46
+    },
+    {
+      "text": "And we are always working\nto add in more of them.",
+      "start": 237.96,
+      "duration": 2.7
+    },
+    {
+      "text": "And if you can find\na template that",
+      "start": 240.66,
+      "duration": 1.47
+    },
+    {
+      "text": "works for you, Firebase\nStudio is highly customizable,",
+      "start": 242.13,
+      "duration": 3.28
+    },
+    {
+      "text": "allowing you to\ncreate a development",
+      "start": 245.41,
+      "duration": 1.76
+    },
+    {
+      "text": "environment with the\npackages and tools you need.",
+      "start": 247.17,
+      "duration": 3.3
+    },
+    {
+      "text": "AJA HAMMERLY: So in\nthe last six weeks,",
+      "start": 250.47,
+      "duration": 1.72
+    },
+    {
+      "text": "we've added many requests\nfrom the community",
+      "start": 252.19,
+      "duration": 1.94
+    },
+    {
+      "text": "to Firebase Studio.",
+      "start": 254.13,
+      "duration": 1.24
+    },
+    {
+      "text": "First of all, in early May,\nwe incorporated Gemini 2.5,",
+      "start": 255.37,
+      "duration": 3.87
+    },
+    {
+      "text": "which enables Firebase\nStudio to create",
+      "start": 259.24,
+      "duration": 1.82
+    },
+    {
+      "text": "more complex apps with\nmuch more sophisticated UI.",
+      "start": 261.06,
+      "duration": 3.81
+    },
+    {
+      "text": "Second, as you heard\njust a couple hours ago,",
+      "start": 264.87,
+      "duration": 3.25
+    },
+    {
+      "text": "we've added backend integrations\nwith Firestore and Firebase",
+      "start": 268.12,
+      "duration": 2.9
+    },
+    {
+      "text": "Auth.",
+      "start": 271.02,
+      "duration": 0.73
+    },
+    {
+      "text": "[AUDIENCE CHEERS]",
+      "start": 271.75,
+      "duration": 1.4
+    },
+    {
+      "text": "So when you're prototyping\nyour applications,",
+      "start": 274.05,
+      "duration": 3.24
+    },
+    {
+      "text": "it will understand if this\napplication needs a database",
+      "start": 277.29,
+      "duration": 3.12
+    },
+    {
+      "text": "or auth, set up any\nrequired local environments",
+      "start": 280.41,
+      "duration": 2.74
+    },
+    {
+      "text": "so that you can test\nyour application locally,",
+      "start": 283.15,
+      "duration": 2.49
+    },
+    {
+      "text": "and then, when it\ncomes time to deploy,",
+      "start": 285.64,
+      "duration": 1.64
+    },
+    {
+      "text": "it will automatically\nprovision and configure",
+      "start": 287.28,
+      "duration": 1.89
+    },
+    {
+      "text": "those services for you.",
+      "start": 289.17,
+      "duration": 1.6
+    },
+    {
+      "text": "We started rolling out\nthat feature this week,",
+      "start": 290.77,
+      "duration": 1.988
+    },
+    {
+      "text": "and it will be rolling out\nto the rest of the community",
+      "start": 292.758,
+      "duration": 2.292
+    },
+    {
+      "text": "over the next several weeks.",
+      "start": 295.05,
+      "duration": 1.87
+    },
+    {
+      "text": "SEBA GNAGNARELLA: So your\napplication look and feel",
+      "start": 296.92,
+      "duration": 2.69
+    },
+    {
+      "text": "is extremely important.",
+      "start": 299.61,
+      "duration": 2.11
+    },
+    {
+      "text": "We hear from users\nthat you wanted",
+      "start": 301.72,
+      "duration": 1.64
+    },
+    {
+      "text": "to bring Figma designs\ninto Firebase Studio",
+      "start": 303.36,
+      "duration": 2.49
+    },
+    {
+      "text": "to kickstart your building.",
+      "start": 305.85,
+      "duration": 1.36
+    },
+    {
+      "text": "So we partnered with\nBuilder.io to let you do so.",
+      "start": 307.21,
+      "duration": 4.22
+    },
+    {
+      "text": "We also added\nsignificant improvements",
+      "start": 311.43,
+      "duration": 2.31
+    },
+    {
+      "text": "for working with app designs\nand layouts that include images.",
+      "start": 313.74,
+      "duration": 3.16
+    },
+    {
+      "text": "For example, we added features\naround placeholder images",
+      "start": 316.9,
+      "duration": 3.2
+    },
+    {
+      "text": "and the ability to\nuse Gemini in runtime",
+      "start": 320.1,
+      "duration": 2.49
+    },
+    {
+      "text": "to generate image content.",
+      "start": 322.59,
+      "duration": 2.73
+    },
+    {
+      "text": "AJA HAMMERLY: But\nwords are easy,",
+      "start": 325.32,
+      "duration": 1.99
+    },
+    {
+      "text": "so we're going to actually\nprove it and do a demo live.",
+      "start": 327.31,
+      "duration": 3.12
+    },
+    {
+      "text": "Cross your fingers\nfor me, folks.",
+      "start": 330.43,
+      "duration": 1.71
+    },
+    {
+      "text": "[AUDIENCE CHEERS]",
+      "start": 332.14,
+      "duration": 1.41
+    },
+    {
+      "text": "So let's switch to the demo.",
+      "start": 334.05,
+      "duration": 3.3
+    },
+    {
+      "text": "Here I am, in Firebase\nStudio home screen.",
+      "start": 337.35,
+      "duration": 2.02
+    },
+    {
+      "text": "And like Seba said, there's\nall these templates here--",
+      "start": 339.37,
+      "duration": 2.31
+    },
+    {
+      "text": "Go, Python, and many,\nmany, many more--",
+      "start": 341.68,
+      "duration": 2.75
+    },
+    {
+      "text": "that you can start from.",
+      "start": 344.43,
+      "duration": 1.0
+    },
+    {
+      "text": "And that's just a small\nselection of them.",
+      "start": 345.43,
+      "duration": 2.01
+    },
+    {
+      "text": "But I'm going to\nprototype with AI today.",
+      "start": 347.44,
+      "duration": 2.37
+    },
+    {
+      "text": "And I want to build a game.",
+      "start": 349.81,
+      "duration": 2.122
+    },
+    {
+      "text": "I want to build a game in Go.",
+      "start": 351.932,
+      "duration": 1.208
+    },
+    {
+      "text": "Wait, we have a programming\nlanguage called that.",
+      "start": 353.14,
+      "duration": 3.15
+    },
+    {
+      "text": "I should probably be\nslightly more specific, huh?",
+      "start": 356.29,
+      "duration": 3.92
+    },
+    {
+      "text": "Go Game.",
+      "start": 360.21,
+      "duration": 1.87
+    },
+    {
+      "text": "Let's see how that works.",
+      "start": 362.08,
+      "duration": 1.64
+    },
+    {
+      "text": "So the first step of\nprototyping with AI",
+      "start": 363.72,
+      "duration": 2.88
+    },
+    {
+      "text": "is that Firebase Studio\ngives you a blueprint.",
+      "start": 366.6,
+      "duration": 2.44
+    },
+    {
+      "text": "You can think of this as\na specification, a PRD,",
+      "start": 369.04,
+      "duration": 3.56
+    },
+    {
+      "text": "a technical design document,\nand more, all rolled into one.",
+      "start": 372.6,
+      "duration": 3.97
+    },
+    {
+      "text": "And it lays out a name for\nthe app and also the features",
+      "start": 376.57,
+      "duration": 2.78
+    },
+    {
+      "text": "it believes that you want.",
+      "start": 379.35,
+      "duration": 1.083
+    },
+    {
+      "text": "And this is a place where you\ncan iterate back and forth",
+      "start": 380.433,
+      "duration": 2.334
+    },
+    {
+      "text": "with the AI before\nany code is written,",
+      "start": 382.767,
+      "duration": 1.903
+    },
+    {
+      "text": "to make sure that the app\nis one you want to build.",
+      "start": 384.67,
+      "duration": 2.7
+    },
+    {
+      "text": "For this, we've got\na board display.",
+      "start": 387.37,
+      "duration": 2.04
+    },
+    {
+      "text": "You got to put your Go\nstones on the board,",
+      "start": 389.41,
+      "duration": 1.98
+    },
+    {
+      "text": "some stuff around capturing.",
+      "start": 391.39,
+      "duration": 1.52
+    },
+    {
+      "text": "Move validation\nso I can't cheat.",
+      "start": 392.91,
+      "duration": 2.5
+    },
+    {
+      "text": "And then AI hint\ngeneration that'll",
+      "start": 395.41,
+      "duration": 1.938
+    },
+    {
+      "text": "help me learn how to play Go\nbetter because I'm really,",
+      "start": 397.348,
+      "duration": 2.292
+    },
+    {
+      "text": "really, really bad at this game.",
+      "start": 399.64,
+      "duration": 2.25
+    },
+    {
+      "text": "It also lays out the\nstack we're going to use,",
+      "start": 401.89,
+      "duration": 1.95
+    },
+    {
+      "text": "including Genkit and Gemini,\nTypeScript, Next.js, Tailwind",
+      "start": 403.84,
+      "duration": 2.9
+    },
+    {
+      "text": "CSS.",
+      "start": 406.74,
+      "duration": 0.91
+    },
+    {
+      "text": "And it picked these\nlovely, very calm neutrals",
+      "start": 407.65,
+      "duration": 2.78
+    },
+    {
+      "text": "that evoke a Go board for\nthe colors for the app.",
+      "start": 410.43,
+      "duration": 3.18
+    },
+    {
+      "text": "So normally, I'd hit\nPrototype This App right now,",
+      "start": 413.61,
+      "duration": 2.38
+    },
+    {
+      "text": "but we have a ton of content\nwe need to get through.",
+      "start": 415.99,
+      "duration": 2.82
+    },
+    {
+      "text": "So I'm actually going to\nswitch to one I did earlier.",
+      "start": 418.81,
+      "duration": 2.37
+    },
+    {
+      "text": "But to prove that I am not\ndoing any funny business here,",
+      "start": 421.18,
+      "duration": 3.51
+    },
+    {
+      "text": "I'm going to scroll up.",
+      "start": 424.69,
+      "duration": 1.2
+    },
+    {
+      "text": "And you can actually see\nmy entire prompt history",
+      "start": 425.89,
+      "duration": 2.48
+    },
+    {
+      "text": "in Firebase Studio.",
+      "start": 428.37,
+      "duration": 0.88
+    },
+    {
+      "text": "That's one of the\nfeatures we have.",
+      "start": 429.25,
+      "duration": 1.2
+    },
+    {
+      "text": "So you can look at\nyour prompts, and you",
+      "start": 430.45,
+      "duration": 1.79
+    },
+    {
+      "text": "can see this is the prompt that\nI created this app with just",
+      "start": 432.24,
+      "duration": 2.94
+    },
+    {
+      "text": "a couple hours ago.",
+      "start": 435.18,
+      "duration": 1.48
+    },
+    {
+      "text": "So exact same app.",
+      "start": 436.66,
+      "duration": 1.453
+    },
+    {
+      "text": "There's a slight\nbit of difference",
+      "start": 438.113,
+      "duration": 1.417
+    },
+    {
+      "text": "because there's a\nlittle bit of difference",
+      "start": 439.53,
+      "duration": 1.17
+    },
+    {
+      "text": "because we're using\ngenerative AI.",
+      "start": 440.7,
+      "duration": 1.72
+    },
+    {
+      "text": "So let's try it out.",
+      "start": 442.42,
+      "duration": 1.47
+    },
+    {
+      "text": "Let's open it in a new window,\nand let's put some stones on.",
+      "start": 443.89,
+      "duration": 5.218
+    },
+    {
+      "text": "That seems to work pretty good.",
+      "start": 449.108,
+      "duration": 1.292
+    },
+    {
+      "text": "Let's see what\nthe AI has to say.",
+      "start": 450.4,
+      "duration": 3.11
+    },
+    {
+      "text": "It thinks I should move at\nA3 and gives me a whole bunch",
+      "start": 453.51,
+      "duration": 3.36
+    },
+    {
+      "text": "of reasons about it.",
+      "start": 456.87,
+      "duration": 0.96
+    },
+    {
+      "text": "Oh, pretty good.",
+      "start": 457.83,
+      "duration": 0.78
+    },
+    {
+      "text": "Considering it was a two-word\nprompt, I'm pretty happy.",
+      "start": 458.61,
+      "duration": 2.97
+    },
+    {
+      "text": "But that's not the cool part\nof Firebase Studio for me.",
+      "start": 461.58,
+      "duration": 3.25
+    },
+    {
+      "text": "The magic trick is\nfun, but the cool part",
+      "start": 464.83,
+      "duration": 1.88
+    },
+    {
+      "text": "for Firebase Studio for\nme is that at any point,",
+      "start": 466.71,
+      "duration": 2.67
+    },
+    {
+      "text": "I can switch over\nto Code Mode, which",
+      "start": 469.38,
+      "duration": 1.71
+    },
+    {
+      "text": "means if I want to\ndo a code review,",
+      "start": 471.09,
+      "duration": 1.51
+    },
+    {
+      "text": "if I want to manually\nadd some features,",
+      "start": 472.6,
+      "duration": 1.92
+    },
+    {
+      "text": "if I want to integrate\nwith a library that's",
+      "start": 474.52,
+      "duration": 1.833
+    },
+    {
+      "text": "custom to my company,\nI can do it all here.",
+      "start": 476.353,
+      "duration": 2.627
+    },
+    {
+      "text": "I have right here\nour Genkit flows",
+      "start": 478.98,
+      "duration": 2.61
+    },
+    {
+      "text": "for suggesting that move,\ngiving that tips it wants.",
+      "start": 481.59,
+      "duration": 3.4
+    },
+    {
+      "text": "And I can actually look at this\ncode and try to understand it.",
+      "start": 484.99,
+      "duration": 2.76
+    },
+    {
+      "text": "Or when it comes up, I can\nhave Gemini explain this to me.",
+      "start": 487.75,
+      "duration": 4.16
+    },
+    {
+      "text": "And all of this is available\nto me at any moment.",
+      "start": 491.91,
+      "duration": 3.37
+    },
+    {
+      "text": "You can see all of\nthe code is here.",
+      "start": 495.28,
+      "duration": 3.2
+    },
+    {
+      "text": "You can see all of the different\ncode that goes into the app.",
+      "start": 498.48,
+      "duration": 2.982
+    },
+    {
+      "text": "And it will also give\nme the web preview,",
+      "start": 501.462,
+      "duration": 1.708
+    },
+    {
+      "text": "which is just taking a\nmoment to load right now.",
+      "start": 503.17,
+      "duration": 2.04
+    },
+    {
+      "text": "Here's my game.",
+      "start": 505.21,
+      "duration": 0.77
+    },
+    {
+      "text": "So I can see it here.",
+      "start": 505.98,
+      "duration": 1.172
+    },
+    {
+      "text": "And there's my Gemini window.",
+      "start": 507.152,
+      "duration": 1.208
+    },
+    {
+      "text": "So I have full access to\nGemini Interactive Chat",
+      "start": 508.36,
+      "duration": 2.57
+    },
+    {
+      "text": "for adding features,\ngetting access",
+      "start": 510.93,
+      "duration": 2.04
+    },
+    {
+      "text": "to reference documentation\njust in time,",
+      "start": 512.97,
+      "duration": 2.199
+    },
+    {
+      "text": "asking questions about APIs,\nadding features to my product.",
+      "start": 515.169,
+      "duration": 3.151
+    },
+    {
+      "text": "All of it's available.",
+      "start": 518.32,
+      "duration": 1.31
+    },
+    {
+      "text": "Now, it's not perfect, but\nI'm pretty happy with it.",
+      "start": 519.63,
+      "duration": 5.29
+    },
+    {
+      "text": "So let's publish.",
+      "start": 524.92,
+      "duration": 1.76
+    },
+    {
+      "text": "And I'm going to actually\ndo this live on stage.",
+      "start": 526.68,
+      "duration": 2.572
+    },
+    {
+      "text": "So we're going to\ncreate a rollout.",
+      "start": 529.252,
+      "duration": 1.458
+    },
+    {
+      "text": "This is going to push\nto Firebase Studio,",
+      "start": 530.71,
+      "duration": 1.73
+    },
+    {
+      "text": "and it's going to\ndo a proper rollout.",
+      "start": 532.44,
+      "duration": 1.72
+    },
+    {
+      "text": "We're going to do a\nbuild of static assets.",
+      "start": 534.16,
+      "duration": 1.792
+    },
+    {
+      "text": "We're going to push those\nstatic assets to CDN.",
+      "start": 535.952,
+      "duration": 2.048
+    },
+    {
+      "text": "This isn't just a\nlittle bit of a rollout.",
+      "start": 538.0,
+      "duration": 3.15
+    },
+    {
+      "text": "This is a real,\nproduction-grade rollout.",
+      "start": 541.15,
+      "duration": 2.1
+    },
+    {
+      "text": "So this actually takes\na couple of minutes.",
+      "start": 543.25,
+      "duration": 1.89
+    },
+    {
+      "text": "And as I said, plenty of\ncontent to get through today.",
+      "start": 545.14,
+      "duration": 2.25
+    },
+    {
+      "text": "So we're going to\ncome back to this",
+      "start": 547.39,
+      "duration": 1.07
+    },
+    {
+      "text": "at the end of the\npresentation when",
+      "start": 548.46,
+      "duration": 1.458
+    },
+    {
+      "text": "we get to the deploy\nstage of our SDLC loop.",
+      "start": 549.918,
+      "duration": 1.912
+    },
+    {
+      "text": "And we're going to\nsee how it works,",
+      "start": 551.83,
+      "duration": 1.5
+    },
+    {
+      "text": "and we're going to show you\nsome of the features Firebase",
+      "start": 553.33,
+      "duration": 2.375
+    },
+    {
+      "text": "Studio offers you\nafter you've deployed.",
+      "start": 555.705,
+      "duration": 2.233
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 557.938,
+      "duration": 2.808
+    },
+    {
+      "text": "Back to the slides.",
+      "start": 562.62,
+      "duration": 1.08
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Let's\ngo back to the slides.",
+      "start": 563.7,
+      "duration": 2.254
+    },
+    {
+      "text": "Aja, that's super cool.",
+      "start": 565.954,
+      "duration": 2.516
+    },
+    {
+      "text": "I might finally\nlearn how to play Go.",
+      "start": 568.47,
+      "duration": 1.78
+    },
+    {
+      "text": "I'm really, really\nexcited to use your app.",
+      "start": 570.25,
+      "duration": 2.03
+    },
+    {
+      "text": "So we recognize that\nbringing AI into your apps",
+      "start": 572.28,
+      "duration": 3.27
+    },
+    {
+      "text": "can be challenging.",
+      "start": 575.55,
+      "duration": 1.11
+    },
+    {
+      "text": "A year ago, we launched\nVertex in Firebase,",
+      "start": 576.66,
+      "duration": 2.8
+    },
+    {
+      "text": "making it a lot easier,\nand it's already",
+      "start": 579.46,
+      "duration": 2.45
+    },
+    {
+      "text": "used by thousands of\ncustomers in production.",
+      "start": 581.91,
+      "duration": 2.91
+    },
+    {
+      "text": "Today, we are evolving Vertex in\nFirebase into Firebase AI Logic.",
+      "start": 584.82,
+      "duration": 6.02
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 590.84,
+      "duration": 2.425
+    },
+    {
+      "text": "Thank you.",
+      "start": 594.24,
+      "duration": 1.2
+    },
+    {
+      "text": "Firebase AI Logic is\none of the easiest ways",
+      "start": 595.44,
+      "duration": 2.82
+    },
+    {
+      "text": "to integrate,\ninnovate, and deploy",
+      "start": 598.26,
+      "duration": 2.34
+    },
+    {
+      "text": "AI seamlessly in your apps.",
+      "start": 600.6,
+      "duration": 2.76
+    },
+    {
+      "text": "In addition to the\nVertex API, you",
+      "start": 603.36,
+      "duration": 1.71
+    },
+    {
+      "text": "can now use Firebase\nAI Logic Client",
+      "start": 605.07,
+      "duration": 2.28
+    },
+    {
+      "text": "SDKs to connect with\nthe Gemini Developer",
+      "start": 607.35,
+      "duration": 3.78
+    },
+    {
+      "text": "API, which has a free tier.",
+      "start": 611.13,
+      "duration": 2.13
+    },
+    {
+      "text": "Also, we are launching\nexperimental support",
+      "start": 613.26,
+      "duration": 2.88
+    },
+    {
+      "text": "for hybrid inference\non Chrome browsers.",
+      "start": 616.14,
+      "duration": 2.35
+    },
+    {
+      "text": "You can decide whether you want\nto run inference locally using",
+      "start": 618.49,
+      "duration": 3.17
+    },
+    {
+      "text": "Gemini Nano or in the Cloud.",
+      "start": 621.66,
+      "duration": 2.79
+    },
+    {
+      "text": "And last but not\nleast, we are launching",
+      "start": 624.45,
+      "duration": 2.19
+    },
+    {
+      "text": "Unity support, including\nsupport for Android XR.",
+      "start": 626.64,
+      "duration": 4.68
+    },
+    {
+      "text": "We are also expanding\nAI Monitoring,",
+      "start": 631.32,
+      "duration": 2.17
+    },
+    {
+      "text": "which was also previously\nonly available for Genkit,",
+      "start": 633.49,
+      "duration": 3.42
+    },
+    {
+      "text": "to let you monitor\nAI Logic Client SDKs.",
+      "start": 636.91,
+      "duration": 3.5
+    },
+    {
+      "text": "In a single pane\nof glass, you can",
+      "start": 640.41,
+      "duration": 2.01
+    },
+    {
+      "text": "see things such as\nlatency, error rates,",
+      "start": 642.42,
+      "duration": 3.48
+    },
+    {
+      "text": "tokens used, and even traces.",
+      "start": 645.9,
+      "duration": 3.08
+    },
+    {
+      "text": "But we didn't stop there.",
+      "start": 648.98,
+      "duration": 2.01
+    },
+    {
+      "text": "Aja, can you tell us more?",
+      "start": 650.99,
+      "duration": 1.49
+    },
+    {
+      "text": "AJA HAMMERLY: Of course I can.",
+      "start": 652.48,
+      "duration": 1.25
+    },
+    {
+      "text": "So one of the other pieces of\nFirebase AI Logic is Genkit.",
+      "start": 653.73,
+      "duration": 3.36
+    },
+    {
+      "text": "Genkit, if you're not familiar,\nis our open-source toolkit",
+      "start": 657.09,
+      "duration": 2.6
+    },
+    {
+      "text": "for building\npowerful AI backends.",
+      "start": 659.69,
+      "duration": 2.11
+    },
+    {
+      "text": "It offers libraries, tools,\nand out-of-the-box integrations",
+      "start": 661.8,
+      "duration": 3.02
+    },
+    {
+      "text": "for many popular models\nand Cloud Services.",
+      "start": 664.82,
+      "duration": 2.71
+    },
+    {
+      "text": "And the community has given us\na ton of feedback on Genkit.",
+      "start": 667.53,
+      "duration": 3.27
+    },
+    {
+      "text": "And I'm happy to say\nthat we've heard you,",
+      "start": 670.8,
+      "duration": 1.76
+    },
+    {
+      "text": "and we're thrilled\nto deliver the things",
+      "start": 672.56,
+      "duration": 1.8
+    },
+    {
+      "text": "that you've been asking for.",
+      "start": 674.36,
+      "duration": 1.215
+    },
+    {
+      "text": "At Next, we officially launched\nPython support in Genkit,",
+      "start": 675.575,
+      "duration": 3.855
+    },
+    {
+      "text": "and we've been working hard\nat refining that and also",
+      "start": 679.43,
+      "duration": 3.39
+    },
+    {
+      "text": "improving our Go support\nover the last several weeks.",
+      "start": 682.82,
+      "duration": 2.89
+    },
+    {
+      "text": "But that's not all.",
+      "start": 685.71,
+      "duration": 1.49
+    },
+    {
+      "text": "We've introduced Dynamic\nModel Registration,",
+      "start": 687.2,
+      "duration": 2.293
+    },
+    {
+      "text": "which means you no longer need\nto wait for a Genkit update",
+      "start": 689.493,
+      "duration": 2.417
+    },
+    {
+      "text": "to use the latest models.",
+      "start": 691.91,
+      "duration": 1.98
+    },
+    {
+      "text": "And today, we're excited\nto announce Genkit.dev.",
+      "start": 693.89,
+      "duration": 3.25
+    },
+    {
+      "text": "This is your new go-to site\nfor the most up-to-date",
+      "start": 697.14,
+      "duration": 3.55
+    },
+    {
+      "text": "documentation, code examples\nthat you need to effectively use",
+      "start": 700.69,
+      "duration": 4.05
+    },
+    {
+      "text": "Genkit in your applications.",
+      "start": 704.74,
+      "duration": 1.9
+    },
+    {
+      "text": "So awesome.",
+      "start": 706.64,
+      "duration": 2.36
+    },
+    {
+      "text": "Such a happy audience.",
+      "start": 709.0,
+      "duration": 2.61
+    },
+    {
+      "text": "So that's AI in the backend.",
+      "start": 711.61,
+      "duration": 2.17
+    },
+    {
+      "text": "But backends have other\nneeds too, like storing data.",
+      "start": 713.78,
+      "duration": 2.547
+    },
+    {
+      "text": "What do we have for people\nwho need to store data, Seba?",
+      "start": 716.327,
+      "duration": 2.333
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Well, almost\nevery app needs a database.",
+      "start": 718.66,
+      "duration": 3.01
+    },
+    {
+      "text": "And you've been asking\nfor a Firebase relational",
+      "start": 721.67,
+      "duration": 2.0
+    },
+    {
+      "text": "database for a while.",
+      "start": 723.67,
+      "duration": 1.86
+    },
+    {
+      "text": "We hear you loud and clear.",
+      "start": 725.53,
+      "duration": 1.51
+    },
+    {
+      "text": "And a year ago,\nright here at I/O,",
+      "start": 727.04,
+      "duration": 1.94
+    },
+    {
+      "text": "we announced Firebase\nData Connect.",
+      "start": 728.98,
+      "duration": 2.712
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 731.692,
+      "duration": 2.41
+    },
+    {
+      "text": "Firebase Data Connect\nconnects your application",
+      "start": 736.03,
+      "duration": 2.49
+    },
+    {
+      "text": "to data in Cloud\nSQL for Postgres",
+      "start": 738.52,
+      "duration": 1.71
+    },
+    {
+      "text": "through secure serverless APIs.",
+      "start": 740.23,
+      "duration": 3.09
+    },
+    {
+      "text": "We built Data Connect\non one premise--",
+      "start": 743.32,
+      "duration": 3.33
+    },
+    {
+      "text": "you write the query,\nwe do the rest.",
+      "start": 746.65,
+      "duration": 2.5
+    },
+    {
+      "text": "But what does it mean?",
+      "start": 749.15,
+      "duration": 1.43
+    },
+    {
+      "text": "For every query you write,\nwe create an API endpoint,",
+      "start": 750.58,
+      "duration": 3.51
+    },
+    {
+      "text": "we define an auth policy\nfor that endpoint,",
+      "start": 754.09,
+      "duration": 2.68
+    },
+    {
+      "text": "we generate strongly typed SDKs\nin languages such as Kotlin,",
+      "start": 756.77,
+      "duration": 4.71
+    },
+    {
+      "text": "Dart, Swift, and Node.js, and we\ncreate tool definitions in case",
+      "start": 761.48,
+      "duration": 4.97
+    },
+    {
+      "text": "you want to use your queries\nas tools with an LLM.",
+      "start": 766.45,
+      "duration": 3.42
+    },
+    {
+      "text": "This significantly\naccelerates development",
+      "start": 769.87,
+      "duration": 3.36
+    },
+    {
+      "text": "and reduces time to value.",
+      "start": 773.23,
+      "duration": 3.18
+    },
+    {
+      "text": "At Next, we announced\nFirebase Data Connect GA.",
+      "start": 776.41,
+      "duration": 3.54
+    },
+    {
+      "text": "And today, we are releasing\ntwo new exciting features.",
+      "start": 779.95,
+      "duration": 3.4
+    },
+    {
+      "text": "The first one is Advanced\nQuery Improvements.",
+      "start": 783.35,
+      "duration": 3.03
+    },
+    {
+      "text": "Now you can perform more\nsophisticated data retrievals",
+      "start": 786.38,
+      "duration": 3.41
+    },
+    {
+      "text": "with transactions that support\nadditional server values",
+      "start": 789.79,
+      "duration": 3.27
+    },
+    {
+      "text": "and multi-step capabilities.",
+      "start": 793.06,
+      "duration": 2.34
+    },
+    {
+      "text": "And the second one is Schema\nand Query Generation agent.",
+      "start": 795.4,
+      "duration": 3.868
+    },
+    {
+      "text": "When you are looking to\nincorporate Firebase Data",
+      "start": 799.268,
+      "duration": 2.042
+    },
+    {
+      "text": "Connect into your app, Gemini\nwill turn your app idea",
+      "start": 801.31,
+      "duration": 3.3
+    },
+    {
+      "text": "into schemas, queries,\nand mutations.",
+      "start": 804.61,
+      "duration": 3.9
+    },
+    {
+      "text": "This agent is available in the\nFirebase Console and Firebase",
+      "start": 808.51,
+      "duration": 2.7
+    },
+    {
+      "text": "Studio, as well as in the VS\nCode Extensions for Gemini Code",
+      "start": 811.21,
+      "duration": 3.99
+    },
+    {
+      "text": "Assist and Data Connect.",
+      "start": 815.2,
+      "duration": 2.01
+    },
+    {
+      "text": "Let's check it out really quick.",
+      "start": 817.21,
+      "duration": 3.69
+    },
+    {
+      "text": "Let's jump to this laptop.",
+      "start": 820.9,
+      "duration": 1.78
+    },
+    {
+      "text": "There you go.",
+      "start": 822.68,
+      "duration": 0.84
+    },
+    {
+      "text": "So here I'm in the\nFirebase Console.",
+      "start": 823.52,
+      "duration": 2.91
+    },
+    {
+      "text": "Let's say I'm building an\napplication for TV show reviews,",
+      "start": 826.43,
+      "duration": 2.96
+    },
+    {
+      "text": "right?",
+      "start": 829.39,
+      "duration": 0.76
+    },
+    {
+      "text": "And I want to add Data Connect.",
+      "start": 830.15,
+      "duration": 2.12
+    },
+    {
+      "text": "So instead of having to\nthink, OK, I'm building a TV",
+      "start": 832.27,
+      "duration": 3.6
+    },
+    {
+      "text": "shows review app, what\nare the entities I need,",
+      "start": 835.87,
+      "duration": 2.86
+    },
+    {
+      "text": "how they relate to each other,\nand most importantly, how",
+      "start": 838.73,
+      "duration": 3.65
+    },
+    {
+      "text": "I configure that in Data\nConnect using GraphQL,",
+      "start": 842.38,
+      "duration": 3.25
+    },
+    {
+      "text": "I can use the power of Gemini\nand the power of our Data",
+      "start": 845.63,
+      "duration": 2.81
+    },
+    {
+      "text": "Connect agent just to prompt\nwhat I'm trying to build.",
+      "start": 848.44,
+      "duration": 2.71
+    },
+    {
+      "text": "So I'm going to tell our Data\nConnect agent that \"App that",
+      "start": 851.15,
+      "duration": 5.48
+    },
+    {
+      "text": "helps track user\nreviews for TV shows.\"",
+      "start": 856.63,
+      "duration": 7.53
+    },
+    {
+      "text": "Let's see what happens.",
+      "start": 864.16,
+      "duration": 2.73
+    },
+    {
+      "text": "So this is Gemini.",
+      "start": 866.89,
+      "duration": 1.62
+    },
+    {
+      "text": "Right now, the agent\nis analyzing my prompt,",
+      "start": 868.51,
+      "duration": 2.35
+    },
+    {
+      "text": "it's figuring out, OK, what\nare the entities that I",
+      "start": 870.86,
+      "duration": 2.75
+    },
+    {
+      "text": "need to do exactly\nwhat I've been asked,",
+      "start": 873.61,
+      "duration": 2.4
+    },
+    {
+      "text": "and configuring the schema.",
+      "start": 876.01,
+      "duration": 1.66
+    },
+    {
+      "text": "And here it is.",
+      "start": 877.67,
+      "duration": 1.7
+    },
+    {
+      "text": "I have the visual\nversion on the left,",
+      "start": 879.37,
+      "duration": 2.52
+    },
+    {
+      "text": "and I have the GraphQL\nversion here on the right.",
+      "start": 881.89,
+      "duration": 3.49
+    },
+    {
+      "text": "So let's see what we have.",
+      "start": 885.38,
+      "duration": 1.41
+    },
+    {
+      "text": "We have a user.",
+      "start": 886.79,
+      "duration": 1.23
+    },
+    {
+      "text": "We have a TV show.",
+      "start": 888.02,
+      "duration": 1.14
+    },
+    {
+      "text": "The TV show has episodes.",
+      "start": 889.16,
+      "duration": 1.77
+    },
+    {
+      "text": "That's pretty smart.",
+      "start": 890.93,
+      "duration": 1.23
+    },
+    {
+      "text": "User can watch TV shows, and\nthen user can review episodes",
+      "start": 892.16,
+      "duration": 4.79
+    },
+    {
+      "text": "that they have watched.",
+      "start": 896.95,
+      "duration": 1.62
+    },
+    {
+      "text": "That's pretty,\npretty impressive.",
+      "start": 898.57,
+      "duration": 1.72
+    },
+    {
+      "text": "So let's say I want\nto do something else.",
+      "start": 900.29,
+      "duration": 1.708
+    },
+    {
+      "text": "Let's say I want to track\nthe cast for each episode,",
+      "start": 901.998,
+      "duration": 10.382
+    },
+    {
+      "text": "such as actors, producers,\nand the directors.",
+      "start": 912.38,
+      "duration": 10.55
+    },
+    {
+      "text": "Let's see what we have.",
+      "start": 922.93,
+      "duration": 2.73
+    },
+    {
+      "text": "The agent is thinking\nthrough the process,",
+      "start": 925.66,
+      "duration": 1.93
+    },
+    {
+      "text": "understanding my prompt, using\nthe previous schema context,",
+      "start": 927.59,
+      "duration": 3.33
+    },
+    {
+      "text": "using the context of\nthe full application.",
+      "start": 930.92,
+      "duration": 2.18
+    },
+    {
+      "text": "Boom.",
+      "start": 933.1,
+      "duration": 1.08
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 934.18,
+      "duration": 1.03
+    },
+    {
+      "text": "It made the changes.",
+      "start": 935.71,
+      "duration": 1.3
+    },
+    {
+      "text": "Let's see what new\nattributes it added.",
+      "start": 937.01,
+      "duration": 2.54
+    },
+    {
+      "text": "So now I have a crew member\nthat has a name and a role",
+      "start": 939.55,
+      "duration": 3.61
+    },
+    {
+      "text": "and a bio and a photo URL.",
+      "start": 943.16,
+      "duration": 2.27
+    },
+    {
+      "text": "Gemini is pretty smart.",
+      "start": 945.43,
+      "duration": 1.59
+    },
+    {
+      "text": "And then it has-- so that crew\nmember is related to an episode.",
+      "start": 947.02,
+      "duration": 4.41
+    },
+    {
+      "text": "And it added a feature so\nusers can follow each other.",
+      "start": 951.43,
+      "duration": 3.178
+    },
+    {
+      "text": "So the next step is I'm\ngoing to deploy this schema.",
+      "start": 954.608,
+      "duration": 2.167
+    },
+    {
+      "text": "I'm going to-- this\nwill automatically",
+      "start": 959.74,
+      "duration": 1.89
+    },
+    {
+      "text": "generate my Cloud SQL instance.",
+      "start": 961.63,
+      "duration": 2.89
+    },
+    {
+      "text": "It's provisioning.",
+      "start": 964.52,
+      "duration": 0.78
+    },
+    {
+      "text": "It's provisioning the schema.",
+      "start": 965.3,
+      "duration": 1.34
+    },
+    {
+      "text": "It's provisioning\nthe data sources.",
+      "start": 966.64,
+      "duration": 2.41
+    },
+    {
+      "text": "So this might take a second.",
+      "start": 969.05,
+      "duration": 3.62
+    },
+    {
+      "text": "And here we are.",
+      "start": 972.67,
+      "duration": 1.36
+    },
+    {
+      "text": "Now we have a live database\nwith the schema for our TV shows",
+      "start": 974.03,
+      "duration": 3.2
+    },
+    {
+      "text": "review app.",
+      "start": 977.23,
+      "duration": 0.73
+    },
+    {
+      "text": "What is the next step?",
+      "start": 977.96,
+      "duration": 1.22
+    },
+    {
+      "text": "I need to add operations, such\nas retrieving data, modifying",
+      "start": 979.18,
+      "duration": 4.5
+    },
+    {
+      "text": "data.",
+      "start": 983.68,
+      "duration": 1.32
+    },
+    {
+      "text": "I don't need to do\nthat manually anymore.",
+      "start": 985.0,
+      "duration": 2.01
+    },
+    {
+      "text": "If I go to operations, I can\nalso use Gemini and our agent",
+      "start": 987.01,
+      "duration": 4.98
+    },
+    {
+      "text": "to generate those operations.",
+      "start": 991.99,
+      "duration": 1.54
+    },
+    {
+      "text": "So I click a button and\nGemini will automatically",
+      "start": 993.53,
+      "duration": 2.18
+    },
+    {
+      "text": "understand the context\nof the application,",
+      "start": 995.71,
+      "duration": 1.57
+    },
+    {
+      "text": "understand the schema,\nand suggest some of them.",
+      "start": 997.28,
+      "duration": 2.0
+    },
+    {
+      "text": "For example, add the\nTV show to the list,",
+      "start": 999.28,
+      "duration": 1.81
+    },
+    {
+      "text": "get the TV show, create\na list, update the list.",
+      "start": 1001.09,
+      "duration": 3.09
+    },
+    {
+      "text": "So let's say I want\nto create a new one.",
+      "start": 1004.18,
+      "duration": 2.15
+    },
+    {
+      "text": "So I create that.",
+      "start": 1006.33,
+      "duration": 1.6
+    },
+    {
+      "text": "I'm using natural language.",
+      "start": 1007.93,
+      "duration": 1.89
+    },
+    {
+      "text": "I can define the\noperation I want.",
+      "start": 1009.82,
+      "duration": 2.01
+    },
+    {
+      "text": "So for example, \"Give me all the\nepisodes for a cast member using",
+      "start": 1011.83,
+      "duration": 12.739
+    },
+    {
+      "text": "part of the name and\nrole as parameters.\"",
+      "start": 1024.569,
+      "duration": 4.641
+    },
+    {
+      "text": "Voila!",
+      "start": 1034.44,
+      "duration": 1.23
+    },
+    {
+      "text": "Now I have a method that\ntakes part of the name,",
+      "start": 1035.67,
+      "duration": 3.58
+    },
+    {
+      "text": "it takes the role, and the agent\ncreated the GraphQL definition",
+      "start": 1039.25,
+      "duration": 5.0
+    },
+    {
+      "text": "for that query.",
+      "start": 1044.25,
+      "duration": 0.67
+    },
+    {
+      "text": "So let's edit.",
+      "start": 1044.92,
+      "duration": 0.86
+    },
+    {
+      "text": "I'm getting ambitious here.",
+      "start": 1045.78,
+      "duration": 1.39
+    },
+    {
+      "text": "Let's edit.",
+      "start": 1047.17,
+      "duration": 0.51
+    },
+    {
+      "text": "Let's do one last edit.",
+      "start": 1047.68,
+      "duration": 1.28
+    },
+    {
+      "text": "\"Add the TV show data.\"",
+      "start": 1048.96,
+      "duration": 4.3
+    },
+    {
+      "text": "Because right now, I only have\nthe data for the episodes.",
+      "start": 1053.26,
+      "duration": 2.55
+    },
+    {
+      "text": "And here it is.",
+      "start": 1059.22,
+      "duration": 1.15
+    },
+    {
+      "text": "It added the data\nfor the TV shows.",
+      "start": 1060.37,
+      "duration": 1.59
+    },
+    {
+      "text": "Pretty impressive, right?",
+      "start": 1061.96,
+      "duration": 1.21
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1063.17,
+      "duration": 1.09
+    },
+    {
+      "text": "All right.",
+      "start": 1064.26,
+      "duration": 1.44
+    },
+    {
+      "text": "That's all I have for now.",
+      "start": 1065.7,
+      "duration": 1.24
+    },
+    {
+      "text": "Let's go back to slides.",
+      "start": 1066.94,
+      "duration": 2.242
+    },
+    {
+      "text": "AJA HAMMERLY: So another thing\nthat developers have told us",
+      "start": 1069.182,
+      "duration": 2.458
+    },
+    {
+      "text": "that they struggle\nwith is verifying",
+      "start": 1071.64,
+      "duration": 1.62
+    },
+    {
+      "text": "phone numbers for users\nof their applications.",
+      "start": 1073.26,
+      "duration": 2.47
+    },
+    {
+      "text": "And today, we're talking\nabout Firebase Phone Number",
+      "start": 1075.73,
+      "duration": 2.39
+    },
+    {
+      "text": "Verification, which\nis an exciting update",
+      "start": 1078.12,
+      "duration": 2.73
+    },
+    {
+      "text": "for any developer currently\nusing SMS and one-time codes",
+      "start": 1080.85,
+      "duration": 3.51
+    },
+    {
+      "text": "in order to validate\nphone numbers.",
+      "start": 1084.36,
+      "duration": 2.67
+    },
+    {
+      "text": "Firebase Phone Number\nVerification moves end users",
+      "start": 1087.03,
+      "duration": 2.19
+    },
+    {
+      "text": "from an SMS-based workflow\nthat is somewhat error",
+      "start": 1089.22,
+      "duration": 2.73
+    },
+    {
+      "text": "prone, because they have to\ntype in their phone number,",
+      "start": 1091.95,
+      "duration": 2.32
+    },
+    {
+      "text": "and then they have\nto type in the code",
+      "start": 1094.27,
+      "duration": 1.583
+    },
+    {
+      "text": "you gave them, to a method\nwhere, with their permission,",
+      "start": 1095.853,
+      "duration": 2.947
+    },
+    {
+      "text": "you can verify the phone number\ndirectly with the carrier,",
+      "start": 1098.8,
+      "duration": 2.88
+    },
+    {
+      "text": "so way less copying and\npasting, way fewer steps,",
+      "start": 1101.68,
+      "duration": 3.06
+    },
+    {
+      "text": "way less chances of errors.",
+      "start": 1104.74,
+      "duration": 2.27
+    },
+    {
+      "text": "Firebase Phone\nNumber Verification",
+      "start": 1107.01,
+      "duration": 1.59
+    },
+    {
+      "text": "is coming this summer,\nstarting with Android,",
+      "start": 1108.6,
+      "duration": 2.39
+    },
+    {
+      "text": "and both iOS and web support\nare planned after Android.",
+      "start": 1110.99,
+      "duration": 3.278
+    },
+    {
+      "text": "If you want to know\nmore, or you want",
+      "start": 1114.268,
+      "duration": 1.542
+    },
+    {
+      "text": "to give us feedback on what\nregions we should start with,",
+      "start": 1115.81,
+      "duration": 2.462
+    },
+    {
+      "text": "you can scan the QR code to\nfind out more about the program",
+      "start": 1118.272,
+      "duration": 2.458
+    },
+    {
+      "text": "and give us that feedback.",
+      "start": 1120.73,
+      "duration": 2.61
+    },
+    {
+      "text": "So got a bunch of\ndevs in the audience.",
+      "start": 1123.34,
+      "duration": 2.77
+    },
+    {
+      "text": "What comes after\nprototype and built?",
+      "start": 1126.11,
+      "duration": 3.86
+    },
+    {
+      "text": "Everyone's favorite\npart of the SDLC--",
+      "start": 1129.97,
+      "duration": 2.56
+    },
+    {
+      "text": "testing.",
+      "start": 1132.53,
+      "duration": 0.752
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Yeah!",
+      "start": 1133.282,
+      "duration": 1.271
+    },
+    {
+      "text": "AJA HAMMERLY: Testing.",
+      "start": 1134.553,
+      "duration": 0.917
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Woo!",
+      "start": 1135.47,
+      "duration": 2.48
+    },
+    {
+      "text": "AJA HAMMERLY: And\nof course, Firebase",
+      "start": 1137.95,
+      "duration": 1.83
+    },
+    {
+      "text": "has several things new to\ntalk about in this space.",
+      "start": 1139.78,
+      "duration": 2.98
+    },
+    {
+      "text": "First of all, one of the things\nthat as we learn more about AI",
+      "start": 1142.76,
+      "duration": 3.65
+    },
+    {
+      "text": "and we build more\nAI apps, we know",
+      "start": 1146.41,
+      "duration": 2.49
+    },
+    {
+      "text": "that applications that use AI\nneed different kinds of testing.",
+      "start": 1148.9,
+      "duration": 3.49
+    },
+    {
+      "text": "AI Testing agent, which is part\nof Firebase Studio, and Gemini",
+      "start": 1152.39,
+      "duration": 2.96
+    },
+    {
+      "text": "Code Assist, systematically\ntest your applications",
+      "start": 1155.35,
+      "duration": 2.94
+    },
+    {
+      "text": "by simulating\nadversarial attacks,",
+      "start": 1158.29,
+      "duration": 2.26
+    },
+    {
+      "text": "and it also measures and\nbenchmarks your LLM performance",
+      "start": 1160.55,
+      "duration": 2.87
+    },
+    {
+      "text": "while it's doing it.",
+      "start": 1163.42,
+      "duration": 2.04
+    },
+    {
+      "text": "SEBA GNAGNARELLA:\nSo at Firebase,",
+      "start": 1165.46,
+      "duration": 2.68
+    },
+    {
+      "text": "we are not only\nthinking about how",
+      "start": 1168.14,
+      "duration": 1.85
+    },
+    {
+      "text": "you test the AI models you\nuse, but we are completely",
+      "start": 1169.99,
+      "duration": 3.48
+    },
+    {
+      "text": "redefining how you test\nyour full application.",
+      "start": 1173.47,
+      "duration": 3.51
+    },
+    {
+      "text": "Available today in\nPrivate Preview,",
+      "start": 1176.98,
+      "duration": 2.32
+    },
+    {
+      "text": "the App Testing\nagent uses Gemini",
+      "start": 1179.3,
+      "duration": 2.42
+    },
+    {
+      "text": "to create tests for\nyour mobile applications",
+      "start": 1181.72,
+      "duration": 3.03
+    },
+    {
+      "text": "using natural\nlanguage that then you",
+      "start": 1184.75,
+      "duration": 2.43
+    },
+    {
+      "text": "can run in a multitude of\nphysical and virtual devices.",
+      "start": 1187.18,
+      "duration": 3.67
+    },
+    {
+      "text": "All you need to do is specify\nthe goal for your test,",
+      "start": 1190.85,
+      "duration": 3.42
+    },
+    {
+      "text": "and the agent will figure out\nwhere to tap, how to scroll,",
+      "start": 1194.27,
+      "duration": 3.96
+    },
+    {
+      "text": "and what text to enter\nto accomplish that goal.",
+      "start": 1198.23,
+      "duration": 3.02
+    },
+    {
+      "text": "Let's take a quick look at it.",
+      "start": 1201.25,
+      "duration": 2.55
+    },
+    {
+      "text": "All right.",
+      "start": 1203.8,
+      "duration": 0.76
+    },
+    {
+      "text": "So I built this\napplication, which",
+      "start": 1204.56,
+      "duration": 2.72
+    },
+    {
+      "text": "is a way of reinventing the\nway users search for travel.",
+      "start": 1207.28,
+      "duration": 3.78
+    },
+    {
+      "text": "Instead of doing the location\nsearch and dates and whatnot,",
+      "start": 1211.06,
+      "duration": 4.24
+    },
+    {
+      "text": "they use a prompt to tell us\nwhere they want to travel.",
+      "start": 1215.3,
+      "duration": 4.32
+    },
+    {
+      "text": "I want to test this application,\nbut most importantly, I",
+      "start": 1219.62,
+      "duration": 3.92
+    },
+    {
+      "text": "want to automate the testing,\nand I want to make sure",
+      "start": 1223.54,
+      "duration": 2.58
+    },
+    {
+      "text": "that the tests are reliable.",
+      "start": 1226.12,
+      "duration": 1.38
+    },
+    {
+      "text": "And every time I change\nmy UI, I want to make sure",
+      "start": 1227.5,
+      "duration": 3.18
+    },
+    {
+      "text": "that my tests don't break.",
+      "start": 1230.68,
+      "duration": 1.78
+    },
+    {
+      "text": "So for that, I'm going to\nuse our App Testing agent.",
+      "start": 1232.46,
+      "duration": 3.83
+    },
+    {
+      "text": "So I'm here in the Firebase\nConsole in our product",
+      "start": 1236.29,
+      "duration": 3.21
+    },
+    {
+      "text": "called Lab Distribution.",
+      "start": 1239.5,
+      "duration": 1.27
+    },
+    {
+      "text": "And I have this\ntab for test cases.",
+      "start": 1240.77,
+      "duration": 1.603
+    },
+    {
+      "text": "So the first thing\nI'm going to do",
+      "start": 1242.373,
+      "duration": 1.417
+    },
+    {
+      "text": "is I'm going to\nwrite a test case.",
+      "start": 1243.79,
+      "duration": 1.66
+    },
+    {
+      "text": "So I'm going to call it,\n\"Find Me a Trip to Spain.\"",
+      "start": 1245.45,
+      "duration": 6.77
+    },
+    {
+      "text": "And I'm going to\nuse natural language",
+      "start": 1252.22,
+      "duration": 1.71
+    },
+    {
+      "text": "search to tell the agent what\nI expect the agent to do.",
+      "start": 1253.93,
+      "duration": 3.97
+    },
+    {
+      "text": "So the first step is,\n\"Pick the AI option.\"",
+      "start": 1257.9,
+      "duration": 5.54
+    },
+    {
+      "text": "The second is, \"Enter a dreamy\nprompt about the trip to Spain.\"",
+      "start": 1263.44,
+      "duration": 9.66
+    },
+    {
+      "text": "The tool lets me provide\nhints to the agent.",
+      "start": 1273.1,
+      "duration": 4.02
+    },
+    {
+      "text": "So in case that it\ndoesn't know what to do,",
+      "start": 1277.12,
+      "duration": 2.73
+    },
+    {
+      "text": "we help them move forward.",
+      "start": 1279.85,
+      "duration": 1.12
+    },
+    {
+      "text": "So I'm going to tell the agent,\n\"Hide the keyboard and click",
+      "start": 1280.97,
+      "duration": 7.94
+    },
+    {
+      "text": "Submit.\"",
+      "start": 1288.91,
+      "duration": 1.68
+    },
+    {
+      "text": "And as the last step is,\n\"From the list of results,",
+      "start": 1290.59,
+      "duration": 6.48
+    },
+    {
+      "text": "pick the second one, unless\nthere is only one available.\"",
+      "start": 1297.07,
+      "duration": 10.38
+    },
+    {
+      "text": "And the success criteria is,\nlet's say, knowing my app,",
+      "start": 1307.45,
+      "duration": 4.2
+    },
+    {
+      "text": "is \"The first day of\nthe itinerary shows.\"",
+      "start": 1311.65,
+      "duration": 5.76
+    },
+    {
+      "text": "So as simple as that, I\ncan define a test case",
+      "start": 1317.41,
+      "duration": 3.06
+    },
+    {
+      "text": "for my application.",
+      "start": 1320.47,
+      "duration": 1.3
+    },
+    {
+      "text": "I'm going to save it.",
+      "start": 1321.77,
+      "duration": 2.33
+    },
+    {
+      "text": "And the next step is to run it.",
+      "start": 1324.1,
+      "duration": 3.09
+    },
+    {
+      "text": "Our App Testing\nagent lets me pick",
+      "start": 1327.19,
+      "duration": 1.56
+    },
+    {
+      "text": "from a multitude of virtual\nand physical devices.",
+      "start": 1328.75,
+      "duration": 3.61
+    },
+    {
+      "text": "In this case, I'm testing\nagainst a physical Pixel 9",
+      "start": 1332.36,
+      "duration": 2.99
+    },
+    {
+      "text": "Pro that is in our\ndata centers, but you",
+      "start": 1335.35,
+      "duration": 2.1
+    },
+    {
+      "text": "can pick from a multitude\nof other devices available.",
+      "start": 1337.45,
+      "duration": 4.23
+    },
+    {
+      "text": "So I'm going to scroll down.",
+      "start": 1341.68,
+      "duration": 1.6
+    },
+    {
+      "text": "I'm going to leave\nthis test running,",
+      "start": 1343.28,
+      "duration": 2.21
+    },
+    {
+      "text": "but this can take a minute.",
+      "start": 1345.49,
+      "duration": 1.48
+    },
+    {
+      "text": "So let's look at one of\nthe previous results I got.",
+      "start": 1346.97,
+      "duration": 3.83
+    },
+    {
+      "text": "I go to the details.",
+      "start": 1350.8,
+      "duration": 1.44
+    },
+    {
+      "text": "And I can see, step-by-step,\nhow the agent navigated",
+      "start": 1352.24,
+      "duration": 4.65
+    },
+    {
+      "text": "in the scripts.",
+      "start": 1356.89,
+      "duration": 1.68
+    },
+    {
+      "text": "So for example, where\nit tapped, what data it",
+      "start": 1358.57,
+      "duration": 2.97
+    },
+    {
+      "text": "used, how it used my hints,\nhow it created the dreamy tip",
+      "start": 1361.54,
+      "duration": 6.99
+    },
+    {
+      "text": "definition, and\nlast but not least,",
+      "start": 1368.53,
+      "duration": 4.65
+    },
+    {
+      "text": "how it used that\ndefinition to pull results.",
+      "start": 1373.18,
+      "duration": 3.72
+    },
+    {
+      "text": "Look at all the steps\nit went through.",
+      "start": 1376.9,
+      "duration": 1.98
+    },
+    {
+      "text": "And I didn't tell the\nagent how to do this.",
+      "start": 1378.88,
+      "duration": 2.26
+    },
+    {
+      "text": "It is something that the\nagent figured out by its own.",
+      "start": 1381.14,
+      "duration": 3.608
+    },
+    {
+      "text": "And the last step--",
+      "start": 1384.748,
+      "duration": 0.792
+    },
+    {
+      "text": "I'm going to jump\nto the last step--",
+      "start": 1385.54,
+      "duration": 1.5
+    },
+    {
+      "text": "goal completed.",
+      "start": 1387.04,
+      "duration": 0.96
+    },
+    {
+      "text": "Day one of the itinerary.",
+      "start": 1388.0,
+      "duration": 2.16
+    },
+    {
+      "text": "Pretty, pretty impressive.",
+      "start": 1390.16,
+      "duration": 1.6
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1391.76,
+      "duration": 3.185
+    },
+    {
+      "text": "All right, let's go\nback to the slides.",
+      "start": 1396.31,
+      "duration": 2.91
+    },
+    {
+      "text": "Aja, we are in the\nhome stretch here.",
+      "start": 1399.22,
+      "duration": 3.33
+    },
+    {
+      "text": "We built and prototype\na beautiful application.",
+      "start": 1402.55,
+      "duration": 3.87
+    },
+    {
+      "text": "We tested it.",
+      "start": 1406.42,
+      "duration": 1.24
+    },
+    {
+      "text": "Now, how do we make it\navailable to the world",
+      "start": 1407.66,
+      "duration": 2.64
+    },
+    {
+      "text": "so it turns into\nthe next unicorn?",
+      "start": 1410.3,
+      "duration": 3.02
+    },
+    {
+      "text": "AJA HAMMERLY: Well, Firebase\nhas stuff for that, of course.",
+      "start": 1413.32,
+      "duration": 3.19
+    },
+    {
+      "text": "Let's talk about\nFirebase App Hosting.",
+      "start": 1416.51,
+      "duration": 2.96
+    },
+    {
+      "text": "Firebase App Hosting is our\nopinionated, serverless web",
+      "start": 1419.47,
+      "duration": 3.03
+    },
+    {
+      "text": "hosting solution for\nmodern full-stack web",
+      "start": 1422.5,
+      "duration": 2.13
+    },
+    {
+      "text": "frameworks like Next.js.",
+      "start": 1424.63,
+      "duration": 2.34
+    },
+    {
+      "text": "These full-stack\nweb frameworks make",
+      "start": 1426.97,
+      "duration": 1.95
+    },
+    {
+      "text": "it easier for developers to\nbuild really cool applications",
+      "start": 1428.92,
+      "duration": 3.21
+    },
+    {
+      "text": "and get the benefit of things\nlike server-side rendering that",
+      "start": 1432.13,
+      "duration": 3.21
+    },
+    {
+      "text": "improves SEO, reduces\ninitial load times,",
+      "start": 1435.34,
+      "duration": 2.65
+    },
+    {
+      "text": "and many other\nthings that we want.",
+      "start": 1437.99,
+      "duration": 1.79
+    },
+    {
+      "text": "And you get to do it\nall in JavaScript.",
+      "start": 1439.78,
+      "duration": 1.99
+    },
+    {
+      "text": "But-- there's always a but--",
+      "start": 1441.77,
+      "duration": 2.06
+    },
+    {
+      "text": "to deploy one of\nthese is way more",
+      "start": 1443.83,
+      "duration": 2.025
+    },
+    {
+      "text": "complicated than what\nI do for my blog, which",
+      "start": 1445.855,
+      "duration": 1.875
+    },
+    {
+      "text": "is shove a bunch of static\nfiles at a CDN and call it good.",
+      "start": 1447.73,
+      "duration": 3.37
+    },
+    {
+      "text": "To do this, you actually\nneed a build step",
+      "start": 1451.1,
+      "duration": 1.85
+    },
+    {
+      "text": "to build those static files,\nyou need a server running",
+      "start": 1452.95,
+      "duration": 2.775
+    },
+    {
+      "text": "for your server-side\nrendering, and you still",
+      "start": 1455.725,
+      "duration": 1.875
+    },
+    {
+      "text": "need that CDN to serve all\nthe files you create out",
+      "start": 1457.6,
+      "duration": 3.03
+    },
+    {
+      "text": "to your audience\nand your community.",
+      "start": 1460.63,
+      "duration": 2.7
+    },
+    {
+      "text": "You kind of need it\nall, and you need it all",
+      "start": 1463.33,
+      "duration": 1.97
+    },
+    {
+      "text": "hooked together in a pipeline.",
+      "start": 1465.3,
+      "duration": 1.25
+    },
+    {
+      "text": "And that is what Firebase\nApp Hosting does for you.",
+      "start": 1466.55,
+      "duration": 3.15
+    },
+    {
+      "text": "It does all of that.",
+      "start": 1469.7,
+      "duration": 2.12
+    },
+    {
+      "text": "We launched Firebase App\nHosting to GA at Next,",
+      "start": 1471.82,
+      "duration": 2.79
+    },
+    {
+      "text": "but we did not let off the gas.",
+      "start": 1474.61,
+      "duration": 2.98
+    },
+    {
+      "text": "Firebase App Hosting has\na bunch of new features,",
+      "start": 1477.59,
+      "duration": 2.19
+    },
+    {
+      "text": "including deploying from\nthe local Firebase CLI",
+      "start": 1479.78,
+      "duration": 2.79
+    },
+    {
+      "text": "so you don't have\nto configure GitHub",
+      "start": 1482.57,
+      "duration": 2.39
+    },
+    {
+      "text": "or pushing to a source control\nto trigger a new build.",
+      "start": 1484.96,
+      "duration": 2.847
+    },
+    {
+      "text": "We also added Terraform support,\nsomething that a lot of folks",
+      "start": 1487.807,
+      "duration": 2.583
+    },
+    {
+      "text": "were asking for.",
+      "start": 1490.39,
+      "duration": 0.79
+    },
+    {
+      "text": "So you can now build and\ndeploy your own container image",
+      "start": 1491.18,
+      "duration": 2.87
+    },
+    {
+      "text": "using Terraform.",
+      "start": 1494.05,
+      "duration": 1.72
+    },
+    {
+      "text": "And we have automatic\nconfiguration of the Firebase",
+      "start": 1495.77,
+      "duration": 2.72
+    },
+    {
+      "text": "SDKs and the Emulator Suite.",
+      "start": 1498.49,
+      "duration": 1.267
+    },
+    {
+      "text": "That was a bunch of words.",
+      "start": 1499.757,
+      "duration": 1.083
+    },
+    {
+      "text": "Let's talk about what it means.",
+      "start": 1500.84,
+      "duration": 1.527
+    },
+    {
+      "text": "This means that if you're\nrunning your app locally using",
+      "start": 1502.367,
+      "duration": 2.333
+    },
+    {
+      "text": "the App Hosting\nemulator, you also",
+      "start": 1504.7,
+      "duration": 2.04
+    },
+    {
+      "text": "can have the emulators running\nfor other Firebase services you",
+      "start": 1506.74,
+      "duration": 3.24
+    },
+    {
+      "text": "use, like Auth and Firestore,\nand those emulated services",
+      "start": 1509.98,
+      "duration": 2.97
+    },
+    {
+      "text": "will be used automatically\ninstead of production",
+      "start": 1512.95,
+      "duration": 2.43
+    },
+    {
+      "text": "because we don't develop\nagainst production, right?",
+      "start": 1515.38,
+      "duration": 3.41
+    },
+    {
+      "text": "Right.",
+      "start": 1518.79,
+      "duration": 0.5
+    },
+    {
+      "text": "OK.",
+      "start": 1519.29,
+      "duration": 0.914
+    },
+    {
+      "text": "And of course, Firebase\nApp Hosting seamlessly",
+      "start": 1520.204,
+      "duration": 3.586
+    },
+    {
+      "text": "integrates with Firebase Studio,\nwhich is what you saw me deploy",
+      "start": 1523.79,
+      "duration": 2.94
+    },
+    {
+      "text": "to earlier.",
+      "start": 1526.73,
+      "duration": 0.85
+    },
+    {
+      "text": "So cross fingers, drum roll.",
+      "start": 1527.58,
+      "duration": 2.13
+    },
+    {
+      "text": "Can we switch back over to\nmy machine for another demo?",
+      "start": 1529.71,
+      "duration": 2.67
+    },
+    {
+      "text": "[SCATTERED APPLAUSE]",
+      "start": 1532.38,
+      "duration": 2.355
+    },
+    {
+      "text": "It rolled out successfully.",
+      "start": 1536.15,
+      "duration": 1.32
+    },
+    {
+      "text": "And I can show you this.",
+      "start": 1537.47,
+      "duration": 1.0
+    },
+    {
+      "text": "We've got our live app running\non Firebase App Hosting.",
+      "start": 1538.47,
+      "duration": 4.43
+    },
+    {
+      "text": "And still get my AI suggestion.",
+      "start": 1542.9,
+      "duration": 1.301
+    },
+    {
+      "text": "SEBA GNAGNARELLA: Woo!",
+      "start": 1544.201,
+      "duration": 0.917
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1545.118,
+      "duration": 1.404
+    },
+    {
+      "text": "AJA HAMMERLY: It's a deployment.",
+      "start": 1547.187,
+      "duration": 1.333
+    },
+    {
+      "text": "But this is the part I love.",
+      "start": 1548.52,
+      "duration": 1.405
+    },
+    {
+      "text": "It gives me information about\nhow many requests I've had.",
+      "start": 1549.925,
+      "duration": 2.375
+    },
+    {
+      "text": "And yes, I did actually\ntry a couple on stage",
+      "start": 1552.3,
+      "duration": 2.27
+    },
+    {
+      "text": "while Seba was demoing to\nmake sure we had some traffic.",
+      "start": 1554.57,
+      "duration": 2.357
+    },
+    {
+      "text": "And it also gives you\nreally important information",
+      "start": 1556.927,
+      "duration": 2.083
+    },
+    {
+      "text": "that I want as a\ndeveloper who's running",
+      "start": 1559.01,
+      "duration": 1.8
+    },
+    {
+      "text": "an app that people are using.",
+      "start": 1560.81,
+      "duration": 1.51
+    },
+    {
+      "text": "It gives me information on\nthe errors that I'm seeing,",
+      "start": 1562.32,
+      "duration": 2.25
+    },
+    {
+      "text": "the classes of errors,\nthe number of requests,",
+      "start": 1564.57,
+      "duration": 2.22
+    },
+    {
+      "text": "and I can get details on all of\nthis in the Firebase Console.",
+      "start": 1566.79,
+      "duration": 4.55
+    },
+    {
+      "text": "And that is what I really\nlove about Firebase Studio.",
+      "start": 1571.34,
+      "duration": 3.55
+    },
+    {
+      "text": "We started with an idea.",
+      "start": 1574.89,
+      "duration": 2.03
+    },
+    {
+      "text": "We prototyped with AI.",
+      "start": 1576.92,
+      "duration": 1.6
+    },
+    {
+      "text": "We went to Code Mode.",
+      "start": 1578.52,
+      "duration": 1.14
+    },
+    {
+      "text": "We talked about the\nways we can test,",
+      "start": 1579.66,
+      "duration": 1.555
+    },
+    {
+      "text": "including things like\nAI Testing agent,",
+      "start": 1581.215,
+      "duration": 1.625
+    },
+    {
+      "text": "which are available in Firebase\nStudio, and App Testing agent.",
+      "start": 1582.84,
+      "duration": 2.91
+    },
+    {
+      "text": "We deployed.",
+      "start": 1585.75,
+      "duration": 1.32
+    },
+    {
+      "text": "And now I'm running\nin production,",
+      "start": 1587.07,
+      "duration": 1.863
+    },
+    {
+      "text": "and I have access to\nall the information",
+      "start": 1588.933,
+      "duration": 1.667
+    },
+    {
+      "text": "I need to monitor and\nkeep my apps successful.",
+      "start": 1590.6,
+      "duration": 2.965
+    },
+    {
+      "text": "And that's what I love\nabout Firebase Studio.",
+      "start": 1593.565,
+      "duration": 1.875
+    },
+    {
+      "text": "It really has everything,\nstart to finish,",
+      "start": 1595.44,
+      "duration": 1.94
+    },
+    {
+      "text": "and then back again to\nstart for a developer.",
+      "start": 1597.38,
+      "duration": 2.62
+    },
+    {
+      "text": "It supports the entire SDLC.",
+      "start": 1600.0,
+      "duration": 3.62
+    },
+    {
+      "text": "And it worked.",
+      "start": 1603.62,
+      "duration": 1.103
+    },
+    {
+      "text": "I love when the demo--",
+      "start": 1604.723,
+      "duration": 0.917
+    },
+    {
+      "text": "I love when the demo works.",
+      "start": 1605.64,
+      "duration": 1.768
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1607.408,
+      "duration": 3.332
+    },
+    {
+      "text": "So let's go back to the slides\nbecause we have a couple minutes",
+      "start": 1611.24,
+      "duration": 2.702
+    },
+    {
+      "text": "left and a couple more\nthings to show y'all.",
+      "start": 1613.942,
+      "duration": 1.833
+    },
+    {
+      "text": "SEBA GNAGNARELLA: All right.",
+      "start": 1618.393,
+      "duration": 1.167
+    },
+    {
+      "text": "Let's go back to the slides.",
+      "start": 1619.56,
+      "duration": 1.67
+    },
+    {
+      "text": "And speaking of\nseamlessly integrations,",
+      "start": 1621.23,
+      "duration": 3.24
+    },
+    {
+      "text": "today we are announcing\nFirebase MCP support.",
+      "start": 1624.47,
+      "duration": 3.14
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1627.61,
+      "duration": 3.14
+    },
+    {
+      "text": "The Mobile Context\nProtocol, MCP,",
+      "start": 1631.25,
+      "duration": 2.1
+    },
+    {
+      "text": "is an open standard\ndesigned to enhance",
+      "start": 1633.35,
+      "duration": 1.98
+    },
+    {
+      "text": "the capabilities of AI agents\nand large language models.",
+      "start": 1635.33,
+      "duration": 3.69
+    },
+    {
+      "text": "It acts like a universal\nremote control or a USB port",
+      "start": 1639.02,
+      "duration": 3.66
+    },
+    {
+      "text": "for AI applications,\nstandardizing",
+      "start": 1642.68,
+      "duration": 2.28
+    },
+    {
+      "text": "how they connect to and interact\nwith external tools, data",
+      "start": 1644.96,
+      "duration": 3.54
+    },
+    {
+      "text": "sources, and services.",
+      "start": 1648.5,
+      "duration": 1.8
+    },
+    {
+      "text": "Now, you can use the Firebase\nMCP server from the CLI",
+      "start": 1650.3,
+      "duration": 4.35
+    },
+    {
+      "text": "and use it to access the\npower of Firebase services",
+      "start": 1654.65,
+      "duration": 2.79
+    },
+    {
+      "text": "from your favorite agents, and\nsoon from Firebase Studio too.",
+      "start": 1657.44,
+      "duration": 5.88
+    },
+    {
+      "text": "That's all for now.",
+      "start": 1663.32,
+      "duration": 1.49
+    },
+    {
+      "text": "If you want to learn\nmore about the things",
+      "start": 1664.81,
+      "duration": 1.75
+    },
+    {
+      "text": "we presented here today, do\nnot miss our Video On Demand",
+      "start": 1666.56,
+      "duration": 2.73
+    },
+    {
+      "text": "sessions.",
+      "start": 1669.29,
+      "duration": 0.76
+    },
+    {
+      "text": "Or if you are here in\nperson, please join us",
+      "start": 1670.05,
+      "duration": 2.66
+    },
+    {
+      "text": "in our Cloud Q&A space.",
+      "start": 1672.71,
+      "duration": 1.78
+    },
+    {
+      "text": "And as always, don't\nforget to visit our blog.",
+      "start": 1674.49,
+      "duration": 3.98
+    },
+    {
+      "text": "[CHEERS, APPLAUSE]",
+      "start": 1678.47,
+      "duration": 2.1
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1682.67,
+      "duration": 3.35
+    }
+  ]
+}

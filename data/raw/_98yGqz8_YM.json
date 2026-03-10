@@ -1,0 +1,932 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "_98yGqz8_YM",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi, I'm Chitra Winkitesh and I'm a",
+      "start": 6.24,
+      "duration": 4.399
+    },
+    {
+      "text": "product manager for Google Cloud. And",
+      "start": 8.72,
+      "duration": 3.6
+    },
+    {
+      "text": "I'm Ces Cortez. I'm an interaction",
+      "start": 10.639,
+      "duration": 3.601
+    },
+    {
+      "text": "designer for Google Cloud. We will be",
+      "start": 12.32,
+      "duration": 3.279
+    },
+    {
+      "text": "walking through how to build an app",
+      "start": 14.24,
+      "duration": 3.76
+    },
+    {
+      "text": "sheet app that's powered by an AI agent.",
+      "start": 15.599,
+      "duration": 4.481
+    },
+    {
+      "text": "But first, let's kick things off with a",
+      "start": 18.0,
+      "duration": 3.92
+    },
+    {
+      "text": "quick overview of App Sheet and what's",
+      "start": 20.08,
+      "duration": 4.4
+    },
+    {
+      "text": "new. After that, we'll jump into a demo",
+      "start": 21.92,
+      "duration": 4.8
+    },
+    {
+      "text": "of an App Sheet solution. We'll be",
+      "start": 24.48,
+      "duration": 4.48
+    },
+    {
+      "text": "showing you an AI agent integrated into",
+      "start": 26.72,
+      "duration": 4.0
+    },
+    {
+      "text": "an app sheet application using",
+      "start": 28.96,
+      "duration": 3.92
+    },
+    {
+      "text": "AppScript, a scripting platform for",
+      "start": 30.72,
+      "duration": 4.48
+    },
+    {
+      "text": "lightweight application development. And",
+      "start": 32.88,
+      "duration": 4.4
+    },
+    {
+      "text": "to wrap up, we'll share some useful",
+      "start": 35.2,
+      "duration": 4.64
+    },
+    {
+      "text": "resources. The demo showcased here is",
+      "start": 37.28,
+      "duration": 4.56
+    },
+    {
+      "text": "linked in the description. All right,",
+      "start": 39.84,
+      "duration": 3.52
+    },
+    {
+      "text": "says shall we get started with an",
+      "start": 41.84,
+      "duration": 4.0
+    },
+    {
+      "text": "overview of App Sheet? Sure. So, what is",
+      "start": 43.36,
+      "duration": 4.8
+    },
+    {
+      "text": "App Sheet? App sheet is Google's AI",
+      "start": 45.84,
+      "duration": 4.16
+    },
+    {
+      "text": "powered no code platform that empowers",
+      "start": 48.16,
+      "duration": 3.76
+    },
+    {
+      "text": "teams to quickly build mobile apps and",
+      "start": 50.0,
+      "duration": 4.079
+    },
+    {
+      "text": "automated workflows. App sheet solutions",
+      "start": 51.92,
+      "duration": 4.08
+    },
+    {
+      "text": "are built directly on existing data from",
+      "start": 54.079,
+      "duration": 4.64
+    },
+    {
+      "text": "Google Workspace, GCP, or anywhere else.",
+      "start": 56.0,
+      "duration": 4.719
+    },
+    {
+      "text": "And critically, App Sheet also empowers",
+      "start": 58.719,
+      "duration": 3.84
+    },
+    {
+      "text": "you with essential security and",
+      "start": 60.719,
+      "duration": 3.921
+    },
+    {
+      "text": "governance controls built right in. In",
+      "start": 62.559,
+      "duration": 4.24
+    },
+    {
+      "text": "short, App Sheet facilitates business",
+      "start": 64.64,
+      "duration": 4.159
+    },
+    {
+      "text": "workflow automation, improves team",
+      "start": 66.799,
+      "duration": 3.761
+    },
+    {
+      "text": "coordination, and strengthens security",
+      "start": 68.799,
+      "duration": 4.64
+    },
+    {
+      "text": "and governance frameworks. App sheet is",
+      "start": 70.56,
+      "duration": 5.12
+    },
+    {
+      "text": "continually evolving, and we're excited",
+      "start": 73.439,
+      "duration": 4.241
+    },
+    {
+      "text": "to highlight our latest launches",
+      "start": 75.68,
+      "duration": 4.4
+    },
+    {
+      "text": "designed to significantly enhance your",
+      "start": 77.68,
+      "duration": 4.64
+    },
+    {
+      "text": "app building experience. We're",
+      "start": 80.08,
+      "duration": 4.079
+    },
+    {
+      "text": "particularly thrilled to introduce",
+      "start": 82.32,
+      "duration": 3.28
+    },
+    {
+      "text": "Gemini and app sheet apps, which",
+      "start": 84.159,
+      "duration": 3.921
+    },
+    {
+      "text": "empowers app users to directly add data",
+      "start": 85.6,
+      "duration": 4.08
+    },
+    {
+      "text": "by extracting and summarizing",
+      "start": 88.08,
+      "duration": 4.039
+    },
+    {
+      "text": "information from photos and files.",
+      "start": 89.68,
+      "duration": 5.119
+    },
+    {
+      "text": "Furthermore, new workspace integrations",
+      "start": 92.119,
+      "duration": 4.441
+    },
+    {
+      "text": "enable you to trigger powerful",
+      "start": 94.799,
+      "duration": 4.081
+    },
+    {
+      "text": "automations from Gmail and seamlessly",
+      "start": 96.56,
+      "duration": 5.12
+    },
+    {
+      "text": "embed your apps within Google sites to",
+      "start": 98.88,
+      "duration": 4.8
+    },
+    {
+      "text": "expand your connectivity. Integration",
+      "start": 101.68,
+      "duration": 3.68
+    },
+    {
+      "text": "connectors make it easy to integrate",
+      "start": 103.68,
+      "duration": 3.36
+    },
+    {
+      "text": "with other enterprise systems within",
+      "start": 105.36,
+      "duration": 4.0
+    },
+    {
+      "text": "your workflows. Finally, you'll have",
+      "start": 107.04,
+      "duration": 4.24
+    },
+    {
+      "text": "control over data and app usage with the",
+      "start": 109.36,
+      "duration": 3.92
+    },
+    {
+      "text": "introduction of our new user pass",
+      "start": 111.28,
+      "duration": 4.78
+    },
+    {
+      "text": "license and enhanced app sheet admin",
+      "start": 113.28,
+      "duration": 4.119
+    },
+    {
+      "text": "[Music]",
+      "start": 116.06,
+      "duration": 3.699
+    },
+    {
+      "text": "controls. All right, let's walk through",
+      "start": 117.399,
+      "duration": 4.441
+    },
+    {
+      "text": "a demo of app sheet in action. In",
+      "start": 119.759,
+      "duration": 3.601
+    },
+    {
+      "text": "today's demo, we'll showcase an app",
+      "start": 121.84,
+      "duration": 3.52
+    },
+    {
+      "text": "sheet app integrated with an AI agent",
+      "start": 123.36,
+      "duration": 4.56
+    },
+    {
+      "text": "using appcript. We'll begin by exploring",
+      "start": 125.36,
+      "duration": 5.119
+    },
+    {
+      "text": "symbol shops onboarding process. We'll",
+      "start": 127.92,
+      "duration": 4.399
+    },
+    {
+      "text": "demonstrate how app sheet digitizes this",
+      "start": 130.479,
+      "duration": 3.921
+    },
+    {
+      "text": "process, transforming it into a seamless",
+      "start": 132.319,
+      "duration": 4.401
+    },
+    {
+      "text": "workflow. Finally, we'll provide an",
+      "start": 134.4,
+      "duration": 4.08
+    },
+    {
+      "text": "overview of the app's architecture,",
+      "start": 136.72,
+      "duration": 3.12
+    },
+    {
+      "text": "highlighting the key components that",
+      "start": 138.48,
+      "duration": 2.36
+    },
+    {
+      "text": "drive its",
+      "start": 139.84,
+      "duration": 3.2
+    },
+    {
+      "text": "functionality. Meet Jeffrey, Caitlyn,",
+      "start": 140.84,
+      "duration": 4.44
+    },
+    {
+      "text": "and Anne from Symbol Shops. Jeffrey",
+      "start": 143.04,
+      "duration": 4.0
+    },
+    {
+      "text": "Clark is an onboarding group lead.",
+      "start": 145.28,
+      "duration": 4.319
+    },
+    {
+      "text": "Caitlyn Powell is the logistics manager.",
+      "start": 147.04,
+      "duration": 5.12
+    },
+    {
+      "text": "Anne Gray is the store manager. New",
+      "start": 149.599,
+      "duration": 4.801
+    },
+    {
+      "text": "employees onboard in groups and receive",
+      "start": 152.16,
+      "duration": 4.48
+    },
+    {
+      "text": "welcome kits. They use Google Forms to",
+      "start": 154.4,
+      "duration": 4.08
+    },
+    {
+      "text": "specify equipment size and style",
+      "start": 156.64,
+      "duration": 4.0
+    },
+    {
+      "text": "preferences for a few fun items.",
+      "start": 158.48,
+      "duration": 4.32
+    },
+    {
+      "text": "Jeffrey, the onboarding lead at Symbol",
+      "start": 160.64,
+      "duration": 4.16
+    },
+    {
+      "text": "Shops, curates a kit for each employee",
+      "start": 162.8,
+      "duration": 4.079
+    },
+    {
+      "text": "in the incoming group. He uses an app",
+      "start": 164.8,
+      "duration": 4.0
+    },
+    {
+      "text": "sheet app to select items for the kit",
+      "start": 166.879,
+      "duration": 4.161
+    },
+    {
+      "text": "and track status of the kits. As",
+      "start": 168.8,
+      "duration": 4.32
+    },
+    {
+      "text": "shipments occur, warehouse inventory",
+      "start": 171.04,
+      "duration": 4.16
+    },
+    {
+      "text": "levels are automatically updated.",
+      "start": 173.12,
+      "duration": 4.56
+    },
+    {
+      "text": "Caitlyn, the logistics manager, uses the",
+      "start": 175.2,
+      "duration": 4.08
+    },
+    {
+      "text": "app to monitor these changes and",
+      "start": 177.68,
+      "duration": 3.36
+    },
+    {
+      "text": "effectively manage stock in the",
+      "start": 179.28,
+      "duration": 4.48
+    },
+    {
+      "text": "warehouse. When inventory falls below a",
+      "start": 181.04,
+      "duration": 4.8
+    },
+    {
+      "text": "set threshold, online shopping carts",
+      "start": 183.76,
+      "duration": 4.08
+    },
+    {
+      "text": "across multiple stores are automatically",
+      "start": 185.84,
+      "duration": 3.8
+    },
+    {
+      "text": "updated to start the replenishment",
+      "start": 187.84,
+      "duration": 4.64
+    },
+    {
+      "text": "process. Caitlyn, the logistics manager,",
+      "start": 189.64,
+      "duration": 5.4
+    },
+    {
+      "text": "and an the store manager, receive email",
+      "start": 192.48,
+      "duration": 4.479
+    },
+    {
+      "text": "notifications regarding low inventory",
+      "start": 195.04,
+      "duration": 4.8
+    },
+    {
+      "text": "levels. An the store manager, leverages",
+      "start": 196.959,
+      "duration": 5.2
+    },
+    {
+      "text": "app sheet powered dynamic emails to",
+      "start": 199.84,
+      "duration": 4.24
+    },
+    {
+      "text": "conveniently approve updated carts,",
+      "start": 202.159,
+      "duration": 3.841
+    },
+    {
+      "text": "enabling seamless order placement",
+      "start": 204.08,
+      "duration": 5.36
+    },
+    {
+      "text": "directly from her inbox. Voila, all the",
+      "start": 206.0,
+      "duration": 5.36
+    },
+    {
+      "text": "new employee kits are ready to ship.",
+      "start": 209.44,
+      "duration": 4.159
+    },
+    {
+      "text": "That concludes the onboarding process at",
+      "start": 211.36,
+      "duration": 5.519
+    },
+    {
+      "text": "symbol shops. Now let's look at how app",
+      "start": 213.599,
+      "duration": 5.521
+    },
+    {
+      "text": "sheet digitizes this process. To",
+      "start": 216.879,
+      "duration": 4.161
+    },
+    {
+      "text": "summarize what ces explained, the",
+      "start": 219.12,
+      "duration": 3.839
+    },
+    {
+      "text": "employee onboarding process begins with",
+      "start": 221.04,
+      "duration": 4.32
+    },
+    {
+      "text": "the onboarding lead curating a welcome",
+      "start": 222.959,
+      "duration": 4.64
+    },
+    {
+      "text": "kit based on employee preference.",
+      "start": 225.36,
+      "duration": 4.72
+    },
+    {
+      "text": "Subsequently, the logistics manager",
+      "start": 227.599,
+      "duration": 4.801
+    },
+    {
+      "text": "monitors warehouse inventory. When the",
+      "start": 230.08,
+      "duration": 4.48
+    },
+    {
+      "text": "inventory drops below a threshold, the",
+      "start": 232.4,
+      "duration": 4.32
+    },
+    {
+      "text": "store manager's approval authorizes",
+      "start": 234.56,
+      "duration": 4.72
+    },
+    {
+      "text": "stock replenishment. The process starts",
+      "start": 236.72,
+      "duration": 5.36
+    },
+    {
+      "text": "when a new employee joins Symbol shops.",
+      "start": 239.28,
+      "duration": 5.12
+    },
+    {
+      "text": "New hires provide their preferences for",
+      "start": 242.08,
+      "duration": 4.159
+    },
+    {
+      "text": "the welcome kit such as their t-shirt",
+      "start": 244.4,
+      "duration": 4.88
+    },
+    {
+      "text": "sizes through Google forms. App sheets",
+      "start": 246.239,
+      "duration": 5.28
+    },
+    {
+      "text": "integration with Google forms allows",
+      "start": 249.28,
+      "duration": 4.48
+    },
+    {
+      "text": "these submissions to serve as event",
+      "start": 251.519,
+      "duration": 4.96
+    },
+    {
+      "text": "triggers within app sheet workflows.",
+      "start": 253.76,
+      "duration": 4.8
+    },
+    {
+      "text": "Based on the count of welcome kits,",
+      "start": 256.479,
+      "duration": 3.841
+    },
+    {
+      "text": "AppScript then helps track the",
+      "start": 258.56,
+      "duration": 4.32
+    },
+    {
+      "text": "inventory. When inventory goes below a",
+      "start": 260.32,
+      "duration": 5.439
+    },
+    {
+      "text": "threshold, it then invokes an AI agent",
+      "start": 262.88,
+      "duration": 6.08
+    },
+    {
+      "text": "deployed in Vert.ex XAI. In app sheet,",
+      "start": 265.759,
+      "duration": 6.081
+    },
+    {
+      "text": "you can specify a script execution as a",
+      "start": 268.96,
+      "duration": 5.519
+    },
+    {
+      "text": "task. Here's a screenshot of the app",
+      "start": 271.84,
+      "duration": 5.68
+    },
+    {
+      "text": "script used for this demo. Using REST",
+      "start": 274.479,
+      "duration": 5.361
+    },
+    {
+      "text": "API, you can invoke artifacts deployed",
+      "start": 277.52,
+      "duration": 6.0
+    },
+    {
+      "text": "in Vert.Ex AI. The AI agent then updates",
+      "start": 279.84,
+      "duration": 5.52
+    },
+    {
+      "text": "various shopping carts to begin the",
+      "start": 283.52,
+      "duration": 4.56
+    },
+    {
+      "text": "process of replenishing inventory. To",
+      "start": 285.36,
+      "duration": 5.2
+    },
+    {
+      "text": "explore agent development further, you",
+      "start": 288.08,
+      "duration": 4.559
+    },
+    {
+      "text": "can leverage Vert.Ex AI agent builder",
+      "start": 290.56,
+      "duration": 4.16
+    },
+    {
+      "text": "for no code conversational agent",
+      "start": 292.639,
+      "duration": 4.481
+    },
+    {
+      "text": "creation. In this demonstration,",
+      "start": 294.72,
+      "duration": 5.28
+    },
+    {
+      "text": "however, we used a low code approach,",
+      "start": 297.12,
+      "duration": 5.72
+    },
+    {
+      "text": "specifically the lang chain invert.ex AI",
+      "start": 300.0,
+      "duration": 6.08
+    },
+    {
+      "text": "SDK. For a deeper understanding of agent",
+      "start": 302.84,
+      "duration": 6.199
+    },
+    {
+      "text": "engines, consult the documentation. Code",
+      "start": 306.08,
+      "duration": 4.959
+    },
+    {
+      "text": "snippets relevant to the agent shown",
+      "start": 309.039,
+      "duration": 4.201
+    },
+    {
+      "text": "here can be found within the lang",
+      "start": 311.039,
+      "duration": 4.481
+    },
+    {
+      "text": "section. We also encourage you to",
+      "start": 313.24,
+      "duration": 4.36
+    },
+    {
+      "text": "explore the pre-built examples",
+      "start": 315.52,
+      "duration": 4.08
+    },
+    {
+      "text": "available.",
+      "start": 317.6,
+      "duration": 4.72
+    },
+    {
+      "text": "Now returning to our solution, we",
+      "start": 319.6,
+      "duration": 4.48
+    },
+    {
+      "text": "equipped the agent with tools for",
+      "start": 322.32,
+      "duration": 4.08
+    },
+    {
+      "text": "updating carts, placing orders, and",
+      "start": 324.08,
+      "duration": 4.8
+    },
+    {
+      "text": "accessing inventory information. With",
+      "start": 326.4,
+      "duration": 5.2
+    },
+    {
+      "text": "the agent automatically updating carts,",
+      "start": 328.88,
+      "duration": 5.12
+    },
+    {
+      "text": "both logistics manager Caitlyn and store",
+      "start": 331.6,
+      "duration": 4.8
+    },
+    {
+      "text": "manager Anne are promptly notified of",
+      "start": 334.0,
+      "duration": 5.039
+    },
+    {
+      "text": "low inventory levels through email.",
+      "start": 336.4,
+      "duration": 5.28
+    },
+    {
+      "text": "These notifications leverage dynamic",
+      "start": 339.039,
+      "duration": 5.281
+    },
+    {
+      "text": "emails, granting an the convenience of",
+      "start": 341.68,
+      "duration": 4.56
+    },
+    {
+      "text": "approving requests directly from her",
+      "start": 344.32,
+      "duration": 4.879
+    },
+    {
+      "text": "email. Once approved, app sheet",
+      "start": 346.24,
+      "duration": 5.2
+    },
+    {
+      "text": "automation triggers AppScript task to",
+      "start": 349.199,
+      "duration": 5.28
+    },
+    {
+      "text": "invoke the AI agent again to place the",
+      "start": 351.44,
+      "duration": 6.08
+    },
+    {
+      "text": "order and replenish the stock. That made",
+      "start": 354.479,
+      "duration": 4.961
+    },
+    {
+      "text": "a lot of sense. Should we dive into the",
+      "start": 357.52,
+      "duration": 3.84
+    },
+    {
+      "text": "technical architecture that powers our",
+      "start": 359.44,
+      "duration": 5.199
+    },
+    {
+      "text": "solution? Sure, let's do it. Our app",
+      "start": 361.36,
+      "duration": 5.279
+    },
+    {
+      "text": "sheet application seamlessly integrates",
+      "start": 364.639,
+      "duration": 3.68
+    },
+    {
+      "text": "with an AI agent through the use of",
+      "start": 366.639,
+      "duration": 4.081
+    },
+    {
+      "text": "AppScript. Specifically, an appcript",
+      "start": 368.319,
+      "duration": 4.561
+    },
+    {
+      "text": "function uses REST API to invoke the",
+      "start": 370.72,
+      "duration": 3.919
+    },
+    {
+      "text": "agent. This allows for direct",
+      "start": 372.88,
+      "duration": 3.52
+    },
+    {
+      "text": "programmatic communication between app",
+      "start": 374.639,
+      "duration": 4.241
+    },
+    {
+      "text": "sheet and the AI agent. Once invoked,",
+      "start": 376.4,
+      "duration": 4.32
+    },
+    {
+      "text": "the agent leverages the tools we've",
+      "start": 378.88,
+      "duration": 3.759
+    },
+    {
+      "text": "equipped it with. These tools enable it",
+      "start": 380.72,
+      "duration": 4.16
+    },
+    {
+      "text": "to perform tasks such as dynamically",
+      "start": 382.639,
+      "duration": 4.0
+    },
+    {
+      "text": "updating shopping carts and efficiently",
+      "start": 384.88,
+      "duration": 4.319
+    },
+    {
+      "text": "placing orders, automating key",
+      "start": 386.639,
+      "duration": 5.521
+    },
+    {
+      "text": "operational workflows. App sheet enables",
+      "start": 389.199,
+      "duration": 4.801
+    },
+    {
+      "text": "your business users to save time with",
+      "start": 392.16,
+      "duration": 4.08
+    },
+    {
+      "text": "apps and automation. It allows you to",
+      "start": 394.0,
+      "duration": 4.0
+    },
+    {
+      "text": "build intelligent solutions connecting",
+      "start": 396.24,
+      "duration": 4.399
+    },
+    {
+      "text": "to cloud AI technologies. To wrap up,",
+      "start": 398.0,
+      "duration": 4.319
+    },
+    {
+      "text": "here's some information about how to use",
+      "start": 400.639,
+      "duration": 4.201
+    },
+    {
+      "text": "app sheet and try out the features we",
+      "start": 402.319,
+      "duration": 4.481
+    },
+    {
+      "text": "highlighted. Explore an app sheet",
+      "start": 404.84,
+      "duration": 4.44
+    },
+    {
+      "text": "template, watch quick how-to videos, or",
+      "start": 406.8,
+      "duration": 4.399
+    },
+    {
+      "text": "join our active community to see what",
+      "start": 409.28,
+      "duration": 4.0
+    },
+    {
+      "text": "others are building. Thanks for checking",
+      "start": 411.199,
+      "duration": 3.761
+    },
+    {
+      "text": "out today's session, and we hope you",
+      "start": 413.28,
+      "duration": 6.359
+    },
+    {
+      "text": "enjoy the rest of Google IO 2025.",
+      "start": 414.96,
+      "duration": 4.679
+    },
+    {
+      "text": "[Applause]",
+      "start": 421.52,
+      "duration": 3.189
+    }
+  ]
+}

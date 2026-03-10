@@ -1,0 +1,2427 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "xo271p-Fl_4",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.916
+    },
+    {
+      "text": "KHANH NGUYEN: All right, so\nI have my app running here.",
+      "start": 5.84,
+      "duration": 3.28
+    },
+    {
+      "text": "Let's go ahead and\nsubmit some feedback.",
+      "start": 9.12,
+      "duration": 2.46
+    },
+    {
+      "text": "This yellow-- not feeling it.",
+      "start": 11.58,
+      "duration": 2.22
+    },
+    {
+      "text": "So let's say that I really\ndon't like this yellow.",
+      "start": 13.8,
+      "duration": 7.73
+    },
+    {
+      "text": "It's really jarring.",
+      "start": 21.53,
+      "duration": 1.9
+    },
+    {
+      "text": "It really is.",
+      "start": 23.43,
+      "duration": 1.94
+    },
+    {
+      "text": "So let's say that I\nprefer for it to be blue.",
+      "start": 25.37,
+      "duration": 5.585
+    },
+    {
+      "text": "All right.",
+      "start": 35.9,
+      "duration": 0.58
+    },
+    {
+      "text": "Yes, please.",
+      "start": 36.48,
+      "duration": 0.62
+    },
+    {
+      "text": "Change the app color to blue.",
+      "start": 37.1,
+      "duration": 1.9
+    },
+    {
+      "text": "And you'll see that the app\nhas now shifted its theme",
+      "start": 39.0,
+      "duration": 3.38
+    },
+    {
+      "text": "color to blue.",
+      "start": 42.38,
+      "duration": 0.98
+    },
+    {
+      "text": "Hi, I'm Khanh, a DevRel engineer\non the Flutter team at Google.",
+      "start": 47.15,
+      "duration": 3.49
+    },
+    {
+      "text": "ANDREW PEYNADO: Hey, I'm\nAndrew, a product manager",
+      "start": 50.64,
+      "duration": 2.33
+    },
+    {
+      "text": "on the Firebase team at Google.",
+      "start": 52.97,
+      "duration": 2.085
+    },
+    {
+      "text": "KHANH NGUYEN: Have you\nheard about these AI agents?",
+      "start": 55.055,
+      "duration": 2.125
+    },
+    {
+      "text": "Maybe your boss\nsaid that you need",
+      "start": 57.18,
+      "duration": 1.49
+    },
+    {
+      "text": "to integrate one into your app.",
+      "start": 58.67,
+      "duration": 1.87
+    },
+    {
+      "text": "As an engineer, one\nof the first things",
+      "start": 60.54,
+      "duration": 1.92
+    },
+    {
+      "text": "that I looked up after\nlearning about AI agents was,",
+      "start": 62.46,
+      "duration": 2.889
+    },
+    {
+      "text": "how do I build one?",
+      "start": 65.349,
+      "duration": 1.471
+    },
+    {
+      "text": "Google Search seems to\nindicate that many of you",
+      "start": 66.82,
+      "duration": 2.27
+    },
+    {
+      "text": "are asking the same questions.",
+      "start": 69.09,
+      "duration": 1.99
+    },
+    {
+      "text": "So in this video,\nwe're going to show you",
+      "start": 71.08,
+      "duration": 2.09
+    },
+    {
+      "text": "how to build a multimodal\nagentic app with Flutter",
+      "start": 73.17,
+      "duration": 2.7
+    },
+    {
+      "text": "and Vertex AI in Firebase.",
+      "start": 75.87,
+      "duration": 2.4
+    },
+    {
+      "text": "We want you to leave this video\nfeeling like building agentic",
+      "start": 78.27,
+      "duration": 3.12
+    },
+    {
+      "text": "apps is just as straightforward\nas building any other app that",
+      "start": 81.39,
+      "duration": 3.51
+    },
+    {
+      "text": "you're used to .",
+      "start": 84.9,
+      "duration": 0.93
+    },
+    {
+      "text": "And hopefully you'll think of\nagentic features and experiences",
+      "start": 85.83,
+      "duration": 3.81
+    },
+    {
+      "text": "as another tool in your\napp development toolbox.",
+      "start": 89.64,
+      "duration": 2.95
+    },
+    {
+      "text": "OK.",
+      "start": 92.59,
+      "duration": 0.72
+    },
+    {
+      "text": "So what's on the agenda, Andrew?",
+      "start": 93.31,
+      "duration": 1.855
+    },
+    {
+      "text": "ANDREW PEYNADO:\nFirst, we'll chat",
+      "start": 95.165,
+      "duration": 1.375
+    },
+    {
+      "text": "about generative\nAI and agents, just",
+      "start": 96.54,
+      "duration": 2.73
+    },
+    {
+      "text": "to make sure we're\nall on the same page.",
+      "start": 99.27,
+      "duration": 3.09
+    },
+    {
+      "text": "Then we'll do a run-through\nof Flutter and Firebase,",
+      "start": 102.36,
+      "duration": 3.13
+    },
+    {
+      "text": "the tools we're using today.",
+      "start": 105.49,
+      "duration": 2.93
+    },
+    {
+      "text": "And finally, we're going to\njump into the code for the app",
+      "start": 108.42,
+      "duration": 3.36
+    },
+    {
+      "text": "that you just saw at\nthe start of the video.",
+      "start": 111.78,
+      "duration": 3.93
+    },
+    {
+      "text": "We'll get to agents soon.",
+      "start": 115.71,
+      "duration": 1.51
+    },
+    {
+      "text": "But first, let's\ntake a step back",
+      "start": 117.22,
+      "duration": 1.777
+    },
+    {
+      "text": "and look at one of the\nfoundational building",
+      "start": 118.997,
+      "duration": 1.833
+    },
+    {
+      "text": "blocks for agents--",
+      "start": 120.83,
+      "duration": 1.65
+    },
+    {
+      "text": "generative AI.",
+      "start": 122.48,
+      "duration": 1.45
+    },
+    {
+      "text": "GenAI allows you to create\nnew and innovative content",
+      "start": 123.93,
+      "duration": 3.38
+    },
+    {
+      "text": "and experiences by prompting\nlarge language models.",
+      "start": 127.31,
+      "duration": 4.2
+    },
+    {
+      "text": "With prompting, you\ncan turn a few words",
+      "start": 131.51,
+      "duration": 2.58
+    },
+    {
+      "text": "into an explanation or code,\nan image, or even a video.",
+      "start": 134.09,
+      "duration": 9.27
+    },
+    {
+      "text": "Gemini is Google's\nmultimodal AI model.",
+      "start": 143.36,
+      "duration": 3.72
+    },
+    {
+      "text": "Gemini 2.0 and 2.5 are\nGoogle's latest LLMs.",
+      "start": 147.08,
+      "duration": 5.25
+    },
+    {
+      "text": "It improves on Gemini\n1.5's overall quality,",
+      "start": 152.33,
+      "duration": 3.45
+    },
+    {
+      "text": "has function calling, and\nsupports multimodal live,",
+      "start": 155.78,
+      "duration": 3.55
+    },
+    {
+      "text": "which lets users have\nlow-latency, bidirectional voice",
+      "start": 159.33,
+      "duration": 3.08
+    },
+    {
+      "text": "and video interactions\nwith Gemini.",
+      "start": 162.41,
+      "duration": 3.45
+    },
+    {
+      "text": "We've already seen a\nlot of examples and code",
+      "start": 165.86,
+      "duration": 2.79
+    },
+    {
+      "text": "on how to generate content\nwith language models,",
+      "start": 168.65,
+      "duration": 2.98
+    },
+    {
+      "text": "so let's shift our\nfocus towards AI agents.",
+      "start": 171.63,
+      "duration": 3.77
+    },
+    {
+      "text": "What is it?",
+      "start": 175.4,
+      "duration": 1.62
+    },
+    {
+      "text": "An agent is an\napplication that attempts",
+      "start": 177.02,
+      "duration": 2.55
+    },
+    {
+      "text": "to achieve a goal by observing\nthe world and acting upon it,",
+      "start": 179.57,
+      "duration": 4.3
+    },
+    {
+      "text": "using the tools that\nit has at its disposal.",
+      "start": 183.87,
+      "duration": 2.87
+    },
+    {
+      "text": "Here's how it looks in practice.",
+      "start": 186.74,
+      "duration": 2.4
+    },
+    {
+      "text": "An agent is made up of\nthree key components--",
+      "start": 189.14,
+      "duration": 3.78
+    },
+    {
+      "text": "a language model for\nreasoning, like Gemini,",
+      "start": 192.92,
+      "duration": 3.54
+    },
+    {
+      "text": "tools that enable it to\ninteract with the outside world,",
+      "start": 196.46,
+      "duration": 3.37
+    },
+    {
+      "text": "whether that's making an\nAPI call to retrieve data",
+      "start": 199.83,
+      "duration": 2.94
+    },
+    {
+      "text": "or to take some kind of action.",
+      "start": 202.77,
+      "duration": 2.54
+    },
+    {
+      "text": "Keep in mind the phrase\n\"tool\" and \"function calling\"",
+      "start": 205.31,
+      "duration": 3.81
+    },
+    {
+      "text": "are often used interchangeably\nand represent the same concept.",
+      "start": 209.12,
+      "duration": 4.18
+    },
+    {
+      "text": "Finally, it also processes\ninformation, makes decisions,",
+      "start": 213.3,
+      "duration": 3.99
+    },
+    {
+      "text": "and continues to iterate\nuntil its goal is reached",
+      "start": 217.29,
+      "duration": 3.05
+    },
+    {
+      "text": "or a stopping point\ncriteria is met.",
+      "start": 220.34,
+      "duration": 3.3
+    },
+    {
+      "text": "Now that we know\nwhat agents are,",
+      "start": 223.64,
+      "duration": 1.72
+    },
+    {
+      "text": "let's take a look at how to\nbuild them into your apps",
+      "start": 225.36,
+      "duration": 2.69
+    },
+    {
+      "text": "with Flutter and Firebase.",
+      "start": 228.05,
+      "duration": 2.58
+    },
+    {
+      "text": "If you're a Flutter\ndeveloper, chances",
+      "start": 230.63,
+      "duration": 2.16
+    },
+    {
+      "text": "are you've already\nused a Firebase",
+      "start": 232.79,
+      "duration": 1.74
+    },
+    {
+      "text": "service in one of your apps.",
+      "start": 234.53,
+      "duration": 1.9
+    },
+    {
+      "text": "But if this is the first\ntime building with Firebase,",
+      "start": 236.43,
+      "duration": 2.97
+    },
+    {
+      "text": "it's an all-in-one app\ndevelopment platform",
+      "start": 239.4,
+      "duration": 2.57
+    },
+    {
+      "text": "that spans the entire\ndevelopment lifecycle.",
+      "start": 241.97,
+      "duration": 2.8
+    },
+    {
+      "text": "You can use it to build and run\nmodern AI-powered experiences.",
+      "start": 244.77,
+      "duration": 4.43
+    },
+    {
+      "text": "On the build side, you can\nintegrate AI capabilities",
+      "start": 249.2,
+      "duration": 3.09
+    },
+    {
+      "text": "into your applications.",
+      "start": 252.29,
+      "duration": 1.65
+    },
+    {
+      "text": "On the run side, you can\nuse AI assistive tools",
+      "start": 253.94,
+      "duration": 3.12
+    },
+    {
+      "text": "to optimize your app's\nquality and experience.",
+      "start": 257.06,
+      "duration": 4.2
+    },
+    {
+      "text": "Vertex AI in Firebase, which\nwe'll call the Vertex SDK,",
+      "start": 261.26,
+      "duration": 4.15
+    },
+    {
+      "text": "is a part of the broader\nFirebase family of services.",
+      "start": 265.41,
+      "duration": 3.77
+    },
+    {
+      "text": "It's an easy way to add\nGenAI to mobile and web apps",
+      "start": 269.18,
+      "duration": 3.69
+    },
+    {
+      "text": "in production.",
+      "start": 272.87,
+      "duration": 2.34
+    },
+    {
+      "text": "Yep, it's in GA.",
+      "start": 275.21,
+      "duration": 1.59
+    },
+    {
+      "text": "So you can add it\nto your Flutter app",
+      "start": 276.8,
+      "duration": 1.92
+    },
+    {
+      "text": "and ship it right\nto the App Store.",
+      "start": 278.72,
+      "duration": 3.51
+    },
+    {
+      "text": "The Vertex SDK allows\nyou to easily access",
+      "start": 282.23,
+      "duration": 3.06
+    },
+    {
+      "text": "Gemini models using native\ncode and supports a variety",
+      "start": 285.29,
+      "duration": 3.45
+    },
+    {
+      "text": "of features, such as multimodal\nprompting, JSON output,",
+      "start": 288.74,
+      "duration": 4.18
+    },
+    {
+      "text": "and schemas, function calling,\nbidirectional streaming",
+      "start": 292.92,
+      "duration": 3.62
+    },
+    {
+      "text": "and image generation.",
+      "start": 296.54,
+      "duration": 1.84
+    },
+    {
+      "text": "It's natively integrated with\nApp Check, Remote Config,",
+      "start": 298.38,
+      "duration": 3.32
+    },
+    {
+      "text": "and Cloud Storage, so you don't\nhave to wire them up yourself.",
+      "start": 301.7,
+      "duration": 4.02
+    },
+    {
+      "text": "What makes it\nexceptionally special",
+      "start": 305.72,
+      "duration": 2.19
+    },
+    {
+      "text": "is its production-ready\narchitecture.",
+      "start": 307.91,
+      "duration": 2.46
+    },
+    {
+      "text": "By providing a native\nintegration with App Check,",
+      "start": 310.37,
+      "duration": 2.8
+    },
+    {
+      "text": "the Vertex SDK allows you\nto protect your applications",
+      "start": 313.17,
+      "duration": 3.2
+    },
+    {
+      "text": "from abuse by rejecting\nillegitimate requests",
+      "start": 316.37,
+      "duration": 3.24
+    },
+    {
+      "text": "and only allowing real users\nto trigger Vertex API calls.",
+      "start": 319.61,
+      "duration": 4.62
+    },
+    {
+      "text": "The Vertex SDK is available on\npub.dev as the Firebase Vertex",
+      "start": 324.23,
+      "duration": 4.95
+    },
+    {
+      "text": "AI package.",
+      "start": 329.18,
+      "duration": 1.41
+    },
+    {
+      "text": "So you can quickly add it\nto your Flutter projects",
+      "start": 330.59,
+      "duration": 2.25
+    },
+    {
+      "text": "by running a single command--",
+      "start": 332.84,
+      "duration": 1.95
+    },
+    {
+      "text": "flutter pub add\nfirebase_vertexai.",
+      "start": 334.79,
+      "duration": 3.81
+    },
+    {
+      "text": "If you can build a Flutter app,\nyou can use the Vertex SDK.",
+      "start": 338.6,
+      "duration": 4.02
+    },
+    {
+      "text": "It's just another API call,\nso why Flutter though?",
+      "start": 342.62,
+      "duration": 4.932
+    },
+    {
+      "text": "KHANH NGUYEN:\nAndrew, I mean, we're",
+      "start": 347.552,
+      "duration": 1.458
+    },
+    {
+      "text": "on the Flutter YouTube channel.",
+      "start": 349.01,
+      "duration": 1.45
+    },
+    {
+      "text": "I think everyone\nalready knows why.",
+      "start": 350.46,
+      "duration": 2.01
+    },
+    {
+      "text": "But in case you're new to\nthe channel, first, welcome.",
+      "start": 352.47,
+      "duration": 3.34
+    },
+    {
+      "text": "We're happy to have you here.",
+      "start": 355.81,
+      "duration": 1.74
+    },
+    {
+      "text": "And second, Flutter is\nthe world's most popular",
+      "start": 357.55,
+      "duration": 2.81
+    },
+    {
+      "text": "multiplatform app\ndevelopment SDK.",
+      "start": 360.36,
+      "duration": 2.32
+    },
+    {
+      "text": "It enables you to build\nproduction-grade apps",
+      "start": 362.68,
+      "duration": 2.3
+    },
+    {
+      "text": "and deploy to iOS, Android,\nweb, Windows, macOS, and Linux,",
+      "start": 364.98,
+      "duration": 4.93
+    },
+    {
+      "text": "all from a single code base.",
+      "start": 369.91,
+      "duration": 1.71
+    },
+    {
+      "text": "This means you can\nminimize development time",
+      "start": 371.62,
+      "duration": 1.85
+    },
+    {
+      "text": "and ship high-quality\napps faster.",
+      "start": 373.47,
+      "duration": 2.35
+    },
+    {
+      "text": "Not to mention, using Flutter\nand the Vertex SDK together",
+      "start": 375.82,
+      "duration": 3.05
+    },
+    {
+      "text": "means that you don't have\nto switch between languages",
+      "start": 378.87,
+      "duration": 3.15
+    },
+    {
+      "text": "or frameworks.",
+      "start": 382.02,
+      "duration": 1.06
+    },
+    {
+      "text": "You don't even have to switch\nbetween projects or code bases.",
+      "start": 383.08,
+      "duration": 3.032
+    },
+    {
+      "text": "All of your code and prompts\nlive within your Flutter",
+      "start": 386.112,
+      "duration": 2.208
+    },
+    {
+      "text": "project, written in Dart.",
+      "start": 388.32,
+      "duration": 1.265
+    },
+    {
+      "text": "Like Andrew said, if you\ncan build a Flutter app,",
+      "start": 389.585,
+      "duration": 2.765
+    },
+    {
+      "text": "you can use the Vertex\nSDK and vice versa.",
+      "start": 392.35,
+      "duration": 2.76
+    },
+    {
+      "text": "They're better together, sort\nof like macaroni and cheese.",
+      "start": 395.11,
+      "duration": 4.228
+    },
+    {
+      "text": "ANDREW PEYNADO: OK.",
+      "start": 399.338,
+      "duration": 0.792
+    },
+    {
+      "text": "Now that we have all\nthe context, let's jump",
+      "start": 400.13,
+      "duration": 2.5
+    },
+    {
+      "text": "into building the app.",
+      "start": 402.63,
+      "duration": 1.41
+    },
+    {
+      "text": "If you've used Flutter and\nFirebase together before,",
+      "start": 404.04,
+      "duration": 2.65
+    },
+    {
+      "text": "the setup process will\nlook very familiar.",
+      "start": 406.69,
+      "duration": 2.64
+    },
+    {
+      "text": "You'll first want to make sure\nthat your dev environment is",
+      "start": 409.33,
+      "duration": 2.96
+    },
+    {
+      "text": "set up with Flutter and\nthe Flutter fire CLI tool.",
+      "start": 412.29,
+      "duration": 4.22
+    },
+    {
+      "text": "Then head on over\nto the Firebase",
+      "start": 416.51,
+      "duration": 2.07
+    },
+    {
+      "text": "Console at firebase.google.com\nand create a project.",
+      "start": 418.58,
+      "duration": 4.86
+    },
+    {
+      "text": "If you already have a project,\nyou're already one step ahead.",
+      "start": 423.44,
+      "duration": 3.07
+    },
+    {
+      "text": "Then jump over to the\nVertex AI product page,",
+      "start": 426.51,
+      "duration": 3.33
+    },
+    {
+      "text": "configure your billing account,\nand enable the Vertex APIs.",
+      "start": 429.84,
+      "duration": 3.81
+    },
+    {
+      "text": "That's as much as you'll have\nto do in the Firebase Console.",
+      "start": 433.65,
+      "duration": 3.65
+    },
+    {
+      "text": "Let's look at setting\nup your Flutter project.",
+      "start": 437.3,
+      "duration": 2.86
+    },
+    {
+      "text": "If you already have a Flutter\nproject you'd like to work with,",
+      "start": 440.16,
+      "duration": 3.15
+    },
+    {
+      "text": "that's perfect.",
+      "start": 443.31,
+      "duration": 1.17
+    },
+    {
+      "text": "You can use it.",
+      "start": 444.48,
+      "duration": 1.28
+    },
+    {
+      "text": "If you're starting fresh,\nyou can create a new project",
+      "start": 445.76,
+      "duration": 2.76
+    },
+    {
+      "text": "using the Flutter\ncreate command.",
+      "start": 448.52,
+      "duration": 2.02
+    },
+    {
+      "text": "Next, add the Firebase core\nand Firebase Vertex AI packages",
+      "start": 450.54,
+      "duration": 5.27
+    },
+    {
+      "text": "from pub.dev.",
+      "start": 455.81,
+      "duration": 1.42
+    },
+    {
+      "text": "Finally, you'll want to\nconnect the Flutter app",
+      "start": 457.23,
+      "duration": 2.42
+    },
+    {
+      "text": "to the Firebase project using\nthe flutterfire configure",
+      "start": 459.65,
+      "duration": 3.33
+    },
+    {
+      "text": "command.",
+      "start": 462.98,
+      "duration": 1.26
+    },
+    {
+      "text": "In your Flutter\ncode, you'll want",
+      "start": 464.24,
+      "duration": 1.95
+    },
+    {
+      "text": "to import the Firebase packages\nand initialize the Firebase App.",
+      "start": 466.19,
+      "duration": 4.8
+    },
+    {
+      "text": "Now, if you're already\nusing Firebase in your app,",
+      "start": 470.99,
+      "duration": 3.22
+    },
+    {
+      "text": "you probably already have\nthat initialize app code.",
+      "start": 474.21,
+      "duration": 2.99
+    },
+    {
+      "text": "It's the same across all\nof the Firebase packages.",
+      "start": 477.2,
+      "duration": 3.19
+    },
+    {
+      "text": "That's it for the project setup.",
+      "start": 480.39,
+      "duration": 1.95
+    },
+    {
+      "text": "Now you can make calls to\nGemini using the Vertex SDK",
+      "start": 482.34,
+      "duration": 3.26
+    },
+    {
+      "text": "from within your Flutter app.",
+      "start": 485.6,
+      "duration": 2.088
+    },
+    {
+      "text": "KHANH NGUYEN: Let\nme tell you a story",
+      "start": 487.688,
+      "duration": 1.542
+    },
+    {
+      "text": "about how I came up with the\nconcept for this demo app.",
+      "start": 489.23,
+      "duration": 3.07
+    },
+    {
+      "text": "I previously worked\nas a support engineer.",
+      "start": 492.3,
+      "duration": 2.64
+    },
+    {
+      "text": "Whether you're the\nuser filing a complaint",
+      "start": 494.94,
+      "duration": 2.15
+    },
+    {
+      "text": "or the engineer\nsupporting users,",
+      "start": 497.09,
+      "duration": 1.98
+    },
+    {
+      "text": "you know how the process goes.",
+      "start": 499.07,
+      "duration": 1.72
+    },
+    {
+      "text": "The user tries to\ndo something, but it",
+      "start": 500.79,
+      "duration": 1.94
+    },
+    {
+      "text": "doesn't work the way\nthat they want it to,",
+      "start": 502.73,
+      "duration": 1.96
+    },
+    {
+      "text": "so they open a ticket.",
+      "start": 504.69,
+      "duration": 1.47
+    },
+    {
+      "text": "An engineer reviews it\nand points to some docs,",
+      "start": 506.16,
+      "duration": 2.82
+    },
+    {
+      "text": "or they ask for some\nadditional information.",
+      "start": 508.98,
+      "duration": 3.03
+    },
+    {
+      "text": "The user responds with\nthe results or answers,",
+      "start": 512.01,
+      "duration": 2.669
+    },
+    {
+      "text": "and then the back and forth\ngoes on for a few more cycles.",
+      "start": 514.679,
+      "duration": 2.821
+    },
+    {
+      "text": "Finally, the ticket\nis eventually closed.",
+      "start": 517.5,
+      "duration": 2.84
+    },
+    {
+      "text": "This process takes a lot of time\nfrom both the user and engineer.",
+      "start": 520.34,
+      "duration": 3.76
+    },
+    {
+      "text": "What if the engineer misses\nsomething and the user",
+      "start": 524.1,
+      "duration": 2.09
+    },
+    {
+      "text": "configuration, or\nperhaps a user overlooks",
+      "start": 526.19,
+      "duration": 2.52
+    },
+    {
+      "text": "a step in the instructions?",
+      "start": 528.71,
+      "duration": 2.01
+    },
+    {
+      "text": "What if we could insert an agent\nin the middle of this process",
+      "start": 530.72,
+      "duration": 3.09
+    },
+    {
+      "text": "to help both the user\nand the engineer,",
+      "start": 533.81,
+      "duration": 3.03
+    },
+    {
+      "text": "an agent that\nprocesses user feedback",
+      "start": 536.84,
+      "duration": 1.98
+    },
+    {
+      "text": "and takes action to make\nchanges in the app on behalf",
+      "start": 538.82,
+      "duration": 2.61
+    },
+    {
+      "text": "of the user, collects all of\nthe necessary troubleshooting",
+      "start": 541.43,
+      "duration": 2.58
+    },
+    {
+      "text": "information like device\nInfo, battery info, settings,",
+      "start": 544.01,
+      "duration": 3.27
+    },
+    {
+      "text": "and change history, and helps\nto prioritize and categorize",
+      "start": 547.28,
+      "duration": 3.63
+    },
+    {
+      "text": "the feedback among all\nof the other tickets?",
+      "start": 550.91,
+      "duration": 2.64
+    },
+    {
+      "text": "Would an agent like\nthis help to minimize",
+      "start": 553.55,
+      "duration": 2.135
+    },
+    {
+      "text": "the amount of back\nand forth that",
+      "start": 555.685,
+      "duration": 1.375
+    },
+    {
+      "text": "needs to happen between\nthe user and the engineer?",
+      "start": 557.06,
+      "duration": 3.39
+    },
+    {
+      "text": "And that's how the agentic app\nmanager prototype was born.",
+      "start": 560.45,
+      "duration": 3.75
+    },
+    {
+      "text": "Let's try this font here.",
+      "start": 564.2,
+      "duration": 3.45
+    },
+    {
+      "text": "I don't like this Georgia font.",
+      "start": 567.65,
+      "duration": 4.47
+    },
+    {
+      "text": "I want a more fun font.",
+      "start": 572.12,
+      "duration": 2.825
+    },
+    {
+      "text": "So we'll wait for that.",
+      "start": 577.55,
+      "duration": 1.69
+    },
+    {
+      "text": "And then you'll see, it prompts\nyou for a different font.",
+      "start": 579.24,
+      "duration": 3.6
+    },
+    {
+      "text": "In this case, it's Caveat,\nwhich is indeed a more fun",
+      "start": 582.84,
+      "duration": 3.29
+    },
+    {
+      "text": "font, most certainly.",
+      "start": 586.13,
+      "duration": 1.83
+    },
+    {
+      "text": "But now the font is too small.",
+      "start": 587.96,
+      "duration": 2.23
+    },
+    {
+      "text": "So we'll say this font\nsize is way too small--",
+      "start": 590.19,
+      "duration": 7.505
+    },
+    {
+      "text": "oops, not \"but.\"",
+      "start": 597.695,
+      "duration": 1.215
+    },
+    {
+      "text": "It needs to be about 30% bigger.",
+      "start": 598.91,
+      "duration": 8.613
+    },
+    {
+      "text": "Yes, please.",
+      "start": 615.32,
+      "duration": 0.88
+    },
+    {
+      "text": "And as you can see, it\nmakes the font much bigger,",
+      "start": 619.64,
+      "duration": 3.18
+    },
+    {
+      "text": "and it's much more readable now.",
+      "start": 622.82,
+      "duration": 2.44
+    },
+    {
+      "text": "Now finally, let's pretend this\npage is scrolling really slowly.",
+      "start": 625.26,
+      "duration": 9.98
+    },
+    {
+      "text": "And go ahead and submit.",
+      "start": 635.24,
+      "duration": 1.445
+    },
+    {
+      "text": "And would you like to\nfile a feedback report?",
+      "start": 645.68,
+      "duration": 2.49
+    },
+    {
+      "text": "Yes, please.",
+      "start": 648.17,
+      "duration": 1.62
+    },
+    {
+      "text": "And so there you go.",
+      "start": 649.79,
+      "duration": 1.21
+    },
+    {
+      "text": "And now you have the\nfull feedback report",
+      "start": 651.0,
+      "duration": 1.73
+    },
+    {
+      "text": "with the user feedback as\nwell as the device and battery",
+      "start": 652.73,
+      "duration": 5.19
+    },
+    {
+      "text": "information there.",
+      "start": 657.92,
+      "duration": 2.22
+    },
+    {
+      "text": "And then there's the\nscreenshot as well.",
+      "start": 660.14,
+      "duration": 4.02
+    },
+    {
+      "text": "So what did we just see?",
+      "start": 664.16,
+      "duration": 2.14
+    },
+    {
+      "text": "The app lets you file\nfeedback by taking",
+      "start": 666.3,
+      "duration": 1.91
+    },
+    {
+      "text": "a screenshot, letting\nyou annotate it,",
+      "start": 668.21,
+      "duration": 2.01
+    },
+    {
+      "text": "and then write some text.",
+      "start": 670.22,
+      "duration": 1.87
+    },
+    {
+      "text": "Then the agent does\nsome reasoning,",
+      "start": 672.09,
+      "duration": 1.8
+    },
+    {
+      "text": "drawing conclusions as to\nwhy you might be filing",
+      "start": 673.89,
+      "duration": 2.24
+    },
+    {
+      "text": "that particular feedback.",
+      "start": 676.13,
+      "duration": 1.53
+    },
+    {
+      "text": "Say you don't like the color\nscheme and prefer blue.",
+      "start": 677.66,
+      "duration": 3.31
+    },
+    {
+      "text": "The agent determines that\nit has a tool to change that",
+      "start": 680.97,
+      "duration": 2.78
+    },
+    {
+      "text": "and does it for you.",
+      "start": 683.75,
+      "duration": 1.21
+    },
+    {
+      "text": "But of course, UX matters.",
+      "start": 684.96,
+      "duration": 2.01
+    },
+    {
+      "text": "You wouldn't want the UI\nto suddenly change out",
+      "start": 686.97,
+      "duration": 2.21
+    },
+    {
+      "text": "from under you, right?",
+      "start": 689.18,
+      "duration": 1.6
+    },
+    {
+      "text": "So the agent first uses another\ntool to show an alert modal,",
+      "start": 690.78,
+      "duration": 3.32
+    },
+    {
+      "text": "asking for confirmation before\nactually changing the color.",
+      "start": 694.1,
+      "duration": 3.19
+    },
+    {
+      "text": "And finally, if there are no\ntools that the agent can use",
+      "start": 697.29,
+      "duration": 3.23
+    },
+    {
+      "text": "or the setting change\nrequest is denied,",
+      "start": 700.52,
+      "duration": 2.14
+    },
+    {
+      "text": "the app automatically builds\na standardized feedback report",
+      "start": 702.66,
+      "duration": 2.84
+    },
+    {
+      "text": "that helps the developer to\nprioritize and troubleshoot",
+      "start": 705.5,
+      "duration": 2.67
+    },
+    {
+      "text": "by collecting and summarizing\nall the available device",
+      "start": 708.17,
+      "duration": 2.82
+    },
+    {
+      "text": "and battery information,\nproviding an action history,",
+      "start": 710.99,
+      "duration": 3.16
+    },
+    {
+      "text": "and generating tags along with\na suggested priority level.",
+      "start": 714.15,
+      "duration": 3.83
+    },
+    {
+      "text": "You can see how the potential\nuse case for an agent like this",
+      "start": 717.98,
+      "duration": 2.73
+    },
+    {
+      "text": "goes on and on.",
+      "start": 720.71,
+      "duration": 2.07
+    },
+    {
+      "text": "Take a moment to think about it.",
+      "start": 722.78,
+      "duration": 1.36
+    },
+    {
+      "text": "What are some of the other tools\nthat you can give to an agent",
+      "start": 724.14,
+      "duration": 3.05
+    },
+    {
+      "text": "to make it even more useful?",
+      "start": 727.19,
+      "duration": 2.61
+    },
+    {
+      "text": "Here's the architecture for\nthis agentic ad manager.",
+      "start": 729.8,
+      "duration": 2.65
+    },
+    {
+      "text": "The Flutter app\nprovides user feedback",
+      "start": 732.45,
+      "duration": 1.91
+    },
+    {
+      "text": "in the form of natural language\ntext and a marked-up screenshot.",
+      "start": 734.36,
+      "duration": 3.58
+    },
+    {
+      "text": "The Vertex SDK sends\nthe input along",
+      "start": 737.94,
+      "duration": 2.72
+    },
+    {
+      "text": "with the system instructions\nthat we've defined",
+      "start": 740.66,
+      "duration": 2.1
+    },
+    {
+      "text": "to the Gemini 2.0 model.",
+      "start": 742.76,
+      "duration": 2.02
+    },
+    {
+      "text": "The model then responds\nwith function calls",
+      "start": 744.78,
+      "duration": 2.0
+    },
+    {
+      "text": "in order to fulfill its role of\nbeing a friendly and helpful app",
+      "start": 746.78,
+      "duration": 3.09
+    },
+    {
+      "text": "concierge.",
+      "start": 749.87,
+      "duration": 0.97
+    },
+    {
+      "text": "You can see how this levels\nup our use of generative AI.",
+      "start": 750.84,
+      "duration": 2.88
+    },
+    {
+      "text": "Not only is Gemini\ngenerating new content,",
+      "start": 753.72,
+      "duration": 2.76
+    },
+    {
+      "text": "but it's actually taking\nactions and making changes",
+      "start": 756.48,
+      "duration": 3.08
+    },
+    {
+      "text": "in order to fulfill its goal\nof being helpful to the user.",
+      "start": 759.56,
+      "duration": 3.58
+    },
+    {
+      "text": "Looking at this\narchitecture diagram,",
+      "start": 763.14,
+      "duration": 1.74
+    },
+    {
+      "text": "it looks like any other app\nmaking API calls, right?",
+      "start": 764.88,
+      "duration": 3.03
+    },
+    {
+      "text": "There are some data being\npassed back and forth,",
+      "start": 767.91,
+      "duration": 2.17
+    },
+    {
+      "text": "functions being called.",
+      "start": 770.08,
+      "duration": 1.32
+    },
+    {
+      "text": "The real difference comes from,\none, Gemini's ability to reason,",
+      "start": 771.4,
+      "duration": 3.36
+    },
+    {
+      "text": "understand, and process\nunstructured, multimodal input,",
+      "start": 774.76,
+      "duration": 3.27
+    },
+    {
+      "text": "and two, its ability\nto determine an output",
+      "start": 778.03,
+      "duration": 2.96
+    },
+    {
+      "text": "based on the prompting.",
+      "start": 780.99,
+      "duration": 1.69
+    },
+    {
+      "text": "To build this type of\nagentic functionality,",
+      "start": 782.68,
+      "duration": 2.4
+    },
+    {
+      "text": "you first have to construct a\nFirebase Vertex AI generative",
+      "start": 785.08,
+      "duration": 3.08
+    },
+    {
+      "text": "model.",
+      "start": 788.16,
+      "duration": 0.76
+    },
+    {
+      "text": "For this particular\nprototype, we'll",
+      "start": 788.92,
+      "duration": 1.76
+    },
+    {
+      "text": "configure the generative\nmodel with Gemini 2.0 Flash.",
+      "start": 790.68,
+      "duration": 3.22
+    },
+    {
+      "text": "Then we give Gemini a list\nof tools or function calls",
+      "start": 793.9,
+      "duration": 3.47
+    },
+    {
+      "text": "that it can use.",
+      "start": 797.37,
+      "duration": 1.12
+    },
+    {
+      "text": "These tools can do things\nlike modify parts of the app,",
+      "start": 798.49,
+      "duration": 2.94
+    },
+    {
+      "text": "retrieve device information,\nand file a feedback report.",
+      "start": 801.43,
+      "duration": 3.15
+    },
+    {
+      "text": "And finally, we define\na system instruction",
+      "start": 804.58,
+      "duration": 2.24
+    },
+    {
+      "text": "to give the agent a persona\nand goal, more specifically,",
+      "start": 806.82,
+      "duration": 3.34
+    },
+    {
+      "text": "defining its goal of being\na friendly and helpful app",
+      "start": 810.16,
+      "duration": 2.27
+    },
+    {
+      "text": "concierge, along with some\nadditional instructions",
+      "start": 812.43,
+      "duration": 2.46
+    },
+    {
+      "text": "that we wanted to follow.",
+      "start": 814.89,
+      "duration": 1.48
+    },
+    {
+      "text": "Once that's all configured,\nwe can start a chat session.",
+      "start": 816.37,
+      "duration": 2.64
+    },
+    {
+      "text": "The nice thing about\nthese chat sessions",
+      "start": 819.01,
+      "duration": 1.79
+    },
+    {
+      "text": "is that they store\nthe chat history",
+      "start": 820.8,
+      "duration": 1.71
+    },
+    {
+      "text": "from our Gemini interactions.",
+      "start": 822.51,
+      "duration": 1.72
+    },
+    {
+      "text": "Otherwise, we'd have to\nimplement our own chat history.",
+      "start": 824.23,
+      "duration": 2.69
+    },
+    {
+      "text": "From there, whenever the\nuser hits submit feedback,",
+      "start": 826.92,
+      "duration": 2.89
+    },
+    {
+      "text": "our callback sends\na message to Gemini",
+      "start": 829.81,
+      "duration": 2.33
+    },
+    {
+      "text": "with a prompt along with the\nfeedback text and screenshot.",
+      "start": 832.14,
+      "duration": 3.13
+    },
+    {
+      "text": "When response comes back,\nwe check whether Gemini",
+      "start": 835.27,
+      "duration": 2.39
+    },
+    {
+      "text": "has made any function calls.",
+      "start": 837.66,
+      "duration": 1.8
+    },
+    {
+      "text": "Let's say Gemini has issued\nsome tool calls, otherwise known",
+      "start": 839.46,
+      "duration": 3.03
+    },
+    {
+      "text": "as function calls.",
+      "start": 842.49,
+      "duration": 1.3
+    },
+    {
+      "text": "Keep in mind, Gemini\ndoesn't actually",
+      "start": 843.79,
+      "duration": 1.64
+    },
+    {
+      "text": "execute the function itself.",
+      "start": 845.43,
+      "duration": 1.565
+    },
+    {
+      "text": "It essentially\ngives instructions",
+      "start": 846.995,
+      "duration": 1.375
+    },
+    {
+      "text": "that say, do this thing.",
+      "start": 848.37,
+      "duration": 1.51
+    },
+    {
+      "text": "But your app is ultimately\nresponsible for actually",
+      "start": 849.88,
+      "duration": 2.48
+    },
+    {
+      "text": "doing the thing.",
+      "start": 852.36,
+      "duration": 1.39
+    },
+    {
+      "text": "Gemini is sort of like\na backseat driver.",
+      "start": 853.75,
+      "duration": 2.46
+    },
+    {
+      "text": "ANDREW PEYNADO: That's\nactually helpful.",
+      "start": 856.21,
+      "duration": 1.77
+    },
+    {
+      "text": "KHANH NGUYEN: Thanks for helping\nme land that point, Andrew.",
+      "start": 857.98,
+      "duration": 2.5
+    },
+    {
+      "text": "So with every response, we check\nthe function calls name and then",
+      "start": 860.48,
+      "duration": 3.1
+    },
+    {
+      "text": "call the function that's\nresponsible for doing the thing.",
+      "start": 863.58,
+      "duration": 3.7
+    },
+    {
+      "text": "Let's take a closer\nlook at two of the tools",
+      "start": 867.28,
+      "duration": 1.91
+    },
+    {
+      "text": "that the agentic app\nmanager has at its disposal.",
+      "start": 869.19,
+      "duration": 2.86
+    },
+    {
+      "text": "Each tool is defined as\na function declaration.",
+      "start": 872.05,
+      "duration": 2.88
+    },
+    {
+      "text": "It's a declarative way of\ndescribing what a tool does.",
+      "start": 874.93,
+      "duration": 3.12
+    },
+    {
+      "text": "Each tool has a name\nand a description,",
+      "start": 878.05,
+      "duration": 2.37
+    },
+    {
+      "text": "along with a map of parameters\nand their descriptions.",
+      "start": 880.42,
+      "duration": 3.36
+    },
+    {
+      "text": "Remember that good\ntool descriptions",
+      "start": 883.78,
+      "duration": 2.02
+    },
+    {
+      "text": "are important because the\nLLM uses them to determine",
+      "start": 885.8,
+      "duration": 2.82
+    },
+    {
+      "text": "what the tool does.",
+      "start": 888.62,
+      "duration": 1.51
+    },
+    {
+      "text": "Meanwhile, good\nparameter descriptions",
+      "start": 890.13,
+      "duration": 2.0
+    },
+    {
+      "text": "will help it to generate\nmore useful argument",
+      "start": 892.13,
+      "duration": 2.22
+    },
+    {
+      "text": "values with each function call.",
+      "start": 894.35,
+      "duration": 2.49
+    },
+    {
+      "text": "Here's the function declaration\nfor the app color tool.",
+      "start": 896.84,
+      "duration": 2.83
+    },
+    {
+      "text": "This particular tool\nrequires three integers,",
+      "start": 899.67,
+      "duration": 2.4
+    },
+    {
+      "text": "each representing the red,\ngreen, and blue channels",
+      "start": 902.07,
+      "duration": 2.72
+    },
+    {
+      "text": "in the RGB value.",
+      "start": 904.79,
+      "duration": 1.77
+    },
+    {
+      "text": "And here's the function that\nactually sets the app color.",
+      "start": 906.56,
+      "duration": 3.19
+    },
+    {
+      "text": "We grab the RGB parameter\nvalues that Gemini",
+      "start": 909.75,
+      "duration": 2.36
+    },
+    {
+      "text": "has generated from the\nfunction call object",
+      "start": 912.11,
+      "duration": 2.29
+    },
+    {
+      "text": "and update the\napp's color state.",
+      "start": 914.4,
+      "duration": 2.27
+    },
+    {
+      "text": "And here's the\nfunction declaration",
+      "start": 916.67,
+      "duration": 1.47
+    },
+    {
+      "text": "for the tool, which asks\nfor user confirmation.",
+      "start": 918.14,
+      "duration": 2.652
+    },
+    {
+      "text": "You can see the parameter\nis a string that represents",
+      "start": 920.792,
+      "duration": 2.208
+    },
+    {
+      "text": "the question to ask the user.",
+      "start": 923.0,
+      "duration": 1.63
+    },
+    {
+      "text": "And for simplicity, the\nanswer to this question",
+      "start": 924.63,
+      "duration": 2.12
+    },
+    {
+      "text": "needs to be either yes or no.",
+      "start": 926.75,
+      "duration": 2.55
+    },
+    {
+      "text": "So when the Gemini response\ninvokes the Ask Confirmation",
+      "start": 929.3,
+      "duration": 3.06
+    },
+    {
+      "text": "tool, we pull the question\nthat Gemini provided",
+      "start": 932.36,
+      "duration": 2.31
+    },
+    {
+      "text": "as a parameter from the\nfunction call object, drop it",
+      "start": 934.67,
+      "duration": 2.91
+    },
+    {
+      "text": "into the function that\ninvokes the alert model,",
+      "start": 937.58,
+      "duration": 2.26
+    },
+    {
+      "text": "take the response, which is true\nor false, in place of yes or no,",
+      "start": 939.84,
+      "duration": 3.51
+    },
+    {
+      "text": "and send it back to\nGemini as a chat message.",
+      "start": 943.35,
+      "duration": 3.16
+    },
+    {
+      "text": "Assuming the user\nresponded yes, Gemini",
+      "start": 946.51,
+      "duration": 2.09
+    },
+    {
+      "text": "should then respond with\nanother function call",
+      "start": 948.6,
+      "duration": 2.34
+    },
+    {
+      "text": "to execute the change.",
+      "start": 950.94,
+      "duration": 1.54
+    },
+    {
+      "text": "And that's how you\nbuild an agentic app",
+      "start": 952.48,
+      "duration": 2.12
+    },
+    {
+      "text": "with Vertex AI and\nFirebase and Flutter,",
+      "start": 954.6,
+      "duration": 2.28
+    },
+    {
+      "text": "implementing precisely\nthis architecture",
+      "start": 956.88,
+      "duration": 1.83
+    },
+    {
+      "text": "diagram that we saw earlier.",
+      "start": 958.71,
+      "duration": 2.07
+    },
+    {
+      "text": "The app sends text and a\nscreenshot to the Gemini model",
+      "start": 960.78,
+      "duration": 3.03
+    },
+    {
+      "text": "that's been configured\nwith our system prompt.",
+      "start": 963.81,
+      "duration": 2.02
+    },
+    {
+      "text": "Then Gemini responds by\ncalling various tools",
+      "start": 965.83,
+      "duration": 2.21
+    },
+    {
+      "text": "to make changes and take action\nin order to fulfill its goal.",
+      "start": 968.04,
+      "duration": 3.72
+    },
+    {
+      "text": "A quick aside here before we\njump to the next segment--",
+      "start": 971.76,
+      "duration": 2.92
+    },
+    {
+      "text": "I didn't actually build\nany of the feedback UI",
+      "start": 974.68,
+      "duration": 2.15
+    },
+    {
+      "text": "that you saw in the demo.",
+      "start": 976.83,
+      "duration": 1.63
+    },
+    {
+      "text": "The annotation canvas, the text\nfield to type the feedback,",
+      "start": 978.46,
+      "duration": 3.78
+    },
+    {
+      "text": "it's all built into the\nfeedback package from pub.dev.",
+      "start": 982.24,
+      "duration": 3.75
+    },
+    {
+      "text": "I built this fake email app,\nwrapped it in the feedback",
+      "start": 985.99,
+      "duration": 3.38
+    },
+    {
+      "text": "widget, and it just worked--",
+      "start": 989.37,
+      "duration": 1.78
+    },
+    {
+      "text": "pretty awesome if you ask me.",
+      "start": 991.15,
+      "duration": 2.04
+    },
+    {
+      "text": "Definitely check it out\nif you haven't already.",
+      "start": 993.19,
+      "duration": 2.9
+    },
+    {
+      "text": "Now, as we were\nworking on this demo,",
+      "start": 996.09,
+      "duration": 2.08
+    },
+    {
+      "text": "I felt like my fake mail\napp was a little bland.",
+      "start": 998.17,
+      "duration": 2.43
+    },
+    {
+      "text": "So let me show you\nsomething cool.",
+      "start": 1000.6,
+      "duration": 1.74
+    },
+    {
+      "text": "I added profile pictures\nfor the email senders.",
+      "start": 1002.34,
+      "duration": 2.903
+    },
+    {
+      "text": "ANDREW PEYNADO: What's\nso exciting about that?",
+      "start": 1005.243,
+      "duration": 1.917
+    },
+    {
+      "text": "Isn't that how mail\napps usually work?",
+      "start": 1007.16,
+      "duration": 2.968
+    },
+    {
+      "text": "KHANH NGUYEN: Great\nquestion, Andrew.",
+      "start": 1010.128,
+      "duration": 1.542
+    },
+    {
+      "text": "It's exciting because I\nactually used Imagen 3.",
+      "start": 1011.67,
+      "duration": 2.168
+    },
+    {
+      "text": "It's an image\ngeneration model that's",
+      "start": 1013.838,
+      "duration": 1.542
+    },
+    {
+      "text": "available through Vertex AI.",
+      "start": 1015.38,
+      "duration": 1.98
+    },
+    {
+      "text": "The even more exciting\npart is that Imagen 3",
+      "start": 1017.36,
+      "duration": 2.28
+    },
+    {
+      "text": "is available through\nthe Vertex SDK as well.",
+      "start": 1019.64,
+      "duration": 2.71
+    },
+    {
+      "text": "So just like how we could\naccess the Gemini 2.0",
+      "start": 1022.35,
+      "duration": 2.6
+    },
+    {
+      "text": "model through the\nVertex SDK, you",
+      "start": 1024.95,
+      "duration": 2.129
+    },
+    {
+      "text": "can do the same with Imagen 3.",
+      "start": 1027.079,
+      "duration": 2.141
+    },
+    {
+      "text": "The Imagen model\nAPI looks really",
+      "start": 1029.22,
+      "duration": 2.03
+    },
+    {
+      "text": "similar to the\ngenerative model API,",
+      "start": 1031.25,
+      "duration": 1.9
+    },
+    {
+      "text": "but notice that it's an\nImagen model constructor.",
+      "start": 1033.15,
+      "duration": 2.719
+    },
+    {
+      "text": "Just like before, you specify\na model and an image generation",
+      "start": 1035.869,
+      "duration": 3.091
+    },
+    {
+      "text": "config.",
+      "start": 1038.96,
+      "duration": 0.909
+    },
+    {
+      "text": "Here, you can specify",
+      "start": 1039.869,
+      "duration": 1.041
+    },
+    {
+      "text": "the number of images that you\nwant back for each prompt.",
+      "start": 1040.91,
+      "duration": 2.74
+    },
+    {
+      "text": "At the time of this recording,\nit'll default to one image,",
+      "start": 1043.65,
+      "duration": 2.82
+    },
+    {
+      "text": "but you can get as many as\nfour images if you wanted.",
+      "start": 1046.47,
+      "duration": 3.47
+    },
+    {
+      "text": "Then you can call the\ngenerateImages method",
+      "start": 1049.94,
+      "duration": 2.1
+    },
+    {
+      "text": "with your prompt.",
+      "start": 1052.04,
+      "duration": 1.03
+    },
+    {
+      "text": "Once the response comes\nback with the images,",
+      "start": 1053.07,
+      "duration": 2.31
+    },
+    {
+      "text": "you can grab the image\nbytes and display them",
+      "start": 1055.38,
+      "duration": 2.12
+    },
+    {
+      "text": "in your app using a\nmemory image widget.",
+      "start": 1057.5,
+      "duration": 2.67
+    },
+    {
+      "text": "OK, but I do have one more\nthing to show you today.",
+      "start": 1060.17,
+      "duration": 3.0
+    },
+    {
+      "text": "I was talking to one of our\nawesome Firebase engineers,",
+      "start": 1063.17,
+      "duration": 2.31
+    },
+    {
+      "text": "and they mentioned a\nreally cool feature",
+      "start": 1065.48,
+      "duration": 1.49
+    },
+    {
+      "text": "that they were working on--",
+      "start": 1066.97,
+      "duration": 1.2
+    },
+    {
+      "text": "bidirectional audio streaming\nusing Gemini's live API.",
+      "start": 1068.17,
+      "duration": 3.96
+    },
+    {
+      "text": "In short, what if\nI could literally",
+      "start": 1072.13,
+      "duration": 1.92
+    },
+    {
+      "text": "talk and have a conversation\nwith Gemini in real time?",
+      "start": 1074.05,
+      "duration": 4.29
+    },
+    {
+      "text": "I'd like to talk to\nthe manager, please.",
+      "start": 1078.34,
+      "duration": 3.51
+    },
+    {
+      "text": "Hey, Gemini.",
+      "start": 1081.85,
+      "duration": 1.642
+    },
+    {
+      "text": "GEMINI: Hello there.",
+      "start": 1083.492,
+      "duration": 1.128
+    },
+    {
+      "text": "How can I help you today?",
+      "start": 1084.62,
+      "duration": 1.44
+    },
+    {
+      "text": "KHANH NGUYEN: I don't like\nthe purple color of this app.",
+      "start": 1086.06,
+      "duration": 2.76
+    },
+    {
+      "text": "Can you change it\nto a blue, please?",
+      "start": 1088.82,
+      "duration": 3.89
+    },
+    {
+      "text": "GEMINI: Sure, I can\nhelp you with that.",
+      "start": 1092.71,
+      "duration": 1.66
+    },
+    {
+      "text": "I can change the\napp color to blue.",
+      "start": 1094.37,
+      "duration": 1.97
+    },
+    {
+      "text": "Would you like me to do that?",
+      "start": 1096.34,
+      "duration": 1.51
+    },
+    {
+      "text": "KHANH NGUYEN: Yes, please.",
+      "start": 1097.85,
+      "duration": 1.083
+    },
+    {
+      "text": "Cool, thanks.",
+      "start": 1101.23,
+      "duration": 1.18
+    },
+    {
+      "text": "Can you also--",
+      "start": 1102.41,
+      "duration": 0.96
+    },
+    {
+      "text": "GEMINI: You're welcome.",
+      "start": 1103.37,
+      "duration": 0.56
+    },
+    {
+      "text": "Is there--",
+      "start": 1103.93,
+      "duration": 0.5
+    },
+    {
+      "text": "KHANH NGUYEN: --make the\nfont a serif font, please?",
+      "start": 1104.43,
+      "duration": 3.73
+    },
+    {
+      "text": "GEMINI: Sure, I can change\nthe font to a serif font.",
+      "start": 1108.16,
+      "duration": 3.7
+    },
+    {
+      "text": "Would you like me\nto use Georgia,",
+      "start": 1111.86,
+      "duration": 1.71
+    },
+    {
+      "text": "which is a highly-readable\nserif typeface designed",
+      "start": 1113.57,
+      "duration": 2.45
+    },
+    {
+      "text": "for screen use?",
+      "start": 1116.02,
+      "duration": 0.635
+    },
+    {
+      "text": "KHANH NGUYEN: Yes.",
+      "start": 1116.655,
+      "duration": 0.75
+    },
+    {
+      "text": "Never mind, I don't like that.",
+      "start": 1120.43,
+      "duration": 1.96
+    },
+    {
+      "text": "Can we go back to the\nInter font, please?",
+      "start": 1122.39,
+      "duration": 2.31
+    },
+    {
+      "text": "OK, thanks.",
+      "start": 1127.42,
+      "duration": 1.33
+    },
+    {
+      "text": "That's all I need.",
+      "start": 1128.75,
+      "duration": 0.87
+    },
+    {
+      "text": "GEMINI: You're welcome.",
+      "start": 1129.62,
+      "duration": 0.66
+    },
+    {
+      "text": "KHANH NGUYEN: Bye, Gemini.",
+      "start": 1130.28,
+      "duration": 1.25
+    },
+    {
+      "text": "GEMINI: Goodbye.",
+      "start": 1131.53,
+      "duration": 0.72
+    },
+    {
+      "text": "Have a great day.",
+      "start": 1132.25,
+      "duration": 1.89
+    },
+    {
+      "text": "ANDREW PEYNADO: Oh,\nthat's what you meant.",
+      "start": 1134.14,
+      "duration": 2.44
+    },
+    {
+      "text": "That's pretty cool.",
+      "start": 1136.58,
+      "duration": 1.53
+    },
+    {
+      "text": "This is a great time\nfor me to tell you",
+      "start": 1138.11,
+      "duration": 1.79
+    },
+    {
+      "text": "that real-time bidirectional\nstreaming is now",
+      "start": 1139.9,
+      "duration": 2.67
+    },
+    {
+      "text": "available in Preview.",
+      "start": 1142.57,
+      "duration": 1.36
+    },
+    {
+      "text": "So you can try it out\ntoday in your Flutter apps.",
+      "start": 1143.93,
+      "duration": 2.452
+    },
+    {
+      "text": "KHANH NGUYEN: And guess what?",
+      "start": 1146.382,
+      "duration": 1.208
+    },
+    {
+      "text": "The code follows the\nsame API structure",
+      "start": 1147.59,
+      "duration": 2.21
+    },
+    {
+      "text": "as the generative models\nwe've already used.",
+      "start": 1149.8,
+      "duration": 2.253
+    },
+    {
+      "text": "You swap out your\ngenerative model constructor",
+      "start": 1152.053,
+      "duration": 1.917
+    },
+    {
+      "text": "with a live generative\nmodel constructor,",
+      "start": 1153.97,
+      "duration": 2.29
+    },
+    {
+      "text": "specify a model that has Gemini\nLive API support, like Gemini",
+      "start": 1156.26,
+      "duration": 3.23
+    },
+    {
+      "text": "2.0 or Gemini 2.5, provide\na Live generation config,",
+      "start": 1159.49,
+      "duration": 4.29
+    },
+    {
+      "text": "which specifies the voice\nand response modality, which",
+      "start": 1163.78,
+      "duration": 2.76
+    },
+    {
+      "text": "in this case is audio.",
+      "start": 1166.54,
+      "duration": 1.72
+    },
+    {
+      "text": "And then you can reuse the\nsame list of tools and system",
+      "start": 1168.26,
+      "duration": 3.29
+    },
+    {
+      "text": "instructions.",
+      "start": 1171.55,
+      "duration": 1.12
+    },
+    {
+      "text": "From there, you can start\nstreaming your audio.",
+      "start": 1172.67,
+      "duration": 2.595
+    },
+    {
+      "text": "Of course, once you're done\nbuilding your agentic Flutter",
+      "start": 1175.265,
+      "duration": 2.375
+    },
+    {
+      "text": "app, you have quite a few\ndeployment options to pick from.",
+      "start": 1177.64,
+      "duration": 3.06
+    },
+    {
+      "text": "Believe it or not, we managed to\nuse three different generative",
+      "start": 1180.7,
+      "duration": 2.64
+    },
+    {
+      "text": "models from the Vertex SDK.",
+      "start": 1183.34,
+      "duration": 1.99
+    },
+    {
+      "text": "We first built our\nagentic app manager",
+      "start": 1185.33,
+      "duration": 2.03
+    },
+    {
+      "text": "using a regular generative\nmodel with Gemini 2.0.",
+      "start": 1187.36,
+      "duration": 2.74
+    },
+    {
+      "text": "Then we used the Imagen model to\ngenerate images with Imagen 3.",
+      "start": 1190.1,
+      "duration": 3.45
+    },
+    {
+      "text": "And finally, we added\nreal-time audio streaming",
+      "start": 1193.55,
+      "duration": 2.39
+    },
+    {
+      "text": "with the new Live generative\nmodel, also using Gemini 2.0.",
+      "start": 1195.94,
+      "duration": 3.87
+    },
+    {
+      "text": "So, Andrew, what\nare the high-level",
+      "start": 1199.81,
+      "duration": 1.56
+    },
+    {
+      "text": "takeaways that everyone should\ntake away from this video?",
+      "start": 1201.37,
+      "duration": 3.69
+    },
+    {
+      "text": "ANDREW PEYNADO: Well,\nthere's a few things.",
+      "start": 1205.06,
+      "duration": 1.99
+    },
+    {
+      "text": "Number one, language\nmodels like Gemini",
+      "start": 1207.05,
+      "duration": 3.17
+    },
+    {
+      "text": "enable us as developers to\ncraft better user experiences",
+      "start": 1210.22,
+      "duration": 3.33
+    },
+    {
+      "text": "by understanding unstructured\ninput paired with an ability",
+      "start": 1213.55,
+      "duration": 3.48
+    },
+    {
+      "text": "to reason.",
+      "start": 1217.03,
+      "duration": 1.65
+    },
+    {
+      "text": "Number two, Vertex\nAI and Firebase",
+      "start": 1218.68,
+      "duration": 2.67
+    },
+    {
+      "text": "is an easy way for you to add\nAI and agentic functionality",
+      "start": 1221.35,
+      "duration": 4.32
+    },
+    {
+      "text": "into your Flutter\napps in production.",
+      "start": 1225.67,
+      "duration": 3.72
+    },
+    {
+      "text": "And number three,\nFlutter helps you",
+      "start": 1229.39,
+      "duration": 2.34
+    },
+    {
+      "text": "ship your production-grade,\nmultiplatform apps faster",
+      "start": 1231.73,
+      "duration": 3.84
+    },
+    {
+      "text": "with just one code base.",
+      "start": 1235.57,
+      "duration": 2.243
+    },
+    {
+      "text": "KHANH NGUYEN: And\nfinally, we hope",
+      "start": 1237.813,
+      "duration": 1.417
+    },
+    {
+      "text": "that we've been able to keep\nour promise, showing you",
+      "start": 1239.23,
+      "duration": 2.208
+    },
+    {
+      "text": "that building agentic apps is\nas straightforward as building",
+      "start": 1241.438,
+      "duration": 2.802
+    },
+    {
+      "text": "any other app that you're\nalready experts at building.",
+      "start": 1244.24,
+      "duration": 2.68
+    },
+    {
+      "text": "Hopefully you now think\nof agentic features",
+      "start": 1246.92,
+      "duration": 2.42
+    },
+    {
+      "text": "and experiences as another tool\nin your app development toolbox.",
+      "start": 1249.34,
+      "duration": 3.84
+    },
+    {
+      "text": "It is software just with a\nnondeterministic runtime.",
+      "start": 1253.18,
+      "duration": 3.43
+    },
+    {
+      "text": "It's a new paradigm that\nwe're all getting used to.",
+      "start": 1256.61,
+      "duration": 3.14
+    },
+    {
+      "text": "ANDREW PEYNADO: If you want\naccess to the code for the app,",
+      "start": 1259.75,
+      "duration": 2.98
+    },
+    {
+      "text": "head on over to the\nFlutter demos repo",
+      "start": 1262.73,
+      "duration": 2.3
+    },
+    {
+      "text": "at github.com/flutter/demos.",
+      "start": 1265.03,
+      "duration": 3.197
+    },
+    {
+      "text": "KHANH NGUYEN: Thanks for\ntaking the time out of your day",
+      "start": 1268.227,
+      "duration": 2.333
+    },
+    {
+      "text": "to watch this video.",
+      "start": 1270.56,
+      "duration": 1.08
+    },
+    {
+      "text": "Please drop us a comment if you\nhave any questions or feedback.",
+      "start": 1271.64,
+      "duration": 3.24
+    },
+    {
+      "text": "If you're working on a\ncool project with Flutter",
+      "start": 1274.88,
+      "duration": 2.0
+    },
+    {
+      "text": "and Firebase, let\nus know as well.",
+      "start": 1276.88,
+      "duration": 1.75
+    },
+    {
+      "text": "We'd love to see them.",
+      "start": 1278.63,
+      "duration": 1.32
+    },
+    {
+      "text": "With that said, I think\nthat's a wrap for us.",
+      "start": 1279.95,
+      "duration": 2.64
+    },
+    {
+      "text": "Catch you next time.",
+      "start": 1282.59,
+      "duration": 1.11
+    },
+    {
+      "text": "Bye.",
+      "start": 1283.7,
+      "duration": 0.68
+    },
+    {
+      "text": "ANDREW PEYNADO: Bye.",
+      "start": 1284.38,
+      "duration": 1.2
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 1285.58,
+      "duration": 3.05
+    }
+  ]
+}

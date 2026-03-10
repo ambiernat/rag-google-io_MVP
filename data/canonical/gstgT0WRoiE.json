@@ -1,0 +1,101 @@
+[
+  {
+    "id": "gstgT0WRoiE__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 0.0,
+    "timestamp_end": 138.28,
+    "text": "[MUSIC PLAYING] MARK MCDONALD: Hi,\nI'm Mark McDonald. And today we're\ngoing to take you on a tour of five practical\nuses of the Gemini API that you can use as a\ndeveloper or product owner in your own apps. Let's dive straight in. First up, let's see how we can\nload images and other media directly into\nstructured data stores. As developers, we all have\nto manage data in our apps somewhere, usually in\nsome kind of database. And pretty often, we use\nobject-relational mapping libraries, as they make it easy\nto map between physical database records and logical data models. Using the Gemini\nAPI, we can take this further and map\nbetween our models and the real world using\nphotos, audio, and video. Let's look at an example. A membership form like this\nis pretty typical of something that a small local\nclub or business might use to sign up new members. These paper forms are still\nin use in a lot of places and aren't really\nmade for machines to easily ingest, as they're\nwritten for and by humans. Us humans can be\nmessy and variable. For example, people\ncan write something like age using different units,\nyears and months, or even decimals. But this is where the\nGemini API can help. We're going to take a photo\nof this membership form and load it into a database. Firstly, we'll define our\nphysical database schema using SQLAlchemy. In this example,\nthe form is stored across two tables,\none for the members and one for their interests. If you're working with a\ndatabase that already exists, you shouldn't need to make\nany changes to load data through the Gemini API. The magic comes from\nhow the model can map to your existing schema. Next, we define a logical model\nfor our data using Pydantic. If you're building\nuser interfaces or passing data between\nsystems, you likely already have logical models defined too. Here, the two tables are\nrepresented by nested classes, and the possible\ninterests are captured both as pydantic objects\nand as a Python enumeration. Now I can load a photo\nof the membership",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 124.24,
+    "timestamp_end": 245.89,
+    "text": "have logical models defined too. Here, the two tables are\nrepresented by nested classes, and the possible\ninterests are captured both as pydantic objects\nand as a Python enumeration. Now I can load a photo\nof the membership form using a common Python\nlibrary like pillow. With the photo and\nschema both loaded, we can now make a request\nto the Gemini API that includes the member class\nas the response schema as well as the photo. By setting the response\nmime type and schema, we're indicating to the model\nthat the response must comply with that provided schema. Under the hood,\nthis is all JSON, but the Python SDK\nunderstands Pydantic objects and does the conversion\nfor us automatically. Here, I've also included\na system instruction with the current date. This ensures that\nthe model can convert between the date of birth\non the form and the age column in the database. We don't need to provide\na specific direction to get the model to do the\nconversion between date of birth and age, but you could set\nup more complex conversions if you needed. Once the request is complete,\nwe get an instantiated object in response.parsed. In this case, it's\na Member object, and you can see that the\nfields are populated correctly. And even the interests that\nwere checkboxes on the form map back to enum objects. Now that we have a structured\ninstance of our photo, we can insert it into our\ndatabase or present it in a UI for a human to check. And remember that the Gemini API\nsupports more than just images. You can follow this process with\nvideo, audio, screenshots, PDFs, unstructured text, and more. This example used Python\nheavily, but under the hood, everything is JSON, so it's\nportable to your language of choice. Next up is a look at how\nto connect your app's API to the Gemini Live API to\ncontrol it with live audio. To show how this works, we have\na list editor app here that can be operated hands free. It has the functions\nyou would expect-- add item, edit item,\ncomplete item, et cetera. Let's see it in action.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 230.34,
+    "timestamp_end": 363.77,
+    "text": "API to the Gemini Live API to\ncontrol it with live audio. To show how this works, we have\na list editor app here that can be operated hands free. It has the functions\nyou would expect-- add item, edit item,\ncomplete item, et cetera. Let's see it in action. SPEAKER: Hey, I'm\nmaking lasagna tonight. Can you make me an\ningredients list? So the agent called a\nfunction called create_list, which updated the UI. I've got onions\nand garlic already. Can you check them off for me? This time, the model\ncalled two functions, one to look up the most\nup-to-date list and then another to make an edit to it. Let's try a few more things. I'm also making garlic bread. Can you make me another list? OK. Looking at the\nprevious list, can you check off any items\nI've already got? MARK MCDONALD: So\nyou can see how adding a voice\ninterface to your app opens up a whole new mode of\ninteracting for your users. With the Gemini Live API, you\ncan set up two-way streaming using text or audio. With audio streaming,\nyour user speaks, and the Gemini API\nresponds in real time, invoking any tools or\nAPIs you have configured. The setup works like this. First, set the output mode--\nfor example, audio or text. Then start a session using\nthe connect function. Send any text, audio,\nor video to the model and wait for a response. If you can, stream the audio\nback to the user so they hear it live. Otherwise, buffer the response\nand play back the WAV file. Repeat this for as long\nas your session lasts. To wire up your\ncustom API or tools, you provide a schema\nthat represents the interface, the\nfunction name, description, and arguments. Typically, you can\nget these directly from the function itself, which\nis exactly what the SDK does, but you can also specify it if\nyou need to be more expressive. Then during the\nlive conversation, if your user makes a request\nthat is best handled by a tool, the model will generate and\nreturn the structured arguments to your client, which\nmakes the request. The response is sent back,\nand the chat continues on.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 351.97,
+    "timestamp_end": 462.40999999999997,
+    "text": "if your user makes a request\nthat is best handled by a tool, the model will generate and\nreturn the structured arguments to your client, which\nmakes the request. The response is sent back,\nand the chat continues on. This back-and-forth\nprocess is what powers the example\nyou saw before, where a user can\ntalk to your app and use their own voice\nto perform complex tasks. The live API is available\nthrough the Python and TypeScript SDKs, but if\nyou don't use either of these, the underlying streaming\nAPI runs on WebSockets. You can call it\nfrom any language. You just need to be able to\nconnect to a secure WebSocket endpoint and pass the\naudio or video streams, along with any tools\nor instructions you need for your app. We even have an example using\nthe Bash shell in the cookbook. Check it out. Now let's take a look at\nhow we can use a browser as a tool with the Gemini API. You may be familiar\nwith systems like RAG that can be used to connect\ndata sources to LLMs. This allows you to bring in data\nthat is newer than the model's data cutoff or to provide data\nthat is factual and possibly relevant to a user's query. Well, the internet is\nalready a massive data source that can be accessed\nvia a web browser. You may even have your own\ndata or tools accessible through your corporate intranet\nor private home network. For these cases, you can connect\na web browser to the Gemini API as a tool. This gives your users\na way to ask questions about live internet\nor internet data and even control simple\nweb-based systems. A simple but effective\nweb browser tool is one that just\nmakes a HTTP request and returns the contents. Here, I've defined\na load_page function that uses the Python request\nlibrary to make a HTTP request to the specified URL. LLMs understand markdown. So it also takes the\nfull HTML of the page and converts it to markdown\nfor the model to use. Using markdown still preserves\nthe general HTML semantics, things like heading levels that\nindicate important page section,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 450.24,
+    "timestamp_end": 561.3499999999999,
+    "text": "So it also takes the\nfull HTML of the page and converts it to markdown\nfor the model to use. Using markdown still preserves\nthe general HTML semantics, things like heading levels that\nindicate important page section, as well as links and lists,\nbut it uses fewer tokens than a full HTML page, so the\nprocess is more efficient. A lot of the information that\nis important for rendering a good-looking web page\njust isn't needed by an LLM in order to read the main text. So using markdown is a neat\nway to tidy up a little. Here, I've connected\nthe tool to the live API to show it running in real time. With a live session running,\nwe ask a timely question that requires internet access. The model generates\na relevant URL, calls the load_page function\nthat makes the request. Then the model\nprocesses the markdown and answers the question. Since the tool is\nrun by our app, anything that the\napp can connect to can be provided to the model. To see how it works\nfor a local network, I've made up a synthetic\nintranet service, and we're going to plug\nit into the Gemini API. Here's the front page. This time, we're using a chat\nsession over the regular HTTP API. The setup is similar. We provide the function\nas a tool, create a chat, and send a question. In the system\ninstruction, we also provide extra context\nthe model needs, like the address\nof the homepage. Remember that the load_page\nfunction just takes a URL, so the system needs to\nknow where to start. With all of that\nset up, it can now answer questions\nabout the internet, like which HR forms\nare available. And you can see\nfrom the web server logs here that the model has\nmade a number of requests. It started off at the\nroot of the internet and found the HR page by\nnavigating the site on its own, finding and following links\njust from the page source. And because this is a web\nrequest, the data is live. If someone updates the\nintranet, the model will automatically use\nthe latest information. There's no need to\nre-index the database or regenerate embeddings.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 550.55,
+    "timestamp_end": 662.23,
+    "text": "And because this is a web\nrequest, the data is live. If someone updates the\nintranet, the model will automatically use\nthe latest information. There's no need to\nre-index the database or regenerate embeddings. Now, plaintext and\nmarkdown go a long way, but the web is much\nricher than that. We have pictures and\nJavaScript and much more. You can take advantage\nof the Gemini API's multimodal capabilities\nby instrumenting a real browser like Chrome\nand sending screenshots back alongside the textual\npage contents. And by using a real\nbrowser, you can navigate sites that use JavaScript too. Like before, this tool loads the\npage and returns the markdown. But it also includes a\nscreenshot of the page so that the model has\nenough information to navigate visually\nand understand any nontextual\nelements on the page. As you can see, the tool\ncode is incredibly short. This example only\nloads a URL and takes a snapshot of the\npage, but you can build whatever\nsupport you need-- keyboard inputs, scrolling,\nform submission, and more. In this next\nexample, we're going to get the Gemini API to\ngenerate charts for us. If you haven't already\nseen it in action, Gemini models can\ngenerate and run Python code within a\nsandbox environment to help answer a request. This sandbox includes libraries\nlike matplotlib and Seaborn that you can use to generate\nplots from the data you provide in the model's context window. When you provide a\nGemini model with tools that can connect to a\ndatabase, say to list tables or execute SQL, the model is\nable to query your database and use that data\nto answer questions. This gives you the ability\nto ask open-ended questions about the contents\nof your database and get back answers that\nare grounded in your data. Now, being able to have a\nconversation with your database is already a superpower, but you\ncan take it to the next level by adding code execution\nto generate visualizations. In addition to using a database,\nyou can directly add any files that the Gemini API supports.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 648.9,
+    "timestamp_end": 766.28,
+    "text": "is already a superpower, but you\ncan take it to the next level by adding code execution\nto generate visualizations. In addition to using a database,\nyou can directly add any files that the Gemini API supports. Here, I've run the same process\nin AI Studio using a CSV file. First, the model generates\ncode for the data analysis. Then it generates more\ncode to draw the chart and returns you the chart image. It also explains its\nactions along the way with some plaintext that\nyou can show your users. If you want to extend\nyour app to use more advanced charts or custom\nvisualization tools like Google Maps, the Gemini API can\ngenerate the visualizations if you provide it with\nthe tool or schema. This works great for\nrich visualization tools like Altair charts or D3. Here's a quick example\nusing natural language to generate a data-driven map. With the Live API set up to use\ncode execution, our static maps tool, and Google\nSearch, we first asked the model to plot\ncapital cities on the map. When that completes, we can\nask it to show some data. You can, of course,\nprovide your own data. But here, I have asked it\nto color the markers based on the average temperature that\nit looks up with Google Search. As you can see, with a\nsmall amount of setup, you can build apps to\ncreate interactive data visualizations that connect\nyour users with your data. For the last example, we'll set\nup a question-and-answer system to unlock your unstructured,\nmultimodal data. For businesses that have\nbeen around for a while, it's common to have valuable\ninformation locked up in PDFs or scanned document images. Maybe you even have manuals\nfrom an old appliance or find yourself in a\nforeign country needing to operate a washing machine. Whatever the\nsituation, you can turn these unstructured\ndocuments into a Q&A system with just a few lines of code. In this prototype,\nmade in AI Studio, the user has provided\na product manual as a PDF, plus a photo\nthey took themself, and a prompt asking\nhow to use it.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 751.41,
+    "timestamp_end": 869.0,
+    "text": "these unstructured\ndocuments into a Q&A system with just a few lines of code. In this prototype,\nmade in AI Studio, the user has provided\na product manual as a PDF, plus a photo\nthey took themself, and a prompt asking\nhow to use it. As a developer, you can package\nup your PDFs into an app, and your users can learn\nto use the product however they learn best, whether\nthat is troubleshooting by taking photos or just\nasking questions directly. To do this, we'll\nbe using the fact that the Gemini API can\nprocess PDF files directly, along with a number\nof other file types. To do this, you upload the files\nthrough the Gemini file API, then just start\nsending your questions. For PDF files, the model will\nprocess both text and images from the document and can\nsupport long documents up to 3,600 pages. Images work in the same way. You can either\nupload and then ask. Or if the image\nisn't too big, you can just include it\ndirectly in the request, like in this example. Plus, you can combine\nmedia, like using images together with video\nto ask questions like, what does this button do? If you're reusing\nthese documents across many requests\nor many users, you are potentially\nregenerating and recalculating the same tokens in\neach of these requests. This can be really inefficient\nand, in some cases, expensive. To help with this,\nthe Gemini API has a caching\nfeature that allows you to reuse files, tools,\nand instructions at the start of the model's input. This takes a snapshot\nof the model weights after processing\nthe docs so that you don't get charged for\nreprocessing every document on every request. To find out more about the\ncaching and pricing models, check out the caching\nguide in the docs. To get started with\nthese features, check out all of the code\nfor this and everything else here in our cookbook\nand in the Gemini API docs. Thanks for watching. We touched on a lot\nof features here. So if you want to dive\ninto these examples and check out the\ncode yourself, you can find links to all of the\ncode in the description below.",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "gstgT0WRoiE__chunk_008",
+    "schema_version": "canonical_v1",
+    "video_id": "gstgT0WRoiE",
+    "title": "Google I/O 2025 \u2013 gstgT0WRoiE",
+    "timestamp_start": 855.23,
+    "timestamp_end": 872.05,
+    "text": "else here in our cookbook\nand in the Gemini API docs. Thanks for watching. We touched on a lot\nof features here. So if you want to dive\ninto these examples and check out the\ncode yourself, you can find links to all of the\ncode in the description below. [MUSIC PLAYING]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

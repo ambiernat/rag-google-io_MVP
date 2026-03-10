@@ -1,0 +1,90 @@
+[
+  {
+    "id": "BqQiJ5LSASI__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 6.08,
+    "timestamp_end": 138.879,
+    "text": "Hi everyone and welcome. I'm Crystal Smith, product marketing lead for the Google Developer Program and I'm thrilled to be here at Google IO to talk to you about something incredibly vital for all of us building the future of technology, the Google Developer Program. With me today are two key members of the team who are deeply involved in shaping and delivering the value of this program to developers around the globe. Hi everyone. I'm Katriel Vasneno, senior engineering program manager for the Google Developer Program. And I'm Jeffrey Taylor, lead technical writer for the Google Developer Program. At the heart of it, the Google Developer Program isn't simply another initiative. It's Google's demonstration of a deeply rooted understanding that developers are the architects of our digital future and the vital engine of today's innovation within today's technological ecosystem. You, the developer, stand at the forefront of creating the next generation of applications, services, and experiences that will shape how we live, work, and interact with the world. From crafting groundbreaking AI solutions to building scalable cloud applications and developing engaging mobile experiences, your expertise and ingenuity are paramount to leveraging the full potential of Google's cuttingedge technologies. In today's landscape, developers are the essential catalysts for digital transformation across all industries. Your ability to translate complex ideas into tangible software solutions drives business growth enhances user experiences and addresses critical societal challenges. Whether it's enabling small businesses to reach global markets, empowering enterprises to streamline operations, or creating tools that enhance accessibility, your work forms the very foundation of the digital economy. The demand for skilled developers is ever increasing, underscoring your crucial role in meeting the evolving technological needs of our world. Looking ahead, developers will be even more instrumental in navigating the transformative power of emerging",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 121.04,
+    "timestamp_end": 254.48000000000002,
+    "text": "developers is ever increasing, underscoring your crucial role in meeting the evolving technological needs of our world. Looking ahead, developers will be even more instrumental in navigating the transformative power of emerging technologies like artificial intelligence and machine learning. As we stand on the cusp of an age defined by AIdriven innovation, your ability to harness these tools to build intelligent applications, automate complex tasks, and unlock new possibilities will be critical. The Google Developer Program is intentionally designed to empower you in this era of rapid change, providing you with early access to AI tools like Gemini Code Assist, Vert.Ex AI, and AI Studio along with the learning resources and expert guidance needed to master them. Therefore, at its heart, the Google Developer Program is a commitment to fostering your growth and success within the entire Google ecosystem. Regardless of your current skill level or professional aspirations, whether you're an aspiring professional eager to build foundational skills, an independent developer seeking cost-effective and powerful tools, or an enterprise developer focused on scaling innovative solutions, our overarching goal is to be your central hub. We aim to provide a comprehensive suite of services, tools, and resources that simplify and accelerate your development journey, enabling you to learn the latest skills, build innovative solutions faster, and ultimately grow your career, and shape the future with Google's transformative technologies. To best serve the diverse needs of our developer community, the Google Developer Program offers three distinct membership levels: standard, premium, and enterprise. Let's take a quick look at each starting with our foundational offering. Jeffrey, thanks Katriel. The standard membership is our nocost entry point and it's designed to provide a solid foundation for your growth within the Google ecosystem. We understand that learning and building are key. So, the standard membership offers access to a",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 238.4,
+    "timestamp_end": 367.68,
+    "text": "standard membership is our nocost entry point and it's designed to provide a solid foundation for your growth within the Google ecosystem. We understand that learning and building are key. So, the standard membership offers access to a range of valuable resources to help you do just that. As a standard member, you gain access to nocost learning opportunities on cloud skills boost and through code labs, allowing you to build practical skills with Google Cloud and other technologies. You also have the ability to organize your work, track your progress, and showcase your accomplishments on your Google developer profile. This profile lets you highlight your professional skills and achievements and even display badges you've earned. Furthermore, standard members benefit from access to AI powered assistance like side panel chat, code explain, and search summaries within Google's developer documentation, making it easier to find answers to your technical questions. You also get 10 Firebase Studio workspaces, an increase from the default one to help you develop your projects in the cloud. Plus, you can save your interests and bookmark important pages across Google developer sites for quick access later. And of course, you'll stay informed with the latest news and announcements from Google. The standard membership is really about giving every developer a starting point to engage with Google technologies and our community. That's a fantastic overview of the value you get at no cost, Jeffrey. But we can also recognize that many developers are looking for more. More resources, more support, and deeper integration with Google's advanced offerings. That's where our premium membership comes in. The premium membership is an annual subscription designed to help individual developers and technical practitioners go further faster with Google's technologies. It builds upon the solid foundation of the standard membership with an exclusive set of enhanced benefits now infused with AI to really supercharge your",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 352.0,
+    "timestamp_end": 487.36,
+    "text": "and technical practitioners go further faster with Google's technologies. It builds upon the solid foundation of the standard membership with an exclusive set of enhanced benefits now infused with AI to really supercharge your development journey. We've listened to your feedback and tailored this membership level to provide significant value across learning, building, and growth within the Google ecosystem. Let's dive into some of the key benefits. Firstly, we provide $500 in annual Google Cloud credits. This gives you tangible resources to start building and experimenting with a wide range of Google Cloud services from compute and storage to cutting edge AI and machine learning platforms like Vert.ex AI and our serverless offerings like Cloud Run and Firebase. This credit empowers you to prototype, test, and even deploy your applications on Google Cloud without immediate cost barriers. In today's rapidly evolving landscape, AI is a gamecher for developer productivity. That's why premium membership includes Gemini code assist standard. This powerful tool uses Google's generative AI to help you build code faster and more efficiently right within your IDE. Whether you're using VS Code, Jet Brains, Cloud Workstations, or Cloud Shell Editor, Gemini Code Assist can provide code completions as you type, generate entire functions from comments, create unit tests, and assist with debugging and understanding your code. This isn't just about writing code faster. It's about reducing cognitive load, and allowing you to focus on the bigger picture of your innovation. And this benefit is specifically linked to your premium membership email, ensuring secure access. For those eager to explore the forefront of AI, we also include a $50 annual Geni developer credit. This credit is specifically for use with Google's cuttingedge APIs in Google AI Studio and Google Cloud Vert.Ex text AI, allowing you to experiment with our latest generation of models, including the powerful Gemini family and Gen Media models like Imagin",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 469.52,
+    "timestamp_end": 601.36,
+    "text": "use with Google's cuttingedge APIs in Google AI Studio and Google Cloud Vert.Ex text AI, allowing you to experiment with our latest generation of models, including the powerful Gemini family and Gen Media models like Imagin and Vio. This benefit lets you tap into the transformative potential of generative AI directly within Google's developer platforms. We know that demonstrating your expertise is crucial for career advancement. That's why premium members receive one Google Cloud certification voucher each year, covering the full retail value of up to $200. Achieving a Google Cloud certification can significantly accelerate your career, and this voucher makes it more accessible. Plus, as a bonus for your achievement, upon earning a Google Cloud certification, you'll receive an additional $500 in Google Cloud credits. This reinforces our commitment to your ongoing learning and growth within the Google Cloud ecosystem. Sometimes you need personalized guidance to overcome specific challenges or optimize your architecture. Premium members can take advantage of a consultation with Google Cloud experts. You can book either one 1-hour session or two 30 minute sessions each year to get one-to-one expert advice on topics ranging from a IML and modern architecture to Firebase and data analytics. This direct access to Google Cloud expertise can be invaluable in accelerating your projects and making informed technical decisions. We also boost your development environment with 30 Firebase Studio Workspaces providing you even more flexibility for AI assisted fullstack app development in the cloud. And finally, to give you a taste of the latest in AI power productivity, premium members receive three months of Google 1 AI premium, which includes access to the most capable AI from Google's Gemini, along with 2 TB of storage and more. As you can see, the premium membership is packed with value for individual developers, but for larger teams within organizations, we have a tailored solution. Kreel, can you tell us about",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 585.519,
+    "timestamp_end": 722.32,
+    "text": "with 2 TB of storage and more. As you can see, the premium membership is packed with value for individual developers, but for larger teams within organizations, we have a tailored solution. Kreel, can you tell us about the enterprise membership? Absolutely, Crystal. The Google Developer Program Enterprise Membership is designed for organizations looking to empower their developer teams with a secure riskmanaged environment to test, experiment, and prototype with access to new Google Cloud products, features, and tools. It's a monthly subscription purchased by the organization with a minimum of 10 seats and is specifically for existing cloud customers. A key benefit for enterprise teams is Google Cloud Developer Sandboxes. These dedicated, easy to use, and safe sandbox cloud projects allow developers to gain hands-on experience separate from production environments. This fosters innovation and learning without impacting live systems. Each developer license also comes with $150 in monthly Google Cloud credits to use within these sandbox projects. This provides a consistent and predictable resource for experimentation and learning. Similar to the premium membership, the enterprise membership includes AI powered coding assistance with Gemini code assist enterprise. However, the enterprise edition can be customized based on your organization's private codebase, allowing for even more relevant and contextaware AI assistance across a broader range of development tasks. This helps teams build more efficiently while leveraging their internal knowledge. Managing subscriptions for a team is simplified with central purchasing management through enterprise cloud billing. This streamlines administration and provides better control over team access. And just like with premium, enterprise members also get unlimited access to Google cloud skills boost for orgs, ensuring continuous learning and upskilling for the entire development team. The enterprise membership truly focuses on providing a comprehensive and",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_006",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 705.12,
+    "timestamp_end": 825.92,
+    "text": "enterprise members also get unlimited access to Google cloud skills boost for orgs, ensuring continuous learning and upskilling for the entire development team. The enterprise membership truly focuses on providing a comprehensive and manageable environment for team- based innovation on Google Cloud. So, as you can see, the Google Developer Program offers a wealth of opportunities for developers at every stage of their journey. From the foundational learning and community access of the standard membership to the enhanced resources and personalized support of the premium membership and the team focused secure environment of the enterprise membership, we're committed to providing the tools and support you need to succeed in the Google ecosystem. With the Google Developer Program, we want you to be inspired and build the extraordinary. We believe that providing you with the right tools, the right knowledge, and the right connections, you can unlock your full potential and build truly amazing things with the best Google has to offer. We're in the age of AI transformation, and the Google Developer Program is your catalyst for growth, providing access to cutting edge tools you need to stay ahead of the curve. We want you to be inspired by the extraordinary achievements of developers like you who are building the future with Google. Whether you're looking to enhance your skills quickly, build and scale your applications efficiently, or upskill your enterprise teams, the Google Developer Program has something to offer. We're continuously working to expand the benefits and improve the experience based on your feedback and the evolving needs of the developer community. We encourage all of you to explore the Google Developer Program and find the membership that best suits your needs and aspirations. You can learn more and sign up at developers.google.com/program. Take advantage of the nocost standard membership to get started. And if you're ready to accelerate your journey and deeply engage with the Google ecosystem,",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "BqQiJ5LSASI__chunk_007",
+    "schema_version": "canonical_v1",
+    "video_id": "BqQiJ5LSASI",
+    "title": "Google I/O 2025 \u2013 BqQiJ5LSASI",
+    "timestamp_start": 809.8,
+    "timestamp_end": 841.13,
+    "text": "aspirations. You can learn more and sign up at developers.google.com/program. Take advantage of the nocost standard membership to get started. And if you're ready to accelerate your journey and deeply engage with the Google ecosystem, we highly recommend checking out the premium membership and the enterprise options for your teams. Thank you for joining us here at Google IO. We're excited to see what you'll build next. [Applause]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

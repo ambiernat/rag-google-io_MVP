@@ -1,0 +1,1807 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "BqQiJ5LSASI",
+  "language": "en",
+  "segments": [
+    {
+      "text": "Hi everyone and welcome. I'm Crystal",
+      "start": 6.08,
+      "duration": 4.32
+    },
+    {
+      "text": "Smith, product marketing lead for the",
+      "start": 8.32,
+      "duration": 3.92
+    },
+    {
+      "text": "Google Developer Program and I'm",
+      "start": 10.4,
+      "duration": 3.92
+    },
+    {
+      "text": "thrilled to be here at Google IO to talk",
+      "start": 12.24,
+      "duration": 4.48
+    },
+    {
+      "text": "to you about something incredibly vital",
+      "start": 14.32,
+      "duration": 4.28
+    },
+    {
+      "text": "for all of us building the future of",
+      "start": 16.72,
+      "duration": 3.84
+    },
+    {
+      "text": "technology, the Google Developer",
+      "start": 18.6,
+      "duration": 4.2
+    },
+    {
+      "text": "Program. With me today are two key",
+      "start": 20.56,
+      "duration": 3.68
+    },
+    {
+      "text": "members of the team who are deeply",
+      "start": 22.8,
+      "duration": 3.28
+    },
+    {
+      "text": "involved in shaping and delivering the",
+      "start": 24.24,
+      "duration": 3.68
+    },
+    {
+      "text": "value of this program to developers",
+      "start": 26.08,
+      "duration": 4.08
+    },
+    {
+      "text": "around the globe.",
+      "start": 27.92,
+      "duration": 5.36
+    },
+    {
+      "text": "Hi everyone. I'm Katriel Vasneno, senior",
+      "start": 30.16,
+      "duration": 4.8
+    },
+    {
+      "text": "engineering program manager for the",
+      "start": 33.28,
+      "duration": 3.68
+    },
+    {
+      "text": "Google Developer Program. And I'm",
+      "start": 34.96,
+      "duration": 3.919
+    },
+    {
+      "text": "Jeffrey Taylor, lead technical writer",
+      "start": 36.96,
+      "duration": 4.72
+    },
+    {
+      "text": "for the Google Developer Program. At the",
+      "start": 38.879,
+      "duration": 4.401
+    },
+    {
+      "text": "heart of it, the Google Developer",
+      "start": 41.68,
+      "duration": 4.48
+    },
+    {
+      "text": "Program isn't simply another initiative.",
+      "start": 43.28,
+      "duration": 4.88
+    },
+    {
+      "text": "It's Google's demonstration of a deeply",
+      "start": 46.16,
+      "duration": 3.919
+    },
+    {
+      "text": "rooted understanding that developers are",
+      "start": 48.16,
+      "duration": 4.559
+    },
+    {
+      "text": "the architects of our digital future and",
+      "start": 50.079,
+      "duration": 4.64
+    },
+    {
+      "text": "the vital engine of today's innovation",
+      "start": 52.719,
+      "duration": 4.721
+    },
+    {
+      "text": "within today's technological ecosystem.",
+      "start": 54.719,
+      "duration": 4.721
+    },
+    {
+      "text": "You, the developer, stand at the",
+      "start": 57.44,
+      "duration": 3.439
+    },
+    {
+      "text": "forefront of creating the next",
+      "start": 59.44,
+      "duration": 3.919
+    },
+    {
+      "text": "generation of applications, services,",
+      "start": 60.879,
+      "duration": 4.881
+    },
+    {
+      "text": "and experiences that will shape how we",
+      "start": 63.359,
+      "duration": 5.601
+    },
+    {
+      "text": "live, work, and interact with the world.",
+      "start": 65.76,
+      "duration": 4.88
+    },
+    {
+      "text": "From crafting groundbreaking AI",
+      "start": 68.96,
+      "duration": 4.0
+    },
+    {
+      "text": "solutions to building scalable cloud",
+      "start": 70.64,
+      "duration": 4.64
+    },
+    {
+      "text": "applications and developing engaging",
+      "start": 72.96,
+      "duration": 5.12
+    },
+    {
+      "text": "mobile experiences, your expertise and",
+      "start": 75.28,
+      "duration": 5.04
+    },
+    {
+      "text": "ingenuity are paramount to leveraging",
+      "start": 78.08,
+      "duration": 4.0
+    },
+    {
+      "text": "the full potential of Google's",
+      "start": 80.32,
+      "duration": 3.159
+    },
+    {
+      "text": "cuttingedge",
+      "start": 82.08,
+      "duration": 3.76
+    },
+    {
+      "text": "technologies. In today's landscape,",
+      "start": 83.479,
+      "duration": 4.521
+    },
+    {
+      "text": "developers are the essential catalysts",
+      "start": 85.84,
+      "duration": 5.319
+    },
+    {
+      "text": "for digital transformation across all",
+      "start": 88.0,
+      "duration": 5.6
+    },
+    {
+      "text": "industries. Your ability to translate",
+      "start": 91.159,
+      "duration": 4.96
+    },
+    {
+      "text": "complex ideas into tangible software",
+      "start": 93.6,
+      "duration": 5.28
+    },
+    {
+      "text": "solutions drives business growth",
+      "start": 96.119,
+      "duration": 5.881
+    },
+    {
+      "text": "enhances user experiences and addresses",
+      "start": 98.88,
+      "duration": 6.08
+    },
+    {
+      "text": "critical societal challenges. Whether",
+      "start": 102.0,
+      "duration": 5.04
+    },
+    {
+      "text": "it's enabling small businesses to reach",
+      "start": 104.96,
+      "duration": 4.479
+    },
+    {
+      "text": "global markets, empowering enterprises",
+      "start": 107.04,
+      "duration": 5.2
+    },
+    {
+      "text": "to streamline operations, or creating",
+      "start": 109.439,
+      "duration": 5.921
+    },
+    {
+      "text": "tools that enhance accessibility, your",
+      "start": 112.24,
+      "duration": 5.519
+    },
+    {
+      "text": "work forms the very foundation of the",
+      "start": 115.36,
+      "duration": 3.48
+    },
+    {
+      "text": "digital",
+      "start": 117.759,
+      "duration": 3.281
+    },
+    {
+      "text": "economy. The demand for skilled",
+      "start": 118.84,
+      "duration": 4.36
+    },
+    {
+      "text": "developers is ever increasing,",
+      "start": 121.04,
+      "duration": 4.719
+    },
+    {
+      "text": "underscoring your crucial role in",
+      "start": 123.2,
+      "duration": 4.96
+    },
+    {
+      "text": "meeting the evolving technological needs",
+      "start": 125.759,
+      "duration": 4.72
+    },
+    {
+      "text": "of our world.",
+      "start": 128.16,
+      "duration": 4.96
+    },
+    {
+      "text": "Looking ahead, developers will be even",
+      "start": 130.479,
+      "duration": 4.721
+    },
+    {
+      "text": "more instrumental in navigating the",
+      "start": 133.12,
+      "duration": 4.0
+    },
+    {
+      "text": "transformative power of emerging",
+      "start": 135.2,
+      "duration": 3.679
+    },
+    {
+      "text": "technologies like artificial",
+      "start": 137.12,
+      "duration": 4.479
+    },
+    {
+      "text": "intelligence and machine learning. As we",
+      "start": 138.879,
+      "duration": 5.041
+    },
+    {
+      "text": "stand on the cusp of an age defined by",
+      "start": 141.599,
+      "duration": 5.121
+    },
+    {
+      "text": "AIdriven innovation, your ability to",
+      "start": 143.92,
+      "duration": 5.319
+    },
+    {
+      "text": "harness these tools to build intelligent",
+      "start": 146.72,
+      "duration": 5.519
+    },
+    {
+      "text": "applications, automate complex tasks,",
+      "start": 149.239,
+      "duration": 5.321
+    },
+    {
+      "text": "and unlock new possibilities will be",
+      "start": 152.239,
+      "duration": 4.801
+    },
+    {
+      "text": "critical. The Google Developer Program",
+      "start": 154.56,
+      "duration": 5.6
+    },
+    {
+      "text": "is intentionally designed to empower you",
+      "start": 157.04,
+      "duration": 5.68
+    },
+    {
+      "text": "in this era of rapid change, providing",
+      "start": 160.16,
+      "duration": 5.359
+    },
+    {
+      "text": "you with early access to AI tools like",
+      "start": 162.72,
+      "duration": 6.239
+    },
+    {
+      "text": "Gemini Code Assist, Vert.Ex AI, and AI",
+      "start": 165.519,
+      "duration": 6.161
+    },
+    {
+      "text": "Studio along with the learning resources",
+      "start": 168.959,
+      "duration": 4.881
+    },
+    {
+      "text": "and expert guidance needed to master",
+      "start": 171.68,
+      "duration": 3.68
+    },
+    {
+      "text": "them.",
+      "start": 173.84,
+      "duration": 3.92
+    },
+    {
+      "text": "Therefore, at its heart, the Google",
+      "start": 175.36,
+      "duration": 4.32
+    },
+    {
+      "text": "Developer Program is a commitment to",
+      "start": 177.76,
+      "duration": 4.08
+    },
+    {
+      "text": "fostering your growth and success within",
+      "start": 179.68,
+      "duration": 3.8
+    },
+    {
+      "text": "the entire Google",
+      "start": 181.84,
+      "duration": 3.679
+    },
+    {
+      "text": "ecosystem. Regardless of your current",
+      "start": 183.48,
+      "duration": 4.44
+    },
+    {
+      "text": "skill level or professional aspirations,",
+      "start": 185.519,
+      "duration": 3.841
+    },
+    {
+      "text": "whether you're an aspiring professional",
+      "start": 187.92,
+      "duration": 3.679
+    },
+    {
+      "text": "eager to build foundational skills, an",
+      "start": 189.36,
+      "duration": 3.599
+    },
+    {
+      "text": "independent developer seeking",
+      "start": 191.599,
+      "duration": 3.841
+    },
+    {
+      "text": "cost-effective and powerful tools, or an",
+      "start": 192.959,
+      "duration": 4.56
+    },
+    {
+      "text": "enterprise developer focused on scaling",
+      "start": 195.44,
+      "duration": 4.32
+    },
+    {
+      "text": "innovative solutions, our overarching",
+      "start": 197.519,
+      "duration": 4.961
+    },
+    {
+      "text": "goal is to be your central hub. We aim",
+      "start": 199.76,
+      "duration": 4.64
+    },
+    {
+      "text": "to provide a comprehensive suite of",
+      "start": 202.48,
+      "duration": 5.36
+    },
+    {
+      "text": "services, tools, and resources that",
+      "start": 204.4,
+      "duration": 5.28
+    },
+    {
+      "text": "simplify and accelerate your development",
+      "start": 207.84,
+      "duration": 3.92
+    },
+    {
+      "text": "journey, enabling you to learn the",
+      "start": 209.68,
+      "duration": 3.919
+    },
+    {
+      "text": "latest skills, build innovative",
+      "start": 211.76,
+      "duration": 4.32
+    },
+    {
+      "text": "solutions faster, and ultimately grow",
+      "start": 213.599,
+      "duration": 4.321
+    },
+    {
+      "text": "your career, and shape the future with",
+      "start": 216.08,
+      "duration": 4.48
+    },
+    {
+      "text": "Google's transformative technologies.",
+      "start": 217.92,
+      "duration": 4.56
+    },
+    {
+      "text": "To best serve the diverse needs of our",
+      "start": 220.56,
+      "duration": 3.679
+    },
+    {
+      "text": "developer community, the Google",
+      "start": 222.48,
+      "duration": 4.24
+    },
+    {
+      "text": "Developer Program offers three distinct",
+      "start": 224.239,
+      "duration": 5.92
+    },
+    {
+      "text": "membership levels: standard, premium,",
+      "start": 226.72,
+      "duration": 6.0
+    },
+    {
+      "text": "and enterprise. Let's take a quick look",
+      "start": 230.159,
+      "duration": 4.561
+    },
+    {
+      "text": "at each starting with our foundational",
+      "start": 232.72,
+      "duration": 5.68
+    },
+    {
+      "text": "offering. Jeffrey, thanks Katriel. The",
+      "start": 234.72,
+      "duration": 6.0
+    },
+    {
+      "text": "standard membership is our nocost entry",
+      "start": 238.4,
+      "duration": 4.559
+    },
+    {
+      "text": "point and it's designed to provide a",
+      "start": 240.72,
+      "duration": 4.32
+    },
+    {
+      "text": "solid foundation for your growth within",
+      "start": 242.959,
+      "duration": 4.801
+    },
+    {
+      "text": "the Google ecosystem. We understand that",
+      "start": 245.04,
+      "duration": 5.04
+    },
+    {
+      "text": "learning and building are key. So, the",
+      "start": 247.76,
+      "duration": 4.479
+    },
+    {
+      "text": "standard membership offers access to a",
+      "start": 250.08,
+      "duration": 4.4
+    },
+    {
+      "text": "range of valuable resources to help you",
+      "start": 252.239,
+      "duration": 3.641
+    },
+    {
+      "text": "do just",
+      "start": 254.48,
+      "duration": 4.479
+    },
+    {
+      "text": "that. As a standard member, you gain",
+      "start": 255.88,
+      "duration": 5.879
+    },
+    {
+      "text": "access to nocost learning opportunities",
+      "start": 258.959,
+      "duration": 5.361
+    },
+    {
+      "text": "on cloud skills boost and through code",
+      "start": 261.759,
+      "duration": 4.88
+    },
+    {
+      "text": "labs, allowing you to build practical",
+      "start": 264.32,
+      "duration": 4.84
+    },
+    {
+      "text": "skills with Google Cloud and other",
+      "start": 266.639,
+      "duration": 4.641
+    },
+    {
+      "text": "technologies. You also have the ability",
+      "start": 269.16,
+      "duration": 4.28
+    },
+    {
+      "text": "to organize your work, track your",
+      "start": 271.28,
+      "duration": 3.84
+    },
+    {
+      "text": "progress, and showcase your",
+      "start": 273.44,
+      "duration": 3.52
+    },
+    {
+      "text": "accomplishments on your Google developer",
+      "start": 275.12,
+      "duration": 4.96
+    },
+    {
+      "text": "profile. This profile lets you highlight",
+      "start": 276.96,
+      "duration": 4.56
+    },
+    {
+      "text": "your professional skills and",
+      "start": 280.08,
+      "duration": 3.679
+    },
+    {
+      "text": "achievements and even display badges",
+      "start": 281.52,
+      "duration": 3.239
+    },
+    {
+      "text": "you've",
+      "start": 283.759,
+      "duration": 3.761
+    },
+    {
+      "text": "earned. Furthermore, standard members",
+      "start": 284.759,
+      "duration": 4.921
+    },
+    {
+      "text": "benefit from access to AI powered",
+      "start": 287.52,
+      "duration": 4.959
+    },
+    {
+      "text": "assistance like side panel chat, code",
+      "start": 289.68,
+      "duration": 5.04
+    },
+    {
+      "text": "explain, and search summaries within",
+      "start": 292.479,
+      "duration": 4.72
+    },
+    {
+      "text": "Google's developer documentation, making",
+      "start": 294.72,
+      "duration": 4.479
+    },
+    {
+      "text": "it easier to find answers to your",
+      "start": 297.199,
+      "duration": 5.201
+    },
+    {
+      "text": "technical questions. You also get 10",
+      "start": 299.199,
+      "duration": 6.161
+    },
+    {
+      "text": "Firebase Studio workspaces, an increase",
+      "start": 302.4,
+      "duration": 5.359
+    },
+    {
+      "text": "from the default one to help you develop",
+      "start": 305.36,
+      "duration": 5.36
+    },
+    {
+      "text": "your projects in the cloud. Plus, you",
+      "start": 307.759,
+      "duration": 5.041
+    },
+    {
+      "text": "can save your interests and bookmark",
+      "start": 310.72,
+      "duration": 4.479
+    },
+    {
+      "text": "important pages across Google developer",
+      "start": 312.8,
+      "duration": 5.28
+    },
+    {
+      "text": "sites for quick access later. And of",
+      "start": 315.199,
+      "duration": 4.641
+    },
+    {
+      "text": "course, you'll stay informed with the",
+      "start": 318.08,
+      "duration": 3.6
+    },
+    {
+      "text": "latest news and announcements from",
+      "start": 319.84,
+      "duration": 4.079
+    },
+    {
+      "text": "Google. The standard membership is",
+      "start": 321.68,
+      "duration": 4.56
+    },
+    {
+      "text": "really about giving every developer a",
+      "start": 323.919,
+      "duration": 4.401
+    },
+    {
+      "text": "starting point to engage with Google",
+      "start": 326.24,
+      "duration": 4.28
+    },
+    {
+      "text": "technologies and our",
+      "start": 328.32,
+      "duration": 4.64
+    },
+    {
+      "text": "community. That's a fantastic overview",
+      "start": 330.52,
+      "duration": 4.2
+    },
+    {
+      "text": "of the value you get at no cost,",
+      "start": 332.96,
+      "duration": 4.239
+    },
+    {
+      "text": "Jeffrey. But we can also recognize that",
+      "start": 334.72,
+      "duration": 4.64
+    },
+    {
+      "text": "many developers are looking for more.",
+      "start": 337.199,
+      "duration": 4.801
+    },
+    {
+      "text": "More resources, more support, and deeper",
+      "start": 339.36,
+      "duration": 4.279
+    },
+    {
+      "text": "integration with Google's advanced",
+      "start": 342.0,
+      "duration": 3.759
+    },
+    {
+      "text": "offerings. That's where our premium",
+      "start": 343.639,
+      "duration": 4.601
+    },
+    {
+      "text": "membership comes in. The premium",
+      "start": 345.759,
+      "duration": 4.401
+    },
+    {
+      "text": "membership is an annual subscription",
+      "start": 348.24,
+      "duration": 3.76
+    },
+    {
+      "text": "designed to help individual developers",
+      "start": 350.16,
+      "duration": 4.08
+    },
+    {
+      "text": "and technical practitioners go further",
+      "start": 352.0,
+      "duration": 5.039
+    },
+    {
+      "text": "faster with Google's technologies. It",
+      "start": 354.24,
+      "duration": 4.56
+    },
+    {
+      "text": "builds upon the solid foundation of the",
+      "start": 357.039,
+      "duration": 3.761
+    },
+    {
+      "text": "standard membership with an exclusive",
+      "start": 358.8,
+      "duration": 4.32
+    },
+    {
+      "text": "set of enhanced benefits now infused",
+      "start": 360.8,
+      "duration": 4.64
+    },
+    {
+      "text": "with AI to really supercharge your",
+      "start": 363.12,
+      "duration": 4.56
+    },
+    {
+      "text": "development journey. We've listened to",
+      "start": 365.44,
+      "duration": 3.759
+    },
+    {
+      "text": "your feedback and tailored this",
+      "start": 367.68,
+      "duration": 3.28
+    },
+    {
+      "text": "membership level to provide significant",
+      "start": 369.199,
+      "duration": 4.401
+    },
+    {
+      "text": "value across learning, building, and",
+      "start": 370.96,
+      "duration": 5.519
+    },
+    {
+      "text": "growth within the Google ecosystem.",
+      "start": 373.6,
+      "duration": 4.439
+    },
+    {
+      "text": "Let's dive into some of the key",
+      "start": 376.479,
+      "duration": 4.72
+    },
+    {
+      "text": "benefits. Firstly, we provide $500 in",
+      "start": 378.039,
+      "duration": 5.481
+    },
+    {
+      "text": "annual Google Cloud credits. This gives",
+      "start": 381.199,
+      "duration": 4.321
+    },
+    {
+      "text": "you tangible resources to start building",
+      "start": 383.52,
+      "duration": 4.399
+    },
+    {
+      "text": "and experimenting with a wide range of",
+      "start": 385.52,
+      "duration": 5.36
+    },
+    {
+      "text": "Google Cloud services from compute and",
+      "start": 387.919,
+      "duration": 5.201
+    },
+    {
+      "text": "storage to cutting edge AI and machine",
+      "start": 390.88,
+      "duration": 4.879
+    },
+    {
+      "text": "learning platforms like Vert.ex AI and",
+      "start": 393.12,
+      "duration": 4.639
+    },
+    {
+      "text": "our serverless offerings like Cloud Run",
+      "start": 395.759,
+      "duration": 3.681
+    },
+    {
+      "text": "and Firebase.",
+      "start": 397.759,
+      "duration": 3.921
+    },
+    {
+      "text": "This credit empowers you to prototype,",
+      "start": 399.44,
+      "duration": 4.319
+    },
+    {
+      "text": "test, and even deploy your applications",
+      "start": 401.68,
+      "duration": 5.079
+    },
+    {
+      "text": "on Google Cloud without immediate cost",
+      "start": 403.759,
+      "duration": 5.761
+    },
+    {
+      "text": "barriers. In today's rapidly evolving",
+      "start": 406.759,
+      "duration": 5.88
+    },
+    {
+      "text": "landscape, AI is a gamecher for",
+      "start": 409.52,
+      "duration": 5.44
+    },
+    {
+      "text": "developer productivity. That's why",
+      "start": 412.639,
+      "duration": 4.641
+    },
+    {
+      "text": "premium membership includes Gemini code",
+      "start": 414.96,
+      "duration": 5.92
+    },
+    {
+      "text": "assist standard. This powerful tool uses",
+      "start": 417.28,
+      "duration": 6.16
+    },
+    {
+      "text": "Google's generative AI to help you build",
+      "start": 420.88,
+      "duration": 5.2
+    },
+    {
+      "text": "code faster and more efficiently right",
+      "start": 423.44,
+      "duration": 5.44
+    },
+    {
+      "text": "within your IDE. Whether you're using VS",
+      "start": 426.08,
+      "duration": 6.239
+    },
+    {
+      "text": "Code, Jet Brains, Cloud Workstations, or",
+      "start": 428.88,
+      "duration": 6.08
+    },
+    {
+      "text": "Cloud Shell Editor, Gemini Code Assist",
+      "start": 432.319,
+      "duration": 4.72
+    },
+    {
+      "text": "can provide code completions as you",
+      "start": 434.96,
+      "duration": 4.639
+    },
+    {
+      "text": "type, generate entire functions from",
+      "start": 437.039,
+      "duration": 5.361
+    },
+    {
+      "text": "comments, create unit tests, and assist",
+      "start": 439.599,
+      "duration": 4.44
+    },
+    {
+      "text": "with debugging and understanding your",
+      "start": 442.4,
+      "duration": 4.239
+    },
+    {
+      "text": "code. This isn't just about writing code",
+      "start": 444.039,
+      "duration": 5.081
+    },
+    {
+      "text": "faster. It's about reducing cognitive",
+      "start": 446.639,
+      "duration": 4.96
+    },
+    {
+      "text": "load, and allowing you to focus on the",
+      "start": 449.12,
+      "duration": 5.04
+    },
+    {
+      "text": "bigger picture of your innovation.",
+      "start": 451.599,
+      "duration": 4.641
+    },
+    {
+      "text": "And this benefit is specifically linked",
+      "start": 454.16,
+      "duration": 4.159
+    },
+    {
+      "text": "to your premium membership email,",
+      "start": 456.24,
+      "duration": 5.28
+    },
+    {
+      "text": "ensuring secure access. For those eager",
+      "start": 458.319,
+      "duration": 5.6
+    },
+    {
+      "text": "to explore the forefront of AI, we also",
+      "start": 461.52,
+      "duration": 5.32
+    },
+    {
+      "text": "include a $50 annual Geni developer",
+      "start": 463.919,
+      "duration": 5.601
+    },
+    {
+      "text": "credit. This credit is specifically for",
+      "start": 466.84,
+      "duration": 5.72
+    },
+    {
+      "text": "use with Google's cuttingedge APIs in",
+      "start": 469.52,
+      "duration": 5.28
+    },
+    {
+      "text": "Google AI Studio and Google Cloud",
+      "start": 472.56,
+      "duration": 4.319
+    },
+    {
+      "text": "Vert.Ex text AI, allowing you to",
+      "start": 474.8,
+      "duration": 4.079
+    },
+    {
+      "text": "experiment with our latest generation of",
+      "start": 476.879,
+      "duration": 4.481
+    },
+    {
+      "text": "models, including the powerful Gemini",
+      "start": 478.879,
+      "duration": 5.361
+    },
+    {
+      "text": "family and Gen Media models like Imagin",
+      "start": 481.36,
+      "duration": 6.0
+    },
+    {
+      "text": "and Vio. This benefit lets you tap into",
+      "start": 484.24,
+      "duration": 5.12
+    },
+    {
+      "text": "the transformative potential of",
+      "start": 487.36,
+      "duration": 4.88
+    },
+    {
+      "text": "generative AI directly within Google's",
+      "start": 489.36,
+      "duration": 5.04
+    },
+    {
+      "text": "developer platforms.",
+      "start": 492.24,
+      "duration": 3.679
+    },
+    {
+      "text": "We know that demonstrating your",
+      "start": 494.4,
+      "duration": 3.6
+    },
+    {
+      "text": "expertise is crucial for career",
+      "start": 495.919,
+      "duration": 4.641
+    },
+    {
+      "text": "advancement. That's why premium members",
+      "start": 498.0,
+      "duration": 5.039
+    },
+    {
+      "text": "receive one Google Cloud certification",
+      "start": 500.56,
+      "duration": 4.8
+    },
+    {
+      "text": "voucher each year, covering the full",
+      "start": 503.039,
+      "duration": 4.201
+    },
+    {
+      "text": "retail value of up to",
+      "start": 505.36,
+      "duration": 4.16
+    },
+    {
+      "text": "$200. Achieving a Google Cloud",
+      "start": 507.24,
+      "duration": 4.2
+    },
+    {
+      "text": "certification can significantly",
+      "start": 509.52,
+      "duration": 4.399
+    },
+    {
+      "text": "accelerate your career, and this voucher",
+      "start": 511.44,
+      "duration": 5.039
+    },
+    {
+      "text": "makes it more accessible. Plus, as a",
+      "start": 513.919,
+      "duration": 4.721
+    },
+    {
+      "text": "bonus for your achievement, upon earning",
+      "start": 516.479,
+      "duration": 4.321
+    },
+    {
+      "text": "a Google Cloud certification, you'll",
+      "start": 518.64,
+      "duration": 5.36
+    },
+    {
+      "text": "receive an additional $500 in Google",
+      "start": 520.8,
+      "duration": 5.92
+    },
+    {
+      "text": "Cloud credits. This reinforces our",
+      "start": 524.0,
+      "duration": 4.959
+    },
+    {
+      "text": "commitment to your ongoing learning and",
+      "start": 526.72,
+      "duration": 4.84
+    },
+    {
+      "text": "growth within the Google Cloud",
+      "start": 528.959,
+      "duration": 4.481
+    },
+    {
+      "text": "ecosystem. Sometimes you need",
+      "start": 531.56,
+      "duration": 3.32
+    },
+    {
+      "text": "personalized guidance to overcome",
+      "start": 533.44,
+      "duration": 3.72
+    },
+    {
+      "text": "specific challenges or optimize your",
+      "start": 534.88,
+      "duration": 4.399
+    },
+    {
+      "text": "architecture. Premium members can take",
+      "start": 537.16,
+      "duration": 4.119
+    },
+    {
+      "text": "advantage of a consultation with Google",
+      "start": 539.279,
+      "duration": 4.721
+    },
+    {
+      "text": "Cloud experts. You can book either one",
+      "start": 541.279,
+      "duration": 5.521
+    },
+    {
+      "text": "1-hour session or two 30 minute sessions",
+      "start": 544.0,
+      "duration": 4.64
+    },
+    {
+      "text": "each year to get one-to-one expert",
+      "start": 546.8,
+      "duration": 4.719
+    },
+    {
+      "text": "advice on topics ranging from a IML and",
+      "start": 548.64,
+      "duration": 5.36
+    },
+    {
+      "text": "modern architecture to Firebase and data",
+      "start": 551.519,
+      "duration": 3.841
+    },
+    {
+      "text": "analytics.",
+      "start": 554.0,
+      "duration": 3.279
+    },
+    {
+      "text": "This direct access to Google Cloud",
+      "start": 555.36,
+      "duration": 3.919
+    },
+    {
+      "text": "expertise can be invaluable in",
+      "start": 557.279,
+      "duration": 3.921
+    },
+    {
+      "text": "accelerating your projects and making",
+      "start": 559.279,
+      "duration": 4.56
+    },
+    {
+      "text": "informed technical decisions. We also",
+      "start": 561.2,
+      "duration": 4.48
+    },
+    {
+      "text": "boost your development environment with",
+      "start": 563.839,
+      "duration": 4.56
+    },
+    {
+      "text": "30 Firebase Studio Workspaces providing",
+      "start": 565.68,
+      "duration": 4.96
+    },
+    {
+      "text": "you even more flexibility for AI",
+      "start": 568.399,
+      "duration": 4.161
+    },
+    {
+      "text": "assisted fullstack app development in",
+      "start": 570.64,
+      "duration": 4.72
+    },
+    {
+      "text": "the cloud. And finally, to give you a",
+      "start": 572.56,
+      "duration": 4.52
+    },
+    {
+      "text": "taste of the latest in AI power",
+      "start": 575.36,
+      "duration": 3.919
+    },
+    {
+      "text": "productivity, premium members receive",
+      "start": 577.08,
+      "duration": 4.52
+    },
+    {
+      "text": "three months of Google 1 AI premium,",
+      "start": 579.279,
+      "duration": 3.921
+    },
+    {
+      "text": "which includes access to the most",
+      "start": 581.6,
+      "duration": 3.919
+    },
+    {
+      "text": "capable AI from Google's Gemini, along",
+      "start": 583.2,
+      "duration": 5.68
+    },
+    {
+      "text": "with 2 TB of storage and more. As you",
+      "start": 585.519,
+      "duration": 5.281
+    },
+    {
+      "text": "can see, the premium membership is",
+      "start": 588.88,
+      "duration": 3.48
+    },
+    {
+      "text": "packed with value for individual",
+      "start": 590.8,
+      "duration": 4.0
+    },
+    {
+      "text": "developers, but for larger teams within",
+      "start": 592.36,
+      "duration": 4.24
+    },
+    {
+      "text": "organizations, we have a tailored",
+      "start": 594.8,
+      "duration": 4.24
+    },
+    {
+      "text": "solution. Kreel, can you tell us about",
+      "start": 596.6,
+      "duration": 4.76
+    },
+    {
+      "text": "the enterprise membership?",
+      "start": 599.04,
+      "duration": 4.32
+    },
+    {
+      "text": "Absolutely, Crystal. The Google",
+      "start": 601.36,
+      "duration": 4.24
+    },
+    {
+      "text": "Developer Program Enterprise Membership",
+      "start": 603.36,
+      "duration": 4.64
+    },
+    {
+      "text": "is designed for organizations looking to",
+      "start": 605.6,
+      "duration": 4.48
+    },
+    {
+      "text": "empower their developer teams with a",
+      "start": 608.0,
+      "duration": 5.399
+    },
+    {
+      "text": "secure riskmanaged environment to test,",
+      "start": 610.08,
+      "duration": 6.16
+    },
+    {
+      "text": "experiment, and prototype with access to",
+      "start": 613.399,
+      "duration": 5.281
+    },
+    {
+      "text": "new Google Cloud products, features, and",
+      "start": 616.24,
+      "duration": 4.719
+    },
+    {
+      "text": "tools. It's a monthly subscription",
+      "start": 618.68,
+      "duration": 4.279
+    },
+    {
+      "text": "purchased by the organization with a",
+      "start": 620.959,
+      "duration": 4.401
+    },
+    {
+      "text": "minimum of 10 seats and is specifically",
+      "start": 622.959,
+      "duration": 5.521
+    },
+    {
+      "text": "for existing cloud customers.",
+      "start": 625.36,
+      "duration": 5.599
+    },
+    {
+      "text": "A key benefit for enterprise teams is",
+      "start": 628.48,
+      "duration": 5.24
+    },
+    {
+      "text": "Google Cloud Developer Sandboxes. These",
+      "start": 630.959,
+      "duration": 6.241
+    },
+    {
+      "text": "dedicated, easy to use, and safe sandbox",
+      "start": 633.72,
+      "duration": 6.2
+    },
+    {
+      "text": "cloud projects allow developers to gain",
+      "start": 637.2,
+      "duration": 5.12
+    },
+    {
+      "text": "hands-on experience separate from",
+      "start": 639.92,
+      "duration": 4.96
+    },
+    {
+      "text": "production environments. This fosters",
+      "start": 642.32,
+      "duration": 4.639
+    },
+    {
+      "text": "innovation and learning without",
+      "start": 644.88,
+      "duration": 4.959
+    },
+    {
+      "text": "impacting live systems. Each developer",
+      "start": 646.959,
+      "duration": 6.721
+    },
+    {
+      "text": "license also comes with $150 in monthly",
+      "start": 649.839,
+      "duration": 6.161
+    },
+    {
+      "text": "Google Cloud credits to use within these",
+      "start": 653.68,
+      "duration": 4.159
+    },
+    {
+      "text": "sandbox projects.",
+      "start": 656.0,
+      "duration": 3.76
+    },
+    {
+      "text": "This provides a consistent and",
+      "start": 657.839,
+      "duration": 4.321
+    },
+    {
+      "text": "predictable resource for experimentation",
+      "start": 659.76,
+      "duration": 4.8
+    },
+    {
+      "text": "and learning. Similar to the premium",
+      "start": 662.16,
+      "duration": 4.32
+    },
+    {
+      "text": "membership, the enterprise membership",
+      "start": 664.56,
+      "duration": 4.48
+    },
+    {
+      "text": "includes AI powered coding assistance",
+      "start": 666.48,
+      "duration": 5.359
+    },
+    {
+      "text": "with Gemini code assist enterprise.",
+      "start": 669.04,
+      "duration": 5.039
+    },
+    {
+      "text": "However, the enterprise edition can be",
+      "start": 671.839,
+      "duration": 4.641
+    },
+    {
+      "text": "customized based on your organization's",
+      "start": 674.079,
+      "duration": 5.2
+    },
+    {
+      "text": "private codebase, allowing for even more",
+      "start": 676.48,
+      "duration": 6.0
+    },
+    {
+      "text": "relevant and contextaware AI assistance",
+      "start": 679.279,
+      "duration": 5.361
+    },
+    {
+      "text": "across a broader range of development",
+      "start": 682.48,
+      "duration": 4.88
+    },
+    {
+      "text": "tasks. This helps teams build more",
+      "start": 684.64,
+      "duration": 4.639
+    },
+    {
+      "text": "efficiently while leveraging their",
+      "start": 687.36,
+      "duration": 4.159
+    },
+    {
+      "text": "internal knowledge.",
+      "start": 689.279,
+      "duration": 4.56
+    },
+    {
+      "text": "Managing subscriptions for a team is",
+      "start": 691.519,
+      "duration": 4.161
+    },
+    {
+      "text": "simplified with central purchasing",
+      "start": 693.839,
+      "duration": 3.56
+    },
+    {
+      "text": "management through enterprise cloud",
+      "start": 695.68,
+      "duration": 4.56
+    },
+    {
+      "text": "billing. This streamlines administration",
+      "start": 697.399,
+      "duration": 5.081
+    },
+    {
+      "text": "and provides better control over team",
+      "start": 700.24,
+      "duration": 4.88
+    },
+    {
+      "text": "access. And just like with premium,",
+      "start": 702.48,
+      "duration": 5.039
+    },
+    {
+      "text": "enterprise members also get unlimited",
+      "start": 705.12,
+      "duration": 4.8
+    },
+    {
+      "text": "access to Google cloud skills boost for",
+      "start": 707.519,
+      "duration": 5.281
+    },
+    {
+      "text": "orgs, ensuring continuous learning and",
+      "start": 709.92,
+      "duration": 4.96
+    },
+    {
+      "text": "upskilling for the entire development",
+      "start": 712.8,
+      "duration": 4.56
+    },
+    {
+      "text": "team. The enterprise membership truly",
+      "start": 714.88,
+      "duration": 5.44
+    },
+    {
+      "text": "focuses on providing a comprehensive and",
+      "start": 717.36,
+      "duration": 4.96
+    },
+    {
+      "text": "manageable environment for team- based",
+      "start": 720.32,
+      "duration": 4.959
+    },
+    {
+      "text": "innovation on Google Cloud. So, as you",
+      "start": 722.32,
+      "duration": 4.88
+    },
+    {
+      "text": "can see, the Google Developer Program",
+      "start": 725.279,
+      "duration": 3.601
+    },
+    {
+      "text": "offers a wealth of opportunities for",
+      "start": 727.2,
+      "duration": 3.319
+    },
+    {
+      "text": "developers at every stage of their",
+      "start": 728.88,
+      "duration": 3.84
+    },
+    {
+      "text": "journey. From the foundational learning",
+      "start": 730.519,
+      "duration": 4.12
+    },
+    {
+      "text": "and community access of the standard",
+      "start": 732.72,
+      "duration": 4.559
+    },
+    {
+      "text": "membership to the enhanced resources and",
+      "start": 734.639,
+      "duration": 4.161
+    },
+    {
+      "text": "personalized support of the premium",
+      "start": 737.279,
+      "duration": 4.081
+    },
+    {
+      "text": "membership and the team focused secure",
+      "start": 738.8,
+      "duration": 3.88
+    },
+    {
+      "text": "environment of the enterprise",
+      "start": 741.36,
+      "duration": 3.52
+    },
+    {
+      "text": "membership, we're committed to providing",
+      "start": 742.68,
+      "duration": 4.04
+    },
+    {
+      "text": "the tools and support you need to",
+      "start": 744.88,
+      "duration": 4.48
+    },
+    {
+      "text": "succeed in the Google ecosystem. With",
+      "start": 746.72,
+      "duration": 4.559
+    },
+    {
+      "text": "the Google Developer Program, we want",
+      "start": 749.36,
+      "duration": 4.279
+    },
+    {
+      "text": "you to be inspired and build the",
+      "start": 751.279,
+      "duration": 4.401
+    },
+    {
+      "text": "extraordinary. We believe that providing",
+      "start": 753.639,
+      "duration": 3.88
+    },
+    {
+      "text": "you with the right tools, the right",
+      "start": 755.68,
+      "duration": 4.08
+    },
+    {
+      "text": "knowledge, and the right connections,",
+      "start": 757.519,
+      "duration": 4.241
+    },
+    {
+      "text": "you can unlock your full potential and",
+      "start": 759.76,
+      "duration": 4.079
+    },
+    {
+      "text": "build truly amazing things with the best",
+      "start": 761.76,
+      "duration": 4.96
+    },
+    {
+      "text": "Google has to offer. We're in the age of",
+      "start": 763.839,
+      "duration": 5.12
+    },
+    {
+      "text": "AI transformation, and the Google",
+      "start": 766.72,
+      "duration": 4.32
+    },
+    {
+      "text": "Developer Program is your catalyst for",
+      "start": 768.959,
+      "duration": 4.241
+    },
+    {
+      "text": "growth, providing access to cutting edge",
+      "start": 771.04,
+      "duration": 4.16
+    },
+    {
+      "text": "tools you need to stay ahead of the",
+      "start": 773.2,
+      "duration": 4.639
+    },
+    {
+      "text": "curve. We want you to be inspired by the",
+      "start": 775.2,
+      "duration": 4.56
+    },
+    {
+      "text": "extraordinary achievements of developers",
+      "start": 777.839,
+      "duration": 3.921
+    },
+    {
+      "text": "like you who are building the future",
+      "start": 779.76,
+      "duration": 4.319
+    },
+    {
+      "text": "with Google. Whether you're looking to",
+      "start": 781.76,
+      "duration": 4.879
+    },
+    {
+      "text": "enhance your skills quickly, build and",
+      "start": 784.079,
+      "duration": 4.88
+    },
+    {
+      "text": "scale your applications efficiently, or",
+      "start": 786.639,
+      "duration": 4.481
+    },
+    {
+      "text": "upskill your enterprise teams, the",
+      "start": 788.959,
+      "duration": 4.0
+    },
+    {
+      "text": "Google Developer Program has something",
+      "start": 791.12,
+      "duration": 4.959
+    },
+    {
+      "text": "to offer. We're continuously working to",
+      "start": 792.959,
+      "duration": 5.201
+    },
+    {
+      "text": "expand the benefits and improve the",
+      "start": 796.079,
+      "duration": 4.56
+    },
+    {
+      "text": "experience based on your feedback and",
+      "start": 798.16,
+      "duration": 4.16
+    },
+    {
+      "text": "the evolving needs of the developer",
+      "start": 800.639,
+      "duration": 4.241
+    },
+    {
+      "text": "community. We encourage all of you to",
+      "start": 802.32,
+      "duration": 4.48
+    },
+    {
+      "text": "explore the Google Developer Program and",
+      "start": 804.88,
+      "duration": 3.68
+    },
+    {
+      "text": "find the membership that best suits your",
+      "start": 806.8,
+      "duration": 3.0
+    },
+    {
+      "text": "needs and",
+      "start": 808.56,
+      "duration": 3.6
+    },
+    {
+      "text": "aspirations. You can learn more and sign",
+      "start": 809.8,
+      "duration": 4.839
+    },
+    {
+      "text": "up at",
+      "start": 812.16,
+      "duration": 2.479
+    },
+    {
+      "text": "developers.google.com/program. Take",
+      "start": 815.48,
+      "duration": 2.919
+    },
+    {
+      "text": "advantage of the nocost standard",
+      "start": 816.8,
+      "duration": 3.68
+    },
+    {
+      "text": "membership to get started. And if you're",
+      "start": 818.399,
+      "duration": 3.68
+    },
+    {
+      "text": "ready to accelerate your journey and",
+      "start": 820.48,
+      "duration": 3.84
+    },
+    {
+      "text": "deeply engage with the Google ecosystem,",
+      "start": 822.079,
+      "duration": 3.841
+    },
+    {
+      "text": "we highly recommend checking out the",
+      "start": 824.32,
+      "duration": 3.519
+    },
+    {
+      "text": "premium membership and the enterprise",
+      "start": 825.92,
+      "duration": 4.24
+    },
+    {
+      "text": "options for your teams. Thank you for",
+      "start": 827.839,
+      "duration": 4.24
+    },
+    {
+      "text": "joining us here at Google IO. We're",
+      "start": 830.16,
+      "duration": 6.2
+    },
+    {
+      "text": "excited to see what you'll build next.",
+      "start": 832.079,
+      "duration": 4.281
+    },
+    {
+      "text": "[Applause]",
+      "start": 837.93,
+      "duration": 3.2
+    }
+  ]
+}

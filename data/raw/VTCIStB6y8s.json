@@ -1,0 +1,5227 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "VTCIStB6y8s",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.742
+    },
+    {
+      "text": "UNA KRAVETS: Hi, everybody.",
+      "start": 4.815,
+      "duration": 1.125
+    },
+    {
+      "text": "Thank you for coming.",
+      "start": 5.94,
+      "duration": 1.11
+    },
+    {
+      "text": "Welcome to What's New in Web UI.",
+      "start": 7.05,
+      "duration": 2.61
+    },
+    {
+      "text": "I'm Una, a Chrome Developer\nRelations engineer",
+      "start": 9.66,
+      "duration": 3.35
+    },
+    {
+      "text": "focused on all things\nvisual on the web platform,",
+      "start": 13.01,
+      "duration": 3.61
+    },
+    {
+      "text": "so that means CSS,\nHTML, and JavaScript,",
+      "start": 16.62,
+      "duration": 3.44
+    },
+    {
+      "text": "that helps you build beautiful,\nengaging web interfaces.",
+      "start": 20.06,
+      "duration": 5.01
+    },
+    {
+      "text": "We've come a long way\nin the past five years.",
+      "start": 25.07,
+      "duration": 4.87
+    },
+    {
+      "text": "Incredibly powerful\nfeatures that we didn't even",
+      "start": 29.94,
+      "duration": 3.35
+    },
+    {
+      "text": "know we could have\nin the browser",
+      "start": 33.29,
+      "duration": 2.73
+    },
+    {
+      "text": "have not only landed,\nbut have also gained",
+      "start": 36.02,
+      "duration": 2.73
+    },
+    {
+      "text": "cross-browser compatibility\nat a faster pace",
+      "start": 38.75,
+      "duration": 3.45
+    },
+    {
+      "text": "than they ever have before.",
+      "start": 42.2,
+      "duration": 2.56
+    },
+    {
+      "text": "The HasParent selector,\ncontainer queries,",
+      "start": 44.76,
+      "duration": 3.57
+    },
+    {
+      "text": "color functions,\nview transitions,",
+      "start": 48.33,
+      "duration": 2.94
+    },
+    {
+      "text": "nesting, trigonometric\nfunctions,",
+      "start": 51.27,
+      "duration": 2.49
+    },
+    {
+      "text": "scroll driven animations,\nit's truly amazing",
+      "start": 53.76,
+      "duration": 3.29
+    },
+    {
+      "text": "what you can now do with\nnative HTML and CSS.",
+      "start": 57.05,
+      "duration": 4.08
+    },
+    {
+      "text": "How lucky are that\nwe get to experience",
+      "start": 61.13,
+      "duration": 3.32
+    },
+    {
+      "text": "this shift, this\ngolden age of web",
+      "start": 64.45,
+      "duration": 3.3
+    },
+    {
+      "text": "UI, this really cool era where\nwe get to be web developers?",
+      "start": 67.75,
+      "duration": 4.69
+    },
+    {
+      "text": "That being said, there are still\nsome really common UI patterns,",
+      "start": 72.44,
+      "duration": 4.22
+    },
+    {
+      "text": "components that we use and\nbuild every day, that are still",
+      "start": 76.66,
+      "duration": 4.05
+    },
+    {
+      "text": "really, really\nhard to get right,",
+      "start": 80.71,
+      "duration": 3.43
+    },
+    {
+      "text": "and as a developer\ncommunity, we've",
+      "start": 84.14,
+      "duration": 2.33
+    },
+    {
+      "text": "relied heavily on JavaScript\nframeworks or complex CSS",
+      "start": 86.47,
+      "duration": 4.38
+    },
+    {
+      "text": "tricks, and sometimes\nmountains of custom code",
+      "start": 90.85,
+      "duration": 3.51
+    },
+    {
+      "text": "to create these UI patterns\nthat feel like they",
+      "start": 94.36,
+      "duration": 3.66
+    },
+    {
+      "text": "should be a lot simpler.",
+      "start": 98.02,
+      "duration": 2.14
+    },
+    {
+      "text": "And that's precisely\nwhere the Chrome team",
+      "start": 100.16,
+      "duration": 3.14
+    },
+    {
+      "text": "is focusing its efforts,\nmaking those surprisingly",
+      "start": 103.3,
+      "duration": 3.42
+    },
+    {
+      "text": "complex, but really\ncommon, UI patterns that",
+      "start": 106.72,
+      "duration": 3.57
+    },
+    {
+      "text": "are fundamental in the platform\nstraightforward to implement.",
+      "start": 110.29,
+      "duration": 4.41
+    },
+    {
+      "text": "Today, we're going\nto zero in on three",
+      "start": 114.7,
+      "duration": 3.12
+    },
+    {
+      "text": "of those notoriously tricky\npatterns, the endlessly",
+      "start": 117.82,
+      "duration": 4.58
+    },
+    {
+      "text": "frustrating customizable\nselect, the deceptively",
+      "start": 122.4,
+      "duration": 4.56
+    },
+    {
+      "text": "complex carousel, and the\ninteractive hover card.",
+      "start": 126.96,
+      "duration": 5.25
+    },
+    {
+      "text": "These components may\nlook simple to a user,",
+      "start": 132.21,
+      "duration": 3.31
+    },
+    {
+      "text": "but us developers\nknow the strife",
+      "start": 135.52,
+      "duration": 2.93
+    },
+    {
+      "text": "of trying to get the\naccessibility right",
+      "start": 138.45,
+      "duration": 2.97
+    },
+    {
+      "text": "in the carousel buttons, or\nneeding to completely rebuild",
+      "start": 141.42,
+      "duration": 3.51
+    },
+    {
+      "text": "a select with divs just to\nchange the font or the colors.",
+      "start": 144.93,
+      "duration": 4.42
+    },
+    {
+      "text": "And don't even get\nme started on trying",
+      "start": 149.35,
+      "duration": 2.03
+    },
+    {
+      "text": "to create these hover\ncards that you see",
+      "start": 151.38,
+      "duration": 2.28
+    },
+    {
+      "text": "all over the place in web UIs.",
+      "start": 153.66,
+      "duration": 2.4
+    },
+    {
+      "text": "The good news is\nthat the Chrome team",
+      "start": 156.06,
+      "duration": 2.73
+    },
+    {
+      "text": "has been working with other\nbrowser vendors, the web",
+      "start": 158.79,
+      "duration": 3.06
+    },
+    {
+      "text": "community, and standards bodies\nlike the CSS working group",
+      "start": 161.85,
+      "duration": 3.45
+    },
+    {
+      "text": "and What Working Group, along\nwith community groups like Open",
+      "start": 165.3,
+      "duration": 3.33
+    },
+    {
+      "text": "UI, to standardize solutions\nto deliver powerful declarative",
+      "start": 168.63,
+      "duration": 4.86
+    },
+    {
+      "text": "APIs that tackle these\nchallenges head on.",
+      "start": 173.49,
+      "duration": 3.16
+    },
+    {
+      "text": "So there is good news\nthere, and in this talk,",
+      "start": 176.65,
+      "duration": 2.99
+    },
+    {
+      "text": "I'm going to explore how\nupcoming browser features make",
+      "start": 179.64,
+      "duration": 4.31
+    },
+    {
+      "text": "building these patterns a lot\nsimpler, more performance,",
+      "start": 183.95,
+      "duration": 3.81
+    },
+    {
+      "text": "and more accessible.",
+      "start": 187.76,
+      "duration": 1.8
+    },
+    {
+      "text": "And these features are landing.",
+      "start": 189.56,
+      "duration": 3.0
+    },
+    {
+      "text": "Everything that I'm going\nto talk about here today,",
+      "start": 192.56,
+      "duration": 2.68
+    },
+    {
+      "text": "with the exception of\none feature at the end,",
+      "start": 195.24,
+      "duration": 2.21
+    },
+    {
+      "text": "has shipped in at least\none stable browser engine.",
+      "start": 197.45,
+      "duration": 3.64
+    },
+    {
+      "text": "And I also want to note that,\nwhile it may not look complete",
+      "start": 201.09,
+      "duration": 2.84
+    },
+    {
+      "text": "yet, those features that\nhave landed in Chrome",
+      "start": 203.93,
+      "duration": 2.46
+    },
+    {
+      "text": "are also a part of a\nprocess called Standards,",
+      "start": 206.39,
+      "duration": 3.46
+    },
+    {
+      "text": "and we hope that they'll\nalso ship across browsers.",
+      "start": 209.85,
+      "duration": 4.19
+    },
+    {
+      "text": "So we'll be using baseline\nterminology and symbols",
+      "start": 214.04,
+      "duration": 2.67
+    },
+    {
+      "text": "to help you understand feature\navailability, so look out",
+      "start": 216.71,
+      "duration": 3.18
+    },
+    {
+      "text": "for these throughout the talk.",
+      "start": 219.89,
+      "duration": 1.39
+    },
+    {
+      "text": "And also, if you didn't\ncatch What's New in Web",
+      "start": 221.28,
+      "duration": 2.522
+    },
+    {
+      "text": "yesterday, you can\ndefinitely catch",
+      "start": 223.802,
+      "duration": 1.458
+    },
+    {
+      "text": "that online to learn more\nabout baseline and features",
+      "start": 225.26,
+      "duration": 2.7
+    },
+    {
+      "text": "that have landed.",
+      "start": 227.96,
+      "duration": 1.26
+    },
+    {
+      "text": "So first, let's start\nwith the Select element.",
+      "start": 229.22,
+      "duration": 3.28
+    },
+    {
+      "text": "The Select is essential\nfor countless forms,",
+      "start": 232.5,
+      "duration": 3.61
+    },
+    {
+      "text": "but the internal\nstructure has historically",
+      "start": 236.11,
+      "duration": 2.51
+    },
+    {
+      "text": "been obfuscated by the browser,\neffectively shielding it",
+      "start": 238.62,
+      "duration": 3.84
+    },
+    {
+      "text": "from consistent and\ncomprehensive CSS",
+      "start": 242.46,
+      "duration": 2.49
+    },
+    {
+      "text": "styling across different\nbrowsers and platforms.",
+      "start": 244.95,
+      "duration": 3.55
+    },
+    {
+      "text": "But before we even\nget into the Select,",
+      "start": 248.5,
+      "duration": 2.13
+    },
+    {
+      "text": "we need to talk about its\nbuilding blocks, which are",
+      "start": 250.63,
+      "duration": 2.42
+    },
+    {
+      "text": "popover and anchor positioning.",
+      "start": 253.05,
+      "duration": 2.02
+    },
+    {
+      "text": "Not only are these features\nthe underlying tech",
+      "start": 255.07,
+      "duration": 3.23
+    },
+    {
+      "text": "behind the customizable\nSelects, but because",
+      "start": 258.3,
+      "duration": 3.33
+    },
+    {
+      "text": "of their primitive nature,\nthey can do so much more.",
+      "start": 261.63,
+      "duration": 2.98
+    },
+    {
+      "text": "So first, let's talk\nabout the dropdown list",
+      "start": 264.61,
+      "duration": 2.72
+    },
+    {
+      "text": "itself, that floating\nbox of options.",
+      "start": 267.33,
+      "duration": 2.95
+    },
+    {
+      "text": "You need it above\neverything else in the UI,",
+      "start": 270.28,
+      "duration": 2.64
+    },
+    {
+      "text": "easy to dismiss, and\nmanage focus when it opens,",
+      "start": 272.92,
+      "duration": 3.29
+    },
+    {
+      "text": "and customizable\nSelect leverages",
+      "start": 276.21,
+      "duration": 2.25
+    },
+    {
+      "text": "the super useful popover\nAPI to do just that.",
+      "start": 278.46,
+      "duration": 3.7
+    },
+    {
+      "text": "I talked about popover\non this stage last year,",
+      "start": 282.16,
+      "duration": 3.63
+    },
+    {
+      "text": "and I'm excited to announce\nthat popover has now",
+      "start": 285.79,
+      "duration": 2.54
+    },
+    {
+      "text": "reached baseline newly available\nstatus this year, so it's",
+      "start": 288.33,
+      "duration": 3.57
+    },
+    {
+      "text": "in all browsers.",
+      "start": 291.9,
+      "duration": 0.873
+    },
+    {
+      "text": "Really exciting to see it\ngo from one to all of them",
+      "start": 296.54,
+      "duration": 3.33
+    },
+    {
+      "text": "in a year.",
+      "start": 299.87,
+      "duration": 1.08
+    },
+    {
+      "text": "So as an example, here, we\nhave the YouTube notifications",
+      "start": 300.95,
+      "duration": 3.33
+    },
+    {
+      "text": "pop over just for a visual.",
+      "start": 304.28,
+      "duration": 1.75
+    },
+    {
+      "text": "And a way to create a\npopover is fairly simple.",
+      "start": 306.03,
+      "duration": 3.09
+    },
+    {
+      "text": "You just need two pieces.",
+      "start": 309.12,
+      "duration": 1.47
+    },
+    {
+      "text": "The first is a trigger\nelement, like this button here,",
+      "start": 310.59,
+      "duration": 3.12
+    },
+    {
+      "text": "and the second is the\nactual popover itself.",
+      "start": 313.71,
+      "duration": 3.56
+    },
+    {
+      "text": "All you need to do is\ngive the popover an ID",
+      "start": 317.27,
+      "duration": 3.09
+    },
+    {
+      "text": "and set the popover\nattribute on that popover.",
+      "start": 320.36,
+      "duration": 3.97
+    },
+    {
+      "text": "Then you connect the popover\nto its invoking button",
+      "start": 324.33,
+      "duration": 3.08
+    },
+    {
+      "text": "using popover target like this.",
+      "start": 327.41,
+      "duration": 2.52
+    },
+    {
+      "text": "Behind the scenes,\nthe popover API",
+      "start": 329.93,
+      "duration": 2.64
+    },
+    {
+      "text": "isn't just showing an element.",
+      "start": 332.57,
+      "duration": 2.08
+    },
+    {
+      "text": "It's managing its\nentire lifecycle.",
+      "start": 334.65,
+      "duration": 2.88
+    },
+    {
+      "text": "Popover automatically\nsupports top layer",
+      "start": 337.53,
+      "duration": 2.78
+    },
+    {
+      "text": "rendering, so you don't\nhave to fight with z-index",
+      "start": 340.31,
+      "duration": 2.43
+    },
+    {
+      "text": "and stacking context\nissues anymore.",
+      "start": 342.74,
+      "duration": 2.59
+    },
+    {
+      "text": "It provides a built\nin light dismiss",
+      "start": 345.33,
+      "duration": 2.33
+    },
+    {
+      "text": "functionality on\nauto popovers, so",
+      "start": 347.66,
+      "duration": 2.25
+    },
+    {
+      "text": "that when a user clicks outside\nof the popover area, it closes.",
+      "start": 349.91,
+      "duration": 4.05
+    },
+    {
+      "text": "It automatically\nmanages focus where",
+      "start": 353.96,
+      "duration": 2.15
+    },
+    {
+      "text": "the browser handles tab\nnavigations for the popover when",
+      "start": 356.11,
+      "duration": 3.57
+    },
+    {
+      "text": "it's opened and\ncorrectly returns",
+      "start": 359.68,
+      "duration": 1.92
+    },
+    {
+      "text": "tab focus to the invoking\nelement when it's closed,",
+      "start": 361.6,
+      "duration": 3.25
+    },
+    {
+      "text": "ensuring predictable\nkeyboard navigation",
+      "start": 364.85,
+      "duration": 2.81
+    },
+    {
+      "text": "regardless of where the popover\nis in the dom structure.",
+      "start": 367.66,
+      "duration": 3.81
+    },
+    {
+      "text": "And while you still need to\nchoose the correct element,",
+      "start": 371.47,
+      "duration": 3.22
+    },
+    {
+      "text": "whether that's a dialogue,\nor apply the correct ARIA",
+      "start": 374.69,
+      "duration": 2.57
+    },
+    {
+      "text": "role to define the\nelement's semantic purpose,",
+      "start": 377.26,
+      "duration": 2.91
+    },
+    {
+      "text": "like a menu or a tooltip, the\nunderlying interaction model",
+      "start": 380.17,
+      "duration": 3.87
+    },
+    {
+      "text": "is handled natively.",
+      "start": 384.04,
+      "duration": 2.04
+    },
+    {
+      "text": "These declarative features\nhave been so well received",
+      "start": 386.08,
+      "duration": 3.45
+    },
+    {
+      "text": "and work so well that it\nmakes it really easy to reach",
+      "start": 389.53,
+      "duration": 3.09
+    },
+    {
+      "text": "for a popover, but that\nmight not always be the best",
+      "start": 392.62,
+      "duration": 2.61
+    },
+    {
+      "text": "choice for your component.",
+      "start": 395.23,
+      "duration": 1.54
+    },
+    {
+      "text": "For example, when you\nhave an interaction that",
+      "start": 396.77,
+      "duration": 2.33
+    },
+    {
+      "text": "blocks the rest of the page\nand requires some sort of user",
+      "start": 399.1,
+      "duration": 2.88
+    },
+    {
+      "text": "action, the layered UI element\nshould really be a modal dialog.",
+      "start": 401.98,
+      "duration": 5.82
+    },
+    {
+      "text": "But the dialog element was\nbuilt before popover was,",
+      "start": 407.8,
+      "duration": 4.05
+    },
+    {
+      "text": "so it lacked some of these neat\nfeatures like light dismiss",
+      "start": 411.85,
+      "duration": 3.05
+    },
+    {
+      "text": "and a nice declarative\nAPI that can be triggered",
+      "start": 414.9,
+      "duration": 2.85
+    },
+    {
+      "text": "without JavaScript, until now.",
+      "start": 417.75,
+      "duration": 3.03
+    },
+    {
+      "text": "Now, we have the closedby\nattribute landing",
+      "start": 420.78,
+      "duration": 3.0
+    },
+    {
+      "text": "a few months ago in Chrome 134.",
+      "start": 423.78,
+      "duration": 2.74
+    },
+    {
+      "text": "Users can now use\nclosedby equals",
+      "start": 426.52,
+      "duration": 2.63
+    },
+    {
+      "text": "any to enable light dismiss\ndirectly on modal dialogs.",
+      "start": 429.15,
+      "duration": 4.77
+    },
+    {
+      "text": "With closedby equals any,\nclicking outside of the dialog",
+      "start": 433.92,
+      "duration": 3.3
+    },
+    {
+      "text": "or pressing the Escape\nkey closes the dialog.",
+      "start": 437.22,
+      "duration": 3.28
+    },
+    {
+      "text": "This seemingly small interaction\nis such a game changer",
+      "start": 440.5,
+      "duration": 3.74
+    },
+    {
+      "text": "for simplifying light\ndismiss behavior,",
+      "start": 444.24,
+      "duration": 2.47
+    },
+    {
+      "text": "and it's awesome to see this\nland for the dialog element.",
+      "start": 446.71,
+      "duration": 4.64
+    },
+    {
+      "text": "Another area where\nrepetitive JavaScript is,",
+      "start": 451.35,
+      "duration": 3.58
+    },
+    {
+      "text": "it's connecting the\nbutton click to an action,",
+      "start": 454.93,
+      "duration": 2.38
+    },
+    {
+      "text": "like opening that dialog.",
+      "start": 457.31,
+      "duration": 1.93
+    },
+    {
+      "text": "Command invokers provide a\ndeclarative HTML solution",
+      "start": 459.24,
+      "duration": 4.08
+    },
+    {
+      "text": "similar to popover target.",
+      "start": 463.32,
+      "duration": 2.25
+    },
+    {
+      "text": "Here, a button invokes\na command dialog.",
+      "start": 465.57,
+      "duration": 2.95
+    },
+    {
+      "text": "This is done by using the\ncommand and commandfor pattern,",
+      "start": 468.52,
+      "duration": 4.46
+    },
+    {
+      "text": "you can use the very\nstraightforward command",
+      "start": 472.98,
+      "duration": 2.75
+    },
+    {
+      "text": "showmodal, which is akin to the\nJavaScript showmodal function.",
+      "start": 475.73,
+      "duration": 4.03
+    },
+    {
+      "text": "Then you target the\ndialog by referencing",
+      "start": 479.76,
+      "duration": 2.69
+    },
+    {
+      "text": "its ID in the command\nfor attribute, like so.",
+      "start": 482.45,
+      "duration": 4.77
+    },
+    {
+      "text": "You can also use this to\nclose the dialog using",
+      "start": 487.22,
+      "duration": 2.58
+    },
+    {
+      "text": "the close command.",
+      "start": 489.8,
+      "duration": 1.15
+    },
+    {
+      "text": "This command commandfor\npattern gives us a cleaner way",
+      "start": 490.95,
+      "duration": 3.44
+    },
+    {
+      "text": "to link elements\nand actions in HTML,",
+      "start": 494.39,
+      "duration": 3.1
+    },
+    {
+      "text": "removing boilerplate JavaScript\nfor many standard behaviors",
+      "start": 497.49,
+      "duration": 3.35
+    },
+    {
+      "text": "like that opening and\nclosing functionality.",
+      "start": 500.84,
+      "duration": 2.88
+    },
+    {
+      "text": "And this can be used on any\nelement, dialog and beyond.",
+      "start": 503.72,
+      "duration": 3.91
+    },
+    {
+      "text": "The browser automatically\nmanages ARIA details for you,",
+      "start": 507.63,
+      "duration": 3.78
+    },
+    {
+      "text": "eliminating the need\nfor extra JavaScript.",
+      "start": 511.41,
+      "duration": 3.56
+    },
+    {
+      "text": "For non-supported browsers,\nthere is a polyfill, too,",
+      "start": 514.97,
+      "duration": 3.25
+    },
+    {
+      "text": "and all you have to do is import\nthis file, and it just works.",
+      "start": 518.22,
+      "duration": 2.952
+    },
+    {
+      "text": "It's pretty cool.",
+      "start": 521.172,
+      "duration": 0.708
+    },
+    {
+      "text": "I've used it, and I've checked\nit on non-supporting browsers.",
+      "start": 521.88,
+      "duration": 3.62
+    },
+    {
+      "text": "So let's put this into context\nand refactor an existing dialog",
+      "start": 525.5,
+      "duration": 4.13
+    },
+    {
+      "text": "demo that Adam Argyle designed\nto be more declarative.",
+      "start": 529.63,
+      "duration": 4.133
+    },
+    {
+      "text": "I really like this\ndemo because it",
+      "start": 533.763,
+      "duration": 1.417
+    },
+    {
+      "text": "has that cool x that shows\nyou're closing the dialog,",
+      "start": 535.18,
+      "duration": 3.73
+    },
+    {
+      "text": "but here, what\nyou see we've done",
+      "start": 538.91,
+      "duration": 1.375
+    },
+    {
+      "text": "is we've just removed\nthe JavaScript,",
+      "start": 540.285,
+      "duration": 1.542
+    },
+    {
+      "text": "and it's not closing.",
+      "start": 541.827,
+      "duration": 0.893
+    },
+    {
+      "text": "It's not working when\nyou click outside.",
+      "start": 542.72,
+      "duration": 1.667
+    },
+    {
+      "text": "We have to add\nclosedby equals any.",
+      "start": 544.387,
+      "duration": 2.173
+    },
+    {
+      "text": "So once we've added\nthat, now when",
+      "start": 546.56,
+      "duration": 1.49
+    },
+    {
+      "text": "we open the dialog and\nclick outside of it,",
+      "start": 548.05,
+      "duration": 2.08
+    },
+    {
+      "text": "the light dismiss is enabled\ndeclaratively in HTML",
+      "start": 550.13,
+      "duration": 3.5
+    },
+    {
+      "text": "without JavaScript.",
+      "start": 553.63,
+      "duration": 2.334
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 555.964,
+      "duration": 2.742
+    },
+    {
+      "text": "Next, what we can do is get rid\nof the rest of this boilerplate",
+      "start": 560.08,
+      "duration": 2.85
+    },
+    {
+      "text": "JavaScript.",
+      "start": 562.93,
+      "duration": 0.73
+    },
+    {
+      "text": "So here, I'm removing these\ninline onclick commands,",
+      "start": 563.66,
+      "duration": 3.23
+    },
+    {
+      "text": "and I'm replacing them with\ncommand and commandfor.",
+      "start": 566.89,
+      "duration": 2.68
+    },
+    {
+      "text": "Commandfor is linked to\nthe ID of the dialog,",
+      "start": 569.57,
+      "duration": 2.97
+    },
+    {
+      "text": "and the command\nhere is showmodal.",
+      "start": 572.54,
+      "duration": 1.74
+    },
+    {
+      "text": "Now, when I click,\nit opens that dialog",
+      "start": 574.28,
+      "duration": 2.69
+    },
+    {
+      "text": "without the inline JavaScript.",
+      "start": 576.97,
+      "duration": 2.49
+    },
+    {
+      "text": "And I can do the same thing\nfor that Close button.",
+      "start": 579.46,
+      "duration": 2.2
+    },
+    {
+      "text": "So I'm showing you here,\nas I'm opening the dialog,",
+      "start": 581.66,
+      "duration": 1.88
+    },
+    {
+      "text": "and I hit the Close\nbutton, nothing",
+      "start": 583.54,
+      "duration": 1.32
+    },
+    {
+      "text": "is happening because\nwe've removed the script.",
+      "start": 584.86,
+      "duration": 1.917
+    },
+    {
+      "text": "But all we have to\ndo is add command",
+      "start": 586.777,
+      "duration": 1.663
+    },
+    {
+      "text": "equals close here, and\nthen commandfor, that demo,",
+      "start": 588.44,
+      "duration": 4.3
+    },
+    {
+      "text": "which is the ID of that dialog.",
+      "start": 592.74,
+      "duration": 1.89
+    },
+    {
+      "text": "It's linked right there.",
+      "start": 594.63,
+      "duration": 1.08
+    },
+    {
+      "text": "Now, all of the\nfunctionality here,",
+      "start": 595.71,
+      "duration": 2.33
+    },
+    {
+      "text": "opening it, closing it,\nlight dismissing it,",
+      "start": 598.04,
+      "duration": 2.22
+    },
+    {
+      "text": "is built in in HTML without\nany JavaScript needed.",
+      "start": 600.26,
+      "duration": 4.23
+    },
+    {
+      "text": "It's pretty cool.",
+      "start": 604.49,
+      "duration": 0.755
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 605.245,
+      "duration": 2.725
+    },
+    {
+      "text": "So now, we can update this\ntable with the new capabilities",
+      "start": 608.93,
+      "duration": 3.21
+    },
+    {
+      "text": "that we now have for dialog.",
+      "start": 612.14,
+      "duration": 1.77
+    },
+    {
+      "text": "With command invokers\nand closedby equals any,",
+      "start": 613.91,
+      "duration": 2.64
+    },
+    {
+      "text": "you can focus on the semantic\nneeds of your UI elements",
+      "start": 616.55,
+      "duration": 4.26
+    },
+    {
+      "text": "and leave the interactions\nto the browser.",
+      "start": 620.81,
+      "duration": 2.53
+    },
+    {
+      "text": "Remember that a\ndialog is an element,",
+      "start": 623.34,
+      "duration": 2.19
+    },
+    {
+      "text": "and popover is an\nattribute that still",
+      "start": 625.53,
+      "duration": 2.12
+    },
+    {
+      "text": "needs more semantic context.",
+      "start": 627.65,
+      "duration": 2.17
+    },
+    {
+      "text": "But the Open UI\ncommunity group continues",
+      "start": 629.82,
+      "duration": 2.42
+    },
+    {
+      "text": "to work on shipping\nsemantic UI components",
+      "start": 632.24,
+      "duration": 2.94
+    },
+    {
+      "text": "like a possible future menu\nelement with the ability",
+      "start": 635.18,
+      "duration": 3.42
+    },
+    {
+      "text": "to easily create\nnested menus like so.",
+      "start": 638.6,
+      "duration": 4.93
+    },
+    {
+      "text": "So we've deviated a bit,\nbut it's all good stuff.",
+      "start": 643.53,
+      "duration": 2.16
+    },
+    {
+      "text": "Let's get back to\nthe Select menu,",
+      "start": 645.69,
+      "duration": 2.06
+    },
+    {
+      "text": "which we've\nestablished decidedly",
+      "start": 647.75,
+      "duration": 1.67
+    },
+    {
+      "text": "uses a popover for the\nlistbox of options.",
+      "start": 649.42,
+      "duration": 2.86
+    },
+    {
+      "text": "But how does that\npopover listbox",
+      "start": 652.28,
+      "duration": 1.73
+    },
+    {
+      "text": "appear relative to the\nbutton that opened it?",
+      "start": 654.01,
+      "duration": 2.73
+    },
+    {
+      "text": "Well, positioning it\ncorrectly is important,",
+      "start": 656.74,
+      "duration": 2.68
+    },
+    {
+      "text": "and that is what anchor\npositioning is for.",
+      "start": 659.42,
+      "duration": 2.66
+    },
+    {
+      "text": "This CSS API declaratively\ntethers one element to another,",
+      "start": 662.08,
+      "duration": 4.48
+    },
+    {
+      "text": "handling edge collision\nautomatically.",
+      "start": 666.56,
+      "duration": 2.64
+    },
+    {
+      "text": "Last year on this stage, I\nintroduced anchor positioning",
+      "start": 669.2,
+      "duration": 3.14
+    },
+    {
+      "text": "and talked about its\npowerful capabilities,",
+      "start": 672.34,
+      "duration": 2.65
+    },
+    {
+      "text": "and now browser\nsupport is expanding.",
+      "start": 674.99,
+      "duration": 3.03
+    },
+    {
+      "text": "In fact, anchor\npositioning is one",
+      "start": 678.02,
+      "duration": 2.36
+    },
+    {
+      "text": "of the features that is\na part of Interop 2025,",
+      "start": 680.38,
+      "duration": 3.31
+    },
+    {
+      "text": "an annual cross-browser\ninitiative to fix bugs and land",
+      "start": 683.69,
+      "duration": 3.62
+    },
+    {
+      "text": "highly requested developer\nfeatures as quickly as possible.",
+      "start": 687.31,
+      "duration": 4.39
+    },
+    {
+      "text": "This means we expect\nanchor positioning",
+      "start": 691.7,
+      "duration": 2.33
+    },
+    {
+      "text": "to land in all browsers\nby the end of this year.",
+      "start": 694.03,
+      "duration": 4.65
+    },
+    {
+      "text": "Fingers crossed.",
+      "start": 698.68,
+      "duration": 2.76
+    },
+    {
+      "text": "In addition to\nanchor positioning,",
+      "start": 701.44,
+      "duration": 1.81
+    },
+    {
+      "text": "this year's Interop\nlist includes",
+      "start": 703.25,
+      "duration": 2.06
+    },
+    {
+      "text": "backdrop filter, the details\nelement, addscope, scroll end",
+      "start": 705.31,
+      "duration": 3.86
+    },
+    {
+      "text": "event, text decoration, view\ntransitions for single page",
+      "start": 709.17,
+      "duration": 3.42
+    },
+    {
+      "text": "apps, writing modes, and more.",
+      "start": 712.59,
+      "duration": 1.93
+    },
+    {
+      "text": "And we've seen a lot of progress\non these features already,",
+      "start": 714.52,
+      "duration": 2.7
+    },
+    {
+      "text": "including anchor positioning.",
+      "start": 717.22,
+      "duration": 1.808
+    },
+    {
+      "text": "There's a lot of\ncool things that you",
+      "start": 719.028,
+      "duration": 1.542
+    },
+    {
+      "text": "can do with CSS anchor\npositioning, the most",
+      "start": 720.57,
+      "duration": 2.4
+    },
+    {
+      "text": "basic of which is, well,\nanchoring things together.",
+      "start": 722.97,
+      "duration": 3.46
+    },
+    {
+      "text": "Who could have guessed?",
+      "start": 726.43,
+      "duration": 1.17
+    },
+    {
+      "text": "And you may have noticed,\nin the previous demo,",
+      "start": 727.6,
+      "duration": 2.42
+    },
+    {
+      "text": "that the notifications\nand popover are anchored",
+      "start": 730.02,
+      "duration": 2.52
+    },
+    {
+      "text": "to this little bell icon.",
+      "start": 732.54,
+      "duration": 1.93
+    },
+    {
+      "text": "You can anchor any\nelement together",
+      "start": 734.47,
+      "duration": 2.0
+    },
+    {
+      "text": "using anchor name and the\nposition anchor properties,",
+      "start": 736.47,
+      "duration": 2.82
+    },
+    {
+      "text": "like this.",
+      "start": 739.29,
+      "duration": 1.27
+    },
+    {
+      "text": "But as of Chrome\n133, you no longer",
+      "start": 740.56,
+      "duration": 3.38
+    },
+    {
+      "text": "need to do this for\npopover elements",
+      "start": 743.94,
+      "duration": 1.89
+    },
+    {
+      "text": "and their invoking buttons.",
+      "start": 745.83,
+      "duration": 1.72
+    },
+    {
+      "text": "The browser creates an\nimplicit anchor relationship.",
+      "start": 747.55,
+      "duration": 4.16
+    },
+    {
+      "text": "This makes the code for building\nanchored popovers much cleaner,",
+      "start": 751.71,
+      "duration": 4.09
+    },
+    {
+      "text": "so I'm thrilled to see this\nchange land in the spec",
+      "start": 755.8,
+      "duration": 2.48
+    },
+    {
+      "text": "and roll out across browsers\nas this feature lands.",
+      "start": 758.28,
+      "duration": 4.67
+    },
+    {
+      "text": "Now, all we need to\ndo to create an anchor",
+      "start": 762.95,
+      "duration": 3.6
+    },
+    {
+      "text": "is use one line of CSS, like\nyou see here, to position it.",
+      "start": 766.55,
+      "duration": 4.69
+    },
+    {
+      "text": "So here, we're using\nposition-area bottom span-left,",
+      "start": 771.24,
+      "duration": 3.03
+    },
+    {
+      "text": "which is positioning it at\nthe bottom of that anchor",
+      "start": 774.27,
+      "duration": 2.18
+    },
+    {
+      "text": "and spanning towards the left.",
+      "start": 776.45,
+      "duration": 1.87
+    },
+    {
+      "text": "This language is pretty\nstraightforward for positioning",
+      "start": 778.32,
+      "duration": 2.96
+    },
+    {
+      "text": "and spanning grid lines,\nand to make it even easier,",
+      "start": 781.28,
+      "duration": 2.71
+    },
+    {
+      "text": "I built this tool for\nyou as a reference,",
+      "start": 783.99,
+      "duration": 1.95
+    },
+    {
+      "text": "which you can find at\nChrome.dev/anchortool.",
+      "start": 785.94,
+      "duration": 3.3
+    },
+    {
+      "text": "You can also switch\nto logical properties",
+      "start": 789.24,
+      "duration": 2.27
+    },
+    {
+      "text": "and instead of values--",
+      "start": 791.51,
+      "duration": 2.22
+    },
+    {
+      "text": "instead of the\ndirectional values",
+      "start": 793.73,
+      "duration": 1.47
+    },
+    {
+      "text": "to accommodate\nfor writing modes,",
+      "start": 795.2,
+      "duration": 1.69
+    },
+    {
+      "text": "and you can also see\nthe containing block.",
+      "start": 796.89,
+      "duration": 2.34
+    },
+    {
+      "text": "This is the inset\nmodifier containing",
+      "start": 799.23,
+      "duration": 1.64
+    },
+    {
+      "text": "block where that anchor\nis being positioned.",
+      "start": 800.87,
+      "duration": 2.38
+    },
+    {
+      "text": "So that is one of the\ninteresting key details",
+      "start": 803.25,
+      "duration": 2.99
+    },
+    {
+      "text": "of anchor positioning.",
+      "start": 806.24,
+      "duration": 1.24
+    },
+    {
+      "text": "It has this inset\nmodified containing block.",
+      "start": 807.48,
+      "duration": 2.07
+    },
+    {
+      "text": "This helps you\nvisualize where it is.",
+      "start": 809.55,
+      "duration": 2.51
+    },
+    {
+      "text": "Initial positioning is\none part of the equation",
+      "start": 812.06,
+      "duration": 2.91
+    },
+    {
+      "text": "for our notifications\nbar, but what",
+      "start": 814.97,
+      "duration": 2.07
+    },
+    {
+      "text": "if the user resizes the\nscreen, or we decide to shift",
+      "start": 817.04,
+      "duration": 3.27
+    },
+    {
+      "text": "where that bell icon is?",
+      "start": 820.31,
+      "duration": 1.51
+    },
+    {
+      "text": "We could reposition where it is\nin an action bar, for example.",
+      "start": 821.82,
+      "duration": 3.08
+    },
+    {
+      "text": "We don't want our popover to\nget cut off in the viewport.",
+      "start": 824.9,
+      "duration": 3.03
+    },
+    {
+      "text": "I've had to implement logic\nlike this before in the past,",
+      "start": 827.93,
+      "duration": 2.78
+    },
+    {
+      "text": "and it was not fun.",
+      "start": 830.71,
+      "duration": 1.75
+    },
+    {
+      "text": "Took a couple of days.",
+      "start": 832.46,
+      "duration": 1.02
+    },
+    {
+      "text": "Luckily, the browser can now\nhandle that for you, too.",
+      "start": 833.48,
+      "duration": 3.24
+    },
+    {
+      "text": "You can specify\nfallback positions",
+      "start": 836.72,
+      "duration": 2.12
+    },
+    {
+      "text": "like this one, which I've\ncreated and called left,",
+      "start": 838.84,
+      "duration": 2.65
+    },
+    {
+      "text": "which spans from left to right\ninstead of right to left,",
+      "start": 841.49,
+      "duration": 3.27
+    },
+    {
+      "text": "or use browser defaults like\nflip block and flip inline.",
+      "start": 844.76,
+      "duration": 4.31
+    },
+    {
+      "text": "Then you can call\nit as a fallback",
+      "start": 849.07,
+      "duration": 2.16
+    },
+    {
+      "text": "when you can't position\nfrom that initial right",
+      "start": 851.23,
+      "duration": 2.34
+    },
+    {
+      "text": "to left position.",
+      "start": 853.57,
+      "duration": 1.21
+    },
+    {
+      "text": "Now, you can feel confident\nthat, no matter where",
+      "start": 854.78,
+      "duration": 3.02
+    },
+    {
+      "text": "this notifications trigger\nbell lives in your UI,",
+      "start": 857.8,
+      "duration": 3.52
+    },
+    {
+      "text": "the popover will\nstay on the screen",
+      "start": 861.32,
+      "duration": 1.85
+    },
+    {
+      "text": "and be visually optimized.",
+      "start": 863.17,
+      "duration": 1.81
+    },
+    {
+      "text": "This is especially\nimportant for layouts that",
+      "start": 864.98,
+      "duration": 2.15
+    },
+    {
+      "text": "make heavy use of layered UI.",
+      "start": 867.13,
+      "duration": 2.52
+    },
+    {
+      "text": "Building something\nlike this yourself",
+      "start": 869.65,
+      "duration": 2.01
+    },
+    {
+      "text": "requires resize observers,\nwhich are slow to calculate,",
+      "start": 871.66,
+      "duration": 2.8
+    },
+    {
+      "text": "and a lot of complex\nlogic that you simply",
+      "start": 874.46,
+      "duration": 2.633
+    },
+    {
+      "text": "don't have to worry about\nnow, and you can let",
+      "start": 877.093,
+      "duration": 1.917
+    },
+    {
+      "text": "the browser handle it for you.",
+      "start": 879.01,
+      "duration": 1.99
+    },
+    {
+      "text": "So I think this is\nan awesome feature.",
+      "start": 881.0,
+      "duration": 3.012
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 884.012,
+      "duration": 2.946
+    },
+    {
+      "text": "For more about the\nanchor positioning API,",
+      "start": 888.93,
+      "duration": 3.09
+    },
+    {
+      "text": "definitely check\nout this link where",
+      "start": 892.02,
+      "duration": 1.5
+    },
+    {
+      "text": "you'll find more in-depth\nfeature coverage and demos.",
+      "start": 893.52,
+      "duration": 5.1
+    },
+    {
+      "text": "So coming back to our\ncustomizable Select",
+      "start": 898.62,
+      "duration": 2.61
+    },
+    {
+      "text": "menu, styling the native\nSelect has always been",
+      "start": 901.23,
+      "duration": 3.458
+    },
+    {
+      "text": "the core challenge\nhere, and this is really",
+      "start": 904.688,
+      "duration": 1.792
+    },
+    {
+      "text": "what inspired the work behind\npopover and anchor positioning.",
+      "start": 906.48,
+      "duration": 4.06
+    },
+    {
+      "text": "But we got some great\nprimitives along the way.",
+      "start": 910.54,
+      "duration": 2.75
+    },
+    {
+      "text": "It still feels like\nsomething like this",
+      "start": 913.29,
+      "duration": 2.37
+    },
+    {
+      "text": "should be so easy to build, but\nachieving this really custom",
+      "start": 915.66,
+      "duration": 3.42
+    },
+    {
+      "text": "look takes you down\na complex road.",
+      "start": 919.08,
+      "duration": 2.77
+    },
+    {
+      "text": "You essentially have\nto hide the real Select",
+      "start": 921.85,
+      "duration": 2.18
+    },
+    {
+      "text": "and build a complete replacement\nusing divs and lists,",
+      "start": 924.03,
+      "duration": 3.408
+    },
+    {
+      "text": "and then you need\na lot of JavaScript",
+      "start": 927.438,
+      "duration": 1.542
+    },
+    {
+      "text": "to make this fake component\nbehave like a real Select,",
+      "start": 928.98,
+      "duration": 3.37
+    },
+    {
+      "text": "handling clicks,\nkeyboard navigation,",
+      "start": 932.35,
+      "duration": 2.22
+    },
+    {
+      "text": "syncing values, and manually\nadding the necessary ARIA",
+      "start": 934.57,
+      "duration": 3.83
+    },
+    {
+      "text": "attributes for accessibility.",
+      "start": 938.4,
+      "duration": 2.04
+    },
+    {
+      "text": "It's brittle and a huge\namount of work to get right,",
+      "start": 940.44,
+      "duration": 3.33
+    },
+    {
+      "text": "and even then it doesn't\nwork with autocomplete,",
+      "start": 943.77,
+      "duration": 2.79
+    },
+    {
+      "text": "which we heard yesterday is\nessential to business model",
+      "start": 946.56,
+      "duration": 3.32
+    },
+    {
+      "text": "for many businesses out there.",
+      "start": 949.88,
+      "duration": 2.4
+    },
+    {
+      "text": "But native styling for Select\nelements is finally here,",
+      "start": 952.28,
+      "duration": 4.722
+    },
+    {
+      "text": "and I'm excited to\nannounce that it",
+      "start": 957.002,
+      "duration": 1.458
+    },
+    {
+      "text": "has reached a stable\nrelease in Chromium 134.",
+      "start": 958.46,
+      "duration": 3.78
+    },
+    {
+      "text": "So 2017 Una would be very\nproud of this right now.",
+      "start": 962.24,
+      "duration": 3.56
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 965.8,
+      "duration": 2.59
+    },
+    {
+      "text": "It seems so simple, but\nit's a really big deal.",
+      "start": 969.29,
+      "duration": 2.7
+    },
+    {
+      "text": "Native styling for Select\ncomes with its own slew",
+      "start": 971.99,
+      "duration": 3.06
+    },
+    {
+      "text": "of interesting features like a\nnew appearance property, picker",
+      "start": 975.05,
+      "duration": 3.67
+    },
+    {
+      "text": "pseudo, picker icon, and a new\nelement called selected content.",
+      "start": 978.72,
+      "duration": 4.61
+    },
+    {
+      "text": "First, the way to enter into\nthe customizable select mode",
+      "start": 983.33,
+      "duration": 3.24
+    },
+    {
+      "text": "is by using the\nappearance property",
+      "start": 986.57,
+      "duration": 2.04
+    },
+    {
+      "text": "and setting it to base select.",
+      "start": 988.61,
+      "duration": 1.84
+    },
+    {
+      "text": "You do this on\nthe Select itself,",
+      "start": 990.45,
+      "duration": 1.85
+    },
+    {
+      "text": "and on a new pseudo\nelement called the picker.",
+      "start": 992.3,
+      "duration": 4.05
+    },
+    {
+      "text": "Picker is a functional pseudo\nelement that will eventually",
+      "start": 996.35,
+      "duration": 2.65
+    },
+    {
+      "text": "accept other picker\ntypes like color,",
+      "start": 999.0,
+      "duration": 2.17
+    },
+    {
+      "text": "but it essentially\ntargets the popover, which",
+      "start": 1001.17,
+      "duration": 2.54
+    },
+    {
+      "text": "contains the list of options.",
+      "start": 1003.71,
+      "duration": 1.96
+    },
+    {
+      "text": "So in Select, it's\nthat dropdown list.",
+      "start": 1005.67,
+      "duration": 3.08
+    },
+    {
+      "text": "Using appearance\nbased Select unlocks",
+      "start": 1008.75,
+      "duration": 2.13
+    },
+    {
+      "text": "a number of new\nfeatures and behaviors,",
+      "start": 1010.88,
+      "duration": 2.65
+    },
+    {
+      "text": "including exposing new internal\nparts and states of the Select,",
+      "start": 1013.53,
+      "duration": 4.32
+    },
+    {
+      "text": "showing options in the\ntop layer as a popover,",
+      "start": 1017.85,
+      "duration": 3.15
+    },
+    {
+      "text": "and positioning them\nwith anchor positioning.",
+      "start": 1021.0,
+      "duration": 2.97
+    },
+    {
+      "text": "It will also simplify\nthe user agent style,",
+      "start": 1023.97,
+      "duration": 2.82
+    },
+    {
+      "text": "as you can see here, so\nyou can bring your own.",
+      "start": 1026.79,
+      "duration": 2.93
+    },
+    {
+      "text": "You now have access to full\nbuilt-in styling for the Select",
+      "start": 1029.72,
+      "duration": 4.02
+    },
+    {
+      "text": "dropdowns button, options,\nchecked option, and even",
+      "start": 1033.74,
+      "duration": 3.93
+    },
+    {
+      "text": "a new pseudo element\nfor a checkmark which",
+      "start": 1037.67,
+      "duration": 2.429
+    },
+    {
+      "text": "indicates the selected option.",
+      "start": 1040.099,
+      "duration": 2.26
+    },
+    {
+      "text": "All of this together\ngives you a ton",
+      "start": 1042.359,
+      "duration": 2.24
+    },
+    {
+      "text": "of unique control over\ncustomizing Select,",
+      "start": 1044.599,
+      "duration": 3.131
+    },
+    {
+      "text": "and in a much easier, more\nstraightforward way than before.",
+      "start": 1047.73,
+      "duration": 4.4
+    },
+    {
+      "text": "Take this example, which is\nsimilar to Google AI Studio's",
+      "start": 1052.13,
+      "duration": 3.24
+    },
+    {
+      "text": "picker menu.",
+      "start": 1055.37,
+      "duration": 1.36
+    },
+    {
+      "text": "Here, I have a button where\nI'm inserting selected content,",
+      "start": 1056.73,
+      "duration": 3.54
+    },
+    {
+      "text": "and each option has a slot for\nan icon, title, and subtitle.",
+      "start": 1060.27,
+      "duration": 4.44
+    },
+    {
+      "text": "One neat thing\nthat I'm doing here",
+      "start": 1064.71,
+      "duration": 1.61
+    },
+    {
+      "text": "is making the selected\ncontent, which",
+      "start": 1066.32,
+      "duration": 1.83
+    },
+    {
+      "text": "shows the option that I picked\nonly show the name of the Gemini",
+      "start": 1068.15,
+      "duration": 4.05
+    },
+    {
+      "text": "version, so I'm hiding the rest\nof the content in that option,",
+      "start": 1072.2,
+      "duration": 3.61
+    },
+    {
+      "text": "like the subtitle and\nicon, which would otherwise",
+      "start": 1075.81,
+      "duration": 2.63
+    },
+    {
+      "text": "get reflected in the\nselected content.",
+      "start": 1078.44,
+      "duration": 2.14
+    },
+    {
+      "text": "And I'm doing this by\nsimply setting it to display",
+      "start": 1080.58,
+      "duration": 2.21
+    },
+    {
+      "text": "none in that selected content.",
+      "start": 1082.79,
+      "duration": 3.3
+    },
+    {
+      "text": "I'm also bringing in a\ncustom background image",
+      "start": 1086.09,
+      "duration": 2.61
+    },
+    {
+      "text": "using a Base64 encoded\nimage for that checkmark",
+      "start": 1088.7,
+      "duration": 3.72
+    },
+    {
+      "text": "to indicate the\nchecked item, and I'm",
+      "start": 1092.42,
+      "duration": 2.04
+    },
+    {
+      "text": "repositioning it from the\nuser-agent default styles.",
+      "start": 1094.46,
+      "duration": 4.08
+    },
+    {
+      "text": "One of the coolest things about\nreusing the existing Select",
+      "start": 1098.54,
+      "duration": 3.39
+    },
+    {
+      "text": "element for this feature is the\nprogressive enhancement story.",
+      "start": 1101.93,
+      "duration": 4.12
+    },
+    {
+      "text": "In a complex Select\nlike this one,",
+      "start": 1106.05,
+      "duration": 2.34
+    },
+    {
+      "text": "this currency\npicker, when you're",
+      "start": 1108.39,
+      "duration": 2.18
+    },
+    {
+      "text": "using the customizable Select in\nbrowsers that have this feature,",
+      "start": 1110.57,
+      "duration": 4.288
+    },
+    {
+      "text": "you can see what it\nlooks like on the left.",
+      "start": 1114.858,
+      "duration": 1.792
+    },
+    {
+      "text": "But in non-supported browsers,\nyou still get meaningful content",
+      "start": 1116.65,
+      "duration": 3.38
+    },
+    {
+      "text": "that the user can select,\nand you get autocomplete,",
+      "start": 1120.03,
+      "duration": 2.563
+    },
+    {
+      "text": "and you get all of\nthose native defaults",
+      "start": 1122.593,
+      "duration": 1.667
+    },
+    {
+      "text": "that the browser provides\nfor you for free.",
+      "start": 1124.26,
+      "duration": 3.72
+    },
+    {
+      "text": "That's cool.",
+      "start": 1127.98,
+      "duration": 0.67
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1128.65,
+      "duration": 2.73
+    },
+    {
+      "text": "But of course, the most\nsignificant benefit",
+      "start": 1131.88,
+      "duration": 2.73
+    },
+    {
+      "text": "is that you can achieve this\ncustomized look while preserving",
+      "start": 1134.61,
+      "duration": 4.08
+    },
+    {
+      "text": "the native Select elements,\nbuilt-in accessibility, keyboard",
+      "start": 1138.69,
+      "duration": 3.63
+    },
+    {
+      "text": "navigation, and\nform integration.",
+      "start": 1142.32,
+      "duration": 1.957
+    },
+    {
+      "text": "You're not throwing\naway the browser's work.",
+      "start": 1144.277,
+      "duration": 1.833
+    },
+    {
+      "text": "You're just changing\nhow it looks.",
+      "start": 1146.11,
+      "duration": 2.75
+    },
+    {
+      "text": "And to help you use it\ncorrectly in Chrome 137,",
+      "start": 1148.86,
+      "duration": 3.46
+    },
+    {
+      "text": "you will be able to see\nwarnings in DevTools",
+      "start": 1152.32,
+      "duration": 2.6
+    },
+    {
+      "text": "if you violate Accessibility\nGuidelines when",
+      "start": 1154.92,
+      "duration": 2.61
+    },
+    {
+      "text": "building customizable Selects,\nlike having interactive elements",
+      "start": 1157.53,
+      "duration": 3.6
+    },
+    {
+      "text": "inside of options.",
+      "start": 1161.13,
+      "duration": 1.33
+    },
+    {
+      "text": "So we want to make sure\nthat you use this right.",
+      "start": 1162.46,
+      "duration": 3.17
+    },
+    {
+      "text": "Temu is one of\nour partners who's",
+      "start": 1165.63,
+      "duration": 1.86
+    },
+    {
+      "text": "already been exploring\nthe customizable Select",
+      "start": 1167.49,
+      "duration": 2.58
+    },
+    {
+      "text": "and has provided some\nreally great feedback,",
+      "start": 1170.07,
+      "duration": 2.68
+    },
+    {
+      "text": "and we've been working with\nthem on enabling next generation",
+      "start": 1172.75,
+      "duration": 3.1
+    },
+    {
+      "text": "functionality for Selects\nlike this type filtering",
+      "start": 1175.85,
+      "duration": 3.15
+    },
+    {
+      "text": "functionality.",
+      "start": 1179.0,
+      "duration": 2.37
+    },
+    {
+      "text": "The next big UI challenge\nis carousels and other",
+      "start": 1181.37,
+      "duration": 4.32
+    },
+    {
+      "text": "off screen user interfaces.",
+      "start": 1185.69,
+      "duration": 2.38
+    },
+    {
+      "text": "Love them or hate them,\ncarousels are all over the web.",
+      "start": 1188.07,
+      "duration": 3.54
+    },
+    {
+      "text": "Product showcases,\nimage galleries,",
+      "start": 1191.61,
+      "duration": 2.79
+    },
+    {
+      "text": "onboarding flows,\nthey are incredibly",
+      "start": 1194.4,
+      "duration": 2.63
+    },
+    {
+      "text": "useful for fitting related\ncontent into tight spaces,",
+      "start": 1197.03,
+      "duration": 3.64
+    },
+    {
+      "text": "and building them\nis, well, it's hard.",
+      "start": 1200.67,
+      "duration": 3.03
+    },
+    {
+      "text": "It's not easy.",
+      "start": 1203.7,
+      "duration": 0.78
+    },
+    {
+      "text": "We wrestle with scripting for\nstate management, scroll jank,",
+      "start": 1204.48,
+      "duration": 4.14
+    },
+    {
+      "text": "interactivity,\ncross-browser compatibility,",
+      "start": 1208.62,
+      "duration": 2.82
+    },
+    {
+      "text": "and getting the\naccessibility right.",
+      "start": 1211.44,
+      "duration": 2.3
+    },
+    {
+      "text": "Along the lines of today's theme\nof a more powerful web made",
+      "start": 1213.74,
+      "duration": 3.57
+    },
+    {
+      "text": "easier, now the\nbrowser can, again,",
+      "start": 1217.31,
+      "duration": 2.53
+    },
+    {
+      "text": "handle much of that\ncomplexity for us.",
+      "start": 1219.84,
+      "duration": 2.91
+    },
+    {
+      "text": "But really, when\nyou think about it,",
+      "start": 1222.75,
+      "duration": 1.68
+    },
+    {
+      "text": "carousels are just\nfancy scroll areas",
+      "start": 1224.43,
+      "duration": 1.88
+    },
+    {
+      "text": "with some extra UI affordances\nlike buttons and markers",
+      "start": 1226.31,
+      "duration": 3.75
+    },
+    {
+      "text": "to manage navigation\nand pagination.",
+      "start": 1230.06,
+      "duration": 2.68
+    },
+    {
+      "text": "So let's make a carousel.",
+      "start": 1232.74,
+      "duration": 2.21
+    },
+    {
+      "text": "The way to get started is by\ncreating some content that",
+      "start": 1234.95,
+      "duration": 4.19
+    },
+    {
+      "text": "flows off screen,\nbut now, we have",
+      "start": 1239.14,
+      "duration": 2.4
+    },
+    {
+      "text": "this dreaded\nhorizontal scroll bar.",
+      "start": 1241.54,
+      "duration": 2.71
+    },
+    {
+      "text": "Who's fought with this before?",
+      "start": 1244.25,
+      "duration": 1.38
+    },
+    {
+      "text": "I've fought with these.",
+      "start": 1245.63,
+      "duration": 1.02
+    },
+    {
+      "text": "Yeah, a lot of hands--",
+      "start": 1246.65,
+      "duration": 1.11
+    },
+    {
+      "text": "a lot of hands are\nup in the room.",
+      "start": 1247.76,
+      "duration": 1.74
+    },
+    {
+      "text": "One neat little trick that\njust reached baseline widely",
+      "start": 1249.5,
+      "duration": 3.71
+    },
+    {
+      "text": "available is\nscrollbar-width none,",
+      "start": 1253.21,
+      "duration": 2.49
+    },
+    {
+      "text": "so you can feel confident\nusing this feature.",
+      "start": 1255.7,
+      "duration": 2.17
+    },
+    {
+      "text": "I'm happy that this landed.",
+      "start": 1257.87,
+      "duration": 1.37
+    },
+    {
+      "text": "To make a UI maintain that\nhorizontal scrollability",
+      "start": 1259.24,
+      "duration": 3.21
+    },
+    {
+      "text": "without a visible\nscroll bar, we no longer",
+      "start": 1262.45,
+      "duration": 2.49
+    },
+    {
+      "text": "have to do some weird\nnegative margin hacks.",
+      "start": 1264.94,
+      "duration": 2.59
+    },
+    {
+      "text": "Now, you can just set\nscroll bar width to none,",
+      "start": 1267.53,
+      "duration": 2.3
+    },
+    {
+      "text": "and poof, like that,\nthe scroll bar is gone,",
+      "start": 1269.83,
+      "duration": 2.82
+    },
+    {
+      "text": "and the content is\nstill scrollable.",
+      "start": 1272.65,
+      "duration": 2.32
+    },
+    {
+      "text": "Just one of those\nlittle big things.",
+      "start": 1274.97,
+      "duration": 2.3
+    },
+    {
+      "text": "With a few lines\nof CSS here, I've",
+      "start": 1277.27,
+      "duration": 2.19
+    },
+    {
+      "text": "set overflow, removed\nthat scroll bar visually,",
+      "start": 1279.46,
+      "duration": 2.65
+    },
+    {
+      "text": "and given our carousel an\nanchor name, because that",
+      "start": 1282.11,
+      "duration": 2.42
+    },
+    {
+      "text": "will come in handy in a minute.",
+      "start": 1284.53,
+      "duration": 1.48
+    },
+    {
+      "text": "And using scroll-snap-type\nand scroll-snap-align,",
+      "start": 1286.01,
+      "duration": 3.45
+    },
+    {
+      "text": "which are both widely\navailable since January 2020,",
+      "start": 1289.46,
+      "duration": 3.13
+    },
+    {
+      "text": "I've enabled item\nby item snapping",
+      "start": 1292.59,
+      "duration": 2.12
+    },
+    {
+      "text": "to the center of the carousel.",
+      "start": 1294.71,
+      "duration": 2.01
+    },
+    {
+      "text": "Now that we have\nour scroller set up,",
+      "start": 1296.72,
+      "duration": 1.87
+    },
+    {
+      "text": "let's start with our first\nscroll navigation affordance,",
+      "start": 1298.59,
+      "duration": 3.98
+    },
+    {
+      "text": "and that is Previous\nand Next buttons.",
+      "start": 1302.57,
+      "duration": 2.62
+    },
+    {
+      "text": "The new scroll button pseudo\nelement makes this easy for you,",
+      "start": 1305.19,
+      "duration": 3.24
+    },
+    {
+      "text": "but it doesn't just provide an\nentry point to style a button.",
+      "start": 1308.43,
+      "duration": 3.54
+    },
+    {
+      "text": "It also tells the\nbrowser to generate",
+      "start": 1311.97,
+      "duration": 2.36
+    },
+    {
+      "text": "connected stateful button\nelements for navigating",
+      "start": 1314.33,
+      "duration": 3.51
+    },
+    {
+      "text": "this scroll container, including\na disabled state when you can't",
+      "start": 1317.84,
+      "duration": 3.78
+    },
+    {
+      "text": "scroll anymore in\na given direction,",
+      "start": 1321.62,
+      "duration": 1.89
+    },
+    {
+      "text": "like you can see\nhere at the start.",
+      "start": 1323.51,
+      "duration": 2.46
+    },
+    {
+      "text": "That's the real magic\nwith CSS scroll buttons.",
+      "start": 1325.97,
+      "duration": 2.8
+    },
+    {
+      "text": "The browser automatically gives\nthese buttons the correct ARIA",
+      "start": 1328.77,
+      "duration": 3.17
+    },
+    {
+      "text": "role, puts them\nin the tab order,",
+      "start": 1331.94,
+      "duration": 2.29
+    },
+    {
+      "text": "and disables them at\nthe start or the end,",
+      "start": 1334.23,
+      "duration": 2.34
+    },
+    {
+      "text": "so you don't need to write any\nscripting to do all of this.",
+      "start": 1336.57,
+      "duration": 3.35
+    },
+    {
+      "text": "You can instantiate the buttons\nlike other pseudo elements,",
+      "start": 1339.92,
+      "duration": 3.16
+    },
+    {
+      "text": "with a selector, scroll button\nright as a button on the right,",
+      "start": 1343.08,
+      "duration": 4.05
+    },
+    {
+      "text": "and scroll button\nleft for the left.",
+      "start": 1347.13,
+      "duration": 1.71
+    },
+    {
+      "text": "You can also use top, bottom,\nand logical properties",
+      "start": 1348.84,
+      "duration": 2.68
+    },
+    {
+      "text": "like button--",
+      "start": 1351.52,
+      "duration": 1.03
+    },
+    {
+      "text": "inline start, and you can\nstyle both at the same time",
+      "start": 1352.55,
+      "duration": 4.07
+    },
+    {
+      "text": "with an asterisk\nin the argument.",
+      "start": 1356.62,
+      "duration": 2.61
+    },
+    {
+      "text": "You need to add content\nto give the pseudos",
+      "start": 1359.23,
+      "duration": 2.67
+    },
+    {
+      "text": "a meaningful, accessible\nlabel, which can be",
+      "start": 1361.9,
+      "duration": 2.37
+    },
+    {
+      "text": "done using this slash syntax.",
+      "start": 1364.27,
+      "duration": 2.65
+    },
+    {
+      "text": "So look how simple that is.",
+      "start": 1366.92,
+      "duration": 1.35
+    },
+    {
+      "text": "Just make your container\nscrollable, add these rules,",
+      "start": 1368.27,
+      "duration": 3.11
+    },
+    {
+      "text": "and boom, you have\nnavigation buttons.",
+      "start": 1371.38,
+      "duration": 2.58
+    },
+    {
+      "text": "And now you can lay out these\nbuttons however you want,",
+      "start": 1373.96,
+      "duration": 3.01
+    },
+    {
+      "text": "including an apparent grid or\nusing CSS anchor positioning.",
+      "start": 1376.97,
+      "duration": 5.27
+    },
+    {
+      "text": "Remember how we just set an\nanchor name on our carousel?",
+      "start": 1382.24,
+      "duration": 4.0
+    },
+    {
+      "text": "Well, this is where it's\ngoing to come in handy.",
+      "start": 1386.24,
+      "duration": 2.01
+    },
+    {
+      "text": "We'll need to use\nthat anchor name",
+      "start": 1388.25,
+      "duration": 1.49
+    },
+    {
+      "text": "to anchor the Previous and\nNext buttons in the carousel,",
+      "start": 1389.74,
+      "duration": 3.34
+    },
+    {
+      "text": "like so.",
+      "start": 1393.08,
+      "duration": 0.66
+    },
+    {
+      "text": "We're using position area,\nagain, to position them.",
+      "start": 1393.74,
+      "duration": 3.65
+    },
+    {
+      "text": "Just like the Page Down\nbutton on your keyboard,",
+      "start": 1397.39,
+      "duration": 2.95
+    },
+    {
+      "text": "scroll buttons shift the\ncontent in the carousel",
+      "start": 1400.34,
+      "duration": 2.39
+    },
+    {
+      "text": "by 85% of the scroll\nport by default,",
+      "start": 1402.73,
+      "duration": 3.43
+    },
+    {
+      "text": "but you can have\nmore precise control",
+      "start": 1406.16,
+      "duration": 1.91
+    },
+    {
+      "text": "by using scroll-snap-type\nand scroll-snap-stop.",
+      "start": 1408.07,
+      "duration": 3.29
+    },
+    {
+      "text": "For example, the\ncode here will now",
+      "start": 1411.36,
+      "duration": 2.25
+    },
+    {
+      "text": "only shift the carousel\none item at a time",
+      "start": 1413.61,
+      "duration": 2.76
+    },
+    {
+      "text": "when you click the buttons.",
+      "start": 1416.37,
+      "duration": 3.16
+    },
+    {
+      "text": "So Previous and Next\nbuttons are a great start,",
+      "start": 1419.53,
+      "duration": 2.28
+    },
+    {
+      "text": "but what about\ndirect navigation?",
+      "start": 1421.81,
+      "duration": 2.35
+    },
+    {
+      "text": "Think those dot\nindicators or thumbnails.",
+      "start": 1424.16,
+      "duration": 2.42
+    },
+    {
+      "text": "This is where\nscroll-marker comes in.",
+      "start": 1426.58,
+      "duration": 2.7
+    },
+    {
+      "text": "I like this naming because it\naligns with marker elements",
+      "start": 1429.28,
+      "duration": 2.96
+    },
+    {
+      "text": "for list items, too,\nscroll-marker and",
+      "start": 1432.24,
+      "duration": 2.28
+    },
+    {
+      "text": "scroll-marker-group.",
+      "start": 1434.52,
+      "duration": 1.32
+    },
+    {
+      "text": "Scroll-marker lets you\nassociate navigation markers",
+      "start": 1435.84,
+      "duration": 3.0
+    },
+    {
+      "text": "directly with the items inside\nof your scroll container.",
+      "start": 1438.84,
+      "duration": 4.44
+    },
+    {
+      "text": "To add a scroll-marker,\nsimilar to scroll buttons,",
+      "start": 1443.28,
+      "duration": 3.37
+    },
+    {
+      "text": "you can use a pseudo\nelement that is initiated",
+      "start": 1446.65,
+      "duration": 2.84
+    },
+    {
+      "text": "with the content property.",
+      "start": 1449.49,
+      "duration": 1.81
+    },
+    {
+      "text": "Be sure to give these\naccessible labels as well,",
+      "start": 1451.3,
+      "duration": 2.76
+    },
+    {
+      "text": "like I'm doing here,\nand what I prefer doing",
+      "start": 1454.06,
+      "duration": 2.66
+    },
+    {
+      "text": "is using a data attribute.",
+      "start": 1456.72,
+      "duration": 1.69
+    },
+    {
+      "text": "So for each individual\nitem, I could",
+      "start": 1458.41,
+      "duration": 1.85
+    },
+    {
+      "text": "have a data name\non that list item,",
+      "start": 1460.26,
+      "duration": 2.8
+    },
+    {
+      "text": "and then I could pull it into\nthe content as its label,",
+      "start": 1463.06,
+      "duration": 4.45
+    },
+    {
+      "text": "using the attribute\nfunction like so.",
+      "start": 1467.51,
+      "duration": 2.98
+    },
+    {
+      "text": "So now, I'm dynamically reading\nthe data name on each item",
+      "start": 1470.49,
+      "duration": 3.6
+    },
+    {
+      "text": "and giving that label to all\nof these navigation dots.",
+      "start": 1474.09,
+      "duration": 4.52
+    },
+    {
+      "text": "This is a great feature.",
+      "start": 1478.61,
+      "duration": 1.84
+    },
+    {
+      "text": "I love using attr,\nand it's a great use",
+      "start": 1480.45,
+      "duration": 3.05
+    },
+    {
+      "text": "case when you're using it\nfor labeling like this.",
+      "start": 1483.5,
+      "duration": 2.58
+    },
+    {
+      "text": "But the attribute function also\ngot a big upgrade in Chrome 133,",
+      "start": 1486.08,
+      "duration": 5.65
+    },
+    {
+      "text": "so it's even more powerful now.",
+      "start": 1491.73,
+      "duration": 1.89
+    },
+    {
+      "text": "Before, attr was a way to\npull string content from data",
+      "start": 1493.62,
+      "duration": 4.01
+    },
+    {
+      "text": "attributes to display as\ncontent in pseudo elements,",
+      "start": 1497.63,
+      "duration": 3.19
+    },
+    {
+      "text": "so it was pretty\nlimited to strings.",
+      "start": 1500.82,
+      "duration": 3.15
+    },
+    {
+      "text": "But now, you can use data\nattributes in a much more",
+      "start": 1503.97,
+      "duration": 3.74
+    },
+    {
+      "text": "meaningful way and cast\nthe values to colors,",
+      "start": 1507.71,
+      "duration": 3.97
+    },
+    {
+      "text": "numbers, percentages, custom\nidentifiers, and so on.",
+      "start": 1511.68,
+      "duration": 5.03
+    },
+    {
+      "text": "It's a really cool feature, too.",
+      "start": 1516.71,
+      "duration": 1.45
+    },
+    {
+      "text": "Yeah.",
+      "start": 1518.16,
+      "duration": 1.85
+    },
+    {
+      "text": "So take this example\nof a rating UI.",
+      "start": 1520.01,
+      "duration": 3.01
+    },
+    {
+      "text": "We're setting the\nrating directly",
+      "start": 1523.02,
+      "duration": 1.67
+    },
+    {
+      "text": "as a data attribute in\nthis div, and if you're",
+      "start": 1524.69,
+      "duration": 2.33
+    },
+    {
+      "text": "using a framework,\nwhich you probably are,",
+      "start": 1527.02,
+      "duration": 1.99
+    },
+    {
+      "text": "this is likely how you're\ndoing it, with props where",
+      "start": 1529.01,
+      "duration": 2.42
+    },
+    {
+      "text": "you're setting the data rating.",
+      "start": 1531.43,
+      "duration": 1.83
+    },
+    {
+      "text": "We already have\nthis information.",
+      "start": 1533.26,
+      "duration": 1.81
+    },
+    {
+      "text": "So now, using data-rating, you\ncan reference this numeric value",
+      "start": 1535.07,
+      "duration": 3.77
+    },
+    {
+      "text": "and use it in your styles.",
+      "start": 1538.84,
+      "duration": 1.63
+    },
+    {
+      "text": "Here, we're using\nattr data-rating.",
+      "start": 1540.47,
+      "duration": 1.98
+    },
+    {
+      "text": "We're giving it a\ntype number, so we're",
+      "start": 1542.45,
+      "duration": 1.64
+    },
+    {
+      "text": "casting it to the number.",
+      "start": 1544.09,
+      "duration": 1.33
+    },
+    {
+      "text": "And we're doing\nsome calculations",
+      "start": 1545.42,
+      "duration": 1.97
+    },
+    {
+      "text": "to create that fill percentage,\nwhich is filling in a mask.",
+      "start": 1547.39,
+      "duration": 4.21
+    },
+    {
+      "text": "These stars are a\nmask, and now, we're",
+      "start": 1551.6,
+      "duration": 1.67
+    },
+    {
+      "text": "using that number of the rating\nto create the percentage that we",
+      "start": 1553.27,
+      "duration": 2.85
+    },
+    {
+      "text": "want to fill the mask.",
+      "start": 1556.12,
+      "duration": 1.3
+    },
+    {
+      "text": "We're doing this all in one\nline of code in that CSS custom",
+      "start": 1557.42,
+      "duration": 2.96
+    },
+    {
+      "text": "property.",
+      "start": 1560.38,
+      "duration": 1.86
+    },
+    {
+      "text": "So we can now use that\nvalue inside of a gradient",
+      "start": 1562.24,
+      "duration": 3.42
+    },
+    {
+      "text": "and give that\ngradient a hard stop",
+      "start": 1565.66,
+      "duration": 1.68
+    },
+    {
+      "text": "to actually visualize\nthat fill percent.",
+      "start": 1567.34,
+      "duration": 3.28
+    },
+    {
+      "text": "This is a trick I use all the\ntime with linear gradients",
+      "start": 1570.62,
+      "duration": 2.75
+    },
+    {
+      "text": "and that hard stop value.",
+      "start": 1573.37,
+      "duration": 1.72
+    },
+    {
+      "text": "Super useful.",
+      "start": 1575.09,
+      "duration": 1.43
+    },
+    {
+      "text": "We can even reuse that data\nattribute in the content",
+      "start": 1576.52,
+      "duration": 3.18
+    },
+    {
+      "text": "to display the value.",
+      "start": 1579.7,
+      "duration": 1.84
+    },
+    {
+      "text": "So I think that this\nextended powerful typed",
+      "start": 1581.54,
+      "duration": 3.76
+    },
+    {
+      "text": "capability for the attr\nfunction is awesome,",
+      "start": 1585.3,
+      "duration": 2.86
+    },
+    {
+      "text": "and it's really cool.",
+      "start": 1588.16,
+      "duration": 1.35
+    },
+    {
+      "text": "I think this really showcases\nhow powerful CSS is getting.",
+      "start": 1589.51,
+      "duration": 3.98
+    },
+    {
+      "text": "And speaking of\npowerful CSS, let's",
+      "start": 1593.49,
+      "duration": 2.13
+    },
+    {
+      "text": "get back to our scroll markers.",
+      "start": 1595.62,
+      "duration": 2.68
+    },
+    {
+      "text": "After we've initialized the\nscroll marker with content,",
+      "start": 1598.3,
+      "duration": 3.03
+    },
+    {
+      "text": "we have scroll markers that\nare placed in the scroll marker",
+      "start": 1601.33,
+      "duration": 3.02
+    },
+    {
+      "text": "group, which is\nthe element where",
+      "start": 1604.35,
+      "duration": 1.92
+    },
+    {
+      "text": "they're going to be created.",
+      "start": 1606.27,
+      "duration": 1.89
+    },
+    {
+      "text": "This is some browser\nmagic that does",
+      "start": 1608.16,
+      "duration": 2.58
+    },
+    {
+      "text": "this, because scroll\nmarker is attached",
+      "start": 1610.74,
+      "duration": 1.95
+    },
+    {
+      "text": "to each item in your\ncarousel scroller.",
+      "start": 1612.69,
+      "duration": 2.98
+    },
+    {
+      "text": "So every list item, or\nevery div or every iframe,",
+      "start": 1615.67,
+      "duration": 2.81
+    },
+    {
+      "text": "however you've\ncreated the carousel,",
+      "start": 1618.48,
+      "duration": 1.8
+    },
+    {
+      "text": "will get a scroll marker,\nbut the scroll-marker-group",
+      "start": 1620.28,
+      "duration": 3.0
+    },
+    {
+      "text": "lives inside of the carousel\nparent, so it's kind of funky.",
+      "start": 1623.28,
+      "duration": 3.155
+    },
+    {
+      "text": "If you start\nbuilding with these,",
+      "start": 1626.435,
+      "duration": 1.375
+    },
+    {
+      "text": "you can explore in\nDevTools, and you'll",
+      "start": 1627.81,
+      "duration": 1.668
+    },
+    {
+      "text": "see the difference\nof where they live",
+      "start": 1629.478,
+      "duration": 1.542
+    },
+    {
+      "text": "versus how they're attached.",
+      "start": 1631.02,
+      "duration": 1.39
+    },
+    {
+      "text": "But it kind of\nneeds to be that way",
+      "start": 1632.41,
+      "duration": 1.863
+    },
+    {
+      "text": "so that you can do\nthe accessible labels",
+      "start": 1634.273,
+      "duration": 1.667
+    },
+    {
+      "text": "and connect it to\nall of your items.",
+      "start": 1635.94,
+      "duration": 2.1
+    },
+    {
+      "text": "The browser treats the\nscroll-marker-group",
+      "start": 1638.04,
+      "duration": 2.22
+    },
+    {
+      "text": "like a tab list, and\nthe markers like links.",
+      "start": 1640.26,
+      "duration": 2.59
+    },
+    {
+      "text": "It even handles the\nkeyboard navigation",
+      "start": 1642.85,
+      "duration": 2.05
+    },
+    {
+      "text": "between markers using arrow\nkeys just like a focus group.",
+      "start": 1644.9,
+      "duration": 4.35
+    },
+    {
+      "text": "Finally, there is a new pseudo\nclass primitive to style",
+      "start": 1649.25,
+      "duration": 3.3
+    },
+    {
+      "text": "the active marker\ncalled target-current.",
+      "start": 1652.55,
+      "duration": 2.74
+    },
+    {
+      "text": "You can use target-current to\nstyle the active scroll marker.",
+      "start": 1655.29,
+      "duration": 3.33
+    },
+    {
+      "text": "In this case, we're giving\nit this blue background.",
+      "start": 1658.62,
+      "duration": 4.22
+    },
+    {
+      "text": "With just these\nthree CSS features,",
+      "start": 1662.84,
+      "duration": 2.56
+    },
+    {
+      "text": "we've set up all\nof the state logic,",
+      "start": 1665.4,
+      "duration": 2.03
+    },
+    {
+      "text": "keyboard navigation,\nidentified the active marker,",
+      "start": 1667.43,
+      "duration": 3.25
+    },
+    {
+      "text": "hooked up all of its content,\nand enabled full stylability",
+      "start": 1670.68,
+      "duration": 3.53
+    },
+    {
+      "text": "of carousel marker indicators.",
+      "start": 1674.21,
+      "duration": 2.37
+    },
+    {
+      "text": "Again, this is incredibly\npowerful with very minimal CSS.",
+      "start": 1676.58,
+      "duration": 6.0
+    },
+    {
+      "text": "Another neat scroll marker\ndemo is this product card.",
+      "start": 1682.58,
+      "duration": 3.04
+    },
+    {
+      "text": "It uses image URLs in the scroll\nmarkers as a background image",
+      "start": 1685.62,
+      "duration": 4.04
+    },
+    {
+      "text": "to provide a preview of the\nitem that you're about to use,",
+      "start": 1689.66,
+      "duration": 3.04
+    },
+    {
+      "text": "and you can do this because\nyou can use a background",
+      "start": 1692.7,
+      "duration": 2.39
+    },
+    {
+      "text": "image for each\nscroll marker that's",
+      "start": 1695.09,
+      "duration": 1.8
+    },
+    {
+      "text": "connected to each list item.",
+      "start": 1696.89,
+      "duration": 1.78
+    },
+    {
+      "text": "So that's a pretty\nneat feature to see,",
+      "start": 1698.67,
+      "duration": 2.58
+    },
+    {
+      "text": "and again, it's just a\nscrollable list of items",
+      "start": 1701.25,
+      "duration": 2.19
+    },
+    {
+      "text": "that we're creating using\nthese carousel primitives.",
+      "start": 1703.44,
+      "duration": 5.16
+    },
+    {
+      "text": "A basic carousel\ncould definitely",
+      "start": 1708.6,
+      "duration": 1.92
+    },
+    {
+      "text": "look a little bit nicer with\na touch of animation design,",
+      "start": 1710.52,
+      "duration": 3.07
+    },
+    {
+      "text": "and since we've established\nthat a carousel is",
+      "start": 1713.59,
+      "duration": 1.94
+    },
+    {
+      "text": "a fancy scroller now, let's\nuse some fancy new scroll APIs.",
+      "start": 1715.53,
+      "duration": 4.08
+    },
+    {
+      "text": "From scroll state queries\nto scroll driven animations,",
+      "start": 1719.61,
+      "duration": 3.16
+    },
+    {
+      "text": "there have been a lot\nof new scroll features",
+      "start": 1722.77,
+      "duration": 2.54
+    },
+    {
+      "text": "that have landed in the\npast few months, which",
+      "start": 1725.31,
+      "duration": 2.73
+    },
+    {
+      "text": "make it possible to make\ncarousels just beautifully",
+      "start": 1728.04,
+      "duration": 3.27
+    },
+    {
+      "text": "interactive.",
+      "start": 1731.31,
+      "duration": 1.23
+    },
+    {
+      "text": "This brings me to a new\ntype of MediaQuery called",
+      "start": 1732.54,
+      "duration": 3.21
+    },
+    {
+      "text": "scroll-state queries,\nand I'm so thrilled",
+      "start": 1735.75,
+      "duration": 3.195
+    },
+    {
+      "text": "to see this feature\nlanding because it solves",
+      "start": 1738.945,
+      "duration": 1.875
+    },
+    {
+      "text": "a lot of previously really\nhard to build and manage UI",
+      "start": 1740.82,
+      "duration": 4.47
+    },
+    {
+      "text": "state linked to scrollers.",
+      "start": 1745.29,
+      "duration": 2.58
+    },
+    {
+      "text": "There are three types\nscroll-state queries",
+      "start": 1747.87,
+      "duration": 2.19
+    },
+    {
+      "text": "that let you apply\nstyles in new ways",
+      "start": 1750.06,
+      "duration": 2.76
+    },
+    {
+      "text": "based on a parent\nelement's state.",
+      "start": 1752.82,
+      "duration": 2.11
+    },
+    {
+      "text": "There's stuck for\nsticky elements.",
+      "start": 1754.93,
+      "duration": 2.61
+    },
+    {
+      "text": "There's snapped as in\nsnapped in a scroller,",
+      "start": 1757.54,
+      "duration": 3.3
+    },
+    {
+      "text": "and there's scrollable, which\ntells you if there is overflow.",
+      "start": 1760.84,
+      "duration": 4.21
+    },
+    {
+      "text": "The first is the\nstuck state used",
+      "start": 1765.05,
+      "duration": 2.04
+    },
+    {
+      "text": "for sticky positioned elements.",
+      "start": 1767.09,
+      "duration": 1.66
+    },
+    {
+      "text": "You can now style an element\nwhen its parent is indeed",
+      "start": 1768.75,
+      "duration": 3.11
+    },
+    {
+      "text": "stuck in the stuck position.",
+      "start": 1771.86,
+      "duration": 1.96
+    },
+    {
+      "text": "In this example, the\nheader for each section",
+      "start": 1773.82,
+      "duration": 2.63
+    },
+    {
+      "text": "gets darker and gets a\nbox shadow when its parent",
+      "start": 1776.45,
+      "duration": 3.12
+    },
+    {
+      "text": "section becomes sticky.",
+      "start": 1779.57,
+      "duration": 1.54
+    },
+    {
+      "text": "This is a really nice UI\naffordance for your users.",
+      "start": 1781.11,
+      "duration": 3.38
+    },
+    {
+      "text": "You set the containment on\nthe parent with container type",
+      "start": 1784.49,
+      "duration": 3.36
+    },
+    {
+      "text": "scroll state and apply styling\nwith the container query,",
+      "start": 1787.85,
+      "duration": 4.42
+    },
+    {
+      "text": "the @container\nscroll-state stuck top.",
+      "start": 1792.27,
+      "duration": 2.97
+    },
+    {
+      "text": "You'll also want to\ntransition these properly",
+      "start": 1795.24,
+      "duration": 2.54
+    },
+    {
+      "text": "for that smooth effect.",
+      "start": 1797.78,
+      "duration": 2.64
+    },
+    {
+      "text": "Next, we have the\nscrollable state query,",
+      "start": 1800.42,
+      "duration": 2.55
+    },
+    {
+      "text": "which is really useful\nfor visual indicators",
+      "start": 1802.97,
+      "duration": 2.49
+    },
+    {
+      "text": "of scroll enabled experiences.",
+      "start": 1805.46,
+      "duration": 3.0
+    },
+    {
+      "text": "We're querying for\nscrollability on the bottom edge",
+      "start": 1808.46,
+      "duration": 2.64
+    },
+    {
+      "text": "here, and applying\na linear gradient",
+      "start": 1811.1,
+      "duration": 2.07
+    },
+    {
+      "text": "to an after pseudo element.",
+      "start": 1813.17,
+      "duration": 2.17
+    },
+    {
+      "text": "You would repeat this\non the top as well,",
+      "start": 1815.34,
+      "duration": 1.92
+    },
+    {
+      "text": "and this is just a\nclassic scroll indicator.",
+      "start": 1817.26,
+      "duration": 2.01
+    },
+    {
+      "text": "Again, a great UI\naffordance for your users.",
+      "start": 1819.27,
+      "duration": 3.5
+    },
+    {
+      "text": "Another scroll affordance\nis the scroll-to-top button,",
+      "start": 1822.77,
+      "duration": 3.16
+    },
+    {
+      "text": "which is cleverly built here,\nmixing not with this state",
+      "start": 1825.93,
+      "duration": 3.86
+    },
+    {
+      "text": "query.",
+      "start": 1829.79,
+      "duration": 0.64
+    },
+    {
+      "text": "So it's saying @container\nnot scroll-state scrollable.",
+      "start": 1830.43,
+      "duration": 2.43
+    },
+    {
+      "text": "It's no longer scrollable,\nthen animate this in",
+      "start": 1832.86,
+      "duration": 3.08
+    },
+    {
+      "text": "and have it appear.",
+      "start": 1835.94,
+      "duration": 2.1
+    },
+    {
+      "text": "And then we're translating\nit here from the bottom up",
+      "start": 1838.04,
+      "duration": 3.66
+    },
+    {
+      "text": "with this would be\nan anchor link to.",
+      "start": 1841.7,
+      "duration": 1.817
+    },
+    {
+      "text": "When you click it,\nit goes to the top.",
+      "start": 1843.517,
+      "duration": 1.583
+    },
+    {
+      "text": "So I like this.",
+      "start": 1845.1,
+      "duration": 0.78
+    },
+    {
+      "text": "I think this is a neat feature.",
+      "start": 1845.88,
+      "duration": 1.53
+    },
+    {
+      "text": "Super useful.",
+      "start": 1847.41,
+      "duration": 1.43
+    },
+    {
+      "text": "And finally, there is a\nnew snapped state query,",
+      "start": 1848.84,
+      "duration": 3.04
+    },
+    {
+      "text": "which works so nicely\nfor carousel items",
+      "start": 1851.88,
+      "duration": 2.66
+    },
+    {
+      "text": "and other snapped elements.",
+      "start": 1854.54,
+      "duration": 2.31
+    },
+    {
+      "text": "In our carousel, we can add a\nstyle to the snapped element",
+      "start": 1856.85,
+      "duration": 3.27
+    },
+    {
+      "text": "to give it more\nfocus and attention.",
+      "start": 1860.12,
+      "duration": 1.99
+    },
+    {
+      "text": "So here, we're making it\nlarger than its sibling items.",
+      "start": 1862.11,
+      "duration": 2.735
+    },
+    {
+      "text": "I think it's a little bit\nwashed out in the screen,",
+      "start": 1864.845,
+      "duration": 2.125
+    },
+    {
+      "text": "but there is a light\nblue background.",
+      "start": 1866.97,
+      "duration": 1.59
+    },
+    {
+      "text": "These items are getting bigger.",
+      "start": 1868.56,
+      "duration": 1.292
+    },
+    {
+      "text": "And you can see it in this text\nas that number 4 is expanding.",
+      "start": 1869.852,
+      "duration": 4.158
+    },
+    {
+      "text": "We're scaling it\nup from 0.8 to 1 so",
+      "start": 1874.01,
+      "duration": 3.6
+    },
+    {
+      "text": "that you can see that a little\nbit more visually clearly,",
+      "start": 1877.61,
+      "duration": 2.63
+    },
+    {
+      "text": "and I think that scroll\nstate queries like this",
+      "start": 1880.24,
+      "duration": 2.18
+    },
+    {
+      "text": "are a game changer.",
+      "start": 1882.42,
+      "duration": 1.48
+    },
+    {
+      "text": "They really are.",
+      "start": 1883.9,
+      "duration": 1.85
+    },
+    {
+      "text": "So the second new\nfeature that we",
+      "start": 1885.75,
+      "duration": 1.47
+    },
+    {
+      "text": "can use to really\ngive our carousels",
+      "start": 1887.22,
+      "duration": 2.16
+    },
+    {
+      "text": "and any scroll based\nexperience, some more",
+      "start": 1889.38,
+      "duration": 2.1
+    },
+    {
+      "text": "zhuzh and dynamic\nflair are scroll driven",
+      "start": 1891.48,
+      "duration": 2.94
+    },
+    {
+      "text": "animations, and\nhere's just a taste",
+      "start": 1894.42,
+      "duration": 1.905
+    },
+    {
+      "text": "of scroll driven animations\nfrom our friends at Web Studio.",
+      "start": 1896.325,
+      "duration": 4.118
+    },
+    {
+      "text": "[VIDEO PLAYBACK]",
+      "start": 1900.443,
+      "duration": 0.667
+    },
+    {
+      "text": "- Here are 1,000 animated\nelements synced perfectly with",
+      "start": 1901.11,
+      "duration": 4.08
+    },
+    {
+      "text": "scroll.",
+      "start": 1905.19,
+      "duration": 1.05
+    },
+    {
+      "text": "Who needs this on a website?",
+      "start": 1906.24,
+      "duration": 1.66
+    },
+    {
+      "text": "Well, nobody, but\nthis is what it",
+      "start": 1907.9,
+      "duration": 2.24
+    },
+    {
+      "text": "takes to have super stable\nanimation performance",
+      "start": 1910.14,
+      "duration": 2.97
+    },
+    {
+      "text": "on different devices.",
+      "start": 1913.11,
+      "duration": 1.6
+    },
+    {
+      "text": "Your device can be\nbusy, your JavaScript",
+      "start": 1914.71,
+      "duration": 2.017
+    },
+    {
+      "text": "can be doing things that\nyou're not even aware of,",
+      "start": 1916.727,
+      "duration": 2.083
+    },
+    {
+      "text": "but none of this can ever\ninterrupt the animation.",
+      "start": 1918.81,
+      "duration": 3.04
+    },
+    {
+      "text": "Otherwise, you'd get\nthe junk that we're",
+      "start": 1921.85,
+      "duration": 1.67
+    },
+    {
+      "text": "used to on the web today.",
+      "start": 1923.52,
+      "duration": 2.67
+    },
+    {
+      "text": "These are silky, smooth browser\nnative animations made possible",
+      "start": 1926.19,
+      "duration": 3.69
+    },
+    {
+      "text": "by the scroll timeline API.",
+      "start": 1929.88,
+      "duration": 2.17
+    },
+    {
+      "text": "You can animate any style,\nsuch as rotate and color,",
+      "start": 1932.05,
+      "duration": 3.48
+    },
+    {
+      "text": "to the things you may not be\nused to seeing such a shadow",
+      "start": 1935.53,
+      "duration": 2.65
+    },
+    {
+      "text": "or filters as they move\nthrough the viewport.",
+      "start": 1938.18,
+      "duration": 2.79
+    },
+    {
+      "text": "And these are powerful\nand performant,",
+      "start": 1940.97,
+      "duration": 2.68
+    },
+    {
+      "text": "relying on cutting edge\nbrowser technology.",
+      "start": 1943.65,
+      "duration": 2.97
+    },
+    {
+      "text": "It's simple to get started.",
+      "start": 1946.62,
+      "duration": 1.35
+    },
+    {
+      "text": "You can use one click presets\nor go pedal to the metal",
+      "start": 1947.97,
+      "duration": 2.63
+    },
+    {
+      "text": "and create complex compositions\nwith precise control",
+      "start": 1950.6,
+      "duration": 3.06
+    },
+    {
+      "text": "over every detail.",
+      "start": 1953.66,
+      "duration": 1.51
+    },
+    {
+      "text": "Everything's\nperformance perfected.",
+      "start": 1955.17,
+      "duration": 1.71
+    },
+    {
+      "text": "It's future proof,\nand it's compatible",
+      "start": 1956.88,
+      "duration": 1.82
+    },
+    {
+      "text": "with all modern browsers.",
+      "start": 1958.7,
+      "duration": 1.57
+    },
+    {
+      "text": "And it's available today.",
+      "start": 1960.27,
+      "duration": 1.98
+    },
+    {
+      "text": "[END PLAYBACK]",
+      "start": 1962.25,
+      "duration": 1.437
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1963.687,
+      "duration": 2.874
+    },
+    {
+      "text": "UNA KRAVETS: Companies\nlike Web Studio",
+      "start": 1967.887,
+      "duration": 1.583
+    },
+    {
+      "text": "are using scroll\ndriven animations",
+      "start": 1969.47,
+      "duration": 1.95
+    },
+    {
+      "text": "at the core of their business\nmodel, amending this browser",
+      "start": 1971.42,
+      "duration": 3.36
+    },
+    {
+      "text": "native feature for non-supported\nbrowsers using a polyfill built",
+      "start": 1974.78,
+      "duration": 3.66
+    },
+    {
+      "text": "by Rob Flack, who is one of\nthe primary Chrome engineers",
+      "start": 1978.44,
+      "duration": 3.0
+    },
+    {
+      "text": "who has been working\non this feature.",
+      "start": 1981.44,
+      "duration": 2.85
+    },
+    {
+      "text": "And we can even use\nscroll driven animations",
+      "start": 1984.29,
+      "duration": 2.25
+    },
+    {
+      "text": "to jazz up our carousels, too.",
+      "start": 1986.54,
+      "duration": 2.5
+    },
+    {
+      "text": "In this carousel,\nmost of the work",
+      "start": 1989.04,
+      "duration": 1.82
+    },
+    {
+      "text": "is done here using scroll driven\nanimations, sizing up each item",
+      "start": 1990.86,
+      "duration": 3.9
+    },
+    {
+      "text": "as it flows through\nthe scroller,",
+      "start": 1994.76,
+      "duration": 2.16
+    },
+    {
+      "text": "and you can tell this is scroll\ndriven animations because it's",
+      "start": 1996.92,
+      "duration": 3.14
+    },
+    {
+      "text": "not just a unique state\nfor the snapped item,",
+      "start": 2000.06,
+      "duration": 2.8
+    },
+    {
+      "text": "but each item goes\nthrough a scale up",
+      "start": 2002.86,
+      "duration": 2.51
+    },
+    {
+      "text": "as it moves over to the left.",
+      "start": 2005.37,
+      "duration": 3.33
+    },
+    {
+      "text": "Behind the scenes, the animation\nis translating and scaling",
+      "start": 2008.7,
+      "duration": 3.42
+    },
+    {
+      "text": "each item, and it\nbegins off screen,",
+      "start": 2012.12,
+      "duration": 2.29
+    },
+    {
+      "text": "animating it in that range to 20\nCQI, which is a Container Query",
+      "start": 2014.41,
+      "duration": 4.46
+    },
+    {
+      "text": "Inline unit.",
+      "start": 2018.87,
+      "duration": 1.09
+    },
+    {
+      "text": "This demo is also using\ncontainer queries here,",
+      "start": 2019.96,
+      "duration": 2.64
+    },
+    {
+      "text": "and to top it off, the new\nscroll button affordance",
+      "start": 2022.6,
+      "duration": 2.6
+    },
+    {
+      "text": "adds a nice web style\nflare to this experience.",
+      "start": 2025.2,
+      "duration": 3.678
+    },
+    {
+      "text": "So we have these buttons.",
+      "start": 2028.878,
+      "duration": 1.042
+    },
+    {
+      "text": "We have these scrollers.",
+      "start": 2029.92,
+      "duration": 0.99
+    },
+    {
+      "text": "We have scroll\ndriven animations.",
+      "start": 2030.91,
+      "duration": 1.375
+    },
+    {
+      "text": "We're bringing it all together\nto make really silky smooth UIs.",
+      "start": 2032.285,
+      "duration": 4.915
+    },
+    {
+      "text": "Here's another example where\nscroll driven animations",
+      "start": 2037.2,
+      "duration": 2.49
+    },
+    {
+      "text": "is doing the heavy lifting, this\ntime in a carousel scroller.",
+      "start": 2039.69,
+      "duration": 4.51
+    },
+    {
+      "text": "You can really see the\nbreadth of experiences",
+      "start": 2044.2,
+      "duration": 2.45
+    },
+    {
+      "text": "that you're creating here\nusing scroll driven animations",
+      "start": 2046.65,
+      "duration": 3.089
+    },
+    {
+      "text": "and carousel primitives.",
+      "start": 2049.739,
+      "duration": 2.67
+    },
+    {
+      "text": "To learn more about\nscroll driven animations,",
+      "start": 2052.409,
+      "duration": 2.511
+    },
+    {
+      "text": "my colleague Bramus Van\nDamme has you covered,",
+      "start": 2054.92,
+      "duration": 2.79
+    },
+    {
+      "text": "so check out this link with\na full gallery of animation",
+      "start": 2057.71,
+      "duration": 3.65
+    },
+    {
+      "text": "patterns.",
+      "start": 2061.36,
+      "duration": 0.85
+    },
+    {
+      "text": "And there's a free\nvideo series on YouTube",
+      "start": 2062.21,
+      "duration": 2.84
+    },
+    {
+      "text": "that he created, which\nwalks you through all",
+      "start": 2065.05,
+      "duration": 2.31
+    },
+    {
+      "text": "of the features\nincluded in this API.",
+      "start": 2067.36,
+      "duration": 3.1
+    },
+    {
+      "text": "So if you want to dig deep,\ndefinitely check out this link.",
+      "start": 2070.46,
+      "duration": 3.38
+    },
+    {
+      "text": "One more key accessibility\nconcern for carousels",
+      "start": 2073.84,
+      "duration": 3.21
+    },
+    {
+      "text": "is the ability to focus the\nuser on the active content",
+      "start": 2077.05,
+      "duration": 3.3
+    },
+    {
+      "text": "with easy access to navigation\naffordances like the buttons",
+      "start": 2080.35,
+      "duration": 4.11
+    },
+    {
+      "text": "and markers, essentially\nblurring what is not focused",
+      "start": 2084.46,
+      "duration": 3.42
+    },
+    {
+      "text": "on the screen at a given time.",
+      "start": 2087.88,
+      "duration": 1.96
+    },
+    {
+      "text": "To solve for this,\nthe Chrome team",
+      "start": 2089.84,
+      "duration": 1.85
+    },
+    {
+      "text": "is working with the\naccessibility community",
+      "start": 2091.69,
+      "duration": 2.61
+    },
+    {
+      "text": "to resolve on an\ninteractivity property that",
+      "start": 2094.3,
+      "duration": 2.91
+    },
+    {
+      "text": "will help properly support\nblur and focus management.",
+      "start": 2097.21,
+      "duration": 4.14
+    },
+    {
+      "text": "The code here uses\nscroll state queries",
+      "start": 2101.35,
+      "duration": 3.27
+    },
+    {
+      "text": "to apply inertness to any card\nthat is not currently snapped.",
+      "start": 2104.62,
+      "duration": 4.6
+    },
+    {
+      "text": "Interactivity inert is\nequivalent of dynamically",
+      "start": 2109.22,
+      "duration": 3.7
+    },
+    {
+      "text": "applying the inert attribute,\nwhich already exists in HTML.",
+      "start": 2112.92,
+      "duration": 4.12
+    },
+    {
+      "text": "So this isn't a new concept,\nbut it is a new way to use it.",
+      "start": 2117.04,
+      "duration": 3.63
+    },
+    {
+      "text": "There is an evolving\ndialogue on this feature,",
+      "start": 2120.67,
+      "duration": 2.7
+    },
+    {
+      "text": "and how to best\nsupport developers",
+      "start": 2123.37,
+      "duration": 2.33
+    },
+    {
+      "text": "when applying inertness.",
+      "start": 2125.7,
+      "duration": 2.85
+    },
+    {
+      "text": "To check out even\nmore carousel demos,",
+      "start": 2128.55,
+      "duration": 2.56
+    },
+    {
+      "text": "including scroll [INAUDIBLE]\neffects, paged content,",
+      "start": 2131.11,
+      "duration": 3.75
+    },
+    {
+      "text": "slider galleries, and\neverything I showed here,",
+      "start": 2134.86,
+      "duration": 2.34
+    },
+    {
+      "text": "check out chrome.dev/carousel.",
+      "start": 2137.2,
+      "duration": 3.36
+    },
+    {
+      "text": "There's a ton of\ngood stuff here,",
+      "start": 2140.56,
+      "duration": 1.95
+    },
+    {
+      "text": "so that's chrome.dev/carousel.",
+      "start": 2142.51,
+      "duration": 3.2
+    },
+    {
+      "text": "And check out the Carousel\nConfigurator tool, too,",
+      "start": 2145.71,
+      "duration": 3.43
+    },
+    {
+      "text": "which is linked from\nchrome.dev/carousel,",
+      "start": 2149.14,
+      "duration": 2.97
+    },
+    {
+      "text": "for a closer look at\nhow to use these APIs.",
+      "start": 2152.11,
+      "duration": 3.15
+    },
+    {
+      "text": "That is chrome.dev/carousel\nconfigurator.",
+      "start": 2155.26,
+      "duration": 4.19
+    },
+    {
+      "text": "Carousels are already being\nexplored by Google Search",
+      "start": 2159.45,
+      "duration": 3.57
+    },
+    {
+      "text": "as a way to improve\nperformance under the hood,",
+      "start": 2163.02,
+      "duration": 2.8
+    },
+    {
+      "text": "while maintaining\ntheir existing UI.",
+      "start": 2165.82,
+      "duration": 2.37
+    },
+    {
+      "text": "They estimated the\npotential to save 60% to 75%",
+      "start": 2168.19,
+      "duration": 4.18
+    },
+    {
+      "text": "of their carousel script,\nallowing JavaScript",
+      "start": 2172.37,
+      "duration": 3.03
+    },
+    {
+      "text": "required by other features\nor async deferred content",
+      "start": 2175.4,
+      "duration": 3.63
+    },
+    {
+      "text": "to load earlier.",
+      "start": 2179.03,
+      "duration": 1.183
+    },
+    {
+      "text": "So there really are\nperformance benefits",
+      "start": 2180.213,
+      "duration": 1.667
+    },
+    {
+      "text": "of using these browser\nnative features.",
+      "start": 2181.88,
+      "duration": 2.7
+    },
+    {
+      "text": "Using native CSS carousels\nmeans instant interactivity",
+      "start": 2184.58,
+      "duration": 4.08
+    },
+    {
+      "text": "without requiring\nadded JavaScript.",
+      "start": 2188.66,
+      "duration": 3.39
+    },
+    {
+      "text": "Elementor, which is a WordPress\nbased web creation platform that",
+      "start": 2192.05,
+      "duration": 3.99
+    },
+    {
+      "text": "powers more than 12%\nof the web, has also",
+      "start": 2196.04,
+      "duration": 3.54
+    },
+    {
+      "text": "been experimenting with CSS\ncarousels for their page",
+      "start": 2199.58,
+      "duration": 3.54
+    },
+    {
+      "text": "builder, shown here with\ncustomizable scroll buttons",
+      "start": 2203.12,
+      "duration": 3.03
+    },
+    {
+      "text": "and markers.",
+      "start": 2206.15,
+      "duration": 1.09
+    },
+    {
+      "text": "In fact, Elementor has decided\nto shift their entire web",
+      "start": 2207.24,
+      "duration": 3.5
+    },
+    {
+      "text": "development approach\nto being CSS first,",
+      "start": 2210.74,
+      "duration": 2.86
+    },
+    {
+      "text": "citing better design consistency\nand maintainability at scale.",
+      "start": 2213.6,
+      "duration": 3.775
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2220.195,
+      "duration": 2.395
+    },
+    {
+      "text": "We're Team CSS here.",
+      "start": 2222.59,
+      "duration": 1.96
+    },
+    {
+      "text": "With the CSS only carousel,\nElementor was able to remove",
+      "start": 2224.55,
+      "duration": 3.95
+    },
+    {
+      "text": "165kb of JavaScript and\ndramatically reduce their page",
+      "start": 2228.5,
+      "duration": 4.85
+    },
+    {
+      "text": "size, leading to a snappy and\ninstant page loading experience,",
+      "start": 2233.35,
+      "duration": 4.48
+    },
+    {
+      "text": "which means a better experience\nfor all of their users.",
+      "start": 2237.83,
+      "duration": 3.51
+    },
+    {
+      "text": "And the CSS working\ngroup is already",
+      "start": 2241.34,
+      "duration": 2.06
+    },
+    {
+      "text": "looking ahead to\nexploring things",
+      "start": 2243.4,
+      "duration": 2.16
+    },
+    {
+      "text": "like bringing your own custom\nelements for buttons and markers",
+      "start": 2245.56,
+      "duration": 3.36
+    },
+    {
+      "text": "and native cyclical scrolling.",
+      "start": 2248.92,
+      "duration": 3.24
+    },
+    {
+      "text": "Now, let's move on to our final\nUI pattern, the hover card.",
+      "start": 2252.16,
+      "duration": 4.21
+    },
+    {
+      "text": "You may recognize these from\nsocial media platforms, Gmail,",
+      "start": 2256.37,
+      "duration": 3.75
+    },
+    {
+      "text": "web apps.",
+      "start": 2260.12,
+      "duration": 0.72
+    },
+    {
+      "text": "They're all over the place.",
+      "start": 2260.84,
+      "duration": 1.59
+    },
+    {
+      "text": "You mouse over a\nusername or a link,",
+      "start": 2262.43,
+      "duration": 2.49
+    },
+    {
+      "text": "and a rich tooltip pops\nup, often hitting an API,",
+      "start": 2264.92,
+      "duration": 3.69
+    },
+    {
+      "text": "showing profile\ninformation, quick links,",
+      "start": 2268.61,
+      "duration": 2.46
+    },
+    {
+      "text": "additional interactive\ncontent, or a preview of what",
+      "start": 2271.07,
+      "duration": 2.45
+    },
+    {
+      "text": "you're about to click into.",
+      "start": 2273.52,
+      "duration": 1.95
+    },
+    {
+      "text": "Building this is, well,\nit's really tough.",
+      "start": 2275.47,
+      "duration": 3.61
+    },
+    {
+      "text": "It involves managing multiple\ninterest based events and states",
+      "start": 2279.08,
+      "duration": 4.34
+    },
+    {
+      "text": "and adding event\ndelays on interest,",
+      "start": 2283.42,
+      "duration": 4.11
+    },
+    {
+      "text": "displaying and dismissing the\npopover open and closed states,",
+      "start": 2287.53,
+      "duration": 4.26
+    },
+    {
+      "text": "managing various other\nmodalities like pointer devices.",
+      "start": 2291.79,
+      "duration": 4.31
+    },
+    {
+      "text": "Think about desktop, keyboard\nnavigation, touch screen",
+      "start": 2296.1,
+      "duration": 2.7
+    },
+    {
+      "text": "interactions, and also hooking\ninto accessibility correctly.",
+      "start": 2298.8,
+      "duration": 5.19
+    },
+    {
+      "text": "This also includes tab\nmanagement and content blur.",
+      "start": 2303.99,
+      "duration": 4.09
+    },
+    {
+      "text": "The only teams that I\nknow who have actually",
+      "start": 2308.08,
+      "duration": 2.39
+    },
+    {
+      "text": "shipped these features\nhave spent months on them",
+      "start": 2310.47,
+      "duration": 3.09
+    },
+    {
+      "text": "and had dedicated\nsupport teams just",
+      "start": 2313.56,
+      "duration": 2.347
+    },
+    {
+      "text": "to get something out\nthe door and make",
+      "start": 2315.907,
+      "duration": 1.583
+    },
+    {
+      "text": "sure it works for their users.",
+      "start": 2317.49,
+      "duration": 1.87
+    },
+    {
+      "text": "Not long ago, I remember\nspeaking to folks",
+      "start": 2319.36,
+      "duration": 2.18
+    },
+    {
+      "text": "at another big tech company\nabout how challenging it",
+      "start": 2321.54,
+      "duration": 2.85
+    },
+    {
+      "text": "was for them to build\ntheir layered UI features.",
+      "start": 2324.39,
+      "duration": 2.95
+    },
+    {
+      "text": "It took a team of\nthree engineers",
+      "start": 2327.34,
+      "duration": 2.3
+    },
+    {
+      "text": "six months to build an\ninterest enabled popover,",
+      "start": 2329.64,
+      "duration": 3.85
+    },
+    {
+      "text": "and they still weren't sure\nthat they got it right,",
+      "start": 2333.49,
+      "duration": 2.75
+    },
+    {
+      "text": "and they didn't have it\nsupport touch devices either.",
+      "start": 2336.24,
+      "duration": 3.72
+    },
+    {
+      "text": "This complexity\nand this ubiquity",
+      "start": 2339.96,
+      "duration": 2.85
+    },
+    {
+      "text": "is why we want to solve\nthis problem on the web",
+      "start": 2342.81,
+      "duration": 2.91
+    },
+    {
+      "text": "once and for all.",
+      "start": 2345.72,
+      "duration": 2.0
+    },
+    {
+      "text": "Popover and anchor positioning\nget you much of the way there,",
+      "start": 2347.72,
+      "duration": 3.25
+    },
+    {
+      "text": "but you still need a few\nmore things, which brings me",
+      "start": 2350.97,
+      "duration": 3.17
+    },
+    {
+      "text": "to the magic of interesttarget.",
+      "start": 2354.14,
+      "duration": 2.14
+    },
+    {
+      "text": "If you saw the developer\nkeynote, you saw this in action.",
+      "start": 2356.28,
+      "duration": 2.91
+    },
+    {
+      "text": "This is an early stage\norigin trial feature,",
+      "start": 2359.19,
+      "duration": 2.88
+    },
+    {
+      "text": "so know that it is\nsubject to change,",
+      "start": 2362.07,
+      "duration": 1.95
+    },
+    {
+      "text": "but it really packs\na lot of power.",
+      "start": 2364.02,
+      "duration": 2.55
+    },
+    {
+      "text": "And you can try it out today\nby turning on experimental web",
+      "start": 2366.57,
+      "duration": 3.59
+    },
+    {
+      "text": "platform features in Chrome\nCanary using the flag.",
+      "start": 2370.16,
+      "duration": 4.29
+    },
+    {
+      "text": "Interest invokers bring you the\npower of declarative popover",
+      "start": 2374.45,
+      "duration": 3.81
+    },
+    {
+      "text": "actions, but instead of relying\non a click to open the button,",
+      "start": 2378.26,
+      "duration": 3.58
+    },
+    {
+      "text": "the user instead shows interest,\nsuch as a hover for pointer",
+      "start": 2381.84,
+      "duration": 3.62
+    },
+    {
+      "text": "devices, tab navigation\nwith keyboard,",
+      "start": 2385.46,
+      "duration": 2.89
+    },
+    {
+      "text": "or long press on touch screens.",
+      "start": 2388.35,
+      "duration": 2.48
+    },
+    {
+      "text": "This also means that\nyou can now apply",
+      "start": 2390.83,
+      "duration": 2.46
+    },
+    {
+      "text": "tooltips and other functional\ninformation to links",
+      "start": 2393.29,
+      "duration": 3.96
+    },
+    {
+      "text": "and other meaningful\ncontent, enabling",
+      "start": 2397.25,
+      "duration": 2.16
+    },
+    {
+      "text": "this multifunctional aspect to\nyour layered user interfaces.",
+      "start": 2399.41,
+      "duration": 4.77
+    },
+    {
+      "text": "To change one of our popovers to\nbe invoked via interest instead",
+      "start": 2404.18,
+      "duration": 3.91
+    },
+    {
+      "text": "of a click, all you need to\ndo is change popovertarget",
+      "start": 2408.09,
+      "duration": 3.72
+    },
+    {
+      "text": "to interesttarget.",
+      "start": 2411.81,
+      "duration": 2.76
+    },
+    {
+      "text": "Everything else stays the\nsame, including setting an ID",
+      "start": 2414.57,
+      "duration": 3.21
+    },
+    {
+      "text": "and a popover attribute\non the popover",
+      "start": 2417.78,
+      "duration": 2.19
+    },
+    {
+      "text": "being opened by interest.",
+      "start": 2419.97,
+      "duration": 2.55
+    },
+    {
+      "text": "This means that\nmany of the benefits",
+      "start": 2422.52,
+      "duration": 2.01
+    },
+    {
+      "text": "are the same, including\ntop layer support",
+      "start": 2424.53,
+      "duration": 3.09
+    },
+    {
+      "text": "and semantically connecting\ninvoking elements",
+      "start": 2427.62,
+      "duration": 2.61
+    },
+    {
+      "text": "to their interest targets.",
+      "start": 2430.23,
+      "duration": 1.87
+    },
+    {
+      "text": "But what is new are the\nentry and exit effects.",
+      "start": 2432.1,
+      "duration": 3.75
+    },
+    {
+      "text": "Now, the browser handles these\nevents on the user showing",
+      "start": 2435.85,
+      "duration": 3.62
+    },
+    {
+      "text": "interest, whether\nthat's on hover,",
+      "start": 2439.47,
+      "duration": 2.08
+    },
+    {
+      "text": "tab navigation, or long press.",
+      "start": 2441.55,
+      "duration": 3.53
+    },
+    {
+      "text": "And with interest\ninvokers, you can now also",
+      "start": 2445.08,
+      "duration": 2.37
+    },
+    {
+      "text": "set event delays\nwith one line of CSS,",
+      "start": 2447.45,
+      "duration": 3.43
+    },
+    {
+      "text": "giving your users\nmore time to interact",
+      "start": 2450.88,
+      "duration": 2.66
+    },
+    {
+      "text": "or waiting for a longer\ninterest hold before opening.",
+      "start": 2453.54,
+      "duration": 4.38
+    },
+    {
+      "text": "Let's take a look at an example.",
+      "start": 2457.92,
+      "duration": 1.84
+    },
+    {
+      "text": "In this demo, each\nof these links",
+      "start": 2459.76,
+      "duration": 1.7
+    },
+    {
+      "text": "triggers a preview\ncard on interest.",
+      "start": 2461.46,
+      "duration": 2.47
+    },
+    {
+      "text": "This pattern is super\nuseful because it gives you",
+      "start": 2463.93,
+      "duration": 2.618
+    },
+    {
+      "text": "more information about\nwhat you're about to click",
+      "start": 2466.548,
+      "duration": 2.042
+    },
+    {
+      "text": "on, with potentially\nadded behavior",
+      "start": 2468.59,
+      "duration": 2.52
+    },
+    {
+      "text": "without having to leave the\npage and lose your flow,",
+      "start": 2471.11,
+      "duration": 2.98
+    },
+    {
+      "text": "letting the interaction work\non the click as double duty.",
+      "start": 2474.09,
+      "duration": 3.98
+    },
+    {
+      "text": "The document structure\nuses simple HTML.",
+      "start": 2478.07,
+      "duration": 3.09
+    },
+    {
+      "text": "As I just mentioned, one unique\nfeature of interesttargets",
+      "start": 2481.16,
+      "duration": 2.94
+    },
+    {
+      "text": "is that they can be placed\non links, not only buttons,",
+      "start": 2484.1,
+      "duration": 2.7
+    },
+    {
+      "text": "like regular popover invokers.",
+      "start": 2486.8,
+      "duration": 2.67
+    },
+    {
+      "text": "So here, we have some links that\nreference the different popovers",
+      "start": 2489.47,
+      "duration": 2.79
+    },
+    {
+      "text": "again by ID, and you\nhave full styling control",
+      "start": 2492.26,
+      "duration": 3.69
+    },
+    {
+      "text": "over this popover.",
+      "start": 2495.95,
+      "duration": 1.24
+    },
+    {
+      "text": "You can even adjust these\nentry and exit delays.",
+      "start": 2497.19,
+      "duration": 2.99
+    },
+    {
+      "text": "So now, we're using the\ninterest-target-delay here,",
+      "start": 2500.18,
+      "duration": 2.52
+    },
+    {
+      "text": "and if you don't\nwant any delay, you",
+      "start": 2502.7,
+      "duration": 1.5
+    },
+    {
+      "text": "can just set it to 0 seconds.",
+      "start": 2504.2,
+      "duration": 2.43
+    },
+    {
+      "text": "But if you want it to\nappear with more of a delay,",
+      "start": 2506.63,
+      "duration": 2.88
+    },
+    {
+      "text": "you can increase that\ntime to one second.",
+      "start": 2509.51,
+      "duration": 3.01
+    },
+    {
+      "text": "So here, I'm showing one second.",
+      "start": 2512.52,
+      "duration": 1.59
+    },
+    {
+      "text": "This is useful when you have\nrich content in your tooltip",
+      "start": 2514.11,
+      "duration": 2.9
+    },
+    {
+      "text": "that you want to\ngive users a chance",
+      "start": 2517.01,
+      "duration": 1.8
+    },
+    {
+      "text": "to reach, delaying its blur\nstate when they lose interest.",
+      "start": 2518.81,
+      "duration": 3.99
+    },
+    {
+      "text": "And if you want to have an\nentry delay of 0 seconds,",
+      "start": 2522.8,
+      "duration": 2.97
+    },
+    {
+      "text": "but an exit delay of one\nsecond, you can do that, too.",
+      "start": 2525.77,
+      "duration": 2.67
+    },
+    {
+      "text": "You have full control of\nthese entry and exit delays.",
+      "start": 2528.44,
+      "duration": 3.65
+    },
+    {
+      "text": "Finally, I want to\nhighlight, pun intended,",
+      "start": 2532.09,
+      "duration": 3.61
+    },
+    {
+      "text": "this new has-interest\npseudo class that",
+      "start": 2535.7,
+      "duration": 3.32
+    },
+    {
+      "text": "lets you style an element\non any interest interaction.",
+      "start": 2539.02,
+      "duration": 4.33
+    },
+    {
+      "text": "You might notice that\nthis link underline, which",
+      "start": 2543.35,
+      "duration": 2.45
+    },
+    {
+      "text": "occurs on hover, fades\nat a different rate",
+      "start": 2545.8,
+      "duration": 3.36
+    },
+    {
+      "text": "than the yellow background.",
+      "start": 2549.16,
+      "duration": 1.42
+    },
+    {
+      "text": "This is the difference between\nsomething like a hover and focus",
+      "start": 2550.58,
+      "duration": 3.26
+    },
+    {
+      "text": "pseudo class versus interest,\nthis has-interest pseudo class.",
+      "start": 2553.84,
+      "duration": 4.5
+    },
+    {
+      "text": "Hover in focus would\nhappen with no delay,",
+      "start": 2558.34,
+      "duration": 2.53
+    },
+    {
+      "text": "but here, we have a one second\nexit delay on these interest",
+      "start": 2560.87,
+      "duration": 3.47
+    },
+    {
+      "text": "invoker, so you can see them\noccurring at different rates.",
+      "start": 2564.34,
+      "duration": 3.63
+    },
+    {
+      "text": "Let's take a look at another\nexample, this time showing",
+      "start": 2567.97,
+      "duration": 2.76
+    },
+    {
+      "text": "that you can have\nmultiple popovers being",
+      "start": 2570.73,
+      "duration": 1.8
+    },
+    {
+      "text": "invoked from a single button.",
+      "start": 2572.53,
+      "duration": 1.6
+    },
+    {
+      "text": "Remember that popover from\nthe start of this talk?",
+      "start": 2574.13,
+      "duration": 2.58
+    },
+    {
+      "text": "We can now add a tooltip\nto it on interest",
+      "start": 2576.71,
+      "duration": 2.3
+    },
+    {
+      "text": "and keep the click functionality\nfor the notifications pop over.",
+      "start": 2579.01,
+      "duration": 3.53
+    },
+    {
+      "text": "The notifications bell is still\ninvoking this auto popover",
+      "start": 2582.54,
+      "duration": 4.29
+    },
+    {
+      "text": "with the notifications\nin it, and behaves",
+      "start": 2586.83,
+      "duration": 2.28
+    },
+    {
+      "text": "using click or space\nor touch to open.",
+      "start": 2589.11,
+      "duration": 3.57
+    },
+    {
+      "text": "But now, we have an\ninterest triggered",
+      "start": 2592.68,
+      "duration": 2.01
+    },
+    {
+      "text": "tooltip that gives you a preview\ndescription of what that bell",
+      "start": 2594.69,
+      "duration": 3.42
+    },
+    {
+      "text": "icon means, too.",
+      "start": 2598.11,
+      "duration": 1.84
+    },
+    {
+      "text": "And if you didn't notice,\nthe tooltip popover",
+      "start": 2599.95,
+      "duration": 2.12
+    },
+    {
+      "text": "doesn't close other auto\npopovers when it's open.",
+      "start": 2602.07,
+      "duration": 4.53
+    },
+    {
+      "text": "This is because of\na new popover type",
+      "start": 2606.6,
+      "duration": 2.31
+    },
+    {
+      "text": "called popover equals hint,\nwhich landed in Chrome 133",
+      "start": 2608.91,
+      "duration": 3.93
+    },
+    {
+      "text": "to complete the trifecta\nof popover types.",
+      "start": 2612.84,
+      "duration": 2.885
+    },
+    {
+      "text": "Shout out to the team.",
+      "start": 2618.84,
+      "duration": 2.22
+    },
+    {
+      "text": "What's the difference,\nyou might be wondering?",
+      "start": 2621.06,
+      "duration": 2.17
+    },
+    {
+      "text": "Well, mostly, the difference\nlies in its behavior.",
+      "start": 2623.23,
+      "duration": 2.58
+    },
+    {
+      "text": "Popover equals auto\nand popover equals",
+      "start": 2625.81,
+      "duration": 2.06
+    },
+    {
+      "text": "manual both close other\npopovers when they're open.",
+      "start": 2627.87,
+      "duration": 3.73
+    },
+    {
+      "text": "Popover manual requires\na specific close event",
+      "start": 2631.6,
+      "duration": 3.11
+    },
+    {
+      "text": "to close it, and it doesn't\nsupport light dismiss.",
+      "start": 2634.71,
+      "duration": 2.52
+    },
+    {
+      "text": "And popover equals hint\nis the only popover",
+      "start": 2637.23,
+      "duration": 2.4
+    },
+    {
+      "text": "type that doesn't close\nother popovers when opened.",
+      "start": 2639.63,
+      "duration": 3.45
+    },
+    {
+      "text": "You use a hint popover\nlike any other popover,",
+      "start": 2643.08,
+      "duration": 3.06
+    },
+    {
+      "text": "giving it a value of hint.",
+      "start": 2646.14,
+      "duration": 1.74
+    },
+    {
+      "text": "Now, this type of popover\nwill not close other popovers",
+      "start": 2647.88,
+      "duration": 3.14
+    },
+    {
+      "text": "when opened.",
+      "start": 2651.02,
+      "duration": 1.08
+    },
+    {
+      "text": "Hint popovers are\nmost useful when",
+      "start": 2652.1,
+      "duration": 2.22
+    },
+    {
+      "text": "combined with interesttarget\nbecause an auto or manual",
+      "start": 2654.32,
+      "duration": 3.24
+    },
+    {
+      "text": "popover will close if you\nclick anywhere else in the UI",
+      "start": 2657.56,
+      "duration": 3.64
+    },
+    {
+      "text": "anyway, so to keep\nthem open, you",
+      "start": 2661.2,
+      "duration": 2.39
+    },
+    {
+      "text": "must be able to trigger a\npopover without a click event",
+      "start": 2663.59,
+      "duration": 2.88
+    },
+    {
+      "text": "or equivalent.",
+      "start": 2666.47,
+      "duration": 1.59
+    },
+    {
+      "text": "That's why interest invokers\nand hint popovers go together",
+      "start": 2668.06,
+      "duration": 3.42
+    },
+    {
+      "text": "like peanut butter and jelly.",
+      "start": 2671.48,
+      "duration": 2.67
+    },
+    {
+      "text": "The hint popover is useful\nfor a variety of layered UIs,",
+      "start": 2674.15,
+      "duration": 3.63
+    },
+    {
+      "text": "like tooltips, profile\ncards, action bars,",
+      "start": 2677.78,
+      "duration": 3.79
+    },
+    {
+      "text": "preview cards for\nlinks, basically",
+      "start": 2681.57,
+      "duration": 1.85
+    },
+    {
+      "text": "anywhere that you\nhave a element,",
+      "start": 2683.42,
+      "duration": 3.64
+    },
+    {
+      "text": "an existing popover open.",
+      "start": 2687.06,
+      "duration": 1.35
+    },
+    {
+      "text": "You want to open another\none without closing",
+      "start": 2688.41,
+      "duration": 1.833
+    },
+    {
+      "text": "other popovers, like menus,\nchat windows, et cetera.",
+      "start": 2690.243,
+      "duration": 3.347
+    },
+    {
+      "text": "And our origin trial\npartners are already",
+      "start": 2693.59,
+      "duration": 2.52
+    },
+    {
+      "text": "finding this\nfeature super handy.",
+      "start": 2696.11,
+      "duration": 1.93
+    },
+    {
+      "text": "CBS News built out\nthese author bio cards",
+      "start": 2698.04,
+      "duration": 3.16
+    },
+    {
+      "text": "using the interest invoker API.",
+      "start": 2701.2,
+      "duration": 2.46
+    },
+    {
+      "text": "Using native browser\nfunctionality",
+      "start": 2703.66,
+      "duration": 2.37
+    },
+    {
+      "text": "meant less overhead and a\nsmoother implementation overall.",
+      "start": 2706.03,
+      "duration": 3.85
+    },
+    {
+      "text": "They also noted that one nice\nbonus was the built-in pseudo",
+      "start": 2709.88,
+      "duration": 3.83
+    },
+    {
+      "text": "class styling for styling\nwhen that popover is open,",
+      "start": 2713.71,
+      "duration": 3.37
+    },
+    {
+      "text": "which let them handle\nvisual states cleanly",
+      "start": 2717.08,
+      "duration": 2.63
+    },
+    {
+      "text": "without extra JavaScript.",
+      "start": 2719.71,
+      "duration": 3.21
+    },
+    {
+      "text": "If you want interesttarget to\nland, we need to hear from you.",
+      "start": 2722.92,
+      "duration": 3.61
+    },
+    {
+      "text": "If you're here, come talk to\nus at the demo booth or the Q&A",
+      "start": 2726.53,
+      "duration": 3.32
+    },
+    {
+      "text": "station, and if you're\nwatching online,",
+      "start": 2729.85,
+      "duration": 2.32
+    },
+    {
+      "text": "leave a comment on\nthis YouTube video.",
+      "start": 2732.17,
+      "duration": 2.52
+    },
+    {
+      "text": "Let us know if you would use\nthis and how you would use this.",
+      "start": 2734.69,
+      "duration": 4.65
+    },
+    {
+      "text": "The shape of this feature\nis an active discussion,",
+      "start": 2739.34,
+      "duration": 2.9
+    },
+    {
+      "text": "and you can add your voice\nto the conversation now.",
+      "start": 2742.24,
+      "duration": 4.02
+    },
+    {
+      "text": "We've just tackled three of the\nmost notoriously difficult UI",
+      "start": 2746.26,
+      "duration": 4.2
+    },
+    {
+      "text": "patterns, customizable\nSelects, which are now",
+      "start": 2750.46,
+      "duration": 3.18
+    },
+    {
+      "text": "enabled with the popover\nAPI and anchor positioning",
+      "start": 2753.64,
+      "duration": 2.91
+    },
+    {
+      "text": "with full and native\ncustomization landing in Chrome",
+      "start": 2756.55,
+      "duration": 2.96
+    },
+    {
+      "text": "134; carousels made\neasier in Chrome 135",
+      "start": 2759.51,
+      "duration": 4.46
+    },
+    {
+      "text": "with scroll markers, scroll\nbuttons, interactivity,",
+      "start": 2763.97,
+      "duration": 3.3
+    },
+    {
+      "text": "and scroll state queries;\nand hover cards, which",
+      "start": 2767.27,
+      "duration": 3.24
+    },
+    {
+      "text": "are becoming declarative\nusing popover",
+      "start": 2770.51,
+      "duration": 2.46
+    },
+    {
+      "text": "equals hint and the evolving\ninterest invoker API.",
+      "start": 2772.97,
+      "duration": 4.5
+    },
+    {
+      "text": "These features-- yes.",
+      "start": 2777.47,
+      "duration": 2.64
+    },
+    {
+      "text": "These features,\nthe vast majority",
+      "start": 2780.11,
+      "duration": 2.22
+    },
+    {
+      "text": "of which are now available\nin Chrome Stable,",
+      "start": 2782.33,
+      "duration": 3.1
+    },
+    {
+      "text": "and this represents\na fundamental shift.",
+      "start": 2785.43,
+      "duration": 2.73
+    },
+    {
+      "text": "They empower us to build\ncomplex UI patterns",
+      "start": 2788.16,
+      "duration": 3.29
+    },
+    {
+      "text": "in a way that's more accessible,\nmore performant, more efficient,",
+      "start": 2791.45,
+      "duration": 4.96
+    },
+    {
+      "text": "using the power of\ndeclarative CSS and HTML.",
+      "start": 2796.41,
+      "duration": 4.37
+    },
+    {
+      "text": "This means less code\ncruft, better performance,",
+      "start": 2800.78,
+      "duration": 2.74
+    },
+    {
+      "text": "built in accessibility,\nand more time for you",
+      "start": 2803.52,
+      "duration": 2.12
+    },
+    {
+      "text": "to innovate and focus on\nthe fun stuff, the stuff",
+      "start": 2805.64,
+      "duration": 2.85
+    },
+    {
+      "text": "that we want to do.",
+      "start": 2808.49,
+      "duration": 2.01
+    },
+    {
+      "text": "I encourage you to check out\nthe demos and resources linked",
+      "start": 2810.5,
+      "duration": 2.97
+    },
+    {
+      "text": "on web.dev and the Chrome\nfor Developers blog, which",
+      "start": 2813.47,
+      "duration": 3.41
+    },
+    {
+      "text": "is at developer.chrome.com.",
+      "start": 2816.88,
+      "duration": 1.93
+    },
+    {
+      "text": "Try refactoring one of\nyour existing UI components",
+      "start": 2818.81,
+      "duration": 2.57
+    },
+    {
+      "text": "and see how much JavaScript\nyou can get rid of.",
+      "start": 2821.38,
+      "duration": 1.99
+    },
+    {
+      "text": "It's a lot of fun, I promise.",
+      "start": 2823.37,
+      "duration": 1.74
+    },
+    {
+      "text": "It's a lot of fun to do that.",
+      "start": 2825.11,
+      "duration": 1.58
+    },
+    {
+      "text": "And the features\nmentioned here today",
+      "start": 2826.69,
+      "duration": 1.59
+    },
+    {
+      "text": "are just the tip of the iceberg.",
+      "start": 2828.28,
+      "duration": 1.99
+    },
+    {
+      "text": "We also have a ton of\nother awesome features",
+      "start": 2830.27,
+      "duration": 2.18
+    },
+    {
+      "text": "that we've landed or are working\non landing soon in the web",
+      "start": 2832.45,
+      "duration": 3.0
+    },
+    {
+      "text": "platform like calc-size\nand interpolate-size",
+      "start": 2835.45,
+      "duration": 2.97
+    },
+    {
+      "text": "for animating from\nheight 0 to auto.",
+      "start": 2838.42,
+      "duration": 2.05
+    },
+    {
+      "text": "That wasn't possible before.",
+      "start": 2840.47,
+      "duration": 2.04
+    },
+    {
+      "text": "All of these really cool new\ntext box trim properties, text",
+      "start": 2842.51,
+      "duration": 3.59
+    },
+    {
+      "text": "box, text box trim, text\nbox edge for typography,",
+      "start": 2846.1,
+      "duration": 3.49
+    },
+    {
+      "text": "the new responsive\nshape function.",
+      "start": 2849.59,
+      "duration": 1.76
+    },
+    {
+      "text": "If you haven't seen that one\nyet, that one's really great.",
+      "start": 2851.35,
+      "duration": 2.7
+    },
+    {
+      "text": "CSS logical if\nand CSS functions.",
+      "start": 2854.05,
+      "duration": 3.51
+    },
+    {
+      "text": "If is coming out in 137.",
+      "start": 2857.56,
+      "duration": 1.63
+    },
+    {
+      "text": "I'll be writing about that soon.",
+      "start": 2859.19,
+      "duration": 1.41
+    },
+    {
+      "text": "There's advances in view\ntransitions and navigation,",
+      "start": 2860.6,
+      "duration": 2.73
+    },
+    {
+      "text": "and there's even\nmore coming out soon,",
+      "start": 2863.33,
+      "duration": 1.59
+    },
+    {
+      "text": "like sibling count and sibling\nindex for staggered animation",
+      "start": 2864.92,
+      "duration": 3.2
+    },
+    {
+      "text": "effects, progress\nfunctions, additional math",
+      "start": 2868.12,
+      "duration": 2.49
+    },
+    {
+      "text": "functions, and CSS mixins.",
+      "start": 2870.61,
+      "duration": 2.55
+    },
+    {
+      "text": "To learn more, again,\nyou can follow us",
+      "start": 2873.16,
+      "duration": 2.15
+    },
+    {
+      "text": "online at web.dev and\ndeveloper.chrome.com.",
+      "start": 2875.31,
+      "duration": 3.34
+    },
+    {
+      "text": "You can join us here at the\nQ&A sessions and demo booths.",
+      "start": 2878.65,
+      "duration": 2.88
+    },
+    {
+      "text": "You can follow me or\nBramus on the DevRel team",
+      "start": 2881.53,
+      "duration": 3.11
+    },
+    {
+      "text": "on Twitter or BlueSky.",
+      "start": 2884.64,
+      "duration": 1.84
+    },
+    {
+      "text": "Follow Chromium devs.",
+      "start": 2886.48,
+      "duration": 1.97
+    },
+    {
+      "text": "Check out all of the resources\nthat we have for you.",
+      "start": 2888.45,
+      "duration": 2.62
+    },
+    {
+      "text": "There is a lot.",
+      "start": 2891.07,
+      "duration": 0.99
+    },
+    {
+      "text": "And again, a huge thank you\nto the engineering teams that",
+      "start": 2892.06,
+      "duration": 3.26
+    },
+    {
+      "text": "have made all of this possible.",
+      "start": 2895.32,
+      "duration": 1.413
+    },
+    {
+      "text": "Let's give them\naround of applause",
+      "start": 2896.733,
+      "duration": 1.417
+    },
+    {
+      "text": "because they're the ones who are\nbuilding the web for you all.",
+      "start": 2898.15,
+      "duration": 2.95
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 2901.1,
+      "duration": 2.69
+    },
+    {
+      "text": "And thank you also for following\nalong, using these features,",
+      "start": 2905.67,
+      "duration": 4.33
+    },
+    {
+      "text": "giving us feedback, and\nfor making the web awesome.",
+      "start": 2910.0,
+      "duration": 3.0
+    },
+    {
+      "text": "Don't be afraid to\ngive us feedback.",
+      "start": 2913.0,
+      "duration": 1.65
+    },
+    {
+      "text": "Your input, it\nreally does directly",
+      "start": 2914.65,
+      "duration": 2.09
+    },
+    {
+      "text": "shape the future of\nthe web platform.",
+      "start": 2916.74,
+      "duration": 2.11
+    },
+    {
+      "text": "So let's build\nsmarter, not harder.",
+      "start": 2918.85,
+      "duration": 2.79
+    },
+    {
+      "text": "Thank you, again.",
+      "start": 2921.64,
+      "duration": 0.9
+    },
+    {
+      "text": "Thank you.",
+      "start": 2922.54,
+      "duration": 0.5
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2923.04,
+      "duration": 3.05
+    }
+  ]
+}

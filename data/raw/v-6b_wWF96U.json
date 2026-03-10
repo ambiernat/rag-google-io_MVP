@@ -1,0 +1,1257 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "v-6b_wWF96U",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.44
+    },
+    {
+      "text": "IDA ASSAYESH: Hi, I'm\nIda, the Product Lead",
+      "start": 6.35,
+      "duration": 2.1
+    },
+    {
+      "text": "for the Gamer Profile on Play.",
+      "start": 8.45,
+      "duration": 2.52
+    },
+    {
+      "text": "HEMANT PAWAR: And I'm\nHemant Pawar, a Product",
+      "start": 10.97,
+      "duration": 2.01
+    },
+    {
+      "text": "Lead for Play Game Services.",
+      "start": 12.98,
+      "duration": 2.79
+    },
+    {
+      "text": "Play Game Services or PGS\nis a foundational piece",
+      "start": 15.77,
+      "duration": 3.51
+    },
+    {
+      "text": "of technology with features\ndesigned to help enhance",
+      "start": 19.28,
+      "duration": 3.66
+    },
+    {
+      "text": "the engagement, social\naspects, and overall success",
+      "start": 22.94,
+      "duration": 3.69
+    },
+    {
+      "text": "of your games across Android\nand Windows platform.",
+      "start": 26.63,
+      "duration": 4.77
+    },
+    {
+      "text": "In today's talk, we will\ndiscuss how Play Game Services",
+      "start": 31.4,
+      "duration": 3.99
+    },
+    {
+      "text": "can level up your game on Play.",
+      "start": 35.39,
+      "duration": 2.79
+    },
+    {
+      "text": "We will also be showcasing\ntwo exciting features,",
+      "start": 38.18,
+      "duration": 3.43
+    },
+    {
+      "text": "game achievements\nand gen AI avatars.",
+      "start": 41.61,
+      "duration": 2.88
+    },
+    {
+      "text": "You will also learn\nabout the migration path",
+      "start": 44.49,
+      "duration": 2.84
+    },
+    {
+      "text": "to PGS V2 and ways to\naccelerate business benefits",
+      "start": 47.33,
+      "duration": 4.02
+    },
+    {
+      "text": "by preparing ahead for PGS\nV1 sunset timeline of 2028.",
+      "start": 51.35,
+      "duration": 6.18
+    },
+    {
+      "text": "Let's get started.",
+      "start": 57.53,
+      "duration": 3.07
+    },
+    {
+      "text": "Over the past few years,\nPlay Game Services",
+      "start": 60.6,
+      "duration": 3.18
+    },
+    {
+      "text": "has grown significantly\nwith users and developers.",
+      "start": 63.78,
+      "duration": 4.0
+    },
+    {
+      "text": "The Gamer Profile,\nwhere PGS integration",
+      "start": 67.78,
+      "duration": 3.23
+    },
+    {
+      "text": "is materialized for users,\nhas more than 570 million",
+      "start": 71.01,
+      "duration": 4.71
+    },
+    {
+      "text": "monthly active users.",
+      "start": 75.72,
+      "duration": 1.98
+    },
+    {
+      "text": "Six of the top 10 games on\nAndroid are integrated with PGS.",
+      "start": 77.7,
+      "duration": 5.29
+    },
+    {
+      "text": "Not just top studios,\nbut indie games",
+      "start": 82.99,
+      "duration": 3.09
+    },
+    {
+      "text": "also drive engagement\nand monetization",
+      "start": 86.08,
+      "duration": 2.75
+    },
+    {
+      "text": "using one or more PGS features.",
+      "start": 88.83,
+      "duration": 3.15
+    },
+    {
+      "text": "Many developers\nalready use PGS today",
+      "start": 91.98,
+      "duration": 2.91
+    },
+    {
+      "text": "to enable gameplay\ncontinuity across devices.",
+      "start": 94.89,
+      "duration": 4.11
+    },
+    {
+      "text": "This is specifically\nimportant, as in today's world,",
+      "start": 99.0,
+      "duration": 3.76
+    },
+    {
+      "text": "users frequently switch back\nand forth from one device",
+      "start": 102.76,
+      "duration": 3.83
+    },
+    {
+      "text": "to another.",
+      "start": 106.59,
+      "duration": 1.0
+    },
+    {
+      "text": "We also know that social\nelements, such as competition",
+      "start": 107.59,
+      "duration": 4.13
+    },
+    {
+      "text": "and community, are key\ndrivers for gamer motivation.",
+      "start": 111.72,
+      "duration": 4.51
+    },
+    {
+      "text": "Developers use\nleaderboards from PGS",
+      "start": 116.23,
+      "duration": 3.26
+    },
+    {
+      "text": "to appeal to gamer motivation\nand drive additional user",
+      "start": 119.49,
+      "duration": 3.93
+    },
+    {
+      "text": "engagement.",
+      "start": 123.42,
+      "duration": 2.01
+    },
+    {
+      "text": "Additionally, the\nPGS Events API allows",
+      "start": 125.43,
+      "duration": 3.09
+    },
+    {
+      "text": "you to configure critical events\nfor your game and store gameplay",
+      "start": 128.52,
+      "duration": 4.89
+    },
+    {
+      "text": "data around these\nevents in Google servers",
+      "start": 133.41,
+      "duration": 3.03
+    },
+    {
+      "text": "for game analytics.",
+      "start": 136.44,
+      "duration": 2.76
+    },
+    {
+      "text": "This year, we are doubling\ndown our investment",
+      "start": 139.2,
+      "duration": 3.33
+    },
+    {
+      "text": "in Gamer Profile and PGS, making\nPGS an even more powerful tool",
+      "start": 142.53,
+      "duration": 5.67
+    },
+    {
+      "text": "for developers.",
+      "start": 148.2,
+      "duration": 1.45
+    },
+    {
+      "text": "PGS and the Gamer Profile\nare the means for you",
+      "start": 149.65,
+      "duration": 3.71
+    },
+    {
+      "text": "and your gamers to access\nall the new features on Play.",
+      "start": 153.36,
+      "duration": 5.16
+    },
+    {
+      "text": "PGS connects your\ngame with Play.",
+      "start": 158.52,
+      "duration": 3.22
+    },
+    {
+      "text": "PGS is how you\ncommunicate with Play",
+      "start": 161.74,
+      "duration": 3.14
+    },
+    {
+      "text": "and how we communicate with you.",
+      "start": 164.88,
+      "duration": 3.15
+    },
+    {
+      "text": "Ida will now talk\nabout some key features",
+      "start": 168.03,
+      "duration": 2.85
+    },
+    {
+      "text": "coming to the Gamer Profile.",
+      "start": 170.88,
+      "duration": 3.18
+    },
+    {
+      "text": "IDA ASSAYESH: Now let's chat\nabout some exciting features",
+      "start": 174.06,
+      "duration": 3.12
+    },
+    {
+      "text": "Play has in store that\ntake both the user",
+      "start": 177.18,
+      "duration": 2.5
+    },
+    {
+      "text": "and developer experience\nto the next level.",
+      "start": 179.68,
+      "duration": 3.04
+    },
+    {
+      "text": "The Gamer Profile delivers\na personalized connection",
+      "start": 182.72,
+      "duration": 3.17
+    },
+    {
+      "text": "to games, enabling\nplayers to stay engaged,",
+      "start": 185.89,
+      "duration": 3.61
+    },
+    {
+      "text": "customize their experience, and\nunlock a suite of features that",
+      "start": 189.5,
+      "duration": 4.07
+    },
+    {
+      "text": "consistently enhance gameplay.",
+      "start": 193.57,
+      "duration": 2.41
+    },
+    {
+      "text": "Players and developers alike\ngain significant benefits",
+      "start": 195.98,
+      "duration": 3.71
+    },
+    {
+      "text": "from the gamer profile\nand PGS integrations.",
+      "start": 199.69,
+      "duration": 3.39
+    },
+    {
+      "text": "Today, I'm excited to talk\nabout two key features",
+      "start": 203.08,
+      "duration": 4.11
+    },
+    {
+      "text": "and how they can enhance your\ngame's success with Play,",
+      "start": 207.19,
+      "duration": 3.39
+    },
+    {
+      "text": "achievements and gen AI avatars.",
+      "start": 210.58,
+      "duration": 2.71
+    },
+    {
+      "text": "Let's start with achievements.",
+      "start": 213.29,
+      "duration": 2.13
+    },
+    {
+      "text": "These are developer-provided,\ntitle-specific achievements",
+      "start": 215.42,
+      "duration": 4.37
+    },
+    {
+      "text": "that players can earn\nthroughout their gaming journey,",
+      "start": 219.79,
+      "duration": 3.1
+    },
+    {
+      "text": "such as gathering a\ncertain number of items",
+      "start": 222.89,
+      "duration": 2.9
+    },
+    {
+      "text": "or reaching new levels.",
+      "start": 225.79,
+      "duration": 2.05
+    },
+    {
+      "text": "Games that have\nincorporated achievements",
+      "start": 227.84,
+      "duration": 2.45
+    },
+    {
+      "text": "create a compelling\ngaming experience",
+      "start": 230.29,
+      "duration": 2.31
+    },
+    {
+      "text": "that motivates players\nto download the game",
+      "start": 232.6,
+      "duration": 2.46
+    },
+    {
+      "text": "and then continue\nto play the game.",
+      "start": 235.06,
+      "duration": 2.88
+    },
+    {
+      "text": "Achievements are\nalso a powerful tool",
+      "start": 237.94,
+      "duration": 2.82
+    },
+    {
+      "text": "for developers who want to\ngrow their games with Play.",
+      "start": 240.76,
+      "duration": 3.25
+    },
+    {
+      "text": "Not only are games with\nachievements oftentimes more",
+      "start": 244.01,
+      "duration": 3.5
+    },
+    {
+      "text": "enticing for players,\nbut these games also",
+      "start": 247.51,
+      "duration": 3.09
+    },
+    {
+      "text": "have increased\nvisibility across Play.",
+      "start": 250.6,
+      "duration": 3.25
+    },
+    {
+      "text": "Achievements are highlighted\nin the Details page of titles,",
+      "start": 253.85,
+      "duration": 3.66
+    },
+    {
+      "text": "allowing users to continuously\ntrack their progress.",
+      "start": 257.51,
+      "duration": 3.509
+    },
+    {
+      "text": "Players can also compare their\nachievements with one another",
+      "start": 261.019,
+      "duration": 4.041
+    },
+    {
+      "text": "through the game\nor profile, keeping",
+      "start": 265.06,
+      "duration": 2.07
+    },
+    {
+      "text": "competition high and\nachievements top of mind.",
+      "start": 267.13,
+      "duration": 2.92
+    },
+    {
+      "text": "When a game has\nachievements, it can also",
+      "start": 270.05,
+      "duration": 2.42
+    },
+    {
+      "text": "be featured as an\nachievement based quest.",
+      "start": 272.47,
+      "duration": 2.86
+    },
+    {
+      "text": "These play rewarded mechanics\ncan drive significant results,",
+      "start": 275.33,
+      "duration": 4.07
+    },
+    {
+      "text": "like increased downloads\nand re-engagement",
+      "start": 279.4,
+      "duration": 2.79
+    },
+    {
+      "text": "from existing players.",
+      "start": 282.19,
+      "duration": 1.96
+    },
+    {
+      "text": "In fact, these campaigns target\nboth new and existing users.",
+      "start": 284.15,
+      "duration": 5.06
+    },
+    {
+      "text": "For individual titles, we have\nseen quests generate upwards",
+      "start": 289.21,
+      "duration": 3.72
+    },
+    {
+      "text": "of 100,000 new installs\nand re-engagements.",
+      "start": 292.93,
+      "duration": 4.0
+    },
+    {
+      "text": "All of this is possible\nby adding achievements",
+      "start": 296.93,
+      "duration": 2.83
+    },
+    {
+      "text": "into your game.",
+      "start": 299.76,
+      "duration": 1.62
+    },
+    {
+      "text": "Now that we've established\nhow vital achievements are",
+      "start": 301.38,
+      "duration": 3.63
+    },
+    {
+      "text": "to your game's\nsuccess, let's explore",
+      "start": 305.01,
+      "duration": 2.37
+    },
+    {
+      "text": "what the best, most effective\nachievement configurations",
+      "start": 307.38,
+      "duration": 3.3
+    },
+    {
+      "text": "look like.",
+      "start": 310.68,
+      "duration": 1.09
+    },
+    {
+      "text": "Here are some actionable tips\nfor creating great achievements.",
+      "start": 311.77,
+      "duration": 3.39
+    },
+    {
+      "text": "And remember, when achievements\nare fun and attainable,",
+      "start": 315.16,
+      "duration": 3.42
+    },
+    {
+      "text": "they can drive\nengagement and encourage",
+      "start": 318.58,
+      "duration": 1.91
+    },
+    {
+      "text": "users to try new things, which\nis proven to increase retention.",
+      "start": 320.49,
+      "duration": 4.59
+    },
+    {
+      "text": "We've seen that gamers with the\nbest success do the following.",
+      "start": 325.08,
+      "duration": 3.82
+    },
+    {
+      "text": "Reward the gamer throughout\ntheir lifetime with the game.",
+      "start": 328.9,
+      "duration": 3.39
+    },
+    {
+      "text": "This can mean many different\nthings for your specific game,",
+      "start": 332.29,
+      "duration": 3.66
+    },
+    {
+      "text": "but typically, that looks\nmore than 20 achievements,",
+      "start": 335.95,
+      "duration": 3.57
+    },
+    {
+      "text": "with the ideal state\nbeing between 50 and 100.",
+      "start": 339.52,
+      "duration": 3.3
+    },
+    {
+      "text": "Consider having the player\nunlock their first five",
+      "start": 342.82,
+      "duration": 2.84
+    },
+    {
+      "text": "achievements within the\nfirst two hours of gameplay.",
+      "start": 345.66,
+      "duration": 3.28
+    },
+    {
+      "text": "A frequent cadence of\nunlocking achievements",
+      "start": 348.94,
+      "duration": 2.57
+    },
+    {
+      "text": "can keep users motivated\nthroughout the lifespan",
+      "start": 351.51,
+      "duration": 3.06
+    },
+    {
+      "text": "of the game.",
+      "start": 354.57,
+      "duration": 1.06
+    },
+    {
+      "text": "Match game completion\nwith your achievements,",
+      "start": 355.63,
+      "duration": 3.23
+    },
+    {
+      "text": "or ensure that users are earning\nachievements at a rate that",
+      "start": 358.86,
+      "duration": 3.26
+    },
+    {
+      "text": "is encouraging to them.",
+      "start": 362.12,
+      "duration": 2.13
+    },
+    {
+      "text": "All achievements must have an\nasset associated with them.",
+      "start": 364.25,
+      "duration": 4.03
+    },
+    {
+      "text": "At a minimum, you can\nprovide a single image",
+      "start": 368.28,
+      "duration": 2.81
+    },
+    {
+      "text": "across all achievements.",
+      "start": 371.09,
+      "duration": 1.75
+    },
+    {
+      "text": "However, using different\nimages for each achievement",
+      "start": 372.84,
+      "duration": 3.56
+    },
+    {
+      "text": "is the best way to make\nthem visually appealing",
+      "start": 376.4,
+      "duration": 2.73
+    },
+    {
+      "text": "and attract user attention\nacross the store.",
+      "start": 379.13,
+      "duration": 3.22
+    },
+    {
+      "text": "It is also important\nto have diversity",
+      "start": 382.35,
+      "duration": 2.51
+    },
+    {
+      "text": "in the types of achievements\nyour game offers.",
+      "start": 384.86,
+      "duration": 2.98
+    },
+    {
+      "text": "Consider creating achievements\naround game progression,",
+      "start": 387.84,
+      "duration": 3.72
+    },
+    {
+      "text": "leveling up characters or bases,\nEaster eggs, incremental events,",
+      "start": 391.56,
+      "duration": 5.19
+    },
+    {
+      "text": "and even rewarding\ntrying and failing.",
+      "start": 396.75,
+      "duration": 3.56
+    },
+    {
+      "text": "Achievements are\nearned in three states,",
+      "start": 400.31,
+      "duration": 3.03
+    },
+    {
+      "text": "earned, unearned,\nand in progress.",
+      "start": 403.34,
+      "duration": 3.25
+    },
+    {
+      "text": "Don't forget to add progression\nto your achievements.",
+      "start": 406.59,
+      "duration": 2.85
+    },
+    {
+      "text": "Players love to see\nhow they are tracking",
+      "start": 409.44,
+      "duration": 2.24
+    },
+    {
+      "text": "towards earning an achievement.",
+      "start": 411.68,
+      "duration": 1.8
+    },
+    {
+      "text": "It is also a great way to\nkeep momentum and gameplay up.",
+      "start": 413.48,
+      "duration": 4.6
+    },
+    {
+      "text": "Kingdom Rush 5 is\na great example",
+      "start": 418.08,
+      "duration": 2.58
+    },
+    {
+      "text": "of what high quality\nachievements look like.",
+      "start": 420.66,
+      "duration": 2.82
+    },
+    {
+      "text": "Different image assets,\nhidden surprises",
+      "start": 423.48,
+      "duration": 2.79
+    },
+    {
+      "text": "per level, players\ngetting rewarded in-game",
+      "start": 426.27,
+      "duration": 3.39
+    },
+    {
+      "text": "with gems when they\nearn an achievement,",
+      "start": 429.66,
+      "duration": 2.38
+    },
+    {
+      "text": "and game completion is when\nall achievements are earned,",
+      "start": 432.04,
+      "duration": 3.45
+    },
+    {
+      "text": "which is a very\nsatisfying experience.",
+      "start": 435.49,
+      "duration": 2.9
+    },
+    {
+      "text": "Now let's move on\nto another feature.",
+      "start": 438.39,
+      "duration": 2.49
+    },
+    {
+      "text": "Gen AI avatars.",
+      "start": 440.88,
+      "duration": 1.95
+    },
+    {
+      "text": "Gen AI avatars are a new and\nhighly anticipated feature--",
+      "start": 442.83,
+      "duration": 4.36
+    },
+    {
+      "text": "so exciting that it\nrecently leaked--",
+      "start": 447.19,
+      "duration": 2.03
+    },
+    {
+      "text": "that is coming soon to\nPlay and the Gamer Profile.",
+      "start": 449.22,
+      "duration": 3.37
+    },
+    {
+      "text": "These AI powered avatars\nrepresent a significant upgrade",
+      "start": 452.59,
+      "duration": 4.22
+    },
+    {
+      "text": "from the profile's\ncurrent static options.",
+      "start": 456.81,
+      "duration": 3.12
+    },
+    {
+      "text": "This enhancement\nis a powerful tool",
+      "start": 459.93,
+      "duration": 2.55
+    },
+    {
+      "text": "for building personalization and\nfostering loyalty among users,",
+      "start": 462.48,
+      "duration": 4.24
+    },
+    {
+      "text": "allowing them to create unique\ndigital representations which",
+      "start": 466.72,
+      "duration": 3.92
+    },
+    {
+      "text": "can easily be leveraged\nwithin your games.",
+      "start": 470.64,
+      "duration": 3.1
+    },
+    {
+      "text": "Play is dedicated to upleveling\nand enriching the overall player",
+      "start": 473.74,
+      "duration": 3.87
+    },
+    {
+      "text": "experience, providing more\nengaging and expressive ways",
+      "start": 477.61,
+      "duration": 3.93
+    },
+    {
+      "text": "for users to connect and\nshowcase their gaming worlds.",
+      "start": 481.54,
+      "duration": 3.49
+    },
+    {
+      "text": "Users are able to generate AI\npowered avatars that are fun,",
+      "start": 485.03,
+      "duration": 4.14
+    },
+    {
+      "text": "diverse, and represent\ntheir gaming selves,",
+      "start": 489.17,
+      "duration": 2.67
+    },
+    {
+      "text": "allowing them to put their\npersonal stamp on an avatar that",
+      "start": 491.84,
+      "duration": 2.87
+    },
+    {
+      "text": "is all their own.",
+      "start": 494.71,
+      "duration": 1.6
+    },
+    {
+      "text": "We guide users through\nthe AI generation process,",
+      "start": 496.31,
+      "duration": 4.02
+    },
+    {
+      "text": "featuring a number of exciting\ncharacters, backgrounds, and art",
+      "start": 500.33,
+      "duration": 3.95
+    },
+    {
+      "text": "styles to choose from that will\nproduce high quality results.",
+      "start": 504.28,
+      "duration": 5.04
+    },
+    {
+      "text": "With an avatar that\nis uniquely theirs,",
+      "start": 509.32,
+      "duration": 2.59
+    },
+    {
+      "text": "players are more invested\nin their gaming experience.",
+      "start": 511.91,
+      "duration": 3.749
+    },
+    {
+      "text": "But these avatars won't just\nlive in the Gamer Profile",
+      "start": 515.659,
+      "duration": 3.02
+    },
+    {
+      "text": "on Play.",
+      "start": 518.679,
+      "duration": 0.911
+    },
+    {
+      "text": "With an easy PGS\nintegration, developers",
+      "start": 519.59,
+      "duration": 3.26
+    },
+    {
+      "text": "can opt to leverage a player's\navatar within their games.",
+      "start": 522.85,
+      "duration": 3.93
+    },
+    {
+      "text": "This way, your\nusers can continue",
+      "start": 526.78,
+      "duration": 2.49
+    },
+    {
+      "text": "to express themselves with their\nAI avatar across all your games.",
+      "start": 529.27,
+      "duration": 4.48
+    },
+    {
+      "text": "Avatars are just one of many\nexciting and personalized",
+      "start": 533.75,
+      "duration": 3.83
+    },
+    {
+      "text": "updates to the gamer\nprofile that are to come.",
+      "start": 537.58,
+      "duration": 2.38
+    },
+    {
+      "text": "Stay tuned to see what PGS and\ntheir profile will unlock next.",
+      "start": 539.96,
+      "duration": 4.94
+    },
+    {
+      "text": "Now I'll hand it\nover to Hemant, who",
+      "start": 544.9,
+      "duration": 2.31
+    },
+    {
+      "text": "will also speak about how to\naccelerate value with PGS.",
+      "start": 547.21,
+      "duration": 5.82
+    },
+    {
+      "text": "HEMANT PAWAR: This is where\nit all comes together.",
+      "start": 553.03,
+      "duration": 2.65
+    },
+    {
+      "text": "PGS enables all\nof these features",
+      "start": 555.68,
+      "duration": 2.72
+    },
+    {
+      "text": "for you and your gamers.",
+      "start": 558.4,
+      "duration": 2.85
+    },
+    {
+      "text": "With achievements\nfeature, you send",
+      "start": 561.25,
+      "duration": 2.58
+    },
+    {
+      "text": "us achievements config via\nPlay Console and unlock trigger",
+      "start": 563.83,
+      "duration": 4.29
+    },
+    {
+      "text": "via API call, and you get\nenriched presence of game",
+      "start": 568.12,
+      "duration": 5.19
+    },
+    {
+      "text": "on Play, improved\ndiscoverability via search",
+      "start": 573.31,
+      "duration": 3.27
+    },
+    {
+      "text": "on Play Store.",
+      "start": 576.58,
+      "duration": 1.86
+    },
+    {
+      "text": "With quest feature, you send\nus achievements and campaign",
+      "start": 578.44,
+      "duration": 4.08
+    },
+    {
+      "text": "details, and we create\nand manage quests for you.",
+      "start": 582.52,
+      "duration": 4.09
+    },
+    {
+      "text": "Your users are rewarded\nwith Play Points,",
+      "start": 586.61,
+      "duration": 3.12
+    },
+    {
+      "text": "and you get incremental installs\nand monetization for your game.",
+      "start": 589.73,
+      "duration": 5.39
+    },
+    {
+      "text": "With recall feature, you\ngenerate and send us tokens,",
+      "start": 595.12,
+      "duration": 4.37
+    },
+    {
+      "text": "and we store these\ntokens with Play,",
+      "start": 599.49,
+      "duration": 2.33
+    },
+    {
+      "text": "linking your users\nto PGS accounts.",
+      "start": 601.82,
+      "duration": 3.24
+    },
+    {
+      "text": "This gets you\nability to recognize",
+      "start": 605.06,
+      "duration": 2.37
+    },
+    {
+      "text": "your users across games,\ndevices, and reinstalls.",
+      "start": 607.43,
+      "duration": 4.35
+    },
+    {
+      "text": "With this, you can also easily\ntake your games to Windows",
+      "start": 611.78,
+      "duration": 4.14
+    },
+    {
+      "text": "platform and expand on PC.",
+      "start": 615.92,
+      "duration": 3.39
+    },
+    {
+      "text": "As you may have noted,\nall of the exciting",
+      "start": 619.31,
+      "duration": 2.61
+    },
+    {
+      "text": "features we discussed\nrequire PGS integration.",
+      "start": 621.92,
+      "duration": 4.11
+    },
+    {
+      "text": "Great news is that\nit doesn't have",
+      "start": 626.03,
+      "duration": 2.04
+    },
+    {
+      "text": "to be all or nothing\nwith PGS integration.",
+      "start": 628.07,
+      "duration": 3.51
+    },
+    {
+      "text": "We understand that game\nneeds vary for each of you",
+      "start": 631.58,
+      "duration": 3.75
+    },
+    {
+      "text": "as a game developer.",
+      "start": 635.33,
+      "duration": 1.6
+    },
+    {
+      "text": "Hence we have built PGS\nas a modular system.",
+      "start": 636.93,
+      "duration": 4.34
+    },
+    {
+      "text": "Let's look at different paths\nto get value quicker from PGS.",
+      "start": 641.27,
+      "duration": 5.88
+    },
+    {
+      "text": "But before going deeper\ninto integration options,",
+      "start": 647.15,
+      "duration": 3.1
+    },
+    {
+      "text": "we want to share an important\nupdate with you about PGS.",
+      "start": 650.25,
+      "duration": 4.22
+    },
+    {
+      "text": "PGS currently has two SDK and\nAPI sets, PGS V1 and PGS V2.",
+      "start": 654.47,
+      "duration": 6.15
+    },
+    {
+      "text": "We are unifying the PGS solution\nand PGS V1 is being deprecated.",
+      "start": 660.62,
+      "duration": 5.52
+    },
+    {
+      "text": "We recently announced the\nsunset, but as a quick reminder,",
+      "start": 666.14,
+      "duration": 3.94
+    },
+    {
+      "text": "let's look at the key timelines.",
+      "start": 670.08,
+      "duration": 2.96
+    },
+    {
+      "text": "Since March 2025, developers\ncannot publish titles with new",
+      "start": 673.04,
+      "duration": 5.7
+    },
+    {
+      "text": "PGS V1 integrations.",
+      "start": 678.74,
+      "duration": 1.98
+    },
+    {
+      "text": "If you are planning a new PGS\nintegration, you must use V2.",
+      "start": 680.72,
+      "duration": 5.58
+    },
+    {
+      "text": "PGS V1 APIs will be\nremoved effective May 2026",
+      "start": 686.3,
+      "duration": 4.65
+    },
+    {
+      "text": "and completely shut\ndown in Q3 2028.",
+      "start": 690.95,
+      "duration": 4.56
+    },
+    {
+      "text": "Existing integrations will\ncontinue to work till Q3 2028,",
+      "start": 695.51,
+      "duration": 5.38
+    },
+    {
+      "text": "but we recommend you to\nmigrate before the end of 2025",
+      "start": 700.89,
+      "duration": 4.43
+    },
+    {
+      "text": "to be ready to take advantage\nof all the new features",
+      "start": 705.32,
+      "duration": 3.51
+    },
+    {
+      "text": "that we talked about.",
+      "start": 708.83,
+      "duration": 2.1
+    },
+    {
+      "text": "For resources on\nmigration, please",
+      "start": 710.93,
+      "duration": 2.58
+    },
+    {
+      "text": "refer to the game dev center.",
+      "start": 713.51,
+      "duration": 3.19
+    },
+    {
+      "text": "We recommend integrating the\nbase SDK and achievements",
+      "start": 716.7,
+      "duration": 3.72
+    },
+    {
+      "text": "feature to begin with.",
+      "start": 720.42,
+      "duration": 1.95
+    },
+    {
+      "text": "This will unlock the benefits\nof achievements and quests",
+      "start": 722.37,
+      "duration": 4.11
+    },
+    {
+      "text": "for your users and you.",
+      "start": 726.48,
+      "duration": 2.82
+    },
+    {
+      "text": "Most developers\ntake about one week",
+      "start": 729.3,
+      "duration": 2.52
+    },
+    {
+      "text": "to integrate the base\nSDK and about two weeks",
+      "start": 731.82,
+      "duration": 3.42
+    },
+    {
+      "text": "to integrate achievements.",
+      "start": 735.24,
+      "duration": 2.31
+    },
+    {
+      "text": "We recognize the\nefforts involved",
+      "start": 737.55,
+      "duration": 2.1
+    },
+    {
+      "text": "in creating the recommended\nnumber of achievements",
+      "start": 739.65,
+      "duration": 3.21
+    },
+    {
+      "text": "for your game, and hence, we\nhave made it super easy for you.",
+      "start": 742.86,
+      "duration": 4.92
+    },
+    {
+      "text": "Now you can create\nachievements in bulk",
+      "start": 747.78,
+      "duration": 2.79
+    },
+    {
+      "text": "in Play Console using CSV\nfiles and import utility.",
+      "start": 750.57,
+      "duration": 4.83
+    },
+    {
+      "text": "Read more about the new\nfeatures at Gamedev Center",
+      "start": 755.4,
+      "duration": 3.54
+    },
+    {
+      "text": "and try it out for your game.",
+      "start": 758.94,
+      "duration": 3.3
+    },
+    {
+      "text": "You can fast follow achievements\nwith the integration of recall",
+      "start": 762.24,
+      "duration": 4.32
+    },
+    {
+      "text": "feature to link your\nidentity systems with PGS",
+      "start": 766.56,
+      "duration": 4.06
+    },
+    {
+      "text": "and support continuity\nacross devices.",
+      "start": 770.62,
+      "duration": 3.68
+    },
+    {
+      "text": "We estimate about one week to\nintegrate the recall feature.",
+      "start": 774.3,
+      "duration": 3.93
+    },
+    {
+      "text": "In about four weeks,\nyour game is already",
+      "start": 778.23,
+      "duration": 2.76
+    },
+    {
+      "text": "well-positioned to deliver\namazing experiences",
+      "start": 780.99,
+      "duration": 3.03
+    },
+    {
+      "text": "to your users.",
+      "start": 784.02,
+      "duration": 1.89
+    },
+    {
+      "text": "After this minimum\nsuggested integration,",
+      "start": 785.91,
+      "duration": 2.5
+    },
+    {
+      "text": "you can opt for\nintegrating other features,",
+      "start": 788.41,
+      "duration": 2.75
+    },
+    {
+      "text": "such as leaderboards and events\nbased on your game needs.",
+      "start": 791.16,
+      "duration": 5.16
+    },
+    {
+      "text": "Learn more about these\nfeatures at Gamedev Center.",
+      "start": 796.32,
+      "duration": 3.63
+    },
+    {
+      "text": "Back to you, Ida.",
+      "start": 799.95,
+      "duration": 2.363
+    },
+    {
+      "text": "IDA ASSAYESH: Thank\nyou for tuning",
+      "start": 802.313,
+      "duration": 1.417
+    },
+    {
+      "text": "in to hear the latest\nabout the Gamer Profile",
+      "start": 803.73,
+      "duration": 2.46
+    },
+    {
+      "text": "and Play Game Services.",
+      "start": 806.19,
+      "duration": 1.51
+    },
+    {
+      "text": "We're excited to\npartner with you",
+      "start": 807.7,
+      "duration": 1.55
+    },
+    {
+      "text": "to land these new\nexperiences for your users,",
+      "start": 809.25,
+      "duration": 2.86
+    },
+    {
+      "text": "and make sure to check\nout the documentation",
+      "start": 812.11,
+      "duration": 2.21
+    },
+    {
+      "text": "to learn more about\nmigration to PGS V2,",
+      "start": 814.32,
+      "duration": 3.16
+    },
+    {
+      "text": "and keep your eye out for all of\nthe new, exciting features that",
+      "start": 817.48,
+      "duration": 3.08
+    },
+    {
+      "text": "are coming soon in\n2025 and beyond.",
+      "start": 820.56,
+      "duration": 3.03
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 823.59,
+      "duration": 2.75
+    }
+  ]
+}

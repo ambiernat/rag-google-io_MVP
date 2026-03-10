@@ -1,0 +1,68 @@
+[
+  {
+    "id": "wz3kQQubPkc__chunk_000",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 6.0,
+    "timestamp_end": 149.12,
+    "text": "Hi everyone. I'd like to introduce Chanel. Chanel is our developer advocate here at Google Workspace. And you'll notice that she's the one behind a lot of the content that we put on our great YouTube channel. I'm sure many of you had had the pleasure of meeting Slash Chappelle, outbound product manager at Google Workspace. I highly recommend his quarterly Google Workspace Road sessions and I'm happy to be sharing the session with him today. So today we're going exploring. We're going on a journey. The cloud platform that we've used to build Google Workspace serves as our guide today. Since your data is safely in our cloud, you can build tools, manage tools, and integrate other platforms that can get a lot of work done for you without you even having to be at your computer. In fact, you can do this without deploying, updating, or installing any software to your users thanks to the cloud. This journey is about adapting Google Workspace to your needs. So when I speak to our customers, I get feedback that it can be a bit overwhelming, scary or sometimes feel too complex to do these integrations and I can really understand why as many of them have been at the other platform for decades. So today I present you this wonderful map which I created with the help of my incredibly talented design assistant Gemini. This map will guide you to the solution best fitted for your needs. Let's dig into it. Let's start with the first stop on our journey, the Google Workspace marketplace. How does this help you? Did you know that Workspace has a marketplace with thousands of apps and add-ons? This means without having to create a solution yourself, you can simply install one created by other developers. Customers I work with often have questions about these apps. Are they vetted by Google? Can I trust them with my data? Yes. Before an add-on or an app is published to the marketplace, it undergoes two separate reviews by teams at Google. Oath verification focuses on making sure that an app doesn't misuse",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "wz3kQQubPkc__chunk_001",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 128.959,
+    "timestamp_end": 277.479,
+    "text": "vetted by Google? Can I trust them with my data? Yes. Before an add-on or an app is published to the marketplace, it undergoes two separate reviews by teams at Google. Oath verification focuses on making sure that an app doesn't misuse user data. And the app review focuses on the information that the app's developer provides in the Google Workspace marketplace as well as the functionality and usability of the app. As a developer, you can publish Google Workspace add-ons, editor add-ons, Google Chat apps, classroom add-ons, drive apps, and web apps to the Google Workspace marketplace. When publishing your solution to the marketplace, you can decide to make it available to your organization only or for anyone with a Google account. And one of these powerful integrations is between Gmail, Gemini, and Salesforce. Yes, that's an add-on that just recently launched and it brings your Salesforce data into Gmail with a super handy helper, Gemini. A great way to deploy a Google Workspace add-on is as an admin. You can install it for specific groups in your organization or your entire domain. Just as we mentioned, the admin will at this point be able to assess the add-on, check what type of data is accessed, and then install it. So, there's an extra layer of governance which many of our customers like having. Admins can choose to have full control by disabling users to install add-ons themselves and instead they can allow list add-ons as they see fit. Great. Now I have the ability to run kind of my own workspace app store with some of my own apps and some that I have approved specifically for my organization. But I often come across empowered teams that want to improve their workflows without involving the IT team. Where does this land on our map? That's where App Sheet comes in handy. With App Sheet, users can create applications without having to write a single line of code. These apps work on desktop and mobile devices which makes it a great solution platform for any team including frontline workers. Even though it's great to",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "wz3kQQubPkc__chunk_002",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 258.56,
+    "timestamp_end": 426.039,
+    "text": "Sheet, users can create applications without having to write a single line of code. These apps work on desktop and mobile devices which makes it a great solution platform for any team including frontline workers. Even though it's great to empower the end user to create their own solutions, IT departments and admins need to be able to be aware of what is being created. That's why the governance and policy controls for app sheet are so valuable. So long gone are the days where macros were shared over email. And when the author of this macro left the company, company chaos ensued. You are in control of what apps get published and how they are used and how they are updated. We have over 50 connectors to third party systems and you can also use the app sheet rest API to integrate with any automations you have going. Okay, so this seems to be a great enabler for citizen developers. But in my 30 years in tech, no code solutions have always meant some code. How easy is it really? You can jump start your app creation by using one of the many templates or nowadays you only have to tell Gemini what your app should do and it will create the app for you. So it's really no code. So, we went from a marketplace managed by admins and checked by Google to a prompt code solution that empowers teams to solve their own challenges. But what about the real killer, repetitive tasks and my favorite thing of all time, spreadsheets? I have just the right capability for you, macros. Have a look at this example of how you can record a macro in Google Sheets to automate the creation of a pivot table. As you can see, you record, you save, and then you run the macro like magic. The pivot table appears. When you record macros in Google Sheets, an appcript function is automatically created that replicates the macro steps. To see the code, select extensions appcript from the sheets menu. If you want to, you can change the macro by editing the code in the appcript editor. In fact, Google Sheets has not only gotten much faster, but it can now",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "wz3kQQubPkc__chunk_003",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 407.12,
+    "timestamp_end": 565.279,
+    "text": "To see the code, select extensions appcript from the sheets menu. If you want to, you can change the macro by editing the code in the appcript editor. In fact, Google Sheets has not only gotten much faster, but it can now connect with other systems such as Oracle, Looker, and Big Query. But here's a tip I've discovered recently. Gemini can act as your ally in getting you started to do your macro translations. And going beyond simple macros, appscript, which is Workspac's own programming language, allows you to extend Workspac's functionality and is a powerful way to automate, connect, and extend. And this is where Chanel's own expertise comes in. This demo I created with you Sesh in mind. I know that you often get asked to meet with customers and I set out on creating a simple solution to automate this process. Have requesters fill out the Google form with information about the customer date for the meeting and topic. You then check the submissions and decide if you want to accept or decline the request and special processing if the request is from your manager as you want to send her an email whenever she asks you to meet with a customer. Calendar events are created automatically as well as emails are sent out. This simple automation starts in Google forms touches on sheets calendar and Gmail. Google Appcript is a rapid application development platform built into Google Workspace. It makes automating a task as we saw the demo super easy. The first step is to get the data that was written to Google Sheets when the Google form was submitted. Using Appcript's spreadsheet service, we get the active sheet. Use the handy get data range method to find the range that contains data and use the get values method to access the data. After that, we can leverage AppScript's calendar service to create calendar events and we can use the Gmail service to send out email messages. If you're new to AppScript, Gemini is a great assistant when you're creating such automations. This is actually now part of my workflow when",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "wz3kQQubPkc__chunk_004",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 544.56,
+    "timestamp_end": 690.8,
+    "text": "calendar events and we can use the Gmail service to send out email messages. If you're new to AppScript, Gemini is a great assistant when you're creating such automations. This is actually now part of my workflow when coding. Before I write a single line of code, I start out by asking Gemini if my idea is feasible. What are my options? Service account or API key? And to go beyond everything we've just mentioned, your dev teams can tap into Workspace directly from their own environments using our own backend APIs. There are more than 25 Google Workspace APIs that can be used to create workflows and automations. Would you like to train a custom AI model on data from your ERP and have the model assist you in writing emails to your suppliers? For such and similar scenarios, you can combine Vertex AI or AI development platform with a Google Workspace add-on that extends Gmail. This is an example of how you can use the Google Workspace platform and Vertex AI to create a custom solution. We see a Google Workspace add-on that extends Gmail in action. By clicking the button identify angry customers, a call to the Vertex API is made from where we sent the messages in our inbox to Gemini 2.0 window flash asking it to apply sentiment analysis to identify negative messages. For those messages with an upset tone, a custom label is applied. Let's have a look at how this Google Workspace add-on comes together. We are using Appcript to create a Google Workspace add-on. To access Vertex AI, we use a dedicated service account in the associated GCP project. VertxAI gives us access to more than 130 different AI models. And for this solution, we're using Gemini 2.0 Flash. And that brings us to the end of our journey. To end our session, we would love for you to check out the Google Workspace Marketplace to find add-ons that can help you get more done within Workspace. And Chanel, over to you. And if you want to start creating your own solutions, please check out the Google Workspace Developers YouTube channel",
+    "source": "youtube",
+    "speaker": "unknown"
+  },
+  {
+    "id": "wz3kQQubPkc__chunk_005",
+    "schema_version": "canonical_v1",
+    "video_id": "wz3kQQubPkc",
+    "title": "Google I/O 2025 \u2013 wz3kQQubPkc",
+    "timestamp_start": 673.2,
+    "timestamp_end": 701.529,
+    "text": "Workspace Marketplace to find add-ons that can help you get more done within Workspace. And Chanel, over to you. And if you want to start creating your own solutions, please check out the Google Workspace Developers YouTube channel where yours truly shares videos about how you can get started creating your own solutions. [Applause]",
+    "source": "youtube",
+    "speaker": "unknown"
+  }
+]

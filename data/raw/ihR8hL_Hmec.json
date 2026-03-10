@@ -1,0 +1,1492 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "ihR8hL_Hmec",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 3.276
+    },
+    {
+      "text": "HERB RHEDRICK: Hi, I'm Herb,\na Product Manager on Android.",
+      "start": 6.56,
+      "duration": 2.69
+    },
+    {
+      "text": "AARON LABIAGA: And I'm Aaron,\nan Android Developer Relations",
+      "start": 9.25,
+      "duration": 2.5
+    },
+    {
+      "text": "Engineer.",
+      "start": 11.75,
+      "duration": 1.74
+    },
+    {
+      "text": "HERB RHEDRICK: Notifications\nare one of the main ways users",
+      "start": 13.49,
+      "duration": 3.09
+    },
+    {
+      "text": "interact with apps.",
+      "start": 16.58,
+      "duration": 1.48
+    },
+    {
+      "text": "Call style for phone\ncalls, big-tech style",
+      "start": 18.06,
+      "duration": 3.38
+    },
+    {
+      "text": "for lengthy messages,\nand custom notifications",
+      "start": 21.44,
+      "duration": 2.37
+    },
+    {
+      "text": "for bespoke use cases.",
+      "start": 23.81,
+      "duration": 2.46
+    },
+    {
+      "text": "In Android 16, we are\nadding a new notification",
+      "start": 26.27,
+      "duration": 3.12
+    },
+    {
+      "text": "style, the\nProgressStyle template,",
+      "start": 29.39,
+      "duration": 2.34
+    },
+    {
+      "text": "for better tracking of\ntime-sensitive, user-initiated,",
+      "start": 31.73,
+      "duration": 3.57
+    },
+    {
+      "text": "ongoing activities.",
+      "start": 35.3,
+      "duration": 2.16
+    },
+    {
+      "text": "These allow you to implement\nrich user experiences",
+      "start": 37.46,
+      "duration": 3.18
+    },
+    {
+      "text": "for progress-centric\nactivities, for example,",
+      "start": 40.64,
+      "duration": 3.24
+    },
+    {
+      "text": "displaying ridesharing updates\nor tracking a food delivery.",
+      "start": 43.88,
+      "duration": 3.9
+    },
+    {
+      "text": "The ProgressStyle template is a\nhighly customizable notification",
+      "start": 47.78,
+      "duration": 3.81
+    },
+    {
+      "text": "style.",
+      "start": 51.59,
+      "duration": 0.67
+    },
+    {
+      "text": "Developers have the\nability to brand",
+      "start": 52.26,
+      "duration": 2.33
+    },
+    {
+      "text": "and connect with users\nalong their journey",
+      "start": 54.59,
+      "duration": 2.52
+    },
+    {
+      "text": "by customizing the progress\nbar with customizable steps,",
+      "start": 57.11,
+      "duration": 4.73
+    },
+    {
+      "text": "segments, tracker\nicons, and more.",
+      "start": 61.84,
+      "duration": 4.16
+    },
+    {
+      "text": "We also wanted to\nmake sure that users",
+      "start": 66.0,
+      "duration": 1.71
+    },
+    {
+      "text": "can track these rich and\nimportant experiences",
+      "start": 67.71,
+      "duration": 2.79
+    },
+    {
+      "text": "consistently across the\ndevices in their lives",
+      "start": 70.5,
+      "duration": 3.93
+    },
+    {
+      "text": "including mobile, large screens\nlike a tablet, or foldable.",
+      "start": 74.43,
+      "duration": 5.22
+    },
+    {
+      "text": "So Android 16 also introduces\na new type of experience",
+      "start": 79.65,
+      "duration": 3.75
+    },
+    {
+      "text": "to notifications called live\nupdates as a solution to this.",
+      "start": 83.4,
+      "duration": 4.44
+    },
+    {
+      "text": "So let's dive in.",
+      "start": 87.84,
+      "duration": 1.98
+    },
+    {
+      "text": "Live updates are specific\nnotification styles",
+      "start": 89.82,
+      "duration": 3.06
+    },
+    {
+      "text": "that get heightened visibility\nby appearing on the Always",
+      "start": 92.88,
+      "duration": 4.02
+    },
+    {
+      "text": "on Display, receiving\na status bar chip,",
+      "start": 96.9,
+      "duration": 2.82
+    },
+    {
+      "text": "and top ranking in the\nnotification drawer and lock",
+      "start": 99.72,
+      "duration": 3.45
+    },
+    {
+      "text": "screen.",
+      "start": 103.17,
+      "duration": 1.71
+    },
+    {
+      "text": "Ranking-wise, live\nupdates will always",
+      "start": 104.88,
+      "duration": 2.34
+    },
+    {
+      "text": "be at the top of the\nnotification stack,",
+      "start": 107.22,
+      "duration": 2.17
+    },
+    {
+      "text": "ranking only below heads-up\nnotifications or notifications",
+      "start": 109.39,
+      "duration": 4.13
+    },
+    {
+      "text": "that are reserved for the most\nimportant and urgent alerts.",
+      "start": 113.52,
+      "duration": 4.69
+    },
+    {
+      "text": "Let's talk more about\nnotification styles,",
+      "start": 118.21,
+      "duration": 2.8
+    },
+    {
+      "text": "what styles classifies as live\nupdates, and their benefits.",
+      "start": 121.01,
+      "duration": 6.775
+    },
+    {
+      "text": "AARON LABIAGA: Notification\nstyles and live updates",
+      "start": 127.785,
+      "duration": 2.125
+    },
+    {
+      "text": "is the standardization on\nhow the Android's platform's",
+      "start": 129.91,
+      "duration": 2.52
+    },
+    {
+      "text": "notifications are being built,\nused, and displayed in the UI.",
+      "start": 132.43,
+      "duration": 4.65
+    },
+    {
+      "text": "The use of notification styles\nversus custom notifications",
+      "start": 137.08,
+      "duration": 3.42
+    },
+    {
+      "text": "is moving the Android platform\nin the right direction",
+      "start": 140.5,
+      "duration": 2.74
+    },
+    {
+      "text": "as they are more helpful\nto you, developers,",
+      "start": 143.24,
+      "duration": 2.03
+    },
+    {
+      "text": "and beneficial to end users.",
+      "start": 145.27,
+      "duration": 3.18
+    },
+    {
+      "text": "Notification styles are\nbuilt around the more",
+      "start": 148.45,
+      "duration": 2.4
+    },
+    {
+      "text": "common and high-usage use\ncases for notifications.",
+      "start": 150.85,
+      "duration": 3.28
+    },
+    {
+      "text": "This has the benefit of\nstreamlining development,",
+      "start": 154.13,
+      "duration": 2.49
+    },
+    {
+      "text": "as they have well-defined APIs\nfor very specific functionality,",
+      "start": 156.62,
+      "duration": 3.32
+    },
+    {
+      "text": "and the benefit of a\nsystem-provided layout",
+      "start": 159.94,
+      "duration": 2.1
+    },
+    {
+      "text": "for consistent experiences.",
+      "start": 162.04,
+      "duration": 2.19
+    },
+    {
+      "text": "This is absent in\ncustom notifications.",
+      "start": 164.23,
+      "duration": 3.57
+    },
+    {
+      "text": "Custom notifications\nhave no specific APIs",
+      "start": 167.8,
+      "duration": 2.67
+    },
+    {
+      "text": "built around them, providing\nyou with very little guidance.",
+      "start": 170.47,
+      "duration": 4.2
+    },
+    {
+      "text": "Although highly customizable\nand visualizations",
+      "start": 174.67,
+      "duration": 3.04
+    },
+    {
+      "text": "through remote views,\nit is at the cost",
+      "start": 177.71,
+      "duration": 2.19
+    },
+    {
+      "text": "of delivering inconsistent\nexperiences for end users",
+      "start": 179.9,
+      "duration": 2.79
+    },
+    {
+      "text": "for very common operations.",
+      "start": 182.69,
+      "duration": 2.94
+    },
+    {
+      "text": "Custom notifications also\nrequire a lot more overhead",
+      "start": 185.63,
+      "duration": 2.82
+    },
+    {
+      "text": "in terms of testing.",
+      "start": 188.45,
+      "duration": 1.56
+    },
+    {
+      "text": "Special care is required to\nensure that custom layouts work",
+      "start": 190.01,
+      "duration": 3.12
+    },
+    {
+      "text": "with different device\norientations, resolutions,",
+      "start": 193.13,
+      "duration": 2.59
+    },
+    {
+      "text": "and versions.",
+      "start": 195.72,
+      "duration": 1.79
+    },
+    {
+      "text": "The height available for a\ncustom notification layout,",
+      "start": 197.51,
+      "duration": 2.53
+    },
+    {
+      "text": "for example, varies\nacross OS versions.",
+      "start": 200.04,
+      "duration": 3.71
+    },
+    {
+      "text": "It is because of\nthese challenges",
+      "start": 203.75,
+      "duration": 1.77
+    },
+    {
+      "text": "that we are steering developers\naway from custom notifications",
+      "start": 205.52,
+      "duration": 2.91
+    },
+    {
+      "text": "and towards notification styles.",
+      "start": 208.43,
+      "duration": 2.67
+    },
+    {
+      "text": "Notification styles\nand live updates",
+      "start": 211.1,
+      "duration": 2.13
+    },
+    {
+      "text": "come with visual consistency,\nranking benefits,",
+      "start": 213.23,
+      "duration": 2.68
+    },
+    {
+      "text": "and prominence that is absent\nin custom notifications.",
+      "start": 215.91,
+      "duration": 3.11
+    },
+    {
+      "text": "With notification\nstyles, the OS can easily",
+      "start": 219.02,
+      "duration": 2.61
+    },
+    {
+      "text": "extend the notification\nexperience beyond mobile,",
+      "start": 221.63,
+      "duration": 2.86
+    },
+    {
+      "text": "building a better Android\necosystem across devices",
+      "start": 224.49,
+      "duration": 2.66
+    },
+    {
+      "text": "for users.",
+      "start": 227.15,
+      "duration": 1.5
+    },
+    {
+      "text": "Live updates will\nwork seamlessly",
+      "start": 228.65,
+      "duration": 1.83
+    },
+    {
+      "text": "across handset and\nfoldables in 2025,",
+      "start": 230.48,
+      "duration": 2.62
+    },
+    {
+      "text": "with support for wearables\ncoming later in 2026.",
+      "start": 233.1,
+      "duration": 3.75
+    },
+    {
+      "text": "So aside from using\na specific style,",
+      "start": 236.85,
+      "duration": 2.29
+    },
+    {
+      "text": "how does the notification\nbecome a live update?",
+      "start": 239.14,
+      "duration": 2.6
+    },
+    {
+      "text": "Well, there are\nspecific criteria",
+      "start": 241.74,
+      "duration": 1.8
+    },
+    {
+      "text": "that you should set\non the notification.",
+      "start": 243.54,
+      "duration": 2.52
+    },
+    {
+      "text": "Live updates are notifications\nthat must meet the following",
+      "start": 246.06,
+      "duration": 2.73
+    },
+    {
+      "text": "criteria.",
+      "start": 248.79,
+      "duration": 0.91
+    },
+    {
+      "text": "They must be of a specific\nnotification style using",
+      "start": 249.7,
+      "duration": 2.78
+    },
+    {
+      "text": "either big-text style,\ncall style, progress style,",
+      "start": 252.48,
+      "duration": 2.98
+    },
+    {
+      "text": "or standard style.",
+      "start": 255.46,
+      "duration": 1.02
+    },
+    {
+      "text": "And live updates\nmust also be ongoing.",
+      "start": 256.48,
+      "duration": 2.51
+    },
+    {
+      "text": "Live updates must not\nhave the following.",
+      "start": 258.99,
+      "duration": 2.71
+    },
+    {
+      "text": "They must not use custom views.",
+      "start": 261.7,
+      "duration": 2.1
+    },
+    {
+      "text": "They must not be a summary\nof a group of notifications",
+      "start": 263.8,
+      "duration": 2.82
+    },
+    {
+      "text": "and not use a notification\nchannel of low importance.",
+      "start": 266.62,
+      "duration": 3.8
+    },
+    {
+      "text": "But simply complying\nwith the API",
+      "start": 270.42,
+      "duration": 1.56
+    },
+    {
+      "text": "doesn't mean it'll be a great\nexperience for the end user.",
+      "start": 271.98,
+      "duration": 3.24
+    },
+    {
+      "text": "As we mentioned earlier,\nwith custom notifications,",
+      "start": 275.22,
+      "duration": 2.68
+    },
+    {
+      "text": "with any room for\ncustomization, big or small,",
+      "start": 277.9,
+      "duration": 2.85
+    },
+    {
+      "text": "the end user experience\nis still very dependent",
+      "start": 280.75,
+      "duration": 2.24
+    },
+    {
+      "text": "on you using best practices.",
+      "start": 282.99,
+      "duration": 2.05
+    },
+    {
+      "text": "Let's discuss best practices.",
+      "start": 285.04,
+      "duration": 3.498
+    },
+    {
+      "text": "HERB RHEDRICK: Aside from\nmeeting the live update",
+      "start": 288.538,
+      "duration": 2.042
+    },
+    {
+      "text": "criteria, you should still\ngo through the scrutiny",
+      "start": 290.58,
+      "duration": 2.81
+    },
+    {
+      "text": "of understanding whether your\napp's notification makes sense",
+      "start": 293.39,
+      "duration": 3.36
+    },
+    {
+      "text": "as a live update and not\nperceived as abuse or spam",
+      "start": 296.75,
+      "duration": 3.81
+    },
+    {
+      "text": "to the user.",
+      "start": 300.56,
+      "duration": 1.98
+    },
+    {
+      "text": "When evaluating use cases, make\nsure to consider the following.",
+      "start": 302.54,
+      "duration": 4.2
+    },
+    {
+      "text": "Is this a user-generated,\nongoing activity",
+      "start": 306.74,
+      "duration": 3.51
+    },
+    {
+      "text": "in the foreground?",
+      "start": 310.25,
+      "duration": 1.48
+    },
+    {
+      "text": "Is this one of the acceptable\nuse cases, like rideshare,",
+      "start": 311.73,
+      "duration": 3.53
+    },
+    {
+      "text": "delivery, or navigation?",
+      "start": 315.26,
+      "duration": 1.93
+    },
+    {
+      "text": "Is this time-sensitive or\nhappening in the moment?",
+      "start": 317.19,
+      "duration": 3.53
+    },
+    {
+      "text": "Is there a clear\nbeginning and end time?",
+      "start": 320.72,
+      "duration": 2.85
+    },
+    {
+      "text": "Does this require user\nattention for the duration",
+      "start": 323.57,
+      "duration": 3.21
+    },
+    {
+      "text": "of the activity?",
+      "start": 326.78,
+      "duration": 1.62
+    },
+    {
+      "text": "Let's respect the\nuser, and do not",
+      "start": 328.4,
+      "duration": 2.07
+    },
+    {
+      "text": "use it for ads, promotions, chat\nmessages, or anything spammy.",
+      "start": 330.47,
+      "duration": 6.0
+    },
+    {
+      "text": "Live updates can be toggled\non and off for each app",
+      "start": 336.47,
+      "duration": 3.12
+    },
+    {
+      "text": "by the user.",
+      "start": 339.59,
+      "duration": 2.13
+    },
+    {
+      "text": "Once toggled off, your\napp's notifications",
+      "start": 341.72,
+      "duration": 2.28
+    },
+    {
+      "text": "won't have a chip or any\nother prominent features",
+      "start": 344.0,
+      "duration": 3.15
+    },
+    {
+      "text": "until the user manually turns\nthe feature back on in Settings.",
+      "start": 347.15,
+      "duration": 5.16
+    },
+    {
+      "text": "Now, let's walk through a code\nexample of the ProgressStyle",
+      "start": 352.31,
+      "duration": 3.63
+    },
+    {
+      "text": "template.",
+      "start": 355.94,
+      "duration": 2.212
+    },
+    {
+      "text": "AARON LABIAGA: For this example,\nwe have a hypothetical rideshare",
+      "start": 358.152,
+      "duration": 2.708
+    },
+    {
+      "text": "app that will simulate\na rideshare experience",
+      "start": 360.86,
+      "duration": 2.19
+    },
+    {
+      "text": "from connecting with the\ndriver to getting picked up",
+      "start": 363.05,
+      "duration": 2.58
+    },
+    {
+      "text": "and then being driven\nto the destination.",
+      "start": 365.63,
+      "duration": 2.94
+    },
+    {
+      "text": "The ProgressStyle\nnotification template",
+      "start": 368.57,
+      "duration": 1.86
+    },
+    {
+      "text": "is available to apps compile\nagainst the Android 16 SDK.",
+      "start": 370.43,
+      "duration": 3.64
+    },
+    {
+      "text": "So when setting up your project\nand after downloading the SDK",
+      "start": 374.07,
+      "duration": 3.08
+    },
+    {
+      "text": "level 36, please be sure to\ncompile against it in your",
+      "start": 377.15,
+      "duration": 2.79
+    },
+    {
+      "text": "build file.",
+      "start": 379.94,
+      "duration": 1.56
+    },
+    {
+      "text": "Before we dive in, we will\nstart with the fundamentals",
+      "start": 381.5,
+      "duration": 2.64
+    },
+    {
+      "text": "and build the base notification\nto build on top of.",
+      "start": 384.14,
+      "duration": 2.79
+    },
+    {
+      "text": "This base notification will\nfulfill the core requirements",
+      "start": 386.93,
+      "duration": 2.97
+    },
+    {
+      "text": "of what notifications\nclassify as a live update.",
+      "start": 389.9,
+      "duration": 3.36
+    },
+    {
+      "text": "The notification channel\nassigned to this notification",
+      "start": 393.26,
+      "duration": 2.58
+    },
+    {
+      "text": "is also IMPORTANCE_DEFAULT.",
+      "start": 395.84,
+      "duration": 1.8
+    },
+    {
+      "text": "And the importance\nlevel of importance min",
+      "start": 397.64,
+      "duration": 2.1
+    },
+    {
+      "text": "will not qualify a\nnotification as a live update.",
+      "start": 399.74,
+      "duration": 3.36
+    },
+    {
+      "text": "And then, most importantly,\nthe notification style",
+      "start": 403.1,
+      "duration": 2.49
+    },
+    {
+      "text": "is set to use ProgressStyle,\na notification style that",
+      "start": 405.59,
+      "duration": 2.92
+    },
+    {
+      "text": "can be a live update.",
+      "start": 408.51,
+      "duration": 2.46
+    },
+    {
+      "text": "In our simulated rideshare app,\nthe ProgressStyle notification",
+      "start": 410.97,
+      "duration": 3.12
+    },
+    {
+      "text": "starts in an indeterminate\nstate to showcase",
+      "start": 414.09,
+      "duration": 2.55
+    },
+    {
+      "text": "the scenario where\nthe user is initiating",
+      "start": 416.64,
+      "duration": 2.34
+    },
+    {
+      "text": "their rideshare journey and is\nbeing connected with the driver.",
+      "start": 418.98,
+      "duration": 3.51
+    },
+    {
+      "text": "The texting\nnotification reflects",
+      "start": 422.49,
+      "duration": 1.95
+    },
+    {
+      "text": "this via setContentTitle\nand setContentText.",
+      "start": 424.44,
+      "duration": 3.28
+    },
+    {
+      "text": "And the chip status\nfor this live update",
+      "start": 427.72,
+      "duration": 1.79
+    },
+    {
+      "text": "is set to reflect\nthe state as well,",
+      "start": 429.51,
+      "duration": 1.62
+    },
+    {
+      "text": "through the\nsetShortCriticalText API.",
+      "start": 431.13,
+      "duration": 3.06
+    },
+    {
+      "text": "Given the status\nchip is allotted",
+      "start": 434.19,
+      "duration": 1.72
+    },
+    {
+      "text": "a seven-character\nlimit, we need to be",
+      "start": 435.91,
+      "duration": 1.7
+    },
+    {
+      "text": "mindful of what I'll show here.",
+      "start": 437.61,
+      "duration": 1.57
+    },
+    {
+      "text": "I'll use dot, dot, dot to\ndenote an indeterminate state.",
+      "start": 439.18,
+      "duration": 3.98
+    },
+    {
+      "text": "Once the driver is assigned,\nwe update notification",
+      "start": 443.16,
+      "duration": 2.55
+    },
+    {
+      "text": "with the new state.",
+      "start": 445.71,
+      "duration": 0.96
+    },
+    {
+      "text": "We, one, update\nall relevant text",
+      "start": 446.67,
+      "duration": 2.76
+    },
+    {
+      "text": "to reflect that driver has\nbeen assigned and en route",
+      "start": 449.43,
+      "duration": 2.37
+    },
+    {
+      "text": "for passenger pick-up.",
+      "start": 451.8,
+      "duration": 1.8
+    },
+    {
+      "text": "Two-- set the\nprogress tracker icon",
+      "start": 453.6,
+      "duration": 2.1
+    },
+    {
+      "text": "with the vehicle image\nvia the ProgressStyle API",
+      "start": 455.7,
+      "duration": 2.5
+    },
+    {
+      "text": "setProgressTrackerIcon.",
+      "start": 458.2,
+      "duration": 1.88
+    },
+    {
+      "text": "Three-- set the image of the\ndriver via notification API,",
+      "start": 460.08,
+      "duration": 3.49
+    },
+    {
+      "text": ".setLargeIcon.",
+      "start": 463.57,
+      "duration": 2.03
+    },
+    {
+      "text": "And lastly, set the\ninitial progress",
+      "start": 465.6,
+      "duration": 2.49
+    },
+    {
+      "text": "of the vehicle's journey to the\npassenger via the progressStyle",
+      "start": 468.09,
+      "duration": 2.88
+    },
+    {
+      "text": "API, .setProgress.",
+      "start": 470.97,
+      "duration": 2.01
+    },
+    {
+      "text": "We also removed the\nindeterminate state and the text",
+      "start": 472.98,
+      "duration": 2.58
+    },
+    {
+      "text": "in the StatusStrip\nas we transitioned",
+      "start": 475.56,
+      "duration": 1.74
+    },
+    {
+      "text": "from the indeterminate state.",
+      "start": 477.3,
+      "duration": 2.1
+    },
+    {
+      "text": "Instead, the StatusStrip\nis updated to reflect",
+      "start": 479.4,
+      "duration": 2.67
+    },
+    {
+      "text": "the time of arrival\nfor passenger pick-up.",
+      "start": 482.07,
+      "duration": 2.23
+    },
+    {
+      "text": "To achieve this, we used\nexisting notification APIs.",
+      "start": 484.3,
+      "duration": 3.48
+    },
+    {
+      "text": "We explicitly set\nShowWhen to true.",
+      "start": 487.78,
+      "duration": 2.37
+    },
+    {
+      "text": "Note that this is a requirement,\nand if it's not set,",
+      "start": 490.15,
+      "duration": 2.67
+    },
+    {
+      "text": "it does default to true.",
+      "start": 492.82,
+      "duration": 1.47
+    },
+    {
+      "text": "setWhen is set to a\ntime in the future",
+      "start": 494.29,
+      "duration": 2.03
+    },
+    {
+      "text": "for the estimated\nvehicle arrival, allowing",
+      "start": 496.32,
+      "duration": 2.19
+    },
+    {
+      "text": "for display of a countdown\nin the status chip called",
+      "start": 498.51,
+      "duration": 2.31
+    },
+    {
+      "text": "the passenger pick-up.",
+      "start": 500.82,
+      "duration": 1.39
+    },
+    {
+      "text": "In this case, arrival\nis in 10 minutes.",
+      "start": 502.21,
+      "duration": 2.72
+    },
+    {
+      "text": "Alternatively, we could have\nused the setShowCriticalText API",
+      "start": 504.93,
+      "duration": 4.05
+    },
+    {
+      "text": "to customize the chip\nstatus update display.",
+      "start": 508.98,
+      "duration": 2.62
+    },
+    {
+      "text": "Here's an example of how\nwe could have expanded",
+      "start": 511.6,
+      "duration": 2.18
+    },
+    {
+      "text": "on the minute abbreviation.",
+      "start": 513.78,
+      "duration": 2.31
+    },
+    {
+      "text": "When we update the notification\nand notify the user,",
+      "start": 516.09,
+      "duration": 2.74
+    },
+    {
+      "text": "please remember to use\nthe same notification",
+      "start": 518.83,
+      "duration": 2.0
+    },
+    {
+      "text": "ID throughout this\nuser journey so as",
+      "start": 520.83,
+      "duration": 2.31
+    },
+    {
+      "text": "to update the\ninitial notification",
+      "start": 523.14,
+      "duration": 1.91
+    },
+    {
+      "text": "and not create a new one.",
+      "start": 525.05,
+      "duration": 1.65
+    },
+    {
+      "text": "At the left is the visual of\nthe notification and status chip",
+      "start": 526.7,
+      "duration": 3.24
+    },
+    {
+      "text": "updated with the\ndriver assigned.",
+      "start": 529.94,
+      "duration": 2.37
+    },
+    {
+      "text": "Once the driver arrives,\nwe update the state",
+      "start": 532.31,
+      "duration": 2.19
+    },
+    {
+      "text": "of the notification once more.",
+      "start": 534.5,
+      "duration": 1.63
+    },
+    {
+      "text": "This time, we add additional\ndetails regarding the driver's",
+      "start": 536.13,
+      "duration": 2.99
+    },
+    {
+      "text": "vehicle, noting the color of\nthe vehicle, the license plate",
+      "start": 539.12,
+      "duration": 3.12
+    },
+    {
+      "text": "number, and some useful\ndetails about the driver.",
+      "start": 542.24,
+      "duration": 2.94
+    },
+    {
+      "text": "We've also updated the\nprogress of the progress bar",
+      "start": 545.18,
+      "duration": 2.88
+    },
+    {
+      "text": "at the time of the status\nchip to reflect a change",
+      "start": 548.06,
+      "duration": 2.4
+    },
+    {
+      "text": "in the initial estimate of\n10 minutes and the driver's",
+      "start": 550.46,
+      "duration": 2.79
+    },
+    {
+      "text": "near arrival.",
+      "start": 553.25,
+      "duration": 1.68
+    },
+    {
+      "text": "For important stages\nof the journey,",
+      "start": 554.93,
+      "duration": 1.72
+    },
+    {
+      "text": "it is critical that we\nare informing our users",
+      "start": 556.65,
+      "duration": 1.97
+    },
+    {
+      "text": "with timely updates\nand useful information.",
+      "start": 558.62,
+      "duration": 3.33
+    },
+    {
+      "text": "The user is now en\nroute to the airport",
+      "start": 561.95,
+      "duration": 1.93
+    },
+    {
+      "text": "but decides to make an\nadditional stop on the way.",
+      "start": 563.88,
+      "duration": 2.39
+    },
+    {
+      "text": "Using the existing\nnotification actions framework,",
+      "start": 566.27,
+      "duration": 3.01
+    },
+    {
+      "text": "we can streamline\nthis for the user",
+      "start": 569.28,
+      "duration": 1.55
+    },
+    {
+      "text": "by adding the action\nin the notification.",
+      "start": 570.83,
+      "duration": 2.85
+    },
+    {
+      "text": "You can see how\nmuch more convenient",
+      "start": 573.68,
+      "duration": 1.5
+    },
+    {
+      "text": "it is to add a stop in\nthe notification itself",
+      "start": 575.18,
+      "duration": 2.43
+    },
+    {
+      "text": "versus going into the app.",
+      "start": 577.61,
+      "duration": 2.19
+    },
+    {
+      "text": "Once the user adds\na pit stop, let's",
+      "start": 579.8,
+      "duration": 1.95
+    },
+    {
+      "text": "add a progress point via\nthe ProgressStyle API",
+      "start": 581.75,
+      "duration": 2.22
+    },
+    {
+      "text": "to denote, visually,\nthe additional stop",
+      "start": 583.97,
+      "duration": 2.25
+    },
+    {
+      "text": "in their journey.",
+      "start": 586.22,
+      "duration": 1.5
+    },
+    {
+      "text": "Once again, as good\ncitizens, we also",
+      "start": 587.72,
+      "duration": 2.37
+    },
+    {
+      "text": "update the notification\ncontent, text, and title",
+      "start": 590.09,
+      "duration": 2.37
+    },
+    {
+      "text": "to reflect the new stop.",
+      "start": 592.46,
+      "duration": 1.26
+    },
+    {
+      "text": "And the StatusStrip\nis updated as well,",
+      "start": 593.72,
+      "duration": 1.89
+    },
+    {
+      "text": "with the new time of\narrival, 19 minutes away.",
+      "start": 595.61,
+      "duration": 4.05
+    },
+    {
+      "text": "Traffic conditions can change,\nand representing this visually",
+      "start": 599.66,
+      "duration": 3.3
+    },
+    {
+      "text": "to the user is important.",
+      "start": 602.96,
+      "duration": 1.8
+    },
+    {
+      "text": "Let's say that\nthere is now traffic",
+      "start": 604.76,
+      "duration": 1.89
+    },
+    {
+      "text": "on the way to the first stop.",
+      "start": 606.65,
+      "duration": 1.83
+    },
+    {
+      "text": "The ProgressStyle\nnotification should",
+      "start": 608.48,
+      "duration": 1.8
+    },
+    {
+      "text": "be updated to\nreflect this in order",
+      "start": 610.28,
+      "duration": 1.8
+    },
+    {
+      "text": "to convey the level of traffic.",
+      "start": 612.08,
+      "duration": 2.64
+    },
+    {
+      "text": "Let's update the notification to\nshow this traffic with updated",
+      "start": 614.72,
+      "duration": 3.18
+    },
+    {
+      "text": "text.",
+      "start": 617.9,
+      "duration": 1.2
+    },
+    {
+      "text": "Now, through the\nProgressStyle API,",
+      "start": 619.1,
+      "duration": 1.66
+    },
+    {
+      "text": "let's add a progress bar\nsegment that uses the same color",
+      "start": 620.76,
+      "duration": 2.6
+    },
+    {
+      "text": "red to reflect the\ndegree of traffic",
+      "start": 623.36,
+      "duration": 1.65
+    },
+    {
+      "text": "for that part of the journey.",
+      "start": 625.01,
+      "duration": 1.98
+    },
+    {
+      "text": "We also update the setWhen\nto reflect the delay",
+      "start": 626.99,
+      "duration": 2.46
+    },
+    {
+      "text": "and the additional time\nadded till arrival.",
+      "start": 629.45,
+      "duration": 2.79
+    },
+    {
+      "text": "Conveying changes in conditions,\nnot just through the text,",
+      "start": 632.24,
+      "duration": 2.92
+    },
+    {
+      "text": "but colors really adds to the\nvisual experience of the journey",
+      "start": 635.16,
+      "duration": 2.99
+    },
+    {
+      "text": "and catches the end\nuser's attention.",
+      "start": 638.15,
+      "duration": 3.13
+    },
+    {
+      "text": "Let's stop there with\nthe rideshare experience",
+      "start": 641.28,
+      "duration": 2.08
+    },
+    {
+      "text": "and now go through an example\nof how the ProgressStyle",
+      "start": 643.36,
+      "duration": 2.36
+    },
+    {
+      "text": "template can be used to build\na mass transit experience.",
+      "start": 645.72,
+      "duration": 4.17
+    },
+    {
+      "text": "HERB RHEDRICK: Creating\na mass transit experience",
+      "start": 649.89,
+      "duration": 2.1
+    },
+    {
+      "text": "is possible through\nthe APIs we've",
+      "start": 651.99,
+      "duration": 1.83
+    },
+    {
+      "text": "gone over with the\nsegments and points",
+      "start": 653.82,
+      "duration": 2.44
+    },
+    {
+      "text": "but further enhanced through\nthe usage of the ProgressStyle",
+      "start": 656.26,
+      "duration": 3.2
+    },
+    {
+      "text": "APIs, setProgressStartIcon\nand the setProgressEndIcon.",
+      "start": 659.46,
+      "duration": 6.03
+    },
+    {
+      "text": "In our hypothetical\nsubway ride experience,",
+      "start": 665.49,
+      "duration": 2.83
+    },
+    {
+      "text": "we will use points\nto denote the stops,",
+      "start": 668.32,
+      "duration": 2.87
+    },
+    {
+      "text": "start, and end icons\nfor the train lines",
+      "start": 671.19,
+      "duration": 3.12
+    },
+    {
+      "text": "that the user has to\ntake and transfer to.",
+      "start": 674.31,
+      "duration": 3.06
+    },
+    {
+      "text": "Now, let's show an\nexample of how one would",
+      "start": 677.37,
+      "duration": 3.06
+    },
+    {
+      "text": "create a navigation experience.",
+      "start": 680.43,
+      "duration": 2.91
+    },
+    {
+      "text": "Using what we've learned\nthus far, we, once again,",
+      "start": 683.34,
+      "duration": 3.16
+    },
+    {
+      "text": "use segments and points\nto create visualizations",
+      "start": 686.5,
+      "duration": 2.69
+    },
+    {
+      "text": "for this journey using\nexisting notification",
+      "start": 689.19,
+      "duration": 2.94
+    },
+    {
+      "text": "APIs to convey directions to the\nend user in text and visuals.",
+      "start": 692.13,
+      "duration": 5.61
+    },
+    {
+      "text": "In this navigation\nexperience example,",
+      "start": 697.74,
+      "duration": 2.41
+    },
+    {
+      "text": "key APIs are the text\nfor guiding the user",
+      "start": 700.15,
+      "duration": 2.85
+    },
+    {
+      "text": "through their\nnavigation experience",
+      "start": 703.0,
+      "duration": 1.68
+    },
+    {
+      "text": "and eye-catching visuals for\nconveying directions using",
+      "start": 704.68,
+      "duration": 3.6
+    },
+    {
+      "text": "the notification\nsetLargeIcon API.",
+      "start": 708.28,
+      "duration": 4.95
+    },
+    {
+      "text": "Now that we've discussed most\nof the ProgressStyle's APIs,",
+      "start": 713.23,
+      "duration": 3.91
+    },
+    {
+      "text": "let's discuss the\nAPIs that will help",
+      "start": 717.14,
+      "duration": 2.33
+    },
+    {
+      "text": "you understand,\nprogrammatically,",
+      "start": 719.47,
+      "duration": 1.8
+    },
+    {
+      "text": "your live update\ncharacteristics.",
+      "start": 721.27,
+      "duration": 2.82
+    },
+    {
+      "text": "The NotificationManager\nhas a new method",
+      "start": 724.09,
+      "duration": 2.16
+    },
+    {
+      "text": "to check whether\nthe calling app's",
+      "start": 726.25,
+      "duration": 2.01
+    },
+    {
+      "text": "properly formatted notifications\ncan appear as a live update.",
+      "start": 728.26,
+      "duration": 4.89
+    },
+    {
+      "text": "To check if the\nnotification itself",
+      "start": 733.15,
+      "duration": 1.95
+    },
+    {
+      "text": "meets the criteria for\nbeing a live update,",
+      "start": 735.1,
+      "duration": 2.68
+    },
+    {
+      "text": "there is the\nhasPromotableCharacteristics",
+      "start": 737.78,
+      "duration": 2.87
+    },
+    {
+      "text": "method call on the notification.",
+      "start": 740.65,
+      "duration": 4.05
+    },
+    {
+      "text": "When this returns true, it does\nnot guarantee the notification",
+      "start": 744.7,
+      "duration": 3.69
+    },
+    {
+      "text": "as being a live update, giving\nuser preferences via app",
+      "start": 748.39,
+      "duration": 3.75
+    },
+    {
+      "text": "settings or\nnotification channels,",
+      "start": 752.14,
+      "duration": 2.2
+    },
+    {
+      "text": "but returning false\nguarantees that it will not",
+      "start": 754.34,
+      "duration": 2.79
+    },
+    {
+      "text": "be shown as a live update.",
+      "start": 757.13,
+      "duration": 3.3
+    },
+    {
+      "text": "We've seen in the samples what's\npossible with the ProgressStyle",
+      "start": 760.43,
+      "duration": 3.72
+    },
+    {
+      "text": "APIs and demonstrates how a\nwell-defined, standardized API",
+      "start": 764.15,
+      "duration": 4.95
+    },
+    {
+      "text": "makes the development\nof capturing",
+      "start": 769.1,
+      "duration": 1.8
+    },
+    {
+      "text": "progress-centric journeys\nso much more simpler.",
+      "start": 770.9,
+      "duration": 4.74
+    },
+    {
+      "text": "That about wraps it up.",
+      "start": 775.64,
+      "duration": 1.63
+    },
+    {
+      "text": "As you can see, live\nupdates adds new levels",
+      "start": 777.27,
+      "duration": 2.51
+    },
+    {
+      "text": "of experiences incorporating\nexisting templates",
+      "start": 779.78,
+      "duration": 2.61
+    },
+    {
+      "text": "with an addition\nof a new template.",
+      "start": 782.39,
+      "duration": 3.18
+    },
+    {
+      "text": "Please check out our\ndeveloper documentation",
+      "start": 785.57,
+      "duration": 2.19
+    },
+    {
+      "text": "online for more valuable\nresources and the sample",
+      "start": 787.76,
+      "duration": 3.18
+    },
+    {
+      "text": "code for guidance on\nhow to use this API.",
+      "start": 790.94,
+      "duration": 3.48
+    },
+    {
+      "text": "And be on the lookout\nfor more use cases that",
+      "start": 794.42,
+      "duration": 1.95
+    },
+    {
+      "text": "will be supported under the live\nupdates umbrella at Android 16",
+      "start": 796.37,
+      "duration": 3.99
+    },
+    {
+      "text": "launch and beyond.",
+      "start": 800.36,
+      "duration": 2.19
+    },
+    {
+      "text": "Thank you.",
+      "start": 802.55,
+      "duration": 1.47
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 804.02,
+      "duration": 3.35
+    }
+  ]
+}

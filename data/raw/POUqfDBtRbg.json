@@ -1,0 +1,3482 @@
+{
+  "schema_version": "raw_v1",
+  "video_id": "POUqfDBtRbg",
+  "language": "en",
+  "segments": [
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 0.0,
+      "duration": 2.802
+    },
+    {
+      "text": "HAREESH RAGHAVENDRA:\nHey, everyone.",
+      "start": 3.342,
+      "duration": 1.458
+    },
+    {
+      "text": "My name is Hareesh.",
+      "start": 4.8,
+      "duration": 1.1
+    },
+    {
+      "text": "And I'm the Developer\nand Monetization",
+      "start": 5.9,
+      "duration": 1.95
+    },
+    {
+      "text": "Lead for Google Play.",
+      "start": 7.85,
+      "duration": 1.41
+    },
+    {
+      "text": "This is the last\nsession of the day,",
+      "start": 9.26,
+      "duration": 1.8
+    },
+    {
+      "text": "and you probably had a\nvery long day, so deeply",
+      "start": 11.06,
+      "duration": 2.91
+    },
+    {
+      "text": "appreciate that\nyou're still here.",
+      "start": 13.97,
+      "duration": 1.57
+    },
+    {
+      "text": "And I would like to\nextend you a warm welcome.",
+      "start": 15.54,
+      "duration": 2.6
+    },
+    {
+      "text": "It's an honor to be here to\nshare the exciting new ways",
+      "start": 18.14,
+      "duration": 2.76
+    },
+    {
+      "text": "that we have been working\nto support your success.",
+      "start": 20.9,
+      "duration": 4.35
+    },
+    {
+      "text": "Everyone at Google Play is\npassionate about connecting",
+      "start": 25.25,
+      "duration": 3.3
+    },
+    {
+      "text": "users with experiences\nthat they will love,",
+      "start": 28.55,
+      "duration": 2.32
+    },
+    {
+      "text": "while empowering\ndevelopers like you all",
+      "start": 30.87,
+      "duration": 2.12
+    },
+    {
+      "text": "to build successful businesses.",
+      "start": 32.99,
+      "duration": 2.07
+    },
+    {
+      "text": "Your partnership is\nessential for that mission.",
+      "start": 35.06,
+      "duration": 2.92
+    },
+    {
+      "text": "And I want to thank\nyou for all the ways",
+      "start": 37.98,
+      "duration": 2.0
+    },
+    {
+      "text": "that you have been working\nwith us to improve Play.",
+      "start": 39.98,
+      "duration": 3.84
+    },
+    {
+      "text": "Our Android teammates\nearlier showed you",
+      "start": 43.82,
+      "duration": 2.25
+    },
+    {
+      "text": "how we are helping to lower\nyour developmental costs.",
+      "start": 46.07,
+      "duration": 3.31
+    },
+    {
+      "text": "Now, I'm excited to share how\nour Play teams are helping you",
+      "start": 49.38,
+      "duration": 3.92
+    },
+    {
+      "text": "maximize your business results.",
+      "start": 53.3,
+      "duration": 3.57
+    },
+    {
+      "text": "First, I'll share how we are\nhelping your apps and games",
+      "start": 56.87,
+      "duration": 3.39
+    },
+    {
+      "text": "succeed with powerful\ntools and insights",
+      "start": 60.26,
+      "duration": 2.79
+    },
+    {
+      "text": "throughout your life\ncycle, that is from testing",
+      "start": 63.05,
+      "duration": 2.43
+    },
+    {
+      "text": "all the way to monetization.",
+      "start": 65.48,
+      "duration": 3.06
+    },
+    {
+      "text": "Then Mekka will tell\nyou how we are building",
+      "start": 68.54,
+      "duration": 2.55
+    },
+    {
+      "text": "an even more content-rich Play\nthat keeps users deeply engaged",
+      "start": 71.09,
+      "duration": 4.5
+    },
+    {
+      "text": "and has them coming\nback for more,",
+      "start": 75.59,
+      "duration": 2.16
+    },
+    {
+      "text": "and how these enhanced discovery\nand engagement opportunities",
+      "start": 77.75,
+      "duration": 4.14
+    },
+    {
+      "text": "can help you drive\nyour revenue growth.",
+      "start": 81.89,
+      "duration": 3.84
+    },
+    {
+      "text": "Then Jiahui will\ntalk to you about how",
+      "start": 85.73,
+      "duration": 2.61
+    },
+    {
+      "text": "we are making Play the\nbest place for your games",
+      "start": 88.34,
+      "duration": 2.91
+    },
+    {
+      "text": "with cross-device growth and\ngamer engagement enhancements.",
+      "start": 91.25,
+      "duration": 3.82
+    },
+    {
+      "text": "Now, that's a lot to cover.",
+      "start": 95.07,
+      "duration": 1.94
+    },
+    {
+      "text": "And there's a block\nparty waiting after this,",
+      "start": 97.01,
+      "duration": 2.14
+    },
+    {
+      "text": "so let's get started.",
+      "start": 99.15,
+      "duration": 2.51
+    },
+    {
+      "text": "We'll begin with\nthe latest tools",
+      "start": 101.66,
+      "duration": 1.89
+    },
+    {
+      "text": "that we have developed\nto fuel your growth.",
+      "start": 103.55,
+      "duration": 3.9
+    },
+    {
+      "text": "We are proud to bring your\napps and games to over 2.5",
+      "start": 107.45,
+      "duration": 3.66
+    },
+    {
+      "text": "billion users worldwide.",
+      "start": 111.11,
+      "duration": 2.13
+    },
+    {
+      "text": "Throughout your\napp life cycle, we",
+      "start": 113.24,
+      "duration": 2.28
+    },
+    {
+      "text": "empower you to test\nand release your apps,",
+      "start": 115.52,
+      "duration": 2.53
+    },
+    {
+      "text": "monitor and improve your\nperformance, grow your audience,",
+      "start": 118.05,
+      "duration": 3.17
+    },
+    {
+      "text": "and build powerful\nmonetization strategies, all",
+      "start": 121.22,
+      "duration": 4.2
+    },
+    {
+      "text": "on a global platform that\nyou and your users can trust.",
+      "start": 125.42,
+      "duration": 4.29
+    },
+    {
+      "text": "You'll find all of these tools\nand more in Google Play Console.",
+      "start": 129.71,
+      "duration": 4.02
+    },
+    {
+      "text": "And today, I'm excited to\nshare new enhancements that",
+      "start": 133.73,
+      "duration": 3.81
+    },
+    {
+      "text": "will give you even more\nactionable insights.",
+      "start": 137.54,
+      "duration": 4.26
+    },
+    {
+      "text": "We have recently redesigned\nthe App dashboard,",
+      "start": 141.8,
+      "duration": 2.68
+    },
+    {
+      "text": "putting your essential\ninsights front and center.",
+      "start": 144.48,
+      "duration": 2.56
+    },
+    {
+      "text": "We have grouped the\nmost important metrics",
+      "start": 149.66,
+      "duration": 2.1
+    },
+    {
+      "text": "into four key\ndeveloper objectives,",
+      "start": 151.76,
+      "duration": 2.58
+    },
+    {
+      "text": "making it easier to find\nthem and take action on them.",
+      "start": 154.34,
+      "duration": 4.05
+    },
+    {
+      "text": "Each objective, in addition,\nhighlights the top three metrics",
+      "start": 158.39,
+      "duration": 3.87
+    },
+    {
+      "text": "for a quick overview.",
+      "start": 162.26,
+      "duration": 1.95
+    },
+    {
+      "text": "And if you'd like to\npersonalize your insights,",
+      "start": 164.21,
+      "duration": 2.35
+    },
+    {
+      "text": "simply scroll down to\nthe Monitor KPI section,",
+      "start": 166.56,
+      "duration": 3.39
+    },
+    {
+      "text": "where you can select the trends\nthat you would like to monitor.",
+      "start": 169.95,
+      "duration": 4.85
+    },
+    {
+      "text": "We have also added overview\npages for each core objective,",
+      "start": 174.8,
+      "duration": 4.5
+    },
+    {
+      "text": "starting with Monitor and\nImprove and Test and Release.",
+      "start": 179.3,
+      "duration": 3.68
+    },
+    {
+      "text": "These new pages bring together\nmore objective-related metrics,",
+      "start": 182.98,
+      "duration": 4.12
+    },
+    {
+      "text": "relevant features, and\na Take Action section",
+      "start": 187.1,
+      "duration": 2.96
+    },
+    {
+      "text": "with contextual\nand dynamic advice.",
+      "start": 190.06,
+      "duration": 2.97
+    },
+    {
+      "text": "We have added new features\nacross our developer objectives.",
+      "start": 193.03,
+      "duration": 4.47
+    },
+    {
+      "text": "For example, we know that\noptimizing app layouts",
+      "start": 197.5,
+      "duration": 3.3
+    },
+    {
+      "text": "for seamless\ncross-device experiences,",
+      "start": 200.8,
+      "duration": 2.53
+    },
+    {
+      "text": "that is, phones\nto large tablets,",
+      "start": 203.33,
+      "duration": 1.97
+    },
+    {
+      "text": "can be quite challenging.",
+      "start": 205.3,
+      "duration": 3.42
+    },
+    {
+      "text": "So to help you test, we have\nlaunched two new pre-review",
+      "start": 208.72,
+      "duration": 2.94
+    },
+    {
+      "text": "checks, one that flags incorrect\nedge-to-edge rendering,",
+      "start": 211.66,
+      "duration": 4.77
+    },
+    {
+      "text": "while the other notifies you\nabout large layout issues,",
+      "start": 216.43,
+      "duration": 3.45
+    },
+    {
+      "text": "like letterboxing, with clear\nguidance on how to fix them.",
+      "start": 219.88,
+      "duration": 4.5
+    },
+    {
+      "text": "When it's time to submit\nyour app for review,",
+      "start": 224.38,
+      "duration": 3.52
+    },
+    {
+      "text": "those final steps can\nbe nerve-wracking.",
+      "start": 227.9,
+      "duration": 2.93
+    },
+    {
+      "text": "Historically, once you've\nactually-- release goes 100%",
+      "start": 230.83,
+      "duration": 4.89
+    },
+    {
+      "text": "live, there is no turning back.",
+      "start": 235.72,
+      "duration": 2.59
+    },
+    {
+      "text": "That is, a broken release\nis a broken release,",
+      "start": 238.31,
+      "duration": 2.64
+    },
+    {
+      "text": "and your users\nare stuck with it.",
+      "start": 240.95,
+      "duration": 3.29
+    },
+    {
+      "text": "That is why, coming\nsoon, you will",
+      "start": 244.24,
+      "duration": 2.43
+    },
+    {
+      "text": "be able to halt fully\nlive releases directly",
+      "start": 246.67,
+      "duration": 3.57
+    },
+    {
+      "text": "from the Console\nand publishing API--",
+      "start": 250.24,
+      "duration": 2.65
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 252.89,
+      "duration": 2.87
+    },
+    {
+      "text": "--stopping the distribution\nof problematic versions",
+      "start": 255.76,
+      "duration": 2.85
+    },
+    {
+      "text": "for new users.",
+      "start": 258.61,
+      "duration": 1.36
+    },
+    {
+      "text": "That's pretty cool.",
+      "start": 259.97,
+      "duration": 1.97
+    },
+    {
+      "text": "And after you launch, knowing\nyour app's performance is vital.",
+      "start": 261.94,
+      "duration": 5.46
+    },
+    {
+      "text": "We already have key metrics,\nlike crash rates and ANRs,",
+      "start": 267.4,
+      "duration": 3.9
+    },
+    {
+      "text": "in our Production-Release\ndashboards.",
+      "start": 271.3,
+      "duration": 4.11
+    },
+    {
+      "text": "We have also now\nadded a new panel",
+      "start": 275.41,
+      "duration": 2.4
+    },
+    {
+      "text": "that surfaces quality issues and\nrecommendations to quickly fix",
+      "start": 277.81,
+      "duration": 4.32
+    },
+    {
+      "text": "these issues impacting\nyour latest release.",
+      "start": 282.13,
+      "duration": 2.06
+    },
+    {
+      "text": "And in Android\nvitals, we have added",
+      "start": 287.83,
+      "duration": 2.37
+    },
+    {
+      "text": "a new Low Memory Kill metric.",
+      "start": 290.2,
+      "duration": 2.5
+    },
+    {
+      "text": "I think this was talked\nabout in the previous talk.",
+      "start": 292.7,
+      "duration": 2.31
+    },
+    {
+      "text": "This new insight\nhelps you track down",
+      "start": 295.01,
+      "duration": 2.54
+    },
+    {
+      "text": "when your app is closed by\nthe system due to low memory.",
+      "start": 297.55,
+      "duration": 3.55
+    },
+    {
+      "text": "And for the game developers\nout there, monitoring this",
+      "start": 301.1,
+      "duration": 3.11
+    },
+    {
+      "text": "is crucial, as any\ninterruption to gameplay",
+      "start": 304.21,
+      "duration": 3.0
+    },
+    {
+      "text": "can be highly frustrating\nto your gamers.",
+      "start": 307.21,
+      "duration": 3.21
+    },
+    {
+      "text": "And finally, we are\ndiscussing with OEMs",
+      "start": 310.42,
+      "duration": 2.61
+    },
+    {
+      "text": "on how to define consistent\nbenchmarks for technical quality",
+      "start": 313.03,
+      "duration": 4.29
+    },
+    {
+      "text": "across Android devices.",
+      "start": 317.32,
+      "duration": 2.91
+    },
+    {
+      "text": "So just last month, we launched\nthe first of these new metrics",
+      "start": 320.23,
+      "duration": 2.85
+    },
+    {
+      "text": "in beta, excessive wake locks.",
+      "start": 323.08,
+      "duration": 2.59
+    },
+    {
+      "text": "I think this is the leading\ncause for battery drain.",
+      "start": 325.67,
+      "duration": 2.245
+    },
+    {
+      "text": "A strong store presence\nis crucial for attracting",
+      "start": 331.75,
+      "duration": 2.7
+    },
+    {
+      "text": "the right users, especially\nleveraging custom store listings",
+      "start": 334.45,
+      "duration": 3.87
+    },
+    {
+      "text": "for different audiences.",
+      "start": 338.32,
+      "duration": 2.28
+    },
+    {
+      "text": "To help you streamline\nyour listing",
+      "start": 340.6,
+      "duration": 2.04
+    },
+    {
+      "text": "and to keep your\nvisuals fresh, we",
+      "start": 342.64,
+      "duration": 2.19
+    },
+    {
+      "text": "are now launching the\nnew asset library.",
+      "start": 344.83,
+      "duration": 3.99
+    },
+    {
+      "text": "Soon, you'll easily be\nable to upload files",
+      "start": 348.82,
+      "duration": 3.06
+    },
+    {
+      "text": "directly from Google\nDrive, organize",
+      "start": 351.88,
+      "duration": 2.4
+    },
+    {
+      "text": "and search for assets using\ntags, and even crop assets.",
+      "start": 354.28,
+      "duration": 4.68
+    },
+    {
+      "text": "To better understand how your\nstore listings are helping",
+      "start": 358.96,
+      "duration": 3.27
+    },
+    {
+      "text": "you acquire, engage,\nand re-engage users,",
+      "start": 362.23,
+      "duration": 3.52
+    },
+    {
+      "text": "we're introducing the new\nStore Listing Open metrics.",
+      "start": 365.75,
+      "duration": 2.83
+    },
+    {
+      "text": "With this, you can also\nsee opens and open rates,",
+      "start": 371.23,
+      "duration": 3.48
+    },
+    {
+      "text": "covering everything\nfrom initial engagement",
+      "start": 374.71,
+      "duration": 2.4
+    },
+    {
+      "text": "to installs and\nongoing engagement.",
+      "start": 377.11,
+      "duration": 3.3
+    },
+    {
+      "text": "Opens will be a very\nkey metric for you",
+      "start": 380.41,
+      "duration": 2.37
+    },
+    {
+      "text": "to monitor alongside\nacquisitions",
+      "start": 382.78,
+      "duration": 2.37
+    },
+    {
+      "text": "and pre-registrations.",
+      "start": 385.15,
+      "duration": 3.33
+    },
+    {
+      "text": "So log on to Play Console\ntoday to check out",
+      "start": 388.48,
+      "duration": 2.79
+    },
+    {
+      "text": "all of these features and more.",
+      "start": 391.27,
+      "duration": 4.05
+    },
+    {
+      "text": "So changing gears a bit,\nlet's talk about monetization.",
+      "start": 395.32,
+      "duration": 3.9
+    },
+    {
+      "text": "I'm excited to tell you\nabout all our platform-wide",
+      "start": 399.22,
+      "duration": 2.94
+    },
+    {
+      "text": "initiatives that will help you\ngrow your business revenue.",
+      "start": 402.16,
+      "duration": 3.81
+    },
+    {
+      "text": "Our investments focus\non helping users",
+      "start": 405.97,
+      "duration": 2.79
+    },
+    {
+      "text": "be ready to make a purchase,\nno matter where they",
+      "start": 408.76,
+      "duration": 3.27
+    },
+    {
+      "text": "are in the world or where they\nare in their user journey.",
+      "start": 412.03,
+      "duration": 3.54
+    },
+    {
+      "text": "So to help you\nmaximize revenue, we're",
+      "start": 415.57,
+      "duration": 2.61
+    },
+    {
+      "text": "continuously working to reduce\nbuyer onboarding friction",
+      "start": 418.18,
+      "duration": 3.63
+    },
+    {
+      "text": "so that more users are\nready to make a purchase.",
+      "start": 421.81,
+      "duration": 5.04
+    },
+    {
+      "text": "Last year, we announced\nseveral initiatives",
+      "start": 426.85,
+      "duration": 2.52
+    },
+    {
+      "text": "like proactive payment\nsetup, cross-Google payment",
+      "start": 429.37,
+      "duration": 4.11
+    },
+    {
+      "text": "applications, and seamless\nbiometric authentication.",
+      "start": 433.48,
+      "duration": 4.48
+    },
+    {
+      "text": "Now, these efforts have\ndriven higher conversion rates",
+      "start": 437.96,
+      "duration": 3.56
+    },
+    {
+      "text": "and new customer acquisition\nfor your business.",
+      "start": 441.52,
+      "duration": 2.42
+    },
+    {
+      "text": "And this year, we're\ncontinuing that commitment",
+      "start": 446.92,
+      "duration": 2.76
+    },
+    {
+      "text": "by focusing on reaching users\nthroughout their purchase",
+      "start": 449.68,
+      "duration": 3.06
+    },
+    {
+      "text": "journey, that is\nfrom before they make",
+      "start": 452.74,
+      "duration": 2.55
+    },
+    {
+      "text": "a purchase to during\nthe checkout experience,",
+      "start": 455.29,
+      "duration": 5.19
+    },
+    {
+      "text": "and even after they've\ncompleted a purchase",
+      "start": 460.48,
+      "duration": 2.16
+    },
+    {
+      "text": "and navigated away\nfrom your app.",
+      "start": 462.64,
+      "duration": 1.73
+    },
+    {
+      "text": "First, we've included\nthe Biometrics Consent",
+      "start": 466.99,
+      "duration": 2.93
+    },
+    {
+      "text": "feature as a device setup\nfor Android devices.",
+      "start": 469.92,
+      "duration": 3.45
+    },
+    {
+      "text": "By integrating\nthis option, a user",
+      "start": 473.37,
+      "duration": 2.61
+    },
+    {
+      "text": "can select a trusted\nmethod for Play",
+      "start": 475.98,
+      "duration": 2.01
+    },
+    {
+      "text": "purchases right at the start\nof their device journey.",
+      "start": 477.99,
+      "duration": 3.33
+    },
+    {
+      "text": "This also eliminates the\nneed to remember passwords,",
+      "start": 481.32,
+      "duration": 3.75
+    },
+    {
+      "text": "reducing friction in\nyour buy flow later on.",
+      "start": 485.07,
+      "duration": 2.495
+    },
+    {
+      "text": "Post-device setup,\nwe've introduced",
+      "start": 490.11,
+      "duration": 2.43
+    },
+    {
+      "text": "prompts for users in\nhighly visible areas",
+      "start": 492.54,
+      "duration": 2.88
+    },
+    {
+      "text": "like the Play Account Menu\nand Google Account Services.",
+      "start": 495.42,
+      "duration": 3.84
+    },
+    {
+      "text": "These prompts remind users\nto set up their payment",
+      "start": 499.26,
+      "duration": 3.18
+    },
+    {
+      "text": "information ahead of time.",
+      "start": 502.44,
+      "duration": 2.55
+    },
+    {
+      "text": "This makes them more likely\nto complete a transaction when",
+      "start": 504.99,
+      "duration": 3.445
+    },
+    {
+      "text": "they are ready.",
+      "start": 508.435,
+      "duration": 0.625
+    },
+    {
+      "text": "On top of these\nproactive reminders,",
+      "start": 511.74,
+      "duration": 2.14
+    },
+    {
+      "text": "we continue to enable even\nmore local currencies.",
+      "start": 513.88,
+      "duration": 4.909
+    },
+    {
+      "text": "We already support over 300\nlocal payment methods in over",
+      "start": 518.789,
+      "duration": 4.171
+    },
+    {
+      "text": "65+ markets.",
+      "start": 522.96,
+      "duration": 1.36
+    },
+    {
+      "text": "And we're continuing\nto add even more.",
+      "start": 524.32,
+      "duration": 3.15
+    },
+    {
+      "text": "So these are just some of\nour proactive interventions",
+      "start": 527.47,
+      "duration": 2.99
+    },
+    {
+      "text": "to get users purchase-ready\neven before they actually",
+      "start": 530.46,
+      "duration": 3.18
+    },
+    {
+      "text": "make a purchase.",
+      "start": 533.64,
+      "duration": 1.56
+    },
+    {
+      "text": "But what about what happens\nduring the actual purchase flow?",
+      "start": 535.2,
+      "duration": 4.5
+    },
+    {
+      "text": "So over the last\nyear, we have been",
+      "start": 539.7,
+      "duration": 1.86
+    },
+    {
+      "text": "working on purchase\noptimizations that work quietly",
+      "start": 541.56,
+      "duration": 3.24
+    },
+    {
+      "text": "in the background within\nthe purchase flow.",
+      "start": 544.8,
+      "duration": 4.74
+    },
+    {
+      "text": "And when users are making\na purchase in your app,",
+      "start": 549.54,
+      "duration": 2.86
+    },
+    {
+      "text": "our AI models suggest\nthe right payment method",
+      "start": 552.4,
+      "duration": 2.81
+    },
+    {
+      "text": "at the right time.",
+      "start": 555.21,
+      "duration": 1.8
+    },
+    {
+      "text": "This means our models, which\nare trained on billions",
+      "start": 557.01,
+      "duration": 2.61
+    },
+    {
+      "text": "of transactions, present the\nmost relevant form of payments",
+      "start": 559.62,
+      "duration": 3.51
+    },
+    {
+      "text": "to users at a critical\nmoment in the purchase flow,",
+      "start": 563.13,
+      "duration": 3.16
+    },
+    {
+      "text": "making them more likely for the\nuser to complete the purchase.",
+      "start": 566.29,
+      "duration": 3.595
+    },
+    {
+      "text": "And our efforts don't stop\nwhen a user leaves your app.",
+      "start": 572.61,
+      "duration": 4.68
+    },
+    {
+      "text": "We are seeing fantastic\nresults from the launch",
+      "start": 577.29,
+      "duration": 2.19
+    },
+    {
+      "text": "of Cart Abandonment reminders.",
+      "start": 579.48,
+      "duration": 3.75
+    },
+    {
+      "text": "These reminders help you\nrecapture potential lost revenue",
+      "start": 583.23,
+      "duration": 4.56
+    },
+    {
+      "text": "by gently nudging users\nto complete their intended",
+      "start": 587.79,
+      "duration": 3.36
+    },
+    {
+      "text": "purchase.",
+      "start": 591.15,
+      "duration": 1.26
+    },
+    {
+      "text": "I think we have talked a\nlot about these investments.",
+      "start": 592.41,
+      "duration": 2.35
+    },
+    {
+      "text": "Now, let's actually talk about\nthe results that we are seeing.",
+      "start": 594.76,
+      "duration": 3.23
+    },
+    {
+      "text": "In 2025 alone, we have\nadded more than 200 million",
+      "start": 597.99,
+      "duration": 4.95
+    },
+    {
+      "text": "purchase-ready users,\nbringing the total",
+      "start": 602.94,
+      "duration": 3.48
+    },
+    {
+      "text": "to over 700 million\npurchase-ready users on Google",
+      "start": 606.42,
+      "duration": 3.0
+    },
+    {
+      "text": "Play.",
+      "start": 609.42,
+      "duration": 1.08
+    },
+    {
+      "text": "I think if there's one number\nthat you would take away",
+      "start": 610.5,
+      "duration": 2.31
+    },
+    {
+      "text": "from this presentation,\nthis would be it.",
+      "start": 612.81,
+      "duration": 2.92
+    },
+    {
+      "text": "And--",
+      "start": 615.73,
+      "duration": 0.5
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 616.23,
+      "duration": 2.204
+    },
+    {
+      "text": "And this one, it's not just a\nbig milestone or a large number.",
+      "start": 620.218,
+      "duration": 4.092
+    },
+    {
+      "text": "I think it translates into\ntangible benefits for each",
+      "start": 624.31,
+      "duration": 3.38
+    },
+    {
+      "text": "of you.",
+      "start": 627.69,
+      "duration": 2.22
+    },
+    {
+      "text": "Global conversion rates are\nup 3% just this year alone.",
+      "start": 629.91,
+      "duration": 5.79
+    },
+    {
+      "text": "In 2025, Google Play\nhas seen an increase",
+      "start": 635.7,
+      "duration": 3.24
+    },
+    {
+      "text": "of over 7% new paying users.",
+      "start": 638.94,
+      "duration": 3.06
+    },
+    {
+      "text": "And all of this translates\nto over $240 million",
+      "start": 642.0,
+      "duration": 3.99
+    },
+    {
+      "text": "in incremental global\nconsumer spend.",
+      "start": 645.99,
+      "duration": 3.09
+    },
+    {
+      "text": "These numbers highlight\nour ongoing investments",
+      "start": 649.08,
+      "duration": 3.0
+    },
+    {
+      "text": "in building a strong foundation\nfor your monetization success.",
+      "start": 652.08,
+      "duration": 4.62
+    },
+    {
+      "text": "So we are not just\nconnecting you with users,",
+      "start": 656.7,
+      "duration": 2.95
+    },
+    {
+      "text": "but we are also\nconnecting you with users",
+      "start": 659.65,
+      "duration": 2.33
+    },
+    {
+      "text": "who are ready to pay\nfor the experiences",
+      "start": 661.98,
+      "duration": 2.28
+    },
+    {
+      "text": "that you will create.",
+      "start": 664.26,
+      "duration": 0.875
+    },
+    {
+      "text": "That's just a glimpse of how\nGoogle Play commerce is evolving",
+      "start": 668.22,
+      "duration": 3.6
+    },
+    {
+      "text": "to boost your revenue, to fully\nunlock the power of Play Billing",
+      "start": 671.82,
+      "duration": 4.2
+    },
+    {
+      "text": "platform.",
+      "start": 676.02,
+      "duration": 0.88
+    },
+    {
+      "text": "Including the new features that\nwe have talked about today,",
+      "start": 676.9,
+      "duration": 2.91
+    },
+    {
+      "text": "we strongly recommend\nthat you upgrade",
+      "start": 679.81,
+      "duration": 1.91
+    },
+    {
+      "text": "to Play Billing Library\n8.0, which will be",
+      "start": 681.72,
+      "duration": 2.82
+    },
+    {
+      "text": "available at the end of June.",
+      "start": 684.54,
+      "duration": 1.52
+    },
+    {
+      "text": "So again, changing\ngears a bit, I",
+      "start": 689.19,
+      "duration": 1.77
+    },
+    {
+      "text": "think another essential aspect\nof growing a successful business",
+      "start": 690.96,
+      "duration": 3.99
+    },
+    {
+      "text": "is a secure and a trusted\necosystem that protects",
+      "start": 694.95,
+      "duration": 3.45
+    },
+    {
+      "text": "your business and your users.",
+      "start": 698.4,
+      "duration": 3.72
+    },
+    {
+      "text": "The Play Integrity\nAPI is a vital tool",
+      "start": 702.12,
+      "duration": 3.09
+    },
+    {
+      "text": "in any comprehensive\nsecurity strategy,",
+      "start": 705.21,
+      "duration": 2.47
+    },
+    {
+      "text": "helping you defend your\nentire app experience.",
+      "start": 707.68,
+      "duration": 3.59
+    },
+    {
+      "text": "It's crucial in preventing abuse\nthat can lead to revenue loss",
+      "start": 711.27,
+      "duration": 4.08
+    },
+    {
+      "text": "and also harm your user base.",
+      "start": 715.35,
+      "duration": 2.64
+    },
+    {
+      "text": "Developers who've\nbeen using this API",
+      "start": 717.99,
+      "duration": 2.22
+    },
+    {
+      "text": "are seeing over 80%\nlower unauthorized usage",
+      "start": 720.21,
+      "duration": 3.93
+    },
+    {
+      "text": "compared to other apps.",
+      "start": 724.14,
+      "duration": 1.63
+    },
+    {
+      "text": "That means less fraud, less\ncheating, or data theft.",
+      "start": 725.77,
+      "duration": 5.36
+    },
+    {
+      "text": "And we are continuing to\nevolve this Play Integrity",
+      "start": 731.13,
+      "duration": 2.79
+    },
+    {
+      "text": "API to stay ahead of all the\nthreats that are out there.",
+      "start": 733.92,
+      "duration": 2.8
+    },
+    {
+      "text": "So today, we are rolling\nout stronger [? verdicts ?]",
+      "start": 736.72,
+      "duration": 3.68
+    },
+    {
+      "text": "for all developers with\nno additional developer",
+      "start": 740.4,
+      "duration": 3.69
+    },
+    {
+      "text": "work required.",
+      "start": 744.09,
+      "duration": 2.1
+    },
+    {
+      "text": "This makes it faster,\nmore reliable,",
+      "start": 746.19,
+      "duration": 2.98
+    },
+    {
+      "text": "and more\nprivacy-friendly to check",
+      "start": 749.17,
+      "duration": 2.42
+    },
+    {
+      "text": "if a device is trustworthy.",
+      "start": 751.59,
+      "duration": 2.94
+    },
+    {
+      "text": "Developers can also now check\nif a device has recently",
+      "start": 754.53,
+      "duration": 3.84
+    },
+    {
+      "text": "installed a security\nupdate, which",
+      "start": 758.37,
+      "duration": 3.14
+    },
+    {
+      "text": "is very important for\napps which are protecting",
+      "start": 761.51,
+      "duration": 2.58
+    },
+    {
+      "text": "sensitive actions.",
+      "start": 764.09,
+      "duration": 3.48
+    },
+    {
+      "text": "Finally, our Device Recall\nfeature is now in public beta.",
+      "start": 767.57,
+      "duration": 5.16
+    },
+    {
+      "text": "With this, you can now detect\nif a device is being reused",
+      "start": 772.73,
+      "duration": 3.42
+    },
+    {
+      "text": "for abuse or a repeated action,\neven after a device is reset,",
+      "start": 776.15,
+      "duration": 4.98
+    },
+    {
+      "text": "or an app is uninstalled\nand then reinstalled.",
+      "start": 781.13,
+      "duration": 3.63
+    },
+    {
+      "text": "And it works in a\nprivacy-preserving way",
+      "start": 784.76,
+      "duration": 2.46
+    },
+    {
+      "text": "without the need for\npersistent device identifiers.",
+      "start": 787.22,
+      "duration": 3.7
+    },
+    {
+      "text": "This is a powerful\nnew defense to help",
+      "start": 790.92,
+      "duration": 2.84
+    },
+    {
+      "text": "you maintain a high\nquality, secure experience.",
+      "start": 793.76,
+      "duration": 2.85
+    },
+    {
+      "text": "You can express in this beta\nat the link shown below.",
+      "start": 796.61,
+      "duration": 2.705
+    },
+    {
+      "text": "We are continuously\ninvesting in making",
+      "start": 802.49,
+      "duration": 2.01
+    },
+    {
+      "text": "Play one of the safest and\nthe most secure platforms.",
+      "start": 804.5,
+      "duration": 3.31
+    },
+    {
+      "text": "This safeguards your\nbusiness from bad actors",
+      "start": 807.81,
+      "duration": 2.66
+    },
+    {
+      "text": "so that you can focus on\ninnovation and expansion,",
+      "start": 810.47,
+      "duration": 3.51
+    },
+    {
+      "text": "building on that foundation.",
+      "start": 813.98,
+      "duration": 1.98
+    },
+    {
+      "text": "We'll now share how we are\nenhancing user discovery",
+      "start": 815.96,
+      "duration": 3.15
+    },
+    {
+      "text": "to fuel that growth further.",
+      "start": 819.11,
+      "duration": 2.49
+    },
+    {
+      "text": "Next, I'm pleased to invite\nMekka to the stage and share how",
+      "start": 821.6,
+      "duration": 4.05
+    },
+    {
+      "text": "Play is becoming an even better\nplace for your apps and content.",
+      "start": 825.65,
+      "duration": 4.18
+    },
+    {
+      "text": "Thank you.",
+      "start": 829.83,
+      "duration": 1.259
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 831.089,
+      "duration": 2.395
+    },
+    {
+      "text": "MEKKA OKEREKE: Thanks, Hareesh.",
+      "start": 838.76,
+      "duration": 1.83
+    },
+    {
+      "text": "Hi, everyone.",
+      "start": 840.59,
+      "duration": 1.27
+    },
+    {
+      "text": "I'm Mekka, General Manager\nfor Apps for Google Play.",
+      "start": 841.86,
+      "duration": 3.68
+    },
+    {
+      "text": "As Hareesh mentioned,\nour teams are",
+      "start": 845.54,
+      "duration": 2.16
+    },
+    {
+      "text": "so excited about\nPlay's evolution",
+      "start": 847.7,
+      "duration": 2.55
+    },
+    {
+      "text": "into the ultimate destination\nfor app and content discovery.",
+      "start": 850.25,
+      "duration": 4.77
+    },
+    {
+      "text": "We're not just helping people\nfind the apps that they need,",
+      "start": 855.02,
+      "duration": 3.58
+    },
+    {
+      "text": "we're creating\nengaging experiences",
+      "start": 858.6,
+      "duration": 2.36
+    },
+    {
+      "text": "that draw them back again\nand again, unlocking",
+      "start": 860.96,
+      "duration": 3.51
+    },
+    {
+      "text": "more opportunities for\ndiscovery, engagement,",
+      "start": 864.47,
+      "duration": 3.46
+    },
+    {
+      "text": "and monetization for\nyour apps and content.",
+      "start": 867.93,
+      "duration": 3.29
+    },
+    {
+      "text": "Last year, we shared our\nvision for an indispensable,",
+      "start": 871.22,
+      "duration": 4.23
+    },
+    {
+      "text": "content-rich Google Play.",
+      "start": 875.45,
+      "duration": 2.28
+    },
+    {
+      "text": "It's already proving\nsuccessful for app businesses,",
+      "start": 877.73,
+      "duration": 3.25
+    },
+    {
+      "text": "with year-over-year metrics\nshowing over a 25% increase",
+      "start": 880.98,
+      "duration": 5.48
+    },
+    {
+      "text": "in monthly visitors\non Apps home,",
+      "start": 886.46,
+      "duration": 3.03
+    },
+    {
+      "text": "a 10% increase in acquisitions.",
+      "start": 889.49,
+      "duration": 3.13
+    },
+    {
+      "text": "And most importantly,\nthis is leading",
+      "start": 892.62,
+      "duration": 2.51
+    },
+    {
+      "text": "to a double-digit\ngrowth in App spend",
+      "start": 895.13,
+      "duration": 3.54
+    },
+    {
+      "text": "for those monetizing on Play.",
+      "start": 898.67,
+      "duration": 3.42
+    },
+    {
+      "text": "Today, I'll update\nyou on that vision,",
+      "start": 902.09,
+      "duration": 3.12
+    },
+    {
+      "text": "including some major\nupdates to the tools",
+      "start": 905.21,
+      "duration": 2.97
+    },
+    {
+      "text": "helping you take full\nadvantage of this new Play,",
+      "start": 908.18,
+      "duration": 3.27
+    },
+    {
+      "text": "by driving discovery\nand engagement",
+      "start": 911.45,
+      "duration": 2.67
+    },
+    {
+      "text": "both on and off the store.",
+      "start": 914.12,
+      "duration": 3.39
+    },
+    {
+      "text": "And finally, building on\nHareesh's commerce updates,",
+      "start": 917.51,
+      "duration": 3.21
+    },
+    {
+      "text": "we'll also delve into some\nnew subscription capabilities",
+      "start": 920.72,
+      "duration": 3.27
+    },
+    {
+      "text": "to convert that increased user\nactivity into revenue growth.",
+      "start": 923.99,
+      "duration": 4.35
+    },
+    {
+      "text": "So let's dive in.",
+      "start": 928.34,
+      "duration": 3.06
+    },
+    {
+      "text": "Play is becoming a\nmust-visit destination",
+      "start": 931.4,
+      "duration": 3.39
+    },
+    {
+      "text": "by offering people the\npersonalized experiences they're",
+      "start": 934.79,
+      "duration": 2.97
+    },
+    {
+      "text": "looking for.",
+      "start": 937.76,
+      "duration": 1.41
+    },
+    {
+      "text": "Last year, we began\nintroducing new features",
+      "start": 939.17,
+      "duration": 3.36
+    },
+    {
+      "text": "like Curated Spaces, which help\nusers discover more app content",
+      "start": 942.53,
+      "duration": 4.95
+    },
+    {
+      "text": "relevant to their interests.",
+      "start": 947.48,
+      "duration": 2.28
+    },
+    {
+      "text": "For example, we\ncelebrated local interests",
+      "start": 949.76,
+      "duration": 3.15
+    },
+    {
+      "text": "with a curated space\nfor football in Brazil",
+      "start": 952.91,
+      "duration": 3.12
+    },
+    {
+      "text": "and cricket in India, as well\nas an evergreen space for comics",
+      "start": 956.03,
+      "duration": 5.25
+    },
+    {
+      "text": "in Japan.",
+      "start": 961.28,
+      "duration": 1.8
+    },
+    {
+      "text": "These discovery experiences\nhelp app developers",
+      "start": 963.08,
+      "duration": 2.79
+    },
+    {
+      "text": "connect with enthusiastic\nfans while giving users",
+      "start": 965.87,
+      "duration": 3.33
+    },
+    {
+      "text": "new daily content, such\nas match highlights,",
+      "start": 969.2,
+      "duration": 3.54
+    },
+    {
+      "text": "promotions, and\neditorial articles,",
+      "start": 972.74,
+      "duration": 3.09
+    },
+    {
+      "text": "right on the Apps home.",
+      "start": 975.83,
+      "duration": 2.46
+    },
+    {
+      "text": "These spaces have been\na huge hit with fans.",
+      "start": 978.29,
+      "duration": 3.34
+    },
+    {
+      "text": "Over 920,000 highly engaged\nusers in Japan are returning",
+      "start": 981.63,
+      "duration": 5.93
+    },
+    {
+      "text": "monthly to explore\nour Comics space,",
+      "start": 987.56,
+      "duration": 2.71
+    },
+    {
+      "text": "making us a part\nof their routine.",
+      "start": 990.27,
+      "duration": 3.14
+    },
+    {
+      "text": "And of course, with more\npeople visiting Play",
+      "start": 993.41,
+      "duration": 2.88
+    },
+    {
+      "text": "to explore their\nfavorite topics,",
+      "start": 996.29,
+      "duration": 1.87
+    },
+    {
+      "text": "it also increases the\nopportunity for them",
+      "start": 998.16,
+      "duration": 2.45
+    },
+    {
+      "text": "to discover more apps\nand content across Play,",
+      "start": 1000.61,
+      "duration": 2.77
+    },
+    {
+      "text": "and ultimately, guides\nthose users into your apps.",
+      "start": 1003.38,
+      "duration": 5.06
+    },
+    {
+      "text": "Based on the success\nof the existing spaces,",
+      "start": 1008.44,
+      "duration": 2.77
+    },
+    {
+      "text": "you can expect to\nsee more this year,",
+      "start": 1011.21,
+      "duration": 2.34
+    },
+    {
+      "text": "featuring an even wider range\nof countries and interests.",
+      "start": 1013.55,
+      "duration": 4.73
+    },
+    {
+      "text": "But we're not stopping there.",
+      "start": 1018.28,
+      "duration": 1.9
+    },
+    {
+      "text": "We're making the Play\nStore even more explorable",
+      "start": 1020.18,
+      "duration": 2.9
+    },
+    {
+      "text": "by offering users a\ndeeper experience.",
+      "start": 1023.08,
+      "duration": 3.12
+    },
+    {
+      "text": "Introducing Topic Browse pages.",
+      "start": 1026.2,
+      "duration": 3.99
+    },
+    {
+      "text": "Topic Browse pages\npresent relevant,",
+      "start": 1030.19,
+      "duration": 2.889
+    },
+    {
+      "text": "focused, and visually engaging\ncontent on a specific topic,",
+      "start": 1033.079,
+      "duration": 3.99
+    },
+    {
+      "text": "say a movie, TV\nshow, or sports game.",
+      "start": 1037.069,
+      "duration": 4.371
+    },
+    {
+      "text": "They empower users to\nexplore and deep dive",
+      "start": 1041.44,
+      "duration": 3.419
+    },
+    {
+      "text": "into the featured\ntopics by clicking",
+      "start": 1044.859,
+      "duration": 2.281
+    },
+    {
+      "text": "through an interactive\nbrowsing experience.",
+      "start": 1047.14,
+      "duration": 3.12
+    },
+    {
+      "text": "We leverage our large user\nmodel to reach the right users",
+      "start": 1050.26,
+      "duration": 4.14
+    },
+    {
+      "text": "and help them\ndiscover these pages",
+      "start": 1054.4,
+      "duration": 2.01
+    },
+    {
+      "text": "across various touchpoints,\nsuch as store listings, Search,",
+      "start": 1056.41,
+      "duration": 4.96
+    },
+    {
+      "text": "and the Apps home.",
+      "start": 1061.37,
+      "duration": 2.45
+    },
+    {
+      "text": "We're starting with media and\nentertainment Topic Browse",
+      "start": 1063.82,
+      "duration": 2.49
+    },
+    {
+      "text": "pages.",
+      "start": 1066.31,
+      "duration": 1.02
+    },
+    {
+      "text": "Now, for example, fans\nof the movie \"Wicked\"",
+      "start": 1067.33,
+      "duration": 2.91
+    },
+    {
+      "text": "can find all the relevant\ninformation in one place,",
+      "start": 1070.24,
+      "duration": 3.96
+    },
+    {
+      "text": "such as trailers, ratings,\ncast, where to watch,",
+      "start": 1074.2,
+      "duration": 5.44
+    },
+    {
+      "text": "and related content.",
+      "start": 1079.64,
+      "duration": 1.76
+    },
+    {
+      "text": "US users can explore these\npages for shows, movies,",
+      "start": 1081.4,
+      "duration": 3.93
+    },
+    {
+      "text": "and select sports this month,\nwith more topics and markets",
+      "start": 1085.33,
+      "duration": 3.87
+    },
+    {
+      "text": "coming soon.",
+      "start": 1089.2,
+      "duration": 2.22
+    },
+    {
+      "text": "Part of a great\nbrowsing experience",
+      "start": 1091.42,
+      "duration": 2.16
+    },
+    {
+      "text": "is the ability to find what\nyou're looking for with ease.",
+      "start": 1093.58,
+      "duration": 3.6
+    },
+    {
+      "text": "Suppose you hear about a\ngreat movie for your kids,",
+      "start": 1097.18,
+      "duration": 2.68
+    },
+    {
+      "text": "like the new \"Despicable Me.\"",
+      "start": 1099.86,
+      "duration": 2.01
+    },
+    {
+      "text": "But you're not sure what\nstreaming service it's on",
+      "start": 1101.87,
+      "duration": 3.56
+    },
+    {
+      "text": "or if you're already subscribed.",
+      "start": 1105.43,
+      "duration": 3.42
+    },
+    {
+      "text": "And what's the easiest\nway for you to watch it?",
+      "start": 1108.85,
+      "duration": 4.49
+    },
+    {
+      "text": "Our recently launched content\nsearch feature, Where to Watch,",
+      "start": 1113.34,
+      "duration": 3.61
+    },
+    {
+      "text": "helps solve all of this, showing\nyou all your available options.",
+      "start": 1116.95,
+      "duration": 4.43
+    },
+    {
+      "text": "It's now available to\nusers in more markets,",
+      "start": 1121.38,
+      "duration": 2.71
+    },
+    {
+      "text": "including India,\nJapan, and South Korea.",
+      "start": 1124.09,
+      "duration": 4.91
+    },
+    {
+      "text": "Users can easily search for and\nbrowse a truly massive library",
+      "start": 1129.0,
+      "duration": 4.35
+    },
+    {
+      "text": "of entertainment content with\nalready over 100,000 different",
+      "start": 1133.35,
+      "duration": 4.41
+    },
+    {
+      "text": "Topic Browse pages.",
+      "start": 1137.76,
+      "duration": 1.77
+    },
+    {
+      "text": "Our early results\nare really promising.",
+      "start": 1139.53,
+      "duration": 3.63
+    },
+    {
+      "text": "Users who discover app\ncontent through Where",
+      "start": 1143.16,
+      "duration": 2.64
+    },
+    {
+      "text": "to Watch, return to Play, and\nincrease their content search",
+      "start": 1145.8,
+      "duration": 3.81
+    },
+    {
+      "text": "activity by over 30%.",
+      "start": 1149.61,
+      "duration": 3.78
+    },
+    {
+      "text": "And with each\nrevisit to the store,",
+      "start": 1153.39,
+      "duration": 2.71
+    },
+    {
+      "text": "it also increases the potential\nfor them to discover other apps",
+      "start": 1156.1,
+      "duration": 3.26
+    },
+    {
+      "text": "and content across Play.",
+      "start": 1159.36,
+      "duration": 2.52
+    },
+    {
+      "text": "Content curation that is truly\ntailored to users' interests",
+      "start": 1161.88,
+      "duration": 4.14
+    },
+    {
+      "text": "is vital for becoming a\nmust-visit destination.",
+      "start": 1166.02,
+      "duration": 4.17
+    },
+    {
+      "text": "Equally important is the way in\nwhich your content is presented.",
+      "start": 1170.19,
+      "duration": 4.65
+    },
+    {
+      "text": "You've already poured\nyour hearts and souls",
+      "start": 1174.84,
+      "duration": 3.03
+    },
+    {
+      "text": "into your app content.",
+      "start": 1177.87,
+      "duration": 1.51
+    },
+    {
+      "text": "And we want to make\nsure that it shines.",
+      "start": 1179.38,
+      "duration": 2.51
+    },
+    {
+      "text": "This is why we're\ncontinuing to enhance",
+      "start": 1181.89,
+      "duration": 2.37
+    },
+    {
+      "text": "how your content is presented\nand displayed on Play.",
+      "start": 1184.26,
+      "duration": 4.47
+    },
+    {
+      "text": "First, we're giving\nyou the ability",
+      "start": 1188.73,
+      "duration": 2.25
+    },
+    {
+      "text": "to add a hero carousel to\nshow off your best content",
+      "start": 1190.98,
+      "duration": 3.99
+    },
+    {
+      "text": "at the top of your listing page.",
+      "start": 1194.97,
+      "duration": 2.67
+    },
+    {
+      "text": "This new, visually\nappealing space",
+      "start": 1197.64,
+      "duration": 2.01
+    },
+    {
+      "text": "is an opportunity to spotlight\na new feature, in-app content,",
+      "start": 1199.65,
+      "duration": 4.42
+    },
+    {
+      "text": "or repurpose your\nexisting marketing.",
+      "start": 1204.07,
+      "duration": 3.41
+    },
+    {
+      "text": "Second, we're making\nit easier for you",
+      "start": 1207.48,
+      "duration": 2.58
+    },
+    {
+      "text": "to use your existing marketing\ncontent, like YouTube videos.",
+      "start": 1210.06,
+      "duration": 4.65
+    },
+    {
+      "text": "Last year, we gave\ngame developers",
+      "start": 1214.71,
+      "duration": 2.55
+    },
+    {
+      "text": "the ability to feature a YouTube\nplaylist carousel directly",
+      "start": 1217.26,
+      "duration": 3.99
+    },
+    {
+      "text": "on their store listing page.",
+      "start": 1221.25,
+      "duration": 2.25
+    },
+    {
+      "text": "Starting this July,\nwe'll begin rolling out",
+      "start": 1223.5,
+      "duration": 2.97
+    },
+    {
+      "text": "this feature and hero carousel\nto all app developers,",
+      "start": 1226.47,
+      "duration": 4.3
+    },
+    {
+      "text": "enabling you to experiment\nwith these new content formats",
+      "start": 1230.77,
+      "duration": 3.05
+    },
+    {
+      "text": "directly through Play Console.",
+      "start": 1233.82,
+      "duration": 1.78
+    },
+    {
+      "text": "I see we have a fan of\nthis feature over here.",
+      "start": 1235.6,
+      "duration": 2.05
+    },
+    {
+      "text": "[APPLAUSE]",
+      "start": 1237.65,
+      "duration": 2.098
+    },
+    {
+      "text": "While strong visuals\ndrive engagement,",
+      "start": 1241.11,
+      "duration": 3.07
+    },
+    {
+      "text": "some apps shine their best\nthrough audio content.",
+      "start": 1244.18,
+      "duration": 3.86
+    },
+    {
+      "text": "So I'm thrilled to also\nannounce audio samples directly",
+      "start": 1248.04,
+      "duration": 3.84
+    },
+    {
+      "text": "on the Apps home.",
+      "start": 1251.88,
+      "duration": 1.65
+    },
+    {
+      "text": "A simple tap offers\nusers a brief escape",
+      "start": 1253.53,
+      "duration": 3.24
+    },
+    {
+      "text": "into your audio\nsample, whether that's",
+      "start": 1256.77,
+      "duration": 2.52
+    },
+    {
+      "text": "the calming sounds of nature\nor a bite-sized meditation.",
+      "start": 1259.29,
+      "duration": 4.98
+    },
+    {
+      "text": "In our early testing,\nan audio sample",
+      "start": 1264.27,
+      "duration": 2.91
+    },
+    {
+      "text": "made users three times more\nlikely to install or open",
+      "start": 1267.18,
+      "duration": 5.46
+    },
+    {
+      "text": "an app.",
+      "start": 1272.64,
+      "duration": 1.44
+    },
+    {
+      "text": "This feature is now\navailable to all health",
+      "start": 1274.08,
+      "duration": 2.76
+    },
+    {
+      "text": "and wellness app developers\nwith users in the United States,",
+      "start": 1276.84,
+      "duration": 3.06
+    },
+    {
+      "text": "with more app categories\nand markets coming soon.",
+      "start": 1279.9,
+      "duration": 3.39
+    },
+    {
+      "text": "You can express interest in\npromoting your audio content",
+      "start": 1283.29,
+      "duration": 3.23
+    },
+    {
+      "text": "at the link shown here.",
+      "start": 1286.52,
+      "duration": 3.3
+    },
+    {
+      "text": "So as you can see, the new Play\nis a dynamic discovery engine",
+      "start": 1289.82,
+      "duration": 4.29
+    },
+    {
+      "text": "with fresh placements and\nricher experiences designed",
+      "start": 1294.11,
+      "duration": 4.02
+    },
+    {
+      "text": "to bring people back\nagain and again,",
+      "start": 1298.13,
+      "duration": 2.49
+    },
+    {
+      "text": "and surface your content\nin exciting new ways.",
+      "start": 1300.62,
+      "duration": 4.68
+    },
+    {
+      "text": "So far, we've mostly talked\nabout the benefits of more",
+      "start": 1305.3,
+      "duration": 3.09
+    },
+    {
+      "text": "content-forward Play Store.",
+      "start": 1308.39,
+      "duration": 2.35
+    },
+    {
+      "text": "But we're committed to\npushing the boundaries of what",
+      "start": 1310.74,
+      "duration": 3.08
+    },
+    {
+      "text": "an app store can be.",
+      "start": 1313.82,
+      "duration": 1.5
+    },
+    {
+      "text": "That's why we're also\nexpanding the Play experience",
+      "start": 1315.32,
+      "duration": 3.15
+    },
+    {
+      "text": "beyond the store, helping you\nbring your content to where",
+      "start": 1318.47,
+      "duration": 3.6
+    },
+    {
+      "text": "your users are.",
+      "start": 1322.07,
+      "duration": 2.43
+    },
+    {
+      "text": "Last year, we introduced\nEngage SDK, a unified solution",
+      "start": 1324.5,
+      "duration": 4.8
+    },
+    {
+      "text": "to engage your users with\nyour personalized content",
+      "start": 1329.3,
+      "duration": 3.6
+    },
+    {
+      "text": "across multiple surfaces.",
+      "start": 1332.9,
+      "duration": 3.09
+    },
+    {
+      "text": "When users interact with any\ncontent delivered by Engage SDK,",
+      "start": 1335.99,
+      "duration": 4.0
+    },
+    {
+      "text": "it seamlessly guides them into\nthe relevant in-app experience",
+      "start": 1339.99,
+      "duration": 4.16
+    },
+    {
+      "text": "within your app.",
+      "start": 1344.15,
+      "duration": 2.07
+    },
+    {
+      "text": "We designed Engage\nSDK with your needs",
+      "start": 1346.22,
+      "duration": 2.7
+    },
+    {
+      "text": "in mind, which is why it's\na simple and lightweight",
+      "start": 1348.92,
+      "duration": 3.78
+    },
+    {
+      "text": "client-side integration that\nleverages on-device APIs.",
+      "start": 1352.7,
+      "duration": 4.18
+    },
+    {
+      "text": "It only takes about\na week to implement.",
+      "start": 1356.88,
+      "duration": 3.92
+    },
+    {
+      "text": "And because the content\nstays on the device,",
+      "start": 1360.8,
+      "duration": 2.92
+    },
+    {
+      "text": "it maintains the relationship\nbetween your users",
+      "start": 1363.72,
+      "duration": 3.56
+    },
+    {
+      "text": "and your installed app data.",
+      "start": 1367.28,
+      "duration": 3.21
+    },
+    {
+      "text": "Plus, it presents your\niconography and content",
+      "start": 1370.49,
+      "duration": 3.0
+    },
+    {
+      "text": "as intended for strong\nbrand recognition.",
+      "start": 1373.49,
+      "duration": 4.53
+    },
+    {
+      "text": "Integrating your\napp with Engage SDK",
+      "start": 1378.02,
+      "duration": 2.4
+    },
+    {
+      "text": "unlocks Collections, our\nfullscreen immersive surface",
+      "start": 1380.42,
+      "duration": 4.95
+    },
+    {
+      "text": "that brings your content\ndirectly to users' home screens.",
+      "start": 1385.37,
+      "duration": 4.47
+    },
+    {
+      "text": "Collections is the\nfirst on-device surface",
+      "start": 1389.84,
+      "duration": 3.06
+    },
+    {
+      "text": "powered by Engage SDK.",
+      "start": 1392.9,
+      "duration": 2.28
+    },
+    {
+      "text": "And it offers multiple\nways to engage your users.",
+      "start": 1395.18,
+      "duration": 4.14
+    },
+    {
+      "text": "First, it allows your users\nto effortlessly pick up",
+      "start": 1399.32,
+      "duration": 3.72
+    },
+    {
+      "text": "where they left off\nwithin your app,",
+      "start": 1403.04,
+      "duration": 2.14
+    },
+    {
+      "text": "whether that was\nlistening to a playlist",
+      "start": 1405.18,
+      "duration": 2.39
+    },
+    {
+      "text": "or completing a purchase.",
+      "start": 1407.57,
+      "duration": 2.4
+    },
+    {
+      "text": "These continuation journeys\nare the cornerstone",
+      "start": 1409.97,
+      "duration": 3.87
+    },
+    {
+      "text": "of the Collections\nexperience and appear",
+      "start": 1413.84,
+      "duration": 2.25
+    },
+    {
+      "text": "at the top of most spaces.",
+      "start": 1416.09,
+      "duration": 2.49
+    },
+    {
+      "text": "Second, Collections lets you\ncreate up to five recommendation",
+      "start": 1418.58,
+      "duration": 4.74
+    },
+    {
+      "text": "clusters.",
+      "start": 1423.32,
+      "duration": 1.06
+    },
+    {
+      "text": "You can attract users\nback to your apps",
+      "start": 1424.38,
+      "duration": 2.42
+    },
+    {
+      "text": "with personalized\ncontent, like trending",
+      "start": 1426.8,
+      "duration": 2.61
+    },
+    {
+      "text": "posts or special offers.",
+      "start": 1429.41,
+      "duration": 2.91
+    },
+    {
+      "text": "And lastly, Collections\nspotlights your hero content",
+      "start": 1432.32,
+      "duration": 3.69
+    },
+    {
+      "text": "in a featured cluster, a larger,\nmore premium UI placement.",
+      "start": 1436.01,
+      "duration": 5.49
+    },
+    {
+      "text": "But what makes Engage\nSDK truly special",
+      "start": 1441.5,
+      "duration": 3.03
+    },
+    {
+      "text": "is that you don't even need\nto create any new content.",
+      "start": 1444.53,
+      "duration": 4.0
+    },
+    {
+      "text": "You can simply reuse\nthe recommendations",
+      "start": 1448.53,
+      "duration": 2.81
+    },
+    {
+      "text": "from your app's homepage.",
+      "start": 1451.34,
+      "duration": 2.34
+    },
+    {
+      "text": "And if that wasn't enough,\nwe're making several updates",
+      "start": 1453.68,
+      "duration": 3.18
+    },
+    {
+      "text": "to help you expand your\nreach even further.",
+      "start": 1456.86,
+      "duration": 3.42
+    },
+    {
+      "text": "First, in addition to\nexisting spaces Collections",
+      "start": 1460.28,
+      "duration": 3.57
+    },
+    {
+      "text": "and entertainment space\non select Android tablets,",
+      "start": 1463.85,
+      "duration": 3.19
+    },
+    {
+      "text": "we're bringing Engage\nSDK content to the Play",
+      "start": 1467.04,
+      "duration": 2.75
+    },
+    {
+      "text": "Store this summer.",
+      "start": 1469.79,
+      "duration": 3.27
+    },
+    {
+      "text": "Second, we're expanding\nEngage SDK to new categories.",
+      "start": 1473.06,
+      "duration": 3.91
+    },
+    {
+      "text": "Starting today, we're\nrolling out Travel.",
+      "start": 1476.97,
+      "duration": 4.46
+    },
+    {
+      "text": "We all know that booking travel\nrarely happens in a single app",
+      "start": 1481.43,
+      "duration": 3.93
+    },
+    {
+      "text": "session.",
+      "start": 1485.36,
+      "duration": 0.82
+    },
+    {
+      "text": "Users research, compare, and\noften return multiple times",
+      "start": 1486.18,
+      "duration": 4.85
+    },
+    {
+      "text": "before finalizing their plans.",
+      "start": 1491.03,
+      "duration": 2.61
+    },
+    {
+      "text": "With Engage SDK, you\ncan reconnect users",
+      "start": 1493.64,
+      "duration": 3.15
+    },
+    {
+      "text": "with their recent searches,\nbringing them back to your app",
+      "start": 1496.79,
+      "duration": 3.27
+    },
+    {
+      "text": "to finish their booking.",
+      "start": 1500.06,
+      "duration": 1.92
+    },
+    {
+      "text": "And once the trip is booked,\nyou can provide reservations,",
+      "start": 1501.98,
+      "duration": 3.54
+    },
+    {
+      "text": "so users can easily find\ntimely itinerary information",
+      "start": 1505.52,
+      "duration": 3.6
+    },
+    {
+      "text": "all in one place.",
+      "start": 1509.12,
+      "duration": 2.7
+    },
+    {
+      "text": "And finally, Collections\nis expanding globally",
+      "start": 1511.82,
+      "duration": 3.9
+    },
+    {
+      "text": "to all Google Play markets.",
+      "start": 1515.72,
+      "duration": 2.89
+    },
+    {
+      "text": "We're kicking off our\nglobal rollout today,",
+      "start": 1518.61,
+      "duration": 2.76
+    },
+    {
+      "text": "starting with eight new markets,\nincluding Brazil, Indonesia,",
+      "start": 1521.37,
+      "duration": 4.5
+    },
+    {
+      "text": "and the UK.",
+      "start": 1525.87,
+      "duration": 1.32
+    },
+    {
+      "text": "[APPLAUSE, CHEERS]",
+      "start": 1527.19,
+      "duration": 2.45
+    },
+    {
+      "text": "Many of our app\npartners are already",
+      "start": 1532.58,
+      "duration": 2.43
+    },
+    {
+      "text": "using Engage SDK to\nre-engage their users.",
+      "start": 1535.01,
+      "duration": 2.95
+    },
+    {
+      "text": "And we want all of\nyou to try it, too.",
+      "start": 1537.96,
+      "duration": 2.63
+    },
+    {
+      "text": "To learn more and express\nyour interest in the developer",
+      "start": 1540.59,
+      "duration": 2.82
+    },
+    {
+      "text": "preview, go to the\nlink shown here.",
+      "start": 1543.41,
+      "duration": 2.85
+    },
+    {
+      "text": "If your app is in one of these\nsupported content categories",
+      "start": 1546.26,
+      "duration": 3.36
+    },
+    {
+      "text": "and meets our\neligibility criteria,",
+      "start": 1549.62,
+      "duration": 2.17
+    },
+    {
+      "text": "we'll be in touch to\nhelp you get started.",
+      "start": 1551.79,
+      "duration": 3.74
+    },
+    {
+      "text": "By empowering you with tools\nlike Engage SDK and evolving",
+      "start": 1555.53,
+      "duration": 4.05
+    },
+    {
+      "text": "Play into a more enticing,\ncontent-rich destination--",
+      "start": 1559.58,
+      "duration": 5.04
+    },
+    {
+      "text": "content-rich destination,\nboth on and off the store,",
+      "start": 1564.62,
+      "duration": 3.16
+    },
+    {
+      "text": "we aim to help you forge deeper\nconnections with more highly",
+      "start": 1567.78,
+      "duration": 3.71
+    },
+    {
+      "text": "engaged users and, ultimately,\nconvert that engagement",
+      "start": 1571.49,
+      "duration": 4.05
+    },
+    {
+      "text": "into revenue growth.",
+      "start": 1575.54,
+      "duration": 1.92
+    },
+    {
+      "text": "And for many app businesses,\nrecurring revenue",
+      "start": 1577.46,
+      "duration": 3.32
+    },
+    {
+      "text": "through subscriptions\nis a critical part",
+      "start": 1580.78,
+      "duration": 2.7
+    },
+    {
+      "text": "of the monetization strategy.",
+      "start": 1583.48,
+      "duration": 2.67
+    },
+    {
+      "text": "With over a quarter of\na billion subscriptions,",
+      "start": 1586.15,
+      "duration": 4.18
+    },
+    {
+      "text": "Google Play is one of the\nworld's largest subscriptions",
+      "start": 1590.33,
+      "duration": 3.2
+    },
+    {
+      "text": "platforms.",
+      "start": 1593.53,
+      "duration": 1.53
+    },
+    {
+      "text": "We know that by\noffering users more",
+      "start": 1595.06,
+      "duration": 3.24
+    },
+    {
+      "text": "convenience and\nflexibility, we can",
+      "start": 1598.3,
+      "duration": 3.15
+    },
+    {
+      "text": "drive business growth and ROI.",
+      "start": 1601.45,
+      "duration": 2.82
+    },
+    {
+      "text": "So now, we're\ndoubling down on this.",
+      "start": 1604.27,
+      "duration": 2.62
+    },
+    {
+      "text": "We're making subscriptions\neven easier to use",
+      "start": 1606.89,
+      "duration": 3.05
+    },
+    {
+      "text": "and even more flexible\nto your customers' needs.",
+      "start": 1609.94,
+      "duration": 4.26
+    },
+    {
+      "text": "Let's start with streamlining\nyour purchase flow.",
+      "start": 1614.2,
+      "duration": 2.67
+    },
+    {
+      "text": "Google Play now offers\nmulti-product checkout",
+      "start": 1616.87,
+      "duration": 3.45
+    },
+    {
+      "text": "for subscriptions.",
+      "start": 1620.32,
+      "duration": 1.48
+    },
+    {
+      "text": "This means that you can sell\nsubscription add-ons right",
+      "start": 1621.8,
+      "duration": 3.29
+    },
+    {
+      "text": "alongside your\nbase subscriptions,",
+      "start": 1625.09,
+      "duration": 2.53
+    },
+    {
+      "text": "all with a single\naligned payment schedule.",
+      "start": 1627.62,
+      "duration": 3.8
+    },
+    {
+      "text": "For users, it's one simple\npurchase, one price,",
+      "start": 1631.42,
+      "duration": 4.6
+    },
+    {
+      "text": "one transaction, and\neverything stays in sync.",
+      "start": 1636.02,
+      "duration": 4.04
+    },
+    {
+      "text": "And for you, it\noffers more control.",
+      "start": 1640.06,
+      "duration": 3.01
+    },
+    {
+      "text": "You can decide how subscribers\nupgrade, downgrade, or manage",
+      "start": 1643.07,
+      "duration": 5.39
+    },
+    {
+      "text": "their add-ons, making\nbilling simpler for everyone.",
+      "start": 1648.46,
+      "duration": 5.58
+    },
+    {
+      "text": "Next, let's talk\nabout how to keep",
+      "start": 1654.04,
+      "duration": 2.25
+    },
+    {
+      "text": "those hard-earned subscribers\nand prevent voluntary churn.",
+      "start": 1656.29,
+      "duration": 5.46
+    },
+    {
+      "text": "From a recent study,\nwe learned that 70%",
+      "start": 1661.75,
+      "duration": 4.56
+    },
+    {
+      "text": "of subscribers that cancel\ncancel due to a perceived",
+      "start": 1666.31,
+      "duration": 4.14
+    },
+    {
+      "text": "lack of value.",
+      "start": 1670.45,
+      "duration": 1.89
+    },
+    {
+      "text": "Many respondents\nsaid it was either",
+      "start": 1672.34,
+      "duration": 1.95
+    },
+    {
+      "text": "due to the cost or\nsimply feeling that they",
+      "start": 1674.29,
+      "duration": 3.27
+    },
+    {
+      "text": "don't use the service enough.",
+      "start": 1677.56,
+      "duration": 2.08
+    },
+    {
+      "text": "They don't use all of the\nbenefits that you offer.",
+      "start": 1679.64,
+      "duration": 3.83
+    },
+    {
+      "text": "To help make sure that your\ncustomers truly understand",
+      "start": 1683.47,
+      "duration": 3.57
+    },
+    {
+      "text": "and take advantage of all of\ntheir subscription benefits,",
+      "start": 1687.04,
+      "duration": 3.7
+    },
+    {
+      "text": "we're now showcasing them in\neven more places across Play.",
+      "start": 1690.74,
+      "duration": 3.66
+    },
+    {
+      "text": "This includes within\nthe Subscription Center,",
+      "start": 1694.4,
+      "duration": 3.95
+    },
+    {
+      "text": "in reminder emails, during the\npurchase-cancellation flows,",
+      "start": 1698.35,
+      "duration": 5.07
+    },
+    {
+      "text": "and other surfaces across Play.",
+      "start": 1703.42,
+      "duration": 3.0
+    },
+    {
+      "text": "Already, this\nincreased visibility",
+      "start": 1706.42,
+      "duration": 2.55
+    },
+    {
+      "text": "has reduced voluntary\nchurn by 2%.",
+      "start": 1708.97,
+      "duration": 4.98
+    },
+    {
+      "text": "All you have to do is enter your\nsubscription benefit details",
+      "start": 1713.95,
+      "duration": 4.95
+    },
+    {
+      "text": "in the Play Console\nto take advantage",
+      "start": 1718.9,
+      "duration": 2.58
+    },
+    {
+      "text": "of this powerful capability.",
+      "start": 1721.48,
+      "duration": 2.73
+    },
+    {
+      "text": "And for an even\ndeeper understanding,",
+      "start": 1724.21,
+      "duration": 2.65
+    },
+    {
+      "text": "remember that all of you can\nfind your own cancellation",
+      "start": 1726.86,
+      "duration": 3.41
+    },
+    {
+      "text": "responses and more insights\nright in the Play Console.",
+      "start": 1730.27,
+      "duration": 4.32
+    },
+    {
+      "text": "This will help you have a\nbetter understanding of why",
+      "start": 1734.59,
+      "duration": 2.55
+    },
+    {
+      "text": "your users might be leaving.",
+      "start": 1737.14,
+      "duration": 2.91
+    },
+    {
+      "text": "Now, let's talk a little\nbit about reducing",
+      "start": 1740.05,
+      "duration": 3.06
+    },
+    {
+      "text": "involuntary churn.",
+      "start": 1743.11,
+      "duration": 2.16
+    },
+    {
+      "text": "Imagine this, Play tries\nto bill your subscriber,",
+      "start": 1745.27,
+      "duration": 4.14
+    },
+    {
+      "text": "and their payment is declined.",
+      "start": 1749.41,
+      "duration": 3.21
+    },
+    {
+      "text": "What's the best next step,\nimmediate cancellation or giving",
+      "start": 1752.62,
+      "duration": 5.82
+    },
+    {
+      "text": "them a chance to fix it?",
+      "start": 1758.44,
+      "duration": 2.16
+    },
+    {
+      "text": "We've learned that by offering\nyour subscribers a grace",
+      "start": 1760.6,
+      "duration": 3.54
+    },
+    {
+      "text": "period where service continues\nor placing their account",
+      "start": 1764.14,
+      "duration": 4.08
+    },
+    {
+      "text": "on a temporary\nhold where service",
+      "start": 1768.22,
+      "duration": 2.4
+    },
+    {
+      "text": "is paused can significantly\nreduce lost subscriptions.",
+      "start": 1770.62,
+      "duration": 4.98
+    },
+    {
+      "text": "You now have more\nflexibility over this.",
+      "start": 1775.6,
+      "duration": 2.59
+    },
+    {
+      "text": "You can choose any grace\nperiod of up to 30 days",
+      "start": 1778.19,
+      "duration": 4.38
+    },
+    {
+      "text": "and account hold periods\nof up to 60 days,",
+      "start": 1782.57,
+      "duration": 2.91
+    },
+    {
+      "text": "with a total combined duration\nof between 30 and 60 days.",
+      "start": 1785.48,
+      "duration": 5.96
+    },
+    {
+      "text": "Developers who increase\nthe decline recovery period",
+      "start": 1791.44,
+      "duration": 3.57
+    },
+    {
+      "text": "from 30 to 60 days saw\nan average 10% reduction",
+      "start": 1795.01,
+      "duration": 6.24
+    },
+    {
+      "text": "in involuntary\nchurn for renewals.",
+      "start": 1801.25,
+      "duration": 3.54
+    },
+    {
+      "text": "By offering this\nflexibility, you",
+      "start": 1804.79,
+      "duration": 2.37
+    },
+    {
+      "text": "can dramatically\nreduce subscribers",
+      "start": 1807.16,
+      "duration": 2.64
+    },
+    {
+      "text": "lost due to billing issues.",
+      "start": 1809.8,
+      "duration": 3.39
+    },
+    {
+      "text": "While grace periods help us\nrecover from payment issues,",
+      "start": 1813.19,
+      "duration": 3.34
+    },
+    {
+      "text": "we're also focused on preventing\nthose payment failures",
+      "start": 1816.53,
+      "duration": 2.63
+    },
+    {
+      "text": "from happening in\nthe first place.",
+      "start": 1819.16,
+      "duration": 2.34
+    },
+    {
+      "text": "Payment issues are\nanother major contributor",
+      "start": 1821.5,
+      "duration": 2.88
+    },
+    {
+      "text": "to involuntary churn, so we're\nhelping you reduce this further",
+      "start": 1824.38,
+      "duration": 4.17
+    },
+    {
+      "text": "by enabling users to manage\nmultiple backup forms of payment",
+      "start": 1828.55,
+      "duration": 4.17
+    },
+    {
+      "text": "at the Google Account level.",
+      "start": 1832.72,
+      "duration": 2.65
+    },
+    {
+      "text": "This means that\nthey no longer have",
+      "start": 1835.37,
+      "duration": 1.88
+    },
+    {
+      "text": "to set up a backup\nform of payment",
+      "start": 1837.25,
+      "duration": 1.65
+    },
+    {
+      "text": "for each of their\nindividual subscriptions.",
+      "start": 1838.9,
+      "duration": 2.94
+    },
+    {
+      "text": "There is so much more to\nshare about subscriptions",
+      "start": 1841.84,
+      "duration": 3.75
+    },
+    {
+      "text": "that we have an entire\nsession dedicated to it.",
+      "start": 1845.59,
+      "duration": 3.46
+    },
+    {
+      "text": "Check it out in the I/O\nDigital Content Drop.",
+      "start": 1849.05,
+      "duration": 3.35
+    },
+    {
+      "text": "Next, I'd like to invite my\nfriend Jiahui to the stage",
+      "start": 1852.4,
+      "duration": 3.36
+    },
+    {
+      "text": "to share the latest in games.",
+      "start": 1855.76,
+      "duration": 1.75
+    },
+    {
+      "text": "Thank you.",
+      "start": 1857.51,
+      "duration": 1.268
+    },
+    {
+      "text": "[MUSIC PLAYING, APPLAUSE]",
+      "start": 1858.778,
+      "duration": 2.292
+    },
+    {
+      "text": "JIAHUI LIU: Thanks, Mekka.",
+      "start": 1861.07,
+      "duration": 1.77
+    },
+    {
+      "text": "Hi, everyone.",
+      "start": 1862.84,
+      "duration": 1.3
+    },
+    {
+      "text": "I'm Jiahui, Engineering Lead\nfor Games at Google Play.",
+      "start": 1864.14,
+      "duration": 3.87
+    },
+    {
+      "text": "We are a team who loves games.",
+      "start": 1868.01,
+      "duration": 2.37
+    },
+    {
+      "text": "We are we're constantly focused\non helping players discover",
+      "start": 1870.38,
+      "duration": 3.22
+    },
+    {
+      "text": "great games and\nhelping developers",
+      "start": 1873.6,
+      "duration": 2.94
+    },
+    {
+      "text": "to be more successful.",
+      "start": 1876.54,
+      "duration": 1.83
+    },
+    {
+      "text": "Today, I'm excited to share\nhow we're expanding Google Play",
+      "start": 1878.37,
+      "duration": 4.26
+    },
+    {
+      "text": "Games to reach more gamers on PC\nand upgrade Play Game services",
+      "start": 1882.63,
+      "duration": 5.46
+    },
+    {
+      "text": "to drive deeper engagement.",
+      "start": 1888.09,
+      "duration": 1.93
+    },
+    {
+      "text": "All right.",
+      "start": 1893.46,
+      "duration": 0.78
+    },
+    {
+      "text": "Google Play Games\nlets players enjoy",
+      "start": 1894.24,
+      "duration": 2.49
+    },
+    {
+      "text": "Android mobile games on PC.",
+      "start": 1896.73,
+      "duration": 2.82
+    },
+    {
+      "text": "This opens up a\nwhole new audience",
+      "start": 1899.55,
+      "duration": 2.46
+    },
+    {
+      "text": "for mobile game developers.",
+      "start": 1902.01,
+      "duration": 1.87
+    },
+    {
+      "text": "The impact has been significant.",
+      "start": 1903.88,
+      "duration": 3.17
+    },
+    {
+      "text": "We saw that users engaged\nspend twice as much time on PC",
+      "start": 1907.05,
+      "duration": 5.31
+    },
+    {
+      "text": "each week compared to mobile.",
+      "start": 1912.36,
+      "duration": 2.17
+    },
+    {
+      "text": "And 57% of Google\nPlay Games on PC",
+      "start": 1914.53,
+      "duration": 4.85
+    },
+    {
+      "text": "spend are coming from\nentirely new buyers.",
+      "start": 1919.38,
+      "duration": 4.74
+    },
+    {
+      "text": "We've seen fantastic results\nwith \"Whiteout Survival.\"",
+      "start": 1924.12,
+      "duration": 3.75
+    },
+    {
+      "text": "Players migrating from mobile\nto PC via Google Play Games",
+      "start": 1927.87,
+      "duration": 4.35
+    },
+    {
+      "text": "engaged a lot more.",
+      "start": 1932.22,
+      "duration": 2.16
+    },
+    {
+      "text": "They achieved twice longer\nsessions and three times higher",
+      "start": 1934.38,
+      "duration": 4.23
+    },
+    {
+      "text": "revenue per active user\ncompared to mobile-only players.",
+      "start": 1938.61,
+      "duration": 5.88
+    },
+    {
+      "text": "This year, Google\nPlay Games on PC",
+      "start": 1944.49,
+      "duration": 2.4
+    },
+    {
+      "text": "will move into general\navailability, while also",
+      "start": 1946.89,
+      "duration": 3.39
+    },
+    {
+      "text": "expanding support to\nbring in more native PC",
+      "start": 1950.28,
+      "duration": 2.73
+    },
+    {
+      "text": "games to the platform.",
+      "start": 1953.01,
+      "duration": 3.0
+    },
+    {
+      "text": "To help new mobile games\nget maximum discoverability,",
+      "start": 1956.01,
+      "duration": 3.79
+    },
+    {
+      "text": "we will make all mobile\ngames available on PC",
+      "start": 1959.8,
+      "duration": 2.6
+    },
+    {
+      "text": "by default. You can opt out\nany time in Play Console.",
+      "start": 1962.4,
+      "duration": 4.38
+    },
+    {
+      "text": "We are also focused on enhancing\nthe game experiences on PC",
+      "start": 1966.78,
+      "duration": 3.9
+    },
+    {
+      "text": "with more device compatibility\nand custom controls.",
+      "start": 1970.68,
+      "duration": 4.77
+    },
+    {
+      "text": "What's exciting is the ability\nto add custom keyboard controls",
+      "start": 1975.45,
+      "duration": 4.38
+    },
+    {
+      "text": "to virtually any mobile\ngame on the platform.",
+      "start": 1979.83,
+      "duration": 3.64
+    },
+    {
+      "text": "This opens up new\nways for players",
+      "start": 1983.47,
+      "duration": 2.27
+    },
+    {
+      "text": "to enjoy your game on PC.",
+      "start": 1985.74,
+      "duration": 3.63
+    },
+    {
+      "text": "Finally, we're making the\nentire Google Play ecosystem",
+      "start": 1989.37,
+      "duration": 3.54
+    },
+    {
+      "text": "more rewarding for PC players.",
+      "start": 1992.91,
+      "duration": 3.57
+    },
+    {
+      "text": "The Play Points were\nmore seamless on PC,",
+      "start": 1996.48,
+      "duration": 3.24
+    },
+    {
+      "text": "which means deeper\nengagement and more",
+      "start": 1999.72,
+      "duration": 3.51
+    },
+    {
+      "text": "monetization for your titles.",
+      "start": 2003.23,
+      "duration": 3.72
+    },
+    {
+      "text": "For PC-first games, we've\nadded more helpful tools",
+      "start": 2006.95,
+      "duration": 3.75
+    },
+    {
+      "text": "to our native PC program,\nincluding a dedicated SDK",
+      "start": 2010.7,
+      "duration": 3.93
+    },
+    {
+      "text": "for native PC game development.",
+      "start": 2014.63,
+      "duration": 2.73
+    },
+    {
+      "text": "We streamlined the distribution\nprocesses on PC on Play Console,",
+      "start": 2017.36,
+      "duration": 5.02
+    },
+    {
+      "text": "making it easier for you\nto manage both your mobile",
+      "start": 2022.38,
+      "duration": 4.46
+    },
+    {
+      "text": "and PC game builds in one place.",
+      "start": 2026.84,
+      "duration": 3.57
+    },
+    {
+      "text": "To further boost\nyour growth, we also",
+      "start": 2030.41,
+      "duration": 2.61
+    },
+    {
+      "text": "introduced a new\nearn back program.",
+      "start": 2033.02,
+      "duration": 2.5
+    },
+    {
+      "text": "You can bring your PC\ngames to the platform",
+      "start": 2035.52,
+      "duration": 3.29
+    },
+    {
+      "text": "to unlock up to 15%\nadditional earn back.",
+      "start": 2038.81,
+      "duration": 5.19
+    },
+    {
+      "text": "To learn more about Google Play\nGames on PC, check out the news",
+      "start": 2044.0,
+      "duration": 3.87
+    },
+    {
+      "text": "we shared at GDC.",
+      "start": 2047.87,
+      "duration": 3.21
+    },
+    {
+      "text": "Our platform is\nexpanding to power gaming",
+      "start": 2051.08,
+      "duration": 2.88
+    },
+    {
+      "text": "wherever users want to play.",
+      "start": 2053.96,
+      "duration": 2.34
+    },
+    {
+      "text": "To support this, our\ncore technologies",
+      "start": 2056.3,
+      "duration": 2.7
+    },
+    {
+      "text": "are evolving to enhance\nyour gamers' experiences.",
+      "start": 2059.0,
+      "duration": 3.51
+    },
+    {
+      "text": "This helps you reach, engage,\nand retain your gamers",
+      "start": 2062.51,
+      "duration": 4.32
+    },
+    {
+      "text": "across the platform.",
+      "start": 2066.83,
+      "duration": 2.22
+    },
+    {
+      "text": "At the heart of this is\nPGS, Play Games Services.",
+      "start": 2069.05,
+      "duration": 5.76
+    },
+    {
+      "text": "It's how games communicate\ndirectly with Play",
+      "start": 2074.81,
+      "duration": 2.79
+    },
+    {
+      "text": "to enhance your\ngamers' experiences",
+      "start": 2077.6,
+      "duration": 2.309
+    },
+    {
+      "text": "and deliver relevant content\nfor each individual user.",
+      "start": 2079.909,
+      "duration": 4.031
+    },
+    {
+      "text": "It offers the best\ngaming experiences",
+      "start": 2083.94,
+      "duration": 2.48
+    },
+    {
+      "text": "with seamless continuity\nand dynamic content.",
+      "start": 2086.42,
+      "duration": 5.279
+    },
+    {
+      "text": "We launched the Recall API\nto make PGS work better",
+      "start": 2091.699,
+      "duration": 4.111
+    },
+    {
+      "text": "with your game, with your\nexisting identity systems.",
+      "start": 2095.81,
+      "duration": 4.11
+    },
+    {
+      "text": "Your game can instantly\nrecognize gamers on any Android",
+      "start": 2099.92,
+      "duration": 3.81
+    },
+    {
+      "text": "device with PGS identity sync.",
+      "start": 2103.73,
+      "duration": 2.86
+    },
+    {
+      "text": "They can pick up\nwhere they left off",
+      "start": 2106.59,
+      "duration": 2.37
+    },
+    {
+      "text": "with automatic sign-in that\nconnects to your identity",
+      "start": 2108.96,
+      "duration": 2.88
+    },
+    {
+      "text": "systems.",
+      "start": 2111.84,
+      "duration": 2.28
+    },
+    {
+      "text": "Recently, we started showing PGS\nAchievements on Game's Details",
+      "start": 2114.12,
+      "duration": 4.23
+    },
+    {
+      "text": "page.",
+      "start": 2118.35,
+      "duration": 0.79
+    },
+    {
+      "text": "This celebrates a player's\nprogress throughout your game",
+      "start": 2119.14,
+      "duration": 3.44
+    },
+    {
+      "text": "and show them what\nthey can achieve next.",
+      "start": 2122.58,
+      "duration": 4.56
+    },
+    {
+      "text": "Players love\nachievements, so we've",
+      "start": 2127.14,
+      "duration": 3.18
+    },
+    {
+      "text": "added a new search\nfilter to help players",
+      "start": 2130.32,
+      "duration": 2.46
+    },
+    {
+      "text": "find the games with them.",
+      "start": 2132.78,
+      "duration": 3.24
+    },
+    {
+      "text": "Play will generate\nachievement-based quests",
+      "start": 2136.02,
+      "duration": 3.48
+    },
+    {
+      "text": "to reward the gamers with\nPlay Points for completing",
+      "start": 2139.5,
+      "duration": 3.6
+    },
+    {
+      "text": "the achievements.",
+      "start": 2143.1,
+      "duration": 1.41
+    },
+    {
+      "text": "Quests have been very\npopular with gamers",
+      "start": 2144.51,
+      "duration": 2.88
+    },
+    {
+      "text": "and has driven real\nresults for developers.",
+      "start": 2147.39,
+      "duration": 3.63
+    },
+    {
+      "text": "For example, \"Hay Day\" from\nSupercell ran a great new user",
+      "start": 2151.02,
+      "duration": 4.74
+    },
+    {
+      "text": "quest with us.",
+      "start": 2155.76,
+      "duration": 1.9
+    },
+    {
+      "text": "And they saw up to 177%\nmore installs, and 18% more",
+      "start": 2157.66,
+      "duration": 7.26
+    },
+    {
+      "text": "transactions, and up to 10%\nhigher total user spend.",
+      "start": 2164.92,
+      "duration": 5.76
+    },
+    {
+      "text": "To be eligible for\nQuest, your game",
+      "start": 2170.68,
+      "duration": 2.37
+    },
+    {
+      "text": "must participate in\nPlay Points, integrate",
+      "start": 2173.05,
+      "duration": 3.33
+    },
+    {
+      "text": "with Play Game\nServices Version 2,",
+      "start": 2176.38,
+      "duration": 2.37
+    },
+    {
+      "text": "and have Achievements\nconfigured in Play Console.",
+      "start": 2178.75,
+      "duration": 4.08
+    },
+    {
+      "text": "Creating achievements to\nkeep your gamers engaged",
+      "start": 2182.83,
+      "duration": 3.36
+    },
+    {
+      "text": "is now even easier.",
+      "start": 2186.19,
+      "duration": 2.55
+    },
+    {
+      "text": "Today, we're launching new\ncapabilities in Play Console.",
+      "start": 2188.74,
+      "duration": 3.51
+    },
+    {
+      "text": "You can now create achievements\nwith [? CVS ?] files",
+      "start": 2192.25,
+      "duration": 2.94
+    },
+    {
+      "text": "or import them directly.",
+      "start": 2195.19,
+      "duration": 2.46
+    },
+    {
+      "text": "This lets you easily\nadd new achievements",
+      "start": 2197.65,
+      "duration": 2.82
+    },
+    {
+      "text": "and quickly integrate\nthem into your game.",
+      "start": 2200.47,
+      "duration": 4.56
+    },
+    {
+      "text": "To make the signing experiences\nmore seamless for all players,",
+      "start": 2205.03,
+      "duration": 4.29
+    },
+    {
+      "text": "we are now upgrading PGS\nversion 1 to PGS version 2.",
+      "start": 2209.32,
+      "duration": 4.89
+    },
+    {
+      "text": "Version 2 offers faster\nintegration and more powerful",
+      "start": 2214.21,
+      "duration": 4.32
+    },
+    {
+      "text": "features.",
+      "start": 2218.53,
+      "duration": 1.86
+    },
+    {
+      "text": "To learn more about\nintegrating PGS version 2",
+      "start": 2220.39,
+      "duration": 3.45
+    },
+    {
+      "text": "and creating compelling\nachievements,",
+      "start": 2223.84,
+      "duration": 3.22
+    },
+    {
+      "text": "check out the video session\nin our Digital Content Drop.",
+      "start": 2227.06,
+      "duration": 4.97
+    },
+    {
+      "text": "And that's a wrap for today's\nlatest from Google Play.",
+      "start": 2232.03,
+      "duration": 5.37
+    },
+    {
+      "text": "We are committed to\nhelping people discover",
+      "start": 2237.4,
+      "duration": 2.94
+    },
+    {
+      "text": "great experiences they\nlove and empowering you",
+      "start": 2240.34,
+      "duration": 3.69
+    },
+    {
+      "text": "to build successful businesses.",
+      "start": 2244.03,
+      "duration": 2.88
+    },
+    {
+      "text": "Your partnership is\nessential to this.",
+      "start": 2246.91,
+      "duration": 2.34
+    },
+    {
+      "text": "And we sincerely thank you\nfor your collaboration.",
+      "start": 2249.25,
+      "duration": 3.42
+    },
+    {
+      "text": "We hope today's session has\ngiven you a deeper understanding",
+      "start": 2252.67,
+      "duration": 3.51
+    },
+    {
+      "text": "of how our latest tools,\ndiscovery enhancement,",
+      "start": 2256.18,
+      "duration": 3.18
+    },
+    {
+      "text": "and cross-device\ncapabilities are designed",
+      "start": 2259.36,
+      "duration": 3.0
+    },
+    {
+      "text": "to maximize your growth.",
+      "start": 2262.36,
+      "duration": 2.34
+    },
+    {
+      "text": "Thank you for joining us today.",
+      "start": 2264.7,
+      "duration": 1.57
+    },
+    {
+      "text": "We have hope you\nhave a great I/O.",
+      "start": 2266.27,
+      "duration": 2.28
+    },
+    {
+      "text": "[MUSIC PLAYING]",
+      "start": 2268.55,
+      "duration": 3.35
+    }
+  ]
+}
