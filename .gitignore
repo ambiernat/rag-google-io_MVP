@@ -229,5 +229,5 @@ evaluation/__pycache__/
 *.mmap
 *.dat
 *.pkl
-*.bin.claude/
+*.bin
 .claude/
