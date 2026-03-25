@@ -229,4 +229,4 @@ evaluation/__pycache__/
 *.mmap
 *.dat
 *.pkl
-*.bin
+*.bin.claude/
