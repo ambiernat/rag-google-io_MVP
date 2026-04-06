@@ -6,7 +6,7 @@ This project implements a **production-grade Retrieval-Augmented Generation (RAG
 
 It combines:
 
-- Research-grade evaluation pipelines  
+- Evaluation pipelines  
 - Config-driven retrieval experimentation  
 - A production-ready FastAPI API  
 - Containerized cloud deployment using **AWS ECS + Fargate**
