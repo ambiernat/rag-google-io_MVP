@@ -141,9 +141,9 @@ data/eval/results/
 
 ## 📊 Evaluation Results
 
-**⚠️ Important note**      
-[!NOTE]                      
-The evaluation was done against the synthetically generated ground truth which was then paraphrased using LLM, it's not real world data. As a consequence, the metrics for ALL of the retrieval strategied (hybrid, dense, sparse) are inflated!
+>**⚠️ Important note**      
+>[!NOTE]                      
+>The evaluation was done against the synthetically generated ground truth which was then paraphrased using LLM, it's not real world data. As a consequence, the metrics for ALL of the retrieval strategied (hybrid, dense, sparse) are inflated!
 
 Evaluation was conducted in three stages, each progressively improving ground truth quality.
 
