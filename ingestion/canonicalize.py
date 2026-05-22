@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 
 CHUNK_DIR = BASE_DIR / "data" / "chunked"
 CANONICAL_DIR = BASE_DIR / "data" / "canonical"
-CONFIG_PATH = BASE_DIR / "configs" / "ingestion.yaml"
+CONFIG_PATH = BASE_DIR / "ingestion" / "ingestion.yaml"
 MANIFEST_PATH = CANONICAL_DIR / "_manifest.json"
 
 CANONICAL_DIR.mkdir(parents=True, exist_ok=True)
