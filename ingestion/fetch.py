@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RAW_DIR = BASE_DIR / "data" / "raw"
-CONFIG_PATH = BASE_DIR / "configs" / "ingestion.yaml"
+CONFIG_PATH = BASE_DIR / "ingestion" / "ingestion.yaml"
 MANIFEST_PATH = RAW_DIR / "_manifest.json"
 
 RAW_DIR.mkdir(parents=True, exist_ok=True)
