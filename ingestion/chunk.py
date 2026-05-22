@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 
 RAW_DIR = BASE_DIR / "data" / "raw"
 CHUNK_DIR = BASE_DIR / "data" / "chunked"
-CONFIG_PATH = BASE_DIR / "configs" / "ingestion.yaml"
+CONFIG_PATH = BASE_DIR / "ingestion" / "ingestion.yaml"
 MANIFEST_PATH = CHUNK_DIR / "_manifest.json"
 
 CHUNK_DIR.mkdir(parents=True, exist_ok=True)
